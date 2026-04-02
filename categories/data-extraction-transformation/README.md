@@ -118,6 +118,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | — | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
+| [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | — | — |

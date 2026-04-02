@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1605 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 11:41 UTC
+> **1608 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 13:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (198 skills)
+### 🛠️ Developer Tools (199 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -203,6 +203,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](skills/tabby-self-hosted-ai-coding-assistant/) | Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub… | Security Reviewed | — | — |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
+| [Textual Python TUI Application Framework by Textualize](skills/textual-python-tui-application-framework/) | Textual is a lean application framework for Python that lets you build sophisticated terminal user interfaces with a… | Published | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
@@ -364,7 +365,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (117 skills)
+### 🔄 Data Extraction & Transformation (118 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -456,6 +457,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object… | Security Reviewed | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | — | — |
+| [markdownify Python HTML to Markdown Conversion Library](skills/markdownify-python-html-to-markdown-converter/) | markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering,… | Published | — | — |
 | [Metabase Dashboard Snapshot & Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key… | Security Reviewed | — | — |
 | [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with… | Security Reviewed | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](skills/pandas-dataframe-pipeline-orchestrator/) | Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing… | Security Reviewed | — | — |
@@ -1198,7 +1200,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (70 skills)
+### 🎨 Image & Creative Automation (71 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1222,6 +1224,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
 | [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
 | [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
+| [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Published | — | — |
 | [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
 | [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
 | [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |

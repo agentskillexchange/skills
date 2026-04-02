@@ -50,6 +50,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
 | [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | — | — |
+| [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | — | — |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | — | — |
 | [Cloudinary DAM Pipeline](../../skills/cloudinary-dam-pipeline-skill/) | — | — |
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |

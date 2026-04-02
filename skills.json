@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1605,
+  "total": 1608,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "markdownify-python-html-to-markdown-converter",
+      "name": "markdownify Python HTML to Markdown Conversion Library",
+      "description": "markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "cairosvg-svg-to-png-pdf-converter",
+      "name": "CairoSVG SVG to PNG PDF and PostScript Converter",
+      "description": "CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "textual-python-tui-application-framework",
+      "name": "Textual Python TUI Application Framework by Textualize",
+      "description": "Textual is a lean application framework for Python that lets you build sophisticated terminal user interfaces with a simple API. Apps built with Textual…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "hanko-passkey-authentication-platform",
       "name": "Hanko Open Source Passkey Authentication and User Management",

@@ -229,6 +229,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | — | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
+| [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
