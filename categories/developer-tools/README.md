@@ -242,6 +242,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Webhook Debugger](../../skills/webhook-debugger/) | — | — |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | — | — |
+| [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | — | — |
 
 ---
 

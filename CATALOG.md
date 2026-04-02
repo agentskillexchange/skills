@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1617 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 21:40 UTC
+> **1620 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 23:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (202 skills)
+### 🛠️ Developer Tools (203 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -216,6 +216,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 | [Wish SSH Application Framework by Charmbracelet](skills/wish-ssh-application-framework/) | Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It… | Security Reviewed | — | — |
+| [WXT Next-Generation Web Extension Framework for Browser Extensions](skills/wxt-next-gen-web-extension-framework/) | WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both… | Published | — | — |
 
 
 ### 🔧 CI/CD Integrations (142 skills)
@@ -615,7 +616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (109 skills)
+### 🔒 Security & Verification (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -727,6 +728,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package… | Security Reviewed | — | — |
 | [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | Automates Aqua Security Trivy scans against Docker images and OCI artifacts to detect CVEs, misconfigurations, and… | Security Reviewed | — | — |
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Scans container images, IaC templates, and SBOM artifacts using Aqua Trivy CLI. Generates CycloneDX and SPDX reports… | Security Reviewed | — | — |
+| [Unkey Open Source API Key Management and Rate Limiting Platform](skills/unkey-api-key-management-rate-limiting/) | Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a… | Published | — | — |
 | [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic… | Security Reviewed | — | — |
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
@@ -1663,7 +1665,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (61 skills)
+### ✍️ Content Writing & SEO (62 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1730,6 +1732,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Security Reviewed | — | — |
+| [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Published | — | — |
 
 
 ---

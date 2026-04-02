@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1617,
+  "total": 1620,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "wxt-next-gen-web-extension-framework",
+      "name": "WXT Next-Generation Web Extension Framework for Browser Extensions",
+      "description": "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "unkey-api-key-management-rate-limiting",
+      "name": "Unkey Open Source API Key Management and Rate Limiting Platform",
+      "description": "Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a fast, globally distributed key verification system…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "writingtools-system-wide-ai-grammar-assistant",
+      "name": "WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS",
+      "description": "WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "lobehub-multi-agent-chat-platform-mcp-plugins",
       "name": "LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem",

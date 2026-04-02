@@ -129,6 +129,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | — | — |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | — | — |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
+| [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
