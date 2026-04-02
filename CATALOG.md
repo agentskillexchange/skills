@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1614 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 19:41 UTC
+> **1617 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 21:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (200 skills)
+### 🛠️ Developer Tools (202 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -151,6 +151,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](skills/convex-reactive-database-backend/) | Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong… | Security Reviewed | — | — |
+| [Coolify Self-Hosted PaaS for Application and Database Deployment](skills/coolify-self-hosted-paas-application-deployment/) | Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Heroku, Vercel, and Netlify. It… | Published | — | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | — | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](skills/dioxus-rust-fullstack-cross-platform-framework/) | Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and… | Published | — | — |
@@ -178,6 +179,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LlamaIndex Agent](skills/llamaindex-agent/) | LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | — | — |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
+| [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge… | Published | — | — |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable… | Security Reviewed | — | — |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](skills/mitosis-cross-framework-component-compiler/) | Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more.… | Published | — | — |
 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -1037,7 +1039,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (81 skills)
+### 📅 Calendar, Email & Productivity (82 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1076,6 +1078,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 518 | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Docmost Open Source Collaborative Wiki and Documentation Platform](skills/docmost-open-source-collaborative-wiki-documentation/) | Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to… | Published | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |

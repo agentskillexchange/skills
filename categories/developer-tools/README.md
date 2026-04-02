@@ -177,6 +177,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | — | — |
+| [Coolify Self-Hosted PaaS for Application and Database Deployment](../../skills/coolify-self-hosted-paas-application-deployment/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | — | — |
@@ -204,6 +205,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | — | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
+| [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | — | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | — | — |

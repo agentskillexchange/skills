@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1614,
+  "total": 1617,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "lobehub-multi-agent-chat-platform-mcp-plugins",
+      "name": "LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem",
+      "description": "LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "docmost-open-source-collaborative-wiki-documentation",
+      "name": "Docmost Open Source Collaborative Wiki and Documentation Platform",
+      "description": "Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coolify-self-hosted-paas-application-deployment",
+      "name": "Coolify Self-Hosted PaaS for Application and Database Deployment",
+      "description": "Coolify is an open-source, self-hostable Platform-as-a-Service alternative to Heroku, Vercel, and Netlify. It enables developers to deploy static sites, full-stack applications, databases, and 280+…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "pm2-nodejs-production-process-manager",
       "name": "PM2 Node.js Production Process Manager with Load Balancing",
