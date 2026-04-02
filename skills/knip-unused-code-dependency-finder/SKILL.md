@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/knip-unused-code-dependency-finder/"
+tool_ecosystem:
+  github_repo: "webpro-nl/knip"
+  github_stars: 10806
 ---
 # Knip Unused Code and Dependency Finder
 

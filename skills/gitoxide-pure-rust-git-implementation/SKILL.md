@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/GitoxideLabs/gitoxide"
+tool_ecosystem:
+  github_repo: "GitoxideLabs/gitoxide"
+  github_stars: 11102
 ---
 # Gitoxide Pure Rust Git Implementation and Library
 

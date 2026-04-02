@@ -6,6 +6,9 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mockoon/mockoon"
 ase_url: "https://agentskillexchange.com/skills/mockoon-mock-api-server-cli/"
+tool_ecosystem:
+  github_repo: "mockoon/mockoon"
+  github_stars: 8185
 ---
 
 # Mockoon Local Mock API Server and CLI for API Development

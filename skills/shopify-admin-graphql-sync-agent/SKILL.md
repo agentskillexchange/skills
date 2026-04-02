@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/shopify-admin-graphql-sync-agent/"
+tool_ecosystem:
+  github_repo: "Shopify/shopify-api-js"
+  github_stars: 959
 ---
 # Shopify Admin GraphQL Sync Agent
 

@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/duckdb-sql-analytics-agent/"
+tool_ecosystem:
+  github_repo: "duckdb/duckdb"
+  github_stars: 37119
 ---
 # DuckDB SQL Analytics Agent
 

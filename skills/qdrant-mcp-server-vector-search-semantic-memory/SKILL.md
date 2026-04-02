@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/qdrant/mcp-server-qdrant"
+tool_ecosystem:
+  github_repo: "qdrant/mcp-server-qdrant"
+  github_stars: 1314
 ---
 # Qdrant MCP Server for Vector Search and Semantic Memory
 

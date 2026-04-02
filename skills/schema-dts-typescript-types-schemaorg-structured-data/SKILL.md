@@ -5,6 +5,11 @@ category: "Content Writing & SEO"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/google/schema-dts"
+tool_ecosystem:
+  github_repo: "google/schema-dts"
+  github_stars: 1164
+  npm_package: "schema-dts"
+  npm_weekly_downloads: 1555901
 ---
 # schema-dts TypeScript Types for Schema.org Structured Data
 

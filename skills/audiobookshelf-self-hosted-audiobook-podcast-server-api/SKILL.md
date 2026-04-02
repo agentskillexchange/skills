@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/advplyr/audiobookshelf"
+tool_ecosystem:
+  github_repo: "advplyr/audiobookshelf"
+  github_stars: 12295
 ---
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 

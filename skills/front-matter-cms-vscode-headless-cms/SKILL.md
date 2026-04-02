@@ -5,6 +5,9 @@ category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/estruyf/vscode-front-matter"
+tool_ecosystem:
+  github_repo: "estruyf/vscode-front-matter"
+  github_stars: 2482
 ---
 # Front Matter CMS Visual Studio Code Headless CMS
 

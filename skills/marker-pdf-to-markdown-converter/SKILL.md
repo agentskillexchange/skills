@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/datalab-to/marker"
+tool_ecosystem:
+  github_repo: "datalab-to/marker"
+  github_stars: 33237
 ---
 # Marker PDF-to-Markdown Converter
 

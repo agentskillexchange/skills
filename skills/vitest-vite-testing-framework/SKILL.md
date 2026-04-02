@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/vitest-dev/vitest"
+tool_ecosystem:
+  github_repo: "vitest-dev/vitest"
+  github_stars: 16280
 ---
 # Vitest Next-Generation Vite-Powered Testing Framework
 

@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/zapier-webhooks-by-zapier-router/"
+tool_ecosystem:
+  github_repo: "zapier/zapier-platform"
+  github_stars: 484
 ---
 # Zapier Webhooks by Zapier Router
 

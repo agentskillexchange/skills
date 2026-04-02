@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/ckreiling/mcp-server-docker"
+tool_ecosystem:
+  github_repo: "ckreiling/mcp-server-docker"
+  github_stars: 695
 ---
 # Docker MCP Server for Container Lifecycle Management
 

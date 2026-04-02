@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/chartdb/chartdb"
+tool_ecosystem:
+  github_repo: "chartdb/chartdb"
+  github_stars: 21715
 ---
 # ChartDB Database Schema Visualization and Diagram Editor
 

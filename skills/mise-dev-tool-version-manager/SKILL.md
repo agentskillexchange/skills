@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
 source: "https://agentskillexchange.com/skills/mise-dev-tool-version-manager/"
+tool_ecosystem:
+  github_repo: "jdx/mise"
+  github_stars: 26298
 ---
 # Mise Dev Tool Version Manager
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/honojs/hono"
+tool_ecosystem:
+  github_repo: "honojs/hono"
+  github_stars: 29702
 ---
 # Hono Ultrafast Web Framework Built on Web Standards
 

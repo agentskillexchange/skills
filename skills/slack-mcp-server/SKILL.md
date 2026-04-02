@@ -5,6 +5,9 @@ category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-mcp-server/"
+tool_ecosystem:
+  github_repo: "modelcontextprotocol/servers"
+  github_stars: 82735
 ---
 # Slack MCP Server
 

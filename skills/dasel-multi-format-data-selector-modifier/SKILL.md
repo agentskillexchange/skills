@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/TomWright/dasel"
+tool_ecosystem:
+  github_repo: "TomWright/dasel"
+  github_stars: 7892
 ---
 # Dasel Multi-Format Data Selector and Modifier
 

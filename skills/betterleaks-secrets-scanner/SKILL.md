@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/betterleaks/betterleaks"
+tool_ecosystem:
+  github_repo: "betterleaks/betterleaks"
+  github_stars: 712
 ---
 # Betterleaks Next-Generation Secrets Scanner
 

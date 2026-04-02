@@ -4,6 +4,9 @@ description: "Plunk is an open-source email platform built on AWS SES for sendin
 category: "Calendar, Email & Productivity"
 verification: security_reviewed
 source: "https://github.com/useplunk/plunk"
+tool_ecosystem:
+  github_repo: "useplunk/plunk"
+  github_stars: 4943
 ---
 
 # Plunk Open Source Transactional Email Platform on AWS SES

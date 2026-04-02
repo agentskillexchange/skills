@@ -5,6 +5,11 @@ category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/DocumindHQ/documind"
+tool_ecosystem:
+  github_repo: "DocumindHQ/documind"
+  github_stars: 1468
+  npm_package: "documind"
+  npm_weekly_downloads: 5
 ---
 # Documind AI-Powered Structured Data Extraction from Documents
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform-mcp-server"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform-mcp-server"
+  github_stars: 1298
 ---
 # Terraform MCP Server for Infrastructure as Code
 

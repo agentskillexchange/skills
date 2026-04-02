@@ -5,6 +5,9 @@ category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/makeplane/plane"
+tool_ecosystem:
+  github_repo: "makeplane/plane"
+  github_stars: 47209
 ---
 # Plane Open Source Project Management Platform
 

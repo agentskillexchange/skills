@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/supercorp-ai/supergateway"
+tool_ecosystem:
+  github_repo: "supercorp-ai/supergateway"
+  github_stars: 2538
+  npm_package: "supergateway"
+  npm_weekly_downloads: 99014
 ---
 # Supergateway MCP Transport Bridge
 

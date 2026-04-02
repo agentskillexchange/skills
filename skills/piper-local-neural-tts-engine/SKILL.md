@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/rhasspy/piper"
+tool_ecosystem:
+  github_repo: "rhasspy/piper"
+  github_stars: 10741
 ---
 # Piper Local Neural Text-to-Speech Engine
 

@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/KoljaB/RealtimeSTT"
+tool_ecosystem:
+  github_repo: "koljab/realtimestt"
+  github_stars: 9615
 ---
 # RealtimeSTT Low-Latency Speech-to-Text Python Library
 

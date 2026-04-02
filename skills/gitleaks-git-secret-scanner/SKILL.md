@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/gitleaks/gitleaks"
+tool_ecosystem:
+  github_repo: "gitleaks/gitleaks"
+  github_stars: 25731
 ---
 # Gitleaks Git Repository Secret Scanner
 

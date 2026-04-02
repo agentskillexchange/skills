@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/airbytehq/airbyte"
+tool_ecosystem:
+  github_repo: "airbytehq/airbyte"
+  github_stars: 20996
 ---
 # Airbyte Open Source Data Integration Platform
 

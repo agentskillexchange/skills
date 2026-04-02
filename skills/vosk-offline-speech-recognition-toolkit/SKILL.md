@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/alphacep/vosk-api"
+tool_ecosystem:
+  github_repo: "alphacep/vosk-api"
+  github_stars: 14474
 ---
 # Vosk Offline Speech Recognition Toolkit
 

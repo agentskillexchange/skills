@@ -5,6 +5,9 @@ category: "Monitoring & Alerts"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/"
+tool_ecosystem:
+  github_repo: "getsentry/sentry"
+  github_stars: 43486
 ---
 # Sentry Issue Spike Detection Agent
 

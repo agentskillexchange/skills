@@ -5,6 +5,11 @@ category: "Uncategorized"
 framework: "Unknown"
 verification: listed
 source: "https://agentskillexchange.com/skills/tldraw-infinite-canvas-whiteboard-sdk/"
+tool_ecosystem:
+  github_repo: "tldraw/tldraw"
+  github_stars: 46154
+  npm_package: "tldraw"
+  npm_weekly_downloads: 186579
 ---
 # tldraw Infinite Canvas Whiteboard SDK for React
 

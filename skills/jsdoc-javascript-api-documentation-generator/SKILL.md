@@ -5,6 +5,11 @@ category: "Library & API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/jsdoc/jsdoc"
+tool_ecosystem:
+  github_repo: "jsdoc/jsdoc"
+  github_stars: 15426
+  npm_package: "jsdoc"
+  npm_weekly_downloads: 2989031
 ---
 # JSDoc JavaScript API Documentation Generator
 

@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/livekit/livekit"
+tool_ecosystem:
+  github_repo: "livekit/livekit"
+  github_stars: 17923
 ---
 # LiveKit Real-Time Video Audio and Data Server with WebRTC
 

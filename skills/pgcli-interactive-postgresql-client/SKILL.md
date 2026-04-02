@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/dbcli/pgcli"
+tool_ecosystem:
+  github_repo: "dbcli/pgcli"
+  github_stars: 13092
 ---
 # pgcli Interactive PostgreSQL Client with Autocompletion
 

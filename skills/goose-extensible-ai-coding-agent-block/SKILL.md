@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/block/goose"
+tool_ecosystem:
+  github_repo: "block/goose"
+  github_stars: 33898
 ---
 # Goose Extensible AI Coding Agent by Block
 

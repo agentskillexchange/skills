@@ -5,6 +5,9 @@ category: "Browser Automation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
+tool_ecosystem:
+  github_repo: "microsoft/playwright-mcp"
+  github_stars: 30110
 ---
 # Playwright MCP Browser Automation
 

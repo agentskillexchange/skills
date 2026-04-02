@@ -5,6 +5,9 @@ category: "Templates & Workflows"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-sub-generator-composition-builder/"
+tool_ecosystem:
+  github_repo: "yeoman/yo"
+  github_stars: 3953
 ---
 # Yeoman Sub-Generator Composition Builder
 

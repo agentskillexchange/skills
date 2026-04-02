@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/inngest/inngest"
+tool_ecosystem:
+  github_repo: "inngest/inngest"
+  github_stars: 5129
 ---
 # Inngest Event-Driven Durable Workflow Orchestration Platform
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/claude-code-mcp-bridge/"
+tool_ecosystem:
+  github_repo: "steipete/claude-code-mcp"
+  github_stars: 1212
 ---
 # Claude Code MCP Bridge
 

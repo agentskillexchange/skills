@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/web-infra-dev/rspack"
+tool_ecosystem:
+  github_repo: "web-infra-dev/rspack"
+  github_stars: 12593
 ---
 # Rspack High-Performance Rust-Based JavaScript Bundler
 

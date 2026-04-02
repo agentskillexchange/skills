@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/ggml-org/whisper.cpp"
+tool_ecosystem:
+  github_repo: "ggml-org/whisper.cpp"
+  github_stars: 48194
 ---
 # whisper.cpp High-Performance C/C++ Speech Recognition Engine
 

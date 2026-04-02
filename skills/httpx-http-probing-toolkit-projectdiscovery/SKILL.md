@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/httpx"
+tool_ecosystem:
+  github_repo: "projectdiscovery/httpx"
+  github_stars: 9759
 ---
 # httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery
 

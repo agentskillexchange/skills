@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/XAMPPRocky/tokei"
+tool_ecosystem:
+  github_repo: "XAMPPRocky/tokei"
+  github_stars: 14169
 ---
 # tokei Code Statistics Counter
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/jj-vcs/jj"
+tool_ecosystem:
+  github_repo: "jj-vcs/jj"
+  github_stars: 27472
 ---
 # Jujutsu Git-Compatible Version Control System
 

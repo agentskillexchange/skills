@@ -5,6 +5,9 @@ category: "Research & Scraping"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/"
+tool_ecosystem:
+  github_repo: "firecrawl/firecrawl"
+  github_stars: 102630
 ---
 # Firecrawl Markdown Capture Pipeline
 

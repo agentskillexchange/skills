@@ -5,6 +5,11 @@ category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sitespeed-io-web-performance-analysis/"
+tool_ecosystem:
+  github_repo: "sitespeedio/sitespeed.io"
+  github_stars: 4972
+  npm_package: "sitespeed.io"
+  npm_weekly_downloads: 3406
 ---
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit
 

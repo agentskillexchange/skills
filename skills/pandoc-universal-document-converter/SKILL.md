@@ -3,6 +3,9 @@ name: "Pandoc Universal Document Converter"
 description: "Pandoc is a free and open-source universal document converter that can translate between dozens of markup and document formats including Markdown, HTML, LaTeX, DOCX, PDF, EPUB, and more. It is the Swi"
 source: "https://github.com/jgm/pandoc"
 verification: listed
+tool_ecosystem:
+  github_repo: "jgm/pandoc"
+  github_stars: 35000
 ---
 
 # Pandoc Universal Document Converter

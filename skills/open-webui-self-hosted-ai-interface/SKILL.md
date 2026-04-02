@@ -5,6 +5,9 @@ category: "Developer Tools"
 compatible_frameworks: ["Multi-Framework"]
 source: "https://github.com/open-webui/open-webui"
 verification: security_reviewed
+tool_ecosystem:
+  github_repo: "open-webui/open-webui"
+  github_stars: 129602
 ---
 
 # Open WebUI Self-Hosted AI Interface for LLMs

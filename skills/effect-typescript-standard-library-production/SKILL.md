@@ -5,6 +5,9 @@ category: "Library & API Reference"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Effect-TS/effect"
+tool_ecosystem:
+  github_repo: "Effect-TS/effect"
+  github_stars: 13745
 ---
 # Effect TypeScript Standard Library for Production Applications
 

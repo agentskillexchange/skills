@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/"
+tool_ecosystem:
+  github_repo: "semgrep/semgrep"
+  github_stars: 14632
 ---
 # Semgrep Supply Chain Rule Pack Runner
 

@@ -5,6 +5,9 @@ category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/step-security/harden-runner"
+tool_ecosystem:
+  github_repo: "step-security/harden-runner"
+  github_stars: 1055
 ---
 # Harden-Runner CI/CD Security Agent for GitHub Actions
 

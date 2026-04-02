@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/evilmartians/lefthook"
+tool_ecosystem:
+  github_repo: "evilmartians/lefthook"
+  github_stars: 7894
+  npm_package: "lefthook"
+  npm_weekly_downloads: 1544173
 ---
 # Lefthook Git Hooks Manager
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/freeze"
+tool_ecosystem:
+  github_repo: "charmbracelet/freeze"
+  github_stars: 4409
 ---
 # Freeze Code and Terminal Screenshot Generator
 

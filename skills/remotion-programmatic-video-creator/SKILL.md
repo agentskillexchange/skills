@@ -5,6 +5,11 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/remotion-dev/remotion"
+tool_ecosystem:
+  github_repo: "remotion-dev/remotion"
+  github_stars: 41477
+  npm_package: "remotion"
+  npm_weekly_downloads: 485090
 ---
 # Remotion Programmatic Video Creator
 

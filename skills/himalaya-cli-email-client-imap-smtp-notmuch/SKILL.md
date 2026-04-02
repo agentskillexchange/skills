@@ -5,6 +5,9 @@ category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/pimalaya/himalaya"
+tool_ecosystem:
+  github_repo: "pimalaya/himalaya"
+  github_stars: 5825
 ---
 # Himalaya CLI Email Client for IMAP SMTP and Notmuch
 

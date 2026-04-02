@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/oramasearch/orama"
+tool_ecosystem:
+  github_repo: "oramasearch/orama"
+  github_stars: 10274
 ---
 # Orama Embeddable Search Engine and RAG Pipeline for JavaScript
 

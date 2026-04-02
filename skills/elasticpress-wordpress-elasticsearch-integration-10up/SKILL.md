@@ -5,6 +5,9 @@ category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/10up/ElasticPress"
+tool_ecosystem:
+  github_repo: "10up/elasticpress"
+  github_stars: 1297
 ---
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up
 

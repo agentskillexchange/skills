@@ -5,6 +5,9 @@ category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Automattic/harper"
+tool_ecosystem:
+  github_repo: "Automattic/harper"
+  github_stars: 10182
 ---
 # Harper Offline Privacy-First Grammar Checker by Automattic
 

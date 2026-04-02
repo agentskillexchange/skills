@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/yt-dlp/yt-dlp"
+tool_ecosystem:
+  github_repo: "yt-dlp/yt-dlp"
+  github_stars: 154307
 ---
 # yt-dlp Feature-Rich Audio and Video Downloader CLI
 

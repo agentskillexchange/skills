@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-mcp-server/"
+tool_ecosystem:
+  github_repo: "hashicorp/vault-mcp-server"
+  github_stars: 40
 ---
 # HashiCorp Vault MCP Server
 

@@ -4,6 +4,9 @@ description: "Documenso is an open-source digital document signing platform and 
 category: "Calendar, Email & Productivity"
 verification: security_reviewed
 source: "https://github.com/documenso/documenso"
+tool_ecosystem:
+  github_repo: "documenso/documenso"
+  github_stars: 12571
 ---
 
 # Documenso Open Source Document Signing Platform

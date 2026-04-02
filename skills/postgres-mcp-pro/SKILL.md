@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
+tool_ecosystem:
+  github_repo: "crystaldba/postgres-mcp"
+  github_stars: 2464
 ---
 # Postgres MCP Pro
 

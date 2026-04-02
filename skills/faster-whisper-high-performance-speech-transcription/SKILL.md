@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/SYSTRAN/faster-whisper"
+tool_ecosystem:
+  github_repo: "SYSTRAN/faster-whisper"
+  github_stars: 21865
 ---
 # faster-whisper High-Performance Speech Transcription Engine
 

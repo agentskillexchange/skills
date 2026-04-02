@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/coderamp-labs/gitingest"
+tool_ecosystem:
+  github_repo: "coderamp-labs/gitingest"
+  github_stars: 14248
 ---
 # Gitingest Repository-to-Prompt Codebase Extraction Tool
 

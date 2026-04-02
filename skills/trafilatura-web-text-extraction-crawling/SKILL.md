@@ -5,6 +5,9 @@ category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/adbar/trafilatura"
+tool_ecosystem:
+  github_repo: "adbar/trafilatura"
+  github_stars: 5638
 ---
 # Trafilatura Web Text Extraction and Crawling Toolkit
 

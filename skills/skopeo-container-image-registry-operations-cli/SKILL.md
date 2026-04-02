@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/containers/skopeo"
+tool_ecosystem:
+  github_repo: "containers/skopeo"
+  github_stars: 10647
 ---
 # Skopeo Container Image Registry Operations CLI
 

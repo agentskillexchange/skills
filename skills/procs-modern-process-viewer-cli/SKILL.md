@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/dalance/procs"
+tool_ecosystem:
+  github_repo: "dalance/procs"
+  github_stars: 5994
 ---
 # procs Modern Process Viewer CLI
 

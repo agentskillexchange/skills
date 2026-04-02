@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
+tool_ecosystem:
+  github_repo: "modelcontextprotocol/servers"
+  github_stars: 82735
 ---
 # SQLite MCP Server
 

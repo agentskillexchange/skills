@@ -5,6 +5,9 @@ category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/thumbor/thumbor"
+tool_ecosystem:
+  github_repo: "thumbor/thumbor"
+  github_stars: 10470
 ---
 # Thumbor Smart Image Processing Service
 

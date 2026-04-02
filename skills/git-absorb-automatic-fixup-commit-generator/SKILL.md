@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/tummychow/git-absorb"
+tool_ecosystem:
+  github_repo: "tummychow/git-absorb"
+  github_stars: 5455
 ---
 # git-absorb Automatic Fixup Commit Generator
 

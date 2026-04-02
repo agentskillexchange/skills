@@ -5,6 +5,11 @@ category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/strapi/strapi"
+tool_ecosystem:
+  github_repo: "strapi/strapi"
+  github_stars: 71740
+  npm_package: "@strapi/strapi"
+  npm_weekly_downloads: 162641
 ---
 # Strapi Open Source Headless CMS with REST and GraphQL APIs
 

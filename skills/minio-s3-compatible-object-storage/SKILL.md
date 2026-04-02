@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/minio/minio"
+tool_ecosystem:
+  github_repo: "minio/minio"
+  github_stars: 60608
 ---
 # MinIO High-Performance S3-Compatible Object Storage Server
 

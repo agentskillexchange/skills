@@ -5,6 +5,9 @@ category: "CI/CD Integrations"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/goreleaser/goreleaser"
+tool_ecosystem:
+  github_repo: "goreleaser/goreleaser"
+  github_stars: 15686
 ---
 # GoReleaser Cross-Platform Release Automation
 

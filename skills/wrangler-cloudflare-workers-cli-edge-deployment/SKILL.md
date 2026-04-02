@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/cloudflare/workers-sdk"
+tool_ecosystem:
+  github_repo: "cloudflare/workers-sdk"
+  github_stars: 3941
 ---
 # Wrangler Cloudflare Workers CLI for Edge Deployment
 

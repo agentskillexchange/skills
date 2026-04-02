@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-for-ai/"
+tool_ecosystem:
+  github_repo: "getsentry/sentry-for-ai"
+  github_stars: 98
 ---
 # Sentry for AI
 

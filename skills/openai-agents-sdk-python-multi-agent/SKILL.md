@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://github.com/openai/openai-agents-python"
+tool_ecosystem:
+  github_repo: "openai/openai-agents-python"
+  github_stars: 20506
 ---
 # OpenAI Agents SDK Multi-Agent Workflow Framework for Python
 

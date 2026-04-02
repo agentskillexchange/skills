@@ -5,6 +5,9 @@ category: "Uncategorized"
 framework: "Unknown"
 verification: listed
 source: "https://agentskillexchange.com/skills/goaccess-real-time-web-log-analyzer/"
+tool_ecosystem:
+  github_repo: "allinurl/goaccess"
+  github_stars: 20377
 ---
 # GoAccess Real-Time Web Log Analyzer and Terminal Dashboard
 

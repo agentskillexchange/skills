@@ -5,6 +5,9 @@ category: "Runbooks & Diagnostics"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/"
+tool_ecosystem:
+  github_repo: "kubernetes/kubernetes"
+  github_stars: 121439
 ---
 # Kubernetes Events API CrashLoop Investigator
 

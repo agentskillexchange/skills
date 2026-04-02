@@ -5,6 +5,11 @@ category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/svg/svgo"
+tool_ecosystem:
+  github_repo: "svg/svgo"
+  github_stars: 22412
+  npm_package: "svgo"
+  npm_weekly_downloads: 30339979
 ---
 # SVGO SVG Optimization Tool
 

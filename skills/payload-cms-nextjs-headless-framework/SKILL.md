@@ -5,6 +5,11 @@ category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/payloadcms/payload"
+tool_ecosystem:
+  github_repo: "payloadcms/payload"
+  github_stars: 41552
+  npm_package: "payload"
+  npm_weekly_downloads: 305241
 ---
 # Payload CMS Next.js-Native Headless CMS and Application Framework
 

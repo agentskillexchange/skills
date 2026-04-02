@@ -3,6 +3,9 @@ name: "Nuxt Vue.js Meta-Framework for SSR and SSG"
 description: "Nuxt is an open-source framework that makes web development intuitive and powerful. It is built on top of Vue.js and provides server-side rendering (SSR), static site generation (SSG), and hybrid rend"
 source: "https://github.com/nuxt/nuxt"
 verification: listed
+tool_ecosystem:
+  github_repo: "nuxt/nuxt"
+  github_stars: 56000
 ---
 
 # Nuxt Vue.js Meta-Framework for SSR and SSG

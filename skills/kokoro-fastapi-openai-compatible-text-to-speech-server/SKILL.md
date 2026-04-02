@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/remsky/Kokoro-FastAPI"
+tool_ecosystem:
+  github_repo: "remsky/Kokoro-FastAPI"
+  github_stars: 4654
 ---
 # Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server
 

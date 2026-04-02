@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/triggerdotdev/trigger.dev"
+tool_ecosystem:
+  github_repo: "triggerdotdev/trigger.dev"
+  github_stars: 14318
+  npm_package: "trigger.dev"
+  npm_weekly_downloads: 200503
 ---
 # Trigger.dev TypeScript Background Jobs Platform
 

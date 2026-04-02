@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/crate-ci/typos"
+tool_ecosystem:
+  github_repo: "crate-ci/typos"
+  github_stars: 3864
 ---
 # typos Source Code Spell Checker
 

@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/bbc/audiowaveform"
+tool_ecosystem:
+  github_repo: "bbc/audiowaveform"
+  github_stars: 2130
 ---
 # audiowaveform Audio Waveform Data Generator and Image Renderer
 

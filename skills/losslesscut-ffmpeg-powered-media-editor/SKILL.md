@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/mifi/lossless-cut"
+tool_ecosystem:
+  github_repo: "mifi/lossless-cut"
+  github_stars: 39480
 ---
 # LosslessCut FFmpeg-Powered Media Editor
 

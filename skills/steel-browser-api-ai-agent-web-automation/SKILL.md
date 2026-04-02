@@ -5,6 +5,9 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/steel-dev/steel-browser"
+tool_ecosystem:
+  github_repo: "steel-dev/steel-browser"
+  github_stars: 6768
 ---
 # Steel Browser Open Source API for AI Agent Web Automation
 

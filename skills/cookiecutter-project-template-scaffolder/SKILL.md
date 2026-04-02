@@ -5,6 +5,9 @@ category: "Templates & Workflows"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/"
+tool_ecosystem:
+  github_repo: "cookiecutter/cookiecutter"
+  github_stars: 24786
 ---
 # Cookiecutter Project Template Scaffolder
 

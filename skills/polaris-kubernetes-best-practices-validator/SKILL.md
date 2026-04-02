@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/FairwindsOps/polaris"
+tool_ecosystem:
+  github_repo: "FairwindsOps/polaris"
+  github_stars: 3355
 ---
 # Polaris Kubernetes Best Practices Validator
 

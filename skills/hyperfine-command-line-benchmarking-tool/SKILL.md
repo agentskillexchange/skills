@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/sharkdp/hyperfine"
+tool_ecosystem:
+  github_repo: "sharkdp/hyperfine"
+  github_stars: 27797
 ---
 # Hyperfine Command-Line Benchmarking Tool
 

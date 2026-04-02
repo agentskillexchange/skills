@@ -4,6 +4,9 @@ description: "Mods is a CLI tool by Charmbracelet that pipes stdin directly to l
 category: "Developer Tools"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/mods"
+tool_ecosystem:
+  github_repo: "charmbracelet/mods"
+  github_stars: 4513
 ---
 
 # Mods AI-Powered Command-Line LLM Interface by Charmbracelet

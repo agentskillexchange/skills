@@ -5,6 +5,9 @@ category: "Templates & Workflows"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/"
+tool_ecosystem:
+  github_repo: "plopjs/plop"
+  github_stars: 7636
 ---
 # Plop.js Code Generator Orchestrator
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/gitbutlerapp/gitbutler"
+tool_ecosystem:
+  github_repo: "gitbutlerapp/gitbutler"
+  github_stars: 19988
 ---
 # GitButler Virtual Branch Git Client
 

@@ -5,6 +5,9 @@ category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/smicallef/spiderfoot"
+tool_ecosystem:
+  github_repo: "smicallef/spiderfoot"
+  github_stars: 17241
 ---
 # SpiderFoot Open Source Intelligence Automation Framework
 

@@ -5,6 +5,9 @@ category: "Code Quality & Review"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/Wilfred/difftastic"
+tool_ecosystem:
+  github_repo: "Wilfred/difftastic"
+  github_stars: 24900
 ---
 # Difftastic Structural Syntax-Aware Diff Tool
 

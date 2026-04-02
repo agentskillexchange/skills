@@ -5,6 +5,9 @@ category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/every-app/open-seo"
+tool_ecosystem:
+  github_repo: "every-app/open-seo"
+  github_stars: 783
 ---
 # OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform
 

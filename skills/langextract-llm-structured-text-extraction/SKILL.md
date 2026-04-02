@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/google/langextract"
+tool_ecosystem:
+  github_repo: "google/langextract"
+  github_stars: 35042
 ---
 # LangExtract LLM-Powered Structured Text Extraction
 

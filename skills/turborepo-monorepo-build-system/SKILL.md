@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/turborepo-monorepo-build-system/"
+tool_ecosystem:
+  github_repo: "vercel/turborepo"
+  github_stars: 30114
+  npm_package: "turbo"
+  npm_weekly_downloads: 11631136
 ---
 # Turborepo Monorepo Build System
 

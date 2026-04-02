@@ -5,6 +5,9 @@ category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/penpot/penpot"
+tool_ecosystem:
+  github_repo: "penpot/penpot"
+  github_stars: 45150
 ---
 # Penpot Open Source Design and Prototyping Platform
 

@@ -5,6 +5,11 @@ category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/tinacms/tinacms"
+tool_ecosystem:
+  github_repo: "tinacms/tinacms"
+  github_stars: 13245
+  npm_package: "tinacms"
+  npm_weekly_downloads: 73658
 ---
 # TinaCMS Git-Backed Headless CMS with Visual Editing
 

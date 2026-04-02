@@ -5,6 +5,9 @@ category: "Developer Tools"
 compatible_frameworks: ["Multi-Framework"]
 source: "https://github.com/zed-industries/zed"
 verification: security_reviewed
+tool_ecosystem:
+  github_repo: "zed-industries/zed"
+  github_stars: 78324
 ---
 
 # Zed High-Performance Multiplayer Code Editor

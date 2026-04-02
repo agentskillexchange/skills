@@ -5,6 +5,9 @@ category: "Library & API Reference"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/electric-sql/pglite"
+tool_ecosystem:
+  github_repo: "electric-sql/pglite"
+  github_stars: 14967
 ---
 # PGlite Embeddable WASM Postgres for Browser and Node.js
 

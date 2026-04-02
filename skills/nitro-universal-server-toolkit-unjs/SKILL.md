@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/nitrojs/nitro"
+tool_ecosystem:
+  github_repo: "nitrojs/nitro"
+  github_stars: 10627
 ---
 # Nitro Next-Generation Universal Server Toolkit by UnJS
 

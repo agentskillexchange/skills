@@ -6,6 +6,9 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/MaartenGr/KeyBERT"
 ase_url: "https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/"
+tool_ecosystem:
+  github_repo: "MaartenGr/KeyBERT"
+  github_stars: 4141
 ---
 
 # KeyBERT Minimal Keyword Extraction with BERT Embeddings

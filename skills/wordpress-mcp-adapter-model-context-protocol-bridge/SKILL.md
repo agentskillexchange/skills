@@ -5,6 +5,9 @@ category: "WordPress & CMS"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/WordPress/mcp-adapter"
+tool_ecosystem:
+  github_repo: "WordPress/mcp-adapter"
+  github_stars: 792
 ---
 # WordPress MCP Adapter Model Context Protocol Bridge
 

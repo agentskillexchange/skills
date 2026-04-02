@@ -5,6 +5,9 @@ category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/textstat/textstat"
+tool_ecosystem:
+  github_repo: "textstat/textstat"
+  github_stars: 1361
 ---
 # textstat Python Readability Statistics Calculator
 

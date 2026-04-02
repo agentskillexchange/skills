@@ -5,6 +5,9 @@ category: "WordPress & CMS"
 framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/"
+tool_ecosystem:
+  github_repo: "woocommerce/woocommerce"
+  github_stars: 10231
 ---
 # WooCommerce Webhook Delivery Inspector
 

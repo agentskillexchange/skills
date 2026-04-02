@@ -5,6 +5,11 @@ category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Pagefind/pagefind"
+tool_ecosystem:
+  github_repo: "pagefind/pagefind"
+  github_stars: 5094
+  npm_package: "pagefind"
+  npm_weekly_downloads: 457962
 ---
 # Pagefind Static Low-Bandwidth Search Engine
 

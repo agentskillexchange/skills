@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/zellij-org/zellij"
+tool_ecosystem:
+  github_repo: "zellij-org/zellij"
+  github_stars: 30894
 ---
 # Zellij Terminal Workspace and Multiplexer
 

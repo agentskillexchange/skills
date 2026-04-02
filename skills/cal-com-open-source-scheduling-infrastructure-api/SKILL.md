@@ -5,6 +5,9 @@ category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/calcom/cal.com"
+tool_ecosystem:
+  github_repo: "calcom/cal.com"
+  github_stars: 40908
 ---
 # Cal.com Open Source Scheduling Infrastructure and API
 

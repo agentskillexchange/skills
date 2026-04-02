@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/"
+tool_ecosystem:
+  github_repo: "n8n-io/n8n"
+  github_stars: 182065
 ---
 # n8n Workflow Webhook Bridge
 

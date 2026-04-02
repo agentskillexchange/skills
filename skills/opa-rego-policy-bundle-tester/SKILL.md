@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opa-rego-policy-bundle-tester/"
+tool_ecosystem:
+  github_repo: "open-policy-agent/opa"
+  github_stars: 11534
 ---
 # OPA Rego Policy Bundle Tester
 

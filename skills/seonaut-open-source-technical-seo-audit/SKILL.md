@@ -5,6 +5,9 @@ category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/StJudeWasHere/seonaut"
+tool_ecosystem:
+  github_repo: "StJudeWasHere/seonaut"
+  github_stars: 673
 ---
 # SEOnaut Open Source Technical SEO Audit Tool
 

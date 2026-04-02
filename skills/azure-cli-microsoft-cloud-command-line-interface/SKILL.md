@@ -3,6 +3,9 @@ name: "Azure CLI Microsoft Cloud Command-Line Interface"
 description: "The Azure CLI is a set of commands used to create and manage Azure resources from the command line. It provides a consistent interface for interacting with Azure services across Windows, macOS, and Li"
 source: "https://github.com/Azure/azure-cli"
 verification: listed
+tool_ecosystem:
+  github_repo: "Azure/azure-cli"
+  github_stars: 4200
 ---
 
 # Azure CLI Microsoft Cloud Command-Line Interface

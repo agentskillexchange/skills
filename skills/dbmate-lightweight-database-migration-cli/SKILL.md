@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/amacneil/dbmate"
+tool_ecosystem:
+  github_repo: "amacneil/dbmate"
+  github_stars: 6801
+  npm_package: "dbmate"
+  npm_weekly_downloads: 79065
 ---
 # dbmate Lightweight Database Migration CLI
 

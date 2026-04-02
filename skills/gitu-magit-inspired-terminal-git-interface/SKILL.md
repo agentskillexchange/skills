@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/altsem/gitu"
+tool_ecosystem:
+  github_repo: "altsem/gitu"
+  github_stars: 2664
 ---
 # gitu Magit-Inspired Terminal Git Interface
 

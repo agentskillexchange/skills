@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/cachix/devenv"
+tool_ecosystem:
+  github_repo: "cachix/devenv"
+  github_stars: 6614
 ---
 # devenv Declarative Developer Environments with Nix
 

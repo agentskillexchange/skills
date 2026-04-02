@@ -5,6 +5,9 @@ category: "Research & Scraping"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/sherlock-project/sherlock"
+tool_ecosystem:
+  github_repo: "sherlock-project/sherlock"
+  github_stars: 76214
 ---
 # Sherlock Social Media Username Hunter Across 400+ Networks
 

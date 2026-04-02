@@ -5,6 +5,11 @@ category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/NangoHQ/nango"
+tool_ecosystem:
+  github_repo: "NangoHQ/nango"
+  github_stars: 7003
+  npm_package: "nango"
+  npm_weekly_downloads: 14543
 ---
 # Nango Open Source API Integration Platform
 

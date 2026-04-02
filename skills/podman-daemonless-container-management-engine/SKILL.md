@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/containers/podman"
+tool_ecosystem:
+  github_repo: "containers/podman"
+  github_stars: 31203
 ---
 # Podman Daemonless Container Management Engine
 

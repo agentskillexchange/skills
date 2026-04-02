@@ -5,6 +5,9 @@ category: "Templates & Workflows"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/temporalio/temporal"
+tool_ecosystem:
+  github_repo: "temporalio/temporal"
+  github_stars: 19327
 ---
 # Temporal Durable Execution Workflow Orchestration Platform
 

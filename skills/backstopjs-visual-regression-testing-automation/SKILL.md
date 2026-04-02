@@ -5,6 +5,11 @@ category: "Browser Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/garris/BackstopJS"
+tool_ecosystem:
+  github_repo: "garris/BackstopJS"
+  github_stars: 7116
+  npm_package: "backstopjs"
+  npm_weekly_downloads: 68338
 ---
 # BackstopJS Visual Regression Testing Automation
 

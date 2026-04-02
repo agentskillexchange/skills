@@ -5,6 +5,11 @@ category: "Library & API Reference"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/Redocly/redoc"
+tool_ecosystem:
+  github_repo: "Redocly/redoc"
+  github_stars: 25596
+  npm_package: "redoc"
+  npm_weekly_downloads: 1409207
 ---
 # Redoc OpenAPI Documentation Renderer
 

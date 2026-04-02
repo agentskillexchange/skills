@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dagster-data-pipeline-orchestrator/"
+tool_ecosystem:
+  github_repo: "dagster-io/dagster"
+  github_stars: 15185
 ---
 # Dagster Data Pipeline Orchestrator
 

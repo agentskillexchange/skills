@@ -4,6 +4,9 @@ description: "Concurrently runs multiple commands in parallel with color-coded o
 category: "Developer Tools"
 verification: security_reviewed
 source: "https://github.com/open-cli-tools/concurrently"
+tool_ecosystem:
+  github_repo: "open-cli-tools/concurrently"
+  github_stars: 7726
 ---
 
 # Concurrently Parallel Command Runner for npm Scripts

@@ -5,6 +5,11 @@ category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/woltapp/blurhash"
+tool_ecosystem:
+  github_repo: "woltapp/blurhash"
+  github_stars: 16958
+  npm_package: "blurhash"
+  npm_weekly_downloads: 858864
 ---
 # BlurHash Compact Image Placeholder Encoder
 

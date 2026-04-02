@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/activepieces/activepieces"
+tool_ecosystem:
+  github_repo: "activepieces/activepieces"
+  github_stars: 21510
 ---
 # Activepieces Open Source Workflow Automation
 

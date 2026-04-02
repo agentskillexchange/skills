@@ -5,6 +5,9 @@ category: "Templates & Workflows"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-boilerplate-assembler/"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform"
+  github_stars: 48004
 ---
 # Terraform Module Boilerplate Assembler
 

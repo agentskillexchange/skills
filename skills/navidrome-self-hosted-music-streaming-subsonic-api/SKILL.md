@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/navidrome/navidrome"
+tool_ecosystem:
+  github_repo: "navidrome/navidrome"
+  github_stars: 20161
 ---
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API
 

@@ -5,6 +5,9 @@ category: "Library & API Reference"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/upstash/context7"
+tool_ecosystem:
+  github_repo: "upstash/context7"
+  github_stars: 51326
 ---
 # Context7 MCP Documentation Server for LLM Code Editors
 

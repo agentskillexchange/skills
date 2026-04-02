@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/redpanda-data/connect"
+tool_ecosystem:
+  github_repo: "redpanda-data/connect"
+  github_stars: 8618
 ---
 # Redpanda Connect Declarative Stream Processor
 

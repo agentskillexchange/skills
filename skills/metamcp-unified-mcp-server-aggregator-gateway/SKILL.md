@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/metatool-ai/metamcp"
+tool_ecosystem:
+  github_repo: "metatool-ai/metamcp"
+  github_stars: 2175
 ---
 # MetaMCP Unified MCP Server Aggregator and Gateway
 

@@ -4,6 +4,9 @@ description: "pdfcpu is a Go-based PDF processing library and CLI tool that hand
 category: "Developer Tools"
 verification: security_reviewed
 source: "https://github.com/pdfcpu/pdfcpu"
+tool_ecosystem:
+  github_repo: "pdfcpu/pdfcpu"
+  github_stars: 8546
 ---
 
 # pdfcpu Go PDF Processor and Manipulation CLI

@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/cloudflare/mcp-server-cloudflare"
+tool_ecosystem:
+  github_repo: "cloudflare/mcp-server-cloudflare"
+  github_stars: 3579
 ---
 # Cloudflare MCP Servers for Workers, Security, and Observability
 

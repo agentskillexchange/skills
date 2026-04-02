@@ -5,6 +5,9 @@ category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/marp-team/marp-cli"
+tool_ecosystem:
+  github_repo: "marp-team/marp-cli"
+  github_stars: 3322
 ---
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator
 

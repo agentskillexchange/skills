@@ -5,6 +5,11 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/yamadashy/repomix"
+tool_ecosystem:
+  github_repo: "yamadashy/repomix"
+  github_stars: 22816
+  npm_package: "repomix"
+  npm_weekly_downloads: 60989
 ---
 # Repomix Codebase Context Packer for LLMs
 

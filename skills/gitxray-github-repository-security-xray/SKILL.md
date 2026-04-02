@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/kulkansecurity/gitxray"
+tool_ecosystem:
+  github_repo: "kulkansecurity/gitxray"
+  github_stars: 174
 ---
 # Gitxray GitHub Repository Security X-Ray
 

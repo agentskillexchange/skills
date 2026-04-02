@@ -5,6 +5,9 @@ category: "Monitoring & Alerts"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-mcp-server/"
+tool_ecosystem:
+  github_repo: "getsentry/sentry-mcp"
+  github_stars: 615
 ---
 # Sentry MCP Server
 

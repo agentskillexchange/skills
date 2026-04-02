@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/evidence-dev/evidence"
+tool_ecosystem:
+  github_repo: "evidence-dev/evidence"
+  github_stars: 6116
 ---
 # Evidence BI-as-Code SQL and Markdown Analytics Framework
 

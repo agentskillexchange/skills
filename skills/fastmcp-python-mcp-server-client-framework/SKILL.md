@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/PrefectHQ/fastmcp"
+tool_ecosystem:
+  github_repo: "PrefectHQ/fastmcp"
+  github_stars: 24192
 ---
 # FastMCP Python MCP Server and Client Framework
 

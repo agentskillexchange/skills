@@ -4,6 +4,9 @@ description: "Feroxbuster is a high-performance content discovery tool written i
 category: "Security & Verification"
 source: "https://github.com/epi052/feroxbuster"
 verification: security_reviewed
+tool_ecosystem:
+  github_repo: "epi052/feroxbuster"
+  github_stars: 7633
 ---
 
 # Feroxbuster Fast Recursive Content Discovery Tool in Rust

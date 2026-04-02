@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/"
+tool_ecosystem:
+  github_repo: "prompt-security/clawsec"
+  github_stars: 867
 ---
 # OpenClaw Security Suite (ClawSec)
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/jesseduffield/lazydocker"
+tool_ecosystem:
+  github_repo: "jesseduffield/lazydocker"
+  github_stars: 50476
 ---
 # LazyDocker Terminal UI for Docker Management
 

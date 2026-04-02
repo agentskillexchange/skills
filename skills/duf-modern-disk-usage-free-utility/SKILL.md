@@ -5,6 +5,9 @@ category: "Uncategorized"
 framework: "Unknown"
 verification: listed
 source: "https://github.com/muesli/duf"
+tool_ecosystem:
+  github_repo: "muesli/duf"
+  github_stars: 14916
 ---
 # duf Modern Disk Usage and Free Utility
 

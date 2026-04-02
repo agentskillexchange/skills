@@ -5,6 +5,9 @@ category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/healthchecks/healthchecks"
+tool_ecosystem:
+  github_repo: "healthchecks/healthchecks"
+  github_stars: 9961
 ---
 # Healthchecks.io Cron Job Monitoring and Alerting Platform
 

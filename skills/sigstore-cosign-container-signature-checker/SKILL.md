@@ -5,6 +5,9 @@ category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-signature-checker/"
+tool_ecosystem:
+  github_repo: "sigstore/cosign"
+  github_stars: 5776
 ---
 # Sigstore Cosign Container Signature Checker
 

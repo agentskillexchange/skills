@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/upstash/mcp-server"
+tool_ecosystem:
+  github_repo: "upstash/mcp-server"
+  github_stars: 52
 ---
 # Upstash MCP Server for Redis and QStash Management
 

@@ -5,6 +5,9 @@ category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/ComposioHQ/composio"
+tool_ecosystem:
+  github_repo: "ComposioHQ/composio"
+  github_stars: 27601
 ---
 # Composio Agent Tool Integration Platform
 

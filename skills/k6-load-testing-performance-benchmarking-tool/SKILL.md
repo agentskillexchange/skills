@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/grafana/k6"
+tool_ecosystem:
+  github_repo: "grafana/k6"
+  github_stars: 30253
 ---
 # k6 Load Testing and Performance Benchmarking Tool
 

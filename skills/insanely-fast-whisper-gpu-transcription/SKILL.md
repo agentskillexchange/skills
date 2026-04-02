@@ -5,6 +5,9 @@ category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
+tool_ecosystem:
+  github_repo: "vaibhavs10/insanely-fast-whisper"
+  github_stars: 12204
 ---
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI
 

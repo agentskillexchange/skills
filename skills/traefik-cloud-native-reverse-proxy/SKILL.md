@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/traefik/traefik"
+tool_ecosystem:
+  github_repo: "traefik/traefik"
+  github_stars: 62433
 ---
 # Traefik Cloud-Native Application Proxy and Reverse Proxy
 

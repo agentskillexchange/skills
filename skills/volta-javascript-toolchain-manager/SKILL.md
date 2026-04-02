@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/volta-cli/volta"
+tool_ecosystem:
+  github_repo: "volta-cli/volta"
+  github_stars: 12888
 ---
 # Volta JavaScript Toolchain Version Manager
 

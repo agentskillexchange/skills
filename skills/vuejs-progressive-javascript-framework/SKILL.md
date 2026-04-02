@@ -3,6 +3,9 @@ name: "Vue.js Progressive JavaScript Framework"
 description: "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed from the ground up to be incrementally adoptable and focuses on the view layer only, making it easy to integra"
 source: "https://github.com/vuejs/core"
 verification: listed
+tool_ecosystem:
+  github_repo: "vuejs/core"
+  github_stars: 48000
 ---
 
 # Vue.js Progressive JavaScript Framework

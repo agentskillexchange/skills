@@ -5,6 +5,9 @@ category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/umami-privacy-focused-web-analytics/"
+tool_ecosystem:
+  github_repo: "umami-software/umami"
+  github_stars: 35941
 ---
 # Umami Privacy-Focused Web Analytics Platform
 

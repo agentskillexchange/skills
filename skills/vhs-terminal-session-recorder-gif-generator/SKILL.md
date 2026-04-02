@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/vhs"
+tool_ecosystem:
+  github_repo: "charmbracelet/vhs"
+  github_stars: 19204
 ---
 # VHS Terminal Session Recorder and GIF Generator
 

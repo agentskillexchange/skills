@@ -5,6 +5,11 @@ category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oxlint-high-performance-javascript-linter/"
+tool_ecosystem:
+  github_repo: "oxc-project/oxc"
+  github_stars: 20468
+  npm_package: "oxlint"
+  npm_weekly_downloads: 4087575
 ---
 # Oxlint High-Performance JavaScript Linter
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/atuinsh/atuin"
+tool_ecosystem:
+  github_repo: "atuinsh/atuin"
+  github_stars: 28925
 ---
 # Atuin Shell History Database and Sync
 

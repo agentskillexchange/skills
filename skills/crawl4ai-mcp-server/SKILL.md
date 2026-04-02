@@ -5,6 +5,9 @@ category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/crawl4ai-mcp-server/"
+tool_ecosystem:
+  github_repo: "sadiuysal/crawl4ai-mcp-server"
+  github_stars: 69
 ---
 # Crawl4AI MCP Server
 

@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/casey/just"
+tool_ecosystem:
+  github_repo: "casey/just"
+  github_stars: 32526
 ---
 # Just Command Runner
 

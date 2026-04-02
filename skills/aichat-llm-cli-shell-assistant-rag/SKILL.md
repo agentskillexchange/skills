@@ -5,6 +5,9 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/sigoden/aichat"
+tool_ecosystem:
+  github_repo: "sigoden/aichat"
+  github_stars: 9736
 ---
 # AIChat All-in-One LLM CLI with Shell Assistant and RAG
 
