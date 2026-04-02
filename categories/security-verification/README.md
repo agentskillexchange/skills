@@ -7,6 +7,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars |
 |---|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
+| [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | ⭐ 27.7k |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | ⭐ 25.7k |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | ⭐ 25.6k |
@@ -14,8 +15,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | ⭐ 21.8k |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | ⭐ 21.3k |
-| [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | ⭐ 11.9k |
-| [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | ⭐ 10.6k |
+| [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | ⭐ 14.6k |
 
 ---
 
@@ -24,6 +24,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
+| [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
@@ -31,12 +32,15 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | 24k | — |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
+| [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 11.9k | — |
+| [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.6k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
+| [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
@@ -49,10 +53,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 40 | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
+| [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | — | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
+| [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | — | — |
@@ -61,6 +67,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
+| [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | — | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | — | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
@@ -78,7 +85,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
-| [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | — | — |
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | — | — |
 | [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | — | — |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | — | — |
@@ -98,8 +104,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
 | [Security Audit Skill](../../skills/security-audit-skill/) | — | — |
-| [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | — | — |
-| [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | — | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | — | — |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | — | — |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | — | — |
@@ -126,7 +130,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
-| [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
 
 ---

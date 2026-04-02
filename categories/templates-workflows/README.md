@@ -6,8 +6,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars |
 |---|---:|
+| [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
+| [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | ⭐ 24.8k |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.3k |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | ⭐ 16.1k |
+| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⭐ 7.6k |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⭐ 4k |
 
 ---
 
@@ -15,8 +19,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
+| [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.3k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
+| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | — |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | — | — |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | — | — |
@@ -36,7 +44,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffolder](../../skills/cookiecutter-project-scaffolder-3/) | — | — |
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | — | — |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | — | — |
-| [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | — | — |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | — | — |
 | [Cron Job Manager](../../skills/cron-job-manager/) | — | — |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | — | — |
@@ -62,14 +69,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | — | — |
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
-| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | — | — |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | — | — |
-| [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | — | — |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | — | — |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | — | — |
 | [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | — | — |
@@ -81,7 +86,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | — | — |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | — | — |
 | [Yeoman Workflow Orchestrator](../../skills/yeoman-workflow-orchestrator/) | — | — |
 
 ---

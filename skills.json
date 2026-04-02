@@ -1,12 +1,24 @@
 {
   "version": "2.0",
-  "total": 1573,
-  "generated": "2026-04-01",
+  "total": 1601,
+  "generated": "2026-04-02",
   "skills": [
     {
-      "slug": "nitric-cloud-application-framework",
-      "name": "Nitric Multi-Language Cloud Application Framework with Infrastructure from Code",
-      "description": "Nitric is an open-source multi-language framework that lets you define cloud infrastructure directly from your application code in TypeScript, Python, Go, or Dart. Write…",
+      "slug": "casdoor-open-source-iam-auth-platform",
+      "name": "Casdoor Open Source Identity and Access Management Platform",
+      "description": "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wails-desktop-app-framework-go-web",
+      "name": "Wails Desktop Application Framework for Go and Web Technologies",
+      "description": "Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the…",
       "category": [
         "Developer Tools"
       ],
@@ -16,9 +28,9 @@
       "verification": "listed"
     },
     {
-      "slug": "encore-backend-framework-distributed-systems",
-      "name": "Encore Open Source Backend Framework for Type-Safe Distributed Systems",
-      "description": "Encore is an open-source backend development framework for TypeScript and Go that lets you define APIs, services, and infrastructure as type-safe objects in your…",
+      "slug": "mitosis-cross-framework-component-compiler",
+      "name": "Mitosis Cross-Framework Component Compiler by Builder.io",
+      "description": "Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more. Built by Builder.io, it enables…",
       "category": [
         "Developer Tools"
       ],
@@ -28,16 +40,321 @@
       "verification": "listed"
     },
     {
-      "slug": "wasp-full-stack-web-framework",
-      "name": "Wasp Batteries-Included Full-Stack Web Framework for React and Node.js",
-      "description": "Wasp is a Rails-like full-stack web framework that uses a declarative DSL to generate React and Node.js applications with built-in auth, background jobs, email…",
+      "slug": "penrose-math-diagram-generator",
+      "name": "Penrose Mathematical Diagram Generator from Plain Text Notation",
+      "description": "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "convex-reactive-database-backend",
+      "name": "Convex Open Source Reactive Database and Backend Platform",
+      "description": "Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong consistency, real-time subscriptions, and automatic caching. Self-hostable or…",
       "category": [
         "Developer Tools"
       ],
       "framework": [
         "Multi-Framework"
       ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "dotenvx-secure-env-variable-manager",
+      "name": "dotenvx Secure Environment Variable Manager and Encryptor",
+      "description": "dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed"
+    },
+    {
+      "slug": "github-copilot-ai-code-assistant",
+      "name": "GitHub Copilot — AI-Powered Code Completion and Chat Assistant",
+      "description": "GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "autogen-microsoft-multi-agent-framework",
+      "name": "AutoGen — Microsoft Multi-Agent Conversation Framework",
+      "description": "AutoGen is Microsoft's open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 56590
+      }
+    },
+    {
+      "slug": "nestjs-progressive-nodejs-framework",
+      "name": "NestJS — Progressive Node.js Framework for Server-Side Applications",
+      "description": "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 75032
+      }
+    },
+    {
+      "slug": "nuxt-vue-meta-framework-ssr",
+      "name": "Nuxt — Vue.js Meta-Framework for SSR and Static Sites",
+      "description": "Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 59941
+      }
+    },
+    {
+      "slug": "angular-typescript-web-framework",
+      "name": "Angular — TypeScript Web Application Framework by Google",
+      "description": "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 100102
+      }
+    },
+    {
+      "slug": "vue-js-progressive-javascript-framework",
+      "name": "Vue.js — Progressive JavaScript Framework for Building UIs",
+      "description": "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 53358
+      }
+    },
+    {
+      "slug": "pandoc-universal-document-converter",
+      "name": "Pandoc Universal Document Converter",
+      "description": "Pandoc is a free and open-source universal document converter that can translate between dozens of markup and document formats including Markdown, HTML, LaTeX, DOCX,…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 35000
+      }
+    },
+    {
+      "slug": "shadcn-ui-reusable-react-ui-component-collection",
+      "name": "shadcn/ui Re-usable React UI Component Collection",
+      "description": "shadcn/ui is a collection of re-usable, accessible, and customizable UI components built with Radix UI and Tailwind CSS. Unlike traditional component libraries, shadcn/ui components…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 82000
+      }
+    },
+    {
+      "slug": "azure-cli-microsoft-cloud-command-line-interface",
+      "name": "Azure CLI Microsoft Cloud Command-Line Interface",
+      "description": "The Azure CLI is a set of commands used to create and manage Azure resources from the command line. It provides a consistent interface…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4200
+      }
+    },
+    {
+      "slug": "google-cloud-platform-cli-gcloud-tools",
+      "name": "Google Cloud Platform CLI gcloud Command-Line Tools",
+      "description": "The Google Cloud CLI (gcloud) is the primary command-line tool for interacting with Google Cloud services. It enables developers and DevOps engineers to create…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "hugging-face-transformers-machine-learning-library",
+      "name": "Hugging Face Transformers Machine Learning Library",
+      "description": "Hugging Face Transformers is an open-source library providing thousands of pretrained models for NLP, computer vision, audio, and multimodal tasks. It offers a unified…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 140000
+      }
+    },
+    {
+      "slug": "cursor-ai-powered-code-editor",
+      "name": "Cursor AI-Powered Code Editor",
+      "description": "Cursor is an AI-first code editor built on VS Code that deeply integrates large language models into the coding workflow. It enables developers to…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "github-copilot-ai-pair-programmer",
+      "name": "GitHub Copilot AI Pair Programmer",
+      "description": "GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI that helps developers write code faster and with less work. It draws…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "autogen-microsoft-multi-agent-conversation-framework",
+      "name": "AutoGen Microsoft Multi-Agent Conversation Framework",
+      "description": "AutoGen is an open-source framework by Microsoft for building multi-agent AI systems where multiple AI agents collaborate, converse, and execute tasks. It enables complex…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 40000
+      }
+    },
+    {
+      "slug": "flask-lightweight-python-web-framework",
+      "name": "Flask Lightweight Python Web Framework",
+      "description": "Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 68000
+      }
+    },
+    {
+      "slug": "django-python-web-framework",
+      "name": "Django Python Web Framework",
+      "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 82000
+      }
+    },
+    {
+      "slug": "nuxt-vuejs-meta-framework-ssr-ssg",
+      "name": "Nuxt Vue.js Meta-Framework for SSR and SSG",
+      "description": "Nuxt is an open-source framework that makes web development intuitive and powerful. It is built on top of Vue.js and provides server-side rendering (SSR),…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 56000
+      }
+    },
+    {
+      "slug": "angular-typescript-web-application-framework",
+      "name": "Angular TypeScript Web Application Framework",
+      "description": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. It provides a comprehensive platform for building scalable, enterprise-grade…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 96000
+      }
+    },
+    {
+      "slug": "vuejs-progressive-javascript-framework",
+      "name": "Vue.js Progressive JavaScript Framework",
+      "description": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed from the ground up to be incrementally adoptable and focuses on…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 48000
+      }
+    },
+    {
+      "slug": "conftest-opa-config-policy-testing",
+      "name": "Conftest Structured Configuration Policy Testing with OPA Rego",
+      "description": "Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It validates Kubernetes manifests, Terraform configs, Dockerfiles,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "wish-ssh-application-framework",
+      "name": "Wish SSH Application Framework by Charmbracelet",
+      "description": "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "dive-docker-image-layer-explorer",
+      "name": "Dive Docker Image Layer Explorer and Size Optimizer",
+      "description": "Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It helps developers optimize container image…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "fresh-deno-web-framework",
+      "name": "Fresh Next-Generation Web Framework for Deno",
+      "description": "Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero JavaScript to the client by default, and provides…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "papermark-document-sharing-analytics",
+      "name": "Papermark Open Source Document Sharing Platform with Analytics",
+      "description": "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "tabby-self-hosted-ai-coding-assistant",
+      "name": "Tabby Self-Hosted AI Coding Assistant and Copilot Alternative",
+      "description": "Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "xan-simd-csv-processing-cli",
+      "name": "xan SIMD-Powered CSV Processing and Analysis CLI",
+      "description": "xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
     },
     {
       "slug": "supertokens-open-source-auth-platform",
@@ -49,7 +366,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "grapesjs-web-builder-template-framework",
@@ -61,7 +378,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "logto-open-source-auth-infrastructure",
@@ -73,7 +390,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "ollama-local-llm-runner-model-server",
@@ -85,9 +402,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 166694
+        "github_stars": 166737
       }
     },
     {
@@ -100,9 +417,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11436
+        "github_stars": 11438
       }
     },
     {
@@ -115,9 +432,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11657
+        "github_stars": 11660
       }
     },
     {
@@ -130,24 +447,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 78291
-      }
-    },
-    {
-      "slug": "coolify-self-hosted-paas-deployment-2",
-      "name": "Coolify Open Source Self-Hosted PaaS for Application Deployment",
-      "description": "Coolify is an open-source, self-hostable PaaS alternative to Heroku, Vercel, and Netlify. It lets you deploy static sites, databases, full-stack applications, and 280+ one-click…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Custom Agents"
-      ],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 52479
+        "github_stars": 78324
       }
     },
     {
@@ -160,9 +462,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 129544
+        "github_stars": 129602
       }
     },
     {
@@ -175,9 +477,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4941
+        "github_stars": 4943
       }
     },
     {
@@ -190,9 +492,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12569
+        "github_stars": 12571
       }
     },
     {
@@ -205,9 +507,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6287
+        "github_stars": 6289
       }
     },
     {
@@ -220,7 +522,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 5484
       }
@@ -235,7 +537,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 7633
       }
@@ -250,9 +552,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12777
+        "github_stars": 12782
       }
     },
     {
@@ -265,7 +567,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 7726
       }
@@ -280,9 +582,9 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8545
+        "github_stars": 8546
       }
     },
     {
@@ -295,7 +597,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 4513
       }
@@ -310,7 +612,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 8185
       }
@@ -325,9 +627,9 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13210
+        "github_stars": 13214
       }
     },
     {
@@ -340,7 +642,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 4141
       }
@@ -357,7 +659,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 47191
+        "github_stars": 47209
       }
     },
     {
@@ -372,7 +674,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 21709
+        "github_stars": 21715
       }
     },
     {
@@ -387,7 +689,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 45132
+        "github_stars": 45150
       }
     },
     {
@@ -402,7 +704,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13742
+        "github_stars": 13745
       }
     },
     {
@@ -417,7 +719,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10626
+        "github_stars": 10627
       }
     },
     {
@@ -432,7 +734,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10273
+        "github_stars": 10274
       }
     },
     {
@@ -462,7 +764,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3939
+        "github_stars": 3941
       }
     },
     {
@@ -477,7 +779,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 29693
+        "github_stars": 29702
       }
     },
     {
@@ -492,7 +794,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 14966
+        "github_stars": 14967
       }
     },
     {
@@ -522,7 +824,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3320
+        "github_stars": 3322
       }
     },
     {
@@ -537,7 +839,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 60607
+        "github_stars": 60608
       }
     },
     {
@@ -552,7 +854,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 62426
+        "github_stars": 62433
       }
     },
     {
@@ -567,7 +869,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 16277
+        "github_stars": 16280
       }
     },
     {
@@ -582,7 +884,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5128
+        "github_stars": 5129
       }
     },
     {
@@ -597,7 +899,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4521
+        "github_stars": 4522
       }
     },
     {
@@ -627,7 +929,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 31195
+        "github_stars": 31203
       }
     },
     {
@@ -642,7 +944,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9716
+        "github_stars": 9736
       }
     },
     {
@@ -657,7 +959,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 48187
+        "github_stars": 48194
       }
     },
     {
@@ -672,7 +974,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 20488
+        "github_stars": 20506
       }
     },
     {
@@ -687,7 +989,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 19285
+        "github_stars": 19327
       }
     },
     {
@@ -702,7 +1004,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 17913
+        "github_stars": 17923
       }
     },
     {
@@ -717,7 +1019,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4649
+        "github_stars": 4654
       }
     },
     {
@@ -732,7 +1034,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 14246
+        "github_stars": 14248
       }
     },
     {
@@ -763,7 +1065,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "unstructured",
-        "github_stars": 14355,
+        "github_stars": 14370,
         "license": "Apache-2.0"
       }
     },
@@ -780,7 +1082,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "browsertrix-crawler",
-        "github_stars": 1009,
+        "github_stars": 1010,
         "license": "AGPL-3.0"
       }
     },
@@ -797,7 +1099,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "seleniumbase",
-        "github_stars": 12552,
+        "github_stars": 12555,
         "npm_weekly_downloads": 20,
         "license": "MIT"
       }
@@ -860,7 +1162,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "mailhog",
-        "github_stars": 15883,
+        "github_stars": 15888,
         "license": "MIT"
       }
     },
@@ -877,7 +1179,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "puppeteer",
-        "github_stars": 93978,
+        "github_stars": 94001,
         "license": "Apache-2.0"
       }
     },
@@ -894,8 +1196,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright",
-        "github_stars": 85327,
-        "npm_weekly_downloads": 41348319,
+        "github_stars": 85444,
+        "npm_weekly_downloads": 42163860,
         "license": "Apache-2.0"
       }
     },
@@ -929,7 +1231,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "audioflux",
-        "github_stars": 3286,
+        "github_stars": 3288,
         "license": "MIT"
       }
     },
@@ -946,7 +1248,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "leantime",
-        "github_stars": 9450,
+        "github_stars": 9455,
         "license": "AGPL-3.0"
       }
     },
@@ -979,7 +1281,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "elasticpress",
-        "github_stars": 1298,
+        "github_stars": 1297,
         "license": "GPL-2.0"
       }
     },
@@ -1098,7 +1400,7 @@
       "signals": {
         "tool": "dprint",
         "github_stars": 3854,
-        "npm_weekly_downloads": 144753,
+        "npm_weekly_downloads": 146346,
         "license": "MIT"
       }
     },
@@ -1367,7 +1669,7 @@
       "signals": {
         "tool": "nocodb",
         "github_stars": 62560,
-        "npm_weekly_downloads": 541
+        "npm_weekly_downloads": 539
       }
     },
     {
@@ -1384,7 +1686,7 @@
       "signals": {
         "tool": "tiptap",
         "github_stars": 35948,
-        "npm_weekly_downloads": 40129,
+        "npm_weekly_downloads": 40954,
         "license": "MIT"
       }
     },
@@ -1487,7 +1789,7 @@
       "signals": {
         "tool": "webdriverio",
         "github_stars": 9762,
-        "npm_weekly_downloads": 2793816,
+        "npm_weekly_downloads": 2794657,
         "license": "MIT"
       }
     },
@@ -1522,7 +1824,7 @@
       "signals": {
         "tool": "docusaurus",
         "github_stars": 64315,
-        "npm_weekly_downloads": 17913,
+        "npm_weekly_downloads": 18159,
         "license": "MIT"
       }
     },
@@ -1628,7 +1930,7 @@
       "signals": {
         "tool": "sveltia-cms",
         "github_stars": 2245,
-        "npm_weekly_downloads": 3767,
+        "npm_weekly_downloads": 4230,
         "license": "MIT"
       }
     },
@@ -1726,7 +2028,7 @@
       "signals": {
         "tool": "testcafe",
         "github_stars": 9915,
-        "npm_weekly_downloads": 209752,
+        "npm_weekly_downloads": 210187,
         "license": "MIT"
       }
     },
@@ -1772,7 +2074,9 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 14949,
+        "npm_weekly_downloads": 7908
       }
     },
     {
@@ -1783,7 +2087,8 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 20377
       }
     },
     {
@@ -1794,7 +2099,9 @@
       "framework": [],
       "verification": "listed",
       "signals": {
-        "tool": "react"
+        "tool": "react",
+        "github_stars": 46154,
+        "npm_weekly_downloads": 186579
       }
     },
     {
@@ -1809,7 +2116,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 4972,
+        "npm_weekly_downloads": 3406
       }
     },
     {
@@ -1824,7 +2133,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "postgresql"
+        "tool": "postgresql",
+        "github_stars": 35941
       }
     },
     {
@@ -1839,7 +2149,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sqlite"
+        "tool": "sqlite",
+        "github_stars": 1890
       }
     },
     {
@@ -2196,7 +2507,7 @@
       "signals": {
         "tool": "astro",
         "github_stars": 57979,
-        "npm_weekly_downloads": 1902343
+        "npm_weekly_downloads": 1919011
       }
     },
     {
@@ -2213,7 +2524,7 @@
       "signals": {
         "tool": "pagefind",
         "github_stars": 5094,
-        "npm_weekly_downloads": 457379,
+        "npm_weekly_downloads": 457962,
         "license": "MIT"
       }
     },
@@ -2639,7 +2950,7 @@
       "signals": {
         "tool": "novu",
         "github_stars": 38747,
-        "npm_weekly_downloads": 7518
+        "npm_weekly_downloads": 7228
       }
     },
     {
@@ -3045,7 +3356,7 @@
       "signals": {
         "tool": "schema-dts",
         "github_stars": 1164,
-        "npm_weekly_downloads": 1562776
+        "npm_weekly_downloads": 1555901
       }
     },
     {
@@ -3126,7 +3437,7 @@
       "signals": {
         "tool": "decap-cms",
         "github_stars": 18998,
-        "npm_weekly_downloads": 2277
+        "npm_weekly_downloads": 2085
       }
     },
     {
@@ -3143,7 +3454,7 @@
       "signals": {
         "tool": "svgo",
         "github_stars": 22412,
-        "npm_weekly_downloads": 30295409
+        "npm_weekly_downloads": 30339979
       }
     },
     {
@@ -3160,7 +3471,7 @@
       "signals": {
         "tool": "blurhash",
         "github_stars": 16958,
-        "npm_weekly_downloads": 845479
+        "npm_weekly_downloads": 858864
       }
     },
     {
@@ -3353,7 +3664,7 @@
       "signals": {
         "tool": "tinacms",
         "github_stars": 13245,
-        "npm_weekly_downloads": 72078
+        "npm_weekly_downloads": 73658
       }
     },
     {
@@ -3498,7 +3809,7 @@
       "signals": {
         "tool": "pa11y",
         "github_stars": 4418,
-        "npm_weekly_downloads": 241755
+        "npm_weekly_downloads": 241587
       }
     },
     {
@@ -3515,7 +3826,7 @@
       "signals": {
         "tool": "backstopjs",
         "github_stars": 7116,
-        "npm_weekly_downloads": 70868
+        "npm_weekly_downloads": 68338
       }
     },
     {
@@ -3532,7 +3843,7 @@
       "signals": {
         "tool": "posthog-js",
         "github_stars": 531,
-        "npm_weekly_downloads": 4551042
+        "npm_weekly_downloads": 4522169
       }
     },
     {
@@ -3582,7 +3893,7 @@
       "signals": {
         "tool": "contentful-management",
         "github_stars": 286,
-        "npm_weekly_downloads": 783761,
+        "npm_weekly_downloads": 770051,
         "license": "MIT"
       }
     },
@@ -3600,7 +3911,7 @@
       "signals": {
         "tool": "sdk-node",
         "github_stars": 61,
-        "npm_weekly_downloads": 787872,
+        "npm_weekly_downloads": 782799,
         "license": "Apache-2.0"
       }
     },
@@ -3647,7 +3958,7 @@
       "signals": {
         "tool": "sanity",
         "github_stars": 6041,
-        "npm_weekly_downloads": 416222,
+        "npm_weekly_downloads": 412276,
         "license": "MIT"
       }
     },
@@ -3665,7 +3976,7 @@
       "signals": {
         "tool": "unlighthouse",
         "github_stars": 4469,
-        "npm_weekly_downloads": 15947,
+        "npm_weekly_downloads": 16064,
         "license": "MIT"
       }
     },
@@ -3683,7 +3994,7 @@
       "signals": {
         "tool": "browserable",
         "github_stars": 1177,
-        "npm_weekly_downloads": 5,
+        "npm_weekly_downloads": 6,
         "license": "MIT"
       }
     },
@@ -3701,7 +4012,7 @@
       "signals": {
         "tool": "write-good",
         "github_stars": 5065,
-        "npm_weekly_downloads": 51497,
+        "npm_weekly_downloads": 52406,
         "license": "MIT"
       }
     },
@@ -3719,7 +4030,7 @@
       "signals": {
         "tool": "markdownlint-cli2",
         "github_stars": 740,
-        "npm_weekly_downloads": 546891,
+        "npm_weekly_downloads": 529196,
         "license": "MIT"
       }
     },
@@ -3771,7 +4082,7 @@
       "signals": {
         "tool": "crawlee",
         "github_stars": 22591,
-        "npm_weekly_downloads": 79425,
+        "npm_weekly_downloads": 84782,
         "license": "Apache-2.0"
       }
     },
@@ -4043,7 +4354,7 @@
       "signals": {
         "tool": "alex",
         "github_stars": 5096,
-        "npm_weekly_downloads": 25900,
+        "npm_weekly_downloads": 26467,
         "license": "MIT"
       }
     },
@@ -4061,7 +4372,7 @@
       "signals": {
         "tool": "textlint",
         "github_stars": 3099,
-        "npm_weekly_downloads": 100457,
+        "npm_weekly_downloads": 99819,
         "license": "MIT"
       }
     },
@@ -4181,7 +4492,7 @@
       "signals": {
         "tool": "remotion",
         "github_stars": 41477,
-        "npm_weekly_downloads": 474730
+        "npm_weekly_downloads": 485090
       }
     },
     {
@@ -4198,7 +4509,7 @@
       "signals": {
         "tool": "payload",
         "github_stars": 41552,
-        "npm_weekly_downloads": 301749,
+        "npm_weekly_downloads": 305241,
         "license": "MIT"
       }
     },
@@ -4216,7 +4527,7 @@
       "signals": {
         "tool": "strapi",
         "github_stars": 71740,
-        "npm_weekly_downloads": 159654
+        "npm_weekly_downloads": 162641
       }
     },
     {
@@ -4249,7 +4560,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "env",
-        "npm_weekly_downloads": 45402
+        "npm_weekly_downloads": 45294
       }
     },
     {
@@ -4377,7 +4688,7 @@
       "signals": {
         "tool": "tavily-mcp",
         "github_stars": 1615,
-        "npm_weekly_downloads": 93984
+        "npm_weekly_downloads": 76848
       }
     },
     {
@@ -4394,7 +4705,7 @@
       "signals": {
         "tool": "directus",
         "github_stars": 34621,
-        "npm_weekly_downloads": 19339
+        "npm_weekly_downloads": 19022
       }
     },
     {
@@ -4555,7 +4866,7 @@
       "signals": {
         "tool": "jsdoc",
         "github_stars": 15426,
-        "npm_weekly_downloads": 2892026
+        "npm_weekly_downloads": 2989031
       }
     },
     {
@@ -4604,7 +4915,7 @@
       "signals": {
         "tool": "typedoc",
         "github_stars": 8385,
-        "npm_weekly_downloads": 3790587
+        "npm_weekly_downloads": 3828776
       }
     },
     {
@@ -4669,7 +4980,7 @@
       "signals": {
         "tool": "supergateway",
         "github_stars": 2538,
-        "npm_weekly_downloads": 94970
+        "npm_weekly_downloads": 99014
       }
     },
     {
@@ -4750,7 +5061,7 @@
       "signals": {
         "tool": "redoc",
         "github_stars": 25596,
-        "npm_weekly_downloads": 1419036
+        "npm_weekly_downloads": 1409207
       }
     },
     {
@@ -4767,7 +5078,7 @@
       "signals": {
         "tool": "trigger.dev",
         "github_stars": 14318,
-        "npm_weekly_downloads": 198815
+        "npm_weekly_downloads": 200503
       }
     },
     {
@@ -4816,7 +5127,7 @@
       "signals": {
         "tool": "nango",
         "github_stars": 7003,
-        "npm_weekly_downloads": 14368
+        "npm_weekly_downloads": 14543
       }
     },
     {
@@ -5489,7 +5800,7 @@
       "signals": {
         "tool": "fx",
         "github_stars": 20376,
-        "npm_weekly_downloads": 224746
+        "npm_weekly_downloads": 225574
       }
     },
     {
@@ -5539,7 +5850,7 @@
       "signals": {
         "tool": "drizzle-orm",
         "github_stars": 33566,
-        "npm_weekly_downloads": 6520934,
+        "npm_weekly_downloads": 6733525,
         "license": "Apache-2.0"
       }
     },
@@ -5711,7 +6022,7 @@
       "signals": {
         "tool": "sqlite-vec",
         "github_stars": 7331,
-        "npm_weekly_downloads": 1614474
+        "npm_weekly_downloads": 1485498
       }
     },
     {
@@ -6581,7 +6892,7 @@
       "signals": {
         "tool": "nushell",
         "github_stars": 38872,
-        "npm_weekly_downloads": 4326
+        "npm_weekly_downloads": 4262
       }
     },
     {
@@ -7064,7 +7375,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "notion"
+        "tool": "notion",
+        "github_stars": 3438
       }
     },
     {
@@ -7080,7 +7392,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 15185
       }
     },
     {
@@ -7097,7 +7410,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "dbt"
+        "tool": "dbt",
+        "github_stars": 9609
       }
     },
     {
@@ -7113,7 +7427,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pagerduty"
+        "tool": "pagerduty",
+        "github_stars": 11321
       }
     },
     {
@@ -7129,7 +7444,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "parquet"
+        "tool": "parquet",
+        "github_stars": 37119
       }
     },
     {
@@ -7144,7 +7460,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vercel"
+        "tool": "vercel",
+        "github_stars": 30114,
+        "npm_weekly_downloads": 11631136
       }
     },
     {
@@ -7159,7 +7477,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "react"
+        "tool": "react",
+        "github_stars": 11620
       }
     },
     {
@@ -7174,7 +7493,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 10806
       }
     },
     {
@@ -7189,7 +7509,8 @@
       ],
       "verification": "listed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 26298
       }
     },
     {
@@ -7204,7 +7525,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 20468,
+        "npm_weekly_downloads": 4087575
       }
     },
     {
@@ -7217,7 +7540,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13245
+      }
     },
     {
       "slug": "midjourney-prompt-chain-builder",
@@ -7276,7 +7602,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stable.diffusion"
+        "tool": "stable.diffusion",
+        "github_stars": 33793
       }
     },
     {
@@ -7291,7 +7618,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48004
       }
     },
     {
@@ -7304,7 +7632,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7636
+      }
     },
     {
       "slug": "yeoman-sub-generator-composition-builder",
@@ -7316,7 +7647,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3953
+      }
     },
     {
       "slug": "cookiecutter-project-template-scaffolder",
@@ -7328,7 +7662,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24786
+      }
     },
     {
       "slug": "checkly-browser-check-failure-notifier",
@@ -7342,7 +7679,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "playwright"
+        "tool": "playwright",
+        "github_stars": 92
       }
     },
     {
@@ -7372,7 +7710,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sentry"
+        "tool": "sentry",
+        "github_stars": 43486
       }
     },
     {
@@ -7412,7 +7751,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11534
+      }
     },
     {
       "slug": "vault-transit-secrets-envelope-verifier",
@@ -7426,7 +7768,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vault"
+        "tool": "vault",
+        "github_stars": 35321
       }
     },
     {
@@ -7454,7 +7797,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5776
+      }
     },
     {
       "slug": "semgrep-supply-chain-rule-pack-runner",
@@ -7468,7 +7814,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "semgrep"
+        "tool": "semgrep",
+        "github_stars": 14632
       }
     },
     {
@@ -7495,7 +7842,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 121439
       }
     },
     {
@@ -7522,7 +7870,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "datadog"
+        "tool": "datadog",
+        "github_stars": 158
       }
     },
     {
@@ -7567,7 +7916,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "graphql"
+        "tool": "graphql",
+        "github_stars": 959
       }
     },
     {
@@ -7582,7 +7932,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "slack"
+        "tool": "slack",
+        "github_stars": 2898,
+        "npm_weekly_downloads": 1513414
       }
     },
     {
@@ -7595,7 +7947,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 182065
+      }
     },
     {
       "slug": "zapier-webhooks-by-zapier-router",
@@ -7609,7 +7964,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "slack"
+        "tool": "slack",
+        "github_stars": 484
       }
     },
     {
@@ -7634,7 +7990,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 102630
+      }
     },
     {
       "slug": "serpapi-answer-box-extractor",
@@ -7646,7 +8005,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 734
+      }
     },
     {
       "slug": "common-crawl-url-index-miner",
@@ -7670,7 +8032,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10231
+      }
     },
     {
       "slug": "advanced-custom-fields-rest-schema-mapper",

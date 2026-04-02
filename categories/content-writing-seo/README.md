@@ -23,13 +23,13 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 | Skill | Downloads |
 |---|---:|
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 40.1k/wk |
-| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 25.9k/wk |
-| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 51.5k/wk |
-| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.9k/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 100.5k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 41k/wk |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 26.5k/wk |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 52.4k/wk |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 16.1k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 99.8k/wk |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.6M/wk |
-| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 546.9k/wk |
+| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 529.2k/wk |
 
 ---
 
@@ -38,25 +38,26 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 40.1k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 41k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |
-| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 25.9k/wk |
-| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 51.5k/wk |
+| [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 26.5k/wk |
+| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 52.4k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
-| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.9k/wk |
+| [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 16.1k/wk |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.3k | — |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 100.5k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 99.8k/wk |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |
+| [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | 1.4k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.6M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |
-| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 546.9k/wk |
+| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 529.2k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
@@ -92,7 +93,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | — | — |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | — | — |
-| [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | — | — |
 | [Surfer SEO Content Optimizer](../../skills/surfer-seo-content-optimizer/) | — | — |
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |

@@ -35,7 +35,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.1k | — |
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | 11.4k | — |
 | [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | 10.4k | — |
-| [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | 9.4k | — |
+| [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | 9.5k | — |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | 9.4k | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |

@@ -2,10 +2,21 @@
 
 Incident response, troubleshooting guides, system diagnostics, and operational runbooks.
 
+## ⭐ Top Starred
+
+| Skill | Stars |
+|---|---:|
+| [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | ⭐ 121.4k |
+| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
+
+---
+
 ## Full Skill List
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | — |
+| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | — | — |
 | [Ansible Playbook Diagnostics Runner](../../skills/ansible-playbook-diagnostics-runner/) | — | — |
 | [Ansible Playbook Dry Run Validator](../../skills/ansible-playbook-dry-run-validator/) | — | — |
@@ -36,7 +47,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | — | — |
-| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | — | — |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | — | — |
 | [Docker Compose Health Checker](../../skills/docker-compose-health-checker/) | — | — |
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor/) | — | — |
@@ -55,7 +65,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes CrashLoopBackOff Resolver](../../skills/kubernetes-crashloopbackoff-resolver/) | — | — |
 | [Kubernetes Diagnostic Runbook](../../skills/kubernetes-diagnostic-runbook/) | — | — |
 | [Kubernetes Diagnostics Agent](../../skills/kubernetes-diagnostics-agent/) | — | — |
-| [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | — | — |
 | [Kubernetes Incident Runbook](../../skills/kubernetes-incident-runbook/) | — | — |
 | [Kubernetes Pod Crash Analyzer](../../skills/kubernetes-pod-crash-analyzer-3/) | — | — |
 | [Kubernetes Pod Crash Diagnostician](../../skills/kubernetes-pod-crash-diagnostician/) | — | — |

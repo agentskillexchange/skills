@@ -6,6 +6,7 @@ Web research, data collection, content aggregation, and information gathering.
 
 | Skill | Stars |
 |---|---:|
+| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⭐ 102.6k |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | ⭐ 76.2k |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⭐ 63.1k |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⭐ 34.1k |
@@ -15,7 +16,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | ⭐ 19.3k |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | ⭐ 17.2k |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | ⭐ 16.4k |
-| [theHarvester OSINT Email and Subdomain Intelligence Gatherer](../../skills/theharvester-osint-email-subdomain-intelligence/) | ⭐ 15.9k |
 
 ---
 
@@ -23,9 +23,9 @@ Web research, data collection, content aggregation, and information gathering.
 
 | Skill | Downloads |
 |---|---:|
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 79.4k/wk |
-| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | ⬇ 457.4k/wk |
-| [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | ⬇ 94k/wk |
+| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 84.8k/wk |
+| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | ⬇ 458k/wk |
+| [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | ⬇ 76.8k/wk |
 
 ---
 
@@ -33,12 +33,13 @@ Web research, data collection, content aggregation, and information gathering.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | — |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | 76.2k | — |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | 63.1k | — |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.4k | — |
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 79.4k/wk |
+| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 84.8k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |
@@ -49,11 +50,12 @@ Web research, data collection, content aggregation, and information gathering.
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
-| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 457.4k/wk |
+| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 458k/wk |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
-| [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 94k/wk |
+| [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 76.8k/wk |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
+| [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | — | — |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | — | — |
@@ -71,7 +73,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
-| [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | — | — |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
@@ -94,7 +95,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | — | — |
 | [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | — | — |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | — | — |
-| [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | — | — |
 | [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | — | — |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | — | — |
 | [SerpAPI Search Aggregator](../../skills/serpapi-search-aggregator/) | — | — |

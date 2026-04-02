@@ -8,14 +8,14 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | ⭐ 24.9k |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⭐ 20.5k |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⭐ 18.4k |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
-| [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | ⭐ 5.3k |
-| [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | ⭐ 3.9k |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⭐ 3.9k |
-| [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | ⭐ 3.4k |
+| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | ⭐ 13.2k |
+| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | ⭐ 11.3k |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⭐ 10.8k |
 
 ---
 
@@ -23,8 +23,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Downloads |
 |---|---:|
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4.1M/wk |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 575.3k/wk |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 144.8k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 146.3k/wk |
 
 ---
 
@@ -34,18 +35,22 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|---:|
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4.1M/wk |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 575.3k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
+| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
+| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | — |
+| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 144.8k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 146.3k/wk |
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
-| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
 | [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | — |
@@ -76,11 +81,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | — | — |
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
-| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | — | — |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | — | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | — | — |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | — | — |
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
@@ -122,7 +124,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | — | — |
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | — | — |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | — | — |
-| [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | — | — |
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | — | — |
 
 ---
