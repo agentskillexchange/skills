@@ -179,6 +179,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
+| [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | — | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](../../skills/dive-docker-image-layer-explorer/) | — | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | — | — |
 | [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | — | — |

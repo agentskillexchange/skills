@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1608,
+  "total": 1611,
   "generated": "2026-04-02",
   "skills": [
+    {
+      "slug": "ntopng-web-based-network-traffic-monitoring-security",
+      "name": "ntopng Web-Based Network Traffic Monitoring and Security Analysis",
+      "description": "ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows, bandwidth usage, and security threats. With 7.7k+ GitHub stars…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mailspring-open-source-email-client-plugin-architecture",
+      "name": "Mailspring Open Source Email Client with Plugin Architecture",
+      "description": "Mailspring is a beautiful, fast, and fully open source email client for Mac, Windows, and Linux. Built on Electron and React with a C++…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dioxus-rust-fullstack-cross-platform-framework",
+      "name": "Dioxus Rust Fullstack Cross-Platform Application Framework",
+      "description": "Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and mobile from a single codebase. With 24k+…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "markdownify-python-html-to-markdown-converter",
       "name": "markdownify Python HTML to Markdown Conversion Library",

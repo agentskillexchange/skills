@@ -67,6 +67,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
+| [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

@@ -92,6 +92,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
+| [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | — | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | — | — |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | — | — |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | — | — |

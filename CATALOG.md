@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1608 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 13:41 UTC
+> **1611 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-02 15:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (199 skills)
+### 🛠️ Developer Tools (200 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -153,6 +153,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Convex Open Source Reactive Database and Backend Platform](skills/convex-reactive-database-backend/) | Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong… | Security Reviewed | — | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | — | — |
+| [Dioxus Rust Fullstack Cross-Platform Application Framework](skills/dioxus-rust-fullstack-cross-platform-framework/) | Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and… | Published | — | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](skills/dive-docker-image-layer-explorer/) | Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It… | Security Reviewed | — | — |
 | [Docker Compose Generator Skill](skills/docker-compose-generator-skill/) | Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Docker Compose Orchestrator](skills/docker-compose-orchestrator-v2/) | Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health… | Security Reviewed | — | — |
@@ -935,7 +936,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (90 skills)
+### 📊 Monitoring & Alerts (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1001,6 +1002,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates… | Security Reviewed | — | — |
 | [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
+| [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Published | — | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | — | — |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
@@ -1033,7 +1035,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (80 skills)
+### 📅 Calendar, Email & Productivity (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1083,6 +1085,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
 | [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Mailspring Open Source Email Client with Plugin Architecture](skills/mailspring-open-source-email-client-plugin-architecture/) | Mailspring is a beautiful, fast, and fully open source email client for Mac, Windows, and Linux. Built on Electron… | Published | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
 | [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
