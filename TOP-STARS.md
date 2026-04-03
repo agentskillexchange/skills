@@ -9,13 +9,13 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 1 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | yt-dlp | Media & Transcription |
 | 2 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | kubernetes | Runbooks & Diagnostics |
 | 3 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | excalidraw | Image & Creative Automation |
-| 4 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.3k | llama.cpp | Developer Tools |
+| 4 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.9k | llama.cpp | Developer Tools |
 | 5 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | 97.1k | whisper | Media & Transcription |
-| 6 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96k | immich | Media & Transcription |
+| 6 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
 | 7 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | puppeteer | Browser Automation |
-| 8 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 92.9k | markitdown | Data Extraction & Transformation |
+| 8 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
 | 9 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
-| 10 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | 85.4k | playwright | Browser Automation |
+| 10 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | playwright | Browser Automation |
 | 11 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
 | 12 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 82.7k | servers | Data Extraction & Transformation |
 | 13 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
@@ -24,7 +24,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 16 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | 76.4k | elasticsearch | Monitoring & Alerts |
 | 17 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
 | 18 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
-| 19 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 74.8k | vllm | Developer Tools |
+| 19 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 75.1k | vllm | Developer Tools |
 | 20 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | paddleocr | Data Extraction & Transformation |
 | 21 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | 71.7k | strapi | WordPress & CMS |
 | 22 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | caddy | Developer Tools |
@@ -55,7 +55,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 47 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | tts | Media & Transcription |
 | 48 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | upscayl | Image & Creative Automation |
 | 49 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | helix | Developer Tools |
-| 50 | [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | 43.5k | sentry | Monitoring & Alerts |
+| 50 | [Twenty Open Source CRM Platform and Salesforce Alternative](skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | twenty | Calendar, Email & Productivity |
 
 ---
 
