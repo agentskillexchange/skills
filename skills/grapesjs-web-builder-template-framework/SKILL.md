@@ -28,20 +28,35 @@ The editor exposes a comprehensive JavaScript API for interacting with component
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install grapesjs-web-builder-template-framework
-
-# OpenClaw CLI
-openclaw skill install grapesjs-web-builder-template-framework
-
-# Manual download
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/grapesjs-web-builder-template-framework ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill grapesjs-web-builder-template-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill grapesjs-web-builder-template-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill grapesjs-web-builder-template-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill grapesjs-web-builder-template-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install grapesjs-web-builder-template-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/grapesjs-web-builder-template-framework/)

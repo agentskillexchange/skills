@@ -1,8 +1,9 @@
 ---
 name: "Azure CLI Microsoft Cloud Command-Line Interface"
 description: "The Azure CLI is a set of commands used to create and manage Azure resources from the command line. It provides a consistent interface for interacting with Azure services across Windows, macOS, and Li"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/Azure/azure-cli"
-verification: listed
 tool_ecosystem:
   github_repo: "Azure/azure-cli"
   github_stars: 4200
@@ -14,23 +15,35 @@ The Azure CLI is a set of commands used to create and manage Azure resources fro
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install azure-cli-microsoft-cloud-command-line-interface
-
-# OpenClaw CLI
-openclaw skill install azure-cli-microsoft-cloud-command-line-interface
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/azure-cli-microsoft-cloud-command-line-interface ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/azure-cli-microsoft-cloud-command-line-interface/
+npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud-command-line-interface
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud-command-line-interface -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud-command-line-interface -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud-command-line-interface -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install azure-cli-microsoft-cloud-command-line-interface
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/azure-cli-microsoft-cloud-command-line-interface/)

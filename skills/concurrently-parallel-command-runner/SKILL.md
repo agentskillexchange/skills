@@ -15,12 +15,28 @@ Concurrently runs multiple commands in parallel with color-coded output, prefix 
 
 ## Installation
 
-Install this skill using one of these methods:
-
-### Claude Desktop (MCP)
+### Any Agent
 
 ```bash
-clawhub install concurrently-parallel-command-runner
+npx skills add agentskillexchange/skills --skill concurrently-parallel-command-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill concurrently-parallel-command-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill concurrently-parallel-command-runner -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill concurrently-parallel-command-runner -a codex
 ```
 
 ### OpenClaw
@@ -28,25 +44,6 @@ clawhub install concurrently-parallel-command-runner
 ```bash
 clawhub install concurrently-parallel-command-runner
 ```
-
-### Goose
-
-```bash
-clawhub install concurrently-parallel-command-runner
-```
-
-### Claude Code
-
-```bash
-clawhub install concurrently-parallel-command-runner
-```
-
-### Cursor / Windsurf
-
-```bash
-clawhub install concurrently-parallel-command-runner
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/concurrently-parallel-command-runner/)

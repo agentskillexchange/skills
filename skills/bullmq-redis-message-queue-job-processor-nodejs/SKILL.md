@@ -13,21 +13,35 @@ BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, 
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (recommended)
+```bash
+npx skills add agentskillexchange/skills --skill bullmq-redis-message-queue-job-processor-nodejs
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bullmq-redis-message-queue-job-processor-nodejs -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bullmq-redis-message-queue-job-processor-nodejs -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill bullmq-redis-message-queue-job-processor-nodejs -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install bullmq-redis-message-queue-job-processor-nodejs
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills add bullmq-redis-message-queue-job-processor-nodejs
-```
-
-### Manual Installation
-Copy the skill folder to your agent's skills directory.
-
 ## Source
 
 - [Upstream Project](https://github.com/taskforcesh/bullmq)

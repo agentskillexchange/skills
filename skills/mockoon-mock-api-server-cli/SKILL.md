@@ -17,23 +17,35 @@ Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub CLI
-clawhub install mockoon-mock-api-server-cli
-
-# OpenClaw chat command
-/skill install mockoon-mock-api-server-cli
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/mockoon-mock-api-server-cli ~/.openclaw/workspace/skills/
-
-# Direct download
-curl -sL https://raw.githubusercontent.com/agentskillexchange/skills/main/skills/mockoon-mock-api-server-cli/SKILL.md > SKILL.md
+npx skills add agentskillexchange/skills --skill mockoon-mock-api-server-cli
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mockoon-mock-api-server-cli -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mockoon-mock-api-server-cli -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill mockoon-mock-api-server-cli -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install mockoon-mock-api-server-cli
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/mockoon-mock-api-server-cli/)

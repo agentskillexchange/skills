@@ -14,19 +14,35 @@ usql is a universal command-line interface for SQL databases including PostgreSQ
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install usql-universal-sql-client
-
-# OpenClaw CLI
-openclaw skill install usql-universal-sql-client
-
-# Marketplace
-# Visit https://agentskillexchange.com/skills/usql-universal-sql-client/
+npx skills add agentskillexchange/skills --skill usql-universal-sql-client
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill usql-universal-sql-client -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill usql-universal-sql-client -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill usql-universal-sql-client -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install usql-universal-sql-client
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/usql-universal-sql-client/)

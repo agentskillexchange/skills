@@ -33,33 +33,35 @@ xan is designed for Unix pipeline composition, reading from stdin and writing to
 
 ## Installation
 
-Install as an agent skill using one of these methods:
+### Any Agent
 
-### OpenClaw
 ```bash
-openclaw skill install xan-simd-csv-processing-cli
+npx skills add agentskillexchange/skills --skill xan-simd-csv-processing-cli
 ```
 
 ### Claude Code
+
 ```bash
-claude mcp add xan-simd-csv-processing-cli
+npx skills add agentskillexchange/skills --skill xan-simd-csv-processing-cli -a claude-code
 ```
 
-### Cursor / Windsurf
-Add to your `.cursor/skills/` or `.windsurf/skills/` directory.
+### Cursor
 
-### Manual Install
 ```bash
-cargo install xan --locked
-# or
-brew install xan
-# or
-conda install conda-forge::xan
+npx skills add agentskillexchange/skills --skill xan-simd-csv-processing-cli -a cursor
 ```
 
-### ChatGPT
-Import this skill via the Agent Skill Exchange.
+### Codex
 
+```bash
+npx skills add agentskillexchange/skills --skill xan-simd-csv-processing-cli -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install xan-simd-csv-processing-cli
+```
 ## Source
 
 - [xan on GitHub](https://github.com/medialab/xan)

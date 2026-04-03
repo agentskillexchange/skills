@@ -12,20 +12,35 @@ Pyroscope is an open-source continuous profiling platform by Grafana Labs that h
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install pyroscope-continuous-profiling-platform-grafana
-
-# OpenClaw CLI
-openclaw skill install pyroscope-continuous-profiling-platform-grafana
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/pyroscope-continuous-profiling-platform-grafana ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill pyroscope-continuous-profiling-platform-grafana
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pyroscope-continuous-profiling-platform-grafana -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pyroscope-continuous-profiling-platform-grafana -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pyroscope-continuous-profiling-platform-grafana -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pyroscope-continuous-profiling-platform-grafana
+```
 ## Source
 
 - [Upstream Project](https://github.com/grafana/pyroscope)

@@ -12,20 +12,35 @@ PM2 is a production-grade process manager for Node.js and Bun applications with 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# Using ClawHub (recommended)
-clawhub install pm2-nodejs-production-process-manager
-
-# Using OpenClaw CLI
-openclaw skills install pm2-nodejs-production-process-manager
-
-# Using git
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/pm2-nodejs-production-process-manager ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill pm2-nodejs-production-process-manager
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pm2-nodejs-production-process-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pm2-nodejs-production-process-manager -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pm2-nodejs-production-process-manager -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pm2-nodejs-production-process-manager
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pm2-nodejs-production-process-manager/)

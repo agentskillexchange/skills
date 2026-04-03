@@ -1,7 +1,7 @@
 ---
 name: "rehype Plugin-Based HTML Processor by the Unified Collective"
 description: "rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable plugins, and serializes it back — enabling programmatic HTML minification, sanitization, link rewriting, heading extraction, and content manipulation at scale."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 source: "https://github.com/rehypejs/rehype"
 verification: "listed"
 ---
@@ -12,18 +12,35 @@ rehype is a plugin-based HTML processing toolkit built on the unified ecosystem.
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**OpenClaw CLI:**
 ```bash
-openclaw skills install rehype-html-processor-unified
+npx skills add agentskillexchange/skills --skill rehype-html-processor-unified
 ```
 
-**ClawHub CLI:**
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill rehype-html-processor-unified -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill rehype-html-processor-unified -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill rehype-html-processor-unified -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install rehype-html-processor-unified
 ```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/rehype-html-processor-unified/)

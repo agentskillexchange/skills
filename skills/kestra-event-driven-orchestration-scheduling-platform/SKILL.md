@@ -13,21 +13,35 @@ Kestra is an open-source, event-driven orchestration platform that makes both sc
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (recommended)
+```bash
+npx skills add agentskillexchange/skills --skill kestra-event-driven-orchestration-scheduling-platform
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kestra-event-driven-orchestration-scheduling-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kestra-event-driven-orchestration-scheduling-platform -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill kestra-event-driven-orchestration-scheduling-platform -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install kestra-event-driven-orchestration-scheduling-platform
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills add kestra-event-driven-orchestration-scheduling-platform
-```
-
-### Manual Installation
-Copy the skill folder to your agent's skills directory.
-
 ## Source
 
 - [Upstream Project](https://github.com/kestra-io/kestra)

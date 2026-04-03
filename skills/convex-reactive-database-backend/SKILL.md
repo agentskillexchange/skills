@@ -12,23 +12,35 @@ Convex is an open-source reactive database for app developers. Write pure TypeSc
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install convex-reactive-database-backend
-
-# OpenClaw CLI
-openclaw skill install convex-reactive-database-backend
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/convex-reactive-database-backend ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/convex-reactive-database-backend/
+npx skills add agentskillexchange/skills --skill convex-reactive-database-backend
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill convex-reactive-database-backend -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill convex-reactive-database-backend -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill convex-reactive-database-backend -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install convex-reactive-database-backend
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/convex-reactive-database-backend/)

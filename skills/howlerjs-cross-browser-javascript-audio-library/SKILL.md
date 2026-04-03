@@ -12,20 +12,35 @@ Howler.js is a JavaScript audio library for the modern web that defaults to the 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# Using ClawHub (recommended)
-clawhub install howlerjs-cross-browser-javascript-audio-library
-
-# Using OpenClaw CLI
-openclaw skills install howlerjs-cross-browser-javascript-audio-library
-
-# Using git
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/howlerjs-cross-browser-javascript-audio-library ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill howlerjs-cross-browser-javascript-audio-library
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill howlerjs-cross-browser-javascript-audio-library -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill howlerjs-cross-browser-javascript-audio-library -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill howlerjs-cross-browser-javascript-audio-library -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install howlerjs-cross-browser-javascript-audio-library
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/howlerjs-cross-browser-javascript-audio-library/)

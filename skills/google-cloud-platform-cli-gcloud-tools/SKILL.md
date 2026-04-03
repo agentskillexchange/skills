@@ -1,8 +1,9 @@
 ---
 name: "Google Cloud Platform CLI gcloud Command-Line Tools"
 description: "The Google Cloud CLI (gcloud) is the primary command-line tool for interacting with Google Cloud services. It enables developers and DevOps engineers to create and manage GCP resources including Compu"
+category: "Uncategorized"
+verification: "listed"
 source: "https://cloud.google.com/sdk"
-verification: listed
 ---
 
 # Google Cloud Platform CLI gcloud Command-Line Tools
@@ -11,23 +12,35 @@ The Google Cloud CLI (gcloud) is the primary command-line tool for interacting w
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install google-cloud-platform-cli-gcloud-tools
-
-# OpenClaw CLI
-openclaw skill install google-cloud-platform-cli-gcloud-tools
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/google-cloud-platform-cli-gcloud-tools ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/google-cloud-platform-cli-gcloud-tools/
+npx skills add agentskillexchange/skills --skill google-cloud-platform-cli-gcloud-tools
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-platform-cli-gcloud-tools -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-platform-cli-gcloud-tools -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-platform-cli-gcloud-tools -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install google-cloud-platform-cli-gcloud-tools
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/google-cloud-platform-cli-gcloud-tools/)

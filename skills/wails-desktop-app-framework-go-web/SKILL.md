@@ -12,23 +12,35 @@ Wails is an open source framework for building desktop applications using Go for
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install wails-desktop-app-framework-go-web
-
-# OpenClaw CLI
-openclaw skill install wails-desktop-app-framework-go-web
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/wails-desktop-app-framework-go-web ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/wails-desktop-app-framework-go-web/
+npx skills add agentskillexchange/skills --skill wails-desktop-app-framework-go-web
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wails-desktop-app-framework-go-web -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wails-desktop-app-framework-go-web -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wails-desktop-app-framework-go-web -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wails-desktop-app-framework-go-web
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/wails-desktop-app-framework-go-web/)

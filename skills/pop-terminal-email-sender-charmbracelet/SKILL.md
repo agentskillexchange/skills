@@ -14,19 +14,35 @@ Pop is a terminal-based email sending tool by Charmbracelet with both a TUI comp
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install pop-terminal-email-sender-charmbracelet
-
-# OpenClaw CLI
-openclaw skill install pop-terminal-email-sender-charmbracelet
-
-# Marketplace
-# Visit https://agentskillexchange.com/skills/pop-terminal-email-sender-charmbracelet/
+npx skills add agentskillexchange/skills --skill pop-terminal-email-sender-charmbracelet
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pop-terminal-email-sender-charmbracelet -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pop-terminal-email-sender-charmbracelet -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pop-terminal-email-sender-charmbracelet -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pop-terminal-email-sender-charmbracelet
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pop-terminal-email-sender-charmbracelet/)

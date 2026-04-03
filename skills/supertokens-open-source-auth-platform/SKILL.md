@@ -28,20 +28,35 @@ Self-hosted deployment runs the SuperTokens Core as a Docker container alongside
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install supertokens-open-source-auth-platform
-
-# OpenClaw CLI
-openclaw skill install supertokens-open-source-auth-platform
-
-# Manual download
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/supertokens-open-source-auth-platform ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill supertokens-open-source-auth-platform
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill supertokens-open-source-auth-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill supertokens-open-source-auth-platform -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill supertokens-open-source-auth-platform -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install supertokens-open-source-auth-platform
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/supertokens-open-source-auth-platform/)

@@ -12,23 +12,35 @@ Fresh is a next-generation web framework built for Deno that uses island-based c
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install fresh-deno-web-framework
-
-# OpenClaw CLI
-openclaw skill install fresh-deno-web-framework
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/fresh-deno-web-framework ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/fresh-deno-web-framework/
+npx skills add agentskillexchange/skills --skill fresh-deno-web-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill fresh-deno-web-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill fresh-deno-web-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill fresh-deno-web-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install fresh-deno-web-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/fresh-deno-web-framework/)

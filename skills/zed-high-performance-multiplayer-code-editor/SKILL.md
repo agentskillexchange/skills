@@ -16,23 +16,35 @@ Zed is a high-performance, multiplayer code editor built in Rust by the creators
 
 ## Installation
 
-### From Agent Skill Exchange
-Visit [Agent Skill Exchange](https://agentskillexchange.com/skills/zed-high-performance-multiplayer-code-editor/) to install.
+### Any Agent
 
-### From GitHub
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cd skills/skills/zed-high-performance-multiplayer-code-editor
+npx skills add agentskillexchange/skills --skill zed-high-performance-multiplayer-code-editor
 ```
 
-### Using ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill zed-high-performance-multiplayer-code-editor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill zed-high-performance-multiplayer-code-editor -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill zed-high-performance-multiplayer-code-editor -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install zed-high-performance-multiplayer-code-editor
 ```
-
-### Manual Installation
-Copy the `zed-high-performance-multiplayer-code-editor` directory to your agent's skills folder.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/zed-high-performance-multiplayer-code-editor/)

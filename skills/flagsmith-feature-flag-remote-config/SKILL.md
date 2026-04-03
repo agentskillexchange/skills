@@ -15,9 +15,35 @@ Flagsmith is an open-source feature flagging and remote configuration platform. 
 
 ## Installation
 
-**Install via Agent Skill Exchange:**
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/flagsmith-feature-flag-remote-config/)
+### Any Agent
 
+```bash
+npx skills add agentskillexchange/skills --skill flagsmith-feature-flag-remote-config
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill flagsmith-feature-flag-remote-config -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill flagsmith-feature-flag-remote-config -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill flagsmith-feature-flag-remote-config -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install flagsmith-feature-flag-remote-config
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/flagsmith-feature-flag-remote-config/)

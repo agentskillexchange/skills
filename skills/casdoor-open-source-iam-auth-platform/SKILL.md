@@ -1,7 +1,7 @@
 ---
 name: "Casdoor Open Source Identity and Access Management Platform"
 description: "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, and MCP gateway integration wit"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 source: "https://github.com/casdoor/casdoor"
 verification: listed
 ---
@@ -12,23 +12,35 @@ Casdoor is an open source AI-first Identity and Access Management (IAM) platform
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install casdoor-open-source-iam-auth-platform
-
-# OpenClaw CLI
-openclaw skill install casdoor-open-source-iam-auth-platform
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/casdoor-open-source-iam-auth-platform ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/casdoor-open-source-iam-auth-platform/
+npx skills add agentskillexchange/skills --skill casdoor-open-source-iam-auth-platform
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill casdoor-open-source-iam-auth-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill casdoor-open-source-iam-auth-platform -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill casdoor-open-source-iam-auth-platform -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install casdoor-open-source-iam-auth-platform
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/casdoor-open-source-iam-auth-platform/)

@@ -13,21 +13,35 @@ Prefect is a Python workflow orchestration framework for building resilient data
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (recommended)
+```bash
+npx skills add agentskillexchange/skills --skill prefect-python-workflow-orchestration-data-pipelines
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prefect-python-workflow-orchestration-data-pipelines -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prefect-python-workflow-orchestration-data-pipelines -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill prefect-python-workflow-orchestration-data-pipelines -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install prefect-python-workflow-orchestration-data-pipelines
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills add prefect-python-workflow-orchestration-data-pipelines
-```
-
-### Manual Installation
-Copy the skill folder to your agent's skills directory.
-
 ## Source
 
 - [Upstream Project](https://github.com/PrefectHQ/prefect)

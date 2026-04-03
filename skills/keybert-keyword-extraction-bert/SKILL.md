@@ -17,23 +17,35 @@ KeyBERT is a minimal and easy-to-use Python library that leverages BERT embeddin
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub CLI
-clawhub install keybert-keyword-extraction-bert
-
-# OpenClaw chat command
-/skill install keybert-keyword-extraction-bert
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/keybert-keyword-extraction-bert ~/.openclaw/workspace/skills/
-
-# Direct download
-curl -sL https://raw.githubusercontent.com/agentskillexchange/skills/main/skills/keybert-keyword-extraction-bert/SKILL.md > SKILL.md
+npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install keybert-keyword-extraction-bert
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/)

@@ -14,19 +14,35 @@ Tealdeer is a very fast Rust implementation of the tldr project — simplified, 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install tealdeer-fast-tldr-client-rust
-
-# OpenClaw CLI
-openclaw skill install tealdeer-fast-tldr-client-rust
-
-# Marketplace
-# Visit https://agentskillexchange.com/skills/tealdeer-fast-tldr-client-rust/
+npx skills add agentskillexchange/skills --skill tealdeer-fast-tldr-client-rust
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tealdeer-fast-tldr-client-rust -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tealdeer-fast-tldr-client-rust -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill tealdeer-fast-tldr-client-rust -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install tealdeer-fast-tldr-client-rust
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/tealdeer-fast-tldr-client-rust/)

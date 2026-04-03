@@ -1,8 +1,9 @@
 ---
 name: "GitHub Copilot AI Pair Programmer"
 description: "GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI that helps developers write code faster and with less work. It draws context from comments and code to suggest individual lines"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/features/copilot"
-verification: listed
 ---
 
 # GitHub Copilot AI Pair Programmer
@@ -11,23 +12,35 @@ GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI that hel
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install github-copilot-ai-pair-programmer
-
-# OpenClaw CLI
-openclaw skill install github-copilot-ai-pair-programmer
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/github-copilot-ai-pair-programmer ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/github-copilot-ai-pair-programmer/
+npx skills add agentskillexchange/skills --skill github-copilot-ai-pair-programmer
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-copilot-ai-pair-programmer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-copilot-ai-pair-programmer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill github-copilot-ai-pair-programmer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install github-copilot-ai-pair-programmer
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/github-copilot-ai-pair-programmer/)

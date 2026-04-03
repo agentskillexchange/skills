@@ -1,7 +1,7 @@
 ---
 name: "Penrose Mathematical Diagram Generator from Plain Text Notation"
 description: "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply style rules to gene"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 source: "https://github.com/penrose/penrose"
 verification: security_reviewed
 ---
@@ -12,23 +12,35 @@ Penrose is an open-source platform that creates beautiful mathematical and scien
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install penrose-math-diagram-generator
-
-# OpenClaw CLI
-openclaw skill install penrose-math-diagram-generator
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/penrose-math-diagram-generator ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/penrose-math-diagram-generator/
+npx skills add agentskillexchange/skills --skill penrose-math-diagram-generator
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill penrose-math-diagram-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill penrose-math-diagram-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill penrose-math-diagram-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install penrose-math-diagram-generator
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/penrose-math-diagram-generator/)

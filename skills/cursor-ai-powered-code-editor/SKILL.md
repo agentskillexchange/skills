@@ -1,8 +1,9 @@
 ---
 name: "Cursor AI-Powered Code Editor"
 description: "Cursor is an AI-first code editor built on VS Code that deeply integrates large language models into the coding workflow. It enables developers to write, edit, and understand code through natural lang"
+category: "Uncategorized"
+verification: "listed"
 source: "https://cursor.com"
-verification: listed
 ---
 
 # Cursor AI-Powered Code Editor
@@ -11,23 +12,35 @@ Cursor is an AI-first code editor built on VS Code that deeply integrates large 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install cursor-ai-powered-code-editor
-
-# OpenClaw CLI
-openclaw skill install cursor-ai-powered-code-editor
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/cursor-ai-powered-code-editor ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/cursor-ai-powered-code-editor/
+npx skills add agentskillexchange/skills --skill cursor-ai-powered-code-editor
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cursor-ai-powered-code-editor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cursor-ai-powered-code-editor -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill cursor-ai-powered-code-editor -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install cursor-ai-powered-code-editor
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/cursor-ai-powered-code-editor/)

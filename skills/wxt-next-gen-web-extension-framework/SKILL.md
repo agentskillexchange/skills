@@ -33,26 +33,35 @@ WXT includes a module system for sharing reusable code between extensions. Modul
 
 ## Installation
 
-```bash
-# npm
-npm install wxt
-
-# pnpm
-pnpm add wxt
-
-# yarn
-yarn add wxt
-
-# bun
-bun add wxt
-```
-
-Or create a new extension project:
+### Any Agent
 
 ```bash
-npx wxt@latest init my-extension
+npx skills add agentskillexchange/skills --skill wxt-next-gen-web-extension-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wxt-next-gen-web-extension-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wxt-next-gen-web-extension-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wxt-next-gen-web-extension-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wxt-next-gen-web-extension-framework
+```
 ## Documentation
 
 - [WXT Documentation](https://wxt.dev)

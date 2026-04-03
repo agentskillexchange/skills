@@ -15,9 +15,35 @@ Documenso is an open-source digital document signing platform and DocuSign alter
 
 ## Installation
 
-**Install via Agent Skill Exchange:**
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/documenso-open-source-document-signing/)
+### Any Agent
 
+```bash
+npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install documenso-open-source-document-signing
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/documenso-open-source-document-signing/)

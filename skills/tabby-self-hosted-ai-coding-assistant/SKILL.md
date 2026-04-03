@@ -12,23 +12,35 @@ Tabby is an open-source, self-hosted AI coding assistant that serves as an on-pr
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install tabby-self-hosted-ai-coding-assistant
-
-# OpenClaw CLI
-openclaw skill install tabby-self-hosted-ai-coding-assistant
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/tabby-self-hosted-ai-coding-assistant ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/tabby-self-hosted-ai-coding-assistant/
+npx skills add agentskillexchange/skills --skill tabby-self-hosted-ai-coding-assistant
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tabby-self-hosted-ai-coding-assistant -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tabby-self-hosted-ai-coding-assistant -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill tabby-self-hosted-ai-coding-assistant -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install tabby-self-hosted-ai-coding-assistant
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/tabby-self-hosted-ai-coding-assistant/)

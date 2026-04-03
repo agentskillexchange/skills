@@ -13,25 +13,35 @@ Docmost is an open-source collaborative wiki and documentation platform that ser
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill docmost-open-source-collaborative-wiki-documentation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docmost-open-source-collaborative-wiki-documentation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docmost-open-source-collaborative-wiki-documentation -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill docmost-open-source-collaborative-wiki-documentation -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install docmost-open-source-collaborative-wiki-documentation
 ```
-
-### OpenClaw Chat
-Tell your assistant: "Install the Docmost Open Source Collaborative Wiki and Documentation Platform skill"
-
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/docmost-open-source-collaborative-wiki-documentation/)
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/docmost-open-source-collaborative-wiki-documentation ~/.openclaw/workspace/skills/
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/docmost-open-source-collaborative-wiki-documentation/)

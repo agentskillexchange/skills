@@ -1,8 +1,9 @@
 ---
 name: "Hugging Face Transformers Machine Learning Library"
 description: "Hugging Face Transformers is an open-source library providing thousands of pretrained models for NLP, computer vision, audio, and multimodal tasks. It offers a unified API to download and use state-of"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/huggingface/transformers"
-verification: listed
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 140000
@@ -14,23 +15,35 @@ Hugging Face Transformers is an open-source library providing thousands of pretr
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install hugging-face-transformers-machine-learning-library
-
-# OpenClaw CLI
-openclaw skill install hugging-face-transformers-machine-learning-library
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/hugging-face-transformers-machine-learning-library ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/hugging-face-transformers-machine-learning-library/
+npx skills add agentskillexchange/skills --skill hugging-face-transformers-machine-learning-library
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-transformers-machine-learning-library -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-transformers-machine-learning-library -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill hugging-face-transformers-machine-learning-library -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install hugging-face-transformers-machine-learning-library
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/hugging-face-transformers-machine-learning-library/)

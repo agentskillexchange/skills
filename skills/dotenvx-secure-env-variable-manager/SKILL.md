@@ -1,7 +1,7 @@
 ---
 name: "dotenvx Secure Environment Variable Manager and Encryptor"
 description: "dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any programming language or fra"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 source: "https://github.com/dotenvx/dotenvx"
 verification: listed
 ---
@@ -12,23 +12,35 @@ dotenvx is a secure, cross-platform environment variable manager from the creato
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install dotenvx-secure-env-variable-manager
-
-# OpenClaw CLI
-openclaw skill install dotenvx-secure-env-variable-manager
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/dotenvx-secure-env-variable-manager ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/dotenvx-secure-env-variable-manager/
+npx skills add agentskillexchange/skills --skill dotenvx-secure-env-variable-manager
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dotenvx-secure-env-variable-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dotenvx-secure-env-variable-manager -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dotenvx-secure-env-variable-manager -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dotenvx-secure-env-variable-manager
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/dotenvx-secure-env-variable-manager/)

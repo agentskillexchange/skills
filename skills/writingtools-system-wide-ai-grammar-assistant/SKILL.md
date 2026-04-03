@@ -33,21 +33,35 @@ The Windows and Linux version is built with Python, while the macOS port is a na
 
 ## Installation
 
-### Windows / Linux
-
-Download the latest release from the [GitHub Releases page](https://github.com/theJayTea/WritingTools/releases), or run from source:
+### Any Agent
 
 ```bash
-git clone https://github.com/theJayTea/WritingTools.git
-cd WritingTools
-pip install -r requirements.txt
-python main.py
+npx skills add agentskillexchange/skills --skill writingtools-system-wide-ai-grammar-assistant
 ```
 
-### macOS
+### Claude Code
 
-Download the macOS app from the [Releases page](https://github.com/theJayTea/WritingTools/releases) or build from the Swift source in the repository.
+```bash
+npx skills add agentskillexchange/skills --skill writingtools-system-wide-ai-grammar-assistant -a claude-code
+```
 
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill writingtools-system-wide-ai-grammar-assistant -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill writingtools-system-wide-ai-grammar-assistant -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install writingtools-system-wide-ai-grammar-assistant
+```
 ## Source
 
 - [GitHub](https://github.com/theJayTea/WritingTools)

@@ -1,8 +1,9 @@
 ---
 name: "Vue.js — Progressive JavaScript Framework for Building UIs"
 description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vit"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/vuejs/core"
-verification: listed
 tool_ecosystem:
   github_repo: "vuejs/core"
   github_stars: 53358
@@ -14,23 +15,35 @@ Vue.js is a progressive JavaScript framework for building user interfaces with a
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install vue-js-progressive-javascript-framework
-
-# OpenClaw CLI
-openclaw skill install vue-js-progressive-javascript-framework
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/vue-js-progressive-javascript-framework ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/
+npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install vue-js-progressive-javascript-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/)

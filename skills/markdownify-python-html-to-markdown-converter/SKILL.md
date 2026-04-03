@@ -13,27 +13,35 @@ markdownify is a Python library that converts HTML content to clean Markdown tex
 
 ## Installation
 
-Install using one of these methods:
+### Any Agent
 
-### Claude Code
 ```bash
-claude mcp add markdownify-python-html-to-markdown-converter
+npx skills add agentskillexchange/skills --skill markdownify-python-html-to-markdown-converter
 ```
 
-### OpenClaw
+### Claude Code
+
 ```bash
-clawhub install markdownify-python-html-to-markdown-converter
+npx skills add agentskillexchange/skills --skill markdownify-python-html-to-markdown-converter -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json` configuration
 
-### Windsurf
-Add to your Windsurf MCP configuration
+```bash
+npx skills add agentskillexchange/skills --skill markdownify-python-html-to-markdown-converter -a cursor
+```
 
-### ChatGPT
-Use the ChatGPT plugin or custom action configuration
+### Codex
 
+```bash
+npx skills add agentskillexchange/skills --skill markdownify-python-html-to-markdown-converter -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install markdownify-python-html-to-markdown-converter
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/markdownify-python-html-to-markdown-converter/)

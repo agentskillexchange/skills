@@ -12,23 +12,35 @@ Dive is a CLI tool for exploring Docker image layers, analyzing file system chan
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install dive-docker-image-layer-explorer
-
-# OpenClaw CLI
-openclaw skill install dive-docker-image-layer-explorer
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/dive-docker-image-layer-explorer ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/dive-docker-image-layer-explorer/
+npx skills add agentskillexchange/skills --skill dive-docker-image-layer-explorer
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dive-docker-image-layer-explorer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dive-docker-image-layer-explorer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dive-docker-image-layer-explorer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dive-docker-image-layer-explorer
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/dive-docker-image-layer-explorer/)

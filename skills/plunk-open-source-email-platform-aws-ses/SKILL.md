@@ -15,9 +15,35 @@ Plunk is an open-source email platform built on AWS SES for sending transactiona
 
 ## Installation
 
-**Install via Agent Skill Exchange:**
-- [View on Agent Skill Exchange](https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/)
+### Any Agent
 
+```bash
+npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install plunk-open-source-email-platform-aws-ses
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/)

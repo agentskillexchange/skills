@@ -14,19 +14,35 @@ Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so yo
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install horcrux-shamir-secret-file-splitter
-
-# OpenClaw CLI
-openclaw skill install horcrux-shamir-secret-file-splitter
-
-# Marketplace
-# Visit https://agentskillexchange.com/skills/horcrux-shamir-secret-file-splitter/
+npx skills add agentskillexchange/skills --skill horcrux-shamir-secret-file-splitter
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill horcrux-shamir-secret-file-splitter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill horcrux-shamir-secret-file-splitter -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill horcrux-shamir-secret-file-splitter -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install horcrux-shamir-secret-file-splitter
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/horcrux-shamir-secret-file-splitter/)

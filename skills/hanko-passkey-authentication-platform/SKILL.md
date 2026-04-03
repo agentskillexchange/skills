@@ -1,6 +1,7 @@
 ---
 name: "Hanko Open Source Passkey Authentication and User Management"
-category: "Security &amp; Verification"
+description: "Hanko is an open-source authentication and user management platform built on passkeys and WebAuthn. It provides a drop-in authentication solution as an alternative to Auth0, Clerk, and Stytch, with pre-built web components, a REST API, and an admi..."
+category: "Security & Verification"
 framework: "Custom Agents"
 verification: "listed"
 source: "https://github.com/teamhanko/hanko"
@@ -12,21 +13,35 @@ Hanko is an open-source authentication and user management platform built on pas
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill hanko-passkey-authentication-platform
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill hanko-passkey-authentication-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill hanko-passkey-authentication-platform -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill hanko-passkey-authentication-platform -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install hanko-passkey-authentication-platform
 ```
-
-### OpenClaw CLI
-```bash
-openclaw skills install hanko-passkey-authentication-platform
-```
-
-### Manual Installation
-Download the SKILL.md file and place it in your agent's skills directory.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/hanko-passkey-authentication-platform/)

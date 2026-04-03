@@ -16,23 +16,35 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat
 
 ## Installation
 
-### From Agent Skill Exchange
-Visit [Agent Skill Exchange](https://agentskillexchange.com/skills/open-webui-self-hosted-ai-interface/) to install.
+### Any Agent
 
-### From GitHub
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cd skills/skills/open-webui-self-hosted-ai-interface
+npx skills add agentskillexchange/skills --skill open-webui-self-hosted-ai-interface
 ```
 
-### Using ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill open-webui-self-hosted-ai-interface -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill open-webui-self-hosted-ai-interface -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill open-webui-self-hosted-ai-interface -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install open-webui-self-hosted-ai-interface
 ```
-
-### Manual Installation
-Copy the `open-webui-self-hosted-ai-interface` directory to your agent's skills folder.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/open-webui-self-hosted-ai-interface/)

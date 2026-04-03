@@ -12,23 +12,35 @@ Wish is a Go library for building SSH-accessible applications with sensible defa
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install wish-ssh-application-framework
-
-# OpenClaw CLI
-openclaw skill install wish-ssh-application-framework
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/wish-ssh-application-framework ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/wish-ssh-application-framework/
+npx skills add agentskillexchange/skills --skill wish-ssh-application-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wish-ssh-application-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wish-ssh-application-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wish-ssh-application-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wish-ssh-application-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/wish-ssh-application-framework/)

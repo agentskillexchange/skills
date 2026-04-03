@@ -15,12 +15,28 @@ Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language 
 
 ## Installation
 
-Install this skill using one of these methods:
-
-### Claude Desktop (MCP)
+### Any Agent
 
 ```bash
-clawhub install mods-charmbracelet-ai-cli-llm
+npx skills add agentskillexchange/skills --skill mods-charmbracelet-ai-cli-llm
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill mods-charmbracelet-ai-cli-llm -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill mods-charmbracelet-ai-cli-llm -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill mods-charmbracelet-ai-cli-llm -a codex
 ```
 
 ### OpenClaw
@@ -28,25 +44,6 @@ clawhub install mods-charmbracelet-ai-cli-llm
 ```bash
 clawhub install mods-charmbracelet-ai-cli-llm
 ```
-
-### Goose
-
-```bash
-clawhub install mods-charmbracelet-ai-cli-llm
-```
-
-### Claude Code
-
-```bash
-clawhub install mods-charmbracelet-ai-cli-llm
-```
-
-### Cursor / Windsurf
-
-```bash
-clawhub install mods-charmbracelet-ai-cli-llm
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/mods-charmbracelet-ai-cli-llm/)

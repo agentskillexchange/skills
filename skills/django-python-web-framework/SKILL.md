@@ -1,8 +1,9 @@
 ---
 name: "Django Python Web Framework"
 description: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development so yo"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/django/django"
-verification: listed
 tool_ecosystem:
   github_repo: "django/django"
   github_stars: 82000
@@ -14,23 +15,35 @@ Django is a high-level Python web framework that encourages rapid development an
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install django-python-web-framework
-
-# OpenClaw CLI
-openclaw skill install django-python-web-framework
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/django-python-web-framework ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/django-python-web-framework/
+npx skills add agentskillexchange/skills --skill django-python-web-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill django-python-web-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill django-python-web-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill django-python-web-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install django-python-web-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/django-python-web-framework/)

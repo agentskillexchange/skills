@@ -28,24 +28,35 @@ Every key verification generates usage data that Unkey aggregates into queryable
 
 ## Installation
 
-Install the Unkey SDK in your project:
+### Any Agent
 
 ```bash
-# npm
-npm install @unkey/api
-
-# pnpm
-pnpm add @unkey/api
-
-# yarn
-yarn add @unkey/api
-
-# bun
-bun add @unkey/api
+npx skills add agentskillexchange/skills --skill unkey-api-key-management-rate-limiting
 ```
 
-For self-hosting, clone the repository and follow the setup instructions in the GitHub README.
+### Claude Code
 
+```bash
+npx skills add agentskillexchange/skills --skill unkey-api-key-management-rate-limiting -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill unkey-api-key-management-rate-limiting -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill unkey-api-key-management-rate-limiting -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install unkey-api-key-management-rate-limiting
+```
 ## Source
 
 - [GitHub](https://github.com/unkeyed/unkey)

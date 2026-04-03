@@ -13,27 +13,35 @@ Textual is a lean application framework for Python that lets you build sophistic
 
 ## Installation
 
-Install using one of these methods:
+### Any Agent
 
-### Claude Code
 ```bash
-claude mcp add textual-python-tui-application-framework
+npx skills add agentskillexchange/skills --skill textual-python-tui-application-framework
 ```
 
-### OpenClaw
+### Claude Code
+
 ```bash
-clawhub install textual-python-tui-application-framework
+npx skills add agentskillexchange/skills --skill textual-python-tui-application-framework -a claude-code
 ```
 
 ### Cursor
-Add to your `.cursor/mcp.json` configuration
 
-### Windsurf
-Add to your Windsurf MCP configuration
+```bash
+npx skills add agentskillexchange/skills --skill textual-python-tui-application-framework -a cursor
+```
 
-### ChatGPT
-Use the ChatGPT plugin or custom action configuration
+### Codex
 
+```bash
+npx skills add agentskillexchange/skills --skill textual-python-tui-application-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install textual-python-tui-application-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/textual-python-tui-application-framework/)

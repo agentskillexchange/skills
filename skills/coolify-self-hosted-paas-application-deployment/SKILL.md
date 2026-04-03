@@ -13,25 +13,35 @@ Coolify is an open-source, self-hostable Platform-as-a-Service alternative to He
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas-application-deployment
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas-application-deployment -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas-application-deployment -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas-application-deployment -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install coolify-self-hosted-paas-application-deployment
 ```
-
-### OpenClaw Chat
-Tell your assistant: "Install the Coolify Self-Hosted PaaS for Application and Database Deployment skill"
-
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/coolify-self-hosted-paas-application-deployment/)
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/coolify-self-hosted-paas-application-deployment ~/.openclaw/workspace/skills/
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/coolify-self-hosted-paas-application-deployment/)

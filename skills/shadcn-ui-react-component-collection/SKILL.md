@@ -1,8 +1,9 @@
 ---
 name: "shadcn/ui — Re-usable UI Component Collection for React"
 description: "shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support."
-source: "https://github.com/shadcn-ui/ui"
+category: "Uncategorized"
 verification: "listed"
+source: "https://github.com/shadcn-ui/ui"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
   github_stars: 111367
@@ -14,18 +15,35 @@ shadcn/ui is a collection of accessible UI components built with Radix UI and Ta
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**OpenClaw CLI:**
 ```bash
-openclaw skills install shadcn-ui-react-component-collection
+npx skills add agentskillexchange/skills --skill shadcn-ui-react-component-collection
 ```
 
-**ClawHub CLI:**
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill shadcn-ui-react-component-collection -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill shadcn-ui-react-component-collection -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill shadcn-ui-react-component-collection -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install shadcn-ui-react-component-collection
 ```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/)

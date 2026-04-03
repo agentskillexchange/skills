@@ -3,10 +3,10 @@ name: "HandBrake Open-Source Video Transcoder"
 description: "HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding."
 category: "Media & Transcription"
 framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/HandBrake/HandBrake"
 tool_ecosystem:
-  github_repo: "handbrake/handbrake"
+  github_repo: "HandBrake/HandBrake"
   github_stars: 22806
 ---
 # HandBrake Open-Source Video Transcoder

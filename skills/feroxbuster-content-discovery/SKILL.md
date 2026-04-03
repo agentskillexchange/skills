@@ -15,36 +15,35 @@ Feroxbuster is a high-performance content discovery tool written in Rust that pe
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### Method 1: ClawHub CLI (Recommended)
 ```bash
-clawhub install agentskillexchange/feroxbuster-content-discovery
+npx skills add agentskillexchange/skills --skill feroxbuster-content-discovery
 ```
 
-### Method 2: OpenClaw Chat
-```
-/skill install agentskillexchange/feroxbuster-content-discovery
-```
+### Claude Code
 
-### Method 3: Manual Install
 ```bash
-cd ~/.openclaw/workspace/skills
-git clone https://github.com/agentskillexchange/skills.git --depth 1 --no-checkout temp-skills
-cd temp-skills
-git sparse-checkout set skills/feroxbuster-content-discovery
-git checkout
-cp -r skills/feroxbuster-content-discovery ../../feroxbuster-content-discovery
-cd ../..
-rm -rf temp-skills
+npx skills add agentskillexchange/skills --skill feroxbuster-content-discovery -a claude-code
 ```
 
-### Method 4: Download from GitHub
-Download the skill directory from the [GitHub repository](https://github.com/agentskillexchange/skills/tree/main/skills/feroxbuster-content-discovery).
+### Cursor
 
-### Method 5: Agent Skill Exchange
-Browse and install from the [Agent Skill Exchange](https://agentskillexchange.com/skills/feroxbuster-content-discovery/).
+```bash
+npx skills add agentskillexchange/skills --skill feroxbuster-content-discovery -a cursor
+```
 
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill feroxbuster-content-discovery -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install feroxbuster-content-discovery
+```
 ## Source
 
 - [Feroxbuster on GitHub](https://github.com/epi052/feroxbuster)

@@ -15,12 +15,28 @@ pdfcpu is a Go-based PDF processing library and CLI tool that handles validation
 
 ## Installation
 
-Install this skill using one of these methods:
-
-### Claude Desktop (MCP)
+### Any Agent
 
 ```bash
-clawhub install pdfcpu-go-pdf-processor-cli
+npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a codex
 ```
 
 ### OpenClaw
@@ -28,25 +44,6 @@ clawhub install pdfcpu-go-pdf-processor-cli
 ```bash
 clawhub install pdfcpu-go-pdf-processor-cli
 ```
-
-### Goose
-
-```bash
-clawhub install pdfcpu-go-pdf-processor-cli
-```
-
-### Claude Code
-
-```bash
-clawhub install pdfcpu-go-pdf-processor-cli
-```
-
-### Cursor / Windsurf
-
-```bash
-clawhub install pdfcpu-go-pdf-processor-cli
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pdfcpu-go-pdf-processor-cli/)

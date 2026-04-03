@@ -1,8 +1,9 @@
 ---
 name: "Pandoc Universal Document Converter"
 description: "Pandoc is a free and open-source universal document converter that can translate between dozens of markup and document formats including Markdown, HTML, LaTeX, DOCX, PDF, EPUB, and more. It is the Swi"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/jgm/pandoc"
-verification: listed
 tool_ecosystem:
   github_repo: "jgm/pandoc"
   github_stars: 35000
@@ -14,23 +15,35 @@ Pandoc is a free and open-source universal document converter that can translate
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install pandoc-universal-document-converter
-
-# OpenClaw CLI
-openclaw skill install pandoc-universal-document-converter
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/pandoc-universal-document-converter ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/pandoc-universal-document-converter/
+npx skills add agentskillexchange/skills --skill pandoc-universal-document-converter
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pandoc-universal-document-converter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pandoc-universal-document-converter -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pandoc-universal-document-converter -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pandoc-universal-document-converter
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pandoc-universal-document-converter/)

@@ -12,18 +12,35 @@ Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Herok
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**OpenClaw CLI:**
 ```bash
-openclaw skills install dokku-docker-paas
+npx skills add agentskillexchange/skills --skill dokku-docker-paas
 ```
 
-**ClawHub CLI:**
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dokku-docker-paas -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dokku-docker-paas -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dokku-docker-paas -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install dokku-docker-paas
 ```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/dokku-docker-paas/)

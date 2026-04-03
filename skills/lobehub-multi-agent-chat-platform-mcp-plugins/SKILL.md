@@ -13,25 +13,35 @@ LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers
 
 ## Installation
 
-Install this skill using one of the following methods:
+### Any Agent
 
-### ClawHub (Recommended)
+```bash
+npx skills add agentskillexchange/skills --skill lobehub-multi-agent-chat-platform-mcp-plugins
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill lobehub-multi-agent-chat-platform-mcp-plugins -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill lobehub-multi-agent-chat-platform-mcp-plugins -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill lobehub-multi-agent-chat-platform-mcp-plugins -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install lobehub-multi-agent-chat-platform-mcp-plugins
 ```
-
-### OpenClaw Chat
-Tell your assistant: "Install the LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem skill"
-
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/lobehub-multi-agent-chat-platform-mcp-plugins/)
-
-### Git Clone
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/lobehub-multi-agent-chat-platform-mcp-plugins ~/.openclaw/workspace/skills/
-```
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/lobehub-multi-agent-chat-platform-mcp-plugins/)

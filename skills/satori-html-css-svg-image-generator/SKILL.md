@@ -17,23 +17,35 @@ Satori is a high-performance library by Vercel that converts HTML and CSS markup
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub CLI
-clawhub install satori-html-css-svg-image-generator
-
-# OpenClaw chat command
-/skill install satori-html-css-svg-image-generator
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/satori-html-css-svg-image-generator ~/.openclaw/workspace/skills/
-
-# Direct download
-curl -sL https://raw.githubusercontent.com/agentskillexchange/skills/main/skills/satori-html-css-svg-image-generator/SKILL.md > SKILL.md
+npx skills add agentskillexchange/skills --skill satori-html-css-svg-image-generator
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill satori-html-css-svg-image-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill satori-html-css-svg-image-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill satori-html-css-svg-image-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install satori-html-css-svg-image-generator
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/satori-html-css-svg-image-generator/)

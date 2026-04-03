@@ -12,20 +12,35 @@ OpenObserve is an open-source, cloud-native observability platform for logs, met
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install openobserve-observability-platform-logs-metrics-traces
-
-# OpenClaw CLI
-openclaw skill install openobserve-observability-platform-logs-metrics-traces
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/openobserve-observability-platform-logs-metrics-traces ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill openobserve-observability-platform-logs-metrics-traces
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openobserve-observability-platform-logs-metrics-traces -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openobserve-observability-platform-logs-metrics-traces -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill openobserve-observability-platform-logs-metrics-traces -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install openobserve-observability-platform-logs-metrics-traces
+```
 ## Source
 
 - [Upstream Project](https://github.com/openobserve/openobserve)

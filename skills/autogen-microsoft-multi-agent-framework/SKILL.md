@@ -1,8 +1,9 @@
 ---
 name: "AutoGen — Microsoft Multi-Agent Conversation Framework"
 description: "AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workfl"
+category: "Uncategorized"
+verification: "listed"
 source: "https://github.com/microsoft/autogen"
-verification: listed
 tool_ecosystem:
   github_repo: "microsoft/autogen"
   github_stars: 56590
@@ -14,23 +15,35 @@ AutoGen is Microsoft’s open-source framework for building multi-agent systems 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install autogen-microsoft-multi-agent-framework
-
-# OpenClaw CLI
-openclaw skill install autogen-microsoft-multi-agent-framework
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/autogen-microsoft-multi-agent-framework ~/.openclaw/workspace/skills/
-
-# Manual download
-# Download from https://agentskillexchange.com/skills/autogen-microsoft-multi-agent-framework/
+npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-framework
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install autogen-microsoft-multi-agent-framework
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/autogen-microsoft-multi-agent-framework/)

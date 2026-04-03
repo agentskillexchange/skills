@@ -12,20 +12,35 @@ Bun is an incredibly fast all-in-one JavaScript and TypeScript toolkit that serv
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub
-clawhub install bun-javascript-runtime-bundler-package-manager
-
-# OpenClaw CLI
-openclaw skill install bun-javascript-runtime-bundler-package-manager
-
-# Git clone
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/bun-javascript-runtime-bundler-package-manager ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill bun-javascript-runtime-bundler-package-manager
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill bun-javascript-runtime-bundler-package-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill bun-javascript-runtime-bundler-package-manager -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill bun-javascript-runtime-bundler-package-manager -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install bun-javascript-runtime-bundler-package-manager
+```
 ## Source
 
 - [Upstream Project](https://github.com/oven-sh/bun)

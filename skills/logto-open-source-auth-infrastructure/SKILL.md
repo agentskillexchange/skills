@@ -26,20 +26,35 @@ Developers can extend Logto with custom social connectors, webhooks for event-dr
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install logto-open-source-auth-infrastructure
-
-# OpenClaw CLI
-openclaw skill install logto-open-source-auth-infrastructure
-
-# Manual download
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/logto-open-source-auth-infrastructure ~/.openclaw/workspace/skills/
+npx skills add agentskillexchange/skills --skill logto-open-source-auth-infrastructure
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill logto-open-source-auth-infrastructure -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill logto-open-source-auth-infrastructure -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill logto-open-source-auth-infrastructure -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install logto-open-source-auth-infrastructure
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/logto-open-source-auth-infrastructure/)
