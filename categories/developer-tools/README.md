@@ -243,6 +243,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
+| [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |

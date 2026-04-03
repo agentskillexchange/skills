@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1651 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 17:39 UTC
+> **1654 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 19:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (211 skills)
+### 🛠️ Developer Tools (212 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -217,6 +217,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
 | [Textual Python TUI Application Framework by Textualize](skills/textual-python-tui-application-framework/) | Textual is a lean application framework for Python that lets you build sophisticated terminal user interfaces with a… | Security Reviewed | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
+| [Verdaccio Lightweight Private npm Proxy Registry](skills/verdaccio-private-npm-proxy-registry/) | Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts… | Published | — | — |
 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
@@ -1154,6 +1155,86 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
+### 🔗 Integrations & Connectors (72 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data… | Security Reviewed | 182.1k | — |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable… | Security Reviewed | 62.6k | 483/wk |
+| [MinIO High-Performance S3-Compatible Object Storage Server](skills/minio-s3-compatible-object-storage/) | MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing… | Security Reviewed | 60.6k | — |
+| [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | Rclone is an open-source command-line program to sync files and directories to and from over 70 cloud storage… | Security Reviewed | 56.4k | — |
+| [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call… | Security Reviewed | 41.8k | — |
+| [Novu Open-Source Notification Infrastructure Platform](skills/novu-open-source-notification-infrastructure-platform/) | Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications… | Security Reviewed | 38.7k | 7.1k/wk |
+| [ntfy Self-Hosted Push Notification Server](skills/ntfy-self-hosted-push-notification-server/) | ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and… | Published | 29.5k | — |
+| [Composio Agent Tool Integration Platform](skills/composio-agent-tool-integration-platform/) | Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution… | Security Reviewed | 27.6k | — |
+| [Activepieces Open Source Workflow Automation](skills/activepieces-open-source-workflow-automation/) | Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a… | Security Reviewed | 21.5k | — |
+| [Airbyte Open Source Data Integration Platform](skills/airbyte-open-source-data-integration-platform/) | Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines… | Security Reviewed | 21k | — |
+| [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Security Reviewed | 18k | — |
+| [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](skills/webhook-http-endpoint-server-shell-commands/) | Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute… | Security Reviewed | 11.7k | — |
+| [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service… | Security Reviewed | 8.6k | — |
+| [Nango Open Source API Integration Platform](skills/nango-open-source-api-integration-platform/) | Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token… | Security Reviewed | 7k | 14.9k/wk |
+| [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Security Reviewed | 6.3k | — |
+| [Inngest Event-Driven Durable Workflow Orchestration Platform](skills/inngest-event-driven-durable-workflow-orchestration/) | Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling… | Security Reviewed | 5.1k | — |
+| [Atlassian MCP Server for Jira and Confluence](skills/atlassian-mcp-server-jira-confluence/) | mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It… | Security Reviewed | 4.8k | — |
+| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | — |
+| [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar… | Security Reviewed | 3.6k | — |
+| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 3.4k | — |
+| [Svix Enterprise Webhook Delivery Service](skills/svix-enterprise-webhook-delivery-service/) | Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending,… | Security Reviewed | 3.2k | — |
+| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing.… | Security Reviewed | 2.9k | 1.5M/wk |
+| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
+| [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Security Reviewed | 2.2k | — |
+| [Stripe Agent Toolkit for AI Payment Integration](skills/stripe-agent-toolkit-ai-payment-integration/) | The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating… | Security Reviewed | 1.4k | — |
+| [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | 1.3k | — |
+| [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 51k/wk |
+| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Security Reviewed | 959 | — |
+| [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | 695 | — |
+| [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the… | Security Reviewed | 567 | — |
+| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 567 | — |
+| [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Security Reviewed | 527 | — |
+| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Security Reviewed | 484 | — |
+| [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
+| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
+| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
+| [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | — | — |
+| [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media,… | Published | — | — |
+| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | — | — |
+| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
+| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
+| [Logto Open Source Authentication and Authorization Infrastructure](skills/logto-open-source-auth-infrastructure/) | Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It… | Security Reviewed | — | — |
+| [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
+| [Papermark Open Source Document Sharing Platform with Analytics](skills/papermark-document-sharing-analytics/) | Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics,… | Security Reviewed | — | — |
+| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
+| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | — | — |
+| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | — | — |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | — | — |
+| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | — | — |
+| [Slack Channel Summarizer & Triage Bot](skills/slack-channel-summarizer-triage/) | Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest… | Security Reviewed | — | — |
+| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation,… | Security Reviewed | — | — |
+| [Stripe Connect Integration](skills/stripe-connect-integration/) | Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via… | Security Reviewed | — | — |
+| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer… | Security Reviewed | — | — |
+| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests,… | Security Reviewed | — | — |
+| [Stripe MCP Server](skills/stripe-mcp-server/) | Stripe MCP Server is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing… | Security Reviewed | — | — |
+| [Stripe Payments Connector](skills/stripe-payments-connector/) | Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(),… | Security Reviewed | — | — |
+| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | — | — |
+| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs… | Security Reviewed | — | — |
+| [Tolgee Open Source Localization and i18n Platform](skills/tolgee-localization-i18n-platform/) | Tolgee is an open-source localization platform that lets developers and translators manage translations through… | Security Reviewed | — | — |
+| [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message… | Security Reviewed | — | — |
+| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , ,… | Security Reviewed | — | — |
+| [Twilio SMS & Voice Bridge](skills/twilio-sms-voice-bridge/) | Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with… | Security Reviewed | — | — |
+| [Zammad Open Source Web-Based Helpdesk and Ticketing System](skills/zammad-open-source-helpdesk-ticketing-system/) | Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and… | Published | — | — |
+| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
+| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
+
+
 ### 📄 Templates & Workflows (72 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
@@ -1391,84 +1472,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
-
-
-### 🔗 Integrations & Connectors (70 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [n8n Workflow Webhook Bridge](skills/n8n-workflow-webhook-bridge/) | Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data… | Security Reviewed | 182.1k | — |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable… | Security Reviewed | 62.6k | 483/wk |
-| [MinIO High-Performance S3-Compatible Object Storage Server](skills/minio-s3-compatible-object-storage/) | MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing… | Security Reviewed | 60.6k | — |
-| [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | Rclone is an open-source command-line program to sync files and directories to and from over 70 cloud storage… | Security Reviewed | 56.4k | — |
-| [LiteLLM Unified LLM Gateway and Proxy Server](skills/litellm-unified-llm-gateway-proxy/) | LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call… | Security Reviewed | 41.8k | — |
-| [Novu Open-Source Notification Infrastructure Platform](skills/novu-open-source-notification-infrastructure-platform/) | Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications… | Security Reviewed | 38.7k | 7.1k/wk |
-| [ntfy Self-Hosted Push Notification Server](skills/ntfy-self-hosted-push-notification-server/) | ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and… | Published | 29.5k | — |
-| [Composio Agent Tool Integration Platform](skills/composio-agent-tool-integration-platform/) | Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution… | Security Reviewed | 27.6k | — |
-| [Activepieces Open Source Workflow Automation](skills/activepieces-open-source-workflow-automation/) | Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a… | Security Reviewed | 21.5k | — |
-| [Airbyte Open Source Data Integration Platform](skills/airbyte-open-source-data-integration-platform/) | Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines… | Security Reviewed | 21k | — |
-| [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Security Reviewed | 18k | — |
-| [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](skills/webhook-http-endpoint-server-shell-commands/) | Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute… | Security Reviewed | 11.7k | — |
-| [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service… | Security Reviewed | 8.6k | — |
-| [Nango Open Source API Integration Platform](skills/nango-open-source-api-integration-platform/) | Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token… | Security Reviewed | 7k | 14.9k/wk |
-| [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Security Reviewed | 6.3k | — |
-| [Inngest Event-Driven Durable Workflow Orchestration Platform](skills/inngest-event-driven-durable-workflow-orchestration/) | Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling… | Security Reviewed | 5.1k | — |
-| [Atlassian MCP Server for Jira and Confluence](skills/atlassian-mcp-server-jira-confluence/) | mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It… | Security Reviewed | 4.8k | — |
-| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | — |
-| [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar… | Security Reviewed | 3.6k | — |
-| [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 3.4k | — |
-| [Svix Enterprise Webhook Delivery Service](skills/svix-enterprise-webhook-delivery-service/) | Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending,… | Security Reviewed | 3.2k | — |
-| [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing.… | Security Reviewed | 2.9k | 1.5M/wk |
-| [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
-| [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Security Reviewed | 2.2k | — |
-| [Stripe Agent Toolkit for AI Payment Integration](skills/stripe-agent-toolkit-ai-payment-integration/) | The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating… | Security Reviewed | 1.4k | — |
-| [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | 1.3k | — |
-| [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 51k/wk |
-| [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Security Reviewed | 959 | — |
-| [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | 695 | — |
-| [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the… | Security Reviewed | 567 | — |
-| [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 567 | — |
-| [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Security Reviewed | 527 | — |
-| [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Security Reviewed | 484 | — |
-| [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
-| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
-| [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
-| [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | — | — |
-| [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | — | — |
-| [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
-| [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
-| [Logto Open Source Authentication and Authorization Infrastructure](skills/logto-open-source-auth-infrastructure/) | Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It… | Security Reviewed | — | — |
-| [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
-| [Papermark Open Source Document Sharing Platform with Analytics](skills/papermark-document-sharing-analytics/) | Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics,… | Security Reviewed | — | — |
-| [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
-| [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | — | — |
-| [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | — | — |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | — | — |
-| [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | — | — |
-| [Slack Channel Summarizer & Triage Bot](skills/slack-channel-summarizer-triage/) | Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest… | Security Reviewed | — | — |
-| [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation,… | Security Reviewed | — | — |
-| [Stripe Connect Integration](skills/stripe-connect-integration/) | Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via… | Security Reviewed | — | — |
-| [Stripe Connect Marketplace Sync](skills/stripe-connect-marketplace-sync/) | Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer… | Security Reviewed | — | — |
-| [Stripe Connect Platform Bridge](skills/stripe-connect-platform-bridge/) | Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests,… | Security Reviewed | — | — |
-| [Stripe MCP Server](skills/stripe-mcp-server/) | Stripe MCP Server is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Stripe Payment Flow Connector](skills/stripe-payment-flow-connector/) | Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing… | Security Reviewed | — | — |
-| [Stripe Payments Connector](skills/stripe-payments-connector/) | Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(),… | Security Reviewed | — | — |
-| [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | — | — |
-| [Terraform Cloud Run Inspector](skills/terraform-cloud-run-inspector-2/) | Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs… | Security Reviewed | — | — |
-| [Tolgee Open Source Localization and i18n Platform](skills/tolgee-localization-i18n-platform/) | Tolgee is an open-source localization platform that lets developers and translators manage translations through… | Security Reviewed | — | — |
-| [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message… | Security Reviewed | — | — |
-| [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , ,… | Security Reviewed | — | — |
-| [Twilio SMS & Voice Bridge](skills/twilio-sms-voice-bridge/) | Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with… | Security Reviewed | — | — |
-| [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
-| [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
 ### 🔍 Research & Scraping (69 skills)

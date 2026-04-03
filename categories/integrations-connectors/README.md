@@ -72,6 +72,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
 | [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | — | — |
+| [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | — | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
@@ -103,6 +104,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | — | — |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | — | — |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | — | — |
+| [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 

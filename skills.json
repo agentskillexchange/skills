@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1651,
+  "total": 1654,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "zammad-open-source-helpdesk-ticketing-system",
+      "name": "Zammad Open Source Web-Based Helpdesk and Ticketing System",
+      "description": "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "verdaccio-private-npm-proxy-registry",
+      "name": "Verdaccio Lightweight Private npm Proxy Registry",
+      "description": "Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts private packages. It supports npm, yarn, and pnpm…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chatwoot-open-source-customer-engagement-omnichannel-support",
+      "name": "Chatwoot Open Source Customer Engagement and Omnichannel Support Platform",
+      "description": "Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media, and messaging channel support in a unified agent dashboard.…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "bun-javascript-runtime-bundler-package-manager-2",
       "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
