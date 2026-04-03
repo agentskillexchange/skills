@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1654 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 19:40 UTC
+> **1657 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 21:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (212 skills)
+### 🛠️ Developer Tools (213 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -212,6 +212,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [SWC Speedy Web Compiler for JavaScript and TypeScript](skills/swc-speedy-web-compiler-javascript-typescript/) | SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a… | Published | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](skills/tabby-self-hosted-ai-coding-assistant/) | Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub… | Security Reviewed | — | — |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
@@ -960,7 +961,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (95 skills)
+### ✅ Code Quality & Review (96 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -985,6 +986,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](skills/axe-core-accessibility-testing-engine/) | axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0,… | Security Reviewed | — | — |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](skills/biome-high-performance-javascript-typescript-formatter-linter/) | Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that… | Published | — | — |
 | [CodeClimate Diff Analyzer](skills/codeclimate-diff-analyzer-2/) | Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates… | Security Reviewed | — | — |
 | [CodeClimate Maintainability Tracker](skills/codeclimate-maintainability-tracker-7/) | Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt… | Security Reviewed | — | — |
 | [Codecov Coverage Analyzer](skills/codecov-coverage-analyzer/) | Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from… | Security Reviewed | — | — |
@@ -1155,7 +1157,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (72 skills)
+### 🔗 Integrations & Connectors (73 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1196,6 +1198,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Security Reviewed | 484 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
+| [Appwrite Open Source Backend as a Service Platform](skills/appwrite-open-source-backend-as-a-service-platform/) | Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage,… | Published | — | — |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
 | [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | — | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media,… | Published | — | — |

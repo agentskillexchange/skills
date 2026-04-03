@@ -238,6 +238,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | — | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
+| [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | — | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |

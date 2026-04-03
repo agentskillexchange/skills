@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1654,
+  "total": 1657,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "swc-speedy-web-compiler-javascript-typescript",
+      "name": "SWC Speedy Web Compiler for JavaScript and TypeScript",
+      "description": "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a single thread and 70x faster…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "biome-high-performance-javascript-typescript-formatter-linter",
+      "name": "Biome High-Performance JavaScript TypeScript Formatter and Linter",
+      "description": "Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool. With…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "appwrite-open-source-backend-as-a-service-platform",
+      "name": "Appwrite Open Source Backend as a Service Platform",
+      "description": "Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage, functions, messaging, and realtime APIs out of the box. It serves as…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "zammad-open-source-helpdesk-ticketing-system",
       "name": "Zammad Open Source Web-Based Helpdesk and Ticketing System",
