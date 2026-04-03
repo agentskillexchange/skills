@@ -9,13 +9,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 166.7k |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 129.6k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.3k |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94k |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.7k |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | ⭐ 82.4k |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | ⭐ 79.2k |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | ⭐ 78.7k |
 | [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | ⭐ 78.3k |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | ⭐ 75.4k |
-| [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | ⭐ 74.8k |
-| [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | ⭐ 71.2k |
 
 ---
 
@@ -43,6 +43,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 166.7k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 129.6k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.3k | — |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94k | — |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.7k | — |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | — |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | 79.2k | — |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 78.7k | — |
@@ -95,6 +97,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
+| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.2k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
@@ -163,6 +166,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
+| [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 385 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
@@ -171,10 +175,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | — | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
-| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | — | — |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | — | — |
 | [Bun All-in-One JavaScript Runtime Bundler and Package Manager](../../skills/bun-javascript-runtime-bundler-package-manager/) | — | — |
-| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
@@ -190,6 +192,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | — | — |
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
+| [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
@@ -225,7 +228,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | — |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | — |
 | [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | — | — |
-| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | — | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | — | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | — | — |
@@ -240,7 +242,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | — | — |
-| [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | — | — |
 | [Webhook Debugger](../../skills/webhook-debugger/) | — | — |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | — | — |

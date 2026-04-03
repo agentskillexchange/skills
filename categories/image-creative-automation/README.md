@@ -7,15 +7,15 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Stars |
 |---|---:|
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
+| [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.5k |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | ⭐ 45.1k |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | ⭐ 44.3k |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | ⭐ 33.8k |
+| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⭐ 31.8k |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 22.4k |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | ⭐ 22.4k |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⭐ 17k |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | ⭐ 13.2k |
-| [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | ⭐ 11.2k |
-| [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | ⭐ 10.6k |
 
 ---
 
@@ -33,9 +33,11 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
+| [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | 58.5k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.1k | — |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
+| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 30.3M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 858.9k/wk |
@@ -46,6 +48,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | — |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | — | — |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
@@ -78,7 +81,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | — | — |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | — | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | — | — |
-| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
@@ -87,9 +89,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
-| [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | — | — |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | — | — |

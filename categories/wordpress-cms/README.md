@@ -10,12 +10,12 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | ⭐ 71.7k |
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⭐ 41.6k |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⭐ 34.6k |
+| [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 33k |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 19k |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⭐ 13.2k |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | ⭐ 13.2k |
+| [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | ⭐ 10.2k |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | ⭐ 10.2k |
-| [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | ⭐ 9.5k |
-| [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | ⭐ 6.5k |
 
 ---
 
@@ -43,14 +43,18 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | 71.7k | 162.6k/wk |
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 41.6k | 305.2k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 19k/wk |
+| [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 2.1k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 73.7k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
+| [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | 10.2k | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | 10.2k | — |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | 9.5k | — |
 | [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | 6.5k | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 412.3k/wk |
+| [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
+| [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | 3.8k | — |
 | [WPGraphQL GraphQL API for WordPress](../../skills/wpgraphql-graphql-api-wordpress/) | 3.8k | — |
 | [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | 3.5k | — |
 | [Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories](../../skills/git-updater-wordpress-plugin-theme-auto-updater/) | 3.3k | — |
@@ -80,7 +84,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
-| [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
@@ -97,12 +100,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | — | — |
 | [WP Abilities API](../../skills/wp-abilities-api/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |
-| [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | — | — |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |
-| [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | — | — |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
-| [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | — | — |
 
 ---
 

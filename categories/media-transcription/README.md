@@ -7,15 +7,15 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.1k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96k |
+| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
+| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 58.5k |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.2k |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 45k |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⭐ 41.5k |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | ⭐ 39.5k |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | ⭐ 28.1k |
-| [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | ⭐ 24.1k |
-| [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | ⭐ 22.8k |
-| [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | ⭐ 21.9k |
 
 ---
 
@@ -32,7 +32,10 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.1k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96k | — |
+| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
+| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.2k | — |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 485.1k/wk |
@@ -59,6 +62,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
+| [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
@@ -66,7 +70,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
-| [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
@@ -84,7 +87,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | — | — |
-| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
@@ -92,11 +94,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | — | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
-| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
-| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | — | — |

@@ -6,16 +6,16 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
+| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.4k |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | ⭐ 16.2k |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | ⭐ 10k |
+| [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | ⭐ 8.4k |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⭐ 5k |
-| [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | ⭐ 3k |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⭐ 615 |
-| [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | ⭐ 615 |
+| [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | ⭐ 3.9k |
 
 ---
 
@@ -32,14 +32,18 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.4k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
+| [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.4k/wk |
+| [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
+| [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.5M/wk |
@@ -68,8 +72,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | — | — |
-| [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | — | — |
-| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | — | — |
@@ -83,7 +85,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Aggregation Agent](../../skills/grafana-loki-log-aggregation-agent/) | — | — |
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | — | — |
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
-| [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | — | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
@@ -112,7 +113,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | — | — |
 | [Prometheus AlertManager Configurator](../../skills/prometheus-alertmanager-configurator/) | — | — |
 | [Prometheus AlertManager Router](../../skills/prometheus-alertmanager-router/) | — | — |
-| [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | — | — |
 | [Prometheus AlertManager Rule Builder](../../skills/prometheus-alertmanager-rule-builder/) | — | — |
 | [Prometheus AlertManager Rule Generator](../../skills/prometheus-alertmanager-rule-generator/) | — | — |
 | [Prometheus AlertManager Rule Optimizer](../../skills/prometheus-alertmanager-rule-optimizer/) | — | — |

@@ -7,8 +7,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
+| [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | ⭐ 33k |
+| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⭐ 28.5k |
+| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⭐ 24.9k |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | ⭐ 24.8k |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.3k |
+| [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | ⭐ 16.6k |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | ⭐ 16.1k |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⭐ 7.6k |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⭐ 4k |
@@ -20,8 +24,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
+| [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33k | — |
+| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
+| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 24.9k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.3k | — |
+| [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | — |
@@ -30,10 +38,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | — | — |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | — | — |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | — | — |
-| [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | — | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | — | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
-| [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | — | — |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | — | — |
@@ -66,13 +72,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | — | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | — | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | — | — |
-| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | — | — |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | — | — |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | — | — |
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | — | — |
-| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |

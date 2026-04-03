@@ -1,8 +1,96 @@
 {
   "version": "2.0",
-  "total": 1626,
+  "total": 1634,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "dokku-docker-paas",
+      "name": "Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS",
+      "description": "Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rehype-html-processor-unified",
+      "name": "rehype Plugin-Based HTML Processor by the Unified Collective",
+      "description": "rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "axe-core-accessibility-testing-engine",
+      "name": "axe-core Accessibility Testing Engine for Automated Web UI Auditing",
+      "description": "axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0, 2.1, and 2.2 violations in web interfaces. It integrates…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "shadcn-ui-react-component-collection",
+      "name": "shadcn/ui — Re-usable UI Component Collection for React",
+      "description": "shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization.…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 111367
+      }
+    },
+    {
+      "slug": "azure-cli-microsoft-cloud",
+      "name": "Azure CLI — Command-Line Interface for Microsoft Azure",
+      "description": "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4497
+      }
+    },
+    {
+      "slug": "google-cloud-cli-gcloud",
+      "name": "Google Cloud CLI (gcloud) — Command-Line Interface for GCP",
+      "description": "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management,…",
+      "category": [],
+      "framework": [],
+      "verification": "listed"
+    },
+    {
+      "slug": "firebase-google-app-development-platform",
+      "name": "Firebase — Google Application Development Platform",
+      "description": "Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5093
+      }
+    },
+    {
+      "slug": "hugging-face-transformers-ml-library",
+      "name": "Hugging Face Transformers — Machine Learning Model Library",
+      "description": "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX…",
+      "category": [],
+      "framework": [],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 158714
+      }
+    },
     {
       "slug": "prefect-python-workflow-orchestration-data-pipelines",
       "name": "Prefect Python Workflow Orchestration Framework for Data Pipelines",
@@ -7872,7 +7960,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 58548
       }
     },
     {
@@ -7995,7 +8084,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "elasticsearch"
+        "tool": "elasticsearch",
+        "github_stars": 1273
       }
     },
     {
@@ -8320,7 +8410,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 127
+      }
     },
     {
       "slug": "woocommerce-webhook-delivery-inspector",
@@ -8364,7 +8457,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 3779
       }
     },
     {
@@ -8379,7 +8473,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 5048
       }
     },
     {
@@ -8394,7 +8489,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 2507
       }
     },
     {
@@ -8409,7 +8505,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 58548
       }
     },
     {
@@ -8424,7 +8521,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ffmpeg"
+        "tool": "ffmpeg",
+        "github_stars": 58548
       }
     },
     {
@@ -8439,7 +8537,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97065
       }
     },
     {
@@ -8511,7 +8610,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "certbot"
+        "tool": "certbot",
+        "github_stars": 32959
       }
     },
     {
@@ -8554,7 +8654,10 @@
       "framework": [
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10233
+      }
     },
     {
       "slug": "grafana-oncall-escalation-chain-manager",
@@ -8568,7 +8671,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grafana"
+        "tool": "grafana",
+        "github_stars": 3880
       }
     },
     {
@@ -8583,7 +8687,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pagerduty"
+        "tool": "pagerduty",
+        "github_stars": 33001
       }
     },
     {
@@ -8598,7 +8703,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pulumi"
+        "tool": "pulumi",
+        "github_stars": 24935
       }
     },
     {
@@ -8667,7 +8773,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "prometheus"
+        "tool": "prometheus",
+        "github_stars": 8405
       }
     },
     {
@@ -8682,7 +8789,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "elasticsearch"
+        "tool": "elasticsearch",
+        "github_stars": 76426
       }
     },
     {
@@ -8712,7 +8820,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 16596
       }
     },
     {
@@ -8725,7 +8834,10 @@
       "framework": [
         "Cursor"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 28473
+      }
     },
     {
       "slug": "gstreamer-pipeline-graph-optimizer",
@@ -8763,7 +8875,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "react"
+        "tool": "react",
+        "github_stars": 1111
       }
     },
     {
@@ -8790,7 +8903,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "puppeteer"
+        "tool": "puppeteer",
+        "github_stars": 94012
       }
     },
     {
@@ -8815,7 +8929,10 @@
       "framework": [
         "Codex"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 88702
+      }
     },
     {
       "slug": "lottie-animation-optimizer",
@@ -8827,7 +8944,10 @@
       "framework": [
         "ChatGPT Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 31786
+      }
     },
     {
       "slug": "wasm-component-model-linker",
@@ -8839,7 +8959,10 @@
       "framework": [
         "Gemini"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1288
+      }
     },
     {
       "slug": "biome-lint-migration-toolkit",
@@ -8853,7 +8976,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 24199
       }
     },
     {

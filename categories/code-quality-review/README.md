@@ -51,6 +51,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
+| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
 | [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | — |

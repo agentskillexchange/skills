@@ -134,6 +134,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
+| [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | — | — |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | — | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | — | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | — | — |

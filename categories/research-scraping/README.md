@@ -56,6 +56,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
+| [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | — | — |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | — | — |
@@ -68,7 +69,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | — | — |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
-| [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | — | — |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
