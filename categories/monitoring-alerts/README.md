@@ -71,6 +71,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | — | — |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
+| [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | — | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |

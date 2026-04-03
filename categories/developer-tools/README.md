@@ -182,6 +182,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | — | — |
+| [Coolify Self-Hosted PaaS for Application and Database Deployment](../../skills/coolify-self-hosted-paas/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | — | — |
@@ -193,6 +194,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | — | — |
+| [Dokploy Open Source Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-deployment/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |

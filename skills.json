@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1639,
+  "total": 1642,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "dozzle-docker-log-viewer",
+      "name": "Dozzle Real-Time Docker Container Log Viewer",
+      "description": "Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm mode, and Kubernetes, provides fuzzy search, regex and…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dokploy-self-hosted-deployment",
+      "name": "Dokploy Open Source Self-Hosted Application Deployment Platform",
+      "description": "Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and databases. It supports Docker Compose, multi-node Docker Swarm,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coolify-self-hosted-paas",
+      "name": "Coolify Self-Hosted PaaS for Application and Database Deployment",
+      "description": "Coolify is an open-source, self-hostable Platform as a Service alternative to Heroku, Vercel, and Netlify. It lets you deploy static sites, full-stack applications, databases,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "moon-monorepo-build-system-task-runner-moonrepo",
       "name": "Moon Monorepo Build System and Task Runner by moonrepo",
