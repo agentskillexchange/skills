@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1642,
+  "total": 1645,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "openreplay-self-hosted-session-replay-analytics",
+      "name": "OpenReplay Self-Hosted Session Replay and Product Analytics Platform",
+      "description": "OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network activity, console logs, JS errors, store state, and…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chartbrew-open-source-reporting-dashboard-platform",
+      "name": "Chartbrew Open Source Reporting Platform for API and Database Dashboards",
+      "description": "Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder,…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pdfme-typescript-pdf-generation-library",
+      "name": "pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer",
+      "description": "pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG template designer, PDF viewer, and CLI tools for…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "dozzle-docker-log-viewer",
       "name": "Dozzle Real-Time Docker Container Log Viewer",

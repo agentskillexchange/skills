@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1642 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 11:34 UTC
+> **1645 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 13:34 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (209 skills)
+### 🛠️ Developer Tools (210 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -201,6 +201,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | — | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
+| [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](skills/pdfme-typescript-pdf-generation-library/) | pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG… | Published | — | — |
 | [Playwright E2E Test Generator](skills/playwright-e2e-test-generator/) | Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports… | Security Reviewed | — | — |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | — | — |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | — | — |
@@ -847,7 +848,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (95 skills)
+### 📊 Monitoring & Alerts (97 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -873,6 +874,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule… | Security Reviewed | — | — |
 | [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway… | Security Reviewed | — | — |
 | [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs,… | Security Reviewed | — | — |
+| [Chartbrew Open Source Reporting Platform for API and Database Dashboards](skills/chartbrew-open-source-reporting-dashboard-platform/) | Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL… | Published | — | — |
 | [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates,… | Security Reviewed | — | — |
 | [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs.… | Security Reviewed | — | — |
 | [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | — | — |
@@ -917,6 +919,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Security Reviewed | — | — |
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | — | — |
+| [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Published | — | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | — | — |
 | [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
