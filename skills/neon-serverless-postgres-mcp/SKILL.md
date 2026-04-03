@@ -5,9 +5,6 @@ category: "Integrations & Connectors"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/"
-tool_ecosystem:
-  github_repo: "neondatabase/mcp-server-neon"
-  github_stars: 567
 ---
 # Neon Serverless Postgres MCP
 

@@ -5,9 +5,6 @@ category: "Calendar, Email & Productivity"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/"
-tool_ecosystem:
-  github_repo: "atlassian/atlassian-mcp-server"
-  github_stars: 518
 ---
 # Atlassian Rovo MCP Server
 
