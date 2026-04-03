@@ -101,6 +101,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | — | — |
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | — | — |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
+| [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | — | — |
 
 ---
 

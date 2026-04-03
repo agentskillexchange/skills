@@ -148,6 +148,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | — | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
+| [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | — | — |

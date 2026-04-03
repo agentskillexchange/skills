@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1657 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 21:36 UTC
+> **1660 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 23:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (213 skills)
+### 🛠️ Developer Tools (214 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -173,6 +173,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | — | — |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | — | — |
+| [fonttools Python Font Manipulation and Subsetting Library](skills/fonttools-python-font-manipulation-subsetting/) | fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and… | Published | — | — |
 | [Fresh Next-Generation Web Framework for Deno](skills/fresh-deno-web-framework/) | Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Security Reviewed | — | — |
 | [Git Bisect Automator](skills/git-bisect-automator/) | Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub… | Security Reviewed | — | — |
@@ -381,7 +382,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (120 skills)
+### 🔄 Data Extraction & Transformation (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -503,6 +504,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to… | Security Reviewed | — | — |
 | [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table… | Security Reviewed | — | — |
 | [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data.… | Security Reviewed | — | — |
+| [WeasyPrint HTML and CSS to PDF Document Generator](skills/weasyprint-html-css-pdf-document-generator/) | WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a… | Published | — | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](skills/xan-simd-csv-processing-cli/) | xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser.… | Security Reviewed | — | — |
@@ -1626,7 +1628,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (63 skills)
+### 🌐 Browser Automation (64 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1695,6 +1697,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | — | — |
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | — | — |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
+| [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (62 skills)

@@ -199,6 +199,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
+| [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | — | — |
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |

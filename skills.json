@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1657,
+  "total": 1660,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "fonttools-python-font-manipulation-subsetting",
+      "name": "fonttools Python Font Manipulation and Subsetting Library",
+      "description": "fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and WOFF2 formats. It includes the TTX tool for converting…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "weasyprint-html-css-pdf-document-generator",
+      "name": "WeasyPrint HTML and CSS to PDF Document Generator",
+      "description": "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "tarsier-vision-utilities-web-interaction-agents",
+      "name": "Tarsier Vision Utilities for Web Interaction Agents",
+      "description": "Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually tags interactable elements on web pages…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "swc-speedy-web-compiler-javascript-typescript",
       "name": "SWC Speedy Web Compiler for JavaScript and TypeScript",
