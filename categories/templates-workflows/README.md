@@ -59,6 +59,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
+| [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | — | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
@@ -70,6 +71,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | — | — |
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | — | — |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |

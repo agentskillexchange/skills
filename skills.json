@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1623,
+  "total": 1626,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "prefect-python-workflow-orchestration-data-pipelines",
+      "name": "Prefect Python Workflow Orchestration Framework for Data Pipelines",
+      "description": "Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries, caching, and observability to any Python script with simple…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "bullmq-redis-message-queue-job-processor-nodejs",
+      "name": "BullMQ Redis-Based Message Queue and Job Processor for Node.js",
+      "description": "BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "kestra-event-driven-orchestration-scheduling-platform",
+      "name": "Kestra Event-Driven Orchestration and Scheduling Platform",
+      "description": "Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. Define workflows declaratively in YAML with a rich plugin…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "pyroscope-continuous-profiling-platform-grafana",
       "name": "Pyroscope Continuous Profiling Platform by Grafana",

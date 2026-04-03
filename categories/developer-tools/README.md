@@ -172,6 +172,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | — | — |
+| [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | — | — |
 | [Bun All-in-One JavaScript Runtime Bundler and Package Manager](../../skills/bun-javascript-runtime-bundler-package-manager/) | — | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
