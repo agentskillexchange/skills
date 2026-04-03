@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1645,
+  "total": 1648,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "garden-kubernetes-dev-testing-automation",
+      "name": "Garden Kubernetes Development and Testing Automation Platform",
+      "description": "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "quickwit-cloud-native-search-engine-observability",
+      "name": "Quickwit Cloud-Native Search Engine for Observability Logs and Traces",
+      "description": "Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers sub-second search on cloud storage (S3, Azure…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "gorse-ai-recommender-system-engine",
+      "name": "Gorse AI-Powered Open Source Recommender System Engine",
+      "description": "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "openreplay-self-hosted-session-replay-analytics",
       "name": "OpenReplay Self-Hosted Session Replay and Product Analytics Platform",

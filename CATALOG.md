@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1645 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 13:34 UTC
+> **1648 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 15:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -226,7 +226,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](skills/wxt-next-gen-web-extension-framework/) | WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (142 skills)
+### 🔧 CI/CD Integrations (143 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -290,6 +290,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Docker Image Layer Inspector](skills/docker-image-layer-inspector/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate… | Security Reviewed | — | — |
 | [Docker Image Layer Size Analyzer](skills/docker-image-layer-size-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers,… | Security Reviewed | — | — |
 | [Docker Image Vulnerability Triage](skills/docker-image-vulnerability-triage/) | Runs Trivy against a Docker image and produces a prioritized CVE list grouped by severity with fix availability.… | Security Reviewed | — | — |
+| [Garden Kubernetes Development and Testing Automation Platform](skills/garden-kubernetes-dev-testing-automation/) | Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like… | Published | — | — |
 | [GitHub Actions CI Builder](skills/github-actions-ci-builder/) | Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch… | Security Reviewed | — | — |
 | [GitHub Actions CI Pipeline Builder](skills/github-actions-ci-pipeline-builder/) | Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix… | Security Reviewed | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](skills/github-actions-cicd-pipeline-manager/) | Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and… | Security Reviewed | — | — |
@@ -376,7 +377,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (119 skills)
+### 🔄 Data Extraction & Transformation (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -463,6 +464,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API.… | Security Reviewed | — | — |
 | [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and… | Security Reviewed | — | — |
 | [Elasticsearch MCP](skills/elasticsearch-mcp/) | Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Gorse AI-Powered Open Source Recommender System Engine](skills/gorse-ai-recommender-system-engine/) | Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via… | Published | — | — |
 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with… | Security Reviewed | — | — |
 | [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular… | Security Reviewed | — | — |
 | [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object… | Security Reviewed | — | — |
@@ -743,6 +745,112 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
+### 📊 Monitoring & Alerts (98 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and… | Security Reviewed | 76.4k | — |
+| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes… | Security Reviewed | 43.5k | — |
+| [Umami Privacy-Focused Web Analytics Platform](skills/umami-privacy-focused-web-analytics/) | Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google… | Security Reviewed | 35.9k | — |
+| [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |
+| [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | 24.1k | — |
+| [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Security Reviewed | 16.2k | — |
+| [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |
+| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 4.4k/wk |
+| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall… | Security Reviewed | 3.9k | — |
+| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
+| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
+| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 615 | — |
+| [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | — |
+| [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | 531 | 4.5M/wk |
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 92 | — |
+| [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API.… | Security Reviewed | — | — |
+| [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule… | Security Reviewed | — | — |
+| [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway… | Security Reviewed | — | — |
+| [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs,… | Security Reviewed | — | — |
+| [Chartbrew Open Source Reporting Platform for API and Database Dashboards](skills/chartbrew-open-source-reporting-dashboard-platform/) | Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL… | Published | — | — |
+| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates,… | Security Reviewed | — | — |
+| [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs.… | Security Reviewed | — | — |
+| [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | — | — |
+| [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs.… | Security Reviewed | — | — |
+| [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and… | Security Reviewed | — | — |
+| [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on… | Security Reviewed | — | — |
+| [Datadog Anomaly Detector](skills/datadog-anomaly-detector/) | Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors… | Security Reviewed | — | — |
+| [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN… | Security Reviewed | — | — |
+| [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots.… | Security Reviewed | — | — |
+| [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency… | Security Reviewed | — | — |
+| [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Datadog Metric Exporter](skills/datadog-metric-exporter/) | Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram… | Security Reviewed | — | — |
+| [Datadog Monitor Blueprint Generator](skills/datadog-monitor-blueprint-generator/) | Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor… | Security Reviewed | — | — |
+| [Datadog Monitor Configuration Agent](skills/datadog-monitor-configuration-agent-2/) | Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and… | Security Reviewed | — | — |
+| [Datadog Monitor Configuration Engine](skills/datadog-monitor-configuration-engine/) | Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors.… | Security Reviewed | — | — |
+| [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with… | Security Reviewed | — | — |
+| [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | — | — |
+| [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | — | — |
+| [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | — | — |
+| [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Published | — | — |
+| [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | — | — |
+| [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel… | Security Reviewed | — | — |
+| [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | — | — |
+| [Grafana Dashboard Generator](skills/grafana-dashboard-generator-3/) | Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db… | Security Reviewed | — | — |
+| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures… | Security Reviewed | — | — |
+| [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder… | Security Reviewed | — | — |
+| [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with… | Security Reviewed | — | — |
+| [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel… | Security Reviewed | — | — |
+| [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder… | Security Reviewed | — | — |
+| [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports… | Security Reviewed | — | — |
+| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing,… | Security Reviewed | — | — |
+| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | — | — |
+| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | — | — |
+| [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports… | Security Reviewed | — | — |
+| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | — | — |
+| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates… | Security Reviewed | — | — |
+| [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
+| [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Security Reviewed | — | — |
+| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | — | — |
+| [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Published | — | — |
+| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | — | — |
+| [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | — | — |
+| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation… | Security Reviewed | — | — |
+| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies,… | Security Reviewed | — | — |
+| [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | — | — |
+| [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [PM2 Node.js Production Process Manager with Load Balancing](skills/pm2-nodejs-production-process-manager/) | PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over… | Security Reviewed | — | — |
+| [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying… | Security Reviewed | — | — |
+| [Prometheus Alert Router](skills/prometheus-alert-router/) | Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with… | Security Reviewed | — | — |
+| [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures… | Security Reviewed | — | — |
+| [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API… | Security Reviewed | — | — |
+| [Prometheus Alert Rule Synthesizer](skills/prometheus-alert-rule-synthesizer/) | Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with… | Security Reviewed | — | — |
+| [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | Prometheus Alerting Rules is built around Prometheus metrics and alerting system. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card… | Security Reviewed | — | — |
+| [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert… | Security Reviewed | — | — |
+| [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for… | Security Reviewed | — | — |
+| [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports… | Security Reviewed | — | — |
+| [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP… | Security Reviewed | — | — |
+| [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages… | Security Reviewed | — | — |
+| [Prometheus AlertManager Rule Optimizer](skills/prometheus-alertmanager-rule-optimizer/) | Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query… | Security Reviewed | — | — |
+| [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP… | Security Reviewed | — | — |
+| [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes… | Security Reviewed | — | — |
+| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and… | Security Reviewed | — | — |
+| [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API… | Security Reviewed | — | — |
+| [Pyroscope Continuous Profiling Platform by Grafana](skills/pyroscope-continuous-profiling-platform-grafana/) | Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O… | Security Reviewed | — | — |
+| [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Published | — | — |
+| [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and… | Security Reviewed | — | — |
+| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite… | Security Reviewed | — | — |
+| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
+| [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
+| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
+
+
 ### 📚 Library & API Reference (97 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
@@ -846,111 +954,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource… | Security Reviewed | — | — |
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | — | — |
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
-
-
-### 📊 Monitoring & Alerts (97 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and… | Security Reviewed | 76.4k | — |
-| [Sentry Issue Spike Detection Agent](skills/sentry-issue-spike-detection-agent/) | Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes… | Security Reviewed | 43.5k | — |
-| [Umami Privacy-Focused Web Analytics Platform](skills/umami-privacy-focused-web-analytics/) | Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google… | Security Reviewed | 35.9k | — |
-| [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |
-| [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | 24.1k | — |
-| [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Security Reviewed | 16.2k | — |
-| [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |
-| [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 4.4k/wk |
-| [Grafana OnCall Escalation Chain Manager](skills/grafana-oncall-escalation-chain-manager/) | Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall… | Security Reviewed | 3.9k | — |
-| [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
-| [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
-| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 615 | — |
-| [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | — |
-| [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Security Reviewed | 531 | 4.5M/wk |
-| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 92 | — |
-| [AWS CloudWatch Anomaly Detector](skills/aws-cloudwatch-anomaly-detector/) | Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API.… | Security Reviewed | — | — |
-| [AWS CloudWatch Composite Alarm Builder](skills/aws-cloudwatch-composite-alarm-builder/) | Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule… | Security Reviewed | — | — |
-| [AWS CloudWatch Insights Agent](skills/aws-cloudwatch-insights-agent/) | Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway… | Security Reviewed | — | — |
-| [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs,… | Security Reviewed | — | — |
-| [Chartbrew Open Source Reporting Platform for API and Database Dashboards](skills/chartbrew-open-source-reporting-dashboard-platform/) | Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL… | Published | — | — |
-| [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates,… | Security Reviewed | — | — |
-| [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs.… | Security Reviewed | — | — |
-| [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | — | — |
-| [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs.… | Security Reviewed | — | — |
-| [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and… | Security Reviewed | — | — |
-| [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on… | Security Reviewed | — | — |
-| [Datadog Anomaly Detector](skills/datadog-anomaly-detector/) | Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors… | Security Reviewed | — | — |
-| [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN… | Security Reviewed | — | — |
-| [Datadog APM Trace Analyzer](skills/datadog-apm-trace-analyzer-2/) | Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots.… | Security Reviewed | — | — |
-| [Datadog APM Trace Query Agent](skills/datadog-apm-trace-query-agent/) | Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency… | Security Reviewed | — | — |
-| [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Datadog Metric Exporter](skills/datadog-metric-exporter/) | Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram… | Security Reviewed | — | — |
-| [Datadog Monitor Blueprint Generator](skills/datadog-monitor-blueprint-generator/) | Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor… | Security Reviewed | — | — |
-| [Datadog Monitor Configuration Agent](skills/datadog-monitor-configuration-agent-2/) | Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and… | Security Reviewed | — | — |
-| [Datadog Monitor Configuration Engine](skills/datadog-monitor-configuration-engine/) | Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors.… | Security Reviewed | — | — |
-| [Datadog Monitor Configurator](skills/datadog-monitor-configurator-2/) | Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with… | Security Reviewed | — | — |
-| [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | — | — |
-| [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | — | — |
-| [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | — | — |
-| [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Published | — | — |
-| [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | — | — |
-| [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel… | Security Reviewed | — | — |
-| [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | — | — |
-| [Grafana Dashboard Generator](skills/grafana-dashboard-generator-3/) | Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db… | Security Reviewed | — | — |
-| [Grafana Dashboard JSON Assembler](skills/grafana-dashboard-json-assembler/) | Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures… | Security Reviewed | — | — |
-| [Grafana Dashboard JSON Migrator](skills/grafana-dashboard-json-migrator/) | Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder… | Security Reviewed | — | — |
-| [Grafana Dashboard Scaffolder](skills/grafana-dashboard-scaffolder/) | Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with… | Security Reviewed | — | — |
-| [Grafana Dashboard Snapshot Exporter](skills/grafana-dashboard-snapshot-exporter/) | Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel… | Security Reviewed | — | — |
-| [Grafana Dashboard Sync Agent](skills/grafana-dashboard-sync-agent/) | Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder… | Security Reviewed | — | — |
-| [Grafana Dashboard Template Generator](skills/grafana-dashboard-template-generator/) | Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports… | Security Reviewed | — | — |
-| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing,… | Security Reviewed | — | — |
-| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | — | — |
-| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | — | — |
-| [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports… | Security Reviewed | — | — |
-| [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | — | — |
-| [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates… | Security Reviewed | — | — |
-| [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
-| [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Security Reviewed | — | — |
-| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | — | — |
-| [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Published | — | — |
-| [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | — | — |
-| [OpenTelemetry Trace Aggregator](skills/opentelemetry-trace-aggregator/) | Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC… | Security Reviewed | — | — |
-| [OpsGenie MCP Server](skills/opsgenie-mcp-server/) | OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation… | Security Reviewed | — | — |
-| [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies,… | Security Reviewed | — | — |
-| [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | — | — |
-| [PagerDuty MCP Server](skills/pagerduty-mcp-server/) | PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [PM2 Node.js Production Process Manager with Load Balancing](skills/pm2-nodejs-production-process-manager/) | PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over… | Security Reviewed | — | — |
-| [Prometheus / Grafana MCP Server](skills/prometheus-grafana-mcp-server/) | Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying… | Security Reviewed | — | — |
-| [Prometheus Alert Router](skills/prometheus-alert-router/) | Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with… | Security Reviewed | — | — |
-| [Prometheus Alert Rule Builder](skills/prometheus-alert-rule-builder/) | Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures… | Security Reviewed | — | — |
-| [Prometheus Alert Rule Generator](skills/prometheus-alert-rule-generator-2/) | Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API… | Security Reviewed | — | — |
-| [Prometheus Alert Rule Synthesizer](skills/prometheus-alert-rule-synthesizer/) | Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerting rules from metric baselines. Integrates with… | Security Reviewed | — | — |
-| [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | Prometheus Alerting Rules is built around Prometheus metrics and alerting system. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Prometheus Alertmanager Bridge](skills/prometheus-alertmanager-bridge-2/) | Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card… | Security Reviewed | — | — |
-| [Prometheus AlertManager Bridge](skills/prometheus-alertmanager-bridge/) | Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert… | Security Reviewed | — | — |
-| [Prometheus AlertManager Configurator](skills/prometheus-alertmanager-configurator/) | Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for… | Security Reviewed | — | — |
-| [Prometheus AlertManager Router](skills/prometheus-alertmanager-router/) | Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports… | Security Reviewed | — | — |
-| [Prometheus AlertManager Rule Builder](skills/prometheus-alertmanager-rule-builder/) | Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP… | Security Reviewed | — | — |
-| [Prometheus AlertManager Rule Generator](skills/prometheus-alertmanager-rule-generator/) | Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages… | Security Reviewed | — | — |
-| [Prometheus AlertManager Rule Optimizer](skills/prometheus-alertmanager-rule-optimizer/) | Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query… | Security Reviewed | — | — |
-| [Prometheus AlertManager Rules Engine](skills/prometheus-alertmanager-rules-engine/) | Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP… | Security Reviewed | — | — |
-| [Prometheus Custom Exporter Builder](skills/prometheus-custom-exporter-builder/) | Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes… | Security Reviewed | — | — |
-| [Prometheus PromQL Alert Builder](skills/prometheus-promql-alert-builder/) | Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and… | Security Reviewed | — | — |
-| [Prometheus Rule Evaluator](skills/prometheus-rule-evaluator/) | Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API… | Security Reviewed | — | — |
-| [Pyroscope Continuous Profiling Platform by Grafana](skills/pyroscope-continuous-profiling-platform-grafana/) | Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O… | Security Reviewed | — | — |
-| [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and… | Security Reviewed | — | — |
-| [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite… | Security Reviewed | — | — |
-| [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
-| [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
-| [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
 ### ✅ Code Quality & Review (95 skills)

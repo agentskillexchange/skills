@@ -76,6 +76,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | — | — |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | — | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | — | — |
+| [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | — | — |
