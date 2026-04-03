@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1648 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 15:38 UTC
+> **1651 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 17:39 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (210 skills)
+### 🛠️ Developer Tools (211 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -152,6 +152,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | — | — |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](skills/bullmq-redis-message-queue-job-processor-nodejs/) | BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides… | Security Reviewed | — | — |
+| [Bun All-in-One JavaScript Runtime Bundler and Package Manager](skills/bun-javascript-runtime-bundler-package-manager-2/) | Bun is an all-in-one JavaScript and TypeScript toolkit that ships as a single executable. It includes a fast runtime… | Published | — | — |
 | [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -226,7 +227,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](skills/wxt-next-gen-web-extension-framework/) | WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (143 skills)
+### 🔧 CI/CD Integrations (144 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -352,6 +353,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Jenkins Shared Library Builder](skills/jenkins-shared-library-builder/) | Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit).… | Security Reviewed | — | — |
 | [Jenkins Shared Library Linter](skills/jenkins-shared-library-linter/) | Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser.… | Security Reviewed | — | — |
 | [Jenkins Shared Library Manager](skills/jenkins-shared-library-manager/) | Manages Jenkins Shared Libraries with proper vars/ and src/ structure using the Jenkins Pipeline Shared Groovy… | Security Reviewed | — | — |
+| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](skills/kamal-zero-downtime-docker-deployment-basecamp/) | Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare… | Published | — | — |
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 | [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks.… | Security Reviewed | — | — |
@@ -626,7 +628,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (111 skills)
+### 🔒 Security & Verification (112 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -733,6 +735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Terrascan Policy Scanner](skills/terrascan-policy-scanner/) | Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak… | Security Reviewed | — | — |
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
+| [Tracecat AI-Native Security Automation and SOAR Platform](skills/tracecat-ai-security-automation-soar-platform/) | Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and… | Published | — | — |
 | [Trivy Container & IaC Vulnerability Scanner](skills/trivy-container-iac-vulnerability-scanner/) | Runs Aqua Security Trivy against container images, filesystem paths, and Terraform/CloudFormation templates.… | Security Reviewed | — | — |
 | [Trivy Container Image Vulnerability Scanner](skills/trivy-container-image-vulnerability-scanner/) | Scans Docker and OCI container images with Aqua Trivy for CVEs in OS packages and language dependencies. Outputs… | Security Reviewed | — | — |
 | [Trivy Container Scanner](skills/trivy-container-scanner-2/) | Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for… | Security Reviewed | — | — |

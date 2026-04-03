@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1648,
+  "total": 1651,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "bun-javascript-runtime-bundler-package-manager-2",
+      "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
+      "description": "Bun is an all-in-one JavaScript and TypeScript toolkit that ships as a single executable. It includes a fast runtime (drop-in Node.js replacement), package manager,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "tracecat-ai-security-automation-soar-platform",
+      "name": "Tracecat AI-Native Security Automation and SOAR Platform",
+      "description": "Tracecat is an open-source, AI-native security automation platform built as a self-hosted alternative to Tines and Splunk SOAR. It combines agents, workflows, case management,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "kamal-zero-downtime-docker-deployment-basecamp",
+      "name": "Kamal Zero-Downtime Docker Deployment Tool by Basecamp",
+      "description": "Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "garden-kubernetes-dev-testing-automation",
       "name": "Garden Kubernetes Development and Testing Automation Platform",

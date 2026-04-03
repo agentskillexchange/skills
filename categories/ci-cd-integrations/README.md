@@ -138,6 +138,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | — | — |
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | — | — |
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | — | — |
+| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |

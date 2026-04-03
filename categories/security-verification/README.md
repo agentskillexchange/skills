@@ -124,6 +124,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |
+| [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | — | — |
 | [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | — | — |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | — | — |
 | [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | — | — |
