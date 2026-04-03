@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1634,
+  "total": 1638,
   "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "pop-terminal-email-sender-charmbracelet",
+      "name": "Pop Terminal Email Sender and TUI by Charmbracelet",
+      "description": "Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports Resend API and SMTP backends,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "license": "MIT"
+      }
+    },
+    {
+      "slug": "tealdeer-fast-tldr-client-rust",
+      "name": "Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages",
+      "description": "Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for command-line tools. It provides quick reference with…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "license": "MIT/Apache-2.0"
+      }
+    },
+    {
+      "slug": "horcrux-shamir-secret-file-splitter",
+      "name": "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool",
+      "description": "Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "license": "MIT"
+      }
+    },
+    {
+      "slug": "usql-universal-sql-client",
+      "name": "usql Universal Command-Line SQL Client for Multiple Databases",
+      "description": "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "license": "MIT"
+      }
+    },
     {
       "slug": "dokku-docker-paas",
       "name": "Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS",

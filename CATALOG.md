@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1634 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-03 05:40 UTC
+> **1638 published skills** across **17 categories** · 1561 security reviewed · Updated 2026-04-03 07:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (206 skills)
+### 🛠️ Developer Tools (208 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -208,10 +208,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](skills/tabby-self-hosted-ai-coding-assistant/) | Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub… | Security Reviewed | — | — |
+| [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](skills/tealdeer-fast-tldr-client-rust/) | Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for… | Published | — | — |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
 | [Textual Python TUI Application Framework by Textualize](skills/textual-python-tui-application-framework/) | Textual is a lean application framework for Python that lets you build sophisticated terminal user interfaces with a… | Published | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
+| [usql Universal Command-Line SQL Client for Multiple Databases](skills/usql-universal-sql-client/) | usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL… | Published | — | — |
 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
@@ -620,7 +622,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (110 skills)
+### 🔒 Security & Verification (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -681,6 +683,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | — | — |
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
+| [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Published | — | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
@@ -1048,7 +1051,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (82 skills)
+### 📅 Calendar, Email & Productivity (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1122,6 +1125,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Pop Terminal Email Sender and TUI by Charmbracelet](skills/pop-terminal-email-sender-charmbracelet/) | Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports… | Published | — | — |
 | [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | — | — |
 | [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | — | — |
 | [Slack Standup Automator](skills/slack-standup-automator/) | Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and… | Security Reviewed | — | — |

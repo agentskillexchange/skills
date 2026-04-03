@@ -234,10 +234,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | — | — |
+| [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | — | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
+| [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
