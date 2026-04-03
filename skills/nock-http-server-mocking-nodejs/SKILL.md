@@ -3,7 +3,7 @@ name: "Nock HTTP Server Mocking and Expectations Library for Node.js"
 description: "Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and provides programmable responses. With over 13,000 GitHub stars and 5.5 million weekly npm"
 category: "Code Quality & Review"
 source: "https://github.com/nock/nock"
-verification: listed
+verification: security_reviewed
 ---
 
 # Nock HTTP Server Mocking and Expectations Library for Node.js

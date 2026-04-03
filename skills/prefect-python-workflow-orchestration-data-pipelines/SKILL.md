@@ -3,7 +3,7 @@ name: "Prefect Python Workflow Orchestration Framework for Data Pipelines"
 description: "Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries, caching, and observability to any Python script with simple decorators. Monitor workflows through the self-hosted Prefect server or managed Prefect Cloud dashboard."
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/PrefectHQ/prefect"
 ---
 

@@ -3,7 +3,7 @@ name: "OpenObserve Cloud-Native Observability Platform for Logs Metrics and Trac
 description: "OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User Monitoring (RUM). Designed as a cost-effective alternative to Datadog, Splunk, and Elasticse"
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/openobserve/openobserve"
 ---
 # OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces

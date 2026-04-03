@@ -7,7 +7,7 @@ description: >-
 version: 1.0.0
 category: Security & Verification
 source: https://github.com/unkeyed/unkey
-verification: listed
+verification: security_reviewed
 ---
 
 # Unkey Open Source API Key Management and Rate Limiting Platform

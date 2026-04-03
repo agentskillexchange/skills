@@ -2,7 +2,7 @@
 name: "usql Universal Command-Line SQL Client for Multiple Databases"
 description: "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying."
 category: "Developer Tools"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/xo/usql"
 tool_ecosystem:
   github_repo: "xo/usql"

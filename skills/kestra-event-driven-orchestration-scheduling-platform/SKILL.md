@@ -3,7 +3,7 @@ name: "Kestra Event-Driven Orchestration and Scheduling Platform"
 description: "Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. Define workflows declaratively in YAML with a rich plugin ecosystem covering databases, cloud storage, APIs, and scripting in any language."
 category: "Templates & Workflows"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/kestra-io/kestra"
 ---
 

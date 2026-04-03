@@ -3,7 +3,7 @@ name: "Wails Desktop Application Framework for Go and Web Technologies"
 description: "Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the frontend. It compiles to a single native bi"
 category: "Developer Tools"
 source: "https://github.com/wailsapp/wails"
-verification: listed
+verification: security_reviewed
 ---
 
 # Wails Desktop Application Framework for Go and Web Technologies

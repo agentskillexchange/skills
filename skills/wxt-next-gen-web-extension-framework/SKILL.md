@@ -8,7 +8,7 @@ description: >-
 version: 1.0.0
 category: Developer Tools
 source: https://github.com/wxt-dev/wxt
-verification: listed
+verification: security_reviewed
 ---
 
 # WXT Next-Generation Web Extension Framework

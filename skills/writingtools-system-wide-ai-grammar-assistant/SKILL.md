@@ -8,7 +8,7 @@ description: >-
 version: 1.0.0
 category: Content Writing & SEO
 source: https://github.com/theJayTea/WritingTools
-verification: listed
+verification: security_reviewed
 ---
 
 # WritingTools System-Wide AI Grammar Assistant

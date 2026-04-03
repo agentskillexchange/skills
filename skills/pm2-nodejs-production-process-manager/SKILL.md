@@ -3,7 +3,7 @@ name: "PM2 Node.js Production Process Manager with Load Balancing"
 description: "PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over 42,000 GitHub stars and millions of weekly npm downloads, it keeps applications aliv"
 category: "Monitoring & Alerts"
 source: "https://github.com/Unitech/pm2"
-verification: listed
+verification: security_reviewed
 ---
 
 # PM2 Node.js Production Process Manager with Load Balancing

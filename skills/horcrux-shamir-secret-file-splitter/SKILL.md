@@ -2,7 +2,7 @@
 name: "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool"
 description: "Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable threshold — no password required."
 category: "Security & Verification"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/jesseduffield/horcrux"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"

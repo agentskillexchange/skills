@@ -4,7 +4,7 @@ description: "LobeHub is an open-source multi-agent chat platform supporting 50+
 category: "Developer Tools"
 framework: "Multi-Framework"
 source: "https://github.com/lobehub/lobehub"
-verification: listed
+verification: security_reviewed
 ---
 
 # LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem
