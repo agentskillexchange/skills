@@ -93,6 +93,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | — | — |
+| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | — | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | — | — |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | — | — |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | — | — |
@@ -119,6 +120,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Custom Exporter Builder](../../skills/prometheus-custom-exporter-builder/) | — | — |
 | [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | — | — |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | — | — |
+| [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | — | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1620,
-  "generated": "2026-04-02",
+  "total": 1623,
+  "generated": "2026-04-03",
   "skills": [
+    {
+      "slug": "pyroscope-continuous-profiling-platform-grafana",
+      "name": "Pyroscope Continuous Profiling Platform by Grafana",
+      "description": "Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "openobserve-observability-platform-logs-metrics-traces",
+      "name": "OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces",
+      "description": "OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User Monitoring (RUM). Designed as a cost-effective alternative to Datadog, Splunk,…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "bun-javascript-runtime-bundler-package-manager",
+      "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
+      "description": "Bun is an incredibly fast all-in-one JavaScript and TypeScript toolkit that serves as a runtime, bundler, test runner, and package manager. Built with Zig…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "wxt-next-gen-web-extension-framework",
       "name": "WXT Next-Generation Web Extension Framework for Browser Extensions",
