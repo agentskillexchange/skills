@@ -2,6 +2,7 @@
 name: "Dokploy Open Source Self-Hosted Application Deployment Platform"
 description: "Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and databases. It supports Docker Compose, multi-node Docker Swarm, automated backups, Traefik integration, and 50+ one-click templates."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/dokploy/dokploy"
 ---
@@ -31,30 +32,35 @@ Dokploy includes 50+ one-click deployment templates for popular open-source tool
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
 ```bash
-clawhub install agentskillexchange/dokploy-self-hosted-deployment
+npx skills add agentskillexchange/skills --skill dokploy-self-hosted-deployment
 ```
 
-### OpenClaw Chat
-```
-/install agentskillexchange/dokploy-self-hosted-deployment
-```
+### Claude Code
 
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/dokploy-self-hosted-deployment/) and place in your agent's skills directory.
-
-### Git Clone
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/dokploy-self-hosted-deployment /your/skills/directory/
+npx skills add agentskillexchange/skills --skill dokploy-self-hosted-deployment -a claude-code
 ```
 
-### Direct File
-Copy the SKILL.md file from [skills/dokploy-self-hosted-deployment/SKILL.md](https://github.com/agentskillexchange/skills/tree/main/skills/dokploy-self-hosted-deployment/SKILL.md)
+### Cursor
 
+```bash
+npx skills add agentskillexchange/skills --skill dokploy-self-hosted-deployment -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dokploy-self-hosted-deployment -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dokploy-self-hosted-deployment
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/dokploy-self-hosted-deployment/)

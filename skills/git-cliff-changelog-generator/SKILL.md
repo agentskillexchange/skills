@@ -2,6 +2,7 @@
 name: "git-cliff Customizable Changelog Generator for Git Repositories"
 description: "git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a TOML configuration file for full control over changelog format and content."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/orhun/git-cliff"
 tool_ecosystem:

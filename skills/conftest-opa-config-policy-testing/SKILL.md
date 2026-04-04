@@ -3,6 +3,7 @@ name: "Conftest Structured Configuration Policy Testing with OPA Rego"
 description: "Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It validates Kubernetes manifests, Terraform configs, Dockerfiles, CI pipelines, and any othe"
 category: "Security & Verification"
 source: "https://github.com/open-policy-agent/conftest"
+framework: "Multi-Framework"
 verification: security_reviewed
 ---
 

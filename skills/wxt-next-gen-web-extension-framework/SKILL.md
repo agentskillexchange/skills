@@ -7,7 +7,8 @@ description: >-
   automated publishing.
 version: 1.0.0
 category: Developer Tools
-source: https://github.com/wxt-dev/wxt
+source: "https://github.com/wxt-dev/wxt"
+framework: "Multi-Framework"
 verification: security_reviewed
 ---
 

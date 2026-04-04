@@ -13,29 +13,35 @@ SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler tha
 
 ## Installation
 
-### Via Agent Skill Exchange
-Install from [Agent Skill Exchange](https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/).
+### Any Agent
 
-### Via OpenClaw
 ```bash
-openclaw install swc-speedy-web-compiler-javascript-typescript
+npx skills add agentskillexchange/skills --skill swc-speedy-web-compiler-javascript-typescript
 ```
 
-### Via ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill swc-speedy-web-compiler-javascript-typescript -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill swc-speedy-web-compiler-javascript-typescript -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill swc-speedy-web-compiler-javascript-typescript -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install swc-speedy-web-compiler-javascript-typescript
 ```
-
-### Via AGENTS.md Reference
-Add to your `AGENTS.md`:
-```
-skills:
-  - swc-speedy-web-compiler-javascript-typescript
-```
-
-### Manual Setup
-See the [skill page](https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/) for manual configuration instructions.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/)

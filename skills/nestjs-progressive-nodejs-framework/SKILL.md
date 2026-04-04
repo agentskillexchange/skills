@@ -2,7 +2,8 @@
 name: "NestJS — Progressive Node.js Framework for Server-Side Applications"
 description: "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and microservices."
 category: "Uncategorized"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:
   github_repo: "nestjs/nest"

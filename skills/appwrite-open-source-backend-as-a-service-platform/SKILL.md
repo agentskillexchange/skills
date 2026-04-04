@@ -13,29 +13,35 @@ Appwrite is an open-source, self-hosted backend platform that provides authentic
 
 ## Installation
 
-### Via Agent Skill Exchange
-Install from [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-as-a-service-platform/).
+### Any Agent
 
-### Via OpenClaw
 ```bash
-openclaw install appwrite-open-source-backend-as-a-service-platform
+npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-as-a-service-platform
 ```
 
-### Via ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-as-a-service-platform -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-as-a-service-platform -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-as-a-service-platform -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install appwrite-open-source-backend-as-a-service-platform
 ```
-
-### Via AGENTS.md Reference
-Add to your `AGENTS.md`:
-```
-skills:
-  - appwrite-open-source-backend-as-a-service-platform
-```
-
-### Manual Setup
-See the [skill page](https://agentskillexchange.com/skills/appwrite-open-source-backend-as-a-service-platform/) for manual configuration instructions.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-as-a-service-platform/)

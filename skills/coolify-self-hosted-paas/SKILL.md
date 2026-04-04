@@ -2,6 +2,7 @@
 name: "Coolify Self-Hosted PaaS for Application and Database Deployment"
 description: "Coolify is an open-source, self-hostable Platform as a Service alternative to Heroku, Vercel, and Netlify. It lets you deploy static sites, full-stack applications, databases, and 280+ one-click services on your own servers with just an SSH connection."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/coollabsio/coolify"
 ---
@@ -31,30 +32,35 @@ Coolify requires a Linux server with SSH access and Docker. It runs as a Docker 
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
 ```bash
-clawhub install agentskillexchange/coolify-self-hosted-paas
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas
 ```
 
-### OpenClaw Chat
-```
-/install agentskillexchange/coolify-self-hosted-paas
-```
+### Claude Code
 
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/coolify-self-hosted-paas/) and place in your agent's skills directory.
-
-### Git Clone
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/coolify-self-hosted-paas /your/skills/directory/
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas -a claude-code
 ```
 
-### Direct File
-Copy the SKILL.md file from [skills/coolify-self-hosted-paas/SKILL.md](https://github.com/agentskillexchange/skills/tree/main/skills/coolify-self-hosted-paas/SKILL.md)
+### Cursor
 
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill coolify-self-hosted-paas -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install coolify-self-hosted-paas
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/coolify-self-hosted-paas/)

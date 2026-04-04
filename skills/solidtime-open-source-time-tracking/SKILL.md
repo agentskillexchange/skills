@@ -4,7 +4,7 @@ description: "solidtime is a modern open-source time tracking application built 
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 source: "https://github.com/solidtime-io/solidtime"
-verification: "listed"
+verification: listed
 ---
 
 # solidtime Modern Open Source Time Tracking for Freelancers and Agencies
@@ -13,22 +13,35 @@ solidtime is a modern open-source time tracking application built for freelancer
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install solidtime-open-source-time-tracking
-
-# OpenClaw CLI
-openclaw skills install solidtime-open-source-time-tracking
-
-# Claude Code / Codex
-npx @anthropic-ai/claude-code skills install solidtime-open-source-time-tracking
-
-# Manual download
-curl -L https://agentskillexchange.com/skills/solidtime-open-source-time-tracking/download -o SKILL.md
+npx skills add agentskillexchange/skills --skill solidtime-open-source-time-tracking
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill solidtime-open-source-time-tracking -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill solidtime-open-source-time-tracking -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill solidtime-open-source-time-tracking -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install solidtime-open-source-time-tracking
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/solidtime-open-source-time-tracking/)

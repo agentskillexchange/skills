@@ -4,7 +4,7 @@ description: "Cariddi is a Go-based security tool that takes a list of domains, 
 category: "Security & Verification"
 framework: "Multi-Framework"
 source: "https://github.com/edoardottt/cariddi"
-verification: "listed"
+verification: listed
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner
@@ -27,8 +27,35 @@ Results can be output as plain text to stdout (`-plain`), JSON (`-json`), text f
 
 ## Installation
 
-Cariddi is available through multiple package managers: Homebrew (`brew install cariddi`), Snap (`snap install cariddi`), Go install (`go install github.com/edoardottt/cariddi/cmd/cariddi@latest`), Arch Linux (`pacman -Syu cariddi`), and Nix. It can also be built from source with standard Go tooling.
+### Any Agent
 
+```bash
+npx skills add agentskillexchange/skills --skill cariddi-domain-crawler-endpoint-secret-scanner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cariddi-domain-crawler-endpoint-secret-scanner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cariddi-domain-crawler-endpoint-secret-scanner -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill cariddi-domain-crawler-endpoint-secret-scanner -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install cariddi-domain-crawler-endpoint-secret-scanner
+```
 ## Agent Integration Points
 
 Security-focused agents can pipe domain lists into Cariddi for automated reconnaissance during penetration testing workflows. The JSON output mode integrates cleanly with downstream analysis pipelines. Agents can combine Cariddi with subdomain enumeration tools like Subfinder to build comprehensive attack surface maps, or use it in CI/CD pipelines to scan staging environments for accidentally exposed secrets before production deployment.

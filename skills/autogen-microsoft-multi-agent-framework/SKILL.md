@@ -2,7 +2,8 @@
 name: "AutoGen — Microsoft Multi-Agent Conversation Framework"
 description: "AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workfl"
 category: "Uncategorized"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/microsoft/autogen"
 tool_ecosystem:
   github_repo: "microsoft/autogen"

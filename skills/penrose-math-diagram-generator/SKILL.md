@@ -3,6 +3,7 @@ name: "Penrose Mathematical Diagram Generator from Plain Text Notation"
 description: "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply style rules to gene"
 category: "Image & Creative Automation"
 source: "https://github.com/penrose/penrose"
+framework: "Multi-Framework"
 verification: security_reviewed
 ---
 

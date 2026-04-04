@@ -1,8 +1,9 @@
 ---
 name: "Garden Kubernetes Development and Testing Automation Platform"
-slug: "garden-kubernetes-dev-testing-automation"
+description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
 category: "CI/CD Integrations"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/garden-io/garden"
 ---
 # Garden Kubernetes Development and Testing Automation Platform
@@ -11,21 +12,35 @@ Garden is a DevOps automation tool for developing and testing Kubernetes apps fa
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# OpenClaw CLI
-openclaw skills install garden-kubernetes-dev-testing-automation
-
-# ClawHub CLI
-clawhub install garden-kubernetes-dev-testing-automation
+npx skills add agentskillexchange/skills --skill garden-kubernetes-dev-testing-automation
 ```
 
-**Other methods:**
-- [Install from Agent Skill Exchange](https://agentskillexchange.com/skills/garden-kubernetes-dev-testing-automation/)
-- [Browse in ClawHub](https://clawhub.com)
-- Manual: Clone this repo and copy the skill folder to your agent skills directory
+### Claude Code
 
+```bash
+npx skills add agentskillexchange/skills --skill garden-kubernetes-dev-testing-automation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill garden-kubernetes-dev-testing-automation -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill garden-kubernetes-dev-testing-automation -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install garden-kubernetes-dev-testing-automation
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/garden-kubernetes-dev-testing-automation/)

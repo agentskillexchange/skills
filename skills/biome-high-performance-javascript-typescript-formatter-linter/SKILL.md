@@ -13,29 +13,35 @@ Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX
 
 ## Installation
 
-### Via Agent Skill Exchange
-Install from [Agent Skill Exchange](https://agentskillexchange.com/skills/biome-high-performance-javascript-typescript-formatter-linter/).
+### Any Agent
 
-### Via OpenClaw
 ```bash
-openclaw install biome-high-performance-javascript-typescript-formatter-linter
+npx skills add agentskillexchange/skills --skill biome-high-performance-javascript-typescript-formatter-linter
 ```
 
-### Via ClawHub CLI
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill biome-high-performance-javascript-typescript-formatter-linter -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill biome-high-performance-javascript-typescript-formatter-linter -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill biome-high-performance-javascript-typescript-formatter-linter -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install biome-high-performance-javascript-typescript-formatter-linter
 ```
-
-### Via AGENTS.md Reference
-Add to your `AGENTS.md`:
-```
-skills:
-  - biome-high-performance-javascript-typescript-formatter-linter
-```
-
-### Manual Setup
-See the [skill page](https://agentskillexchange.com/skills/biome-high-performance-javascript-typescript-formatter-linter/) for manual configuration instructions.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/biome-high-performance-javascript-typescript-formatter-linter/)

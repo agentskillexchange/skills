@@ -3,6 +3,7 @@ name: "dotenvx Secure Environment Variable Manager and Encryptor"
 description: "dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any programming language or fra"
 category: "Security & Verification"
 source: "https://github.com/dotenvx/dotenvx"
+framework: "Multi-Framework"
 verification: listed
 ---
 

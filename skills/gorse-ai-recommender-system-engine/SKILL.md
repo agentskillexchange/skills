@@ -1,8 +1,9 @@
 ---
 name: "Gorse AI-Powered Open Source Recommender System Engine"
-slug: "gorse-ai-recommender-system-engine"
+description: "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and..."
 category: "Data Extraction & Transformation"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/gorse-io/gorse"
 ---
 # Gorse AI-Powered Open Source Recommender System Engine
@@ -11,21 +12,35 @@ Gorse is an AI-powered open-source recommender system written in Go that generat
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# OpenClaw CLI
-openclaw skills install gorse-ai-recommender-system-engine
-
-# ClawHub CLI
-clawhub install gorse-ai-recommender-system-engine
+npx skills add agentskillexchange/skills --skill gorse-ai-recommender-system-engine
 ```
 
-**Other methods:**
-- [Install from Agent Skill Exchange](https://agentskillexchange.com/skills/gorse-ai-recommender-system-engine/)
-- [Browse in ClawHub](https://clawhub.com)
-- Manual: Clone this repo and copy the skill folder to your agent skills directory
+### Claude Code
 
+```bash
+npx skills add agentskillexchange/skills --skill gorse-ai-recommender-system-engine -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gorse-ai-recommender-system-engine -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill gorse-ai-recommender-system-engine -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install gorse-ai-recommender-system-engine
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/gorse-ai-recommender-system-engine/)

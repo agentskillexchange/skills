@@ -2,6 +2,7 @@
 name: "Dozzle Real-Time Docker Container Log Viewer"
 description: "Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm mode, and Kubernetes, provides fuzzy search, regex and SQL log queries, multi-host agent mode, and split-screen log viewing — all in a 7 MB container."
 category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/amir20/dozzle"
 ---
@@ -31,30 +32,35 @@ Real-time debugging of containerized applications, monitoring deployment rollout
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-### ClawHub (Recommended)
 ```bash
-clawhub install agentskillexchange/dozzle-docker-log-viewer
+npx skills add agentskillexchange/skills --skill dozzle-docker-log-viewer
 ```
 
-### OpenClaw Chat
-```
-/install agentskillexchange/dozzle-docker-log-viewer
-```
+### Claude Code
 
-### Manual Download
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/dozzle-docker-log-viewer/) and place in your agent's skills directory.
-
-### Git Clone
 ```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -r skills/skills/dozzle-docker-log-viewer /your/skills/directory/
+npx skills add agentskillexchange/skills --skill dozzle-docker-log-viewer -a claude-code
 ```
 
-### Direct File
-Copy the SKILL.md file from [skills/dozzle-docker-log-viewer/SKILL.md](https://github.com/agentskillexchange/skills/tree/main/skills/dozzle-docker-log-viewer/SKILL.md)
+### Cursor
 
+```bash
+npx skills add agentskillexchange/skills --skill dozzle-docker-log-viewer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dozzle-docker-log-viewer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dozzle-docker-log-viewer
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/dozzle-docker-log-viewer/)

@@ -3,6 +3,7 @@ name: "Howler.js Cross-Browser JavaScript Audio Library"
 description: "Howler.js is a JavaScript audio library for the modern web that defaults to the Web Audio API with an HTML5 Audio fallback. With nearly 25,000 GitHub stars and 580,000 weekly npm downloads, it provide"
 category: "Media & Transcription"
 source: "https://github.com/goldfire/howler.js"
+framework: "Multi-Framework"
 verification: security_reviewed
 ---
 

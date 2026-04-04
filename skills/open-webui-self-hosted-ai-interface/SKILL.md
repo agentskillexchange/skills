@@ -4,6 +4,7 @@ description: "Open WebUI is an extensible, feature-rich, and user-friendly self-
 category: "Developer Tools"
 compatible_frameworks: ["Multi-Framework"]
 source: "https://github.com/open-webui/open-webui"
+framework: "Multi-Framework"
 verification: security_reviewed
 tool_ecosystem:
   github_repo: "open-webui/open-webui"

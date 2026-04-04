@@ -1,7 +1,9 @@
 ---
 name: "WeasyPrint HTML and CSS to PDF Document Generator"
+description: "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for pagination, supporting web standards for printing including page breaks, headers, page counters, and responsive layouts without relying..."
 category: "Data Extraction & Transformation"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/Kozea/WeasyPrint"
 ---
 
@@ -26,21 +28,35 @@ For AI agents, WeasyPrint enables skills that generate professional PDF document
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**From Agent Skill Exchange:**
+```bash
+npx skills add agentskillexchange/skills --skill weasyprint-html-css-pdf-document-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill weasyprint-html-css-pdf-document-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill weasyprint-html-css-pdf-document-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill weasyprint-html-css-pdf-document-generator -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install weasyprint-html-css-pdf-document-generator
 ```
-
-**From GitHub:**
-```bash
-clawhub install github:agentskillexchange/skills/skills/weasyprint-html-css-pdf-document-generator
-```
-
-**Manual Download:**
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/weasyprint-html-css-pdf-document-generator/) and place in your skills directory.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/weasyprint-html-css-pdf-document-generator/)

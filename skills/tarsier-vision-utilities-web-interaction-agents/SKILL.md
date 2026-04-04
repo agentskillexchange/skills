@@ -1,7 +1,9 @@
 ---
 name: "Tarsier Vision Utilities for Web Interaction Agents"
+description: "Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually tags interactable elements on web pages with bracketed IDs, enabling LLMs to take actions like CLICK [23], and includes an OCR algorithm that converts page screenshots into..."
 category: "Browser Automation"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/reworkd/tarsier"
 ---
 
@@ -26,21 +28,35 @@ For AI coding agents, Tarsier enables building browser automation skills that ca
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**From Agent Skill Exchange:**
+```bash
+npx skills add agentskillexchange/skills --skill tarsier-vision-utilities-web-interaction-agents
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tarsier-vision-utilities-web-interaction-agents -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tarsier-vision-utilities-web-interaction-agents -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill tarsier-vision-utilities-web-interaction-agents -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install tarsier-vision-utilities-web-interaction-agents
 ```
-
-**From GitHub:**
-```bash
-clawhub install github:agentskillexchange/skills/skills/tarsier-vision-utilities-web-interaction-agents
-```
-
-**Manual Download:**
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/tarsier-vision-utilities-web-interaction-agents/) and place in your skills directory.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/tarsier-vision-utilities-web-interaction-agents/)

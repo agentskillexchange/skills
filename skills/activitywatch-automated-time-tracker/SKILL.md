@@ -4,7 +4,7 @@ description: "ActivityWatch is a privacy-first, open-source automated time track
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 source: "https://github.com/ActivityWatch/activitywatch"
-verification: "listed"
+verification: listed
 ---
 
 # ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer
@@ -13,22 +13,35 @@ ActivityWatch is a privacy-first, open-source automated time tracker that record
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install activitywatch-automated-time-tracker
-
-# OpenClaw CLI
-openclaw skills install activitywatch-automated-time-tracker
-
-# Claude Code / Codex
-npx @anthropic-ai/claude-code skills install activitywatch-automated-time-tracker
-
-# Manual download
-curl -L https://agentskillexchange.com/skills/activitywatch-automated-time-tracker/download -o SKILL.md
+npx skills add agentskillexchange/skills --skill activitywatch-automated-time-tracker
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill activitywatch-automated-time-tracker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill activitywatch-automated-time-tracker -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill activitywatch-automated-time-tracker -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install activitywatch-automated-time-tracker
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/activitywatch-automated-time-tracker/)

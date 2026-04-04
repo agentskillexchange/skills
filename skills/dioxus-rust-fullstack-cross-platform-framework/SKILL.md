@@ -2,6 +2,7 @@
 name: "Dioxus Rust Fullstack Cross-Platform Application Framework"
 description: "Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and mobile from a single codebase. With 24k+ GitHub stars and an active Rust community, it combines React-like ergonomics with Rust performance and type safety."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/DioxusLabs/dioxus"
 ---

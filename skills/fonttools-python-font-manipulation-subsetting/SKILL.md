@@ -1,7 +1,9 @@
 ---
 name: "fonttools Python Font Manipulation and Subsetting Library"
+description: "fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and WOFF2 formats. It includes the TTX tool for converting fonts to and from XML, a font subsetting utility for reducing font file sizes, and APIs for inspecting, modifying, and..."
 category: "Developer Tools"
-verification: "listed"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/fonttools/fonttools"
 ---
 
@@ -22,8 +24,36 @@ The subsetting tool is particularly valuable for web development. Running `fontt
 The programmatic API via `from fontTools.ttLib import TTFont` provides full access to font internals. Developers can read and modify any font table, add or remove glyphs, adjust metrics, generate variations for variable fonts, and compile modified fonts back to binary. The library integrates with `fontTools.varLib` for variable font operations and `fontTools.designspaceLib` for design space documents.
 
 ## Installation
-Install via `pip install fonttools`. Optional extras include `fonttools[woff]` for WOFF/WOFF2 support (adds brotli and zopfli), `fonttools[lxml]` for faster XML processing, `fonttools[unicode]` for latest Unicode data, and `fonttools[ufo]` for UFO font source support. Requires Python 3.10+.
 
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill fonttools-python-font-manipulation-subsetting
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill fonttools-python-font-manipulation-subsetting -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill fonttools-python-font-manipulation-subsetting -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill fonttools-python-font-manipulation-subsetting -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install fonttools-python-font-manipulation-subsetting
+```
 ## Installation
 
 Install this skill using one of these methods:

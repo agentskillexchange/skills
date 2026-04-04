@@ -3,6 +3,7 @@ name: "Moon Monorepo Build System and Task Runner by moonrepo"
 description: "Moon is a high-performance monorepo management, orchestration, and build system written in Rust. It provides smart hashing, remote caching, an integrated toolchain, dependency graph-based task execution, and code generation for web ecosystem projects."
 category: "Developer Tools"
 source: "https://github.com/moonrepo/moon"
+framework: "Multi-Framework"
 verification: listed
 ---
 

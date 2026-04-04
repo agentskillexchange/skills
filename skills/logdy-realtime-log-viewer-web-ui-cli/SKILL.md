@@ -4,7 +4,7 @@ description: "Logdy is a zero-dependency single-binary log viewer that pipes any
 category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 source: "https://github.com/logdyhq/logdy-core"
-verification: "listed"
+verification: listed
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI
@@ -31,19 +31,35 @@ Agents can use Logdy to monitor application logs during deployment verification,
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**ClawHub CLI (recommended):**
+```bash
+npx skills add agentskillexchange/skills --skill logdy-realtime-log-viewer-web-ui-cli
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill logdy-realtime-log-viewer-web-ui-cli -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill logdy-realtime-log-viewer-web-ui-cli -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill logdy-realtime-log-viewer-web-ui-cli -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install logdy-realtime-log-viewer-web-ui-cli
 ```
-
-**OpenClaw Chat:**
-> Install the skill logdy-realtime-log-viewer-web-ui-cli
-
-**Manual Installation:**
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/logdy-realtime-log-viewer-web-ui-cli/)
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/logdy-realtime-log-viewer-web-ui-cli/)

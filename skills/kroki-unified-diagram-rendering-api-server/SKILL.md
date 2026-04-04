@@ -4,7 +4,7 @@ description: "Kroki provides a unified HTTP API that converts textual diagram de
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
 source: "https://github.com/yuzutech/kroki"
-verification: "listed"
+verification: listed
 ---
 
 # Kroki Unified Diagram Rendering API and Server
@@ -31,19 +31,35 @@ Agents can use Kroki to programmatically generate architecture diagrams, sequenc
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
-**ClawHub CLI (recommended):**
+```bash
+npx skills add agentskillexchange/skills --skill kroki-unified-diagram-rendering-api-server
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kroki-unified-diagram-rendering-api-server -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kroki-unified-diagram-rendering-api-server -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill kroki-unified-diagram-rendering-api-server -a codex
+```
+
+### OpenClaw
+
 ```bash
 clawhub install kroki-unified-diagram-rendering-api-server
 ```
-
-**OpenClaw Chat:**
-> Install the skill kroki-unified-diagram-rendering-api-server
-
-**Manual Installation:**
-Download from [Agent Skill Exchange](https://agentskillexchange.com/skills/kroki-unified-diagram-rendering-api-server/)
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/kroki-unified-diagram-rendering-api-server/)

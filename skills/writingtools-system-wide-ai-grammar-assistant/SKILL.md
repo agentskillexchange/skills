@@ -7,7 +7,8 @@ description: >-
   local LLMs.
 version: 1.0.0
 category: Content Writing & SEO
-source: https://github.com/theJayTea/WritingTools
+source: "https://github.com/theJayTea/WritingTools"
+framework: "Multi-Framework"
 verification: security_reviewed
 ---
 

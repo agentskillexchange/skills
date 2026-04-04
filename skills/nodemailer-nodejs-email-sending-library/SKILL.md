@@ -4,7 +4,7 @@ description: "Nodemailer is the most widely used Node.js library for sending ema
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 source: "https://github.com/nodemailer/nodemailer"
-verification: "listed"
+verification: listed
 ---
 
 # Nodemailer Node.js Email Sending Library with SMTP and Transport Support
@@ -13,22 +13,35 @@ Nodemailer is the most widely used Node.js library for sending emails, with 17k+
 
 ## Installation
 
-Install this skill using one of these methods:
+### Any Agent
 
 ```bash
-# ClawHub (recommended)
-clawhub install nodemailer-nodejs-email-sending-library
-
-# OpenClaw CLI
-openclaw skills install nodemailer-nodejs-email-sending-library
-
-# Claude Code / Codex
-npx @anthropic-ai/claude-code skills install nodemailer-nodejs-email-sending-library
-
-# Manual download
-curl -L https://agentskillexchange.com/skills/nodemailer-nodejs-email-sending-library/download -o SKILL.md
+npx skills add agentskillexchange/skills --skill nodemailer-nodejs-email-sending-library
 ```
 
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nodemailer-nodejs-email-sending-library -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nodemailer-nodejs-email-sending-library -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill nodemailer-nodejs-email-sending-library -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install nodemailer-nodejs-email-sending-library
+```
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/nodemailer-nodejs-email-sending-library/)

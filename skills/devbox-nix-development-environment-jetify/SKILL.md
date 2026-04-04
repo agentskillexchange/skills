@@ -2,6 +2,7 @@
 name: "Devbox Instant Nix-Powered Development Environment Manager by Jetify"
 description: "Devbox by Jetify creates instant, isolated development environments using Nix packages. Define project dependencies in a devbox.json file, and every developer gets identical toolchains without container overhead or version conflicts."
 category: "Developer Tools"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/jetify-com/devbox"
 tool_ecosystem:
