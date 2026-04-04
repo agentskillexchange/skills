@@ -89,6 +89,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | — | — |
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
+| [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | — | — |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |

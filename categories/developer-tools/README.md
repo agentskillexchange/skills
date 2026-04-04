@@ -226,6 +226,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | — | — |
 | [Hatchet Durable Task Queue and Workflow Engine on Postgres](../../skills/hatchet-durable-task-queue-workflow-engine-postgres/) | — | — |
+| [Huh Interactive Terminal Forms and Prompts Library for Go](../../skills/huh-terminal-forms-prompts-library/) | — | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |
@@ -233,6 +234,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
+| [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | — | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | — | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |

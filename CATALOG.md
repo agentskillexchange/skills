@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1677 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 21:40 UTC
+> **1680 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 23:33 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (235 skills)
+### 🛠️ Developer Tools (237 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -200,6 +200,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](skills/google-cloud-cli-gcloud/) | The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE,… | Published | — | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Published | — | — |
 | [Hatchet Durable Task Queue and Workflow Engine on Postgres](skills/hatchet-durable-task-queue-workflow-engine-postgres/) | Hatchet is an open-source platform for running background tasks and durable workflows at scale, built on Postgres.… | Published | — | — |
+| [Huh Interactive Terminal Forms and Prompts Library for Go](skills/huh-terminal-forms-prompts-library/) | Huh by Charmbracelet is a Go library for building interactive forms and prompts in the terminal. It supports input… | Published | — | — |
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and… | Security Reviewed | — | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Published | — | — |
@@ -207,6 +208,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Kubernetes Pod Crash Diagnostics](skills/kubernetes-pod-crash-diagnostics-3/) | Runs kubectl describe pod, kubectl logs --previous, and kubectl get events to diagnose CrashLoopBackOff and… | Security Reviewed | — | — |
 | [LangChain MCP Server](skills/langchain-mcp-server/) | LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Linear Issue Manager](skills/linear-issue-manager/) | Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Lip Gloss CSS-Like Terminal Styling Library for Go](skills/lipgloss-terminal-styling-library/) | Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+… | Published | — | — |
 | [LlamaIndex Agent](skills/llamaindex-agent/) | LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | — | — |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
@@ -781,7 +783,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (100 skills)
+### 📊 Monitoring & Alerts (101 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -844,6 +846,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | — | — |
 | [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | — | — |
 | [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports… | Security Reviewed | — | — |
+| [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Published | — | — |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | — | — |
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
