@@ -51,6 +51,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 14.9k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.1k | — |
+| [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |

@@ -11,11 +11,11 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
+| [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | ⭐ 20.4k |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | ⭐ 16.2k |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | ⭐ 10k |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | ⭐ 8.4k |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⭐ 5k |
-| [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | ⭐ 3.9k |
 
 ---
 
@@ -37,6 +37,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
+| [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | 20.4k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
@@ -91,6 +92,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
+| [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | — | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |

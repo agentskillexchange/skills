@@ -49,7 +49,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 41 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
 | 42 | [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | 48k | terraform | Templates & Workflows |
 | 43 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
-| 44 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react |  |
+| 44 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
 | 45 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |
 | 46 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 45.3k | zx | Developer Tools |
 | 47 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | tts | Media & Transcription |

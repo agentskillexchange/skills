@@ -33,6 +33,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
+| [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 11.9k | — |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
@@ -54,6 +55,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 40 | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
+| [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | — | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |

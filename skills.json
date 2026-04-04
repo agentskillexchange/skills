@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1670,
+  "total": 1660,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "cariddi-domain-crawler-endpoint-secret-scanner",
+      "name": "Cariddi Domain Crawler and Endpoint Secret Scanner",
+      "description": "Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints, secrets, API keys, file extensions,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "logdy-realtime-log-viewer-web-ui-cli",
+      "name": "Logdy Real-Time Log Viewer with Web UI and CLI",
+      "description": "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions,…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "kroki-unified-diagram-rendering-api-server",
+      "name": "Kroki Unified Diagram Rendering API and Server",
+      "description": "Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25 diagram libraries including PlantUML, Mermaid, GraphViz, D2,…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "nodemailer-nodejs-email-sending-library",
       "name": "Nodemailer Node.js Email Sending Library with SMTP and Transport Support",
@@ -515,8 +551,12 @@
       "slug": "shadcn-ui-react-component-collection",
       "name": "shadcn/ui — Re-usable UI Component Collection for React",
       "description": "shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization.…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 111379
@@ -526,8 +566,12 @@
       "slug": "azure-cli-microsoft-cloud",
       "name": "Azure CLI — Command-Line Interface for Microsoft Azure",
       "description": "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 4497
@@ -537,16 +581,24 @@
       "slug": "google-cloud-cli-gcloud",
       "name": "Google Cloud CLI (gcloud) — Command-Line Interface for GCP",
       "description": "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management,…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed"
     },
     {
       "slug": "firebase-google-app-development-platform",
       "name": "Firebase — Google Application Development Platform",
       "description": "Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 5093
@@ -556,8 +608,12 @@
       "slug": "hugging-face-transformers-ml-library",
       "name": "Hugging Face Transformers — Machine Learning Model Library",
       "description": "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 158728
@@ -915,16 +971,24 @@
       "slug": "github-copilot-ai-code-assistant",
       "name": "GitHub Copilot — AI-Powered Code Completion and Chat Assistant",
       "description": "GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed"
     },
     {
       "slug": "autogen-microsoft-multi-agent-framework",
       "name": "AutoGen — Microsoft Multi-Agent Conversation Framework",
       "description": "AutoGen is Microsoft's open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 56629
@@ -934,8 +998,12 @@
       "slug": "nestjs-progressive-nodejs-framework",
       "name": "NestJS — Progressive Node.js Framework for Server-Side Applications",
       "description": "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 75043
@@ -945,8 +1013,12 @@
       "slug": "nuxt-vue-meta-framework-ssr",
       "name": "Nuxt — Vue.js Meta-Framework for SSR and Static Sites",
       "description": "Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 59951
@@ -956,8 +1028,12 @@
       "slug": "angular-typescript-web-framework",
       "name": "Angular — TypeScript Web Application Framework by Google",
       "description": "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 100103
@@ -967,145 +1043,15 @@
       "slug": "vue-js-progressive-javascript-framework",
       "name": "Vue.js — Progressive JavaScript Framework for Building UIs",
       "description": "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "github_stars": 53370
-      }
-    },
-    {
-      "slug": "pandoc-universal-document-converter",
-      "name": "Pandoc Universal Document Converter",
-      "description": "Pandoc is a free and open-source universal document converter that can translate between dozens of markup and document formats including Markdown, HTML, LaTeX, DOCX,…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 35000
-      }
-    },
-    {
-      "slug": "shadcn-ui-reusable-react-ui-component-collection",
-      "name": "shadcn/ui Re-usable React UI Component Collection",
-      "description": "shadcn/ui is a collection of re-usable, accessible, and customizable UI components built with Radix UI and Tailwind CSS. Unlike traditional component libraries, shadcn/ui components…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 82000
-      }
-    },
-    {
-      "slug": "azure-cli-microsoft-cloud-command-line-interface",
-      "name": "Azure CLI Microsoft Cloud Command-Line Interface",
-      "description": "The Azure CLI is a set of commands used to create and manage Azure resources from the command line. It provides a consistent interface…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 4200
-      }
-    },
-    {
-      "slug": "google-cloud-platform-cli-gcloud-tools",
-      "name": "Google Cloud Platform CLI gcloud Command-Line Tools",
-      "description": "The Google Cloud CLI (gcloud) is the primary command-line tool for interacting with Google Cloud services. It enables developers and DevOps engineers to create…",
-      "category": [],
-      "framework": [],
-      "verification": "listed"
-    },
-    {
-      "slug": "hugging-face-transformers-machine-learning-library",
-      "name": "Hugging Face Transformers Machine Learning Library",
-      "description": "Hugging Face Transformers is an open-source library providing thousands of pretrained models for NLP, computer vision, audio, and multimodal tasks. It offers a unified…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 140000
-      }
-    },
-    {
-      "slug": "cursor-ai-powered-code-editor",
-      "name": "Cursor AI-Powered Code Editor",
-      "description": "Cursor is an AI-first code editor built on VS Code that deeply integrates large language models into the coding workflow. It enables developers to…",
-      "category": [],
-      "framework": [],
-      "verification": "listed"
-    },
-    {
-      "slug": "github-copilot-ai-pair-programmer",
-      "name": "GitHub Copilot AI Pair Programmer",
-      "description": "GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI that helps developers write code faster and with less work. It draws…",
-      "category": [],
-      "framework": [],
-      "verification": "listed"
-    },
-    {
-      "slug": "autogen-microsoft-multi-agent-conversation-framework",
-      "name": "AutoGen Microsoft Multi-Agent Conversation Framework",
-      "description": "AutoGen is an open-source framework by Microsoft for building multi-agent AI systems where multiple AI agents collaborate, converse, and execute tasks. It enables complex…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 40000
-      }
-    },
-    {
-      "slug": "flask-lightweight-python-web-framework",
-      "name": "Flask Lightweight Python Web Framework",
-      "description": "Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 68000
-      }
-    },
-    {
-      "slug": "django-python-web-framework",
-      "name": "Django Python Web Framework",
-      "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 82000
-      }
-    },
-    {
-      "slug": "nuxt-vuejs-meta-framework-ssr-ssg",
-      "name": "Nuxt Vue.js Meta-Framework for SSR and SSG",
-      "description": "Nuxt is an open-source framework that makes web development intuitive and powerful. It is built on top of Vue.js and provides server-side rendering (SSR),…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 56000
-      }
-    },
-    {
-      "slug": "angular-typescript-web-application-framework",
-      "name": "Angular TypeScript Web Application Framework",
-      "description": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. It provides a comprehensive platform for building scalable, enterprise-grade…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 96000
-      }
-    },
-    {
-      "slug": "vuejs-progressive-javascript-framework",
-      "name": "Vue.js Progressive JavaScript Framework",
-      "description": "Vue.js is a progressive JavaScript framework for building user interfaces. It is designed from the ground up to be incrementally adoptable and focuses on…",
-      "category": [],
-      "framework": [],
-      "verification": "listed",
-      "signals": {
-        "github_stars": 48000
       }
     },
     {
@@ -2702,8 +2648,12 @@
       "slug": "subfinder-passive-subdomain-enumeration",
       "name": "Subfinder Fast Passive Subdomain Enumeration Tool",
       "description": "Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using curated online sources. Optimized for speed and stealth,…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "subfinder",
@@ -2715,8 +2665,12 @@
       "slug": "fq-binary-format-inspector-jq-media",
       "name": "fq Binary Format Inspector and jq for Media Files",
       "description": "fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms media containers, executables, packet captures, and dozens…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "fq",
@@ -2727,8 +2681,12 @@
       "slug": "crush-agentic-ai-coding-cli-charmbracelet",
       "name": "Crush Agentic AI Coding CLI by Charmbracelet",
       "description": "Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "crush",
@@ -2906,8 +2864,12 @@
       "slug": "caprover-self-hosted-paas-app-deployment",
       "name": "CapRover Self-Hosted PaaS for App Deployment and Server Management",
       "description": "CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications and databases with minimal configuration. It provides a web GUI…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "docker",
@@ -2919,8 +2881,12 @@
       "slug": "goaccess-real-time-web-log-analyzer",
       "name": "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard",
       "description": "GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3,…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "docker",
@@ -2931,8 +2897,12 @@
       "slug": "tldraw-infinite-canvas-whiteboard-sdk",
       "name": "tldraw Infinite Canvas Whiteboard SDK for React",
       "description": "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "react",
@@ -5420,8 +5390,12 @@
       "slug": "onefetch-git-repository-info-statistics-cli",
       "name": "onefetch Git Repository Information and Statistics CLI",
       "description": "onefetch is a Rust CLI tool that displays project information and code statistics for Git repositories directly in the terminal. It detects languages, shows…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "onefetch",
@@ -5433,8 +5407,12 @@
       "slug": "duf-modern-disk-usage-free-utility",
       "name": "duf Modern Disk Usage and Free Utility",
       "description": "duf is a modern disk usage/free utility written in Go that provides a polished, colorful terminal output for mounted filesystems. It replaces the traditional…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "duf",
@@ -5445,8 +5423,12 @@
       "slug": "mcfly-intelligent-shell-history-search",
       "name": "mcfly Intelligent Shell History Search with Neural Network",
       "description": "mcfly is a Rust-based shell history search tool that uses a small neural network to prioritize commands based on context. It replaces Ctrl+R with…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "mcfly",
@@ -5458,8 +5440,12 @@
       "slug": "plandex-ai-coding-agent-large-projects",
       "name": "Plandex AI Coding Agent for Large Projects",
       "description": "Plandex is an open-source terminal-based AI coding agent designed for large projects and complex tasks. It handles up to 2M tokens of context, uses…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "plandex",
@@ -5470,8 +5456,12 @@
       "slug": "broot-interactive-tree-view-file-navigator",
       "name": "broot Interactive Tree-View File Navigator",
       "description": "broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy search, file preview, git…",
-      "category": [],
-      "framework": [],
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
       "verification": "listed",
       "signals": {
         "tool": "broot",

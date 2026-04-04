@@ -38,7 +38,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 30 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | 225.6k/wk | fx | Data Extraction & Transformation |
 | 31 | [Trigger.dev TypeScript Background Jobs Platform](skills/trigger-dev-typescript-background-jobs-platform/) | 203.4k/wk | trigger.dev | Developer Tools |
 | 32 | [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | 198.3k/wk | testcafe | Browser Automation |
-| 33 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 173.3k/wk | react |  |
+| 33 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 173.3k/wk | react | Developer Tools |
 | 34 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](skills/strapi-headless-cms-rest-graphql/) | 161.9k/wk | strapi | WordPress & CMS |
 | 35 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | 152.4k/wk | dprint | Code Quality & Review |
 | 36 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | 107.1k/wk | supergateway | Developer Tools |
