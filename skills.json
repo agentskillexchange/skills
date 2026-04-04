@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1674,
+  "total": 1677,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "hatchet-durable-task-queue-workflow-engine-postgres",
+      "name": "Hatchet Durable Task Queue and Workflow Engine on Postgres",
+      "description": "Hatchet is an open-source platform for running background tasks and durable workflows at scale, built on Postgres. It provides a durable task queue, observability…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "planka-self-hosted-kanban-board-project-management",
+      "name": "Planka Self-Hosted Kanban Board for Project Management",
+      "description": "Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With 11,000+ GitHub stars and 35+ language translations, it provides real-time…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "konva-js-html5-canvas-interactive-graphics-framework",
+      "name": "Konva.js HTML5 Canvas Interactive Graphics Framework",
+      "description": "Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance animations, transitions, node nesting, layering, filtering, caching, and event handling for desktop and mobile…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "griptape-python-ai-agent-framework",
       "name": "Griptape Modular Python AI Agent and Workflow Framework",

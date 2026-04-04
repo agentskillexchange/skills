@@ -225,6 +225,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | — | — |
+| [Hatchet Durable Task Queue and Workflow Engine on Postgres](../../skills/hatchet-durable-task-queue-workflow-engine-postgres/) | — | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |

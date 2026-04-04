@@ -81,6 +81,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | — | — |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | — | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | — | — |
+| [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | — | — |
 | [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |

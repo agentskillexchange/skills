@@ -96,6 +96,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
+| [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | — | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1674 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 19:37 UTC
+> **1677 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 21:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (234 skills)
+### 🛠️ Developer Tools (235 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -199,6 +199,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](skills/github-copilot-ai-code-assistant/) | GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based… | Published | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](skills/google-cloud-cli-gcloud/) | The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE,… | Published | — | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Published | — | — |
+| [Hatchet Durable Task Queue and Workflow Engine on Postgres](skills/hatchet-durable-task-queue-workflow-engine-postgres/) | Hatchet is an open-source platform for running background tasks and durable workflows at scale, built on Postgres.… | Published | — | — |
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and… | Security Reviewed | — | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Published | — | — |
@@ -1097,7 +1098,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (90 skills)
+### 📅 Calendar, Email & Productivity (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1176,6 +1177,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
 | [Outlook Rule Automation Manager](skills/outlook-rule-automation-manager/) | Creates and manages Outlook email rules programmatically using the Microsoft Graph API… | Security Reviewed | — | — |
+| [Planka Self-Hosted Kanban Board for Project Management](skills/planka-self-hosted-kanban-board-project-management/) | Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With… | Published | — | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Security Reviewed | — | — |
 | [Slack Channel Summarizer](skills/slack-channel-summarizer-bolt-sdk/) | Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints.… | Security Reviewed | — | — |
 | [Slack Digest and Task Router](skills/slack-digest-and-task-router/) | Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and… | Security Reviewed | — | — |
@@ -1279,6 +1281,87 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
+
+
+### 🎨 Image & Creative Automation (73 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches.… | Security Reviewed | 119.9k | — |
+| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.5k | — |
+| [Penpot Open Source Design and Prototyping Platform](skills/penpot-open-source-design-prototyping/) | Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create… | Security Reviewed | 45.2k | — |
+| [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with… | Security Reviewed | 44.3k | — |
+| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | 33.8k | — |
+| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | 31.8k | — |
+| [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable… | Security Reviewed | 22.4k | 28.5M/wk |
+| [rembg AI Background Removal CLI and Python Library](skills/rembg-ai-background-removal-cli/) | rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as… | Security Reviewed | 22.4k | — |
+| [BlurHash Compact Image Placeholder Encoder](skills/blurhash-compact-image-placeholder-encoder/) | An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and… | Security Reviewed | 17k | 839.8k/wk |
+| [Satori HTML and CSS to SVG Image Generator by Vercel](skills/satori-html-css-svg-image-generator/) | Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open… | Security Reviewed | 13.2k | — |
+| [libvips High-Performance Image Processing Library and CLI](skills/libvips-high-performance-image-processing-library-cli/) | libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes… | Security Reviewed | 11.2k | — |
+| [imgproxy High-Performance Image Processing Proxy](skills/imgproxy-high-performance-image-processing-proxy/) | An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image… | Security Reviewed | 10.6k | — |
+| [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | 10.5k | — |
+| [Chafa Terminal Image and Graphics Renderer](skills/chafa-terminal-image-graphics-renderer/) | Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics… | Security Reviewed | 4.5k | — |
+| [Mermaid CLI Diagram-as-Code Renderer](skills/mermaid-cli-diagram-as-code-renderer/) | Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram… | Security Reviewed | 4.3k | — |
+| [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
+| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
+| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
+| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
+| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
+| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
+| [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | — | — |
+| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
+| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
+| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
+| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
+| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | — | — |
+| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | — | — |
+| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | — | — |
+| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | — | — |
+| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | — | — |
+| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | — | — |
+| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | — | — |
+| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | — | — |
+| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | — | — |
+| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | — | — |
+| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | — | — |
+| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | — | — |
+| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | — | — |
+| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper.… | Security Reviewed | — | — |
+| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive… | Security Reviewed | — | — |
+| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
+| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | — | — |
+| [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
+| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
+| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
+| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | — | — |
+| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | — | — |
+| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | — | — |
+| [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance animations, transitions, node… | Published | — | — |
+| [Kroki Unified Diagram Rendering API and Server](skills/kroki-unified-diagram-rendering-api-server/) | Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25… | Security Reviewed | — | — |
+| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
+| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
+| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
+| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | — | — |
+| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
+| [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | — | — |
+| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
+| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
+| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
+| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | — | — |
+| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | — | — |
+| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG… | Security Reviewed | — | — |
+| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | — | — |
+| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
+| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
+| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
+| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
+| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
+| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
+| [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
 ### 🎙️ Media & Transcription (73 skills)
@@ -1440,86 +1523,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
-
-
-### 🎨 Image & Creative Automation (72 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches.… | Security Reviewed | 119.9k | — |
-| [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.5k | — |
-| [Penpot Open Source Design and Prototyping Platform](skills/penpot-open-source-design-prototyping/) | Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create… | Security Reviewed | 45.2k | — |
-| [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with… | Security Reviewed | 44.3k | — |
-| [Stable Diffusion ControlNet Pose Pipeline](skills/stable-diffusion-controlnet-pose-pipeline/) | Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains… | Security Reviewed | 33.8k | — |
-| [Lottie Animation Optimizer](skills/lottie-animation-optimizer/) | Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe… | Security Reviewed | 31.8k | — |
-| [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable… | Security Reviewed | 22.4k | 28.5M/wk |
-| [rembg AI Background Removal CLI and Python Library](skills/rembg-ai-background-removal-cli/) | rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as… | Security Reviewed | 22.4k | — |
-| [BlurHash Compact Image Placeholder Encoder](skills/blurhash-compact-image-placeholder-encoder/) | An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and… | Security Reviewed | 17k | 839.8k/wk |
-| [Satori HTML and CSS to SVG Image Generator by Vercel](skills/satori-html-css-svg-image-generator/) | Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open… | Security Reviewed | 13.2k | — |
-| [libvips High-Performance Image Processing Library and CLI](skills/libvips-high-performance-image-processing-library-cli/) | libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes… | Security Reviewed | 11.2k | — |
-| [imgproxy High-Performance Image Processing Proxy](skills/imgproxy-high-performance-image-processing-proxy/) | An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image… | Security Reviewed | 10.6k | — |
-| [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | 10.5k | — |
-| [Chafa Terminal Image and Graphics Renderer](skills/chafa-terminal-image-graphics-renderer/) | Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics… | Security Reviewed | 4.5k | — |
-| [Mermaid CLI Diagram-as-Code Renderer](skills/mermaid-cli-diagram-as-code-renderer/) | Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram… | Security Reviewed | 4.3k | — |
-| [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
-| [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
-| [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
-| [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
-| [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
-| [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
-| [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | — | — |
-| [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |
-| [Cloudinary DAM Pipeline](skills/cloudinary-dam-pipeline-skill/) | Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization… | Security Reviewed | — | — |
-| [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
-| [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
-| [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | — | — |
-| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | — | — |
-| [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | — | — |
-| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | — | — |
-| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | — | — |
-| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | — | — |
-| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | — | — |
-| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | — | — |
-| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | — | — |
-| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | — | — |
-| [FFmpeg Intelligent Media Processor](skills/ffmpeg-intelligent-media-processor/) | Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via… | Security Reviewed | — | — |
-| [FFmpeg Media Transcoder](skills/ffmpeg-media-transcoder/) | Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive… | Security Reviewed | — | — |
-| [FFmpeg Thumbnail Grid Generator](skills/ffmpeg-thumbnail-grid-generator/) | Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports… | Security Reviewed | — | — |
-| [FFmpeg Thumbnail Mosaic Generator](skills/ffmpeg-thumbnail-mosaic-generator/) | Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper.… | Security Reviewed | — | — |
-| [FFmpeg Video Processing Pipeline](skills/ffmpeg-video-processing-pipeline/) | Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive… | Security Reviewed | — | — |
-| [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
-| [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | — | — |
-| [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
-| [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
-| [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
-| [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | — | — |
-| [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | — | — |
-| [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | — | — |
-| [Kroki Unified Diagram Rendering API and Server](skills/kroki-unified-diagram-rendering-api-server/) | Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25… | Security Reviewed | — | — |
-| [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Security Reviewed | — | — |
-| [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Security Reviewed | — | — |
-| [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
-| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | — | — |
-| [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
-| [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | — | — |
-| [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
-| [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
-| [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
-| [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | — | — |
-| [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | — | — |
-| [Sharp Image Pipeline Skill](skills/sharp-image-pipeline-skill/) | Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG… | Security Reviewed | — | — |
-| [Sharp Image Transform Pipeline](skills/sharp-image-transform-pipeline/) | Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains… | Security Reviewed | — | — |
-| [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Compositor](skills/stable-diffusion-controlnet-compositor/) | Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation.… | Security Reviewed | — | — |
-| [Stable Diffusion ControlNet Pipeline](skills/stable-diffusion-controlnet-pipeline/) | Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose… | Security Reviewed | — | — |
-| [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | — | — |
-| [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | — | — |
-| [Stable Diffusion XL LoRA Trainer](skills/stable-diffusion-xl-lora-trainer/) | Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts.… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
-| [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
-| [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
 ### 🔍 Research & Scraping (71 skills)
