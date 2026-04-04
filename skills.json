@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1668,
+  "total": 1671,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "naabu-fast-port-scanner-projectdiscovery",
+      "name": "Naabu Fast Port Scanner by ProjectDiscovery",
+      "description": "Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP scans, integrates with Nmap…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "code-server-vs-code-browser-coder",
+      "name": "code-server VS Code in the Browser by Coder",
+      "description": "code-server lets you run VS Code on any remote machine and access it through a web browser. It provides a consistent cloud-based development environment,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "borgbackup-deduplicating-encrypted-backup",
+      "name": "BorgBackup Deduplicating Encrypted Backup Program",
+      "description": "BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses content-defined chunking for space-efficient daily backups, making it ideal…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "jina-reader-url-to-markdown-web-search",
       "name": "Jina Reader URL-to-Markdown Converter and Web Search API",

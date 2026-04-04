@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1668 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 15:34 UTC
+> **1671 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 17:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (231 skills)
+### 🛠️ Developer Tools (232 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -171,6 +171,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [code-server VS Code in the Browser by Coder](skills/code-server-vs-code-browser-coder/) | code-server lets you run VS Code on any remote machine and access it through a web browser. It provides a consistent… | Published | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](skills/convex-reactive-database-backend/) | Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong… | Security Reviewed | — | — |
 | [Coolify Self-Hosted PaaS for Application and Database Deployment](skills/coolify-self-hosted-paas-deployment-3/) | Coolify is an open-source, self-hostable Platform as a Service alternative to Vercel, Heroku, and Netlify. It lets… | Published | — | — |
 | [Devcontainer Setup Agent](skills/devcontainer-setup-agent/) | Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -531,7 +532,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (114 skills)
+### 🔒 Security & Verification (115 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -596,6 +597,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Published | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
 | [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE… | Security Reviewed | — | — |
@@ -653,7 +655,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (113 skills)
+### 📋 Runbooks & Diagnostics (114 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -689,6 +691,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm… | Security Reviewed | — | — |
 | [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports… | Security Reviewed | — | — |
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | — | — |
+| [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Published | — | — |
 | [Database Migration Validator](skills/database-migration-validator/) | Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run… | Security Reviewed | — | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | — | — |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | — | — |

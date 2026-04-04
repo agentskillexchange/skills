@@ -197,6 +197,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
+| [code-server VS Code in the Browser by Coder](../../skills/code-server-vs-code-browser-coder/) | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | — | — |
 | [Coolify Self-Hosted PaaS for Application and Database Deployment](../../skills/coolify-self-hosted-paas-deployment-3/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |

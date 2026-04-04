@@ -45,6 +45,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | — | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | — | — |
+| [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | — | — |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | — | — |
