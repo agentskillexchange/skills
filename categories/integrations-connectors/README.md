@@ -23,8 +23,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 | Skill | Downloads |
 |---|---:|
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 483/wk |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 7.1k/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 457/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.1k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 14.9k/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 1.5M/wk |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | ⬇ 51k/wk |
@@ -36,11 +36,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | — |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 483/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 457/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 7.1k/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.1k/wk |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
@@ -76,6 +76,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | — | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | — | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | — | — |
+| [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | — | — |
+| [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | — | — |
@@ -84,6 +86,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
+| [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | — | — |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | — | — |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | — | — |
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | — | — |

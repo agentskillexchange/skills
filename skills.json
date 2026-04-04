@@ -1,8 +1,116 @@
 {
   "version": "2.0",
-  "total": 1660,
+  "total": 1665,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "pdfplumber-python-pdf-text-table-extraction",
+      "name": "pdfplumber Python PDF Text and Table Extraction Library",
+      "description": "pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and curves — with visual debugging support. Built…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "keystonejs-headless-cms-graphql-react-admin",
+      "name": "KeystoneJS Headless CMS with GraphQL API and React Admin UI",
+      "description": "KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates a GraphQL API and React-based Admin UI from your schema definition. Built by…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "emdash-full-stack-typescript-cms-cloudflare",
+      "name": "EmDash Full-Stack TypeScript CMS by Cloudflare",
+      "description": "EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor to WordPress. It features sandboxed plugins, structured…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "saleor-open-source-headless-commerce-graphql-api",
+      "name": "Saleor Open Source Headless Commerce Platform with GraphQL API",
+      "description": "Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API for building custom storefronts, managing…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "krakend-high-performance-stateless-api-gateway",
+      "name": "KrakenD High-Performance Stateless API Gateway",
+      "description": "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "formbricks-open-source-survey-experience-management",
+      "name": "Formbricks Open Source Survey and Experience Management Platform",
+      "description": "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ghostfolio-wealth-management-portfolio-tracking",
+      "name": "Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform",
+      "description": "Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dokploy-self-hosted-paas-docker-compose-swarm",
+      "name": "Dokploy Open Source Self-Hosted PaaS with Docker Compose and Swarm Support",
+      "description": "Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and databases. It supports Docker Compose natively, multi-node scaling…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "coolify-self-hosted-paas-deployment-3",
+      "name": "Coolify Self-Hosted PaaS for Application and Database Deployment",
+      "description": "Coolify is an open-source, self-hostable Platform as a Service alternative to Vercel, Heroku, and Netlify. It lets you deploy static sites, databases, full-stack applications,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "cariddi-domain-crawler-endpoint-secret-scanner",
       "name": "Cariddi Domain Crawler and Endpoint Secret Scanner",
@@ -13,7 +121,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "logdy-realtime-log-viewer-web-ui-cli",
@@ -25,7 +133,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "kroki-unified-diagram-rendering-api-server",
@@ -37,7 +145,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "nodemailer-nodejs-email-sending-library",
@@ -49,7 +157,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "solidtime-open-source-time-tracking",
@@ -61,7 +169,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "activitywatch-automated-time-tracker",
@@ -73,7 +181,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "scrapegraphai-llm-web-scraping",
@@ -85,7 +193,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "nylas-sdk-email-calendar-contacts",
@@ -97,7 +205,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "nodriver-undetected-chrome-automation",
@@ -109,7 +217,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "camoufox-antidetect-browser-python",
@@ -121,7 +229,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "wikijs-wiki-platform-nodejs",
@@ -133,7 +241,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "zulip-team-chat-threading",
@@ -145,7 +253,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "outline-knowledge-base-wiki",
@@ -157,7 +265,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "fonttools-python-font-manipulation-subsetting",
@@ -169,7 +277,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "weasyprint-html-css-pdf-document-generator",
@@ -181,7 +289,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "tarsier-vision-utilities-web-interaction-agents",
@@ -193,7 +301,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "swc-speedy-web-compiler-javascript-typescript",
@@ -205,7 +313,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "biome-high-performance-javascript-typescript-formatter-linter",
@@ -217,7 +325,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "appwrite-open-source-backend-as-a-service-platform",
@@ -229,7 +337,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "zammad-open-source-helpdesk-ticketing-system",
@@ -241,7 +349,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "verdaccio-private-npm-proxy-registry",
@@ -253,7 +361,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chatwoot-open-source-customer-engagement-omnichannel-support",
@@ -265,19 +373,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
-    },
-    {
-      "slug": "bun-javascript-runtime-bundler-package-manager-2",
-      "name": "Bun All-in-One JavaScript Runtime Bundler and Package Manager",
-      "description": "Bun is an all-in-one JavaScript and TypeScript toolkit that ships as a single executable. It includes a fast runtime (drop-in Node.js replacement), package manager,…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "tracecat-ai-security-automation-soar-platform",
@@ -289,7 +385,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "kamal-zero-downtime-docker-deployment-basecamp",
@@ -301,7 +397,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "garden-kubernetes-dev-testing-automation",
@@ -313,7 +409,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "quickwit-cloud-native-search-engine-observability",
@@ -325,7 +421,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "gorse-ai-recommender-system-engine",
@@ -337,7 +433,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "openreplay-self-hosted-session-replay-analytics",
@@ -349,7 +445,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chartbrew-open-source-reporting-dashboard-platform",
@@ -361,7 +457,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "pdfme-typescript-pdf-generation-library",
@@ -373,7 +469,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "dozzle-docker-log-viewer",
@@ -385,43 +481,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
-    },
-    {
-      "slug": "dokploy-self-hosted-deployment",
-      "name": "Dokploy Open Source Self-Hosted Application Deployment Platform",
-      "description": "Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and databases. It supports Docker Compose, multi-node Docker Swarm,…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
-    },
-    {
-      "slug": "coolify-self-hosted-paas",
-      "name": "Coolify Self-Hosted PaaS for Application and Database Deployment",
-      "description": "Coolify is an open-source, self-hostable Platform as a Service alternative to Heroku, Vercel, and Netlify. It lets you deploy static sites, full-stack applications, databases,…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
-    },
-    {
-      "slug": "moon-monorepo-build-system-task-runner-moonrepo",
-      "name": "Moon Monorepo Build System and Task Runner by moonrepo",
-      "description": "Moon is a high-performance monorepo management, orchestration, and build system written in Rust. It provides smart hashing, remote caching, an integrated toolchain, dependency graph-based…",
-      "category": [
-        "Developer Tools"
-      ],
-      "framework": [
-        "Multi-Framework"
-      ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "react-email-component-library-email-templates",
@@ -433,7 +493,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "resend-developer-email-api-nodejs-sdk",
@@ -445,7 +505,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "pop-terminal-email-sender-charmbracelet",
@@ -475,7 +535,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6095,
+        "github_stars": 6101,
         "license": "MIT/Apache-2.0"
       }
     },
@@ -507,7 +567,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9892,
+        "github_stars": 9894,
         "license": "MIT"
       }
     },
@@ -559,7 +619,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 111379
+        "github_stars": 111458
       }
     },
     {
@@ -574,7 +634,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 4497
+        "github_stars": 4496
       }
     },
     {
@@ -601,7 +661,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 5093
+        "github_stars": 5094
       }
     },
     {
@@ -616,7 +676,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 158728
+        "github_stars": 158774
       }
     },
     {
@@ -991,7 +1051,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 56629
+        "github_stars": 56671
       }
     },
     {
@@ -1021,7 +1081,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 59951
+        "github_stars": 59952
       }
     },
     {
@@ -1036,7 +1096,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 100103
+        "github_stars": 100095
       }
     },
     {
@@ -1051,7 +1111,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 53370
+        "github_stars": 53371
       }
     },
     {
@@ -1186,7 +1246,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 166905
+        "github_stars": 167067
       }
     },
     {
@@ -1201,7 +1261,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11442
+        "github_stars": 11441
       }
     },
     {
@@ -1216,7 +1276,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11665
+        "github_stars": 11671
       }
     },
     {
@@ -1231,7 +1291,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 78375
+        "github_stars": 78434
       }
     },
     {
@@ -1246,7 +1306,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 129777
+        "github_stars": 129949
       }
     },
     {
@@ -1261,7 +1321,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4945
+        "github_stars": 4948
       }
     },
     {
@@ -1276,7 +1336,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12575
+        "github_stars": 12581
       }
     },
     {
@@ -1306,7 +1366,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5485
+        "github_stars": 5489
       }
     },
     {
@@ -1321,7 +1381,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7642
+        "github_stars": 7643
       }
     },
     {
@@ -1336,7 +1396,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12783
+        "github_stars": 12789
       }
     },
     {
@@ -1351,7 +1411,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7727
+        "github_stars": 7726
       }
     },
     {
@@ -1366,7 +1426,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8549
+        "github_stars": 8550
       }
     },
     {
@@ -1396,7 +1456,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8189
+        "github_stars": 8190
       }
     },
     {
@@ -1411,7 +1471,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13221
+        "github_stars": 13224
       }
     },
     {
@@ -1441,7 +1501,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 47255
+        "github_stars": 47285
       }
     },
     {
@@ -1471,7 +1531,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 45171
+        "github_stars": 45183
       }
     },
     {
@@ -1486,7 +1546,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13752
+        "github_stars": 13754
       }
     },
     {
@@ -1501,7 +1561,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10631
+        "github_stars": 10634
       }
     },
     {
@@ -1516,7 +1576,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10278
+        "github_stars": 10279
       }
     },
     {
@@ -1531,7 +1591,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10651
+        "github_stars": 10655
       }
     },
     {
@@ -1561,7 +1621,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 29718
+        "github_stars": 29735
       }
     },
     {
@@ -1576,7 +1636,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 14973
+        "github_stars": 14974
       }
     },
     {
@@ -1606,7 +1666,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3330
+        "github_stars": 3337
       }
     },
     {
@@ -1621,7 +1681,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 60610
+        "github_stars": 60611
       }
     },
     {
@@ -1636,7 +1696,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 62447
+        "github_stars": 62458
       }
     },
     {
@@ -1651,7 +1711,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 16289
+        "github_stars": 16294
       }
     },
     {
@@ -1666,7 +1726,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5138
+        "github_stars": 5141
       }
     },
     {
@@ -1681,7 +1741,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4533
+        "github_stars": 4536
       }
     },
     {
@@ -1711,7 +1771,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 31212
+        "github_stars": 31216
       }
     },
     {
@@ -1726,7 +1786,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9740
+        "github_stars": 9746
       }
     },
     {
@@ -1741,7 +1801,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 48228
+        "github_stars": 48271
       }
     },
     {
@@ -1756,7 +1816,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 20535
+        "github_stars": 20558
       }
     },
     {
@@ -1771,7 +1831,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 19370
+        "github_stars": 19392
       }
     },
     {
@@ -1786,7 +1846,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 17953
+        "github_stars": 17964
       }
     },
     {
@@ -1801,7 +1861,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4657
+        "github_stars": 4664
       }
     },
     {
@@ -1816,7 +1876,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 14254
+        "github_stars": 14260
       }
     },
     {
@@ -1831,7 +1891,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9963
+        "github_stars": 9968
       }
     },
     {
@@ -1847,7 +1907,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "unstructured",
-        "github_stars": 14383,
+        "github_stars": 14388,
         "license": "Apache-2.0"
       }
     },
@@ -1864,7 +1924,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "browsertrix-crawler",
-        "github_stars": 1010,
+        "github_stars": 1011,
         "license": "AGPL-3.0"
       }
     },
@@ -1881,8 +1941,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "seleniumbase",
-        "github_stars": 12555,
-        "npm_weekly_downloads": 26,
+        "github_stars": 12557,
+        "npm_weekly_downloads": 23,
         "license": "MIT"
       }
     },
@@ -1979,7 +2039,7 @@
       "signals": {
         "tool": "playwright",
         "github_stars": 85523,
-        "npm_weekly_downloads": 44276218,
+        "npm_weekly_downloads": 43810014,
         "license": "Apache-2.0"
       }
     },
@@ -2182,7 +2242,7 @@
       "signals": {
         "tool": "dprint",
         "github_stars": 3857,
-        "npm_weekly_downloads": 152394,
+        "npm_weekly_downloads": 151287,
         "license": "MIT"
       }
     },
@@ -2451,7 +2511,7 @@
       "signals": {
         "tool": "nocodb",
         "github_stars": 62560,
-        "npm_weekly_downloads": 483
+        "npm_weekly_downloads": 457
       }
     },
     {
@@ -2468,7 +2528,7 @@
       "signals": {
         "tool": "tiptap",
         "github_stars": 35948,
-        "npm_weekly_downloads": 42198,
+        "npm_weekly_downloads": 40872,
         "license": "MIT"
       }
     },
@@ -2571,7 +2631,7 @@
       "signals": {
         "tool": "webdriverio",
         "github_stars": 9762,
-        "npm_weekly_downloads": 2751406,
+        "npm_weekly_downloads": 2598757,
         "license": "MIT"
       }
     },
@@ -2606,7 +2666,7 @@
       "signals": {
         "tool": "docusaurus",
         "github_stars": 64315,
-        "npm_weekly_downloads": 19412,
+        "npm_weekly_downloads": 21120,
         "license": "MIT"
       }
     },
@@ -2654,7 +2714,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "subfinder",
         "github_stars": 13332,
@@ -2671,7 +2731,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "fq",
         "github_stars": 10468
@@ -2687,7 +2747,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "crush",
         "github_stars": 22213
@@ -2724,7 +2784,7 @@
       "signals": {
         "tool": "sveltia-cms",
         "github_stars": 2245,
-        "npm_weekly_downloads": 3593,
+        "npm_weekly_downloads": 3177,
         "license": "MIT"
       }
     },
@@ -2822,7 +2882,7 @@
       "signals": {
         "tool": "testcafe",
         "github_stars": 9915,
-        "npm_weekly_downloads": 198302,
+        "npm_weekly_downloads": 190866,
         "license": "MIT"
       }
     },
@@ -2870,11 +2930,11 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "docker",
         "github_stars": 14949,
-        "npm_weekly_downloads": 8450
+        "npm_weekly_downloads": 8761
       }
     },
     {
@@ -2887,7 +2947,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "docker",
         "github_stars": 20377
@@ -2903,11 +2963,11 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "react",
         "github_stars": 46154,
-        "npm_weekly_downloads": 173272
+        "npm_weekly_downloads": 163290
       }
     },
     {
@@ -2924,7 +2984,7 @@
       "signals": {
         "tool": "docker",
         "github_stars": 4972,
-        "npm_weekly_downloads": 4383
+        "npm_weekly_downloads": 4350
       }
     },
     {
@@ -3313,7 +3373,7 @@
       "signals": {
         "tool": "astro",
         "github_stars": 57979,
-        "npm_weekly_downloads": 1885770
+        "npm_weekly_downloads": 1869786
       }
     },
     {
@@ -3330,7 +3390,7 @@
       "signals": {
         "tool": "pagefind",
         "github_stars": 5094,
-        "npm_weekly_downloads": 464885,
+        "npm_weekly_downloads": 457937,
         "license": "MIT"
       }
     },
@@ -3756,7 +3816,7 @@
       "signals": {
         "tool": "novu",
         "github_stars": 38747,
-        "npm_weekly_downloads": 7136
+        "npm_weekly_downloads": 6061
       }
     },
     {
@@ -4162,7 +4222,7 @@
       "signals": {
         "tool": "schema-dts",
         "github_stars": 1164,
-        "npm_weekly_downloads": 1560900
+        "npm_weekly_downloads": 1486952
       }
     },
     {
@@ -4243,7 +4303,7 @@
       "signals": {
         "tool": "decap-cms",
         "github_stars": 18998,
-        "npm_weekly_downloads": 2105
+        "npm_weekly_downloads": 2016
       }
     },
     {
@@ -4260,7 +4320,7 @@
       "signals": {
         "tool": "svgo",
         "github_stars": 22412,
-        "npm_weekly_downloads": 29800231
+        "npm_weekly_downloads": 28499535
       }
     },
     {
@@ -4277,7 +4337,7 @@
       "signals": {
         "tool": "blurhash",
         "github_stars": 16958,
-        "npm_weekly_downloads": 874915
+        "npm_weekly_downloads": 839844
       }
     },
     {
@@ -4470,7 +4530,7 @@
       "signals": {
         "tool": "tinacms",
         "github_stars": 13245,
-        "npm_weekly_downloads": 69573
+        "npm_weekly_downloads": 74187
       }
     },
     {
@@ -4615,7 +4675,7 @@
       "signals": {
         "tool": "pa11y",
         "github_stars": 4418,
-        "npm_weekly_downloads": 230069
+        "npm_weekly_downloads": 212133
       }
     },
     {
@@ -4632,7 +4692,7 @@
       "signals": {
         "tool": "backstopjs",
         "github_stars": 7116,
-        "npm_weekly_downloads": 65266
+        "npm_weekly_downloads": 63120
       }
     },
     {
@@ -4649,7 +4709,7 @@
       "signals": {
         "tool": "posthog-js",
         "github_stars": 531,
-        "npm_weekly_downloads": 4462043
+        "npm_weekly_downloads": 4334919
       }
     },
     {
@@ -4699,7 +4759,7 @@
       "signals": {
         "tool": "contentful-management",
         "github_stars": 286,
-        "npm_weekly_downloads": 746064,
+        "npm_weekly_downloads": 690916,
         "license": "MIT"
       }
     },
@@ -4717,7 +4777,7 @@
       "signals": {
         "tool": "sdk-node",
         "github_stars": 61,
-        "npm_weekly_downloads": 779934,
+        "npm_weekly_downloads": 769486,
         "license": "Apache-2.0"
       }
     },
@@ -4764,7 +4824,7 @@
       "signals": {
         "tool": "sanity",
         "github_stars": 6041,
-        "npm_weekly_downloads": 412469,
+        "npm_weekly_downloads": 403755,
         "license": "MIT"
       }
     },
@@ -4782,7 +4842,7 @@
       "signals": {
         "tool": "unlighthouse",
         "github_stars": 4469,
-        "npm_weekly_downloads": 16097,
+        "npm_weekly_downloads": 15386,
         "license": "MIT"
       }
     },
@@ -4800,7 +4860,7 @@
       "signals": {
         "tool": "browserable",
         "github_stars": 1177,
-        "npm_weekly_downloads": 6,
+        "npm_weekly_downloads": 5,
         "license": "MIT"
       }
     },
@@ -4818,7 +4878,7 @@
       "signals": {
         "tool": "write-good",
         "github_stars": 5065,
-        "npm_weekly_downloads": 51476,
+        "npm_weekly_downloads": 50243,
         "license": "MIT"
       }
     },
@@ -4836,7 +4896,7 @@
       "signals": {
         "tool": "markdownlint-cli2",
         "github_stars": 740,
-        "npm_weekly_downloads": 537450,
+        "npm_weekly_downloads": 523631,
         "license": "MIT"
       }
     },
@@ -4888,7 +4948,7 @@
       "signals": {
         "tool": "crawlee",
         "github_stars": 22591,
-        "npm_weekly_downloads": 84732,
+        "npm_weekly_downloads": 81357,
         "license": "Apache-2.0"
       }
     },
@@ -5160,7 +5220,7 @@
       "signals": {
         "tool": "alex",
         "github_stars": 5096,
-        "npm_weekly_downloads": 27622,
+        "npm_weekly_downloads": 30352,
         "license": "MIT"
       }
     },
@@ -5178,7 +5238,7 @@
       "signals": {
         "tool": "textlint",
         "github_stars": 3099,
-        "npm_weekly_downloads": 98401,
+        "npm_weekly_downloads": 97446,
         "license": "MIT"
       }
     },
@@ -5298,7 +5358,7 @@
       "signals": {
         "tool": "remotion",
         "github_stars": 41477,
-        "npm_weekly_downloads": 498128
+        "npm_weekly_downloads": 503720
       }
     },
     {
@@ -5315,7 +5375,7 @@
       "signals": {
         "tool": "payload",
         "github_stars": 41552,
-        "npm_weekly_downloads": 315655,
+        "npm_weekly_downloads": 313490,
         "license": "MIT"
       }
     },
@@ -5333,7 +5393,7 @@
       "signals": {
         "tool": "strapi",
         "github_stars": 71740,
-        "npm_weekly_downloads": 161927
+        "npm_weekly_downloads": 159952
       }
     },
     {
@@ -5396,7 +5456,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "onefetch",
         "github_stars": 11710,
@@ -5413,7 +5473,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "duf",
         "github_stars": 14916
@@ -5429,7 +5489,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "mcfly",
         "github_stars": 7657,
@@ -5446,7 +5506,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "plandex",
         "github_stars": 15183
@@ -5462,7 +5522,7 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "tool": "broot",
         "github_stars": 12549
@@ -5514,7 +5574,7 @@
       "signals": {
         "tool": "tavily-mcp",
         "github_stars": 1615,
-        "npm_weekly_downloads": 65001
+        "npm_weekly_downloads": 54432
       }
     },
     {
@@ -5531,7 +5591,7 @@
       "signals": {
         "tool": "directus",
         "github_stars": 34621,
-        "npm_weekly_downloads": 19283
+        "npm_weekly_downloads": 19355
       }
     },
     {
@@ -5692,7 +5752,7 @@
       "signals": {
         "tool": "jsdoc",
         "github_stars": 15426,
-        "npm_weekly_downloads": 3000989
+        "npm_weekly_downloads": 2833096
       }
     },
     {
@@ -5741,7 +5801,7 @@
       "signals": {
         "tool": "typedoc",
         "github_stars": 8385,
-        "npm_weekly_downloads": 3862758
+        "npm_weekly_downloads": 3647369
       }
     },
     {

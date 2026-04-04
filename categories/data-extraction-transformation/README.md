@@ -132,6 +132,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | — | — |
+| [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | — | — |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |

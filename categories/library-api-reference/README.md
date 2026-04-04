@@ -22,8 +22,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Downloads |
 |---|---:|
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.4M/wk |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 3M/wk |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.9M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.8M/wk |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.6M/wk |
 
 ---
 
@@ -35,10 +35,10 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.4M/wk |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 3M/wk |
+| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.8M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.9M/wk |
+| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.6M/wk |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |

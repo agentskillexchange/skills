@@ -6,10 +6,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars |
 |---|---:|
-| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 166.9k |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 158.7k |
-| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 129.8k |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.4k |
+| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.1k |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 158.8k |
+| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 129.9k |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.5k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.9k |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⭐ 100.1k |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94k |
@@ -23,9 +23,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 19.4k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 21.1k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 1.9M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.3k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 163.3k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.6M/wk |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 163.7M/wk |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 4.3k/wk |
@@ -40,10 +40,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 166.9k | — |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 158.7k | — |
-| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 129.8k | — |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.4k | — |
+| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.1k | — |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 158.8k | — |
+| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 129.9k | — |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.5k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94k | — |
@@ -56,22 +56,22 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 19.4k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 21.1k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
-| [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.4k | — |
+| [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 1.9M/wk |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | — |
 | [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | — |
-| [AutoGen — Microsoft Multi-Agent Conversation Framework](../../skills/autogen-microsoft-multi-agent-framework/) | 56.6k | — |
+| [AutoGen — Microsoft Multi-Agent Conversation Framework](../../skills/autogen-microsoft-multi-agent-framework/) | 56.7k | — |
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | 55.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 173.3k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 163.3k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.6M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
@@ -120,7 +120,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [mdBook Markdown Book Generator by Rust Project](../../skills/mdbook-markdown-book-generator-rust/) | 21.4k | — |
 | [Sonic Fast Lightweight Schema-Less Search Backend](../../skills/sonic-fast-lightweight-search-backend/) | 21.2k | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | 20.9k | — |
-| [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | 20.5k | — |
+| [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | 20.6k | — |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | 20k | — |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
@@ -154,7 +154,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.7k | — |
-| [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.5k | — |
+| [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
@@ -194,12 +194,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | — | — |
-| [Bun All-in-One JavaScript Runtime Bundler and Package Manager](../../skills/bun-javascript-runtime-bundler-package-manager-2/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | — | — |
-| [Coolify Self-Hosted PaaS for Application and Database Deployment](../../skills/coolify-self-hosted-paas/) | — | — |
+| [Coolify Self-Hosted PaaS for Application and Database Deployment](../../skills/coolify-self-hosted-paas-deployment-3/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | — | — |
@@ -211,7 +210,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | — | — |
-| [Dokploy Open Source Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-deployment/) | — | — |
+| [Dokploy Open Source Self-Hosted PaaS with Docker Compose and Swarm Support](../../skills/dokploy-self-hosted-paas-docker-compose-swarm/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
@@ -225,6 +224,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
+| [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | — | — |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
@@ -236,7 +236,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | — | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | — | — |
-| [Moon Monorepo Build System and Task Runner by moonrepo](../../skills/moon-monorepo-build-system-task-runner-moonrepo/) | — | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | — | — |

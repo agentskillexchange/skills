@@ -11,7 +11,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 58.5k |
-| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.2k |
+| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.3k |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 45k |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⭐ 41.5k |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | ⭐ 39.5k |
@@ -23,7 +23,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Downloads |
 |---|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 498.1k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 503.7k/wk |
 
 ---
 
@@ -36,9 +36,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
-| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.2k | — |
+| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.3k | — |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 498.1k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 503.7k/wk |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | 24.1k | — |
