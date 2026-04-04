@@ -4,7 +4,7 @@ description: "pdfme is an open-source TypeScript and React library for generatin
 category: "Developer Tools"
 source: "https://github.com/pdfme/pdfme"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer

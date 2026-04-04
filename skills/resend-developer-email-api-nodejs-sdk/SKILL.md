@@ -4,7 +4,7 @@ description: "Resend is a modern email API designed for developers, providing a 
 category: "Calendar, Email & Productivity"
 source: "https://github.com/resend/resend-node"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Resend Developer Email API and Node.js SDK

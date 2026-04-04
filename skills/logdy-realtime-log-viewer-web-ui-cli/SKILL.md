@@ -4,7 +4,7 @@ description: "Logdy is a zero-dependency single-binary log viewer that pipes any
 category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 source: "https://github.com/logdyhq/logdy-core"
-verification: listed
+verification: security_reviewed
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI

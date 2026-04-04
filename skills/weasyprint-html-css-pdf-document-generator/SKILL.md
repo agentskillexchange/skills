@@ -3,7 +3,7 @@ name: "WeasyPrint HTML and CSS to PDF Document Generator"
 description: "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for pagination, supporting web standards for printing including page breaks, headers, page counters, and responsive layouts without relying..."
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/Kozea/WeasyPrint"
 ---
 

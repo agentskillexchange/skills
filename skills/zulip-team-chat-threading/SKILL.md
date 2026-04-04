@@ -4,7 +4,7 @@ description: "Zulip is an open-source organized team chat application with uniqu
 category: "Integrations & Connectors"
 source: "https://github.com/zulip/zulip"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Zulip Open Source Team Chat Platform with Topic-Based Threading

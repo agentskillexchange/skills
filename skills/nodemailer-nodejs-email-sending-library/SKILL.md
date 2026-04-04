@@ -4,7 +4,7 @@ description: "Nodemailer is the most widely used Node.js library for sending ema
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 source: "https://github.com/nodemailer/nodemailer"
-verification: listed
+verification: security_reviewed
 ---
 
 # Nodemailer Node.js Email Sending Library with SMTP and Transport Support

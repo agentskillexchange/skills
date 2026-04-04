@@ -4,7 +4,7 @@ description: "Verdaccio is a lightweight, zero-config private npm proxy registry
 category: "Developer Tools"
 framework: "Multi-Framework"
 source: "https://github.com/verdaccio/verdaccio"
-verification: listed
+verification: security_reviewed
 ---
 
 # Verdaccio Lightweight Private npm Proxy Registry

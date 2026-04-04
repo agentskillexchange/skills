@@ -4,7 +4,7 @@ description: "Nodriver is the official successor to Undetected-Chromedriver, pro
 category: "Browser Automation"
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Nodriver Async Undetected Chrome Browser Automation for Python

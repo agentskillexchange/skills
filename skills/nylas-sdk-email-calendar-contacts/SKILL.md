@@ -4,7 +4,7 @@ description: "Nylas provides REST APIs and SDKs for Python and Node.js that offe
 category: "Calendar, Email & Productivity"
 source: "https://github.com/nylas/nylas-python"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Nylas Platform SDK for Unified Email Calendar and Contacts API

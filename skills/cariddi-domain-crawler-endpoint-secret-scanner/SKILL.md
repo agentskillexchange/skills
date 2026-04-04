@@ -4,7 +4,7 @@ description: "Cariddi is a Go-based security tool that takes a list of domains, 
 category: "Security & Verification"
 framework: "Multi-Framework"
 source: "https://github.com/edoardottt/cariddi"
-verification: listed
+verification: security_reviewed
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner

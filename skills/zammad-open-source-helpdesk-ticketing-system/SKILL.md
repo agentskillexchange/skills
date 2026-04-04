@@ -4,7 +4,7 @@ description: "Zammad is a self-hosted, open-source helpdesk and customer support
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 source: "https://github.com/zammad/zammad"
-verification: listed
+verification: security_reviewed
 ---
 
 # Zammad Open Source Web-Based Helpdesk and Ticketing System

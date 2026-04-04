@@ -4,7 +4,7 @@ description: "Outline is a fast, collaborative knowledge base for teams built wi
 category: "Calendar, Email & Productivity"
 source: "https://github.com/outline/outline"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Outline Open Source Team Knowledge Base and Wiki Platform

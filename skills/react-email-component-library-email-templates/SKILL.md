@@ -4,7 +4,7 @@ description: "React Email is an open source component library for building respo
 category: "Templates & Workflows"
 source: "https://github.com/resend/react-email"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # React Email Component Library for Building Email Templates

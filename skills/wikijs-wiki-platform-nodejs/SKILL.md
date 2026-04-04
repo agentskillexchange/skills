@@ -4,7 +4,7 @@ description: "Wiki.js is a powerful open-source wiki app built on Node.js with s
 category: "Calendar, Email & Productivity"
 source: "https://github.com/requarks/wiki"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js

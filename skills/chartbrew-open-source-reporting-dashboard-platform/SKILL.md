@@ -4,7 +4,7 @@ description: "Chartbrew is an open-source web application for building and shari
 category: "Monitoring & Alerts"
 source: "https://github.com/chartbrew/chartbrew"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Chartbrew Open Source Reporting Platform for API and Database Dashboards

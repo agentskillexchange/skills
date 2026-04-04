@@ -4,7 +4,7 @@ description: "Chatwoot is a self-hosted, open-source customer engagement platfor
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 source: "https://github.com/chatwoot/chatwoot"
-verification: listed
+verification: security_reviewed
 ---
 
 # Chatwoot Open Source Customer Engagement and Omnichannel Support Platform

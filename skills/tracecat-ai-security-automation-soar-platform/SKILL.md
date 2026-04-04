@@ -4,7 +4,7 @@ description: "Tracecat is an open-source, AI-native security automation platform
 category: "Security & Verification"
 source: "https://github.com/TracecatHQ/tracecat"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 ---
 
 # Tracecat AI-Native Security Automation and SOAR Platform
