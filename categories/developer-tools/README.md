@@ -213,6 +213,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | — | — |
 | [Dokploy Open Source Self-Hosted PaaS with Docker Compose and Swarm Support](../../skills/dokploy-self-hosted-paas-docker-compose-swarm/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
+| [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | — | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
 | [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | — | — |
@@ -223,6 +224,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
+| [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | — | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |

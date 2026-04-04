@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1671,
+  "total": 1674,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "griptape-python-ai-agent-framework",
+      "name": "Griptape Modular Python AI Agent and Workflow Framework",
+      "description": "Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools, and memory. It provides Agents, Pipelines, and Workflows…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "electricsql-postgres-sync-engine",
+      "name": "ElectricSQL Real-Time Postgres Sync Engine",
+      "description": "ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out. It syncs data out of Postgres in real…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "cerbos-authorization-pdp",
+      "name": "Cerbos Open Source Authorization Policy Decision Point",
+      "description": "Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "naabu-fast-port-scanner-projectdiscovery",
       "name": "Naabu Fast Port Scanner by ProjectDiscovery",

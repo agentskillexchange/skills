@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1671 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 17:40 UTC
+> **1674 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 19:37 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (232 skills)
+### 🛠️ Developer Tools (234 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -187,6 +187,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](skills/dokku-docker-paas/) | Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your… | Security Reviewed | — | — |
 | [Dokploy Open Source Self-Hosted PaaS with Docker Compose and Swarm Support](skills/dokploy-self-hosted-paas-docker-compose-swarm/) | Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and… | Published | — | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [ElectricSQL Real-Time Postgres Sync Engine](skills/electricsql-postgres-sync-engine/) | ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out.… | Published | — | — |
 | [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | — | — |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | — | — |
 | [fonttools Python Font Manipulation and Subsetting Library](skills/fonttools-python-font-manipulation-subsetting/) | fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and… | Security Reviewed | — | — |
@@ -197,6 +198,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Git Diff Complexity Analyzer](skills/git-diff-complexity-analyzer/) | Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity… | Security Reviewed | — | — |
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](skills/github-copilot-ai-code-assistant/) | GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based… | Published | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](skills/google-cloud-cli-gcloud/) | The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE,… | Published | — | — |
+| [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Published | — | — |
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Jira Advanced Query Agent](skills/jira-advanced-query-agent/) | Jira Advanced Query Agent is built around Jira issue tracking platform. It gives an agent a more technical and… | Security Reviewed | — | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Published | — | — |
@@ -532,7 +534,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (115 skills)
+### 🔒 Security & Verification (116 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -572,6 +574,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](skills/cariddi-domain-crawler-endpoint-secret-scanner/) | Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints,… | Security Reviewed | — | — |
 | [Casdoor Open Source Identity and Access Management Platform](skills/casdoor-open-source-iam-auth-platform/) | Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth… | Security Reviewed | — | — |
+| [Cerbos Open Source Authorization Policy Decision Point](skills/cerbos-authorization-pdp/) | Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user… | Published | — | — |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and… | Security Reviewed | — | — |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
