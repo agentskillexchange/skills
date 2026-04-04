@@ -55,6 +55,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 518 | — |
+| [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | — | — |
@@ -77,6 +78,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | — | — |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | — | — |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | — | — |
+| [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | — | — |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | — | — |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | — | — |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | — | — |
@@ -104,6 +106,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | — | — |
 | [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | — | — |
 | [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | — | — |
+| [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](../../skills/solidtime-open-source-time-tracking/) | — | — |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1667,
+  "total": 1670,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "nodemailer-nodejs-email-sending-library",
+      "name": "Nodemailer Node.js Email Sending Library with SMTP and Transport Support",
+      "description": "Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly npm downloads. It supports SMTP,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "solidtime-open-source-time-tracking",
+      "name": "solidtime Modern Open Source Time Tracking for Freelancers and Agencies",
+      "description": "solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project and client management, billable rates, task assignment, multi-organization support,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "activitywatch-automated-time-tracker",
+      "name": "ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer",
+      "description": "ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. With 16k+…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "scrapegraphai-llm-web-scraping",
       "name": "ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines",

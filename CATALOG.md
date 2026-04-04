@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1667 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-04 03:40 UTC
+> **1670 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-04 05:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1067,7 +1067,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (87 skills)
+### 📅 Calendar, Email & Productivity (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1105,6 +1105,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 518 | — |
+| [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](skills/activitywatch-automated-time-tracker/) | ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser… | Published | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](skills/docmost-open-source-collaborative-wiki-documentation/) | Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to… | Security Reviewed | — | — |
@@ -1127,6 +1128,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | — | — |
 | [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
 | [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](skills/nodemailer-nodejs-email-sending-library/) | Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly… | Published | — | — |
 | [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | — | — |
 | [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Notion Database Sync Agent](skills/notion-database-sync-agent/) | Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query),… | Security Reviewed | — | — |
@@ -1154,6 +1156,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Slack Workflow Bot](skills/slack-workflow-bot-bolt-sdk/) | Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms,… | Security Reviewed | — | — |
 | [Slack Workflow Bot Builder](skills/slack-workflow-bot-builder/) | Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash… | Security Reviewed | — | — |
 | [Slack Workflow Builder Agent](skills/slack-workflow-builder-agent/) | Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit,… | Security Reviewed | — | — |
+| [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](skills/solidtime-open-source-time-tracking/) | solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project… | Published | — | — |
 | [Todoist GTD Workflow Automator](skills/todoist-gtd-workflow-automator/) | Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing,… | Security Reviewed | — | — |
 | [Todoist GTD Workflow Engine](skills/todoist-gtd-workflow-engine/) | Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context… | Security Reviewed | — | — |
 | [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | — | — |
