@@ -86,6 +86,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | — | — |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | — | — |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | — | — |
+| [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | — | — |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | — | — |
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | — | — |
 | [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | — | — |

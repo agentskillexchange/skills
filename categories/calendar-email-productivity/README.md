@@ -88,6 +88,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | — | — |
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | — | — |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | — | — |
+| [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | — | — |
+| [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | — | — |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | — | — |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
@@ -107,6 +109,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | — | — |
 | [Todoist Project Automator](../../skills/todoist-project-automator-api-v2/) | — | — |
 | [Todoist Sync API Task Orchestrator](../../skills/todoist-sync-api-task-orchestrator/) | — | — |
+| [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | — | — |
 
 ---
 

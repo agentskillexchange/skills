@@ -108,6 +108,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
+| [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | — | — |
 
 ---
 

@@ -59,6 +59,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 779.9k/wk |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | — | — |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
+| [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | — | — |
@@ -69,6 +70,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | — | — |
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
+| [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | — | — |

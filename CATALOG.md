@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1660 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-03 23:41 UTC
+> **1667 published skills** across **17 categories** · 1594 security reviewed · Updated 2026-04-04 03:40 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1067,7 +1067,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (84 skills)
+### 📅 Calendar, Email & Productivity (87 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1138,6 +1138,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Notion Workspace Automator](skills/notion-workspace-automator-api-v1/) | Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and… | Security Reviewed | — | — |
 | [Notion Workspace Sync Agent](skills/notion-workspace-sync-agent/) | Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28.… | Security Reviewed | — | — |
 | [Notion Workspace Sync Engine](skills/notion-workspace-sync-engine-2/) | Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to… | Security Reviewed | — | — |
+| [Nylas Platform SDK for Unified Email Calendar and Contacts API](skills/nylas-sdk-email-calendar-contacts/) | Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts… | Published | — | — |
+| [Outline Open Source Team Knowledge Base and Wiki Platform](skills/outline-knowledge-base-wiki/) | Outline is a fast, collaborative knowledge base for teams built with React and Node.js. It provides real-time… | Published | — | — |
 | [Outlook Email Automation](skills/outlook-email-automation/) | Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrite and Calendars.ReadWrite permissions. Reads,… | Security Reviewed | — | — |
 | [Outlook Mail Triage Assistant](skills/outlook-mail-triage-assistant/) | Automated email triage using Microsoft Graph API and @azure/msal-node for OAuth. Classifies messages with zero-shot… | Security Reviewed | — | — |
 | [Outlook Mail Triage Skill](skills/outlook-mail-triage-microsoft-graph/) | Triages Outlook inboxes using Microsoft Graph API v1.0 with delta query support for incremental mail sync. Applies… | Security Reviewed | — | — |
@@ -1157,9 +1159,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Natural Language Task Parser](skills/todoist-natural-language-task-parser/) | Parses natural language task descriptions into structured Todoist API v2 task objects with due dates, priority… | Security Reviewed | — | — |
 | [Todoist Project Automator](skills/todoist-project-automator-api-v2/) | Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages… | Security Reviewed | — | — |
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
+| [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (73 skills)
+### 🔗 Integrations & Connectors (74 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1238,6 +1241,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](skills/zammad-open-source-helpdesk-ticketing-system/) | Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and… | Published | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
+| [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Published | — | — |
 
 
 ### 📄 Templates & Workflows (72 skills)
@@ -1479,7 +1483,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (69 skills)
+### 🔍 Research & Scraping (70 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1538,6 +1542,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Puppeteer Stealth Web Scraper](skills/puppeteer-stealth-web-scraper/) | Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML… | Security Reviewed | — | — |
 | [Puppeteer Web Scraper](skills/puppeteer-web-scraper/) | Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM… | Security Reviewed | — | — |
 | [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](skills/scrapegraphai-llm-web-scraping/) | ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent… | Published | — | — |
 | [ScrapingBee API Data Harvester](skills/scrapingbee-api-data-harvester/) | Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google… | Security Reviewed | — | — |
 | [Scrapy Distributed Crawler Framework](skills/scrapy-distributed-crawler-framework/) | Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash… | Security Reviewed | — | — |
 | [Scrapy Pipeline Data Extractor](skills/scrapy-pipeline-data-extractor/) | Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses… | Security Reviewed | — | — |
@@ -1554,6 +1559,80 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SerpAPI Search Pipeline](skills/serpapi-search-pipeline/) | Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports… | Security Reviewed | — | — |
 | [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
+
+
+### 🌐 Browser Automation (66 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF… | Security Reviewed | 94k | — |
+| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots,… | Security Reviewed | 85.5k | 44.3M/wk |
+| [Browser Use AI Browser Automation Library](skills/browser-use-ai-browser-automation-library/) | Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven… | Security Reviewed | 85.2k | — |
+| [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent… | Security Reviewed | 85.2k | — |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 30.1k | — |
+| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | — |
+| [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It… | Security Reviewed | 26.5k | — |
+| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | 21.8k | — |
+| [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](skills/skyvern-ai-browser-workflow-automation/) | Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK… | Security Reviewed | 21k | — |
+| [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Security Reviewed | 12.9k | — |
+| [SeleniumBase Python Browser Automation and Stealth Testing Framework](skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It… | Security Reviewed | 12.6k | 26/wk |
+| [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver… | Published | 9.9k | 198.3k/wk |
+| [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 9.8k | 2.8M/wk |
+| [BackstopJS Visual Regression Testing Automation](skills/backstopjs-visual-regression-testing-automation/) | BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual… | Security Reviewed | 7.1k | 65.3k/wk |
+| [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Security Reviewed | 6.8k | — |
+| [Steel Browser Open Source API for AI Agent Web Automation](skills/steel-browser-api-ai-agent-web-automation/) | Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and… | Security Reviewed | 6.8k | — |
+| [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Security Reviewed | 4.4k | 230.1k/wk |
+| [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 6/wk |
+| [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Security Reviewed | 61 | 779.9k/wk |
+| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | — | — |
+| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | — | — |
+| [Camoufox Open Source Anti-Detect Browser for Python Automation](skills/camoufox-antidetect-browser-python/) | Camoufox is an open source anti-detect browser built on Firefox that provides robust fingerprint injection and… | Published | — | — |
+| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | — | — |
+| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount,… | Security Reviewed | — | — |
+| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures… | Security Reviewed | — | — |
+| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures… | Security Reviewed | — | — |
+| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing.… | Security Reviewed | — | — |
+| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses… | Security Reviewed | — | — |
+| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and… | Security Reviewed | — | — |
+| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for… | Security Reviewed | — | — |
+| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images… | Security Reviewed | — | — |
+| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares… | Security Reviewed | — | — |
+| [Nodriver Async Undetected Chrome Browser Automation for Python](skills/nodriver-undetected-chrome-automation/) | Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates… | Published | — | — |
+| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | — | — |
+| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports… | Security Reviewed | — | — |
+| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the… | Security Reviewed | — | — |
+| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium,… | Security Reviewed | — | — |
+| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright… | Security Reviewed | — | — |
+| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments.… | Security Reviewed | — | — |
+| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with… | Security Reviewed | — | — |
+| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf()… | Security Reviewed | — | — |
+| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | — | — |
+| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | — | — |
+| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | — | — |
+| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | — | — |
+| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | — | — |
+| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | — | — |
+| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports… | Security Reviewed | — | — |
+| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via… | Security Reviewed | — | — |
+| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | — | — |
+| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | — | — |
+| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | — | — |
+| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | — | — |
+| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker… | Security Reviewed | — | — |
+| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol.… | Security Reviewed | — | — |
+| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue… | Security Reviewed | — | — |
+| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API.… | Security Reviewed | — | — |
+| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox,… | Security Reviewed | — | — |
+| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session… | Security Reviewed | — | — |
+| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and… | Security Reviewed | — | — |
+| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver… | Security Reviewed | — | — |
+| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and… | Security Reviewed | — | — |
+| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | — | — |
+| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | — | — |
+| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
+| [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Published | — | — |
 
 
 ### 📰 WordPress & CMS (64 skills)
@@ -1626,78 +1705,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | — | — |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | — | — |
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
-
-
-### 🌐 Browser Automation (64 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF… | Security Reviewed | 94k | — |
-| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots,… | Security Reviewed | 85.5k | 44.3M/wk |
-| [Browser Use AI Browser Automation Library](skills/browser-use-ai-browser-automation-library/) | Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven… | Security Reviewed | 85.2k | — |
-| [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent… | Security Reviewed | 85.2k | — |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 30.1k | — |
-| [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | — |
-| [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It… | Security Reviewed | 26.5k | — |
-| [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework/) | Stagehand is an open-source browser automation framework that combines natural language instructions with code for… | Security Reviewed | 21.8k | — |
-| [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](skills/skyvern-ai-browser-workflow-automation/) | Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK… | Security Reviewed | 21k | — |
-| [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Security Reviewed | 12.9k | — |
-| [SeleniumBase Python Browser Automation and Stealth Testing Framework](skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It… | Security Reviewed | 12.6k | 26/wk |
-| [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver… | Published | 9.9k | 198.3k/wk |
-| [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 9.8k | 2.8M/wk |
-| [BackstopJS Visual Regression Testing Automation](skills/backstopjs-visual-regression-testing-automation/) | BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual… | Security Reviewed | 7.1k | 65.3k/wk |
-| [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Security Reviewed | 6.8k | — |
-| [Steel Browser Open Source API for AI Agent Web Automation](skills/steel-browser-api-ai-agent-web-automation/) | Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and… | Security Reviewed | 6.8k | — |
-| [Pa11y Accessibility Testing CLI and CI](skills/pa11y-accessibility-testing-cli-and-ci/) | Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command… | Security Reviewed | 4.4k | 230.1k/wk |
-| [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 6/wk |
-| [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Security Reviewed | 61 | 779.9k/wk |
-| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | — | — |
-| [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with… | Security Reviewed | — | — |
-| [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Security Reviewed | — | — |
-| [Cypress Component Test Generator](skills/cypress-component-test-generator/) | Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount,… | Security Reviewed | — | — |
-| [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures… | Security Reviewed | — | — |
-| [Cypress Component Testing Suite](skills/cypress-component-testing-suite/) | Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures… | Security Reviewed | — | — |
-| [Cypress Component Testing Toolkit](skills/cypress-component-testing-toolkit/) | Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing.… | Security Reviewed | — | — |
-| [Cypress E2E API Intercept Skill](skills/cypress-e2e-api-intercept-skill/) | Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses… | Security Reviewed | — | — |
-| [Cypress E2E Test Generator](skills/cypress-e2e-test-generator-3/) | Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and… | Security Reviewed | — | — |
-| [Cypress Network Stub Generator](skills/cypress-network-stub-generator/) | Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for… | Security Reviewed | — | — |
-| [Cypress Visual Regression Runner](skills/cypress-visual-regression-runner/) | Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images… | Security Reviewed | — | — |
-| [Cypress Visual Regression Testing Suite](skills/cypress-visual-regression-testing-suite/) | Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares… | Security Reviewed | — | — |
-| [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | — | — |
-| [Playwright Cross-Browser Test Runner](skills/playwright-cross-browser-test-runner/) | Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports… | Security Reviewed | — | — |
-| [Playwright Multi-Browser Test Generator](skills/playwright-multi-browser-test-generator/) | Generates Playwright test scripts for Chromium, Firefox, and WebKit from natural language descriptions. Uses the… | Security Reviewed | — | — |
-| [Playwright Multi-Browser Test Suite](skills/playwright-multi-browser-test-suite/) | Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium,… | Security Reviewed | — | — |
-| [Playwright Multi-Tab Session Manager](skills/playwright-multi-tab-session-manager-2/) | Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright… | Security Reviewed | — | — |
-| [Playwright Network HAR Recorder](skills/playwright-network-har-recorder/) | Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments.… | Security Reviewed | — | — |
-| [Playwright Parallel Tab Manager](skills/playwright-parallel-tab-manager/) | Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with… | Security Reviewed | — | — |
-| [Playwright PDF Export Automation](skills/playwright-pdf-export-automation/) | Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf()… | Security Reviewed | — | — |
-| [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | — | — |
-| [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | — | — |
-| [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | — | — |
-| [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | — | — |
-| [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | — | — |
-| [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | — | — |
-| [Puppeteer PDF Renderer](skills/puppeteer-pdf-renderer/) | Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports… | Security Reviewed | — | — |
-| [Puppeteer Screenshot Diff Engine](skills/puppeteer-screenshot-diff-engine/) | Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via… | Security Reviewed | — | — |
-| [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | — | — |
-| [Puppeteer Visual Regression Tester](skills/puppeteer-visual-regression-tester/) | Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page… | Security Reviewed | — | — |
-| [Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/) | Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares… | Security Reviewed | — | — |
-| [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | — | — |
-| [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker… | Security Reviewed | — | — |
-| [Selenium Grid Cloud Executor](skills/selenium-grid-cloud-executor/) | Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol.… | Security Reviewed | — | — |
-| [Selenium Grid Load Balancer](skills/selenium-grid-load-balancer/) | Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue… | Security Reviewed | — | — |
-| [Selenium Grid Multi-Browser Test Runner](skills/selenium-grid-multi-browser-test-runner/) | Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API.… | Security Reviewed | — | — |
-| [Selenium Grid Orchestrator](skills/selenium-grid-orchestrator/) | Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox,… | Security Reviewed | — | — |
-| [Selenium Grid Parallel Execution Manager](skills/selenium-grid-parallel-execution-manager/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session… | Security Reviewed | — | — |
-| [Selenium Grid Parallel Executor](skills/selenium-grid-parallel-executor/) | Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and… | Security Reviewed | — | — |
-| [Selenium Grid Parallel Test Runner](skills/selenium-grid-parallel-test-runner/) | Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver… | Security Reviewed | — | — |
-| [Selenium Grid Session Distributor](skills/selenium-grid-session-distributor/) | Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and… | Security Reviewed | — | — |
-| [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | — | — |
-| [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | — | — |
-| [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
-| [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (62 skills)

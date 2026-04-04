@@ -1,8 +1,92 @@
 {
   "version": "2.0",
-  "total": 1660,
-  "generated": "2026-04-03",
+  "total": 1667,
+  "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "scrapegraphai-llm-web-scraping",
+      "name": "ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines",
+      "description": "ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent scraping pipelines. Describe what data you want…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nylas-sdk-email-calendar-contacts",
+      "name": "Nylas Platform SDK for Unified Email Calendar and Contacts API",
+      "description": "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nodriver-undetected-chrome-automation",
+      "name": "Nodriver Async Undetected Chrome Browser Automation for Python",
+      "description": "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "camoufox-antidetect-browser-python",
+      "name": "Camoufox Open Source Anti-Detect Browser for Python Automation",
+      "description": "Camoufox is an open source anti-detect browser built on Firefox that provides robust fingerprint injection and anti-bot evasion for Python automation workflows. It integrates…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wikijs-wiki-platform-nodejs",
+      "name": "Wiki.js Modern Open Source Wiki Platform on Node.js",
+      "description": "Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "zulip-team-chat-threading",
+      "name": "Zulip Open Source Team Chat Platform with Topic-Based Threading",
+      "description": "Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of email and chat. It offers a comprehensive…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "outline-knowledge-base-wiki",
+      "name": "Outline Open Source Team Knowledge Base and Wiki Platform",
+      "description": "Outline is a fast, collaborative knowledge base for teams built with React and Node.js. It provides real-time editing, Markdown support, and a rich API…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "fonttools-python-font-manipulation-subsetting",
       "name": "fonttools Python Font Manipulation and Subsetting Library",
