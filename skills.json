@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1665,
+  "total": 1668,
   "generated": "2026-04-04",
   "skills": [
+    {
+      "slug": "jina-reader-url-to-markdown-web-search",
+      "name": "Jina Reader URL-to-Markdown Converter and Web Search API",
+      "description": "Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pyannote-audio-speaker-diarization-toolkit",
+      "name": "pyannote.audio Neural Speaker Diarization Toolkit",
+      "description": "pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "newspaper4k-python-article-extraction-nlp",
+      "name": "Newspaper4k Python Article Extraction and NLP Library",
+      "description": "Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles, titles, images, authors, and metadata from news websites,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "pdfplumber-python-pdf-text-table-extraction",
       "name": "pdfplumber Python PDF Text and Table Extraction Library",

@@ -116,6 +116,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | — | — |
+| [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | — | — |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | — | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
