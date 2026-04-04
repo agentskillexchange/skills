@@ -1,48 +1,36 @@
 ---
 name: "Penpot Open Source Design and Prototyping Platform"
-description: "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while developers get ready-to-use CSS, SVG, and HTML code — no handoff friction, no vendor lock-in."
 category: "Image & Creative Automation"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/penpot/penpot"
 tool_ecosystem:
   github_repo: "penpot/penpot"
-  github_stars: 45150
+  github_stars: 45183
 ---
+
 # Penpot Open Source Design and Prototyping Platform
 
 Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while developers get ready-to-use CSS, SVG, and HTML code — no handoff friction, no vendor lock-in.
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill penpot-open-source-design-prototyping
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill penpot-open-source-design-prototyping -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill penpot-open-source-design-prototyping -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill penpot-open-source-design-prototyping -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install penpot-open-source-design-prototyping
+
+# OpenClaw CLI
+openclaw skills install penpot-open-source-design-prototyping
+
+# Chat command
+/skill install penpot-open-source-design-prototyping
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/penpot-open-source-design-prototyping/download -o penpot-open-source-design-prototyping.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/penpot-open-source-design-prototyping ~/.openclaw/workspace/skills/
 ```
 
 ## Source

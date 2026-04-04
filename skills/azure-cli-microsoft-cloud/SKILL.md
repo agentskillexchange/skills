@@ -1,13 +1,11 @@
 ---
 name: "Azure CLI — Command-Line Interface for Microsoft Azure"
-description: "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands."
-category: "Uncategorized"
-framework: "Multi-Framework"
-verification: listed
+category: "Developer Tools"
+verification: "listed"
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
   github_repo: "Azure/azure-cli"
-  github_stars: 4497
+  github_stars: 4496
 ---
 
 # Azure CLI — Command-Line Interface for Microsoft Azure
@@ -16,35 +14,25 @@ The Azure CLI provides cross-platform command-line access to Microsoft Azure ser
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install azure-cli-microsoft-cloud
+
+# OpenClaw CLI
+openclaw skills install azure-cli-microsoft-cloud
+
+# Chat command
+/skill install azure-cli-microsoft-cloud
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/download -o azure-cli-microsoft-cloud.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/azure-cli-microsoft-cloud ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/)

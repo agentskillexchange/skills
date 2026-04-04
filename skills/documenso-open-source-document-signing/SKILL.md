@@ -1,13 +1,11 @@
 ---
 name: "Documenso Open Source Document Signing Platform"
-description: "Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic signatures with self-hosting capabilities, providing transparent and trustworthy document workflows built on open trust infrastructure."
 category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/documenso/documenso"
 tool_ecosystem:
   github_repo: "documenso/documenso"
-  github_stars: 12571
+  github_stars: 12581
 ---
 
 # Documenso Open Source Document Signing Platform
@@ -16,36 +14,25 @@ Documenso is an open-source digital document signing platform and DocuSign alter
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill documenso-open-source-document-signing -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install documenso-open-source-document-signing
+
+# OpenClaw CLI
+openclaw skills install documenso-open-source-document-signing
+
+# Chat command
+/skill install documenso-open-source-document-signing
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/documenso-open-source-document-signing/download -o documenso-open-source-document-signing.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/documenso-open-source-document-signing ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/documenso-open-source-document-signing/)
-- [Upstream Source](https://github.com/documenso/documenso)

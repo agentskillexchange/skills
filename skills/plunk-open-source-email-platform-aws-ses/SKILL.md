@@ -1,13 +1,11 @@
 ---
 name: "Plunk Open Source Transactional Email Platform on AWS SES"
-description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
 category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/useplunk/plunk"
 tool_ecosystem:
   github_repo: "useplunk/plunk"
-  github_stars: 4943
+  github_stars: 4948
 ---
 
 # Plunk Open Source Transactional Email Platform on AWS SES
@@ -16,36 +14,25 @@ Plunk is an open-source email platform built on AWS SES for sending transactiona
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill plunk-open-source-email-platform-aws-ses -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install plunk-open-source-email-platform-aws-ses
+
+# OpenClaw CLI
+openclaw skills install plunk-open-source-email-platform-aws-ses
+
+# Chat command
+/skill install plunk-open-source-email-platform-aws-ses
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/download -o plunk-open-source-email-platform-aws-ses.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/plunk-open-source-email-platform-aws-ses ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/)
-- [Upstream Source](https://github.com/useplunk/plunk)

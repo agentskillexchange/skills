@@ -1,48 +1,36 @@
 ---
 name: "MinIO High-Performance S3-Compatible Object Storage Server"
-description: "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs."
 category: "Integrations & Connectors"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/minio/minio"
 tool_ecosystem:
   github_repo: "minio/minio"
-  github_stars: 60608
+  github_stars: 60611
 ---
+
 # MinIO High-Performance S3-Compatible Object Storage Server
 
 MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs.
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-storage -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install minio-s3-compatible-object-storage
+
+# OpenClaw CLI
+openclaw skills install minio-s3-compatible-object-storage
+
+# Chat command
+/skill install minio-s3-compatible-object-storage
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/minio-s3-compatible-object-storage/download -o minio-s3-compatible-object-storage.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/minio-s3-compatible-object-storage ~/.openclaw/workspace/skills/
 ```
 
 ## Source

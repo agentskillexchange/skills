@@ -1,13 +1,11 @@
 ---
 name: "Angular — TypeScript Web Application Framework by Google"
-description: "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communi"
-category: "Uncategorized"
-framework: "Multi-Framework"
-verification: listed
+category: "Developer Tools"
+verification: "listed"
 source: "https://github.com/angular/angular"
 tool_ecosystem:
   github_repo: "angular/angular"
-  github_stars: 100102
+  github_stars: 100095
 ---
 
 # Angular — TypeScript Web Application Framework by Google
@@ -16,35 +14,25 @@ Angular is a TypeScript-based web application platform by Google providing depen
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill angular-typescript-web-framework
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install angular-typescript-web-framework
+
+# OpenClaw CLI
+openclaw skills install angular-typescript-web-framework
+
+# Chat command
+/skill install angular-typescript-web-framework
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/angular-typescript-web-framework/download -o angular-typescript-web-framework.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/angular-typescript-web-framework ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/angular-typescript-web-framework/)

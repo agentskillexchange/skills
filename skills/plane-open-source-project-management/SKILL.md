@@ -1,48 +1,36 @@
 ---
 name: "Plane Open Source Project Management Platform"
-description: "Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles, product roadmaps, collaborative documents, and project analytics with a modern interface and full data ownership."
 category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/makeplane/plane"
 tool_ecosystem:
   github_repo: "makeplane/plane"
-  github_stars: 47209
+  github_stars: 47285
 ---
+
 # Plane Open Source Project Management Platform
 
 Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles, product roadmaps, collaborative documents, and project analytics with a modern interface and full data ownership.
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill plane-open-source-project-management
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill plane-open-source-project-management -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill plane-open-source-project-management -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill plane-open-source-project-management -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install plane-open-source-project-management
+
+# OpenClaw CLI
+openclaw skills install plane-open-source-project-management
+
+# Chat command
+/skill install plane-open-source-project-management
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/plane-open-source-project-management/download -o plane-open-source-project-management.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/plane-open-source-project-management ~/.openclaw/workspace/skills/
 ```
 
 ## Source

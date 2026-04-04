@@ -1,48 +1,36 @@
 ---
 name: "Traefik Cloud-Native Application Proxy and Reverse Proxy"
-description: "Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS."
 category: "Developer Tools"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/traefik/traefik"
 tool_ecosystem:
   github_repo: "traefik/traefik"
-  github_stars: 62433
+  github_stars: 62458
 ---
+
 # Traefik Cloud-Native Application Proxy and Reverse Proxy
 
 Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS.
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill traefik-cloud-native-reverse-proxy
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill traefik-cloud-native-reverse-proxy -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill traefik-cloud-native-reverse-proxy -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill traefik-cloud-native-reverse-proxy -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install traefik-cloud-native-reverse-proxy
+
+# OpenClaw CLI
+openclaw skills install traefik-cloud-native-reverse-proxy
+
+# Chat command
+/skill install traefik-cloud-native-reverse-proxy
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/traefik-cloud-native-reverse-proxy/download -o traefik-cloud-native-reverse-proxy.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/traefik-cloud-native-reverse-proxy ~/.openclaw/workspace/skills/
 ```
 
 ## Source

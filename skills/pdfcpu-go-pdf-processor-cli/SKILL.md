@@ -1,13 +1,11 @@
 ---
 name: "pdfcpu Go PDF Processor and Manipulation CLI"
-description: "pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies."
 category: "Developer Tools"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/pdfcpu/pdfcpu"
 tool_ecosystem:
   github_repo: "pdfcpu/pdfcpu"
-  github_stars: 8546
+  github_stars: 8550
 ---
 
 # pdfcpu Go PDF Processor and Manipulation CLI
@@ -16,35 +14,25 @@ pdfcpu is a Go-based PDF processing library and CLI tool that handles validation
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pdfcpu-go-pdf-processor-cli -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install pdfcpu-go-pdf-processor-cli
+
+# OpenClaw CLI
+openclaw skills install pdfcpu-go-pdf-processor-cli
+
+# Chat command
+/skill install pdfcpu-go-pdf-processor-cli
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/pdfcpu-go-pdf-processor-cli/download -o pdfcpu-go-pdf-processor-cli.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/pdfcpu-go-pdf-processor-cli ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/pdfcpu-go-pdf-processor-cli/)

@@ -1,48 +1,36 @@
 ---
 name: "Effect TypeScript Standard Library for Production Applications"
-description: "Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual packages with one cohesive, type-safe framework for building production-grade applications."
 category: "Library & API Reference"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/Effect-TS/effect"
 tool_ecosystem:
   github_repo: "Effect-TS/effect"
-  github_stars: 13745
+  github_stars: 13754
 ---
+
 # Effect TypeScript Standard Library for Production Applications
 
 Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual packages with one cohesive, type-safe framework for building production-grade applications.
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill effect-typescript-standard-library-production
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill effect-typescript-standard-library-production -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill effect-typescript-standard-library-production -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill effect-typescript-standard-library-production -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install effect-typescript-standard-library-production
+
+# OpenClaw CLI
+openclaw skills install effect-typescript-standard-library-production
+
+# Chat command
+/skill install effect-typescript-standard-library-production
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/effect-typescript-standard-library-production/download -o effect-typescript-standard-library-production.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/effect-typescript-standard-library-production ~/.openclaw/workspace/skills/
 ```
 
 ## Source

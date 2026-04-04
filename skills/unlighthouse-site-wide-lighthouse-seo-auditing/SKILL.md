@@ -1,61 +1,38 @@
 ---
 name: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
-description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
 category: "Content Writing & SEO"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/harlan-zw/unlighthouse"
 tool_ecosystem:
-  tool: unlighthouse
-  github_repo: harlan-zw/unlighthouse
+  github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  npm_package: unlighthouse
-  npm_weekly_downloads: 15947
-  license: MIT
-  maintained: true
+  npm_package: "unlighthouse"
+  npm_weekly_downloads: 15386
 ---
+
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
 
 Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work.
 
-## Overview
-
-Unlighthouse is a site-wide auditing tool that runs Google Lighthouse across many URLs and turns the results into an actionable view of SEO, performance, accessibility, and best-practice issues. This skill uses Unlighthouse when an agent needs more than a one-page Lighthouse check. It can crawl a site, discover important routes, execute repeated Lighthouse runs, and summarize which pages have the biggest problems or the clearest optimization wins.
-
-For content and SEO workflows, the skill is useful for finding missing metadata patterns, weak indexability signals, poor internal page quality, slow templates, and route-level regressions that affect search visibility. The agent can scope the run to a sitemap, a development preview, or a production domain, then interpret the Unlighthouse output into a concise worklist. Typical outputs include page-level SEO scores, Lighthouse category scores, recurring template issues, and prioritized remediation notes grouped by severity or URL pattern.
-
-Integration points include CI pipelines, content refresh workflows, technical SEO audits, and reporting automations that need machine-readable output. Because Unlighthouse is available as an npm package and has dedicated documentation, it fits agent environments that already run Node-based tooling. The skill explicitly references concepts such as crawl discovery, Lighthouse scoring, route sampling, sitemap inputs, page templates, Core Web Vitals context, and structured issue summaries. Rather than treating SEO review as generic advice, the skill anchors the work in Unlighthouse runs so the agent can produce evidence-backed recommendations tied to specific URLs, categories of defects, and measurable audit output.
-
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthouse-seo-auditing
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthouse-seo-auditing -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthouse-seo-auditing -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill unlighthouse-site-wide-lighthouse-seo-auditing -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install unlighthouse-site-wide-lighthouse-seo-auditing
+
+# OpenClaw CLI
+openclaw skills install unlighthouse-site-wide-lighthouse-seo-auditing
+
+# Chat command
+/skill install unlighthouse-site-wide-lighthouse-seo-auditing
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/download -o unlighthouse-site-wide-lighthouse-seo-auditing.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/unlighthouse-site-wide-lighthouse-seo-auditing ~/.openclaw/workspace/skills/
 ```
 
 ## Source

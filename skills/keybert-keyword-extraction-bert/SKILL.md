@@ -1,14 +1,11 @@
 ---
 name: "KeyBERT Minimal Keyword Extraction with BERT Embeddings"
-description: "KeyBERT is a minimal and easy-to-use Python library that leverages BERT embeddings and cosine similarity to extract keywords and keyphrases from documents. It supports multiple embedding backends including sentence-transformers, Flair, and spaCy, with built-in diversity algorithms like Max Sum Similarity and Maximal Marginal Relevance."
 category: "Content Writing & SEO"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/MaartenGr/KeyBERT"
-ase_url: "https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/"
 tool_ecosystem:
   github_repo: "MaartenGr/KeyBERT"
-  github_stars: 4141
+  github_stars: 4142
 ---
 
 # KeyBERT Minimal Keyword Extraction with BERT Embeddings
@@ -17,35 +14,25 @@ KeyBERT is a minimal and easy-to-use Python library that leverages BERT embeddin
 
 ## Installation
 
-### Any Agent
+Install this skill using one of the following methods:
 
 ```bash
-npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill keybert-keyword-extraction-bert -a codex
-```
-
-### OpenClaw
-
-```bash
+# ClawHub CLI
 clawhub install keybert-keyword-extraction-bert
+
+# OpenClaw CLI
+openclaw skills install keybert-keyword-extraction-bert
+
+# Chat command
+/skill install keybert-keyword-extraction-bert
+
+# Direct download
+curl -L https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/download -o keybert-keyword-extraction-bert.zip
+
+# Git clone this repo and copy the skill folder
+cp -r skills/keybert-keyword-extraction-bert ~/.openclaw/workspace/skills/
 ```
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/)
