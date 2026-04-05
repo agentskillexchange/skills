@@ -45,7 +45,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | 5k | — |
-| [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 4.9k | — |
+| [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 5k | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | 4.5k | — |
 | [Vikunja Self-Hosted Task Management and Project Organization Platform](../../skills/vikunja-self-hosted-task-management/) | 3.8k | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | 3.7k | — |
