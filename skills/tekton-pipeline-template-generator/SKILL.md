@@ -10,21 +10,11 @@ source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generato
 
 Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation.
 
-Overview
+Overview The Tekton Pipeline Template Generator scaffolds production-ready Tekton Pipeline and Task custom resources using reusable components from the Tekton Hub API. It creates idiomatic CI/CD workflows that follow Tekton best practices for cloud-native build automation on Kubernetes.
 
-The Tekton Pipeline Template Generator scaffolds production-ready Tekton Pipeline and Task custom resources using reusable components from the Tekton Hub API. It creates idiomatic CI/CD workflows that follow Tekton best practices for cloud-native build automation on Kubernetes.
+Key Capabilities This skill resolves tasks from Tekton Hub using the tkn hub CLI and bundles them as OCI artifacts for air-gapped environments. It generates Pipeline resources with proper workspace bindings, result passing between tasks, and when-expression guards for conditional execution. Local testing is supported through tkn pipeline start with embedded parameter defaults.
 
-
-
-Key Capabilities
-
-This skill resolves tasks from Tekton Hub using the tkn hub CLI and bundles them as OCI artifacts for air-gapped environments. It generates Pipeline resources with proper workspace bindings, result passing between tasks, and when-expression guards for conditional execution. Local testing is supported through tkn pipeline start with embedded parameter defaults.
-
-
-
-Supply Chain Security
-
-Integrates with Sigstore cosign for container image signing and verification within pipeline steps. Generates SLSA provenance attestations using Tekton Chains, configuring the transparency log uploads and attestation storage backends. Supports Tekton Results API for long-term pipeline execution archival and compliance audit trail generation.
+Supply Chain Security Integrates with Sigstore cosign for container image signing and verification within pipeline steps. Generates SLSA provenance attestations using Tekton Chains, configuring the transparency log uploads and attestation storage backends. Supports Tekton Results API for long-term pipeline execution archival and compliance audit trail generation.
 
 ## Installation
 

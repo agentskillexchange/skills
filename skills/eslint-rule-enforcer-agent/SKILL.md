@@ -1,7 +1,7 @@
 ---
 name: "ESLint Rule Enforcer Agent"
 description: "Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint –fix output diffs."
-category: "Code Quality & Review"
+category: "Code Quality &amp; Review"
 framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/"

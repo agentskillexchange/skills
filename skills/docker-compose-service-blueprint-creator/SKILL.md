@@ -1,7 +1,7 @@
 ---
 name: "Docker Compose Service Blueprint Creator"
 description: "Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering via depends_on conditions."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/"

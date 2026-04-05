@@ -10,6 +10,8 @@ source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/
 
 GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI across dozens of languages.
 
+GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI across dozens of languages.
+
 ## Installation
 
 ### Any Agent
