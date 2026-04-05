@@ -206,6 +206,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | — | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
+| [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
@@ -271,6 +272,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
+| [ToolJet Open Source Internal Tools and Workflow Platform](../../skills/tooljet-open-source-internal-tools-workflow-platform/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |

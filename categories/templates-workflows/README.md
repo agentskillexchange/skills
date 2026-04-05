@@ -77,6 +77,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | — | — |
+| [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | — | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |

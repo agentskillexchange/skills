@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1705,
+  "total": 1708,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "tooljet-open-source-internal-tools-workflow-platform",
+      "name": "ToolJet Open Source Internal Tools and Workflow Platform",
+      "description": "ToolJet is an open-source platform for internal tools, dashboards, workflows, and AI-assisted business apps. It connects visual app building with databases, APIs, object storage,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "budibase-open-source-low-code-operations-app-platform",
+      "name": "Budibase Open Source Low-Code Operations App Platform",
+      "description": "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "langflow-visual-ai-agent-workflow-builder",
+      "name": "Langflow Visual AI Agent and Workflow Builder",
+      "description": "Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools,…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "langfuse-prompt-management-mcp-server",
       "name": "Langfuse Prompt Management MCP Server",
