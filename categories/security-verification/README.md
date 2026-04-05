@@ -15,7 +15,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | ⭐ 21.8k |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | ⭐ 21.3k |
-| [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | ⭐ 14.6k |
+| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | ⭐ 15k |
 
 ---
 
@@ -32,17 +32,23 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | 24k | — |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
+| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
+| [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
 | [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 11.9k | — |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
+| [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
+| [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
+| [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.1k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
@@ -56,13 +62,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
-| [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
-| [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | — | — |
@@ -71,14 +75,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
-| [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | — | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | — | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
-| [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | — | — |
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | — | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | — | — |
@@ -124,7 +126,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | — | — |
-| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | — | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |
@@ -135,7 +136,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | — | — |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | — | — |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
-| [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |

@@ -9,13 +9,13 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | ⭐ 33k |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⭐ 28.5k |
+| [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | ⭐ 26.7k |
+| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⭐ 25.7k |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⭐ 24.9k |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | ⭐ 24.8k |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | ⭐ 22k |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.4k |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | ⭐ 16.6k |
-| [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | ⭐ 16.1k |
-| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⭐ 7.6k |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⭐ 4k |
 
 ---
 
@@ -34,11 +34,15 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33k | — |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
+| [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | 26.7k | — |
+| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | — |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 24.9k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
+| [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 441.1k/wk |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
@@ -63,17 +67,14 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | — | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | — | — |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | — | — |
-| [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | — | — |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
-| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | — | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | — | — |
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | — | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | — | — |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
-| [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | — | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
@@ -84,7 +85,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | — | — |
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
-| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |

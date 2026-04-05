@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1686,
+  "total": 1692,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "octokit-javascript-github-sdk-rest-graphql-app-automation",
+      "name": "Octokit JavaScript GitHub SDK for REST GraphQL and App Automation",
+      "description": "Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and GitHub App workflows. It gives agents and automation systems…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "colly-golang-web-scraper-crawler-framework",
+      "name": "Colly Golang Web Scraper and Crawler Framework",
+      "description": "Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page extraction to asynchronous crawlers that…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms",
+      "name": "Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS",
+      "description": "Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nocobase-extensible-no-code-low-code-platform",
+      "name": "NocoBase Extensible AI-Powered No-Code and Low-Code Platform",
+      "description": "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "harness-open-source-git-cicd-platform",
+      "name": "Harness Open Source Self-Hosted Git and CI/CD Development Platform",
+      "description": "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sst-open-source-full-stack-deployment-framework",
+      "name": "SST Open Source Full-Stack Application Deployment Framework",
+      "description": "SST is an open-source framework for building and deploying full-stack applications on your own AWS infrastructure. It provides live development, resource linking, and components…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "resvg-svg-rendering-library-rust",
       "name": "resvg High-Performance SVG Rendering Library in Rust",
@@ -941,7 +1013,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22041
+      }
     },
     {
       "slug": "bullmq-redis-message-queue-job-processor-nodejs",
@@ -953,7 +1028,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8678
+      }
     },
     {
       "slug": "kestra-event-driven-orchestration-scheduling-platform",
@@ -965,7 +1043,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 26654
+      }
     },
     {
       "slug": "pyroscope-continuous-profiling-platform-grafana",
@@ -977,7 +1058,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11335
+      }
     },
     {
       "slug": "openobserve-observability-platform-logs-metrics-traces",
@@ -989,7 +1073,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 18449
+      }
     },
     {
       "slug": "wxt-next-gen-web-extension-framework",
@@ -1001,7 +1088,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 9515
+      }
     },
     {
       "slug": "unkey-api-key-management-rate-limiting",
@@ -1013,7 +1103,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5219
+      }
     },
     {
       "slug": "writingtools-system-wide-ai-grammar-assistant",
@@ -1025,7 +1118,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2178
+      }
     },
     {
       "slug": "lobehub-multi-agent-chat-platform-mcp-plugins",
@@ -1037,7 +1133,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 74743
+      }
     },
     {
       "slug": "docmost-open-source-collaborative-wiki-documentation",
@@ -1049,7 +1148,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 19689
+      }
     },
     {
       "slug": "pm2-nodejs-production-process-manager",
@@ -1061,7 +1163,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 43030
+      }
     },
     {
       "slug": "howlerjs-cross-browser-javascript-audio-library",
@@ -1073,7 +1178,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 25238
+      }
     },
     {
       "slug": "nock-http-server-mocking-nodejs",
@@ -1085,7 +1193,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13100
+      }
     },
     {
       "slug": "ntopng-web-based-network-traffic-monitoring-security",
@@ -1097,7 +1208,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7690
+      }
     },
     {
       "slug": "mailspring-open-source-email-client-plugin-architecture",
@@ -1109,7 +1223,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17358
+      }
     },
     {
       "slug": "dioxus-rust-fullstack-cross-platform-framework",
@@ -1121,7 +1238,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 35542
+      }
     },
     {
       "slug": "markdownify-python-html-to-markdown-converter",
@@ -1133,7 +1253,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2130
+      }
     },
     {
       "slug": "cairosvg-svg-to-png-pdf-converter",
@@ -1145,7 +1268,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 917
+      }
     },
     {
       "slug": "textual-python-tui-application-framework",
@@ -1157,7 +1283,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 35232
+      }
     },
     {
       "slug": "hanko-passkey-authentication-platform",
@@ -1169,7 +1298,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8892
+      }
     },
     {
       "slug": "docuseal-document-signing-pdf-forms",
@@ -1181,7 +1313,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11679
+      }
     },
     {
       "slug": "tolgee-localization-i18n-platform",
@@ -1193,7 +1328,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3869
+      }
     },
     {
       "slug": "markuplint-html-linter",
@@ -1205,7 +1343,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 600
+      }
     },
     {
       "slug": "casdoor-open-source-iam-auth-platform",
@@ -1217,7 +1358,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13283
+      }
     },
     {
       "slug": "wails-desktop-app-framework-go-web",
@@ -1229,7 +1373,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33584
+      }
     },
     {
       "slug": "mitosis-cross-framework-component-compiler",
@@ -1241,7 +1388,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13802
+      }
     },
     {
       "slug": "penrose-math-diagram-generator",
@@ -1253,7 +1403,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7931
+      }
     },
     {
       "slug": "convex-reactive-database-backend",
@@ -1265,7 +1418,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11149
+      }
     },
     {
       "slug": "dotenvx-secure-env-variable-manager",
@@ -1277,7 +1433,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5302
+      }
     },
     {
       "slug": "github-copilot-ai-code-assistant",
@@ -1376,7 +1535,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3150
+      }
     },
     {
       "slug": "wish-ssh-application-framework",
@@ -1388,7 +1550,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5097
+      }
     },
     {
       "slug": "dive-docker-image-layer-explorer",
@@ -1400,7 +1565,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 53706
+      }
     },
     {
       "slug": "fresh-deno-web-framework",
@@ -1412,7 +1580,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13714
+      }
     },
     {
       "slug": "papermark-document-sharing-analytics",
@@ -1424,7 +1595,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8144
+      }
     },
     {
       "slug": "tabby-self-hosted-ai-coding-assistant",
@@ -1436,7 +1610,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33294
+      }
     },
     {
       "slug": "xan-simd-csv-processing-cli",
@@ -1448,7 +1625,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3879
+      }
     },
     {
       "slug": "supertokens-open-source-auth-platform",
@@ -1460,7 +1640,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 15001
+      }
     },
     {
       "slug": "grapesjs-web-builder-template-framework",
@@ -1472,7 +1655,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 25678
+      }
     },
     {
       "slug": "logto-open-source-auth-infrastructure",
@@ -1484,7 +1670,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11857
+      }
     },
     {
       "slug": "ollama-local-llm-runner-model-server",

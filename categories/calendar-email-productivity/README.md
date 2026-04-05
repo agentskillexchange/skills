@@ -11,11 +11,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.3k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
+| [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | ⭐ 19.7k |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 19.4k |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | ⭐ 18.3k |
+| [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | ⭐ 17.4k |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | ⭐ 15.9k |
-| [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | ⭐ 12.6k |
-| [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | ⭐ 12.2k |
 
 ---
 
@@ -28,8 +28,10 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.3k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
+| [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
+| [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | 17.4k | — |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
 | [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.2k | — |
@@ -58,7 +60,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
-| [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -70,7 +71,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
-| [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

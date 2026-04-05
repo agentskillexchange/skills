@@ -79,6 +79,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | — | — |
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | — | — |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | — | — |
+| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | — | — |
 | [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | — | — |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | — | — |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | — | — |

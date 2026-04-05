@@ -14,8 +14,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | ⭐ 13.2k |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | ⭐ 13.1k |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | ⭐ 11.3k |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⭐ 10.8k |
 
 ---
 
@@ -41,6 +41,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | — |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
@@ -51,6 +52,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
+| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | — | — |
 | [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
@@ -85,8 +87,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | — | — |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | — | — |
-| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | — | — |
-| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |

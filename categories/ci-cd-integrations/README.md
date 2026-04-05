@@ -125,6 +125,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | — | — |
 | [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | — | — |
 | [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | — | — |
+| [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | — | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | — | — |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | — | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | — | — |

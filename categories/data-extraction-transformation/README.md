@@ -69,12 +69,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | 5.2k | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
+| [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | 3.9k | — |
 | [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 3.8k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
+| [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 4/wk |
@@ -121,7 +123,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | — | — |
-| [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | — | — |
@@ -154,7 +155,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
-| [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |
 
 ---

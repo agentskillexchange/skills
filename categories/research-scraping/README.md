@@ -68,6 +68,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | — | — |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | — | — |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | — | — |
+| [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |

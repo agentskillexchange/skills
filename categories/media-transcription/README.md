@@ -41,6 +41,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 503.7k/wk |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
+| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | 24.1k | — |
 | [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | 22.8k | — |
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | 21.9k | — |
@@ -86,7 +87,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
-| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
