@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/knadh/listmonk"
 tool_ecosystem:
-  github_repo: "knadh/listmonk"
+  tool: listmonk
+  github_repo: knadh/listmonk
   github_stars: 19404
 ---
 # Listmonk Self-Hosted Newsletter and Mailing List Manager

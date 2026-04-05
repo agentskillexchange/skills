@@ -4,9 +4,10 @@ description: "Copy data between any databases with a single CLI command using In
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ingestr-cross-database-data-copier/"
+source: "https://github.com/bruin-data/ingestr"
 tool_ecosystem:
-  github_repo: "bruin-data/ingestr"
+  tool: notion
+  github_repo: bruin-data/ingestr
   github_stars: 3438
 ---
 # Ingestr Cross-Database Data Copier

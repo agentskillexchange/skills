@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/retextjs/retext"
 tool_ecosystem:
-  github_repo: "retextjs/retext"
+  tool: retext
+  github_repo: retextjs/retext
   github_stars: 2433
 ---
 # retext Natural Language Processor with Unified Plugin Ecosystem

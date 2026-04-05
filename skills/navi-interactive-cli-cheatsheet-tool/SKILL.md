@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/denisidoro/navi"
 tool_ecosystem:
-  github_repo: "denisidoro/navi"
+  tool: navi
+  github_repo: denisidoro/navi
   github_stars: 16941
 ---
 # navi Interactive CLI Cheatsheet Tool

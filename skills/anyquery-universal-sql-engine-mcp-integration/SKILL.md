@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/julien040/anyquery"
 tool_ecosystem:
-  github_repo: "julien040/anyquery"
+  tool: anyquery
+  github_repo: julien040/anyquery
   github_stars: 1655
 ---
 # Anyquery Universal SQL Engine with MCP Integration

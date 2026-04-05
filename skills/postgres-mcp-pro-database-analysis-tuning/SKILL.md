@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/crystaldba/postgres-mcp"
 tool_ecosystem:
-  github_repo: "crystaldba/postgres-mcp"
+  tool: postgres-mcp
+  github_repo: crystaldba/postgres-mcp
   github_stars: 2464
 ---
 # Postgres MCP Pro Server for Database Analysis and Tuning

@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/bootandy/dust"
 tool_ecosystem:
-  github_repo: "bootandy/dust"
+  tool: dust
+  github_repo: bootandy/dust
   github_stars: 11500
 ---
 # dust Intuitive Disk Usage Analyzer CLI

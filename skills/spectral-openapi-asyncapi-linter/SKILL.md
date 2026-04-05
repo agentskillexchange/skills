@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/stoplightio/spectral"
 tool_ecosystem:
-  github_repo: "stoplightio/spectral"
+  tool: spectral
+  github_repo: stoplightio/spectral
   github_stars: 3057
 ---
 # Spectral OpenAPI and AsyncAPI Linter

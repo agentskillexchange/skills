@@ -4,9 +4,9 @@ description: "Tests authorization and policy bundles with the Open Policy Agent 
 category: "Security & Verification"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/opa-rego-policy-bundle-tester/"
+source: "https://github.com/open-policy-agent/opa"
 tool_ecosystem:
-  github_repo: "open-policy-agent/opa"
+  github_repo: open-policy-agent/opa
   github_stars: 11534
 ---
 # OPA Rego Policy Bundle Tester

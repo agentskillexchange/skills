@@ -6,7 +6,8 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/restic/restic"
 tool_ecosystem:
-  github_repo: "restic/restic"
+  tool: restic
+  github_repo: restic/restic
   github_stars: 32908
 ---
 # Restic Fast Encrypted Backup Program

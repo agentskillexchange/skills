@@ -4,7 +4,7 @@ description: "Generates Blender Python (bpy) scripts that programmatically creat
 category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/"
+source: "https://www.blender.org/"
 ---
 # Blender Geometry Nodes Script Generator
 

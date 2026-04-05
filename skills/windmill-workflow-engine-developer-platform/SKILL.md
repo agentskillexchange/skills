@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/windmill-labs/windmill"
 tool_ecosystem:
-  github_repo: "windmill-labs/windmill"
+  tool: windmill
+  github_repo: windmill-labs/windmill
   github_stars: 16115
 ---
 # Windmill Open-Source Workflow Engine and Developer Platform

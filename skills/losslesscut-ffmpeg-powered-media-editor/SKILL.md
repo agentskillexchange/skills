@@ -6,8 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/mifi/lossless-cut"
 tool_ecosystem:
-  github_repo: "mifi/lossless-cut"
+  tool: lossless-cut
+  github_repo: mifi/lossless-cut
   github_stars: 39480
+  license: GPL-2.0
+  maintained: true
 ---
 # LosslessCut FFmpeg-Powered Media Editor
 

@@ -4,7 +4,7 @@ description: "Generates complete WordPress block theme structures using theme.js
 category: "WordPress & CMS"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wordpress-block-theme-scaffolder/"
+source: "https://developer.wordpress.org/block-editor/"
 ---
 # WordPress Block Theme Scaffolder
 

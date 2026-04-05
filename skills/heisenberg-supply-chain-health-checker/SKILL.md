@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 tool_ecosystem:
-  github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
+  tool: heisenberg-ssc-health-check
+  github_repo: AppOmni-Labs/heisenberg-ssc-health-check
   github_stars: 123
 ---
 # Heisenberg Supply Chain Health Checker

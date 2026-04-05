@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/coqui-ai/TTS"
 tool_ecosystem:
-  github_repo: "coqui-ai/TTS"
+  tool: tts
+  github_repo: coqui-ai/TTS
   github_stars: 44959
 ---
 # Coqui TTS Deep Learning Text-to-Speech Toolkit

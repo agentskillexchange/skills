@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/supabase-community/supabase-mcp"
 tool_ecosystem:
-  github_repo: "supabase-community/supabase-mcp"
+  tool: supabase-mcp
+  github_repo: supabase-community/supabase-mcp
   github_stars: 2572
 ---
 # Supabase MCP Server for Database and Project Management

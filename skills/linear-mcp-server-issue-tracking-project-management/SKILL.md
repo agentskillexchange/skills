@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/jerhadf/linear-mcp-server"
 tool_ecosystem:
-  github_repo: "jerhadf/linear-mcp-server"
+  tool: linear-mcp-server
+  github_repo: jerhadf/linear-mcp-server
   github_stars: 346
 ---
 # Linear MCP Server for Issue Tracking and Project Management

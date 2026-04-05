@@ -4,9 +4,9 @@ description: "Checks container trust with `cosign verify`, Rekor transparency lo
 category: "Security & Verification"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sigstore-cosign-container-signature-checker/"
+source: "https://github.com/sigstore/cosign"
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5776
 ---
 # Sigstore Cosign Container Signature Checker

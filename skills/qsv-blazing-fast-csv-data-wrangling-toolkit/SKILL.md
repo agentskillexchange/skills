@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/dathere/qsv"
 tool_ecosystem:
-  github_repo: "dathere/qsv"
+  tool: qsv
+  github_repo: dathere/qsv
   github_stars: 3569
 ---
 # qsv Blazing-Fast CSV Data Wrangling Toolkit

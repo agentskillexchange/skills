@@ -4,10 +4,11 @@ description: "Manages Plop.js micro-generators to scaffold components, modules, 
 category: "Templates & Workflows"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/"
+source: "https://github.com/plopjs/plop"
 tool_ecosystem:
-  github_repo: "plopjs/plop"
+  github_repo: plopjs/plop
   github_stars: 7636
+  npm_package: plop
 ---
 # Plop.js Code Generator Orchestrator
 

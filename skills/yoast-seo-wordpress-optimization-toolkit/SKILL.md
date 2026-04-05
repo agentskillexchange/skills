@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/Yoast/wordpress-seo"
 tool_ecosystem:
-  github_repo: "Yoast/wordpress-seo"
+  tool: wordpress-seo
+  github_repo: Yoast/wordpress-seo
   github_stars: 1926
 ---
 # Yoast SEO WordPress Optimization Toolkit

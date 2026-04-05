@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/exiftool/exiftool"
 tool_ecosystem:
-  github_repo: "exiftool/exiftool"
+  tool: exiftool
+  github_repo: exiftool/exiftool
   github_stars: 4560
 ---
 # ExifTool Metadata Reader and Writer for Images and Files

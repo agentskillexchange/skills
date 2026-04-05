@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/caddyserver/caddy"
 tool_ecosystem:
-  github_repo: "caddyserver/caddy"
+  tool: caddy
+  github_repo: caddyserver/caddy
   github_stars: 71224
 ---
 # Caddy Automatic HTTPS Web Server and Reverse Proxy

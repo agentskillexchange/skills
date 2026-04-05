@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/sooperset/mcp-atlassian"
 tool_ecosystem:
-  github_repo: "sooperset/mcp-atlassian"
+  tool: mcp-atlassian
+  github_repo: sooperset/mcp-atlassian
   github_stars: 4785
 ---
 # Atlassian MCP Server for Jira and Confluence

@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/dlt-hub/dlt"
 tool_ecosystem:
-  github_repo: "dlt-hub/dlt"
+  tool: dlt
+  github_repo: dlt-hub/dlt
   github_stars: 5161
 ---
 # dlt Python Data Load Tool

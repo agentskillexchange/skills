@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/meilisearch/meilisearch-mcp"
 tool_ecosystem:
-  github_repo: "meilisearch/meilisearch-mcp"
+  tool: meilisearch-mcp
+  github_repo: meilisearch/meilisearch-mcp
   github_stars: 181
 ---
 # Meilisearch MCP Server for AI-Powered Search Integration

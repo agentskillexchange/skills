@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/github/github-mcp-server"
 tool_ecosystem:
-  github_repo: "github/github-mcp-server"
+  tool: github-mcp-server
+  github_repo: github/github-mcp-server
   github_stars: 28462
 ---
 # GitHub MCP Server for AI-Powered Repository Management

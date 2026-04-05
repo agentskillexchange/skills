@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/nektos/act"
 tool_ecosystem:
-  github_repo: "nektos/act"
+  tool: act
+  github_repo: nektos/act
   github_stars: 69661
 ---
 # act Local GitHub Actions Runner

@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/getmaxun/maxun"
 tool_ecosystem:
-  github_repo: "getmaxun/maxun"
+  tool: maxun
+  github_repo: getmaxun/maxun
   github_stars: 15319
 ---
 # Maxun No-Code Web Data Extraction Platform

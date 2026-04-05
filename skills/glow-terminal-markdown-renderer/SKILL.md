@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/glow"
 tool_ecosystem:
-  github_repo: "charmbracelet/glow"
+  tool: glow
+  github_repo: charmbracelet/glow
   github_stars: 24096
 ---
 # Glow Terminal Markdown Renderer

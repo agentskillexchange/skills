@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/prefix-dev/pixi"
 tool_ecosystem:
-  github_repo: "prefix-dev/pixi"
+  tool: pixi
+  github_repo: prefix-dev/pixi
   github_stars: 6724
 ---
 # Pixi Cross-Platform Package Manager Built on Conda

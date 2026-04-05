@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/simonw/sqlite-utils"
 tool_ecosystem:
-  github_repo: "simonw/sqlite-utils"
+  tool: sqlite-utils
+  github_repo: simonw/sqlite-utils
   github_stars: 2026
 ---
 # sqlite-utils Python CLI for SQLite Database Manipulation

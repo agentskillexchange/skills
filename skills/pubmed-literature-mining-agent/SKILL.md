@@ -4,7 +4,7 @@ description: "Queries the NCBI E-utilities API (esearch, efetch, elink) to retri
 category: "Research & Scraping"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pubmed-literature-mining-agent/"
+source: "https://pubmed.ncbi.nlm.nih.gov/"
 ---
 # PubMed Literature Mining Agent
 

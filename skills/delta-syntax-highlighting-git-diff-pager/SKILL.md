@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/dandavison/delta"
 tool_ecosystem:
-  github_repo: "dandavison/delta"
+  tool: delta
+  github_repo: dandavison/delta
   github_stars: 29842
 ---
 # delta Syntax-Highlighting Git Diff Pager

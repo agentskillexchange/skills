@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/derailed/k9s"
 tool_ecosystem:
-  github_repo: "derailed/k9s"
+  tool: k9s
+  github_repo: derailed/k9s
   github_stars: 33240
 ---
 # K9s Kubernetes Terminal Dashboard

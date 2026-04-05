@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/mikefarah/yq"
 tool_ecosystem:
-  github_repo: "mikefarah/yq"
+  tool: yq
+  github_repo: mikefarah/yq
   github_stars: 15143
 ---
 # yq YAML and Structured Data Processor

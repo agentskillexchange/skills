@@ -4,9 +4,9 @@ description: "Extracts high-signal SERP features from SerpAPI responses, includi
 category: "Research & Scraping"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/serpapi-answer-box-extractor/"
+source: "https://github.com/serpapi/google-search-results-python"
 tool_ecosystem:
-  github_repo: "serpapi/google-search-results-python"
+  github_repo: serpapi/google-search-results-python
   github_stars: 734
 ---
 # SerpAPI Answer Box Extractor

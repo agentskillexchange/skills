@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/xataio/pgroll"
 tool_ecosystem:
-  github_repo: "xataio/pgroll"
+  tool: pgroll
+  github_repo: xataio/pgroll
   github_stars: 6408
 ---
 # pgroll PostgreSQL Zero-Downtime Schema Migration

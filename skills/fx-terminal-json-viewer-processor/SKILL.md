@@ -6,9 +6,10 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/antonmedv/fx"
 tool_ecosystem:
-  github_repo: "antonmedv/fx"
+  tool: fx
+  github_repo: antonmedv/fx
   github_stars: 20376
-  npm_package: "fx"
+  npm_package: fx
   npm_weekly_downloads: 225574
 ---
 # fx Terminal JSON Viewer and Processor

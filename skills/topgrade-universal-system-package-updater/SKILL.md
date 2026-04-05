@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/topgrade-rs/topgrade"
 tool_ecosystem:
-  github_repo: "topgrade-rs/topgrade"
+  tool: topgrade
+  github_repo: topgrade-rs/topgrade
   github_stars: 3619
 ---
 # Topgrade Universal System Package Updater

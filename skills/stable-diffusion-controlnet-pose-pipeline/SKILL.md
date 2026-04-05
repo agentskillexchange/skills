@@ -4,9 +4,10 @@ description: "Orchestrates Stable Diffusion image generation with ControlNet pos
 category: "Image & Creative Automation"
 framework: "Custom Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pose-pipeline/"
+source: "https://github.com/lllyasviel/ControlNet"
 tool_ecosystem:
-  github_repo: "lllyasviel/ControlNet"
+  tool: stable.diffusion
+  github_repo: lllyasviel/ControlNet
   github_stars: 33793
 ---
 # Stable Diffusion ControlNet Pose Pipeline

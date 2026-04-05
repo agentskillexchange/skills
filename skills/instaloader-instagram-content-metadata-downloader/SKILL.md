@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/instaloader/instaloader"
 tool_ecosystem:
-  github_repo: "instaloader/instaloader"
+  tool: instaloader
+  github_repo: instaloader/instaloader
   github_stars: 12047
 ---
 # Instaloader Instagram Content and Metadata Downloader

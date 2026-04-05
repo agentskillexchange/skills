@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/katana"
 tool_ecosystem:
-  github_repo: "projectdiscovery/katana"
+  tool: katana
+  github_repo: projectdiscovery/katana
   github_stars: 16388
 ---
 # Katana Next-Generation Web Crawling and Spidering Framework

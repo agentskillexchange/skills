@@ -4,7 +4,7 @@ description: "Coordinates remediation playbooks with AWS Systems Manager Automat
 category: "Runbooks & Diagnostics"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-systems-manager-automation-incident-guide/"
+source: "https://docs.aws.amazon.com/systems-manager/"
 ---
 # AWS Systems Manager Automation Incident Guide
 

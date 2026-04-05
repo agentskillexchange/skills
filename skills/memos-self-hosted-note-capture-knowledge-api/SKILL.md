@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/usememos/memos"
 tool_ecosystem:
-  github_repo: "usememos/memos"
+  tool: memos
+  github_repo: usememos/memos
   github_stars: 58453
 ---
 # Memos Self-Hosted Note Capture and Knowledge API

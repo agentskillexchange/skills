@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/opendatalab/MinerU"
 tool_ecosystem:
-  github_repo: "opendatalab/MinerU"
+  tool: mineru
+  github_repo: opendatalab/MinerU
   github_stars: 57814
 ---
 # MinerU PDF-to-Markdown Document Parser

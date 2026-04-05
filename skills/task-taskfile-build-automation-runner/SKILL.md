@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/go-task/task"
 tool_ecosystem:
-  github_repo: "go-task/task"
+  tool: task
+  github_repo: go-task/task
   github_stars: 15242
 ---
 # Task Taskfile Build Automation Runner

@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/ajeetdsouza/zoxide"
 tool_ecosystem:
-  github_repo: "ajeetdsouza/zoxide"
+  tool: zoxide
+  github_repo: ajeetdsouza/zoxide
   github_stars: 35119
 ---
 # zoxide Smart Directory Navigation CLI

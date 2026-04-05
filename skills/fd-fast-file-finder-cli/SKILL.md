@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/sharkdp/fd"
 tool_ecosystem:
-  github_repo: "sharkdp/fd"
+  tool: fd
+  github_repo: sharkdp/fd
   github_stars: 42280
 ---
 # fd Fast File Finder CLI

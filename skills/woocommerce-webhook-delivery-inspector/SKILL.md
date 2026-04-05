@@ -4,9 +4,9 @@ description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` 
 category: "WordPress & CMS"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/"
+source: "https://github.com/woocommerce/woocommerce"
 tool_ecosystem:
-  github_repo: "woocommerce/woocommerce"
+  github_repo: woocommerce/woocommerce
   github_stars: 10231
 ---
 # WooCommerce Webhook Delivery Inspector

@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/hoppscotch/hoppscotch"
 tool_ecosystem:
-  github_repo: "hoppscotch/hoppscotch"
+  tool: hoppscotch
+  github_repo: hoppscotch/hoppscotch
   github_stars: 78738
 ---
 # Hoppscotch Open Source API Development Ecosystem

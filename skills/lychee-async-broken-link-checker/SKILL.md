@@ -6,8 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/lycheeverse/lychee"
 tool_ecosystem:
-  github_repo: "lycheeverse/lychee"
+  tool: lychee
+  github_repo: lycheeverse/lychee
   github_stars: 3463
+  license: Apache-2.0
+  maintained: true
 ---
 # lychee Async Broken Link Checker for Websites and Documentation
 

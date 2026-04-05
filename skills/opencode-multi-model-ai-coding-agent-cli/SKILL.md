@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/opencode-ai/opencode"
 tool_ecosystem:
-  github_repo: "opencode-ai/opencode"
+  tool: opencode
+  github_repo: opencode-ai/opencode
   github_stars: 11729
 ---
 # OpenCode Multi-Model AI Coding Agent CLI

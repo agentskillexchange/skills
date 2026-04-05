@@ -4,9 +4,10 @@ description: "Validate data quality using the Great Expectations Python library.
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/"
+source: "https://github.com/great-expectations/great_expectations"
 tool_ecosystem:
-  github_repo: "great-expectations/great_expectations"
+  tool: pagerduty
+  github_repo: great-expectations/great_expectations
   github_stars: 11321
 ---
 # Great Expectations Data Validation Pipeline

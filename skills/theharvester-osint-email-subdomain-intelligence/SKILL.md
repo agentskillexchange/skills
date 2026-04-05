@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/laramies/theHarvester"
 tool_ecosystem:
-  github_repo: "laramies/theHarvester"
+  tool: theharvester
+  github_repo: laramies/theHarvester
   github_stars: 15942
 ---
 # theHarvester OSINT Email and Subdomain Intelligence Gatherer

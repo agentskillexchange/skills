@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/ynqa/jnv"
 tool_ecosystem:
-  github_repo: "ynqa/jnv"
+  tool: jnv
+  github_repo: ynqa/jnv
   github_stars: 5979
 ---
 # jnv Interactive JSON Navigator and jq Filter Editor

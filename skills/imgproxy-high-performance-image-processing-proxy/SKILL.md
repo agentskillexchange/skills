@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/imgproxy/imgproxy"
 tool_ecosystem:
-  github_repo: "imgproxy/imgproxy"
+  tool: imgproxy
+  github_repo: imgproxy/imgproxy
   github_stars: 10554
 ---
 # imgproxy High-Performance Image Processing Proxy

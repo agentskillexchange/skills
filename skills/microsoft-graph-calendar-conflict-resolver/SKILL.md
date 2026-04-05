@@ -4,7 +4,7 @@ description: "Resolves scheduling collisions with Microsoft Graph Calendar endpo
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/microsoft-graph-calendar-conflict-resolver/"
+source: "https://learn.microsoft.com/en-us/graph/"
 ---
 # Microsoft Graph Calendar Conflict Resolver
 

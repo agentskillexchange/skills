@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/johnkerl/miller"
 tool_ecosystem:
-  github_repo: "johnkerl/miller"
+  tool: miller
+  github_repo: johnkerl/miller
   github_stars: 9814
 ---
 # Miller CSV TSV JSON Data Processor

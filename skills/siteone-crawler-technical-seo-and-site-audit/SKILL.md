@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/janreges/siteone-crawler"
 tool_ecosystem:
-  github_repo: "janreges/siteone-crawler"
+  tool: siteone-crawler
+  github_repo: janreges/siteone-crawler
   github_stars: 708
 ---
 # SiteOne Crawler Technical SEO and Site Audit

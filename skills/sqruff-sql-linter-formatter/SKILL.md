@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/quarylabs/sqruff"
 tool_ecosystem:
-  github_repo: "quarylabs/sqruff"
+  tool: sqruff
+  github_repo: quarylabs/sqruff
   github_stars: 1268
 ---
 # sqruff High-Performance SQL Linter and Formatter

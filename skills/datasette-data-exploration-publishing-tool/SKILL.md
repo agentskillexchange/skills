@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/simonw/datasette"
 tool_ecosystem:
-  github_repo: "simonw/datasette"
+  tool: datasette
+  github_repo: simonw/datasette
   github_stars: 10894
 ---
 # Datasette Data Exploration and Publishing Tool

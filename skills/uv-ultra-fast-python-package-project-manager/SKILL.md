@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/astral-sh/uv"
 tool_ecosystem:
-  github_repo: "astral-sh/uv"
+  tool: uv
+  github_repo: astral-sh/uv
   github_stars: 82442
 ---
 # uv Ultra-Fast Python Package and Project Manager

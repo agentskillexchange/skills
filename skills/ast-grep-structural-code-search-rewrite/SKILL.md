@@ -4,9 +4,9 @@ description: "Use ast-grep (sg) to search, lint, and rewrite code across large c
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ast-grep-structural-code-search-rewrite/"
+source: "https://github.com/ast-grep/ast-grep"
 tool_ecosystem:
-  github_repo: "ast-grep/ast-grep"
+  github_repo: ast-grep/ast-grep
   github_stars: 13245
 ---
 # ast-grep Structural Code Search and Rewrite

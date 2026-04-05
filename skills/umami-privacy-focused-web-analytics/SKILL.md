@@ -4,9 +4,10 @@ description: "Umami is a modern, privacy-focused, open-source web analytics plat
 category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/umami-privacy-focused-web-analytics/"
+source: "https://github.com/umami-software/umami"
 tool_ecosystem:
-  github_repo: "umami-software/umami"
+  tool: postgresql
+  github_repo: umami-software/umami
   github_stars: 35941
 ---
 # Umami Privacy-Focused Web Analytics Platform

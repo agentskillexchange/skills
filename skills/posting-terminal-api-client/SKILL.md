@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/darrenburns/posting"
 tool_ecosystem:
-  github_repo: "darrenburns/posting"
+  tool: posting
+  github_repo: darrenburns/posting
   github_stars: 11673
 ---
 # Posting Terminal API Client

@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/astral-sh/ty"
 tool_ecosystem:
-  github_repo: "astral-sh/ty"
+  tool: ty
+  github_repo: astral-sh/ty
   github_stars: 18132
 ---
 # ty Ultra-Fast Python Type Checker and Language Server

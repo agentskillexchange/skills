@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/elie222/inbox-zero"
 tool_ecosystem:
-  github_repo: "elie222/inbox-zero"
+  tool: inbox-zero
+  github_repo: elie222/inbox-zero
   github_stars: 10370
 ---
 # Inbox Zero AI Email Assistant

@@ -4,7 +4,7 @@ description: "Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the
 category: "Research & Scraping"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sec-edgar-financial-filing-parser/"
+source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 ---
 # SEC EDGAR Financial Filing Parser
 

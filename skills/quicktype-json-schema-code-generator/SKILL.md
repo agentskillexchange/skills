@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/glideapps/quicktype"
 tool_ecosystem:
-  github_repo: "glideapps/quicktype"
+  tool: quicktype
+  github_repo: glideapps/quicktype
   github_stars: 13690
 ---
 # quicktype JSON Schema to Typed Code Generator

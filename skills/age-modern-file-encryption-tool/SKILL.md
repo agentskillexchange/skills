@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/FiloSottile/age"
 tool_ecosystem:
-  github_repo: "FiloSottile/age"
+  tool: age
+  github_repo: FiloSottile/age
   github_stars: 21824
 ---
 # age Modern File Encryption Tool

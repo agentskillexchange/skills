@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/noborus/trdsql"
 tool_ecosystem:
-  github_repo: "noborus/trdsql"
+  tool: trdsql
+  github_repo: noborus/trdsql
   github_stars: 2154
 ---
 # trdsql SQL Query Engine for CSV JSON and YAML Files

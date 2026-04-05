@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/docling-project/docling"
 tool_ecosystem:
-  github_repo: "docling-project/docling"
+  tool: docling
+  github_repo: docling-project/docling
   github_stars: 56871
 ---
 # Docling AI Document Intelligence Pipeline

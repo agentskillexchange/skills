@@ -4,10 +4,11 @@ description: "Builds integration handoffs around n8n primitives like the Webhook
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/"
+source: "https://github.com/n8n-io/n8n"
 tool_ecosystem:
-  github_repo: "n8n-io/n8n"
+  github_repo: n8n-io/n8n
   github_stars: 182065
+  npm_package: n8n
 ---
 # n8n Workflow Webhook Bridge
 

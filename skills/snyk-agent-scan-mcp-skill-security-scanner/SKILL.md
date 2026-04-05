@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/snyk/agent-scan"
 tool_ecosystem:
-  github_repo: "snyk/agent-scan"
+  tool: agent-scan
+  github_repo: snyk/agent-scan
   github_stars: 2039
 ---
 # Snyk Agent Scan MCP and Skill Security Scanner

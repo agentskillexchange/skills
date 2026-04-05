@@ -4,7 +4,7 @@ description: "Coordinates meeting suggestions with the Google Calendar `freeBusy
 category: "Calendar, Email & Productivity"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/google-calendar-freebusy-scheduler-bridge/"
+source: "https://developers.google.com/calendar/api"
 ---
 # Google Calendar FreeBusy Scheduler Bridge
 

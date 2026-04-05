@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/BerriAI/litellm"
 tool_ecosystem:
-  github_repo: "BerriAI/litellm"
+  tool: litellm
+  github_repo: BerriAI/litellm
   github_stars: 41815
 ---
 # LiteLLM Unified LLM Gateway and Proxy Server

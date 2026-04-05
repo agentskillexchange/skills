@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry-mcp"
 tool_ecosystem:
-  github_repo: "getsentry/sentry-mcp"
+  tool: sentry-mcp
+  github_repo: getsentry/sentry-mcp
   github_stars: 615
 ---
 # Sentry MCP Server for Error Tracking and Performance

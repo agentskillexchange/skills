@@ -4,10 +4,12 @@ description: "Use Changesets to manage package versioning and changelogs in mono
 category: "Developer Tools"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/changesets-version-changelog-manager/"
+source: "https://github.com/changesets/changesets"
 tool_ecosystem:
-  github_repo: "changesets/changesets"
+  tool: react
+  github_repo: changesets/changesets
   github_stars: 11620
+  npm_package: @changesets/cli
 ---
 # Changesets Version and Changelog Manager
 

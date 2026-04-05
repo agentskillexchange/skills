@@ -4,9 +4,10 @@ description: "Monitors Checkly browser checks via the Checkly Management API and
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/checkly-browser-check-failure-notifier/"
+source: "https://github.com/checkly/checkly-cli"
 tool_ecosystem:
-  github_repo: "checkly/checkly-cli"
+  tool: playwright
+  github_repo: checkly/checkly-cli
   github_stars: 92
 ---
 # Checkly Browser Check Failure Notifier

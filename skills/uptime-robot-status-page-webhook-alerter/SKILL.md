@@ -4,7 +4,7 @@ description: "Integrates with the Uptime Robot API to monitor status page change
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/uptime-robot-status-page-webhook-alerter/"
+source: "https://uptimerobot.com/api/"
 ---
 # Uptime Robot Status Page Webhook Alerter
 

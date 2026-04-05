@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/BurntSushi/ripgrep"
 tool_ecosystem:
-  github_repo: "BurntSushi/ripgrep"
+  tool: ripgrep
+  github_repo: BurntSushi/ripgrep
   github_stars: 61743
 ---
 # ripgrep Recursive Regex Search Tool

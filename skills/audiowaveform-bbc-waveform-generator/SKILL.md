@@ -6,8 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/bbc/audiowaveform"
 tool_ecosystem:
-  github_repo: "bbc/audiowaveform"
+  tool: audiowaveform
+  github_repo: bbc/audiowaveform
   github_stars: 2130
+  license: GPL-3.0
+  maintained: true
 ---
 # audiowaveform Audio Waveform Data Generator and Image Renderer
 

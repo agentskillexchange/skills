@@ -1,12 +1,13 @@
 ---
 name: "broot Interactive Tree-View File Navigator"
 description: "broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy search, file preview, git status integration, and an interactive tree view that adapts to your terminal size."
-category: "Uncategorized"
-framework: "Unknown"
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/Canop/broot"
 tool_ecosystem:
-  github_repo: "Canop/broot"
+  tool: broot
+  github_repo: Canop/broot
   github_stars: 12549
 ---
 # broot Interactive Tree-View File Navigator

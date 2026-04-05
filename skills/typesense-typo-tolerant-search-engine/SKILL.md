@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/typesense/typesense"
 tool_ecosystem:
-  github_repo: "typesense/typesense"
+  tool: typesense
+  github_repo: typesense/typesense
   github_stars: 25500
 ---
 # Typesense Typo-Tolerant Search Engine

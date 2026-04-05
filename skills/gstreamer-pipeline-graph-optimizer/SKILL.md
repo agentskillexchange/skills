@@ -4,7 +4,7 @@ description: "Analyzes and optimizes GStreamer media pipelines by parsing DOT gr
 category: "Media & Transcription"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gstreamer-pipeline-graph-optimizer/"
+source: "https://gstreamer.freedesktop.org/"
 ---
 # GStreamer Pipeline Graph Optimizer
 

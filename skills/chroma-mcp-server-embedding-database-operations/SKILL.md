@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/chroma-core/chroma-mcp"
 tool_ecosystem:
-  github_repo: "chroma-core/chroma-mcp"
+  tool: chroma-mcp
+  github_repo: chroma-core/chroma-mcp
   github_stars: 527
 ---
 # Chroma MCP Server for Embedding Database Operations

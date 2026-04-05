@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/Orange-OpenSource/hurl"
 tool_ecosystem:
-  github_repo: "Orange-OpenSource/hurl"
+  tool: hurl
+  github_repo: Orange-OpenSource/hurl
   github_stars: 18696
 ---
 # Hurl Declarative HTTP Request Runner and Tester

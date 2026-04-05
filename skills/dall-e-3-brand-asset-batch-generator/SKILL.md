@@ -4,7 +4,7 @@ description: "Batch-generates brand assets using the OpenAI Images API with DALL
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dall-e-3-brand-asset-batch-generator/"
+source: "https://platform.openai.com/docs/guides/images"
 ---
 # DALL-E 3 Brand Asset Batch Generator
 

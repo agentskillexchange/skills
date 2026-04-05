@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/watchexec/watchexec"
 tool_ecosystem:
-  github_repo: "watchexec/watchexec"
+  tool: watchexec
+  github_repo: watchexec/watchexec
   github_stars: 6882
 ---
 # watchexec File Watcher and Command Re-Runner

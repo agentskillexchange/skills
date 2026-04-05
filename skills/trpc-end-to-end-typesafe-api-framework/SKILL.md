@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/trpc/trpc"
 tool_ecosystem:
-  github_repo: "trpc/trpc"
+  tool: trpc
+  github_repo: trpc/trpc
   github_stars: 39862
 ---
 # tRPC End-to-End Typesafe API Framework

@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/lightpanda-io/browser"
 tool_ecosystem:
-  github_repo: "lightpanda-io/browser"
+  tool: browser
+  github_repo: lightpanda-io/browser
   github_stars: 26505
 ---
 # Lightpanda Headless Browser for AI Automation

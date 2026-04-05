@@ -6,9 +6,10 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/conventional-changelog/commitlint"
 tool_ecosystem:
-  github_repo: "conventional-changelog/commitlint"
+  tool: commitlint
+  github_repo: conventional-changelog/commitlint
   github_stars: 18425
-  npm_package: "commitlint"
+  npm_package: commitlint
   npm_weekly_downloads: 575255
 ---
 # commitlint Conventional Commit Message Linter

@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/tomnomnom/gron"
 tool_ecosystem:
-  github_repo: "tomnomnom/gron"
+  tool: gron
+  github_repo: tomnomnom/gron
   github_stars: 14413
 ---
 # gron Greppable JSON Flattener

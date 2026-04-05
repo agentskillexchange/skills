@@ -4,7 +4,7 @@ description: "Generates and validates JSON-LD structured data markup for article
 category: "Content Writing & SEO"
 framework: "ChatGPT Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/schema-org-structured-data-injector/"
+source: "https://schema.org/"
 ---
 # Schema.org Structured Data Injector
 

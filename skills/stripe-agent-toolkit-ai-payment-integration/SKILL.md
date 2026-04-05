@@ -6,7 +6,8 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/stripe/ai"
 tool_ecosystem:
-  github_repo: "stripe/ai"
+  tool: ai
+  github_repo: stripe/ai
   github_stars: 1422
 ---
 # Stripe Agent Toolkit for AI Payment Integration

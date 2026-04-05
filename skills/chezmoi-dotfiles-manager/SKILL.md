@@ -6,7 +6,8 @@ framework: "OpenClaw"
 verification: security_reviewed
 source: "https://github.com/twpayne/chezmoi"
 tool_ecosystem:
-  github_repo: "twpayne/chezmoi"
+  tool: chezmoi
+  github_repo: twpayne/chezmoi
   github_stars: 18876
 ---
 # chezmoi Cross-Machine Dotfiles Manager

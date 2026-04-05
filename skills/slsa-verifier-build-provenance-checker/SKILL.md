@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/slsa-framework/slsa-verifier"
 tool_ecosystem:
-  github_repo: "slsa-framework/slsa-verifier"
+  tool: slsa-verifier
+  github_repo: slsa-framework/slsa-verifier
   github_stars: 318
 ---
 # SLSA Verifier Build Provenance Checker

@@ -4,7 +4,7 @@ description: "Bulk-generates SEO meta descriptions from page content using OpenA
 category: "Content Writing & SEO"
 framework: "Claude Agents"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ai-meta-description-generator/"
+source: "https://platform.openai.com/docs/api-reference"
 ---
 # AI Meta Description Generator
 

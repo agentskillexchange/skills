@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/starship/starship"
 tool_ecosystem:
-  github_repo: "starship/starship"
+  tool: starship
+  github_repo: starship/starship
   github_stars: 55675
 ---
 # Starship Cross-Shell Prompt Configurator

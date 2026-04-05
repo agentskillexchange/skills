@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/freeCodeCamp/devdocs"
 tool_ecosystem:
-  github_repo: "freeCodeCamp/devdocs"
+  tool: devdocs
+  github_repo: freeCodeCamp/devdocs
   github_stars: 38655
 ---
 # DevDocs Unified API Documentation Browser

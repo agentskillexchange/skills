@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/resemble-ai/chatterbox"
 tool_ecosystem:
-  github_repo: "resemble-ai/chatterbox"
+  tool: chatterbox
+  github_repo: resemble-ai/chatterbox
   github_stars: 24089
 ---
 # Chatterbox State-of-the-Art Open Source Text-to-Speech

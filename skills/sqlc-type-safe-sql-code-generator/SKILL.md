@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/sqlc-dev/sqlc"
 tool_ecosystem:
-  github_repo: "sqlc-dev/sqlc"
+  tool: sqlc
+  github_repo: sqlc-dev/sqlc
   github_stars: 17275
 ---
 # sqlc Type-Safe SQL Code Generator

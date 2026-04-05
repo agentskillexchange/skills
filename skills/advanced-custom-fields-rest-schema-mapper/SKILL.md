@@ -4,7 +4,7 @@ description: "Maps ACF field groups into predictable REST responses using `acf_a
 category: "WordPress & CMS"
 framework: "Cursor"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/advanced-custom-fields-rest-schema-mapper/"
+source: "https://www.advancedcustomfields.com/resources/"
 ---
 # Advanced Custom Fields REST Schema Mapper
 

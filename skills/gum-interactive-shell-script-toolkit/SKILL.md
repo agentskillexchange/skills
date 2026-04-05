@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/charmbracelet/gum"
 tool_ecosystem:
-  github_repo: "charmbracelet/gum"
+  tool: gum
+  github_repo: charmbracelet/gum
   github_stars: 23196
 ---
 # Gum Interactive Shell Script Toolkit

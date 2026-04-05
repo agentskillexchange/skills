@@ -6,7 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/wpengine/faustjs"
 tool_ecosystem:
-  github_repo: "wpengine/faustjs"
+  tool: faustjs
+  github_repo: wpengine/faustjs
   github_stars: 1568
 ---
 # Faust.js Headless WordPress Toolkit for Next.js

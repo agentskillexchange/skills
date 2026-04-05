@@ -4,7 +4,7 @@ description: "Triage inbox backlog with the Gmail API’s `users.threads`, `user
 category: "Calendar, Email & Productivity"
 framework: "Gemini"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gmail-api-thread-label-triage/"
+source: "https://developers.google.com/gmail/api"
 ---
 # Gmail API Thread Label Triage
 

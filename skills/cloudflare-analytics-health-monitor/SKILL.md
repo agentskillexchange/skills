@@ -4,7 +4,7 @@ description: "Monitors Cloudflare zone analytics via the Cloudflare API v4 Graph
 category: "Monitoring & Alerts"
 framework: "OpenClaw"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cloudflare-analytics-health-monitor/"
+source: "https://developers.cloudflare.com/analytics/"
 ---
 # Cloudflare Analytics Health Monitor
 

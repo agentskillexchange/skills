@@ -6,9 +6,10 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/google/zx"
 tool_ecosystem:
-  github_repo: "google/zx"
+  tool: zx
+  github_repo: google/zx
   github_stars: 45324
-  npm_package: "zx"
+  npm_package: zx
   npm_weekly_downloads: 1590527
 ---
 # zx JavaScript Shell Script Runner

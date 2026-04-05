@@ -6,8 +6,11 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/rhasspy/piper"
 tool_ecosystem:
-  github_repo: "rhasspy/piper"
+  tool: piper
+  github_repo: rhasspy/piper
   github_stars: 10741
+  license: MIT
+  maintained: false
 ---
 # Piper Local Neural Text-to-Speech Engine
 

@@ -6,9 +6,10 @@ framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/mongodb-js/mongodb-mcp-server"
 tool_ecosystem:
-  github_repo: "mongodb-js/mongodb-mcp-server"
+  tool: mongodb-mcp-server
+  github_repo: mongodb-js/mongodb-mcp-server
   github_stars: 983
-  npm_package: "mongodb-mcp-server"
+  npm_package: mongodb-mcp-server
   npm_weekly_downloads: 51003
 ---
 # MongoDB MCP Server for Database and Atlas Management

@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/fullstorydev/grpcurl"
 tool_ecosystem:
-  github_repo: "fullstorydev/grpcurl"
+  tool: grpcurl
+  github_repo: fullstorydev/grpcurl
   github_stars: 12548
 ---
 # grpcurl Command-Line gRPC Client

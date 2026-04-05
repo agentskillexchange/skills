@@ -4,9 +4,9 @@ description: "Captures clean site content through Firecrawl endpoints like `/v1/
 category: "Research & Scraping"
 framework: "Codex"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/"
+source: "https://github.com/firecrawl/firecrawl"
 tool_ecosystem:
-  github_repo: "firecrawl/firecrawl"
+  github_repo: firecrawl/firecrawl
   github_stars: 102630
 ---
 # Firecrawl Markdown Capture Pipeline

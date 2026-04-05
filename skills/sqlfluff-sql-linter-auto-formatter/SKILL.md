@@ -4,9 +4,10 @@ description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. 
 category: "Code Quality & Review"
 framework: "Claude Code"
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sqlfluff-sql-linter-auto-formatter/"
+source: "https://github.com/sqlfluff/sqlfluff"
 tool_ecosystem:
-  github_repo: "sqlfluff/sqlfluff"
+  tool: dbt
+  github_repo: sqlfluff/sqlfluff
   github_stars: 9609
 ---
 # SQLFluff SQL Linter and Auto-Formatter

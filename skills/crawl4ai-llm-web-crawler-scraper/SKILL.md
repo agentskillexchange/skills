@@ -6,7 +6,8 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/unclecode/crawl4ai"
 tool_ecosystem:
-  github_repo: "unclecode/crawl4ai"
+  tool: crawl4ai
+  github_repo: unclecode/crawl4ai
   github_stars: 63132
 ---
 # Crawl4AI LLM-Ready Web Crawler and Scraper

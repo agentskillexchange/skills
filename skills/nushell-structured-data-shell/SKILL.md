@@ -6,9 +6,10 @@ framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/nushell/nushell"
 tool_ecosystem:
-  github_repo: "nushell/nushell"
+  tool: nushell
+  github_repo: nushell/nushell
   github_stars: 38872
-  npm_package: "nushell"
+  npm_package: nushell
   npm_weekly_downloads: 4262
 ---
 # Nushell Structured Data Shell

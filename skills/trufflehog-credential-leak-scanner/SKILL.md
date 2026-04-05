@@ -6,7 +6,8 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/trufflesecurity/trufflehog"
 tool_ecosystem:
-  github_repo: "trufflesecurity/trufflehog"
+  tool: trufflehog
+  github_repo: trufflesecurity/trufflehog
   github_stars: 25299
 ---
 # TruffleHog Credential Leak Scanner
