@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1708,
+  "total": 1711,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "penpot-open-source-design-collaboration-platform",
+      "name": "Penpot Open-Source Design Collaboration Platform",
+      "description": "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "formbricks-open-source-survey-platform",
+      "name": "Formbricks Open-Source Survey Platform",
+      "description": "Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "appwrite-open-source-backend-platform",
+      "name": "Appwrite Open-Source Backend Platform",
+      "description": "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "tooljet-open-source-internal-tools-workflow-platform",
       "name": "ToolJet Open Source Internal Tools and Workflow Platform",

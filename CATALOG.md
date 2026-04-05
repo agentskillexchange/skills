@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1708 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 21:30 UTC
+> **1711 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 23:30 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1212,7 +1212,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (79 skills)
+### 🔗 Integrations & Connectors (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1258,11 +1258,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
 | [Appwrite Open Source Backend as a Service Platform](skills/appwrite-open-source-backend-as-a-service-platform/) | Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage,… | Security Reviewed | — | — |
+| [Appwrite Open-Source Backend Platform](skills/appwrite-open-source-backend-platform/) | Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's… | Published | — | — |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
 | [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | — | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media,… | Security Reviewed | — | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | — | — |
 | [Formbricks Open Source Survey and Experience Management Platform](skills/formbricks-open-source-survey-experience-management/) | Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app,… | Security Reviewed | — | — |
+| [Formbricks Open-Source Survey Platform](skills/formbricks-open-source-survey-platform/) | Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app… | Published | — | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](skills/ghostfolio-wealth-management-portfolio-tracking/) | Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across… | Security Reviewed | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
@@ -1299,7 +1301,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (75 skills)
+### 🎨 Image & Creative Automation (76 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1362,6 +1364,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Security Reviewed | — | — |
 | [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | — | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
+| [Penpot Open-Source Design Collaboration Platform](skills/penpot-open-source-design-collaboration-platform/) | Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps… | Published | — | — |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | — | — |

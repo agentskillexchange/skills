@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1708 skills** across **17 categories**
+> **1711 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,8 +13,8 @@
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **101** | Metrics collection, alerting rules, observability setup, and system m... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **96** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **93** | Email automation, calendar management, task coordination, and product... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **79** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **75** | Image generation, asset processing, design automation, and creative t... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **81** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **76** | Image generation, asset processing, design automation, and creative t... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **74** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **74** | Web research, data collection, content aggregation, and information g... |
