@@ -98,6 +98,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | — | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
+| [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | — | — |

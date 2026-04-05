@@ -209,6 +209,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
+| [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | — | — |

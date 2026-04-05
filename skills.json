@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1699,
+  "total": 1702,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "coolify-self-hosted-app-platform-deployment-automation-skill",
+      "name": "Coolify Self-Hosted App Platform and Deployment Automation Skill",
+      "description": "Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill covers installing Coolify, connecting infrastructure over SSH, and using…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "n8n-nodes-mcp-community-node-model-context-protocol-workflows",
+      "name": "n8n-nodes-mcp Community Node for Model Context Protocol Workflows",
+      "description": "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "whishper-self-hosted-speech-to-text-audio-workflow-skill",
+      "name": "Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill",
+      "description": "Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "decap-cms-git-based-content-management-system-for-static-sites",
       "name": "Decap CMS Git-Based Content Management System for Static Sites",
