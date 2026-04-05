@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-f
 clawhub install vue-js-progressive-javascript-framework
 ```
 
-## Details
-
-Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/)

@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a co
 clawhub install azure-cli-microsoft-cloud
 ```
 
-## Details
-
-The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/)

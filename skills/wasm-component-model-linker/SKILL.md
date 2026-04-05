@@ -13,6 +13,8 @@ tool_ecosystem:
 
 Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions.
 
+The WASM Component Model Linker automates the WebAssembly Component Model workflow from WIT (WebAssembly Interface Type) definitions through compilation and linking. It uses wit-bindgen to generate language-specific bindings for Rust (wit-bindgen-rust), JavaScript (jco), and Go (wit-bindgen-go) from .wit files. The agent orchestrates wasm-tools component new for creating components from core modules, wasm-tools compose for linking multiple components together, and wasm-tools validate for checking component conformance. It supports WASI Preview 2 interfaces including wasi:io, wasi:filesystem, wasi:http, and wasi:cli. For JavaScript hosts, it generates bindings using jco transpile and jco componentize. The pipeline integrates with Wasmtime for local testing and Fermyon Spin or Fastly Compute for edge deployment. Handles the full lifecycle from WIT authoring through component registry publishing using warg CLI for the WebAssembly component registry.
+
 ## Installation
 
 ### Any Agent
@@ -44,10 +46,6 @@ npx skills add agentskillexchange/skills --skill wasm-component-model-linker -a 
 ```bash
 clawhub install wasm-component-model-linker
 ```
-
-## Details
-
-The WASM Component Model Linker automates the WebAssembly Component Model workflow from WIT (WebAssembly Interface Type) definitions through compilation and linking. It uses wit-bindgen to generate language-specific bindings for Rust (wit-bindgen-rust), JavaScript (jco), and Go (wit-bindgen-go) from .wit files. The agent orchestrates wasm-tools component new for creating components from core modules, wasm-tools compose for linking multiple components together, and wasm-tools validate for checking component conformance. It supports WASI Preview 2 interfaces including wasi:io, wasi:filesystem, wasi:http, and wasi:cli. For JavaScript hosts, it generates bindings using jco transpile and jco componentize. The pipeline integrates with Wasmtime for local testing and Fermyon Spin or Fastly Compute for edge deployment. Handles the full lifecycle from WIT authoring through component registry publishing using warg CLI for the WebAssembly component registry.
 
 ## Source
 

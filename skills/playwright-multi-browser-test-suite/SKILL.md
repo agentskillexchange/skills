@@ -10,6 +10,8 @@ source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-sui
 
 Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking.
 
+The Playwright Multi-Browser Test Suite skill creates comprehensive end-to-end testing workflows using Playwright. It leverages the Playwright Test Runner API to generate test files with proper fixture setup, page object models, and parallel execution configuration across Chromium, Firefox, and WebKit browsers. Visual regression testing is implemented through the Playwright Screenshots API with configurable comparison thresholds, mask regions for dynamic content, and automatic baseline management. The skill configures network request interception for API mocking, enabling isolated frontend testing without backend dependencies. It supports trace recording via Playwright Trace Viewer for debugging failed tests, video capture of test runs for visual review, and HAR file generation for network analysis. Test generation includes accessibility checks using the Playwright accessibility snapshot API, geolocation and locale emulation for internationalization testing, and mobile device emulation with custom viewport configurations. The skill integrates with CI systems through proper reporter configuration including HTML, JSON, and JUnit output formats.
+
 ## Installation
 
 ### Any Agent
@@ -41,10 +43,6 @@ npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-s
 ```bash
 clawhub install playwright-multi-browser-test-suite
 ```
-
-## Details
-
-The Playwright Multi-Browser Test Suite skill creates comprehensive end-to-end testing workflows using Playwright. It leverages the Playwright Test Runner API to generate test files with proper fixture setup, page object models, and parallel execution configuration across Chromium, Firefox, and WebKit browsers. Visual regression testing is implemented through the Playwright Screenshots API with configurable comparison thresholds, mask regions for dynamic content, and automatic baseline management. The skill configures network request interception for API mocking, enabling isolated frontend testing without backend dependencies. It supports trace recording via Playwright Trace Viewer for debugging failed tests, video capture of test runs for visual review, and HAR file generation for network analysis. Test generation includes accessibility checks using the Playwright accessibility snapshot API, geolocation and locale emulation for internationalization testing, and mobile device emulation with custom viewport configurations. The skill integrates with CI systems through proper reporter configuration including HTML, JSON, and JUnit output formats.
 
 ## Source
 

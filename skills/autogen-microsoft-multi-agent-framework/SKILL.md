@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-f
 clawhub install autogen-microsoft-multi-agent-framework
 ```
 
-## Details
-
-AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workflows.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/autogen-microsoft-multi-agent-framework/)

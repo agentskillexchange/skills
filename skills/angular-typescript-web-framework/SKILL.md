@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill angular-typescript-web-framewor
 clawhub install angular-typescript-web-framework
 ```
 
-## Details
-
-Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/angular-typescript-web-framework/)

@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill nuxt-vue-meta-framework-ssr -a 
 clawhub install nuxt-vue-meta-framework-ssr
 ```
 
-## Details
-
-Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web applications.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/nuxt-vue-meta-framework-ssr/)

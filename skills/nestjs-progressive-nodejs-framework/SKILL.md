@@ -45,10 +45,6 @@ npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-frame
 clawhub install nestjs-progressive-nodejs-framework
 ```
 
-## Details
-
-NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and microservices.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/nestjs-progressive-nodejs-framework/)
