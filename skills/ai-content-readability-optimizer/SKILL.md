@@ -1,48 +1,26 @@
 ---
-name: "AI Content Readability Optimizer"
+title: "AI Content Readability Optimizer"
 description: "Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels."
-category: "Content Writing & SEO"
-framework: "Codex"
-verification: security_reviewed
+slug: "ai-content-readability-optimizer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Codex"
 ---
 # AI Content Readability Optimizer
 
 Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels.
 
-The AI Content Readability Optimizer performs deep analysis of written content to improve clarity and SEO performance. It calculates Flesch-Kincaid Grade Level and Reading Ease scores, Gunning Fog Index, and Coleman-Liau Index to provide comprehensive readability metrics. The agent integrates with the Hemingway Editor API for sentence complexity detection, identifying adverb overuse, passive voice, and hard-to-read passages. It connects to the Grammarly Text API for grammar and style checking, and uses the LanguageTool API for multilingual support across 30+ languages. The optimizer generates targeted rewrites at specified grade levels while preserving keyword density and SEO intent. It analyzes content against competing SERP results using the DataForSEO API to identify content gaps and semantic opportunities. The agent handles bulk optimization of existing content libraries, processing WordPress posts via WP REST API with progress tracking. Includes readability trend reporting over time using Chart.js visualization and exports to Google Sheets via the Sheets API v4.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-content-readability-optimizer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ai-content-readability-optimizer
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

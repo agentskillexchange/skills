@@ -1,48 +1,26 @@
 ---
-name: "SSL Certificate Chain Validator"
+title: "SSL Certificate Chain Validator"
 description: "Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status."
-category: "Security & Verification"
-framework: "Codex"
-verification: security_reviewed
+slug: "ssl-certificate-chain-validator-2"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Codex"
 ---
 # SSL Certificate Chain Validator
 
 Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status.
 
-End-to-end SSL/TLS certificate chain validation agent that verifies the complete trust chain from leaf certificate through intermediates to root CA. Uses OpenSSL s_client for handshake analysis and certificate extraction. Queries Certificate Transparency logs via the crt.sh API to detect unauthorized certificate issuance. Checks Online Certificate Status Protocol (OCSP) responders and Certificate Revocation Lists (CRLs) for revocation status. Monitors certificate expiration with configurable warning thresholds at 30, 14, and 7 days. Validates Subject Alternative Names (SANs) against expected domains. Tests cipher suite strength and protocol version support including TLS 1.3 compliance. Generates compliance reports for PCI DSS and SOC 2 certificate requirements. Supports bulk scanning of domain lists with concurrent validation.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-certificate-chain-validator-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ssl-certificate-chain-validator-2
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

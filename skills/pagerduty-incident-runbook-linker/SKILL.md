@@ -1,48 +1,26 @@
 ---
-name: "PagerDuty Incident Runbook Linker"
+title: "PagerDuty Incident Runbook Linker"
 description: "Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries."
-category: "Monitoring & Alerts"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "pagerduty-incident-runbook-linker"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "OpenClaw"
 ---
 # PagerDuty Incident Runbook Linker
 
 Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service directory. Matches incident alerts to runbook tags via Elasticsearch fuzzy queries.
 
-The PagerDuty Incident Runbook Linker bridges the gap between alerting and response by automatically associating PagerDuty incidents with relevant operational runbooks. It uses the PagerDuty REST API v2 to monitor incident creation events and extract service context, alert descriptions, and urgency levels. Runbook matching uses Elasticsearch fuzzy queries against a runbook index built from Confluence, Notion, or Markdown documentation repositories. The skill maintains a mapping between PagerDuty services, escalation policies, and runbook collections. When an incident fires, it posts the top-matched runbook links as incident notes and updates the incident custom fields with runbook metadata. Integration with the PagerDuty Events API v2 allows enriching alerts with runbook links before they create incidents. The skill tracks runbook effectiveness by correlating MTTR with runbook usage, identifying which runbooks lead to fastest resolution times and which need updating.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-linker -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install pagerduty-incident-runbook-linker
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

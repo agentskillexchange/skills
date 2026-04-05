@@ -1,60 +1,26 @@
 ---
-name: "Python Package API Surface Mapper"
+title: "Python Package API Surface Mapper"
 description: "Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy stubs."
-category: "Library & API Reference"
-framework: "Codex"
-verification: security_reviewed
+slug: "python-package-api-surface-mapper"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Codex"
 ---
 # Python Package API Surface Mapper
 
 Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy stubs.
 
-The Python Package API Surface Mapper skill analyzes Python packages to produce complete public API documentation. It uses Python ast module to parse source files and extract function signatures, class hierarchies, and module-level constants without executing the code.
-
-
-
-The skill leverages importlib.metadata to resolve package dependencies and version constraints. It cross-references type annotations with mypy typeshed stubs and inline type hints to produce fully typed API signatures including generic types and Protocol definitions.
-
-
-
-Using the docstring-parser library, the skill extracts and normalizes docstrings from Google, NumPy, and Sphinx formats into a consistent structure. It identifies deprecated APIs via the warnings module usage and PEP 702 deprecation decorators.
-
-
-
-Output includes Sphinx RST files ready for ReadTheDocs integration, MkDocs-compatible Markdown via mkdocstrings, and a structured JSON format suitable for IDE autocompletion databases. The skill also generates a changelog of API surface changes between package versions using ast-based diffing.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-api-surface-mapper
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-api-surface-mapper -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-api-surface-mapper -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-api-surface-mapper -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install python-package-api-surface-mapper
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

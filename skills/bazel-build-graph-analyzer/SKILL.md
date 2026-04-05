@@ -1,56 +1,26 @@
 ---
-name: "Bazel Build Graph Analyzer"
+title: "Bazel Build Graph Analyzer"
 description: "Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis."
-category: "Developer Tools"
-framework: "MCP"
-verification: security_reviewed
+slug: "bazel-build-graph-analyzer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 ---
 # Bazel Build Graph Analyzer
 
 Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis.
 
-The Bazel Build Graph Analyzer provides deep inspection of Bazel build dependency structures using the Bazel Query Language and Action Graph API. It parses the Build Event Protocol (BEP) output stream to identify critical path bottlenecks and suggest parallelization improvements.
-
-
-
-The agent executes bazel query expressions including deps(), rdeps(), allpaths(), and somepath() to map dependency chains and detect unnecessary transitive dependencies. It analyzes action execution logs from the Build Event Protocol JSON profile to compute critical path duration and identify slow actions that dominate build times.
-
-
-
-Key capabilities include Starlark rule analysis for custom build rule optimization, repository rule caching evaluation via the repository cache API, and remote execution performance analysis using the Remote Execution API v2 metrics. The agent generates build optimization reports with concrete recommendations for target splitting, visibility restriction, and build configuration tuning using .bazelrc flag combinations. It also detects test sharding opportunities using bazel test –test_sharding_strategy analysis.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill bazel-build-graph-analyzer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install bazel-build-graph-analyzer
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

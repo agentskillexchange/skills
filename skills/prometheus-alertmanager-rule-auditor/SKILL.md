@@ -1,10 +1,13 @@
 ---
-name: "Prometheus Alertmanager Rule Auditor"
+title: "Prometheus Alertmanager Rule Auditor"
 description: "Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees for notification gaps, and tests alert expressions against live TSDB data via the Prometheus HTTP API."
-category: "Monitoring & Alerts"
-framework: "Gemini"
-verification: security_reviewed
+slug: "prometheus-alertmanager-rule-auditor"
+verification: "security_reviewed"
 source: "https://github.com/prometheus/alertmanager"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8405
@@ -13,39 +16,14 @@ tool_ecosystem:
 
 Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees for notification gaps, and tests alert expressions against live TSDB data via the Prometheus HTTP API.
 
-The Prometheus Alertmanager Rule Auditor performs comprehensive validation and testing of Prometheus monitoring configurations. Using promtool check rules, it validates YAML syntax, PromQL expression correctness, and label consistency across all recording and alerting rules before they reach production. The auditor analyzes Alertmanager routing trees to identify notification blind spots where alerts could be silently dropped due to missing route matches or inhibition rule conflicts. Alert expressions are tested against live TSDB data through the Prometheus HTTP API, executing range queries to verify that rules would have fired during known incident windows. The skill detects common anti-patterns including alerts without runbook annotations, recording rules with excessive cardinality, and alerting rules with inadequate for durations that could cause alert fatigue. Silence and inhibition rule analysis identifies overly broad configurations that might suppress legitimate alerts. The auditor generates coverage reports showing which services and SLOs have monitoring coverage and where gaps exist. Integration with version control enables rule change review workflows where proposed modifications are tested against historical data before merging.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-auditor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-auditor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-auditor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-auditor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install prometheus-alertmanager-rule-auditor
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

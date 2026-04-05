@@ -1,56 +1,26 @@
 ---
-name: "Python Library Reference Builder"
+title: "Python Library Reference Builder"
 description: "Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed packages via importlib."
-category: "Library & API Reference"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "python-library-reference-builder"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-library-reference-builder/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "OpenClaw"
 ---
 # Python Library Reference Builder
 
 Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed packages via importlib.
 
-The Python Library Reference Builder creates comprehensive, searchable documentation from Python packages using AST parsing and runtime introspection. It combines static analysis via the ast module with dynamic inspection through importlib and inspect to capture complete API surfaces including private methods and nested classes.
-
-
-
-The agent extracts docstrings in Google, NumPy, and reStructuredText formats, parses type hints from both annotations and docstring type specs, and identifies default parameter values. It builds cross-reference maps between classes, showing inheritance hierarchies, mixin patterns, and protocol implementations with typing module support.
-
-
-
-Advanced features include automated usage example extraction from test files and doctest blocks, deprecation notice tracking across versions, and integration with Sphinx autodoc for HTML documentation generation. The agent supports virtual environment-specific reference building, comparing API differences between package versions, and generating quick-start guides from README files and tutorial notebooks. It also indexes exception hierarchies and context manager protocols.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill python-library-reference-builder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill python-library-reference-builder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill python-library-reference-builder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill python-library-reference-builder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install python-library-reference-builder
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

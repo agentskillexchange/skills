@@ -1,60 +1,26 @@
 ---
-name: "GraphQL Schema Documentation Generator"
+title: "GraphQL Schema Documentation Generator"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
-category: "Library & API Reference"
-framework: "MCP"
-verification: security_reviewed
+slug: "graphql-schema-documentation-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "MCP"
 ---
 # GraphQL Schema Documentation Generator
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API.
 
-The GraphQL Schema Documentation Generator skill produces comprehensive, interactive documentation for GraphQL APIs. It performs introspection queries using graphql-js to extract the complete type system including queries, mutations, subscriptions, input types, and custom scalars.
-
-
-
-The skill uses SpectaQL to generate static HTML documentation with embedded search, type navigation, and example query generation. It enriches the schema documentation with field-level usage analytics retrieved from the Apollo Studio API, showing which fields are most queried and their average resolution times.
-
-
-
-Using the graphql-voyager library integration, the skill produces interactive schema relationship diagrams that visualize type connections and field dependencies. It supports schema stitching documentation for federated architectures using Apollo Federation directives.
-
-
-
-Additional features include automatic generation of example queries and mutations with realistic mock data via graphql-faker, deprecation tracking with migration guides, and schema change notifications via the GraphQL Inspector diff tool. Output formats include HTML, Markdown, and Notion-compatible exports.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-documentation-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install graphql-schema-documentation-generator
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

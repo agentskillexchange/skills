@@ -1,56 +1,26 @@
 ---
-name: "CloudWatch Anomaly Detector"
+title: "CloudWatch Anomaly Detector"
 description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
-category: "Monitoring & Alerts"
-framework: "Gemini"
-verification: security_reviewed
+slug: "cloudwatch-anomaly-detector"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Gemini"
 ---
 # CloudWatch Anomaly Detector
 
 Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity.
 
-The CloudWatch Anomaly Detector skill automates the creation and management of AWS CloudWatch anomaly detection models for infrastructure and application metrics. Using the AWS SDK v3 CloudWatch client, it calls PutAnomalyDetector to create detection bands and GetMetricData to evaluate metric values against learned baselines.
-
-
-
-The skill supports batch configuration where you define metric namespaces, dimensions, and sensitivity levels in a YAML manifest. It automatically creates anomaly detectors for each metric, configures exclusion windows for known maintenance periods, and sets up CloudWatch Alarms that fire when metrics breach the anomaly band using the ANOMALY_DETECTION_BAND function.
-
-
-
-Advanced features include cross-account metric collection via CloudWatch cross-account observability, automatic dashboard generation using the CloudWatch Dashboard API with anomaly band widgets, and SNS topic integration for alert delivery. The skill also provides a daily digest that summarizes anomaly events, model training status, and recommended sensitivity adjustments based on false positive rates.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install cloudwatch-anomaly-detector
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

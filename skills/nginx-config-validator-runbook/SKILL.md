@@ -1,48 +1,26 @@
 ---
-name: "Nginx Config Validator Runbook"
+title: "Nginx Config Validator Runbook"
 description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
-category: "Runbooks & Diagnostics"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "nginx-config-validator-runbook"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Agents"
 ---
 # Nginx Config Validator Runbook
 
 Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities.
 
-The Nginx Config Validator Runbook skill automates the validation and security analysis of Nginx web server configurations. It executes nginx -t for syntax validation and configuration file parsing verification before applying changes. The crossplane Python library provides programmatic parsing of Nginx configuration files into structured AST representations, enabling directive-level analysis across included files and upstream definitions. The gixy security analyzer scans configurations for common vulnerabilities including SSRF via proxy_pass misconfigurations, HTTP splitting through improper header handling, and path traversal in alias directives. The runbook validates SSL/TLS configurations checking certificate chain completeness, cipher suite strength against Mozilla recommended profiles, and OCSP stapling configuration. Performance analysis covers worker_processes optimization based on CPU cores, connection and buffer sizing, keepalive timeout tuning, and gzip compression settings. Rate limiting configurations are validated for proper zone sizing, burst allowances, and status code handling. The skill checks location block ordering for precedence issues, validates regular expression correctness in location directives, and detects conflicting server_name declarations across virtual hosts. Upstream health check configurations are verified for appropriate fail_timeout, max_fails, and backup server designations. Output includes a prioritized findings report with severity levels, specific line references, and corrective configuration snippets.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install nginx-config-validator-runbook
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

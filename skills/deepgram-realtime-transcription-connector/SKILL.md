@@ -1,48 +1,26 @@
 ---
-name: "Deepgram Real-Time Transcription Connector"
-description: "Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
-category: "Media & Transcription"
-framework: "MCP"
-verification: security_reviewed
+title: "Deepgram Real-Time Transcription Connector"
+description: "Streams live audio to Deepgram&#8217;s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
+slug: "deepgram-realtime-transcription-connector"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "MCP"
 ---
 # Deepgram Real-Time Transcription Connector
 
-Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
-
-This skill connects to Deepgram’s real-time transcription API using their WebSocket endpoint at wss://api.deepgram.com/v1/listen. It initializes a connection via the Deepgram Node SDK using createClient(apiKey) and establishes a live transcription session with client.listen.live({ model: “nova-2”, language: “en”, smart_format: true, diarize: true }). Audio is streamed in chunks using connection.send(audioBuffer) with support for raw PCM (linear16), WAV, MP3, and Opus formats. The skill handles three event types: “Results” for transcription data (both interim and final), “Metadata” for stream information, and “Error” for connection issues. Speaker diarization assigns speaker labels (Speaker 0, Speaker 1, etc.) to each word with confidence scores. The skill implements utterance end detection via the utterance_end_ms parameter and “UtteranceEnd” events for natural sentence boundary detection. Reconnection logic handles network interruptions with exponential backoff. Output formats include plain text, SRT subtitles with timestamps, and structured JSON with word-level timing. The skill also supports Deepgram’s keyword boosting via keywords=[“custom_term:2.0”] for domain-specific vocabulary.
+Streams live audio to Deepgram&#8217;s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
 
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill deepgram-realtime-transcription-connector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install deepgram-realtime-transcription-connector
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

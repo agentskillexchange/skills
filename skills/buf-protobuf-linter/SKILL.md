@@ -1,48 +1,26 @@
 ---
-name: "Buf Protobuf Linter"
+title: "Buf Protobuf Linter"
 description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
-category: "Library & API Reference"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "buf-protobuf-linter"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Claude Code"
 ---
 # Buf Protobuf Linter
 
 Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration.
 
-The Buf Protobuf Linter enforces style and compatibility rules on Protocol Buffer definition files using the Buf CLI toolchain. It applies the buf lint ruleset covering package naming, field numbering conventions, enum value prefixes, service method naming, and import organization. Breaking change detection uses buf breaking to compare proto definitions across git revisions, catching field type changes, removed RPCs, changed field numbers, and narrowed oneof options. The skill supports buf.yaml configuration with custom lint rules and breaking change exception lists for intentional modifications. It validates well-known types usage (google.protobuf.Timestamp, Any, Struct) and checks for proper use of FieldMask in update RPCs. gRPC service contract analysis verifies streaming patterns (unary, server-streaming, client-streaming, bidirectional) match their intended use cases. The skill generates documentation from proto comments using protoc-gen-doc and creates Markdown API references with message field tables.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill buf-protobuf-linter
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install buf-protobuf-linter
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

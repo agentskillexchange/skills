@@ -1,48 +1,26 @@
 ---
-name: "Notion Task Sync Bridge"
+title: "Notion Task Sync Bridge"
 description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
-category: "Calendar, Email & Productivity"
-framework: "Cursor"
-verification: security_reviewed
+slug: "notion-task-sync-bridge"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Cursor"
 ---
 # Notion Task Sync Bridge
 
 Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields.
 
-The Notion Task Sync Bridge skill establishes real-time bidirectional synchronization between Notion databases and external task management platforms. Using the Notion API v2022-06-28 with the databases/{id}/query POST endpoint, it polls for changes using the filter and sorts parameters. Property mapping supports all Notion property types including select, multi-select, date, relation, and rollup fields. The skill handles Notion’s pagination via the start_cursor and has_more response fields for databases with thousands of entries. Status updates are pushed via the pages/{id} PATCH endpoint with property-level granularity. Relation fields are resolved by cross-referencing linked databases through the /databases/{id} GET endpoint schema. Conflict resolution uses last-write-wins with configurable merge strategies for simultaneous edits. The skill maintains a local SQLite state database for tracking sync cursors and preventing duplicate operations. Webhook support via the Notion API integration enables near-instant change detection.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-task-sync-bridge
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-task-sync-bridge -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install notion-task-sync-bridge
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

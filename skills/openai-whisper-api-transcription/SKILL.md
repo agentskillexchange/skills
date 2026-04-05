@@ -1,80 +1,26 @@
 ---
-name: "OpenAI Whisper API Transcription"
+title: "OpenAI Whisper API Transcription"
 description: "API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script."
-category: "Media & Transcription"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "openai-whisper-api-transcription"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "OpenClaw"
 ---
 # OpenAI Whisper API Transcription
 
 API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
 
-This skill wraps OpenAI’s hosted transcription endpoint for fast, lightweight audio-to-text. Send audio files and get back plain-text or JSON transcripts with minimal setup.
-
-
-
-How it differs from the local Whisper skill
-
-The already-live OpenAI Whisper (local) listing runs the Whisper model directly on your machine using Python and requires downloading model weights and a capable CPU/GPU. This listing uses the hosted API — no model downloads, no local compute requirements, no Python ML dependencies. The tradeoff is API cost and network dependency.
-
-
-
-Best for
-
-
-
-- Meeting recordings and podcast notes
-
-
-
-- Voice memos and interview transcripts
-
-
-
-- Any audio-to-text workflow where convenience and speed matter more than running your own model
-
-
-
-Install notes
-
-Set your OPENAI_API_KEY environment variable or configure it in OpenClaw skill config. Requires curl (pre-installed on most systems). No other dependencies.
-
-
-
-Source: OpenClaw skills/openai-whisper-api
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill openai-whisper-api-transcription -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install openai-whisper-api-transcription
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

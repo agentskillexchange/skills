@@ -1,10 +1,13 @@
 ---
-name: "Elastic APM Transaction Anomaly Spotter"
+title: "Elastic APM Transaction Anomaly Spotter"
 description: "Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines."
-category: "Monitoring & Alerts"
-framework: "MCP"
-verification: security_reviewed
+slug: "elastic-apm-transaction-anomaly-spotter"
+verification: "security_reviewed"
 source: "https://github.com/elastic/apm-server"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "elastic/apm-server"
   github_stars: 1273
@@ -13,39 +16,14 @@ tool_ecosystem:
 
 Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines.
 
-The Elastic APM Transaction Anomaly Spotter connects to your Elasticsearch cluster and analyzes APM transaction data to identify performance regressions and throughput anomalies. It constructs Elasticsearch queries using the _search API with date_histogram aggregations, percentile_ranks, and moving_avg pipeline aggregations to establish service-level baselines. The skill monitors p95 and p99 latency across service transactions, comparing current windows against historical patterns. When latency exceeds dynamic thresholds or throughput drops below expected levels, it generates detailed anomaly reports including the affected service name, transaction type, environment, and comparison metrics. It integrates with the Elastic Alerting framework and can push notifications to Opsgenie or Microsoft Teams via their respective webhook APIs. The skill supports APM agent filtering by service.name and transaction.type fields, and can drill into span-level data to pinpoint slow dependencies using nested aggregations on span.destination.service.resource.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill elastic-apm-transaction-anomaly-spotter
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill elastic-apm-transaction-anomaly-spotter -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill elastic-apm-transaction-anomaly-spotter -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill elastic-apm-transaction-anomaly-spotter -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install elastic-apm-transaction-anomaly-spotter
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

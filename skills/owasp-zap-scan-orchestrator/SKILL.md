@@ -1,48 +1,26 @@
 ---
-name: "OWASP ZAP Scan Orchestrator"
+title: "OWASP ZAP Scan Orchestrator"
 description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
-category: "Security & Verification"
-framework: "Codex"
-verification: security_reviewed
+slug: "owasp-zap-scan-orchestrator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Codex"
 ---
 # OWASP ZAP Scan Orchestrator
 
 Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports.
 
-The OWASP ZAP Scan Orchestrator automates comprehensive web application security testing through the ZAP REST API. It configures and launches spider crawls for URL discovery, AJAX spider sessions using Selenium WebDriver for JavaScript-heavy applications, and active scan policies targeting OWASP Top 10 vulnerabilities. The agent manages ZAP contexts for authentication handling including form-based, token-based, and OAuth2 flows. It processes scan results through custom alert filters, maps findings to CWE identifiers, and generates reports in SARIF format for GitHub Security tab integration. The orchestrator supports baseline, full, and API scan types with configurable scan policies, handles session management for authenticated scanning, and integrates with CI/CD pipelines through Docker-based ZAP instances. Includes automatic false positive suppression based on historical scan data.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install owasp-zap-scan-orchestrator
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

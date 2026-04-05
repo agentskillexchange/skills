@@ -1,60 +1,26 @@
 ---
-name: "CircleCI Orb Builder"
+title: "CircleCI Orb Builder"
 description: "Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI."
-category: "CI/CD Integrations"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "circleci-orb-builder"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-builder/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 ---
 # CircleCI Orb Builder
 
 Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI.
 
-The CircleCI Orb Builder skill streamlines creation of reusable CircleCI Orbs — shareable packages of CircleCI configuration. It uses the CircleCI Orb SDK patterns and circleci/orb-tools@12 orb for development, testing, and publishing workflows.
-
-
-
-Given a description of desired CI/CD functionality, this skill generates complete orb source directories with commands/, jobs/, executors/, and examples/ following CircleCI best practices. It creates parameterized commands with proper type annotations (string, boolean, enum, executor, steps), executor definitions with configurable resource classes, and composed jobs.
-
-
-
-The skill generates the full orb development pipeline including: local validation using circleci orb validate, integration testing with circleci/orb-tools/test orb, automated publishing via circleci/orb-tools/publish orb, and semantic version management based on commit messages.
-
-
-
-It handles namespace registration, dev vs production orb channels, and generates comprehensive usage examples. The skill also creates bats (Bash Automated Testing System) tests for shell-based commands and supports both Docker and machine executors.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-builder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-builder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-builder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-builder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install circleci-orb-builder
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

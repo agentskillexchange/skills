@@ -1,48 +1,26 @@
 ---
-name: "Adobe Firefly API Batch Image Generator"
-description: "Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs."
-category: "Image & Creative Automation"
-framework: "Cursor"
-verification: security_reviewed
+title: "Adobe Firefly API Batch Image Generator"
+description: "Calls Adobe Firefly&#8217;s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs."
+slug: "adobe-firefly-api-batch-image-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Cursor"
 ---
 # Adobe Firefly API Batch Image Generator
 
-Calls Adobe Firefly’s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs.
-
-The Adobe Firefly API Batch Image Generator streamlines large-scale creative asset production using Adobe’s Firefly Services REST API. It handles the complete OAuth 2.0 flow with Adobe IMS including service account JWT authentication and automatic token refresh. The skill supports text-to-image generation, generative fill for extending or modifying existing assets, and style reference matching via reference images. Each API call includes Content Credentials (C2PA) metadata embedding to ensure AI-generated content is properly attributed per Adobe’s transparency guidelines. Batch mode processes CSV manifests containing prompts, style references, aspect ratios, and output paths. Rate limiting respects Adobe’s per-minute quotas with exponential backoff. Results are validated against dimension and file-size constraints before delivery. The tool integrates with Adobe Creative Cloud Libraries for direct asset upload and supports webhook callbacks for completion notification. Error handling covers quota exhaustion, content policy rejections, and network timeouts with detailed logging.
+Calls Adobe Firefly&#8217;s text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth tokens and enforces Content Credentials (C2PA) metadata on all outputs.
 
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill adobe-firefly-api-batch-image-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install adobe-firefly-api-batch-image-generator
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 

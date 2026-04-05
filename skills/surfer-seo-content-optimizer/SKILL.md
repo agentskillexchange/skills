@@ -1,48 +1,26 @@
 ---
-name: "Surfer SEO Content Optimizer"
+title: "Surfer SEO Content Optimizer"
 description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+slug: "surfer-seo-content-optimizer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "ChatGPT Agents"
 ---
 # Surfer SEO Content Optimizer
 
 Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations.
 
-The Surfer SEO Content Optimizer reverse-engineers search ranking factors by analyzing top-performing pages for target keywords. It uses the DataForSEO SERP API to fetch current search results including featured snippets, People Also Ask, and related searches. Each competing page is fetched and analyzed using cheerio for DOM parsing and natural (NLP library) for entity extraction, term frequency analysis, and readability scoring via Flesch-Kincaid. The skill generates comprehensive content briefs containing recommended word count ranges (based on top-10 median), must-include NLP entities and LSI keywords, optimal heading hierarchy (H2/H3 distribution), and internal linking opportunities matched against an existing sitemap. Content scoring compares draft articles against the generated brief, producing a 0-100 optimization score with specific improvement suggestions. The tool tracks keyword cannibalization by cross-referencing target keywords against existing published content via site:domain search. Output formats include Markdown briefs, JSON for CMS integration, and HTML reports with competitive comparison tables.
-
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install surfer-seo-content-optimizer
-```
+Choose the method that fits your setup:
+1. Install from the Agent Skill Exchange website
+2. Clone or download the upstream source repository
+3. Install via npm if the project is published there
+4. Use the tool's package manager or release binaries
+5. Copy the skill files into your local skills directory manually
 
 ## Source
 
