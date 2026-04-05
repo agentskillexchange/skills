@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1696,
+  "total": 1699,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "decap-cms-git-based-content-management-system-for-static-sites",
+      "name": "Decap CMS Git-Based Content Management System for Static Sites",
+      "description": "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "maildev-smtp-testing-server-and-web-interface-for-development-email-workflows",
+      "name": "MailDev SMTP Testing Server and Web Interface for Development Email Workflows",
+      "description": "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "crawlee-web-crawling-and-scraping-library-by-apify",
+      "name": "Crawlee Web Crawling and Scraping Library by Apify",
+      "description": "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "google-workspace-cli-gws",
       "name": "Google Workspace CLI (gws)",
