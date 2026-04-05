@@ -13,8 +13,6 @@ tool_ecosystem:
 
 AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workflows.
 
-AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workflows.
-
 ## Installation
 
 ### Any Agent

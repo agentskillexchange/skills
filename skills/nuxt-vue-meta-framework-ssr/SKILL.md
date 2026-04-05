@@ -13,8 +13,6 @@ tool_ecosystem:
 
 Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web applications.
 
-Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web applications.
-
 ## Installation
 
 ### Any Agent
