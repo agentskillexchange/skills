@@ -3,7 +3,7 @@ name: "ElectricSQL Real-Time Postgres Sync Engine"
 description: "ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out. It syncs data out of Postgres in real time using an HTTP API that integrates with CDNs, with Shapes for managing partial replication and client libraries for React and TypeScript."
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/electric-sql/electric"
 ---
 # ElectricSQL Real-Time Postgres Sync Engine

@@ -1,7 +1,7 @@
 ---
 name: "NestJS — Progressive Node.js Framework for Server-Side Applications"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:
   github_repo: "nestjs/nest"

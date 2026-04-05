@@ -1,7 +1,7 @@
 ---
 name: "Vue.js — Progressive JavaScript Framework for Building UIs"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/vuejs/core"
 tool_ecosystem:
   github_repo: "vuejs/core"

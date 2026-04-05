@@ -1,7 +1,7 @@
 ---
 name: "Angular — TypeScript Web Application Framework by Google"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/angular/angular"
 tool_ecosystem:
   github_repo: "angular/angular"

@@ -2,7 +2,7 @@
 name: "BorgBackup Deduplicating Encrypted Backup Program"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/borgbackup/borg"
 ---
 

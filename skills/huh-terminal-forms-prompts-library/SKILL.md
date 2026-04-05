@@ -1,7 +1,7 @@
 ---
 name: "Huh Interactive Terminal Forms and Prompts Library for Go"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/charmbracelet/huh"
 ---
 

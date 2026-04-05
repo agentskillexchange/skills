@@ -2,7 +2,7 @@
 name: "Naabu Fast Port Scanner by ProjectDiscovery"
 category: "Security & Verification"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/projectdiscovery/naabu"
 ---
 

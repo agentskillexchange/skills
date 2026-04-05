@@ -1,7 +1,7 @@
 ---
 name: "Nuxt — Vue.js Meta-Framework for SSR and Static Sites"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/nuxt/nuxt"
 tool_ecosystem:
   github_repo: "nuxt/nuxt"

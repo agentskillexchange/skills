@@ -2,7 +2,7 @@
 name: "llamafile Single-File LLM Distribution and Runner by Mozilla"
 description: "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopo"
 category: "Developer Tools"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/mozilla-ai/llamafile"
 ---
 

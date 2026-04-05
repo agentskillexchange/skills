@@ -2,7 +2,7 @@
 name: "code-server VS Code in the Browser by Coder"
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/coder/code-server"
 ---
 

@@ -2,7 +2,7 @@
 name: "Newspaper4k Python Article Extraction and NLP Library"
 category: "Research & Scraping"
 source: "https://github.com/AndyTheFactory/newspaper4k"
-verification: listed
+verification: security_reviewed
 ---
 
 # Newspaper4k Python Article Extraction and NLP Library

@@ -3,7 +3,7 @@ name: "Griptape Modular Python AI Agent and Workflow Framework"
 description: "Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools, and memory. It provides Agents, Pipelines, and Workflows as core structures, with pluggable drivers for LLMs, embeddings, vector stores, and more."
 category: "Developer Tools"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/griptape-ai/griptape"
 ---
 # Griptape Modular Python AI Agent and Workflow Framework

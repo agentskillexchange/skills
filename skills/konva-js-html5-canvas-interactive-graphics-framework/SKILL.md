@@ -2,7 +2,7 @@
 name: "Konva.js HTML5 Canvas Interactive Graphics Framework"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/konvajs/konva"
 ---
 

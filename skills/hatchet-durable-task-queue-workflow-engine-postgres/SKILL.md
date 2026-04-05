@@ -2,7 +2,7 @@
 name: "Hatchet Durable Task Queue and Workflow Engine on Postgres"
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/hatchet-dev/hatchet"
 ---
 

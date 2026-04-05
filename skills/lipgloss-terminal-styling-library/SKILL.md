@@ -1,7 +1,7 @@
 ---
 name: "Lip Gloss CSS-Like Terminal Styling Library for Go"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/charmbracelet/lipgloss"
 ---
 

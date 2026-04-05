@@ -3,7 +3,7 @@ name: "Dokploy Open Source Self-Hosted PaaS with Docker Compose and Swarm Suppor
 description: "Dokploy is a free, self-hostable Platform as a Service that simplifies deploying and managing applications and databases. It supports Docker Compose natively, multi-node scaling with Docker Swarm, automated backups, and 280+ one-click templates with "
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/Dokploy/dokploy"
 ---
 

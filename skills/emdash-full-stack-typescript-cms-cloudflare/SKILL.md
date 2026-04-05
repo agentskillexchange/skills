@@ -3,7 +3,7 @@ name: "EmDash Full-Stack TypeScript CMS by Cloudflare"
 description: "EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor to WordPress. It features sandboxed plugins, structured content via Portable Text, "
 category: "WordPress & CMS"
 framework: "Multi-Framework"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/emdash-cms/emdash"
 ---
 # EmDash Full-Stack TypeScript CMS by Cloudflare

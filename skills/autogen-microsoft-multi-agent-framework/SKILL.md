@@ -1,7 +1,7 @@
 ---
 name: "AutoGen — Microsoft Multi-Agent Conversation Framework"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/microsoft/autogen"
 tool_ecosystem:
   github_repo: "microsoft/autogen"

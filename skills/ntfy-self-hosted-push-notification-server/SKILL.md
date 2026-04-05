@@ -1,7 +1,7 @@
 ---
 name: "ntfy Self-Hosted Push Notification Server"
 category: "Integrations & Connectors"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/binwiederhier/ntfy"
 tool_ecosystem:
   github_repo: "binwiederhier/ntfy"

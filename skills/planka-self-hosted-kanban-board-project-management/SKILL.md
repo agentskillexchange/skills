@@ -2,7 +2,7 @@
 name: "Planka Self-Hosted Kanban Board for Project Management"
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
-verification: listed
+verification: security_reviewed
 source: "https://github.com/plankanban/planka"
 ---
 

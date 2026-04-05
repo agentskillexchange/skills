@@ -1,7 +1,7 @@
 ---
 name: "Azure CLI — Command-Line Interface for Microsoft Azure"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
   github_repo: "Azure/azure-cli"

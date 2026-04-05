@@ -1,7 +1,7 @@
 ---
 name: "Hugging Face Transformers — Machine Learning Model Library"
 category: "Developer Tools"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/huggingface/transformers"
 tool_ecosystem:
   github_repo: "huggingface/transformers"

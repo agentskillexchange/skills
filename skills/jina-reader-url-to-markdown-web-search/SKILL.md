@@ -2,7 +2,7 @@
 name: "Jina Reader URL-to-Markdown Converter and Web Search API"
 category: "Data Extraction & Transformation"
 source: "https://github.com/jina-ai/reader"
-verification: listed
+verification: security_reviewed
 ---
 
 # Jina Reader URL-to-Markdown Converter and Web Search API

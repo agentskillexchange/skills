@@ -2,7 +2,7 @@
 name: "pyannote.audio Neural Speaker Diarization Toolkit"
 category: "Media & Transcription"
 source: "https://github.com/pyannote/pyannote-audio"
-verification: listed
+verification: security_reviewed
 ---
 
 # pyannote.audio Neural Speaker Diarization Toolkit

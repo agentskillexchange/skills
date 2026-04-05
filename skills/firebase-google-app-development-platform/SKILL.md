@@ -1,7 +1,7 @@
 ---
 name: "Firebase — Google Application Development Platform"
 category: "Integrations & Connectors"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/firebase/firebase-js-sdk"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"

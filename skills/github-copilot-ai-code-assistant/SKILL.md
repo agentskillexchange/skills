@@ -3,7 +3,7 @@ name: "GitHub Copilot — AI-Powered Code Completion and Chat Assistant"
 description: "GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI across dozens of languages."
 category: "Uncategorized"
 framework: "Multi-Framework"
-verification: listed
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/"
 ---
 

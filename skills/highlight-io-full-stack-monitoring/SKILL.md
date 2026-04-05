@@ -1,7 +1,7 @@
 ---
 name: "Highlight.io Open Source Full-Stack Monitoring Platform"
 category: "Monitoring & Alerts"
-verification: "listed"
+verification: security_reviewed
 source: "https://github.com/highlight/highlight"
 ---
 
