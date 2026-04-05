@@ -62,10 +62,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | — | — |
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | — | — |
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
+| [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | — | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
+| [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | — |
 | [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | — | — |

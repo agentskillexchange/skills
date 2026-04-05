@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1702,
+  "total": 1705,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "langfuse-prompt-management-mcp-server",
+      "name": "Langfuse Prompt Management MCP Server",
+      "description": "Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "microsoft-learn-mcp-server",
+      "name": "Microsoft Learn MCP Server",
+      "description": "Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and code samples through a hosted MCP endpoint. It…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "grounded-docs-mcp-server",
+      "name": "Grounded Docs MCP Server",
+      "description": "Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources like websites, GitHub, npm, PyPI, and local files.…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "coolify-self-hosted-app-platform-deployment-automation-skill",
       "name": "Coolify Self-Hosted App Platform and Deployment Automation Skill",

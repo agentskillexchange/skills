@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1702 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 17:30 UTC
+> **1705 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 19:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -787,6 +787,115 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
+### 📚 Library & API Reference (101 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | — |
+| [Bubble Tea Go TUI Framework by Charmbracelet](skills/bubble-tea-go-tui-framework/) | Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed… | Security Reviewed | 41.2k | — |
+| [DevDocs Unified API Documentation Browser](skills/devdocs-unified-api-documentation-browser/) | DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline… | Security Reviewed | 38.7k | — |
+| [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from… | Security Reviewed | 25.6k | 1.3M/wk |
+| [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Security Reviewed | 15.4k | 2.8M/wk |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](skills/pglite-embeddable-wasm-postgres/) | PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the… | Security Reviewed | 15k | — |
+| [Effect TypeScript Standard Library for Production Applications](skills/effect-typescript-standard-library-production/) | Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency… | Security Reviewed | 13.8k | — |
+| [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc… | Security Reviewed | 8.4k | 3.7M/wk |
+| [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | — | — |
+| [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Security Reviewed | — | — |
+| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Security Reviewed | — | — |
+| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator.… | Security Reviewed | — | — |
+| [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | — | — |
+| [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking… | Security Reviewed | — | — |
+| [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | — | — |
+| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
+| [FilePond Flexible JavaScript File Upload Library](skills/filepond-javascript-file-upload-library/) | FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with… | Security Reviewed | — | — |
+| [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
+| [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js… | Security Reviewed | — | — |
+| [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects… | Security Reviewed | — | — |
+| [GraphQL Schema Documentation Builder](skills/graphql-schema-documentation-builder/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | — | — |
+| [GraphQL Schema Documentation Generator](skills/graphql-schema-documentation-generator/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | — | — |
+| [GraphQL Schema Drift Detector](skills/graphql-schema-drift-detector/) | Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares… | Security Reviewed | — | — |
+| [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | GraphQL Schema Explorer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer/) | Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities… | Security Reviewed | — | — |
+| [GraphQL Schema Introspector](skills/graphql-schema-introspector/) | Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools… | Security Reviewed | — | — |
+| [GraphQL Schema Registry](skills/graphql-schema-registry/) | Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for… | Security Reviewed | — | — |
+| [GraphQL Schema Registry Agent](skills/graphql-schema-registry-agent/) | Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition,… | Security Reviewed | — | — |
+| [GraphQL Schema Registry Client](skills/graphql-schema-registry-client/) | Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing,… | Security Reviewed | — | — |
+| [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools… | Security Reviewed | — | — |
+| [GraphQL Schema Stitching & Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and… | Security Reviewed | — | — |
+| [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Published | — | — |
+| [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
+| [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
+| [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |
+| [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Published | — | — |
+| [NPM Package Analyzer](skills/npm-package-analyzer/) | Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API,… | Security Reviewed | — | — |
+| [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | — |
+| [NPM Package Audit & License Checker](skills/npm-package-audit-license-checker/) | Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org).… | Security Reviewed | — | — |
+| [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database… | Security Reviewed | — | — |
+| [NPM Package Audit Reference](skills/npm-package-audit-reference/) | Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia… | Security Reviewed | — | — |
+| [NPM Package Changelog Analyzer](skills/npm-package-changelog-analyzer/) | Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects… | Security Reviewed | — | — |
+| [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular… | Security Reviewed | — | — |
+| [NPM Package Dependency Auditor](skills/npm-package-dependency-auditor/) | Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies… | Security Reviewed | — | — |
+| [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency… | Security Reviewed | — | — |
+| [NPM Package Vulnerability Runbook](skills/npm-package-vulnerability-runbook/) | Automates vulnerability triage for Node.js projects using the npm Audit API and OSV.dev API. Generates step-by-step… | Security Reviewed | — | — |
+| [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | Scans npm dependencies for known vulnerabilities using the npm audit JSON API and the OSV.dev REST API… | Security Reviewed | — | — |
+| [npm Registry Analyzer](skills/npm-registry-analyzer/) | Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and… | Security Reviewed | — | — |
+| [npm Registry Explorer](skills/npm-registry-explorer/) | Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring.… | Security Reviewed | — | — |
+| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and… | Security Reviewed | — | — |
+| [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript,… | Security Reviewed | — | — |
+| [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Security Reviewed | — | — |
+| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks… | Security Reviewed | — | — |
+| [OpenAPI Spec Linter & Docs Generator](skills/openapi-spec-linter-docs-generator/) | Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc… | Security Reviewed | — | — |
+| [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser.… | Security Reviewed | — | — |
+| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and… | Security Reviewed | — | — |
+| [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer/) | Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable… | Security Reviewed | — | — |
+| [OpenAPI Spec Validator & Docs Generator](skills/openapi-spec-validator-docs-generator/) | Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation… | Security Reviewed | — | — |
+| [OpenAPI Spec Validator & Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | — | — |
+| [OpenAPI Spec Validator & Mock Server](skills/openapi-spec-validator-mock-server-2/) | Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects… | Security Reviewed | — | — |
+| [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | — | — |
+| [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | — | — |
+| [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | — | — |
+| [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | — |
+| [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates… | Security Reviewed | — | — |
+| [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | — | — |
+| [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces… | Security Reviewed | — | — |
+| [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry… | Security Reviewed | — | — |
+| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates… | Security Reviewed | — | — |
+| [PyPI Package Inspector](skills/pypi-package-inspector/) | Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version… | Security Reviewed | — | — |
+| [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects… | Security Reviewed | — | — |
+| [Python Docstring Extractor](skills/python-docstring-extractor/) | Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google,… | Security Reviewed | — | — |
+| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy,… | Security Reviewed | — | — |
+| [Python Library Reference Builder](skills/python-library-reference-builder/) | Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration.… | Security Reviewed | — | — |
+| [Python Package API Surface Mapper](skills/python-package-api-surface-mapper/) | Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates… | Security Reviewed | — | — |
+| [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive… | Security Reviewed | — | — |
+| [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module… | Security Reviewed | — | — |
+| [Python PyPI Dependency Resolver](skills/python-pypi-dependency-resolver/) | Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked… | Security Reviewed | — | — |
+| [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference… | Security Reviewed | — | — |
+| [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Security Reviewed | — | — |
+| [REST API Documentation Generator](skills/rest-api-documentation-generator/) | Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the… | Security Reviewed | — | — |
+| [REST API Reference Generator](skills/rest-api-reference-generator/) | Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates… | Security Reviewed | — | — |
+| [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports… | Security Reviewed | — | — |
+| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates… | Security Reviewed | — | — |
+| [REST API Testing Reference Kit](skills/rest-api-testing-reference-kit/) | Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion… | Security Reviewed | — | — |
+| [Rust Crate Analyzer](skills/rust-crate-analyzer/) | Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags,… | Security Reviewed | — | — |
+| [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces… | Security Reviewed | — | — |
+| [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates… | Security Reviewed | — | — |
+| [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait… | Security Reviewed | — | — |
+| [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Security Reviewed | — | — |
+| [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | — | — |
+| [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and… | Security Reviewed | — | — |
+| [Swagger Codegen Template Customizer](skills/swagger-codegen-template-customizer/) | Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports… | Security Reviewed | — | — |
+| [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking… | Security Reviewed | — | — |
+| [Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/) | Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets,… | Security Reviewed | — | — |
+| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource… | Security Reviewed | — | — |
+| [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | — | — |
+| [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
+
+
 ### 📊 Monitoring & Alerts (101 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
@@ -894,113 +1003,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
-
-
-### 📚 Library & API Reference (99 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | — |
-| [Bubble Tea Go TUI Framework by Charmbracelet](skills/bubble-tea-go-tui-framework/) | Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed… | Security Reviewed | 41.2k | — |
-| [DevDocs Unified API Documentation Browser](skills/devdocs-unified-api-documentation-browser/) | DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline… | Security Reviewed | 38.7k | — |
-| [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from… | Security Reviewed | 25.6k | 1.3M/wk |
-| [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Security Reviewed | 15.4k | 2.8M/wk |
-| [PGlite Embeddable WASM Postgres for Browser and Node.js](skills/pglite-embeddable-wasm-postgres/) | PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the… | Security Reviewed | 15k | — |
-| [Effect TypeScript Standard Library for Production Applications](skills/effect-typescript-standard-library-production/) | Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency… | Security Reviewed | 13.8k | — |
-| [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc… | Security Reviewed | 8.4k | 3.7M/wk |
-| [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | — | — |
-| [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Security Reviewed | — | — |
-| [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Security Reviewed | — | — |
-| [AsyncAPI Event Catalog Generator](skills/asyncapi-event-catalog-generator/) | Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator.… | Security Reviewed | — | — |
-| [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | — | — |
-| [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking… | Security Reviewed | — | — |
-| [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | — | — |
-| [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
-| [FilePond Flexible JavaScript File Upload Library](skills/filepond-javascript-file-upload-library/) | FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with… | Security Reviewed | — | — |
-| [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
-| [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js… | Security Reviewed | — | — |
-| [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects… | Security Reviewed | — | — |
-| [GraphQL Schema Documentation Builder](skills/graphql-schema-documentation-builder/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | — | — |
-| [GraphQL Schema Documentation Generator](skills/graphql-schema-documentation-generator/) | Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL.… | Security Reviewed | — | — |
-| [GraphQL Schema Drift Detector](skills/graphql-schema-drift-detector/) | Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares… | Security Reviewed | — | — |
-| [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | GraphQL Schema Explorer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [GraphQL Schema Introspection Analyzer](skills/graphql-schema-introspection-analyzer/) | Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities… | Security Reviewed | — | — |
-| [GraphQL Schema Introspector](skills/graphql-schema-introspector/) | Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools… | Security Reviewed | — | — |
-| [GraphQL Schema Registry](skills/graphql-schema-registry/) | Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for… | Security Reviewed | — | — |
-| [GraphQL Schema Registry Agent](skills/graphql-schema-registry-agent/) | Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition,… | Security Reviewed | — | — |
-| [GraphQL Schema Registry Client](skills/graphql-schema-registry-client/) | Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing,… | Security Reviewed | — | — |
-| [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools… | Security Reviewed | — | — |
-| [GraphQL Schema Stitching & Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and… | Security Reviewed | — | — |
-| [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
-| [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
-| [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |
-| [NPM Package Analyzer](skills/npm-package-analyzer/) | Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API,… | Security Reviewed | — | — |
-| [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | — |
-| [NPM Package Audit & License Checker](skills/npm-package-audit-license-checker/) | Audits npm dependencies using npm audit, license-checker-rspack, and the npm registry API (registry.npmjs.org).… | Security Reviewed | — | — |
-| [NPM Package Audit Analyzer](skills/npm-package-audit-analyzer/) | Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database… | Security Reviewed | — | — |
-| [NPM Package Audit Reference](skills/npm-package-audit-reference/) | Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia… | Security Reviewed | — | — |
-| [NPM Package Changelog Analyzer](skills/npm-package-changelog-analyzer/) | Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects… | Security Reviewed | — | — |
-| [NPM Package Dependency Analyzer](skills/npm-package-dependency-analyzer/) | Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular… | Security Reviewed | — | — |
-| [NPM Package Dependency Auditor](skills/npm-package-dependency-auditor/) | Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies… | Security Reviewed | — | — |
-| [NPM Package Explorer](skills/npm-package-explorer-registry-api/) | Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency… | Security Reviewed | — | — |
-| [NPM Package Vulnerability Runbook](skills/npm-package-vulnerability-runbook/) | Automates vulnerability triage for Node.js projects using the npm Audit API and OSV.dev API. Generates step-by-step… | Security Reviewed | — | — |
-| [NPM Package Vulnerability Scanner](skills/npm-package-vulnerability-scanner/) | Scans npm dependencies for known vulnerabilities using the npm audit JSON API and the OSV.dev REST API… | Security Reviewed | — | — |
-| [npm Registry Analyzer](skills/npm-registry-analyzer/) | Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and… | Security Reviewed | — | — |
-| [npm Registry Explorer](skills/npm-registry-explorer/) | Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring.… | Security Reviewed | — | — |
-| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and… | Security Reviewed | — | — |
-| [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript,… | Security Reviewed | — | — |
-| [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Security Reviewed | — | — |
-| [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks… | Security Reviewed | — | — |
-| [OpenAPI Spec Linter & Docs Generator](skills/openapi-spec-linter-docs-generator/) | Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc… | Security Reviewed | — | — |
-| [OpenAPI Spec Navigator](skills/openapi-spec-navigator/) | Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser.… | Security Reviewed | — | — |
-| [OpenAPI Spec Reference Generator](skills/openapi-spec-reference-generator/) | Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and… | Security Reviewed | — | — |
-| [OpenAPI Spec Reference Indexer](skills/openapi-spec-reference-indexer/) | Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable… | Security Reviewed | — | — |
-| [OpenAPI Spec Validator & Docs Generator](skills/openapi-spec-validator-docs-generator/) | Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation… | Security Reviewed | — | — |
-| [OpenAPI Spec Validator & Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | — | — |
-| [OpenAPI Spec Validator & Mock Server](skills/openapi-spec-validator-mock-server-2/) | Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects… | Security Reviewed | — | — |
-| [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | — | — |
-| [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | — | — |
-| [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | — | — |
-| [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | — |
-| [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates… | Security Reviewed | — | — |
-| [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | — | — |
-| [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces… | Security Reviewed | — | — |
-| [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry… | Security Reviewed | — | — |
-| [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates… | Security Reviewed | — | — |
-| [PyPI Package Inspector](skills/pypi-package-inspector/) | Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version… | Security Reviewed | — | — |
-| [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects… | Security Reviewed | — | — |
-| [Python Docstring Extractor](skills/python-docstring-extractor/) | Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google,… | Security Reviewed | — | — |
-| [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy,… | Security Reviewed | — | — |
-| [Python Library Reference Builder](skills/python-library-reference-builder/) | Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration.… | Security Reviewed | — | — |
-| [Python Package API Surface Mapper](skills/python-package-api-surface-mapper/) | Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates… | Security Reviewed | — | — |
-| [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive… | Security Reviewed | — | — |
-| [Python Package Docs Fetcher](skills/python-package-docs-fetcher/) | Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module… | Security Reviewed | — | — |
-| [Python PyPI Dependency Resolver](skills/python-pypi-dependency-resolver/) | Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked… | Security Reviewed | — | — |
-| [Python PyPI Package Reference Indexer](skills/python-pypi-package-reference-indexer/) | Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference… | Security Reviewed | — | — |
-| [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Security Reviewed | — | — |
-| [REST API Documentation Generator](skills/rest-api-documentation-generator/) | Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the… | Security Reviewed | — | — |
-| [REST API Reference Generator](skills/rest-api-reference-generator/) | Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates… | Security Reviewed | — | — |
-| [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports… | Security Reviewed | — | — |
-| [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates… | Security Reviewed | — | — |
-| [REST API Testing Reference Kit](skills/rest-api-testing-reference-kit/) | Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion… | Security Reviewed | — | — |
-| [Rust Crate Analyzer](skills/rust-crate-analyzer/) | Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags,… | Security Reviewed | — | — |
-| [Rust Crate Docs Scanner](skills/rust-crate-docs-scanner/) | Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces… | Security Reviewed | — | — |
-| [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates… | Security Reviewed | — | — |
-| [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait… | Security Reviewed | — | — |
-| [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Security Reviewed | — | — |
-| [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | — | — |
-| [Swagger / OpenAPI Validator](skills/swagger-openapi-validator/) | Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Swagger Codegen API Client Builder](skills/swagger-codegen-api-client-builder/) | Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and… | Security Reviewed | — | — |
-| [Swagger Codegen Template Customizer](skills/swagger-codegen-template-customizer/) | Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports… | Security Reviewed | — | — |
-| [Swagger OpenAPI Schema Validator](skills/swagger-openapi-schema-validator/) | Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking… | Security Reviewed | — | — |
-| [Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/) | Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets,… | Security Reviewed | — | — |
-| [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource… | Security Reviewed | — | — |
-| [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | — | — |
-| [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
 ### ✅ Code Quality & Review (96 skills)
@@ -1542,7 +1544,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (72 skills)
+### 📄 Templates & Workflows (73 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1593,6 +1595,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
 | [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
+| [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Published | — | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
