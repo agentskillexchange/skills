@@ -6,8 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/microsoft/autogen"
 tool_ecosystem:
-  github_repo: microsoft/autogen
-  github_stars: 56671
+  github_repo: "microsoft/autogen"
+  github_stars: 56701
 ---
 # AutoGen — Microsoft Multi-Agent Conversation Framework
 
@@ -44,6 +44,10 @@ npx skills add agentskillexchange/skills --skill autogen-microsoft-multi-agent-f
 ```bash
 clawhub install autogen-microsoft-multi-agent-framework
 ```
+
+## Details
+
+AutoGen is Microsoft’s open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for tool use and human-in-the-loop workflows.
 
 ## Source
 

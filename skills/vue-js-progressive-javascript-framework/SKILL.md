@@ -6,8 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/vuejs/core"
 tool_ecosystem:
-  github_repo: vuejs/core
-  github_stars: 53371
+  github_repo: "vuejs/core"
+  github_stars: 53375
 ---
 # Vue.js — Progressive JavaScript Framework for Building UIs
 
@@ -44,6 +44,10 @@ npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-f
 ```bash
 clawhub install vue-js-progressive-javascript-framework
 ```
+
+## Details
+
+Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite.
 
 ## Source
 

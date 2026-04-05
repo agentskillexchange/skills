@@ -6,8 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
-  github_repo: Azure/azure-cli
-  github_stars: 4496
+  github_repo: "Azure/azure-cli"
+  github_stars: 4497
 ---
 # Azure CLI — Command-Line Interface for Microsoft Azure
 
@@ -44,6 +44,10 @@ npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a co
 ```bash
 clawhub install azure-cli-microsoft-cloud
 ```
+
+## Details
+
+The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands.
 
 ## Source
 

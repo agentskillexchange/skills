@@ -1,7 +1,7 @@
 ---
 name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
@@ -9,10 +9,6 @@ source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
-
-## Overview
-
-NPM Package Explorer queries the npm Registry API to provide deep analysis of npm packages and their ecosystems. It retrieves package metadata, version histories, and maintainer information directly from the registry. Integration with the npms.io API provides quality, popularity, and maintenance scores for informed package selection. Bundle size analysis uses the bundlephobia API to estimate the impact of adding packages to frontend projects, including tree-shaking support detection. The tool builds comprehensive dependency trees using the npm resolve algorithm, identifying duplicate packages and version conflicts. License compliance scanning detects incompatible license combinations across dependency chains. It tracks download statistics via the npm downloads API with trend analysis and comparison charts. Security audit integration cross-references with npm audit advisories and Snyk vulnerability database for real-time risk assessment.
 
 ## Installation
 
@@ -45,6 +41,10 @@ npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-a
 ```bash
 clawhub install npm-package-explorer-registry-api
 ```
+
+## Details
+
+NPM Package Explorer queries the npm Registry API to provide deep analysis of npm packages and their ecosystems. It retrieves package metadata, version histories, and maintainer information directly from the registry. Integration with the npms.io API provides quality, popularity, and maintenance scores for informed package selection. Bundle size analysis uses the bundlephobia API to estimate the impact of adding packages to frontend projects, including tree-shaking support detection. The tool builds comprehensive dependency trees using the npm resolve algorithm, identifying duplicate packages and version conflicts. License compliance scanning detects incompatible license combinations across dependency chains. It tracks download statistics via the npm downloads API with trend analysis and comparison charts. Security audit integration cross-references with npm audit advisories and Snyk vulnerability database for real-time risk assessment.
 
 ## Source
 

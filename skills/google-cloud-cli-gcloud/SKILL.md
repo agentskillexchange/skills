@@ -42,6 +42,10 @@ npx skills add agentskillexchange/skills --skill google-cloud-cli-gcloud -a code
 clawhub install google-cloud-cli-gcloud
 ```
 
+## Details
+
+The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration.
+
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/google-cloud-cli-gcloud/)

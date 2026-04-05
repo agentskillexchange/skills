@@ -6,8 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/shadcn-ui/ui"
 tool_ecosystem:
-  github_repo: shadcn-ui/ui
-  github_stars: 111458
+  github_repo: "shadcn-ui/ui"
+  github_stars: 111518
 ---
 # shadcn/ui — Re-usable UI Component Collection for React
 
@@ -44,6 +44,10 @@ npx skills add agentskillexchange/skills --skill shadcn-ui-react-component-colle
 ```bash
 clawhub install shadcn-ui-react-component-collection
 ```
+
+## Details
+
+shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support.
 
 ## Source
 

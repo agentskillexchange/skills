@@ -6,8 +6,8 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/angular/angular"
 tool_ecosystem:
-  github_repo: angular/angular
-  github_stars: 100095
+  github_repo: "angular/angular"
+  github_stars: 100096
 ---
 # Angular — TypeScript Web Application Framework by Google
 
@@ -44,6 +44,10 @@ npx skills add agentskillexchange/skills --skill angular-typescript-web-framewor
 ```bash
 clawhub install angular-typescript-web-framework
 ```
+
+## Details
+
+Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication.
 
 ## Source
 
