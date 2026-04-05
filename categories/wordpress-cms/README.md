@@ -93,6 +93,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | — | — |
+| [WordPress AI Services Plugin](../../skills/wordpress-ai-services-plugin/) | — | — |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | — | — |
 | [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | — | — |

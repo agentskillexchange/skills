@@ -68,6 +68,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | — | — |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |

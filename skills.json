@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1693,
+  "total": 1696,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "google-workspace-cli-gws",
+      "name": "Google Workspace CLI (gws)",
+      "description": "Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wordpress-ai-services-plugin",
+      "name": "WordPress AI Services Plugin",
+      "description": "AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API, JavaScript, and WP-CLI. It is built…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "vercel-agent-browser",
+      "name": "Vercel Agent Browser",
+      "description": "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "appsmith-open-source-internal-tools-admin-panel-builder",
       "name": "Appsmith Open Source Internal Tools and Admin Panel Builder",

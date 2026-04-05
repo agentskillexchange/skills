@@ -105,6 +105,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | — | — |
+| [Vercel Agent Browser](../../skills/vercel-agent-browser/) | — | — |
 
 ---
 

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1693 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 11:32 UTC
+> **1696 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 13:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1106,7 +1106,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (91 skills)
+### 📅 Calendar, Email & Productivity (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1157,6 +1157,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Google Calendar Smart Scheduler](skills/google-calendar-smart-scheduler-2/) | Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot… | Security Reviewed | — | — |
 | [Google Calendar Sync & Conflict Resolver](skills/google-calendar-sync-conflict-resolver/) | Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts… | Security Reviewed | — | — |
 | [Google Calendar Sync Agent](skills/google-calendar-sync-agent-2/) | Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles… | Security Reviewed | — | — |
+| [Google Workspace CLI (gws)](skills/google-workspace-cli-gws/) | Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to… | Published | — | — |
 | [IMAP Email Classifier](skills/imap-email-classifier-ml/) | Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports… | Security Reviewed | — | — |
 | [IMAP Inbox Triage Agent](skills/imap-inbox-triage-agent/) | Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and… | Security Reviewed | — | — |
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -1616,7 +1617,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (69 skills)
+### 📰 WordPress & CMS (70 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1676,6 +1677,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | — | — |
 | [WooCommerce Webhook Orchestrator](skills/woocommerce-webhook-orchestrator/) | Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order,… | Security Reviewed | — | — |
 | [WordPress ACF Field Group Auditor](skills/wordpress-acf-field-group-auditor/) | Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/),… | Security Reviewed | — | — |
+| [WordPress AI Services Plugin](skills/wordpress-ai-services-plugin/) | AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API,… | Published | — | — |
 | [WordPress Block Theme Scaffolder](skills/wordpress-block-theme-scaffolder/) | Generates complete WordPress block theme structures using theme.json v3, block patterns via… | Security Reviewed | — | — |
 | [WordPress Content Publisher](skills/wordpress-content-publisher/) | Structured publishing workflow for WordPress drafts, metadata, and content operations. | Security Reviewed | — | — |
 | [WordPress Gutenberg Block Generator](skills/wordpress-gutenberg-block-generator/) | Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them… | Security Reviewed | — | — |
@@ -1693,7 +1695,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (67 skills)
+### 🌐 Browser Automation (68 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1766,6 +1768,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](skills/stagehand-ai-browser-automation-framework-browserbase/) | Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with… | Published | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | — | — |
+| [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Published | — | — |
 
 
 ### ✍️ Content Writing & SEO (62 skills)
