@@ -91,6 +91,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
+| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | — | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1680 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-04 23:33 UTC
+> **1683 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-05 01:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (237 skills)
+### 🛠️ Developer Tools (238 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -238,6 +238,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](skills/swc-speedy-web-compiler-javascript-typescript/) | SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a… | Security Reviewed | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](skills/tabby-self-hosted-ai-coding-assistant/) | Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub… | Security Reviewed | — | — |
+| [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Published | — | — |
 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
 | [Textual Python TUI Application Framework by Textualize](skills/textual-python-tui-application-framework/) | Textual is a lean application framework for Python that lets you build sophisticated terminal user interfaces with a… | Security Reviewed | — | — |
@@ -406,7 +407,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (123 skills)
+### 🔄 Data Extraction & Transformation (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -500,6 +501,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [jq JSON Stream Transformer](skills/jq-json-stream-transformer/) | Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object… | Security Reviewed | — | — |
 | [jq Pipeline Builder Agent](skills/jq-pipeline-builder-agent/) | Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq… | Security Reviewed | — | — |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | — | — |
+| [LightRAG Graph-Based Retrieval-Augmented Generation Framework](skills/lightrag-graph-rag-framework/) | LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for… | Published | — | — |
 | [markdownify Python HTML to Markdown Conversion Library](skills/markdownify-python-html-to-markdown-converter/) | markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering,… | Security Reviewed | — | — |
 | [Metabase Dashboard Snapshot & Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key… | Security Reviewed | — | — |
 | [Pandas DataFrame Pipeline Builder](skills/pandas-dataframe-pipeline-builder/) | Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with… | Security Reviewed | — | — |
@@ -1286,7 +1288,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (73 skills)
+### 🎨 Image & Creative Automation (74 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1351,6 +1353,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | — | — |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
+| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Published | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | — | — |
 | [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | — | — |

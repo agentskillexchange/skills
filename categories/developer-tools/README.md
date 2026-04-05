@@ -264,6 +264,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | — | — |
+| [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | — | — |

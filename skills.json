@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1680,
-  "generated": "2026-04-04",
+  "total": 1683,
+  "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "tera-rust-template-engine",
+      "name": "Tera Jinja2-Inspired Template Engine for Rust",
+      "description": "Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template inheritance, macros, filters, and auto-escaping, making it…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "pixelmatch-image-comparison-library",
+      "name": "Pixelmatch Pixel-Level Image Comparison Library by Mapbox",
+      "description": "Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It features anti-aliased pixel detection and perceptual color difference metrics,…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "lightrag-graph-rag-framework",
+      "name": "LightRAG Graph-Based Retrieval-Augmented Generation Framework",
+      "description": "LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for more connected, contextual retrieval. Published at EMNLP 2025, it enables…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "highlight-io-full-stack-monitoring",
       "name": "Highlight.io Open Source Full-Stack Monitoring Platform",
