@@ -201,6 +201,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 385 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
+| [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | — | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | — | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | — | — |

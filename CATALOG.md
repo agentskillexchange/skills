@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1690 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 09:30 UTC
+> **1693 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 11:32 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (236 skills)
+### 🛠️ Developer Tools (237 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -175,6 +175,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 385 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Appsmith Open Source Internal Tools and Admin Panel Builder](skills/appsmith-open-source-internal-tools-admin-panel-builder/) | Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases… | Published | — | — |
 | [ArgoCD MCP Server](skills/argocd-mcp-server/) | ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is… | Security Reviewed | — | — |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
@@ -1615,7 +1616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (67 skills)
+### 📰 WordPress & CMS (69 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1659,6 +1660,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | — | — |
 | [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](skills/contact-form-7-wordpress-form-builder-mail-integration/) | Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active… | Security Reviewed | — | — |
+| [Directus SQL-Native Headless CMS and Internal App Platform](skills/directus-sql-native-headless-cms-internal-app-platform/) | Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary… | Published | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](skills/elementor-website-builder-wordpress-visual-page-editor/) | Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than… | Security Reviewed | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](skills/emdash-full-stack-typescript-cms-cloudflare/) | EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor… | Security Reviewed | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
@@ -1668,6 +1670,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Gutenberg Custom Block Builder](skills/gutenberg-custom-block-builder/) | Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType().… | Security Reviewed | — | — |
 | [Headless CMS GraphQL Connector](skills/headless-cms-graphql-connector/) | Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client… | Security Reviewed | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](skills/keystonejs-headless-cms-graphql-react-admin/) | KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates a GraphQL API and React-based… | Security Reviewed | — | — |
+| [Strapi Open Source Headless CMS for Custom Content APIs](skills/strapi-open-source-headless-cms-custom-content-apis/) | Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST… | Published | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
 | [WooCommerce REST Order Manager](skills/woocommerce-rest-order-manager/) | Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status,… | Security Reviewed | — | — |
 | [WooCommerce REST Sync Agent](skills/woocommerce-rest-sync-agent/) | Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles… | Security Reviewed | — | — |

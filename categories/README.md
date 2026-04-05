@@ -1,10 +1,10 @@
 # Skill Categories
 
-> **1690 skills** across **17 categories**
+> **1693 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **236** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **237** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **146** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **125** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **116** | Auth setup, vulnerability scanning, compliance checks, and security a... |
@@ -18,7 +18,7 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **73** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **73** | Web research, data collection, content aggregation, and information g... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **72** | Project scaffolding, boilerplate generators, workflow templates, and ... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **67** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **69** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **67** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 

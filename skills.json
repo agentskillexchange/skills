@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1690,
+  "total": 1693,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "appsmith-open-source-internal-tools-admin-panel-builder",
+      "name": "Appsmith Open Source Internal Tools and Admin Panel Builder",
+      "description": "Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases and APIs. It is well suited to…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "directus-sql-native-headless-cms-internal-app-platform",
+      "name": "Directus SQL-Native Headless CMS and Internal App Platform",
+      "description": "Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary data model. It is a…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "strapi-open-source-headless-cms-custom-content-apis",
+      "name": "Strapi Open Source Headless CMS for Custom Content APIs",
+      "description": "Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST or GraphQL APIs. It fits…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "cheerio-html-xml-parsing-library-nodejs-extraction-workflows",
       "name": "Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows",
