@@ -1,26 +1,60 @@
 ---
-title: "ESLint Auto-Fix Orchestrator"
+name: "ESLint Auto-Fix Orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
-slug: "eslint-autofix-orchestrator"
-verification: "security_reviewed"
+category: "Code Quality & Review"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
 ---
 # ESLint Auto-Fix Orchestrator
 
 Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration.
 
+The ESLint Auto-Fix Orchestrator leverages the ESLint Node.js API (new ESLint(), lintFiles(), outputFixes()) to perform automated code linting and fixing across JavaScript and TypeScript codebases. It works with both legacy .eslintrc and modern flat config (eslint.config.js) formats.
+
+
+
+The agent scans project files, identifies fixable violations, and applies safe auto-fixes while preserving code semantics. It integrates typescript-eslint parser and plugin for full TypeScript support, including type-aware linting rules via parserOptions.project.
+
+
+
+Prettier compatibility is maintained through eslint-config-prettier and eslint-plugin-prettier, ensuring formatting and linting rules never conflict. The agent can generate detailed reports in JSON, SARIF, or stylish formats for CI integration.
+
+
+
+Advanced features include incremental linting with cache (–cache flag), custom rule authoring support via RuleTester, and automatic suppression comment generation for legacy code migration. The agent tracks fix statistics and reports improvement trends over time.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install eslint-autofix-orchestrator
+```
 
 ## Source
 

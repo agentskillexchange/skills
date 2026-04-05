@@ -1,26 +1,48 @@
 ---
-title: "Terraform Plan Reviewer"
+name: "Terraform Plan Reviewer"
 description: "Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries."
-slug: "terraform-plan-reviewer-4"
-verification: "security_reviewed"
+category: "CI/CD Integrations"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-4/"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
 ---
 # Terraform Plan Reviewer
 
 Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries.
 
+The Terraform Plan Reviewer skill analyzes Terraform plan output to provide intelligent infrastructure change reviews before apply. It parses the JSON plan format produced by terraform show -json and integrates with the hashicorp/terraform-exec Go SDK for programmatic plan execution. The skill classifies resource changes into categories: creates, updates, destroys, and replacements, flagging potentially destructive operations like database deletions or security group modifications. Integration with the Infracost API provides estimated cost impact for AWS, GCP, and Azure resources before changes are applied. The reviewer generates structured approval summaries with risk scores based on the sensitivity of modified resources, blast radius estimation, and dependency chain analysis. It supports Terraform workspace-aware reviews, module-level change grouping, and state drift detection by comparing plan output against expected configurations. The skill also validates provider version constraints, checks for deprecated resource attributes, and ensures backend configuration consistency. Output formats include Markdown summaries for PR comments, Slack notifications, and structured JSON for integration with custom approval workflows.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-4
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-4 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-4 -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-4 -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install terraform-plan-reviewer-4
+```
 
 ## Source
 

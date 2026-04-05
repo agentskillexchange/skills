@@ -1,26 +1,48 @@
 ---
-title: "ScrapingBee API Data Harvester"
+name: "ScrapingBee API Data Harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
-slug: "scrapingbee-api-data-harvester"
-verification: "security_reviewed"
+category: "Research & Scraping"
+framework: "Custom Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Custom Agents"
 ---
 # ScrapingBee API Data Harvester
 
 Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving.
 
+The ScrapingBee API Data Harvester interfaces with the ScrapingBee REST API to handle complex web scraping scenarios without managing browser infrastructure. It uses the render_js parameter for full JavaScript execution on single-page applications and the wait_for CSS selector option to ensure dynamic content loads before extraction. The custom_google parameter enables structured Google SERP parsing with organic results, featured snippets, and People Also Ask data returned as clean JSON. For visual archiving, the screenshot endpoint captures full-page renders at configurable viewport dimensions. The agent manages API credit usage through intelligent request batching and response caching using node-cache with TTL-based expiration. Premium proxy geotargeting enables location-specific content extraction for SEO monitoring and price comparison tasks. Response data is processed through configurable extraction rules using CSS selectors and XPath expressions, with results validated against predefined schemas before storage.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill scrapingbee-api-data-harvester
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill scrapingbee-api-data-harvester -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill scrapingbee-api-data-harvester -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill scrapingbee-api-data-harvester -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install scrapingbee-api-data-harvester
+```
 
 ## Source
 

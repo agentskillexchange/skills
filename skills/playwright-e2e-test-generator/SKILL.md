@@ -1,26 +1,60 @@
 ---
-title: "Playwright E2E Test Generator"
+name: "Playwright E2E Test Generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
-slug: "playwright-e2e-test-generator"
-verification: "security_reviewed"
+category: "Developer Tools"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
 ---
 # Playwright E2E Test Generator
 
 Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures.
 
+This skill generates complete Playwright end-to-end test suites from natural language test case descriptions. It leverages the Playwright Test runner with built-in fixtures for BrowserContext, Page, and custom test isolation.
+
+
+
+Generated tests use the Playwright Locator API with role-based selectors (getByRole, getByLabel, getByText) for resilient element targeting. The skill supports cross-browser execution across Chromium, Firefox, and WebKit engines simultaneously.
+
+
+
+Advanced features include automatic screenshot capture on failure, video recording via the Playwright trace viewer, network request interception and mocking using route handlers, and visual regression testing with toHaveScreenshot assertions. The skill also generates Page Object Model classes for complex applications.
+
+
+
+Test data management uses Playwright fixtures with automatic cleanup, and parallel test execution is configured via the playwright.config.ts with worker-level isolation.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-e2e-test-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install playwright-e2e-test-generator
+```
 
 ## Source
 

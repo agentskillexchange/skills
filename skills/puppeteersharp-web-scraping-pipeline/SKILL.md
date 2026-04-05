@@ -1,26 +1,56 @@
 ---
-title: "PuppeteerSharp Web Scraping Pipeline"
+name: "PuppeteerSharp Web Scraping Pipeline"
 description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
-slug: "puppeteersharp-web-scraping-pipeline"
-verification: "security_reviewed"
+category: "Research & Scraping"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Claude Code"
 ---
 # PuppeteerSharp Web Scraping Pipeline
 
 Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization.
 
+The PuppeteerSharp Web Scraping Pipeline enables robust data extraction from modern JavaScript-heavy websites within .NET ecosystems. Built on PuppeteerSharp, the official .NET port of Google Puppeteer, it launches headless Chromium instances with configurable viewport sizes, user agent rotation, and proxy chain support.
+
+
+
+The pipeline handles complex scraping scenarios including infinite scroll pagination, shadow DOM traversal, and iframe content extraction. Anti-detection measures include puppeteer-extra-plugin-stealth patterns adapted for PuppeteerSharp, randomized timing intervals, and residential proxy integration via Bright Data or Oxylabs APIs.
+
+
+
+Data extraction uses CSS selectors and XPath queries with automatic retry logic for stale element references. Extracted data flows through a configurable transformation pipeline using Newtonsoft.Json for serialization and AutoMapper for DTO projection. Output destinations include SQL Server via Entity Framework Core, Elasticsearch bulk indexing, or Azure Blob Storage for large datasets. The pipeline supports distributed execution across multiple Chrome instances with work stealing task scheduling.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pipeline -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install puppeteersharp-web-scraping-pipeline
+```
 
 ## Source
 

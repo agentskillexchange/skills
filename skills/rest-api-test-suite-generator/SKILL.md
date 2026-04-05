@@ -1,26 +1,56 @@
 ---
-title: "REST API Test Suite Generator"
+name: "REST API Test Suite Generator"
 description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
-slug: "rest-api-test-suite-generator"
-verification: "security_reviewed"
+category: "Library & API Reference"
+framework: "Claude Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Claude Agents"
 ---
 # REST API Test Suite Generator
 
 Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains.
 
+The REST API Test Suite Generator skill automates the creation of API test suites from OpenAPI specification files. It uses the Postman Collection SDK v4 to programmatically build collection items with request definitions, test scripts, and pre-request authentication flows.
+
+
+
+The skill parses OpenAPI specs to generate test scenarios for each endpoint covering success cases, validation error responses, authentication failures, and edge cases. It creates Postman environments with variable substitution for base URLs, API keys, and OAuth tokens across development, staging, and production configurations.
+
+
+
+Advanced features include dynamic test chaining where response values from one request populate subsequent request parameters using pm.environment.set, contract testing assertions that validate response schemas against OpenAPI definitions using tv4 or ajv validators, performance benchmarking with pm.response.responseTime assertions, and CI integration scripts using Newman CLI with JUnit and HTML reporters. The skill also generates mock server configurations using Prism for offline testing.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill rest-api-test-suite-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install rest-api-test-suite-generator
+```
 
 ## Source
 

@@ -1,26 +1,60 @@
 ---
-title: "Deepgram Nova STT Pipeline"
+name: "Deepgram Nova STT Pipeline"
 description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows."
-slug: "deepgram-nova-stt-pipeline"
-verification: "security_reviewed"
+category: "Media & Transcription"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Claude Code"
 ---
 # Deepgram Nova STT Pipeline
 
 Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows.
 
+Automate speech-to-text transcription using the Deepgram Nova-2 model via their streaming WebSocket API. This skill connects to the Deepgram Python SDK (deepgram-sdk) to process audio files and live audio streams into accurate text transcripts.
+
+
+
+Key capabilities include multi-speaker diarization for meeting recordings, automatic punctuation restoration, and real-time interim results for live captioning. The skill supports over 30 languages with automatic language detection.
+
+
+
+Configuration options include model selection (nova-2, nova, enhanced, base), sample rate settings, encoding formats (linear16, flac, opus), and callback URLs for async processing. The pipeline handles chunked audio uploads for large files, with automatic retry logic and rate limit management against the Deepgram REST API.
+
+
+
+Output formats include plain text, SRT subtitles, VTT captions, and structured JSON with word-level timestamps. Integrates with FFmpeg for audio preprocessing and format conversion before submission to the Deepgram endpoint.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-nova-stt-pipeline
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-nova-stt-pipeline -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-nova-stt-pipeline -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill deepgram-nova-stt-pipeline -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install deepgram-nova-stt-pipeline
+```
 
 ## Source
 

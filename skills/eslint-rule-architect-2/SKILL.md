@@ -1,26 +1,56 @@
 ---
-title: "ESLint Rule Architect"
+name: "ESLint Rule Architect"
 description: "Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices."
-slug: "eslint-rule-architect-2"
-verification: "security_reviewed"
+category: "Code Quality & Review"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-architect-2/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Cursor"
 ---
 # ESLint Rule Architect
 
 Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices.
 
+The ESLint Rule Architect designs and implements custom ESLint rules for enforcing project-specific code conventions. It generates rule modules using the ESLint rule API with proper meta objects including fixable declarations, schema definitions, and message IDs for i18n support.
+
+
+
+The skill creates AST visitor functions targeting specific node types from the ESTree specification, handles scope analysis through eslint-scope, and implements auto-fix suggestions using the Fixer API. For TypeScript projects, it leverages @typescript-eslint/utils to access parserServices for type-checking rules that can inspect resolved types, call signatures, and type narrowing.
+
+
+
+Rule testing is generated using the ESLint RuleTester with comprehensive valid and invalid test cases including auto-fix verification. The architect also creates shareable config packages following the eslint-config-* naming convention with flat config (eslint.config.js) support. It handles rule composition for complex patterns using eslint-plugin-import resolvers and path alias configurations.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-architect-2
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-architect-2 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-architect-2 -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill eslint-rule-architect-2 -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install eslint-rule-architect-2
+```
 
 ## Source
 

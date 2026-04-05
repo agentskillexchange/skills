@@ -1,26 +1,56 @@
 ---
-title: "Selenium Grid Orchestrator"
+name: "Selenium Grid Orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
-slug: "selenium-grid-orchestrator"
-verification: "security_reviewed"
+category: "Browser Automation"
+framework: "OpenClaw"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
 ---
 # Selenium Grid Orchestrator
 
 Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
 
+The Selenium Grid Orchestrator skill automates the deployment and management of Selenium Grid 4 infrastructure for distributed browser testing. It handles hub configuration, node registration, and session distribution across multiple browser types and versions.
+
+
+
+The skill configures Chrome, Firefox, and Edge nodes with specific resource allocation policies including max-sessions, stereotype matching, and drain timeouts. It supports Docker-based node scaling using Selenium Docker images with automatic pull and version pinning.
+
+
+
+Health monitoring tracks node availability, session queue depth, and test throughput metrics. The orchestrator implements smart session routing based on browser capability matching and node load balancing. Integration with TestNG and JUnit parallel execution allows test suites to scale horizontally across the grid. Configuration is managed through TOML files with environment variable overrides for CI environments.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill selenium-grid-orchestrator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install selenium-grid-orchestrator
+```
 
 ## Source
 

@@ -1,26 +1,48 @@
 ---
-title: "dbt Model Dependency Analyzer"
+name: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
-slug: "dbt-model-dependency-analyzer"
-verification: "security_reviewed"
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Claude Code"
 ---
 # dbt Model Dependency Analyzer
 
 Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.
 
+Data transformation project analysis agent for dbt (data build tool) projects. Parses the manifest.json artifact to construct complete model dependency graphs including sources, seeds, snapshots, and exposures. Connects to the dbt Cloud API for run history analysis and model timing optimization. Detects circular dependencies, orphaned models without downstream consumers, and overly deep DAG chains that impact build performance. Generates interactive lineage visualizations using D3.js force-directed graphs. Analyzes SQL compilation output to identify expensive cross-database references and suggest materialization strategy changes between views, tables, and incremental models. Validates ref() and source() macro usage for correctness. Integrates with data catalog tools via the dbt exposures API for downstream impact analysis. Supports multi-project dependency analysis across dbt mesh architectures.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dbt-model-dependency-analyzer
+```
 
 ## Source
 

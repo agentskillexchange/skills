@@ -1,13 +1,10 @@
 ---
-title: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
+name: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
 description: "Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages, custom post types, taxonomies, settings pages, user profiles, and comments."
-slug: "meta-box-wordpress-custom-fields-framework"
-verification: "security_reviewed"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
+verification: security_reviewed
 source: "https://github.com/wpmetabox/meta-box"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wpmetabox/meta-box"
   github_stars: 1237
@@ -16,14 +13,57 @@ tool_ecosystem:
 
 Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages, custom post types, taxonomies, settings pages, user profiles, and comments.
 
+Meta Box is a widely-used WordPress plugin and framework that enables developers and site builders to add custom fields and meta boxes to any WordPress content type. With over 40 built-in field types including text, image upload, WYSIWYG editor, file, select, checkbox, radio, date/time picker, taxonomy, user, and oEmbed, Meta Box covers virtually any data capture need.
+
+
+
+Supported Content Types
+
+Custom fields can be attached to posts, pages, custom post types, taxonomies (via MB Term Meta), settings pages and Customizer sections (via MB Settings Page), user profile pages (via MB User Profile), and post comments (via MB Comment Meta). This flexibility makes Meta Box suitable for building complex content architectures.
+
+
+
+Developer Features
+
+Meta Box uses native WordPress meta data storage and functions for performance. It supports cloneable (repeatable) fields for all field types including WYSIWYG, and repeatable field groups via the Group extension. Developers can create custom field types, and the plugin provides extensive actions and filters for customization. Meta Box integrates with Composer for dependency management.
+
+
+
+Agent Integration
+
+For AI agents working with WordPress, Meta Box fields are exposed through the WordPress REST API, making them accessible for content automation workflows. The plugin integrates with page builders (Elementor, Beaver Builder, Divi, Bricks, Brizy), SEO plugins (Yoast, Rank Math), and supports migration from ACF or Toolset. Meta Box Lite provides a free UI for managing fields without code. Install from WordPress.org or via Composer with composer require wpmetabox/meta-box.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill meta-box-wordpress-custom-fields-framework
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill meta-box-wordpress-custom-fields-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill meta-box-wordpress-custom-fields-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill meta-box-wordpress-custom-fields-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install meta-box-wordpress-custom-fields-framework
+```
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
-title: "Angular — TypeScript Web Application Framework by Google"
+name: "Angular — TypeScript Web Application Framework by Google"
 description: "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication."
-slug: "angular-typescript-web-framework"
-verification: "listed"
+category: "Developer Tools"
+framework: "Multi-Framework"
+verification: listed
 source: "https://github.com/angular/angular"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "angular/angular"
   github_stars: 100096
@@ -18,12 +15,35 @@ Angular is a TypeScript-based web application platform by Google providing depen
 
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill angular-typescript-web-framework
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill angular-typescript-web-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install angular-typescript-web-framework
+```
 
 ## Source
 

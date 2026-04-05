@@ -1,26 +1,56 @@
 ---
-title: "PyPI Package Inspector"
+name: "PyPI Package Inspector"
 description: "Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database."
-slug: "pypi-package-inspector"
-verification: "security_reviewed"
+category: "Library & API Reference"
+framework: "Gemini"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Gemini"
 ---
 # PyPI Package Inspector
 
 Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database.
 
+The PyPI Package Inspector skill provides deep analysis of Python packages through the PyPI JSON API. It retrieves package metadata including version histories, maintainer information, download statistics, and classifiers for any package hosted on PyPI.
+
+
+
+The skill integrates with the libraries.io API for dependency tree analysis, identifying transitive dependencies and potential version conflicts. It uses pip-audit to scan packages against the Open Source Vulnerability (OSV) database, flagging known security issues.
+
+
+
+Key features include version comparison and changelog extraction, license compatibility checking across dependency trees, and wheel availability verification for target platforms. The skill generates comprehensive package reports suitable for security reviews and dependency upgrade planning, supporting both individual package inspection and bulk analysis of requirements.txt files.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill pypi-package-inspector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pypi-package-inspector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pypi-package-inspector -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pypi-package-inspector -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pypi-package-inspector
+```
 
 ## Source
 

@@ -1,26 +1,56 @@
 ---
-title: "Apify Actor Development Kit"
+name: "Apify Actor Development Kit"
 description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
-slug: "apify-actor-development-kit"
-verification: "security_reviewed"
+category: "Research & Scraping"
+framework: "Claude Code"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Claude Code"
 ---
 # Apify Actor Development Kit
 
 Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling.
 
+The Apify Actor Development Kit creates scalable web scraping actors using the Apify SDK and Crawlee library. It generates Actor configurations with proper Dockerfile, INPUT_SCHEMA.json, and .actor/actor.json manifests for deployment to the Apify Cloud platform.
+
+
+
+The agent leverages Crawlee crawlers including PlaywrightCrawler for JavaScript-heavy sites, CheerioCrawler for lightweight HTML parsing, and HttpCrawler for API endpoint scraping. It configures RequestQueue for URL frontier management with maxRequestsPerCrawl limits and request uniqueness via uniqueKey hashing.
+
+
+
+Advanced features include Apify Proxy integration with automatic session rotation using ProxyConfiguration with groups and countryCode targeting. The agent sets up Dataset.pushData for structured output storage, KeyValueStore for state persistence across migrations, and implements AutoscaledPool configuration for dynamic concurrency adjustment based on system resources. It also generates Actor input schemas with validation constraints and default values for the Apify Console UI.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-development-kit
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-development-kit -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-development-kit -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-development-kit -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install apify-actor-development-kit
+```
 
 ## Source
 

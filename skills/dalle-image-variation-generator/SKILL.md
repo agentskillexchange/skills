@@ -1,26 +1,52 @@
 ---
-title: "DALL-E Image Variation Generator"
-description: "Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024&#215;1024/1792&#215;1024 aspect ratios, and implements content policy pre-screening with the Moderation API."
-slug: "dalle-image-variation-generator"
-verification: "security_reviewed"
+name: "DALL-E Image Variation Generator"
+description: "Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API."
+category: "Image & Creative Automation"
+framework: "ChatGPT Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-image-variation-generator/"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "ChatGPT Agents"
 ---
 # DALL-E Image Variation Generator
 
-Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024&#215;1024/1792&#215;1024 aspect ratios, and implements content policy pre-screening with the Moderation API.
+Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API.
+
+Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports inpainting via base64-encoded mask uploads, handles 1024×1024/1792×1024 aspect ratios, and implements content policy pre-screening with the Moderation API.
+
+
+
+This skill provides comprehensive automation for its target domain with production-ready error handling and logging. It implements retry mechanisms with configurable backoff strategies, validates all inputs against JSON Schema definitions, and produces structured output compatible with downstream processing pipelines. Authentication is handled through OAuth 2.0 flows or API key rotation with secure storage in environment variables or secret managers like HashiCorp Vault. The skill supports dry-run mode for safe testing, emits OpenTelemetry traces for distributed debugging, and includes comprehensive unit test coverage with mock fixtures for offline development.
 
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill dalle-image-variation-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install dalle-image-variation-generator
+```
 
 ## Source
 

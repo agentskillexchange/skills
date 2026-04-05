@@ -1,26 +1,48 @@
 ---
-title: "Grafana Unified Alerting Manager"
+name: "Grafana Unified Alerting Manager"
 description: "Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances."
-slug: "grafana-unified-alerting-manager"
-verification: "security_reviewed"
+category: "Monitoring & Alerts"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Cursor"
 ---
 # Grafana Unified Alerting Manager
 
 Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances.
 
+The Grafana Unified Alerting Manager skill provides full lifecycle management of alerting configurations across Grafana instances using the Grafana Alerting HTTP API. It creates and updates alert rules with PromQL, LogQL, or SQL expressions, configures contact points for email, Slack, PagerDuty, and webhook receivers, and manages notification policies with label-based routing trees. The skill supports alert rule provisioning via the Provisioning API for GitOps workflows, silence creation and expiry management, and mute timing configurations for maintenance windows. Features include bulk rule import/export in JSON and YAML formats, alert rule testing with sample data evaluation, and cross-instance rule synchronization for high-availability Grafana deployments. Integrates with Grafana OnCall API for escalation chain management.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-unified-alerting-manager -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install grafana-unified-alerting-manager
+```
 
 ## Source
 

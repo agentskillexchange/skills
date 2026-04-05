@@ -1,26 +1,56 @@
 ---
-title: "Gemini Image Style Transfer Agent"
+name: "Gemini Image Style Transfer Agent"
 description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
-slug: "gemini-image-style-transfer-agent"
-verification: "security_reviewed"
+category: "Image & Creative Automation"
+framework: "Gemini"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Gemini"
 ---
 # Gemini Image Style Transfer Agent
 
 Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.
 
+Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts.
+
+
+
+This skill handles image style transfer using Gemini Imagen 3’s image editing capabilities. It takes an input image, encodes it as base64, constructs a style transfer prompt (e.g., ‘Convert to impressionist watercolor with soft edges and warm tones’), and calls the Gemini API with the image plus text prompt. Returns the styled image with metadata about generation parameters.
+
+
+
+Use for product photography transformation, creative content pipelines, social media asset generation, and art direction workflows. Not for photorealistic face editing or content that violates Google’s usage policies. Requires a valid GEMINI_API_KEY and images under 10MB. Style accuracy varies — iterate on prompts for best results.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install gemini-image-style-transfer-agent
+```
 
 ## Source
 

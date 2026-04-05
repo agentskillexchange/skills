@@ -1,26 +1,52 @@
 ---
-title: "Microsoft Graph Mail Triage Agent"
+name: "Microsoft Graph Mail Triage Agent"
 description: "Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API."
-slug: "microsoft-graph-mail-triage-agent"
-verification: "security_reviewed"
+category: "Calendar, Email & Productivity"
+framework: "Gemini"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Gemini"
 ---
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
 
+Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
+
+
+
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill microsoft-graph-mail-triage-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install microsoft-graph-mail-triage-agent
+```
 
 ## Source
 

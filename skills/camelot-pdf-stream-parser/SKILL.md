@@ -1,26 +1,80 @@
 ---
-title: "Camelot PDF Stream Parser"
+name: "Camelot PDF Stream Parser"
 description: "Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores."
-slug: "camelot-pdf-stream-parser"
-verification: "security_reviewed"
+category: "Data Extraction & Transformation"
+framework: "Claude Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Claude Agents"
 ---
 # Camelot PDF Stream Parser
 
 Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores.
 
+Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes complex multi-page documents with OpenCV-based edge detection and outputs normalized DataFrames with cell-level confidence scores.
+
+
+
+Overview
+
+This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
+
+
+
+Key Features
+
+
+
+- Automatic retry logic with exponential backoff for API rate limits
+
+
+
+- Structured output formatting compatible with downstream agent pipelines
+
+
+
+- Comprehensive error handling with actionable diagnostic messages
+
+
+
+- Configurable caching layer to reduce redundant API calls
+
+
+
+Usage
+
+Install via the Agent Skill Exchange registry and configure with your API credentials. The skill exposes a standardized interface that works across supported agent frameworks, with framework-specific optimizations applied automatically during initialization.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill camelot-pdf-stream-parser -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install camelot-pdf-stream-parser
+```
 
 ## Source
 

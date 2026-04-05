@@ -1,13 +1,10 @@
 ---
-title: "Google Cloud CLI (gcloud) — Command-Line Interface for GCP"
+name: "Google Cloud CLI (gcloud) — Command-Line Interface for GCP"
 description: "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration."
-slug: "google-cloud-cli-gcloud"
-verification: "listed"
+category: "Developer Tools"
+framework: "Multi-Framework"
+verification: listed
 source: "https://cloud.google.com/sdk"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 ---
 # Google Cloud CLI (gcloud) — Command-Line Interface for GCP
 
@@ -15,12 +12,35 @@ The Google Cloud CLI provides command-line access to 200+ GCP services including
 
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-cli-gcloud
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-cli-gcloud -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-cli-gcloud -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill google-cloud-cli-gcloud -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install google-cloud-cli-gcloud
+```
 
 ## Source
 

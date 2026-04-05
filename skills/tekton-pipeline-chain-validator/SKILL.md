@@ -1,26 +1,48 @@
 ---
-title: "Tekton Pipeline Chain Validator"
+name: "Tekton Pipeline Chain Validator"
 description: "Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API."
-slug: "tekton-pipeline-chain-validator"
-verification: "security_reviewed"
+category: "CI/CD Integrations"
+framework: "OpenClaw"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "OpenClaw"
 ---
 # Tekton Pipeline Chain Validator
 
 Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API.
 
+The Tekton Pipeline Chain Validator skill enforces supply chain integrity for Tekton CI/CD pipelines running on Kubernetes. It queries the Tekton Results API to retrieve completed pipeline runs and validates each task image reference against Sigstore cosign signatures. The skill verifies SLSA provenance attestations using in-toto format, checking builder identity, source repository, and build configuration against policy constraints. It supports Tekton Chains integration by validating that TaskRun results include proper signed attestations in the transparency log. Can enforce policies requiring specific signature thresholds, keyless signing via Fulcio certificates, and Rekor log inclusion. Generates compliance reports in SARIF format compatible with GitHub Code Scanning. Alerts on unsigned images, expired certificates, or provenance gaps via PagerDuty or OpsGenie webhooks.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill tekton-pipeline-chain-validator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install tekton-pipeline-chain-validator
+```
 
 ## Source
 

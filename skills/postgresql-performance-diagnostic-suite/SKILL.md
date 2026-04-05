@@ -1,26 +1,48 @@
 ---
-title: "PostgreSQL Performance Diagnostic Suite"
+name: "PostgreSQL Performance Diagnostic Suite"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations."
-slug: "postgresql-performance-diagnostic-suite"
-verification: "security_reviewed"
+category: "Runbooks & Diagnostics"
+framework: "MCP"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "MCP"
 ---
 # PostgreSQL Performance Diagnostic Suite
 
 Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations.
 
+This skill automates PostgreSQL database performance diagnostics by querying system catalog views and performance monitoring extensions. It connects via psycopg2 or the PostgreSQL wire protocol to run diagnostic queries against pg_stat_statements for identifying slow queries, pg_stat_activity for active connection analysis, and pg_stat_user_tables for table bloat and sequential scan detection. The suite runs EXPLAIN ANALYZE on identified slow queries and parses the output to pinpoint missing indexes, inefficient joins, and suboptimal query plans. It integrates with pgBadger to parse PostgreSQL log files for pattern analysis, identifying peak load periods and recurring slow query patterns. The skill checks pg_stat_bgwriter for checkpoint frequency issues, analyzes vacuum and autovacuum statistics, and examines lock contention via pg_locks. Reports include actionable recommendations with specific CREATE INDEX statements, configuration parameter adjustments for shared_buffers, work_mem, and effective_cache_size.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostic-suite
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostic-suite -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostic-suite -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill postgresql-performance-diagnostic-suite -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install postgresql-performance-diagnostic-suite
+```
 
 ## Source
 

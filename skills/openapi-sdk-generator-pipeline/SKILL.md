@@ -1,26 +1,48 @@
 ---
-title: "OpenAPI SDK Generator Pipeline"
+name: "OpenAPI SDK Generator Pipeline"
 description: "Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic."
-slug: "openapi-sdk-generator-pipeline"
-verification: "security_reviewed"
+category: "Library & API Reference"
+framework: "Custom Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Custom Agents"
 ---
 # OpenAPI SDK Generator Pipeline
 
 Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic.
 
+This skill transforms OpenAPI 3.0 and 3.1 specifications into production-ready client SDKs using the OpenAPI Generator CLI. It validates spec files against the OpenAPI JSON Schema, resolving external $ref references and circular dependencies. The generator produces typed client libraries for TypeScript (using fetch or axios), Python (using httpx or aiohttp), and Go (using net/http) with full model serialization support. Authentication interceptors handle OAuth2, API key, and Bearer token flows with automatic token refresh. Generated clients include exponential backoff retry logic with configurable attempt limits and jitter. Request and response validation middleware ensures runtime conformance to the API schema. The skill generates comprehensive test suites with mock server configurations using Prism or WireMock. Documentation is auto-generated as markdown API references with code examples for each endpoint. Package publishing configurations produce npm packages, PyPI wheels, and Go modules with semantic versioning derived from spec version fields.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install openapi-sdk-generator-pipeline
+```
 
 ## Source
 

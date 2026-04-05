@@ -1,26 +1,48 @@
 ---
-title: "Docker Container Health Check Runbook"
+name: "Docker Container Health Check Runbook"
 description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
-slug: "docker-container-health-check-runbook"
-verification: "security_reviewed"
+category: "Runbooks & Diagnostics"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Cursor"
 ---
 # Docker Container Health Check Runbook
 
 Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity.
 
+This skill provides automated health diagnostics for Docker containers and Docker Compose stacks. It queries the Docker Engine API to inspect container states, resource consumption, and configuration details. The runbook checks container health status via HEALTHCHECK definitions, analyzes docker stats output for CPU throttling and memory pressure, and verifies network connectivity between containers using docker network inspect. It examines volume mounts for permission issues and disk space constraints, checks for zombie processes inside containers via docker top, and validates environment variable injection. The skill parses docker events streams to identify restart loops and OOM kills, analyzes Dockerfile layers for size optimization opportunities using dive, and checks for known vulnerabilities in base images via trivy scanning. It generates structured reports with container-specific remediation steps and can automatically restart unhealthy containers or scale services via Docker Compose.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill docker-container-health-check-runbook -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install docker-container-health-check-runbook
+```
 
 ## Source
 

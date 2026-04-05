@@ -1,26 +1,60 @@
 ---
-title: "PHPStan Static Analyzer Agent"
+name: "PHPStan Static Analyzer Agent"
 description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects."
-slug: "phpstan-static-analyzer-agent"
-verification: "security_reviewed"
+category: "Code Quality & Review"
+framework: "OpenClaw"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
 ---
 # PHPStan Static Analyzer Agent
 
 Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects.
 
+The PHPStan Static Analyzer Agent runs PHPStan CLI (phpstan analyse) at configurable rule levels (0-9) with custom extension support for comprehensive PHP static analysis. It detects type errors, unreachable code, incorrect PHPDoc annotations, and framework-specific issues.
+
+
+
+The agent configures phpstan.neon with project-specific settings including autoload paths, stub files for third-party dependencies, and custom rule definitions. It supports PHPStan extensions for WordPress (szepeviktor/phpstan-wordpress), Laravel (larastan), Symfony, and Doctrine ORM.
+
+
+
+For WordPress projects, the agent handles hook callback type inference, global function stubs ($wpdb, WP_Query), and template hierarchy analysis. Laravel support includes Eloquent model property inference, facade resolution, and container binding analysis through Larastan.
+
+
+
+Baseline management (phpstan analyse –generate-baseline) enables gradual adoption by ignoring existing errors while enforcing zero new errors. The agent tracks error counts per level, generates trend reports, and suggests incremental level upgrades. CI integration outputs errors in checkstyle XML or JSON format for GitHub annotations and code review comments.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install phpstan-static-analyzer-agent
+```
 
 ## Source
 

@@ -1,26 +1,52 @@
 ---
-title: "CDP Network Interception Logger"
+name: "CDP Network Interception Logger"
 description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
-slug: "cdp-network-interception-logger"
-verification: "security_reviewed"
+category: "Browser Automation"
+framework: "Codex"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
-category:
-  - "Browser Automation"
-framework:
-  - "Codex"
 ---
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
 
+Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.
+
+
+
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill cdp-network-interception-logger -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install cdp-network-interception-logger
+```
 
 ## Source
 

@@ -1,26 +1,48 @@
 ---
-title: "Argo Workflows Deployer"
+name: "Argo Workflows Deployer"
 description: "Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies."
-slug: "argo-workflows-deployer"
-verification: "security_reviewed"
+category: "CI/CD Integrations"
+framework: "Gemini"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argo-workflows-deployer/"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Gemini"
 ---
 # Argo Workflows Deployer
 
 Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies.
 
+The Argo Workflows Deployer skill creates sophisticated deployment pipelines using the Argo ecosystem on Kubernetes. It leverages the Argo Workflows Engine API to define DAG-based and step-based workflow templates with conditional execution, retry policies, and resource-aware scheduling. The skill integrates with Argo CD ApplicationSet controller to generate Application resources dynamically from Git repositories, pull request generators, and cluster generators for multi-cluster deployments. Progressive delivery is implemented through Argo Rollouts, configuring canary deployments with automated analysis using Prometheus metrics, blue-green strategies with traffic shifting via Istio or AWS ALB, and experiment-based validation. The skill manages Argo Events sensors and event sources for GitOps-driven automation, connecting repository changes to deployment workflows. It supports artifact repositories backed by S3, GCS, or MinIO, workflow-level memoization for expensive steps, and integration with Vault for secrets management during deployments.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill argo-workflows-deployer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install argo-workflows-deployer
+```
 
 ## Source
 

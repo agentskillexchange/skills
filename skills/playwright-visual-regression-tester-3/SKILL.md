@@ -1,26 +1,52 @@
 ---
-title: "Playwright Visual Regression Tester"
+name: "Playwright Visual Regression Tester"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
-slug: "playwright-visual-regression-tester-3"
-verification: "security_reviewed"
+category: "Browser Automation"
+framework: "OpenClaw"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
 ---
 # Playwright Visual Regression Tester
 
 Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results.
 
+Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results.
+
+
+
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester-3
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester-3 -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester-3 -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill playwright-visual-regression-tester-3 -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install playwright-visual-regression-tester-3
+```
 
 ## Source
 

@@ -1,26 +1,48 @@
 ---
-title: "Container Runtime Security Monitor"
+name: "Container Runtime Security Monitor"
 description: "Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time."
-slug: "container-runtime-security-monitor"
-verification: "security_reviewed"
+category: "Security & Verification"
+framework: "Gemini"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/container-runtime-security-monitor/"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Gemini"
 ---
 # Container Runtime Security Monitor
 
 Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time.
 
+Runtime security monitoring agent for containerized workloads. Deploys and manages Falco rules to detect suspicious system call patterns including unexpected shell executions, file access in sensitive directories, and privilege escalation attempts. Connects to the Docker Engine API and containerd runtime to monitor container lifecycle events, resource consumption anomalies, and configuration drift. Implements network policy enforcement verification by correlating observed connections against Kubernetes NetworkPolicy definitions via the K8s API. Detects cryptomining behavior through CPU usage pattern analysis and known mining pool DNS lookups. Supports custom rule authoring with a YAML-based DSL for organization-specific threat models. Streams alerts to SIEM systems via Syslog and webhook integrations with PagerDuty and OpsGenie for incident response.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill container-runtime-security-monitor
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill container-runtime-security-monitor -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill container-runtime-security-monitor -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill container-runtime-security-monitor -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install container-runtime-security-monitor
+```
 
 ## Source
 

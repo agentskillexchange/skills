@@ -1,26 +1,48 @@
 ---
-title: "Puppeteer Cookie Consent Automator"
+name: "Puppeteer Cookie Consent Automator"
 description: "Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms."
-slug: "puppeteer-cookie-consent-automator"
-verification: "security_reviewed"
+category: "Browser Automation"
+framework: "Custom Agents"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
-category:
-  - "Browser Automation"
-framework:
-  - "Custom Agents"
 ---
 # Puppeteer Cookie Consent Automator
 
 Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained classifier. Supports OneTrust, Cookiebot, and TrustArc consent management platforms.
 
+The Puppeteer Cookie Consent Automator navigates websites via Puppeteer using the Chrome DevTools Protocol and automatically identifies and interacts with cookie consent banners. It maintains a detection library covering major consent management platforms including OneTrust, Cookiebot, TrustArc, and Quantcast Choice. Detection uses a combination of DOM selector matching, iframe content analysis, and text classification to identify consent dialogs regardless of implementation approach. The agent supports configurable consent strategies: accept all, reject all, accept necessary only, or custom category selection. For each consent interaction, it logs the consent state, categories accepted, and cookie changes before and after consent using the CDP Network.getCookies endpoint. Shadow DOM traversal handles consent banners embedded in web component shadow roots. The tool integrates with compliance auditing workflows by verifying that cookie behavior matches declared cookie policies. Batch mode processes URL lists for large-scale consent compliance scanning.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-automator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install puppeteer-cookie-consent-automator
+```
 
 ## Source
 

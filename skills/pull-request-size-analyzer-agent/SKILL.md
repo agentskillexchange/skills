@@ -1,26 +1,56 @@
 ---
-title: "Pull Request Size Analyzer"
+name: "Pull Request Size Analyzer"
 description: "Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API."
-slug: "pull-request-size-analyzer-agent"
-verification: "security_reviewed"
+category: "Code Quality & Review"
+framework: "OpenClaw"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "OpenClaw"
 ---
 # Pull Request Size Analyzer
 
 Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API.
 
+The Pull Request Size Analyzer promotes healthy code review practices by analyzing PR size, complexity, and reviewability. Using the GitHub GraphQL API, it fetches PR diff statistics, file change patterns, and review history to assess whether a PR is appropriately scoped for effective review.
+
+
+
+The agent calculates multiple size metrics beyond simple line counts: logical change units (related changes grouped by feature), cognitive load estimation based on file diversity and complexity scores, and test-to-code change ratios. It integrates with GitHub Checks API to provide inline PR feedback with specific size warnings and splitting suggestions.
+
+
+
+When a PR exceeds configurable thresholds, the agent suggests concrete splitting strategies based on the change types detected — separating refactoring from feature work, splitting database migrations from application changes, or breaking apart cross-cutting concerns. It tracks team-level metrics including average PR size, review turnaround time, and review thoroughness correlation with PR size. Dashboards show trends to help teams maintain healthy review practices.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill pull-request-size-analyzer-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pull-request-size-analyzer-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pull-request-size-analyzer-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pull-request-size-analyzer-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pull-request-size-analyzer-agent
+```
 
 ## Source
 

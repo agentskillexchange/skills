@@ -1,26 +1,48 @@
 ---
-title: "NPM Package Explorer"
+name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
-slug: "npm-package-explorer-registry-api"
-verification: "security_reviewed"
+category: "Library & API Reference"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Cursor"
 ---
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
 
+NPM Package Explorer queries the npm Registry API to provide deep analysis of npm packages and their ecosystems. It retrieves package metadata, version histories, and maintainer information directly from the registry. Integration with the npms.io API provides quality, popularity, and maintenance scores for informed package selection. Bundle size analysis uses the bundlephobia API to estimate the impact of adding packages to frontend projects, including tree-shaking support detection. The tool builds comprehensive dependency trees using the npm resolve algorithm, identifying duplicate packages and version conflicts. License compliance scanning detects incompatible license combinations across dependency chains. It tracks download statistics via the npm downloads API with trend analysis and comparison charts. Security audit integration cross-references with npm audit advisories and Snyk vulnerability database for real-time risk assessment.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install npm-package-explorer-registry-api
+```
 
 ## Source
 

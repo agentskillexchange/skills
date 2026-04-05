@@ -1,13 +1,10 @@
 ---
-title: "Steel Browser Open Source API for AI Agent Web Automation"
+name: "Steel Browser Open Source API for AI Agent Web Automation"
 description: "Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and applications. It handles session management, proxy rotation, anti-detection, and Chrome extension loading so developers can focus on their AI application logic."
-slug: "steel-browser-api-ai-agent-web-automation"
-verification: "security_reviewed"
+category: "Browser Automation"
+framework: "Multi-Framework"
+verification: security_reviewed
 source: "https://github.com/steel-dev/steel-browser"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "steel-dev/steel-browser"
   github_stars: 6768
@@ -16,14 +13,59 @@ tool_ecosystem:
 
 Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and applications. It handles session management, proxy rotation, anti-detection, and Chrome extension loading so developers can focus on their AI application logic.
 
+Steel Browser is an open-source browser API built specifically for AI agents and web automation applications. Developed by Steel.dev, it wraps Puppeteer and the Chrome DevTools Protocol into a managed service that handles the infrastructure complexity of browser automation — session management, proxy chains, cookie persistence, anti-detection, and resource cleanup.
+
+
+
+The core value proposition is separation of concerns: AI application developers focus on their agent logic while Steel manages the browser lifecycle. Sessions maintain state across requests including cookies, local storage, and authentication tokens. This is critical for agents that need to navigate authenticated flows, fill multi-step forms, or maintain context across page transitions.
+
+
+
+Steel provides multiple connection methods. You can use Puppeteer, Playwright, or Selenium to connect to Steel-managed browser instances. The API exposes endpoints for creating sessions, navigating pages, taking screenshots, converting pages to markdown or readable text, and generating PDFs. A built-in Swagger UI at the /documentation endpoint provides interactive API exploration.
+
+
+
+Anti-detection features include stealth plugins and fingerprint management, making Steel suitable for scraping workflows that need to avoid bot detection. Proxy chain management enables IP rotation for large-scale data collection. The extension loading system lets you inject custom Chrome extensions for tasks like ad blocking, consent handling, or authentication helpers.
+
+
+
+Deployment options include Docker (single command to start), Railway and Render one-click deploys, or Steel Cloud for a managed hosted version. The Docker image bundles both the API server and a debugging UI. For local development, a separate docker-compose configuration provides hot-reload capability.
+
+
+
+The debugging tools deserve mention — Steel includes a session viewer UI and request logging that make it possible to inspect what the browser is doing during an agent run. This is essential for diagnosing automation failures in complex multi-page workflows.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-automation
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-automation -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-automation -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill steel-browser-api-ai-agent-web-automation -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install steel-browser-api-ai-agent-web-automation
+```
 
 ## Source
 

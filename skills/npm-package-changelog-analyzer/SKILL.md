@@ -1,26 +1,56 @@
 ---
-title: "NPM Package Changelog Analyzer"
+name: "NPM Package Changelog Analyzer"
 description: "Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects breaking changes, security patches, and dependency conflicts across package upgrade paths."
-slug: "npm-package-changelog-analyzer"
-verification: "security_reviewed"
+category: "Library & API Reference"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Cursor"
 ---
 # NPM Package Changelog Analyzer
 
 Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects breaking changes, security patches, and dependency conflicts across package upgrade paths.
 
+The NPM Package Changelog Analyzer skill provides intelligent analysis of package update histories to assist with dependency management decisions. It queries the NPM Registry API to retrieve version metadata, dist-tags, and time-stamped release information for any published package.
+
+
+
+The skill cross-references changelog entries with the GitHub Releases API to correlate version bumps with pull request links, commit SHAs, and contributor information. It uses semver for semantic version range analysis and detects breaking changes by parsing conventional commit messages and BREAKING CHANGE footers.
+
+
+
+Advanced capabilities include transitive dependency conflict detection by building resolution trees similar to npm ls, security advisory correlation with the GitHub Advisory Database API and npm audit signatures, peer dependency compatibility validation, and license change detection across versions. The skill generates upgrade impact reports with risk scores and suggested update ordering for monorepo environments using Lerna or Turborepo.
+
 ## Installation
 
-Choose the method that fits your setup:
-1. Install from the Agent Skill Exchange website
-2. Clone or download the upstream source repository
-3. Install via npm if the project is published there
-4. Use the tool's package manager or release binaries
-5. Copy the skill files into your local skills directory manually
+### Any Agent
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-changelog-analyzer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-changelog-analyzer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-changelog-analyzer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-changelog-analyzer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install npm-package-changelog-analyzer
+```
 
 ## Source
 
