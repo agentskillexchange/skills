@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1683 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-05 01:35 UTC
+> **1686 published skills** across **17 categories** · 1638 security reviewed · Updated 2026-04-05 03:37 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (238 skills)
+### 🛠️ Developer Tools (239 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -209,6 +209,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LangChain MCP Server](skills/langchain-mcp-server/) | LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Linear Issue Manager](skills/linear-issue-manager/) | Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](skills/lipgloss-terminal-styling-library/) | Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+… | Published | — | — |
+| [llamafile Single-File LLM Distribution and Runner by Mozilla](skills/llamafile-single-file-llm-runner-mozilla/) | llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows,… | Published | — | — |
 | [LlamaIndex Agent](skills/llamaindex-agent/) | LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented… | Security Reviewed | — | — |
 | [LlamaIndex MCP Server](skills/llamaindex-mcp-server/) | LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is… | Security Reviewed | — | — |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
@@ -894,7 +895,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (97 skills)
+### 📚 Library & API Reference (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -916,6 +917,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking… | Security Reviewed | — | — |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | — | — |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | — | — |
+| [FilePond Flexible JavaScript File Upload Library](skills/filepond-javascript-file-upload-library/) | FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with… | Published | — | — |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | — | — |
 | [GraphQL Introspection Documenter](skills/graphql-introspection-documenter/) | Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js… | Security Reviewed | — | — |
 | [GraphQL Schema Analyzer](skills/graphql-schema-analyzer/) | Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects… | Security Reviewed | — | — |
@@ -1288,7 +1290,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (74 skills)
+### 🎨 Image & Creative Automation (75 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1354,6 +1356,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Published | — | — |
+| [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Published | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports… | Security Reviewed | — | — |
 | [Sharp Image Pipeline Processor](skills/sharp-image-pipeline-processor-2/) | Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(),… | Security Reviewed | — | — |

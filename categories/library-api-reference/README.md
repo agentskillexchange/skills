@@ -47,6 +47,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | — | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
+| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | — | — |
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | — | — |

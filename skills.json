@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1683,
+  "total": 1686,
   "generated": "2026-04-05",
   "skills": [
+    {
+      "slug": "resvg-svg-rendering-library-rust",
+      "name": "resvg High-Performance SVG Rendering Library in Rust",
+      "description": "resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high correctness. It works as…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "filepond-javascript-file-upload-library",
+      "name": "FilePond Flexible JavaScript File Upload Library",
+      "description": "FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with drag-and-drop, paste, and API support. It includes built-in…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "llamafile-single-file-llm-runner-mozilla",
+      "name": "llamafile Single-File LLM Distribution and Runner by Mozilla",
+      "description": "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "tera-rust-template-engine",
       "name": "Tera Jinja2-Inspired Template Engine for Rust",

@@ -92,6 +92,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | — | — |
+| [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | — | — |
