@@ -1,7 +1,7 @@
 ---
 name: "AWS CloudWatch Alarm Runbook Generator"
 description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
-category: "Runbooks & Diagnostics"
+category: "Runbooks &amp; Diagnostics"
 framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"

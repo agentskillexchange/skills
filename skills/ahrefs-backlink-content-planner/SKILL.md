@@ -1,7 +1,7 @@
 ---
 name: "Ahrefs Backlink Content Planner"
 description: "Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics."
-category: "Content Writing & SEO"
+category: "Content Writing &amp; SEO"
 framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
@@ -10,35 +10,19 @@ source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 
 Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics.
 
-Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics.
-
-
-
 Overview
 
 This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
 
-
-
 Key Features
-
-
 
 - Automatic retry logic with exponential backoff for API rate limits
 
-
-
 - Structured output formatting compatible with downstream agent pipelines
-
-
 
 - Comprehensive error handling with actionable diagnostic messages
 
-
-
 - Configurable caching layer to reduce redundant API calls
-
-
 
 Usage
 

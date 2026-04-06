@@ -1,7 +1,7 @@
 ---
 name: "Slack Standup Automator"
 description: "Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage."
-category: "Calendar, Email & Productivity"
+category: "Calendar, Email &amp; Productivity"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-standup-automator/"

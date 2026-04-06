@@ -6,7 +6,7 @@ framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/biomejs/biome"
 tool_ecosystem:
-  github_repo: "biomejs/biome"
+  github_repo: "https://github.com/biomejs/biome"
   github_stars: 24199
 ---
 # Biome Lint Migration Toolkit

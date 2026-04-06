@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/withastro/astro"
 tool_ecosystem:
-  github_repo: "withastro/astro"
+  github_repo: "https://github.com/withastro/astro"
   github_stars: 57979
   npm_package: "astro"
   npm_weekly_downloads: 1890539
@@ -17,31 +17,21 @@ Astro is a modern web framework for building content-driven websites. It ships z
 
 Astro is an open-source web framework created by the Astro team for building content-driven websites. With over 57,000 GitHub stars, it has become one of the most popular web frameworks by offering a unique approach: ship zero JavaScript by default, and only hydrate interactive components when needed using its islands architecture.
 
-
-
 Islands Architecture
 
 Astro pioneered the islands architecture for the web. Instead of shipping an entire JavaScript application to the browser, Astro renders pages to static HTML and only hydrates individual interactive components (islands) on the client. This results in dramatically faster page loads and better Core Web Vitals scores compared to traditional SPA frameworks.
-
-
 
 Framework Agnostic
 
 Astro supports bringing your own UI framework. You can use React, Vue, Svelte, Solid, Preact, Alpine.js, or even mix multiple frameworks on the same page. Each component renders to HTML at build time, with optional client-side hydration directives (client:load, client:idle, client:visible) that control when and how JavaScript is loaded.
 
-
-
 Content Collections
 
 Astro provides a built-in content layer with type-safe content collections. You can define schemas for Markdown, MDX, JSON, or YAML content using Zod, and Astro validates your content at build time. This makes it ideal for blogs, documentation sites, marketing pages, and portfolios.
 
-
-
 Deployment and Integrations
 
 Astro supports static site generation (SSG) and server-side rendering (SSR) with adapters for Vercel, Cloudflare Workers, Node.js, and Netlify. The integration ecosystem includes official packages for sitemap generation, image optimization, MDX support, and Tailwind CSS.
-
-
 
 Agent Integration
 

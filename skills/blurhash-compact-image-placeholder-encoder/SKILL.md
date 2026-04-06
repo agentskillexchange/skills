@@ -1,12 +1,12 @@
 ---
 name: "BlurHash Compact Image Placeholder Encoder"
 description: "An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and decode tiny hash strings that represent blurred previews of images. Enables instant placeholder rendering in web and mobile applications while full images load."
-category: "Image & Creative Automation"
+category: "Image &amp; Creative Automation"
 framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/woltapp/blurhash"
 tool_ecosystem:
-  github_repo: "woltapp/blurhash"
+  github_repo: "https://github.com/woltapp/blurhash"
   github_stars: 16958
   npm_package: "blurhash"
   npm_weekly_downloads: 846195
@@ -17,25 +17,17 @@ An agent skill that uses BlurHash, the compact image placeholder representation 
 
 BlurHash is an algorithm and multi-language library created by Wolt that encodes an image into a short string (typically 20-30 characters) representing a blurred, low-resolution version of that image. This skill integrates BlurHash encoding and decoding into agent workflows for automated placeholder image generation across web and mobile platforms.
 
-
-
 Core Capabilities
 
 The skill accepts source images and produces BlurHash strings that can be stored alongside image metadata in databases, APIs, or content management systems. These compact strings decode into smooth gradient approximations of the original image, providing a visually pleasant loading experience instead of blank spaces or spinner icons. The algorithm uses discrete cosine transform (DCT) components to represent color patterns, with configurable X and Y component counts that control the level of detail in the placeholder.
-
-
 
 How It Works
 
 When encoding, the skill reads the source image, downsamples it, and computes DCT coefficients across a configurable grid (typically 4×3 components). These coefficients are packed into a base83-encoded string. When decoding, the skill reconstructs pixel data from the hash string at any target resolution, producing smooth gradient images suitable for CSS backgrounds or canvas rendering. The entire encode-decode cycle is deterministic and produces identical results across all platform implementations.
 
-
-
 Integration Points
 
 BlurHash integrates into content pipelines as a pre-processing step during image upload. The skill can batch-process image libraries to generate hashes for existing assets, embed hashes in API responses alongside image URLs, and generate inline CSS or SVG representations for server-side rendering. It works with React, React Native, iOS (Swift), Android (Kotlin), and pure JavaScript implementations for client-side decoding.
-
-
 
 Technical Details
 

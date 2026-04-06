@@ -1,7 +1,7 @@
 ---
 name: "Google Search Console Performance Analyzer"
 description: "Pulls search analytics from Google Search Console’s /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates."
-category: "Content Writing & SEO"
+category: "Content Writing &amp; SEO"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/"

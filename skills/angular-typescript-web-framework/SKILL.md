@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/angular/angular"
 tool_ecosystem:
-  github_repo: "angular/angular"
+  github_repo: "https://github.com/angular/angular"
   github_stars: 100096
 ---
 # Angular — TypeScript Web Application Framework by Google

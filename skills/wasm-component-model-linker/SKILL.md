@@ -6,7 +6,7 @@ framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/WebAssembly/component-model"
 tool_ecosystem:
-  github_repo: "WebAssembly/component-model"
+  github_repo: "https://github.com/webassembly/component-model"
   github_stars: 1288
 ---
 # WASM Component Model Linker

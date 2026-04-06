@@ -6,7 +6,7 @@ framework: "Cursor"
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
+  github_repo: "https://github.com/puppeteer/puppeteer"
   github_stars: 94012
 ---
 # Puppeteer DevTools Protocol Recorder

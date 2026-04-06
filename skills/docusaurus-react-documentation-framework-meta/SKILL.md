@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/facebook/docusaurus"
 tool_ecosystem:
-  github_repo: "facebook/docusaurus"
+  github_repo: "https://github.com/facebook/docusaurus"
   github_stars: 64315
   npm_package: "docusaurus"
   npm_weekly_downloads: 21996
@@ -18,19 +18,13 @@ Docusaurus is an open-source static site generator built with React, developed a
 
 Docusaurus is a React-based documentation framework created by Meta (formerly Facebook) to help open source projects build and maintain beautiful documentation websites. With over 50,000 GitHub stars, it powers documentation for React Native, Jest, Prettier, Redux, and hundreds of other major projects.
 
-
-
 Core Architecture
 
 Docusaurus generates a fully static site that can be deployed anywhere. Content is written in Markdown or MDX (Markdown with JSX), allowing authors to embed interactive React components directly within documentation pages. The framework provides built-in docs versioning, i18n/localization support via CrowdIn integration, a blog plugin, full-text search via Algolia DocSearch, and automatic SEO metadata generation.
 
-
-
 Key Features
 
 The theming system uses a layered approach with swizzling, letting teams customize any component without forking. The plugin architecture supports custom pages, sidebars, and data sources. Docusaurus supports MDX v3, TypeScript configuration, live code editing with react-live, and Mermaid diagram rendering. It ships with a responsive default theme that includes dark mode, an announcement bar, and a configurable navigation.
-
-
 
 Agent Integration
 

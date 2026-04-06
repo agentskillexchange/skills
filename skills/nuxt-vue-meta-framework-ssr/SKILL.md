@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/nuxt/nuxt"
 tool_ecosystem:
-  github_repo: "nuxt/nuxt"
+  github_repo: "https://github.com/nuxt/nuxt"
   github_stars: 59951
 ---
 # Nuxt — Vue.js Meta-Framework for SSR and Static Sites

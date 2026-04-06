@@ -6,6 +6,8 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/rust-lang/mdBook"
 tool_ecosystem:
+  github_repo: "https://github.com/rust-lang/mdbook"
+  github_stars: 21419
   license: "MPL-2.0"
 ---
 # mdBook Markdown Book Generator by Rust Project
@@ -14,19 +16,13 @@ mdBook is a command-line utility for creating online books from Markdown files. 
 
 mdBook is a Rust-based command-line tool that generates modern, navigable online books from Markdown files. Maintained under the official rust-lang GitHub organization, it is the tool behind The Rust Programming Language book and countless other technical documentation projects.
 
-
-
 How It Works
 
 Authors organize content into chapters using a SUMMARY.md file that defines the book structure. Each chapter is a Markdown file. Running mdbook build produces a static HTML site with full-text search, syntax-highlighted code blocks, a table of contents sidebar, theme switching (light/dark), and print-friendly output. The built-in mdbook serve command launches a local development server with automatic rebuilds on file changes.
 
-
-
 Key Features
 
 mdBook supports integrated search via elasticlunr.js, Rust code block testing (verifying that code samples compile), custom preprocessors for extending Markdown capabilities, alternative renderers for output formats beyond HTML, and customizable themes via Handlebars templates and CSS. It ships as a single static binary with no runtime dependencies.
-
-
 
 Agent Integration
 

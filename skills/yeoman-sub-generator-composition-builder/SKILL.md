@@ -1,12 +1,12 @@
 ---
 name: "Yeoman Sub-Generator Composition Builder"
 description: "Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run loops, priority queues, and cross-generator dependency resolution."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/yeoman/yo"
 tool_ecosystem:
-  github_repo: "yeoman/yo"
+  github_repo: "https://github.com/yeoman/yo"
   github_stars: 3953
   npm_package: "yo"
   npm_weekly_downloads: 441125

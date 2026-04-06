@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:
-  github_repo: "nestjs/nest"
+  github_repo: "https://github.com/nestjs/nest"
   github_stars: 75050
 ---
 # NestJS — Progressive Node.js Framework for Server-Side Applications

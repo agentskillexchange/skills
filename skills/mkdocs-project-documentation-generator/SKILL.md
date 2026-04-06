@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mkdocs/mkdocs"
 tool_ecosystem:
-  github_repo: "mkdocs/mkdocs"
+  github_repo: "https://github.com/mkdocs/mkdocs"
   github_stars: 21931
   license: "BSD-2-Clause"
 ---
@@ -16,19 +16,13 @@ MkDocs is a fast, simple, and elegant static site generator designed for buildin
 
 MkDocs is a Python-based static site generator purpose-built for project documentation. It takes Markdown source files and a single mkdocs.yml configuration file, producing a polished static HTML site that can be hosted on GitHub Pages, Amazon S3, Netlify, or any static file server.
 
-
-
 Core Features
 
 MkDocs provides a built-in development server with live reload, letting you preview documentation changes instantly as you write. The tool ships with two default themes and supports a thriving ecosystem of third-party themes, with Material for MkDocs being among the most popular. Markdown extensions enable advanced features like code highlighting, admonitions, tabbed content, and math rendering.
 
-
-
 Plugin Ecosystem
 
 The plugin architecture supports search indexing, automatic navigation generation, PDF export, API documentation integration via mkdocstrings, i18n support, and more. The catalog of community plugins and themes numbers in the hundreds, covering virtually any documentation need.
-
-
 
 Agent Integration
 

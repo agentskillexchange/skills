@@ -6,7 +6,7 @@ framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/oven-sh/bun"
 tool_ecosystem:
-  github_repo: "oven-sh/bun"
+  github_repo: "https://github.com/oven-sh/bun"
   github_stars: 88702
 ---
 # Bun Shell Script Executor

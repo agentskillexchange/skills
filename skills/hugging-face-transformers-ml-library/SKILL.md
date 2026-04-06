@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/huggingface/transformers"
 tool_ecosystem:
-  github_repo: "huggingface/transformers"
+  github_repo: "https://github.com/huggingface/transformers"
   github_stars: 158819
 ---
 # Hugging Face Transformers — Machine Learning Model Library

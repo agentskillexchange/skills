@@ -14,13 +14,9 @@ Overview
 
 The ArgoCD Sync Wave Planner manages complex Kubernetes deployment ordering through ArgoCD’s sync wave and hook mechanism. It ensures infrastructure components deploy before application workloads by analyzing resource dependencies and configuring appropriate argocd.argoproj.io/sync-wave annotations.
 
-
-
 Key Capabilities
 
 This skill uses the ArgoCD REST API to inspect Application sync status, health checks, and resource tree structures. It runs kubectl diff against live cluster state and renders Helm templates to validate manifests before triggering sync operations. Integration with Argo Rollouts enables progressive delivery strategies including canary deployments and blue-green cutover with automated analysis.
-
-
 
 Deployment Workflow
 

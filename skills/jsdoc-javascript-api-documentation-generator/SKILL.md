@@ -1,12 +1,12 @@
 ---
 name: "JSDoc JavaScript API Documentation Generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
-category: "Library & API Reference"
+category: "Library &amp; API Reference"
 framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/jsdoc/jsdoc"
 tool_ecosystem:
-  github_repo: "jsdoc/jsdoc"
+  github_repo: "https://github.com/jsdoc/jsdoc"
   github_stars: 15426
   npm_package: "jsdoc"
   npm_weekly_downloads: 2821540
@@ -17,25 +17,17 @@ JSDoc is the standard API documentation generator for JavaScript. It parses spec
 
 JSDoc is the canonical API documentation generator for JavaScript projects. It reads structured comment annotations (the JSDoc comment format using /** ... */ blocks with @param, @returns, @typedef, and other tags) from JavaScript source files and generates navigable HTML documentation sites. The JSDoc comment format has become a de facto standard, supported by IDEs like VS Code for inline type hints and by TypeScript for type checking JavaScript files via JSDoc annotations.
 
-
-
 How It Works
 
 An agent skill wrapping JSDoc enables automated documentation generation from JavaScript codebases. The agent invokes the jsdoc CLI with source file paths or directories, and JSDoc parses all annotated comments to extract function signatures, parameter types and descriptions, return values, class hierarchies, module definitions, events, and custom type definitions. The tool produces a complete static HTML site with navigation, search, and cross-referenced links between documented symbols.
-
-
 
 Comment Tags and Configuration
 
 JSDoc supports a rich set of documentation tags including @param for function parameters with types, @returns for return values, @typedef for custom type definitions, @class and @constructor for classes, @module for module declarations, @fires and @listens for events, @example for code examples, @deprecated for deprecation notices, and @see for cross-references. Configuration is managed via a jsdoc.json (or conf.json) file that specifies source directories, recursion depth, template/theme selection, plugins, and output directory.
 
-
-
 Template and Plugin Ecosystem
 
 JSDoc features a plugin system that enables custom tag definitions, AST transformations, and output modifications. The template system allows complete customization of the generated documentation appearance. Popular community templates include clean-jsdoc-theme, docdash, and better-docs. Plugins can add support for additional comment tags, integrate with Markdown rendering, or inject custom metadata into the output.
-
-
 
 Agent Integration
 

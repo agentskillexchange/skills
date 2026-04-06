@@ -6,7 +6,7 @@ framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/microsoft/autogen"
 tool_ecosystem:
-  github_repo: "microsoft/autogen"
+  github_repo: "https://github.com/microsoft/autogen"
   github_stars: 56701
 ---
 # AutoGen — Microsoft Multi-Agent Conversation Framework

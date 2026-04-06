@@ -1,7 +1,7 @@
 ---
 name: "Helm Chart Template Scaffolder"
 description: "Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and Polaris for Kubernetes resource validation scoring."
-category: "Templates & Workflows"
+category: "Templates &amp; Workflows"
 framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/helm-chart-template-scaffolder/"
