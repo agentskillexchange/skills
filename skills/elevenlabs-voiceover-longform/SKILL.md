@@ -1,13 +1,8 @@
 ---
-title: "ElevenLabs Voiceover Generator for Long-Form Content"
+name: "elevenlabs-voiceover-longform"
 description: "Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned."
-slug: "elevenlabs-voiceover-longform"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
-category:
-  - "Media & Transcription"
-framework:
-  - "Claude Code"
 ---
 
 # ElevenLabs Voiceover Generator for Long-Form Content
@@ -16,13 +11,13 @@ Splits blog posts or scripts into optimal chunks under ElevenLabs character limi
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

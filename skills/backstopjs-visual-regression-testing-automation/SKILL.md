@@ -1,13 +1,8 @@
 ---
-title: "BackstopJS Visual Regression Testing Automation"
+name: "backstopjs-visual-regression-testing-automation"
 description: "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on the real BackstopJS project and turns browser-based layout comparison into a structured QA workflow for web teams."
-slug: "backstopjs-visual-regression-testing-automation"
 verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116
@@ -21,13 +16,13 @@ BackstopJS gives agents a repeatable way to capture reference screenshots, compa
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

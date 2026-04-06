@@ -1,13 +1,8 @@
 ---
-title: "Semgrep Pattern Matching Auditor"
+name: "semgrep-pattern-matching-auditor"
 description: "Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection."
-slug: "semgrep-pattern-matching-auditor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "OpenClaw"
 ---
 
 # Semgrep Pattern Matching Auditor
@@ -16,13 +11,13 @@ Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep stat
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

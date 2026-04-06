@@ -1,13 +1,8 @@
 ---
-title: "ESLint Custom Rule Builder"
+name: "eslint-custom-rule-builder"
 description: "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations."
-slug: "eslint-custom-rule-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-custom-rule-builder/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Cursor"
 ---
 
 # ESLint Custom Rule Builder
@@ -16,13 +11,13 @@ Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explore
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

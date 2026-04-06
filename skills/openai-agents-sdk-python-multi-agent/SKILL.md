@@ -1,13 +1,8 @@
 ---
-title: "OpenAI Agents SDK Multi-Agent Workflow Framework for Python"
+name: "openai-agents-sdk-python-multi-agent"
 description: "The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs, provides built-in guardrails, handoffs between agents, MCP tool integration, tracing, sessions, and real-time voice capabilities."
-slug: "openai-agents-sdk-python-multi-agent"
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-agents-python"
-category:
-  - "Developer Tools"
-framework:
-  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "openai/openai-agents-python"
   github_stars: 20576
@@ -19,13 +14,13 @@ The OpenAI Agents SDK is a lightweight Python framework for building multi-agent
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

@@ -1,13 +1,8 @@
 ---
-title: "zx JavaScript Shell Script Runner"
-description: "Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
-slug: "zx-javascript-shell-script-runner"
+name: "zx-javascript-shell-script-runner"
+description: "Write better shell scripts in JavaScript using Google&#8217;s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
 verification: "security_reviewed"
 source: "https://github.com/google/zx"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "google/zx"
   github_stars: 45324
@@ -17,17 +12,17 @@ tool_ecosystem:
 
 # zx JavaScript Shell Script Runner
 
-Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks.
+Write better shell scripts in JavaScript using Google&#8217;s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

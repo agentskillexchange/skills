@@ -1,16 +1,8 @@
 ---
-title: "MailHog SMTP Testing Server with Web UI and API"
+name: "mailhog-smtp-testing-server-with-web-ui-and-api"
 description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
-slug: "mailhog-smtp-testing-server-with-web-ui-and-api"
 verification: "security_reviewed"
 source: "https://github.com/mailhog/MailHog"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mailhog/mailhog"
-  github_stars: 15892
 ---
 
 # MailHog SMTP Testing Server with Web UI and API
@@ -19,13 +11,13 @@ Uses MailHog to capture outbound email in development and test environments thro
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

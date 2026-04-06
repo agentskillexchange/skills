@@ -1,13 +1,8 @@
 ---
-title: "Payload CMS Next.js-Native Headless CMS and Application Framework"
+name: "payload-cms-nextjs-headless-framework"
 description: "Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs, access control, file uploads, and rich text editing with zero separate backend required."
-slug: "payload-cms-nextjs-headless-framework"
 verification: "security_reviewed"
 source: "https://github.com/payloadcms/payload"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
@@ -21,13 +16,13 @@ Payload is an open-source, TypeScript-first headless CMS that installs directly 
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 

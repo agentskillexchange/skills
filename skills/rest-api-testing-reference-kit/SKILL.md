@@ -1,13 +1,8 @@
 ---
-title: "REST API Testing Reference Kit"
+name: "rest-api-testing-reference-kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
-slug: "rest-api-testing-reference-kit"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
-category:
-  - "Library & API Reference"
-framework:
-  - "Cursor"
 ---
 
 # REST API Testing Reference Kit
@@ -16,13 +11,13 @@ Comprehensive REST API testing reference using Postman Collection SDK v2.1 and N
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these common methods:
 
-1. Install from Agent Skill Exchange in the OpenClaw UI
-2. Clone or copy the skill folder into your local skills directory
-3. Add it to your workspace-managed skills collection
-4. Install via any compatible skill package manager or sync workflow
-5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
+1. **ClawHub** — install from the marketplace if available.
+2. **Git clone** — clone the skill folder into your local skills directory.
+3. **Download ZIP** — download and extract the skill files manually.
+4. **Copy files** — copy the skill directory into your agent skills path.
+5. **Package manager / upstream installer** — use the original project installer if the source provides one.
 
 ## Source
 
