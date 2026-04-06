@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C724-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C727-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C669-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C706-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,724 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,727 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -69,7 +69,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 240 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 146 | Pipeline configs, deployment automation, build tooling |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 126 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 127 | ETL pipelines, parsing, format conversion |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 117 | Vulnerability scanning, auth setup, compliance |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 114 | Incident response, troubleshooting, system diagnostics |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 103 | SDK docs, API parsers, symbol resolvers |
@@ -82,7 +82,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 75 | Audio/video processing, speech-to-text |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 74 | Scaffolders, boilerplate generators, workflow templates |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 72 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 70 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 72 | Web scraping, UI testing, headless browser control |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 62 | SEO content, blog automation, editorial workflows |
 
 ---
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,724 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,669 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,727 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,706 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

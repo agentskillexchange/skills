@@ -6,11 +6,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars |
 |---|---:|
-| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.2k |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 158.8k |
-| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.1k |
+| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.4k |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 158.9k |
+| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.2k |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | ⭐ 121.5k |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.5k |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.6k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.9k |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⭐ 100.1k |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94k |
@@ -23,16 +23,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 22k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 23.6k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 1.9M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 164.5k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 161.2k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.6M/wk |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 163.7M/wk |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 6.2k/wk |
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 64.6M/wk |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 6.8M/wk |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 11.4M/wk |
-| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | ⬇ 54.9k/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 117.6M/wk |
 
 ---
 
@@ -40,11 +40,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.2k | — |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 158.8k | — |
-| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.1k | — |
+| [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.4k | — |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 158.9k | — |
+| [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.2k | — |
 | [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | 121.5k | — |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.5k | — |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.6k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94k | — |
@@ -55,10 +55,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | 78.5k | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
-| [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75k | — |
+| [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.8k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 22k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 23.6k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
@@ -75,7 +75,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 164.5k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 161.2k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.6M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
@@ -89,7 +89,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 6.2k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
 | [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | 35.8k | — |
-| [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.5k | — |
+| [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.6k | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | 35.2k | — |
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | 35.1k | — |
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 64.6M/wk |
@@ -111,7 +111,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.1k | — |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.1k | 117.6M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
@@ -121,7 +121,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
-| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 54.9k/wk |
+| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 53.8k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 276.1k/wk |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.5k | — |
@@ -157,9 +157,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 11.7k | — |
 | [onefetch Git Repository Information and Statistics CLI](../../skills/onefetch-git-repository-info-statistics-cli/) | 11.7k | — |
-| [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 11.7k | — |
 | [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | — |
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | — |
+| [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 11.7k | — |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.4M/wk |
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | 11.5k | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | 11.5k | — |
 | [Devbox Instant Nix-Powered Development Environment Manager by Jetify](../../skills/devbox-nix-development-environment-jetify/) | 11.4k | — |

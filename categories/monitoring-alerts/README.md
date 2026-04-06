@@ -15,7 +15,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | ⭐ 20.4k |
-| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | ⭐ 18.4k |
+| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | ⭐ 18.5k |
 
 ---
 
@@ -23,8 +23,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Downloads |
 |---|---:|
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 4.3k/wk |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.3M/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 4.8k/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.8M/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.4M/wk |
 
 ---
 
@@ -41,20 +42,20 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | 20.4k | — |
-| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.4k | — |
+| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 4.3k/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 4.8k/wk |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | — |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.8M/wk |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.3M/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.4M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | — |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | — |

@@ -13,7 +13,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⭐ 25.7k |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⭐ 24.9k |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | ⭐ 24.8k |
-| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | ⭐ 22k |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | ⭐ 22.1k |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.4k |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | ⭐ 16.6k |
 
@@ -24,7 +24,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Downloads |
 |---|---:|
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.4M/wk |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 441.1k/wk |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 391.9k/wk |
 
 ---
 
@@ -39,13 +39,13 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | — |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 24.9k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
-| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22k | — |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.4M/wk |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 441.1k/wk |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 391.9k/wk |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | — | — |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | — | — |

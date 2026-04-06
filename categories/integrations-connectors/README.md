@@ -24,11 +24,13 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Downloads |
 |---|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 71k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 450/wk |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 487/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.1k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 13.8k/wk |
-| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 1.5M/wk |
+| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 1.8M/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⬇ 868.6k/wk |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | ⬇ 51k/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | ⬇ 908.1k/wk |
 
 ---
 
@@ -37,11 +39,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 71k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 450/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 487/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.2k/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.1k/wk |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
@@ -63,11 +65,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | — |
-| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 1.5M/wk |
+| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 1.8M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | — |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 868.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 51k/wk |
@@ -77,7 +79,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 567 | — |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | — |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | 908.1k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | — | — |

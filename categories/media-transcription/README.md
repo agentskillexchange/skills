@@ -23,7 +23,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Downloads |
 |---|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 506.7k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 504.5k/wk |
 
 ---
 
@@ -40,7 +40,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.3k | — |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 506.7k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 504.5k/wk |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
 | [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | — |

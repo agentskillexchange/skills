@@ -1,12 +1,12 @@
 # Skill Categories
 
-> **1724 skills** across **17 categories**
+> **1727 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **240** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **146** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **126** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **127** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **117** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **114** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **103** | SDK documentation, API guides, framework reference material, and libr... |
@@ -19,7 +19,7 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **75** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **72** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **70** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **72** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
