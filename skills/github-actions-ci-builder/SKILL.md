@@ -1,48 +1,25 @@
 ---
-name: "GitHub Actions CI Builder"
+title: "GitHub Actions CI Builder"
+slug: "github-actions-ci-builder"
 description: "Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch events. Supports matrix builds, reusable workflows, and composite actions."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/github-actions-ci-builder/"
 category: "CI/CD Integrations"
 framework: "Codex"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-ci-builder/"
 ---
 # GitHub Actions CI Builder
 
 Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch events. Supports matrix builds, reusable workflows, and composite actions.
 
-The GitHub Actions CI Builder skill creates, validates, and manages CI/CD pipelines through GitHub Actions workflow files and the GitHub REST API. It generates proper workflow YAML syntax with on triggers (push, pull_request, workflow_dispatch, schedule), job definitions with runs-on labels for GitHub-hosted and self-hosted runners, and step configurations using official actions (actions/checkout@v4, actions/setup-node@v4, actions/cache@v4). The skill supports matrix strategy configurations for multi-version testing, reusable workflow definitions with workflow_call triggers and input/output/secret definitions, and composite action authoring in action.yml files. It leverages the Actions REST API (repos/{owner}/{repo}/actions/workflows, actions/runs) for triggering workflow_dispatch events, monitoring run status, downloading artifacts via actions/artifacts, and managing repository secrets through the API with libsodium encryption. Environment protection rules and deployment gates are configurable through the environments API.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-ci-builder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-ci-builder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-ci-builder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-ci-builder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install github-actions-ci-builder
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

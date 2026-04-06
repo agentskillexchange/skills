@@ -1,60 +1,25 @@
 ---
-name: "CircleCI Orb Configurator"
+title: "CircleCI Orb Configurator"
+slug: "circleci-orb-configurator-2"
 description: "Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/circleci-orb-configurator-2/"
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-configurator-2/"
 ---
 # CircleCI Orb Configurator
 
 Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish.
 
-The CircleCI Orb Configurator skill streamlines the creation and maintenance of reusable CircleCI orbs for CI/CD pipelines. It uses the CircleCI CLI (circleci orb validate, circleci orb pack) to validate orb source files and pack them into single-file orbs ready for publishing.
-
-
-
-The skill manages the full orb development lifecycle: scaffolding new orbs with circleci orb init, defining commands/jobs/executors using YAML templating, running integration tests with circleci local execute, and publishing via circleci orb publish. It integrates with the CircleCI v2 API for orb version management and namespace administration.
-
-
-
-Configuration generation leverages the Orb Development Kit patterns including parameterized commands with type validation (string, boolean, integer, enum, executor, steps), executor definitions for Docker/machine/macOS environments, and job templates with proper workspace/cache handling. The skill validates all configurations against CircleCI schema definitions.
-
-
-
-Advanced features include orb dependency resolution for private orbs, inline orb expansion for debugging, and automated semantic versioning based on conventional commits using the circleci orb publish promote workflow.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill circleci-orb-configurator-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install circleci-orb-configurator-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

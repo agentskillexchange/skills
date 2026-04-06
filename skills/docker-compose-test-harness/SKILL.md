@@ -1,48 +1,25 @@
 ---
-name: "Docker Compose Test Harness"
+title: "Docker Compose Test Harness"
+slug: "docker-compose-test-harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
-category: "Templates & Workflows"
-framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-test-harness/"
+category: "Templates &amp; Workflows"
+framework: "MCP"
 ---
 # Docker Compose Test Harness
 
 Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding.
 
-The Docker Compose Test Harness skill automates the creation and management of integration test environments using container orchestration. It generates Docker Compose v2 configuration files with proper service dependency ordering, health check definitions, and network isolation. The testcontainers-python library integration provides programmatic container lifecycle management within pytest test suites, supporting database containers (PostgreSQL, MySQL, MongoDB), message brokers (RabbitMQ, Kafka), and cache services (Redis, Memcached). The docker-py SDK handles image building, container inspection, and log collection for test debugging. The harness manages test data seeding through init containers, SQL migration scripts, and fixture loading from JSON/CSV files. Service health check configurations use appropriate strategies: TCP socket checks for databases, HTTP endpoint checks for web services, and command-based checks for custom readiness criteria. The skill supports environment variable templating, secret injection via Docker secrets, and volume mounting for test configuration files. Parallel test execution is managed through dynamic port allocation and network namespace isolation. Cleanup procedures ensure complete resource removal after test completion including orphaned volumes and networks. Output includes generated docker-compose.yml files, pytest conftest.py fixtures, and CI pipeline integration scripts.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill docker-compose-test-harness
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill docker-compose-test-harness -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install docker-compose-test-harness
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

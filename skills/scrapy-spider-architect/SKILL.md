@@ -1,56 +1,25 @@
 ---
-name: "Scrapy Spider Architect"
+title: "Scrapy Spider Architect"
+slug: "scrapy-spider-architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
-category: "Research & Scraping"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
+category: "Research &amp; Scraping"
+framework: "Custom Agents"
 ---
 # Scrapy Spider Architect
 
 Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content.
 
-The Scrapy Spider Architect skill generates production-ready Scrapy spider classes for structured web data extraction. It creates CrawlSpider and Spider subclasses with optimized CSS and XPath selectors, configuring request callbacks, pagination handling, and link extraction rules.
-
-
-
-The skill scaffolds complete Scrapy projects including items.py with Field definitions, pipelines.py for data cleaning and storage (MongoDB, PostgreSQL, Elasticsearch), and settings.py with tuned concurrency, download delays, and AutoThrottle configuration. It generates middleware for proxy rotation, user-agent randomization, and retry policies.
-
-
-
-Advanced features include Scrapy-Splash integration for JavaScript-rendered single-page applications, Scrapy-Playwright for headless browser automation, and ItemLoader configurations with input/output processors for field normalization. The skill handles authentication flows (form login, cookie management, OAuth tokens), generates feed exporters for JSON Lines, CSV, and XML formats, and creates Scrapy contracts for automated spider testing.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-spider-architect
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install scrapy-spider-architect
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

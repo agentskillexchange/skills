@@ -1,87 +1,25 @@
 ---
-name: "Postgres MCP Pro"
+title: "Postgres MCP Pro"
+slug: "postgres-mcp-pro"
 description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
-category: "Data Extraction & Transformation"
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
+category: "Data Extraction &amp; Transformation"
 framework: "MCP"
-verification: security_reviewed
-source: "https://github.com/crystaldba/postgres-mcp"
-tool_ecosystem:
-  github_repo: "crystaldba/postgres-mcp"
-  github_stars: 2464
 ---
 # Postgres MCP Pro
 
 Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence.
 
-Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wrapping a database connection. It provides deep database intelligence including index tuning, EXPLAIN plan analysis, health diagnostics, and configurable access controls.
-
-
-
-Best for
-
-
-
-- Running queries with configurable read-only or full-access modes
-
-
-
-- Diagnosing database performance problems with EXPLAIN plan analysis
-
-
-
-- Getting industrial-strength index tuning recommendations
-
-
-
-- Monitoring database health: connection utilization, buffer cache, vacuum health, replication lag
-
-
-
-Access modes
-
-Three modes: read-only (safe for production monitoring), restricted (allows writes with SQL parsing), and unrestricted (full access for development).
-
-
-
-Install notes
-
-Pull the Docker image: docker pull crystaldba/postgres-mcp. Or install via pip: pipx install postgres-mcp. Configure in your MCP client with your database URI and desired access mode. Supports both stdio and SSE transports.
-
-
-
-Source: github.com/crystaldba/postgres-mcp
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill postgres-mcp-pro
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install postgres-mcp-pro
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

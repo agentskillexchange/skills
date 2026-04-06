@@ -1,48 +1,25 @@
 ---
-name: "HashiCorp Vault Secrets Rotation Agent"
+title: "HashiCorp Vault Secrets Rotation Agent"
+slug: "hashicorp-vault-secrets-rotation-agent-2"
 description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
-category: "Security & Verification"
-framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
+category: "Security &amp; Verification"
+framework: "MCP"
 ---
 # HashiCorp Vault Secrets Rotation Agent
 
 Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies.
 
-The HashiCorp Vault Secrets Rotation Agent skill manages the complete lifecycle of secrets and credentials through the HashiCorp Vault HTTP API. It configures dynamic secrets engines for databases (PostgreSQL, MySQL, MongoDB), cloud providers (AWS STS, GCP service accounts, Azure AD), and PKI certificate authorities. The skill implements automatic credential rotation based on configurable TTL policies, ensuring no static long-lived credentials exist in production environments. Database credential leases are monitored and renewed or rotated before expiration to prevent application downtime. PKI certificates are automatically renewed with proper Subject Alternative Names and key usage extensions. The skill manages Vault policies using HCL syntax, configures authentication methods (Kubernetes auth, AppRole, OIDC), and implements response wrapping for secure secret delivery to applications. Audit logging tracks all secret access patterns for compliance and security review. Integration with Kubernetes external-secrets-operator synchronizes Vault secrets into Kubernetes Secret resources.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotation-agent-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install hashicorp-vault-secrets-rotation-agent-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

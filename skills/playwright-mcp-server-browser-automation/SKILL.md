@@ -1,10 +1,11 @@
 ---
-name: "Playwright MCP Server for Browser Automation"
+title: "Playwright MCP Server for Browser Automation"
+slug: "playwright-mcp-server-browser-automation"
 description: "The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots."
+verification: "security_reviewed"
+source: "https://github.com/microsoft/playwright-mcp"
 category: "Browser Automation"
 framework: "MCP"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright-mcp"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30110
@@ -13,55 +14,15 @@ tool_ecosystem:
 
 The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context Protocol, enabling LLMs to interact with web pages via structured accessibility snapshots without requiring vision models or screenshots.
 
-The Playwright MCP Server, maintained by Microsoft, is a Model Context Protocol server that exposes Playwright’s browser automation capabilities to LLMs and AI agents. With nearly 30,000 GitHub stars, it is the second most popular MCP server on GitHub and a cornerstone of the emerging agentic browser automation ecosystem.
-
-
-
-Unlike screenshot-based approaches that require vision models to interpret pixel data, the Playwright MCP server operates on structured accessibility tree snapshots. This makes tool application deterministic and avoids the ambiguity that comes with visual interpretation. The server is fast, lightweight, and works purely on structured data that LLMs can reason about directly.
-
-
-
-The server supports integration with all major AI coding tools including VS Code, Cursor, Windsurf, Claude Desktop, Claude Code, Codex, Goose, Cline, and more. Configuration is straightforward through standard MCP server JSON configuration, typically just specifying the npx command with the @playwright/mcp package.
-
-
-
-Key capabilities include navigating to URLs, clicking elements, filling forms, taking screenshots, extracting page content, handling dialogs, managing tabs, and executing JavaScript on pages. The server exposes these as structured MCP tools that agents can invoke with well-defined parameters and return types.
-
-
-
-For coding agents that need high-throughput browser interaction, Microsoft also provides a companion Playwright CLI with SKILLS approach that is more token-efficient than MCP. The MCP server is better suited for specialized agentic loops that benefit from persistent state, rich introspection, and iterative reasoning over page structure. The server requires Node.js 18 or newer and is distributed as an npm package under the Apache-2.0 license.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-mcp-server-browser-automation -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install playwright-mcp-server-browser-automation
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

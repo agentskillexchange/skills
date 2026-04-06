@@ -1,56 +1,25 @@
 ---
-name: "Apache Spark DataFrame ETL Pipeline"
+title: "Apache Spark DataFrame ETL Pipeline"
+slug: "spark-dataframe-etl-pipeline"
 description: "Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures."
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/"
+category: "Data Extraction &amp; Transformation"
+framework: "OpenClaw"
 ---
 # Apache Spark DataFrame ETL Pipeline
 
 Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures.
 
-The Apache Spark DataFrame ETL Pipeline skill automates complex data engineering workflows using PySpark and the Spark SQL API. It handles schema inference from heterogeneous data sources including Parquet, ORC, Avro, and JSON formats, applying automatic type coercion and null handling strategies.
-
-
-
-Key capabilities include partition pruning optimization for large-scale datasets, predicate pushdown to minimize I/O, and adaptive query execution tuning. The skill integrates natively with Delta Lake for ACID-compliant merge operations (MERGE INTO), enabling upsert patterns across billion-row tables.
-
-
-
-For cloud-native deployments, it connects to AWS Glue Data Catalog for centralized metadata management, supports Apache Iceberg table formats for schema evolution, and configures Spark session parameters for optimal memory and shuffle partition settings. Data quality checks via Great Expectations are built in, validating row counts, null percentages, and statistical distributions before committing writes.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill spark-dataframe-etl-pipeline -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install spark-dataframe-etl-pipeline
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

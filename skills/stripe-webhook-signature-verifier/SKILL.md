@@ -1,48 +1,25 @@
 ---
-name: "Stripe Webhook Signature Verifier"
+title: "Stripe Webhook Signature Verifier"
+slug: "stripe-webhook-signature-verifier"
 description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API."
-category: "Security & Verification"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
+category: "Security &amp; Verification"
+framework: "ChatGPT Agents"
 ---
 # Stripe Webhook Signature Verifier
 
 Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
 
-This skill implements secure Stripe webhook signature verification using the Stripe.js SDK and the stripe.webhooks.constructEvent method. It extracts the raw request body before any JSON parsing to preserve byte accuracy, then validates the Stripe-Signature header timestamp and HMAC-SHA256 signature against the endpoint secret. The skill enforces a configurable tolerance window (default 300 seconds) to prevent replay attacks. Failed verifications are logged to Datadog via the Datadog Logs API using the POST /api/v2/logs endpoint with structured metadata including event type, timestamp, and remote IP. Successful verifications emit metrics to Datadog StatsD for dashboard monitoring. The skill supports both synchronous Express middleware and async Lambda function handlers for AWS API Gateway, with examples for Fastify and Hono frameworks. It also includes integration with Clerk webhooks and Paddle billing events using the same signature pattern.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install stripe-webhook-signature-verifier
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

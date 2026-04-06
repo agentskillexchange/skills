@@ -1,48 +1,25 @@
 ---
-name: "AWS CloudWatch Alarm Runbook Generator"
+title: "AWS CloudWatch Alarm Runbook Generator"
+slug: "aws-cloudwatch-alarm-runbook-generator"
 description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
-category: "Runbooks & Diagnostics"
-framework: "Claude Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"
+category: "Runbooks &amp; Diagnostics"
+framework: "Claude Agents"
 ---
 # AWS CloudWatch Alarm Runbook Generator
 
 Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically.
 
-The AWS CloudWatch Alarm Runbook Generator skill reads CloudWatch alarm configurations via the AWS SDK DescribeAlarms and DescribeAlarmsForMetric API calls to automatically generate incident response runbooks. For each alarm, it identifies the monitored metric, threshold conditions, evaluation periods, and associated SNS notification targets. The skill maps alarms to relevant AWS resources using resource tags and CloudFormation stack associations. It generates structured runbook documents that include alarm context, likely root causes based on the metric type, diagnostic steps using specific AWS CLI commands, and remediation procedures. The tool integrates with AWS Systems Manager to link runbooks to SSM Automation documents for one-click remediation. It supports custom runbook templates with organization-specific escalation procedures and communication channels. Output formats include Markdown, Confluence wiki markup, and PagerDuty service integration specifications.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install aws-cloudwatch-alarm-runbook-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

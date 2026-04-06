@@ -1,48 +1,25 @@
 ---
-name: "Argo Workflows Deployer"
+title: "Argo Workflows Deployer"
+slug: "argo-workflows-deployer"
 description: "Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/argo-workflows-deployer/"
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argo-workflows-deployer/"
 ---
 # Argo Workflows Deployer
 
 Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies.
 
-The Argo Workflows Deployer skill creates sophisticated deployment pipelines using the Argo ecosystem on Kubernetes. It leverages the Argo Workflows Engine API to define DAG-based and step-based workflow templates with conditional execution, retry policies, and resource-aware scheduling. The skill integrates with Argo CD ApplicationSet controller to generate Application resources dynamically from Git repositories, pull request generators, and cluster generators for multi-cluster deployments. Progressive delivery is implemented through Argo Rollouts, configuring canary deployments with automated analysis using Prometheus metrics, blue-green strategies with traffic shifting via Istio or AWS ALB, and experiment-based validation. The skill manages Argo Events sensors and event sources for GitOps-driven automation, connecting repository changes to deployment workflows. It supports artifact repositories backed by S3, GCS, or MinIO, workflow-level memoization for expensive steps, and integration with Vault for secrets management during deployments.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill argo-workflows-deployer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill argo-workflows-deployer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install argo-workflows-deployer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

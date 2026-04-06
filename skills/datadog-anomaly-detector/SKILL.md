@@ -1,56 +1,25 @@
 ---
-name: "Datadog Anomaly Detector"
+title: "Datadog Anomaly Detector"
+slug: "datadog-anomaly-detector"
 description: "Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API."
-category: "Monitoring & Alerts"
-framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+category: "Monitoring &amp; Alerts"
+framework: "Gemini"
 ---
 # Datadog Anomaly Detector
 
 Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API.
 
-The Datadog Anomaly Detector skill enables AI agents to perform proactive infrastructure monitoring by interfacing with the Datadog API v2. It queries the /api/v2/query/timeseries endpoint to pull metric data across configurable time windows, supporting all Datadog metric types including count, rate, gauge, and distribution.
-
-
-
-Anomaly detection uses a combination of Datadog built-in anomaly functions (anomalies() with basic, agile, and robust algorithms) and custom statistical analysis. The skill creates and manages monitors via the /api/v1/monitor endpoint, implementing dynamic thresholds that adapt to seasonal patterns detected through Fourier decomposition of historical data.
-
-
-
-When anomalies trigger, the skill creates OpsGenie alerts via the REST API v2 (/v2/alerts), attaching metric visualizations generated from the Datadog Embeddable Graphs API. Incident timelines are automatically populated with correlated events from the Datadog Events API, including recent deployments, configuration changes, and related monitor state transitions. The skill maintains an anomaly knowledge base in PostgreSQL for pattern recognition across incidents.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill datadog-anomaly-detector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-anomaly-detector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-anomaly-detector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-anomaly-detector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install datadog-anomaly-detector
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

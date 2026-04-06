@@ -1,56 +1,25 @@
 ---
-name: "Puppeteer Screenshot Diff Engine"
+title: "Puppeteer Screenshot Diff Engine"
+slug: "puppeteer-screenshot-diff-engine"
 description: "Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 ---
 # Puppeteer Screenshot Diff Engine
 
 Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling.
 
-The Puppeteer Screenshot Diff Engine automates visual regression testing by capturing page screenshots through Puppeteer’s page.screenshot({ fullPage: true }) API and comparing them pixel-by-pixel using the pixelmatch library with configurable threshold values.
-
-
-
-It establishes Chrome DevTools Protocol sessions via page.createCDPSession() to precisely control device emulation through Emulation.setDeviceMetricsOverride and simulate network conditions with Network.emulateNetworkConditions. This ensures screenshots are captured under reproducible conditions across CI runs.
-
-
-
-The engine supports baseline management with automatic golden image updates, generates HTML diff reports highlighting changed regions with bounding boxes, and integrates with page.waitForSelector() and page.waitForNetworkIdle() to ensure pages are fully rendered before capture. It handles dynamic content by masking regions through CSS injection via page.addStyleTag().
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engine -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install puppeteer-screenshot-diff-engine
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

@@ -1,56 +1,25 @@
 ---
-name: "Selenium Grid Cloud Executor"
+title: "Selenium Grid Cloud Executor"
+slug: "selenium-grid-cloud-executor"
 description: "Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs with automatic capability negotiation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
 category: "Browser Automation"
 framework: "Codex"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
 ---
 # Selenium Grid Cloud Executor
 
 Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs with automatic capability negotiation.
 
-This skill enables distributed browser test execution across Selenium Grid 4 infrastructure or cloud providers like BrowserStack and Sauce Labs. It uses the RemoteWebDriver API with the W3C WebDriver protocol for cross-browser compatibility testing at scale.
-
-
-
-The skill handles capability negotiation automatically, selecting appropriate browser versions and OS combinations based on test requirements. It supports parallel test execution using TestNG or pytest-xdist, distributing test cases across available Grid nodes for maximum throughput. Session management includes automatic retry on node failures and intelligent load balancing.
-
-
-
-Cloud provider integration handles authentication via environment variables, automatic tunnel setup for testing behind firewalls using BrowserStack Local or Sauce Connect, and test artifact collection including video recordings, network logs, and console output. Results are aggregated into unified reports with pass/fail status per browser-OS combination.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-cloud-executor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install selenium-grid-cloud-executor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

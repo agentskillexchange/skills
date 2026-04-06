@@ -1,92 +1,25 @@
 ---
-name: "Codecov Coverage Tracker"
+title: "Codecov Coverage Tracker"
+slug: "codecov-coverage-tracker-skill"
 description: "Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API."
-category: "Code Quality & Review"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/"
+category: "Code Quality &amp; Review"
+framework: "ChatGPT Agents"
 ---
 # Codecov Coverage Tracker
 
 Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API.
 
-Overview
-
-Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API.
-
-
-
-Key Features
-
-
-
-- Automated detection and reporting with structured output formats for downstream integrations
-
-
-
-- Configurable thresholds and rule sets that adapt to project-specific requirements and team conventions
-
-
-
-- Real-time feedback loops integrated into developer workflows for immediate actionable insights
-
-
-
-- Comprehensive logging and audit trails for compliance tracking and historical trend analysis
-
-
-
-How It Works
-
-Codecov Coverage Tracker connects directly to your existing infrastructure through well-documented API endpoints. It authenticates using standard token-based methods (API keys, OAuth tokens, or service account credentials) and operates within your existing permission boundaries. The skill processes incoming data streams, applies configurable analysis rules, and produces structured reports that integrate with notification systems, dashboards, and issue trackers.
-
-
-
-Requirements
-
-
-
-- Valid API credentials with appropriate read/write scopes for the target service
-
-
-
-- Network access to the relevant API endpoints from the agent runtime environment
-
-
-
-- Compatible agent framework installed and configured with the necessary SDK dependencies
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-skill
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-skill -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-skill -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill codecov-coverage-tracker-skill -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install codecov-coverage-tracker-skill
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

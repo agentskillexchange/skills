@@ -1,48 +1,25 @@
 ---
-name: "Python Package Dependency Graph Mapper"
+title: "Python Package Dependency Graph Mapper"
+slug: "python-package-dependency-graph-mapper"
 description: "Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks."
-category: "Library & API Reference"
-framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
+category: "Library &amp; API Reference"
+framework: "MCP"
 ---
 # Python Package Dependency Graph Mapper
 
 Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks.
 
-The Python Package Dependency Graph Mapper queries the PyPI JSON API (https://pypi.org/pypi/{package}/json) to resolve package metadata and dependency specifiers, then uses the pipdeptree library to construct complete transitive dependency graphs from installed environments or requirements files. It identifies diamond dependency conflicts where two packages require incompatible versions of a shared dependency, and detects yanked package versions that may cause future installation failures. The skill generates interactive dependency visualizations using Graphviz DOT format or Mermaid diagrams suitable for documentation embedding. It calculates dependency depth metrics, identifies packages with excessive transitive dependencies (dependency bloat), and flags packages with no recent PyPI releases (potential maintenance risk). The mapper supports requirements.txt, setup.cfg, pyproject.toml, and Poetry lock file formats for comprehensive Python ecosystem coverage.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill python-package-dependency-graph-mapper
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-dependency-graph-mapper -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-dependency-graph-mapper -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill python-package-dependency-graph-mapper -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install python-package-dependency-graph-mapper
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

@@ -1,48 +1,25 @@
 ---
-name: "Parquet Column Pruning Optimizer"
+title: "Parquet Column Pruning Optimizer"
+slug: "parquet-column-pruning-optimizer"
 description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
-category: "Data Extraction & Transformation"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 ---
 # Parquet Column Pruning Optimizer
 
 Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies.
 
-The Parquet Column Pruning Optimizer reduces data lake query costs by analyzing SQL query patterns against Parquet file metadata to recommend optimal column projection and predicate pushdown strategies. Using PyArrow and the Parquet file footer metadata reader, it maps query column references to Parquet column indices, calculates potential I/O savings from column pruning, and identifies row groups that can be skipped via min/max statistics pushdown. The agent analyzes column cardinality and value distributions to recommend dictionary encoding vs plain encoding per column, optimal row group sizes based on query selectivity patterns, and page-level bloom filter configuration for high-cardinality columns. It supports Parquet files on local disk, S3, GCS, and HDFS via fsspec filesystem abstraction, handles nested schema types (structs, lists, maps), and generates optimized PyArrow read configurations with filters and columns parameters. Includes benchmark reporting comparing optimized vs naive read performance.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimizer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install parquet-column-pruning-optimizer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

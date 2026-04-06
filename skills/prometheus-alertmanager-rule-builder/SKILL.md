@@ -1,48 +1,25 @@
 ---
-name: "Prometheus AlertManager Rule Builder"
+title: "Prometheus AlertManager Rule Builder"
+slug: "prometheus-alertmanager-rule-builder"
 description: "Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations."
-category: "Monitoring & Alerts"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
+category: "Monitoring &amp; Alerts"
+framework: "ChatGPT Agents"
 ---
 # Prometheus AlertManager Rule Builder
 
 Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations.
 
-The Prometheus AlertManager Rule Builder creates and validates alerting rules by interfacing with the Prometheus HTTP API for PromQL expression validation and metric discovery. It generates recording rules for performance-critical queries and alerting rules with proper for-duration, severity labels, and runbook annotations following SRE best practices. The skill configures AlertManager routing trees with proper grouping, inhibition rules, and silence management via the AlertManager API. It supports receiver configurations for PagerDuty (using the Events API v2), OpsGenie (via the Alert API), Slack (using Block Kit message formatting), and custom webhook endpoints. The builder implements alert fatigue reduction strategies including proper group_wait, group_interval, and repeat_interval tuning based on alert severity. It validates rule configurations against promtool for syntax correctness and tests alert conditions using Prometheus’s unit testing framework with mock time series data.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-builder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install prometheus-alertmanager-rule-builder
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

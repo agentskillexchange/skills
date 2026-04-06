@@ -1,48 +1,25 @@
 ---
-name: "PagerDuty Incident Orchestrator"
+title: "PagerDuty Incident Orchestrator"
+slug: "pagerduty-incident-orchestrator-2"
 description: "Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation."
-category: "Monitoring & Alerts"
-framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
+category: "Monitoring &amp; Alerts"
+framework: "MCP"
 ---
 # PagerDuty Incident Orchestrator
 
 Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation.
 
-The PagerDuty Incident Orchestrator skill automates incident management workflows through the PagerDuty Events API v2 and REST API v2. It creates and manages incidents with proper severity classification, service assignment, and escalation policy routing. The skill automatically attaches relevant runbooks from a configured knowledge base when incidents match predefined alert patterns, using the PagerDuty Rulesets API for intelligent routing. It manages on-call schedule queries via the Schedules API to identify current responders, triggers incident actions through the Incident Workflows API, and generates post-incident timelines by correlating PagerDuty log entries with deployment events and monitoring alerts. The orchestrator supports incident merging for related alerts, configures response plays for common scenarios, and produces incident review documents with MTTD, MTTA, and MTTR metrics calculated from the Analytics API.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install pagerduty-incident-orchestrator-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

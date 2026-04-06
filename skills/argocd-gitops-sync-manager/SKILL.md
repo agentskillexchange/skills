@@ -1,56 +1,25 @@
 ---
-name: "ArgoCD GitOps Sync Manager"
+title: "ArgoCD GitOps Sync Manager"
+slug: "argocd-gitops-sync-manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
 ---
 # ArgoCD GitOps Sync Manager
 
 Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments.
 
-The ArgoCD GitOps Sync Manager provides intelligent synchronization control for Kubernetes GitOps workflows. It interfaces with the ArgoCD Application Controller via the gRPC API for real-time sync status monitoring and automated drift remediation.
-
-
-
-The agent implements sophisticated sync strategies including selective resource synchronization using sync waves and hooks, automated rollback triggered by Prometheus health checks via the ArgoCD Resource Hook framework, and progressive delivery integration with Argo Rollouts for canary and blue-green deployment patterns.
-
-
-
-Advanced capabilities include ApplicationSet template generation using the Git Generator, Pull Request Generator, and Matrix Generator for dynamic multi-cluster application provisioning. The agent configures sync policies with automated pruning, self-healing, and retry backoff strategies. It also manages ArgoCD RBAC policies via the argocd-rbac-cm ConfigMap and integrates with External Secrets Operator for GitOps-compatible secret management across namespaces.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install argocd-gitops-sync-manager
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

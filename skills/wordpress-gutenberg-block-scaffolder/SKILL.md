@@ -1,48 +1,25 @@
 ---
-name: "WordPress Gutenberg Block Scaffolder"
+title: "WordPress Gutenberg Block Scaffolder"
+slug: "wordpress-gutenberg-block-scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type."
-category: "WordPress & CMS"
-framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
+category: "WordPress &amp; CMS"
+framework: "Claude Code"
 ---
 # WordPress Gutenberg Block Scaffolder
 
 Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type.
 
-This skill automates the creation of custom Gutenberg blocks for WordPress sites. It uses @wordpress/create-block as the scaffolding tool, generating proper block.json metadata files with apiVersion 3 compliance. Each block includes InspectorControls for sidebar settings panels, BlockControls for toolbar customization, and useBlockProps for proper wrapper element handling. The agent configures server-side rendering via register_block_type() with render_callback functions for dynamic content. It sets up the build pipeline using @wordpress/scripts with wp-scripts build and wp-scripts start commands. Block attributes are defined with proper types, defaults, and source configurations. The skill handles block variations, patterns, and block styles. It integrates with the WordPress theme.json system for consistent spacing, colors, and typography tokens. Includes unit test scaffolding using @wordpress/jest-preset-default.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaffolder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaffolder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaffolder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaffolder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install wordpress-gutenberg-block-scaffolder
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

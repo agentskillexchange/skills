@@ -1,56 +1,25 @@
 ---
-name: "ArgoCD Application Sync Manager"
+title: "ArgoCD Application Sync Manager"
+slug: "argocd-application-sync-manager-2"
 description: "Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 ---
 # ArgoCD Application Sync Manager
 
 Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments.
 
-The ArgoCD Application Sync Manager skill automates GitOps deployment workflows through the ArgoCD REST API (v1/applications) and the argocd CLI. It manages application sync operations with full control over sync waves, resource hooks (PreSync, Sync, PostSync, SyncFail), and health assessment checks.
-
-
-
-The skill creates and manages ArgoCD Application resources with proper source tracking, including Helm chart references with value overrides, Kustomize overlays, and plain YAML directory structures. It supports multi-cluster deployments by managing destination configurations across different Kubernetes contexts.
-
-
-
-For progressive delivery, the skill integrates with ArgoCD sync windows to enforce deployment schedules, configures auto-sync policies with self-heal and prune options, and monitors sync status through the Application Controller API. It handles ApplicationSets for generating applications from Git directory structures, cluster lists, or pull request generators, enabling scalable GitOps patterns across hundreds of microservices.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill argocd-application-sync-manager-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-application-sync-manager-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-application-sync-manager-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-application-sync-manager-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install argocd-application-sync-manager-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

@@ -1,56 +1,25 @@
 ---
-name: "GitHub Actions Workflow Debugger"
+title: "GitHub Actions Workflow Debugger"
+slug: "github-actions-workflow-debugger"
 description: "Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 category: "CI/CD Integrations"
 framework: "Claude Agents"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 ---
 # GitHub Actions Workflow Debugger
 
 Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues.
 
-The GitHub Actions Workflow Debugger automates the diagnosis of failing CI/CD workflows using the GitHub REST API v3. It queries the /repos/{owner}/{repo}/actions/runs endpoint to identify failed runs, then drills into individual jobs via /actions/jobs/{job_id}/logs to extract step-level error output.
-
-
-
-The agent parses workflow YAML files against the GitHub Actions workflow schema, catching common issues like invalid on-trigger configurations, missing required inputs for reusable workflows, and incorrect uses declarations. It leverages the actions/runner-images repository metadata to verify runner OS compatibility and pre-installed tool versions.
-
-
-
-For composite actions and reusable workflows, it traces the dependency graph across repositories using the GitHub GraphQL API v4. The debugger identifies race conditions in job dependency chains defined by needs, validates matrix strategy configurations, and checks for deprecated action versions by querying the GitHub Marketplace API. Results are formatted as GitHub Check Run annotations via the Checks API for inline PR feedback.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-workflow-debugger
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-workflow-debugger -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-workflow-debugger -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-workflow-debugger -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install github-actions-workflow-debugger
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

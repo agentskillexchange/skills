@@ -1,56 +1,25 @@
 ---
-name: "Stripe Connect Account Provisioner"
+title: "Stripe Connect Account Provisioner"
+slug: "stripe-connect-account-provisioner"
 description: "Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events."
-category: "Integrations & Connectors"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-connect-account-provisioner/"
+category: "Integrations &amp; Connectors"
+framework: "OpenClaw"
 ---
 # Stripe Connect Account Provisioner
 
 Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation, KYC link generation with stripe.accountLinks.create(), and webhook verification for account.updated events.
 
-The Stripe Connect Account Provisioner streamlines marketplace and platform onboarding by automating the entire Stripe Connect account lifecycle. It uses the Stripe Node.js SDK to create Standard, Express, or Custom connected accounts programmatically.
-
-
-
-Key capabilities include generating onboarding links via stripe.accountLinks.create(), monitoring account status through account.updated webhooks, and handling retry logic for failed verifications. The agent validates required fields (business_type, country, capabilities) before submission and provides detailed error mapping for common KYC rejection reasons.
-
-
-
-Built-in support for idempotency keys prevents duplicate account creation during retries. The skill also manages capability requests (card_payments, transfers) and tracks payout schedules. Integrates with Stripe Dashboard API for real-time balance monitoring of connected accounts. Supports both test and live mode with automatic environment detection.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill stripe-connect-account-provisioner
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-connect-account-provisioner -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-connect-account-provisioner -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill stripe-connect-account-provisioner -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install stripe-connect-account-provisioner
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

@@ -1,56 +1,25 @@
 ---
-name: "Grafana Dashboard Generator"
+title: "Grafana Dashboard Generator"
+slug: "grafana-dashboard-generator-3"
 description: "Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views."
-category: "Monitoring & Alerts"
-framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
+category: "Monitoring &amp; Alerts"
+framework: "Cursor"
 ---
 # Grafana Dashboard Generator
 
 Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views.
 
-The Grafana Dashboard Generator creates standardized monitoring dashboards by querying service registries and generating Grafana dashboard JSON models. It uses the Grafana HTTP API with token-based authentication to push dashboards via the /api/dashboards/db endpoint.
-
-
-
-For each service definition, the skill generates RED metrics panels (Rate, Errors, Duration) using PromQL query templates, SLO tracking panels with error budget burn rate calculations, and infrastructure overview panels pulling from node_exporter and kube-state-metrics. All panels use Grafana variable templating for environment and namespace selection.
-
-
-
-The skill supports multiple data source types including Prometheus, InfluxDB, and Elasticsearch, automatically configuring panel queries for each backend. It manages dashboard versioning via the Grafana API, supports folder organization, and can generate alerting rules embedded in dashboard panels. Library panel support allows sharing common visualizations across dashboards, and the skill includes a CI integration mode that validates dashboard JSON against the Grafana schema before deployment.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install grafana-dashboard-generator-3
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

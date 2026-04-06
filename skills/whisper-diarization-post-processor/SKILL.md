@@ -1,62 +1,25 @@
 ---
-name: "Whisper Diarization Post-Processor"
+title: "Whisper Diarization Post-Processor"
+slug: "whisper-diarization-post-processor"
 description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
-category: "Media & Transcription"
-framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
+category: "Media &amp; Transcription"
+framework: "Claude Code"
 ---
 # Whisper Diarization Post-Processor
 
 Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
 
-Overview
-
-The Whisper Diarization Post-Processor enhances raw OpenAI Whisper transcription output by adding speaker identification and precise timestamp alignment. It combines state-of-the-art speech recognition with neural speaker diarization for production-quality meeting transcripts.
-
-
-
-Key Capabilities
-
-This skill processes Whisper output through the pyannote.audio speaker diarization pipeline, using pre-trained speaker embedding models from speechbrain for voice characterization. It aligns word-level timestamps from whisper-timestamped with speaker segments using an optimal assignment algorithm that handles overlapping speech regions.
-
-
-
-Output Formats
-
-Generates formatted transcripts with speaker labels, timestamps, and confidence scores in multiple output formats including SRT, VTT, and structured JSON. Supports custom speaker name mapping through voice enrollment, handles multi-language transcription with automatic language detection, and produces analytics summaries including per-speaker talk time ratios, interruption counts, and topic transition markers for meeting intelligence dashboards.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill whisper-diarization-post-processor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install whisper-diarization-post-processor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

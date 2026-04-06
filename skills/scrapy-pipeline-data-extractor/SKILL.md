@@ -1,56 +1,25 @@
 ---
-name: "Scrapy Pipeline Data Extractor"
+title: "Scrapy Pipeline Data Extractor"
+slug: "scrapy-pipeline-data-extractor"
 description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
-category: "Research & Scraping"
-framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
+category: "Research &amp; Scraping"
+framework: "Gemini"
 ---
 # Scrapy Pipeline Data Extractor
 
 Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization.
 
-This skill creates production-ready web scraping pipelines using the Scrapy framework. It builds spiders with proper crawl scoping using scrapy.linkextractors.LinkExtractor with allow/deny regex patterns, and handles pagination through CrawlSpider rules or manual next-page following.
-
-
-
-Data extraction uses ItemLoader with input/output processors like MapCompose and TakeFirst for field normalization, handling common tasks like whitespace stripping, price parsing, date normalization, and HTML tag removal. Custom Item Pipeline classes handle data validation, deduplication via fingerprinting, and storage to multiple backends including PostgreSQL, MongoDB, and JSON Lines.
-
-
-
-The skill handles anti-scraping measures including rotating User-Agent headers via scrapy-fake-useragent, request throttling with AutoThrottle middleware, and proxy rotation. It supports JavaScript-rendered pages via scrapy-playwright integration for SPAs that require browser rendering.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill scrapy-pipeline-data-extractor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install scrapy-pipeline-data-extractor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

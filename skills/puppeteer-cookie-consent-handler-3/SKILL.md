@@ -1,52 +1,25 @@
 ---
-name: "Puppeteer Cookie Consent Handler"
+title: "Puppeteer Cookie Consent Handler"
+slug: "puppeteer-cookie-consent-handler-3"
 description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 category: "Browser Automation"
 framework: "Claude Code"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 ---
 # Puppeteer Cookie Consent Handler
 
 Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
 
-Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
-
-
-
-This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handler-3 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install puppeteer-cookie-consent-handler-3
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

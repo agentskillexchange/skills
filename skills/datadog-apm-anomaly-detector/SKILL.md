@@ -1,48 +1,25 @@
 ---
-name: "Datadog APM Anomaly Detector"
+title: "Datadog APM Anomaly Detector"
+slug: "datadog-apm-anomaly-detector"
 description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
-category: "Monitoring & Alerts"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
+category: "Monitoring &amp; Alerts"
+framework: "ChatGPT Agents"
 ---
 # Datadog APM Anomaly Detector
 
 Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors.
 
-The Datadog APM Anomaly Detector integrates with the Datadog API v2 to pull APM trace metrics and identify performance anomalies across your service fleet. It queries the /api/v2/query/timeseries endpoint for trace duration, error rate, and throughput metrics per service-resource-operation combination. Using DBSCAN clustering on latency distributions, it identifies outlier patterns that simple threshold alerts miss: gradual degradation, bimodal latency splits, and cascading timeout chains. The skill correlates APM anomalies with infrastructure metrics (CPU, memory, network) from the same time window to suggest root causes. It supports custom faceted queries using Datadog trace search syntax and generates Notebook-compatible JSON cells for sharing investigations. Alert recommendations include suggested Datadog monitor configurations with appropriate evaluation windows, recovery thresholds, and composite conditions for reducing false positives.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install datadog-apm-anomaly-detector
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

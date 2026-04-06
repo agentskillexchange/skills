@@ -1,10 +1,11 @@
 ---
-name: "Common Crawl URL Index Miner"
+title: "Common Crawl URL Index Miner"
+slug: "common-crawl-url-index-miner"
 description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
-category: "Research & Scraping"
-framework: "MCP"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/commoncrawl/cc-index-table"
+category: "Research &amp; Scraping"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
   github_stars: 127
@@ -13,47 +14,15 @@ tool_ecosystem:
 
 Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch.
 
-Common Crawl URL Index Miner is built for large-scale web research where the goal is not just to scrape one page, but to discover what the public web has looked like across repeated crawl snapshots. The skill works with the Common Crawl Index API, CC-MAIN datasets, and URL-level metadata such as crawl date, status, digest, and MIME type to identify where specific domains, paths, or content patterns appear in archived crawl history. That gives researchers fast access to historical coverage without launching their own distributed spidering job.
-
-
-
-The skill is especially useful for domain discovery, historical footprint analysis, and broad competitor research. It can isolate URLs by host, prefix, or file type, then help decide which records are worth sending to a downstream extraction step. Because Common Crawl separates discovery from content retrieval, this workflow reduces wasted fetches and gives a more systematic starting point for web-scale investigations.
-
-
-
-Use this skill when you need archive-backed URL intelligence, dataset-driven discovery, or a reliable way to mine old crawl snapshots before spending resources on deeper parsing.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill common-crawl-url-index-miner
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill common-crawl-url-index-miner -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill common-crawl-url-index-miner -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill common-crawl-url-index-miner -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install common-crawl-url-index-miner
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

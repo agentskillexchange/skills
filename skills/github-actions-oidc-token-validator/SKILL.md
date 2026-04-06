@@ -1,48 +1,25 @@
 ---
-name: "GitHub Actions OIDC Token Validator"
+title: "GitHub Actions OIDC Token Validator"
+slug: "github-actions-oidc-token-validator"
 description: "Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/github-actions-oidc-token-validator/"
 category: "CI/CD Integrations"
 framework: "Claude Code"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-oidc-token-validator/"
 ---
 # GitHub Actions OIDC Token Validator
 
 Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access.
 
-This skill provides a complete pipeline for validating GitHub Actions OIDC tokens to enable secretless deployments to cloud providers. Leveraging the GitHub Actions id-token API and the jose JWT library, it verifies the token’s audience, issuer, and subject claims against expected values. The skill integrates with AWS STS AssumeRoleWithWebIdentity, GCP Workload Identity Federation, and Azure AD federated identity credentials. It includes helper functions to decode the token payload, verify the signing key from the OIDC discovery endpoint, and return scoped cloud credentials. Error handling covers expired tokens, mismatched subjects, and unreachable discovery endpoints. This approach eliminates long-lived secrets from CI/CD pipelines and follows SLSA supply-chain security recommendations.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-oidc-token-validator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-oidc-token-validator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-oidc-token-validator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-oidc-token-validator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install github-actions-oidc-token-validator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

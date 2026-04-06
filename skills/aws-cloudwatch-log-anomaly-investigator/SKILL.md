@@ -1,60 +1,25 @@
 ---
-name: "AWS CloudWatch Log Anomaly Investigator"
+title: "AWS CloudWatch Log Anomaly Investigator"
+slug: "aws-cloudwatch-log-anomaly-investigator"
 description: "Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API."
-category: "Runbooks & Diagnostics"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/"
+category: "Runbooks &amp; Diagnostics"
+framework: "ChatGPT Agents"
 ---
 # AWS CloudWatch Log Anomaly Investigator
 
 Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API.
 
-The AWS CloudWatch Log Anomaly Investigator skill automates root cause analysis for production incidents detected in AWS CloudWatch Logs. It uses the CloudWatch Logs Insights API to run targeted queries across log groups, identifying error rate spikes, latency outliers, and unusual log patterns.
-
-
-
-Leveraging CloudWatch Anomaly Detection, the skill establishes baseline metrics and alerts when log volumes or error rates deviate significantly from expected patterns. It automatically correlates anomalies with recent deployment events by querying the AWS CodeDeploy API for deployment timelines.
-
-
-
-The investigation workflow includes automatic extraction of stack traces, error codes, and request IDs from structured JSON logs. Using the AWS X-Ray API, the skill traces individual requests across microservices to pinpoint the failing component.
-
-
-
-Results are compiled into a structured incident report with timeline, probable root cause, affected services, and recommended remediation steps. The skill supports integration with PagerDuty and Opsgenie via their REST APIs for automated incident escalation.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-investigator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-investigator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-investigator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-investigator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install aws-cloudwatch-log-anomaly-investigator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

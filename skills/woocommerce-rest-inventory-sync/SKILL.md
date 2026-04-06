@@ -1,10 +1,11 @@
 ---
-name: "WooCommerce REST Inventory Sync"
+title: "WooCommerce REST Inventory Sync"
+slug: "woocommerce-rest-inventory-sync"
 description: "Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint."
-category: "WordPress & CMS"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/woocommerce/woocommerce"
+category: "WordPress &amp; CMS"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10233
@@ -13,47 +14,15 @@ tool_ecosystem:
 
 Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint.
 
-WooCommerce REST Inventory Sync connects to the WooCommerce REST API v3 to maintain accurate stock levels across storefronts, marketplace integrations, and warehouse systems. It monitors product inventory through the /wc/v3/products endpoint and processes batch updates via /wc/v3/products/batch for efficient bulk synchronization.
-
-
-
-The skill hooks into woocommerce_product_set_stock and woocommerce_variation_set_stock actions to detect real-time inventory changes, then propagates updates to connected channels. It uses WP-CLI commands like wp wc product update for administrative corrections and generates low-stock reports by querying products with _stock below configurable thresholds.
-
-
-
-For multi-warehouse setups, it tracks stock per location using custom meta fields and reconciles totals against the WooCommerce product _stock value. Rate limiting respects the WooCommerce API headers, and webhook-based sync via woocommerce_webhook_delivery ensures near-instant propagation to external systems like Shopify or Amazon SP-API connectors.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill woocommerce-rest-inventory-sync
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill woocommerce-rest-inventory-sync -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill woocommerce-rest-inventory-sync -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill woocommerce-rest-inventory-sync -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install woocommerce-rest-inventory-sync
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

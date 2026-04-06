@@ -1,48 +1,25 @@
 ---
-name: "SonarQube Gate Enforcer"
+title: "SonarQube Gate Enforcer"
+slug: "sonarqube-gate-enforcer"
 description: "Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API /api/qualitygates/project_status endpoint. Blocks merges when coverage drops, duplications exceed thresholds, or new bugs are introduced."
-category: "Code Quality & Review"
-framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-gate-enforcer/"
+category: "Code Quality &amp; Review"
+framework: "Cursor"
 ---
 # SonarQube Gate Enforcer
 
 Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API /api/qualitygates/project_status endpoint. Blocks merges when coverage drops, duplications exceed thresholds, or new bugs are introduced.
 
-The SonarQube Gate Enforcer skill integrates SonarQube quality gate checks directly into CI/CD pipelines via the SonarQube Web API. It polls the /api/qualitygates/project_status endpoint after analysis completion to retrieve gate conditions and their pass/fail status. The skill supports custom quality gate profiles with configurable thresholds for code coverage percentage, duplication density, maintainability rating, reliability rating, and security hotspot review percentage. When a gate fails, it generates detailed failure reports showing exactly which conditions were violated, the delta from the threshold, and specific files contributing to the failure via the /api/issues/search endpoint. The tool integrates with GitHub, GitLab, and Bitbucket APIs to post quality gate status as commit checks and PR comments. It supports branch analysis for feature branches and pull request decoration with inline code annotations from SonarQube findings.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-gate-enforcer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-gate-enforcer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-gate-enforcer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-gate-enforcer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install sonarqube-gate-enforcer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

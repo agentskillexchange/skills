@@ -1,48 +1,25 @@
 ---
-name: "Pandas DataFrame Schema Validator"
+title: "Pandas DataFrame Schema Validator"
+slug: "pandas-dataframe-schema-validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
+category: "Data Extraction &amp; Transformation"
+framework: "OpenClaw"
 ---
 # Pandas DataFrame Schema Validator
 
 Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
 
-The Pandas DataFrame Schema Validator enforces data quality rules on Pandas DataFrames using the pandera schema validation library. It defines validation schemas using pa.DataFrameSchema with column-level type enforcement, nullable constraints, and value range specifications via pandera.Column definitions. The validator supports custom check functions using pandera.Check with lambda expressions, regex patterns, and statistical validations for distribution testing. It integrates with the pandas.api.types module to validate dtype compatibility across DataFrame operations. Schema inference is available using pandera.infer_schema() to generate baseline schemas from sample data, which can then be customized and tightened. The skill validates multi-index DataFrames, handles categorical dtype enforcement, and supports hypothesis testing checks using pandera.Hypothesis for statistical property validation. Error reporting generates detailed failure summaries with row indices, failing values, and schema violation categories.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install pandas-dataframe-schema-validator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

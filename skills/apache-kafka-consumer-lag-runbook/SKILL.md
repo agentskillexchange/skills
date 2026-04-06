@@ -1,48 +1,25 @@
 ---
-name: "Apache Kafka Consumer Lag Runbook"
+title: "Apache Kafka Consumer Lag Runbook"
+slug: "apache-kafka-consumer-lag-runbook"
 description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count."
-category: "Runbooks & Diagnostics"
-framework: "Cursor"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/"
+category: "Runbooks &amp; Diagnostics"
+framework: "Cursor"
 ---
 # Apache Kafka Consumer Lag Runbook
 
 Diagnoses Kafka consumer group lag using the Kafka AdminClient API and JMX metrics exposed via the Confluent Metrics API. Identifies slow consumers, topic partition hotspots, and broker rebalance storms that contribute to lag growth. Provides a step-by-step runbook to tune fetch.min.bytes, max.poll.records, and partition count.
 
-This skill connects to a Kafka cluster using the Apache Kafka AdminClient API (kafka-clients library) and queries consumer group offsets via the listConsumerGroupOffsets method. It cross-references committed offsets with latest partition offsets to calculate per-partition lag. JMX metrics are fetched from broker MBeans (kafka.server:type=FetcherLagMetrics) or, for Confluent Cloud, via the Confluent Metrics API REST endpoint. The skill identifies hotspot partitions by comparing lag growth rates across a rolling 10-minute window. Common root causes are diagnosed: slow deserialization, GC pauses, downstream database saturation, and rebalance loops triggered by session.timeout.ms misconfig. A step-by-step Markdown runbook is generated with exact configuration property changes and kafka-consumer-groups.sh commands for immediate lag reduction.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-consumer-lag-runbook -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install apache-kafka-consumer-lag-runbook
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

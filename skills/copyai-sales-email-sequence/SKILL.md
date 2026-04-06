@@ -1,72 +1,25 @@
 ---
-name: "Copy.ai Sales Email Sequence Builder"
-description: "Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+title: "Copy.ai Sales Email Sequence Builder"
+slug: "copyai-sales-email-sequence"
+description: "Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
+category: "Content Writing &amp; SEO"
+framework: "ChatGPT Agents"
 ---
 # Copy.ai Sales Email Sequence Builder
 
-Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
-
-Copy.ai Sales Email Sequence Builder is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like contacts, companies, deals, forms, workflows, search API, associations and preserving the operational context that matters for real tasks.
-
-
-
-In practice, the skill gives an agent a stable interface to hubspot so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Leverages Copy.ai's Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai's email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API. The implementation typically relies on contacts, companies, deals, forms, workflows, search API, associations, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
-
-
-
-- Accesses contacts, companies, deals, forms, workflows, search API, associations instead of scraping a UI, which makes runs easier to audit and retry.
-
-
-
-- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-
-
-
-- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-
-
-
-- Fits into broader integration points such as sales automation, CRM sync, lead enrichment, and lifecycle tracking.
-
-
-
-For generator-style use cases, the skill turns a vague request into repeatable scaffolding with defaults that match the upstream toolchain rather than inventing ad hoc files. Key integration points include sales automation, CRM sync, lead enrichment, and lifecycle tracking. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
 
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill copyai-sales-email-sequence
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill copyai-sales-email-sequence -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill copyai-sales-email-sequence -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill copyai-sales-email-sequence -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install copyai-sales-email-sequence
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

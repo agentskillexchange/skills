@@ -1,48 +1,25 @@
 ---
-name: "Pylint Code Review Assistant"
+title: "Pylint Code Review Assistant"
+slug: "pylint-code-review-assistant"
 description: "Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations."
-category: "Code Quality & Review"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
+category: "Code Quality &amp; Review"
+framework: "Custom Agents"
 ---
 # Pylint Code Review Assistant
 
 Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations.
 
-The Pylint Code Review Assistant skill automates Python code quality reviews using the Pylint linter through both CLI and programmatic API (pylint.lint.Run, pylint.reporters). It executes targeted analysis on changed files, generating detailed reports with message IDs (C0114 missing-module-docstring, W0611 unused-import, E1101 no-member, R0902 too-many-instance-attributes) and scoring on Pylint 10-point scale. The skill manages .pylintrc and pyproject.toml [tool.pylint] configurations for project-specific rules, handles disable/enable directives for baseline management, and supports custom checker plugins extending BaseChecker for project-specific patterns. Report generation uses pylint-json2html for HTML output and JSON reporter for programmatic processing. The assistant integrates with diff-based workflows to review only modified code, compares scores between branches for quality gate enforcement, and generates inline code review comments mapped to specific file locations. It supports parallel execution with –jobs flag, handles virtual environment path configuration via init-hook, and manages message confidence levels (HIGH, INFERENCE, UNDEFINED) for finding prioritization.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill pylint-code-review-assistant
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pylint-code-review-assistant -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pylint-code-review-assistant -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pylint-code-review-assistant -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install pylint-code-review-assistant
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

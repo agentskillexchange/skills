@@ -1,48 +1,25 @@
 ---
-name: "Ansible Playbook Template Library"
+title: "Ansible Playbook Template Library"
+slug: "ansible-playbook-template-library"
 description: "Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections."
-category: "Templates & Workflows"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-template-library/"
+category: "Templates &amp; Workflows"
+framework: "ChatGPT Agents"
 ---
 # Ansible Playbook Template Library
 
 Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections.
 
-This skill produces Ansible playbooks, roles, and inventories tailored to specific infrastructure automation needs. It queries the Ansible Galaxy API to find certified collections and community roles that match the requested automation tasks, then composes them into well-structured playbooks following Ansible best practices. The generator creates role directories with proper defaults, handlers, templates, and molecule test scenarios. It uses ansible-lint to validate generated playbooks against production rulesets, checking for deprecated modules, missing tags, and improper variable scoping. The skill supports dynamic inventory generation for AWS EC2, Azure VMs, and GCP instances using their respective inventory plugins. Vault-encrypted variable files are generated for sensitive data, and the skill produces accompanying ansible.cfg files with optimized settings for SSH pipelining, fact caching, and callback plugins.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill ansible-playbook-template-library
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ansible-playbook-template-library -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ansible-playbook-template-library
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

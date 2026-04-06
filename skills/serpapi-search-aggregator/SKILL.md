@@ -1,56 +1,25 @@
 ---
-name: "SerpAPI Search Aggregator"
+title: "SerpAPI Search Aggregator"
+slug: "serpapi-search-aggregator"
 description: "Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis."
-category: "Research & Scraping"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-aggregator/"
+category: "Research &amp; Scraping"
+framework: "OpenClaw"
 ---
 # SerpAPI Search Aggregator
 
 Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis.
 
-The SerpAPI Search Aggregator skill connects to the SerpAPI service to pull search engine results from multiple providers simultaneously. It supports Google, Bing, Yahoo, and DuckDuckGo through a unified interface.
-
-
-
-The skill handles pagination, location-based filtering (using Google’s uule parameter), and language targeting via the hl and gl parameters. Results are normalized into a consistent schema with fields for title, link, snippet, position, and rich snippet data.
-
-
-
-Advanced features include automatic rate limiting with exponential backoff, result deduplication across engines, and caching via Redis or filesystem. The skill can extract Knowledge Graph entities, People Also Ask questions, and Related Searches for comprehensive SERP analysis. Output formats include JSON, CSV, and Markdown tables.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-aggregator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-aggregator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-aggregator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-aggregator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install serpapi-search-aggregator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

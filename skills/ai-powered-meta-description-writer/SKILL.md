@@ -1,48 +1,25 @@
 ---
-name: "AI-Powered Meta Description Writer"
+title: "AI-Powered Meta Description Writer"
+slug: "ai-powered-meta-description-writer"
 description: "Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization."
-category: "Content Writing & SEO"
-framework: "Claude Code"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-powered-meta-description-writer/"
+category: "Content Writing &amp; SEO"
+framework: "Claude Code"
 ---
 # AI-Powered Meta Description Writer
 
 Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization.
 
-This skill automates meta description generation for large-scale websites using the OpenAI Chat Completions API with gpt-4o-mini for cost efficiency. It fetches existing page content through the WordPress REST API, extracts key themes using TF-IDF scoring, and generates compelling meta descriptions within the 155-character SERP display limit. The agent integrates directly with Yoast SEO plugin REST fields (yoast_head_json.description) for seamless WordPress updates. Each generated description includes the primary target keyword within the first 70 characters, a clear value proposition, and a call-to-action phrase. Google SERP Preview validation checks pixel width rendering using a canvas measureText approximation to ensure descriptions display without truncation on desktop and mobile. The skill processes pages in batches of 50, using wp_remote_post() for OpenAI API calls with configurable temperature settings. A/B testing support generates multiple variants per page with confidence interval tracking. Performance tracking integrates with Google Search Console API to measure CTR changes post-update.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-powered-meta-description-writer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ai-powered-meta-description-writer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

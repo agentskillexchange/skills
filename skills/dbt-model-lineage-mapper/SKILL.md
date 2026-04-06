@@ -1,60 +1,25 @@
 ---
-name: "dbt Model Lineage Mapper"
+title: "dbt Model Lineage Mapper"
+slug: "dbt-model-lineage-mapper"
 description: "Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API. Generates interactive DAG visualizations and impact analysis for model changes."
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-mapper/"
+category: "Data Extraction &amp; Transformation"
+framework: "OpenClaw"
 ---
 # dbt Model Lineage Mapper
 
 Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API. Generates interactive DAG visualizations and impact analysis for model changes.
 
-The dbt Model Lineage Mapper skill analyzes dbt project artifacts (manifest.json, catalog.json, run_results.json) to construct comprehensive data lineage graphs from source to exposure. It leverages the dbt artifact schema to map dependencies across models, sources, seeds, snapshots, and exposures.
-
-
-
-The skill builds a complete DAG showing upstream and downstream dependencies for any node, calculates critical path analysis for pipeline optimization, and identifies orphaned models with no downstream consumers. It cross-references catalog.json to enrich lineage with actual column-level lineage where available, tracing how specific columns flow through transformations.
-
-
-
-Impact analysis features let you specify proposed model changes and see all affected downstream models, tests, and exposures. It calculates blast radius metrics and can generate PR descriptions summarizing lineage impact. The skill also validates ref() and source() function usage, detects circular dependencies, and checks model naming convention compliance.
-
-
-
-Visualization outputs include Mermaid DAG diagrams, D3-compatible JSON for interactive exploration, and formatted Markdown reports. It can compare lineage between two manifest versions to show how the DAG evolved across releases.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-mapper
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-mapper -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-mapper -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-mapper -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install dbt-model-lineage-mapper
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

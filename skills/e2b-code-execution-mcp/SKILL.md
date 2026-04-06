@@ -1,78 +1,25 @@
 ---
-name: "E2B Code Execution MCP"
+title: "E2B Code Execution MCP"
+slug: "e2b-code-execution-mcp"
 description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/e2b-code-execution-mcp/"
 category: "Developer Tools"
 framework: "MCP"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/e2b-code-execution-mcp/"
 ---
 # E2B Code Execution MCP
 
 Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine.
 
-E2B Code Execution MCP connects AI assistants to the E2B Sandbox platform through the Model Context Protocol. Each execution runs inside an ephemeral, fully isolated cloud environment with its own filesystem, network access, and package manager.
-
-
-
-Best for
-
-
-
-- Data analysis pipelines requiring safe code execution
-
-
-
-- Code generation testing in isolated sandboxes
-
-
-
-- Multi-step tool chains where untrusted code must not run on the host
-
-
-
-- Any MCP workflow needing Python, JavaScript, or shell execution
-
-
-
-Install notes
-
-Get an E2B API key at e2b.dev (free tier available). Install via npx @smithery/cli install e2b --client claude or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.
-
-
-
-Source: github.com/e2b-dev/mcp-server
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill e2b-code-execution-mcp -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install e2b-code-execution-mcp
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

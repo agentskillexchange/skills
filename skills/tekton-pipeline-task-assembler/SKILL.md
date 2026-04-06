@@ -1,48 +1,25 @@
 ---
-name: "Tekton Pipeline Task Assembler"
+title: "Tekton Pipeline Task Assembler"
+slug: "tekton-pipeline-task-assembler"
 description: "Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/"
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/"
 ---
 # Tekton Pipeline Task Assembler
 
 Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps.
 
-The Tekton Pipeline Task Assembler builds cloud-native CI/CD pipelines using Tekton on Kubernetes. It assembles Pipeline resources from reusable Task and ClusterTask definitions, sourcing community tasks from Tekton Hub catalog and combining them with custom tasks for organization-specific workflows. The tkn CLI integration provides pipeline execution, log streaming, and resource management capabilities. The assembler handles PipelineRun parameter propagation, mapping pipeline-level parameters to individual task parameters with type checking and default value resolution. Workspace bindings connect PersistentVolumeClaims, ConfigMaps, and Secrets to task steps, enabling data sharing across pipeline stages. Result propagation chains task outputs to downstream task inputs using the $(tasks.taskname.results.resultname) syntax with validation of result availability. The tool generates TriggerTemplate and TriggerBinding resources for event-driven pipeline execution from GitHub webhooks, GitLab push events, and container registry notifications. Pipeline-as-code with Tekton Chains provides supply chain security through automated artifact signing and attestation generation.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-task-assembler
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-task-assembler -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-task-assembler -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-task-assembler -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install tekton-pipeline-task-assembler
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

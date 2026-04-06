@@ -1,96 +1,28 @@
 ---
-name: "Piper Local Neural Text-to-Speech Engine"
+title: "Piper Local Neural Text-to-Speech Engine"
+slug: "piper-local-neural-tts-engine"
 description: "Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi."
-category: "Media & Transcription"
-framework: "Custom Agents"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/rhasspy/piper"
+category: "Media &amp; Transcription"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741
-  license: "MIT"
 ---
 # Piper Local Neural Text-to-Speech Engine
 
 Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi.
 
-What is Piper?
-
-Piper is a fast, local neural text-to-speech (TTS) system developed by the Rhasspy project and now maintained by the Open Home Foundation. It converts text to natural-sounding speech using lightweight ONNX neural network models that run entirely on-device — no cloud API calls, no internet connection required. Piper is designed for voice assistants, accessibility tools, and any application that needs offline speech synthesis.
-
-
-
-How This Skill Works
-
-This skill enables agents to synthesize speech from text using the Piper TTS engine. Agents can select from a library of pre-trained voice models covering 20+ languages including English, German, French, Spanish, Chinese, Russian, and many more. The engine processes text through an espeak-ng phonemizer, then feeds phoneme sequences through a VITS-based neural network to produce raw audio output. The entire pipeline runs locally on CPU with sub-real-time latency on modern hardware.
-
-
-
-Key Capabilities
-
-
-
-- Offline operation: All processing happens locally. Models are compact ONNX files (15-100 MB) that load quickly and run without GPU acceleration.
-
-
-
-- Multi-language support: Pre-trained voices available for English (US/UK), German, French, Spanish, Portuguese, Italian, Dutch, Russian, Chinese, Arabic, Hindi, Japanese, and 10+ more languages.
-
-
-
-- Voice quality tiers: Choose between low, medium, and high quality models trading off file size and CPU usage for naturalness. High-quality models use multi-speaker VITS architectures.
-
-
-
-- Streaming output: Piper supports streaming audio generation, outputting PCM audio chunks as they are synthesized for low-latency real-time playback.
-
-
-
-- CLI and library usage: Use the piper command-line tool to pipe text in and get WAV audio out, or link against the C++ library for embedding in applications. Python bindings available via piper-tts on PyPI.
-
-
-
-Integration Points
-
-Piper integrates with Home Assistant for voice assistant pipelines, with Wyoming protocol for modular voice satellite setups, and with any system that can consume WAV or raw PCM audio. It outputs 16-bit mono audio at configurable sample rates (16kHz or 22.05kHz depending on the model). The CLI accepts text via stdin and writes audio to stdout, making it composable with ffmpeg, sox, aplay, and other audio tools via shell pipes. Docker images are available for containerized deployments.
-
-
-
-Source
-
-GitHub: rhasspy/piper (10.7K+ stars, MIT license) — New development: OHF-Voice/piper1-gpl
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill piper-local-neural-tts-engine -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install piper-local-neural-tts-engine
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

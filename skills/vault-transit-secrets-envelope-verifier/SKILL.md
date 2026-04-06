@@ -1,10 +1,11 @@
 ---
-name: "Vault Transit Secrets Envelope Verifier"
+title: "Vault Transit Secrets Envelope Verifier"
+slug: "vault-transit-secrets-envelope-verifier"
 description: "Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe."
-category: "Security & Verification"
-framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/hashicorp/vault"
+category: "Security &amp; Verification"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35321
@@ -13,47 +14,15 @@ tool_ecosystem:
 
 Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe.
 
-Vault Transit Secrets Envelope Verifier focuses on a narrow but important security problem: confirming that applications using HashiCorp Vault Transit are actually handling encryption the way the team thinks they are. It relies on Vault Transit endpoints such as /encrypt, /decrypt, and /rewrap, along with key metadata inspection, to review how ciphertext is produced, rotated, and rewrapped. That helps when teams migrate keys, audit secrets handling, or need to verify that envelope encryption is more than just a box checked in architecture docs.
-
-
-
-The skill can compare expected key names, versions, and ciphertext formats, then flag mismatches between documented and observed behavior. It is useful in security reviews, compliance preparation, and incident follow-up where cryptographic controls must be described precisely. Because the workflow is built around real Transit operations, it also makes it easier to distinguish application misuse from Vault-side configuration issues.
-
-
-
-Use this skill when secret-handling claims need verification, when key rotation workflows need review, or when agents should validate Transit-backed encryption with concrete API evidence.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill vault-transit-secrets-envelope-verifier
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill vault-transit-secrets-envelope-verifier -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill vault-transit-secrets-envelope-verifier -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill vault-transit-secrets-envelope-verifier -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install vault-transit-secrets-envelope-verifier
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

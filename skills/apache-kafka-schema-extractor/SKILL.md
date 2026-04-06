@@ -1,48 +1,25 @@
 ---
-name: "Apache Kafka Schema Extractor"
+title: "Apache Kafka Schema Extractor"
+slug: "apache-kafka-schema-extractor"
 description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
-category: "Data Extraction & Transformation"
-framework: "Codex"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
+category: "Data Extraction &amp; Transformation"
+framework: "Codex"
 ---
 # Apache Kafka Schema Extractor
 
 Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API.
 
-The Apache Kafka Schema Extractor skill interfaces with the Confluent Schema Registry REST API to discover, extract, and transform message schemas across Kafka topics. It retrieves Avro, Protobuf, and JSON Schema definitions and generates typed data models in Python, TypeScript, and Go. The skill performs schema compatibility validation using the compatibility checker endpoints, supporting BACKWARD, FORWARD, FULL, and NONE compatibility modes. Features include automatic schema evolution tracking with diff visualization, dead letter queue schema mismatch detection, and bulk schema export for migration between registries. Integrates with Kafka Connect REST API for connector schema alignment verification and supports schema context management for multi-tenant environments. Provides schema documentation generation in Markdown format.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install apache-kafka-schema-extractor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

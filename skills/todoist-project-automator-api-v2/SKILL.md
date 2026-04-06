@@ -1,48 +1,25 @@
 ---
-name: "Todoist Project Automator"
+title: "Todoist Project Automator"
+slug: "todoist-project-automator-api-v2"
 description: "Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers."
-category: "Calendar, Email & Productivity"
-framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
+category: "Calendar, Email &amp; Productivity"
+framework: "Gemini"
 ---
 # Todoist Project Automator
 
 Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers.
 
-Todoist Project Automator leverages both the Todoist REST API v2 and the Sync API for comprehensive task management automation. It creates project templates with pre-defined task hierarchies, labels, and due date patterns using natural language parsing. The Sync API enables batch operations for bulk task creation and modification with minimal API calls. The tool supports recurring workflow templates that automatically spawn task sequences when triggered by webhooks or calendar events. Integration with Jira and Linear APIs enables bidirectional sync of task status, keeping external project trackers aligned. It handles Todoist filter queries for generating progress reports and workload analysis across team members. Automatic priority adjustment based on due date proximity and dependency chains ensures critical path tasks surface appropriately. CSV and JSON export capabilities support external reporting dashboards.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill todoist-project-automator-api-v2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install todoist-project-automator-api-v2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

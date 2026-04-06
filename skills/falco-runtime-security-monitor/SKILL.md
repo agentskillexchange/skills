@@ -1,48 +1,27 @@
 ---
-name: "Falco Runtime Security Monitor"
+title: "Falco Runtime Security Monitor"
+slug: "falco-runtime-security-monitor"
 description: "Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection."
-category: "Security & Verification"
-framework: "Multi-Framework"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
+category: "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
+  - "OpenClaw"
 ---
 # Falco Runtime Security Monitor
 
 Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection.
 
-The Falco Runtime Security Monitor skill provides comprehensive container security monitoring by leveraging the Falco open-source runtime security engine. It hooks into Linux kernel syscalls via eBPF probes to detect anomalous behavior in containerized workloads. The skill configures Falco rules for detecting shell spawns in containers, unexpected network connections, privilege escalations, and filesystem tampering. It integrates with Kubernetes audit logs to correlate API server events with runtime behavior. Alerts are routed through Prometheus AlertManager with configurable severity levels and notification channels including Slack, PagerDuty, and OpsGenie. The skill also supports custom Falco rule authoring, allowing teams to define organization-specific security policies. Includes automated response capabilities such as pod termination for critical violations and network policy enforcement via Calico or Cilium CNI plugins.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill falco-runtime-security-monitor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install falco-runtime-security-monitor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

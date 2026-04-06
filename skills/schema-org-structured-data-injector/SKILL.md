@@ -1,56 +1,25 @@
 ---
-name: "Schema.org Structured Data Injector"
-description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+title: "Schema.org Structured Data Injector"
+slug: "schema-org-structured-data-injector"
+description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google&#8217;s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
+verification: "security_reviewed"
 source: "https://schema.org/"
+category: "Content Writing &amp; SEO"
+framework: "ChatGPT Agents"
 ---
 # Schema.org Structured Data Injector
 
-Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
-
-Schema.org Structured Data Injector automates the creation and validation of JSON-LD markup for improved search engine visibility. It analyzes page content to determine the appropriate Schema.org type — Article, Product, FAQPage, HowTo, Recipe, or LocalBusiness — and generates compliant JSON-LD blocks with proper @context and @type declarations.
-
-
-
-The injector pulls content signals from HTML heading structure, product metadata, Q&A patterns, and step-by-step instructions to populate schema properties. For Article types, it extracts author, datePublished, dateModified, and headline. Product schemas include offers with price, priceCurrency, and availability from structured product pages. FAQ schemas detect question-answer pairs from accordion or definition list markup.
-
-
-
-Validation runs through Google’s Rich Results Test API endpoint and the Schema.org validator to catch missing required properties, incorrect value types, and deprecated markup patterns. The tool outputs both the JSON-LD snippet for manual insertion and a WordPress-compatible wp_head action hook implementation using wp_json_encode() for dynamic injection. Batch processing handles entire sitemaps by crawling URLs and generating schema for each page type.
+Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google&#8217;s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.
 
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-injector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-injector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-injector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-injector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install schema-org-structured-data-injector
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

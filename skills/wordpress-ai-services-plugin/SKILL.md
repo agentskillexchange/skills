@@ -1,56 +1,25 @@
 ---
-name: "WordPress AI Services Plugin"
+title: "WordPress AI Services Plugin"
+slug: "wordpress-ai-services-plugin"
 description: "AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API, JavaScript, and WP-CLI. It is built as infrastructure for other plugins and site workflows, rather than as a single-purpose chatbot feature."
-category: "WordPress & CMS"
-framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://github.com/felixarntz/ai-services"
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 ---
 # WordPress AI Services Plugin
 
 AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API, JavaScript, and WP-CLI. It is built as infrastructure for other plugins and site workflows, rather than as a single-purpose chatbot feature.
 
-AI Services is an open-source WordPress plugin that makes generative AI capabilities available through a common interface inside WordPress. According to the upstream project, it exposes AI functionality through PHP APIs, the WordPress REST API, JavaScript, and WP-CLI, which means developers can build WordPress features on top of one shared service layer instead of hard-coding directly to a single model provider. The plugin is provider-agnostic by design and is intended to support providers such as Anthropic, Google, and OpenAI through a uniform abstraction.
-
-
-
-That scope makes it a strong ASE fit for WordPress and CMS workflows. The plugin is useful when an agent or developer wants to add AI-backed editorial tools, admin-side assistants, custom plugin features, or reusable AI integrations to a WordPress stack while keeping credentials and provider settings centralized. The upstream README also highlights an AI Playground screen and settings UI for configuring provider credentials, which gives teams a concrete environment for experimentation before they wire the APIs into production features.
-
-
-
-The project is real and source-backed: it has an active GitHub repository, a WordPress.org plugin page, public documentation, and a GPL license. The documented development install flow is to clone the repository into wp-content/plugins/ai-services, then run composer install, npm install, and npm run build. Once activated, the plugin exposes admin screens under Settings and Tools, making it a practical integration layer for AI-enabled WordPress development rather than a vague concept entry.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-ai-services-plugin
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-ai-services-plugin -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-ai-services-plugin -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-ai-services-plugin -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install wordpress-ai-services-plugin
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

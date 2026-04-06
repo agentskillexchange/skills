@@ -1,60 +1,25 @@
 ---
-name: "Tekton Pipeline Generator"
+title: "Tekton Pipeline Generator"
+slug: "tekton-pipeline-generator"
 description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
 category: "CI/CD Integrations"
 framework: "Gemini"
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
 ---
 # Tekton Pipeline Generator
 
 Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations.
 
-The Tekton Pipeline Generator skill automates the creation of cloud-native CI/CD pipelines using the Tekton Pipelines framework on Kubernetes. It queries the Tekton Hub API to discover reusable tasks for common operations like git-clone, buildah image builds, and vulnerability scanning.
-
-
-
-The generator creates complete Pipeline and PipelineRun YAML manifests with properly configured workspace bindings, parameter passing between tasks, and result propagation chains. It handles PersistentVolumeClaim workspace provisioning and configures sidecar containers for services like Docker-in-Docker or database fixtures.
-
-
-
-Using kubectl and the Kubernetes API, the skill validates that required Custom Resource Definitions (CRDs) are installed, checks RBAC permissions for pipeline service accounts, and verifies that referenced secrets and config maps exist. It supports Tekton Triggers configuration for webhook-driven pipeline execution from GitHub, GitLab, and Bitbucket.
-
-
-
-The skill also generates TektonConfig resources for cluster-wide pipeline settings and supports Tekton Results integration for long-term pipeline run storage and querying.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install tekton-pipeline-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 

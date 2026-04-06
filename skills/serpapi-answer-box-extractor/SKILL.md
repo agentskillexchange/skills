@@ -1,10 +1,11 @@
 ---
-name: "SerpAPI Answer Box Extractor"
+title: "SerpAPI Answer Box Extractor"
+slug: "serpapi-answer-box-extractor"
 description: "Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping."
-category: "Research & Scraping"
-framework: "Gemini"
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/serpapi/google-search-results-python"
+category: "Research &amp; Scraping"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "serpapi/google-search-results-python"
   github_stars: 734
@@ -13,47 +14,15 @@ tool_ecosystem:
 
 Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping.
 
-SerpAPI Answer Box Extractor helps research workflows pull useful structure out of search engine results without fighting anti-bot protections or brittle page markup. The skill is grounded in real SerpAPI response objects such as answer_box, knowledge_graph, related_questions, people_also_search_for, and organic_results. Instead of treating a search result page as a blob of HTML, it organizes the distinct information modules that matter for competitive research, content planning, and fact gathering.
-
-
-
-This is particularly effective when an agent needs to compare direct answers against organic rankings, or track whether a query is dominated by FAQs, local packs, videos, shopping units, or branded knowledge panels. Because the fields already arrive normalized, downstream analysis is easier to automate and validate. Teams can also preserve the original query, location, and engine parameters so findings remain reproducible.
-
-
-
-Use this skill for query intelligence, SEO analysis, and topic research where structured SERP features are more valuable than screenshots or loosely parsed snippets from a traditional scraper.
-
 ## Installation
 
-### Any Agent
+Choose the installation path that fits your setup:
 
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-answer-box-extractor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-answer-box-extractor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-answer-box-extractor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-answer-box-extractor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install serpapi-answer-box-extractor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI.
+2. Copy the skill folder into your local skills directory.
+3. Add it to your shared workspace skills collection.
+4. Install it through a compatible agent skill manager.
+5. Clone or download the upstream source and wire it into your agent runtime.
 
 ## Source
 
