@@ -112,6 +112,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
+| [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | — | — |
 
 ---
 

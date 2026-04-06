@@ -100,6 +100,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | — | — |
 | [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | — | — |
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | — | — |
+| [SearXNG Privacy-First Metasearch Engine and Search API](../../skills/searxng-privacy-first-metasearch-engine-search-api/) | — | — |
 | [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | — | — |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | — | — |
 | [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1733,
+  "total": 1736,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "searxng-privacy-first-metasearch-engine-search-api",
+      "name": "SearXNG Privacy-First Metasearch Engine and Search API",
+      "description": "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "taiko-smart-selector-browser-automation-nodejs",
+      "name": "Taiko Smart-Selector Browser Automation for Node.js",
+      "description": "Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and REPL-driven recorder make it useful for readable…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wpgraphql-for-acf-wordpress-graphql-field-mapping",
+      "name": "WPGraphQL for ACF WordPress GraphQL Field Mapping",
+      "description": "WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema. It is useful for headless WordPress builds…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "photoprism-self-hosted-photo-library-automation",
       "name": "PhotoPrism Self-Hosted Photo Library Automation",

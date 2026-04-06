@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1733 skills** across **17 categories**
+> **1736 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -16,10 +16,10 @@
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **83** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **77** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **77** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **76** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **77** | Web research, data collection, content aggregation, and information g... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **73** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **73** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **74** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **74** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---

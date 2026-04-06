@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1733 published skills** across **17 categories** · 1706 security reviewed · Updated 2026-04-06 13:35 UTC
+> **1736 published skills** across **17 categories** · 1706 security reviewed · Updated 2026-04-06 15:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1480,7 +1480,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (76 skills)
+### 🔍 Research & Scraping (77 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1553,6 +1553,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | — | — |
 | [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | — | — |
 | [ScrapyCloud Job Manager](skills/scrapycloud-job-manager/) | Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument… | Security Reviewed | — | — |
+| [SearXNG Privacy-First Metasearch Engine and Search API](skills/searxng-privacy-first-metasearch-engine-search-api/) | SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking… | Published | — | — |
 | [SEC EDGAR Filing Scraper & Analyzer](skills/sec-edgar-filing-scraper-analyzer/) | Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl.… | Security Reviewed | — | — |
 | [SEC EDGAR Financial Filing Parser](skills/sec-edgar-financial-filing-parser/) | Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing… | Security Reviewed | — | — |
 | [SerpAPI Research Pipeline](skills/serpapi-research-pipeline/) | Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints.… | Security Reviewed | — | — |
@@ -1646,7 +1647,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (73 skills)
+### 📰 WordPress & CMS (74 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1725,9 +1726,10 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP Multisite Network Sync Agent](skills/wp-multisite-network-sync-agent/) | Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query… | Security Reviewed | — | — |
 | [WP-CLI Bulk Content Migrator](skills/wp-cli-bulk-content-migrator/) | Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles… | Security Reviewed | — | — |
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
+| [WPGraphQL for ACF WordPress GraphQL Field Mapping](skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema.… | Published | — | — |
 
 
-### 🌐 Browser Automation (73 skills)
+### 🌐 Browser Automation (74 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1804,6 +1806,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | Build browser automations with Stagehand, Browserbase's AI browser automation framework. It combines… | Security Reviewed | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](skills/stagehand-ai-browser-automation-framework-browserbase/) | Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with… | Security Reviewed | — | — |
 | [Stagehand Browser Automation](skills/stagehand-browser-automation/) | Stagehand is Browserbase’s AI browser automation framework for mixing natural-language actions with deterministic… | Published | — | — |
+| [Taiko Smart-Selector Browser Automation for Node.js](skills/taiko-smart-selector-browser-automation-nodejs/) | Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and… | Published | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | — | — |
 | [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Security Reviewed | — | — |
 
