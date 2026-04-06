@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1746 skills** across **17 categories**
+> **1749 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -9,16 +9,16 @@
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **127** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔒 | [**Security & Verification**](security-verification/) | **117** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **114** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **103** | SDK documentation, API guides, framework reference material, and libr... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **104** | SDK documentation, API guides, framework reference material, and libr... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **103** | Metrics collection, alerting rules, observability setup, and system m... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **96** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **94** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **83** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **79** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **80** | Web research, data collection, content aggregation, and information g... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **78** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **78** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **77** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **77** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **76** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 

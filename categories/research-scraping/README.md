@@ -76,6 +76,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
+| [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | — | — |
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | — | — |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | — | — |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1746,
+  "total": 1749,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "linkup-js-sdk-sourced-web-search-fetch",
+      "name": "Linkup JS SDK for Sourced Web Search and Fetch",
+      "description": "Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "exa-js-web-search-sdk-ai-applications",
+      "name": "Exa JS Web Search SDK for AI Applications",
+      "description": "exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "headstartwp-headless-wordpress-nextjs-framework",
+      "name": "HeadstartWP Headless WordPress and Next.js Framework",
+      "description": "HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "remotion-react-video-generation-rendering-framework",
       "name": "Remotion React Video Generation and Rendering Framework",

@@ -66,6 +66,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
+| [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | — | — |
