@@ -1,6 +1,8 @@
 ---
 name: "sigstore-cosign-verifier-2"
 description: "Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing."
+category: "Security &amp; Verification"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
 ---

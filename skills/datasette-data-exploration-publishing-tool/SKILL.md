@@ -1,6 +1,8 @@
 ---
 name: "datasette-data-exploration-publishing-tool"
 description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/simonw/datasette"
 tool_ecosystem:

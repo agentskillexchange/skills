@@ -1,6 +1,8 @@
 ---
 name: "pagerduty-incident-runbook"
 description: "Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic runbooks based on service and alert routing keys, and posts resolution notes back to the incident timeline."
+category: "Runbooks &amp; Diagnostics"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook/"
 ---

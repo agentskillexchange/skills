@@ -1,6 +1,8 @@
 ---
 name: "jenkins-pipeline-code-review-agent"
 description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules."
+category: "Code Quality &amp; Review"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "slack-workflow-bot-builder"
 description: "Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners."
+category: "Calendar, Email &amp; Productivity"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
 ---

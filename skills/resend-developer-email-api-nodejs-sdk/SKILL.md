@@ -1,6 +1,8 @@
 ---
 name: "resend-developer-email-api-nodejs-sdk"
 description: "Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing emails from Node.js applications. It supports React-based email templates, domain verification, and integrates with popular frameworks like Next.js, Remix, Hono, and Astro."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/resend/resend-node"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "gron-greppable-json-flattener"
 description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/tomnomnom/gron"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "meilisearch-mcp-server-ai-search"
 description: "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation."
+category: "Developer Tools"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/meilisearch/meilisearch-mcp"
 tool_ecosystem:

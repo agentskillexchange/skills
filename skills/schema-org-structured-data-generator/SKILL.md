@@ -1,6 +1,8 @@
 ---
 name: "schema-org-structured-data-generator"
 description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
+category: "Content Writing &amp; SEO"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 ---

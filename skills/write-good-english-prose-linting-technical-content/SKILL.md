@@ -1,6 +1,8 @@
 ---
 name: "write-good-english-prose-linting-technical-content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
+category: "Content Writing &amp; SEO"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/btford/write-good"
 tool_ecosystem:
@@ -8,6 +10,8 @@ tool_ecosystem:
   github_stars: 5065
   npm_package: "write-good"
   npm_weekly_downloads: 50185
+  license: "MIT"
+  maintained: false
 ---
 
 # write-good English Prose Linting for Technical Content

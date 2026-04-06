@@ -1,6 +1,8 @@
 ---
 name: "textlint-pluggable-natural-language-linter"
 description: "Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar issues, and maintain consistent documentation style across your project."
+category: "Content Writing &amp; SEO"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/textlint/textlint"
 tool_ecosystem:
@@ -8,6 +10,8 @@ tool_ecosystem:
   github_stars: 3099
   npm_package: "textlint"
   npm_weekly_downloads: 98681
+  license: "MIT"
+  maintained: true
 ---
 
 # textlint Pluggable Natural Language Linter

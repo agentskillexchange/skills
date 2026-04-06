@@ -1,6 +1,8 @@
 ---
 name: "argocd-gitops-sync-monitor"
 description: "Monitors ArgoCD application sync status using the ArgoCD REST API /api/v1/applications endpoint. Detects drift between Git manifests and live Kubernetes cluster state via the Kubernetes API."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/"
 ---

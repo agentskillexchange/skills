@@ -1,7 +1,9 @@
 ---
 name: "angular-typescript-web-framework"
 description: "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication."
-verification: "listed"
+category: "Developer Tools"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/angular/angular"
 tool_ecosystem:
   github_repo: "angular/angular"

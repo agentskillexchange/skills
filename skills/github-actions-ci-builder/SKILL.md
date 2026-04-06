@@ -1,6 +1,8 @@
 ---
 name: "github-actions-ci-builder"
 description: "Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch events. Supports matrix builds, reusable workflows, and composite actions."
+category: "CI/CD Integrations"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-ci-builder/"
 ---

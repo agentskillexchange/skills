@@ -1,6 +1,8 @@
 ---
 name: "selenium-grid-parallel-execution-manager"
 description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid REST API. Manages session allocation, node health monitoring, and parallel TestNG suite execution."
+category: "Browser Automation"
+framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "csv-schema-validator-auto-fixer"
 description: "Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels."
+category: "Data Extraction &amp; Transformation"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 ---

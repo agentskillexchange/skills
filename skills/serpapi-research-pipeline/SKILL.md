@@ -1,6 +1,8 @@
 ---
 name: "serpapi-research-pipeline"
 description: "Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in SQLite with full-text search."
+category: "Research &amp; Scraping"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
 ---

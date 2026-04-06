@@ -1,6 +1,8 @@
 ---
 name: "eslint-auto-fixer"
 description: "Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format."
+category: "Code Quality &amp; Review"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-auto-fixer/"
 ---

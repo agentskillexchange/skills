@@ -1,6 +1,8 @@
 ---
 name: "swagger-openapi-schema-validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
+category: "Library &amp; API Reference"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 ---

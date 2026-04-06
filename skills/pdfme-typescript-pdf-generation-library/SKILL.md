@@ -1,6 +1,8 @@
 ---
 name: "pdfme-typescript-pdf-generation-library"
 description: "pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG template designer, PDF viewer, and CLI tools for validation and generation in both browser and Node.js environments."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/pdfme/pdfme"
 ---

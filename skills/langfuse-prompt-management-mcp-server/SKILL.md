@@ -1,6 +1,8 @@
 ---
 name: "langfuse-prompt-management-mcp-server"
 description: "Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It is useful for teams that keep prompts in Langfuse and want assistants to consume production prompt definitions instead of copying templates by hand."
+category: "Templates &amp; Workflows"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/langfuse/mcp-server-langfuse"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "wasm-component-model-linker"
 description: "Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions."
+category: "Developer Tools"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://github.com/WebAssembly/component-model"
 tool_ecosystem:

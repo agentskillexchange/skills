@@ -1,6 +1,8 @@
 ---
 name: "graphql-schema-analyzer"
 description: "Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations."
+category: "Library &amp; API Reference"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-analyzer/"
 ---

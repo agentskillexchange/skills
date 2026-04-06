@@ -1,6 +1,8 @@
 ---
 name: "temporal-durable-execution-workflow-platform"
 description: "Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows. It automatically handles retries, timeouts, and intermittent failures, with SDKs for Go, Java, Python, TypeScript, .NET, and PHP."
+category: "Templates &amp; Workflows"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/temporalio/temporal"
 tool_ecosystem:

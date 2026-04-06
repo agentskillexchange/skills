@@ -1,6 +1,8 @@
 ---
 name: "backstage-software-template-composer"
 description: "Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including fetch:template, publish:github, and catalog:register. Manages the Backstage Software Catalog via its REST API."
+category: "Templates &amp; Workflows"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://github.com/backstage/backstage"
 tool_ecosystem:

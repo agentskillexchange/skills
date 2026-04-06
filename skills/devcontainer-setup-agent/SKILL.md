@@ -1,6 +1,8 @@
 ---
 name: "devcontainer-setup-agent"
 description: "Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the [&hellip;]"
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-setup-agent/"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "prettier-format-enforcement-bot"
 description: "Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management."
+category: "Code Quality &amp; Review"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
 ---

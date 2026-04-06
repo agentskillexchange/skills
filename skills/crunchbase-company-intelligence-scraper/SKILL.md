@@ -1,6 +1,8 @@
 ---
 name: "crunchbase-company-intelligence-scraper"
 description: "Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations."
+category: "Research &amp; Scraping"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
 ---

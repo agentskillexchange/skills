@@ -1,13 +1,15 @@
 ---
 name: "notion-ai-doc-summarizer"
-description: "Uses the Notion SDK and Notion AI&#8217;s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
+description: "Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
+category: "Calendar, Email &amp; Productivity"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
 ---
 
 # Notion AI Document Summarizer & Action Item Extractor
 
-Uses the Notion SDK and Notion AI&#8217;s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.
+Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.
 
 ## Installation
 

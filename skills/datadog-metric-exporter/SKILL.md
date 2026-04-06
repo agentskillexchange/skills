@@ -1,6 +1,8 @@
 ---
 name: "datadog-metric-exporter"
 description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
+category: "Monitoring &amp; Alerts"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
 ---

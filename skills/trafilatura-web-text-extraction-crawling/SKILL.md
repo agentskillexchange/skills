@@ -1,6 +1,8 @@
 ---
 name: "trafilatura-web-text-extraction-crawling"
 description: "Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and extracting main text content, metadata, and comments from raw HTML, outputting clean structured data in CSV, JSON, Markdown, XML, and TXT formats."
+category: "Research &amp; Scraping"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/adbar/trafilatura"
 tool_ecosystem:

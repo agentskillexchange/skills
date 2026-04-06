@@ -1,11 +1,15 @@
 ---
 name: "svix-enterprise-webhook-delivery-service"
 description: "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call."
+category: "Integrations &amp; Connectors"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/svix/svix-webhooks"
 tool_ecosystem:
   github_repo: "svix/svix-webhooks"
   github_stars: 3152
+  license: "MIT"
+  maintained: true
 ---
 
 # Svix Enterprise Webhook Delivery Service

@@ -1,6 +1,8 @@
 ---
 name: "shellcheck-shell-script-static-analyzer"
 description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
+category: "Code Quality &amp; Review"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/koalaman/shellcheck"
 tool_ecosystem:

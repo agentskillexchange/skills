@@ -1,6 +1,8 @@
 ---
 name: "cairosvg-svg-to-png-pdf-converter"
 description: "CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats via both a CLI and a Python API, making it a reliable tool for automated image pipeline workflows."
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Kozea/CairoSVG"
 tool_ecosystem:

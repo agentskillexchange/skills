@@ -1,6 +1,8 @@
 ---
 name: "lefthook-git-hooks-manager"
 description: "Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with Node.js, Ruby, Python, and any other project type through a simple YAML configuration."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/evilmartians/lefthook"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "postgresql-query-plan-explainer"
 description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios."
+category: "Runbooks &amp; Diagnostics"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-explainer/"
 ---

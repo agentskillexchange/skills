@@ -1,6 +1,8 @@
 ---
 name: "lobehub-multi-agent-chat-platform-mcp-plugins"
 description: "LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a self-hosted alternative to ChatGPT with extensible function calling and voice capabilities."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/lobehub/lobehub"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "prometheus-alertmanager-rule-generator"
 description: "Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation."
+category: "Monitoring &amp; Alerts"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/"
 ---

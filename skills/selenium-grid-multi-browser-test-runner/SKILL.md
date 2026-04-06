@@ -1,6 +1,8 @@
 ---
 name: "selenium-grid-multi-browser-test-runner"
 description: "Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix."
+category: "Browser Automation"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/"
 ---

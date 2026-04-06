@@ -1,6 +1,8 @@
 ---
 name: "sonarqube-quality-gate-agent"
 description: "Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul, and lcov formats for multi-language projects."
+category: "Code Quality &amp; Review"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
 ---

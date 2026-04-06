@@ -1,11 +1,15 @@
 ---
 name: "browser-use-browser-automation-framework"
 description: "Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites, inspect page state, click, type, extract data, and recover from common UI changes with a real automation framework instead of brittle one-off scripts."
+category: "Browser Automation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 85193
+  license: "MIT"
+  maintained: true
 ---
 
 # browser-use Browser Automation Framework

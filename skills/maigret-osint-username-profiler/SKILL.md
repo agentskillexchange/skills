@@ -1,6 +1,8 @@
 ---
 name: "maigret-osint-username-profiler"
 description: "Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages. A powerful Sherlock fork with recursive search, profile parsing, and structured report output."
+category: "Research &amp; Scraping"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/soxoj/maigret"
 tool_ecosystem:

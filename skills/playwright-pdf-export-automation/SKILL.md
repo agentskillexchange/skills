@@ -1,13 +1,15 @@
 ---
 name: "playwright-pdf-export-automation"
-description: "Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins via Playwright&#8217;s PDFOptions interface."
+description: "Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins via Playwright's PDFOptions interface."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-pdf-export-automation/"
 ---
 
 # Playwright PDF Export Automation
 
-Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins via Playwright&#8217;s PDFOptions interface.
+Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins via Playwright's PDFOptions interface.
 
 ## Installation
 

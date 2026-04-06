@@ -1,6 +1,8 @@
 ---
 name: "rust-crate-documentation-extractor"
 description: "Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates searchable API references with cross-crate linking and example extraction."
+category: "Library &amp; API Reference"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-extractor/"
 ---

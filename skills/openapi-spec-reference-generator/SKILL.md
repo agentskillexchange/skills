@@ -1,6 +1,8 @@
 ---
 name: "openapi-spec-reference-generator"
 description: "Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and redoc-cli. Generates static HTML, markdown, and Postman collection exports from YAML/JSON spec files."
+category: "Library &amp; API Reference"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-reference-generator/"
 ---

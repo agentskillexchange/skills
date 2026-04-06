@@ -1,6 +1,8 @@
 ---
 name: "desktop-commander-mcp-terminal-file-control"
 description: "Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It extends Claude Desktop and other MCP clients with full local development environment control."
+category: "Developer Tools"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
 tool_ecosystem:

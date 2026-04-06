@@ -1,6 +1,8 @@
 ---
 name: "devenv-declarative-developer-environments-nix"
 description: "A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/cachix/devenv"
 tool_ecosystem:

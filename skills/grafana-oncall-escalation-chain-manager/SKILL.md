@@ -1,6 +1,8 @@
 ---
 name: "grafana-oncall-escalation-chain-manager"
 description: "Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment."
+category: "Monitoring &amp; Alerts"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://github.com/grafana/oncall"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "openai-whisper-transcription"
 description: "Local speech-to-text transcription without relying on an API."
+category: "Media &amp; Transcription"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/openai/whisper"
 tool_ecosystem:

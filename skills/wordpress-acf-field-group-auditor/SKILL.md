@@ -1,6 +1,8 @@
 ---
 name: "wordpress-acf-field-group-auditor"
 description: "Fetches all Advanced Custom Fields field groups and their field definitions via the ACF REST API (/wp-json/acf/v3/), maps field keys to their post types, and produces a structured audit report. Detects orphaned fields, duplicate keys, and field type mismatches across groups."
+category: "WordPress &amp; CMS"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-acf-field-group-auditor/"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "changesets-version-changelog-manager"
 description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/changesets/changesets"
 tool_ecosystem:

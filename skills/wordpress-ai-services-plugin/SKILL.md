@@ -1,6 +1,8 @@
 ---
 name: "wordpress-ai-services-plugin"
 description: "AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API, JavaScript, and WP-CLI. It is built as infrastructure for other plugins and site workflows, rather than as a single-purpose chatbot feature."
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/felixarntz/ai-services"
 ---

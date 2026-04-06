@@ -1,6 +1,8 @@
 ---
 name: "circleci-workflow-builder"
 description: "Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class optimization for Docker and machine executors."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-workflow-builder/"
 ---

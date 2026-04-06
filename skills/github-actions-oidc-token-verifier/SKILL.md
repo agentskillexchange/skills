@@ -1,6 +1,8 @@
 ---
 name: "github-actions-oidc-token-verifier"
 description: "Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
 ---

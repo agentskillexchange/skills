@@ -1,6 +1,8 @@
 ---
 name: "schema-markup-generator-seo"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
+category: "Content Writing &amp; SEO"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 ---

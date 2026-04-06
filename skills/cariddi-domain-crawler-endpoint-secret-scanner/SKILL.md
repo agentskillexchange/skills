@@ -1,6 +1,8 @@
 ---
 name: "cariddi-domain-crawler-endpoint-secret-scanner"
 description: "Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints, secrets, API keys, file extensions, tokens, and errors. It supports configurable concurrency, depth limits, proxy routing, and multiple output formats."
+category: "Security &amp; Verification"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/edoardottt/cariddi"
 ---

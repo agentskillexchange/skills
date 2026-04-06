@@ -1,6 +1,8 @@
 ---
 name: "activitywatch-automated-time-tracker"
 description: "ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. With 16k+ GitHub stars, it provides detailed productivity analytics without sending data to external servers."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ActivityWatch/activitywatch"
 ---

@@ -1,6 +1,8 @@
 ---
 name: "cerbos-authorization-pdp"
 description: "Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed through Git-ops, providing high-availability APIs for dynamic access decisions across applications."
+category: "Security &amp; Verification"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/cerbos/cerbos"
 ---

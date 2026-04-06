@@ -1,6 +1,8 @@
 ---
 name: "git-branch-analyzer-libgit2"
 description: "Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge conflicts, and divergence points via the GitHub GraphQL API."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/"
 ---

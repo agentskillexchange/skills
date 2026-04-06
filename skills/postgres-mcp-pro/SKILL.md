@@ -1,6 +1,8 @@
 ---
 name: "postgres-mcp-pro"
 description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
+category: "Data Extraction &amp; Transformation"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
 ---

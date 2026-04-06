@@ -1,7 +1,9 @@
 ---
 name: "photoprism-self-hosted-photo-library-automation"
 description: "Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism. Useful for private media archives that need AI-assisted tagging and operational workflows without handing assets to a third-party cloud."
-verification: "listed"
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/photoprism/photoprism"
 ---
 

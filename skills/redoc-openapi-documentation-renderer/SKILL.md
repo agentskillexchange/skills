@@ -1,6 +1,8 @@
 ---
 name: "redoc-openapi-documentation-renderer"
 description: "Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. With 25,000+ GitHub stars and nearly 1 million weekly npm downloads, it is the most widely used API documentation renderer."
+category: "Library &amp; API Reference"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redoc"
 tool_ecosystem:

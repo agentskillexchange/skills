@@ -1,6 +1,8 @@
 ---
 name: "zoxide-smart-directory-navigation-cli"
 description: "A smarter cd command written in Rust, inspired by z and autojump. zoxide learns your most-used directories and lets you jump to them with minimal keystrokes across all major shells."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/ajeetdsouza/zoxide"
 tool_ecosystem:

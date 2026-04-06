@@ -1,6 +1,8 @@
 ---
 name: "wxt-next-gen-web-extension-framework"
 description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/wxt-dev/wxt"
 tool_ecosystem:

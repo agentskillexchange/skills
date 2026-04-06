@@ -1,6 +1,8 @@
 ---
 name: "terraform-plan-validator-agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
 ---

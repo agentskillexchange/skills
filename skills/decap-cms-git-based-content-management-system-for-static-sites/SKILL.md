@@ -1,6 +1,8 @@
 ---
 name: "decap-cms-git-based-content-management-system-for-static-sites"
 description: "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and lets teams edit structured content in repositories without building a custom editorial interface from scratch."
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/decaporg/decap-cms"
 ---

@@ -1,7 +1,9 @@
 ---
 name: "nuxt-vue-meta-framework-ssr"
 description: "Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing, auto-imports, and a powerful module system for building performant full-stack web applications."
-verification: "listed"
+category: "Developer Tools"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/nuxt/nuxt"
 tool_ecosystem:
   github_repo: "nuxt/nuxt"

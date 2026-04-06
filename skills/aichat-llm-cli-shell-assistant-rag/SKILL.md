@@ -1,6 +1,8 @@
 ---
 name: "aichat-llm-cli-shell-assistant-rag"
 description: "AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a single binary. It connects to 20+ LLM providers including OpenAI, Claude, Gemini, and Ollama."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/sigoden/aichat"
 tool_ecosystem:

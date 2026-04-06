@@ -1,6 +1,8 @@
 ---
 name: "yoast-seo-wordpress-optimization-toolkit"
 description: "Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow for optimizing content, schema, metadata, and indexing behavior. It is aimed at WordPress operators who want agent help with SEO settings that map to the actual Yoast plugin and docs."
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Yoast/wordpress-seo"
 tool_ecosystem:

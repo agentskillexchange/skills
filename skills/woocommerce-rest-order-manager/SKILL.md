@@ -1,6 +1,8 @@
 ---
 name: "woocommerce-rest-order-manager"
 description: "Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json/wc/v3/orders), filters by status, date range, and customer, and bulk-updates fulfillment status. Generates order export CSVs with custom field mapping for 3PL handoff."
+category: "WordPress &amp; CMS"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
 ---

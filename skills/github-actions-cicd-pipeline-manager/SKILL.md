@@ -1,6 +1,8 @@
 ---
 name: "github-actions-cicd-pipeline-manager"
 description: "Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
 ---

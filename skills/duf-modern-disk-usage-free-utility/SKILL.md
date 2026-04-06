@@ -1,11 +1,14 @@
 ---
 name: "duf-modern-disk-usage-free-utility"
 description: "duf is a modern disk usage/free utility written in Go that provides a polished, colorful terminal output for mounted filesystems. It replaces the traditional df command with better formatting, JSON output support, and smart filtering by filesystem type."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/muesli/duf"
 tool_ecosystem:
   github_repo: "muesli/duf"
   github_stars: 14916
+  maintained: true
 ---
 
 # duf Modern Disk Usage and Free Utility

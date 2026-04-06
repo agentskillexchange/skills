@@ -1,6 +1,8 @@
 ---
 name: "unlighthouse-site-wide-lighthouse-seo-auditing"
 description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
+category: "Content Writing &amp; SEO"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/harlan-zw/unlighthouse"
 tool_ecosystem:
@@ -8,6 +10,8 @@ tool_ecosystem:
   github_stars: 4469
   npm_package: "unlighthouse"
   npm_weekly_downloads: 15510
+  license: "MIT"
+  maintained: true
 ---
 
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing

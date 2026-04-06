@@ -1,6 +1,8 @@
 ---
 name: "wish-ssh-application-framework"
 description: "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos, and custom protocols over SSH without touching openssh-server."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/wish"
 tool_ecosystem:

@@ -1,11 +1,15 @@
 ---
 name: "losslesscut-ffmpeg-powered-media-editor"
 description: "Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time."
+category: "Media &amp; Transcription"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/mifi/lossless-cut"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480
+  license: "GPL-2.0"
+  maintained: true
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor

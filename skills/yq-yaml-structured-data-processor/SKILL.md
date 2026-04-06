@@ -1,6 +1,8 @@
 ---
 name: "yq-yaml-structured-data-processor"
 description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats."
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/mikefarah/yq"
 tool_ecosystem:

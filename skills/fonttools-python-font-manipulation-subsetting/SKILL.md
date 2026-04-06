@@ -1,6 +1,8 @@
 ---
 name: "fonttools-python-font-manipulation-subsetting"
 description: "fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and WOFF2 formats. It includes the TTX tool for converting fonts to and from XML, a font subsetting utility for reducing font file sizes, and APIs for inspecting, modifying, and generating font files programmatically."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/fonttools/fonttools"
 ---

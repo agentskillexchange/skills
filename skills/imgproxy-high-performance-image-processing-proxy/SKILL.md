@@ -1,6 +1,8 @@
 ---
 name: "imgproxy-high-performance-image-processing-proxy"
 description: "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations. Designed for production CDN pipelines and automated media workflows."
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/imgproxy/imgproxy"
 tool_ecosystem:

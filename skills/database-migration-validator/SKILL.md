@@ -1,6 +1,8 @@
 ---
 name: "database-migration-validator"
 description: "Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward-incompatible column changes."
+category: "Runbooks &amp; Diagnostics"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/database-migration-validator/"
 ---

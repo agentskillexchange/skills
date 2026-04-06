@@ -1,6 +1,8 @@
 ---
 name: "prettier-config-harmonizer-2"
 description: "Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization."
+category: "Code Quality &amp; Review"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 ---

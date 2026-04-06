@@ -1,7 +1,9 @@
 ---
 name: "google-cloud-cli-gcloud"
 description: "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration."
-verification: "listed"
+category: "Developer Tools"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://cloud.google.com/sdk"
 ---
 

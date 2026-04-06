@@ -1,6 +1,8 @@
 ---
 name: "sentry-for-ai"
 description: "Observability and debugging support for AI-assisted application workflows."
+category: "Security &amp; Verification"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 ---

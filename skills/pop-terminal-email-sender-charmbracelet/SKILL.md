@@ -1,11 +1,14 @@
 ---
 name: "pop-terminal-email-sender-charmbracelet"
 description: "Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports Resend API and SMTP backends, file attachments, Markdown body rendering, and integrates with other Charm tools."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/pop"
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
   github_stars: 2807
+  license: "MIT"
 ---
 
 # Pop Terminal Email Sender and TUI by Charmbracelet

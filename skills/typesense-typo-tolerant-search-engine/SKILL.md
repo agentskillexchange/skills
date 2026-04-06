@@ -1,6 +1,8 @@
 ---
 name: "typesense-typo-tolerant-search-engine"
 description: "Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering."
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/typesense/typesense"
 tool_ecosystem:

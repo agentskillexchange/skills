@@ -1,6 +1,8 @@
 ---
 name: "terraform-plan-reviewer-agent"
 description: "Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/"
 ---

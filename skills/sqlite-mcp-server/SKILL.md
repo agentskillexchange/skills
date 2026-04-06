@@ -1,6 +1,8 @@
 ---
 name: "sqlite-mcp-server"
 description: "Lightweight local database access for agent tasks."
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 ---

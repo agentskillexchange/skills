@@ -1,6 +1,8 @@
 ---
 name: "rest-api-test-suite-generator"
 description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
+category: "Library &amp; API Reference"
+framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
 ---

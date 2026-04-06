@@ -1,6 +1,8 @@
 ---
 name: "ai-content-readability-optimizer"
 description: "Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels."
+category: "Content Writing &amp; SEO"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
 ---

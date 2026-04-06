@@ -1,6 +1,8 @@
 ---
 name: "npm-dependency-audit-resolver"
 description: "Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode."
+category: "Security &amp; Verification"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
 ---

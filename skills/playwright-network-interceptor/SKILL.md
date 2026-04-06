@@ -1,6 +1,8 @@
 ---
 name: "playwright-network-interceptor"
 description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
+category: "Research &amp; Scraping"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
 ---

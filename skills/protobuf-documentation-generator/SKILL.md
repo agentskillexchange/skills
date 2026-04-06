@@ -1,6 +1,8 @@
 ---
 name: "protobuf-documentation-generator"
 description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
+category: "Library &amp; API Reference"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
 ---

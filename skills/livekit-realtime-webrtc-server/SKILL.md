@@ -1,6 +1,8 @@
 ---
 name: "livekit-realtime-webrtc-server"
 description: "LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides multi-user conferencing, streaming, and data channels with client SDKs for JavaScript, Swift, Kotlin, Flutter, React, Go, Python, Rust, and Unity."
+category: "Integrations &amp; Connectors"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/livekit/livekit"
 tool_ecosystem:

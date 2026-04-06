@@ -1,6 +1,8 @@
 ---
 name: "wordpress-mcp-adapter-model-context-protocol-bridge"
 description: "An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible AI clients to discover and invoke WordPress plugin, theme, and core abilities programmatically through a standardized transport layer."
+category: "WordPress &amp; CMS"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/mcp-adapter"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "notion-mcp-server-ai-workspace-integration"
 description: "The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context Protocol. It provides tools for querying data sources, creating and updating pages, searching content, and managing databases — all accessible via natural language prompts from Claude, Cursor, Copilot, and other MCP clients."
+category: "Integrations &amp; Connectors"
+framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-mcp-server"
 tool_ecosystem:

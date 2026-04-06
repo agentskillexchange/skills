@@ -1,6 +1,8 @@
 ---
 name: "cloudwatch-log-anomaly-detector"
 description: "Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs. Surfaces error rate spikes and latency regressions with contextual log samples."
+category: "Monitoring &amp; Alerts"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
 ---

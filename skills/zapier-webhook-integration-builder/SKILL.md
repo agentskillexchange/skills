@@ -1,6 +1,8 @@
 ---
 name: "zapier-webhook-integration-builder"
 description: "Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows."
+category: "Integrations &amp; Connectors"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builder/"
 ---

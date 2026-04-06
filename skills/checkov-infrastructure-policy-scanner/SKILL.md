@@ -1,6 +1,8 @@
 ---
 name: "checkov-infrastructure-policy-scanner"
 description: "Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration."
+category: "Security &amp; Verification"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/"
 ---

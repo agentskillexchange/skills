@@ -1,6 +1,8 @@
 ---
 name: "gstreamer-pipeline-graph-optimizer"
 description: "Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling element throughput via gst-stats, and suggesting queue sizing and thread pool configurations."
+category: "Media &amp; Transcription"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://gstreamer.freedesktop.org/"
 ---

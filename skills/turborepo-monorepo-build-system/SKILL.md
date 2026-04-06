@@ -1,6 +1,8 @@
 ---
 name: "turborepo-monorepo-build-system"
 description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/vercel/turborepo"
 tool_ecosystem:

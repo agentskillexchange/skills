@@ -1,6 +1,8 @@
 ---
 name: "playwright-cross-browser-test-runner"
 description: "Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports Chromium, Firefox, and WebKit with parallel execution and trace recording via trace.zip artifacts."
+category: "Browser Automation"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
 ---

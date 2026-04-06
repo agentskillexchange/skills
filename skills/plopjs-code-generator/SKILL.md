@@ -1,6 +1,8 @@
 ---
 name: "plopjs-code-generator"
 description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation."
+category: "Templates &amp; Workflows"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 ---

@@ -1,11 +1,15 @@
 ---
 name: "immich-photo-video-management-platform"
 description: "Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management."
+category: "Media &amp; Transcription"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/immich-app/immich"
 tool_ecosystem:
   github_repo: "immich-app/immich"
   github_stars: 96205
+  license: "AGPL-3.0"
+  maintained: true
 ---
 
 # Immich Self-Hosted Photo and Video Management Platform

@@ -1,6 +1,8 @@
 ---
 name: "dagster-data-pipeline-orchestrator"
 description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/dagster-io/dagster"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "coolify-self-hosted-app-platform-deployment-automation-skill"
 description: "Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill covers installing Coolify, connecting infrastructure over SSH, and using it as an operational control plane for repeatable app delivery workflows."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/coollabsio/coolify"
 ---

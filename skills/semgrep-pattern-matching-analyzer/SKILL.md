@@ -1,6 +1,8 @@
 ---
 name: "semgrep-pattern-matching-analyzer"
 description: "Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations."
+category: "Code Quality &amp; Review"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/"
 ---

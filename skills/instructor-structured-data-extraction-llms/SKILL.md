@@ -1,6 +1,8 @@
 ---
 name: "instructor-structured-data-extraction-llms"
 description: "Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers including OpenAI, Anthropic, and Google."
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/567-labs/instructor"
 tool_ecosystem:

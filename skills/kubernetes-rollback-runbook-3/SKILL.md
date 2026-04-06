@@ -1,6 +1,8 @@
 ---
 name: "kubernetes-rollback-runbook-3"
 description: "Executes structured Kubernetes rollback procedures using kubectl and the kubernetes/client-go library. Monitors rollout status via the apps/v1 Deployment API and triggers PagerDuty incidents through the PagerDuty Events API v2."
+category: "Runbooks &amp; Diagnostics"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/"
 ---

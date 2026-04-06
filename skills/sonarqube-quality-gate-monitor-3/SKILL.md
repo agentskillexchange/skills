@@ -1,6 +1,8 @@
 ---
 name: "sonarqube-quality-gate-monitor-3"
 description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
+category: "Code Quality &amp; Review"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
 ---

@@ -1,7 +1,9 @@
 ---
 name: "taiko-smart-selector-browser-automation-nodejs"
 description: "Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and REPL-driven recorder make it useful for readable UI tests, browser flows, and scripted validation without relying heavily on brittle CSS or XPath selectors."
-verification: "listed"
+category: "Browser Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/getgauge/taiko"
 ---
 

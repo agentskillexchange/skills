@@ -1,6 +1,8 @@
 ---
 name: "snyk-open-source-dependency-auditor"
 description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
+category: "Security &amp; Verification"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
 ---

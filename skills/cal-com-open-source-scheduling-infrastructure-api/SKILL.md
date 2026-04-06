@@ -1,6 +1,8 @@
 ---
 name: "cal-com-open-source-scheduling-infrastructure-api"
-description: "Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API."
+description: "Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/calcom/cal.com"
 tool_ecosystem:
@@ -10,7 +12,7 @@ tool_ecosystem:
 
 # Cal.com Open Source Scheduling Infrastructure and API
 
-Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API.
+Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API.
 
 ## Installation
 

@@ -1,6 +1,8 @@
 ---
 name: "sendgrid-transactional-email-router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
+category: "Integrations &amp; Connectors"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
 ---

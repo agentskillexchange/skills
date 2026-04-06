@@ -1,6 +1,8 @@
 ---
 name: "scrapy-spider-data-pipeline"
 description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
+category: "Data Extraction &amp; Transformation"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
 ---

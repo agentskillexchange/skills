@@ -1,6 +1,8 @@
 ---
 name: "github-actions-workflow-debugger"
 description: "Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 ---

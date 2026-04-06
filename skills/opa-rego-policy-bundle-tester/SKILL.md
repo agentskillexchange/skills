@@ -1,6 +1,8 @@
 ---
 name: "opa-rego-policy-bundle-tester"
 description: "Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to explain which Rego rules allow or deny a request before policy changes go live."
+category: "Security &amp; Verification"
+framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/open-policy-agent/opa"
 tool_ecosystem:

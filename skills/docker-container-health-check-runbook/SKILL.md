@@ -1,6 +1,8 @@
 ---
 name: "docker-container-health-check-runbook"
 description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
+category: "Runbooks &amp; Diagnostics"
+framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
 ---

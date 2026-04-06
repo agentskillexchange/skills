@@ -1,6 +1,8 @@
 ---
 name: "pixi-cross-platform-package-manager-conda-rust"
 description: "A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with a Cargo-like developer experience for Python, C++, R, and more."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/prefix-dev/pixi"
 tool_ecosystem:

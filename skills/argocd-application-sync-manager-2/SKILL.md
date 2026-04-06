@@ -1,6 +1,8 @@
 ---
 name: "argocd-application-sync-manager-2"
 description: "Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 ---

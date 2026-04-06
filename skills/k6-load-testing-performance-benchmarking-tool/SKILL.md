@@ -1,6 +1,8 @@
 ---
 name: "k6-load-testing-performance-benchmarking-tool"
 description: "A modern open-source load testing tool from Grafana Labs, written in Go with JavaScript scripting. Enables developers to write performance tests as code, run HTTP/WebSocket/gRPC load tests, and integrate results with Grafana Cloud for analysis."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/grafana/k6"
 tool_ecosystem:

@@ -1,6 +1,8 @@
 ---
 name: "wordpress-content-publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+category: "WordPress &amp; CMS"
+framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:

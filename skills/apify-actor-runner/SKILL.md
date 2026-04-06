@@ -1,6 +1,8 @@
 ---
 name: "apify-actor-runner"
 description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
+category: "Research &amp; Scraping"
+framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-runner/"
 ---

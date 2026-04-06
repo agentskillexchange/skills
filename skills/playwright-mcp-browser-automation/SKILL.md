@@ -1,6 +1,8 @@
 ---
 name: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
 ---

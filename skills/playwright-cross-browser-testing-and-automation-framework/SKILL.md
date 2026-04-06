@@ -1,6 +1,8 @@
 ---
 name: "playwright-cross-browser-testing-and-automation-framework"
 description: "Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that need reliable browser sessions, modern locator-based automation, and strong debugging artifacts instead of brittle timeout-heavy scripts."
+category: "Browser Automation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
@@ -8,6 +10,8 @@ tool_ecosystem:
   github_stars: 85523
   npm_package: "playwright"
   npm_weekly_downloads: 45826303
+  license: "Apache-2.0"
+  maintained: true
 ---
 
 # Playwright Cross-Browser Testing and Automation Framework
