@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1711,
-  "generated": "2026-04-05",
+  "total": 1715,
+  "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "medusa-commerce-api-store-operations-automation-skill",
+      "name": "Medusa Commerce API and Store Operations Automation Skill",
+      "description": "Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders,…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "apache-superset-dashboard-sql-exploration-skill",
+      "name": "Apache Superset Dashboard and SQL Exploration Skill",
+      "description": "Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "openmetadata-data-catalog-governance-platform-agent-discovery",
+      "name": "OpenMetadata Data Catalog and Governance Platform for Agent Discovery",
+      "description": "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines,…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "hasura-graphql-engine-instant-api-database-automation",
+      "name": "Hasura GraphQL Engine for Instant API and Database Automation",
+      "description": "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "penpot-open-source-design-collaboration-platform",
       "name": "Penpot Open-Source Design Collaboration Platform",

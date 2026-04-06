@@ -64,6 +64,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | — | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
+| [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
@@ -93,6 +94,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | — | — |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | — | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | — | — |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |

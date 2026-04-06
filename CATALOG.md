@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1711 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-05 23:30 UTC
+> **1715 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-06 01:31 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -410,7 +410,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (125 skills)
+### 🔄 Data Extraction & Transformation (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -478,6 +478,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas.… | Security Reviewed | — | — |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | — | — |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Apache Superset Dashboard and SQL Exploration Skill](skills/apache-superset-dashboard-sql-exploration-skill/) | Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard… | Published | — | — |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email… | Security Reviewed | — | — |
 | [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats.… | Security Reviewed | — | — |
 | [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using… | Security Reviewed | — | — |
@@ -789,7 +790,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (101 skills)
+### 📚 Library & API Reference (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -828,6 +829,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [GraphQL Schema Stitching & Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and… | Security Reviewed | — | — |
 | [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Published | — | — |
 | [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Hasura GraphQL Engine for Instant API and Database Automation](skills/hasura-graphql-engine-instant-api-database-automation/) | Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime… | Published | — | — |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
 | [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
 | [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |
@@ -857,6 +859,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenAPI Spec Validator & Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | — | — |
 | [OpenAPI Spec Validator & Mock Server](skills/openapi-spec-validator-mock-server-2/) | Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects… | Security Reviewed | — | — |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | — | — |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This… | Published | — | — |
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | — | — |
 | [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | — |
@@ -1212,7 +1215,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (81 skills)
+### 🔗 Integrations & Connectors (82 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1270,6 +1273,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
 | [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
+| [Medusa Commerce API and Store Operations Automation Skill](skills/medusa-commerce-api-store-operations-automation-skill/) | Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store… | Published | — | — |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Published | — | — |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |

@@ -94,6 +94,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | — | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | — | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | — | — |
+| [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | — | — |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |
