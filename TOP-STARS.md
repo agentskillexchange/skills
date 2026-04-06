@@ -47,7 +47,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 39 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | context7 | Library & API Reference |
 | 40 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | 50.5k | lazydocker | Developer Tools |
 | 41 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
-| 42 | [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | 48k | terraform | Templates & Workflows |
+| 42 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48k | terraform | Developer Tools |
 | 43 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
 | 44 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
 | 45 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |

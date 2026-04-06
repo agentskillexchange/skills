@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1718,
+  "total": 1721,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "crawl4ai-llm-friendly-web-crawler",
+      "name": "Crawl4AI LLM-Friendly Web Crawler",
+      "description": "Run web crawling and scraping workflows with Crawl4AI, an open-source crawler built to produce LLM-ready markdown and structured extraction output. It supports async crawling,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "firecrawl-web-data-api-for-ai-agents",
+      "name": "Firecrawl Web Data API for AI Agents",
+      "description": "Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON,…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "stagehand-ai-browser-automation-framework-2",
+      "name": "Stagehand AI Browser Automation Framework",
+      "description": "Build browser automations with Stagehand, Browserbase's AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "docker-selenium-grid-for-scalable-browser-automation",
       "name": "Docker Selenium Grid for Scalable Browser Automation",
@@ -24512,7 +24548,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "semgrep"
+        "tool": "semgrep",
+        "github_stars": 14684
       }
     },
     {
@@ -24857,7 +24894,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 27141
       }
     },
     {
@@ -24887,7 +24925,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 121504
       }
     },
     {
@@ -24902,7 +24941,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "aws"
+        "tool": "aws",
+        "github_stars": 3602
       }
     },
     {
@@ -24917,7 +24957,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "aws"
+        "tool": "aws",
+        "github_stars": 3602
       }
     },
     {
@@ -24932,7 +24973,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sendgrid"
+        "tool": "sendgrid",
+        "github_stars": 3053
       }
     },
     {
@@ -24947,7 +24989,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "twilio"
+        "tool": "twilio",
+        "github_stars": 1527
       }
     },
     {
@@ -24962,7 +25005,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "stripe"
+        "tool": "stripe",
+        "github_stars": 4384
       }
     },
     {
@@ -24977,7 +25021,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "salesforce"
+        "tool": "salesforce",
+        "github_stars": 1454
       }
     },
     {
@@ -24992,7 +25037,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "hubspot"
+        "tool": "hubspot",
+        "github_stars": 392
       }
     },
     {
@@ -25007,7 +25053,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "notion"
+        "tool": "notion",
+        "github_stars": 5574
       }
     },
     {
@@ -25022,7 +25069,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grafana"
+        "tool": "grafana",
+        "github_stars": 72985
       }
     },
     {
@@ -25037,7 +25085,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "elasticsearch"
+        "tool": "elasticsearch",
+        "github_stars": 76445
       }
     },
     {
@@ -25052,7 +25101,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "opsgenie"
+        "tool": "opsgenie",
+        "github_stars": 24
       }
     },
     {
@@ -25067,7 +25117,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pagerduty"
+        "tool": "pagerduty",
+        "github_stars": 69
       }
     },
     {
@@ -25082,7 +25133,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "datadog"
+        "tool": "datadog",
+        "github_stars": 790
       }
     },
     {
@@ -25097,7 +25149,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pulumi"
+        "tool": "pulumi",
+        "github_stars": 24937
       }
     },
     {
@@ -25112,7 +25165,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48033
       }
     },
     {
@@ -25127,7 +25181,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "argocd"
+        "tool": "argocd",
+        "github_stars": 22459
       }
     },
     {
@@ -25142,7 +25197,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "circleci"
+        "tool": "circleci",
+        "github_stars": 842
       }
     },
     {
@@ -25157,7 +25213,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "jenkins"
+        "tool": "jenkins",
+        "github_stars": 25171
       }
     },
     {
@@ -25376,7 +25433,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw"
+        "tool": "openclaw",
+        "github_stars": 10791
       }
     },
     {
@@ -25406,7 +25464,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw"
+        "tool": "openclaw",
+        "github_stars": 58637
       }
     },
     {
@@ -25440,7 +25499,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw"
+        "tool": "openclaw",
+        "github_stars": 97226
       }
     },
     {
@@ -25455,7 +25515,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw"
+        "tool": "openclaw",
+        "github_stars": 21002
       }
     },
     {
@@ -25507,7 +25568,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openclaw"
+        "tool": "openclaw",
+        "github_stars": 21002
       }
     },
     {
@@ -25560,7 +25622,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21002
       }
     },
     {
@@ -25576,7 +25639,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "playwright"
+        "tool": "playwright",
+        "github_stars": 85658
       }
     }
   ]

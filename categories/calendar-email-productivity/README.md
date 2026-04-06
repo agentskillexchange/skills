@@ -44,6 +44,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | — |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | 5k | — |
 | [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 5k | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | 4.5k | — |
@@ -85,7 +86,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | — | — |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | — | — |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | — | — |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | — | — |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | — | — |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | — | — |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | — | — |

@@ -11,11 +11,11 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⭐ 41.6k |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⭐ 34.6k |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 33k |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
+| [WordPress Router](../../skills/wordpress-router/) | ⭐ 21k |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 19k |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⭐ 13.2k |
-| [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | ⭐ 13.2k |
-| [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | ⭐ 10.2k |
-| [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | ⭐ 10.2k |
 
 ---
 
@@ -44,6 +44,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 41.6k | 316.5k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 19.9k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
+| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
+| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
+| [WordPress Router](../../skills/wordpress-router/) | 21k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 2k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 76.3k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
@@ -96,14 +99,11 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | — | — |
 | [WordPress AI Services Plugin](../../skills/wordpress-ai-services-plugin/) | — | — |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
-| [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | — | — |
 | [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | — | — |
 | [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | — | — |
 | [WordPress Multisite Network Sync](../../skills/wordpress-multisite-network-sync/) | — | — |
 | [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | — | — |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | — | — |
 | [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | — | — |
-| [WordPress Router](../../skills/wordpress-router/) | — | — |
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | — | — |
 | [WP Abilities API](../../skills/wp-abilities-api/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |

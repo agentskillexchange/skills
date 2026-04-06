@@ -56,14 +56,18 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | — |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | — |
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | — |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 1.5M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | — |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | — |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 51k/wk |
@@ -73,6 +77,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 567 | — |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | — | — |
@@ -86,7 +91,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | — | — |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | — | — |
@@ -95,8 +99,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | — | — |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | — | — |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | — | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | — | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | — | — |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | — | — |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | — | — |
 | [Slack Channel Summarizer &amp; Triage Bot](../../skills/slack-channel-summarizer-triage/) | — | — |
@@ -104,13 +106,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | — | — |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | — | — |
 | [Stripe Connect Platform Bridge](../../skills/stripe-connect-platform-bridge/) | — | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | — | — |
 | [Stripe Payment Flow Connector](../../skills/stripe-payment-flow-connector/) | — | — |
 | [Stripe Payments Connector](../../skills/stripe-payments-connector/) | — | — |
 | [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | — | — |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | — | — |
 | [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | — | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | — | — |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | — | — |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | — | — |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | — | — |

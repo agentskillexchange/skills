@@ -6,7 +6,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.4k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.4k |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73k |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⭐ 43k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
@@ -14,8 +16,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | ⭐ 20.4k |
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | ⭐ 18.4k |
-| [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | ⭐ 16.2k |
-| [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | ⭐ 11.3k |
 
 ---
 
@@ -32,7 +32,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.4k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.4k | — |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
@@ -49,10 +51,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | — |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.3M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | — |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | — |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | — | — |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
@@ -68,7 +73,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog APM Anomaly Detector](../../skills/datadog-apm-anomaly-detector/) | — | — |
 | [Datadog APM Trace Analyzer](../../skills/datadog-apm-trace-analyzer-2/) | — | — |
 | [Datadog APM Trace Query Agent](../../skills/datadog-apm-trace-query-agent/) | — | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | — | — |
 | [Datadog Metric Exporter](../../skills/datadog-metric-exporter/) | — | — |
 | [Datadog Monitor Blueprint Generator](../../skills/datadog-monitor-blueprint-generator/) | — | — |
 | [Datadog Monitor Configuration Agent](../../skills/datadog-monitor-configuration-agent-2/) | — | — |
@@ -78,7 +82,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | — | — |
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | — | — |
@@ -105,12 +108,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | — | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | — | — |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | — | — |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | — | — |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | — | — |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | — | — |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | — | — |
-| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | — | — |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | — | — |
 | [Prometheus Alert Router](../../skills/prometheus-alert-router/) | — | — |
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | — | — |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | — | — |

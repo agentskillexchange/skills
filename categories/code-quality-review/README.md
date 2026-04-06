@@ -12,10 +12,10 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⭐ 18.4k |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | ⭐ 14.7k |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | ⭐ 13.2k |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | ⭐ 13.1k |
-| [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | ⭐ 11.3k |
 
 ---
 
@@ -39,6 +39,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 527.6k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
@@ -101,7 +102,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |
 | [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | — | — |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | — | — |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | — | — |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | — | — |
 | [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | — | — |
