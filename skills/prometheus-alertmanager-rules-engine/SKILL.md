@@ -1,10 +1,8 @@
 ---
-name: Prometheus AlertManager Rules Engine
-description: Generates and validates Prometheus alerting rules and AlertManager routing
-  configurations using the Prometheus HTTP API. Implements alert grouping, inhibition
-  rules, and silence management.
-category: "Monitoring &amp; Alerts"
-framework: Custom Agents
+name: "Prometheus AlertManager Rules Engine"
+description: "Generates and validates Prometheus alerting rules and AlertManager routing configurations using the Prometheus HTTP API. Implements alert grouping, inhibition rules, and silence management."
+category: "Monitoring & Alerts"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rules-e
 ```bash
 clawhub install prometheus-alertmanager-rules-engine
 ```
-
 
 ## Source
 

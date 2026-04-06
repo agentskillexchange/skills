@@ -1,10 +1,8 @@
 ---
-name: Datadog APM Trace Analyzer
-description: Queries Datadog APM trace data via the Datadog Tracing API v2 to identify
-  latency bottlenecks and error hotspots. Generates flame graph summaries and service
-  dependency impact reports.
-category: "Monitoring &amp; Alerts"
-framework: Claude Agents
+name: "Datadog APM Trace Analyzer"
+description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports."
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill datadog-apm-trace-analyzer-2 -a
 ```bash
 clawhub install datadog-apm-trace-analyzer-2
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Patent Landscape Analyzer
-description: Searches the USPTO PatentsView API and European Patent Office OPS (Open
-  Patent Services) API for patent grants, applications, and family relationships.
-  Generates technology landscape maps with IPC classification clustering.
-category: "Research &amp; Scraping"
-framework: OpenClaw
+name: "Patent Landscape Analyzer"
+description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
+category: "Research & Scraping"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/patent-landscape-analyzer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill patent-landscape-analyzer -a co
 ```bash
 clawhub install patent-landscape-analyzer
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: CloudWatch Log Anomaly Detector
-description: Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs
-  Insights queries and Anomaly Detection APIs. Surfaces error rate spikes and latency
-  regressions with contextual log samples.
-category: "Monitoring &amp; Alerts"
-framework: Gemini
+name: "CloudWatch Log Anomaly Detector"
+description: "Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs. Surfaces error rate spikes and latency regressions with contextual log samples."
+category: "Monitoring & Alerts"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill cloudwatch-log-anomaly-detector
 ```bash
 clawhub install cloudwatch-log-anomaly-detector
 ```
-
 
 ## Source
 

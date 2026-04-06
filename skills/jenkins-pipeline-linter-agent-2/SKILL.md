@@ -1,10 +1,8 @@
 ---
-name: Jenkins Pipeline Linter Agent
-description: Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API
-  before commits. Integrates with jenkins-client npm SDK to authenticate and submit
-  declarative or scripted pipelines for server-side validation.
-category: CI/CD Integrations
-framework: OpenClaw
+name: "Jenkins Pipeline Linter Agent"
+description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-agent-2
 ```bash
 clawhub install jenkins-pipeline-linter-agent-2
 ```
-
 
 ## Source
 

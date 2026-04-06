@@ -1,10 +1,8 @@
 ---
-name: Swagger OpenAPI Schema Validator
-description: Validates and lints OpenAPI 3.1 specifications using Spectral ruleset
-  engine and swagger-parser. Detects breaking changes between API versions using oasdiff
-  comparison tool.
-category: "Library &amp; API Reference"
-framework: Cursor
+name: "Swagger OpenAPI Schema Validator"
+description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
+category: "Library & API Reference"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validato
 ```bash
 clawhub install swagger-openapi-schema-validator
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Buf Protobuf Linter
-description: Lints Protocol Buffer definitions using the Buf CLI ruleset and validates
-  gRPC service contracts. Detects breaking changes between proto revisions using buf
-  breaking with git integration.
-category: "Library &amp; API Reference"
-framework: Claude Code
+name: "Buf Protobuf Linter"
+description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
+category: "Library & API Reference"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill buf-protobuf-linter -a codex
 ```bash
 clawhub install buf-protobuf-linter
 ```
-
 
 ## Source
 

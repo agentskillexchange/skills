@@ -1,10 +1,8 @@
 ---
-name: Terraform Module Template Generator
-description: Scaffolds production-ready Terraform modules with HCL templates, variable
-  definitions, and output blocks. Uses the Terraform Registry API to pull module schemas
-  and terraform-docs for auto-generating README files.
-category: "Templates &amp; Workflows"
-framework: OpenClaw
+name: "Terraform Module Template Generator"
+description: "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files."
+category: "Templates & Workflows"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill terraform-module-template-gener
 ```bash
 clawhub install terraform-module-template-generator
 ```
-
 
 ## Source
 

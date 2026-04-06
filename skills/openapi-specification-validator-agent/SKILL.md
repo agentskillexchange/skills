@@ -1,10 +1,8 @@
 ---
-name: OpenAPI Specification Validator
-description: Validates and lints OpenAPI 3.x specifications using swagger-parser,
-  spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking
-  API changes via oasdiff.
-category: "Library &amp; API Reference"
-framework: Cursor
+name: "OpenAPI Specification Validator"
+description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
+category: "Library & API Reference"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-specification-validator-agent/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill openapi-specification-validator
 ```bash
 clawhub install openapi-specification-validator-agent
 ```
-
 
 ## Source
 

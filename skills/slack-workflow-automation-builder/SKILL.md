@@ -1,10 +1,8 @@
 ---
-name: Slack Workflow Automation Builder
-description: Creates Slack Workflow Builder automations using the Slack Web API and
-  Block Kit. Builds approval flows, standup collectors, and incident response channels
-  with interactive message components.
-category: "Calendar, Email &amp; Productivity"
-framework: Claude Code
+name: "Slack Workflow Automation Builder"
+description: "Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components."
+category: "Calendar, Email & Productivity"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill slack-workflow-automation-build
 ```bash
 clawhub install slack-workflow-automation-builder
 ```
-
 
 ## Source
 

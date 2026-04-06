@@ -1,10 +1,8 @@
 ---
-name: Docker Compose Service Graph Visualizer
-description: Parses docker-compose.yml files using PyYAML and generates interactive
-  dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network
-  topology, and health check status.
-category: Developer Tools
-framework: Claude Code, Multi-Framework
+name: "Docker Compose Service Graph Visualizer"
+description: "Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill docker-compose-service-graph-vi
 ```bash
 clawhub install docker-compose-service-graph-visualizer
 ```
-
 
 ## Source
 

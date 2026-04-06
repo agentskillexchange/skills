@@ -1,10 +1,8 @@
 ---
-name: CircleCI Config Validator
-description: Validates and optimizes CircleCI configuration files using the CircleCI
-  v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings,
-  and resource class allocation.
-category: CI/CD Integrations
-framework: Claude Agents
+name: "CircleCI Config Validator"
+description: "Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation."
+category: "CI/CD Integrations"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-config-validator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill circleci-config-validator -a co
 ```bash
 clawhub install circleci-config-validator
 ```
-
 
 ## Source
 

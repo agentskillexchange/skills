@@ -1,10 +1,8 @@
 ---
-name: GitHub Actions Pipeline Validator
-description: Validates GitHub Actions workflow YAML files against the Actions schema,
-  checks for deprecated action versions, and ensures proper secret handling. Integrates
-  with actions/checkout, actions/setup-node, and dorny/paths-filter APIs.
-category: CI/CD Integrations
-framework: OpenClaw
+name: "GitHub Actions Pipeline Validator"
+description: "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs."
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill github-actions-pipeline-validat
 ```bash
 clawhub install github-actions-pipeline-validator
 ```
-
 
 ## Source
 

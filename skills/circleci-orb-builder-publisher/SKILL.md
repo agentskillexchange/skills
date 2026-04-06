@@ -1,10 +1,8 @@
 ---
-name: CircleCI Orb Builder and Publisher
-description: Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI
-  and Orb Registry API. Handles semantic versioning, namespace management, and orb
-  dependency resolution.
-category: CI/CD Integrations
-framework: ChatGPT Agents
+name: "CircleCI Orb Builder and Publisher"
+description: "Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic versioning, namespace management, and orb dependency resolution."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-builder-publisher/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill circleci-orb-builder-publisher 
 ```bash
 clawhub install circleci-orb-builder-publisher
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Selenium Grid Parallel Test Runner
-description: Orchestrates distributed browser tests across Selenium Grid 4 nodes with
-  dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol
-  and Zalenium-style video recording.
-category: Browser Automation
-framework: Cursor
+name: "Selenium Grid Parallel Test Runner"
+description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
+category: "Browser Automation"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill selenium-grid-parallel-test-run
 ```bash
 clawhub install selenium-grid-parallel-test-runner
 ```
-
 
 ## Source
 

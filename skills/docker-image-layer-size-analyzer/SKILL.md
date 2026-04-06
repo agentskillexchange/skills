@@ -1,10 +1,8 @@
 ---
-name: Docker Image Layer Size Analyzer
-description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and
-  dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests
-  multi-stage build optimizations.
-category: CI/CD Integrations
-framework: Gemini
+name: "Docker Image Layer Size Analyzer"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill docker-image-layer-size-analyze
 ```bash
 clawhub install docker-image-layer-size-analyzer
 ```
-
 
 ## Source
 

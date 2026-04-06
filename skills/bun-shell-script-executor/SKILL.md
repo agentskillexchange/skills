@@ -1,14 +1,12 @@
 ---
-name: Bun Shell Script Executor
-description: Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate cross-platform
-  shell scripts from TypeScript with tagged template literals, automatic glob expansion,
-  and piped process composition.
-category: Developer Tools
-framework: Codex
+name: "Bun Shell Script Executor"
+description: "Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition."
+category: "Developer Tools"
+framework: "Codex"
 verification: security_reviewed
 source: "https://github.com/oven-sh/bun"
 tool_ecosystem:
-  github_repo: "https://github.com/oven-sh/bun"
+  github_repo: "oven-sh/bun"
   github_stars: 88702
 ---
 # Bun Shell Script Executor
@@ -49,7 +47,6 @@ npx skills add agentskillexchange/skills --skill bun-shell-script-executor -a co
 clawhub install bun-shell-script-executor
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/oven-sh/bun)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/bun-shell-script-executor/)

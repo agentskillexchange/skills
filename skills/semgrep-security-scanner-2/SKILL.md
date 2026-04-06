@@ -1,10 +1,8 @@
 ---
-name: Semgrep Security Scanner
-description: Scan codebases for security vulnerabilities and anti-patterns using Semgrep
-  OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output
-  for CI integration.
-category: "Code Quality &amp; Review"
-framework: Claude Agents
+name: "Semgrep Security Scanner"
+description: "Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration."
+category: "Code Quality & Review"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-security-scanner-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill semgrep-security-scanner-2 -a c
 ```bash
 clawhub install semgrep-security-scanner-2
 ```
-
 
 ## Source
 

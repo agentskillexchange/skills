@@ -1,17 +1,14 @@
 ---
-name: Svix Enterprise Webhook Delivery Service
-description: Svix is an open-source enterprise-grade webhook delivery service written
-  in Rust. It handles webhook sending, retries, signature verification, and delivery
-  monitoring so developers can offer reliable webhooks to their users with a single
-  API call.
-category: "Integrations &amp; Connectors"
-framework: Multi-Framework
+name: "Svix Enterprise Webhook Delivery Service"
+description: "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call."
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/svix/svix-webhooks"
 tool_ecosystem:
-  github_repo: "https://github.com/svix/svix-webhooks"
+  github_repo: "svix/svix-webhooks"
   github_stars: 3152
-  license: MIT
+  license: "MIT"
 ---
 # Svix Enterprise Webhook Delivery Service
 
@@ -21,23 +18,37 @@ What is Svix?
 
 Svix is an open-source webhook delivery platform built in Rust that solves the notoriously difficult problem of reliable webhook delivery at scale. Instead of building custom retry logic, signature verification, delivery tracking, and failure handling from scratch, developers integrate the Svix API and let it manage the entire webhook lifecycle — from initial dispatch through retries to delivery confirmation.
 
+
+
 How It Works
 
 Svix operates as a webhook-sending service that sits between your application and your users’ webhook endpoints. When your application needs to send a webhook, it makes a single API call to Svix with the event type, payload, and target application. Svix then handles delivery with automatic retries using exponential backoff, payload signing with HMAC-SHA256 for verification, and detailed delivery logging.
 
+
+
 The platform uses an application-based model where each of your customers (or webhook consumers) is represented as an “application” in Svix. Each application can have multiple endpoints configured with filtering rules that determine which event types get delivered to which URLs. This means your users can subscribe to exactly the events they care about.
+
+
 
 Key Features
 
 Svix provides automatic retry with configurable retry schedules, cryptographic webhook signatures for payload verification, an operational dashboard for monitoring delivery status, event type filtering and endpoint management, rate limiting per endpoint, and a consumer-facing portal where your users can manage their own webhook endpoints without your intervention.
 
+
+
 The signature verification libraries are available for all major languages, making it easy for webhook consumers to validate that payloads genuinely originated from your service. This is critical for security — it prevents spoofed webhooks from triggering unintended actions.
+
+
 
 Deployment Options
 
 Svix can be self-hosted using Docker Compose or Kubernetes, with PostgreSQL as the backing database and Redis for queue management. The server is written in Rust for maximum performance and minimal resource usage. For teams that prefer managed infrastructure, Svix also offers a cloud-hosted version.
 
+
+
 Official SDKs are available for Python, JavaScript/TypeScript, Go, Java, Kotlin, Ruby, C#/.NET, PHP, and Rust. Additionally, a Terraform provider enables infrastructure-as-code management of Svix resources. The REST API is fully documented at api.svix.com with interactive examples.
+
+
 
 Integration Points for Agents
 
@@ -75,7 +86,6 @@ npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-deliver
 clawhub install svix-enterprise-webhook-delivery-service
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/svix/svix-webhooks)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/svix-enterprise-webhook-delivery-service/)

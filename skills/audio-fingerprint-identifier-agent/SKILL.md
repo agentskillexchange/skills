@@ -1,10 +1,8 @@
 ---
-name: Audio Fingerprint Identifier
-description: Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam
-  API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio
-  against fingerprint databases.
-category: "Media &amp; Transcription"
-framework: OpenClaw
+name: "Audio Fingerprint Identifier"
+description: "Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases."
+category: "Media & Transcription"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill audio-fingerprint-identifier-ag
 ```bash
 clawhub install audio-fingerprint-identifier-agent
 ```
-
 
 ## Source
 

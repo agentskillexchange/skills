@@ -1,14 +1,12 @@
 ---
-name: Argo Workflows DAG Pipeline Builder
-description: Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs
-  with configurable retry strategies, artifact passing via S3/MinIO, and template
-  composition through WorkflowTemplates and ClusterWorkflowTemplates.
-category: "Templates &amp; Workflows"
-framework: MCP
+name: "Argo Workflows DAG Pipeline Builder"
+description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact passing via S3/MinIO, and template composition through WorkflowTemplates and ClusterWorkflowTemplates."
+category: "Templates & Workflows"
+framework: "MCP"
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
 tool_ecosystem:
-  github_repo: "https://github.com/argoproj/argo-workflows"
+  github_repo: "argoproj/argo-workflows"
   github_stars: 16596
 ---
 # Argo Workflows DAG Pipeline Builder
@@ -49,7 +47,6 @@ npx skills add agentskillexchange/skills --skill argo-workflows-dag-pipeline-bui
 clawhub install argo-workflows-dag-pipeline-builder
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/argoproj/argo-workflows)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/argo-workflows-dag-pipeline-builder/)

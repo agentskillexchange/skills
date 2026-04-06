@@ -1,10 +1,8 @@
 ---
-name: OWASP ZAP Scan Orchestrator
-description: Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating
-  spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability
-  reports.
-category: "Security &amp; Verification"
-framework: Codex
+name: "OWASP ZAP Scan Orchestrator"
+description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
+category: "Security & Verification"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill owasp-zap-scan-orchestrator -a 
 ```bash
 clawhub install owasp-zap-scan-orchestrator
 ```
-
 
 ## Source
 

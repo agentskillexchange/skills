@@ -1,10 +1,8 @@
 ---
-name: ArgoCD Deployment Monitor
-description: Monitors ArgoCD application deployments using the ArgoCD REST API and
-  gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes
-  namespaces.
-category: CI/CD Integrations
-framework: Custom Agents
+name: "ArgoCD Deployment Monitor"
+description: "Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces."
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-deployment-monitor/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill argocd-deployment-monitor -a co
 ```bash
 clawhub install argocd-deployment-monitor
 ```
-
 
 ## Source
 

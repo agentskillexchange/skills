@@ -1,10 +1,8 @@
 ---
-name: dbt Model Lineage Extractor
-description: Extracts and visualizes dbt model dependency lineage using the dbt Core
-  manifest.json artifact API. Parses ref() and source() calls to build DAG representations
-  via the dbt Cloud API v2.
-category: "Data Extraction &amp; Transformation"
-framework: Claude Code
+name: "dbt Model Lineage Extractor"
+description: "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2."
+category: "Data Extraction & Transformation"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-extractor-2 -
 ```bash
 clawhub install dbt-model-lineage-extractor-2
 ```
-
 
 ## Source
 

@@ -1,15 +1,13 @@
 ---
-name: Vue.js — Progressive JavaScript Framework for Building UIs
-description: Vue.js is a progressive JavaScript framework for building user interfaces
-  with an incrementally adoptable architecture, reactive data binding, and a rich
-  ecosystem including Vue Router, Pinia, and Vite.
-category: Developer Tools
-framework: Multi-Framework
+name: "Vue.js — Progressive JavaScript Framework for Building UIs"
+description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/vuejs/core"
 tool_ecosystem:
-  github_repo: "https://github.com/vuejs/core"
-  github_stars: 53375
+  github_repo: "vuejs/core"
+  github_stars: 53374
 ---
 # Vue.js — Progressive JavaScript Framework for Building UIs
 
@@ -47,7 +45,6 @@ npx skills add agentskillexchange/skills --skill vue-js-progressive-javascript-f
 clawhub install vue-js-progressive-javascript-framework
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/vuejs/core)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/)

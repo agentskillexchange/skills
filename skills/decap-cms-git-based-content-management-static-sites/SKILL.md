@@ -1,18 +1,15 @@
 ---
-name: Decap CMS Git-Based Content Management for Static Sites
-description: An agent skill built on Decap CMS (formerly Netlify CMS), the open-source
-  Git-based content management system for static site generators. Provides a visual
-  editing interface backed by Git commits, enabling content workflows for Hugo, Jekyll,
-  Gatsby, Next.js, and other Jamstack frameworks.
-category: "WordPress &amp; CMS"
-framework: Multi-Framework
+name: "Decap CMS Git-Based Content Management for Static Sites"
+description: "An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for static site generators. Provides a visual editing interface backed by Git commits, enabling content workflows for Hugo, Jekyll, Gatsby, Next.js, and other Jamstack frameworks."
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/decaporg/decap-cms"
 tool_ecosystem:
-  github_repo: "https://github.com/decaporg/decap-cms"
+  github_repo: "decaporg/decap-cms"
   github_stars: 18998
-  npm_package: decap-cms
-  npm_weekly_downloads: 2031
+  npm_package: "decap-cms"
+  npm_weekly_downloads: 1982
 ---
 # Decap CMS Git-Based Content Management for Static Sites
 
@@ -20,21 +17,31 @@ An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-ba
 
 Decap CMS is an open-source content management system that stores content as files in a Git repository rather than a traditional database. Originally created as Netlify CMS, it was rebranded to Decap CMS to reflect its vendor-neutral nature. This skill enables agents to manage content creation, editing, and publishing workflows through Decap CMS’s API and configuration system.
 
+
+
 Core Capabilities
 
 The skill manages Decap CMS configurations that define content collections, fields, and editorial workflows. It can generate and modify config.yml files that specify which Git branches to target, how content types are structured, what widgets to use for different field types (strings, markdown, images, dates, lists, objects, relations), and how media files are stored. The skill also handles editorial workflow states: draft, in review, and ready to publish, each mapped to Git branch operations.
+
+
 
 How It Works
 
 Decap CMS operates as a single-page React application that communicates with Git hosting providers (GitHub, GitLab, Bitbucket) through their APIs. When content is saved, changes are committed directly to the configured branch or, in editorial workflow mode, created as pull requests for review. The skill automates configuration generation based on content model descriptions, validates field definitions against supported widget types, and manages Git backend authentication settings including OAuth, implicit grant, and Git Gateway configurations.
 
+
+
 Content Modeling
 
 The skill translates content requirements into Decap CMS collection definitions. It supports folder collections for repeated content types like blog posts, file collections for singleton pages like site settings, and nested collections for hierarchical content structures. Each collection can define custom preview templates, slug patterns, summary formats, and field validation rules. The skill handles complex field types including nested objects, variable-type lists, and relation fields that reference entries from other collections.
 
+
+
 Integration Points
 
 Decap CMS works with any static site generator that reads content from files: Hugo (TOML, YAML, JSON front matter), Jekyll (YAML front matter with Markdown), Gatsby (MDX, JSON), Next.js, Nuxt, Eleventy, Hexo, and others. The skill generates framework-specific configurations and can set up the Decap CMS admin interface as a standalone page in the static site build output. It supports custom preview components written in React for live content preview during editing.
+
+
 
 Technical Details
 
@@ -72,7 +79,6 @@ npx skills add agentskillexchange/skills --skill decap-cms-git-based-content-man
 clawhub install decap-cms-git-based-content-management-static-sites
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/decaporg/decap-cms)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/decap-cms-git-based-content-management-static-sites/)

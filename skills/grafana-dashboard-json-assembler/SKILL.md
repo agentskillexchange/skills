@@ -1,10 +1,8 @@
 ---
-name: Grafana Dashboard JSON Assembler
-description: Assembles Grafana dashboard JSON models using panel types like timeseries,
-  stat, table, and heatmap. Configures datasource references, template variables,
-  and annotation queries for operational dashboards.
-category: "Monitoring &amp; Alerts"
-framework: Cursor
+name: "Grafana Dashboard JSON Assembler"
+description: "Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards."
+category: "Monitoring & Alerts"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-json-assemble
 ```bash
 clawhub install grafana-dashboard-json-assembler
 ```
-
 
 ## Source
 

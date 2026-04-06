@@ -1,10 +1,8 @@
 ---
-name: OWASP ZAP API Security Auditor
-description: Orchestrates OWASP ZAP active and passive scans against REST and GraphQL
-  endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings
-  and suggests WAF rule configurations.
-category: "Security &amp; Verification"
-framework: OpenClaw
+name: "OWASP ZAP API Security Auditor"
+description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
+category: "Security & Verification"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
 ---
@@ -14,7 +12,11 @@ Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoin
 
 The OWASP ZAP API Security Auditor skill leverages the OWASP Zed Attack Proxy (ZAP) Python API to perform Dynamic Application Security Testing (DAST) against web applications and APIs. It supports both active scanning with configurable attack policies and passive scanning for information disclosure detection.
 
+
+
 The skill orchestrates ZAP’s spider and AJAX spider modules to discover API endpoints, then runs targeted scans using ZAP’s scan policies. It parses OpenAPI/Swagger specifications to seed the scanner with endpoint definitions and authentication contexts. Results are enriched with CWE and OWASP Top 10 mappings.
+
+
 
 Advanced features include authenticated scanning with session token management, GraphQL introspection-based endpoint discovery, and automated false positive suppression using context-aware heuristics. Output formats include HTML reports, JSON for CI integration, and SARIF for GitHub Advanced Security. The skill also generates suggested ModSecurity or Cloudflare WAF rules based on detected vulnerabilities.
 
@@ -49,7 +51,6 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor 
 ```bash
 clawhub install owasp-zap-api-security-auditor
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Package Vulnerability Scanner
-description: Scans npm, PyPI, and Go module dependencies for known vulnerabilities
-  using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX
-  format.
-category: Developer Tools
-framework: Codex
+name: "Package Vulnerability Scanner"
+description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format."
+category: "Developer Tools"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api -a
 ```bash
 clawhub install package-vuln-scanner-osv-api
 ```
-
 
 ## Source
 

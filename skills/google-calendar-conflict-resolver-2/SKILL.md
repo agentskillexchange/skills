@@ -1,10 +1,8 @@
 ---
-name: Google Calendar Conflict Resolver
-description: Detects and resolves scheduling conflicts across multiple Google Calendar
-  accounts using the Google Calendar API v3 freebusy query. Suggests optimal rescheduling
-  slots based on attendee availability windows.
-category: "Calendar, Email &amp; Productivity"
-framework: OpenClaw
+name: "Google Calendar Conflict Resolver"
+description: "Detects and resolves scheduling conflicts across multiple Google Calendar accounts using the Google Calendar API v3 freebusy query. Suggests optimal rescheduling slots based on attendee availability windows."
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill google-calendar-conflict-resolv
 ```bash
 clawhub install google-calendar-conflict-resolver-2
 ```
-
 
 ## Source
 

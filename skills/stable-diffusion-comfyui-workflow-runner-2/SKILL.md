@@ -1,10 +1,8 @@
 ---
-name: Stable Diffusion ComfyUI Workflow Runner
-description: Executes ComfyUI workflow JSON files against a local or remote ComfyUI
-  server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue
-  management with progress polling.
-category: "Image &amp; Creative Automation"
-framework: MCP
+name: "Stable Diffusion ComfyUI Workflow Runner"
+description: "Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling."
+category: "Image & Creative Automation"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-comfyui-workfl
 ```bash
 clawhub install stable-diffusion-comfyui-workflow-runner-2
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Google Calendar Sync Agent
-description: Synchronizes events across multiple Google Calendar accounts using the
-  Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and
-  conflict resolution.
-category: "Calendar, Email &amp; Productivity"
-framework: OpenClaw
+name: "Google Calendar Sync Agent"
+description: "Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution."
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill google-calendar-sync-agent-2 -a
 ```bash
 clawhub install google-calendar-sync-agent-2
 ```
-
 
 ## Source
 

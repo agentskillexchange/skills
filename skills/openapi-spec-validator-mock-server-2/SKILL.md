@@ -1,10 +1,8 @@
 ---
 name: "OpenAPI Spec Validator & Mock Server"
-description: Validates OpenAPI 3.x specifications using the swagger-parser library
-  and generates Prism mock servers. Detects schema inconsistencies, missing examples,
-  and generates SDK client stubs via openapi-generator.
-category: "Library &amp; API Reference"
-framework: Codex
+description: "Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator."
+category: "Library & API Reference"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator-mock-ser
 ```bash
 clawhub install openapi-spec-validator-mock-server-2
 ```
-
 
 ## Source
 

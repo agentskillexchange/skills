@@ -1,10 +1,8 @@
 ---
-name: Pandas DataFrame Schema Validator
-description: Validates Pandas DataFrame structures using the pandera library API and
-  pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and
-  custom check functions via pandera.Check.
-category: "Data Extraction &amp; Transformation"
-framework: OpenClaw
+name: "Pandas DataFrame Schema Validator"
+description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-validat
 ```bash
 clawhub install pandas-dataframe-schema-validator
 ```
-
 
 ## Source
 

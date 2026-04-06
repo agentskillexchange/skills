@@ -1,15 +1,12 @@
 ---
-name: gallery-dl Image Gallery and Collection Downloader
-description: gallery-dl is a command-line tool for downloading image galleries and
-  collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit,
-  Instagram, and Danbooru. It supports authentication, metadata extraction, filtering,
-  and configurable output templates.
-category: "Data Extraction &amp; Transformation"
-framework: Multi-Framework
+name: "gallery-dl Image Gallery and Collection Downloader"
+description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates."
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 verification: security_reviewed
 source: "https://github.com/mikf/gallery-dl"
 tool_ecosystem:
-  github_repo: "https://github.com/mikf/gallery-dl"
+  github_repo: "mikf/gallery-dl"
   github_stars: 17470
 ---
 # gallery-dl Image Gallery and Collection Downloader
@@ -18,17 +15,25 @@ gallery-dl is a command-line tool for downloading image galleries and collection
 
 gallery-dl is a popular open-source command-line program for batch downloading image galleries and collections from a wide range of image hosting sites and social media platforms. Written in Python with over 17,000 GitHub stars, it fills the same niche for images that yt-dlp fills for video — reliable, scriptable, and extensively configurable bulk downloading.
 
+
+
 Supported Sites
 
 gallery-dl supports dozens of platforms including Pixiv, DeviantArt, Twitter/X, Reddit, Instagram, Danbooru, Gelbooru, ArtStation, Flickr, Tumblr, Imgur, and many more. Each site has a dedicated extractor module that handles the platform-specific API or HTML scraping required to discover and download images at full resolution.
+
+
 
 Core Capabilities
 
 The tool downloads entire galleries, user profiles, tag searches, and individual posts. It extracts and preserves metadata such as artist names, tags, descriptions, upload dates, and image dimensions. Output directory structures and filenames are fully customizable using Python format strings with metadata placeholders. Archive databases track previously downloaded files to avoid re-downloading on subsequent runs.
 
+
+
 Authentication and Filtering
 
 gallery-dl supports login credentials and browser cookie extraction for accessing age-restricted or private content. Post-processors handle file conversion, metadata writing to JSON sidecar files, and execution of custom commands after each download. Filter expressions allow selecting images by date range, file type, minimum resolution, tag inclusion or exclusion, and rating.
+
+
 
 Integration Points
 
@@ -66,7 +71,6 @@ npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collec
 clawhub install gallery-dl-image-gallery-collection-downloader
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/mikf/gallery-dl)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/)

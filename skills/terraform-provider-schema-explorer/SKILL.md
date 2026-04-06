@@ -1,10 +1,8 @@
 ---
-name: Terraform Provider Schema Explorer
-description: Explores HashiCorp Terraform provider schemas using terraform providers
-  schema -json output. Maps resource attributes, computed fields, and cross-resource
-  dependency references for HCL generation.
-category: "Library &amp; API Reference"
-framework: Gemini
+name: "Terraform Provider Schema Explorer"
+description: "Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation."
+category: "Library & API Reference"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-provider-schema-explorer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill terraform-provider-schema-explo
 ```bash
 clawhub install terraform-provider-schema-explorer
 ```
-
 
 ## Source
 

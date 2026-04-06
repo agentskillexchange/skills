@@ -1,10 +1,8 @@
 ---
-name: Content Brief Architect
-description: Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO
-  NLP analysis, and Clearscope content grading. Generates outlines with target word
-  counts, headers, and semantic keyword clusters.
-category: "Content Writing &amp; SEO"
-framework: MCP
+name: "Content Brief Architect"
+description: "Creates detailed SEO content briefs using Ahrefs API keyword data, SurferSEO NLP analysis, and Clearscope content grading. Generates outlines with target word counts, headers, and semantic keyword clusters."
+category: "Content Writing & SEO"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill content-brief-architect-agent -
 ```bash
 clawhub install content-brief-architect-agent
 ```
-
 
 ## Source
 

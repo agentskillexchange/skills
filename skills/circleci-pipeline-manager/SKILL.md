@@ -1,10 +1,8 @@
 ---
-name: CircleCI Pipeline Manager
-description: Configure and trigger CircleCI pipelines using the CircleCI v2 API and
-  config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic
-  configuration with setup workflows.
-category: CI/CD Integrations
-framework: ChatGPT Agents
+name: "CircleCI Pipeline Manager"
+description: "Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-pipeline-manager/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill circleci-pipeline-manager -a co
 ```bash
 clawhub install circleci-pipeline-manager
 ```
-
 
 ## Source
 

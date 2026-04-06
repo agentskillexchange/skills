@@ -1,10 +1,8 @@
 ---
-name: Git Branch Analyzer
-description: Analyzes Git repository branch topology using libgit2 bindings and git-log
-  parsing. Identifies stale branches, merge conflicts, and divergence points via the
-  GitHub GraphQL API.
-category: Developer Tools
-framework: Claude Code
+name: "Git Branch Analyzer"
+description: "Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge conflicts, and divergence points via the GitHub GraphQL API."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill git-branch-analyzer-libgit2 -a 
 ```bash
 clawhub install git-branch-analyzer-libgit2
 ```
-
 
 ## Source
 

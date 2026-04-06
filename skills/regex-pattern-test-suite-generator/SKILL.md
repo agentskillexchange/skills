@@ -1,10 +1,8 @@
 ---
-name: Regex Pattern Test Suite Generator
-description: Generates comprehensive test suites for regular expressions using Hypothesis
-  property-based testing and re2 for safe evaluation. Creates positive/negative test
-  cases, edge cases, and ReDoS vulnerability checks.
-category: Developer Tools
-framework: Cursor
+name: "Regex Pattern Test Suite Generator"
+description: "Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks."
+category: "Developer Tools"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill regex-pattern-test-suite-genera
 ```bash
 clawhub install regex-pattern-test-suite-generator
 ```
-
 
 ## Source
 

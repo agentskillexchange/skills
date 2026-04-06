@@ -1,10 +1,8 @@
 ---
-name: CircleCI Orb Pipeline Composer
-description: Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI
-  v2 API. Supports dynamic config generation with setup workflows and pipeline parameters
-  for monorepo deployments.
-category: CI/CD Integrations
-framework: Claude Code
+name: "CircleCI Orb Pipeline Composer"
+description: "Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments."
+category: "CI/CD Integrations"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill circleci-orb-pipeline-composer-
 ```bash
 clawhub install circleci-orb-pipeline-composer-2
 ```
-
 
 ## Source
 

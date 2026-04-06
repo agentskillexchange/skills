@@ -1,10 +1,8 @@
 ---
-name: New Relic SLO Compliance Monitor
-description: Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL
-  queries. Calculates error budgets, burn rates, and generates compliance reports
-  with Slack notifications via Incoming Webhooks.
-category: "Monitoring &amp; Alerts"
-framework: ChatGPT Agents
+name: "New Relic SLO Compliance Monitor"
+description: "Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks."
+category: "Monitoring & Alerts"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill new-relic-slo-compliance-monito
 ```bash
 clawhub install new-relic-slo-compliance-monitor
 ```
-
 
 ## Source
 

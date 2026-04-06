@@ -1,10 +1,8 @@
 ---
-name: Incident Response Template Generator
-description: Creates structured incident response templates using the PagerDuty Events
-  API v2, Jira REST API for ticket creation, and Statuspage.io API for public status
-  updates. Generates runbook-linked response procedures.
-category: "Templates &amp; Workflows"
-framework: Custom Agents
+name: "Incident Response Template Generator"
+description: "Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation, and Statuspage.io API for public status updates. Generates runbook-linked response procedures."
+category: "Templates & Workflows"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-response-template-generator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill incident-response-template-gene
 ```bash
 clawhub install incident-response-template-generator
 ```
-
 
 ## Source
 

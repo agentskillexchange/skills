@@ -1,11 +1,8 @@
 ---
-name: Snowflake Query History Extractor
-description: Extracts query history and performance metadata from Snowflake using
-  the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies
-  expensive queries by credits consumed, data scanned, and spillage to remote storage.
-  Exports results to a Pandas DataFrame for downstream analysis or Slack reporting.
-category: "Data Extraction &amp; Transformation"
-framework: ChatGPT Agents
+name: "Snowflake Query History Extractor"
+description: "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned, and spillage to remote storage. Exports results to a Pandas DataFrame for downstream analysis or Slack reporting."
+category: "Data Extraction & Transformation"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-query-history-extractor/"
 ---
@@ -46,7 +43,6 @@ npx skills add agentskillexchange/skills --skill snowflake-query-history-extract
 ```bash
 clawhub install snowflake-query-history-extractor
 ```
-
 
 ## Source
 

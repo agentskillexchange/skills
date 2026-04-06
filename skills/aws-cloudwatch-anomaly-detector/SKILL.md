@@ -1,10 +1,8 @@
 ---
-name: AWS CloudWatch Anomaly Detector
-description: Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands
-  on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and
-  CloudWatch Synthetics for canary-based uptime monitoring.
-category: "Monitoring &amp; Alerts"
-framework: MCP
+name: "AWS CloudWatch Anomaly Detector"
+description: "Uses AWS CloudWatch SDK (boto3) to configure anomaly detection bands on metrics via PutAnomalyDetector API. Integrates with SNS for notifications and CloudWatch Synthetics for canary-based uptime monitoring."
+category: "Monitoring & Alerts"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-detector
 ```bash
 clawhub install aws-cloudwatch-anomaly-detector
 ```
-
 
 ## Source
 

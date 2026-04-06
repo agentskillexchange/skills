@@ -1,10 +1,8 @@
 ---
-name: Apache Tika Document Extractor
-description: Wraps Apache Tika Server REST API for extracting structured text from
-  PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata
-  preservation using Tika /rmeta/text endpoint and recursive parsing mode.
-category: "Data Extraction &amp; Transformation"
-framework: Codex
+name: "Apache Tika Document Extractor"
+description: "Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode."
+category: "Data Extraction & Transformation"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
 ---
@@ -12,19 +10,35 @@ source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
 
 Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode.
 
+Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode.
+
+
+
 Overview
 
 This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
 
+
+
 Key Features
+
+
 
 - Automatic retry logic with exponential backoff for API rate limits
 
+
+
 - Structured output formatting compatible with downstream agent pipelines
+
+
 
 - Comprehensive error handling with actionable diagnostic messages
 
+
+
 - Configurable caching layer to reduce redundant API calls
+
+
 
 Usage
 
@@ -61,7 +75,6 @@ npx skills add agentskillexchange/skills --skill apache-tika-document-extractor 
 ```bash
 clawhub install apache-tika-document-extractor
 ```
-
 
 ## Source
 

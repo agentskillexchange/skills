@@ -1,10 +1,8 @@
 ---
-name: Selenium Grid Parallel Executor
-description: Orchestrates parallel browser automation across Selenium Grid nodes using
-  RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution,
-  retry policies, and HTML test reports via ExtentReports.
-category: Browser Automation
-framework: Custom Agents
+name: "Selenium Grid Parallel Executor"
+description: "Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports."
+category: "Browser Automation"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor
 ```bash
 clawhub install selenium-grid-parallel-executor
 ```
-
 
 ## Source
 

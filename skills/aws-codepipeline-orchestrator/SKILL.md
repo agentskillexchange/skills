@@ -1,10 +1,8 @@
 ---
-name: AWS CodePipeline Orchestrator
-description: Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript
-  (CodePipeline, CodeBuild, CodeDeploy APIs). Automates blue-green deployments and
-  cross-account pipeline configurations.
-category: CI/CD Integrations
-framework: MCP
+name: "AWS CodePipeline Orchestrator"
+description: "Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs). Automates blue-green deployments and cross-account pipeline configurations."
+category: "CI/CD Integrations"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-codepipeline-orchestrator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill aws-codepipeline-orchestrator -
 ```bash
 clawhub install aws-codepipeline-orchestrator
 ```
-
 
 ## Source
 

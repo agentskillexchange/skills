@@ -1,10 +1,8 @@
 ---
-name: Datadog APM Anomaly Detector
-description: Detects performance anomalies in Datadog APM traces using the Datadog
-  API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify
-  outlier service behaviors.
-category: "Monitoring &amp; Alerts"
-framework: ChatGPT Agents
+name: "Datadog APM Anomaly Detector"
+description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
+category: "Monitoring & Alerts"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill datadog-apm-anomaly-detector -a
 ```bash
 clawhub install datadog-apm-anomaly-detector
 ```
-
 
 ## Source
 

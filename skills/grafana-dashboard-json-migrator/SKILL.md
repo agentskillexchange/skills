@@ -1,10 +1,8 @@
 ---
-name: Grafana Dashboard JSON Migrator
-description: Migrates Grafana dashboards between instances using the Grafana HTTP
-  API. Transforms datasource UIDs, folder structures, and alert rule references for
-  cross-environment promotion.
-category: "Monitoring &amp; Alerts"
-framework: Cursor
+name: "Grafana Dashboard JSON Migrator"
+description: "Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion."
+category: "Monitoring & Alerts"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-json-migrator
 ```bash
 clawhub install grafana-dashboard-json-migrator
 ```
-
 
 ## Source
 

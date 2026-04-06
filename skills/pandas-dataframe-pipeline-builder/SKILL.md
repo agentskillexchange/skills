@@ -1,10 +1,8 @@
 ---
-name: Pandas DataFrame Pipeline Builder
-description: Constructs data transformation pipelines using Pandas and the pipe()
-  method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for
-  high-performance Parquet operations.
-category: "Data Extraction &amp; Transformation"
-framework: Cursor
+name: "Pandas DataFrame Pipeline Builder"
+description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
+category: "Data Extraction & Transformation"
+framework: "Cursor"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-build
 ```bash
 clawhub install pandas-dataframe-pipeline-builder
 ```
-
 
 ## Source
 

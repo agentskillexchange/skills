@@ -1,14 +1,12 @@
 ---
-name: Checkly Browser Check Failure Notifier
-description: Monitors Checkly browser checks via the Checkly Management API and notifies
-  teams on Playwright test failures. Extracts failure screenshots, trace URLs, and
-  degraded check results.
-category: "Monitoring &amp; Alerts"
-framework: Claude Code
+name: "Checkly Browser Check Failure Notifier"
+description: "Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures. Extracts failure screenshots, trace URLs, and degraded check results."
+category: "Monitoring & Alerts"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/checkly/checkly-cli"
 tool_ecosystem:
-  github_repo: "https://github.com/checkly/checkly-cli"
+  github_repo: "checkly/checkly-cli"
   github_stars: 92
 ---
 # Checkly Browser Check Failure Notifier
@@ -49,7 +47,6 @@ npx skills add agentskillexchange/skills --skill checkly-browser-check-failure-n
 clawhub install checkly-browser-check-failure-notifier
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/checkly/checkly-cli)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/checkly-browser-check-failure-notifier/)

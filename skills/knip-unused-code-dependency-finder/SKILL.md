@@ -1,16 +1,14 @@
 ---
-name: Knip Unused Code and Dependency Finder
-description: Run Knip to find and remove unused files, dependencies, and exports in
-  JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and
-  dependency attack surface.
-category: "Code Quality &amp; Review"
-framework: Claude Code
+name: "Knip Unused Code and Dependency Finder"
+description: "Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface."
+category: "Code Quality & Review"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://github.com/webpro-nl/knip"
 tool_ecosystem:
-  github_repo: "https://github.com/webpro-nl/knip"
+  github_repo: "webpro-nl/knip"
   github_stars: 10806
-  npm_package: knip
+  npm_package: "knip"
 ---
 # Knip Unused Code and Dependency Finder
 
@@ -20,13 +18,21 @@ Overview
 
 Knip is a static analysis tool that finds unused files, dependencies, and exports in JavaScript and TypeScript projects. The name comes from the Dutch word for “cut” — the idea is to knip (cut) dead code before you ship it. By identifying what’s not actually used, Knip helps teams reduce bundle sizes, lower maintenance costs, and shrink their dependency attack surface.
 
+
+
 Knip goes beyond simple unused import detection. It traces the full dependency graph of a project, understanding entry points, configuration files, and plugin systems to determine which files, exports, and npm dependencies are truly unreachable. It understands workspaces, monorepos, and the plugin systems of popular tools like ESLint, Jest, Webpack, Next.js, and dozens more.
+
+
 
 How It Works
 
 Agents invoke Knip via npx knip in a project directory. Knip analyzes the project structure, reads configuration from knip.json or knip.ts, and produces a report of unused items categorized by type: unused files, unused dependencies, unused devDependencies, unused exports, unused types, and duplicate exports. Each finding includes the file path and specific identifier.
 
+
+
 Knip supports all major package managers (npm, pnpm, Yarn, Bun) and understands monorepo workspace configurations. It has built-in compilers for non-standard file types and plugin support for over 100 tools and frameworks, automatically detecting which configuration files to analyze.
+
+
 
 Output and Integration
 
@@ -64,7 +70,6 @@ npx skills add agentskillexchange/skills --skill knip-unused-code-dependency-fin
 clawhub install knip-unused-code-dependency-finder
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/webpro-nl/knip)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/knip-unused-code-dependency-finder/)

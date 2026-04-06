@@ -1,10 +1,8 @@
 ---
-name: Kubernetes Pod Crash Diagnostician
-description: Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource
-  quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with
-  container memory profiles from Prometheus queries.
-category: "Runbooks &amp; Diagnostics"
-framework: Claude Code
+name: "Kubernetes Pod Crash Diagnostician"
+description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries."
+category: "Runbooks & Diagnostics"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-diagnostic
 ```bash
 clawhub install kubernetes-pod-crash-diagnostician
 ```
-
 
 ## Source
 

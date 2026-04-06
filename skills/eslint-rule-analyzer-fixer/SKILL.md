@@ -1,10 +1,8 @@
 ---
-name: ESLint Rule Analyzer and Fixer
-description: Performs deep ESLint configuration analysis using the ESLint Node.js
-  API and flat config system. Auto-fixes rule conflicts, generates shareable configs,
-  and produces code quality trend reports.
-category: "Code Quality &amp; Review"
-framework: Claude Agents
+name: "ESLint Rule Analyzer and Fixer"
+description: "Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports."
+category: "Code Quality & Review"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill eslint-rule-analyzer-fixer -a c
 ```bash
 clawhub install eslint-rule-analyzer-fixer
 ```
-
 
 ## Source
 

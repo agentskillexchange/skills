@@ -1,10 +1,8 @@
 ---
-name: AWS CloudWatch Anomaly Runbook
-description: Executes structured diagnostic runbooks when CloudWatch Anomaly Detection
-  triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms)
-  to gather context and suggest remediations.
-category: "Runbooks &amp; Diagnostics"
-framework: OpenClaw
+name: "AWS CloudWatch Anomaly Runbook"
+description: "Executes structured diagnostic runbooks when CloudWatch Anomaly Detection triggers alarms. Uses the AWS SDK CloudWatch client (GetMetricData, DescribeAlarms) to gather context and suggest remediations."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-runbook 
 ```bash
 clawhub install aws-cloudwatch-anomaly-runbook
 ```
-
 
 ## Source
 

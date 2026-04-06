@@ -1,10 +1,8 @@
 ---
-name: DALL-E Batch Image Generator
-description: Generates and manages batch image creation jobs using the OpenAI Images
-  API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style
-  parameters plus automatic prompt revision tracking.
-category: "Image &amp; Creative Automation"
-framework: Claude Agents
+name: "DALL-E Batch Image Generator"
+description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
+category: "Image & Creative Automation"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill dalle-batch-image-generator -a 
 ```bash
 clawhub install dalle-batch-image-generator
 ```
-
 
 ## Source
 

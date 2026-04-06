@@ -1,10 +1,8 @@
 ---
-name: Cypress Component Testing Framework
-description: Scaffolds Cypress component tests for React, Vue, and Angular apps using
-  the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based
-  visual assertions.
-category: Browser Automation
-framework: MCP
+name: "Cypress Component Testing Framework"
+description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
+category: "Browser Automation"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cypress-component-testing-framework-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill cypress-component-testing-frame
 ```bash
 clawhub install cypress-component-testing-framework-2
 ```
-
 
 ## Source
 

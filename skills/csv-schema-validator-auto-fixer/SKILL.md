@@ -1,10 +1,8 @@
 ---
 name: "CSV Schema Validator & Auto-Fixer"
-description: Validates CSV files against JSON Schema definitions using AJV and csv-parse.
-  Automatically detects and repairs type mismatches, missing required columns, and
-  encoding issues with configurable strictness levels.
-category: "Data Extraction &amp; Transformation"
-framework: OpenClaw
+description: "Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type mismatches, missing required columns, and encoding issues with configurable strictness levels."
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill csv-schema-validator-auto-fixer
 ```bash
 clawhub install csv-schema-validator-auto-fixer
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Docker Compose Stack Analyzer
-description: Analyzes Docker Compose configurations for security, networking, and
-  resource optimization using the Docker Engine API and Compose specification parser.
-  Detects misconfigurations and dependency issues.
-category: Developer Tools
-framework: Gemini
+name: "Docker Compose Stack Analyzer"
+description: "Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues."
+category: "Developer Tools"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill docker-compose-stack-analyzer -
 ```bash
 clawhub install docker-compose-stack-analyzer
 ```
-
 
 ## Source
 

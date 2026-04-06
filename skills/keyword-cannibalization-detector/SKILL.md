@@ -1,10 +1,8 @@
 ---
-name: Keyword Cannibalization Detector
-description: Detects keyword cannibalization issues using Google Search Console API
-  performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and
-  suggests content consolidation strategies.
-category: "Content Writing &amp; SEO"
-framework: Claude Code
+name: "Keyword Cannibalization Detector"
+description: "Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies."
+category: "Content Writing & SEO"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill keyword-cannibalization-detecto
 ```bash
 clawhub install keyword-cannibalization-detector
 ```
-
 
 ## Source
 

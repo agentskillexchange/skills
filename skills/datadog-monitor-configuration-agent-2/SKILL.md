@@ -1,10 +1,8 @@
 ---
-name: Datadog Monitor Configuration Agent
-description: Creates and manages Datadog monitors using the datadog-api-client SDK.
-  Configures metric, log, APM trace, and composite monitors with proper threshold
-  types and notification routing.
-category: "Monitoring &amp; Alerts"
-framework: Claude Agents
+name: "Datadog Monitor Configuration Agent"
+description: "Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing."
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill datadog-monitor-configuration-a
 ```bash
 clawhub install datadog-monitor-configuration-agent-2
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Swagger UI Documentation Deployer
-description: Deploys interactive Swagger UI documentation sites from OpenAPI specs
-  with custom branding, authentication presets, and CDN-hosted static builds. Integrates
-  with Redoc for alternative rendering.
-category: "Library &amp; API Reference"
-framework: OpenClaw
+name: "Swagger UI Documentation Deployer"
+description: "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering."
+category: "Library & API Reference"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill swagger-ui-documentation-deploy
 ```bash
 clawhub install swagger-ui-documentation-deployer
 ```
-
 
 ## Source
 

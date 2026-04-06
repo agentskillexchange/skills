@@ -1,15 +1,13 @@
 ---
-name: NestJS — Progressive Node.js Framework for Server-Side Applications
-description: NestJS is a progressive Node.js framework built with TypeScript, inspired
-  by Angular. It provides dependency injection, modular architecture, and supports
-  REST, GraphQL, WebSockets, and microservices.
-category: Developer Tools
-framework: Multi-Framework
+name: "NestJS — Progressive Node.js Framework for Server-Side Applications"
+description: "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and microservices."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:
-  github_repo: "https://github.com/nestjs/nest"
-  github_stars: 75050
+  github_repo: "nestjs/nest"
+  github_stars: 75060
 ---
 # NestJS — Progressive Node.js Framework for Server-Side Applications
 
@@ -47,7 +45,6 @@ npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-frame
 clawhub install nestjs-progressive-nodejs-framework
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/nestjs/nest)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/nestjs-progressive-nodejs-framework/)

@@ -1,10 +1,8 @@
 ---
-name: Swagger Codegen Orchestrator
-description: Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and
-  openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with
-  custom Mustache templates.
-category: "Templates &amp; Workflows"
-framework: Claude Code
+name: "Swagger Codegen Orchestrator"
+description: "Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates."
+category: "Templates & Workflows"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-codegen-orchestrator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill swagger-codegen-orchestrator -a
 ```bash
 clawhub install swagger-codegen-orchestrator
 ```
-
 
 ## Source
 

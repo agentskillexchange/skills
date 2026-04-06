@@ -1,10 +1,8 @@
 ---
-name: Podcast RSS Feed Audio Normalizer
-description: Parses podcast RSS feeds with feedparser and normalizes audio loudness
-  to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128
-  analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload.
-category: "Media &amp; Transcription"
-framework: MCP
+name: "Podcast RSS Feed Audio Normalizer"
+description: "Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload."
+category: "Media & Transcription"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
 ---
@@ -16,9 +14,13 @@ Overview
 
 The Podcast RSS Feed Audio Normalizer ensures consistent listening experiences across podcast episodes by standardizing audio loudness levels to broadcast specifications. It processes episodes from RSS feeds and re-uploads normalized audio to podcast hosting platforms automatically.
 
+
+
 Key Capabilities
 
 This skill parses podcast RSS feeds using Python’s feedparser library to discover and download episode audio files. It applies the FFmpeg loudnorm filter in dual-pass mode for EBU R128 compliant loudness normalization, targeting -16 LUFS for podcast distribution with -1 dBTP true peak limiting to prevent clipping on consumer devices.
+
+
 
 Platform Integration
 
@@ -55,7 +57,6 @@ npx skills add agentskillexchange/skills --skill podcast-rss-feed-audio-normaliz
 ```bash
 clawhub install podcast-rss-feed-audio-normalizer
 ```
-
 
 ## Source
 

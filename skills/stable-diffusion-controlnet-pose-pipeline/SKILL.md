@@ -1,14 +1,12 @@
 ---
-name: Stable Diffusion ControlNet Pose Pipeline
-description: Orchestrates Stable Diffusion image generation with ControlNet pose conditioning
-  via the Automatic1111 API. Chains OpenPose detection, depth estimation, and img2img
-  endpoints.
-category: "Image &amp; Creative Automation"
-framework: Custom Agents
+name: "Stable Diffusion ControlNet Pose Pipeline"
+description: "Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains OpenPose detection, depth estimation, and img2img endpoints."
+category: "Image & Creative Automation"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://github.com/lllyasviel/ControlNet"
 tool_ecosystem:
-  github_repo: "https://github.com/lllyasviel/controlnet"
+  github_repo: "lllyasviel/ControlNet"
   github_stars: 33793
 ---
 # Stable Diffusion ControlNet Pose Pipeline
@@ -49,7 +47,6 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pos
 clawhub install stable-diffusion-controlnet-pose-pipeline
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/lllyasviel/ControlNet)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stable-diffusion-controlnet-pose-pipeline/)

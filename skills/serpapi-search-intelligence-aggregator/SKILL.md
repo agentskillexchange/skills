@@ -1,10 +1,8 @@
 ---
-name: SerpAPI Search Intelligence Aggregator
-description: Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar
-  search result extraction. Uses the Locations API for geo-targeted queries and Searches
-  Archive API for historical SERP tracking.
-category: "Research &amp; Scraping"
-framework: Claude Code
+name: "SerpAPI Search Intelligence Aggregator"
+description: "Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking."
+category: "Research & Scraping"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill serpapi-search-intelligence-agg
 ```bash
 clawhub install serpapi-search-intelligence-aggregator
 ```
-
 
 ## Source
 

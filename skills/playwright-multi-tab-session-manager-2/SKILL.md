@@ -1,10 +1,8 @@
 ---
-name: Playwright Multi-Tab Session Manager
-description: Manages concurrent Playwright browser contexts with tab isolation and
-  cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration
-  with SharedArrayBuffer synchronization.
-category: Browser Automation
-framework: Claude Code
+name: "Playwright Multi-Tab Session Manager"
+description: "Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization."
+category: "Browser Automation"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill playwright-multi-tab-session-ma
 ```bash
 clawhub install playwright-multi-tab-session-manager-2
 ```
-
 
 ## Source
 

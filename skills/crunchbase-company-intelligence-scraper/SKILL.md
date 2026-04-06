@@ -1,10 +1,8 @@
 ---
-name: Crunchbase Company Intelligence Scraper
-description: Extracts company profiles, funding rounds, and investor data using the
-  Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints.
-  Builds competitive landscape maps with funding timeline visualizations.
-category: "Research &amp; Scraping"
-framework: Custom Agents
+name: "Crunchbase Company Intelligence Scraper"
+description: "Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations."
+category: "Research & Scraping"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://data.crunchbase.com/docs"
 ---
@@ -46,7 +44,6 @@ npx skills add agentskillexchange/skills --skill crunchbase-company-intelligence
 clawhub install crunchbase-company-intelligence-scraper
 ```
 
-
 ## Source
 
-- [data.crunchbase.com](https://data.crunchbase.com/docs)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/crunchbase-company-intelligence-scraper/)

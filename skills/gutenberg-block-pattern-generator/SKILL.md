@@ -1,10 +1,8 @@
 ---
-name: Gutenberg Block Pattern Generator
-description: Generates custom WordPress Gutenberg block patterns using register_block_pattern()
-  and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category()
-  for organized content libraries.
-category: "WordPress &amp; CMS"
-framework: Claude Code
+name: "Gutenberg Block Pattern Generator"
+description: "Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates reusable pattern categories with register_block_pattern_category() for organized content libraries."
+category: "WordPress & CMS"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill gutenberg-block-pattern-generat
 ```bash
 clawhub install gutenberg-block-pattern-generator
 ```
-
 
 ## Source
 

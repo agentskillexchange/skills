@@ -1,10 +1,8 @@
 ---
-name: Rust Crate Documentation Extractor
-description: Extracts and indexes Rust crate documentation using cargo-doc, docs.rs
-  API, and syn for AST parsing. Generates searchable API references with cross-crate
-  linking and example extraction.
-category: "Library &amp; API Reference"
-framework: Custom Agents
+name: "Rust Crate Documentation Extractor"
+description: "Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates searchable API references with cross-crate linking and example extraction."
+category: "Library & API Reference"
+framework: "Custom Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-extractor/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill rust-crate-documentation-extrac
 ```bash
 clawhub install rust-crate-documentation-extractor
 ```
-
 
 ## Source
 

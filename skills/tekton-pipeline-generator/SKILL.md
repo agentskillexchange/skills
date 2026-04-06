@@ -1,10 +1,8 @@
 ---
-name: Tekton Pipeline Generator
-description: Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and
-  kubectl. Generates PipelineRun manifests with workspace bindings, result propagation,
-  and sidecar configurations.
-category: CI/CD Integrations
-framework: Gemini
+name: "Tekton Pipeline Generator"
+description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
+category: "CI/CD Integrations"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
 ---
@@ -14,9 +12,15 @@ Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl.
 
 The Tekton Pipeline Generator skill automates the creation of cloud-native CI/CD pipelines using the Tekton Pipelines framework on Kubernetes. It queries the Tekton Hub API to discover reusable tasks for common operations like git-clone, buildah image builds, and vulnerability scanning.
 
+
+
 The generator creates complete Pipeline and PipelineRun YAML manifests with properly configured workspace bindings, parameter passing between tasks, and result propagation chains. It handles PersistentVolumeClaim workspace provisioning and configures sidecar containers for services like Docker-in-Docker or database fixtures.
 
+
+
 Using kubectl and the Kubernetes API, the skill validates that required Custom Resource Definitions (CRDs) are installed, checks RBAC permissions for pipeline service accounts, and verifies that referenced secrets and config maps exist. It supports Tekton Triggers configuration for webhook-driven pipeline execution from GitHub, GitLab, and Bitbucket.
+
+
 
 The skill also generates TektonConfig resources for cluster-wide pipeline settings and supports Tekton Results integration for long-term pipeline run storage and querying.
 
@@ -51,7 +55,6 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-generator -a co
 ```bash
 clawhub install tekton-pipeline-generator
 ```
-
 
 ## Source
 

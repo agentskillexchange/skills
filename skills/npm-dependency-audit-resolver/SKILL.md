@@ -1,10 +1,8 @@
 ---
-name: npm Dependency Audit Resolver
-description: Resolves npm audit vulnerabilities by analyzing the npm registry API
-  for patched versions, generating targeted package.json overrides, and testing upgrades
-  via npm-check-updates compatibility mode.
-category: "Security &amp; Verification"
-framework: Claude Code
+name: "npm Dependency Audit Resolver"
+description: "Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode."
+category: "Security & Verification"
+framework: "Claude Code"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill npm-dependency-audit-resolver -
 ```bash
 clawhub install npm-dependency-audit-resolver
 ```
-
 
 ## Source
 

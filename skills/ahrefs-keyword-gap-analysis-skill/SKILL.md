@@ -1,10 +1,8 @@
 ---
-name: Ahrefs Keyword Gap Analysis Skill
-description: Identifies keyword opportunities by comparing competitor rankings using
-  Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential
-  from search volume, CPC, and keyword difficulty scores.
-category: "Content Writing &amp; SEO"
-framework: ChatGPT Agents
+name: "Ahrefs Keyword Gap Analysis Skill"
+description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
+category: "Content Writing & SEO"
+framework: "ChatGPT Agents"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-ski
 ```bash
 clawhub install ahrefs-keyword-gap-analysis-skill
 ```
-
 
 ## Source
 

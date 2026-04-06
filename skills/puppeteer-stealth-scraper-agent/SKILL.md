@@ -1,10 +1,8 @@
 ---
-name: Puppeteer Stealth Scraper
-description: Anti-detection web scraping using puppeteer-extra-plugin-stealth with
-  residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor
-  masking via puppeteer-extra.
-category: Browser Automation
-framework: OpenClaw
+name: "Puppeteer Stealth Scraper"
+description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
+category: "Browser Automation"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill puppeteer-stealth-scraper-agent
 ```bash
 clawhub install puppeteer-stealth-scraper-agent
 ```
-
 
 ## Source
 

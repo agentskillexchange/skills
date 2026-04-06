@@ -1,10 +1,8 @@
 ---
-name: Prometheus Alert Router
-description: Routes and escalates Prometheus AlertManager notifications based on severity
-  and label matchers. Integrates with PagerDuty, Opsgenie, and Slack webhook APIs
-  for multi-channel incident routing.
-category: "Monitoring &amp; Alerts"
-framework: OpenClaw
+name: "Prometheus Alert Router"
+description: "Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with PagerDuty, Opsgenie, and Slack webhook APIs for multi-channel incident routing."
+category: "Monitoring & Alerts"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-router/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-router -a code
 ```bash
 clawhub install prometheus-alert-router
 ```
-
 
 ## Source
 

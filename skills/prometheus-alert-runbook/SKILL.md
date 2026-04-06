@@ -1,10 +1,8 @@
 ---
-name: Prometheus Alert Runbook
-description: Execute structured runbook procedures triggered by Prometheus AlertManager
-  webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident
-  diagnosis and escalation.
-category: "Runbooks &amp; Diagnostics"
-framework: MCP
+name: "Prometheus Alert Runbook"
+description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
+category: "Runbooks & Diagnostics"
+framework: "MCP"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a cod
 ```bash
 clawhub install prometheus-alert-runbook
 ```
-
 
 ## Source
 

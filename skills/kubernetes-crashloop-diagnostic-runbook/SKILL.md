@@ -1,12 +1,8 @@
 ---
-name: Kubernetes Crashloop Diagnostic Runbook
-description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl\
-  \ and the Kubernetes API. Fetches pod events, container logs, and resource limits\
-  \ via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint. Provides structured\
-  \ root-cause analysis covering OOMKilled, missing ConfigMaps, failed liveness probes,\
-  \ and image pull errors."
-category: "Runbooks &amp; Diagnostics"
-framework: OpenClaw
+name: "Kubernetes Crashloop Diagnostic Runbook"
+description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint. Provides structured root-cause analysis covering OOMKilled, missing ConfigMaps, failed liveness probes, and image pull errors."
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/"
 ---
@@ -47,7 +43,6 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloop-diagnostic
 ```bash
 clawhub install kubernetes-crashloop-diagnostic-runbook
 ```
-
 
 ## Source
 

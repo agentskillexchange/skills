@@ -1,10 +1,8 @@
 ---
-name: Helm Chart Template Scaffolder
-description: Scaffolds Helm 3 chart templates with Go templating best practices. Uses
-  helm-unittest for test generation and Polaris for Kubernetes resource validation
-  scoring.
-category: "Templates &amp; Workflows"
-framework: Codex
+name: "Helm Chart Template Scaffolder"
+description: "Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and Polaris for Kubernetes resource validation scoring."
+category: "Templates & Workflows"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/helm-chart-template-scaffolder/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder 
 ```bash
 clawhub install helm-chart-template-scaffolder
 ```
-
 
 ## Source
 

@@ -1,10 +1,8 @@
 ---
-name: Apache Kafka Schema Extractor
-description: Extracts and transforms Avro, Protobuf, and JSON Schema definitions from
-  Confluent Schema Registry. Generates typed data models and validates schema compatibility
-  using the Schema Registry REST API.
-category: "Data Extraction &amp; Transformation"
-framework: Codex
+name: "Apache Kafka Schema Extractor"
+description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
+category: "Data Extraction & Transformation"
+framework: "Codex"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
 ---
@@ -45,7 +43,6 @@ npx skills add agentskillexchange/skills --skill apache-kafka-schema-extractor -
 ```bash
 clawhub install apache-kafka-schema-extractor
 ```
-
 
 ## Source
 

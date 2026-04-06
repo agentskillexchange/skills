@@ -1,14 +1,12 @@
 ---
-name: Prometheus Alertmanager Rule Auditor
-description: Validates Prometheus recording and alerting rules using promtool check
-  rules, analyzes Alertmanager routing trees for notification gaps, and tests alert
-  expressions against live TSDB data via the Prometheus HTTP API.
-category: "Monitoring &amp; Alerts"
-framework: Gemini
+name: "Prometheus Alertmanager Rule Auditor"
+description: "Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees for notification gaps, and tests alert expressions against live TSDB data via the Prometheus HTTP API."
+category: "Monitoring & Alerts"
+framework: "Gemini"
 verification: security_reviewed
 source: "https://github.com/prometheus/alertmanager"
 tool_ecosystem:
-  github_repo: "https://github.com/prometheus/alertmanager"
+  github_repo: "prometheus/alertmanager"
   github_stars: 8405
 ---
 # Prometheus Alertmanager Rule Auditor
@@ -49,7 +47,6 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-rule-au
 clawhub install prometheus-alertmanager-rule-auditor
 ```
 
-
 ## Source
 
-- [GitHub](https://github.com/prometheus/alertmanager)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/prometheus-alertmanager-rule-auditor/)
