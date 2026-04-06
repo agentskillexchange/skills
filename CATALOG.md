@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1730 published skills** across **17 categories** · 1706 security reviewed · Updated 2026-04-06 11:33 UTC
+> **1733 published skills** across **17 categories** · 1706 security reviewed · Updated 2026-04-06 13:35 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1219,7 +1219,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (82 skills)
+### 🔗 Integrations & Connectors (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1278,6 +1278,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Formbricks Open Source Survey and Experience Management Platform](skills/formbricks-open-source-survey-experience-management/) | Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app,… | Security Reviewed | — | — |
 | [Formbricks Open-Source Survey Platform](skills/formbricks-open-source-survey-platform/) | Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app… | Security Reviewed | — | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](skills/ghostfolio-wealth-management-portfolio-tracking/) | Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across… | Security Reviewed | — | — |
+| [Gitea Repository & Pull Request Automation](skills/gitea-repository-pull-request-automation/) | Automates repository administration, pull request workflows, issue triage, and release operations against Gitea… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
@@ -1309,7 +1310,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (76 skills)
+### 🎨 Image & Creative Automation (77 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1374,6 +1375,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | — | — |
 | [Penpot Open-Source Design Collaboration Platform](skills/penpot-open-source-design-collaboration-platform/) | Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps… | Security Reviewed | — | — |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Security Reviewed | — | — |
+| [PhotoPrism Self-Hosted Photo Library Automation](skills/photoprism-self-hosted-photo-library-automation/) | Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism.… | Published | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | — | — |
 | [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Security Reviewed | — | — |
@@ -1393,7 +1395,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (76 skills)
+### 🎙️ Media & Transcription (77 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1463,6 +1465,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | — | — |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | — | — |
+| [PeerTube Video Publishing and Moderation API](skills/peertube-video-publishing-moderation-api/) | Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management,… | Published | — | — |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
 | [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted… | Security Reviewed | — | — |

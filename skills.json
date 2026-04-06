@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1730,
+  "total": 1733,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "photoprism-self-hosted-photo-library-automation",
+      "name": "PhotoPrism Self-Hosted Photo Library Automation",
+      "description": "Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism. Useful for private media archives that need AI-assisted tagging and operational…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "peertube-video-publishing-moderation-api",
+      "name": "PeerTube Video Publishing and Moderation API",
+      "description": "Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "gitea-repository-pull-request-automation",
+      "name": "Gitea Repository & Pull Request Automation",
+      "description": "Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "prismic-headless-cms-content-api-client",
       "name": "Prismic Headless CMS Content API Client",

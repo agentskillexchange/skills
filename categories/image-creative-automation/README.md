@@ -91,6 +91,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | — | — |
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
+| [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | — | — |
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | — | — |

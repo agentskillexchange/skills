@@ -91,6 +91,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | — | — |
 | [Formbricks Open-Source Survey Platform](../../skills/formbricks-open-source-survey-platform/) | — | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | — | — |
+| [Gitea Repository &#038; Pull Request Automation](../../skills/gitea-repository-pull-request-automation/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |

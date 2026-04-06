@@ -95,6 +95,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
+| [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | — | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
