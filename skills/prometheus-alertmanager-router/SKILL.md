@@ -1,25 +1,56 @@
 ---
-title: "Prometheus AlertManager Router"
-slug: "prometheus-alertmanager-router"
+name: "Prometheus AlertManager Router"
 description: "Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Cursor"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
 ---
 # Prometheus AlertManager Router
 
 Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules.
 
+The Prometheus AlertManager Router skill provides intelligent alert routing and management through the AlertManager HTTP API. It enables agents to programmatically create, modify, and debug complex routing trees that determine how alerts flow from Prometheus to notification receivers like PagerDuty, OpsGenie, Slack, and email.
+
+
+
+Key features include routing tree visualization and validation before applying changes, automatic silence creation during maintenance windows with scheduled expiry, and inhibition rule management to suppress dependent alerts when root-cause alerts are already firing. The skill can analyze alert group patterns to suggest routing optimizations.
+
+
+
+It supports match and match_re label-based routing, continue flags for multi-receiver fan-out, group_by/group_wait/group_interval tuning for alert batching, and receiver template customization using Go template syntax. Integration with Prometheus’s /api/v1/rules endpoint enables correlation between recording rules, alerting rules, and their AlertManager routing destinations for end-to-end observability pipeline verification.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill prometheus-alertmanager-router -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install prometheus-alertmanager-router
+```
 
 ## Source
 

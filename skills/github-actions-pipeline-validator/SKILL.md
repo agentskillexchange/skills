@@ -1,25 +1,48 @@
 ---
-title: "GitHub Actions Pipeline Validator"
-slug: "github-actions-pipeline-validator"
+name: "GitHub Actions Pipeline Validator"
 description: "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 category: "CI/CD Integrations"
 framework: "OpenClaw"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 ---
 # GitHub Actions Pipeline Validator
 
 Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs.
 
+The GitHub Actions Pipeline Validator skill provides comprehensive CI/CD pipeline validation for GitHub Actions workflows. It parses workflow YAML files against the official GitHub Actions schema specification, identifying syntax errors, deprecated action references, and misconfigured triggers. The validator checks all uses directives against the GitHub Marketplace API to verify action version compatibility and flag deprecated versions. It integrates with the dorny/paths-filter API to validate path-based trigger configurations and uses the actions/checkout and actions/setup-node SDKs to verify proper setup step ordering. Security scanning identifies exposed secrets, missing environment variable declarations, and overly permissive GITHUB_TOKEN permissions. The skill generates detailed reports with suggested fixes, including automatic version pinning recommendations and workflow optimization tips for reducing build times.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-pipeline-validator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-pipeline-validator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-pipeline-validator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill github-actions-pipeline-validator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install github-actions-pipeline-validator
+```
 
 ## Source
 

@@ -1,25 +1,56 @@
 ---
-title: "Kubernetes Pod Diagnostics Runbook"
-slug: "kubernetes-pod-diagnostics-runbook"
+name: "Kubernetes Pod Diagnostics Runbook"
 description: "Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
 ---
 # Kubernetes Pod Diagnostics Runbook
 
 Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically.
 
+The Kubernetes Pod Diagnostics Runbook provides systematic troubleshooting procedures for common pod failure states in Kubernetes clusters. It uses the official Kubernetes Python client (kubernetes-client/python) to query cluster state programmatically, collecting pod descriptions, container logs, node conditions, and resource quota utilization in a structured diagnostic report.
+
+
+
+For CrashLoopBackOff pods, the runbook retrieves previous container logs, checks liveness probe configurations, and correlates restart timestamps with cluster events. OOMKilled diagnostics compare container memory limits against actual usage metrics from the Metrics Server API, suggesting right-sized resource requests.
+
+
+
+ImagePullBackOff diagnosis validates image references against container registry APIs, checks imagePullSecrets configuration, and verifies registry authentication tokens. The runbook also covers Pending pods by analyzing node affinity rules, taint tolerations, and PersistentVolumeClaim binding status. All findings are compiled into a prioritized remediation checklist with kubectl commands ready for execution.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-runbook -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install kubernetes-pod-diagnostics-runbook
+```
 
 ## Source
 

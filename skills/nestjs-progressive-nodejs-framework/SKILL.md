@@ -1,11 +1,10 @@
 ---
-title: "NestJS — Progressive Node.js Framework for Server-Side Applications"
-slug: "nestjs-progressive-nodejs-framework"
+name: "NestJS — Progressive Node.js Framework for Server-Side Applications"
 description: "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and microservices."
-verification: "listed"
-source: "https://github.com/nestjs/nest"
 category: "Developer Tools"
 framework: "Multi-Framework"
+verification: listed
+source: "https://github.com/nestjs/nest"
 tool_ecosystem:
   github_repo: "nestjs/nest"
   github_stars: 75050
@@ -16,13 +15,35 @@ NestJS is a progressive Node.js framework built with TypeScript, inspired by Ang
 
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-framework
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-framework -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-framework -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill nestjs-progressive-nodejs-framework -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install nestjs-progressive-nodejs-framework
+```
 
 ## Source
 

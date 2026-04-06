@@ -1,11 +1,10 @@
 ---
-title: "Grafana OnCall Escalation Chain Manager"
-slug: "grafana-oncall-escalation-chain-manager"
+name: "Grafana OnCall Escalation Chain Manager"
 description: "Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment."
-verification: "security_reviewed"
-source: "https://github.com/grafana/oncall"
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"
+verification: security_reviewed
+source: "https://github.com/grafana/oncall"
 tool_ecosystem:
   github_repo: "grafana/oncall"
   github_stars: 3880
@@ -14,15 +13,39 @@ tool_ecosystem:
 
 Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment.
 
+The Grafana OnCall Escalation Chain Manager automates the configuration and maintenance of incident response workflows within Grafana OnCall. Using the Grafana OnCall HTTP API, it creates and updates escalation chains with multi-step notification policies that progress through Slack messages, phone calls, SMS alerts, and mobile push notifications based on acknowledgment timeouts. On-call schedule management handles rotation definitions with configurable shift lengths, override periods for holidays and planned absences, and handoff notifications between rotating team members. Integration routes are configured for alert sources including Prometheus Alertmanager, Zabbix, Datadog, and generic webhook endpoints, with routing rules that direct alerts to appropriate escalation chains based on severity labels, service ownership, and time-of-day routing policies. The manager implements automatic responder assignment using team membership and skill-based routing, ensuring database incidents reach DBAs and network issues reach infrastructure engineers. Alert grouping rules are configured to prevent notification storms during cascading failures by correlating related alerts into single incident timelines. Maintenance window scheduling temporarily adjusts escalation behavior during planned deployments, suppressing non-critical alerts while preserving emergency notification paths.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill grafana-oncall-escalation-chain-manager
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-oncall-escalation-chain-manager -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-oncall-escalation-chain-manager -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill grafana-oncall-escalation-chain-manager -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install grafana-oncall-escalation-chain-manager
+```
 
 ## Source
 

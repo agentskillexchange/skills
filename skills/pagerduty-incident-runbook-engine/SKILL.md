@@ -1,25 +1,56 @@
 ---
-title: "PagerDuty Incident Runbook Engine"
-slug: "pagerduty-incident-runbook-engine"
+name: "PagerDuty Incident Runbook Engine"
 description: "Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic data collection during incidents."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/"
 ---
 # PagerDuty Incident Runbook Engine
 
 Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic data collection during incidents.
 
+The PagerDuty Incident Runbook Engine creates automated diagnostic workflows triggered by PagerDuty incident events. It processes PagerDuty webhook payloads via the Events API v2, extracts alert metadata, and executes diagnostic runbook steps based on the triggering service and severity level.
+
+
+
+The skill integrates with the Datadog API to fetch relevant metric snapshots, log patterns, and APM traces during incident triage. It queries AWS CloudWatch using the AWS SDK for recent alarm state changes, ECS task status, and RDS performance insights related to the incident scope.
+
+
+
+Runbook templates are parameterized with service-specific diagnostic commands including kubectl cluster status checks, database connection pool metrics via pg_stat_activity, Redis memory analysis through redis-cli info, and Elasticsearch cluster health queries. The engine generates structured incident timelines with correlated metrics, creates Confluence pages via the Atlassian REST API for post-incident documentation, and updates PagerDuty incident notes with diagnostic findings through the PagerDuty REST API.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-engine
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-engine -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-engine -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-engine -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install pagerduty-incident-runbook-engine
+```
 
 ## Source
 

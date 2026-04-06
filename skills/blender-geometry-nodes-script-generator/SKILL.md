@@ -1,25 +1,48 @@
 ---
-title: "Blender Geometry Nodes Script Generator"
-slug: "blender-geometry-nodes-script-generator"
+name: "Blender Geometry Nodes Script Generator"
 description: "Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation."
-verification: "security_reviewed"
-source: "https://www.blender.org/"
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Custom Agents"
+verification: security_reviewed
+source: "https://www.blender.org/"
 ---
 # Blender Geometry Nodes Script Generator
 
 Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation.
 
+The Blender Geometry Nodes Script Generator creates Python scripts using Blender’s bpy.data.node_groups API to programmatically build Geometry Nodes modifier stacks. It translates natural language descriptions of parametric 3D operations into node tree configurations including Mesh Primitives, Curve operations, Instance on Points, Attribute nodes, and Math operations. The agent generates scripts compatible with Blender 4.x’s GeometryNodeTree interface, handling socket connections via node_tree.links.new(), group inputs/outputs through the new panel-based interface, and custom attribute domains (POINT, FACE, CORNER, CURVE, INSTANCE). Scripts can be run headless via blender –background –python for batch asset generation in CI/CD pipelines. Supports common procedural workflows: scatter systems, boolean operations, mesh deformation, curve-to-mesh pipes, and volume-based erosion. Output scripts include proper node positioning with node.location tuples for readable graph layouts.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-generator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-generator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-generator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-generator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install blender-geometry-nodes-script-generator
+```
 
 ## Source
 

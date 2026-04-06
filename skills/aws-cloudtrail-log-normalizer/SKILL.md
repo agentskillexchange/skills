@@ -1,25 +1,60 @@
 ---
-title: "AWS CloudTrail Log Normalizer"
-slug: "aws-cloudtrail-log-normalizer"
-description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&#038;CK technique IDs using the MITRE ATT&#038;CK STIX API."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
-category: "Security &amp; Verification"
+name: "AWS CloudTrail Log Normalizer"
+description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
+category: "Security & Verification"
 framework: "Custom Agents"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
 ---
 # AWS CloudTrail Log Normalizer
 
-Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&#038;CK technique IDs using the MITRE ATT&#038;CK STIX API.
+Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API.
+
+The AWS CloudTrail Log Normalizer skill transforms raw CloudTrail JSON events into the standardized Open Cybersecurity Schema Framework (OCSF) format for cross-platform security analytics. It maps AWS-specific event structures to OCSF activity classes including Authentication, API Activity, and Account Change events.
+
+
+
+The skill enriches each event by resolving AWS account IDs to friendly names, mapping IAM principal ARNs to human-readable identities, and geolocating source IP addresses using MaxMind GeoIP2. Most importantly, it maps eventSource and eventName combinations to MITRE ATT&CK technique IDs by querying the ATT&CK STIX/TAXII API (https://cti-taxii.mitre.org), enabling threat-informed detection engineering.
+
+
+
+Advanced features include session stitching that correlates AssumeRole chains to show complete identity traversal paths, anomaly detection for unusual API call patterns based on baseline profiling, and sensitive action highlighting for operations like iam:CreateAccessKey or s3:PutBucketPolicy. The skill handles CloudTrail Insights events and can process both management and data events.
+
+
+
+Output formats include OCSF JSON, Elasticsearch-compatible NDJSON with proper field mappings, and Sigma rule suggestions based on detected suspicious patterns. Supports processing from S3, CloudWatch Logs, or local file exports.
 
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install aws-cloudtrail-log-normalizer
+```
 
 ## Source
 

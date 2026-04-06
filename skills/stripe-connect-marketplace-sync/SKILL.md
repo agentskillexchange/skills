@@ -1,25 +1,60 @@
 ---
-title: "Stripe Connect Marketplace Sync"
-slug: "stripe-connect-marketplace-sync"
+name: "Stripe Connect Marketplace Sync"
 description: "Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Gemini"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
 ---
 # Stripe Connect Marketplace Sync
 
 Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK.
 
+Manage multi-party payment flows for marketplace platforms using the Stripe Connect API. This skill handles connected account onboarding, payment intent creation with automatic fee splitting, and payout reconciliation.
+
+
+
+The onboarding flow uses Stripe Account Links (POST /v1/account_links) to guide sellers through identity verification and bank account setup. Payment processing creates PaymentIntents with transfer_data to automatically split funds between the platform and connected accounts.
+
+
+
+Key operations include creating direct charges on connected accounts, destination charges with application fees, and separate charges with manual transfers. The skill monitors webhook events (payment_intent.succeeded, transfer.created, payout.paid) to maintain transaction state.
+
+
+
+Refund handling supports full and partial refunds with automatic transfer reversal via the Refunds API. Payout scheduling can be configured per connected account with daily, weekly, or monthly intervals. The stripe-node SDK (v14+) is used for all API calls with idempotency keys to prevent duplicate operations.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install stripe-connect-marketplace-sync
+```
 
 ## Source
 

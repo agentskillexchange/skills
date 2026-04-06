@@ -1,25 +1,48 @@
 ---
-title: "NPM Package Explorer"
-slug: "npm-package-explorer-registry-api"
+name: "NPM Package Explorer"
 description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Cursor"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
 ---
 # NPM Package Explorer
 
 Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
 
+NPM Package Explorer queries the npm Registry API to provide deep analysis of npm packages and their ecosystems. It retrieves package metadata, version histories, and maintainer information directly from the registry. Integration with the npms.io API provides quality, popularity, and maintenance scores for informed package selection. Bundle size analysis uses the bundlephobia API to estimate the impact of adding packages to frontend projects, including tree-shaking support detection. The tool builds comprehensive dependency trees using the npm resolve algorithm, identifying duplicate packages and version conflicts. License compliance scanning detects incompatible license combinations across dependency chains. It tracks download statistics via the npm downloads API with trend analysis and comparison charts. Security audit integration cross-references with npm audit advisories and Snyk vulnerability database for real-time risk assessment.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill npm-package-explorer-registry-api -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install npm-package-explorer-registry-api
+```
 
 ## Source
 

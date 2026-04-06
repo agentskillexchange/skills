@@ -1,25 +1,48 @@
 ---
-title: "Terraform Module Registry Browser"
-slug: "terraform-module-registry-browser"
+name: "Terraform Module Registry Browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "MCP"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 ---
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.
 
+The Terraform Module Registry Browser provides intelligent search and evaluation of Terraform modules from the official HashiCorp Registry API (registry.terraform.io) and private module registries. It uses the Registry API v1 to fetch module metadata, version history, provider dependencies, and submodule structures. The hcl2json parser extracts input variables with types, defaults, and validation rules from module source code. The skill evaluates modules on maintenance signals: last publish date, open issues count, download trends, and provider version compatibility. It generates comparison tables when multiple modules serve the same purpose (e.g., AWS VPC modules from different publishers). Provider requirement analysis ensures module compatibility with your locked provider versions. The skill also generates example usage blocks with properly typed variable assignments and recommends complementary modules for common infrastructure patterns like VPC + EKS + RDS stacks.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill terraform-module-registry-browser -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install terraform-module-registry-browser
+```
 
 ## Source
 

@@ -1,25 +1,56 @@
 ---
-title: "Cosign Artifact Signature Verifier"
-slug: "cosign-artifact-signature-verifier"
+name: "Cosign Artifact Signature Verifier"
 description: "Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Codex"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
 ---
 # Cosign Artifact Signature Verifier
 
 Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego.
 
+The Cosign Artifact Signature Verifier skill provides supply chain security verification using Sigstore Cosign for container images and software artifacts. It supports both key-based and keyless verification workflows, integrating with Fulcio certificate authority and Rekor transparency log for provenance attestation.
+
+
+
+The skill verifies signatures against configurable trust policies, checking certificate identity and issuer claims for keyless signatures. It validates SLSA provenance attestations, ensuring build artifacts originate from trusted CI systems. Integration with OPA (Open Policy Agent) allows defining custom Rego policies for admission control decisions.
+
+
+
+Key features include batch verification of multi-architecture image manifests, verification of in-toto attestations for build provenance, and integration with Kubernetes admission controllers like Kyverno and Connaisseur. The skill generates verification reports suitable for compliance audits and supports custom attestation predicates for organizational requirements.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verifier
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verifier -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verifier -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verifier -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install cosign-artifact-signature-verifier
+```
 
 ## Source
 

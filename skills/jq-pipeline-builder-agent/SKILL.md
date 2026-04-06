@@ -1,25 +1,48 @@
 ---
-title: "jq Pipeline Builder Agent"
-slug: "jq-pipeline-builder-agent"
+name: "jq Pipeline Builder Agent"
 description: "Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Gemini"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 ---
 # jq Pipeline Builder Agent
 
 Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators.
 
+The jq Pipeline Builder Agent translates natural language data transformation requests into optimized jq filter expressions for processing JSON and NDJSON data streams. It leverages the full jq language including path expressions, recursive descent (..), reduce operators, SQL-style GROUP_BY and UNIQUE_BY, and string interpolation for template generation. The agent handles complex operations like cross-referencing multiple JSON files with input and slurp modes, building streaming parsers with –stream flag for memory-efficient processing of large files, and constructing conditional transformations with if-then-else and try-catch error handling. It generates reusable jq modules with import statements, supports custom function definitions via def, and produces shell-compatible one-liners for pipeline integration with curl, grep, and awk. Includes test case generation using jqplay-compatible formats.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill jq-pipeline-builder-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install jq-pipeline-builder-agent
+```
 
 ## Source
 

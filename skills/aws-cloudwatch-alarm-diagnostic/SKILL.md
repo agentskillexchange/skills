@@ -1,25 +1,48 @@
 ---
-title: "AWS CloudWatch Alarm Diagnostic"
-slug: "aws-cloudwatch-alarm-diagnostic"
+name: "AWS CloudWatch Alarm Diagnostic"
 description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Gemini"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
 ---
 # AWS CloudWatch Alarm Diagnostic
 
 Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
 
+This skill uses the AWS SDK for JavaScript (CloudWatch, CloudTrail, and AWS Config APIs) to investigate active alarm states. When an alarm fires, the skill fetches the last 24 hours of metric datapoints via GetMetricData, retrieves alarm state history via DescribeAlarmHistory, and queries AWS CloudTrail for API calls in the affected resource scope within the alarm period. AWS Config is queried via GetResourceConfigHistory to identify recent configuration changes. The skill generates a structured incident summary mapping the metric spike to the most likely causal event, with confidence scores for each hypothesis. Optional integration with AWS Systems Manager Parameter Store allows dynamic threshold tuning suggestions. Output includes remediation options formatted for both CLI execution and AWS Console navigation.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-diagnostic -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install aws-cloudwatch-alarm-diagnostic
+```
 
 ## Source
 

@@ -1,25 +1,56 @@
 ---
-title: "ArgoCD GitOps Sync Controller"
-slug: "argocd-gitops-sync-controller"
+name: "ArgoCD GitOps Sync Controller"
 description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
 category: "CI/CD Integrations"
 framework: "MCP"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
 ---
 # ArgoCD GitOps Sync Controller
 
 Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations.
 
+The ArgoCD GitOps Sync Controller provides comprehensive management of Kubernetes deployments through ArgoCD Application resources. It generates Application and ApplicationSet manifests with sync policies, automated pruning, and self-healing configurations.
+
+
+
+The skill interfaces with the ArgoCD REST API for application state monitoring, sync status checking, and rollback operations. It configures sync waves and hooks using argocd.argoproj.io/sync-wave annotations for ordered deployment of dependent resources like ConfigMaps, Secrets, Deployments, and Services.
+
+
+
+Advanced capabilities include ApplicationSet generation with Git directory and Pull Request generators for automatic environment provisioning, progressive delivery integration with Argo Rollouts for canary and blue-green deployments, and health check customization using Lua scripts. The controller also manages ArgoCD project configurations with RBAC policies, source repository restrictions, and destination namespace allowlists. Notification templates for Slack, email, and webhook integrations are generated using the argocd-notifications ConfigMap patterns.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install argocd-gitops-sync-controller
+```
 
 ## Source
 

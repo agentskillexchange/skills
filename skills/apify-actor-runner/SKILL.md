@@ -1,25 +1,56 @@
 ---
-title: "Apify Actor Runner"
-slug: "apify-actor-runner"
+name: "Apify Actor Runner"
 description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/apify-actor-runner/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Codex"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/apify-actor-runner/"
 ---
 # Apify Actor Runner
 
 Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.
 
+The Apify Actor Runner skill interfaces with the Apify platform API to launch and manage cloud-based web scraping actors. It validates actor input against the published input schema, handles API token authentication, and monitors run status through the Apify Client SDK.
+
+
+
+The skill supports all Apify storage types including datasets, key-value stores, and request queues. Completed datasets are automatically exported to Amazon S3 using the AWS SDK with multipart upload for large extractions. Export formats include JSON, CSV, XML, and JSONL with configurable field mapping.
+
+
+
+Run management features include automatic retry on actor failures with configurable memory allocation scaling, webhook registration for run completion events via the Apify Webhooks API, and cost tracking through the usage endpoint. The skill can chain multiple actors in sequence, passing output datasets as input to downstream actors for multi-stage extraction pipelines.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-runner
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill apify-actor-runner -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install apify-actor-runner
+```
 
 ## Source
 

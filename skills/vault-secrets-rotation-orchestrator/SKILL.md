@@ -1,25 +1,56 @@
 ---
-title: "Vault Secrets Rotation Orchestrator"
-slug: "vault-secrets-rotation-orchestrator"
+name: "Vault Secrets Rotation Orchestrator"
 description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "MCP"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 ---
 # Vault Secrets Rotation Orchestrator
 
 Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover.
 
+The Vault Secrets Rotation Orchestrator skill manages automated secret lifecycle operations through HashiCorp Vault’s HTTP API. It orchestrates credential rotation across Vault’s dynamic secrets engines, ensuring applications always have valid credentials while maintaining security through regular rotation without service interruption.
+
+
+
+Database secrets engine management includes automatic rotation of PostgreSQL, MySQL, MongoDB, and MSSQL credentials with configurable TTLs and max-TTLs, lease renewal tracking with proactive rotation before expiry, and zero-downtime rollover using Vault’s dual-credential rotation strategy where new credentials are provisioned before old ones are revoked.
+
+
+
+Additional engine support covers PKI certificate rotation with automatic CSR generation and CA signing through Vault’s PKI secrets engine, AWS STS credential rotation using the AWS secrets engine for IAM user access keys and assumed role session tokens, and transit engine key rotation for encryption-as-a-service deployments. The skill monitors lease utilization across all engines, alerts on rotation failures or approaching max-TTL limits, and maintains audit logs of all rotation events mapped to Vault’s audit device output for compliance reporting.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestrator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install vault-secrets-rotation-orchestrator
+```
 
 ## Source
 

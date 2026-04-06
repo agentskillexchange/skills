@@ -1,27 +1,56 @@
 ---
-title: "GraphQL Schema Introspection Mapper"
-slug: "graphql-schema-introspection-mapper"
+name: "GraphQL Schema Introspection Mapper"
 description: "Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions."
-verification: "security_reviewed"
+category: "Data Extraction & Transformation"
+framework: "Cursor"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
-category: "Data Extraction &amp; Transformation"
-framework:
-  - "Cursor"
-  - "Multi-Framework"
 ---
 # GraphQL Schema Introspection Mapper
 
 Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions.
 
+The GraphQL Schema Introspection Mapper skill provides comprehensive GraphQL API analysis through schema introspection and code generation. It executes the standard __schema introspection query to discover all types, fields, arguments, directives, and their relationships, building a complete type graph of the API surface.
+
+
+
+Analysis capabilities include deprecated field inventory with usage tracking, circular reference detection in type relationships that could cause infinite query depth, input validation completeness checking for nullable vs non-null argument definitions, and interface/union type implementation verification. The skill generates visual schema diagrams showing type relationships and field connectivity.
+
+
+
+Code generation features leverage graphql-codegen to produce TypeScript type definitions, React Apollo hooks, and urql typed document nodes from the introspected schema. Schema diff reports compare two schema versions to identify breaking changes (field removal, type changes, required argument additions) versus non-breaking additions. The skill supports schema stitching analysis for federated GraphQL architectures using Apollo Federation directives (@key, @external, @requires) and validates subgraph composition compatibility.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-mapper
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-mapper -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-mapper -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill graphql-schema-introspection-mapper -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install graphql-schema-introspection-mapper
+```
 
 ## Source
 

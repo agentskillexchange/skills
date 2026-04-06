@@ -1,25 +1,56 @@
 ---
-title: "FFmpeg Clip Extractor"
-slug: "ffmpeg-clip-extractor-agent"
+name: "FFmpeg Clip Extractor"
 description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Claude Code"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
 ---
 # FFmpeg Clip Extractor
 
 Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets.
 
+FFmpeg Clip Extractor provides intelligent video segment extraction powered by FFmpeg’s core libraries. It uses -ss (seek) and -to (end position) flags with input-level seeking for keyframe-accurate cuts, falling back to output-level seeking with re-encoding when frame-exact precision is required.
+
+
+
+The agent supports stream copy mode (-c copy) for near-instant extraction without quality loss when cuts align with keyframes. For precise cuts, it re-encodes using libx264 with CRF quality control or libx265 for HEVC output, with configurable presets from ultrafast to veryslow.
+
+
+
+Handles multi-stream files by selecting specific video (-map 0:v:0), audio (-map 0:a:0), and subtitle streams. Supports batch extraction from timestamp lists, scene detection via select=gt(scene,0.4) filter, and thumbnail generation with -vf fps=1/60. Outputs to MP4, MKV, WebM, or GIF with proper container metadata via -movflags +faststart.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-clip-extractor-agent
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-clip-extractor-agent -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-clip-extractor-agent -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill ffmpeg-clip-extractor-agent -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install ffmpeg-clip-extractor-agent
+```
 
 ## Source
 

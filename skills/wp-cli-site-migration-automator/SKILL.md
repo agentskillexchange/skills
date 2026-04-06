@@ -1,25 +1,48 @@
 ---
-title: "WP-CLI Site Migration Automator"
-slug: "wp-cli-site-migration-automator"
+name: "WP-CLI Site Migration Automator"
 description: "Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via dig and curl health probes."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/wp-cli-site-migration-automator/"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Codex"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/wp-cli-site-migration-automator/"
 ---
 # WP-CLI Site Migration Automator
 
 Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via dig and curl health probes.
 
+This skill orchestrates complete WordPress site migrations between hosts with zero downtime. It begins with wp db export to create a timestamped SQL dump, then uses rsync with –checksum for efficient file transfer of wp-content directories. The core of the migration uses wp search-replace with –precise and –all-tables flags to handle serialized PHP data in options, postmeta, and widget configurations. For multisite networks, it manages domain mapping via wp site list and wp search-replace –url targeting individual subsites. DNS preflight checks use dig to verify A/AAAA records and curl health probes to confirm the new server responds correctly before cutover. The agent manages wp-config.php updates for database credentials, table prefixes, and environment-specific constants like WP_HOME and WP_SITEURL. Post-migration validation includes wp core verify-checksums, wp plugin list –status=active comparison, and wp cron event list verification. Includes rollback procedures with automated backup restoration.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill wp-cli-site-migration-automator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-cli-site-migration-automator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-cli-site-migration-automator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wp-cli-site-migration-automator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wp-cli-site-migration-automator
+```
 
 ## Source
 

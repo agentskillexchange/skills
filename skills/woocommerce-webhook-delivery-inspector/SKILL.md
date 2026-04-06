@@ -1,11 +1,10 @@
 ---
-title: "WooCommerce Webhook Delivery Inspector"
-slug: "woocommerce-webhook-delivery-inspector"
+name: "WooCommerce Webhook Delivery Inspector"
 description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows."
-verification: "security_reviewed"
-source: "https://github.com/woocommerce/woocommerce"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "ChatGPT Agents"
+verification: security_reviewed
+source: "https://github.com/woocommerce/woocommerce"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10231
@@ -14,15 +13,47 @@ tool_ecosystem:
 
 Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows.
 
+WooCommerce Webhook Delivery Inspector is meant for stores and integrations teams that need a dependable way to understand why webhook events are firing, failing, or arriving out of sequence. The skill uses real WooCommerce interfaces such as the WC_Webhook class, Action Scheduler job data, and REST resources like /wp-json/wc/v3/webhooks to inspect endpoint configuration, topic coverage, delivery history, and retry behavior. That makes it useful when downstream systems miss order updates or inventory changes appear to be delayed.
+
+
+
+The skill can separate transport failures from application logic problems by checking webhook status, secret usage, response codes, and the queued jobs that actually dispatch deliveries. It also helps teams review whether they are listening to the correct topics for orders, products, coupons, and customers, rather than assuming the remote service is at fault. In environments with ERP or warehouse syncs, that distinction matters a lot.
+
+
+
+Use this skill to audit WooCommerce event flows, debug broken integrations, and tighten webhook observability before delivery issues turn into fulfillment or reporting gaps.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-webhook-delivery-inspector
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-webhook-delivery-inspector -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-webhook-delivery-inspector -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill woocommerce-webhook-delivery-inspector -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install woocommerce-webhook-delivery-inspector
+```
 
 ## Source
 

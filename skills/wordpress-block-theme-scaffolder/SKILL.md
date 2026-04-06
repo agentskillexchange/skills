@@ -1,25 +1,56 @@
 ---
-title: "WordPress Block Theme Scaffolder"
-slug: "wordpress-block-theme-scaffolder"
+name: "WordPress Block Theme Scaffolder"
 description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
-verification: "security_reviewed"
-source: "https://developer.wordpress.org/block-editor/"
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Claude Code"
+verification: security_reviewed
+source: "https://developer.wordpress.org/block-editor/"
 ---
 # WordPress Block Theme Scaffolder
 
 Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration.
 
+WordPress Block Theme Scaffolder automates the creation of Full Site Editing themes by generating the complete directory structure: templates, parts, patterns, and a fully configured theme.json v3 manifest. It produces valid theme.json with typography, color palette, spacing, and layout settings following WordPress core specifications.
+
+
+
+Block patterns are created using register_block_pattern() with proper categories assigned via register_block_pattern_category(). Template parts for headers, footers, and sidebars are generated as HTML files in the parts directory with correct template part area declarations. The scaffolder includes style variation JSON files for alternative theme appearances.
+
+
+
+Build tooling is configured through @wordpress/scripts with wp-scripts build and wp-scripts start commands. Editor assets load via wp_enqueue_block_editor_assets, and frontend styles use wp_enqueue_block_style for per-block stylesheets. The output includes a functions.php with proper after_setup_theme hooks, textdomain loading, and block style registration.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-block-theme-scaffolder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-block-theme-scaffolder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-block-theme-scaffolder -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill wordpress-block-theme-scaffolder -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install wordpress-block-theme-scaffolder
+```
 
 ## Source
 

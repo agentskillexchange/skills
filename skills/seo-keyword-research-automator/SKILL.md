@@ -1,25 +1,56 @@
 ---
-title: "SEO Keyword Research Automator"
-slug: "seo-keyword-research-automator"
+name: "SEO Keyword Research Automator"
 description: "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Gemini"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 ---
 # SEO Keyword Research Automator
 
 Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification.
 
+The SEO Keyword Research Automator combines DataForSEO API for comprehensive SERP data collection with Google Search Console API for first-party performance metrics. It automates the entire keyword research pipeline from seed keyword expansion to final content brief generation.
+
+
+
+The agent performs bulk keyword analysis including search volume, keyword difficulty, CPC data, and SERP feature detection through DataForSEO’s Keywords Data endpoints. It clusters related keywords using TF-IDF scoring and cosine similarity, grouping them by search intent categories: informational, navigational, transactional, and commercial investigation.
+
+
+
+Advanced capabilities include competitor gap analysis by cross-referencing ranking domains, content brief generation with recommended headings and word counts based on top-ranking pages, and automated tracking of keyword position changes via Search Console’s searchAnalytics query endpoint. The agent also identifies featured snippet opportunities and People Also Ask patterns for content optimization.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill seo-keyword-research-automator -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install seo-keyword-research-automator
+```
 
 ## Source
 

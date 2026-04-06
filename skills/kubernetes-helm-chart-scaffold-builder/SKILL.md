@@ -1,25 +1,48 @@
 ---
-title: "Kubernetes Helm Chart Scaffold Builder"
-slug: "kubernetes-helm-chart-scaffold-builder"
+name: "Kubernetes Helm Chart Scaffold Builder"
 description: "Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "MCP"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
 ---
 # Kubernetes Helm Chart Scaffold Builder
 
 Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas. Validates charts against Helm lint and Kubeval for Kubernetes API version compatibility.
 
+This skill creates production-grade Helm v3 chart packages following the chart developer guide conventions. It generates Chart.yaml with proper apiVersion v2 metadata, dependency declarations, and annotation blocks for ArtifactHub publishing. Template files include deployments with resource limits, liveness/readiness probes, and pod disruption budgets. Service templates support ClusterIP, NodePort, and LoadBalancer types with configurable port mappings. Ingress templates handle both networking.k8s.io/v1 and legacy extensions/v1beta1 API versions with TLS certificate references. The values.yaml file includes JSON Schema validation through values.schema.json generation, ensuring type safety for consumer overrides. Helper templates in _helpers.tpl provide standard label selectors, naming conventions, and resource annotations. The skill runs helm lint for syntax validation and kubeval for Kubernetes API schema conformance. Chart testing configurations include ct.yaml for automated testing in CI pipelines. NOTES.txt templates provide post-install instructions with dynamic endpoint resolution.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill kubernetes-helm-chart-scaffold-builder -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install kubernetes-helm-chart-scaffold-builder
+```
 
 ## Source
 

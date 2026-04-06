@@ -1,25 +1,48 @@
 ---
-title: "Academic Paper Citation Network Mapper"
-slug: "academic-paper-citation-network-mapper"
+name: "Academic Paper Citation Network Mapper"
 description: "Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "OpenClaw"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
 ---
 # Academic Paper Citation Network Mapper
 
 Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields.
 
+The Academic Paper Citation Network Mapper skill constructs and visualizes citation networks for academic research using the Semantic Scholar API for citation data and CrossRef for DOI resolution and metadata enrichment. Given a seed paper (by DOI, arXiv ID, or title search), it recursively fetches citing and cited papers to a configurable depth, building a comprehensive NetworkX directed graph of the citation landscape. Each node contains rich metadata: title, authors, year, venue, abstract, field of study classifications, and citation counts. The influence analysis engine computes PageRank, betweenness centrality, and hub/authority scores to identify seminal papers that shaped a field, bridge papers connecting disparate research areas, and emerging influential works with high recent citation velocity. Research lineage tracking follows citation chains to reveal how ideas evolved, forked, and merged across decades and disciplines. The visualization layer produces interactive HTML graphs using pyvis with configurable layouts (force-directed, chronological, cluster-by-field), color coding by research area or publication decade, and node sizing by influence score. Export formats include BibTeX for the entire network, CSV of ranked papers by influence, and Obsidian-compatible markdown with bidirectional links for building personal research knowledge bases. Rate limiting and caching ensure responsible API usage across large network explorations.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill academic-paper-citation-network-mapper
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill academic-paper-citation-network-mapper -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill academic-paper-citation-network-mapper -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill academic-paper-citation-network-mapper -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install academic-paper-citation-network-mapper
+```
 
 ## Source
 

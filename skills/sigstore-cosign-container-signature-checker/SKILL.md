@@ -1,11 +1,10 @@
 ---
-title: "Sigstore Cosign Container Signature Checker"
-slug: "sigstore-cosign-container-signature-checker"
+name: "Sigstore Cosign Container Signature Checker"
 description: "Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline."
-verification: "security_reviewed"
-source: "https://github.com/sigstore/cosign"
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Code"
+verification: security_reviewed
+source: "https://github.com/sigstore/cosign"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5776
@@ -14,15 +13,47 @@ tool_ecosystem:
 
 Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline.
 
+Sigstore Cosign Container Signature Checker gives agents a practical way to validate software supply chain claims instead of repeating them. It centers on real Cosign verification behavior, Rekor transparency log lookups, and OCI image reference handling to determine whether a container image has a valid signature trail. That is valuable in CI, release review, and cluster admission workflows where teams want to know if an image was signed, by whom, and whether the verification path matches policy.
+
+
+
+The skill can compare image references, inspect signature payload expectations, and distinguish unsigned images from signatures that fail policy or trust-root checks. It is especially helpful for deployment gates and audit preparation, where human reviewers need a crisp explanation rather than just a pass/fail flag. By tying the workflow to Cosign and Rekor primitives, the result stays grounded in the actual verification system rather than an abstract trust story.
+
+
+
+Use this skill when container provenance matters, when deployment workflows depend on signed artifacts, and when agents should surface signature evidence before a release moves forward.
+
 ## Installation
 
-Choose the installation path that fits your setup:
+### Any Agent
 
-1. Install from Agent Skill Exchange in the OpenClaw UI.
-2. Copy the skill folder into your local skills directory.
-3. Add it to your shared workspace skills collection.
-4. Install it through a compatible agent skill manager.
-5. Clone or download the upstream source and wire it into your agent runtime.
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-signature-checker
+```
+
+### Claude Code
+
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-signature-checker -a claude-code
+```
+
+### Cursor
+
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-signature-checker -a cursor
+```
+
+### Codex
+
+```bash
+npx skills add agentskillexchange/skills --skill sigstore-cosign-container-signature-checker -a codex
+```
+
+### OpenClaw
+
+```bash
+clawhub install sigstore-cosign-container-signature-checker
+```
 
 ## Source
 
