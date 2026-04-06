@@ -1,56 +1,26 @@
 ---
-name: "AI Meta Description Generator"
-description: "Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
-category: "Content Writing & SEO"
-framework: "Claude Agents"
-verification: security_reviewed
+title: "AI Meta Description Generator"
+description: "Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
+slug: "ai-meta-description-generator"
+verification: "security_reviewed"
 source: "https://platform.openai.com/docs/api-reference"
+category:
+  - "Content Writing &amp; SEO"
 ---
+
 # AI Meta Description Generator
 
-Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
-
-AI Meta Description Generator processes page content at scale to produce compelling meta descriptions optimized for search engine result page click-through rates. It feeds page title, H1, first 500 words, and target keyword into OpenAI’s GPT-4o chat completions API with a system prompt engineered for SERP snippet optimization.
-
-
-
-The generator enforces a 150-160 character limit on output, includes the primary keyword naturally within the first 80 characters, and adds a clear call-to-action or value proposition. Each generated description is checked against existing descriptions loaded from Screaming Frog CSV crawl exports to prevent duplicates. Similarity scoring via SequenceMatcher flags descriptions that are too close to existing ones.
-
-
-
-Output formats include a CSV with URL, current description, and proposed description columns for editorial review, plus a Yoast SEO-compatible import file using the wpseo_metadesc post meta key. For WordPress sites, the tool can directly update meta descriptions through the REST API by patching yoast_head_json metadata. Batch processing uses asyncio with rate-limited concurrent API calls to handle sites with thousands of pages efficiently, respecting OpenAI’s tokens-per-minute limits.
+Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill ai-meta-description-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-meta-description-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-meta-description-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ai-meta-description-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ai-meta-description-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

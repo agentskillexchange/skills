@@ -1,56 +1,26 @@
 ---
-name: "Terraform Drift Detection Runbook"
+title: "Terraform Drift Detection Runbook"
 description: "Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers."
-category: "Runbooks & Diagnostics"
-framework: "MCP"
-verification: security_reviewed
+slug: "terraform-drift-detection-runbook"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-drift-detection-runbook/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Terraform Drift Detection Runbook
 
 Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers.
 
-The Terraform Drift Detection Runbook skill uses terraform plan -detailed-exitcode to detect infrastructure drift between Terraform state files and actual cloud resources. It integrates with the Terraform Cloud API (app.terraform.io/api/v2) for workspace management and the AWS, GCP, and Azure provider APIs for resource verification.
-
-
-
-The skill executes structured drift detection workflows: terraform init with backend configuration (S3, GCS, Azure Blob), terraform plan -out=drift.plan -detailed-exitcode (exit code 2 indicates drift), and terraform show -json drift.plan for machine-readable change analysis. It parses the plan JSON to categorize changes as create, update, delete, or replace operations.
-
-
-
-Key runbook procedures include: state file analysis using terraform state list and terraform state show for resource inspection, import workflows using terraform import for unmanaged resources, targeted plans with -target for specific resource investigation, and state manipulation using terraform state mv and terraform state rm for state corrections. The runbook supports multi-workspace drift scanning via the Terraform Cloud API (GET /workspaces, POST /runs with plan-only mode), Sentinel policy check integration, and automated remediation plan generation with approval workflows.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-drift-detection-runbook
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-drift-detection-runbook -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-drift-detection-runbook -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-drift-detection-runbook -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-drift-detection-runbook
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

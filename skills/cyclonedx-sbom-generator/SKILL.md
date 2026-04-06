@@ -1,52 +1,26 @@
 ---
-name: "CycloneDX SBOM Generator"
+title: "CycloneDX SBOM Generator"
 description: "Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration."
-category: "Security & Verification"
-framework: "Cursor"
-verification: security_reviewed
+slug: "cyclonedx-sbom-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cyclonedx-sbom-generator/"
+category:
+  - "Security &amp; Verification"
 ---
+
 # CycloneDX SBOM Generator
 
 Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration.
 
-Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration.
-
-
-
-This skill provides automated tooling for cyclonedx sbom generator workflows. It integrates directly with your development pipeline, offering configurable scanning depth, custom rule definitions, and structured output formats compatible with major CI/CD platforms. The agent handles authentication, rate limiting, and retry logic internally, so you can focus on reviewing results rather than managing infrastructure. Supports both interactive and headless operation modes with JSON and SARIF output for downstream processing. Includes built-in caching to minimize redundant API calls across sequential runs.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill cyclonedx-sbom-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill cyclonedx-sbom-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill cyclonedx-sbom-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill cyclonedx-sbom-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install cyclonedx-sbom-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

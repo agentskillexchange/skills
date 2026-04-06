@@ -1,124 +1,26 @@
 ---
-name: "Chartbrew Open Source Reporting Platform for API and Database Dashboards"
+title: "Chartbrew Open Source Reporting Platform for API and Database Dashboards"
 description: "Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder, AI assistant, scheduled reports, and embeddable charts for data visualization."
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
-verification: security_reviewed
+slug: "chartbrew-open-source-reporting-dashboard-platform"
+verification: "security_reviewed"
 source: "https://github.com/chartbrew/chartbrew"
+category:
+  - "Monitoring &amp; Alerts"
 ---
+
 # Chartbrew Open Source Reporting Platform for API and Database Dashboards
 
 Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder, AI assistant, scheduled reports, and embeddable charts for data visualization.
 
-Chartbrew is an open-source reporting platform that connects directly to databases and APIs to create interactive charts and dashboards. With over 3,600 GitHub stars and active development, it provides a self-hosted alternative to tools like Metabase and Redash with a focus on API-first data visualization and embeddable chart components.
-
-
-
-Data Source Integrations
-
-Chartbrew connects to a wide range of data sources out of the box:
-
-
-
-- SQL databases — MySQL, PostgreSQL with direct query support
-
-
-
-- NoSQL databases — MongoDB, Firebase Firestore, Firebase Realtime Database
-
-
-
-- REST APIs — Any HTTP API with configurable authentication, headers, and pagination
-
-
-
-- Google Analytics — Direct integration for web analytics data
-
-
-
-Key Features
-
-The platform includes a visual chart builder that supports line charts, bar charts, pie charts, tables, and custom visualizations powered by Chart.js. Users create datasets by configuring API requests or database queries, then map the response data to chart axes and series.
-
-
-
-Chartbrew includes an AI assistant that helps users write queries and configure data transformations. Dashboards can be shared publicly or embedded in other applications using iframe or direct chart embedding. Reports can be scheduled for automatic refresh and email delivery.
-
-
-
-Architecture and Deployment
-
-Chartbrew runs as a Node.js application with a React frontend and Express backend. It requires MySQL or PostgreSQL for its own data storage, plus Redis for job scheduling. Deployment options include:
-
-
-
-- Docker containers via the official razvanilin/chartbrew image
-
-
-
-- DigitalOcean 1-click marketplace droplet
-
-
-
-- Manual deployment with git clone and npm run setup
-
-
-
-Agent Integration
-
-For AI agents and automation, Chartbrew provides a REST API for managing charts, dashboards, and data connections programmatically. Agents can create new data connections, build chart configurations, trigger data refreshes, and export chart images or data. The API-first design makes it straightforward to automate dashboard creation and reporting workflows.
-
-
-
-Installation
-
-git clone https://github.com/chartbrew/chartbrew.git
-
-cd chartbrew && npm run setup
-
-Or with Docker:
-
-
-
-docker pull razvanilin/chartbrew
-
-docker run -p 4019:4019 -p 4018:4018 razvanilin/chartbrew
-
-Use Cases
-
-Chartbrew is used for internal analytics dashboards, client reporting portals, KPI tracking, API monitoring dashboards, and any scenario where teams need to visualize data from multiple sources in a single, self-hosted platform. The embeddable charts feature makes it particularly useful for SaaS products that need to provide analytics to their own users.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill chartbrew-open-source-reporting-dashboard-platform
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill chartbrew-open-source-reporting-dashboard-platform -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill chartbrew-open-source-reporting-dashboard-platform -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill chartbrew-open-source-reporting-dashboard-platform -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install chartbrew-open-source-reporting-dashboard-platform
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,48 +1,26 @@
 ---
-name: "Terraform Provider Schema Explorer"
+title: "Terraform Provider Schema Explorer"
 description: "Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation."
-category: "Library & API Reference"
-framework: "Gemini"
-verification: security_reviewed
+slug: "terraform-provider-schema-explorer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-provider-schema-explorer/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # Terraform Provider Schema Explorer
 
 Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation.
 
-The Terraform Provider Schema Explorer parses the JSON schema output from terraform providers schema to build a navigable map of all resource types, data sources, and their attributes. It identifies required versus optional arguments, computed attributes, and sensitive fields across any installed provider. The skill resolves cross-resource references by tracing attribute dependencies—for example, linking aws_subnet.id references to aws_vpc.id through proper data flow. It generates syntactically correct HCL blocks with proper attribute types including nested block structures, sets, and maps. For state management, it understands import block generation and moved block refactoring patterns. The explorer handles provider version constraints, feature flags, and experimental resource warnings. Supports multi-provider configurations with aliased providers and module-level variable passing with validation rules.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-provider-schema-explorer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-provider-schema-explorer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-provider-schema-explorer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-provider-schema-explorer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-provider-schema-explorer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

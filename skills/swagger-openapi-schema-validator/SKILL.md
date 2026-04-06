@@ -1,48 +1,26 @@
 ---
-name: "Swagger OpenAPI Schema Validator"
+title: "Swagger OpenAPI Schema Validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
-category: "Library & API Reference"
-framework: "Cursor"
-verification: security_reviewed
+slug: "swagger-openapi-schema-validator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # Swagger OpenAPI Schema Validator
 
 Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.
 
-The Swagger OpenAPI Schema Validator performs comprehensive validation of OpenAPI 3.0 and 3.1 specifications using the Spectral linting engine from Stoplight. It applies customizable rulesets covering naming conventions, security scheme requirements, pagination patterns, and error response schemas. The skill integrates swagger-parser for deep JSON Schema validation including $ref resolution across multi-file specifications. Breaking change detection uses oasdiff to compare two API versions, flagging removed endpoints, changed parameter types, narrowed enum values, and modified required fields. It generates detailed compatibility reports following semver conventions. The skill also validates example values against their schemas, checks for unused components, and ensures consistent use of tags and operationIds. Output includes a severity-ranked issue list with line numbers and fix suggestions, making it essential for API-first development workflows.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill swagger-openapi-schema-validator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install swagger-openapi-schema-validator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

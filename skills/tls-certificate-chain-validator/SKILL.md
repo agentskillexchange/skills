@@ -1,56 +1,26 @@
 ---
-name: "TLS Certificate Chain Validator"
-description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let’s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
-category: "Security & Verification"
-framework: "OpenClaw"
-verification: security_reviewed
+title: "TLS Certificate Chain Validator"
+description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
+slug: "tls-certificate-chain-validator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
+category:
+  - "Security &amp; Verification"
 ---
+
 # TLS Certificate Chain Validator
 
-Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let’s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API.
-
-The TLS Certificate Chain Validator skill provides comprehensive SSL/TLS certificate inspection and validation for agent workflows. It leverages OpenSSL’s x509 command-line tools to parse certificate chains, verify intermediate CA trust paths, and detect expiring certificates before they cause outages.
-
-
-
-Key capabilities include OCSP (Online Certificate Status Protocol) stapling verification to ensure certificates haven’t been revoked, integration with Let’s Encrypt’s ACME protocol for automated renewal monitoring, and Certificate Transparency log queries via the crt.sh API to detect unauthorized certificate issuance for your domains.
-
-
-
-The skill supports PEM, DER, and PKCS#12 certificate formats, can validate SAN (Subject Alternative Name) entries against expected domains, and provides cipher suite analysis for TLS 1.2 and 1.3 configurations. It outputs structured JSON reports suitable for compliance auditing and integrates with notification channels for expiry warnings at configurable thresholds (30, 14, 7, and 1 day).
+Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install tls-certificate-chain-validator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

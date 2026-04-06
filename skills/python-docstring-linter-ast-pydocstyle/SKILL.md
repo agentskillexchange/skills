@@ -1,48 +1,26 @@
 ---
-name: "Python Docstring Linter"
+title: "Python Docstring Linter"
 description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
-category: "Library & API Reference"
-framework: "Codex"
-verification: security_reviewed
+slug: "python-docstring-linter-ast-pydocstyle"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # Python Docstring Linter
 
 Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration.
 
-Python Docstring Linter uses the Python ast module to parse source files and analyze function, class, and module docstrings for completeness and correctness. It enforces pydocstyle conventions (PEP 257) with support for NumPy, Google, and Sphinx docstring formats. The tool cross-references docstring parameter descriptions with actual function signatures and type annotations from both inline hints and stub files (.pyi). Auto-generation mode creates skeleton docstrings from function signatures, including parameter types inferred from mypy type checking results. It validates example code blocks within docstrings by executing them as doctests, reporting failures inline. Integration with Sphinx autodoc ensures generated documentation renders correctly. Batch processing handles entire Python packages with configurable ignore patterns and per-file format overrides. The linter outputs results in SARIF format for GitHub Code Scanning integration.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill python-docstring-linter-ast-pydocstyle -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install python-docstring-linter-ast-pydocstyle
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

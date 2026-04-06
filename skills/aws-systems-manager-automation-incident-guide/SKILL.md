@@ -1,56 +1,26 @@
 ---
-name: "AWS Systems Manager Automation Incident Guide"
+title: "AWS Systems Manager Automation Incident Guide"
 description: "Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory."
-category: "Runbooks & Diagnostics"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+slug: "aws-systems-manager-automation-incident-guide"
+verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/systems-manager/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # AWS Systems Manager Automation Incident Guide
 
 Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory.
 
-AWS Systems Manager Automation Incident Guide is built for cloud teams that already have operational runbooks but need a more structured way for agents to connect alarms with recovery actions. The skill uses AWS Systems Manager Automation documents, Incident Manager response plans, and CloudWatch alarm context to identify which remediation sequence matches a live issue. That helps when the same classes of EC2, networking, or application failures keep recurring and responders waste time remembering which document to run.
-
-
-
-Because the workflow is grounded in real AWS APIs and runbook documents, it can pull alarm metadata, affected resources, and linked remediation steps into one place. It is especially helpful in environments where some incidents only need guided response while others should trigger Automation execution under controlled permissions. The skill can distinguish those cases and prepare a cleaner handoff for humans who still need to approve or supervise the action.
-
-
-
-Use this skill when you want incident handling to be based on actual SSM Automation and Incident Manager building blocks rather than informal wiki pages or tribal knowledge.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill aws-systems-manager-automation-incident-guide
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-systems-manager-automation-incident-guide -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-systems-manager-automation-incident-guide -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill aws-systems-manager-automation-incident-guide -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install aws-systems-manager-automation-incident-guide
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

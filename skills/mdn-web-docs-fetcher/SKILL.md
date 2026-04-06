@@ -1,56 +1,26 @@
 ---
-name: "MDN Web Docs Fetcher"
+title: "MDN Web Docs Fetcher"
 description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
-category: "Library & API Reference"
-framework: "Cursor"
-verification: security_reviewed
+slug: "mdn-web-docs-fetcher"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # MDN Web Docs Fetcher
 
 Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups.
 
-The MDN Web Docs Fetcher skill provides instant access to comprehensive web platform documentation through the MDN content API (Yari). It queries the MDN search index for fast lookups of Web API references, CSS properties, HTML elements, and JavaScript features.
-
-
-
-The skill leverages the @mdn/browser-compat-data (BCD) npm package for offline browser compatibility lookups, enabling quick checks of feature support across Chrome, Firefox, Safari, and Edge. It parses MDN structured content to extract syntax examples, parameter descriptions, and return value documentation.
-
-
-
-Advanced features include cross-referencing related APIs, generating compatibility tables, and extracting polyfill recommendations for features with limited browser support. The skill supports querying by specification URL, feature name, or free-text search, making it ideal for rapid web development reference during coding sessions.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install mdn-web-docs-fetcher
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

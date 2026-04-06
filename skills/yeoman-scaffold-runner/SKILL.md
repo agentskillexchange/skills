@@ -1,56 +1,26 @@
 ---
-name: "Yeoman Scaffold Runner"
+title: "Yeoman Scaffold Runner"
 description: "Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition."
-category: "Templates & Workflows"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "yeoman-scaffold-runner"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-scaffold-runner/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Yeoman Scaffold Runner
 
 Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition.
 
-The Yeoman Scaffold Runner skill provides automated project and component scaffolding through the Yeoman ecosystem. It uses the yo CLI and yeoman-environment API to discover, install, and execute generators from the npm registry.
-
-
-
-The skill manages generator lifecycles including prompting, file generation, conflict resolution, and installation phases. It supports sub-generator composition for adding features to existing projects, such as adding API routes, database models, or authentication modules to a previously scaffolded application.
-
-
-
-Key capabilities include batch scaffolding across multiple generators, custom prompt answering for non-interactive execution, and integration with yeoman-assert for testing generated output. The skill handles generator versioning, allows pinning specific generator versions for reproducible scaffolding, and supports private generator registries for enterprise template management.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill yeoman-scaffold-runner -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install yeoman-scaffold-runner
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

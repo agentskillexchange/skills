@@ -1,48 +1,26 @@
 ---
-name: "ArgoCD GitOps Sync Automator"
+title: "ArgoCD GitOps Sync Automator"
 description: "Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments."
-category: "CI/CD Integrations"
-framework: "MCP"
-verification: security_reviewed
+slug: "argocd-gitops-sync-automator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-automator/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # ArgoCD GitOps Sync Automator
 
 Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments.
 
-The ArgoCD GitOps Sync Automator manages the full lifecycle of ArgoCD applications by interfacing with the ArgoCD Server API (both gRPC and REST endpoints) for application creation, synchronization, and health monitoring. It uses argocd-autopilot for bootstrapping ArgoCD installations and managing the GitOps repository structure with proper directory conventions. The skill generates ApplicationSet resources with matrix and list generators for multi-cluster deployments, implementing sync waves and resource hooks for ordered rollout strategies. It integrates with the ArgoCD Notifications Controller to configure alert destinations via Slack, Teams, and PagerDuty webhooks. The automator monitors application health using ArgoCD’s built-in health assessments and custom Lua health checks, automatically triggering rollbacks when degraded states are detected. It supports progressive delivery patterns through integration with Argo Rollouts for canary and blue-green deployment strategies with automated analysis using Prometheus metrics queries.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-automator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-automator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-automator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-gitops-sync-automator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install argocd-gitops-sync-automator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

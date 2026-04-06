@@ -1,62 +1,26 @@
 ---
-name: "GitHub Actions Matrix Orchestrator"
+title: "GitHub Actions Matrix Orchestrator"
 description: "Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments."
-category: "CI/CD Integrations"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "github-actions-matrix-orchestrator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # GitHub Actions Matrix Orchestrator
 
 Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments.
 
-Overview
-
-The GitHub Actions Matrix Orchestrator dynamically generates CI/CD matrix strategies for complex multi-platform builds. By leveraging the GitHub REST API’s workflow dispatch endpoint and the actions/github-script action, it creates conditional job matrices that adapt based on changed files, branch names, or PR labels.
-
-
-
-Key Capabilities
-
-This skill handles OIDC token federation for cross-account AWS deployments, enabling secure assume-role operations without storing long-lived credentials. It analyzes dorny/paths-filter outputs to determine which matrix combinations are necessary, reducing unnecessary CI minutes. The orchestrator supports reusable workflow composition with workflow_call triggers and dynamic job generation through JSON matrix output steps.
-
-
-
-Technical Integration
-
-Integrates with GitHub’s check runs API for granular status reporting, supports concurrency groups for deployment serialization, and manages artifact retention policies through the actions/upload-artifact v4 API. Compatible with self-hosted runners using custom labels and runner groups.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-orchestrator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install github-actions-matrix-orchestrator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

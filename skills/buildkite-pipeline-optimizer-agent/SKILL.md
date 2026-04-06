@@ -1,56 +1,26 @@
 ---
-name: "Buildkite Pipeline Optimizer"
+title: "Buildkite Pipeline Optimizer"
 description: "Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces build times by identifying bottleneck steps and suggesting agent queue rebalancing."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "buildkite-pipeline-optimizer-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # Buildkite Pipeline Optimizer
 
 Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces build times by identifying bottleneck steps and suggesting agent queue rebalancing.
 
-The Buildkite Pipeline Optimizer agent analyzes your Buildkite pipeline definitions and historical build data to recommend optimizations that reduce build times. Using the Buildkite REST API v2 and GraphQL API, it fetches build timing data, step dependencies, and agent queue utilization metrics.
-
-
-
-The agent parses pipeline.yml files to build dependency graphs, identifies critical path bottlenecks, and suggests parallelism improvements. It can recommend step splitting, agent queue rebalancing, and artifact caching strategies based on actual build performance data. The optimizer also detects anti-patterns like unnecessary wait steps, serial test suites that could be parallelized, and redundant checkout operations.
-
-
-
-Advanced features include automatic pipeline.yml generation with optimized step ordering, integration with Buildkite Test Analytics for flaky test detection, and cost-aware recommendations that balance speed against compute costs. Supports dynamic pipelines and matrix builds.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill buildkite-pipeline-optimizer-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill buildkite-pipeline-optimizer-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill buildkite-pipeline-optimizer-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill buildkite-pipeline-optimizer-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install buildkite-pipeline-optimizer-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,56 +1,26 @@
 ---
-name: "Devcontainer Specification Builder"
+title: "Devcontainer Specification Builder"
 description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
-category: "Developer Tools"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "devcontainer-specification-builder"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
+category:
+  - "Developer Tools"
 ---
+
 # Devcontainer Specification Builder
 
 Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments.
 
-The Devcontainer Specification Builder creates comprehensive .devcontainer/devcontainer.json configurations following the official Dev Container Specification. It composes development environments using OCI-compliant Dev Container Features from ghcr.io registries and custom feature repositories.
-
-
-
-The agent generates complete container configurations with image selection, Dockerfile composition, and Docker Compose integration for multi-service development stacks. It configures lifecycle hooks including onCreateCommand, updateContentCommand, postCreateCommand, and postStartCommand for environment initialization sequences.
-
-
-
-Advanced features include VS Code extension recommendation via customizations.vscode.extensions, port forwarding configuration with label and onAutoForward settings, and mount definitions for persistent volumes. The agent also supports Dev Container Templates for project-type presets, Feature dependency resolution with installsAfter ordering, and GitHub Codespaces optimization with hostRequirements for CPU, memory, and GPU specifications. Integrates with the devcontainer CLI for local build validation and prebuild image publishing.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill devcontainer-specification-builder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill devcontainer-specification-builder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install devcontainer-specification-builder
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

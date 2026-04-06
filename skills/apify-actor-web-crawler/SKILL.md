@@ -1,48 +1,26 @@
 ---
-name: "Apify Actor Web Crawler"
+title: "Apify Actor Web Crawler"
 description: "Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale."
-category: "Research & Scraping"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "apify-actor-web-crawler"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
+category:
+  - "Research &amp; Scraping"
 ---
+
 # Apify Actor Web Crawler
 
 Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale.
 
-The Apify Actor Web Crawler deploys custom web crawling Actors through the Apify API v2 for enterprise-scale data collection. Built on the CrawleeJS framework, it supports PlaywrightCrawler for JavaScript-rendered pages and CheerioCrawler for static HTML scraping with automatic scaling based on system resources and target site responsiveness. The RequestQueue manages URL frontier with built-in deduplication and retry logic. Apify proxy configuration supports datacenter and residential proxy pools with automatic rotation and session management. Extracted data flows into Apify Datasets with automatic schema validation and exports to formats including JSON, CSV, and Excel through the dataset API. The agent handles complex crawling patterns including infinite scroll detection, login session management with cookie persistence, and sitemap-based URL discovery. Actor runs are monitored through the Apify monitoring dashboard API with configurable alerts for run failures or anomalous result counts.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-crawler
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-crawler -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install apify-actor-web-crawler
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

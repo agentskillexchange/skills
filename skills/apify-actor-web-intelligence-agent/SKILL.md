@@ -1,56 +1,26 @@
 ---
-name: "Apify Actor Web Intelligence Agent"
+title: "Apify Actor Web Intelligence Agent"
 description: "Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling."
-category: "Research & Scraping"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "apify-actor-web-intelligence-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
+category:
+  - "Research &amp; Scraping"
 ---
+
 # Apify Actor Web Intelligence Agent
 
 Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling.
 
-This skill builds and deploys web intelligence gathering actors on the Apify cloud platform using the Apify SDK. It leverages CheerioCrawler for fast static page processing and PlaywrightCrawler for JavaScript-heavy sites, with automatic crawler selection based on target site analysis.
-
-
-
-The RequestQueue API manages URL frontier with deduplication, priority ordering, and retry logic. Extracted data flows into Apify Datasets with automatic schema validation and export to formats including JSON, CSV, and Excel. The skill uses KeyValueStore for caching intermediate results and storing crawler state for resumable runs.
-
-
-
-Production features include automatic proxy rotation via Apify Proxy with residential and datacenter pools, session management for maintaining login state across requests, and auto-scaling that adjusts concurrency based on target site response times. Webhook integrations trigger downstream workflows when actor runs complete, enabling automated data pipelines.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill apify-actor-web-intelligence-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install apify-actor-web-intelligence-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

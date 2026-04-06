@@ -1,48 +1,26 @@
 ---
-name: "dbt Model Lineage Analyzer"
+title: "dbt Model Lineage Analyzer"
 description: "Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis."
-category: "Data Extraction & Transformation"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "dbt-model-lineage-analyzer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
+category:
+  - "Data Extraction &amp; Transformation"
 ---
+
 # dbt Model Lineage Analyzer
 
 Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis.
 
-The dbt Model Lineage Analyzer skill processes dbt Core manifest.json and catalog.json artifacts to construct comprehensive data lineage graphs across your analytics warehouse. It traces column-level lineage from source tables through staging, intermediate, and mart models, identifying transformation logic at each hop. The skill integrates with the dbt Cloud Administrative API v2 to pull run results, test outcomes, and freshness check data for operational lineage enrichment. Features include impact analysis for proposed model changes, orphan model detection, circular dependency identification, and exposure coverage reporting. Supports visualization export in DOT format for Graphviz rendering and Mermaid diagram syntax for documentation embedding. Provides automated data quality scoring based on test coverage, documentation completeness, and freshness SLA compliance.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill dbt-model-lineage-analyzer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install dbt-model-lineage-analyzer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

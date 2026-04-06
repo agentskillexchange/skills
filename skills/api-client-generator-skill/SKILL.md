@@ -1,72 +1,26 @@
 ---
-name: "API Client Generator Skill"
-description: "API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]"
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
+title: "API Client Generator Skill"
+description: "API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the [&hellip;]"
+slug: "api-client-generator-skill"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/api-client-generator-skill/"
+category:
+  - "Developer Tools"
 ---
+
 # API Client Generator Skill
 
-API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]
-
-API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the operational context that matters for real tasks.
-
-
-
-In practice, the skill gives an agent a stable interface to swagger so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on spec validation, schemas, client generation, Swagger UI, examples, refs, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
-
-
-
-- Accesses spec validation, schemas, client generation, Swagger UI, examples, refs instead of scraping a UI, which makes runs easier to audit and retry.
-
-
-
-- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-
-
-
-- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-
-
-
-- Fits into broader integration points such as API contracts, docs, SDK generation, and endpoint verification.
-
-
-
-For generator-style use cases, the skill turns a vague request into repeatable scaffolding with defaults that match the upstream toolchain rather than inventing ad hoc files. Key integration points include API contracts, docs, SDK generation, and endpoint verification. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the [&hellip;]
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill api-client-generator-skill
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill api-client-generator-skill -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill api-client-generator-skill -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill api-client-generator-skill -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install api-client-generator-skill
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

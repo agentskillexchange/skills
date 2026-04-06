@@ -1,48 +1,26 @@
 ---
-name: "Schema.org Structured Data Generator"
+title: "Schema.org Structured Data Generator"
 description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
-category: "Content Writing & SEO"
-framework: "Gemini"
-verification: security_reviewed
+slug: "schema-org-structured-data-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
+category:
+  - "Content Writing &amp; SEO"
 ---
+
 # Schema.org Structured Data Generator
 
 Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints.
 
-This skill automatically generates valid JSON-LD structured data markup following the Schema.org vocabulary for SEO-critical page types. It supports multiple schema types: Article (with author, datePublished, dateModified, publisher), Product (with offers, aggregateRating, review), FAQPage (with mainEntity Question/Answer pairs), HowTo (with step, tool, supply, totalTime), BreadcrumbList (with itemListElement), and LocalBusiness (with address, geo, openingHours). The skill analyzes page content to extract relevant entities and properties, populating schema fields from existing HTML elements using CSS selectors or natural language extraction. For e-commerce pages, it generates Product schema with Offer properties including price, priceCurrency, availability (InStock/OutOfStock/PreOrder), and priceValidUntil. The FAQ schema generator parses content for question patterns and generates compliant FAQPage markup with proper mainEntity arrays. Validation runs against two endpoints: Google’s Rich Results Test API (POST to https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run) and Schema.org’s validator. The skill outputs minified JSON-LD wrapped in  tags ready for HTML injection. It handles nested schema relationships using @id references for connected entities and supports schema inheritance for complex page types.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill schema-org-structured-data-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install schema-org-structured-data-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

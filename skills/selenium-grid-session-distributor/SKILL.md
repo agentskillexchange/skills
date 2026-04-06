@@ -1,52 +1,26 @@
 ---
-name: "Selenium Grid Session Distributor"
+title: "Selenium Grid Session Distributor"
 description: "Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances."
-category: "Browser Automation"
-framework: "Cursor"
-verification: security_reviewed
+slug: "selenium-grid-session-distributor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
+category:
+  - "Browser Automation"
 ---
+
 # Selenium Grid Session Distributor
 
 Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances.
 
-Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances.
-
-
-
-This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-session-distributor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install selenium-grid-session-distributor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

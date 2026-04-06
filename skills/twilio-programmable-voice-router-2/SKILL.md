@@ -1,56 +1,26 @@
 ---
-name: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource."
-category: "Integrations & Connectors"
-framework: "Claude Agents"
-verification: security_reviewed
+title: "Twilio Programmable Voice Router"
+description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource."
+slug: "twilio-programmable-voice-router-2"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
+category:
+  - "Integrations &amp; Connectors"
 ---
+
 # Twilio Programmable Voice Router
 
-Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource.
-
-The Twilio Programmable Voice Router creates sophisticated call handling workflows using Twilio’s Programmable Voice API. It generates dynamic TwiML documents that chain  for DTMF/speech input,  for call forwarding with SIP and Client endpoints, and  for queue-based routing.
-
-
-
-The skill manages the full call lifecycle: incoming call webhook handling, real-time call modification via the Calls resource (client.calls(sid).update()), and post-call recording retrieval through the Recordings REST API. It supports conference bridges with  verb including mute/hold controls.
-
-
-
-Advanced features include StatusCallback URL configuration for call progress events, AMD (Answering Machine Detection) with machineDetection: 'DetectMessageEnd', and fallback URL routing. The agent handles Twilio signature validation using twilio.webhook() middleware for request authentication. Integrates with Twilio Studio for visual IVR flow management.
+Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill twilio-programmable-voice-router-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill twilio-programmable-voice-router-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill twilio-programmable-voice-router-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill twilio-programmable-voice-router-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install twilio-programmable-voice-router-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

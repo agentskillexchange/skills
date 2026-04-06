@@ -1,56 +1,26 @@
 ---
-name: "Datadog Metric Exporter"
+title: "Datadog Metric Exporter"
 description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
-category: "Monitoring & Alerts"
-framework: "Gemini"
-verification: security_reviewed
+slug: "datadog-metric-exporter"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
+category:
+  - "Monitoring &amp; Alerts"
 ---
+
 # Datadog Metric Exporter
 
 Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking.
 
-The Datadog Metric Exporter skill sends custom application metrics to Datadog through both the DogStatsD UDP protocol for high-frequency data and the Datadog API v2 REST endpoints for batch submissions. It supports all metric types: count, rate, gauge, histogram, and distribution.
-
-
-
-The skill handles tag management following Datadog’s best practices with automatic tag normalization, reserved tag detection, and cardinality warnings. It can create and update monitors programmatically using the Monitors API, including composite monitors with boolean logic.
-
-
-
-SLO tracking is built in with support for monitor-based and metric-based SLOs. The skill calculates error budgets, generates burn rate alerts, and can export SLO reports as PDF via the Datadog SLO API. Integration with OpenTelemetry allows trace context propagation through the OTLP exporter configured for Datadog’s intake endpoint.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill datadog-metric-exporter
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install datadog-metric-exporter
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

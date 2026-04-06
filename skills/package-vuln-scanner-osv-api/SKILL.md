@@ -1,48 +1,26 @@
 ---
-name: "Package Vulnerability Scanner"
+title: "Package Vulnerability Scanner"
 description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format."
-category: "Developer Tools"
-framework: "Codex"
-verification: security_reviewed
+slug: "package-vuln-scanner-osv-api"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
+category:
+  - "Developer Tools"
 ---
+
 # Package Vulnerability Scanner
 
 Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format.
 
-Package Vulnerability Scanner queries the OSV.dev API and GitHub Advisory Database to identify known vulnerabilities in project dependencies across npm, PyPI, and Go modules. It parses lockfiles directly (package-lock.json, poetry.lock, go.sum) to build accurate dependency trees including transitive dependencies. The scanner correlates findings with CVSS v3.1 scores, EPSS exploit probability data, and KEV catalog entries to prioritize remediation. It generates Software Bill of Materials reports in CycloneDX 1.5 and SPDX 2.3 formats for compliance requirements. Configurable policies allow suppressing known false positives via .vulnscan-ignore.yml files. The tool integrates with Dependabot and Renovate configurations to suggest automated fix PRs. Batch scanning supports monorepo workspaces with per-package result aggregation.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill package-vuln-scanner-osv-api -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install package-vuln-scanner-osv-api
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

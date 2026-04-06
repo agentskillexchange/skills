@@ -1,56 +1,26 @@
 ---
-name: "OpenTelemetry Trace Analyzer"
+title: "OpenTelemetry Trace Analyzer"
 description: "Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams."
-category: "Library & API Reference"
-framework: "Codex"
-verification: security_reviewed
+slug: "opentelemetry-trace-analyzer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # OpenTelemetry Trace Analyzer
 
 Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams.
 
-The OpenTelemetry Trace Analyzer skill provides deep observability insights by querying distributed tracing backends. It supports Jaeger Query API (/api/traces/{traceID}) and Grafana Tempo HTTP API (/api/traces/{traceID}) for trace retrieval, with automatic backend detection based on configured endpoints.
-
-
-
-Trace analysis identifies latency bottlenecks by computing critical path analysis across span trees, highlighting services contributing the most to end-to-end request duration. The skill processes span attributes and events following OpenTelemetry Semantic Conventions, extracting HTTP status codes, database query durations, and messaging queue wait times for structured analysis.
-
-
-
-Log correlation connects trace context (trace_id, span_id) to Grafana Loki log streams via the LogQL API (/loki/api/v1/query_range), displaying relevant log lines alongside trace spans for root cause analysis. The skill configures OpenTelemetry Collector pipeline processors including tail-based sampling (probabilistic and rate-limiting) and span metrics generation via the spanmetrics connector. Results are visualized through Grafana dashboard JSON models pushed via the Grafana HTTP API (/api/dashboards/db), creating service dependency graphs and latency heatmaps from TraceQL query results.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill opentelemetry-trace-analyzer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install opentelemetry-trace-analyzer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

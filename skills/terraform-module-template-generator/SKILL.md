@@ -1,48 +1,26 @@
 ---
-name: "Terraform Module Template Generator"
+title: "Terraform Module Template Generator"
 description: "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files."
-category: "Templates & Workflows"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "terraform-module-template-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Terraform Module Template Generator
 
 Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files.
 
-This skill automates the creation of Terraform infrastructure modules following HashiCorp best practices. It connects to the Terraform Registry API to discover existing module patterns and provider schemas, then generates complete module directories with main.tf, variables.tf, outputs.tf, and versions.tf files. The skill uses terraform-docs to automatically generate comprehensive README documentation including input/output tables, resource listings, and usage examples. It supports multi-environment configurations with workspace-aware variable files, integrates with terraform-validate for syntax checking before committing, and can scaffold CI/CD pipeline configurations for Terraform Cloud or Spacelift. Templates include pre-configured backend blocks for S3, GCS, and Azure Blob storage state management. The generator also creates example tfvars files with sensible defaults and inline documentation for every variable.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-module-template-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

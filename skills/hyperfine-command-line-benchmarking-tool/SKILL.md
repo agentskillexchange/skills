@@ -1,67 +1,29 @@
 ---
-name: "Hyperfine Command-Line Benchmarking Tool"
+title: "Hyperfine Command-Line Benchmarking Tool"
 description: "Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison."
-category: "Developer Tools"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "hyperfine-command-line-benchmarking-tool"
+verification: "security_reviewed"
 source: "https://github.com/sharkdp/hyperfine"
+category:
+  - "Developer Tools"
 tool_ecosystem:
   github_repo: "sharkdp/hyperfine"
   github_stars: 27797
 ---
+
 # Hyperfine Command-Line Benchmarking Tool
 
 Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison.
 
-The Hyperfine Command-Line Benchmarking Tool skill uses sharkdp/hyperfine, a command-line utility for benchmarking programs with statistical analysis. With over 23,000 GitHub stars, Hyperfine is the standard tool developers and agent workflows use to measure and compare the performance of CLI commands, scripts, and compiled programs.
-
-
-
-Hyperfine runs a command multiple times, collects timing data, and reports the mean, standard deviation, median, min, and max execution times. It automatically detects statistical outliers and warns when results may be unreliable. Warmup runs can be configured with --warmup N to ensure caches are populated before measurement begins. A preparation command (--prepare) runs before each timing iteration, useful for clearing caches or resetting state to ensure fair measurement.
-
-
-
-Comparative benchmarking is where Hyperfine shines. Running hyperfine 'fd pattern' 'find . -name pattern' benchmarks both commands and produces a side-by-side comparison showing which is faster and by what factor. Parameterized benchmarks use --parameter-scan or --parameter-list to sweep across values, producing a matrix of results—for example, benchmarking a compression tool across different block sizes or thread counts.
-
-
-
-Results export to JSON, CSV, Markdown, and AsciiDoc formats. The included Python scripts in the repository generate visualizations: histograms of individual run times, whisker plots comparing multiple benchmarks, and bar charts with confidence intervals. The JSON output includes all individual timing samples, enabling custom post-processing and integration with dashboards or CI performance tracking.
-
-
-
-Setup and cleanup commands bracket the entire benchmark session. The --shell flag controls which shell interprets commands (or --shell=none for direct execution without shell overhead). The --min-runs and --max-runs flags control sample size. Hyperfine is written in Rust, distributed via apt, brew, cargo, conda, and direct binary download, and dual-licensed under Apache 2.0 and MIT. For any agent that needs to measure performance—comparing tool versions, validating optimization work, or profiling build times—Hyperfine provides rigorous, reproducible measurements.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill hyperfine-command-line-benchmarking-tool
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill hyperfine-command-line-benchmarking-tool -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill hyperfine-command-line-benchmarking-tool -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill hyperfine-command-line-benchmarking-tool -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install hyperfine-command-line-benchmarking-tool
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,60 +1,26 @@
 ---
-name: "Kubernetes Pod Crash Investigator"
+title: "Kubernetes Pod Crash Investigator"
 description: "Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis."
-category: "Runbooks & Diagnostics"
-framework: "Codex"
-verification: security_reviewed
+slug: "kubernetes-pod-crash-investigator-3"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Kubernetes Pod Crash Investigator
 
 Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis.
 
-The Kubernetes Pod Crash Investigator automates the diagnosis of pod failures in Kubernetes clusters. It connects to clusters via the official kubernetes-client/python SDK or kubectl CLI to gather comprehensive failure context.
-
-
-
-When a pod enters CrashLoopBackOff or OOMKilled state, the skill retrieves container logs from the current and previous instances, examines resource requests and limits, and checks node-level conditions including memory pressure and disk pressure events.
-
-
-
-The investigator correlates multiple data sources including Kubernetes Events API, container exit codes, liveness/readiness probe configurations, and PodDisruptionBudget status. It builds a timeline of events leading to the crash and identifies common root causes.
-
-
-
-Supported diagnostics include memory leak detection through OOM score analysis, misconfigured health probes, image pull failures with registry authentication issues, and init container dependency failures. Results are formatted as actionable runbook steps with suggested kubectl commands for remediation.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-investigator-3 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install kubernetes-pod-crash-investigator-3
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

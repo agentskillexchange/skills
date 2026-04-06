@@ -1,48 +1,26 @@
 ---
-name: "Selenium Grid Parallel Executor"
+title: "Selenium Grid Parallel Executor"
 description: "Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports."
-category: "Browser Automation"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "selenium-grid-parallel-executor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
+category:
+  - "Browser Automation"
 ---
+
 # Selenium Grid Parallel Executor
 
 Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports.
 
-This skill manages large-scale browser automation through Selenium Grid infrastructure. It configures Grid Hub and Node topology using selenium-server-standalone JAR or Docker Compose with selenium/hub and selenium/node-chrome images. Tests connect via RemoteWebDriver with DesiredCapabilities specifying browser name, version, and platform. WebDriverWait with ExpectedConditions handles dynamic page elements including visibility_of_element_located, element_to_be_clickable, and staleness_of for stale element reference recovery. The agent uses TestNG or pytest-xdist for parallel test distribution across grid nodes with configurable thread counts. Session management includes automatic cleanup via driver.quit() in teardown hooks and grid session timeout configuration. The skill integrates ExtentReports for rich HTML test reports with screenshots on failure using driver.get_screenshot_as_png(). Page Object Model architecture separates locators from test logic. Handles file download testing through ChromeOptions with download.default_directory preference. Supports cross-browser matrix testing with parameterized configurations for Chrome, Firefox, and Edge.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill selenium-grid-parallel-executor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install selenium-grid-parallel-executor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

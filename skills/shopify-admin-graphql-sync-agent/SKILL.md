@@ -1,60 +1,29 @@
 ---
-name: "Shopify Admin GraphQL Sync Agent"
+title: "Shopify Admin GraphQL Sync Agent"
 description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
-category: "Integrations & Connectors"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+slug: "shopify-admin-graphql-sync-agent"
+verification: "security_reviewed"
 source: "https://github.com/Shopify/shopify-api-js"
+category:
+  - "Integrations &amp; Connectors"
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959
-  npm_package: "@shopify/shopify-api"
 ---
+
 # Shopify Admin GraphQL Sync Agent
 
 Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling.
 
-Shopify Admin GraphQL Sync Agent is intended for integration workflows that need to move beyond manual REST polling and into more scalable, event-aware synchronization. It uses real Shopify Admin GraphQL patterns such as bulkOperationRunQuery, connection-based pagination for products and orders, and webhook-triggered delta processing to keep local systems aligned with Shopify without repeatedly fetching the same records. That makes it a strong fit for catalog mirrors, fulfillment systems, and analytics pipelines.
-
-
-
-The skill is especially valuable when a store has enough products or order volume that naive pagination becomes expensive and slow. By combining bulk queries for baseline syncs with webhook-assisted updates for ongoing changes, it becomes easier to manage throughput and freshness together. The workflow can also clarify how to use global IDs, filter scopes, and updated timestamps so sync logic remains deterministic.
-
-
-
-Use this skill when integrating Shopify with external systems that need reliable product, order, or inventory state and when GraphQL offers a cleaner long-term path than isolated REST endpoints.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill shopify-admin-graphql-sync-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill shopify-admin-graphql-sync-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill shopify-admin-graphql-sync-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill shopify-admin-graphql-sync-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install shopify-admin-graphql-sync-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

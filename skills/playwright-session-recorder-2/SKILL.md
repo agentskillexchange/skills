@@ -1,56 +1,26 @@
 ---
-name: "Playwright Session Recorder"
+title: "Playwright Session Recorder"
 description: "Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity."
-category: "Browser Automation"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "playwright-session-recorder-2"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-session-recorder-2/"
+category:
+  - "Browser Automation"
 ---
+
 # Playwright Session Recorder
 
 Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity.
 
-The Playwright Session Recorder skill leverages the Playwright codegen engine to capture full browser interaction sessions in real time. It hooks into page navigation, click events, form submissions, and AJAX requests to produce clean, replayable TypeScript or Python test scripts.
-
-
-
-Key capabilities include automatic HAR file generation for network traffic analysis, DOM snapshot capture at configurable intervals, and intelligent selector generation that prefers data-testid attributes over fragile CSS paths. The skill supports multi-tab recording, iframe traversal, and authentication flow capture with credential masking.
-
-
-
-Output formats include Playwright Test files, raw JSON action logs, and Markdown session summaries. Integration with CI pipelines allows recorded sessions to become regression tests automatically. The recorder handles cookie consent dialogs, popup blockers, and CAPTCHA pauses gracefully.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill playwright-session-recorder-2
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-session-recorder-2 -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-session-recorder-2 -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-session-recorder-2 -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install playwright-session-recorder-2
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,56 +1,26 @@
 ---
-name: "Puppeteer PDF Renderer"
+title: "Puppeteer PDF Renderer"
 description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
-category: "Browser Automation"
-framework: "Cursor"
-verification: security_reviewed
+slug: "puppeteer-pdf-renderer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
+category:
+  - "Browser Automation"
 ---
+
 # Puppeteer PDF Renderer
 
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
 
-The Puppeteer PDF Renderer skill converts live web pages into high-fidelity PDF documents using the Puppeteer headless Chrome API. It handles complex CSS layouts including flexbox, grid, and print media queries to produce pixel-perfect output.
-
-
-
-The skill supports custom header and footer templates with dynamic page numbers, date stamps, and document titles. Page break control uses CSS break-before and break-after properties, with intelligent orphan and widow handling for text-heavy content.
-
-
-
-Authentication is handled through cookie injection from exported browser profiles or via programmatic login flows. The renderer waits for lazy-loaded images, web fonts, and async JavaScript before capture. Batch mode processes multiple URLs concurrently with configurable parallelism. Output options include A4, Letter, Legal, and custom page sizes with adjustable margins.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install puppeteer-pdf-renderer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

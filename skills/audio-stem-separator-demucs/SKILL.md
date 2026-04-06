@@ -1,59 +1,29 @@
 ---
-name: "Audio Stem Separator with Demucs"
-description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
-category: "Media & Transcription"
-framework: "MCP"
-verification: security_reviewed
+title: "Audio Stem Separator with Demucs"
+description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta&#8217;s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
+slug: "audio-stem-separator-demucs"
+verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
+category:
+  - "Media &amp; Transcription"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507
 ---
+
 # Audio Stem Separator with Demucs
 
-Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
-
-Audio Stem Separator with Demucs provides production-quality audio source separation by running Meta’s Demucs hybrid transformer model. It accepts WAV, MP3, FLAC, and other common audio formats, converting them through FFmpeg to the 44.1kHz WAV input required by the demucs Python package’s separate function.
-
-
-
-The skill supports multiple Demucs model variants: htdemucs for the best general-purpose separation quality, htdemucs_ft for the fine-tuned variant with improved vocal isolation, and mdx_extra for legacy compatibility. Batch processing handles entire directories with configurable parallelism, automatically managing GPU memory allocation when CUDA is available and falling back to CPU processing on machines without discrete GPUs.
-
-
-
-Post-separation, each stem (vocals, drums, bass, other) goes through an FFmpeg loudness normalization stage using the loudnorm filter to match EBU R128 targets, ensuring consistent playback levels across separated stems. Output supports WAV for lossless quality, FLAC for compressed lossless archival, and MP3 for distribution. The tool generates a JSON manifest documenting source file metadata, model used, processing time, and output file paths for integration with DAW import workflows and downstream audio processing pipelines.
+Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta&#8217;s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill audio-stem-separator-demucs
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill audio-stem-separator-demucs -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill audio-stem-separator-demucs -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill audio-stem-separator-demucs -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install audio-stem-separator-demucs
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

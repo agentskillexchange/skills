@@ -1,56 +1,26 @@
 ---
-name: "WordPress Multisite Network Sync"
+title: "WordPress Multisite Network Sync"
 description: "Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites."
-category: "WordPress & CMS"
-framework: "Codex"
-verification: security_reviewed
+slug: "wordpress-multisite-network-sync"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-multisite-network-sync/"
+category:
+  - "WordPress &amp; CMS"
 ---
+
 # WordPress Multisite Network Sync
 
 Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites.
 
-Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites.
-
-
-
-This skill automates the tedious task of keeping multisite subsites in sync with a primary configuration. It iterates over all active subsites, compares settings for target plugins, and applies updates via switch_to_blog()/update_option() through WP-CLI or direct REST. Supports allowlist/denylist for which options to propagate and dry-run mode for preview. Generates a diff report before applying changes.
-
-
-
-Ideal for agency workflows managing 10+ subsites with shared plugin configurations, theme settings, or user role structures. Not for syncing post content between sites — use the WP Replicator pattern for content. Requires Super Admin credentials and WP Multisite configured with subdirectory or subdomain mode.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-multisite-network-sync
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-multisite-network-sync -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-multisite-network-sync -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill wordpress-multisite-network-sync -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install wordpress-multisite-network-sync
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

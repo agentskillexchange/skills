@@ -1,48 +1,26 @@
 ---
-name: "Ahrefs Keyword Gap Analysis Skill"
-description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+title: "Ahrefs Keyword Gap Analysis Skill"
+description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs&#8217; /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
+slug: "ahrefs-keyword-gap-analysis-skill"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
+category:
+  - "Content Writing &amp; SEO"
 ---
+
 # Ahrefs Keyword Gap Analysis Skill
 
-Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
-
-This skill performs competitive keyword gap analysis using the Ahrefs REST API v3. It queries the /v3/site-explorer/organic-keywords endpoint for both the target domain and up to 5 competitor domains, using parameters: target (domain), country_code, limit, offset, and volume_min for filtering. The skill cross-references keyword sets to identify three categories: missing keywords (competitors rank, target doesn’t), weak keywords (target ranks lower than competitors), and untapped keywords (low competition, high volume). For each keyword, it pulls metrics from Ahrefs: search_volume, keyword_difficulty (0-100), cpc (cost per click), traffic, and position. The traffic potential calculation uses: potential_traffic = search_volume * CTR_curve[estimated_position] where CTR curves are based on published click-through-rate studies. Results are scored using a composite metric: opportunity_score = (search_volume * (100 – keyword_difficulty)) / 100 * cpc_value. The skill generates a prioritized content brief for each high-opportunity keyword including: target word count (based on top-ranking content analysis), required subtopics (from SERP feature analysis), and content type recommendation (blog post, landing page, comparison). Output includes CSV export with all metrics and a markdown summary grouped by content cluster topics.
+Identifies keyword opportunities by comparing competitor rankings using Ahrefs&#8217; /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ahrefs-keyword-gap-analysis-skill -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ahrefs-keyword-gap-analysis-skill
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

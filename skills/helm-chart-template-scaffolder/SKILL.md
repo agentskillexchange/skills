@@ -1,48 +1,26 @@
 ---
-name: "Helm Chart Template Scaffolder"
+title: "Helm Chart Template Scaffolder"
 description: "Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and Polaris for Kubernetes resource validation scoring."
-category: "Templates & Workflows"
-framework: "Codex"
-verification: security_reviewed
+slug: "helm-chart-template-scaffolder"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-template-scaffolder/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Helm Chart Template Scaffolder
 
 Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and Polaris for Kubernetes resource validation scoring.
 
-The Helm Chart Template Scaffolder generates production-ready Helm 3 charts from application specifications. It creates properly structured templates using Go template functions from the Sprig library, including conditionals, loops, and named template definitions. Values.yaml files are generated with sensible defaults, JSON Schema validation (values.schema.json), and documented parameters. The skill produces templates for Deployments, Services, Ingresses, ConfigMaps, ServiceAccounts, HorizontalPodAutoscalers, and PodDisruptionBudgets. Each chart includes helm-unittest test suites that verify template rendering with different value combinations. Polaris integration scores generated resources against security and reliability best practices, flagging issues like missing resource limits, running as root, or absent health checks. The skill supports Helm library charts for shared templates and handles chart dependencies with proper version constraints in Chart.yaml.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill helm-chart-template-scaffolder -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install helm-chart-template-scaffolder
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,60 +1,26 @@
 ---
-name: "PostgreSQL Query Diagnostics"
+title: "PostgreSQL Query Diagnostics"
 description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation."
-category: "Runbooks & Diagnostics"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "postgresql-query-diagnostics"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-diagnostics/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # PostgreSQL Query Diagnostics
 
 Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation.
 
-The PostgreSQL Query Diagnostics skill automates database performance troubleshooting by querying PostgreSQL system catalogs and statistics views. It leverages pg_stat_statements to identify the most resource-intensive queries by total execution time, calls, and block I/O, and cross-references with pg_stat_activity to detect long-running or blocked sessions.
-
-
-
-This skill parses EXPLAIN ANALYZE output to identify performance bottlenecks including sequential scans on large tables, nested loop joins with high row estimates, and sort operations spilling to disk. It generates optimization recommendations including index suggestions based on pg_stat_user_tables and pg_stat_user_indexes data showing scan patterns.
-
-
-
-Integration with pgBadger enables historical log analysis, identifying query patterns over time and correlating performance degradation with specific deployment events. The skill also monitors pg_stat_bgwriter and pg_stat_wal for checkpoint frequency and WAL generation rates that may indicate write amplification.
-
-
-
-Additional diagnostics cover connection pool saturation detection, vacuum and autovacuum monitoring through pg_stat_all_tables dead tuple counts, and lock contention analysis via pg_locks joined with pg_stat_activity.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill postgresql-query-diagnostics -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install postgresql-query-diagnostics
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

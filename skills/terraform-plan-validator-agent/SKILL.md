@@ -1,60 +1,26 @@
 ---
-name: "Terraform Plan Validator Agent"
+title: "Terraform Plan Validator Agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
-category: "CI/CD Integrations"
-framework: "Cursor"
-verification: security_reviewed
+slug: "terraform-plan-validator-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # Terraform Plan Validator Agent
 
 Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.
 
-The Terraform Plan Validator Agent runs terraform plan with JSON output (-out=plan.bin, terraform show -json plan.bin) and pipes results through tfsec and Checkov for security and compliance validation. It catches misconfigurations before infrastructure changes are applied.
-
-
-
-The agent parses the Terraform plan JSON to detect resource additions, modifications, and destructions. It flags high-risk changes like security group rule modifications, IAM policy changes, and public access enablement on storage resources. Cost estimation is performed via Infracost API integration.
-
-
-
-Checkov scans cover CIS benchmarks for AWS, Azure, and GCP including encryption at rest, logging enablement, network isolation, and least-privilege IAM. Custom Checkov policies in Python or YAML target organization-specific compliance requirements.
-
-
-
-Tfsec rules detect hardcoded credentials, overly permissive security groups, unencrypted data stores, and missing resource tags. The agent generates pull request comments with severity-sorted findings, suggested fixes, and compliance framework mapping (SOC2, HIPAA, PCI-DSS). Failed checks block terraform apply through CI pipeline integration.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-plan-validator-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-plan-validator-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

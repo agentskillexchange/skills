@@ -1,56 +1,26 @@
 ---
-name: "AssemblyAI LeMUR Summarizer"
-description: "Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
-category: "Media & Transcription"
-framework: "Gemini"
-verification: security_reviewed
+title: "AssemblyAI LeMUR Summarizer"
+description: "Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
+slug: "assemblyai-lemur-summarizer-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/"
+category:
+  - "Media &amp; Transcription"
 ---
+
 # AssemblyAI LeMUR Summarizer
 
-Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
-
-AssemblyAI LeMUR Summarizer combines AssemblyAI’s speech-to-text pipeline with its LeMUR large language model for end-to-end audio understanding. It first submits audio to /v2/transcript with parameters like speaker_labels: true, auto_chapters: true, and entity_detection: true.
-
-
-
-Once transcription completes, the agent chains results to LeMUR via /lemur/v3/generate/summary for intelligent summarization that understands context, speaker intent, and discussion topics. It also uses /lemur/v3/generate/action-items for extracting actionable takeaways and /lemur/v3/generate/questions-answers for Q&A extraction.
-
-
-
-Supports custom LeMUR prompts via the context and answer_format parameters for domain-specific summaries (legal depositions, medical consultations, earnings calls). Handles real-time streaming via WebSocket at wss://api.assemblyai.com/v2/realtime/ws with interim results. Outputs structured JSON with chapters, entities, sentiment analysis per utterance, and content safety labels.
+Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill assemblyai-lemur-summarizer-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill assemblyai-lemur-summarizer-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill assemblyai-lemur-summarizer-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill assemblyai-lemur-summarizer-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install assemblyai-lemur-summarizer-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

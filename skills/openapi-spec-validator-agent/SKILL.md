@@ -1,48 +1,26 @@
 ---
-name: "OpenAPI Spec Validator"
+title: "OpenAPI Spec Validator"
 description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides."
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "openapi-spec-validator-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
+category:
+  - "Developer Tools"
 ---
+
 # OpenAPI Spec Validator
 
 Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides.
 
-The OpenAPI Spec Validator skill performs comprehensive validation of OpenAPI 3.0 and 3.1 specifications using the Spectral CLI linting engine with custom and built-in rulesets. It parses specifications using the Swagger Parser library to resolve $ref references, validate schema correctness, and detect circular references. The skill compares specification versions to identify breaking changes including removed endpoints, narrowed parameter types, and new required fields using the oasdiff library. Features include custom Spectral rule authoring for organization-specific API standards, security scheme validation against OWASP API Security Top 10, and automated SDK generation compatibility checking. Supports bulk validation across API gateway configurations, mock server generation from examples using Prism, and API documentation quality scoring based on description coverage and example completeness.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill openapi-spec-validator-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install openapi-spec-validator-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

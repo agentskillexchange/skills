@@ -1,52 +1,26 @@
 ---
-name: "Terraform Module Template Engine"
+title: "Terraform Module Template Engine"
 description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
-category: "Templates & Workflows"
-framework: "Gemini"
-verification: security_reviewed
+slug: "terraform-module-template-engine"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Terraform Module Template Engine
 
 Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
 
-Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.
-
-
-
-This skill provides automated tooling for terraform module template engine workflows. It integrates directly with your development pipeline, offering configurable scanning depth, custom rule definitions, and structured output formats compatible with major CI/CD platforms. The agent handles authentication, rate limiting, and retry logic internally, so you can focus on reviewing results rather than managing infrastructure. Supports both interactive and headless operation modes with JSON and SARIF output for downstream processing. Includes built-in caching to minimize redundant API calls across sequential runs.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-engine
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-module-template-engine -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-module-template-engine
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

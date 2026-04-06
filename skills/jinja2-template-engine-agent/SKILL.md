@@ -1,60 +1,26 @@
 ---
-name: "Jinja2 Template Engine"
+title: "Jinja2 Template Engine"
 description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
-category: "Templates & Workflows"
-framework: "Gemini"
-verification: security_reviewed
+slug: "jinja2-template-engine-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Jinja2 Template Engine
 
 Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
 
-The Jinja2 Template Engine skill provides automated template rendering using the Jinja2 templating language. It creates a sandboxed Environment with FileSystemLoader for template discovery and supports full template inheritance chains via extends and block directives.
-
-
-
-Core capabilities include variable injection from JSON/YAML data sources, macro expansion with parameterized includes, and custom filter registration using the Environment.filters API. The skill handles autoescaping for HTML output and supports Markup-safe string operations.
-
-
-
-Advanced features include async template rendering via Environment.enable_async(), template compilation to Python bytecode for performance, and internationalization support through the jinja2.ext.i18n extension with Babel message catalogs. Error handling provides detailed TemplateSyntaxError diagnostics with line numbers and source context.
-
-
-
-The skill can generate configuration files, email templates, documentation pages, and infrastructure-as-code manifests from parameterized templates.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill jinja2-template-engine-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install jinja2-template-engine-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

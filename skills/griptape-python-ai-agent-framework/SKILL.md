@@ -1,72 +1,26 @@
 ---
-name: "Griptape Modular Python AI Agent and Workflow Framework"
+title: "Griptape Modular Python AI Agent and Workflow Framework"
 description: "Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools, and memory. It provides Agents, Pipelines, and Workflows as core structures, with pluggable drivers for LLMs, embeddings, vector stores, and more."
-category: "Developer Tools"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "griptape-python-ai-agent-framework"
+verification: "security_reviewed"
 source: "https://github.com/griptape-ai/griptape"
+category:
+  - "Developer Tools"
 ---
+
 # Griptape Modular Python AI Agent and Workflow Framework
 
 Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools, and memory. It provides Agents, Pipelines, and Workflows as core structures, with pluggable drivers for LLMs, embeddings, vector stores, and more.
 
-Griptape is a Python framework designed to simplify the development of generative AI applications. It provides flexible abstractions for working with Large Language Models, Retrieval-Augmented Generation pipelines, tool use, and multi-agent orchestration, all in a modular, composable architecture.
-
-
-
-The framework organizes AI work through three core structure types. Agents consist of a single Task configured for agent-specific behavior — the simplest starting point. Pipelines organize a sequence of Tasks where output flows from one to the next. Workflows configure Tasks to operate in parallel, enabling complex DAG-based execution patterns.
-
-
-
-Memory management is a first-class concern in Griptape. Conversation Memory enables LLMs to retain and retrieve information across interactions. Task Memory keeps large or sensitive Task outputs off the prompt sent to the LLM, preventing context window overflow. Meta Memory passes additional metadata to the LLM to enhance context and relevance.
-
-
-
-Drivers are the integration layer. Prompt Drivers manage interactions with LLMs from OpenAI, Anthropic, Google, AWS Bedrock, and others. Embedding Drivers generate vector embeddings. Vector Store Drivers connect to Pinecone, Weaviate, Qdrant, and other stores. File Manager Drivers handle local and cloud storage. SQL Drivers interact with databases. Image Generation Drivers connect to DALL-E, Stable Diffusion, and other services. Additional drivers cover text-to-speech, audio transcription, web search, web scraping, and observability.
-
-
-
-Tools provide capabilities for LLMs to interact with external data and services. Griptape ships with built-in tools for web search, file operations, SQL queries, API calls, and more. Creating custom tools follows a straightforward pattern: define a Python class with methods decorated as tool actions, and the framework handles schema generation and LLM integration automatically.
-
-
-
-Engines wrap drivers for specific use cases. The RAG Engine implements modular retrieval-augmented generation pipelines. The Extraction Engine pulls structured JSON or CSV data from unstructured text. The Summary Engine generates summaries. The Eval Engine scores output quality. Rulesets steer LLM behavior with minimal prompt engineering.
-
-
-
-Installation is via pip: pip install griptape. The framework requires Python 3.10+ and integrates with standard Python tooling. Documentation is hosted on ReadTheDocs, and Griptape Trade School offers free online courses for learning the framework. The project is open source under the Apache 2.0 license with active development on GitHub.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill griptape-python-ai-agent-framework
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill griptape-python-ai-agent-framework -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill griptape-python-ai-agent-framework -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill griptape-python-ai-agent-framework -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install griptape-python-ai-agent-framework
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,49 +1,29 @@
 ---
-name: "Hugging Face Transformers — Machine Learning Model Library"
+title: "Hugging Face Transformers — Machine Learning Model Library"
 description: "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment."
-category: "Developer Tools"
-framework: "Multi-Framework"
-verification: listed
+slug: "hugging-face-transformers-ml-library"
+verification: "listed"
 source: "https://github.com/huggingface/transformers"
+category:
+  - "Developer Tools"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 158855
 ---
+
 # Hugging Face Transformers — Machine Learning Model Library
 
 Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill hugging-face-transformers-ml-library
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill hugging-face-transformers-ml-library -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill hugging-face-transformers-ml-library -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill hugging-face-transformers-ml-library -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install hugging-face-transformers-ml-library
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

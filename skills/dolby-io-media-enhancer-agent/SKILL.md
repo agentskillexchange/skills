@@ -1,56 +1,26 @@
 ---
-name: "Dolby.io Media Enhancer"
+title: "Dolby.io Media Enhancer"
 description: "Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint."
-category: "Media & Transcription"
-framework: "Cursor"
-verification: security_reviewed
+slug: "dolby-io-media-enhancer-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
+category:
+  - "Media &amp; Transcription"
 ---
+
 # Dolby.io Media Enhancer
 
 Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint.
 
-Dolby.io Media Enhancer leverages Dolby’s cloud-based media processing APIs to improve audio and video quality programmatically. It uses the /media/enhance REST endpoint with Bearer token authentication to submit media files for processing.
-
-
-
-For audio enhancement, the agent configures noise reduction with noise.reduction.amount: high, speech isolation, loudness normalization to EBU R128 (-23 LUFS) or ATSC A/85 standards, and dynamic range compression. It supports input formats including WAV, MP3, AAC, and OGG via presigned URL upload to Dolby’s /media/input endpoint.
-
-
-
-Video enhancement includes automatic content-aware upscaling, color correction, and bandwidth optimization. The agent polls job status via /media/enhance?job_id={id} with configurable intervals and retrieves processed output from /media/output. Supports webhook callbacks for async pipeline integration. Includes batch processing mode for multiple files with job queuing and priority management.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill dolby-io-media-enhancer-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install dolby-io-media-enhancer-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

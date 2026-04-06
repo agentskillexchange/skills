@@ -1,48 +1,26 @@
 ---
-name: "SSL/TLS Certificate Validator and Monitor"
+title: "SSL/TLS Certificate Validator and Monitor"
 description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading."
-category: "Security & Verification"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "ssl-tls-certificate-validator-monitor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
+category:
+  - "Security &amp; Verification"
 ---
+
 # SSL/TLS Certificate Validator and Monitor
 
 Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading.
 
-This skill provides comprehensive SSL/TLS certificate validation and monitoring for web services. It uses OpenSSL s_client to connect and extract certificate chains, validating each certificate for proper chain of trust, key sizes, and signature algorithms. The skill queries crt.sh Certificate Transparency logs to discover all certificates issued for a domain, identifying unauthorized or misissued certificates. It checks OCSP stapling configuration and responder availability, validates HSTS headers and preload list inclusion, and tests for deprecated protocol versions (SSLv3, TLS 1.0/1.1). Integration with the Qualys SSLLabs API provides industry-standard grading with detailed findings on cipher suite configuration, forward secrecy support, and vulnerability exposure (BEAST, POODLE, Heartbleed). The skill monitors certificate expiry dates and sends alerts at configurable thresholds, checks CAA DNS records for issuance authorization, and verifies DANE/TLSA records when present.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-monitor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-monitor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-monitor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill ssl-tls-certificate-validator-monitor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install ssl-tls-certificate-validator-monitor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

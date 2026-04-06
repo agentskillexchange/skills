@@ -1,80 +1,26 @@
 ---
-name: "Trivy Container Security Scanner"
+title: "Trivy Container Security Scanner"
 description: "Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration."
-category: "Security & Verification"
-framework: "Codex"
-verification: security_reviewed
+slug: "trivy-container-security-scanner"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
+category:
+  - "Security &amp; Verification"
 ---
+
 # Trivy Container Security Scanner
 
 Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
 
-Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
-
-
-
-Overview
-
-This skill provides automated integration capabilities designed for production agent workflows. It handles authentication, rate limiting, and error recovery out of the box, allowing agents to focus on high-level task orchestration rather than low-level API management.
-
-
-
-Key Features
-
-
-
-- Automatic retry logic with exponential backoff for API rate limits
-
-
-
-- Structured output formatting compatible with downstream agent pipelines
-
-
-
-- Comprehensive error handling with actionable diagnostic messages
-
-
-
-- Configurable caching layer to reduce redundant API calls
-
-
-
-Usage
-
-Install via the Agent Skill Exchange registry and configure with your API credentials. The skill exposes a standardized interface that works across supported agent frameworks, with framework-specific optimizations applied automatically during initialization.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill trivy-container-security-scanner
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill trivy-container-security-scanner -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install trivy-container-security-scanner
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

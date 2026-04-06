@@ -1,51 +1,29 @@
 ---
-name: "Sentry Issue Spike Detection Agent"
+title: "Sentry Issue Spike Detection Agent"
 description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
-category: "Monitoring & Alerts"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "sentry-issue-spike-detection-agent"
+verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry"
+category:
+  - "Monitoring &amp; Alerts"
 tool_ecosystem:
   github_repo: "getsentry/sentry"
   github_stars: 43486
 ---
+
 # Sentry Issue Spike Detection Agent
 
 Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels.
 
-The Sentry Issue Spike Detection Agent connects to your Sentry organization using the Sentry Web API and continuously monitors issue event frequency across projects. It fetches recent events via the /api/0/organizations/{org}/issues/ endpoint with statsperiod and query parameters, computing rolling averages and standard deviations over configurable windows. When event frequency exceeds the baseline by a configurable multiplier, the agent classifies it as a spike and generates a structured alert containing the issue title, stack trace summary, affected users count, and first/last seen timestamps. Alerts can be routed to Slack via the Slack Web API, email via SMTP, or custom webhooks. The agent also groups related spikes using Sentry’s issue grouping metadata and suppresses duplicate notifications within a cooldown period. It supports Sentry DSN-based project filtering and can query the Sentry Releases API to correlate spikes with recent deployments.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill sentry-issue-spike-detection-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill sentry-issue-spike-detection-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill sentry-issue-spike-detection-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill sentry-issue-spike-detection-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install sentry-issue-spike-detection-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

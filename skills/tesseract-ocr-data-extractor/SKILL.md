@@ -1,60 +1,26 @@
 ---
-name: "Tesseract OCR Data Extractor"
+title: "Tesseract OCR Data Extractor"
 description: "Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames."
-category: "Data Extraction & Transformation"
-framework: "Gemini"
-verification: security_reviewed
+slug: "tesseract-ocr-data-extractor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
+category:
+  - "Data Extraction &amp; Transformation"
 ---
+
 # Tesseract OCR Data Extractor
 
 Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table detection via OpenCV contour analysis and outputs to CSV, JSON, or Pandas DataFrames.
 
-The Tesseract OCR Data Extractor combines the Tesseract 5 LSTM OCR engine with OpenCV preprocessing for high-accuracy text extraction from scanned documents, receipts, invoices, and forms. It handles multi-language recognition with traineddata models for over 100 languages.
-
-
-
-Image preprocessing pipeline includes deskewing via Hough line transform, adaptive thresholding with Otsu method, noise reduction using morphological operations, and resolution upscaling with Lanczos interpolation. These steps significantly improve recognition accuracy on low-quality scans.
-
-
-
-Table detection uses OpenCV contour analysis to identify grid structures, separating cell boundaries through horizontal and vertical line detection with cv2.getStructuringElement kernels. Extracted table data maintains row-column relationships and exports to CSV, JSON, or Pandas DataFrames for downstream analysis.
-
-
-
-The skill supports PDF input via pdf2image conversion with Poppler, batch processing of multi-page documents, and confidence scoring per recognized word. Custom vocabulary lists and user patterns improve domain-specific accuracy for medical, legal, and financial documents. Output includes bounding box coordinates for each text region enabling overlay visualization.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill tesseract-ocr-data-extractor -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install tesseract-ocr-data-extractor
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

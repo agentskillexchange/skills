@@ -1,52 +1,26 @@
 ---
-name: "Notion Database Sync Bridge"
+title: "Notion Database Sync Bridge"
 description: "Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy."
-category: "Calendar, Email & Productivity"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "notion-database-sync-bridge"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
+category:
+  - "Calendar, Email &amp; Productivity"
 ---
+
 # Notion Database Sync Bridge
 
 Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
 
-Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
-
-
-
-This skill provides comprehensive automation for its target domain with production-ready error handling and logging. It implements retry mechanisms with configurable backoff strategies, validates all inputs against JSON Schema definitions, and produces structured output compatible with downstream processing pipelines. Authentication is handled through OAuth 2.0 flows or API key rotation with secure storage in environment variables or secret managers like HashiCorp Vault. The skill supports dry-run mode for safe testing, emits OpenTelemetry traces for distributed debugging, and includes comprehensive unit test coverage with mock fixtures for offline development.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill notion-database-sync-bridge
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-database-sync-bridge -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-database-sync-bridge -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill notion-database-sync-bridge -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install notion-database-sync-bridge
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

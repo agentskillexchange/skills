@@ -1,56 +1,26 @@
 ---
-name: "Headless CMS GraphQL Connector"
+title: "Headless CMS GraphQL Connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
-category: "WordPress & CMS"
-framework: "Gemini"
-verification: security_reviewed
+slug: "headless-cms-graphql-connector"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
+category:
+  - "WordPress &amp; CMS"
 ---
+
 # Headless CMS GraphQL Connector
 
 Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds.
 
-This skill bridges headless CMS platforms with modern frontend frameworks using GraphQL as the unified query layer. It supports WordPress via WPGraphQL, Strapi v4 GraphQL plugin, and Contentful GraphQL Content API, providing normalized data fetching regardless of the backend CMS.
-
-
-
-Client-side integration uses Apollo Client or urql with automatic cache management, optimistic UI updates, and subscription support for real-time content changes. Query generation handles nested content relationships, image transformations via CMS-specific APIs (WordPress srcset, Contentful Images API, Strapi media), and locale-aware content fetching for multilingual sites.
-
-
-
-Build integration supports Incremental Static Regeneration (ISR) with Next.js and on-demand revalidation triggered by CMS webhooks. Content preview mode enables editors to see draft changes in the frontend before publishing. The skill handles authentication for protected content, rate limiting for API quotas, and graceful fallbacks when the CMS is unreachable.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill headless-cms-graphql-connector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install headless-cms-graphql-connector
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

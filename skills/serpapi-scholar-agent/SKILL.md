@@ -1,60 +1,26 @@
 ---
-name: "SerpAPI Scholar Agent"
+title: "SerpAPI Scholar Agent"
 description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
-category: "Research & Scraping"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "serpapi-scholar-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
+category:
+  - "Research &amp; Scraping"
 ---
+
 # SerpAPI Scholar Agent
 
 Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API.
 
-The SerpAPI Scholar Agent skill enables Claude to conduct systematic academic research by querying Google Scholar through the SerpAPI REST interface. It retrieves paper metadata, citation counts, author profiles, and related works for any given topic or researcher.
-
-
-
-Key capabilities include building citation graphs that map how papers reference each other, computing h-index and i10-index for author evaluation, and identifying co-author networks. The skill handles pagination across large result sets and deduplicates entries from multiple queries.
-
-
-
-Output formats include BibTeX for direct import into LaTeX projects, structured JSON for programmatic analysis, and markdown summaries for quick review. The skill cross-references results with the Semantic Scholar API to enrich metadata with abstract text, venue information, and open-access PDF links when available.
-
-
-
-Designed for graduate students, researchers, and technical writers who need to quickly survey a field, identify seminal papers, or verify citation claims. Rate limiting and caching prevent excessive API calls during iterative searches.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-scholar-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-scholar-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-scholar-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-scholar-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install serpapi-scholar-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

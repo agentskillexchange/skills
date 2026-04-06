@@ -1,60 +1,26 @@
 ---
-name: "SonarQube Quality Gate Agent"
+title: "SonarQube Quality Gate Agent"
 description: "Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul, and lcov formats for multi-language projects."
-category: "Code Quality & Review"
-framework: "ChatGPT Agents"
-verification: security_reviewed
+slug: "sonarqube-quality-gate-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
+category:
+  - "Code Quality &amp; Review"
 ---
+
 # SonarQube Quality Gate Agent
 
 Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul, and lcov formats for multi-language projects.
 
-The SonarQube Quality Gate Agent skill integrates with SonarQube and SonarCloud instances via the SonarQube Web API to monitor and enforce code quality standards across pull requests and branches. It retrieves quality gate results, coverage metrics, and issue breakdowns for automated decision-making in CI/CD pipelines.
-
-
-
-The agent parses multiple coverage report formats including JaCoCo XML for Java/Kotlin projects, Istanbul JSON and lcov for JavaScript/TypeScript, and Cobertura XML for Python and .NET projects. It normalizes these into a unified coverage model for cross-language quality comparisons.
-
-
-
-For quality gate enforcement, the skill evaluates conditions against configurable thresholds including overall coverage percentage, new code coverage, duplicated line density, code smell count, bug count, vulnerability count, and security hotspot review percentage. It supports custom quality profiles and can apply different thresholds per project component.
-
-
-
-Integration with the GitHub Status API and GitLab Commit Status API enables automatic PR blocking when quality gates fail. The skill generates detailed HTML reports with drill-down links to specific SonarQube issues and provides trend analysis comparing current metrics against historical baselines.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install sonarqube-quality-gate-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

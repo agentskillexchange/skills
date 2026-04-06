@@ -1,56 +1,26 @@
 ---
-name: "Playwright Visual Regression Suite"
-description: "Automated visual regression testing using Playwright’s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
-category: "Browser Automation"
-framework: "Codex"
-verification: security_reviewed
+title: "Playwright Visual Regression Suite"
+description: "Automated visual regression testing using Playwright&#8217;s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
+slug: "playwright-visual-regression-suite"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-suite/"
+category:
+  - "Browser Automation"
 ---
+
 # Playwright Visual Regression Suite
 
-Automated visual regression testing using Playwright’s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit.
-
-The Playwright Visual Regression Suite automates UI consistency checks using Playwright’s built-in screenshot comparison capabilities. It leverages page.screenshot() with configurable options including fullPage captures, element-level screenshots via locator.screenshot(), and clip regions for specific viewport areas.
-
-
-
-The skill uses expect(screenshot).toMatchSnapshot() with tunable thresholds: maxDiffPixels for absolute pixel differences and maxDiffPixelRatio for percentage-based tolerance. It supports cross-browser baselines across Chromium, Firefox, and WebKit, maintaining separate golden files per browser and viewport size.
-
-
-
-Advanced features include animation disabling via page.evaluate to freeze CSS transitions, font anti-aliasing normalization for CI environments, and dark/light theme variant testing. The suite integrates with Playwright’s test runner for parallel execution, generates HTML diff reports showing before/after/difference overlays, and supports baseline update workflows via –update-snapshots flag. CI integration includes GitHub Actions artifacts for failed screenshot storage.
+Automated visual regression testing using Playwright&#8217;s screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill playwright-visual-regression-suite
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-visual-regression-suite -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-visual-regression-suite -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-visual-regression-suite -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install playwright-visual-regression-suite
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,56 +1,26 @@
 ---
-name: "Systemd Service Debugger"
+title: "Systemd Service Debugger"
 description: "Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and generates fix recommendations."
-category: "Runbooks & Diagnostics"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "systemd-service-debugger"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/systemd-service-debugger/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Systemd Service Debugger
 
 Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and generates fix recommendations.
 
-The Systemd Service Debugger skill provides automated diagnosis of failed systemd services on Linux systems. It uses journalctl for log analysis, systemctl for unit status inspection, and the systemd D-Bus org.freedesktop.systemd1 API for deep introspection of unit properties and dependency chains.
-
-
-
-When a service enters failed state, the skill retrieves the full journal output using journalctl -u {service} –since {timestamp} with structured JSON output format. It parses ExecStart command failures, identifying common issues like missing binaries, permission denied errors, port binding conflicts, and missing configuration files.
-
-
-
-Dependency analysis walks the unit After/Requires/Wants chain using the org.freedesktop.systemd1.Manager.GetUnit D-Bus method to identify cascading failures. Resource limit checking compares configured LimitNOFILE, MemoryMax, and CPUQuota values against actual usage from systemd-cgtop data. The skill also validates socket activation configurations, checks SELinux/AppArmor contexts, and inspects namespace isolation settings. Each diagnosis includes a priority-ranked list of remediation steps with the exact commands to execute.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill systemd-service-debugger
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill systemd-service-debugger -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill systemd-service-debugger -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill systemd-service-debugger -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install systemd-service-debugger
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

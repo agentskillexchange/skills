@@ -1,48 +1,26 @@
 ---
-name: "Vite Plugin Hot Module Analyzer"
+title: "Vite Plugin Hot Module Analyzer"
 description: "Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws WebSocket events. Identifies slow module boundaries, circular dependency hot paths, and generates flamegraph-compatible output for Chrome DevTools Performance panel."
-category: "Developer Tools"
-framework: "Cursor"
-verification: security_reviewed
+slug: "vite-plugin-hmr-analyzer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
+category:
+  - "Developer Tools"
 ---
+
 # Vite Plugin Hot Module Analyzer
 
 Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws WebSocket events. Identifies slow module boundaries, circular dependency hot paths, and generates flamegraph-compatible output for Chrome DevTools Performance panel.
 
-The Vite Plugin Hot Module Analyzer inspects your Vite development server’s HMR pipeline in real time. It hooks into the Vite plugin API via the handleHotUpdate() lifecycle to intercept module graph changes, then correlates these with WebSocket frame timestamps from the Vite dev server’s ws connection. The agent identifies modules that consistently trigger full-page reloads instead of surgical HMR updates, flags circular import chains that cause cascading invalidation, and benchmarks update latency per module boundary. Output includes a JSON trace compatible with Chrome DevTools Performance panel import, plus a ranked list of the slowest HMR chains. It leverages vite.createServer() internals, the ModuleGraph API, and ssrLoadModule for server-side module tracing. Particularly useful for large monorepo setups using Turborepo or Nx where HMR performance degrades as the module graph grows beyond 5,000 nodes.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill vite-plugin-hmr-analyzer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill vite-plugin-hmr-analyzer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill vite-plugin-hmr-analyzer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill vite-plugin-hmr-analyzer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install vite-plugin-hmr-analyzer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

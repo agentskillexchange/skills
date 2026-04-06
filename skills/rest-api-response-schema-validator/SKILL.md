@@ -1,48 +1,26 @@
 ---
-name: "REST API Response Schema Validator"
+title: "REST API Response Schema Validator"
 description: "Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches."
-category: "Library & API Reference"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "rest-api-response-schema-validator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # REST API Response Schema Validator
 
 Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches.
 
-The REST API Response Schema Validator uses Ajv (Another JSON Schema Validator) to validate live API endpoint responses against their documented JSON Schema definitions. It extracts response schemas from OpenAPI 3.x specification files, resolving component references and allOf/oneOf/anyOf compositions into flattened validation schemas. The skill makes HTTP requests to configured endpoints using axios with customizable authentication headers, then validates each response body against its expected schema. It detects type mismatches, missing required fields, undocumented extra fields (additionalProperties violations), format constraint failures (date-time, email, URI), and enum value deviations. The validator supports parameterized endpoint testing with variable substitution for path parameters and query strings. Results are compiled into a compatibility report showing schema compliance percentage per endpoint, with detailed error paths for failures. It integrates into CI pipelines as a contract testing step to catch API drift between documentation and implementation.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill rest-api-response-schema-validator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill rest-api-response-schema-validator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill rest-api-response-schema-validator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill rest-api-response-schema-validator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install rest-api-response-schema-validator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

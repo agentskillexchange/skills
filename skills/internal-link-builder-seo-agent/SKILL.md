@@ -1,48 +1,26 @@
 ---
-name: "Internal Link Builder"
+title: "Internal Link Builder"
 description: "Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms."
-category: "Content Writing & SEO"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "internal-link-builder-seo-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-builder-seo-agent/"
+category:
+  - "Content Writing &amp; SEO"
 ---
+
 # Internal Link Builder
 
 Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms.
 
-The Internal Link Builder analyzes website content structure to optimize internal linking for SEO performance. It uses the Screaming Frog SEO Spider API to crawl the site and build a complete link graph including anchor text, follow/nofollow attributes, and HTTP status codes. The skill calculates internal PageRank distribution using the networkx Python library with customizable damping factors to identify pages that need more internal link equity. Orphan pages with zero internal links are automatically detected and matched with semantically related content using TF-IDF vectorization via scikit-learn. The skill generates specific linking recommendations with suggested anchor text variants that avoid over-optimization penalties. Content gap analysis identifies topical clusters with weak interconnection using community detection algorithms from the python-louvain library. For WordPress sites, recommendations can be automatically implemented via the WordPress REST API by injecting contextual links into post content. Reports include interactive D3.js force-directed graph visualizations of the site’s link structure with PageRank-sized nodes.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill internal-link-builder-seo-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill internal-link-builder-seo-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill internal-link-builder-seo-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill internal-link-builder-seo-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install internal-link-builder-seo-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

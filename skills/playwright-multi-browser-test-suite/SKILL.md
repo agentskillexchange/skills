@@ -1,48 +1,26 @@
 ---
-name: "Playwright Multi-Browser Test Suite"
+title: "Playwright Multi-Browser Test Suite"
 description: "Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking."
-category: "Browser Automation"
-framework: "Cursor"
-verification: security_reviewed
+slug: "playwright-multi-browser-test-suite"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/"
+category:
+  - "Browser Automation"
 ---
+
 # Playwright Multi-Browser Test Suite
 
 Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking.
 
-The Playwright Multi-Browser Test Suite skill creates comprehensive end-to-end testing workflows using Playwright. It leverages the Playwright Test Runner API to generate test files with proper fixture setup, page object models, and parallel execution configuration across Chromium, Firefox, and WebKit browsers. Visual regression testing is implemented through the Playwright Screenshots API with configurable comparison thresholds, mask regions for dynamic content, and automatic baseline management. The skill configures network request interception for API mocking, enabling isolated frontend testing without backend dependencies. It supports trace recording via Playwright Trace Viewer for debugging failed tests, video capture of test runs for visual review, and HAR file generation for network analysis. Test generation includes accessibility checks using the Playwright accessibility snapshot API, geolocation and locale emulation for internationalization testing, and mobile device emulation with custom viewport configurations. The skill integrates with CI systems through proper reporter configuration including HTML, JSON, and JUnit output formats.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-suite
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-suite -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-suite -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill playwright-multi-browser-test-suite -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install playwright-multi-browser-test-suite
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

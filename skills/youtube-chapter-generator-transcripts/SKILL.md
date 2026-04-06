@@ -1,62 +1,26 @@
 ---
-name: "YouTube Chapter Generator from Transcripts"
+title: "YouTube Chapter Generator from Transcripts"
 description: "Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance."
-category: "Media & Transcription"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "youtube-chapter-generator-transcripts"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
+category:
+  - "Media &amp; Transcription"
 ---
+
 # YouTube Chapter Generator from Transcripts
 
 Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter markers. Uses sentence-transformers for topic segmentation and formats chapter timestamps for YouTube description metadata compliance.
 
-Overview
-
-The YouTube Chapter Generator analyzes video transcripts to automatically create semantically meaningful chapter markers that enhance viewer navigation and SEO discoverability. It uses natural language processing to identify topic boundaries within long-form video content.
-
-
-
-Key Capabilities
-
-This skill extracts transcripts using the youtube-transcript-api Python library, supporting both auto-generated and manual captions across multiple languages. It applies sentence-transformers models for computing semantic similarity between transcript segments, identifying natural topic transition points through embedding cosine distance analysis.
-
-
-
-Chapter Generation
-
-Segments are clustered using a sliding window approach with configurable minimum chapter duration and similarity thresholds. Each chapter receives an auto-generated title based on extractive summarization of the segment content. Output is formatted as YouTube-compatible chapter timestamps (00:00 format) with titles that comply with YouTube’s description metadata requirements and character limits for optimal search result display.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill youtube-chapter-generator-transcripts -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install youtube-chapter-generator-transcripts
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

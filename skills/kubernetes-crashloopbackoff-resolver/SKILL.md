@@ -1,56 +1,26 @@
 ---
-name: "Kubernetes CrashLoopBackOff Resolver"
-description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
-category: "Runbooks & Diagnostics"
-framework: "Cursor"
-verification: security_reviewed
+title: "Kubernetes CrashLoopBackOff Resolver"
+description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs &#8211;previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
+slug: "kubernetes-crashloopbackoff-resolver"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Kubernetes CrashLoopBackOff Resolver
 
-Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
-
-The Kubernetes CrashLoopBackOff Resolver automates diagnosis of pods stuck in CrashLoopBackOff state using the Kubernetes API server. It queries the /api/v1/namespaces/{ns}/pods endpoint to identify failing pods, then retrieves container status details including exit codes, restart counts, and last termination reasons.
-
-
-
-The agent uses kubectl logs –previous to capture logs from the last crashed container instance, parsing for common failure patterns including uncaught exceptions, missing environment variables, and failed health check responses. It integrates with the container runtime via crictl inspect to examine container-level resource limits, security contexts, and volume mount configurations.
-
-
-
-For OOMKilled events, it queries the Kubernetes Metrics API via metrics-server to analyze memory usage trends leading up to the kill. It checks ConfigMap and Secret references via the Kubernetes API, validates image availability using the Docker Registry HTTP API v2 /manifests endpoint, and verifies node resource pressure conditions through the Node Status API. Remediation suggestions include resource limit adjustments, probe timing recommendations, and init container dependency fixes.
+Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs &#8211;previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
 
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-resolver -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install kubernetes-crashloopbackoff-resolver
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

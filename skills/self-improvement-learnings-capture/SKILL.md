@@ -1,74 +1,26 @@
 ---
-name: "Self-Improvement / Learnings Capture"
+title: "Self-Improvement / Learnings Capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
-category: "Templates & Workflows"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "self-improvement-learnings-capture"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Self-Improvement / Learnings Capture
 
 Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions.
 
-Self-Improvement / Learnings Capture is a workflow skill for turning one-off errors and corrections into durable operating knowledge. Instead of losing lessons between sessions, it helps store them in structured markdown files and promote recurring patterns into workspace guidance.
-
-
-
-Best for
-
-
-
-- logging errors, corrections, and feature gaps into durable files
-
-
-
-- turning recurring mistakes into documented process improvements
-
-
-
-- maintaining operational memory inside OpenClaw workspaces
-
-
-
-Install notes
-
-Install the skill into an OpenClaw workspace with write access to memory and learning files. Optional hooks can be added later for deeper automation, but the core value is already there without them.
-
-
-
-Source: self-improving-agent skill for OpenClaw workflows.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill self-improvement-learnings-capture -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install self-improvement-learnings-capture
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

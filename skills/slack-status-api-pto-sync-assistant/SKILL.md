@@ -1,56 +1,26 @@
 ---
-name: "Slack Status API PTO Sync Assistant"
+title: "Slack Status API PTO Sync Assistant"
 description: "Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep status text aligned with calendar-based time off. Useful for teams that want cleaner presence signals without manually editing every Slack profile."
-category: "Calendar, Email & Productivity"
-framework: "Custom Agents"
-verification: security_reviewed
+slug: "slack-status-api-pto-sync-assistant"
+verification: "security_reviewed"
 source: "https://api.slack.com/"
+category:
+  - "Calendar, Email &amp; Productivity"
 ---
+
 # Slack Status API PTO Sync Assistant
 
 Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep status text aligned with calendar-based time off. Useful for teams that want cleaner presence signals without manually editing every Slack profile.
 
-Slack Status API PTO Sync Assistant is for organizations that rely on Slack presence as a lightweight operating signal and want agents to keep it accurate during vacations, holidays, and planned absences. It uses Slack profile and users endpoints, including status text and expiration fields, to update presence information in a way that matches team availability. That is especially useful when calendar systems already know who is out but Slack status remains stale and teammates end up pinging the wrong people.
-
-
-
-The workflow can compare current status values against planned absences, suggest a status update, and standardize phrasing across a team or department. It also helps avoid inconsistent or forgotten manual edits that make PTO harder to respect. Because it works with Slack’s own profile model rather than an external overlay, the status remains visible where people already look first.
-
-
-
-Use this skill when you want cleaner away-state hygiene, more reliable availability signals, and a simple bridge between time-off data and Slack presence.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill slack-status-api-pto-sync-assistant
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill slack-status-api-pto-sync-assistant -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill slack-status-api-pto-sync-assistant -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill slack-status-api-pto-sync-assistant -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install slack-status-api-pto-sync-assistant
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

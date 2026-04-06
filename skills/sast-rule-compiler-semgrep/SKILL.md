@@ -1,56 +1,26 @@
 ---
-name: "SAST Rule Compiler for Semgrep"
+title: "SAST Rule Compiler for Semgrep"
 description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
-category: "Security & Verification"
-framework: "Codex"
-verification: security_reviewed
+slug: "sast-rule-compiler-semgrep"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/"
+category:
+  - "Security &amp; Verification"
 ---
+
 # SAST Rule Compiler for Semgrep
 
 Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets.
 
-The SAST Rule Compiler for Semgrep skill streamlines the creation and validation of custom Static Application Security Testing rules for the Semgrep engine. It provides an interactive workflow for writing pattern, pattern-either, pattern-not, and taint-mode rules with immediate feedback against test codebases.
-
-
-
-The skill validates rule YAML syntax against the Semgrep rule schema, checks metavariable bindings for consistency, and runs pattern compilation through semgrep-core to catch regex errors and unsupported language features. It includes a benchmark mode that profiles rule performance against large codebases, identifying rules that exceed scan-time budgets.
-
-
-
-For teams using Semgrep App, the skill can push rules to custom rule packs and validate them against the p/ci, p/security-audit, and p/owasp-top-ten rulesets to avoid conflicts. It supports all 30+ languages in Semgrep’s grammar registry and can generate autofix patterns using the fix: directive. Output includes rule coverage reports showing which CWE IDs are addressed and gap analysis against OWASP benchmarks.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill sast-rule-compiler-semgrep
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill sast-rule-compiler-semgrep -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill sast-rule-compiler-semgrep -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill sast-rule-compiler-semgrep -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install sast-rule-compiler-semgrep
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

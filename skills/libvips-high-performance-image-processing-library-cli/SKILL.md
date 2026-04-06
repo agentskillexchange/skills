@@ -1,82 +1,29 @@
 ---
-name: "libvips High-Performance Image Processing Library and CLI"
+title: "libvips High-Performance Image Processing Library and CLI"
 description: "libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like ImageMagick, supports 20+ formats, and powers Sharp, Mastodon, imgproxy, and Ruby on Rails."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
-verification: security_reviewed
+slug: "libvips-high-performance-image-processing-library-cli"
+verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"
+category:
+  - "Image &amp; Creative Automation"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
-  license: "LGPL-2.1"
 ---
+
 # libvips High-Performance Image Processing Library and CLI
 
 libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like ImageMagick, supports 20+ formats, and powers Sharp, Mastodon, imgproxy, and Ruby on Rails.
 
-libvips is a high-performance image processing library written in C that uses a demand-driven, horizontally threaded pipeline architecture. This design means it processes images in small tiles that flow through the operation pipeline on demand, keeping memory usage low while fully utilizing multi-core CPUs. Benchmarks consistently show libvips running faster and using significantly less memory than comparable libraries like ImageMagick and GraphicsMagick.
-
-
-
-Operations and Format Support
-
-libvips provides approximately 300 image processing operations covering arithmetic, histograms, convolution, morphological operations, frequency filtering, colour management (ICC profiles via liblcms), resampling, and statistics. It handles numeric types from 8-bit integer to 128-bit complex, with images supporting any number of bands. Format support includes JPEG, JPEG 2000, JPEG XL, TIFF, PNG, WebP, HEIC, AVIF, FITS, PDF, SVG, HDR, GIF, OpenEXR, DeepZoom, NIfTI, and OpenSlide, with fallback to ImageMagick for additional formats like DICOM.
-
-
-
-Command-Line Interface
-
-libvips includes a CLI tool called vips that exposes all operations as subcommands. Common tasks like thumbnail generation, format conversion, and batch resizing can be performed directly from the terminal. The CLI supports piping and shell scripting, making it straightforward to integrate into automated image processing pipelines.
-
-
-
-Language Bindings
-
-Beyond the native C and C++ APIs, libvips has bindings for Python (pyvips), Ruby (ruby-vips), PHP (php-vips), C#/.NET (NetVips), Go (vips-gen), Lua, Crystal, Elixir (vix), Java (vips-ffm), and Nim. The Node.js Sharp library, one of the most popular image processing packages on npm, uses libvips as its processing engine.
-
-
-
-Real-World Usage
-
-libvips powers image processing in Mastodon (social media), Sharp (Node.js), imgproxy (image CDN proxy), Ruby on Rails Active Storage, CarrierWave, and MediaWiki. Its low memory footprint and high throughput make it the preferred choice for server-side image processing at scale.
-
-
-
-Installation
-
-libvips is available through most Linux package managers (apt install libvips-tools), Homebrew on macOS (brew install vips), and pre-built Windows binaries from GitHub releases. Building from source uses the Meson build system. The library is licensed under LGPL-2.1-or-later.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill libvips-high-performance-image-processing-library-cli -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install libvips-high-performance-image-processing-library-cli
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

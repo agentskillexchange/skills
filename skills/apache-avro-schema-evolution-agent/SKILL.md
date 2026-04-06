@@ -1,48 +1,26 @@
 ---
-name: "Apache Avro Schema Evolution Agent"
+title: "Apache Avro Schema Evolution Agent"
 description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
-category: "Data Extraction & Transformation"
-framework: "MCP"
-verification: security_reviewed
+slug: "apache-avro-schema-evolution-agent"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
+category:
+  - "Data Extraction &amp; Transformation"
 ---
+
 # Apache Avro Schema Evolution Agent
 
 Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically.
 
-The Apache Avro Schema Evolution Agent manages schema lifecycle for event-driven architectures by interfacing with the Confluent Schema Registry REST API. It validates schema changes against compatibility rules (backward, forward, full, and transitive variants) before registration, preventing breaking changes in production Kafka topics. The agent parses Avro IDL and JSON schema formats, detects field additions, removals, type promotions, and default value requirements. It generates migration code for schema transitions, handles union type evolution, and manages subject naming strategies for topic-key and topic-value schemas. The agent supports schema references for complex nested types, provides diff visualization between schema versions, and integrates with CI pipelines to enforce compatibility gates. Includes automatic documentation generation showing schema lineage and consumer impact analysis.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill apache-avro-schema-evolution-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-avro-schema-evolution-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-avro-schema-evolution-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill apache-avro-schema-evolution-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install apache-avro-schema-evolution-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,48 +1,26 @@
 ---
-name: "GraphQL Schema Stitcher"
+title: "GraphQL Schema Stitcher"
 description: "Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check."
-category: "Library & API Reference"
-framework: "MCP"
-verification: security_reviewed
+slug: "graphql-schema-stitcher"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-stitcher/"
+category:
+  - "Library &amp; API Reference"
 ---
+
 # GraphQL Schema Stitcher
 
 Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check.
 
-The GraphQL Schema Stitcher combines multiple GraphQL subgraph schemas into a unified federated API gateway. It implements Apollo Federation v2 composition using @apollo/composition to merge subgraph SDL definitions with proper entity resolution, @key directives, and shared type handling. The tool also supports legacy schema stitching via graphql-tools stitchSchemas for non-federated architectures, automatically generating type merging configuration and delegating resolvers. Before composition, it validates individual subgraph schemas using graphql-js validateSchema and checks federation compliance with rover graph check against Apollo Studio. The stitcher detects conflicting type definitions, missing entity resolvers, and circular reference issues across subgraphs. It generates a composition report showing type ownership, shared fields, and potential breaking changes. For development workflows, it supports hot-reloading of subgraph schemas from local SDL files or introspection endpoints, with automatic recomposition when changes are detected using chokidar file watchers.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-stitcher
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-stitcher -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-stitcher -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill graphql-schema-stitcher -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install graphql-schema-stitcher
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

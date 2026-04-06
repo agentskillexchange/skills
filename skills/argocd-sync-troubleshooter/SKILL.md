@@ -1,60 +1,26 @@
 ---
-name: "ArgoCD Sync Troubleshooter"
+title: "ArgoCD Sync Troubleshooter"
 description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "argocd-sync-troubleshooter"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # ArgoCD Sync Troubleshooter
 
 Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures.
 
-The ArgoCD Sync Troubleshooter skill automates the diagnosis of GitOps synchronization failures in ArgoCD-managed Kubernetes deployments. It connects via the ArgoCD REST API to retrieve application sync status, resource tree structures, and detailed diff information between desired and live states.
-
-
-
-For Helm-based applications, the troubleshooter analyzes rendered manifests against value file hierarchies to identify template rendering failures, missing values, and type mismatches. Kustomize application diagnostics cover overlay application order, strategic merge patch conflicts, and JSON patch validation errors.
-
-
-
-The skill performs deep Kubernetes resource health analysis using ArgoCD’s health assessment framework, checking custom health checks defined in argocd-cm ConfigMap, Lua-based health scripts, and standard resource health indicators (Deployment rollout status, StatefulSet ready replicas, Job completion).
-
-
-
-Sync failure diagnosis includes permission analysis (RBAC errors for the ArgoCD application controller service account), namespace validation, CRD dependency checking, and resource quota evaluation. The troubleshooter generates step-by-step remediation runbooks tailored to each specific failure type with kubectl commands ready for execution.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install argocd-sync-troubleshooter
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

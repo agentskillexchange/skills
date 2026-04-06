@@ -1,51 +1,29 @@
 ---
-name: "ElasticSearch Cluster Vitals Agent"
+title: "ElasticSearch Cluster Vitals Agent"
 description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing."
-category: "Monitoring & Alerts"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "elasticsearch-cluster-vitals-agent"
+verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
+category:
+  - "Monitoring &amp; Alerts"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76426
 ---
+
 # ElasticSearch Cluster Vitals Agent
 
 Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing.
 
-The Elasticsearch Cluster Vitals Agent continuously monitors the health of Elasticsearch clusters by polling critical diagnostic APIs. The _cluster/health endpoint provides overall cluster status, active shard counts, and pending task queues while _nodes/stats delivers per-node metrics including JVM heap utilization, garbage collection frequency, thread pool rejections, and file descriptor usage. Shard allocation is tracked via _cat/shards to identify unassigned or relocating shards that could indicate storage pressure or node failures. The agent implements intelligent alerting through Opsgenie Alert API with severity-based routing that distinguishes between degraded performance warnings and critical cluster failures requiring immediate intervention. JVM heap pressure analysis tracks old generation garbage collection patterns to predict OutOfMemoryError conditions before they crash nodes. Index-level monitoring identifies hot indices consuming disproportionate resources, suggesting ILM policy adjustments or shard rebalancing. Circuit breaker status is monitored to catch request-level memory pressure before it cascades into cluster instability. The agent maintains a rolling health history for trend analysis and capacity planning.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill elasticsearch-cluster-vitals-agent
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill elasticsearch-cluster-vitals-agent -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill elasticsearch-cluster-vitals-agent -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill elasticsearch-cluster-vitals-agent -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install elasticsearch-cluster-vitals-agent
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

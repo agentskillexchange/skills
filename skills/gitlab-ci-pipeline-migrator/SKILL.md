@@ -1,60 +1,26 @@
 ---
-name: "GitLab CI Pipeline Migrator"
+title: "GitLab CI Pipeline Migrator"
 description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax."
-category: "CI/CD Integrations"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "gitlab-ci-pipeline-migrator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # GitLab CI Pipeline Migrator
 
 Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax.
 
-The GitLab CI Pipeline Migrator skill automates the conversion of GitLab CI/CD pipeline configurations to GitHub Actions workflow format. It uses the gitlab-ci-local parser to fully resolve .gitlab-ci.yml files including extends, anchors, and include directives.
-
-
-
-The migration engine maps GitLab CI concepts to GitHub Actions equivalents: stages become job dependency chains with needs keywords, services become service containers, artifacts become upload/download-artifact actions, and cache configurations become actions/cache entries with matching key patterns.
-
-
-
-YAML AST transformations preserve comments and formatting where possible, using the yaml library CST parser for structure-aware modifications. The skill handles complex GitLab features including DAG pipelines, parallel matrix jobs, rules-based conditional execution, and multi-project pipeline triggers.
-
-
-
-Variable mapping converts GitLab CI predefined variables (CI_COMMIT_SHA, CI_PIPELINE_ID) to GitHub Actions equivalents (github.sha, github.run_id). The migrator generates a compatibility report identifying features that require manual intervention, such as GitLab-specific API integrations and container registry authentication differences.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-migrator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install gitlab-ci-pipeline-migrator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

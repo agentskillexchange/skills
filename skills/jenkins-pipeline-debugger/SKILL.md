@@ -1,48 +1,26 @@
 ---
-name: "Jenkins Pipeline Debugger"
+title: "Jenkins Pipeline Debugger"
 description: "Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "jenkins-pipeline-debugger"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # Jenkins Pipeline Debugger
 
 Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state.
 
-The Jenkins Pipeline Debugger skill provides deep inspection of Jenkins CI pipelines through the Jenkins REST API and Blue Ocean REST endpoints. It fetches pipeline run details from /blue/rest/organizations/{org}/pipelines/{name}/runs/{id}/nodes/ to map stage execution graphs. Failed stage logs are retrieved via the consoleText API and parsed for common error patterns including dependency resolution failures, Docker image pull errors, and credential binding issues. The skill can replay failed builds using the POST /job/{name}/{id}/replay endpoint with modified Groovy scripts. It inspects the CPS (Continuation Passing Style) execution state through the Pipeline Steps API to identify where Groovy closures stalled. Shared library resolution is traced using the Global Library configuration API. Build queue analysis via /queue/api/json identifies executor starvation and label mismatch bottlenecks.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill jenkins-pipeline-debugger -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install jenkins-pipeline-debugger
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

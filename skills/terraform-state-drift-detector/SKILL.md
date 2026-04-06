@@ -1,80 +1,26 @@
 ---
-name: "Terraform State Drift Detector"
+title: "Terraform State Drift Detector"
 description: "Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation."
-category: "Runbooks & Diagnostics"
-framework: "OpenClaw"
-verification: security_reviewed
+slug: "terraform-state-drift-detector"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Terraform State Drift Detector
 
 Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.
 
-Terraform State Drift Detector identifies discrepancies between your Terraform state and actual cloud infrastructure to prevent configuration drift.
-
-
-
-How It Works
-
-The skill runs terraform plan -detailed-exitcode to detect changes, then parses the structured output via terraform show -json to categorize and prioritize drift by resource type, severity, and blast radius.
-
-
-
-Key Features
-
-
-
-- Drift categorization by resource type (compute, network, IAM, storage) with severity scoring
-
-
-
-- Blast radius analysis estimating the impact of reconciliation applies
-
-
-
-- Selective reconciliation plans using terraform apply -target for surgical fixes
-
-
-
-- Support for Terraform workspaces, remote backends (S3, GCS, Azure Blob), and Terraform Cloud
-
-
-
-Scheduling
-
-Designed for scheduled drift detection runs. Maintains a drift history log for trend analysis. Alerts on critical drift like IAM policy changes or security group modifications. Compatible with OpenTofu and Terragrunt configurations.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill terraform-state-drift-detector
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-state-drift-detector -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-state-drift-detector -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill terraform-state-drift-detector -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install terraform-state-drift-detector
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

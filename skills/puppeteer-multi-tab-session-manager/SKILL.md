@@ -1,60 +1,26 @@
 ---
-name: "Puppeteer Multi-Tab Session Manager"
+title: "Puppeteer Multi-Tab Session Manager"
 description: "Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster."
-category: "Browser Automation"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "puppeteer-multi-tab-session-manager"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
+category:
+  - "Browser Automation"
 ---
+
 # Puppeteer Multi-Tab Session Manager
 
 Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster.
 
-The Puppeteer Multi-Tab Session Manager provides robust orchestration of concurrent browser tabs for complex web automation workflows. Built on top of puppeteer-cluster, it manages tab pools with configurable concurrency limits, shared cookie storage, and automatic session restoration.
-
-
-
-Key capabilities include CDP-level session management using Chrome DevTools Protocol for fine-grained control over network interception, cookie manipulation, and request throttling. The skill supports persistent browser contexts that survive page navigations, enabling long-running scraping or testing workflows.
-
-
-
-Advanced features include automatic retry logic with configurable exponential backoff, dead tab detection and recycling, memory usage monitoring per tab, and screenshot-on-failure diagnostics. The session state serializer can export and import full browser state including localStorage, sessionStorage, and IndexedDB snapshots.
-
-
-
-Integrates with proxy rotation services (BrightData, Oxylabs) for IP management and includes built-in user agent rotation using the ua-parser-js library for fingerprint randomization.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill puppeteer-multi-tab-session-manager -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install puppeteer-multi-tab-session-manager
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

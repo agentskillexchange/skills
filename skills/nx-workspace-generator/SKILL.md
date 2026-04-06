@@ -1,56 +1,26 @@
 ---
-name: "Nx Workspace Generator"
+title: "Nx Workspace Generator"
 description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
-category: "Templates & Workflows"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "nx-workspace-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
+category:
+  - "Templates &amp; Workflows"
 ---
+
 # Nx Workspace Generator
 
 Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph.
 
-The Nx Workspace Generator skill manages monorepo scaffolding and code generation through the Nx build system. It uses @nx/devkit to create custom workspace generators that produce libraries, applications, and shared utilities following monorepo best practices.
-
-
-
-The skill leverages the Nx plugin API for creating custom executors and generators that integrate with the Nx dependency graph. It supports automatic project.json configuration, tsconfig path mapping, and build target setup for generated projects.
-
-
-
-Key features include intelligent code generation with AST manipulation via ts-morph, automatic barrel file updates, and integration with Nx affected commands for incremental builds. The skill handles cross-project dependency management, generates move and remove generators for safe refactoring, and supports Nx Cloud integration for distributed task caching and execution.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill nx-workspace-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill nx-workspace-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill nx-workspace-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill nx-workspace-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install nx-workspace-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

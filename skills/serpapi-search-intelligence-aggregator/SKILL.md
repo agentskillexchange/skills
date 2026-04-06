@@ -1,48 +1,26 @@
 ---
-name: "SerpAPI Search Intelligence Aggregator"
+title: "SerpAPI Search Intelligence Aggregator"
 description: "Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking."
-category: "Research & Scraping"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "serpapi-search-intelligence-aggregator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/"
+category:
+  - "Research &amp; Scraping"
 ---
+
 # SerpAPI Search Intelligence Aggregator
 
 Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking.
 
-The SerpAPI Search Intelligence Aggregator connects to multiple SerpAPI endpoints to extract and analyze search engine results across Google, Bing, YouTube, Google Scholar, and Google Shopping. It uses the Locations API to execute geo-targeted searches from specific cities or regions, enabling local SEO monitoring and competitive analysis. The Searches Archive API provides access to historical SERP data for tracking ranking changes over time without consuming additional API credits. Real-time search results include organic listings, knowledge panels, featured snippets, local packs, image results, and related questions parsed into structured JSON. The agent supports automated keyword monitoring with configurable check frequencies and alert thresholds for ranking position changes. Batch search capabilities process hundreds of keywords efficiently through the Batch Searches API with callback URL notifications on completion. Data is aggregated into trend reports showing visibility scores, SERP feature ownership, and competitive positioning across tracked keyword clusters.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-intelligence-aggregator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-intelligence-aggregator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-intelligence-aggregator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill serpapi-search-intelligence-aggregator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install serpapi-search-intelligence-aggregator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

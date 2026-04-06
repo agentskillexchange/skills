@@ -1,48 +1,26 @@
 ---
-name: "Prometheus Alert Runbook"
+title: "Prometheus Alert Runbook"
 description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
-category: "Runbooks & Diagnostics"
-framework: "MCP"
-verification: security_reviewed
+slug: "prometheus-alert-runbook"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Prometheus Alert Runbook
 
 Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation.
 
-The Prometheus Alert Runbook skill provides automated incident response procedures triggered by Prometheus AlertManager webhook notifications. When alerts fire, it queries the Prometheus HTTP API (/api/v1/query, /api/v1/query_range) using PromQL expressions to gather diagnostic context—rate(http_requests_total{status=~”5..”}[5m]) for error rate spikes, node_memory_MemAvailable_bytes/node_memory_MemTotal_bytes for memory pressure, and container_cpu_usage_seconds_total for CPU saturation. The skill maps alert labels (alertname, severity, namespace, pod) to specific runbook procedures stored as structured decision trees. Each runbook step executes diagnostic queries, evaluates thresholds, and branches to remediation actions or escalation paths. It integrates with AlertManager API (/api/v2/alerts, /api/v2/silences) for alert acknowledgment and silence creation during maintenance windows. The skill supports Grafana annotation creation via the Grafana HTTP API for incident timeline tracking, generates structured incident summaries with affected services, blast radius estimation, and recommended actions, and can trigger PagerDuty incidents via the Events API v2 for human escalation.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alert-runbook
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill prometheus-alert-runbook -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install prometheus-alert-runbook
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

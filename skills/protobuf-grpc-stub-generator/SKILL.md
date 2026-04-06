@@ -1,48 +1,26 @@
 ---
-name: "Protobuf & gRPC Stub Generator"
+title: "Protobuf &#038; gRPC Stub Generator"
 description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
-category: "Library & API Reference"
-framework: "Cursor"
-verification: security_reviewed
+slug: "protobuf-grpc-stub-generator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/"
+category:
+  - "Library &amp; API Reference"
 ---
-# Protobuf & gRPC Stub Generator
+
+# Protobuf &#038; gRPC Stub Generator
 
 Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes.
 
-This skill manages Protocol Buffer compilation and gRPC code generation using the Buf CLI toolchain. It validates .proto files against configurable Buf lint rules including package naming conventions, field naming standards, and service method patterns. Breaking change detection compares current proto definitions against git-tracked baselines, identifying removed fields, changed types, and incompatible enum modifications. The generator produces gRPC stubs for Go, Python, TypeScript, Java, and Rust using language-specific protoc plugins with optimized serialization options. Client stubs include interceptor chains for authentication metadata injection, distributed tracing context propagation via OpenTelemetry, and deadline management. Server stubs generate interface definitions with health check and reflection service registration. The skill configures Buf Schema Registry publishing for team-wide proto dependency management. Mock server generation creates in-memory gRPC servers for integration testing with configurable response fixtures. Documentation generation produces markdown API references from proto comments with rendered message diagrams.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill protobuf-grpc-stub-generator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install protobuf-grpc-stub-generator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

@@ -1,62 +1,26 @@
 ---
-name: "Kubernetes Pod Crash Loop Analyzer"
+title: "Kubernetes Pod Crash Loop Analyzer"
 description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification."
-category: "Runbooks & Diagnostics"
-framework: "Cursor"
-verification: security_reviewed
+slug: "kubernetes-pod-crash-loop-analyzer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
+category:
+  - "Runbooks &amp; Diagnostics"
 ---
+
 # Kubernetes Pod Crash Loop Analyzer
 
 Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification.
 
-Overview
-
-The Kubernetes Pod Crash Loop Analyzer diagnoses pods stuck in CrashLoopBackOff state through systematic examination of container exit codes, event logs, and resource metrics. It automates the investigation workflow that SREs typically perform manually during incident response.
-
-
-
-Key Capabilities
-
-This skill runs kubectl describe pod to extract last termination reasons, exit codes (137 for OOMKill, 1 for application errors, 127 for missing binaries), and restart counts. It queries the Kubernetes Events API for related warnings and correlates OOMKilled signals with Prometheus container_memory_rss and container_memory_working_set_bytes metrics from cAdvisor.
-
-
-
-Diagnostic Workflow
-
-Examines init container failures, liveness and readiness probe misconfigurations, volume mount permission issues, and image pull backoff states. Cross-references node conditions from kubectl get nodes to identify resource pressure situations and generates remediation recommendations including resource limit adjustments, probe timeout tuning, and PodDisruptionBudget configurations.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill kubernetes-pod-crash-loop-analyzer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install kubernetes-pod-crash-loop-analyzer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

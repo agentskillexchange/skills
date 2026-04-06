@@ -1,48 +1,26 @@
 ---
-name: "GitHub Actions Matrix Build Optimizer"
+title: "GitHub Actions Matrix Build Optimizer"
 description: "Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and actions/cache APIs. Reduces redundant job combinations by inspecting build dependency graphs via the GitHub REST API. Outputs a revised workflow with estimated CI time savings per commit."
-category: "CI/CD Integrations"
-framework: "Claude Code"
-verification: security_reviewed
+slug: "github-actions-matrix-build-optimizer"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-build-optimizer/"
+category:
+  - "CI/CD Integrations"
 ---
+
 # GitHub Actions Matrix Build Optimizer
 
 Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and actions/cache APIs. Reduces redundant job combinations by inspecting build dependency graphs via the GitHub REST API. Outputs a revised workflow with estimated CI time savings per commit.
 
-This skill connects to your GitHub repository using the GitHub REST API (api.github.com) and reads existing workflow YAML configurations from the .github/workflows directory. It analyzes the matrix strategy blocks, identifying redundant OS/version combinations and caching opportunities using actions/cache@v3. The skill leverages the GitHub Actions billing API to compute per-minute costs and suggests removal of low-value matrix entries. It can also integrate with the GitHub Checks API to correlate flaky test patterns with specific matrix legs. Output includes a revised workflow file with savings annotations, a Markdown summary of estimated monthly cost reduction, and optional PR creation via the GitHub Pull Requests API. Supports both GitHub.com and GitHub Enterprise Server endpoints.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-build-optimizer
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-build-optimizer -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-build-optimizer -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill github-actions-matrix-build-optimizer -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install github-actions-matrix-build-optimizer
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 

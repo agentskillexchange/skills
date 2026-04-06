@@ -1,48 +1,26 @@
 ---
-name: "Pexels API Stock Photo Curator"
+title: "Pexels API Stock Photo Curator"
 description: "Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite."
-category: "Image & Creative Automation"
-framework: "Claude Agents"
-verification: security_reviewed
+slug: "pexels-api-stock-photo-curator"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
+category:
+  - "Image &amp; Creative Automation"
 ---
+
 # Pexels API Stock Photo Curator
 
 Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite.
 
-The Pexels API Stock Photo Curator automates sourcing royalty-free imagery for content pipelines, marketing teams, and blog publishers. It connects to the Pexels REST API v1 using API key authentication, supporting both photo search and curated collection endpoints. Smart filtering narrows results by orientation (landscape, portrait, square), dominant color hex codes, minimum resolution, and locale-specific queries. Downloaded images are stored with consistent naming conventions and tracked in a local SQLite database to prevent duplicate downloads across sessions. The skill generates proper attribution HTML snippets per Pexels licensing requirements, including photographer name, profile link, and Pexels source URL. Batch mode processes keyword lists from CSV files, downloading top-N results per keyword with configurable quality (original, large2x, large, medium). Image post-processing options include resizing via sharp.js, format conversion to WebP/AVIF, and EXIF metadata stripping for privacy. Rate limiting respects Pexels’ 200 requests/hour quota with automatic throttling. Integration hooks support direct upload to WordPress media library via REST API, S3 buckets, or Cloudinary.
-
 ## Installation
 
-### Any Agent
+You can install this skill in any of these ways:
 
-```bash
-npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator -a codex
-```
-
-### OpenClaw
-
-```bash
-clawhub install pexels-api-stock-photo-curator
-```
+1. Install from Agent Skill Exchange in the OpenClaw UI
+2. Clone or copy the skill folder into your local skills directory
+3. Add it to your workspace-managed skills collection
+4. Install via any compatible skill package manager or sync workflow
+5. Copy the `SKILL.md` and any referenced files into a compatible AgentSkills directory
 
 ## Source
 
