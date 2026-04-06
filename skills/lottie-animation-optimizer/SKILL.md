@@ -1,11 +1,10 @@
 ---
 title: "Lottie Animation Optimizer"
-slug: "lottie-animation-optimizer"
 description: "Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS)."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/airbnb/lottie-web"
-category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+category: ["Image &amp; Creative Automation"]
+framework: ["ChatGPT Agents"]
 tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31786
@@ -17,13 +16,13 @@ Analyzes and optimizes Lottie JSON animation files using lottie-web parser inter
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

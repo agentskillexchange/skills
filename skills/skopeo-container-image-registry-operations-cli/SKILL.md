@@ -1,11 +1,10 @@
 ---
 title: "Skopeo Container Image Registry Operations CLI"
-slug: "skopeo-container-image-registry-operations-cli"
 description: "Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync container images across registries, supporting OCI and Docker v2 formats with rootless operation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/containers/skopeo"
-category: "Security &amp; Verification"
-framework: "Custom Agents"
+category: ["Security &amp; Verification"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "containers/skopeo"
   github_stars: 10656
@@ -17,13 +16,13 @@ Skopeo is a command-line tool for working with container images and registries w
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

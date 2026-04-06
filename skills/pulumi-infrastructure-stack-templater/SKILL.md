@@ -1,11 +1,10 @@
 ---
 title: "Pulumi Infrastructure Stack Templater"
-slug: "pulumi-infrastructure-stack-templater"
 description: "Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and @pulumi/gcp SDKs. Includes Pulumi Automation API integration for programmatic stack lifecycle management."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pulumi/pulumi"
-category: "Templates &amp; Workflows"
-framework: "Claude Code"
+category: ["Templates &amp; Workflows"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 24935
@@ -17,13 +16,13 @@ Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @p
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

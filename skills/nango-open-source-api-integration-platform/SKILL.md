@@ -1,15 +1,14 @@
 ---
 title: "Nango Open Source API Integration Platform"
-slug: "nango-open-source-api-integration-platform"
 description: "Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/NangoHQ/nango"
-category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
+category: ["Integrations &amp; Connectors"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7003
-  npm_package: "nango"
+  ase_npm_package: "nango"
   npm_weekly_downloads: 13848
 ---
 
@@ -19,13 +18,13 @@ Nango is an open-source platform for building product integrations with 700+ API
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

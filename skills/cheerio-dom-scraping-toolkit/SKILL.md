@@ -1,26 +1,25 @@
 ---
 title: "Cheerio DOM Scraping Toolkit"
-slug: "cheerio-dom-scraping-toolkit"
-description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
-verification: "security_reviewed"
+description: "Parses static HTML using Cheerio&#8217;s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
-category: "Research &amp; Scraping"
-framework: "Cursor"
+category: ["Research &amp; Scraping"]
+framework: ["Cursor"]
 ---
 
 # Cheerio DOM Scraping Toolkit
 
-Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
+Parses static HTML using Cheerio&#8217;s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

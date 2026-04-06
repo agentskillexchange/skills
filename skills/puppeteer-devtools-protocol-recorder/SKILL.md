@@ -1,11 +1,10 @@
 ---
 title: "Puppeteer DevTools Protocol Recorder"
-slug: "puppeteer-devtools-protocol-recorder"
-description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
-verification: "security_reviewed"
+description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer&#8217;s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
+verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
-category: "Developer Tools"
-framework: "Cursor"
+category: ["Developer Tools"]
+framework: ["Cursor"]
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94012
@@ -13,17 +12,17 @@ tool_ecosystem:
 
 # Puppeteer DevTools Protocol Recorder
 
-Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
+Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer&#8217;s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

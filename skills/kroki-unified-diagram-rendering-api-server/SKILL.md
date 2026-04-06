@@ -1,11 +1,10 @@
 ---
 title: "Kroki Unified Diagram Rendering API and Server"
-slug: "kroki-unified-diagram-rendering-api-server"
 description: "Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25 diagram libraries including PlantUML, Mermaid, GraphViz, D2, Excalidraw, and more through a single self-hostable service."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/yuzutech/kroki"
-category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+category: ["Image &amp; Creative Automation"]
+framework: ["Multi-Framework"]
 ---
 
 # Kroki Unified Diagram Rendering API and Server
@@ -14,13 +13,13 @@ Kroki provides a unified HTTP API that converts textual diagram descriptions int
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

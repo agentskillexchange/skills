@@ -1,11 +1,10 @@
 ---
 title: "SEMrush Keyword Research Agent"
-slug: "semrush-keyword-research-agent-api-v3"
 description: "Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis and content gap identification."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
-category: "Content Writing &amp; SEO"
-framework: "Claude Code"
+category: ["Content Writing &amp; SEO"]
+framework: ["Claude Code"]
 ---
 
 # SEMrush Keyword Research Agent
@@ -14,13 +13,13 @@ Performs keyword research using SEMrush API v3 with domain analytics, keyword di
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

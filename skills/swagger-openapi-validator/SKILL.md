@@ -1,26 +1,25 @@
 ---
 title: "Swagger / OpenAPI Validator"
-slug: "swagger-openapi-validator"
-description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]"
-verification: "security_reviewed"
+description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the [&hellip;]"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
-category: "Library &amp; API Reference"
-framework: "Claude Code"
+category: ["Library &amp; API Reference"]
+framework: ["Claude Code"]
 ---
 
 # Swagger / OpenAPI Validator
 
-Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]
+Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the [&hellip;]
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

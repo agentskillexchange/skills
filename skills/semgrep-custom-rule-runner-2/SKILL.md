@@ -1,26 +1,25 @@
 ---
 title: "Semgrep Custom Rule Runner"
-slug: "semgrep-custom-rule-runner-2"
-description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
-verification: "security_reviewed"
+description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
-category: "Templates &amp; Workflows"
-framework: "Claude Code"
+category: ["Templates &amp; Workflows"]
+framework: ["Claude Code"]
 ---
 
 # Semgrep Custom Rule Runner
 
-Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
+Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep &#8211;config and &#8211;pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "Slack Workflow Automation Builder"
-slug: "slack-workflow-automation-builder"
 description: "Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
-category: "Calendar, Email &amp; Productivity"
-framework: "Claude Code"
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["Claude Code"]
 ---
 
 # Slack Workflow Automation Builder
@@ -14,13 +13,13 @@ Creates Slack Workflow Builder automations using the Slack Web API and Block Kit
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

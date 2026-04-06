@@ -1,11 +1,10 @@
 ---
 title: "Trivy Container Scanner"
-slug: "trivy-container-scanner-2"
 description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
-category: "Security &amp; Verification"
-framework: "OpenClaw"
+category: ["Security &amp; Verification"]
+framework: ["OpenClaw"]
 ---
 
 # Trivy Container Scanner
@@ -14,13 +13,13 @@ Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Ou
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

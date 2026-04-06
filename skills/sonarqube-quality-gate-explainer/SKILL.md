@@ -1,11 +1,10 @@
 ---
 title: "SonarQube Quality Gate Explainer"
-slug: "sonarqube-quality-gate-explainer"
 description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
+category: ["Code Quality &amp; Review"]
+framework: ["Claude Code"]
 ---
 
 # SonarQube Quality Gate Explainer
@@ -14,13 +13,13 @@ Fetches the latest SonarQube project analysis result, explains why the Quality G
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

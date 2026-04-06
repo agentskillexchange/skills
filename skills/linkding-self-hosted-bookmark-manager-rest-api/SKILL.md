@@ -1,11 +1,10 @@
 ---
 title: "linkding Self-Hosted Bookmark Manager with REST API"
-slug: "linkding-self-hosted-bookmark-manager-rest-api"
 description: "linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sissbruecker/linkding"
-category: "Research &amp; Scraping"
-framework: "Custom Agents"
+category: ["Research &amp; Scraping"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "sissbruecker/linkding"
   github_stars: 10379
@@ -17,13 +16,13 @@ linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "HashiCorp Vault Secrets Rotation Agent"
-slug: "hashicorp-vault-secrets-rotation-agent-2"
 description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
-category: "Security &amp; Verification"
-framework: "MCP"
+category: ["Security &amp; Verification"]
+framework: ["MCP"]
 ---
 
 # HashiCorp Vault Secrets Rotation Agent
@@ -14,13 +13,13 @@ Automates secret rotation in HashiCorp Vault using the Vault API and dynamic sec
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

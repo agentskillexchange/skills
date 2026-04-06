@@ -1,11 +1,10 @@
 ---
 title: "Notion Task Sync Bridge"
-slug: "notion-task-sync-bridge"
 description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
-category: "Calendar, Email &amp; Productivity"
-framework: "Cursor"
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["Cursor"]
 ---
 
 # Notion Task Sync Bridge
@@ -14,13 +13,13 @@ Bidirectionally syncs tasks between Notion databases and external project manage
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

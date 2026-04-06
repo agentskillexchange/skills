@@ -1,11 +1,10 @@
 ---
 title: "Tekton Pipeline Validator"
-slug: "tekton-pipeline-validator"
 description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-validator/"
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+category: ["CI/CD Integrations"]
+framework: ["OpenClaw"]
 ---
 
 # Tekton Pipeline Validator
@@ -14,13 +13,13 @@ Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

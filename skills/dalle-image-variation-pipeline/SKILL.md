@@ -1,11 +1,10 @@
 ---
 title: "DALL-E Image Variation Pipeline"
-slug: "dalle-image-variation-pipeline"
 description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
-category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+category: ["Image &amp; Creative Automation"]
+framework: ["Custom Agents"]
 ---
 
 # DALL-E Image Variation Pipeline
@@ -14,13 +13,13 @@ Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "REST API Testing Reference Kit"
-slug: "rest-api-testing-reference-kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
-category: "Library &amp; API Reference"
-framework: "Cursor"
+category: ["Library &amp; API Reference"]
+framework: ["Cursor"]
 ---
 
 # REST API Testing Reference Kit
@@ -14,13 +13,13 @@ Comprehensive REST API testing reference using Postman Collection SDK v2.1 and N
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

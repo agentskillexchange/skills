@@ -1,11 +1,10 @@
 ---
 title: "Stagehand Browser Automation"
-slug: "stagehand-browser-automation"
 description: "Stagehand is Browserbase’s AI browser automation framework for mixing natural-language actions with deterministic code. It is built for production workflows where you want Playwright-level control, structured extraction, and the option to cache and stabilize repeated web tasks."
-verification: "listed"
+verification: listed
 source: "https://github.com/browserbase/stagehand"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category: ["Browser Automation"]
+framework: ["Multi-Framework"]
 ---
 
 # Stagehand Browser Automation
@@ -14,13 +13,13 @@ Stagehand is Browserbase’s AI browser automation framework for mixing natural-
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "ShellCheck Shell Script Static Analyzer"
-slug: "shellcheck-shell-script-static-analyzer"
 description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/koalaman/shellcheck"
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
+category: ["Code Quality &amp; Review"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "koalaman/shellcheck"
   github_stars: 39204
@@ -17,13 +16,13 @@ Run static analysis on bash and shell scripts using ShellCheck to detect syntax 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

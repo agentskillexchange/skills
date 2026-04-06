@@ -1,11 +1,10 @@
 ---
 title: "MDN Web API Reference Fetcher"
-slug: "mdn-web-api-reference-fetcher"
 description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
-category: "Library &amp; API Reference"
-framework: "Custom Agents"
+category: ["Library &amp; API Reference"]
+framework: ["Custom Agents"]
 ---
 
 # MDN Web API Reference Fetcher
@@ -14,13 +13,13 @@ Fetches and indexes Mozilla Developer Network Web API documentation using the MD
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "Grafana Loki Log Query Agent"
-slug: "grafana-loki-log-query-agent"
 description: "Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses structured JSON logs, and correlates log entries with Grafana dashboard panels."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-loki-log-query-agent/"
-category: "Monitoring &amp; Alerts"
-framework: "MCP"
+category: ["Monitoring &amp; Alerts"]
+framework: ["MCP"]
 ---
 
 # Grafana Loki Log Query Agent
@@ -14,13 +13,13 @@ Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. F
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

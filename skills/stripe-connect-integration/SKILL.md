@@ -1,11 +1,10 @@
 ---
 title: "Stripe Connect Integration"
-slug: "stripe-connect-integration"
 description: "Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees, and processes Connect webhooks."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-integration/"
-category: "Integrations &amp; Connectors"
-framework: "ChatGPT Agents"
+category: ["Integrations &amp; Connectors"]
+framework: ["ChatGPT Agents"]
 ---
 
 # Stripe Connect Integration
@@ -14,13 +13,13 @@ Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

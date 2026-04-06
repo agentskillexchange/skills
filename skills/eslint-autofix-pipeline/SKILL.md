@@ -1,26 +1,25 @@
 ---
 title: "ESLint Auto-Fix Pipeline"
-slug: "eslint-autofix-pipeline"
-description: "Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
-verification: "security_reviewed"
+description: "Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
-category: "Code Quality &amp; Review"
-framework: "Claude Agents"
+category: ["Code Quality &amp; Review"]
+framework: ["Claude Agents"]
 ---
 
 # ESLint Auto-Fix Pipeline
 
-Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
+Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

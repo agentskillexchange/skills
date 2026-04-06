@@ -1,15 +1,14 @@
 ---
 title: "sqlite-vec Vector Search Extension for SQLite"
-slug: "sqlite-vec-vector-search-extension-sqlite"
 description: "sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/asg017/sqlite-vec"
-category: "Developer Tools"
-framework: "Custom Agents"
+category: ["Developer Tools"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "asg017/sqlite-vec"
   github_stars: 7331
-  npm_package: "sqlite-vec"
+  ase_npm_package: "sqlite-vec"
   npm_weekly_downloads: 1485498
 ---
 
@@ -19,13 +18,13 @@ sqlite-vec is a lightweight SQLite extension for vector similarity search. Writt
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

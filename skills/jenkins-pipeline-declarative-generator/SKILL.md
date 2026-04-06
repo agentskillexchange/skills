@@ -1,11 +1,10 @@
 ---
 title: "Jenkins Pipeline Declarative Generator"
-slug: "jenkins-pipeline-declarative-generator"
 description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
-category: "CI/CD Integrations"
-framework: "Custom Agents"
+category: ["CI/CD Integrations"]
+framework: ["Custom Agents"]
 ---
 
 # Jenkins Pipeline Declarative Generator
@@ -14,13 +13,13 @@ Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

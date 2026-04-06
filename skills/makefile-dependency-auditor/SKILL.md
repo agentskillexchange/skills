@@ -1,11 +1,10 @@
 ---
 title: "Makefile Dependency Auditor"
-slug: "makefile-dependency-auditor"
 description: "Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
-category: "Developer Tools"
-framework: "Codex"
+category: ["Developer Tools"]
+framework: ["Codex"]
 ---
 
 # Makefile Dependency Auditor
@@ -14,13 +13,13 @@ Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects c
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

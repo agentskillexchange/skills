@@ -1,11 +1,10 @@
 ---
 title: "WPGraphQL Schema Extension Builder"
-slug: "wpgraphql-schema-extension-builder"
 description: "Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
-category: "WordPress &amp; CMS"
-framework: "Claude Code"
+category: ["WordPress &amp; CMS"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3779
@@ -17,13 +16,13 @@ Builds and documents WPGraphQL extensions with hooks such as `graphql_register_t
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "ElevenLabs Voice Cloning Agent"
-slug: "elevenlabs-voice-cloning-agent"
 description: "Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library operations, text-to-speech generation with SSML markup, and audio stream output via the elevenlabs-python SDK."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
-category: "Media &amp; Transcription"
-framework: "OpenClaw"
+category: ["Media &amp; Transcription"]
+framework: ["OpenClaw"]
 ---
 
 # ElevenLabs Voice Cloning Agent
@@ -14,13 +13,13 @@ Clone and synthesize custom voices using the ElevenLabs API v2 with instant voic
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

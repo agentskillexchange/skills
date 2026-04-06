@@ -1,11 +1,10 @@
 ---
 title: "Logto Open Source Authentication and Authorization Infrastructure"
-slug: "logto-open-source-auth-infrastructure"
 description: "Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It provides multi-tenancy, enterprise SSO, RBAC, and SDKs for 30+ frameworks, making it the go-to Auth0/Cognito alternative for SaaS and AI applications."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/logto-io/logto"
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+category: ["Integrations &amp; Connectors"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "logto-io/logto"
   github_stars: 11858
@@ -17,13 +16,13 @@ Logto is a modern, open-source authentication and authorization infrastructure b
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

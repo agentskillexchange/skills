@@ -1,11 +1,10 @@
 ---
 title: "WooCommerce Webhook Orchestrator"
-slug: "woocommerce-webhook-orchestrator"
 description: "Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order, product, and customer event routing with payload signature verification via X-WC-Webhook-Signature."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/"
-category: "WordPress &amp; CMS"
-framework: "Cursor"
+category: ["WordPress &amp; CMS"]
+framework: ["Cursor"]
 ---
 
 # WooCommerce Webhook Orchestrator
@@ -14,13 +13,13 @@ Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

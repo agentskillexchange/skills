@@ -1,11 +1,10 @@
 ---
 title: "Stable Diffusion XL LoRA Trainer"
-slug: "stable-diffusion-xl-lora-trainer"
 description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
-category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+category: ["Image &amp; Creative Automation"]
+framework: ["Custom Agents"]
 ---
 
 # Stable Diffusion XL LoRA Trainer
@@ -14,13 +13,13 @@ Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers libr
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

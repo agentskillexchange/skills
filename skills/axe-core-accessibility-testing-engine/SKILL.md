@@ -1,11 +1,10 @@
 ---
 title: "axe-core Accessibility Testing Engine for Automated Web UI Auditing"
-slug: "axe-core-accessibility-testing-engine"
 description: "axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0, 2.1, and 2.2 violations in web interfaces. It integrates into any existing test framework — Playwright, Cypress, Selenium, Jest — to catch accessibility issues during development rather than after deployment."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/dequelabs/axe-core"
-category: "Code Quality &amp; Review"
-framework: "Multi-Framework"
+category: ["Code Quality &amp; Review"]
+framework: ["Multi-Framework"]
 ---
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing
@@ -14,13 +13,13 @@ axe-core is the industry-standard accessibility testing engine by Deque Systems 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

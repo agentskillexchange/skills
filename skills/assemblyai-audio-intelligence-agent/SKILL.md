@@ -1,11 +1,10 @@
 ---
 title: "AssemblyAI Audio Intelligence Agent"
-slug: "assemblyai-audio-intelligence-agent"
 description: "Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic modeling, and auto-chapter generation. Uses the assemblyai Python SDK for transcript processing pipelines."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
-category: "Media &amp; Transcription"
-framework: "MCP"
+category: ["Media &amp; Transcription"]
+framework: ["MCP"]
 ---
 
 # AssemblyAI Audio Intelligence Agent
@@ -14,13 +13,13 @@ Extract structured intelligence from audio using the AssemblyAI API with sentime
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

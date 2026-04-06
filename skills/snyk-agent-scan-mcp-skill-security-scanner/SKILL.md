@@ -1,11 +1,10 @@
 ---
 title: "Snyk Agent Scan MCP and Skill Security Scanner"
-slug: "snyk-agent-scan-mcp-skill-security-scanner"
 description: "Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent harnesses for security vulnerabilities like prompt injections, tool poisoning, tool shadowing, and malware payloads. It supports Claude Code, Cursor, Windsurf, Gemini CLI, VS Code, and more."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/snyk/agent-scan"
-category: "Security &amp; Verification"
-framework: "MCP"
+category: ["Security &amp; Verification"]
+framework: ["MCP"]
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2039
@@ -17,13 +16,13 @@ Snyk Agent Scan automatically discovers and scans AI agent components including 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

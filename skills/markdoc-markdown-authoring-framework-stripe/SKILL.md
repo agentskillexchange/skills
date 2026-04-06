@@ -1,11 +1,10 @@
 ---
 title: "Markdoc Markdown-Based Authoring Framework by Stripe"
-slug: "markdoc-markdown-authoring-framework-stripe"
 description: "Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation sites and content experiences."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/markdoc/markdoc"
-category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+category: ["Content Writing &amp; SEO"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "markdoc/markdoc"
   github_stars: 7949
@@ -17,13 +16,13 @@ Markdoc is a powerful Markdown-based authoring framework created by Stripe to po
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

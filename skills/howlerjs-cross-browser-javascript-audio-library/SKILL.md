@@ -1,11 +1,10 @@
 ---
 title: "Howler.js Cross-Browser JavaScript Audio Library"
-slug: "howlerjs-cross-browser-javascript-audio-library"
 description: "Howler.js is a JavaScript audio library for the modern web that defaults to the Web Audio API with an HTML5 Audio fallback. With nearly 25,000 GitHub stars and 580,000 weekly npm downloads, it provides a single reliable API for audio playback, spatial sound, sprites, and streaming across all browsers and platforms."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/goldfire/howler.js"
-category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+category: ["Media &amp; Transcription"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "goldfire/howler.js"
   github_stars: 25238
@@ -17,13 +16,13 @@ Howler.js is a JavaScript audio library for the modern web that defaults to the 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

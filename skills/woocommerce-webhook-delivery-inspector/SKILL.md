@@ -1,11 +1,10 @@
 ---
 title: "WooCommerce Webhook Delivery Inspector"
-slug: "woocommerce-webhook-delivery-inspector"
 description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/woocommerce/woocommerce"
-category: "WordPress &amp; CMS"
-framework: "ChatGPT Agents"
+category: ["WordPress &amp; CMS"]
+framework: ["ChatGPT Agents"]
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10231
@@ -17,13 +16,13 @@ Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action 
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "Bearer CLI SAST Code Security and Privacy Scanner"
-slug: "bearer-cli-sast-code-security-privacy-scanner"
 description: "Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy risks. Covers OWASP Top 10 and CWE Top 25 with data flow analysis across multiple languages."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Bearer/bearer"
-category: "Security &amp; Verification"
-framework: "Claude Code"
+category: ["Security &amp; Verification"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "Bearer/bearer"
   github_stars: 2610
@@ -17,13 +16,13 @@ Bearer CLI is an open-source static application security testing (SAST) tool tha
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

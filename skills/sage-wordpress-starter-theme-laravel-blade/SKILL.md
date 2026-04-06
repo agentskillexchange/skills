@@ -1,11 +1,10 @@
 ---
 title: "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS"
-slug: "sage-wordpress-starter-theme-laravel-blade"
 description: "Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/roots/sage"
-category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+category: ["WordPress &amp; CMS"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "roots/sage"
   github_stars: 13199
@@ -17,13 +16,13 @@ Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade t
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

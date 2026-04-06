@@ -1,11 +1,10 @@
 ---
 title: "Saleor Open Source Headless Commerce Platform with GraphQL API"
-slug: "saleor-open-source-headless-commerce-graphql-api"
 description: "Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API for building custom storefronts, managing products, processing orders, and orchestrating commerce across web, mobile, and agentic channels."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/saleor/saleor"
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+category: ["Integrations &amp; Connectors"]
+framework: ["Multi-Framework"]
 ---
 
 # Saleor Open Source Headless Commerce Platform with GraphQL API
@@ -14,13 +13,13 @@ Saleor is a leading open source headless e-commerce platform built with Python a
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

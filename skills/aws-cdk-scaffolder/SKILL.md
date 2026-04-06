@@ -1,26 +1,25 @@
 ---
 title: "AWS CDK Scaffolder"
-slug: "aws-cdk-scaffolder"
-description: "AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]"
-verification: "security_reviewed"
+description: "AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and [&hellip;]"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cdk-scaffolder/"
-category: "Templates &amp; Workflows"
-framework: "Custom Agents"
+category: ["Templates &amp; Workflows"]
+framework: ["Custom Agents"]
 ---
 
 # AWS CDK Scaffolder
 
-AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]
+AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and [&hellip;]
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "Zola Fast Static Site Generator in a Single Binary"
-slug: "zola-static-site-generator"
 description: "Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing, image processing, and multilingual support. No dependencies required."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/getzola/zola"
-category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+category: ["Content Writing &amp; SEO"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "getzola/zola"
   github_stars: 16799
@@ -17,13 +16,13 @@ Zola is a fast static site generator written in Rust that ships as a single bina
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

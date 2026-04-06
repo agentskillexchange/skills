@@ -1,26 +1,25 @@
 ---
 title: "Kubernetes Pod Crash Diagnostics"
-slug: "kubernetes-pod-crash-diagnostics-3"
-description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis."
-verification: "security_reviewed"
+description: "Runs kubectl describe pod, kubectl logs &#8211;previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis."
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/"
-category: "Developer Tools"
-framework: "Custom Agents"
+category: ["Developer Tools"]
+framework: ["Custom Agents"]
 ---
 
 # Kubernetes Pod Crash Diagnostics
 
-Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis.
+Runs kubectl describe pod, kubectl logs &#8211;previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis.
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

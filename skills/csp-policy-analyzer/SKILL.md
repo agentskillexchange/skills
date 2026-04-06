@@ -1,11 +1,10 @@
 ---
 title: "CSP Policy Analyzer"
-slug: "csp-policy-analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
-category: "Security &amp; Verification"
-framework: "Claude Agents"
+category: ["Security &amp; Verification"]
+framework: ["Claude Agents"]
 ---
 
 # CSP Policy Analyzer
@@ -14,13 +13,13 @@ Parses and evaluates Content Security Policy headers using csp-parse and csp-eva
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
 title: "lazygit Terminal UI for Git Operations"
-slug: "lazygit-terminal-ui-git-operations"
 description: "A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing, conflict resolution, and branch management through an intuitive TUI that replaces arcane git command sequences with keyboard-driven workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jesseduffield/lazygit"
-category: "Developer Tools"
-framework: "Claude Code"
+category: ["Developer Tools"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "jesseduffield/lazygit"
   github_stars: 75400
@@ -17,13 +16,13 @@ A simple terminal user interface for git commands built with Go. lazygit provide
 
 ## Installation
 
-Choose whichever method fits your setup:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download the upstream project manually.
-3. Use the project package manager or installer if available.
-4. Copy the skill into your local skills directory.
-5. Follow the upstream documentation for environment-specific setup.
+1. Install from the Agent Skill Exchange UI.
+2. Add it through your agent or assistant skill manager.
+3. Clone or copy this skill into your local skills directory.
+4. Install with a package manager if the upstream project provides one.
+5. Follow the upstream project documentation for manual setup.
 
 ## Source
 
