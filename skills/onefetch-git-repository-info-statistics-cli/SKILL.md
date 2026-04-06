@@ -8,6 +8,7 @@ framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "o2sh/onefetch"
   github_stars: 11710
+  license: "MIT"
 ---
 
 # onefetch Git Repository Information and Statistics CLI

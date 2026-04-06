@@ -3,7 +3,7 @@ title: "Codecov Coverage Tracker Agent"
 description: "Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
-category: ["Code Quality &amp; Review"]
+category: ["Code Quality & Review"]
 framework: ["MCP"]
 ---
 

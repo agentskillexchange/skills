@@ -3,11 +3,12 @@ title: "Grafana Alloy OpenTelemetry Collector Distribution"
 description: "Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and manage observability data collection using Alloy."
 verification: security_reviewed
 source: "https://github.com/grafana/alloy"
-category: ["Monitoring &amp; Alerts"]
+category: ["Monitoring & Alerts"]
 framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026
+  license: "Apache-2.0"
 ---
 
 # Grafana Alloy OpenTelemetry Collector Distribution

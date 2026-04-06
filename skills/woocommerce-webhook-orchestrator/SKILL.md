@@ -3,7 +3,7 @@ title: "WooCommerce Webhook Orchestrator"
 description: "Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order, product, and customer event routing with payload signature verification via X-WC-Webhook-Signature."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/"
-category: ["WordPress &amp; CMS"]
+category: ["WordPress & CMS"]
 framework: ["Cursor"]
 ---
 

@@ -3,7 +3,7 @@ title: "AWS CloudWatch Anomaly Investigator"
 description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/"
-category: ["Runbooks &amp; Diagnostics"]
+category: ["Runbooks & Diagnostics"]
 framework: ["ChatGPT Agents"]
 ---
 

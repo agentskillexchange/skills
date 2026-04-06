@@ -3,7 +3,7 @@ title: "HashiCorp Vault Secrets Rotation Agent"
 description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
-category: ["Security &amp; Verification"]
+category: ["Security & Verification"]
 framework: ["MCP"]
 ---
 

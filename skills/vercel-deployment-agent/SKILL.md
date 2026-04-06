@@ -1,15 +1,15 @@
 ---
 title: "Vercel Deployment Agent"
-description: "Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving [&hellip;]"
+description: "Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving […]"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vercel-deployment-agent/"
-category: ["Templates &amp; Workflows"]
+category: ["Templates & Workflows"]
 framework: ["Custom Agents"]
 ---
 
 # Vercel Deployment Agent
 
-Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving [&hellip;]
+Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like deployments, env vars, build logs, previews, edge runtime, project config and preserving […]
 
 ## Installation
 

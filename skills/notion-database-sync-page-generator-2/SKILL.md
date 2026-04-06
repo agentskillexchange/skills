@@ -1,13 +1,13 @@
 ---
-title: "Notion Database Sync &amp; Page Generator"
+title: "Notion Database Sync & Page Generator"
 description: "Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured JSON input. Resolves relation and rollup properties automatically when generating linked records."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/"
-category: ["Integrations &amp; Connectors"]
+category: ["Integrations & Connectors"]
 framework: ["MCP"]
 ---
 
-# Notion Database Sync &amp; Page Generator
+# Notion Database Sync & Page Generator
 
 Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured JSON input. Resolves relation and rollup properties automatically when generating linked records.
 

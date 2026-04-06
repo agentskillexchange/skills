@@ -3,7 +3,7 @@ title: "NPM Package Dependency Auditor"
 description: "Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
-category: ["Library &amp; API Reference"]
+category: ["Library & API Reference"]
 framework: ["MCP"]
 ---
 

@@ -3,7 +3,7 @@ title: "Grafana Dashboard as Code Generator"
 description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
-category: ["Monitoring &amp; Alerts"]
+category: ["Monitoring & Alerts"]
 framework: ["Cursor"]
 ---
 

@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "woodpecker-ci/woodpecker"
   github_stars: 6760
+  license: "Apache-2.0"
 ---
 
 # Woodpecker CI Self-Hosted Continuous Integration Engine

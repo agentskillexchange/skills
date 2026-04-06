@@ -1,15 +1,15 @@
 ---
 title: "Fly.io Deployment Helper"
-description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context [&hellip;]"
+description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
-category: ["Templates &amp; Workflows"]
+category: ["Templates & Workflows"]
 framework: ["Custom Agents"]
 ---
 
 # Fly.io Deployment Helper
 
-Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context [&hellip;]
+Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
 
 ## Installation
 

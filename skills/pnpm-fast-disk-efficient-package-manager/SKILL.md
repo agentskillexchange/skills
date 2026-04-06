@@ -10,6 +10,7 @@ tool_ecosystem:
   github_stars: 34426
   ase_npm_package: "pnpm"
   npm_weekly_downloads: 64625737
+  license: "MIT"
 ---
 
 # pnpm Fast Disk-Efficient Package Manager

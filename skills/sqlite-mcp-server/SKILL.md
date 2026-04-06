@@ -3,7 +3,7 @@ title: "SQLite MCP Server"
 description: "Lightweight local database access for agent tasks."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
-category: ["Data Extraction &amp; Transformation"]
+category: ["Data Extraction & Transformation"]
 framework: ["Claude Code", "Cursor", "MCP", "OpenClaw"]
 ---
 

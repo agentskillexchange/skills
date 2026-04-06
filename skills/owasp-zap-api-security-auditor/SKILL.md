@@ -1,15 +1,15 @@
 ---
 title: "OWASP ZAP API Security Auditor"
-description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP&#8217;s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
+description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
-category: ["Security &amp; Verification"]
+category: ["Security & Verification"]
 framework: ["OpenClaw"]
 ---
 
 # OWASP ZAP API Security Auditor
 
-Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP&#8217;s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
+Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
 
 ## Installation
 

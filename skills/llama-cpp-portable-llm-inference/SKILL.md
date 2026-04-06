@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "ggml-org/llama.cpp"
   github_stars: 100939
+  license: "MIT"
 ---
 
 # llama.cpp Portable LLM Inference Engine in C/C++

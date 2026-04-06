@@ -10,6 +10,7 @@ tool_ecosystem:
   github_stars: 39815
   ase_npm_package: "esbuild"
   npm_weekly_downloads: 163703618
+  license: "MIT"
 ---
 
 # esbuild Ultra-Fast JavaScript Bundler

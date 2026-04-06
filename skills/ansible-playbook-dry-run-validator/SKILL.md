@@ -3,7 +3,7 @@ title: "Ansible Playbook Dry Run Validator"
 description: "Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
-category: ["Runbooks &amp; Diagnostics"]
+category: ["Runbooks & Diagnostics"]
 framework: ["OpenClaw"]
 ---
 

@@ -3,7 +3,7 @@ title: "OWASP ZAP Scan Orchestrator"
 description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
-category: ["Security &amp; Verification"]
+category: ["Security & Verification"]
 framework: ["Codex"]
 ---
 

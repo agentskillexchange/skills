@@ -3,7 +3,7 @@ title: "Logdy Real-Time Log Viewer with Web UI and CLI"
 description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
 verification: security_reviewed
 source: "https://github.com/logdyhq/logdy-core"
-category: ["Monitoring &amp; Alerts"]
+category: ["Monitoring & Alerts"]
 framework: ["Multi-Framework"]
 ---
 

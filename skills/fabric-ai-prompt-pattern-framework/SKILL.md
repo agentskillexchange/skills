@@ -8,6 +8,7 @@ framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "danielmiessler/fabric"
   github_stars: 40278
+  license: "MIT"
 ---
 
 # Fabric AI Prompt Pattern Framework

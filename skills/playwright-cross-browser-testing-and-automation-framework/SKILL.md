@@ -10,6 +10,7 @@ tool_ecosystem:
   github_stars: 85523
   ase_npm_package: "playwright"
   npm_weekly_downloads: 45826303
+  license: "Apache-2.0"
 ---
 
 # Playwright Cross-Browser Testing and Automation Framework

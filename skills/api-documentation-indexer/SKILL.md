@@ -3,7 +3,7 @@ title: "API Documentation Indexer"
 description: "Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable indexes of endpoints, parameters, and response schemas for quick reference."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/api-documentation-indexer/"
-category: ["Library &amp; API Reference"]
+category: ["Library & API Reference"]
 framework: ["Claude Code"]
 ---
 

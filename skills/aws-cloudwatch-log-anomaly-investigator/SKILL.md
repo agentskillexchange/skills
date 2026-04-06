@@ -3,7 +3,7 @@ title: "AWS CloudWatch Log Anomaly Investigator"
 description: "Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/"
-category: ["Runbooks &amp; Diagnostics"]
+category: ["Runbooks & Diagnostics"]
 framework: ["ChatGPT Agents"]
 ---
 

@@ -3,7 +3,7 @@ title: "Blender Geometry Nodes Script Generator"
 description: "Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation."
 verification: security_reviewed
 source: "https://www.blender.org/"
-category: ["Image &amp; Creative Automation"]
+category: ["Image & Creative Automation"]
 framework: ["Custom Agents"]
 ---
 

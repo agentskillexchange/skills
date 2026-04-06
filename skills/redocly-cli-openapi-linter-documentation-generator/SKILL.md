@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "redocly/redocly-cli"
   github_stars: 1422
+  license: "MIT"
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator

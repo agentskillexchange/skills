@@ -3,7 +3,7 @@ title: "PostgreSQL MCP Server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
-category: ["Data Extraction &amp; Transformation"]
+category: ["Data Extraction & Transformation"]
 framework: ["Claude Code", "Cursor", "MCP", "OpenClaw"]
 ---
 

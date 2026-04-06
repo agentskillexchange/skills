@@ -3,7 +3,7 @@ title: "Notion Workspace Automation Hub"
 description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
-category: ["Calendar, Email &amp; Productivity"]
+category: ["Calendar, Email & Productivity"]
 framework: ["Custom Agents"]
 ---
 

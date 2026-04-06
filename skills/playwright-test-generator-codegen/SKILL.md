@@ -3,7 +3,7 @@ title: "Playwright Test Generator with Codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
-category: ["Research &amp; Scraping"]
+category: ["Research & Scraping"]
 framework: ["Cursor"]
 ---
 

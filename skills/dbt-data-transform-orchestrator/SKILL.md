@@ -3,7 +3,7 @@ title: "dbt Data Transform Orchestrator"
 description: "Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
-category: ["Data Extraction &amp; Transformation"]
+category: ["Data Extraction & Transformation"]
 framework: ["Custom Agents"]
 ---
 

@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "skyvern-ai/skyvern"
   github_stars: 20997
+  license: "AGPL-3.0"
 ---
 
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision

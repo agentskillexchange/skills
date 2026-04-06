@@ -3,7 +3,7 @@ title: "Plunk Open Source Transactional Email Platform on AWS SES"
 description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
 verification: security_reviewed
 source: "https://github.com/useplunk/plunk"
-category: ["Calendar, Email &amp; Productivity"]
+category: ["Calendar, Email & Productivity"]
 framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "useplunk/plunk"

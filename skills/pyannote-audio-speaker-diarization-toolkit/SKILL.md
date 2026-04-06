@@ -3,7 +3,7 @@ title: "pyannote.audio Neural Speaker Diarization Toolkit"
 description: "pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding."
 verification: security_reviewed
 source: "https://github.com/pyannote/pyannote-audio"
-category: ["Media &amp; Transcription"]
+category: ["Media & Transcription"]
 framework: ["Multi-Framework"]
 ---
 

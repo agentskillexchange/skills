@@ -3,7 +3,7 @@ title: "sitespeed.io Comprehensive Web Performance Analysis Toolkit"
 description: "sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring."
 verification: security_reviewed
 source: "https://github.com/sitespeedio/sitespeed.io"
-category: ["Monitoring &amp; Alerts"]
+category: ["Monitoring & Alerts"]
 framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "sitespeedio/sitespeed.io"

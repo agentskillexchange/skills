@@ -10,6 +10,7 @@ tool_ecosystem:
   github_stars: 1177
   ase_npm_package: "browserable"
   npm_weekly_downloads: 5
+  license: "MIT"
 ---
 
 # Browserable Self-Hostable Browser Automation for AI Agents

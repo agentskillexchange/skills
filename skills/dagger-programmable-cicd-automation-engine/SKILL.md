@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "dagger/dagger"
   github_stars: 15582
+  license: "Apache-2.0"
 ---
 
 # Dagger Programmable CI/CD Automation Engine

@@ -3,7 +3,7 @@ title: "NetBird WireGuard Mesh VPN with Zero Trust Access Controls"
 description: "NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a web UI and REST API, and supports self-hosted deployment for secure private networking."
 verification: security_reviewed
 source: "https://github.com/netbirdio/netbird"
-category: ["Security &amp; Verification"]
+category: ["Security & Verification"]
 framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "netbirdio/netbird"

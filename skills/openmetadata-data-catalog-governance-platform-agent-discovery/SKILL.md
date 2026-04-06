@@ -3,7 +3,7 @@ title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
 verification: security_reviewed
 source: "https://github.com/open-metadata/OpenMetadata"
-category: ["Library &amp; API Reference"]
+category: ["Library & API Reference"]
 framework: ["Multi-Framework"]
 ---
 

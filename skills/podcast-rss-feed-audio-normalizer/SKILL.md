@@ -3,7 +3,7 @@ title: "Podcast RSS Feed Audio Normalizer"
 description: "Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
-category: ["Media &amp; Transcription"]
+category: ["Media & Transcription"]
 framework: ["MCP"]
 ---
 

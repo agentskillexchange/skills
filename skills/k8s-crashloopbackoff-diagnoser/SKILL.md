@@ -3,7 +3,7 @@ title: "Kubernetes CrashLoopBackOff Diagnoser"
 description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
-category: ["Runbooks &amp; Diagnostics"]
+category: ["Runbooks & Diagnostics"]
 framework: ["Codex"]
 ---
 

@@ -3,7 +3,7 @@ title: "Parquet Column Statistics Profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-column-statistics-profiler/"
-category: ["Data Extraction &amp; Transformation"]
+category: ["Data Extraction & Transformation"]
 framework: ["ChatGPT Agents"]
 ---
 

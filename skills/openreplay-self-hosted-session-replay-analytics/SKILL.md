@@ -3,7 +3,7 @@ title: "OpenReplay Self-Hosted Session Replay and Product Analytics Platform"
 description: "OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network activity, console logs, JS errors, store state, and performance metrics to help reproduce issues and iterate on products faster."
 verification: security_reviewed
 source: "https://github.com/openreplay/openreplay"
-category: ["Monitoring &amp; Alerts"]
+category: ["Monitoring & Alerts"]
 framework: ["Multi-Framework"]
 ---
 

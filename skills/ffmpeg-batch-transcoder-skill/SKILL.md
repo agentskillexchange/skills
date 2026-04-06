@@ -3,7 +3,7 @@ title: "FFmpeg Batch Transcoder"
 description: "Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
-category: ["Media &amp; Transcription"]
+category: ["Media & Transcription"]
 framework: ["Cursor"]
 ---
 

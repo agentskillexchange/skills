@@ -3,7 +3,7 @@ title: "NPM Package Audit Reference"
 description: "Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
-category: ["Library &amp; API Reference"]
+category: ["Library & API Reference"]
 framework: ["Codex"]
 ---
 
