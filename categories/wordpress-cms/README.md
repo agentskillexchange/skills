@@ -79,6 +79,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
+| [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
 | [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |

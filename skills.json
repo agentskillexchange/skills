@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1736,
+  "total": 1740,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "official-firecrawl-mcp-server",
+      "name": "Official Firecrawl MCP Server",
+      "description": "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browserbase-mcp-server",
+      "name": "Browserbase MCP Server",
+      "description": "Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP and self-hosted stdio options. It suits teams that…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "automattic-wordpress-remote-mcp",
+      "name": "Automattic WordPress Remote MCP",
+      "description": "Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "microsoft-playwright-mcp",
+      "name": "Microsoft Playwright MCP",
+      "description": "Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents structured page access instead of screenshot-only workflows. It is a…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "searxng-privacy-first-metasearch-engine-search-api",
       "name": "SearXNG Privacy-First Metasearch Engine and Search API",

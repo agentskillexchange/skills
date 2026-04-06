@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C736-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C740-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C706-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,736 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,740 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -77,12 +77,12 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 96 | Linting, code review, test generators, coverage |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 94 | Email automation, calendar management, task coordination |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 83 | Third-party API bridges, webhooks, service connectors |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 78 | Web research, content discovery, data collection |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 77 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 77 | Audio/video processing, speech-to-text |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 77 | Web research, content discovery, data collection |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 76 | Web scraping, UI testing, headless browser control |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 75 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 74 | Scaffolders, boilerplate generators, workflow templates |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 74 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 74 | Web scraping, UI testing, headless browser control |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 62 | SEO content, blog automation, editorial workflows |
 
 ---
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,736 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,740 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,706 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -61,6 +61,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 764k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | — | — |
+| [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | — | — |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
@@ -72,6 +73,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | — | — |
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
+| [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | — | — |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |

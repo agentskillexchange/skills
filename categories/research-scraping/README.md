@@ -81,6 +81,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | — | — |
+| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |
 | [Playwright Network Interceptor](../../skills/playwright-network-interceptor/) | — | — |
