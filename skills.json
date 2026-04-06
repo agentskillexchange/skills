@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1727,
+  "total": 1730,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "prismic-headless-cms-content-api-client",
+      "name": "Prismic Headless CMS Content API Client",
+      "description": "Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the main integration point for fetching content in…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "ffsubsync-subtitle-synchronization-tool",
+      "name": "ffsubsync Subtitle Synchronization Tool",
+      "description": "ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "playwright-extra-browser-automation-plugins",
+      "name": "Playwright Extra Browser Automation Plugins",
+      "description": "Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "docling-document-parsing-and-conversion",
       "name": "Docling Document Parsing and Conversion",

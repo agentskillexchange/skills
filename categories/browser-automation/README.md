@@ -75,6 +75,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |
+| [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | — | — |
 | [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | — | — |
 | [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | — | — |
 | [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | — | — |

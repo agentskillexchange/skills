@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1727 skills** across **17 categories**
+> **1730 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,11 +15,11 @@
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **94** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **82** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **76** | Image generation, asset processing, design automation, and creative t... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **76** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **76** | Web research, data collection, content aggregation, and information g... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **75** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **72** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **72** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **73** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **73** | Web scraping, UI testing, headless browser control, and browser-based... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---

@@ -88,6 +88,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |
 | [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | — | — |
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
+| [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
