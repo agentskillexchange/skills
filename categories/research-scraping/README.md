@@ -98,6 +98,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | — | — |
 | [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | — | — |
 | [Scrapy Pipeline Manager](../../skills/scrapy-pipeline-manager/) | — | — |
+| [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | — | — |
 | [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | — | — |
 | [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | — | — |
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | — | — |

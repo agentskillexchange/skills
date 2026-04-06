@@ -70,6 +70,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | — | — |
 | [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | — | — |
 | [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-3/) | — | — |
+| [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | — | — |
 | [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | — | — |
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |

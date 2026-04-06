@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1743,
+  "total": 1746,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "remotion-react-video-generation-rendering-framework",
+      "name": "Remotion React Video Generation and Rendering Framework",
+      "description": "Remotion is a framework for making videos programmatically with React. It lets agents and developers generate branded videos, social clips, explainers, and template-based renders…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "scrapy-python-web-crawling-structured-data-extraction-framework",
+      "name": "Scrapy Python Web Crawling and Structured Data Extraction Framework",
+      "description": "Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "cypress-end-to-end-component-testing-framework",
+      "name": "Cypress End-to-End and Component Testing Framework",
+      "description": "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "ai-engine-wordpress-mcp-server-and-ai-automation",
       "name": "AI Engine WordPress MCP Server and AI Automation",

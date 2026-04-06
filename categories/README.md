@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1743 skills** across **17 categories**
+> **1746 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,11 +14,11 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **96** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **94** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **83** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **79** | Web research, data collection, content aggregation, and information g... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **78** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **78** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **78** | Web research, data collection, content aggregation, and information g... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **77** | Image generation, asset processing, design automation, and creative t... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **77** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **76** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **76** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **62** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
