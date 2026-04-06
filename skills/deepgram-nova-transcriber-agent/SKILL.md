@@ -1,10 +1,11 @@
 ---
-name: "deepgram-nova-transcriber-agent"
+title: "Deepgram Nova Transcriber"
+slug: "deepgram-nova-transcriber-agent"
 description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
-category: "Media &amp; Transcription"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
+category: "Media &amp; Transcription"
+framework: "OpenClaw"
 ---
 
 # Deepgram Nova Transcriber
@@ -13,13 +14,13 @@ Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, a
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "kubernetes-pod-diagnostics-runner-2"
+title: "Kubernetes Pod Diagnostics Runner"
+slug: "kubernetes-pod-diagnostics-runner-2"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
-category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
+category: "Runbooks &amp; Diagnostics"
+framework: "Cursor"
 ---
 
 # Kubernetes Pod Diagnostics Runner
@@ -13,13 +14,13 @@ Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubec
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

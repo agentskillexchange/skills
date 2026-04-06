@@ -1,10 +1,11 @@
 ---
-name: "video-subtitle-translator-agent"
-description: "Extracts embedded subtitles from video containers using FFmpeg's subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages."
-category: "Media &amp; Transcription"
-framework: "Gemini"
+title: "Video Subtitle Translator Agent"
+slug: "video-subtitle-translator-agent"
+description: "Extracts embedded subtitles from video containers using FFmpeg’s subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages."
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
+category: "Media &amp; Transcription"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548
@@ -12,17 +13,17 @@ tool_ecosystem:
 
 # Video Subtitle Translator Agent
 
-Extracts embedded subtitles from video containers using FFmpeg's subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages.
+Extracts embedded subtitles from video containers using FFmpeg’s subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages.
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

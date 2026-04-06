@@ -1,10 +1,11 @@
 ---
-name: "datadog-apm-anomaly-detector"
+title: "Datadog APM Anomaly Detector"
+slug: "datadog-apm-anomaly-detector"
 description: "Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors."
-category: "Monitoring &amp; Alerts"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
+category: "Monitoring &amp; Alerts"
+framework: "ChatGPT Agents"
 ---
 
 # Datadog APM Anomaly Detector
@@ -13,13 +14,13 @@ Detects performance anomalies in Datadog APM traces using the Datadog API v2 met
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

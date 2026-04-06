@@ -1,10 +1,11 @@
 ---
-name: "kamal-zero-downtime-docker-deployment-basecamp"
+title: "Kamal Zero-Downtime Docker Deployment Tool by Basecamp"
+slug: "kamal-zero-downtime-docker-deployment-basecamp"
 description: "Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero downtime using Docker and SSH. It uses kamal-proxy for seamless container switching and works across multiple servers simultaneously."
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/basecamp/kamal"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 ---
 
 # Kamal Zero-Downtime Docker Deployment Tool by Basecamp
@@ -13,13 +14,13 @@ Kamal is an open-source deployment tool by Basecamp that deploys containerized w
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

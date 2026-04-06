@@ -1,10 +1,11 @@
 ---
-name: "rspack-rust-based-javascript-bundler"
+title: "Rspack High-Performance Rust-Based JavaScript Bundler"
+slug: "rspack-rust-based-javascript-bundler"
 description: "Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in webpack replacement with dramatically faster build times, first-class Module Federation support, and seamless integration with existing webpack plugins and loaders."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/web-infra-dev/rspack"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "web-infra-dev/rspack"
   github_stars: 12592
@@ -16,13 +17,13 @@ Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack AP
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

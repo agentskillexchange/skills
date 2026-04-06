@@ -1,10 +1,11 @@
 ---
-name: "freeze-code-terminal-screenshot-generator"
+title: "Freeze Code and Terminal Screenshot Generator"
+slug: "freeze-code-terminal-screenshot-generator"
 description: "Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports syntax highlighting for over 200 languages, configurable themes, shadows, padding, and window chrome styling."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/freeze"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/freeze"
   github_stars: 4409
@@ -16,13 +17,13 @@ Freeze by Charmbracelet generates polished PNG and SVG images of code snippets a
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

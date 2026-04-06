@@ -1,10 +1,11 @@
 ---
-name: "serpbear-self-hosted-serp-rank-tracker"
+title: "SerpBear Self-Hosted Search Engine Rank Tracking App"
+slug: "serpbear-self-hosted-serp-rank-tracker"
 description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
-category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/towfiqi/serpbear"
+category: "Content Writing &amp; SEO"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "towfiqi/serpbear"
   github_stars: 1890
@@ -16,13 +17,13 @@ SerpBear is an open-source, self-hosted search engine position tracking applicat
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "typos-source-code-spell-checker"
+title: "typos Source Code Spell Checker"
+slug: "typos-source-code-spell-checker"
 description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/crate-ci/typos"
+category: "Code Quality &amp; Review"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "crate-ci/typos"
   github_stars: 3864
@@ -16,13 +17,13 @@ A blazing-fast source code spell checker written in Rust that finds and corrects
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

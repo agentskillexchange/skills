@@ -1,10 +1,11 @@
 ---
-name: "gitlab-pipeline-dag-optimizer"
+title: "GitLab Pipeline DAG Optimizer"
+slug: "gitlab-pipeline-dag-optimizer"
 description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
+category: "CI/CD Integrations"
+framework: "OpenClaw"
 ---
 
 # GitLab Pipeline DAG Optimizer
@@ -13,13 +14,13 @@ Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bot
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

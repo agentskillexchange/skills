@@ -1,10 +1,11 @@
 ---
-name: "quicktype-json-schema-code-generator"
+title: "quicktype JSON Schema to Typed Code Generator"
+slug: "quicktype-json-schema-code-generator"
 description: "Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns sample data into production-ready type definitions for Swift, C#, Go, Python, Rust, Java, Kotlin, and more."
-category: "Developer Tools"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/glideapps/quicktype"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "glideapps/quicktype"
   github_stars: 13690
@@ -16,13 +17,13 @@ Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScrip
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

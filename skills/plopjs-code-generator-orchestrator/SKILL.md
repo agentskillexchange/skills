@@ -1,10 +1,11 @@
 ---
-name: "plopjs-code-generator-orchestrator"
+title: "Plop.js Code Generator Orchestrator"
+slug: "plopjs-code-generator-orchestrator"
 description: "Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts."
-category: "Templates &amp; Workflows"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://github.com/plopjs/plop"
+category: "Templates &amp; Workflows"
+framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7636
@@ -18,13 +19,13 @@ Manages Plop.js micro-generators to scaffold components, modules, and boilerplat
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

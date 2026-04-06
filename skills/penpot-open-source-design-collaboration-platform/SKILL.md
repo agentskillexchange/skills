@@ -1,10 +1,11 @@
 ---
-name: "penpot-open-source-design-collaboration-platform"
+title: "Penpot Open-Source Design Collaboration Platform"
+slug: "penpot-open-source-design-collaboration-platform"
 description: "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model."
-category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/penpot/penpot"
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
 ---
 
 # Penpot Open-Source Design Collaboration Platform
@@ -13,13 +14,13 @@ Penpot is an open-source design and prototyping platform built for design and co
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

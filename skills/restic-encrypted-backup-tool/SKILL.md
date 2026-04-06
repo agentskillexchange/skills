@@ -1,10 +1,11 @@
 ---
-name: "restic-encrypted-backup-tool"
+title: "Restic Fast Encrypted Backup Program"
+slug: "restic-encrypted-backup-tool"
 description: "Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other storage backends. Written in Go with 32k+ GitHub stars, it features deduplication, encryption, and snapshot-based incremental backups."
-category: "Developer Tools"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/restic/restic"
+category: "Developer Tools"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "restic/restic"
   github_stars: 32908
@@ -16,13 +17,13 @@ Restic is a fast, secure, and efficient backup program supporting local, SFTP, S
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

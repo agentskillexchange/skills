@@ -1,17 +1,16 @@
 ---
-name: "seleniumbase-python-browser-automation-stealth-testing-framework"
+title: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
+slug: "seleniumbase-python-browser-automation-stealth-testing-framework"
 description: "SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware CDP and UC modes on top of Selenium workflows."
-category: "Browser Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/seleniumbase/SeleniumBase"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "seleniumbase/seleniumbase"
   github_stars: 12560
   npm_package: "seleniumbase"
   npm_weekly_downloads: 18
-  license: "MIT"
-  maintained: true
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework
@@ -20,13 +19,13 @@ SeleniumBase is a Python framework for browser automation, end-to-end testing, a
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

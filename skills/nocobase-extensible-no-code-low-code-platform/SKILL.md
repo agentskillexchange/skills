@@ -1,10 +1,11 @@
 ---
-name: "nocobase-extensible-no-code-low-code-platform"
+title: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
+slug: "nocobase-extensible-no-code-low-code-platform"
 description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nocobase/nocobase"
+category: "Developer Tools"
+framework: "Multi-Framework"
 ---
 
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
@@ -13,13 +14,13 @@ NocoBase is the most extensible open-source no-code/low-code platform for buildi
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "salesforce-mcp-server"
-description: "Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational [&hellip;]"
-category: "Integrations &amp; Connectors"
-framework: "MCP"
+title: "Salesforce MCP Server"
+slug: "salesforce-mcp-server"
+description: "Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational […]"
 verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
+category: "Integrations &amp; Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1454
@@ -14,17 +15,17 @@ tool_ecosystem:
 
 # Salesforce MCP Server
 
-Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational [&hellip;]
+Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational […]
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

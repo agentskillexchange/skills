@@ -1,10 +1,11 @@
 ---
-name: "xan-simd-csv-processing-cli"
+title: "xan SIMD-Powered CSV Processing and Analysis CLI"
+slug: "xan-simd-csv-processing-cli"
 description: "xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation, sorting, joining, and visualization of CSV data, with its own expression language for complex transformations and support for adjacent data formats."
-category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/medialab/xan"
+category: "Data Extraction &amp; Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "medialab/xan"
   github_stars: 3882
@@ -16,13 +17,13 @@ xan is a high-performance command-line tool for processing CSV files, written in
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

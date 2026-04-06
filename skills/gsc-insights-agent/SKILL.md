@@ -1,10 +1,11 @@
 ---
-name: "gsc-insights-agent"
+title: "Google Search Console Insights Agent"
+slug: "gsc-insights-agent"
 description: "Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country."
-category: "Content Writing &amp; SEO"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
+category: "Content Writing &amp; SEO"
+framework: "Custom Agents"
 ---
 
 # Google Search Console Insights Agent
@@ -13,13 +14,13 @@ Extracts search performance data via the Google Search Console API v1 /searchAna
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

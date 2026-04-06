@@ -1,10 +1,11 @@
 ---
-name: "opentelemetry-trace-context-propagator"
+title: "OpenTelemetry Trace Context Propagator"
+slug: "opentelemetry-trace-context-propagator"
 description: "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation."
-category: "Library &amp; API Reference"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/"
+category: "Library &amp; API Reference"
+framework: "Claude Code"
 ---
 
 # OpenTelemetry Trace Context Propagator
@@ -13,13 +14,13 @@ Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS S
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

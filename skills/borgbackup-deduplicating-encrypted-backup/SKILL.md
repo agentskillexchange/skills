@@ -1,10 +1,11 @@
 ---
-name: "borgbackup-deduplicating-encrypted-backup"
+title: "BorgBackup Deduplicating Encrypted Backup Program"
+slug: "borgbackup-deduplicating-encrypted-backup"
 description: "BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses content-defined chunking for space-efficient daily backups, making it ideal for automating secure incremental backups to local or remote SSH targets."
-category: "Runbooks &amp; Diagnostics"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/borgbackup/borg"
+category: "Runbooks &amp; Diagnostics"
+framework: "Multi-Framework"
 ---
 
 # BorgBackup Deduplicating Encrypted Backup Program
@@ -13,13 +14,13 @@ BorgBackup (Borg) is a deduplicating backup program with optional compression an
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

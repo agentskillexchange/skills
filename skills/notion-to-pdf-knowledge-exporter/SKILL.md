@@ -1,10 +1,11 @@
 ---
-name: "notion-to-pdf-knowledge-exporter"
+title: "Notion to PDF Knowledge Exporter"
+slug: "notion-to-pdf-knowledge-exporter"
 description: "Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images and preserves heading hierarchy. Generates per-section embeddings with OpenAI text-embedding-3-small for RAG ingestion."
-category: "Templates &amp; Workflows"
-framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/"
+category: "Templates &amp; Workflows"
+framework: "Codex"
 ---
 
 # Notion to PDF Knowledge Exporter
@@ -13,13 +14,13 @@ Queries Notion databases and pages via the Notion API v1, then renders content b
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

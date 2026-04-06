@@ -1,10 +1,11 @@
 ---
-name: "argocd-application-sync-manager-2"
+title: "ArgoCD Application Sync Manager"
+slug: "argocd-application-sync-manager-2"
 description: "Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments."
-category: "CI/CD Integrations"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
+category: "CI/CD Integrations"
+framework: "Gemini"
 ---
 
 # ArgoCD Application Sync Manager
@@ -13,13 +14,13 @@ Manages ArgoCD application synchronization using the ArgoCD REST API and argocd 
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

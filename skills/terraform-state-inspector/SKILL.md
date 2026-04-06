@@ -1,10 +1,11 @@
 ---
-name: "terraform-state-inspector"
+title: "Terraform State Inspector"
+slug: "terraform-state-inspector"
 description: "Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data."
-category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-inspector/"
+category: "Runbooks &amp; Diagnostics"
+framework: "Gemini"
 ---
 
 # Terraform State Inspector
@@ -13,13 +14,13 @@ Inspects and diagnoses Terraform state files using terraform CLI commands and th
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "lightpanda-headless-browser-ai-automation"
+title: "Lightpanda Headless Browser for AI Automation"
+slug: "lightpanda-headless-browser-ai-automation"
 description: "Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It delivers 11x faster page rendering and 9x lower memory usage than Chrome while maintaining full CDP compatibility with Playwright, Puppeteer, and chromedp."
-category: "Browser Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/lightpanda-io/browser"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "lightpanda-io/browser"
   github_stars: 26505
@@ -16,13 +17,13 @@ Lightpanda is a headless browser built from scratch in Zig, purpose-designed for
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

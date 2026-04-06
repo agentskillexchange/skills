@@ -1,10 +1,11 @@
 ---
-name: "highlight-io-full-stack-monitoring"
+title: "Highlight.io Open Source Full-Stack Monitoring Platform"
+slug: "highlight-io-full-stack-monitoring"
 description: "Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend."
-category: "Monitoring &amp; Alerts"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/highlight/highlight"
+category: "Monitoring &amp; Alerts"
+framework: "Custom Agents"
 ---
 
 # Highlight.io Open Source Full-Stack Monitoring Platform
@@ -13,13 +14,13 @@ Highlight.io is an open-source full-stack monitoring platform combining session 
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "devdocs-unified-api-documentation-browser"
+title: "DevDocs Unified API Documentation Browser"
+slug: "devdocs-unified-api-documentation-browser"
 description: "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference for programming languages, frameworks, and tools."
-category: "Library &amp; API Reference"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/freeCodeCamp/devdocs"
+category: "Library &amp; API Reference"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "freeCodeCamp/devdocs"
   github_stars: 38655
@@ -16,13 +17,13 @@ DevDocs aggregates 500+ API documentation sets into a single searchable interfac
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,16 +1,16 @@
 ---
-name: "strapi-headless-cms-rest-graphql"
+title: "Strapi Open Source Headless CMS with REST and GraphQL APIs"
+slug: "strapi-headless-cms-rest-graphql"
 description: "Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL APIs from content types, provides a customizable admin panel, and supports roles, i18n, and plugin extensions."
-category: "WordPress &amp; CMS"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/strapi/strapi"
+category: "WordPress &amp; CMS"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71740
   npm_package: "@strapi/strapi"
   npm_weekly_downloads: 156398
-  maintained: true
 ---
 
 # Strapi Open Source Headless CMS with REST and GraphQL APIs
@@ -19,13 +19,13 @@ Strapi is the leading open-source headless CMS built with Node.js and TypeScript
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

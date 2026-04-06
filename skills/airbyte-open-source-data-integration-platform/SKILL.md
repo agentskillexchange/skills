@@ -1,10 +1,11 @@
 ---
-name: "airbyte-open-source-data-integration-platform"
+title: "Airbyte Open Source Data Integration Platform"
+slug: "airbyte-open-source-data-integration-platform"
 description: "Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines from APIs, databases, and files to data warehouses, lakes, and lakehouses. It supports both self-hosted and cloud deployments with a no-code connector builder."
-category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/airbytehq/airbyte"
+category: "Integrations &amp; Connectors"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "airbytehq/airbyte"
   github_stars: 20996
@@ -16,13 +17,13 @@ Airbyte is the leading open-source data integration platform providing 600+ pre-
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

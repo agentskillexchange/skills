@@ -1,10 +1,11 @@
 ---
-name: "protobuf-documentation-compiler"
+title: "Protocol Buffers Documentation Compiler"
+slug: "protobuf-documentation-compiler"
 description: "Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages."
-category: "Library &amp; API Reference"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
+category: "Library &amp; API Reference"
+framework: "Cursor"
 ---
 
 # Protocol Buffers Documentation Compiler
@@ -13,13 +14,13 @@ Compiles Protocol Buffer .proto files using protoc and generates API documentati
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

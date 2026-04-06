@@ -1,10 +1,11 @@
 ---
-name: "datadog-apm-trace-analyzer-2"
+title: "Datadog APM Trace Analyzer"
+slug: "datadog-apm-trace-analyzer-2"
 description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports."
-category: "Monitoring &amp; Alerts"
-framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
+category: "Monitoring &amp; Alerts"
+framework: "Claude Agents"
 ---
 
 # Datadog APM Trace Analyzer
@@ -13,13 +14,13 @@ Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latenc
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

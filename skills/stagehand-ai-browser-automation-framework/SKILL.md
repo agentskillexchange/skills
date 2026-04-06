@@ -1,10 +1,11 @@
 ---
-name: "stagehand-ai-browser-automation-framework"
+title: "Stagehand AI Browser Automation Framework"
+slug: "stagehand-ai-browser-automation-framework"
 description: "Stagehand is an open-source browser automation framework that combines natural language instructions with code for reliable web automation. Built on top of Playwright, it lets developers use AI when navigating unfamiliar pages and code when they know exactly what to do."
-category: "Browser Automation"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 21782
@@ -16,13 +17,13 @@ Stagehand is an open-source browser automation framework that combines natural l
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

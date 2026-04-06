@@ -1,10 +1,11 @@
 ---
-name: "eslint-autofix-pipeline"
+title: "ESLint Auto-Fix Pipeline"
+slug: "eslint-autofix-pipeline"
 description: "Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
-category: "Code Quality &amp; Review"
-framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
+category: "Code Quality &amp; Review"
+framework: "Claude Agents"
 ---
 
 # ESLint Auto-Fix Pipeline
@@ -13,13 +14,13 @@ Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, app
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

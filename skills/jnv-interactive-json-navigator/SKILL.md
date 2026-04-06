@@ -1,10 +1,11 @@
 ---
-name: "jnv-interactive-json-navigator"
+title: "jnv Interactive JSON Navigator and jq Filter Editor"
+slug: "jnv-interactive-json-navigator"
 description: "A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex JSON structures visually while building and testing jq queries in real time, with syntax highlighting, auto-completion, and clipboard support."
-category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/ynqa/jnv"
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "ynqa/jnv"
   github_stars: 5979
@@ -16,13 +17,13 @@ A terminal-based interactive JSON viewer and jq filter editor written in Rust. j
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

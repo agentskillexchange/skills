@@ -1,10 +1,11 @@
 ---
-name: "openmetadata-data-catalog-governance-platform-agent-discovery"
+title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
+slug: "openmetadata-data-catalog-governance-platform-agent-discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
-category: "Library &amp; API Reference"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/open-metadata/OpenMetadata"
+category: "Library &amp; API Reference"
+framework: "Multi-Framework"
 ---
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery
@@ -13,13 +14,13 @@ OpenMetadata provides a central metadata layer for data discovery, lineage, qual
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

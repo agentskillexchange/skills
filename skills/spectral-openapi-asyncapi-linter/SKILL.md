@@ -1,10 +1,11 @@
 ---
-name: "spectral-openapi-asyncapi-linter"
+title: "Spectral OpenAPI and AsyncAPI Linter"
+slug: "spectral-openapi-asyncapi-linter"
 description: "Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0, AsyncAPI 2.x, and Arazzo 1.0. It enforces API style guides through custom and pre-built rulesets, ensuring consistency across all your API descriptions."
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/stoplightio/spectral"
+category: "Code Quality &amp; Review"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3057
@@ -16,13 +17,13 @@ Spectral is an open-source JSON/YAML linter by Stoplight with built-in support f
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

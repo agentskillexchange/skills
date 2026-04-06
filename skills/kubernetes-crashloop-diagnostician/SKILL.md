@@ -1,10 +1,11 @@
 ---
-name: "kubernetes-crashloop-diagnostician"
+title: "Kubernetes CrashLoop Diagnostician"
+slug: "kubernetes-crashloop-diagnostician"
 description: "Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl debug. Analyzes container exit codes, OOMKill events, and liveness probe failures with automated remediation suggestions."
-category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostician/"
+category: "Runbooks &amp; Diagnostics"
+framework: "OpenClaw"
 ---
 
 # Kubernetes CrashLoop Diagnostician
@@ -13,13 +14,13 @@ Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl d
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

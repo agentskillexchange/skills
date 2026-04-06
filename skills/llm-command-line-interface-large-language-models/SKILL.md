@@ -1,15 +1,14 @@
 ---
-name: "llm-command-line-interface-large-language-models"
+title: "LLM Command-Line Interface for Large Language Models"
+slug: "llm-command-line-interface-large-language-models"
 description: "LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Anthropic Claude, Google Gemini, Meta Llama, and dozens of other language models from the terminal. It supports API-based and local models via plugins, conversation logging to SQLite, templates, embeddings, and tool use."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/simonw/llm"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/llm"
   github_stars: 11508
-  license: "Apache-2.0"
-  maintained: true
 ---
 
 # LLM Command-Line Interface for Large Language Models
@@ -18,13 +17,13 @@ LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Ant
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "anthropic-sdk-token-usage-logger"
+title: "Anthropic SDK Token Usage Logger"
+slug: "anthropic-sdk-token-usage-logger"
 description: "Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create method to capture usage.input_tokens, usage.output_tokens, and timing from the API response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient."
-category: "Library &amp; API Reference"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/"
+category: "Library &amp; API Reference"
+framework: "Claude Code"
 ---
 
 # Anthropic SDK Token Usage Logger
@@ -13,13 +14,13 @@ Instruments Anthropic API calls to log token usage, latency, and cost per reques
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

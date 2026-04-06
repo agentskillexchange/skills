@@ -1,10 +1,11 @@
 ---
-name: "csvkit-python-csv-utility-suite"
+title: "csvkit Python CSV Utility Suite"
+slug: "csvkit-python-csv-utility-suite"
 description: "csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It includes tools for format conversion, querying CSV with SQL, data cleaning, filtering, sorting, and statistical analysis."
-category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/wireservice/csvkit"
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wireservice/csvkit"
   github_stars: 6363
@@ -16,13 +17,13 @@ csvkit is a suite of Python command-line utilities for converting to, working wi
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

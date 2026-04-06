@@ -1,10 +1,11 @@
 ---
-name: "postgresql-query-plan-diagnostics-wave48"
+title: "PostgreSQL Query Plan Diagnostics"
+slug: "postgresql-query-plan-diagnostics-wave48"
 description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
-category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
+category: "Runbooks &amp; Diagnostics"
+framework: "Claude Code"
 ---
 
 # PostgreSQL Query Plan Diagnostics
@@ -13,13 +14,13 @@ Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMA
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

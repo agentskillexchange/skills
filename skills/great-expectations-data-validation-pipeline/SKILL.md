@@ -1,10 +1,11 @@
 ---
-name: "great-expectations-data-validation-pipeline"
+title: "Great Expectations Data Validation Pipeline"
+slug: "great-expectations-data-validation-pipeline"
 description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/great-expectations/great_expectations"
+category: "Code Quality &amp; Review"
+framework: "['Claude Code', 'OpenClaw']"
 tool_ecosystem:
   github_repo: "great-expectations/great_expectations"
   github_stars: 11321
@@ -16,13 +17,13 @@ Validate data quality using the Great Expectations Python library. Define expect
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,15 +1,14 @@
 ---
-name: "mitmproxy-interactive-https-proxy-debugging-security"
+title: "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing"
+slug: "mitmproxy-interactive-https-proxy-debugging-security"
 description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line, and web-based interfaces for intercepting, inspecting, modifying, and replaying web traffic."
-category: "Security &amp; Verification"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/mitmproxy/mitmproxy"
+category: "Security &amp; Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
-  license: "MIT"
-  maintained: true
 ---
 
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
@@ -18,13 +17,13 @@ mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetra
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

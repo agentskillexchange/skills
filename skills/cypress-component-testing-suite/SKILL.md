@@ -1,10 +1,11 @@
 ---
-name: "cypress-component-testing-suite"
+title: "Cypress Component Testing Suite"
+slug: "cypress-component-testing-suite"
 description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
-category: "Browser Automation"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
+category: "Browser Automation"
+framework: "MCP"
 ---
 
 # Cypress Component Testing Suite
@@ -13,13 +14,13 @@ Implements component and E2E tests using Cypress with cy.mount, cy.intercept, an
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "nx-workspace-generator-toolkit"
+title: "Nx Workspace Generator Toolkit"
+slug: "nx-workspace-generator-toolkit"
 description: "Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness."
-category: "Templates &amp; Workflows"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/"
+category: "Templates &amp; Workflows"
+framework: "Cursor"
 ---
 
 # Nx Workspace Generator Toolkit
@@ -13,13 +14,13 @@ Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeT
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

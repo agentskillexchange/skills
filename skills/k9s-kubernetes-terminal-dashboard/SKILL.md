@@ -1,10 +1,11 @@
 ---
-name: "k9s-kubernetes-terminal-dashboard"
+title: "K9s Kubernetes Terminal Dashboard"
+slug: "k9s-kubernetes-terminal-dashboard"
 description: "K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface."
-category: "Developer Tools"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/derailed/k9s"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "derailed/k9s"
   github_stars: 33240
@@ -16,13 +17,13 @@ K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

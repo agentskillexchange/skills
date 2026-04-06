@@ -1,10 +1,11 @@
 ---
-name: "fumadocs-react-documentation-framework-and-docs-site-generator"
+title: "Fumadocs React Documentation Framework and Docs Site Generator"
+slug: "fumadocs-react-documentation-framework-and-docs-site-generator"
 description: "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages, wire content collections, and extend interactive UI components for product docs, SDK docs, and internal knowledge bases."
-category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/fuma-nama/fumadocs"
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 ---
 
 # Fumadocs React Documentation Framework and Docs Site Generator
@@ -13,13 +14,13 @@ Build and maintain documentation websites with Fumadocs, the React-based docs fr
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

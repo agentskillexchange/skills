@@ -1,10 +1,11 @@
 ---
-name: "langextract-llm-structured-text-extraction"
+title: "LangExtract LLM-Powered Structured Text Extraction"
+slug: "langextract-llm-structured-text-extraction"
 description: "LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs with precise source grounding. With 35,000+ GitHub stars, it handles everything from clinical notes to literary analysis, producing verified extraction results with exact source text mappings and interactive visualizations."
-category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/google/langextract"
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "google/langextract"
   github_stars: 35042
@@ -16,13 +17,13 @@ LangExtract by Google is a Python library for extracting structured information 
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "kubernetes-pod-crash-diagnostics-3"
+title: "Kubernetes Pod Crash Diagnostics"
+slug: "kubernetes-pod-crash-diagnostics-3"
 description: "Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/"
+category: "Developer Tools"
+framework: "Custom Agents"
 ---
 
 # Kubernetes Pod Crash Diagnostics
@@ -13,13 +14,13 @@ Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to d
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

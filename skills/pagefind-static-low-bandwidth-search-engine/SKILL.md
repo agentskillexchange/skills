@@ -1,17 +1,16 @@
 ---
-name: "pagefind-static-low-bandwidth-search-engine"
+title: "Pagefind Static Low-Bandwidth Search Engine"
+slug: "pagefind-static-low-bandwidth-search-engine"
 description: "Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring no server infrastructure. It performs well on large sites while using minimal bandwidth."
-category: "Research &amp; Scraping"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Pagefind/pagefind"
+category: "Research &amp; Scraping"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pagefind/pagefind"
   github_stars: 5094
   npm_package: "pagefind"
   npm_weekly_downloads: 469266
-  license: "MIT"
-  maintained: true
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine
@@ -20,13 +19,13 @@ Pagefind is a static search library written in Rust that indexes your built site
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

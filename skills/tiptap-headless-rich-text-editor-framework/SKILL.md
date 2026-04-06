@@ -1,17 +1,16 @@
 ---
-name: "tiptap-headless-rich-text-editor-framework"
+title: "Tiptap Headless Rich Text Editor Framework for Web Applications"
+slug: "tiptap-headless-rich-text-editor-framework"
 description: "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints."
-category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ueberdosis/tiptap"
+category: "Content Writing &amp; SEO"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ueberdosis/tiptap"
   github_stars: 35948
   npm_package: "tiptap"
   npm_weekly_downloads: 41452
-  license: "MIT"
-  maintained: true
 ---
 
 # Tiptap Headless Rich Text Editor Framework for Web Applications
@@ -20,13 +19,13 @@ Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. 
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 

@@ -1,10 +1,11 @@
 ---
-name: "atlassian-mcp-server-jira-confluence"
+title: "Atlassian MCP Server for Jira and Confluence"
+slug: "atlassian-mcp-server-jira-confluence"
 description: "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP-compatible client."
-category: "Integrations &amp; Connectors"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/sooperset/mcp-atlassian"
+category: "Integrations &amp; Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "sooperset/mcp-atlassian"
   github_stars: 4785
@@ -16,13 +17,13 @@ mcp-atlassian is a Model Context Protocol server that connects AI assistants to 
 
 ## Installation
 
-You can install this skill using one of these common methods:
+Choose whichever method fits your setup:
 
-1. **ClawHub** — install from the marketplace if available.
-2. **Git clone** — clone the skill folder into your local skills directory.
-3. **Download ZIP** — download and extract the skill files manually.
-4. **Copy files** — copy the skill directory into your agent skills path.
-5. **Package manager / upstream installer** — use the original project installer if the source provides one.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download the upstream project manually.
+3. Use the project package manager or installer if available.
+4. Copy the skill into your local skills directory.
+5. Follow the upstream documentation for environment-specific setup.
 
 ## Source
 
