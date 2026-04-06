@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/fullstorydev/grpcurl"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "fullstorydev/grpcurl"
   github_stars: 12548

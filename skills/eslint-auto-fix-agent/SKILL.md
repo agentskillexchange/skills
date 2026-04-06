@@ -5,7 +5,9 @@ slug: "eslint-auto-fix-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-auto-fix-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 ---
 
 # ESLint Auto-Fix Agent

@@ -5,7 +5,10 @@ slug: "kubernetes-event-stream-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Kubernetes Event Stream Analyzer

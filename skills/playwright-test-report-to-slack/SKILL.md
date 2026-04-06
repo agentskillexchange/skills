@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Playwright Test Report to Slack

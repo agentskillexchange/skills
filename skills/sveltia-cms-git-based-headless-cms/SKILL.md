@@ -5,11 +5,13 @@ slug: "sveltia-cms-git-based-headless-cms"
 verification: "security_reviewed"
 source: "https://github.com/sveltia/sveltia-cms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sveltia/sveltia-cms"
   github_stars: 2245
-  ase_npm_package: "@sveltia/cms"
+  npm_package: "@sveltia/cms"
   npm_weekly_downloads: 2761
 ---
 

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/meilisearch/meilisearch-mcp"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "meilisearch/meilisearch-mcp"
   github_stars: 181

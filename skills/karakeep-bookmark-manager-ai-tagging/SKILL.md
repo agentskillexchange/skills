@@ -5,7 +5,9 @@ slug: "karakeep-bookmark-manager-ai-tagging"
 verification: "security_reviewed"
 source: "https://github.com/karakeep-app/karakeep"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "karakeep-app/karakeep"
   github_stars: 24456

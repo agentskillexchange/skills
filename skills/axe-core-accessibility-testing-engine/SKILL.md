@@ -5,7 +5,9 @@ slug: "axe-core-accessibility-testing-engine"
 verification: "security_reviewed"
 source: "https://github.com/dequelabs/axe-core"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing

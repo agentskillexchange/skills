@@ -5,7 +5,9 @@ slug: "formbricks-open-source-survey-platform"
 verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Formbricks Open-Source Survey Platform

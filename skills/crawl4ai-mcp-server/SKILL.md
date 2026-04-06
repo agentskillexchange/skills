@@ -5,7 +5,9 @@ slug: "crawl4ai-mcp-server"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/crawl4ai-mcp-server/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 ---
 
 # Crawl4AI MCP Server

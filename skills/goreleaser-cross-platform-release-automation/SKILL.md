@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/goreleaser/goreleaser"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "goreleaser/goreleaser"
   github_stars: 15686

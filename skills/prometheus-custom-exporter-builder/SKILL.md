@@ -5,7 +5,9 @@ slug: "prometheus-custom-exporter-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Claude Agents"
 ---
 
 # Prometheus Custom Exporter Builder

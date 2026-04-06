@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 ---
 
 # ArgoCD Sync Troubleshooter

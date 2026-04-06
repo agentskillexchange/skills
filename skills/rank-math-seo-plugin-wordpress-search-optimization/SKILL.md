@@ -5,7 +5,9 @@ slug: "rank-math-seo-plugin-wordpress-search-optimization"
 verification: "security_reviewed"
 source: "https://wordpress.org/plugins/seo-by-rank-math/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 ---
 
 # Rank Math SEO Plugin for WordPress Search Optimization

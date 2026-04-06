@@ -5,7 +5,9 @@ slug: "keyword-cluster-generator-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "MCP"
 ---
 
 # Keyword Cluster Generator

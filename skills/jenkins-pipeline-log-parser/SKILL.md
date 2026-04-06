@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 ---
 
 # Jenkins Pipeline Log Parser

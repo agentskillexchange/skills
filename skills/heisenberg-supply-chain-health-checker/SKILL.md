@@ -5,7 +5,9 @@ slug: "heisenberg-supply-chain-health-checker"
 verification: "security_reviewed"
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
   github_stars: 123

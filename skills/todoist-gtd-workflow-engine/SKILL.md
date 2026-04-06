@@ -5,7 +5,9 @@ slug: "todoist-gtd-workflow-engine"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 ---
 
 # Todoist GTD Workflow Engine

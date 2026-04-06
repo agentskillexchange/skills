@@ -5,7 +5,9 @@ slug: "argocd-application-health-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-health-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # ArgoCD Application Health Runbook

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/agno-agi/agno"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "agno-agi/agno"
   github_stars: 39050

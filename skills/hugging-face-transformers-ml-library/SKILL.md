@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/huggingface/transformers"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 158855

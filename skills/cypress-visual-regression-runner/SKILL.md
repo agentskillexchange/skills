@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-visual-regression-runner/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Cypress Visual Regression Runner

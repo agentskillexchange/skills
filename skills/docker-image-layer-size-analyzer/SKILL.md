@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # Docker Image Layer Size Analyzer

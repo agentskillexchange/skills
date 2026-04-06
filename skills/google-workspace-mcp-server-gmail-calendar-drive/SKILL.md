@@ -5,7 +5,9 @@ slug: "google-workspace-mcp-server-gmail-calendar-drive"
 verification: "security_reviewed"
 source: "https://github.com/taylorwilsdon/google_workspace_mcp"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "taylorwilsdon/google_workspace_mcp"
   github_stars: 1986

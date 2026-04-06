@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 ---
 
 # Jenkins Groovy Shared Library Auditor

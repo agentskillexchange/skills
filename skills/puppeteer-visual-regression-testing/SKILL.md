@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Puppeteer Visual Regression Testing

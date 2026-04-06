@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/simonw/llm"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/llm"
   github_stars: 11508

@@ -5,7 +5,9 @@ slug: "aws-ssm-runbook-engine"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-engine/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # AWS Systems Manager Runbook Engine

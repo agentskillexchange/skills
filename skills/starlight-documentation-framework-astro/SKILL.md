@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/withastro/starlight"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "withastro/starlight"
   github_stars: 8213

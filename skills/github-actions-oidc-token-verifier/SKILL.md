@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 ---
 
 # GitHub Actions OIDC Token Verifier

@@ -5,7 +5,9 @@ slug: "stable-diffusion-controlnet-pose-pipeline"
 verification: "security_reviewed"
 source: "https://github.com/lllyasviel/ControlNet"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "lllyasviel/ControlNet"
   github_stars: 33793

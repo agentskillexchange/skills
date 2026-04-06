@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 ---
 
 # GitHub Actions Workflow Debugger

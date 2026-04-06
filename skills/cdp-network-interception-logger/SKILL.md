@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
 category:
   - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # CDP Network Interception Logger

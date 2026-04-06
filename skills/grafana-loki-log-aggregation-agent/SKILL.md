@@ -5,7 +5,9 @@ slug: "grafana-loki-log-aggregation-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Gemini"
 ---
 
 # Grafana Loki Log Aggregation Agent

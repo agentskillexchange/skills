@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-drift-detector-2/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # Terraform Drift Detector

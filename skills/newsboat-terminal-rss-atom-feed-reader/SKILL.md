@@ -5,7 +5,9 @@ slug: "newsboat-terminal-rss-atom-feed-reader"
 verification: "security_reviewed"
 source: "https://github.com/newsboat/newsboat"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "newsboat/newsboat"
   github_stars: 3750

@@ -5,7 +5,9 @@ slug: "jenkins-pipeline-code-review-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # Jenkins Pipeline Code Review Agent

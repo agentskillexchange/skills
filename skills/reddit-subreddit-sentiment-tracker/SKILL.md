@@ -5,7 +5,9 @@ slug: "reddit-subreddit-sentiment-tracker"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Codex"
 ---
 
 # Reddit Subreddit Sentiment Tracker

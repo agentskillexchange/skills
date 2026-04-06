@@ -5,7 +5,9 @@ slug: "ffmpeg-clip-extractor-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # FFmpeg Clip Extractor

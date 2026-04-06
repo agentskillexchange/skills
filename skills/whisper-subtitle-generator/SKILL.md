@@ -5,7 +5,9 @@ slug: "whisper-subtitle-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Gemini"
 ---
 
 # Whisper Subtitle Generator

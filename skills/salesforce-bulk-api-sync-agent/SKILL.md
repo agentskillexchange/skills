@@ -5,7 +5,9 @@ slug: "salesforce-bulk-api-sync-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Codex"
 ---
 
 # Salesforce Bulk API Sync Agent

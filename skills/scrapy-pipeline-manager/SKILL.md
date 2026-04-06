@@ -5,7 +5,9 @@ slug: "scrapy-pipeline-manager"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-manager/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # Scrapy Pipeline Manager

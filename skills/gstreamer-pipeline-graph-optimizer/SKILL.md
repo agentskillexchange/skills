@@ -5,7 +5,9 @@ slug: "gstreamer-pipeline-graph-optimizer"
 verification: "security_reviewed"
 source: "https://gstreamer.freedesktop.org/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # GStreamer Pipeline Graph Optimizer

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-deployment-monitor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # ArgoCD Deployment Monitor

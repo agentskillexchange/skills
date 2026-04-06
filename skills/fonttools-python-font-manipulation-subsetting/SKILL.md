@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/fonttools/fonttools"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # fonttools Python Font Manipulation and Subsetting Library

@@ -5,7 +5,9 @@ slug: "microsoft-learn-mcp-server"
 verification: "security_reviewed"
 source: "https://github.com/MicrosoftDocs/mcp"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "MCP"
 ---
 
 # Microsoft Learn MCP Server

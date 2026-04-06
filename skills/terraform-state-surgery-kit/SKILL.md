@@ -5,7 +5,9 @@ slug: "terraform-state-surgery-kit"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Terraform State Surgery Kit

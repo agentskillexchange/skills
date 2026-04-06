@@ -5,7 +5,9 @@ slug: "asyncapi-event-catalog-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Gemini"
 ---
 
 # AsyncAPI Event Catalog Builder

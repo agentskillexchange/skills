@@ -5,7 +5,9 @@ slug: "technical-seo-audit-crawler"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "OpenClaw"
 ---
 
 # Technical SEO Audit Crawler

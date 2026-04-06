@@ -5,7 +5,9 @@ slug: "slack-channel-summarizer-bolt-sdk"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 ---
 
 # Slack Channel Summarizer

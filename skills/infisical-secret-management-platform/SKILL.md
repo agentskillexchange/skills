@@ -5,7 +5,12 @@ slug: "infisical-secret-management-platform"
 verification: "security_reviewed"
 source: "https://github.com/Infisical/infisical"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
+tool_ecosystem:
+  github_repo: "infisical/infisical"
+  github_stars: 25635
 ---
 
 # Infisical Open-Source Secret Management Platform

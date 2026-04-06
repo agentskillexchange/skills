@@ -5,7 +5,9 @@ slug: "gmail-thread-summarizer-action-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "OpenClaw"
 ---
 
 # Gmail Thread Summarizer and Action Extractor

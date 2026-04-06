@@ -5,7 +5,9 @@ slug: "deepgram-podcast-chapter-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Deepgram Podcast Chapter Generator

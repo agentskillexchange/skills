@@ -5,7 +5,9 @@ slug: "immich-photo-video-management-platform"
 verification: "security_reviewed"
 source: "https://github.com/immich-app/immich"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "immich-app/immich"
   github_stars: 96205

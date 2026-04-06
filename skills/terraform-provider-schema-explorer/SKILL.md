@@ -5,7 +5,9 @@ slug: "terraform-provider-schema-explorer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-provider-schema-explorer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Gemini"
 ---
 
 # Terraform Provider Schema Explorer

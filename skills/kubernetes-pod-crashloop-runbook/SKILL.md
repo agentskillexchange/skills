@@ -5,7 +5,9 @@ slug: "kubernetes-pod-crashloop-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Agents"
 ---
 
 # Kubernetes Pod Crashloop Runbook

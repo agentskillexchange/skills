@@ -5,7 +5,9 @@ slug: "datasette-data-exploration-publishing-tool"
 verification: "security_reviewed"
 source: "https://github.com/simonw/datasette"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "simonw/datasette"
   github_stars: 10894

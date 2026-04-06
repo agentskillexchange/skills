@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 ---
 
 # Bazel Build Graph Analyzer

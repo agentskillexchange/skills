@@ -5,7 +5,9 @@ slug: "qdrant-mcp-server-vector-search-semantic-memory"
 verification: "security_reviewed"
 source: "https://github.com/qdrant/mcp-server-qdrant"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "qdrant/mcp-server-qdrant"
   github_stars: 1314

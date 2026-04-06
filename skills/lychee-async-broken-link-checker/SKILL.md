@@ -5,7 +5,9 @@ slug: "lychee-async-broken-link-checker"
 verification: "security_reviewed"
 source: "https://github.com/lycheeverse/lychee"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "lycheeverse/lychee"
   github_stars: 3463

@@ -5,7 +5,9 @@ slug: "linear-mcp-server-issue-tracking-project-management"
 verification: "security_reviewed"
 source: "https://github.com/jerhadf/linear-mcp-server"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "jerhadf/linear-mcp-server"
   github_stars: 346

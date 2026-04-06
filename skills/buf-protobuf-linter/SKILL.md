@@ -5,7 +5,9 @@ slug: "buf-protobuf-linter"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # Buf Protobuf Linter

@@ -5,7 +5,9 @@ slug: "acf-custom-fields-rest-exposer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Cursor"
 ---
 
 # ACF Custom Fields REST Exposer

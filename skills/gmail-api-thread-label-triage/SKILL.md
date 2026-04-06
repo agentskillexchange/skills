@@ -5,7 +5,9 @@ slug: "gmail-api-thread-label-triage"
 verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Gemini"
 ---
 
 # Gmail API Thread Label Triage

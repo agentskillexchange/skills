@@ -5,11 +5,13 @@ slug: "nocodb-self-hosted-no-code-database-rest-api"
 verification: "security_reviewed"
 source: "https://github.com/nocodb/nocodb"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nocodb/nocodb"
   github_stars: 62560
-  ase_npm_package: "nocodb"
+  npm_package: "nocodb"
   npm_weekly_downloads: 487
 ---
 

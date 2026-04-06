@@ -5,7 +5,9 @@ slug: "snyk-open-source-dependency-auditor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Cursor"
 ---
 
 # Snyk Open Source Dependency Auditor

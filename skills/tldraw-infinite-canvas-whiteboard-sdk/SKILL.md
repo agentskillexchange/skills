@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/tldraw/tldraw"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tldraw/tldraw"
   github_stars: 46154
-  ase_npm_package: "tldraw"
+  npm_package: "tldraw"
   npm_weekly_downloads: 161241
 ---
 

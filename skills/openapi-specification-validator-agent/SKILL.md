@@ -5,7 +5,9 @@ slug: "openapi-specification-validator-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-specification-validator-agent/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # OpenAPI Specification Validator

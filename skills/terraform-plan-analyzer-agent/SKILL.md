@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 ---
 
 # Terraform Plan Analyzer

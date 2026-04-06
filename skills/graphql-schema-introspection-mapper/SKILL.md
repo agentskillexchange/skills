@@ -5,7 +5,10 @@ slug: "graphql-schema-introspection-mapper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # GraphQL Schema Introspection Mapper

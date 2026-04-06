@@ -5,7 +5,9 @@ slug: "tesseract-ocr-document-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Tesseract OCR Document Extractor

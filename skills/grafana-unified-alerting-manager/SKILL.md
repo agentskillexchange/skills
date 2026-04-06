@@ -5,7 +5,9 @@ slug: "grafana-unified-alerting-manager"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Cursor"
 ---
 
 # Grafana Unified Alerting Manager

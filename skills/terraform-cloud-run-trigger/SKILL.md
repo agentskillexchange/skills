@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-run-trigger/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # Terraform Cloud Run Trigger

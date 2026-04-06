@@ -5,7 +5,9 @@ slug: "figma-export-automator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-export-automator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # Figma Export Automator

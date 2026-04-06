@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/GitoxideLabs/gitoxide"
 category:
   - "Developer Tools"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "GitoxideLabs/gitoxide"
   github_stars: 11102

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/ToolJet/ToolJet"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # ToolJet Open Source Internal Tools and Workflow Platform

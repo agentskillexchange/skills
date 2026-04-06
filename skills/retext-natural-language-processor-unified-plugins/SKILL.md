@@ -5,7 +5,9 @@ slug: "retext-natural-language-processor-unified-plugins"
 verification: "security_reviewed"
 source: "https://github.com/retextjs/retext"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "retextjs/retext"
   github_stars: 2433

@@ -5,7 +5,9 @@ slug: "logto-open-source-auth-infrastructure"
 verification: "security_reviewed"
 source: "https://github.com/logto-io/logto"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "logto-io/logto"
   github_stars: 11858

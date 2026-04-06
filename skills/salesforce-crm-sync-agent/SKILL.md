@@ -5,7 +5,9 @@ slug: "salesforce-crm-sync-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-crm-sync-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Cursor"
 ---
 
 # Salesforce CRM Sync Agent

@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/browserable/browserable"
 category:
   - "Browser Automation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "browserable/browserable"
   github_stars: 1177
-  ase_npm_package: "browserable"
+  npm_package: "browserable"
   npm_weekly_downloads: 5
 ---
 

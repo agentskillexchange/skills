@@ -5,7 +5,9 @@ slug: "pages-cms-github-content-management"
 verification: "security_reviewed"
 source: "https://github.com/pagescms/pagescms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pagescms/pagescms"
   github_stars: 3542

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/electric-sql/electric"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # ElectricSQL Real-Time Postgres Sync Engine

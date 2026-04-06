@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 ---
 
 # GitHub Actions Matrix Builder

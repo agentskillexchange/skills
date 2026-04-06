@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # GitLab CI Merge Train Optimizer

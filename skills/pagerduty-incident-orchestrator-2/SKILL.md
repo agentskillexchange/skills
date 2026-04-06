@@ -5,7 +5,9 @@ slug: "pagerduty-incident-orchestrator-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 ---
 
 # PagerDuty Incident Orchestrator

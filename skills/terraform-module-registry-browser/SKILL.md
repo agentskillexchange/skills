@@ -5,7 +5,9 @@ slug: "terraform-module-registry-browser"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "MCP"
 ---
 
 # Terraform Module Registry Browser

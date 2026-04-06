@@ -5,7 +5,9 @@ slug: "eslint-rule-composer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-composer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 ---
 
 # ESLint Rule Composer

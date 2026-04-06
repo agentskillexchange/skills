@@ -5,7 +5,9 @@ slug: "imap-inbox-triage-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Codex"
 ---
 
 # IMAP Inbox Triage Agent

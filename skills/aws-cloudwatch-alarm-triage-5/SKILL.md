@@ -5,7 +5,9 @@ slug: "aws-cloudwatch-alarm-triage-5"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # AWS CloudWatch Alarm Triage

@@ -5,7 +5,9 @@ slug: "dall-e-3-brand-asset-batch-generator"
 verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/images"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # DALL-E 3 Brand Asset Batch Generator

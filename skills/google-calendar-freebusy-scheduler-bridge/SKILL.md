@@ -5,7 +5,9 @@ slug: "google-calendar-freebusy-scheduler-bridge"
 verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Cursor"
 ---
 
 # Google Calendar FreeBusy Scheduler Bridge

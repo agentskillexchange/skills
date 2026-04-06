@@ -5,7 +5,9 @@ slug: "prometheus-alertmanager-rule-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Prometheus AlertManager Rule Builder

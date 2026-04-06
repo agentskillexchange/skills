@@ -5,7 +5,9 @@ slug: "terraform-module-boilerplate-assembler"
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48004

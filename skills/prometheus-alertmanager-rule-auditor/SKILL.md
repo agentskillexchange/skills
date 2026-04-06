@@ -5,7 +5,9 @@ slug: "prometheus-alertmanager-rule-auditor"
 verification: "security_reviewed"
 source: "https://github.com/prometheus/alertmanager"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8405

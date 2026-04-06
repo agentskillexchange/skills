@@ -5,7 +5,11 @@ slug: "sqlfluff-sql-linter-auto-formatter"
 verification: "security_reviewed"
 source: "https://github.com/sqlfluff/sqlfluff"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
+  - "Codex"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "sqlfluff/sqlfluff"
   github_stars: 9609

@@ -5,7 +5,9 @@ slug: "crawl4ai-llm-web-crawler-scraper"
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
   github_stars: 63132

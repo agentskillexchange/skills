@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/restic/restic"
 category:
   - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "restic/restic"
   github_stars: 32908

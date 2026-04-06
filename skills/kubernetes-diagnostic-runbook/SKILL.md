@@ -5,7 +5,9 @@ slug: "kubernetes-diagnostic-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Agents"
 ---
 
 # Kubernetes Diagnostic Runbook

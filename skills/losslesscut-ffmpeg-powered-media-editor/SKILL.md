@@ -5,7 +5,9 @@ slug: "losslesscut-ffmpeg-powered-media-editor"
 verification: "security_reviewed"
 source: "https://github.com/mifi/lossless-cut"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480

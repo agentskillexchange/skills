@@ -5,7 +5,9 @@ slug: "cloudflare-analytics-health-monitor"
 verification: "security_reviewed"
 source: "https://developers.cloudflare.com/analytics/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # Cloudflare Analytics Health Monitor

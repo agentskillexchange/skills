@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-workflow-analyzer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 ---
 
 # CircleCI Workflow Analyzer

@@ -5,7 +5,10 @@ slug: "great-expectations-data-validation-pipeline"
 verification: "security_reviewed"
 source: "https://github.com/great-expectations/great_expectations"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "great-expectations/great_expectations"
   github_stars: 11321

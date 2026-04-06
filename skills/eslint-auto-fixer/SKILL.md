@@ -5,7 +5,9 @@ slug: "eslint-auto-fixer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-auto-fixer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "OpenClaw"
 ---
 
 # ESLint Auto-Fixer

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/appsmithorg/appsmith"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Appsmith Open Source Internal Tools and Admin Panel Builder

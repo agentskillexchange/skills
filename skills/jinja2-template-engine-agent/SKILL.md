@@ -5,7 +5,9 @@ slug: "jinja2-template-engine-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Gemini"
 ---
 
 # Jinja2 Template Engine

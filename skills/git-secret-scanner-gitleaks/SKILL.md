@@ -5,7 +5,9 @@ slug: "git-secret-scanner-gitleaks"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # Git Secret Scanner with Gitleaks

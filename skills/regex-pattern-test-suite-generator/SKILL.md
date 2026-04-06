@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
 category:
   - "Developer Tools"
+framework:
+  - "Cursor"
 ---
 
 # Regex Pattern Test Suite Generator

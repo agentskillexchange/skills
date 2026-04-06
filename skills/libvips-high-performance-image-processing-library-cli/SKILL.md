@@ -5,7 +5,9 @@ slug: "libvips-high-performance-image-processing-library-cli"
 verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197

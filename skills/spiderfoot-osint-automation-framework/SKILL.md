@@ -5,7 +5,9 @@ slug: "spiderfoot-osint-automation-framework"
 verification: "security_reviewed"
 source: "https://github.com/smicallef/spiderfoot"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "smicallef/spiderfoot"
   github_stars: 17241

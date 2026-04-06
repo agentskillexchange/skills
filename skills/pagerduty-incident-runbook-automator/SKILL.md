@@ -5,7 +5,9 @@ slug: "pagerduty-incident-runbook-automator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # PagerDuty Incident Runbook Automator

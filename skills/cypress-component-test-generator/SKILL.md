@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-test-generator/"
 category:
   - "Browser Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Cypress Component Test Generator

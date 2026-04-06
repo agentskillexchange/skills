@@ -5,7 +5,12 @@ slug: "slack-mcp-server"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 ---
 
 # Slack MCP Server

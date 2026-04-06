@@ -1,16 +1,21 @@
 ---
 title: "WordOps High-Performance WordPress Server Stack Manager"
-description: "WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let&#8217;s Encrypt, server hardening, and cache configuration for optimal WordPress performance."
+description: "WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let’s Encrypt, server hardening, and cache configuration for optimal WordPress performance."
 slug: "wordops-high-performance-wordpress-server-stack"
 verification: "security_reviewed"
 source: "https://github.com/WordOps/WordOps"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
+tool_ecosystem:
+  github_repo: "wordops/wordops"
+  github_stars: 1538
 ---
 
 # WordOps High-Performance WordPress Server Stack Manager
 
-WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let&#8217;s Encrypt, server hardening, and cache configuration for optimal WordPress performance.
+WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let’s Encrypt, server hardening, and cache configuration for optimal WordPress performance.
 
 ## Installation
 

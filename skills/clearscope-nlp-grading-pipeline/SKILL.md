@@ -5,7 +5,9 @@ slug: "clearscope-nlp-grading-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Claude Code"
 ---
 
 # Clearscope NLP Grading Pipeline

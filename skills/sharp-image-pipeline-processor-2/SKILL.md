@@ -5,7 +5,9 @@ slug: "sharp-image-pipeline-processor-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Code"
 ---
 
 # Sharp Image Pipeline Processor

@@ -5,7 +5,9 @@ slug: "vault-secrets-rotation-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "MCP"
 ---
 
 # Vault Secrets Rotation Orchestrator

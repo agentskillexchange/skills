@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # ArgoCD GitOps Sync Manager

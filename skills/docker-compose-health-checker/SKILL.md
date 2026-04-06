@@ -5,7 +5,9 @@ slug: "docker-compose-health-checker"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-health-checker/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 ---
 
 # Docker Compose Health Checker

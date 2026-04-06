@@ -5,7 +5,9 @@ slug: "prometheus-alert-runbook-linker"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Prometheus Alert Runbook Linker

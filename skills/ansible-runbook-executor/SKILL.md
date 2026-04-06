@@ -5,7 +5,9 @@ slug: "ansible-runbook-executor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Ansible Runbook Executor

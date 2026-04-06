@@ -5,7 +5,9 @@ slug: "github-actions-workflow-composer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-composer-2/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Agents"
 ---
 
 # GitHub Actions Workflow Composer

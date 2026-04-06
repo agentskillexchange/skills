@@ -5,7 +5,9 @@ slug: "nginx-config-validator-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Agents"
 ---
 
 # Nginx Config Validator Runbook

@@ -5,7 +5,9 @@ slug: "jina-reader-url-to-markdown-web-search"
 verification: "security_reviewed"
 source: "https://github.com/jina-ai/reader"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Jina Reader URL-to-Markdown Converter and Web Search API

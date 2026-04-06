@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
 category:
   - "Developer Tools"
+framework:
+  - "Cursor"
 ---
 
 # Vite Plugin Hot Module Analyzer

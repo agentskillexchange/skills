@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/basecamp/kamal"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 ---
 
 # Kamal Zero-Downtime Docker Deployment Tool by Basecamp

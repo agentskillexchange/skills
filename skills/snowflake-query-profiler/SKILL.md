@@ -5,7 +5,9 @@ slug: "snowflake-query-profiler"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Snowflake Query Profiler

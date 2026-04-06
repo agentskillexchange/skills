@@ -5,7 +5,9 @@ slug: "stable-diffusion-lora-training-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Stable Diffusion LoRA Training Pipeline

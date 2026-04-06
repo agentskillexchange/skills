@@ -5,7 +5,9 @@ slug: "calcurse-text-calendar-scheduling"
 verification: "security_reviewed"
 source: "https://github.com/lfos/calcurse"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "lfos/calcurse"
   github_stars: 1235

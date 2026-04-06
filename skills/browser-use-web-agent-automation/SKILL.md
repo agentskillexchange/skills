@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/browser-use/browser-use"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Browser Use Web Agent Automation

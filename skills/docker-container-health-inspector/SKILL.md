@@ -5,7 +5,9 @@ slug: "docker-container-health-inspector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 ---
 
 # Docker Container Health Inspector

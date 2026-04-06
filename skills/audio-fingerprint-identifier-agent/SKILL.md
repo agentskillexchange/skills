@@ -5,7 +5,9 @@ slug: "audio-fingerprint-identifier-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # Audio Fingerprint Identifier

@@ -5,7 +5,9 @@ slug: "seonaut-open-source-technical-seo-audit"
 verification: "security_reviewed"
 source: "https://github.com/StJudeWasHere/seonaut"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "StJudeWasHere/seonaut"
   github_stars: 673

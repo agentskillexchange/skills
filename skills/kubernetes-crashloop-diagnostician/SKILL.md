@@ -5,7 +5,9 @@ slug: "kubernetes-crashloop-diagnostician"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostician/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Kubernetes CrashLoop Diagnostician

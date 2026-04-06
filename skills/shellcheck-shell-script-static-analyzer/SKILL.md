@@ -5,7 +5,9 @@ slug: "shellcheck-shell-script-static-analyzer"
 verification: "security_reviewed"
 source: "https://github.com/koalaman/shellcheck"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "koalaman/shellcheck"
   github_stars: 39204

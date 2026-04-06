@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # CircleCI Pipeline Optimizer

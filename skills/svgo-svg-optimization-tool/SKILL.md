@@ -5,11 +5,13 @@ slug: "svgo-svg-optimization-tool"
 verification: "security_reviewed"
 source: "https://github.com/svg/svgo"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "svg/svgo"
   github_stars: 22412
-  ase_npm_package: "svgo"
+  npm_package: "svgo"
   npm_weekly_downloads: 28615087
 ---
 

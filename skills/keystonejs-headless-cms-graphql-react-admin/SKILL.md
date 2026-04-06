@@ -5,7 +5,9 @@ slug: "keystonejs-headless-cms-graphql-react-admin"
 verification: "security_reviewed"
 source: "https://github.com/keystonejs/keystone"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 ---
 
 # KeystoneJS Headless CMS with GraphQL API and React Admin UI

@@ -5,7 +5,9 @@ slug: "kubernetes-pod-diagnostic-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Codex"
 ---
 
 # Kubernetes Pod Diagnostic Agent

@@ -5,7 +5,9 @@ slug: "ansible-playbook-template-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-template-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 ---
 
 # Ansible Playbook Template Generator

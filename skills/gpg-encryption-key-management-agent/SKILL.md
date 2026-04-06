@@ -5,7 +5,9 @@ slug: "gpg-encryption-key-management-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # GPG Encryption and Key Management Agent

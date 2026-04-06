@@ -5,7 +5,12 @@ slug: "leantime-open-source-project-management-platform"
 verification: "security_reviewed"
 source: "https://github.com/Leantime/leantime"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "leantime/leantime"
+  github_stars: 9460
 ---
 
 # Leantime Open Source Goals-Focused Project Management Platform

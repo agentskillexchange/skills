@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/browserbase/sdk-node"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61
-  ase_npm_package: "@browserbasehq/sdk"
+  npm_package: "@browserbasehq/sdk"
   npm_weekly_downloads: 763969
 ---
 

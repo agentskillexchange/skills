@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/wish"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
   github_stars: 5100

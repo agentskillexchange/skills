@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/mods"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/mods"
   github_stars: 4515

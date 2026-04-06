@@ -5,7 +5,9 @@ slug: "codecov-coverage-report-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # Codecov Coverage Report Analyzer

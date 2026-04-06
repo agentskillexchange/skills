@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # Tekton Pipeline Resource Optimizer

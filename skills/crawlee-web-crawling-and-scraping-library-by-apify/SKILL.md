@@ -5,7 +5,9 @@ slug: "crawlee-web-crawling-and-scraping-library-by-apify"
 verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Crawlee Web Crawling and Scraping Library by Apify

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/docker-selenium"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SeleniumHQ/docker-selenium"
   github_stars: 8614

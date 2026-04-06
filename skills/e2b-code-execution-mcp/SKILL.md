@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/e2b-code-execution-mcp/"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 ---
 
 # E2B Code Execution MCP

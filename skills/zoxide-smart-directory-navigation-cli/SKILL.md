@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/ajeetdsouza/zoxide"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "ajeetdsouza/zoxide"
   github_stars: 35119

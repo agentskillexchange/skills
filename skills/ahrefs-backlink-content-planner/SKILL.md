@@ -5,7 +5,9 @@ slug: "ahrefs-backlink-content-planner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 ---
 
 # Ahrefs Backlink Content Planner

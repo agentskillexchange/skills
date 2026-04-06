@@ -5,7 +5,9 @@ slug: "statsd-metrics-aggregation-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 ---
 
 # StatsD Metrics Aggregation Pipeline

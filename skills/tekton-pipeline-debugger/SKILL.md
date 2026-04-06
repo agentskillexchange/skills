@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-debugger/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # Tekton Pipeline Debugger

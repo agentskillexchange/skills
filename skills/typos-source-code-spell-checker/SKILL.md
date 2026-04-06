@@ -5,7 +5,9 @@ slug: "typos-source-code-spell-checker"
 verification: "security_reviewed"
 source: "https://github.com/crate-ci/typos"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "crate-ci/typos"
   github_stars: 3864

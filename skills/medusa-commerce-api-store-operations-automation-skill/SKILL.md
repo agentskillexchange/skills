@@ -5,7 +5,9 @@ slug: "medusa-commerce-api-store-operations-automation-skill"
 verification: "security_reviewed"
 source: "https://github.com/medusajs/medusa"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Medusa Commerce API and Store Operations Automation Skill

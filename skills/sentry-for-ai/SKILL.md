@@ -5,7 +5,11 @@ slug: "sentry-for-ai"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "Custom Agents"
 ---
 
 # Sentry for AI

@@ -5,7 +5,9 @@ slug: "octokit-javascript-github-sdk-rest-graphql-app-automation"
 verification: "security_reviewed"
 source: "https://github.com/octokit/octokit.js"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 ---
 
 # Octokit JavaScript GitHub SDK for REST GraphQL and App Automation

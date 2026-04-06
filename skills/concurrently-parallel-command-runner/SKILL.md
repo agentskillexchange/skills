@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/open-cli-tools/concurrently"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
   github_stars: 7726

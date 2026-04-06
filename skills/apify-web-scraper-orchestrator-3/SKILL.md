@@ -5,7 +5,9 @@ slug: "apify-web-scraper-orchestrator-3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 ---
 
 # Apify Web Scraper Orchestrator

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/denoland/fresh"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "denoland/fresh"
   github_stars: 13712

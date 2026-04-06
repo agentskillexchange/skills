@@ -5,7 +5,9 @@ slug: "kubernetes-crashloop-diagnostic-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Kubernetes Crashloop Diagnostic Runbook

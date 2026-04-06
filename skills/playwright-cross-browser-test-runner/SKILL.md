@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
 category:
   - "Browser Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Playwright Cross-Browser Test Runner

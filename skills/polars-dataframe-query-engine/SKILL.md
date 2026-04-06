@@ -5,7 +5,9 @@ slug: "polars-dataframe-query-engine"
 verification: "security_reviewed"
 source: "https://github.com/pola-rs/polars"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pola-rs/polars"
   github_stars: 37924

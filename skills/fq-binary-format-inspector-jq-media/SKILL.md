@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/wader/fq"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "wader/fq"
   github_stars: 10468

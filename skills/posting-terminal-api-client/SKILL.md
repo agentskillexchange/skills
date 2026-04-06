@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/darrenburns/posting"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "darrenburns/posting"
   github_stars: 11673

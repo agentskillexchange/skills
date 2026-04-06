@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/ggml-org/llama.cpp"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ggml-org/llama.cpp"
   github_stars: 100939

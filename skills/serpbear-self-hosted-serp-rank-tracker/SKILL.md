@@ -5,7 +5,9 @@ slug: "serpbear-self-hosted-serp-rank-tracker"
 verification: "security_reviewed"
 source: "https://github.com/towfiqi/serpbear"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "towfiqi/serpbear"
   github_stars: 1890

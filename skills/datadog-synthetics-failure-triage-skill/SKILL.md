@@ -5,7 +5,9 @@ slug: "datadog-synthetics-failure-triage-skill"
 verification: "security_reviewed"
 source: "https://github.com/DataDog/datadog-api-client-python"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-python"
   github_stars: 158

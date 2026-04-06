@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
 category:
   - "Browser Automation"
+framework:
+  - "Claude Code"
 ---
 
 # Puppeteer Multi-Tab Session Manager

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
 category:
   - "Browser Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # Selenium Grid Session Router

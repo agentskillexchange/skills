@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # CircleCI Orb Pipeline Agent

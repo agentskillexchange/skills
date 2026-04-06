@@ -5,7 +5,9 @@ slug: "postgresql-performance-diagnostic-suite"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 ---
 
 # PostgreSQL Performance Diagnostic Suite

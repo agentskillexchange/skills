@@ -5,7 +5,9 @@ slug: "dockerfile-security-hardening-advisor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Dockerfile Security Hardening Advisor

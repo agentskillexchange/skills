@@ -5,7 +5,9 @@ slug: "appwrite-open-source-backend-as-a-service-platform"
 verification: "security_reviewed"
 source: "https://github.com/appwrite/appwrite"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Appwrite Open Source Backend as a Service Platform

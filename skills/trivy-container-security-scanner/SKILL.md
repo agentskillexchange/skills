@@ -5,7 +5,9 @@ slug: "trivy-container-security-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # Trivy Container Security Scanner

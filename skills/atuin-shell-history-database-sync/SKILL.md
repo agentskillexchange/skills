@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/atuinsh/atuin"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "atuinsh/atuin"
   github_stars: 28925

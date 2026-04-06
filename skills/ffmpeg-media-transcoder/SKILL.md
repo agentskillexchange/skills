@@ -5,7 +5,9 @@ slug: "ffmpeg-media-transcoder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-media-transcoder/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Code"
 ---
 
 # FFmpeg Media Transcoder

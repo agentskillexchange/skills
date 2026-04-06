@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
 category:
   - "Developer Tools"
+framework:
+  - "Codex"
 ---
 
 # Makefile Dependency Auditor

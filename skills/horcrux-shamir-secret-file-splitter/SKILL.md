@@ -5,7 +5,9 @@ slug: "horcrux-shamir-secret-file-splitter"
 verification: "security_reviewed"
 source: "https://github.com/jesseduffield/horcrux"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
   github_stars: 5037

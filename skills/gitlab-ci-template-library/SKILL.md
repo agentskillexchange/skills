@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # GitLab CI Template Library

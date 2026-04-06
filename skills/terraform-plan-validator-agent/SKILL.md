@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # Terraform Plan Validator Agent

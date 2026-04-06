@@ -5,7 +5,9 @@ slug: "apify-actor-development-kit"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # Apify Actor Development Kit

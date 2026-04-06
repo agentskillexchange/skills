@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/"
 category:
   - "Developer Tools"
+framework:
+  - "Cursor"
 ---
 
 # TypeScript AST Refactor

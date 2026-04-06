@@ -5,7 +5,9 @@ slug: "woocommerce-webhook-delivery-inspector"
 verification: "security_reviewed"
 source: "https://github.com/woocommerce/woocommerce"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10231

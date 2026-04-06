@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/glow"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/glow"
   github_stars: 24096

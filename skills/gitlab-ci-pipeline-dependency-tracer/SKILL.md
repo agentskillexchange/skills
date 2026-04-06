@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # GitLab CI Pipeline Dependency Tracer

@@ -5,7 +5,9 @@ slug: "python-pypi-package-reference-indexer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Python PyPI Package Reference Indexer

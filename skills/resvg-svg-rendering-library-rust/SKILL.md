@@ -5,7 +5,9 @@ slug: "resvg-svg-rendering-library-rust"
 verification: "security_reviewed"
 source: "https://github.com/linebender/resvg"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # resvg High-Performance SVG Rendering Library in Rust

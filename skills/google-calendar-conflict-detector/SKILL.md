@@ -5,7 +5,9 @@ slug: "google-calendar-conflict-detector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-conflict-detector/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Gemini"
 ---
 
 # Google Calendar Conflict Detector

@@ -5,7 +5,9 @@ slug: "scrapycloud-job-manager"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # ScrapyCloud Job Manager

@@ -5,7 +5,9 @@ slug: "decap-cms-git-based-content-management-system-for-static-sites"
 verification: "security_reviewed"
 source: "https://github.com/decaporg/decap-cms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 ---
 
 # Decap CMS Git-Based Content Management System for Static Sites

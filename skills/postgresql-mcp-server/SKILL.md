@@ -5,7 +5,12 @@ slug: "postgresql-mcp-server"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 ---
 
 # PostgreSQL MCP Server

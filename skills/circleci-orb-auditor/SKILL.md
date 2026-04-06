@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # CircleCI Orb Auditor

@@ -5,7 +5,9 @@ slug: "trafilatura-web-text-extraction-crawling"
 verification: "security_reviewed"
 source: "https://github.com/adbar/trafilatura"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "adbar/trafilatura"
   github_stars: 5638

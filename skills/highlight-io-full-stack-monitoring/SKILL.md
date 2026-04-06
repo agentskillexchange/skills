@@ -5,7 +5,9 @@ slug: "highlight-io-full-stack-monitoring"
 verification: "security_reviewed"
 source: "https://github.com/highlight/highlight"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 ---
 
 # Highlight.io Open Source Full-Stack Monitoring Platform

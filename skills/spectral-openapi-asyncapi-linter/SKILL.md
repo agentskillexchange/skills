@@ -5,7 +5,9 @@ slug: "spectral-openapi-asyncapi-linter"
 verification: "security_reviewed"
 source: "https://github.com/stoplightio/spectral"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3057

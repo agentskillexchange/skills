@@ -5,7 +5,9 @@ slug: "apache-tika-document-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Codex"
 ---
 
 # Apache Tika Document Extractor

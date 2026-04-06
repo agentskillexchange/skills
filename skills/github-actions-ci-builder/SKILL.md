@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-ci-builder/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # GitHub Actions CI Builder

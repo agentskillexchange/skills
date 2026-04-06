@@ -5,7 +5,9 @@ slug: "langfuse-prompt-management-mcp-server"
 verification: "security_reviewed"
 source: "https://github.com/langfuse/mcp-server-langfuse"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "MCP"
 ---
 
 # Langfuse Prompt Management MCP Server

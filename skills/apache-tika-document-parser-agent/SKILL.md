@@ -5,7 +5,9 @@ slug: "apache-tika-document-parser-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser-agent/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Gemini"
 ---
 
 # Apache Tika Document Parser Agent

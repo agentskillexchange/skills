@@ -5,7 +5,9 @@ slug: "difftastic-structural-syntax-diff"
 verification: "security_reviewed"
 source: "https://github.com/Wilfred/difftastic"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "Wilfred/difftastic"
   github_stars: 24900

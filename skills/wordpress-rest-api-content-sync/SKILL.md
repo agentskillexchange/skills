@@ -5,7 +5,9 @@ slug: "wordpress-rest-api-content-sync"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "MCP"
 ---
 
 # WordPress REST API Content Sync

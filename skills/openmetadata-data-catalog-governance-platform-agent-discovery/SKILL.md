@@ -5,7 +5,9 @@ slug: "openmetadata-data-catalog-governance-platform-agent-discovery"
 verification: "security_reviewed"
 source: "https://github.com/open-metadata/OpenMetadata"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 ---
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery

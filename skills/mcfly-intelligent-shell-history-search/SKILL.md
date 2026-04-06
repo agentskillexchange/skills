@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/cantino/mcfly"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "cantino/mcfly"
   github_stars: 7657

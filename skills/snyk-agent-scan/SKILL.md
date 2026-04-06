@@ -5,7 +5,9 @@ slug: "snyk-agent-scan"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-agent-scan/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "MCP"
 ---
 
 # Snyk Agent Scan

@@ -5,7 +5,9 @@ slug: "slack-workflow-bot-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 ---
 
 # Slack Workflow Bot Builder

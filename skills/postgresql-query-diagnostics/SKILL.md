@@ -5,7 +5,9 @@ slug: "postgresql-query-diagnostics"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-diagnostics/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Agents"
 ---
 
 # PostgreSQL Query Diagnostics

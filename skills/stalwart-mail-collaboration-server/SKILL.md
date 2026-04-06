@@ -5,7 +5,9 @@ slug: "stalwart-mail-collaboration-server"
 verification: "security_reviewed"
 source: "https://github.com/stalwartlabs/stalwart"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stalwartlabs/stalwart"
   github_stars: 12164

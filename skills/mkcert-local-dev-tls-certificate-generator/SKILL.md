@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/FiloSottile/mkcert"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FiloSottile/mkcert"
   github_stars: 58399

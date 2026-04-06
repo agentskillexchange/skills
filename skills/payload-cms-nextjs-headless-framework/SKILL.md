@@ -5,11 +5,13 @@ slug: "payload-cms-nextjs-headless-framework"
 verification: "security_reviewed"
 source: "https://github.com/payloadcms/payload"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
-  ase_npm_package: "payload"
+  npm_package: "payload"
   npm_weekly_downloads: 317783
 ---
 

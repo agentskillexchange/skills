@@ -5,7 +5,9 @@ slug: "windmill-workflow-engine-developer-platform"
 verification: "security_reviewed"
 source: "https://github.com/windmill-labs/windmill"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "windmill-labs/windmill"
   github_stars: 16115

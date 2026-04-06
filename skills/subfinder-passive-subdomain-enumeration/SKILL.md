@@ -5,7 +5,9 @@ slug: "subfinder-passive-subdomain-enumeration"
 verification: "security_reviewed"
 source: "https://github.com/projectdiscovery/subfinder"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332

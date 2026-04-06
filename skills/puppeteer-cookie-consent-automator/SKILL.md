@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
 category:
   - "Browser Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Puppeteer Cookie Consent Automator

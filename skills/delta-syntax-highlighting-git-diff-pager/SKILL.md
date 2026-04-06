@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/dandavison/delta"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "dandavison/delta"
   github_stars: 29842

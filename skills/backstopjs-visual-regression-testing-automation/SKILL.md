@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116
-  ase_npm_package: "backstopjs"
+  npm_package: "backstopjs"
   npm_weekly_downloads: 63157
 ---
 

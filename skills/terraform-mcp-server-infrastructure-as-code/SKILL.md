@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform-mcp-server"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform-mcp-server"
   github_stars: 1298

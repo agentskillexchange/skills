@@ -5,7 +5,9 @@ slug: "semgrep-pattern-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 ---
 
 # Semgrep Pattern Scanner

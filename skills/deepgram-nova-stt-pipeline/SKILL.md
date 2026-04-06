@@ -5,7 +5,9 @@ slug: "deepgram-nova-stt-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # Deepgram Nova STT Pipeline

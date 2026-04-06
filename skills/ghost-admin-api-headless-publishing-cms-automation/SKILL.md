@@ -5,7 +5,9 @@ slug: "ghost-admin-api-headless-publishing-cms-automation"
 verification: "security_reviewed"
 source: "https://ghost.org/docs/admin-api/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 ---
 
 # Ghost Admin API Headless Publishing and CMS Automation

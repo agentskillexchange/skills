@@ -5,7 +5,9 @@ slug: "unkey-api-key-management-rate-limiting"
 verification: "security_reviewed"
 source: "https://github.com/unkeyed/unkey"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
   github_stars: 5222

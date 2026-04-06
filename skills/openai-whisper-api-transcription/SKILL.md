@@ -5,7 +5,9 @@ slug: "openai-whisper-api-transcription"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # OpenAI Whisper API Transcription

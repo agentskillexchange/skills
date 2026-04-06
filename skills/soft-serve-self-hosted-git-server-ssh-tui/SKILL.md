@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/soft-serve"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/soft-serve"
   github_stars: 6756

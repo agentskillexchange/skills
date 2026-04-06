@@ -5,7 +5,9 @@ slug: "grafana-dashboard-generator-3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Cursor"
 ---
 
 # Grafana Dashboard Generator

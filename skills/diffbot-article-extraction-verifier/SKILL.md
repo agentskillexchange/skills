@@ -5,7 +5,9 @@ slug: "diffbot-article-extraction-verifier"
 verification: "security_reviewed"
 source: "https://www.diffbot.com/dev/docs/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Claude Agents"
 ---
 
 # Diffbot Article Extraction Verifier

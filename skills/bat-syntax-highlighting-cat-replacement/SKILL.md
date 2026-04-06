@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/sharkdp/bat"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sharkdp/bat"
   github_stars: 57909

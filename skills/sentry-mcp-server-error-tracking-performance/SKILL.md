@@ -5,7 +5,9 @@ slug: "sentry-mcp-server-error-tracking-performance"
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 615

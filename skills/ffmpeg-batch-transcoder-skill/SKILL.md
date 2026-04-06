@@ -5,7 +5,9 @@ slug: "ffmpeg-batch-transcoder-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Cursor"
 ---
 
 # FFmpeg Batch Transcoder

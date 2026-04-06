@@ -1,16 +1,18 @@
 ---
 title: "Python Type Coverage Analyzer"
-description: "Measures and improves Python type annotation coverage using mypy &#8211;html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
+description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
 slug: "python-type-coverage-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Gemini"
 ---
 
 # Python Type Coverage Analyzer
 
-Measures and improves Python type annotation coverage using mypy &#8211;html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases.
+Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases.
 
 ## Installation
 

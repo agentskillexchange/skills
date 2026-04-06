@@ -6,6 +6,11 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
 category:
   - "Browser Automation"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 ---
 
 # Playwright MCP Browser Automation

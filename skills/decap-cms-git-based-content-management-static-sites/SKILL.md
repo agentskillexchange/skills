@@ -5,11 +5,13 @@ slug: "decap-cms-git-based-content-management-static-sites"
 verification: "security_reviewed"
 source: "https://github.com/decaporg/decap-cms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 18998
-  ase_npm_package: "decap-cms"
+  npm_package: "decap-cms"
   npm_weekly_downloads: 1982
 ---
 

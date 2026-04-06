@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/pa11y/pa11y"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pa11y/pa11y"
   github_stars: 4418
-  ase_npm_package: "pa11y"
+  npm_package: "pa11y"
   npm_weekly_downloads: 212327
 ---
 

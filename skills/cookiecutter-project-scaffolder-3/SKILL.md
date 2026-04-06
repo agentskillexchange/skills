@@ -5,7 +5,9 @@ slug: "cookiecutter-project-scaffolder-3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Cookiecutter Project Scaffolder

@@ -5,7 +5,9 @@ slug: "elasticsearch-cluster-vitals-agent"
 verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76426

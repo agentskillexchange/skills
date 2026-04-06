@@ -5,7 +5,9 @@ slug: "wpgraphql-graphql-api-wordpress"
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3777

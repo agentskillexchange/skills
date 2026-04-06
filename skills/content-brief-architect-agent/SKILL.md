@@ -5,7 +5,9 @@ slug: "content-brief-architect-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "MCP"
 ---
 
 # Content Brief Architect

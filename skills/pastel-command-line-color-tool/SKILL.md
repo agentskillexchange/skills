@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/sharkdp/pastel"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sharkdp/pastel"
   github_stars: 6301

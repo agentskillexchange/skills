@@ -6,6 +6,9 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Devcontainer Specification Builder

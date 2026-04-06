@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/Orange-OpenSource/hurl"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Orange-OpenSource/hurl"
   github_stars: 18696

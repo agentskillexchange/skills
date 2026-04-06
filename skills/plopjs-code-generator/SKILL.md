@@ -5,7 +5,9 @@ slug: "plopjs-code-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Cursor"
 ---
 
 # Plop.js Code Generator

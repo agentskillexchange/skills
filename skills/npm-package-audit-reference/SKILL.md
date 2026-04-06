@@ -5,7 +5,9 @@ slug: "npm-package-audit-reference"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
 # NPM Package Audit Reference

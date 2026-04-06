@@ -5,7 +5,9 @@ slug: "serpapi-search-results-aggregator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # SerpAPI Search Results Aggregator

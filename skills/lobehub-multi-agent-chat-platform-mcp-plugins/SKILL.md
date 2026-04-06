@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/lobehub/lobehub"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lobehub/lobehub"
   github_stars: 74790

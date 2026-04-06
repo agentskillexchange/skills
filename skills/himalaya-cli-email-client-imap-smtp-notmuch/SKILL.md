@@ -5,7 +5,9 @@ slug: "himalaya-cli-email-client-imap-smtp-notmuch"
 verification: "security_reviewed"
 source: "https://github.com/pimalaya/himalaya"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pimalaya/himalaya"
   github_stars: 5825

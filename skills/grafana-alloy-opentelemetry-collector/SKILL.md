@@ -5,7 +5,9 @@ slug: "grafana-alloy-opentelemetry-collector"
 verification: "security_reviewed"
 source: "https://github.com/grafana/alloy"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026

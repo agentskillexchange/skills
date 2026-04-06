@@ -5,7 +5,9 @@ slug: "wordpress-content-optimizer-yoast-rest"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Codex"
 ---
 
 # WordPress Content Optimizer

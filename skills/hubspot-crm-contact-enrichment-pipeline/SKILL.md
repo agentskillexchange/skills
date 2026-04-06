@@ -5,7 +5,9 @@ slug: "hubspot-crm-contact-enrichment-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Claude Code"
 ---
 
 # HubSpot CRM Contact Enrichment Pipeline

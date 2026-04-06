@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-manager/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # Jenkins Shared Library Manager

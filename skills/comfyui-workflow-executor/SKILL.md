@@ -5,7 +5,9 @@ slug: "comfyui-workflow-executor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Codex"
 ---
 
 # ComfyUI Workflow Executor

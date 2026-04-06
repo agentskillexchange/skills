@@ -5,11 +5,13 @@ slug: "tinacms-git-backed-headless-cms-visual-editing"
 verification: "security_reviewed"
 source: "https://github.com/tinacms/tinacms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tinacms/tinacms"
   github_stars: 13245
-  ase_npm_package: "tinacms"
+  npm_package: "tinacms"
   npm_weekly_downloads: 85232
 ---
 

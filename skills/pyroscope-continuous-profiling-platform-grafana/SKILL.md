@@ -5,7 +5,9 @@ slug: "pyroscope-continuous-profiling-platform-grafana"
 verification: "security_reviewed"
 source: "https://github.com/grafana/pyroscope"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
   github_stars: 11338

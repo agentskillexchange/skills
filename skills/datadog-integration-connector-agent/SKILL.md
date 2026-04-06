@@ -5,7 +5,9 @@ slug: "datadog-integration-connector-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Gemini"
 ---
 
 # Datadog Integration Connector

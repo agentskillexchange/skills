@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/muesli/duf"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "muesli/duf"
   github_stars: 14916

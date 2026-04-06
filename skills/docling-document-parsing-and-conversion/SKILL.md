@@ -5,7 +5,9 @@ slug: "docling-document-parsing-and-conversion"
 verification: "listed"
 source: "https://github.com/docling-project/docling"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Docling Document Parsing and Conversion

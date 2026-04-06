@@ -5,7 +5,9 @@ slug: "figma-design-token-exporter"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Code"
 ---
 
 # Figma Design Token Exporter

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/"
 category:
   - "Developer Tools"
+framework:
+  - "Gemini"
 ---
 
 # Docker Compose Stack Builder

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # CircleCI Flaky Test Detector

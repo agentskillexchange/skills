@@ -5,7 +5,9 @@ slug: "sonarqube-quality-gate-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # SonarQube Quality Gate Agent

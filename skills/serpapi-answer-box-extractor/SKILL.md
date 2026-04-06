@@ -5,7 +5,9 @@ slug: "serpapi-answer-box-extractor"
 verification: "security_reviewed"
 source: "https://github.com/serpapi/google-search-results-python"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "serpapi/google-search-results-python"
   github_stars: 734

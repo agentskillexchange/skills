@@ -5,7 +5,9 @@ slug: "swagger-codegen-api-client-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # Swagger Codegen API Client Builder

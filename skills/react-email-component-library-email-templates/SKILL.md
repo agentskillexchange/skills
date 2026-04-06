@@ -5,7 +5,9 @@ slug: "react-email-component-library-email-templates"
 verification: "security_reviewed"
 source: "https://github.com/resend/react-email"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 ---
 
 # React Email Component Library for Building Email Templates

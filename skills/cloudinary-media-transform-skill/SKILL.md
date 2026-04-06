@@ -5,7 +5,9 @@ slug: "cloudinary-media-transform-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-media-transform-skill/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Cloudinary Media Transform Skill

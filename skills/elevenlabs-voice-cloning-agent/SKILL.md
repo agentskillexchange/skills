@@ -5,7 +5,9 @@ slug: "elevenlabs-voice-cloning-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # ElevenLabs Voice Cloning Agent

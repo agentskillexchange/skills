@@ -5,7 +5,9 @@ slug: "seo-content-cluster-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Claude Agents"
 ---
 
 # SEO Content Cluster Generator

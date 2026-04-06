@@ -5,7 +5,9 @@ slug: "umami-privacy-focused-web-analytics"
 verification: "security_reviewed"
 source: "https://github.com/umami-software/umami"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "umami-software/umami"
   github_stars: 35941

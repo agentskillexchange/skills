@@ -1,14 +1,16 @@
 ---
-title: "OpenAPI Spec Validator &#038; Mock Server"
+title: "OpenAPI Spec Validator & Mock Server"
 description: "Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator."
 slug: "openapi-spec-validator-mock-server-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
-# OpenAPI Spec Validator &#038; Mock Server
+# OpenAPI Spec Validator & Mock Server
 
 Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator.
 

@@ -5,7 +5,9 @@ slug: "aws-cloudformation-drift-detector-4"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # AWS CloudFormation Drift Detector

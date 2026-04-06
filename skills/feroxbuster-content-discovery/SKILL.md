@@ -5,7 +5,9 @@ slug: "feroxbuster-content-discovery"
 verification: "security_reviewed"
 source: "https://github.com/epi052/feroxbuster"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"
   github_stars: 7643

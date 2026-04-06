@@ -5,7 +5,9 @@ slug: "plaid-financial-data-connector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Gemini"
 ---
 
 # Plaid Financial Data Connector

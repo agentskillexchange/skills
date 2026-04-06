@@ -5,7 +5,9 @@ slug: "netbird-wireguard-mesh-vpn-zero-trust-access"
 verification: "security_reviewed"
 source: "https://github.com/netbirdio/netbird"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "netbirdio/netbird"
   github_stars: 24034

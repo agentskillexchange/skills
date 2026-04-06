@@ -5,7 +5,9 @@ slug: "khal-cli-calendar-application-caldav"
 verification: "security_reviewed"
 source: "https://github.com/pimutils/khal"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pimutils/khal"
   github_stars: 2971

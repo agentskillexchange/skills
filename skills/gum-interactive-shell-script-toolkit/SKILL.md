@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/gum"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "charmbracelet/gum"
   github_stars: 23196

@@ -5,7 +5,9 @@ slug: "dalle-image-variation-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # DALL-E Image Variation Pipeline

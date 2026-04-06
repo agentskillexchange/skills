@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
 category:
   - "Browser Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # Puppeteer Stealth Scraper

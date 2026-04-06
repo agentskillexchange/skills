@@ -5,7 +5,9 @@ slug: "dbt-data-transform-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 ---
 
 # dbt Data Transform Orchestrator

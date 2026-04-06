@@ -5,7 +5,9 @@ slug: "tesseract-ocr-data-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Gemini"
 ---
 
 # Tesseract OCR Data Extractor

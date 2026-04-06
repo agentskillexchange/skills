@@ -5,7 +5,9 @@ slug: "bannerbear-dynamic-image-api"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Bannerbear Dynamic Image API

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/sharkdp/fd"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sharkdp/fd"
   github_stars: 42280

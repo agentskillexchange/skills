@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/web-infra-dev/rspack"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "web-infra-dev/rspack"
   github_stars: 12592

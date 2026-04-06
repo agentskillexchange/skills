@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
 category:
   - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # Playwright Network HAR Recorder

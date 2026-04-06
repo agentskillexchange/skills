@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/charmbracelet/huh"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Huh Interactive Terminal Forms and Prompts Library for Go

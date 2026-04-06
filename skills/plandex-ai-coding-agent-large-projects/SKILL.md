@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/plandex-ai/plandex"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "plandex-ai/plandex"
   github_stars: 15183

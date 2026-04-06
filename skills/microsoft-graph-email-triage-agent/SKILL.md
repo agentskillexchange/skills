@@ -5,7 +5,9 @@ slug: "microsoft-graph-email-triage-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Code"
 ---
 
 # Microsoft Graph Email Triage Agent

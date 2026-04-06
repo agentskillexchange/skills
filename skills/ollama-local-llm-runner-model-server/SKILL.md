@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/ollama/ollama"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ollama/ollama"
   github_stars: 167357

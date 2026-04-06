@@ -5,7 +5,9 @@ slug: "wordpress-gutenberg-block-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Cursor"
 ---
 
 # WordPress Gutenberg Block Generator

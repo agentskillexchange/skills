@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
 category:
   - "Browser Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # Selenium Grid Parallel Execution Manager

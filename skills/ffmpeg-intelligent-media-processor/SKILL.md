@@ -5,7 +5,9 @@ slug: "ffmpeg-intelligent-media-processor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # FFmpeg Intelligent Media Processor

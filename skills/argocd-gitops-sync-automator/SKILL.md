@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-automator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # ArgoCD GitOps Sync Automator

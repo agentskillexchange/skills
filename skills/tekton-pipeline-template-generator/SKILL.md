@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # Tekton Pipeline Template Generator

@@ -5,7 +5,9 @@ slug: "cariddi-domain-crawler-endpoint-secret-scanner"
 verification: "security_reviewed"
 source: "https://github.com/edoardottt/cariddi"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner

@@ -5,7 +5,9 @@ slug: "stable-diffusion-controlnet-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Cursor"
 ---
 
 # Stable Diffusion ControlNet Pipeline

@@ -5,7 +5,9 @@ slug: "pull-request-size-analyzer-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "OpenClaw"
 ---
 
 # Pull Request Size Analyzer

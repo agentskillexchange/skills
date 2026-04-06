@@ -5,7 +5,9 @@ slug: "whisperx-speech-recognition-timestamps-diarization"
 verification: "security_reviewed"
 source: "https://github.com/m-bain/whisperX"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "m-bain/whisperX"
   github_stars: 21036

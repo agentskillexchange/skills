@@ -5,7 +5,9 @@ slug: "semgrep-security-scanner-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-scanner-2/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Agents"
 ---
 
 # Semgrep Security Scanner

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/WebAssembly/component-model"
 category:
   - "Developer Tools"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
   github_stars: 1288

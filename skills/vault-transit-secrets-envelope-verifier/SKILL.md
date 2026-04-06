@@ -5,7 +5,9 @@ slug: "vault-transit-secrets-envelope-verifier"
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35321

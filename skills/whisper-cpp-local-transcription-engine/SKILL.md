@@ -5,7 +5,9 @@ slug: "whisper-cpp-local-transcription-engine"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # Whisper.cpp Local Transcription Engine

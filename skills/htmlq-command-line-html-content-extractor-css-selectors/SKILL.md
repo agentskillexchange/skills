@@ -5,7 +5,9 @@ slug: "htmlq-command-line-html-content-extractor-css-selectors"
 verification: "security_reviewed"
 source: "https://github.com/mgdm/htmlq"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mgdm/htmlq"
   github_stars: 7514

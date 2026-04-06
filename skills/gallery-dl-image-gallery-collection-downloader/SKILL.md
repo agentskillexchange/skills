@@ -5,7 +5,9 @@ slug: "gallery-dl-image-gallery-collection-downloader"
 verification: "security_reviewed"
 source: "https://github.com/mikf/gallery-dl"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mikf/gallery-dl"
   github_stars: 17470

@@ -5,7 +5,9 @@ slug: "aws-cloudwatch-log-anomaly-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Codex"
 ---
 
 # AWS CloudWatch Log Anomaly Scanner

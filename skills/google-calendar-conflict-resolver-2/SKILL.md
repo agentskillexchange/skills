@@ -5,7 +5,9 @@ slug: "google-calendar-conflict-resolver-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-conflict-resolver-2/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "OpenClaw"
 ---
 
 # Google Calendar Conflict Resolver

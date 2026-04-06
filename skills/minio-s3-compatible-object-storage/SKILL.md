@@ -5,7 +5,9 @@ slug: "minio-s3-compatible-object-storage"
 verification: "security_reviewed"
 source: "https://github.com/minio/minio"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "minio/minio"
   github_stars: 60611

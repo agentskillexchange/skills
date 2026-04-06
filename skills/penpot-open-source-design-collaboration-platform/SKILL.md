@@ -5,7 +5,9 @@ slug: "penpot-open-source-design-collaboration-platform"
 verification: "security_reviewed"
 source: "https://github.com/penpot/penpot"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Penpot Open-Source Design Collaboration Platform

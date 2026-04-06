@@ -5,7 +5,9 @@ slug: "cookiecutter-project-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 ---
 
 # Cookiecutter Project Builder

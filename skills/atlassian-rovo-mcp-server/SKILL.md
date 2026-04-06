@@ -5,7 +5,9 @@ slug: "atlassian-rovo-mcp-server"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 ---
 
 # Atlassian Rovo MCP Server

@@ -5,7 +5,9 @@ slug: "semgrep-custom-pattern-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "MCP"
 ---
 
 # Semgrep Custom Pattern Generator

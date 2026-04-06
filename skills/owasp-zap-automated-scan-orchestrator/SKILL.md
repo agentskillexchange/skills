@@ -5,7 +5,9 @@ slug: "owasp-zap-automated-scan-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # OWASP ZAP Automated Scan Orchestrator

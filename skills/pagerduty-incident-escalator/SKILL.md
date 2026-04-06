@@ -5,7 +5,9 @@ slug: "pagerduty-incident-escalator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-escalator/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # PagerDuty Incident Escalator

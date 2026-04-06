@@ -5,7 +5,9 @@ slug: "context7-mcp-documentation-server-llm-code-editors"
 verification: "security_reviewed"
 source: "https://github.com/upstash/context7"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "upstash/context7"
   github_stars: 51326

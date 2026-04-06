@@ -5,7 +5,9 @@ slug: "ffmpeg-video-processing-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "MCP"
 ---
 
 # FFmpeg Video Processing Pipeline

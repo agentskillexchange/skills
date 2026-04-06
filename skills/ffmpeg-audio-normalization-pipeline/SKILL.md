@@ -5,7 +5,9 @@ slug: "ffmpeg-audio-normalization-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # FFmpeg Audio Normalization Pipeline

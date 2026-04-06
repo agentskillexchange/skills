@@ -5,7 +5,9 @@ slug: "markdownify-python-html-to-markdown-converter"
 verification: "security_reviewed"
 source: "https://github.com/matthewwithanm/python-markdownify"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "matthewwithanm/python-markdownify"
   github_stars: 2131

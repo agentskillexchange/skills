@@ -5,7 +5,9 @@ slug: "super-productivity-task-manager-time-tracking"
 verification: "security_reviewed"
 source: "https://github.com/super-productivity/super-productivity"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "super-productivity/super-productivity"
   github_stars: 18281

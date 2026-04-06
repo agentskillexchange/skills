@@ -5,7 +5,9 @@ slug: "python-package-dependency-graph-mapper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "MCP"
 ---
 
 # Python Package Dependency Graph Mapper

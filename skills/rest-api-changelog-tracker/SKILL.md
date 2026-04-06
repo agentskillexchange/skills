@@ -5,7 +5,9 @@ slug: "rest-api-changelog-tracker"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-changelog-tracker/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Custom Agents"
 ---
 
 # REST API Changelog Tracker

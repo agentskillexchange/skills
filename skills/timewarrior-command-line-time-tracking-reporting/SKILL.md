@@ -5,7 +5,12 @@ slug: "timewarrior-command-line-time-tracking-reporting"
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "gothenburgbitfactory/timewarrior"
+  github_stars: 1580
 ---
 
 # Timewarrior Command-Line Time Tracking and Reporting

@@ -5,7 +5,9 @@ slug: "rclone-cloud-storage-sync-management-cli"
 verification: "security_reviewed"
 source: "https://github.com/rclone/rclone"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rclone/rclone"
   github_stars: 56382

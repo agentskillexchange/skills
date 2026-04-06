@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/Budibase/budibase"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Budibase Open Source Low-Code Operations App Platform

@@ -5,7 +5,9 @@ slug: "sqruff-sql-linter-formatter"
 verification: "security_reviewed"
 source: "https://github.com/quarylabs/sqruff"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "quarylabs/sqruff"
   github_stars: 1268

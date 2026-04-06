@@ -5,7 +5,9 @@ slug: "woocommerce-rest-order-manager"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Claude Code"
 ---
 
 # WooCommerce REST Order Manager

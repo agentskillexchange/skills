@@ -5,7 +5,9 @@ slug: "acf-to-gutenberg-block-migrator"
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Codex"
 ---
 
 # ACF to Gutenberg Block Migrator

@@ -5,7 +5,9 @@ slug: "datadog-metric-exporter"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Gemini"
 ---
 
 # Datadog Metric Exporter

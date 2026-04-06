@@ -5,7 +5,9 @@ slug: "grafana-dashboard-as-code-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Cursor"
 ---
 
 # Grafana Dashboard as Code Generator

@@ -5,7 +5,9 @@ slug: "elastic-apm-transaction-anomaly-spotter"
 verification: "security_reviewed"
 source: "https://github.com/elastic/apm-server"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "elastic/apm-server"
   github_stars: 1273

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/harness/harness"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 ---
 
 # Harness Open Source Self-Hosted Git and CI/CD Development Platform

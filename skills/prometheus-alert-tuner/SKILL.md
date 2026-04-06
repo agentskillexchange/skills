@@ -5,7 +5,9 @@ slug: "prometheus-alert-tuner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Prometheus Alert Tuner

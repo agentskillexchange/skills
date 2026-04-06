@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
 category:
   - "Browser Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # Playwright Visual Regression Tester

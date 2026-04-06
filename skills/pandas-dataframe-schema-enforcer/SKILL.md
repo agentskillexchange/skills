@@ -5,7 +5,9 @@ slug: "pandas-dataframe-schema-enforcer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Pandas DataFrame Schema Enforcer

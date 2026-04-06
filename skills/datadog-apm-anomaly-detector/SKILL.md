@@ -5,7 +5,9 @@ slug: "datadog-apm-anomaly-detector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Datadog APM Anomaly Detector

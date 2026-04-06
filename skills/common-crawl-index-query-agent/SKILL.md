@@ -5,7 +5,9 @@ slug: "common-crawl-index-query-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # Common Crawl Index Query Agent

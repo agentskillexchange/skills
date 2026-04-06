@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-load-balancer/"
 category:
   - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # Selenium Grid Load Balancer

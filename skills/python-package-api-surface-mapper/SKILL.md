@@ -5,7 +5,9 @@ slug: "python-package-api-surface-mapper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
 # Python Package API Surface Mapper

@@ -5,7 +5,9 @@ slug: "gitleaks-git-secret-scanner"
 verification: "security_reviewed"
 source: "https://github.com/gitleaks/gitleaks"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731

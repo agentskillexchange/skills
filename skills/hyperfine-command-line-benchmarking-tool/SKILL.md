@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/sharkdp/hyperfine"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sharkdp/hyperfine"
   github_stars: 27797

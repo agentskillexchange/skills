@@ -5,7 +5,9 @@ slug: "liquidsoap-audio-video-streaming-language"
 verification: "security_reviewed"
 source: "https://github.com/savonet/liquidsoap"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
   github_stars: 1638

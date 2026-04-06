@@ -5,7 +5,9 @@ slug: "blender-geometry-nodes-script-generator"
 verification: "security_reviewed"
 source: "https://www.blender.org/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Blender Geometry Nodes Script Generator

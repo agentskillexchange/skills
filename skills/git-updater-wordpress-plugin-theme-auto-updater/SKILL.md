@@ -5,7 +5,9 @@ slug: "git-updater-wordpress-plugin-theme-auto-updater"
 verification: "security_reviewed"
 source: "https://github.com/afragen/git-updater"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "afragen/git-updater"
   github_stars: 3316

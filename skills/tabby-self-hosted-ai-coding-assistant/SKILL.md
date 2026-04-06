@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/TabbyML/tabby"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "TabbyML/tabby"
   github_stars: 33303

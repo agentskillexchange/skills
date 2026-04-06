@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # LLDB Debug Session Automator

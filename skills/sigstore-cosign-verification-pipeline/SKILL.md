@@ -5,7 +5,9 @@ slug: "sigstore-cosign-verification-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # Sigstore Cosign Verification Pipeline

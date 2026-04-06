@@ -5,7 +5,9 @@ slug: "camelot-pdf-stream-parser"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Agents"
 ---
 
 # Camelot PDF Stream Parser

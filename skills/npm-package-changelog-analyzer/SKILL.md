@@ -5,7 +5,9 @@ slug: "npm-package-changelog-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # NPM Package Changelog Analyzer

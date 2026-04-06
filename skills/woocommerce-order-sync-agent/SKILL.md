@@ -5,7 +5,9 @@ slug: "woocommerce-order-sync-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "OpenClaw"
 ---
 
 # WooCommerce Order Sync Agent

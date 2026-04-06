@@ -6,6 +6,9 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-service-graph-visualizer/"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Docker Compose Service Graph Visualizer

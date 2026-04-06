@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/angular/angular"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "angular/angular"
   github_stars: 100106

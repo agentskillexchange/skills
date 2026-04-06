@@ -5,7 +5,9 @@ slug: "mermaid-cli-diagram-as-code-renderer"
 verification: "security_reviewed"
 source: "https://github.com/mermaid-js/mermaid-cli"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mermaid-js/mermaid-cli"
   github_stars: 4341

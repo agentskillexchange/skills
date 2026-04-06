@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/coollabsio/coolify"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Coolify Self-Hosted App Platform and Deployment Automation Skill

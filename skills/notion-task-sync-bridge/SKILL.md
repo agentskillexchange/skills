@@ -5,7 +5,9 @@ slug: "notion-task-sync-bridge"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Cursor"
 ---
 
 # Notion Task Sync Bridge

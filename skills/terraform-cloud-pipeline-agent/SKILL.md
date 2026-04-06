@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 ---
 
 # Terraform Cloud Pipeline Agent

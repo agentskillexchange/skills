@@ -5,7 +5,9 @@ slug: "qsv-blazing-fast-csv-data-wrangling-toolkit"
 verification: "security_reviewed"
 source: "https://github.com/dathere/qsv"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3569

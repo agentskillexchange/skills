@@ -5,7 +5,9 @@ slug: "common-crawl-url-index-miner"
 verification: "security_reviewed"
 source: "https://github.com/commoncrawl/cc-index-table"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
   github_stars: 127

@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/facebook/docusaurus"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/docusaurus"
   github_stars: 64315
-  ase_npm_package: "docusaurus"
+  npm_package: "docusaurus"
   npm_weekly_downloads: 23558
 ---
 

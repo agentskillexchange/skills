@@ -5,7 +5,9 @@ slug: "grafana-dashboard-as-code-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Claude Code"
 ---
 
 # Grafana Dashboard as Code Builder

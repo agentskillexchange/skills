@@ -5,7 +5,12 @@ slug: "sqlite-mcp-server"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 ---
 
 # SQLite MCP Server

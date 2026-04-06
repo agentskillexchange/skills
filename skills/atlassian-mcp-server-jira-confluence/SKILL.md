@@ -5,7 +5,9 @@ slug: "atlassian-mcp-server-jira-confluence"
 verification: "security_reviewed"
 source: "https://github.com/sooperset/mcp-atlassian"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "sooperset/mcp-atlassian"
   github_stars: 4785

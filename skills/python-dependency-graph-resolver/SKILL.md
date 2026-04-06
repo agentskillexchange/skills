@@ -5,7 +5,9 @@ slug: "python-dependency-graph-resolver"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Custom Agents"
 ---
 
 # Python Dependency Graph Resolver

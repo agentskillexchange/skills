@@ -5,7 +5,9 @@ slug: "python-docstring-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-extractor/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Agents"
 ---
 
 # Python Docstring Extractor

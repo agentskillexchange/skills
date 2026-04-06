@@ -5,7 +5,9 @@ slug: "core-audio-unit-v3-debugger"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # Core Audio Unit v3 Debugger

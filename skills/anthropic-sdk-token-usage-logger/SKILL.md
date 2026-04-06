@@ -5,7 +5,9 @@ slug: "anthropic-sdk-token-usage-logger"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # Anthropic SDK Token Usage Logger

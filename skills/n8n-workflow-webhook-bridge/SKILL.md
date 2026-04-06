@@ -5,11 +5,13 @@ slug: "n8n-workflow-webhook-bridge"
 verification: "security_reviewed"
 source: "https://github.com/n8n-io/n8n"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "n8n-io/n8n"
   github_stars: 182065
-  ase_npm_package: "n8n"
+  npm_package: "n8n"
   npm_weekly_downloads: 70979
 ---
 

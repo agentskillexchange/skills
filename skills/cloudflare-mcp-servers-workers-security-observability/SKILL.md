@@ -5,7 +5,9 @@ slug: "cloudflare-mcp-servers-workers-security-observability"
 verification: "security_reviewed"
 source: "https://github.com/cloudflare/mcp-server-cloudflare"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "cloudflare/mcp-server-cloudflare"
   github_stars: 3579

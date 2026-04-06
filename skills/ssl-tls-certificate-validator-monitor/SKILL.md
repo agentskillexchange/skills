@@ -5,7 +5,9 @@ slug: "ssl-tls-certificate-validator-monitor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 ---
 
 # SSL/TLS Certificate Validator and Monitor

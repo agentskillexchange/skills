@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/PrefectHQ/fastmcp"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "PrefectHQ/fastmcp"
   github_stars: 24192

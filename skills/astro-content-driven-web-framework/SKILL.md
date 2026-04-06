@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/withastro/astro"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "withastro/astro"
   github_stars: 57979
-  ase_npm_package: "astro"
+  npm_package: "astro"
   npm_weekly_downloads: 1885189
 ---
 

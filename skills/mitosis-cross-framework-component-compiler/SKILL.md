@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/BuilderIO/mitosis"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "BuilderIO/mitosis"
   github_stars: 13804

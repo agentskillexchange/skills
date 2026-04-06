@@ -5,7 +5,9 @@ slug: "kubernetes-helm-chart-scaffold-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "MCP"
 ---
 
 # Kubernetes Helm Chart Scaffold Builder

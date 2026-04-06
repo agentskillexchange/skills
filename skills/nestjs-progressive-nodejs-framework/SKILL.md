@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/nestjs/nest"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nestjs/nest"
   github_stars: 75060

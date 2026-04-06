@@ -5,7 +5,9 @@ slug: "wp-cli-content-drift-auditor"
 verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5048

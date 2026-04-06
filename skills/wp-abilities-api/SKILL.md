@@ -5,7 +5,9 @@ slug: "wp-abilities-api"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 ---
 
 # WP Abilities API

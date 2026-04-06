@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
 category:
   - "Browser Automation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 21782

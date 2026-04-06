@@ -5,7 +5,9 @@ slug: "formbricks-open-source-survey-experience-management"
 verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Formbricks Open Source Survey and Experience Management Platform

@@ -5,7 +5,9 @@ slug: "woocommerce-webhook-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Cursor"
 ---
 
 # WooCommerce Webhook Orchestrator

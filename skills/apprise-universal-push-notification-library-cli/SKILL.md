@@ -5,7 +5,9 @@ slug: "apprise-universal-push-notification-library-cli"
 verification: "security_reviewed"
 source: "https://github.com/caronc/apprise"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227

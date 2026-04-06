@@ -5,7 +5,9 @@ slug: "n8n-nodes-mcp-community-node-model-context-protocol-workflows"
 verification: "security_reviewed"
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 ---
 
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows

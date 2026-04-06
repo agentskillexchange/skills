@@ -5,7 +5,9 @@ slug: "semgrep-pattern-matching-auditor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "OpenClaw"
 ---
 
 # Semgrep Pattern Matching Auditor

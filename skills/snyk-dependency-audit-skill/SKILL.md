@@ -5,7 +5,9 @@ slug: "snyk-dependency-audit-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # Snyk Dependency Audit Skill

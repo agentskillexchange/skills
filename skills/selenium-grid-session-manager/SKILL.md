@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-manager/"
 category:
   - "Browser Automation"
+framework:
+  - "Gemini"
 ---
 
 # Selenium Grid Session Manager

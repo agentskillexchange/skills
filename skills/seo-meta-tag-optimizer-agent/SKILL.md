@@ -5,7 +5,9 @@ slug: "seo-meta-tag-optimizer-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # SEO Meta Tag Optimizer

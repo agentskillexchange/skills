@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/pdfcpu/pdfcpu"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pdfcpu/pdfcpu"
   github_stars: 8550

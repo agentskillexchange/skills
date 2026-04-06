@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/swc-project/swc"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript

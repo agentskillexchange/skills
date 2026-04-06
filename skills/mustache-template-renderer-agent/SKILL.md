@@ -5,7 +5,9 @@ slug: "mustache-template-renderer-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 ---
 
 # Mustache Template Renderer

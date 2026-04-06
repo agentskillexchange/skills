@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/nitrojs/nitro"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nitrojs/nitro"
   github_stars: 10637

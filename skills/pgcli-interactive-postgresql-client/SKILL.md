@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/dbcli/pgcli"
 category:
   - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "dbcli/pgcli"
   github_stars: 13092

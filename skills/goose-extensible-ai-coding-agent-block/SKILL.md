@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/block/goose"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "block/goose"
   github_stars: 33898

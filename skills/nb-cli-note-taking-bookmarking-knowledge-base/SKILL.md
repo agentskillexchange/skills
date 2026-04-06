@@ -5,7 +5,9 @@ slug: "nb-cli-note-taking-bookmarking-knowledge-base"
 verification: "security_reviewed"
 source: "https://github.com/xwmx/nb"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088

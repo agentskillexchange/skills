@@ -5,7 +5,9 @@ slug: "crawl4ai-llm-friendly-web-crawler"
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Crawl4AI LLM-Friendly Web Crawler

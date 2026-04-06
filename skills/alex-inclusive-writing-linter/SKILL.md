@@ -5,11 +5,13 @@ slug: "alex-inclusive-writing-linter"
 verification: "security_reviewed"
 source: "https://github.com/get-alex/alex"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
-  ase_npm_package: "alex"
+  npm_package: "alex"
   npm_weekly_downloads: 31553
 ---
 

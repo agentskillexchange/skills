@@ -5,7 +5,9 @@ slug: "zod-schema-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # Zod Schema Generator

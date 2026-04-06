@@ -1,16 +1,18 @@
 ---
 title: "AWS IAM Privilege Escalation Audit"
-description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&amp;CK TA0004 with remediation steps and least-privilege replacement policy JSON."
+description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON."
 slug: "aws-iam-privilege-escalation-audit"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # AWS IAM Privilege Escalation Audit
 
-Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&amp;CK TA0004 with remediation steps and least-privilege replacement policy JSON.
+Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON.
 
 ## Installation
 

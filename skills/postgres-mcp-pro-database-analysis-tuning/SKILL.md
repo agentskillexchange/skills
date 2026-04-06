@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/crystaldba/postgres-mcp"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2464

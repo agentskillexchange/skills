@@ -5,7 +5,9 @@ slug: "firecrawl-web-data-api-ai-search-scraping-crawl-workflows"
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows

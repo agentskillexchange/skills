@@ -5,10 +5,13 @@ slug: "openai-image-gen"
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10791
+  npm_package: "openai"
 ---
 
 # OpenAI Image Gen

@@ -5,7 +5,9 @@ slug: "tracecat-ai-security-automation-soar-platform"
 verification: "security_reviewed"
 source: "https://github.com/TracecatHQ/tracecat"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # Tracecat AI-Native Security Automation and SOAR Platform

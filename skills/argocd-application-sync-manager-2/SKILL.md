@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # ArgoCD Application Sync Manager

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/terrastruct/d2"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "terrastruct/d2"
   github_stars: 23316

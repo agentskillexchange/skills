@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/eza-community/eza"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "eza-community/eza"
   github_stars: 20929

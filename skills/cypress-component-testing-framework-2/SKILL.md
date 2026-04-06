@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-framework-2/"
 category:
   - "Browser Automation"
+framework:
+  - "MCP"
 ---
 
 # Cypress Component Testing Framework

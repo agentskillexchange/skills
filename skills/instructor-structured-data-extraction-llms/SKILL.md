@@ -5,7 +5,9 @@ slug: "instructor-structured-data-extraction-llms"
 verification: "security_reviewed"
 source: "https://github.com/567-labs/instructor"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "567-labs/instructor"
   github_stars: 12666

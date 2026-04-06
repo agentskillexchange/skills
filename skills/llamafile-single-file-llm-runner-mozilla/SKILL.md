@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/mozilla-ai/llamafile"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # llamafile Single-File LLM Distribution and Runner by Mozilla

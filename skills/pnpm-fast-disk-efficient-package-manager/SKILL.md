@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/pnpm/pnpm"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "pnpm/pnpm"
   github_stars: 34426
-  ase_npm_package: "pnpm"
+  npm_package: "pnpm"
   npm_weekly_downloads: 64625737
 ---
 

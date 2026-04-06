@@ -5,7 +5,9 @@ slug: "swagger-codegen-template-customizer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Swagger Codegen Template Customizer

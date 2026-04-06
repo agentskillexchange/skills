@@ -5,7 +5,9 @@ slug: "parquet-column-mapper"
 verification: "listed"
 source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 ---
 
 # Parquet Column Mapper

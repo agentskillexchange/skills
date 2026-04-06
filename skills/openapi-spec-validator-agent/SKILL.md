@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # OpenAPI Spec Validator

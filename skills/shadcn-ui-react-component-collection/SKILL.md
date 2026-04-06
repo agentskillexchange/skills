@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/shadcn-ui/ui"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
   github_stars: 111605

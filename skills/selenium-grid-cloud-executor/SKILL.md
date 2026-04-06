@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
 category:
   - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # Selenium Grid Cloud Executor

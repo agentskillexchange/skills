@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # ArgoCD Sync Wave Planner

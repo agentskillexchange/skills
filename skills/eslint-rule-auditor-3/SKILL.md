@@ -5,7 +5,9 @@ slug: "eslint-rule-auditor-3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # ESLint Rule Auditor

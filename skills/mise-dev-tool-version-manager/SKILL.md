@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/jdx/mise"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "jdx/mise"
   github_stars: 26298

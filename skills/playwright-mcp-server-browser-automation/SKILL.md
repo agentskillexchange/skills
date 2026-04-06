@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 category:
   - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30110

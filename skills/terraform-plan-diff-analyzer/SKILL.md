@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # Terraform Plan Diff Analyzer

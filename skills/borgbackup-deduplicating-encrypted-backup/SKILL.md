@@ -5,7 +5,9 @@ slug: "borgbackup-deduplicating-encrypted-backup"
 verification: "security_reviewed"
 source: "https://github.com/borgbackup/borg"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 ---
 
 # BorgBackup Deduplicating Encrypted Backup Program

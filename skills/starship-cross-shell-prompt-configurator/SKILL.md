@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/starship/starship"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "starship/starship"
   github_stars: 55675

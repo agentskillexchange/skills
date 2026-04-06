@@ -5,7 +5,9 @@ slug: "cloudinary-dam-pipeline-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Cloudinary DAM Pipeline

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # Hugging Face Model Deployer

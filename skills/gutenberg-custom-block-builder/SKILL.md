@@ -5,7 +5,9 @@ slug: "gutenberg-custom-block-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Gutenberg Custom Block Builder

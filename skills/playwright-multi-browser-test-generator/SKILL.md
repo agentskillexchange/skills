@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/"
 category:
   - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # Playwright Multi-Browser Test Generator

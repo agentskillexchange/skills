@@ -5,7 +5,9 @@ slug: "maxun-no-code-web-data-extraction"
 verification: "security_reviewed"
 source: "https://github.com/getmaxun/maxun"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "getmaxun/maxun"
   github_stars: 15319

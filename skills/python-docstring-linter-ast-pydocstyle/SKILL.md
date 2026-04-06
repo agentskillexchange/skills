@@ -5,7 +5,9 @@ slug: "python-docstring-linter-ast-pydocstyle"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
 # Python Docstring Linter

@@ -5,7 +5,9 @@ slug: "google-workspace-cli-gws"
 verification: "security_reviewed"
 source: "https://github.com/googleworkspace/cli"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Google Workspace CLI (gws)

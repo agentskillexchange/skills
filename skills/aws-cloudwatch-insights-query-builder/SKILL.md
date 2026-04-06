@@ -5,7 +5,10 @@ slug: "aws-cloudwatch-insights-query-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Codex"
+  - "Multi-Framework"
 ---
 
 # AWS CloudWatch Insights Query Builder

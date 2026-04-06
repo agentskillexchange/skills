@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/chromedp/chromedp"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chromedp/chromedp"
   github_stars: 12900

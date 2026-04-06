@@ -5,7 +5,9 @@ slug: "dbt-model-dependency-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
 ---
 
 # dbt Model Dependency Analyzer

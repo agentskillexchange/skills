@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Playwright Accessibility Audit Runner

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-visual-regression-testing-suite/"
 category:
   - "Browser Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Cypress Visual Regression Testing Suite

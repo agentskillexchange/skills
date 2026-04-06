@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/DioxusLabs/dioxus"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DioxusLabs/dioxus"
   github_stars: 35555

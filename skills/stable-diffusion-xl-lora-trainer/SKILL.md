@@ -5,7 +5,9 @@ slug: "stable-diffusion-xl-lora-trainer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Stable Diffusion XL LoRA Trainer

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/pdfme/pdfme"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer

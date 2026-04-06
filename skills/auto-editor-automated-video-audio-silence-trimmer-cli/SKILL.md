@@ -5,7 +5,12 @@ slug: "auto-editor-automated-video-audio-silence-trimmer-cli"
 verification: "security_reviewed"
 source: "https://github.com/WyattBlue/auto-editor"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wyattblue/auto-editor"
+  github_stars: 4089
 ---
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI

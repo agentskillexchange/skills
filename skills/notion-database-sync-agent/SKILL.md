@@ -5,7 +5,9 @@ slug: "notion-database-sync-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Agents"
 ---
 
 # Notion Database Sync Agent

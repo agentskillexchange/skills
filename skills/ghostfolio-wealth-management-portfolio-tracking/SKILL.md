@@ -5,7 +5,9 @@ slug: "ghostfolio-wealth-management-portfolio-tracking"
 verification: "security_reviewed"
 source: "https://github.com/ghostfolio/ghostfolio"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform

@@ -5,7 +5,9 @@ slug: "protobuf-documentation-compiler"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # Protocol Buffers Documentation Compiler

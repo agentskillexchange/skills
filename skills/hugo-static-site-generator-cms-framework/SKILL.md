@@ -5,7 +5,9 @@ slug: "hugo-static-site-generator-cms-framework"
 verification: "security_reviewed"
 source: "https://github.com/gohugoio/hugo"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gohugoio/hugo"
   github_stars: 87352

@@ -5,7 +5,9 @@ slug: "podcast-rss-feed-audio-normalizer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "MCP"
 ---
 
 # Podcast RSS Feed Audio Normalizer

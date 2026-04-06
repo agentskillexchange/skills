@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # Jenkins Pipeline Health Monitor

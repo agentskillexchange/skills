@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # Buildkite Dynamic Pipeline Agent

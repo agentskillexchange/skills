@@ -5,7 +5,9 @@ slug: "gutenberg-block-scaffolder-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Claude Code"
 ---
 
 # Gutenberg Block Scaffolder

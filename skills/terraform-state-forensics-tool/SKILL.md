@@ -5,7 +5,9 @@ slug: "terraform-state-forensics-tool"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Cursor"
 ---
 
 # Terraform State Forensics Tool

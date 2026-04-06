@@ -5,7 +5,9 @@ slug: "graphql-schema-registry"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-registry/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Agents"
 ---
 
 # GraphQL Schema Registry

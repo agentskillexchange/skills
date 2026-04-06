@@ -5,7 +5,9 @@ slug: "airbyte-connector-config-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Cursor"
 ---
 
 # Airbyte Connector Config Generator

@@ -5,7 +5,9 @@ slug: "lightrag-graph-rag-framework"
 verification: "security_reviewed"
 source: "https://github.com/HKUDS/LightRAG"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 ---
 
 # LightRAG Graph-Based Retrieval-Augmented Generation Framework

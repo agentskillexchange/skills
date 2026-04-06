@@ -5,7 +5,9 @@ slug: "vitest-vite-testing-framework"
 verification: "security_reviewed"
 source: "https://github.com/vitest-dev/vitest"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vitest-dev/vitest"
   github_stars: 16296

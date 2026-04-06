@@ -5,7 +5,9 @@ slug: "incident-timeline-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-timeline-builder/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Incident Timeline Builder

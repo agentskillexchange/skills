@@ -6,6 +6,9 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/claude-code-mcp-bridge/"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
+  - "MCP"
 ---
 
 # Claude Code MCP Bridge

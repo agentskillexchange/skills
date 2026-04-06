@@ -5,7 +5,9 @@ slug: "sonarqube-code-scanner-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "OpenClaw"
 ---
 
 # SonarQube Code Scanner Agent

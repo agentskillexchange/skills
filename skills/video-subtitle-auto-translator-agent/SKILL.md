@@ -5,7 +5,9 @@ slug: "video-subtitle-auto-translator-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Cursor"
 ---
 
 # Video Subtitle Auto-Translator

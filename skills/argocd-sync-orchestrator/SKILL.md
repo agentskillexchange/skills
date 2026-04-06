@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # ArgoCD Sync Orchestrator

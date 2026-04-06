@@ -5,7 +5,9 @@ slug: "seo-keyword-research-automator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 ---
 
 # SEO Keyword Research Automator

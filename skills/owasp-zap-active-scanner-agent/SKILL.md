@@ -5,7 +5,9 @@ slug: "owasp-zap-active-scanner-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # OWASP ZAP Active Scanner Agent

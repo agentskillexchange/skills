@@ -5,7 +5,9 @@ slug: "npm-package-supply-chain-auditor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # NPM Package Supply Chain Auditor

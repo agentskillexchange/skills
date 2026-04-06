@@ -5,7 +5,9 @@ slug: "slack-standup-automator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-standup-automator/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Codex"
 ---
 
 # Slack Standup Automator

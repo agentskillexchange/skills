@@ -5,7 +5,9 @@ slug: "owasp-zap-scan-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # OWASP ZAP Scan Orchestrator

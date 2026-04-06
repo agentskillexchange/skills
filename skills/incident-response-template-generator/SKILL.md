@@ -5,7 +5,9 @@ slug: "incident-response-template-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-template-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 ---
 
 # Incident Response Template Generator

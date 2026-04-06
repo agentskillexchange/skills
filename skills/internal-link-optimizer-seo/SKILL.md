@@ -5,7 +5,9 @@ slug: "internal-link-optimizer-seo"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 ---
 
 # Internal Link Optimizer

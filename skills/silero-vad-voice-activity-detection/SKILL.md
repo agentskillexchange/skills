@@ -5,7 +5,9 @@ slug: "silero-vad-voice-activity-detection"
 verification: "security_reviewed"
 source: "https://github.com/snakers4/silero-vad"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "snakers4/silero-vad"
   github_stars: 8604

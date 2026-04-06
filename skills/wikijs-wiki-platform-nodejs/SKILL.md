@@ -5,7 +5,9 @@ slug: "wikijs-wiki-platform-nodejs"
 verification: "security_reviewed"
 source: "https://github.com/requarks/wiki"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js

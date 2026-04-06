@@ -5,7 +5,9 @@ slug: "grounded-docs-mcp-server"
 verification: "security_reviewed"
 source: "https://github.com/arabold/docs-mcp-server"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "MCP"
 ---
 
 # Grounded Docs MCP Server

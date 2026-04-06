@@ -5,7 +5,9 @@ slug: "internal-link-graph-optimizer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Cursor"
 ---
 
 # Internal Link Graph Optimizer

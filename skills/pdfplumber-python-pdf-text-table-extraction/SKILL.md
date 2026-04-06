@@ -5,7 +5,9 @@ slug: "pdfplumber-python-pdf-text-table-extraction"
 verification: "security_reviewed"
 source: "https://github.com/jsvine/pdfplumber"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 ---
 
 # pdfplumber Python PDF Text and Table Extraction Library

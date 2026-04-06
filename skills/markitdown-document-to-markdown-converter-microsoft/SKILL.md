@@ -5,7 +5,9 @@ slug: "markitdown-document-to-markdown-converter-microsoft"
 verification: "security_reviewed"
 source: "https://github.com/microsoft/markitdown"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/markitdown"
   github_stars: 93207

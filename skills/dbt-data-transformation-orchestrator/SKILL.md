@@ -5,7 +5,9 @@ slug: "dbt-data-transformation-orchestrator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
 ---
 
 # dbt Data Transformation Orchestrator

@@ -5,7 +5,9 @@ slug: "slack-standup-summarizer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-standup-summarizer/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Agents"
 ---
 
 # Slack Standup Summarizer

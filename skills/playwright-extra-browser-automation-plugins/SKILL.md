@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Playwright Extra Browser Automation Plugins

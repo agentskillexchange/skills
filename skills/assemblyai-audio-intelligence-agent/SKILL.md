@@ -5,7 +5,9 @@ slug: "assemblyai-audio-intelligence-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "MCP"
 ---
 
 # AssemblyAI Audio Intelligence Agent

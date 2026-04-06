@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/pocketbase/pocketbase"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pocketbase/pocketbase"
   github_stars: 57251

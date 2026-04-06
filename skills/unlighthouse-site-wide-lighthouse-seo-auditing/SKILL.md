@@ -5,11 +5,13 @@ slug: "unlighthouse-site-wide-lighthouse-seo-auditing"
 verification: "security_reviewed"
 source: "https://github.com/harlan-zw/unlighthouse"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  ase_npm_package: "unlighthouse"
+  npm_package: "unlighthouse"
   npm_weekly_downloads: 15510
 ---
 

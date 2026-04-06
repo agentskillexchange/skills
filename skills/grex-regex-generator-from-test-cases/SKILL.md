@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/pemistahl/grex"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pemistahl/grex"
   github_stars: 8079

@@ -5,7 +5,9 @@ slug: "sherlock-social-media-username-hunter"
 verification: "security_reviewed"
 source: "https://github.com/sherlock-project/sherlock"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "sherlock-project/sherlock"
   github_stars: 76214

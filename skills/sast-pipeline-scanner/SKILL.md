@@ -5,7 +5,9 @@ slug: "sast-pipeline-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # SAST Pipeline Scanner

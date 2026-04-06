@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/lightpanda-io/browser"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lightpanda-io/browser"
   github_stars: 26505

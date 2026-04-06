@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/Aider-AI/aider"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Aider-AI/aider"
   github_stars: 42670

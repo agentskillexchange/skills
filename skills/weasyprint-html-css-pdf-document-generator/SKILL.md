@@ -5,7 +5,9 @@ slug: "weasyprint-html-css-pdf-document-generator"
 verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 ---
 
 # WeasyPrint HTML and CSS to PDF Document Generator

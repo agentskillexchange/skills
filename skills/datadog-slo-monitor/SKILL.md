@@ -5,7 +5,9 @@ slug: "datadog-slo-monitor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-slo-monitor/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Claude Code"
 ---
 
 # Datadog SLO Monitor

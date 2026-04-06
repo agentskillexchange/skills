@@ -5,7 +5,9 @@ slug: "npm-audit-deep-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 ---
 
 # NPM Audit Deep Scanner

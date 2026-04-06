@@ -5,7 +5,9 @@ slug: "elevenlabs-voiceover-longform"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # ElevenLabs Voiceover Generator for Long-Form Content

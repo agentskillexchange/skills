@@ -5,7 +5,9 @@ slug: "scrapling-adaptive-web-scraping-framework"
 verification: "security_reviewed"
 source: "https://github.com/D4Vinci/Scrapling"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "D4Vinci/Scrapling"
   github_stars: 34148

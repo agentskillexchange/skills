@@ -5,7 +5,9 @@ slug: "jq-pipeline-builder-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Gemini"
 ---
 
 # jq Pipeline Builder Agent

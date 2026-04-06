@@ -5,7 +5,9 @@ slug: "shiori-self-hosted-bookmark-manager-cli-web"
 verification: "security_reviewed"
 source: "https://github.com/go-shiori/shiori"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "go-shiori/shiori"
   github_stars: 11399

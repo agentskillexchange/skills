@@ -5,7 +5,9 @@ slug: "todoist-gtd-workflow-automator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Cursor"
 ---
 
 # Todoist GTD Workflow Automator

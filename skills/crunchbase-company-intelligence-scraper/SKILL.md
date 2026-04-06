@@ -5,7 +5,9 @@ slug: "crunchbase-company-intelligence-scraper"
 verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 ---
 
 # Crunchbase Company Intelligence Scraper

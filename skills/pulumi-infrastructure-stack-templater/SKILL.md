@@ -5,7 +5,9 @@ slug: "pulumi-infrastructure-stack-templater"
 verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 24935

@@ -5,7 +5,9 @@ slug: "anyquery-universal-sql-engine-mcp-integration"
 verification: "security_reviewed"
 source: "https://github.com/julien040/anyquery"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "julien040/anyquery"
   github_stars: 1655

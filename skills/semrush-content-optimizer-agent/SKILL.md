@@ -5,7 +5,9 @@ slug: "semrush-content-optimizer-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "OpenClaw"
 ---
 
 # SEMrush Content Optimizer Agent

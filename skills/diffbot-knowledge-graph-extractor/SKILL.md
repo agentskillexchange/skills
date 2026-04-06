@@ -5,7 +5,9 @@ slug: "diffbot-knowledge-graph-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Claude Agents"
 ---
 
 # Diffbot Knowledge Graph Extractor

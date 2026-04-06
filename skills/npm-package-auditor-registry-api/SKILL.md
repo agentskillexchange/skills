@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 ---
 
 # NPM Package Auditor

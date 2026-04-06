@@ -5,7 +5,9 @@ slug: "yt-dlp-feature-rich-audio-video-downloader-cli"
 verification: "security_reviewed"
 source: "https://github.com/yt-dlp/yt-dlp"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yt-dlp/yt-dlp"
   github_stars: 154307

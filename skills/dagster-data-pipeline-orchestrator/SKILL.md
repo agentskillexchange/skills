@@ -5,7 +5,10 @@ slug: "dagster-data-pipeline-orchestrator"
 verification: "security_reviewed"
 source: "https://github.com/dagster-io/dagster"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "dagster-io/dagster"
   github_stars: 15185

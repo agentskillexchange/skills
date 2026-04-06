@@ -5,7 +5,9 @@ slug: "slack-workflow-builder-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Cursor"
 ---
 
 # Slack Workflow Builder Agent

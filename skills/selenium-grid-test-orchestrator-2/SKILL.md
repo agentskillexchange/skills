@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/"
 category:
   - "Browser Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Selenium Grid Test Orchestrator

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/dalance/procs"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "dalance/procs"
   github_stars: 5994

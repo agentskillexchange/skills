@@ -5,7 +5,9 @@ slug: "rest-api-reference-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # REST API Reference Generator

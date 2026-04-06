@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/opentofu/opentofu"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opentofu/opentofu"
   github_stars: 28244

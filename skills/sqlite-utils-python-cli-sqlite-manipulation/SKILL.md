@@ -5,7 +5,9 @@ slug: "sqlite-utils-python-cli-sqlite-manipulation"
 verification: "security_reviewed"
 source: "https://github.com/simonw/sqlite-utils"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "simonw/sqlite-utils"
   github_stars: 2026

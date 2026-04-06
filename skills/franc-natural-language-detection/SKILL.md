@@ -5,7 +5,9 @@ slug: "franc-natural-language-detection"
 verification: "security_reviewed"
 source: "https://github.com/wooorm/franc"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wooorm/franc"
   github_stars: 4386

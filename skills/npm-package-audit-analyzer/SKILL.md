@@ -5,7 +5,9 @@ slug: "npm-package-audit-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Agents"
 ---
 
 # NPM Package Audit Analyzer

@@ -5,7 +5,9 @@ slug: "mitmproxy-interactive-https-proxy-debugging-security"
 verification: "security_reviewed"
 source: "https://github.com/mitmproxy/mitmproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881

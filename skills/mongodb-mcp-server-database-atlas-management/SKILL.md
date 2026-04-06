@@ -5,11 +5,13 @@ slug: "mongodb-mcp-server-database-atlas-management"
 verification: "security_reviewed"
 source: "https://github.com/mongodb-js/mongodb-mcp-server"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mongodb-js/mongodb-mcp-server"
   github_stars: 983
-  ase_npm_package: "mongodb-mcp-server"
+  npm_package: "mongodb-mcp-server"
   npm_weekly_downloads: 51003
 ---
 

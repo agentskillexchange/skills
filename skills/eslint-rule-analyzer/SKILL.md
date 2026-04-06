@@ -5,7 +5,9 @@ slug: "eslint-rule-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 ---
 
 # ESLint Rule Analyzer

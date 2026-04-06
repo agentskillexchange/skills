@@ -5,7 +5,9 @@ slug: "wordpress-playground-wasm-runtime"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/wordpress-playground"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "WordPress/wordpress-playground"
   github_stars: 1926

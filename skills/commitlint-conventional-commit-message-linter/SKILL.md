@@ -5,11 +5,13 @@ slug: "commitlint-conventional-commit-message-linter"
 verification: "security_reviewed"
 source: "https://github.com/conventional-changelog/commitlint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "conventional-changelog/commitlint"
   github_stars: 18425
-  ase_npm_package: "commitlint"
+  npm_package: "commitlint"
   npm_weekly_downloads: 527623
 ---
 

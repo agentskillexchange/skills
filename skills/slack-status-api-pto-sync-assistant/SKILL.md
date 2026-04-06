@@ -5,7 +5,9 @@ slug: "slack-status-api-pto-sync-assistant"
 verification: "security_reviewed"
 source: "https://api.slack.com/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Custom Agents"
 ---
 
 # Slack Status API PTO Sync Assistant

@@ -5,7 +5,9 @@ slug: "jina-reader-api-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Gemini"
 ---
 
 # Jina Reader API Skill

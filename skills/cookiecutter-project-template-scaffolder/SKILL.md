@@ -5,7 +5,9 @@ slug: "cookiecutter-project-template-scaffolder"
 verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"
   github_stars: 24786

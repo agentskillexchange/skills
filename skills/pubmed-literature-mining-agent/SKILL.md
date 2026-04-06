@@ -5,7 +5,9 @@ slug: "pubmed-literature-mining-agent"
 verification: "security_reviewed"
 source: "https://pubmed.ncbi.nlm.nih.gov/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Gemini"
 ---
 
 # PubMed Literature Mining Agent

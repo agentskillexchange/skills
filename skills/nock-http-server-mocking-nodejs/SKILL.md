@@ -5,7 +5,9 @@ slug: "nock-http-server-mocking-nodejs"
 verification: "security_reviewed"
 source: "https://github.com/nock/nock"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nock/nock"
   github_stars: 13100

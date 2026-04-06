@@ -5,7 +5,9 @@ slug: "imgproxy-high-performance-image-processing-proxy"
 verification: "security_reviewed"
 source: "https://github.com/imgproxy/imgproxy"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "imgproxy/imgproxy"
   github_stars: 10554

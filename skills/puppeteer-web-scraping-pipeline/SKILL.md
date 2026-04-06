@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
 category:
   - "Browser Automation"
+framework:
+  - "Gemini"
 ---
 
 # Puppeteer Web Scraping Pipeline

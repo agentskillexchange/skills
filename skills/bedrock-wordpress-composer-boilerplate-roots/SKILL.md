@@ -5,7 +5,9 @@ slug: "bedrock-wordpress-composer-boilerplate-roots"
 verification: "security_reviewed"
 source: "https://github.com/roots/bedrock"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "roots/bedrock"
   github_stars: 6498

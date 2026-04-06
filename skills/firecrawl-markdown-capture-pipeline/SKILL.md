@@ -5,7 +5,9 @@ slug: "firecrawl-markdown-capture-pipeline"
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Codex"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630

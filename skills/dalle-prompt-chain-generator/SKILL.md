@@ -5,7 +5,9 @@ slug: "dalle-prompt-chain-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # DALL-E Prompt Chain Generator

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/open-webui/open-webui"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-webui/open-webui"
   github_stars: 130242

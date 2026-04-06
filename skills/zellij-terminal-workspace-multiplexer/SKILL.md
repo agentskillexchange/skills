@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/zellij-org/zellij"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "zellij-org/zellij"
   github_stars: 30894

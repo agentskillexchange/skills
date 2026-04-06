@@ -5,7 +5,9 @@ slug: "chroma-mcp-server-embedding-database-operations"
 verification: "security_reviewed"
 source: "https://github.com/chroma-core/chroma-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "chroma-core/chroma-mcp"
   github_stars: 527

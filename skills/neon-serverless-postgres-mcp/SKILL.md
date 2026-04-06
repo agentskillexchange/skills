@@ -1,16 +1,18 @@
 ---
 title: "Neon Serverless Postgres MCP"
-description: "Neon&#8217;s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon&#8217;s serverless Postgres platform."
+description: "Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform."
 slug: "neon-serverless-postgres-mcp"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 ---
 
 # Neon Serverless Postgres MCP
 
-Neon&#8217;s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon&#8217;s serverless Postgres platform.
+Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform.
 
 ## Installation
 

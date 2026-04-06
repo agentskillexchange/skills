@@ -5,7 +5,9 @@ slug: "crawlee-smart-crawler-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 ---
 
 # Crawlee Smart Crawler Agent

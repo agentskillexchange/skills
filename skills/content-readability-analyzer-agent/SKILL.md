@@ -5,7 +5,9 @@ slug: "content-readability-analyzer-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-readability-analyzer-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 ---
 
 # Content Readability Analyzer

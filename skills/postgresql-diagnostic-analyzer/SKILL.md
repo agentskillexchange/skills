@@ -5,7 +5,9 @@ slug: "postgresql-diagnostic-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # PostgreSQL Diagnostic Analyzer

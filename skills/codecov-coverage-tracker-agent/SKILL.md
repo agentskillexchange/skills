@@ -5,7 +5,9 @@ slug: "codecov-coverage-tracker-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "MCP"
 ---
 
 # Codecov Coverage Tracker Agent

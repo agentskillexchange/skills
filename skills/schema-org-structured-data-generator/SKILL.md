@@ -5,7 +5,9 @@ slug: "schema-org-structured-data-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 ---
 
 # Schema.org Structured Data Generator

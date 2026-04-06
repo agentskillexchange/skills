@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Puppeteer PDF Renderer

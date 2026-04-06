@@ -5,7 +5,9 @@ slug: "puppeteer-web-scraper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 ---
 
 # Puppeteer Web Scraper

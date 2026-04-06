@@ -5,7 +5,9 @@ slug: "ansible-playbook-dry-run-validator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Ansible Playbook Dry Run Validator

@@ -5,7 +5,9 @@ slug: "dlt-python-data-load-tool"
 verification: "security_reviewed"
 source: "https://github.com/dlt-hub/dlt"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "dlt-hub/dlt"
   github_stars: 5161

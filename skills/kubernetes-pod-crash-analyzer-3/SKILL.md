@@ -5,7 +5,9 @@ slug: "kubernetes-pod-crash-analyzer-3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Kubernetes Pod Crash Analyzer

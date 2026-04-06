@@ -5,7 +5,9 @@ slug: "wp-cron-health-monitor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "OpenClaw"
 ---
 
 # WP Cron Health Monitor

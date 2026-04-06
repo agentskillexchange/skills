@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/browserbase/stagehand"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Stagehand Browser Automation

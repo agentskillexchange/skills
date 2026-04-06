@@ -5,7 +5,9 @@ slug: "metamcp-unified-mcp-server-aggregator-gateway"
 verification: "security_reviewed"
 source: "https://github.com/metatool-ai/metamcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "metatool-ai/metamcp"
   github_stars: 2175

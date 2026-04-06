@@ -5,7 +5,9 @@ slug: "openobserve-observability-platform-logs-metrics-traces"
 verification: "security_reviewed"
 source: "https://github.com/openobserve/openobserve"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "openobserve/openobserve"
   github_stars: 18455

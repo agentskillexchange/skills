@@ -5,7 +5,9 @@ slug: "notion-workspace-sync-engine-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Gemini"
 ---
 
 # Notion Workspace Sync Engine

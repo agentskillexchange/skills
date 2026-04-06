@@ -5,7 +5,9 @@ slug: "ast-grep-structural-code-search-rewrite"
 verification: "security_reviewed"
 source: "https://github.com/ast-grep/ast-grep"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "ast-grep/ast-grep"
   github_stars: 13245

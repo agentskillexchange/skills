@@ -5,7 +5,9 @@ slug: "wp-browser-wordpress-integration-testing-codeception"
 verification: "security_reviewed"
 source: "https://github.com/lucatume/wp-browser"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lucatume/wp-browser"
   github_stars: 634

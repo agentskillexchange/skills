@@ -5,7 +5,9 @@ slug: "aws-cloudformation-stack-diagnostics"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # AWS CloudFormation Stack Diagnostics

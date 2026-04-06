@@ -5,7 +5,9 @@ slug: "espeak-ng-multilingual-speech-synthesizer"
 verification: "security_reviewed"
 source: "https://github.com/espeak-ng/espeak-ng"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "espeak-ng/espeak-ng"
   github_stars: 6311

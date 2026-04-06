@@ -5,7 +5,9 @@ slug: "textstat-python-readability-statistics-calculator"
 verification: "security_reviewed"
 source: "https://github.com/textstat/textstat"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "textstat/textstat"
   github_stars: 1361

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Selenium Grid Session Distributor

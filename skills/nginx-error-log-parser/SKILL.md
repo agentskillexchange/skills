@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # Nginx Error Log Parser

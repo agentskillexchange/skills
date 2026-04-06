@@ -5,7 +5,9 @@ slug: "writefreely-federated-markdown-publishing-platform"
 verification: "security_reviewed"
 source: "https://github.com/writefreely/writefreely"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "writefreely/writefreely"
   github_stars: 5117

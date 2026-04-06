@@ -5,7 +5,9 @@ slug: "kafka-schema-registry-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Agents"
 ---
 
 # Apache Kafka Schema Registry Extractor

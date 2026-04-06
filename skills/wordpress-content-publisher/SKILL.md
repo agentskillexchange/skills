@@ -5,7 +5,9 @@ slug: "wordpress-content-publisher"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "WordPress/WordPress"
   github_stars: 21002

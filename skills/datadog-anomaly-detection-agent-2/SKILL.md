@@ -5,7 +5,9 @@ slug: "datadog-anomaly-detection-agent-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # Datadog Anomaly Detection Agent

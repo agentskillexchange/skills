@@ -5,7 +5,9 @@ slug: "prometheus-alertmanager-bridge"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # Prometheus AlertManager Bridge

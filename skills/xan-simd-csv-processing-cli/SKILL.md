@@ -5,7 +5,9 @@ slug: "xan-simd-csv-processing-cli"
 verification: "security_reviewed"
 source: "https://github.com/medialab/xan"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "medialab/xan"
   github_stars: 3882

@@ -5,7 +5,9 @@ slug: "backstage-software-catalog-sync"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Cursor"
 ---
 
 # Backstage Software Catalog Sync

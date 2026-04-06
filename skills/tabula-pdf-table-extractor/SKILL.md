@@ -5,7 +5,9 @@ slug: "tabula-pdf-table-extractor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tabula-pdf-table-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 ---
 
 # Tabula PDF Table Extractor

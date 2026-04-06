@@ -5,7 +5,9 @@ slug: "notion-database-sync-bridge"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Agents"
 ---
 
 # Notion Database Sync Bridge

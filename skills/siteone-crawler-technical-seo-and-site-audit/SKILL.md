@@ -5,7 +5,9 @@ slug: "siteone-crawler-technical-seo-and-site-audit"
 verification: "security_reviewed"
 source: "https://github.com/janreges/siteone-crawler"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "janreges/siteone-crawler"
   github_stars: 708

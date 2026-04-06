@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/Keats/tera"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # Tera Jinja2-Inspired Template Engine for Rust

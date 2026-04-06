@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/nektos/act"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "nektos/act"
   github_stars: 69661

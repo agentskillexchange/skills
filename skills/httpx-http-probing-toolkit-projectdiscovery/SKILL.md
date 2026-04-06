@@ -5,7 +5,9 @@ slug: "httpx-http-probing-toolkit-projectdiscovery"
 verification: "security_reviewed"
 source: "https://github.com/projectdiscovery/httpx"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "projectdiscovery/httpx"
   github_stars: 9759

@@ -5,7 +5,9 @@ slug: "pagerduty-incident-runbook-executor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # PagerDuty Incident Runbook Executor

@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/garden-io/garden"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform

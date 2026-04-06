@@ -5,7 +5,9 @@ slug: "microsoft-graph-email-digest-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Microsoft Graph Email Digest Builder

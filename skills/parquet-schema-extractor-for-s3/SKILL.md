@@ -5,7 +5,9 @@ slug: "parquet-schema-extractor-for-s3"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Gemini"
 ---
 
 # Parquet Schema Extractor for S3

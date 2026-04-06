@@ -5,7 +5,10 @@ slug: "terraform-module-testing-framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Terraform Module Testing Framework

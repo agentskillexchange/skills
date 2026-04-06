@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
 category:
   - "Browser Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # Cypress E2E Test Generator

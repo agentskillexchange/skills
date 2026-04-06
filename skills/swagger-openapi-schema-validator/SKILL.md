@@ -5,7 +5,9 @@ slug: "swagger-openapi-schema-validator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # Swagger OpenAPI Schema Validator

@@ -5,7 +5,9 @@ slug: "prometheus-alertmanager-rules-engine"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 ---
 
 # Prometheus AlertManager Rules Engine

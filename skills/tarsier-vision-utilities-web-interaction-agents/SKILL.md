@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/reworkd/tarsier"
 category:
   - "Browser Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Tarsier Vision Utilities for Web Interaction Agents

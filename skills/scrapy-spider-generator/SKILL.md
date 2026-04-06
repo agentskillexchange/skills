@@ -5,7 +5,9 @@ slug: "scrapy-spider-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-generator/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Scrapy Spider Generator

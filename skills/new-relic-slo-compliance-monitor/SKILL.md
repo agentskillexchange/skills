@@ -5,7 +5,9 @@ slug: "new-relic-slo-compliance-monitor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # New Relic SLO Compliance Monitor

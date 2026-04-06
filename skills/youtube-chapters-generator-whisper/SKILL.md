@@ -5,7 +5,9 @@ slug: "youtube-chapters-generator-whisper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 ---
 
 # YouTube Chapters Generator with Whisper

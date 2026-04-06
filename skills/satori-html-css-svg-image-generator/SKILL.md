@@ -5,7 +5,9 @@ slug: "satori-html-css-svg-image-generator"
 verification: "security_reviewed"
 source: "https://github.com/vercel/satori"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/satori"
   github_stars: 13224

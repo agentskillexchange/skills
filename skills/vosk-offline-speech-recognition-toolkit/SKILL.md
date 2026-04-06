@@ -5,7 +5,9 @@ slug: "vosk-offline-speech-recognition-toolkit"
 verification: "security_reviewed"
 source: "https://github.com/alphacep/vosk-api"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "alphacep/vosk-api"
   github_stars: 14474

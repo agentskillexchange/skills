@@ -5,7 +5,9 @@ slug: "owasp-zap-api-fuzzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # OWASP ZAP API Fuzzer

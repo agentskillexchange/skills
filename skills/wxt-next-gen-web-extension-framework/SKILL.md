@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/wxt-dev/wxt"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9516

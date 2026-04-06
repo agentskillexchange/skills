@@ -5,7 +5,9 @@ slug: "owasp-zap-api-security-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-scanner/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Gemini"
 ---
 
 # OWASP ZAP API Security Scanner

@@ -5,7 +5,9 @@ slug: "dozzle-docker-log-viewer"
 verification: "security_reviewed"
 source: "https://github.com/amir20/dozzle"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # Dozzle Real-Time Docker Container Log Viewer

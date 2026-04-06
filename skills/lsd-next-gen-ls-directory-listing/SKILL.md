@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/lsd-rs/lsd"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "lsd-rs/lsd"
   github_stars: 15622

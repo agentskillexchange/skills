@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/get-convex/convex-backend"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "get-convex/convex-backend"
   github_stars: 11166

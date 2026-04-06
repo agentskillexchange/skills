@@ -6,10 +6,12 @@ verification: "security_reviewed"
 source: "https://github.com/caprover/caprover"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949
-  ase_npm_package: "caprover"
+  npm_package: "caprover"
   npm_weekly_downloads: 8696
 ---
 

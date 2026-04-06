@@ -5,7 +5,9 @@ slug: "eslint-rule-violation-summarizer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # ESLint Rule Violation Summarizer

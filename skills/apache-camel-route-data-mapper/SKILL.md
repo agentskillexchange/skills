@@ -5,7 +5,9 @@ slug: "apache-camel-route-data-mapper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 ---
 
 # Apache Camel Route Data Mapper

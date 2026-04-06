@@ -5,7 +5,10 @@ slug: "incident-response-playbook-runner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-playbook-runner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Incident Response Playbook Runner

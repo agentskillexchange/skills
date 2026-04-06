@@ -5,7 +5,9 @@ slug: "prometheus-alertmanager-bridge-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Prometheus Alertmanager Bridge

@@ -5,7 +5,9 @@ slug: "makefile-workflow-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Gemini"
 ---
 
 # Makefile Workflow Generator

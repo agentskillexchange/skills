@@ -5,7 +5,9 @@ slug: "osint-domain-intelligence-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # OSINT Domain Intelligence Scanner

@@ -5,7 +5,9 @@ slug: "dalle-batch-image-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # DALL-E Batch Image Generator

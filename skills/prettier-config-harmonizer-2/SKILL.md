@@ -5,7 +5,9 @@ slug: "prettier-config-harmonizer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # Prettier Config Harmonizer

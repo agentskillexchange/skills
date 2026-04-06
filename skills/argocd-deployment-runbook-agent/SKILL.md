@@ -5,7 +5,9 @@ slug: "argocd-deployment-runbook-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Custom Agents"
 ---
 
 # ArgoCD Deployment Runbook Agent

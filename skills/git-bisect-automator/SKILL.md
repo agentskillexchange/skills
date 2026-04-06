@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-bisect-automator/"
 category:
   - "Developer Tools"
+framework:
+  - "Claude Code"
 ---
 
 # Git Bisect Automator

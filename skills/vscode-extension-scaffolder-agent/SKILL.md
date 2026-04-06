@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
 category:
   - "Developer Tools"
+framework:
+  - "Cursor"
 ---
 
 # VS Code Extension Scaffolder

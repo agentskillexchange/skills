@@ -6,6 +6,11 @@ verification: "security_reviewed"
 source: "https://github.com/Redocly/redocly-cli"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "redocly/redocly-cli"
+  github_stars: 1422
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator

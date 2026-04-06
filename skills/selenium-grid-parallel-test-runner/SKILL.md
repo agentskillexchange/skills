@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
 category:
   - "Browser Automation"
+framework:
+  - "Cursor"
 ---
 
 # Selenium Grid Parallel Test Runner

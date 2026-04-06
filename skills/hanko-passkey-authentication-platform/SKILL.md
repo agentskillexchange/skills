@@ -5,7 +5,9 @@ slug: "hanko-passkey-authentication-platform"
 verification: "security_reviewed"
 source: "https://github.com/teamhanko/hanko"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "teamhanko/hanko"
   github_stars: 8891

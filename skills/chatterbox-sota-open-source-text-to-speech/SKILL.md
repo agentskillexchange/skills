@@ -5,7 +5,9 @@ slug: "chatterbox-sota-open-source-text-to-speech"
 verification: "security_reviewed"
 source: "https://github.com/resemble-ai/chatterbox"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "resemble-ai/chatterbox"
   github_stars: 24089

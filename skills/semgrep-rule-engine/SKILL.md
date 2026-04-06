@@ -5,7 +5,9 @@ slug: "semgrep-rule-engine"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 ---
 
 # Semgrep Rule Engine

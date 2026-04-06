@@ -5,7 +5,9 @@ slug: "eslint-rule-conflict-resolver"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 ---
 
 # ESLint Rule Conflict Resolver

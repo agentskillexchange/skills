@@ -5,7 +5,9 @@ slug: "aws-cloudwatch-anomaly-runbook"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # AWS CloudWatch Anomaly Runbook

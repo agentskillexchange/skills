@@ -5,7 +5,9 @@ slug: "ssl-certificate-auditor-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # SSL Certificate Auditor

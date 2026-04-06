@@ -5,7 +5,9 @@ slug: "openapi-spec-compliance-checker"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # OpenAPI Spec Compliance Checker

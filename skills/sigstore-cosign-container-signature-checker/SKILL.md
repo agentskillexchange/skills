@@ -5,7 +5,9 @@ slug: "sigstore-cosign-container-signature-checker"
 verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5776

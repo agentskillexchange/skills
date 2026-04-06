@@ -5,7 +5,9 @@ slug: "adobe-photoshop-api-batch-processor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Adobe Photoshop API Batch Processor

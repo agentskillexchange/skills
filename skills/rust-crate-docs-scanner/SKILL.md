@@ -5,7 +5,9 @@ slug: "rust-crate-docs-scanner"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-docs-scanner/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Custom Agents"
 ---
 
 # Rust Crate Docs Scanner

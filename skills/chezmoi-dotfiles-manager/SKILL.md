@@ -6,6 +6,8 @@ verification: "security_reviewed"
 source: "https://github.com/twpayne/chezmoi"
 category:
   - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "twpayne/chezmoi"
   github_stars: 18876

@@ -5,7 +5,9 @@ slug: "postgresql-query-plan-explainer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-explainer/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # PostgreSQL Query Plan Explainer

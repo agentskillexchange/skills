@@ -5,7 +5,9 @@ slug: "camelot-advanced-pdf-table-intelligence"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Cursor"
 ---
 
 # Camelot Advanced PDF Table Intelligence

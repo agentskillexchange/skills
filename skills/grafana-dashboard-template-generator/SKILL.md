@@ -5,7 +5,9 @@ slug: "grafana-dashboard-template-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Cursor"
 ---
 
 # Grafana Dashboard Template Generator

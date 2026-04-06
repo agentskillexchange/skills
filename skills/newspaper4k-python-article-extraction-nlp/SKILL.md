@@ -5,7 +5,9 @@ slug: "newspaper4k-python-article-extraction-nlp"
 verification: "security_reviewed"
 source: "https://github.com/AndyTheFactory/newspaper4k"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Newspaper4k Python Article Extraction and NLP Library
