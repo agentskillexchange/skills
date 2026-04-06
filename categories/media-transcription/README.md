@@ -54,6 +54,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](../../skills/insanely-fast-whisper-gpu-transcription/) | 12.2k | — |
 | [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | 11.4k | — |
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | 10.7k | — |
+| [Demucs Music Source Separation for Vocal and Stem Extraction](../../skills/demucs-music-source-separation-for-vocal-and-stem-extraction/) | 9.9k | — |
 | [pydub Python Audio Manipulation Library](../../skills/pydub-python-audio-manipulation-library/) | 9.7k | — |
 | [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 9.6k | — |
 | [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | 8.6k | — |

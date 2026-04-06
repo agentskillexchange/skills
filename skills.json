@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1715,
+  "total": 1718,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "docker-selenium-grid-for-scalable-browser-automation",
+      "name": "Docker Selenium Grid for Scalable Browser Automation",
+      "description": "docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed browser execution. It is useful when an agent needs reproducible…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8614,
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "slug": "demucs-music-source-separation-for-vocal-and-stem-extraction",
+      "name": "Demucs Music Source Separation for Vocal and Stem Extraction",
+      "description": "Demucs is Meta's open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9938,
+        "license": "MIT"
+      }
+    },
+    {
+      "slug": "magika-ai-file-type-detection-and-content-classification",
+      "name": "Magika AI File Type Detection and Content Classification",
+      "description": "Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10195,
+        "license": "Apache-2.0"
+      }
+    },
     {
       "slug": "medusa-commerce-api-store-operations-automation-skill",
       "name": "Medusa Commerce API and Store Operations Automation Skill",
