@@ -93,6 +93,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
+| [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | — | — |

@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1740,
+  "total": 1743,
   "generated": "2026-04-06",
   "skills": [
+    {
+      "slug": "ai-engine-wordpress-mcp-server-and-ai-automation",
+      "name": "AI Engine WordPress MCP Server and AI Automation",
+      "description": "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "moonshine-voice-on-device-speech-recognition-and-voice-commands",
+      "name": "Moonshine Voice On-Device Speech Recognition and Voice Commands",
+      "description": "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "netdata-real-time-infrastructure-monitoring-and-alerting",
+      "name": "Netdata Real-Time Infrastructure Monitoring and Alerting",
+      "description": "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "official-firecrawl-mcp-server",
       "name": "Official Firecrawl MCP Server",

@@ -105,6 +105,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | — | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
+| [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | — | — |
