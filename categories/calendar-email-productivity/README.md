@@ -81,6 +81,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | — | — |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | — | — |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | — | — |
+| [Miniflux Self-Hosted RSS Feed Reader and Automation API](../../skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | — | — |
 | [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | — | — |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | — | — |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | — | — |

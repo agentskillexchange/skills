@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1721 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-06 05:31 UTC
+> **1724 published skills** across **17 categories** · 1669 security reviewed · Updated 2026-04-06 07:34 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -902,7 +902,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (101 skills)
+### 📊 Monitoring & Alerts (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -958,6 +958,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | — | — |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | — | — |
 | [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Security Reviewed | — | — |
+| [Gotify Self-Hosted Push Notification Server and API](skills/gotify-self-hosted-push-notification-server-and-api/) | Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile… | Published | — | — |
 | [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | — | — |
 | [Grafana Dashboard as Code Builder](skills/grafana-dashboard-as-code-builder/) | Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel… | Security Reviewed | — | — |
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | — | — |
@@ -1115,7 +1116,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (93 skills)
+### 📅 Calendar, Email & Productivity (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1179,6 +1180,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Microsoft Graph Mail Triage Agent](skills/microsoft-graph-mail-triage-agent/) | Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and… | Security Reviewed | — | — |
 | [Microsoft Outlook Calendar Sync Agent](skills/ms-outlook-calendar-sync-agent/) | Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles… | Security Reviewed | — | — |
 | [Microsoft Outlook Mail Sorter](skills/ms-outlook-mail-sorter/) | Automatically triages Microsoft Outlook emails using the Microsoft Graph API /me/messages endpoint. Applies… | Security Reviewed | — | — |
+| [Miniflux Self-Hosted RSS Feed Reader and Automation API](skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This… | Published | — | — |
 | [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](skills/nodemailer-nodejs-email-sending-library/) | Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly… | Security Reviewed | — | — |
 | [Notion AI Document Summarizer & Action Item Extractor](skills/notion-ai-doc-summarizer/) | Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke… | Security Reviewed | — | — |
 | [Notion AI Workspace](skills/notion-ai-workspace/) | Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
@@ -1639,7 +1641,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (71 skills)
+### 📰 WordPress & CMS (72 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1690,6 +1692,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Directus SQL-Native Headless CMS and Internal App Platform](skills/directus-sql-native-headless-cms-internal-app-platform/) | Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary… | Published | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](skills/elementor-website-builder-wordpress-visual-page-editor/) | Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than… | Security Reviewed | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](skills/emdash-full-stack-typescript-cms-cloudflare/) | EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor… | Security Reviewed | — | — |
+| [Fumadocs React Documentation Framework and Docs Site Generator](skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama… | Published | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](skills/ghost-admin-api-headless-publishing-cms-automation/) | The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter… | Security Reviewed | — | — |
 | [Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS](skills/ghost-open-source-publishing-platform-memberships-newsletters-headless-cms/) | Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use… | Security Reviewed | — | — |
 | [Gutenberg Block Pattern Generator](skills/gutenberg-block-pattern-generator/) | Generates custom WordPress Gutenberg block patterns using register_block_pattern() and the Block Editor API. Creates… | Security Reviewed | — | — |

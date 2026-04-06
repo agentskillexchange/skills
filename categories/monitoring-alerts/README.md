@@ -82,6 +82,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | — | — |
+| [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | — | — |

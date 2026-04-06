@@ -84,6 +84,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](../../skills/elementor-website-builder-wordpress-visual-page-editor/) | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | — | — |
+| [Fumadocs React Documentation Framework and Docs Site Generator](../../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
 | [Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS](../../skills/ghost-open-source-publishing-platform-memberships-newsletters-headless-cms/) | — | — |
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | — | — |
