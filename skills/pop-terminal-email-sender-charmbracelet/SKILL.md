@@ -1,14 +1,16 @@
 ---
-name: "Pop Terminal Email Sender and TUI by Charmbracelet"
-description: "Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports Resend API and SMTP backends, file attachments, Markdown body rendering, and integrates with other Charm tools."
+name: Pop Terminal Email Sender and TUI by Charmbracelet
+description: Pop is a terminal-based email sending tool by Charmbracelet with both
+  a TUI composer and CLI mode. It supports Resend API and SMTP backends, file attachments,
+  Markdown body rendering, and integrates with other Charm tools.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/charmbracelet/pop"
 tool_ecosystem:
   github_repo: "https://github.com/charmbracelet/pop"
   github_stars: 2808
-  license: "MIT"
+  license: MIT
 ---
 # Pop Terminal Email Sender and TUI by Charmbracelet
 
@@ -70,6 +72,7 @@ npx skills add agentskillexchange/skills --skill pop-terminal-email-sender-charm
 clawhub install pop-terminal-email-sender-charmbracelet
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pop-terminal-email-sender-charmbracelet/)
+- [GitHub](https://github.com/charmbracelet/pop)

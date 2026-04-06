@@ -1,8 +1,10 @@
 ---
-name: "Unkey Open Source API Key Management and Rate Limiting Platform"
-description: "Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a fast, globally distributed key verification system that integrates into any API with minimal code changes."
+name: Unkey Open Source API Key Management and Rate Limiting Platform
+description: Unkey is an open-source developer platform for managing API keys, rate
+  limiting, and usage analytics. It provides a fast, globally distributed key verification
+  system that integrates into any API with minimal code changes.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/unkeyed/unkey"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill unkey-api-key-management-rate-l
 clawhub install unkey-api-key-management-rate-limiting
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/unkey-api-key-management-rate-limiting/)
+- [GitHub](https://github.com/unkeyed/unkey)

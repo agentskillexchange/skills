@@ -1,8 +1,11 @@
 ---
-name: "Grounded Docs MCP Server"
-description: "Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources like websites, GitHub, npm, PyPI, and local files. It helps agents fetch current docs, search them semantically, and reduce hallucinations when working against real libraries and APIs."
+name: Grounded Docs MCP Server
+description: Grounded Docs MCP Server gives AI coding assistants a version-aware documentation
+  index built from official sources like websites, GitHub, npm, PyPI, and local files.
+  It helps agents fetch current docs, search them semantically, and reduce hallucinations
+  when working against real libraries and APIs.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: listed
 source: "https://github.com/arabold/docs-mcp-server"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill grounded-docs-mcp-server -a cod
 clawhub install grounded-docs-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/grounded-docs-mcp-server/)
+- [GitHub](https://github.com/arabold/docs-mcp-server)

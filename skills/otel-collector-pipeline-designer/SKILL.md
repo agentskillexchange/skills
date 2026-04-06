@@ -1,8 +1,10 @@
 ---
-name: "OpenTelemetry Collector Pipeline Designer"
-description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
+name: OpenTelemetry Collector Pipeline Designer
+description: Designs OpenTelemetry Collector pipeline configurations with receivers
+  (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and
+  exporters (otlphttp, jaeger, elasticsearch).
 category: "Monitoring &amp; Alerts"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill otel-collector-pipeline-designe
 ```bash
 clawhub install otel-collector-pipeline-designer
 ```
+
 
 ## Source
 

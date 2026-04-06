@@ -1,8 +1,10 @@
 ---
-name: "DALL-E Image Variation Pipeline"
-description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
+name: DALL-E Image Variation Pipeline
+description: Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation
+  with style references, aspect ratio control, and automated prompt refinement using
+  GPT-4 Vision feedback loops.
 category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill dalle-image-variation-pipeline 
 ```bash
 clawhub install dalle-image-variation-pipeline
 ```
+
 
 ## Source
 

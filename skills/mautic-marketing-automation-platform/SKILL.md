@@ -1,8 +1,11 @@
 ---
-name: "Mautic Open Source Marketing Automation Platform"
-description: "Mautic is the world’s largest open-source marketing automation platform with 7.9K+ GitHub stars. It provides email campaign management, lead scoring, contact segmentation, landing pages, and multi-channel marketing automation with a full REST API for programmatic control."
+name: Mautic Open Source Marketing Automation Platform
+description: Mautic is the world’s largest open-source marketing automation platform
+  with 7.9K+ GitHub stars. It provides email campaign management, lead scoring, contact
+  segmentation, landing pages, and multi-channel marketing automation with a full
+  REST API for programmatic control.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mautic/mautic"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill mautic-marketing-automation-pla
 clawhub install mautic-marketing-automation-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mautic-marketing-automation-platform/)
+- [GitHub](https://github.com/mautic/mautic)

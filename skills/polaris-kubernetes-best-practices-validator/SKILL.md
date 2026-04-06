@@ -1,8 +1,10 @@
 ---
-name: "Polaris Kubernetes Best Practices Validator"
-description: "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a validating webhook for admission control."
+name: Polaris Kubernetes Best Practices Validator
+description: Validate Kubernetes resource configurations against best practice policies
+  using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits,
+  or a validating webhook for admission control.
 category: "Code Quality &amp; Review"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://github.com/FairwindsOps/polaris"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill polaris-kubernetes-best-practic
 clawhub install polaris-kubernetes-best-practices-validator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/polaris-kubernetes-best-practices-validator/)
+- [GitHub](https://github.com/FairwindsOps/polaris)

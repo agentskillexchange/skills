@@ -1,8 +1,10 @@
 ---
-name: "ESLint Rule Analyzer"
-description: "Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config system. Detects rule conflicts, unused rules, and generates project-specific rule recommendations from eslint-plugin-unicorn and typescript-eslint."
+name: ESLint Rule Analyzer
+description: Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile)
+  and flat config system. Detects rule conflicts, unused rules, and generates project-specific
+  rule recommendations from eslint-plugin-unicorn and typescript-eslint.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill eslint-rule-analyzer -a codex
 ```bash
 clawhub install eslint-rule-analyzer
 ```
+
 
 ## Source
 

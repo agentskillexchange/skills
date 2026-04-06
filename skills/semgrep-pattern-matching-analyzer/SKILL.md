@@ -1,8 +1,10 @@
 ---
-name: "Semgrep Pattern Matching Analyzer"
-description: "Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations."
+name: Semgrep Pattern Matching Analyzer
+description: Writes and deploys custom Semgrep rules using pattern, pattern-either,
+  and metavariable-regex operators for multi-language SAST scanning. Manages rule
+  bundles in semgrep.yml with autofix transformations.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill semgrep-pattern-matching-analyz
 ```bash
 clawhub install semgrep-pattern-matching-analyzer
 ```
+
 
 ## Source
 

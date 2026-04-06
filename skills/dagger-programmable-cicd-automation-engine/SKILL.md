@@ -1,14 +1,17 @@
 ---
-name: "Dagger Programmable CI/CD Automation Engine"
-description: "Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell scripts and proprietary YAML with real code using SDKs in Go, Python, TypeScript, and 5 other languages, with built-in caching and OpenTelemetry tracing."
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+name: Dagger Programmable CI/CD Automation Engine
+description: Dagger is an open-source automation engine for building, testing, and
+  shipping any codebase. It replaces shell scripts and proprietary YAML with real
+  code using SDKs in Go, Python, TypeScript, and 5 other languages, with built-in
+  caching and OpenTelemetry tracing.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/dagger/dagger"
 tool_ecosystem:
   github_repo: "https://github.com/dagger/dagger"
   github_stars: 15582
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Dagger Programmable CI/CD Automation Engine
 
@@ -72,6 +75,7 @@ npx skills add agentskillexchange/skills --skill dagger-programmable-cicd-automa
 clawhub install dagger-programmable-cicd-automation-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dagger-programmable-cicd-automation-engine/)
+- [GitHub](https://github.com/dagger/dagger)

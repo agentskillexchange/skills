@@ -1,8 +1,10 @@
 ---
-name: "Langflow Visual AI Agent and Workflow Builder"
-description: "Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs, vector stores, and observability services without starting from scratch."
+name: Langflow Visual AI Agent and Workflow Builder
+description: Langflow is an open-source visual builder for AI agents and workflows.
+  It lets teams design flows graphically, expose them as APIs or MCP tools, and connect
+  major LLMs, vector stores, and observability services without starting from scratch.
 category: "Templates &amp; Workflows"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/langflow-ai/langflow"
 ---
@@ -46,6 +48,7 @@ npx skills add agentskillexchange/skills --skill langflow-visual-ai-agent-workfl
 clawhub install langflow-visual-ai-agent-workflow-builder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/langflow-visual-ai-agent-workflow-builder/)
+- [GitHub](https://github.com/langflow-ai/langflow)

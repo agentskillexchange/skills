@@ -1,8 +1,10 @@
 ---
-name: "Sharp Image Pipeline Processor"
-description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
+name: Sharp Image Pipeline Processor
+description: Builds composable image transformation pipelines using the Sharp library
+  with operations like resize(), composite(), and toFormat(). Leverages libvips bindings
+  for high-performance batch processing.
 category: "Image &amp; Creative Automation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sharp-image-pipeline-processor-
 ```bash
 clawhub install sharp-image-pipeline-processor-2
 ```
+
 
 ## Source
 

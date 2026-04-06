@@ -1,8 +1,10 @@
 ---
-name: "Datadog Monitors Skill"
-description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
+name: Datadog Monitors Skill
+description: Manages Datadog monitors and dashboards via the Datadog API v2. Lists
+  triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports
+  composite monitors and SLO tracking.
 category: "Monitoring &amp; Alerts"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill datadog-monitors-skill -a codex
 ```bash
 clawhub install datadog-monitors-skill
 ```
+
 
 ## Source
 

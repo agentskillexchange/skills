@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Tuner"
-description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
+name: Prometheus Alert Tuner
+description: Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL
+  query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds
+  via histogram_quantile, and configuring inhibition rules.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-tuner -a codex
 ```bash
 clawhub install prometheus-alert-tuner
 ```
+
 
 ## Source
 

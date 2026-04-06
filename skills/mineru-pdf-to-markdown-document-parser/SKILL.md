@@ -1,8 +1,11 @@
 ---
-name: "MinerU PDF-to-Markdown Document Parser"
-description: "Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence pipeline. Extracts text, tables, formulas, and images from scientific papers, reports, and scanned documents with layout-aware parsing."
+name: MinerU PDF-to-Markdown Document Parser
+description: Transforms complex PDFs into LLM-ready markdown and JSON using MinerU,
+  a high-accuracy document intelligence pipeline. Extracts text, tables, formulas,
+  and images from scientific papers, reports, and scanned documents with layout-aware
+  parsing.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/opendatalab/MinerU"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill mineru-pdf-to-markdown-document
 clawhub install mineru-pdf-to-markdown-document-parser
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mineru-pdf-to-markdown-document-parser/)
+- [GitHub](https://github.com/opendatalab/MinerU)

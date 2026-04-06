@@ -1,8 +1,11 @@
 ---
-name: "DevDocs Unified API Documentation Browser"
-description: "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference for programming languages, frameworks, and tools."
+name: DevDocs Unified API Documentation Browser
+description: DevDocs aggregates 500+ API documentation sets into a single searchable
+  interface with instant fuzzy search, offline support, and keyboard navigation. Maintained
+  by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference
+  for programming languages, frameworks, and tools.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/freeCodeCamp/devdocs"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill devdocs-unified-api-documentati
 clawhub install devdocs-unified-api-documentation-browser
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/devdocs-unified-api-documentation-browser/)
+- [GitHub](https://github.com/freeCodeCamp/devdocs)

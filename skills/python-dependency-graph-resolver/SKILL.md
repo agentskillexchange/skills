@@ -1,8 +1,10 @@
 ---
-name: "Python Dependency Graph Resolver"
-description: "Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies."
+name: Python Dependency Graph Resolver
+description: Resolves and visualizes Python package dependency graphs using pip, pipdeptree,
+  and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable
+  transitive dependencies.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill python-dependency-graph-resolve
 ```bash
 clawhub install python-dependency-graph-resolver
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "age Modern File Encryption Tool"
-description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows."
+name: age Modern File Encryption Tool
+description: Encrypt and decrypt files with age (FiloSottile/age), a simple, modern
+  encryption tool with small explicit keys, post-quantum support, no config options,
+  and UNIX-style composability. A practical replacement for GPG in most workflows.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/FiloSottile/age"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill age-modern-file-encryption-tool
 clawhub install age-modern-file-encryption-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/age-modern-file-encryption-tool/)
+- [GitHub](https://github.com/FiloSottile/age)

@@ -1,8 +1,11 @@
 ---
-name: "Bubble.io Stripe Subscription Portal Builder"
-description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+name: Bubble.io Stripe Subscription Portal Builder
+description: Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service
+  subscription management portal inside a Bubble application. Configures Bubble’s
+  API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook
+  events for real-time plan change updates.
 category: "Templates &amp; Workflows"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill bubble-stripe-subscription-port
 ```bash
 clawhub install bubble-stripe-subscription-portal
 ```
+
 
 ## Source
 

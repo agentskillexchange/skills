@@ -1,14 +1,17 @@
 ---
-name: "Demucs Music Source Separation for Vocal and Stem Extraction"
-description: "Demucs is Meta’s open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows that need repeatable audio preprocessing before transcription, remixing, analysis, captioning, or archive preparation."
+name: Demucs Music Source Separation for Vocal and Stem Extraction
+description: Demucs is Meta’s open-source music source separation project for splitting
+  songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows
+  that need repeatable audio preprocessing before transcription, remixing, analysis,
+  captioning, or archive preparation.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/facebookresearch/demucs"
 tool_ecosystem:
   github_repo: "https://github.com/facebookresearch/demucs"
   github_stars: 9938
-  license: "MIT"
+  license: MIT
 ---
 # Demucs Music Source Separation for Vocal and Stem Extraction
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill demucs-music-source-separation-
 clawhub install demucs-music-source-separation-for-vocal-and-stem-extraction
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/demucs-music-source-separation-for-vocal-and-stem-extraction/)
+- [GitHub](https://github.com/facebookresearch/demucs)

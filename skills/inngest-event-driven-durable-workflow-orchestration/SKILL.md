@@ -1,8 +1,11 @@
 ---
-name: "Inngest Event-Driven Durable Workflow Orchestration Platform"
-description: "Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable event-driven workflows triggered by events, cron schedules, or webhooks, with built-in retries, concurrency control, and flow control."
+name: Inngest Event-Driven Durable Workflow Orchestration Platform
+description: Inngest is an open-source workflow orchestration platform that replaces
+  queues, state management, and scheduling with durable step functions. It enables
+  developers to write reliable event-driven workflows triggered by events, cron schedules,
+  or webhooks, with built-in retries, concurrency control, and flow control.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/inngest/inngest"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill inngest-event-driven-durable-wo
 clawhub install inngest-event-driven-durable-workflow-orchestration
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/inngest-event-driven-durable-workflow-orchestration/)
+- [GitHub](https://github.com/inngest/inngest)

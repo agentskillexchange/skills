@@ -1,8 +1,10 @@
 ---
-name: "Ghost Admin API Headless Publishing and CMS Automation"
-description: "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites."
+name: Ghost Admin API Headless Publishing and CMS Automation
+description: The Ghost Admin API exposes authenticated operations for posts, pages,
+  tags, members, offers, and newsletter publishing. This skill gives agents a concrete
+  workflow for structured publishing and operational automation in Ghost-backed sites.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://ghost.org/docs/admin-api/"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill ghost-admin-api-headless-publis
 clawhub install ghost-admin-api-headless-publishing-cms-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ghost-admin-api-headless-publishing-cms-automation/)
+- [ghost.org](https://ghost.org/docs/admin-api/)

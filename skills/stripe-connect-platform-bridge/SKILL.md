@@ -1,8 +1,10 @@
 ---
-name: "Stripe Connect Platform Bridge"
-description: "Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles account creation, capability requests, OAuth redirects, and payout scheduling via the Stripe Accounts API."
+name: Stripe Connect Platform Bridge
+description: Manages Stripe Connect onboarding flows using the stripe-node SDK. Handles
+  account creation, capability requests, OAuth redirects, and payout scheduling via
+  the Stripe Accounts API.
 category: "Integrations &amp; Connectors"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-platform-bridge/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill stripe-connect-platform-bridge 
 ```bash
 clawhub install stripe-connect-platform-bridge
 ```
+
 
 ## Source
 

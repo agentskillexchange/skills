@@ -1,8 +1,10 @@
 ---
-name: "Playwright Network HAR Recorder"
-description: "Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation."
-category: "Browser Automation"
-framework: "Codex"
+name: Playwright Network HAR Recorder
+description: Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR
+  API for deterministic test environments. Supports selective recording, response
+  modification, and API mock generation.
+category: Browser Automation
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill playwright-network-har-recorder
 ```bash
 clawhub install playwright-network-har-recorder
 ```
+
 
 ## Source
 

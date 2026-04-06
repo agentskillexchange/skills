@@ -1,8 +1,10 @@
 ---
-name: "HashiCorp Vault Secrets Rotation Agent"
-description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
+name: HashiCorp Vault Secrets Rotation Agent
+description: Automates secret rotation in HashiCorp Vault using the Vault API and
+  dynamic secrets engines. Manages database credential leases, PKI certificate renewal,
+  and AWS STS token generation with TTL policies.
 category: "Security &amp; Verification"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill hashicorp-vault-secrets-rotatio
 ```bash
 clawhub install hashicorp-vault-secrets-rotation-agent-2
 ```
+
 
 ## Source
 

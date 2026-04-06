@@ -1,8 +1,10 @@
 ---
-name: "Chartbrew Open Source Reporting Platform for API and Database Dashboards"
-description: "Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder, AI assistant, scheduled reports, and embeddable charts for data visualization."
+name: Chartbrew Open Source Reporting Platform for API and Database Dashboards
+description: Chartbrew is an open-source web application for building and sharing
+  live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder,
+  AI assistant, scheduled reports, and embeddable charts for data visualization.
 category: "Monitoring &amp; Alerts"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/chartbrew/chartbrew"
 ---
@@ -90,6 +92,7 @@ npx skills add agentskillexchange/skills --skill chartbrew-open-source-reporting
 clawhub install chartbrew-open-source-reporting-dashboard-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chartbrew-open-source-reporting-dashboard-platform/)
+- [GitHub](https://github.com/chartbrew/chartbrew)

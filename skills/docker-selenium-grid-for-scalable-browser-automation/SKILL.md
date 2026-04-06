@@ -1,14 +1,17 @@
 ---
-name: "Docker Selenium Grid for Scalable Browser Automation"
-description: "docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed browser execution. It is useful when an agent needs reproducible browser automation infrastructure for testing, scraping, QA, or parallel session orchestration."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Docker Selenium Grid for Scalable Browser Automation
+description: docker-selenium packages Selenium Grid into ready-to-run container images
+  for Chrome, Firefox, Edge, and distributed browser execution. It is useful when
+  an agent needs reproducible browser automation infrastructure for testing, scraping,
+  QA, or parallel session orchestration.
+category: Browser Automation
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/SeleniumHQ/docker-selenium"
 tool_ecosystem:
   github_repo: "https://github.com/seleniumhq/docker-selenium"
   github_stars: 8614
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Docker Selenium Grid for Scalable Browser Automation
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill docker-selenium-grid-for-scalab
 clawhub install docker-selenium-grid-for-scalable-browser-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-selenium-grid-for-scalable-browser-automation/)
+- [GitHub](https://github.com/SeleniumHQ/docker-selenium)

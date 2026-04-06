@@ -1,8 +1,11 @@
 ---
-name: "Vercel Agent Browser"
-description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Vercel Agent Browser
+description: Vercel Agent Browser is a browser automation CLI built specifically for
+  AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility
+  snapshots, click elements, fill forms, capture screenshots, and manage browser state
+  from the command line.
+category: Browser Automation
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/vercel-labs/agent-browser"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill vercel-agent-browser -a codex
 clawhub install vercel-agent-browser
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vercel-agent-browser/)
+- [GitHub](https://github.com/vercel-labs/agent-browser)

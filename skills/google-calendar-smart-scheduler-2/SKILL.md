@@ -1,8 +1,10 @@
 ---
-name: "Google Calendar Smart Scheduler"
-description: "Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot finding, focus time protection, and travel buffer calculations via Google Maps Distance Matrix API."
+name: Google Calendar Smart Scheduler
+description: Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy
+  queries. Applies time-zone-aware slot finding, focus time protection, and travel
+  buffer calculations via Google Maps Distance Matrix API.
 category: "Calendar, Email &amp; Productivity"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill google-calendar-smart-scheduler
 ```bash
 clawhub install google-calendar-smart-scheduler-2
 ```
+
 
 ## Source
 

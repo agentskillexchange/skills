@@ -1,14 +1,17 @@
 ---
-name: "browser-use Browser Automation Framework"
-description: "Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites, inspect page state, click, type, extract data, and recover from common UI changes with a real automation framework instead of brittle one-off scripts."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: browser-use Browser Automation Framework
+description: Use browser-use to turn natural-language web tasks into repeatable browser
+  automation backed by Playwright and agent loops. This skill helps an agent open
+  sites, inspect page state, click, type, extract data, and recover from common UI
+  changes with a real automation framework instead of brittle one-off scripts.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 tool_ecosystem:
   github_repo: "https://github.com/browser-use/browser-use"
   github_stars: 85193
-  license: "MIT"
+  license: MIT
 ---
 # browser-use Browser Automation Framework
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill browser-use-browser-automation-
 clawhub install browser-use-browser-automation-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/browser-use-browser-automation-framework/)
+- [GitHub](https://github.com/browser-use/browser-use)

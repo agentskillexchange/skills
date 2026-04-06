@@ -1,8 +1,10 @@
 ---
-name: "Activepieces Open Source Workflow Automation"
-description: "Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a visual builder for creating automated workflows and exposes all its connectors as MCP servers for AI agent use."
+name: Activepieces Open Source Workflow Automation
+description: Activepieces is an open-source, self-hostable workflow automation platform
+  with 200+ integrations. It provides a visual builder for creating automated workflows
+  and exposes all its connectors as MCP servers for AI agent use.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/activepieces/activepieces"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill activepieces-open-source-workfl
 clawhub install activepieces-open-source-workflow-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/activepieces-open-source-workflow-automation/)
+- [GitHub](https://github.com/activepieces/activepieces)

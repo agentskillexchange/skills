@@ -1,14 +1,16 @@
 ---
-name: "Knip Unused Code and Dependency Finder"
-description: "Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface."
+name: Knip Unused Code and Dependency Finder
+description: Run Knip to find and remove unused files, dependencies, and exports in
+  JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and
+  dependency attack surface.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/webpro-nl/knip"
 tool_ecosystem:
   github_repo: "https://github.com/webpro-nl/knip"
   github_stars: 10806
-  npm_package: "knip"
+  npm_package: knip
 ---
 # Knip Unused Code and Dependency Finder
 
@@ -62,6 +64,7 @@ npx skills add agentskillexchange/skills --skill knip-unused-code-dependency-fin
 clawhub install knip-unused-code-dependency-finder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/knip-unused-code-dependency-finder/)
+- [GitHub](https://github.com/webpro-nl/knip)

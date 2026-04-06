@@ -1,14 +1,17 @@
 ---
-name: "MLT Multimedia Framework for Video Editing and Processing"
-description: "MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt command-line tool for non-linear video editing, transitions, effects, and rendering. MLT powers Shotcut, Kdenlive, and other video editors."
+name: MLT Multimedia Framework for Video Editing and Processing
+description: MLT is an open-source LGPL multimedia framework designed for video editing.
+  It provides a toolkit and the melt command-line tool for non-linear video editing,
+  transitions, effects, and rendering. MLT powers Shotcut, Kdenlive, and other video
+  editors.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mltframework/mlt"
 tool_ecosystem:
   github_repo: "https://github.com/mltframework/mlt"
   github_stars: 1745
-  license: "LGPL-2.1"
+  license: LGPL-2.1
 ---
 # MLT Multimedia Framework for Video Editing and Processing
 
@@ -72,6 +75,7 @@ npx skills add agentskillexchange/skills --skill mlt-multimedia-framework-video-
 clawhub install mlt-multimedia-framework-video-editing-processing
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mlt-multimedia-framework-video-editing-processing/)
+- [GitHub](https://github.com/mltframework/mlt)

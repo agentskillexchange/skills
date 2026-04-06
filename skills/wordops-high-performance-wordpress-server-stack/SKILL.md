@@ -1,14 +1,17 @@
 ---
-name: "WordOps High-Performance WordPress Server Stack Manager"
-description: "WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let’s Encrypt, server hardening, and cache configuration for optimal WordPress performance."
+name: WordOps High-Performance WordPress Server Stack Manager
+description: WordOps is an open-source CLI tool that installs and manages a complete
+  high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a
+  few keystrokes. It handles site creation, SSL certificates via Let’s Encrypt, server
+  hardening, and cache configuration for optimal WordPress performance.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/WordOps/WordOps"
 tool_ecosystem:
   github_repo: "https://github.com/wordops/wordops"
   github_stars: 1538
-  license: "MIT"
+  license: MIT
 ---
 # WordOps High-Performance WordPress Server Stack Manager
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill wordops-high-performance-wordpr
 clawhub install wordops-high-performance-wordpress-server-stack
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordops-high-performance-wordpress-server-stack/)
+- [GitHub](https://github.com/WordOps/WordOps)

@@ -1,8 +1,10 @@
 ---
-name: "NPM Package Analyzer"
-description: "Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API, checks security advisories from npm audit, and maps dependency trees with arborist."
+name: NPM Package Analyzer
+description: Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates
+  bundle size via bundlephobia API, checks security advisories from npm audit, and
+  maps dependency trees with arborist.
 category: "Library &amp; API Reference"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill npm-package-analyzer -a codex
 ```bash
 clawhub install npm-package-analyzer
 ```
+
 
 ## Source
 

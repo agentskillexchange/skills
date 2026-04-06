@@ -1,8 +1,10 @@
 ---
-name: "Cheerio DOM Scraping Toolkit"
-description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
+name: Cheerio DOM Scraping Toolkit
+description: Parses static HTML using Cheerio’s jQuery-like API for fast server-side
+  DOM traversal and data extraction. Generates extraction patterns with CSS selectors
+  optimized for resilience to layout changes.
 category: "Research &amp; Scraping"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cheerio-dom-scraping-toolkit -a
 ```bash
 clawhub install cheerio-dom-scraping-toolkit
 ```
+
 
 ## Source
 

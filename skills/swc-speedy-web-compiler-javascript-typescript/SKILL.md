@@ -1,8 +1,11 @@
 ---
-name: "SWC Speedy Web Compiler for JavaScript and TypeScript"
-description: "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a single thread and 70x faster on four cores. It handles transpilation, minification, and bundling, and powers major tools including Next.js, Parcel, and Rspack."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: SWC Speedy Web Compiler for JavaScript and TypeScript
+description: SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler
+  that is 20x faster than Babel on a single thread and 70x faster on four cores. It
+  handles transpilation, minification, and bundling, and powers major tools including
+  Next.js, Parcel, and Rspack.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/swc-project/swc"
 ---
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill swc-speedy-web-compiler-javascr
 clawhub install swc-speedy-web-compiler-javascript-typescript
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/)
+- [GitHub](https://github.com/swc-project/swc)

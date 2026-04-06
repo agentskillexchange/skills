@@ -1,8 +1,11 @@
 ---
-name: "SerpBear Self-Hosted Search Engine Rank Tracking App"
-description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
+name: SerpBear Self-Hosted Search Engine Rank Tracking App
+description: SerpBear is an open-source, self-hosted search engine position tracking
+  application. It lets you monitor unlimited keyword rankings in Google with email
+  notifications, a built-in SERP API, Google Search Console integration, and keyword
+  research via Google Ads.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/towfiqi/serpbear"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill serpbear-self-hosted-serp-rank-
 clawhub install serpbear-self-hosted-serp-rank-tracker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpbear-self-hosted-serp-rank-tracker/)
+- [GitHub](https://github.com/towfiqi/serpbear)

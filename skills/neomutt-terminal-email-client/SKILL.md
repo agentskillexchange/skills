@@ -1,14 +1,17 @@
 ---
-name: "NeoMutt Feature-Rich Terminal Email Client"
-description: "NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to terminal-based email management. It supports IMAP, POP3, SMTP, Maildir, notmuch search, and PGP encryption with a highly customizable ncurses interface."
+name: NeoMutt Feature-Rich Terminal Email Client
+description: NeoMutt is an actively maintained fork of the classic Mutt email client
+  that brings modern features to terminal-based email management. It supports IMAP,
+  POP3, SMTP, Maildir, notmuch search, and PGP encryption with a highly customizable
+  ncurses interface.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/neomutt/neomutt"
 tool_ecosystem:
   github_repo: "https://github.com/neomutt/neomutt"
   github_stars: 3685
-  license: "GPL-2.0"
+  license: GPL-2.0
 ---
 # NeoMutt Feature-Rich Terminal Email Client
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill neomutt-terminal-email-client -
 clawhub install neomutt-terminal-email-client
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/neomutt-terminal-email-client/)
+- [GitHub](https://github.com/neomutt/neomutt)

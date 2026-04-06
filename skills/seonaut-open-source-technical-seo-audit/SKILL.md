@@ -1,8 +1,11 @@
 ---
-name: "SEOnaut Open Source Technical SEO Audit Tool"
-description: "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken links, redirect chains, missing meta tags, duplicate titles, heading order problems, and other factors that impact search engine rankings."
+name: SEOnaut Open Source Technical SEO Audit Tool
+description: SEOnaut is an open-source SEO auditing tool built with Go that crawls
+  websites and generates detailed reports on technical SEO issues. It detects broken
+  links, redirect chains, missing meta tags, duplicate titles, heading order problems,
+  and other factors that impact search engine rankings.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/StJudeWasHere/seonaut"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill seonaut-open-source-technical-s
 clawhub install seonaut-open-source-technical-seo-audit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/)
+- [GitHub](https://github.com/StJudeWasHere/seonaut)

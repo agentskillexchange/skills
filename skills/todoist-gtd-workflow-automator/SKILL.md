@@ -1,8 +1,10 @@
 ---
-name: "Todoist GTD Workflow Automator"
-description: "Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing."
+name: Todoist GTD Workflow Automator
+description: Implements Getting Things Done methodology on Todoist using the Todoist
+  Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action
+  extraction with natural language parsing.
 category: "Calendar, Email &amp; Productivity"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill todoist-gtd-workflow-automator 
 ```bash
 clawhub install todoist-gtd-workflow-automator
 ```
+
 
 ## Source
 

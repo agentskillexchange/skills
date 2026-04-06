@@ -1,14 +1,16 @@
 ---
-name: "librosa Python Audio and Music Analysis Library"
-description: "librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing."
+name: librosa Python Audio and Music Analysis Library
+description: librosa is a Python library for audio and music analysis. It provides
+  tools for feature extraction, spectral analysis, beat tracking, onset detection,
+  and audio visualization, built on top of NumPy and SciPy for scientific audio computing.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/librosa/librosa"
 tool_ecosystem:
   github_repo: "https://github.com/librosa/librosa"
   github_stars: 8294
-  license: "ISC"
+  license: ISC
 ---
 # librosa Python Audio and Music Analysis Library
 
@@ -54,6 +56,7 @@ npx skills add agentskillexchange/skills --skill librosa-python-audio-music-anal
 clawhub install librosa-python-audio-music-analysis-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/librosa-python-audio-music-analysis-library/)
+- [GitHub](https://github.com/librosa/librosa)

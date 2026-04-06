@@ -1,8 +1,12 @@
 ---
-name: "Tarsier Vision Utilities for Web Interaction Agents"
-description: "Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually tags interactable elements on web pages with bracketed IDs, enabling LLMs to take actions like CLICK [23], and includes an OCR algorithm that converts page screenshots into whitespace-structured text representations that even text-only LLMs can understand."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Tarsier Vision Utilities for Web Interaction Agents
+description: "Tarsier is a Python library by Reworkd that provides vision utilities\
+  \ for AI web interaction agents. It visually tags interactable elements on web pages\
+  \ with bracketed IDs, enabling LLMs to take actions like CLICK [23], and includes\
+  \ an OCR algorithm that converts page screenshots into whitespace-structured text\
+  \ representations that even text-only LLMs can understand."
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/reworkd/tarsier"
 ---
@@ -62,6 +66,7 @@ npx skills add agentskillexchange/skills --skill tarsier-vision-utilities-web-in
 clawhub install tarsier-vision-utilities-web-interaction-agents
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tarsier-vision-utilities-web-interaction-agents/)
+- [GitHub](https://github.com/reworkd/tarsier)

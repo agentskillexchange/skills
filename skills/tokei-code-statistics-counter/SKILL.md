@@ -1,8 +1,10 @@
 ---
-name: "tokei Code Statistics Counter"
-description: "Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition."
+name: tokei Code Statistics Counter
+description: Fast and accurate code statistics tool written in Rust. Counts lines
+  of code, comments, and blanks across 200+ languages, with output in JSON, YAML,
+  or CBOR for programmatic analysis of codebase composition.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/XAMPPRocky/tokei"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill tokei-code-statistics-counter -
 clawhub install tokei-code-statistics-counter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tokei-code-statistics-counter/)
+- [GitHub](https://github.com/XAMPPRocky/tokei)

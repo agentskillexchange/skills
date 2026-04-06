@@ -1,8 +1,10 @@
 ---
-name: "Ruff Linter Configuration Architect"
-description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
+name: Ruff Linter Configuration Architect
+description: Configures and optimizes Ruff Python linter settings using the ruff CLI
+  and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations
+  with automatic rule mapping.
 category: "Code Quality &amp; Review"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ruff-linter-configuration-archi
 ```bash
 clawhub install ruff-linter-configuration-architect
 ```
+
 
 ## Source
 

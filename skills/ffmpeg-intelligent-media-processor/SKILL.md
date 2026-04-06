@@ -1,8 +1,10 @@
 ---
-name: "FFmpeg Intelligent Media Processor"
-description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
+name: FFmpeg Intelligent Media Processor
+description: Orchestrates complex video and audio processing pipelines using FFmpeg
+  and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail
+  generation, HLS packaging, and loudness normalization per EBU R128.
 category: "Image &amp; Creative Automation"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-intelligent-media-proces
 ```bash
 clawhub install ffmpeg-intelligent-media-processor
 ```
+
 
 ## Source
 

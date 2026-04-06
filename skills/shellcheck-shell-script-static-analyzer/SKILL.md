@@ -1,8 +1,10 @@
 ---
-name: "ShellCheck Shell Script Static Analyzer"
-description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
+name: ShellCheck Shell Script Static Analyzer
+description: Run static analysis on bash and shell scripts using ShellCheck to detect
+  syntax errors, semantic pitfalls, and portability issues. Produces machine-readable
+  diagnostics with fix suggestions.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/koalaman/shellcheck"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill shellcheck-shell-script-static-
 clawhub install shellcheck-shell-script-static-analyzer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/shellcheck-shell-script-static-analyzer/)
+- [GitHub](https://github.com/koalaman/shellcheck)

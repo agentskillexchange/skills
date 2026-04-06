@@ -1,14 +1,16 @@
 ---
-name: "Changesets Version and Changelog Manager"
-description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Changesets Version and Changelog Manager
+description: Use Changesets to manage package versioning and changelogs in monorepos
+  and single-package repositories. Automates semver bumps, changelog generation, and
+  npm publishing with a PR-based workflow.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/changesets/changesets"
 tool_ecosystem:
   github_repo: "https://github.com/changesets/changesets"
   github_stars: 11620
-  npm_package: "@changesets/cli"
+  npm_package: '@changesets/cli'
 ---
 # Changesets Version and Changelog Manager
 
@@ -62,6 +64,7 @@ npx skills add agentskillexchange/skills --skill changesets-version-changelog-ma
 clawhub install changesets-version-changelog-manager
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/changesets-version-changelog-manager/)
+- [GitHub](https://github.com/changesets/changesets)

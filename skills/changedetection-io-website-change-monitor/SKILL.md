@@ -1,8 +1,11 @@
 ---
-name: "changedetection.io Self-Hosted Website Change Monitoring Platform"
-description: "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels."
+name: changedetection.io Self-Hosted Website Change Monitoring Platform
+description: changedetection.io is an open-source, self-hosted tool for monitoring
+  websites for content changes, price drops, restock alerts, and defacement detection.
+  It supports visual selectors, browser automation via Playwright, and delivers notifications
+  through Discord, Slack, Telegram, email, webhooks, and dozens more channels.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/dgtlmoon/changedetection.io"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill changedetection-io-website-chan
 clawhub install changedetection-io-website-change-monitor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/)
+- [GitHub](https://github.com/dgtlmoon/changedetection.io)

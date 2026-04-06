@@ -1,8 +1,10 @@
 ---
-name: "MDN Web Docs Fetcher"
-description: "Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups."
+name: MDN Web Docs Fetcher
+description: Queries the MDN Web Docs content API (Yari) and the MDN search index
+  to retrieve browser compatibility data, Web API references, and CSS property documentation.
+  Uses BCD (browser-compat-data) npm package for offline lookups.
 category: "Library &amp; API Reference"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill mdn-web-docs-fetcher -a codex
 ```bash
 clawhub install mdn-web-docs-fetcher
 ```
+
 
 ## Source
 

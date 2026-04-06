@@ -1,8 +1,10 @@
 ---
-name: "Zellij Terminal Workspace and Multiplexer"
-description: "Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a built-in web client. A modern replacement for tmux and screen."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Zellij Terminal Workspace and Multiplexer
+description: Zellij is a Rust-powered terminal workspace and multiplexer with floating
+  panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a
+  built-in web client. A modern replacement for tmux and screen.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/zellij-org/zellij"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill zellij-terminal-workspace-multi
 clawhub install zellij-terminal-workspace-multiplexer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/zellij-terminal-workspace-multiplexer/)
+- [GitHub](https://github.com/zellij-org/zellij)

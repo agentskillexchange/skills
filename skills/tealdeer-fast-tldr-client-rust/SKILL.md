@@ -1,14 +1,16 @@
 ---
-name: "Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages"
-description: "Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for command-line tools. It provides quick reference with syntax highlighting, offline caching, and configurable output."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages
+description: Tealdeer is a very fast Rust implementation of the tldr project — simplified,
+  example-based man pages for command-line tools. It provides quick reference with
+  syntax highlighting, offline caching, and configurable output.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/tealdeer-rs/tealdeer"
 tool_ecosystem:
   github_repo: "https://github.com/tealdeer-rs/tealdeer"
   github_stars: 6104
-  license: "MIT/Apache-2.0"
+  license: MIT/Apache-2.0
 ---
 # Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages
 
@@ -70,6 +72,7 @@ npx skills add agentskillexchange/skills --skill tealdeer-fast-tldr-client-rust 
 clawhub install tealdeer-fast-tldr-client-rust
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tealdeer-fast-tldr-client-rust/)
+- [GitHub](https://github.com/tealdeer-rs/tealdeer)

@@ -1,8 +1,11 @@
 ---
-name: "Internal Link Graph Optimizer"
-description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
+name: Internal Link Graph Optimizer
+description: Analyzes internal linking structure by crawling sitemaps with Screaming
+  Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms,
+  and identifying orphan pages. Recommends contextual link insertions using BM25 text
+  matching against existing content inventory.
 category: "Content Writing &amp; SEO"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 ---
@@ -47,6 +50,7 @@ npx skills add agentskillexchange/skills --skill internal-link-graph-optimizer -
 ```bash
 clawhub install internal-link-graph-optimizer
 ```
+
 
 ## Source
 

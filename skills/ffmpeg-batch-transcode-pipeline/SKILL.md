@@ -1,8 +1,11 @@
 ---
-name: "FFmpeg Batch Transcode Pipeline"
-description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output."
+name: FFmpeg Batch Transcode Pipeline
+description: Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated
+  encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging
+  using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH
+  output.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
 ---
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-batch-transcode-pipeline
 ```bash
 clawhub install ffmpeg-batch-transcode-pipeline
 ```
+
 
 ## Source
 

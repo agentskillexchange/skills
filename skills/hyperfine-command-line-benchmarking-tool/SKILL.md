@@ -1,8 +1,10 @@
 ---
-name: "Hyperfine Command-Line Benchmarking Tool"
-description: "Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Hyperfine Command-Line Benchmarking Tool
+description: Benchmark command-line programs with statistical rigor using Hyperfine.
+  Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and
+  supports parameterized benchmarks for comparison.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/sharkdp/hyperfine"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill hyperfine-command-line-benchmar
 clawhub install hyperfine-command-line-benchmarking-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/hyperfine-command-line-benchmarking-tool/)
+- [GitHub](https://github.com/sharkdp/hyperfine)

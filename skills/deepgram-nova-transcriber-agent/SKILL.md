@@ -1,8 +1,10 @@
 ---
-name: "Deepgram Nova Transcriber"
-description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
+name: Deepgram Nova Transcriber
+description: Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation,
+  and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded
+  endpoint and callback URLs.
 category: "Media &amp; Transcription"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill deepgram-nova-transcriber-agent
 ```bash
 clawhub install deepgram-nova-transcriber-agent
 ```
+
 
 ## Source
 

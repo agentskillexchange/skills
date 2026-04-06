@@ -1,8 +1,10 @@
 ---
-name: "Devbox Instant Nix-Powered Development Environment Manager by Jetify"
-description: "Devbox by Jetify creates instant, isolated development environments using Nix packages. Define project dependencies in a devbox.json file, and every developer gets identical toolchains without containerization overhead or system pollution."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Devbox Instant Nix-Powered Development Environment Manager by Jetify
+description: Devbox by Jetify creates instant, isolated development environments using
+  Nix packages. Define project dependencies in a devbox.json file, and every developer
+  gets identical toolchains without containerization overhead or system pollution.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/jetify-com/devbox"
 tool_ecosystem:
@@ -75,6 +77,7 @@ npx skills add agentskillexchange/skills --skill devbox-nix-development-environm
 clawhub install devbox-nix-development-environment-jetify
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/devbox-nix-development-environment-jetify/)
+- [GitHub](https://github.com/jetify-com/devbox)

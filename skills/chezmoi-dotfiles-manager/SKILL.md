@@ -1,8 +1,11 @@
 ---
-name: "chezmoi Cross-Machine Dotfiles Manager"
-description: "chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates, encryption, and cross-platform support. Written in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and one-command bootstrap."
-category: "Developer Tools"
-framework: "OpenClaw"
+name: chezmoi Cross-Machine Dotfiles Manager
+description: chezmoi manages dotfiles across multiple machines securely using a Git-backed
+  source-of-truth model with templates, encryption, and cross-platform support. Written
+  in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and
+  one-command bootstrap.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/twpayne/chezmoi"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill chezmoi-dotfiles-manager -a cod
 clawhub install chezmoi-dotfiles-manager
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chezmoi-dotfiles-manager/)
+- [GitHub](https://github.com/twpayne/chezmoi)

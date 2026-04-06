@@ -1,8 +1,10 @@
 ---
-name: "Penpot Open-Source Design Collaboration Platform"
-description: "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model."
+name: Penpot Open-Source Design Collaboration Platform
+description: Penpot is an open-source design and prototyping platform built for design
+  and code collaboration. This skill helps agents anchor UI, prototype, and handoff
+  tasks to Penpot’s real workspace, self-hosting, and collaboration model.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/penpot/penpot"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill penpot-open-source-design-colla
 clawhub install penpot-open-source-design-collaboration-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/penpot-open-source-design-collaboration-platform/)
+- [GitHub](https://github.com/penpot/penpot)

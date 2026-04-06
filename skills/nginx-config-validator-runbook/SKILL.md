@@ -1,8 +1,10 @@
 ---
-name: "Nginx Config Validator Runbook"
-description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
+name: Nginx Config Validator Runbook
+description: Validates Nginx configurations using nginx -t syntax checking, the crossplane
+  Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations,
+  SSL issues, and security vulnerabilities.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-config-validator-runbook/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill nginx-config-validator-runbook 
 ```bash
 clawhub install nginx-config-validator-runbook
 ```
+
 
 ## Source
 

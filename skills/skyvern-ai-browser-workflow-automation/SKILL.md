@@ -1,14 +1,17 @@
 ---
-name: "Skyvern AI Browser Workflow Automation with LLMs and Computer Vision"
-description: "Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that interacts with websites visually rather than via DOM selectors, making automations resistant to layout changes and capable of operating on never-before-seen websites."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
+description: Skyvern automates browser-based workflows using LLMs and computer vision.
+  It provides a Playwright-compatible SDK that interacts with websites visually rather
+  than via DOM selectors, making automations resistant to layout changes and capable
+  of operating on never-before-seen websites.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Skyvern-AI/skyvern"
 tool_ecosystem:
   github_repo: "https://github.com/skyvern-ai/skyvern"
   github_stars: 20997
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
 
@@ -79,6 +82,7 @@ npx skills add agentskillexchange/skills --skill skyvern-ai-browser-workflow-aut
 clawhub install skyvern-ai-browser-workflow-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/skyvern-ai-browser-workflow-automation/)
+- [GitHub](https://github.com/Skyvern-AI/skyvern)

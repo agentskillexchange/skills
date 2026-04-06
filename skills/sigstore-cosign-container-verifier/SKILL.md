@@ -1,8 +1,10 @@
 ---
-name: "Sigstore Cosign Container Verifier"
-description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
+name: Sigstore Cosign Container Verifier
+description: Verifies container image signatures and provenance using Sigstore Cosign
+  and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission
+  rules.
 category: "Security &amp; Verification"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill sigstore-cosign-container-verif
 ```bash
 clawhub install sigstore-cosign-container-verifier
 ```
+
 
 ## Source
 

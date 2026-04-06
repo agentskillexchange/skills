@@ -1,8 +1,10 @@
 ---
-name: "Stable Diffusion XL Pipeline"
-description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
+name: Stable Diffusion XL Pipeline
+description: Orchestrates SDXL image generation via the Stability AI REST API with
+  ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement
+  using CLIP interrogation.
 category: "Image &amp; Creative Automation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline -a
 ```bash
 clawhub install stable-diffusion-xl-pipeline
 ```
+
 
 ## Source
 

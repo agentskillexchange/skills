@@ -1,8 +1,11 @@
 ---
-name: "mkcert Zero-Config Local Development TLS Certificate Generator"
-description: "mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates. It automatically installs a local CA in the system root store and generates TLS certificates for localhost, custom domains, and IP addresses without manual PKI management."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: mkcert Zero-Config Local Development TLS Certificate Generator
+description: mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates
+  locally-trusted development certificates. It automatically installs a local CA in
+  the system root store and generates TLS certificates for localhost, custom domains,
+  and IP addresses without manual PKI management.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/FiloSottile/mkcert"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill mkcert-local-dev-tls-certificat
 clawhub install mkcert-local-dev-tls-certificate-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mkcert-local-dev-tls-certificate-generator/)
+- [GitHub](https://github.com/FiloSottile/mkcert)

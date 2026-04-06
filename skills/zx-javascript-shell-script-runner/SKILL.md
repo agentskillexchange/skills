@@ -1,14 +1,16 @@
 ---
-name: "zx JavaScript Shell Script Runner"
-description: "Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
-category: "Developer Tools"
-framework: "Claude Code"
+name: zx JavaScript Shell Script Runner
+description: Write better shell scripts in JavaScript using Google’s zx. Provides
+  cross-platform wrappers around child_process with argument escaping, sensible defaults,
+  and access to the full npm ecosystem for automation tasks.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/google/zx"
 tool_ecosystem:
   github_repo: "https://github.com/google/zx"
   github_stars: 45324
-  npm_package: "zx"
+  npm_package: zx
   npm_weekly_downloads: 1590527
 ---
 # zx JavaScript Shell Script Runner
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill zx-javascript-shell-script-runn
 clawhub install zx-javascript-shell-script-runner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/)
+- [GitHub](https://github.com/google/zx)

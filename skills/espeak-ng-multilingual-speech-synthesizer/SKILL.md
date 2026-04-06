@@ -1,8 +1,11 @@
 ---
-name: "eSpeak NG Multilingual Speech Synthesizer"
-description: "An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness."
+name: eSpeak NG Multilingual Speech Synthesizer
+description: An agent skill built on eSpeak NG, the open-source formant-based speech
+  synthesizer supporting over 100 languages and accents. Provides fast, lightweight
+  text-to-speech synthesis via CLI and library API, with phoneme output, SSML support,
+  and MBROLA voice integration for improved naturalness.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/espeak-ng/espeak-ng"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill espeak-ng-multilingual-speech-s
 clawhub install espeak-ng-multilingual-speech-synthesizer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/espeak-ng-multilingual-speech-synthesizer/)
+- [GitHub](https://github.com/espeak-ng/espeak-ng)

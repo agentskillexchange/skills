@@ -1,8 +1,11 @@
 ---
-name: "Coolify Self-Hosted App Platform and Deployment Automation Skill"
-description: "Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill covers installing Coolify, connecting infrastructure over SSH, and using it as an operational control plane for repeatable app delivery workflows."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Coolify Self-Hosted App Platform and Deployment Automation Skill
+description: Coolify is an open source self-hosted deployment platform for applications,
+  databases, and services. This skill covers installing Coolify, connecting infrastructure
+  over SSH, and using it as an operational control plane for repeatable app delivery
+  workflows.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/coollabsio/coolify"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill coolify-self-hosted-app-platfor
 clawhub install coolify-self-hosted-app-platform-deployment-automation-skill
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/coolify-self-hosted-app-platform-deployment-automation-skill/)
+- [GitHub](https://github.com/coollabsio/coolify)

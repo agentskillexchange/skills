@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions Workflow Linter"
-description: "Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions before CI runs."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: GitHub Actions Workflow Linter
+description: Validates GitHub Actions YAML workflows using actionlint and the GitHub
+  Actions REST API. Detects invalid step references, missing secrets declarations,
+  and deprecated action versions before CI runs.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill github-actions-workflow-linter-
 ```bash
 clawhub install github-actions-workflow-linter-2
 ```
+
 
 ## Source
 

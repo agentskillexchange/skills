@@ -1,8 +1,11 @@
 ---
-name: "Stagehand AI Browser Automation Framework by Browserbase"
-description: "Stagehand is Browserbase’s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Stagehand AI Browser Automation Framework by Browserbase
+description: Stagehand is Browserbase’s open source browser automation framework that
+  blends natural-language actions with code-level control. It helps agents and developers
+  build more reliable web workflows on top of Playwright-compatible browser sessions,
+  extraction, and repeatable action caching.
+category: Browser Automation
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/browserbase/stagehand"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill stagehand-ai-browser-automation
 clawhub install stagehand-ai-browser-automation-framework-browserbase
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/stagehand-ai-browser-automation-framework-browserbase/)
+- [GitHub](https://github.com/browserbase/stagehand)

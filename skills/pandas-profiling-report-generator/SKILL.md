@@ -1,8 +1,10 @@
 ---
-name: "Pandas Profiling Report Generator"
-description: "Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries."
+name: Pandas Profiling Report Generator
+description: Generates comprehensive data quality reports using ydata-profiling (formerly
+  pandas-profiling) with correlation analysis, missing value patterns, and cardinality
+  detection. Exports interactive HTML dashboards and JSON summaries.
 category: "Data Extraction &amp; Transformation"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill pandas-profiling-report-generat
 ```bash
 clawhub install pandas-profiling-report-generator
 ```
+
 
 ## Source
 

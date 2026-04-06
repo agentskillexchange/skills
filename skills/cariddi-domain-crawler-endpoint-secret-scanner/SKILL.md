@@ -1,8 +1,11 @@
 ---
-name: "Cariddi Domain Crawler and Endpoint Secret Scanner"
-description: "Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints, secrets, API keys, file extensions, tokens, and errors. It supports configurable concurrency, depth limits, proxy routing, and multiple output formats."
+name: Cariddi Domain Crawler and Endpoint Secret Scanner
+description: Cariddi is a Go-based security tool that takes a list of domains, crawls
+  their URLs, and scans for endpoints, secrets, API keys, file extensions, tokens,
+  and errors. It supports configurable concurrency, depth limits, proxy routing, and
+  multiple output formats.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/edoardottt/cariddi"
 ---
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill cariddi-domain-crawler-endpoint
 clawhub install cariddi-domain-crawler-endpoint-secret-scanner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cariddi-domain-crawler-endpoint-secret-scanner/)
+- [GitHub](https://github.com/edoardottt/cariddi)

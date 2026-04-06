@@ -1,8 +1,11 @@
 ---
-name: "n8n-nodes-mcp Community Node for Model Context Protocol Workflows"
-description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package, configuring MCP transports inside n8n, and using the node in automation workflows that need external tools and structured context exchange."
+name: n8n-nodes-mcp Community Node for Model Context Protocol Workflows
+description: n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n
+  instances connect to Model Context Protocol servers. This skill covers installing
+  the package, configuring MCP transports inside n8n, and using the node in automation
+  workflows that need external tools and structured context exchange.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: listed
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill n8n-nodes-mcp-community-node-mo
 clawhub install n8n-nodes-mcp-community-node-model-context-protocol-workflows
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/)
+- [GitHub](https://github.com/nerding-io/n8n-nodes-mcp)

@@ -1,8 +1,11 @@
 ---
-name: "Spleeter AI Audio Source Separation by Deezer"
-description: "Spleeter is Deezer’s open-source audio source separation library with pretrained models. It can split audio into 2, 4, or 5 stems (vocals, drums, bass, piano, accompaniment) and runs 100x faster than real-time on GPU, making it ideal for music production, remix, and audio analysis workflows."
+name: Spleeter AI Audio Source Separation by Deezer
+description: Spleeter is Deezer’s open-source audio source separation library with
+  pretrained models. It can split audio into 2, 4, or 5 stems (vocals, drums, bass,
+  piano, accompaniment) and runs 100x faster than real-time on GPU, making it ideal
+  for music production, remix, and audio analysis workflows.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/deezer/spleeter"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill spleeter-ai-audio-source-separa
 clawhub install spleeter-ai-audio-source-separation-deezer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/spleeter-ai-audio-source-separation-deezer/)
+- [GitHub](https://github.com/deezer/spleeter)

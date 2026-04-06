@@ -1,8 +1,10 @@
 ---
-name: "ESLint Auto-Fix Pipeline"
-description: "Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues."
+name: ESLint Auto-Fix Pipeline
+description: Runs ESLint with the –fix flag across JavaScript and TypeScript codebases,
+  applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended.
+  Generates diff reports for manual review of remaining issues.
 category: "Code Quality &amp; Review"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill eslint-autofix-pipeline -a code
 ```bash
 clawhub install eslint-autofix-pipeline
 ```
+
 
 ## Source
 

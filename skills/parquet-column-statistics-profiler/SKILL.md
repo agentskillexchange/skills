@@ -1,8 +1,10 @@
 ---
-name: "Parquet Column Statistics Profiler"
-description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
+name: Parquet Column Statistics Profiler
+description: Profiles Apache Parquet files using pyarrow metadata APIs to extract
+  column statistics, row group distributions, and encoding efficiency metrics without
+  reading full datasets.
 category: "Data Extraction &amp; Transformation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-column-statistics-profiler/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill parquet-column-statistics-profi
 ```bash
 clawhub install parquet-column-statistics-profiler
 ```
+
 
 ## Source
 

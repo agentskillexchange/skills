@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Rule Builder"
-description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
+name: Prometheus Alert Rule Builder
+description: Creates and validates Prometheus alerting rules using PromQL expressions
+  and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty,
+  Slack, and OpsGenie receiver integrations.
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-builder -
 ```bash
 clawhub install prometheus-alert-rule-builder
 ```
+
 
 ## Source
 

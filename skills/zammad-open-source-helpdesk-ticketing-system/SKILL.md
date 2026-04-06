@@ -1,8 +1,11 @@
 ---
-name: "Zammad Open Source Web-Based Helpdesk and Ticketing System"
-description: "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation."
+name: Zammad Open Source Web-Based Helpdesk and Ticketing System
+description: Zammad is a self-hosted, open-source helpdesk and customer support system
+  with email, chat, phone, Twitter, and Telegram channel integration. It provides
+  a REST and GraphQL API for ticket management, user administration, and workflow
+  automation.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/zammad/zammad"
 ---
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill zammad-open-source-helpdesk-tic
 clawhub install zammad-open-source-helpdesk-ticketing-system
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/zammad-open-source-helpdesk-ticketing-system/)
+- [GitHub](https://github.com/zammad/zammad)

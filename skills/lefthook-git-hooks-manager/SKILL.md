@@ -1,14 +1,16 @@
 ---
-name: "Lefthook Git Hooks Manager"
-description: "Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with Node.js, Ruby, Python, and any other project type through a simple YAML configuration."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Lefthook Git Hooks Manager
+description: Lefthook is a fast, dependency-free Git hooks manager written in Go that
+  runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with
+  Node.js, Ruby, Python, and any other project type through a simple YAML configuration.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/evilmartians/lefthook"
 tool_ecosystem:
   github_repo: "https://github.com/evilmartians/lefthook"
   github_stars: 7894
-  npm_package: "lefthook"
+  npm_package: lefthook
   npm_weekly_downloads: 1544173
 ---
 # Lefthook Git Hooks Manager
@@ -57,6 +59,7 @@ npx skills add agentskillexchange/skills --skill lefthook-git-hooks-manager -a c
 clawhub install lefthook-git-hooks-manager
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lefthook-git-hooks-manager/)
+- [GitHub](https://github.com/evilmartians/lefthook)

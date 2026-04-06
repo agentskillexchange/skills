@@ -1,8 +1,11 @@
 ---
-name: "Composio Agent Tool Integration Platform"
-description: "Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution to connect AI agents to external apps like Gmail, Slack, GitHub, and Notion. Available as Python and TypeScript SDKs with support for major agent frameworks."
+name: Composio Agent Tool Integration Platform
+description: Composio provides 1000+ pre-built toolkits with managed authentication,
+  context management, and sandboxed execution to connect AI agents to external apps
+  like Gmail, Slack, GitHub, and Notion. Available as Python and TypeScript SDKs with
+  support for major agent frameworks.
 category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/ComposioHQ/composio"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill composio-agent-tool-integration
 clawhub install composio-agent-tool-integration-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/composio-agent-tool-integration-platform/)
+- [GitHub](https://github.com/ComposioHQ/composio)

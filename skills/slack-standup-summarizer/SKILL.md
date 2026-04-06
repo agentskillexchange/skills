@@ -1,8 +1,10 @@
 ---
-name: "Slack Standup Summarizer"
-description: "Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers highlighted. Posts formatted digests via Incoming Webhooks."
+name: Slack Standup Summarizer
+description: Collects daily standup updates from Slack channels using the Web API
+  and generates team summaries with blockers highlighted. Posts formatted digests
+  via Incoming Webhooks.
 category: "Calendar, Email &amp; Productivity"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-standup-summarizer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill slack-standup-summarizer -a cod
 ```bash
 clawhub install slack-standup-summarizer
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Apify Actor Runner"
-description: "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications."
+name: Apify Actor Runner
+description: Executes Apify cloud actors for structured web scraping with automatic
+  dataset export to S3. Supports actor input schema validation and webhook-based run
+  completion notifications.
 category: "Research &amp; Scraping"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-runner/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill apify-actor-runner -a codex
 ```bash
 clawhub install apify-actor-runner
 ```
+
 
 ## Source
 

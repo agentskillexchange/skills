@@ -1,8 +1,10 @@
 ---
-name: "Meilisearch MCP Server for AI-Powered Search Integration"
-description: "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation."
-category: "Developer Tools"
-framework: "MCP"
+name: Meilisearch MCP Server for AI-Powered Search Integration
+description: Official Model Context Protocol server that connects LLMs to Meilisearch
+  for lightning-fast search, index management, and document operations via natural
+  language. Enables AI agents to manage search infrastructure through conversation.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/meilisearch/meilisearch-mcp"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill meilisearch-mcp-server-ai-searc
 clawhub install meilisearch-mcp-server-ai-search
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/meilisearch-mcp-server-ai-search/)
+- [GitHub](https://github.com/meilisearch/meilisearch-mcp)

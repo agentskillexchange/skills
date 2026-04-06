@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Lint Agent"
-description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: Jenkins Pipeline Lint Agent
+description: Validates Jenkinsfile declarative and scripted pipelines using the Jenkins
+  Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns,
+  and Groovy sandbox violations.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-lint-agent -a 
 ```bash
 clawhub install jenkins-pipeline-lint-agent
 ```
+
 
 ## Source
 

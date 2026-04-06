@@ -1,14 +1,19 @@
 ---
-name: "Notion MCP Server"
-description: "Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational […]"
+name: Notion MCP Server
+description: "Notion MCP Server is built around Notion workspace and database platform.\
+  \ The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like pages, databases.query,\
+  \ blocks.children, properties, relations, pagination and preserving the operational\
+  \ […]"
 category: "Calendar, Email &amp; Productivity"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 tool_ecosystem:
   github_repo: "https://github.com/makenotion/notion-sdk-js"
   github_stars: 5574
-  npm_package: "@notionhq/client"
+  npm_package: '@notionhq/client'
 ---
 # Notion MCP Server
 
@@ -60,6 +65,7 @@ npx skills add agentskillexchange/skills --skill notion-mcp-server -a codex
 clawhub install notion-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/notion-mcp-server/)
+- [GitHub](https://github.com/makenotion/notion-sdk-js)

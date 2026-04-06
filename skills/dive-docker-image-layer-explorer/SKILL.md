@@ -1,8 +1,10 @@
 ---
-name: "Dive Docker Image Layer Explorer and Size Optimizer"
-description: "Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It helps developers optimize container image sizes by visualizing exactly what each layer adds, modifies, or removes."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Dive Docker Image Layer Explorer and Size Optimizer
+description: Dive is a CLI tool for exploring Docker image layers, analyzing file
+  system changes, and estimating wasted space. It helps developers optimize container
+  image sizes by visualizing exactly what each layer adds, modifies, or removes.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/wagoodman/dive"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill dive-docker-image-layer-explore
 clawhub install dive-docker-image-layer-explorer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dive-docker-image-layer-explorer/)
+- [GitHub](https://github.com/wagoodman/dive)

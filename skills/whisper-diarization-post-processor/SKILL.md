@@ -1,8 +1,11 @@
 ---
-name: "Whisper Diarization Post-Processor"
-description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
+name: Whisper Diarization Post-Processor
+description: Enhances OpenAI Whisper transcription output with speaker diarization
+  using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps
+  from whisper-timestamped with speaker segments for multi-speaker meeting transcript
+  generation.
 category: "Media &amp; Transcription"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
 ---
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill whisper-diarization-post-proces
 ```bash
 clawhub install whisper-diarization-post-processor
 ```
+
 
 ## Source
 

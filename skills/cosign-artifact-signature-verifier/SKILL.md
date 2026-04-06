@@ -1,8 +1,10 @@
 ---
-name: "Cosign Artifact Signature Verifier"
-description: "Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego."
+name: Cosign Artifact Signature Verifier
+description: Validates container image and artifact signatures using Sigstore Cosign
+  with keyless verification via Fulcio and Rekor transparency logs. Enforces supply
+  chain integrity policies with OPA/Rego.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cosign-artifact-signature-verif
 ```bash
 clawhub install cosign-artifact-signature-verifier
 ```
+
 
 ## Source
 

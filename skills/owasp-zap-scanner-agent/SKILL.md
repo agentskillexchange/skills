@@ -1,8 +1,10 @@
 ---
-name: "OWASP ZAP Scanner Agent"
-description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
+name: OWASP ZAP Scanner Agent
+description: Integrates the OWASP ZAP API to run automated DAST scans against web
+  applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates
+  remediation tickets via Jira REST API.
 category: "Security &amp; Verification"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill owasp-zap-scanner-agent -a code
 ```bash
 clawhub install owasp-zap-scanner-agent
 ```
+
 
 ## Source
 

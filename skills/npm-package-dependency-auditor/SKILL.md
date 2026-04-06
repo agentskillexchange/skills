@@ -1,8 +1,10 @@
 ---
-name: "NPM Package Dependency Auditor"
-description: "Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies."
+name: NPM Package Dependency Auditor
+description: Deep-audits npm package dependency trees using the npm Registry API and
+  Socket.dev security intelligence. Identifies supply chain risks, typosquatting,
+  and license incompatibilities across transitive dependencies.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill npm-package-dependency-auditor 
 ```bash
 clawhub install npm-package-dependency-auditor
 ```
+
 
 ## Source
 

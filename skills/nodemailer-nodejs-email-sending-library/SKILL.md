@@ -1,8 +1,11 @@
 ---
-name: "Nodemailer Node.js Email Sending Library with SMTP and Transport Support"
-description: "Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly npm downloads. It supports SMTP, OAuth2, HTML content, attachments, embedded images, and custom transports for services like SES and SendGrid."
+name: Nodemailer Node.js Email Sending Library with SMTP and Transport Support
+description: Nodemailer is the most widely used Node.js library for sending emails,
+  with 17k+ GitHub stars and 7 million weekly npm downloads. It supports SMTP, OAuth2,
+  HTML content, attachments, embedded images, and custom transports for services like
+  SES and SendGrid.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/nodemailer/nodemailer"
 ---
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill nodemailer-nodejs-email-sending
 clawhub install nodemailer-nodejs-email-sending-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nodemailer-nodejs-email-sending-library/)
+- [GitHub](https://github.com/nodemailer/nodemailer)

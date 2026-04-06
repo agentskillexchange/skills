@@ -1,14 +1,17 @@
 ---
-name: "Bubble Tea Go TUI Framework by Charmbracelet"
-description: "Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window, and mixed TUI applications with a high-performance cell-based renderer and declarative views."
+name: Bubble Tea Go TUI Framework by Charmbracelet
+description: Bubble Tea is a powerful Go framework for building terminal user interfaces
+  based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window,
+  and mixed TUI applications with a high-performance cell-based renderer and declarative
+  views.
 category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/charmbracelet/bubbletea"
 tool_ecosystem:
   github_repo: "https://github.com/charmbracelet/bubbletea"
   github_stars: 41168
-  license: "MIT"
+  license: MIT
 ---
 # Bubble Tea Go TUI Framework by Charmbracelet
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill bubble-tea-go-tui-framework -a 
 clawhub install bubble-tea-go-tui-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/bubble-tea-go-tui-framework/)
+- [GitHub](https://github.com/charmbracelet/bubbletea)

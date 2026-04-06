@@ -1,8 +1,10 @@
 ---
-name: "PHPStan Static Analyzer Agent"
-description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in WordPress and Laravel projects."
+name: PHPStan Static Analyzer Agent
+description: Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with
+  custom extensions. Detects type errors, dead code, and PHPDoc inconsistencies in
+  WordPress and Laravel projects.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill phpstan-static-analyzer-agent -
 ```bash
 clawhub install phpstan-static-analyzer-agent
 ```
+
 
 ## Source
 

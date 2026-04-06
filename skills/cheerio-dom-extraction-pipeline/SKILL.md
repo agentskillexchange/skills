@@ -1,8 +1,10 @@
 ---
-name: "Cheerio DOM Extraction Pipeline"
-description: "Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv."
+name: Cheerio DOM Extraction Pipeline
+description: Builds configurable data extraction pipelines using Cheerio for server-side
+  DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination
+  following, and schema validation via Ajv.
 category: "Data Extraction &amp; Transformation"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill cheerio-dom-extraction-pipeline
 ```bash
 clawhub install cheerio-dom-extraction-pipeline
 ```
+
 
 ## Source
 

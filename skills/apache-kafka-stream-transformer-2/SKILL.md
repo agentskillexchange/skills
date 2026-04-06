@@ -1,8 +1,10 @@
 ---
-name: "Apache Kafka Stream Transformer"
-description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
+name: Apache Kafka Stream Transformer
+description: Processes real-time event streams using KafkaJS consumer groups and transforms
+  messages with configurable schemas. Handles partition rebalancing, offset commits,
+  and dead-letter queue routing for failed transformations.
 category: "Data Extraction &amp; Transformation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill apache-kafka-stream-transformer
 ```bash
 clawhub install apache-kafka-stream-transformer-2
 ```
+
 
 ## Source
 

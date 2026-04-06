@@ -1,8 +1,10 @@
 ---
-name: "Grafana Loki Log Correlation Agent"
-description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
+name: Grafana Loki Log Correlation Agent
+description: Queries Grafana Loki via the LogQL API to correlate log streams across
+  services. Builds cross-service trace-to-log mappings using Tempo integration and
+  generates alert rule suggestions.
 category: "Monitoring &amp; Alerts"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill grafana-loki-log-correlation-ag
 ```bash
 clawhub install grafana-loki-log-correlation-agent-2
 ```
+
 
 ## Source
 

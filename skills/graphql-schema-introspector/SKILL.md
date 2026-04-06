@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Introspector"
-description: "Performs GraphQL schema introspection using the graphql-js reference implementation and Apollo Client devtools protocol. Generates type documentation, query complexity analysis, and schema diff reports between API versions."
+name: GraphQL Schema Introspector
+description: Performs GraphQL schema introspection using the graphql-js reference
+  implementation and Apollo Client devtools protocol. Generates type documentation,
+  query complexity analysis, and schema diff reports between API versions.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-introspector/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspector -a 
 ```bash
 clawhub install graphql-schema-introspector
 ```
+
 
 ## Source
 

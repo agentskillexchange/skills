@@ -1,8 +1,10 @@
 ---
-name: "WXT Next-Generation Web Extension Framework for Browser Extensions"
-description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: WXT Next-Generation Web Extension Framework for Browser Extensions
+description: WXT is an open-source, next-generation framework for building browser
+  extensions. It supports all browsers, both Manifest V2 and V3, and provides dev
+  mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/wxt-dev/wxt"
 tool_ecosystem:
@@ -71,6 +73,7 @@ npx skills add agentskillexchange/skills --skill wxt-next-gen-web-extension-fram
 clawhub install wxt-next-gen-web-extension-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wxt-next-gen-web-extension-framework/)
+- [GitHub](https://github.com/wxt-dev/wxt)

@@ -1,8 +1,11 @@
 ---
-name: "Upstash MCP Server for Redis and QStash Management"
-description: "An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector stores through natural language. Supports database creation, key operations, backups, and throughput analytics via the Model Context Protocol."
+name: Upstash MCP Server for Redis and QStash Management
+description: An official MCP server from Upstash that lets AI agents manage Redis
+  databases, QStash message queues, and Vector stores through natural language. Supports
+  database creation, key operations, backups, and throughput analytics via the Model
+  Context Protocol.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/upstash/mcp-server"
 tool_ecosystem:
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill upstash-mcp-server-redis-qstash
 clawhub install upstash-mcp-server-redis-qstash-management
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/upstash-mcp-server-redis-qstash-management/)
+- [GitHub](https://github.com/upstash/mcp-server)

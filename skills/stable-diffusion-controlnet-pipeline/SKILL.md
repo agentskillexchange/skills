@@ -1,8 +1,10 @@
 ---
-name: "Stable Diffusion ControlNet Pipeline"
-description: "Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement."
+name: Stable Diffusion ControlNet Pipeline
+description: Automates image generation workflows using Stability AI ControlNet API
+  with depth maps, edge detection, and pose estimation. Integrates with Hugging Face
+  diffusers library for model management and CLIP interrogator for prompt refinement.
 category: "Image &amp; Creative Automation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-pip
 ```bash
 clawhub install stable-diffusion-controlnet-pipeline
 ```
+
 
 ## Source
 

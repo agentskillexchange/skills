@@ -1,8 +1,10 @@
 ---
-name: "OWASP ZAP API Security Tester"
-description: "Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with detailed remediation steps."
+name: OWASP ZAP API Security Tester
+description: Runs automated DAST scans against REST and GraphQL APIs using OWASP ZAP
+  daemon API. Detects injection flaws, broken auth, and CORS misconfigurations with
+  detailed remediation steps.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-security-tester -
 ```bash
 clawhub install owasp-zap-api-security-tester
 ```
+
 
 ## Source
 

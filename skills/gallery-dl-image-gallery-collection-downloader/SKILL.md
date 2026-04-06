@@ -1,8 +1,11 @@
 ---
-name: "gallery-dl Image Gallery and Collection Downloader"
-description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates."
+name: gallery-dl Image Gallery and Collection Downloader
+description: gallery-dl is a command-line tool for downloading image galleries and
+  collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit,
+  Instagram, and Danbooru. It supports authentication, metadata extraction, filtering,
+  and configurable output templates.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mikf/gallery-dl"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill gallery-dl-image-gallery-collec
 clawhub install gallery-dl-image-gallery-collection-downloader
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/)
+- [GitHub](https://github.com/mikf/gallery-dl)

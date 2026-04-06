@@ -1,8 +1,10 @@
 ---
-name: "Kubernetes CrashLoop Diagnoser"
-description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors."
+name: Kubernetes CrashLoop Diagnoser
+description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API\
+  \ /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes\
+  \ with OOM kills, readiness probe failures, and config errors."
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloop-diagnoser-
 ```bash
 clawhub install kubernetes-crashloop-diagnoser-agent
 ```
+
 
 ## Source
 

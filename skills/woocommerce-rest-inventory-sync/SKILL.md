@@ -1,8 +1,11 @@
 ---
-name: "WooCommerce REST Inventory Sync"
-description: "Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint."
+name: WooCommerce REST Inventory Sync
+description: Synchronizes WooCommerce product inventory across multiple channels using
+  the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation,
+  low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch
+  endpoint.
 category: "WordPress &amp; CMS"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/woocommerce/woocommerce"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill woocommerce-rest-inventory-sync
 clawhub install woocommerce-rest-inventory-sync
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/woocommerce-rest-inventory-sync/)
+- [GitHub](https://github.com/woocommerce/woocommerce)

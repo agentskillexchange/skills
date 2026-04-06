@@ -1,8 +1,10 @@
 ---
-name: "RunwayML Gen-3 Alpha Video Composer"
-description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg."
+name: RunwayML Gen-3 Alpha Video Composer
+description: Composes AI-generated video clips using the RunwayML Gen-3 Alpha API
+  with text-to-video and image-to-video modes. Manages generation tasks, polling,
+  and output stitching via FFmpeg.
 category: "Image &amp; Creative Automation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill runwayml-gen-3-alpha-video-comp
 clawhub install runwayml-gen-3-alpha-video-composer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/runwayml-gen-3-alpha-video-composer/)
+- [GitHub](https://github.com/FFmpeg/FFmpeg)

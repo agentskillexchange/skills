@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Sync Troubleshooter"
-description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
+name: ArgoCD Sync Troubleshooter
+description: Diagnoses ArgoCD application sync failures using the ArgoCD REST API
+  and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize
+  overlay errors, and resource health check failures.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill argocd-sync-troubleshooter -a c
 ```bash
 clawhub install argocd-sync-troubleshooter
 ```
+
 
 ## Source
 

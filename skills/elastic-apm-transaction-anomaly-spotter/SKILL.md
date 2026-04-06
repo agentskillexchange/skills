@@ -1,8 +1,10 @@
 ---
-name: "Elastic APM Transaction Anomaly Spotter"
-description: "Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines."
+name: Elastic APM Transaction Anomaly Spotter
+description: Queries Elastic APM transaction data through the Elasticsearch REST API
+  to surface latency anomalies and throughput drops. Uses the _search aggregation
+  API with percentile and moving_avg pipelines.
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/elastic/apm-server"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill elastic-apm-transaction-anomaly
 clawhub install elastic-apm-transaction-anomaly-spotter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/elastic-apm-transaction-anomaly-spotter/)
+- [GitHub](https://github.com/elastic/apm-server)

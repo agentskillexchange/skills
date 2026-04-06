@@ -1,8 +1,12 @@
 ---
-name: "Queue Backup Runbook"
-description: "Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]"
+name: Queue Backup Runbook
+description: "Queue Backup Runbook is built around Apache Kafka event streaming platform.\
+  \ The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars).\
+  \ It gives an agent a more technical and reliable way to work with the tool than\
+  \ a thin one-line wrapper, using stable interfaces like topics, partitions, consumer\
+  \ groups, offsets, producers, admin APIs and preserving […]"
 category: "Runbooks &amp; Diagnostics"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill queue-backup-runbook -a codex
 ```bash
 clawhub install queue-backup-runbook
 ```
+
 
 ## Source
 

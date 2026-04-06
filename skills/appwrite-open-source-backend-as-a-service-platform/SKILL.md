@@ -1,8 +1,11 @@
 ---
-name: "Appwrite Open Source Backend as a Service Platform"
-description: "Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage, functions, messaging, and realtime APIs out of the box. It serves as a privacy-first alternative to Firebase and Supabase, packaged as Docker microservices for full data ownership."
+name: Appwrite Open Source Backend as a Service Platform
+description: Appwrite is an open-source, self-hosted backend platform that provides
+  authentication, databases, storage, functions, messaging, and realtime APIs out
+  of the box. It serves as a privacy-first alternative to Firebase and Supabase, packaged
+  as Docker microservices for full data ownership.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/appwrite/appwrite"
 ---
@@ -74,6 +77,7 @@ npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-as
 clawhub install appwrite-open-source-backend-as-a-service-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-as-a-service-platform/)
+- [GitHub](https://github.com/appwrite/appwrite)

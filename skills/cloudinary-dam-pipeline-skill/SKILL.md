@@ -1,8 +1,10 @@
 ---
-name: "Cloudinary DAM Pipeline"
-description: "Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation."
+name: Cloudinary DAM Pipeline
+description: Manage digital assets through the Cloudinary Upload, Admin, and Transformation
+  APIs. Automates image optimization with responsive breakpoints, AI-powered cropping
+  via g_auto, and CDN delivery URL generation.
 category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
 ---
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill cloudinary-dam-pipeline-skill -
 ```bash
 clawhub install cloudinary-dam-pipeline-skill
 ```
+
 
 ## Source
 

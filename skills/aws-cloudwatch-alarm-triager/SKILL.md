@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Alarm Triager"
-description: "Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts."
+name: AWS CloudWatch Alarm Triager
+description: Triages AWS CloudWatch alarms by correlating alarm state changes with
+  CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity,
+  identifies root cause candidates, and updates OpsGenie alerts.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triager -a
 ```bash
 clawhub install aws-cloudwatch-alarm-triager
 ```
+
 
 ## Source
 

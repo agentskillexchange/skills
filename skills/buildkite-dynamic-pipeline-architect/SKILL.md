@@ -1,8 +1,10 @@
 ---
-name: "Buildkite Dynamic Pipeline Architect"
-description: "Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff."
-category: "CI/CD Integrations"
-framework: "Cursor"
+name: Buildkite Dynamic Pipeline Architect
+description: Creates dynamic Buildkite pipelines using the Buildkite REST API and
+  pipeline upload mechanism. Implements conditional step generation based on file
+  change detection via git diff.
+category: CI/CD Integrations
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill buildkite-dynamic-pipeline-arch
 ```bash
 clawhub install buildkite-dynamic-pipeline-architect
 ```
+
 
 ## Source
 

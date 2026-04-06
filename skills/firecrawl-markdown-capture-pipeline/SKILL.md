@@ -1,8 +1,11 @@
 ---
-name: "Firecrawl Markdown Capture Pipeline"
-description: "Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready source material."
+name: Firecrawl Markdown Capture Pipeline
+description: Captures clean site content through Firecrawl endpoints like `/v1/scrape`,
+  `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for
+  turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready
+  source material.
 category: "Research &amp; Scraping"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://github.com/firecrawl/firecrawl"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill firecrawl-markdown-capture-pipe
 clawhub install firecrawl-markdown-capture-pipeline
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/)
+- [GitHub](https://github.com/firecrawl/firecrawl)

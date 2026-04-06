@@ -1,8 +1,10 @@
 ---
-name: "Postgres MCP Pro"
-description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
+name: Postgres MCP Pro
+description: Query, analyze, and tune PostgreSQL databases through your AI agent with
+  safe access controls. Beyond basic SQL execution, it provides index tuning recommendations,
+  query plan analysis, database health monitoring, and schema intelligence.
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
 ---
@@ -63,6 +65,7 @@ npx skills add agentskillexchange/skills --skill postgres-mcp-pro -a codex
 ```bash
 clawhub install postgres-mcp-pro
 ```
+
 
 ## Source
 

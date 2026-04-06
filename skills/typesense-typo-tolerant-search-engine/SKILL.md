@@ -1,8 +1,10 @@
 ---
-name: "Typesense Typo-Tolerant Search Engine"
-description: "Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering."
+name: Typesense Typo-Tolerant Search Engine
+description: Typesense is an open-source, typo-tolerant search engine built in C++
+  for building fast, relevant search experiences. It serves as a self-hostable alternative
+  to Algolia with support for vector search, geo-search, and faceted filtering.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/typesense/typesense"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill typesense-typo-tolerant-search-
 clawhub install typesense-typo-tolerant-search-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine/)
+- [GitHub](https://github.com/typesense/typesense)

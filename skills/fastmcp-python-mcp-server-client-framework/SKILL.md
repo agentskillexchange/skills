@@ -1,8 +1,11 @@
 ---
-name: "FastMCP Python MCP Server and Client Framework"
-description: "FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It provides automatic schema generation, transport negotiation, and protocol lifecycle management, letting developers wrap Python functions into MCP-compliant tools with minimal boilerplate."
-category: "Developer Tools"
-framework: "MCP"
+name: FastMCP Python MCP Server and Client Framework
+description: FastMCP is the standard Python framework for building Model Context Protocol
+  servers, clients, and applications. It provides automatic schema generation, transport
+  negotiation, and protocol lifecycle management, letting developers wrap Python functions
+  into MCP-compliant tools with minimal boilerplate.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/PrefectHQ/fastmcp"
 tool_ecosystem:
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill fastmcp-python-mcp-server-clien
 clawhub install fastmcp-python-mcp-server-client-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/fastmcp-python-mcp-server-client-framework/)
+- [GitHub](https://github.com/PrefectHQ/fastmcp)

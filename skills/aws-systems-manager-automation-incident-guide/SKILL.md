@@ -1,8 +1,11 @@
 ---
-name: "AWS Systems Manager Automation Incident Guide"
-description: "Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory."
+name: AWS Systems Manager Automation Incident Guide
+description: Coordinates remediation playbooks with AWS Systems Manager Automation,
+  Incident Manager, and CloudWatch alarm context for repeatable operational recovery.
+  Useful for agents that need to recommend or launch the right runbook when alarms
+  cross into known failure territory.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://docs.aws.amazon.com/systems-manager/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill aws-systems-manager-automation-
 clawhub install aws-systems-manager-automation-incident-guide
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/aws-systems-manager-automation-incident-guide/)
+- [docs.aws.amazon.com](https://docs.aws.amazon.com/systems-manager/)

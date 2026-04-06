@@ -1,8 +1,11 @@
 ---
-name: "Nylas Platform SDK for Unified Email Calendar and Contacts API"
-description: "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs."
+name: Nylas Platform SDK for Unified Email Calendar and Contacts API
+description: Nylas provides REST APIs and SDKs for Python and Node.js that offer unified
+  access to email, calendar, and contacts across all major providers including Gmail,
+  Outlook, and Exchange. Build email and scheduling integrations without managing
+  individual provider APIs.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/nylas/nylas-python"
 ---
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill nylas-sdk-email-calendar-contac
 clawhub install nylas-sdk-email-calendar-contacts
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nylas-sdk-email-calendar-contacts/)
+- [GitHub](https://github.com/nylas/nylas-python)

@@ -1,8 +1,11 @@
 ---
-name: "PGlite Embeddable WASM Postgres for Browser and Node.js"
-description: "PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the browser, Node.js, Bun, and Deno. At only 3.7MB gzipped, it enables local-first applications with real SQL capabilities and no external database dependencies."
+name: PGlite Embeddable WASM Postgres for Browser and Node.js
+description: PGlite is a WASM build of Postgres packaged as a TypeScript library that
+  runs a full Postgres database in the browser, Node.js, Bun, and Deno. At only 3.7MB
+  gzipped, it enables local-first applications with real SQL capabilities and no external
+  database dependencies.
 category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/electric-sql/pglite"
 tool_ecosystem:
@@ -69,6 +72,7 @@ npx skills add agentskillexchange/skills --skill pglite-embeddable-wasm-postgres
 clawhub install pglite-embeddable-wasm-postgres
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pglite-embeddable-wasm-postgres/)
+- [GitHub](https://github.com/electric-sql/pglite)

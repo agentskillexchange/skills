@@ -1,8 +1,11 @@
 ---
-name: "Chatwoot Open Source Customer Engagement and Omnichannel Support Platform"
-description: "Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media, and messaging channel support in a unified agent dashboard. It serves as an alternative to Intercom, Zendesk, and Freshdesk with full API access for automation."
+name: Chatwoot Open Source Customer Engagement and Omnichannel Support Platform
+description: Chatwoot is a self-hosted, open-source customer engagement platform that
+  provides live chat, email, social media, and messaging channel support in a unified
+  agent dashboard. It serves as an alternative to Intercom, Zendesk, and Freshdesk
+  with full API access for automation.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/chatwoot/chatwoot"
 ---
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill chatwoot-open-source-customer-e
 clawhub install chatwoot-open-source-customer-engagement-omnichannel-support
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chatwoot-open-source-customer-engagement-omnichannel-support/)
+- [GitHub](https://github.com/chatwoot/chatwoot)

@@ -1,8 +1,10 @@
 ---
-name: "Stripe Connect Marketplace Sync"
-description: "Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK."
+name: Stripe Connect Marketplace Sync
+description: Synchronize marketplace transactions using the Stripe Connect API with
+  automatic payout splitting, transfer reversals, and account onboarding via Stripe.js
+  and the stripe-node SDK.
 category: "Integrations &amp; Connectors"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill stripe-connect-marketplace-sync
 ```bash
 clawhub install stripe-connect-marketplace-sync
 ```
+
 
 ## Source
 

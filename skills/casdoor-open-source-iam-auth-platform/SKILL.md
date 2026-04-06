@@ -1,8 +1,10 @@
 ---
-name: "Casdoor Open Source Identity and Access Management Platform"
-description: "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, and MCP gateway integration with a web-based admin UI."
+name: Casdoor Open Source Identity and Access Management Platform
+description: Casdoor is an open source AI-first Identity and Access Management (IAM)
+  platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn,
+  TOTP, MFA, and MCP gateway integration with a web-based admin UI.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/casdoor/casdoor"
 tool_ecosystem:
@@ -90,6 +92,7 @@ npx skills add agentskillexchange/skills --skill casdoor-open-source-iam-auth-pl
 clawhub install casdoor-open-source-iam-auth-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/casdoor-open-source-iam-auth-platform/)
+- [GitHub](https://github.com/casdoor/casdoor)

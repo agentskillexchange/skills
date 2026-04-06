@@ -1,8 +1,10 @@
 ---
-name: "Puppeteer Screenshot Diff Engine"
-description: "Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling."
-category: "Browser Automation"
-framework: "Claude Code"
+name: Puppeteer Screenshot Diff Engine
+description: Visual regression testing using Puppeteer page.screenshot() with pixelmatch
+  comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport
+  emulation and network throttling.
+category: Browser Automation
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-screenshot-diff-engin
 ```bash
 clawhub install puppeteer-screenshot-diff-engine
 ```
+
 
 ## Source
 

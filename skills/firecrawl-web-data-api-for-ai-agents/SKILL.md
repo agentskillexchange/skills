@@ -1,8 +1,10 @@
 ---
-name: "Firecrawl Web Data API for AI Agents"
-description: "Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON, screenshots, and crawl results that plug neatly into research, extraction, and retrieval workflows."
+name: Firecrawl Web Data API for AI Agents
+description: Use Firecrawl to search, scrape, crawl, and interact with the web through
+  an API built for AI agents. It returns clean markdown, structured JSON, screenshots,
+  and crawl results that plug neatly into research, extraction, and retrieval workflows.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/firecrawl/firecrawl"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill firecrawl-web-data-api-for-ai-a
 clawhub install firecrawl-web-data-api-for-ai-agents
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/firecrawl-web-data-api-for-ai-agents/)
+- [GitHub](https://github.com/firecrawl/firecrawl)

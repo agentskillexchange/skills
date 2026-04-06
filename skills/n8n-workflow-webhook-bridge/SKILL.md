@@ -1,14 +1,17 @@
 ---
-name: "n8n Workflow Webhook Bridge"
-description: "Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware."
+name: n8n Workflow Webhook Bridge
+description: Builds integration handoffs around n8n primitives like the Webhook node,
+  HTTP Request node, and execution data inspection. Great for connecting event sources,
+  transforming payloads, and making low-code workflows behave more like reliable integration
+  middleware.
 category: "Integrations &amp; Connectors"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/n8n-io/n8n"
 tool_ecosystem:
   github_repo: "https://github.com/n8n-io/n8n"
   github_stars: 182065
-  npm_package: "n8n"
+  npm_package: n8n
   npm_weekly_downloads: 70979
 ---
 # n8n Workflow Webhook Bridge
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill n8n-workflow-webhook-bridge -a 
 clawhub install n8n-workflow-webhook-bridge
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/n8n-workflow-webhook-bridge/)
+- [GitHub](https://github.com/n8n-io/n8n)

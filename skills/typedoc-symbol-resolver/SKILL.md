@@ -1,8 +1,10 @@
 ---
-name: "TypeDoc Symbol Resolver"
-description: "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging support and module augmentation tracking."
+name: TypeDoc Symbol Resolver
+description: Resolves TypeScript symbols and generates API documentation using the
+  TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference
+  pages with declaration merging support and module augmentation tracking.
 category: "Library &amp; API Reference"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/typedoc-symbol-resolver/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill typedoc-symbol-resolver -a code
 ```bash
 clawhub install typedoc-symbol-resolver
 ```
+
 
 ## Source
 

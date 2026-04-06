@@ -1,8 +1,10 @@
 ---
-name: "Stable Diffusion XL Pipeline Builder"
-description: "Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch prompt scheduling."
+name: Stable Diffusion XL Pipeline Builder
+description: Constructs and executes SDXL image generation pipelines using diffusers
+  library and ComfyUI API. Supports LoRA loading, ControlNet conditioning, and batch
+  prompt scheduling.
 category: "Image &amp; Creative Automation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-xl-pipeline-bu
 ```bash
 clawhub install stable-diffusion-xl-pipeline-builder
 ```
+
 
 ## Source
 

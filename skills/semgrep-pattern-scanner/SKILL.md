@@ -1,8 +1,10 @@
 ---
-name: "Semgrep Pattern Scanner"
-description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Registry API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs SARIF-formatted results for GitHub Security tab integration."
+name: Semgrep Pattern Scanner
+description: Executes Semgrep CLI with custom YAML rules and the Semgrep Registry
+  API to detect anti-patterns, vulnerabilities, and taint tracking violations. Outputs
+  SARIF-formatted results for GitHub Security tab integration.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill semgrep-pattern-scanner -a code
 ```bash
 clawhub install semgrep-pattern-scanner
 ```
+
 
 ## Source
 

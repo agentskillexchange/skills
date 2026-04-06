@@ -1,8 +1,10 @@
 ---
-name: "WordPress REST API Content Sync"
-description: "Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution."
+name: WordPress REST API Content Sync
+description: Synchronizes content between WordPress multisite installations using
+  the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media
+  sideloading, shortcode transformation, and conflict resolution.
 category: "WordPress &amp; CMS"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill wordpress-rest-api-content-sync
 ```bash
 clawhub install wordpress-rest-api-content-sync
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "SerpAPI Scholar Agent"
-description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
+name: SerpAPI Scholar Agent
+description: Automates academic research using the SerpAPI Google Scholar endpoint.
+  Extracts citation graphs, h-index data, and co-author networks for literature reviews.
+  Supports BibTeX export and cross-references with Semantic Scholar API.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill serpapi-scholar-agent -a codex
 ```bash
 clawhub install serpapi-scholar-agent
 ```
+
 
 ## Source
 

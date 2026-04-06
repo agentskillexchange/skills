@@ -1,14 +1,16 @@
 ---
-name: "calcurse Text-Based Calendar and Scheduling Application"
-description: "calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events, appointments, and everyday tasks with a curses-based TUI, configurable notifications, and CalDAV synchronization support."
+name: calcurse Text-Based Calendar and Scheduling Application
+description: calcurse is a text-based calendar and scheduling application for the
+  command line. It helps keep track of events, appointments, and everyday tasks with
+  a curses-based TUI, configurable notifications, and CalDAV synchronization support.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/lfos/calcurse"
 tool_ecosystem:
   github_repo: "https://github.com/lfos/calcurse"
   github_stars: 1235
-  license: "BSD-2-Clause"
+  license: BSD-2-Clause
 ---
 # calcurse Text-Based Calendar and Scheduling Application
 
@@ -78,6 +80,7 @@ npx skills add agentskillexchange/skills --skill calcurse-text-calendar-scheduli
 clawhub install calcurse-text-calendar-scheduling
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/calcurse-text-calendar-scheduling/)
+- [GitHub](https://github.com/lfos/calcurse)

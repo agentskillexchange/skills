@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Rule Evaluator"
-description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
+name: Prometheus Rule Evaluator
+description: Validates and tests Prometheus alerting rules against historical metrics
+  data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations
+  with configurable time windows and threshold testing.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill prometheus-rule-evaluator -a co
 ```bash
 clawhub install prometheus-rule-evaluator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Ingestr Cross-Database Data Copier"
-description: "Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3."
+name: Ingestr Cross-Database Data Copier
+description: Copy data between any databases with a single CLI command using Ingestr.
+  Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake,
+  DuckDB, MongoDB, and S3.
 category: "Data Extraction &amp; Transformation, Integrations &amp; Connectors"
-framework: "Claude Code, OpenClaw"
+framework: Claude Code, OpenClaw
 verification: security_reviewed
 source: "https://github.com/bruin-data/ingestr"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill ingestr-cross-database-data-cop
 clawhub install ingestr-cross-database-data-copier
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ingestr-cross-database-data-copier/)
+- [GitHub](https://github.com/bruin-data/ingestr)

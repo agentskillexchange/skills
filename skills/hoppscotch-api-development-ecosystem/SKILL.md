@@ -1,8 +1,11 @@
 ---
-name: "Hoppscotch Open Source API Development Ecosystem"
-description: "Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and Insomnia. It supports REST, GraphQL, WebSocket, SSE, MQTT, and Socket.IO protocols with a fast, browser-based interface available as PWA, desktop app, and CLI."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Hoppscotch Open Source API Development Ecosystem
+description: Hoppscotch is a lightweight, open-source API development platform that
+  serves as an alternative to Postman and Insomnia. It supports REST, GraphQL, WebSocket,
+  SSE, MQTT, and Socket.IO protocols with a fast, browser-based interface available
+  as PWA, desktop app, and CLI.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/hoppscotch/hoppscotch"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill hoppscotch-api-development-ecos
 clawhub install hoppscotch-api-development-ecosystem
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/hoppscotch-api-development-ecosystem/)
+- [GitHub](https://github.com/hoppscotch/hoppscotch)

@@ -1,8 +1,11 @@
 ---
-name: "quicktype JSON Schema to Typed Code Generator"
-description: "Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns sample data into production-ready type definitions for Swift, C#, Go, Python, Rust, Java, Kotlin, and more."
-category: "Developer Tools"
-framework: "Claude Code"
+name: quicktype JSON Schema to Typed Code Generator
+description: "Generate strongly-typed models and serializers from JSON, JSON Schema,\
+  \ TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns\
+  \ sample data into production-ready type definitions for Swift, C#, Go, Python,\
+  \ Rust, Java, Kotlin, and more."
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/glideapps/quicktype"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill quicktype-json-schema-code-gene
 clawhub install quicktype-json-schema-code-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/quicktype-json-schema-code-generator/)
+- [GitHub](https://github.com/glideapps/quicktype)

@@ -1,14 +1,16 @@
 ---
-name: "xq Command-Line XML and HTML Beautifier and Content Extractor"
-description: "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector queries, and JSON output conversion for XML and HTML documents."
+name: xq Command-Line XML and HTML Beautifier and Content Extractor
+description: xq is a command-line XML and HTML beautifier and content extractor written
+  in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector
+  queries, and JSON output conversion for XML and HTML documents.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/sibprogrammer/xq"
 tool_ecosystem:
   github_repo: "https://github.com/sibprogrammer/xq"
   github_stars: 1100
-  license: "MIT"
+  license: MIT
 ---
 # xq Command-Line XML and HTML Beautifier and Content Extractor
 
@@ -66,6 +68,7 @@ npx skills add agentskillexchange/skills --skill xq-command-line-xml-html-beauti
 clawhub install xq-command-line-xml-html-beautifier-content-extractor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/xq-command-line-xml-html-beautifier-content-extractor/)
+- [GitHub](https://github.com/sibprogrammer/xq)

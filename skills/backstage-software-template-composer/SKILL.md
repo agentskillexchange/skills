@@ -1,8 +1,10 @@
 ---
-name: "Backstage Software Template Composer"
-description: "Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including fetch:template, publish:github, and catalog:register. Manages the Backstage Software Catalog via its REST API."
+name: Backstage Software Template Composer
+description: Creates Spotify Backstage software templates using template.yaml definitions
+  with Scaffolder actions including fetch:template, publish:github, and catalog:register.
+  Manages the Backstage Software Catalog via its REST API.
 category: "Templates &amp; Workflows"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://github.com/backstage/backstage"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill backstage-software-template-com
 clawhub install backstage-software-template-composer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/backstage-software-template-composer/)
+- [GitHub](https://github.com/backstage/backstage)

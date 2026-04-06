@@ -1,8 +1,10 @@
 ---
-name: "Terraform Plan Reviewer"
-description: "Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: Terraform Plan Reviewer
+description: Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec
+  Go SDK. Identifies destructive changes, cost implications via Infracost API, and
+  generates approval summaries.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-4/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-4 -a co
 ```bash
 clawhub install terraform-plan-reviewer-4
 ```
+
 
 ## Source
 

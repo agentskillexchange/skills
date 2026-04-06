@@ -1,8 +1,10 @@
 ---
-name: "PagerDuty Incident Runbook"
-description: "Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST API. Automatically executes diagnostic runbooks based on service and alert routing keys, and posts resolution notes back to the incident timeline."
+name: PagerDuty Incident Runbook
+description: Responds to PagerDuty incidents via the PagerDuty Events API v2 and REST
+  API. Automatically executes diagnostic runbooks based on service and alert routing
+  keys, and posts resolution notes back to the incident timeline.
 category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook -a c
 ```bash
 clawhub install pagerduty-incident-runbook
 ```
+
 
 ## Source
 

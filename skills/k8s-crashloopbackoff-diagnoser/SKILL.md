@@ -1,8 +1,10 @@
 ---
-name: "Kubernetes CrashLoopBackOff Diagnoser"
-description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
+name: Kubernetes CrashLoopBackOff Diagnoser
+description: Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API.
+  Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations
+  to generate actionable remediation steps.
 category: "Runbooks &amp; Diagnostics"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill k8s-crashloopbackoff-diagnoser 
 ```bash
 clawhub install k8s-crashloopbackoff-diagnoser
 ```
+
 
 ## Source
 

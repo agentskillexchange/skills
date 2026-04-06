@@ -1,8 +1,10 @@
 ---
-name: "SEO Content Cluster Generator"
-description: "Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps and schema.org Article markup."
+name: SEO Content Cluster Generator
+description: Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs
+  Content Explorer, and Google Search Console API. Generates pillar pages with internal
+  linking maps and schema.org Article markup.
 category: "Content Writing &amp; SEO"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill seo-content-cluster-generator -
 ```bash
 clawhub install seo-content-cluster-generator
 ```
+
 
 ## Source
 

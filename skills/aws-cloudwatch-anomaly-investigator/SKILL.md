@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Anomaly Investigator"
-description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
+name: AWS CloudWatch Anomaly Investigator
+description: Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData
+  and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment
+  events from CodeDeploy.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-anomaly-investig
 ```bash
 clawhub install aws-cloudwatch-anomaly-investigator
 ```
+
 
 ## Source
 

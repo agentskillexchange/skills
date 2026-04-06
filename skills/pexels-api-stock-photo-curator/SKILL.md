@@ -1,8 +1,10 @@
 ---
-name: "Pexels API Stock Photo Curator"
-description: "Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite."
+name: Pexels API Stock Photo Curator
+description: Searches and downloads royalty-free images from Pexels API with smart
+  filtering by orientation, color, and size. Generates attribution HTML and maintains
+  a local deduplication index via SQLite.
 category: "Image &amp; Creative Automation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill pexels-api-stock-photo-curator 
 ```bash
 clawhub install pexels-api-stock-photo-curator
 ```
+
 
 ## Source
 

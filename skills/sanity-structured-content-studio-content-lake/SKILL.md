@@ -1,16 +1,19 @@
 ---
-name: "Sanity Structured Content Studio and Content Lake"
-description: "Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill helps agents model schemas, manage content operations, and work against Sanity datasets with structured, API-first workflows."
+name: Sanity Structured Content Studio and Content Lake
+description: Sanity combines a customizable content studio with a real-time content
+  backend and GROQ-powered querying. This skill helps agents model schemas, manage
+  content operations, and work against Sanity datasets with structured, API-first
+  workflows.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/sanity-io/sanity"
 tool_ecosystem:
   github_repo: "https://github.com/sanity-io/sanity"
   github_stars: 6041
-  npm_package: "sanity"
+  npm_package: sanity
   npm_weekly_downloads: 405535
-  license: "MIT"
+  license: MIT
 ---
 # Sanity Structured Content Studio and Content Lake
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill sanity-structured-content-studi
 clawhub install sanity-structured-content-studio-content-lake
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sanity-structured-content-studio-content-lake/)
+- [GitHub](https://github.com/sanity-io/sanity)

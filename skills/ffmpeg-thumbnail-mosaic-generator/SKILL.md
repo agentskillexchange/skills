@@ -1,8 +1,10 @@
 ---
-name: "FFmpeg Thumbnail Mosaic Generator"
-description: "Creates video thumbnail mosaics and sprite sheets using FFmpeg filters and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews, and WebVTT thumbnail tracks."
+name: FFmpeg Thumbnail Mosaic Generator
+description: Creates video thumbnail mosaics and sprite sheets using FFmpeg filters
+  and the fluent-ffmpeg Node.js wrapper. Generates contact sheets, animated GIF previews,
+  and WebVTT thumbnail tracks.
 category: "Image &amp; Creative Automation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-mosaic-generat
 ```bash
 clawhub install ffmpeg-thumbnail-mosaic-generator
 ```
+
 
 ## Source
 

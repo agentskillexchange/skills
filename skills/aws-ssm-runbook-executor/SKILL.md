@@ -1,8 +1,10 @@
 ---
-name: "AWS Systems Manager Runbook"
-description: "Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration."
+name: AWS Systems Manager Runbook
+description: Execute AWS Systems Manager Automation runbooks and Run Command documents
+  using the SSM API and boto3. Supports cross-account execution, rate controls, and
+  parameter store integration.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-executor/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-ssm-runbook-executor -a cod
 ```bash
 clawhub install aws-ssm-runbook-executor
 ```
+
 
 ## Source
 

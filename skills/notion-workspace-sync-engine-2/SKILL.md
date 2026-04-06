@@ -1,8 +1,10 @@
 ---
-name: "Notion Workspace Sync Engine"
-description: "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time."
+name: Notion Workspace Sync Engine
+description: Bidirectionally syncs Notion databases with external tools via the Notion
+  API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets
+  in real time.
 category: "Calendar, Email &amp; Productivity"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-workspace-sync-engine-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill notion-workspace-sync-engine-2 
 ```bash
 clawhub install notion-workspace-sync-engine-2
 ```
+
 
 ## Source
 

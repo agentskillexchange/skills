@@ -1,8 +1,10 @@
 ---
-name: "Prettier Format Enforcement Bot"
-description: "Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management."
+name: Prettier Format Enforcement Bot
+description: Enforces code formatting standards using the Prettier API (prettier.format(),
+  prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with
+  .prettierrc configuration management.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill prettier-format-enforcement-bot
 ```bash
 clawhub install prettier-format-enforcement-bot
 ```
+
 
 ## Source
 

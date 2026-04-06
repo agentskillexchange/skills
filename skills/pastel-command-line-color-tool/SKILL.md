@@ -1,14 +1,17 @@
 ---
-name: "pastel Command-Line Color Generation Analysis and Manipulation Tool"
-description: "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette generation, contrast checking, and color blending."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: pastel Command-Line Color Generation Analysis and Manipulation Tool
+description: pastel is a command-line tool for generating, analyzing, converting,
+  and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine,
+  it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette
+  generation, contrast checking, and color blending.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/sharkdp/pastel"
 tool_ecosystem:
   github_repo: "https://github.com/sharkdp/pastel"
   github_stars: 6301
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # pastel Command-Line Color Generation Analysis and Manipulation Tool
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill pastel-command-line-color-tool 
 clawhub install pastel-command-line-color-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pastel-command-line-color-tool/)
+- [GitHub](https://github.com/sharkdp/pastel)

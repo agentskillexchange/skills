@@ -1,8 +1,10 @@
 ---
-name: "CloudWatch Intelligent Alarms"
-description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers."
+name: CloudWatch Intelligent Alarms
+description: Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered
+  anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge
+  for automated remediation triggers.
 category: "Monitoring &amp; Alerts"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cloudwatch-intelligent-alarms -
 ```bash
 clawhub install cloudwatch-intelligent-alarms
 ```
+
 
 ## Source
 

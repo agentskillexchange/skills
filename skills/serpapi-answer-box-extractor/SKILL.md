@@ -1,8 +1,11 @@
 ---
-name: "SerpAPI Answer Box Extractor"
-description: "Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping."
+name: SerpAPI Answer Box Extractor
+description: Extracts high-signal SERP features from SerpAPI responses, including
+  `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful
+  for research agents that need structured search intelligence rather than raw HTML
+  scraping.
 category: "Research &amp; Scraping"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://github.com/serpapi/google-search-results-python"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill serpapi-answer-box-extractor -a
 clawhub install serpapi-answer-box-extractor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpapi-answer-box-extractor/)
+- [GitHub](https://github.com/serpapi/google-search-results-python)

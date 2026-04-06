@@ -1,8 +1,10 @@
 ---
-name: "OpenAPI SDK Generator Pipeline"
-description: "Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript, Python, and Go clients with proper authentication interceptors and retry logic."
+name: OpenAPI SDK Generator Pipeline
+description: Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli.
+  Produces TypeScript, Python, and Go clients with proper authentication interceptors
+  and retry logic.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill openapi-sdk-generator-pipeline 
 ```bash
 clawhub install openapi-sdk-generator-pipeline
 ```
+
 
 ## Source
 

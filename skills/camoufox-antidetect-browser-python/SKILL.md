@@ -1,8 +1,11 @@
 ---
-name: "Camoufox Open Source Anti-Detect Browser for Python Automation"
-description: "Camoufox is an open source anti-detect browser built on Firefox that provides robust fingerprint injection and anti-bot evasion for Python automation workflows. It integrates with Playwright to deliver stealth browsing capabilities that bypass modern bot detection systems."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Camoufox Open Source Anti-Detect Browser for Python Automation
+description: Camoufox is an open source anti-detect browser built on Firefox that
+  provides robust fingerprint injection and anti-bot evasion for Python automation
+  workflows. It integrates with Playwright to deliver stealth browsing capabilities
+  that bypass modern bot detection systems.
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/daijro/camoufox"
 ---
@@ -70,6 +73,7 @@ npx skills add agentskillexchange/skills --skill camoufox-antidetect-browser-pyt
 clawhub install camoufox-antidetect-browser-python
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/camoufox-antidetect-browser-python/)
+- [GitHub](https://github.com/daijro/camoufox)

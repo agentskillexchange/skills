@@ -1,8 +1,11 @@
 ---
-name: "Google Workspace CLI (gws)"
-description: "Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows."
+name: Google Workspace CLI (gws)
+description: Google Workspace CLI, branded as gws, is a command-line tool that gives
+  humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs,
+  Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping
+  responses machine-friendly for agent workflows.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/googleworkspace/cli"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill google-workspace-cli-gws -a cod
 clawhub install google-workspace-cli-gws
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/google-workspace-cli-gws/)
+- [GitHub](https://github.com/googleworkspace/cli)

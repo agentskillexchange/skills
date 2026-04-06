@@ -1,14 +1,18 @@
 ---
-name: "Twilio MCP Server"
-description: "Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]"
+name: Twilio MCP Server
+description: "Twilio MCP Server is built around Twilio communications APIs. The underlying\
+  \ ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives\
+  \ an agent a more technical and reliable way to work with the tool than a thin one-line\
+  \ wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings,\
+  \ messaging services and preserving the operational […]"
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/twilio/twilio-node"
 tool_ecosystem:
   github_repo: "https://github.com/twilio/twilio-node"
   github_stars: 1527
-  npm_package: "twilio"
+  npm_package: twilio
 ---
 # Twilio MCP Server
 
@@ -60,6 +64,7 @@ npx skills add agentskillexchange/skills --skill twilio-mcp-server -a codex
 clawhub install twilio-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/twilio-mcp-server/)
+- [GitHub](https://github.com/twilio/twilio-node)

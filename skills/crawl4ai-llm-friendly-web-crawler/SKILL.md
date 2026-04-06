@@ -1,8 +1,11 @@
 ---
-name: "Crawl4AI LLM-Friendly Web Crawler"
-description: "Run web crawling and scraping workflows with Crawl4AI, an open-source crawler built to produce LLM-ready markdown and structured extraction output. It supports async crawling, browser automation hooks, deep crawls, CLI usage, and Python-based data pipelines."
+name: Crawl4AI LLM-Friendly Web Crawler
+description: Run web crawling and scraping workflows with Crawl4AI, an open-source
+  crawler built to produce LLM-ready markdown and structured extraction output. It
+  supports async crawling, browser automation hooks, deep crawls, CLI usage, and Python-based
+  data pipelines.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/unclecode/crawl4ai"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill crawl4ai-llm-friendly-web-crawl
 clawhub install crawl4ai-llm-friendly-web-crawler
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawl4ai-llm-friendly-web-crawler/)
+- [GitHub](https://github.com/unclecode/crawl4ai)

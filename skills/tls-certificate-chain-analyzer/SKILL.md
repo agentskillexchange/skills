@@ -1,8 +1,10 @@
 ---
-name: "TLS Certificate Chain Analyzer"
-description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues."
+name: TLS Certificate Chain Analyzer
+description: Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh
+  Certificate Transparency API. Detects weak algorithms, expiring intermediates, and
+  CT log compliance issues.
 category: "Security &amp; Verification"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill tls-certificate-chain-analyzer 
 ```bash
 clawhub install tls-certificate-chain-analyzer
 ```
+
 
 ## Source
 

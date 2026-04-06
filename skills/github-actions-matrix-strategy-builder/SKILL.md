@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions Matrix Strategy Builder"
-description: "Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: GitHub Actions Matrix Strategy Builder
+description: Generates optimized GitHub Actions workflow matrices using the actions/setup-node,
+  actions/cache, and actions/upload-artifact APIs. Automatically detects language
+  versions and OS combinations for maximum CI coverage.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-strategy-
 ```bash
 clawhub install github-actions-matrix-strategy-builder
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "PostgreSQL Diagnostic Analyzer"
-description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
+name: PostgreSQL Diagnostic Analyzer
+description: Runs diagnostic queries against PostgreSQL using pg_stat_statements,
+  pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention,
+  and bloat using pgstattuple and pg_repack extension analysis.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill postgresql-diagnostic-analyzer 
 ```bash
 clawhub install postgresql-diagnostic-analyzer
 ```
+
 
 ## Source
 

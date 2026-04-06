@@ -1,8 +1,10 @@
 ---
-name: "Docker Compose Health Checker"
-description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
+name: Docker Compose Health Checker
+description: Validates docker-compose.yml files against the Compose Specification,
+  checks image vulnerability status via Docker Scout API, and verifies healthcheck
+  configurations.
 category: "Runbooks &amp; Diagnostics"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-health-checker/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill docker-compose-health-checker -
 ```bash
 clawhub install docker-compose-health-checker
 ```
+
 
 ## Source
 

@@ -1,8 +1,11 @@
 ---
-name: "Datasette Data Exploration and Publishing Tool"
-description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
+name: Datasette Data Exploration and Publishing Tool
+description: Datasette is an open-source Python tool for exploring and publishing
+  data. It turns any SQLite database into an interactive web interface with a JSON
+  API, enabling data journalists, researchers, and developers to share datasets without
+  writing application code.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/simonw/datasette"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill datasette-data-exploration-publ
 clawhub install datasette-data-exploration-publishing-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/)
+- [GitHub](https://github.com/simonw/datasette)

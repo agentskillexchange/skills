@@ -1,14 +1,17 @@
 ---
-name: "lychee Async Broken Link Checker for Websites and Documentation"
-description: "lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more. It supports HTTP/HTTPS, file links, and mail address validation with configurable concurrency and output formats."
+name: lychee Async Broken Link Checker for Websites and Documentation
+description: lychee is a fast, async, stream-based link checker written in Rust that
+  finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites
+  and more. It supports HTTP/HTTPS, file links, and mail address validation with configurable
+  concurrency and output formats.
 category: "Content Writing &amp; SEO"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/lycheeverse/lychee"
 tool_ecosystem:
   github_repo: "https://github.com/lycheeverse/lychee"
   github_stars: 3463
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # lychee Async Broken Link Checker for Websites and Documentation
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill lychee-async-broken-link-checke
 clawhub install lychee-async-broken-link-checker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lychee-async-broken-link-checker/)
+- [GitHub](https://github.com/lycheeverse/lychee)

@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Monitor"
-description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: Jenkins Pipeline Monitor
+description: Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and
+  Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result
+  trends using JUnit XML parsing.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-monitor -a cod
 ```bash
 clawhub install jenkins-pipeline-monitor
 ```
+
 
 ## Source
 

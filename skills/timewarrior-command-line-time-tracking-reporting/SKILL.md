@@ -1,14 +1,17 @@
 ---
-name: "Timewarrior Command-Line Time Tracking and Reporting"
-description: "Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior for automatic time tracking of tasks. Data is stored as plain text files with no database required."
+name: Timewarrior Command-Line Time Tracking and Reporting
+description: Timewarrior is a command-line time tracking tool from the Taskwarrior
+  project. It records time intervals with tags, generates flexible reports, and integrates
+  with Taskwarrior for automatic time tracking of tasks. Data is stored as plain text
+  files with no database required.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/timewarrior"
 tool_ecosystem:
   github_repo: "https://github.com/gothenburgbitfactory/timewarrior"
   github_stars: 1580
-  license: "MIT"
+  license: MIT
 ---
 # Timewarrior Command-Line Time Tracking and Reporting
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill timewarrior-command-line-time-t
 clawhub install timewarrior-command-line-time-tracking-reporting
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/timewarrior-command-line-time-tracking-reporting/)
+- [GitHub](https://github.com/GothenburgBitFactory/timewarrior)

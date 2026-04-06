@@ -1,8 +1,10 @@
 ---
-name: "Cheerio Product Price Tracker"
-description: "Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds."
+name: Cheerio Product Price Tracker
+description: Monitors e-commerce product prices using Cheerio.js for server-side DOM
+  parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite
+  and triggers alerts via nodemailer when prices drop below thresholds.
 category: "Research &amp; Scraping"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cheerio-product-price-tracker/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cheerio-product-price-tracker -
 ```bash
 clawhub install cheerio-product-price-tracker
 ```
+
 
 ## Source
 

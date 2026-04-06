@@ -1,8 +1,10 @@
 ---
-name: "Docker Container Health Check Runbook"
-description: "Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine API. Checks resource limits, network connectivity, and volume mount integrity."
+name: Docker Container Health Check Runbook
+description: Runs systematic health diagnostics on Docker containers using docker
+  inspect, docker stats, and the Docker Engine API. Checks resource limits, network
+  connectivity, and volume mount integrity.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill docker-container-health-check-r
 ```bash
 clawhub install docker-container-health-check-runbook
 ```
+
 
 ## Source
 

@@ -1,8 +1,11 @@
 ---
-name: "Mockoon Local Mock API Server and CLI for API Development"
-description: "Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating mock API servers with dynamic response templates, proxy mode, OpenAPI import, and request logging — no account required, fully open source."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Mockoon Local Mock API Server and CLI for API Development
+description: Mockoon is the fastest way to run mock REST APIs locally. It provides
+  a desktop application and a CLI for creating mock API servers with dynamic response
+  templates, proxy mode, OpenAPI import, and request logging — no account required,
+  fully open source.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mockoon/mockoon"
 tool_ecosystem:
@@ -87,6 +90,7 @@ npx skills add agentskillexchange/skills --skill mockoon-mock-api-server-cli -a 
 clawhub install mockoon-mock-api-server-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mockoon-mock-api-server-cli/)
+- [GitHub](https://github.com/mockoon/mockoon)

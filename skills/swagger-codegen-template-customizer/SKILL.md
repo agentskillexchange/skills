@@ -1,8 +1,10 @@
 ---
-name: "Swagger Codegen Template Customizer"
-description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
+name: Swagger Codegen Template Customizer
+description: Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates
+  for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch),
+  and Python (httpx) output targets.
 category: "Library &amp; API Reference"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill swagger-codegen-template-custom
 ```bash
 clawhub install swagger-codegen-template-customizer
 ```
+
 
 ## Source
 

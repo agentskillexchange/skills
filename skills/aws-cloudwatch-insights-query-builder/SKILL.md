@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Insights Query Builder"
-description: "Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights."
+name: AWS CloudWatch Insights Query Builder
+description: Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK
+  v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account
+  observability dashboards with CloudWatch Metrics Insights.
 category: "Monitoring &amp; Alerts"
-framework: "Codex, Multi-Framework"
+framework: Codex, Multi-Framework
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-query-b
 ```bash
 clawhub install aws-cloudwatch-insights-query-builder
 ```
+
 
 ## Source
 

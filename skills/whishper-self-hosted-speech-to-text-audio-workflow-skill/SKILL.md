@@ -1,8 +1,11 @@
 ---
-name: "Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill"
-description: "Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with Docker, handling uploads and transcripts, and wiring the output into broader automation flows."
+name: Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill
+description: Whishper is an open source self-hosted web app for speech-to-text, translation,
+  and subtitle workflows built around Whisper models. This skill covers running Whishper
+  with Docker, handling uploads and transcripts, and wiring the output into broader
+  automation flows.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/pluja/whishper"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill whishper-self-hosted-speech-to-
 clawhub install whishper-self-hosted-speech-to-text-audio-workflow-skill
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/)
+- [GitHub](https://github.com/pluja/whishper)

@@ -1,8 +1,11 @@
 ---
-name: "Verdaccio Lightweight Private npm Proxy Registry"
-description: "Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts private packages. It supports npm, yarn, and pnpm with authentication, access control, and plugin extensibility for managing internal JavaScript packages."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Verdaccio Lightweight Private npm Proxy Registry
+description: Verdaccio is a lightweight, zero-config private npm proxy registry that
+  caches packages from npmjs.org and hosts private packages. It supports npm, yarn,
+  and pnpm with authentication, access control, and plugin extensibility for managing
+  internal JavaScript packages.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/verdaccio/verdaccio"
 ---
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill verdaccio-private-npm-proxy-reg
 clawhub install verdaccio-private-npm-proxy-registry
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/verdaccio-private-npm-proxy-registry/)
+- [GitHub](https://github.com/verdaccio/verdaccio)

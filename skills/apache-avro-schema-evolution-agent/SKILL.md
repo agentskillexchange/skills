@@ -1,8 +1,10 @@
 ---
-name: "Apache Avro Schema Evolution Agent"
-description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
+name: Apache Avro Schema Evolution Agent
+description: Manages Apache Avro schema evolution with compatibility checking via
+  Confluent Schema Registry API. Validates forward, backward, and full compatibility
+  across schema versions automatically.
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill apache-avro-schema-evolution-ag
 ```bash
 clawhub install apache-avro-schema-evolution-agent
 ```
+
 
 ## Source
 

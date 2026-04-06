@@ -1,8 +1,10 @@
 ---
-name: "Sharp Image CDN Optimizer"
-description: "On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation."
+name: Sharp Image CDN Optimizer
+description: On-the-fly image optimization using Sharp (libvips Node.js bindings)
+  with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP
+  transcoding, and blur placeholder (LQIP) creation.
 category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill sharp-image-cdn-optimizer -a co
 ```bash
 clawhub install sharp-image-cdn-optimizer
 ```
+
 
 ## Source
 

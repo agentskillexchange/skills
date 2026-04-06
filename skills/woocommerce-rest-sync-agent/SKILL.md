@@ -1,8 +1,10 @@
 ---
-name: "WooCommerce REST Sync Agent"
-description: "Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth 1.0a authentication and rate-limit backoff."
+name: WooCommerce REST Sync Agent
+description: Synchronizes WooCommerce product data bidirectionally using the WC REST
+  API v3 and wc/v3/products endpoints. Handles batch create/update/delete with OAuth
+  1.0a authentication and rate-limit backoff.
 category: "WordPress &amp; CMS"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill woocommerce-rest-sync-agent -a 
 ```bash
 clawhub install woocommerce-rest-sync-agent
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Tekton Pipeline Resource Optimizer"
-description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
-category: "CI/CD Integrations"
-framework: "Cursor"
+name: Tekton Pipeline Resource Optimizer
+description: Analyzes Tekton Pipeline and Task resource definitions using the Tekton
+  Results API. Recommends CPU/memory request adjustments based on historical TaskRun
+  metrics from Prometheus.
+category: CI/CD Integrations
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-resource-optimi
 ```bash
 clawhub install tekton-pipeline-resource-optimizer
 ```
+
 
 ## Source
 

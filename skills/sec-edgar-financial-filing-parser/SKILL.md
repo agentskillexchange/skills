@@ -1,8 +1,10 @@
 ---
-name: "SEC EDGAR Financial Filing Parser"
-description: "Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing API. Extracts XBRL financial data via the SEC XBRL API for structured balance sheet and income statement analysis."
+name: SEC EDGAR Financial Filing Parser
+description: Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR
+  Full-Text Search API and company filing API. Extracts XBRL financial data via the
+  SEC XBRL API for structured balance sheet and income statement analysis.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 ---
@@ -44,6 +46,7 @@ npx skills add agentskillexchange/skills --skill sec-edgar-financial-filing-pars
 clawhub install sec-edgar-financial-filing-parser
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sec-edgar-financial-filing-parser/)
+- [www.sec.gov](https://www.sec.gov/edgar/searchedgar/companysearch)

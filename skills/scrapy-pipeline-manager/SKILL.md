@@ -1,8 +1,10 @@
 ---
-name: "Scrapy Pipeline Manager"
-description: "Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware configuration."
+name: Scrapy Pipeline Manager
+description: Manages Scrapy spider deployments via Scrapyd API with custom item pipelines
+  for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware
+  configuration.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-manager/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill scrapy-pipeline-manager -a code
 ```bash
 clawhub install scrapy-pipeline-manager
 ```
+
 
 ## Source
 

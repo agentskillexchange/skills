@@ -1,8 +1,10 @@
 ---
-name: "Playwright Parallel Tab Manager"
-description: "Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports."
-category: "Browser Automation"
-framework: "Cursor"
+name: Playwright Parallel Tab Manager
+description: Manages concurrent Playwright browser contexts with tab pooling and automatic
+  resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch()
+  for parallel test execution across multiple viewports.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill playwright-parallel-tab-manager
 ```bash
 clawhub install playwright-parallel-tab-manager
 ```
+
 
 ## Source
 

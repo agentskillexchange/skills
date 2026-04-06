@@ -1,8 +1,10 @@
 ---
-name: "Firebase — Google Application Development Platform"
-description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
+name: Firebase — Google Application Development Platform
+description: Firebase is Google’s app development platform providing real-time databases,
+  authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android,
+  and Flutter applications.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/firebase/firebase-js-sdk"
 tool_ecosystem:
@@ -45,6 +47,7 @@ npx skills add agentskillexchange/skills --skill firebase-google-app-development
 clawhub install firebase-google-app-development-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/firebase-google-app-development-platform/)
+- [GitHub](https://github.com/firebase/firebase-js-sdk)

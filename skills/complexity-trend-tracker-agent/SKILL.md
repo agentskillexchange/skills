@@ -1,8 +1,10 @@
 ---
-name: "Complexity Trend Tracker"
-description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module."
+name: Complexity Trend Tracker
+description: Tracks cyclomatic and cognitive complexity trends using lizard CLI and
+  radon for Python analysis. Generates weekly complexity reports with git-integrated
+  change attribution per module.
 category: "Code Quality &amp; Review"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill complexity-trend-tracker-agent 
 ```bash
 clawhub install complexity-trend-tracker-agent
 ```
+
 
 ## Source
 

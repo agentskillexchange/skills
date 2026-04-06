@@ -1,8 +1,10 @@
 ---
-name: "Uptime Robot Multi-Check Coordinator"
-description: "Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization."
+name: Uptime Robot Multi-Check Coordinator
+description: Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP,
+  keyword, and port monitors with alert contacts, maintenance windows, and status
+  page synchronization.
 category: "Monitoring &amp; Alerts"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill uptime-robot-multi-check-coordi
 ```bash
 clawhub install uptime-robot-multi-check-coordinator
 ```
+
 
 ## Source
 

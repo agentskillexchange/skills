@@ -1,8 +1,10 @@
 ---
-name: "Cookiecutter Project Template Scaffolder"
-description: "Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates cookiecutter.json variable prompting and post-generation hook execution."
+name: Cookiecutter Project Template Scaffolder
+description: Generates project scaffolds using Cookiecutter templates from GitHub
+  repositories or local directories. Automates cookiecutter.json variable prompting
+  and post-generation hook execution.
 category: "Templates &amp; Workflows"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://github.com/cookiecutter/cookiecutter"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-template-s
 clawhub install cookiecutter-project-template-scaffolder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/)
+- [GitHub](https://github.com/cookiecutter/cookiecutter)

@@ -1,8 +1,10 @@
 ---
-name: "Semgrep Custom Pattern Library"
-description: "Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases."
+name: Semgrep Custom Pattern Library
+description: Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern,
+  pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection
+  across Python, JavaScript, and Go codebases.
 category: "Code Quality &amp; Review"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-library 
 ```bash
 clawhub install semgrep-custom-pattern-library
 ```
+
 
 ## Source
 

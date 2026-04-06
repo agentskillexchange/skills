@@ -1,8 +1,10 @@
 ---
-name: "HubSpot CRM Contact Enrichment Pipeline"
-description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company associations via crm.associations.batchRead(), and syncs lifecycle stage transitions with custom property updates."
+name: HubSpot CRM Contact Enrichment Pipeline
+description: Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update
+  operations. Cross-references company associations via crm.associations.batchRead(),
+  and syncs lifecycle stage transitions with custom property updates.
 category: "Integrations &amp; Connectors"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill hubspot-crm-contact-enrichment-
 ```bash
 clawhub install hubspot-crm-contact-enrichment-pipeline
 ```
+
 
 ## Source
 

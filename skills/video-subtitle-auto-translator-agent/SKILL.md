@@ -1,8 +1,10 @@
 ---
-name: "Video Subtitle Auto-Translator"
-description: "Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit enforcement, and subtitle segmentation with Aegisub CLI."
+name: Video Subtitle Auto-Translator
+description: Translates video subtitles across 100+ languages using DeepL API and
+  Google Cloud Translation v3. Handles SRT/VTT timing preservation, character limit
+  enforcement, and subtitle segmentation with Aegisub CLI.
 category: "Media &amp; Transcription"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill video-subtitle-auto-translator-
 ```bash
 clawhub install video-subtitle-auto-translator-agent
 ```
+
 
 ## Source
 

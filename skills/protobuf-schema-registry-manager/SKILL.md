@@ -1,8 +1,10 @@
 ---
-name: "Protobuf Schema Registry Manager"
-description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
+name: Protobuf Schema Registry Manager
+description: Manages Protocol Buffer schema evolution using buf CLI with breaking
+  change detection and Confluent Schema Registry integration. Enforces buf lint rules
+  and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web.
 category: "Library &amp; API Reference"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill protobuf-schema-registry-manage
 ```bash
 clawhub install protobuf-schema-registry-manager
 ```
+
 
 ## Source
 

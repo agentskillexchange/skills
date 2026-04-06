@@ -1,8 +1,9 @@
 ---
-name: "Claude Code MCP Bridge"
-description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
-category: "Developer Tools"
-framework: "Claude Code, MCP"
+name: Claude Code MCP Bridge
+description: Run Claude Code as a one-shot MCP tool so other agents and editors can
+  delegate coding tasks to it. An agent-in-agent orchestration bridge.
+category: Developer Tools
+framework: Claude Code, MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/claude-code-mcp-bridge/"
 ---
@@ -61,6 +62,7 @@ npx skills add agentskillexchange/skills --skill claude-code-mcp-bridge -a codex
 ```bash
 clawhub install claude-code-mcp-bridge
 ```
+
 
 ## Source
 

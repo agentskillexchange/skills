@@ -1,8 +1,11 @@
 ---
-name: "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery"
-description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata, fingerprints technologies, and outputs structured results for security reconnaissance and monitoring pipelines."
+name: httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery
+description: httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running
+  probes against lists of hosts. It detects live web servers, extracts response metadata,
+  fingerprints technologies, and outputs structured results for security reconnaissance
+  and monitoring pipelines.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/httpx"
 tool_ecosystem:
@@ -65,6 +68,7 @@ npx skills add agentskillexchange/skills --skill httpx-http-probing-toolkit-proj
 clawhub install httpx-http-probing-toolkit-projectdiscovery
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/httpx-http-probing-toolkit-projectdiscovery/)
+- [GitHub](https://github.com/projectdiscovery/httpx)

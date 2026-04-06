@@ -1,14 +1,17 @@
 ---
-name: "vLLM High-Throughput LLM Serving Engine with PagedAttention"
-description: "vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention for efficient memory management, supports continuous batching, and provides an OpenAI-compatible API server for production-grade LLM deployment."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: vLLM High-Throughput LLM Serving Engine with PagedAttention
+description: vLLM is a fast and memory-efficient inference and serving engine for
+  large language models. It uses PagedAttention for efficient memory management, supports
+  continuous batching, and provides an OpenAI-compatible API server for production-grade
+  LLM deployment.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/vllm-project/vllm"
 tool_ecosystem:
   github_repo: "https://github.com/vllm-project/vllm"
   github_stars: 75090
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # vLLM High-Throughput LLM Serving Engine with PagedAttention
 
@@ -80,6 +83,7 @@ npx skills add agentskillexchange/skills --skill vllm-high-throughput-llm-servin
 clawhub install vllm-high-throughput-llm-serving
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vllm-high-throughput-llm-serving/)
+- [GitHub](https://github.com/vllm-project/vllm)

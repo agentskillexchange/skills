@@ -1,8 +1,11 @@
 ---
-name: "Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS"
-description: "Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and API-first content delivery in one self-hostable stack."
+name: Ghost Open Source Publishing Platform for Memberships Newsletters and Headless
+  CMS
+description: Ghost is an open-source publishing platform built for modern blogs, newsletters,
+  memberships, and headless CMS use cases. It combines editorial workflows, subscription
+  management, and API-first content delivery in one self-hostable stack.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/TryGhost/Ghost"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill ghost-open-source-publishing-pl
 clawhub install ghost-open-source-publishing-platform-memberships-newsletters-headless-cms
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ghost-open-source-publishing-platform-memberships-newsletters-headless-cms/)
+- [GitHub](https://github.com/TryGhost/Ghost)

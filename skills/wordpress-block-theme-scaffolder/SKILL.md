@@ -1,8 +1,11 @@
 ---
-name: "WordPress Block Theme Scaffolder"
-description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
+name: WordPress Block Theme Scaffolder
+description: Generates complete WordPress block theme structures using theme.json
+  v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready
+  themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets
+  integration.
 category: "WordPress &amp; CMS"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://developer.wordpress.org/block-editor/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill wordpress-block-theme-scaffolde
 clawhub install wordpress-block-theme-scaffolder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-block-theme-scaffolder/)
+- [developer.wordpress.org](https://developer.wordpress.org/block-editor/)

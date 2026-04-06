@@ -1,14 +1,17 @@
 ---
-name: "Taskwarrior Command-Line Task Management System"
-description: "Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions, and TUI clients."
+name: Taskwarrior Command-Line Task Management System
+description: Taskwarrior is a command-line task list management utility with rich
+  features including priorities, tags, projects, due dates, recurrence, dependencies,
+  annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions,
+  and TUI clients.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
 tool_ecosystem:
   github_repo: "https://github.com/gothenburgbitfactory/taskwarrior"
   github_stars: 5685
-  license: "MIT"
+  license: MIT
 ---
 # Taskwarrior Command-Line Task Management System
 
@@ -76,6 +79,7 @@ npx skills add agentskillexchange/skills --skill taskwarrior-command-line-task-m
 clawhub install taskwarrior-command-line-task-management-system
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/taskwarrior-command-line-task-management-system/)
+- [GitHub](https://github.com/GothenburgBitFactory/taskwarrior)

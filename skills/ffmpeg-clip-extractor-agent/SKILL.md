@@ -1,8 +1,10 @@
 ---
-name: "FFmpeg Clip Extractor"
-description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
+name: FFmpeg Clip Extractor
+description: Extracts video clips and segments using FFmpeg libavformat and libavcodec
+  APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and
+  re-encoding via libx264/libx265 presets.
 category: "Media &amp; Transcription"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-clip-extractor-agent -a 
 ```bash
 clawhub install ffmpeg-clip-extractor-agent
 ```
+
 
 ## Source
 

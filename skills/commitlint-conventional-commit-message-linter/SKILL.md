@@ -1,14 +1,17 @@
 ---
-name: "commitlint Conventional Commit Message Linter"
-description: "commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit conventions, and integration with husky enables automatic linting on every commit via git hooks."
+name: commitlint Conventional Commit Message Linter
+description: "commitlint checks whether git commit messages meet the Conventional\
+  \ Commits specification, enforcing structured formats like type(scope): subject.\
+  \ Shareable configuration packages let teams standardize commit conventions, and\
+  \ integration with husky enables automatic linting on every commit via git hooks."
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/conventional-changelog/commitlint"
 tool_ecosystem:
   github_repo: "https://github.com/conventional-changelog/commitlint"
   github_stars: 18425
-  npm_package: "commitlint"
+  npm_package: commitlint
   npm_weekly_downloads: 527623
 ---
 # commitlint Conventional Commit Message Linter
@@ -57,6 +60,7 @@ npx skills add agentskillexchange/skills --skill commitlint-conventional-commit-
 clawhub install commitlint-conventional-commit-message-linter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/commitlint-conventional-commit-message-linter/)
+- [GitHub](https://github.com/conventional-changelog/commitlint)

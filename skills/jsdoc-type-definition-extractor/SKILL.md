@@ -1,8 +1,10 @@
 ---
-name: "JSDoc Type Definition Extractor"
-description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
+name: JSDoc Type Definition Extractor
+description: Extracts and indexes JSDoc type annotations from JavaScript codebases
+  using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable
+  type catalogs from @typedef and @param tags.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill jsdoc-type-definition-extractor
 ```bash
 clawhub install jsdoc-type-definition-extractor
 ```
+
 
 ## Source
 

@@ -1,8 +1,11 @@
 ---
-name: "Live Stream Audio Monitor"
-description: "Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm."
+name: Live Stream Audio Monitor
+description: Monitors live audio streams from RTMP, HLS, or Icecast sources using
+  FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming
+  API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations
+  from EBU R128 targets using pyloudnorm.
 category: "Media &amp; Transcription"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill live-stream-audio-monitor -a co
 clawhub install live-stream-audio-monitor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/live-stream-audio-monitor/)
+- [GitHub](https://github.com/FFmpeg/FFmpeg)

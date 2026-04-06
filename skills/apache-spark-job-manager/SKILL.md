@@ -1,8 +1,12 @@
 ---
-name: "Apache Spark Job Manager"
-description: "Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames, SQL, executors, stages, Structured Streaming and […]"
+name: Apache Spark Job Manager
+description: "Apache Spark Job Manager is built around Apache Spark distributed compute\
+  \ engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames,\
+  \ SQL, executors, stages, Structured Streaming and […]"
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill apache-spark-job-manager -a cod
 ```bash
 clawhub install apache-spark-job-manager
 ```
+
 
 ## Source
 

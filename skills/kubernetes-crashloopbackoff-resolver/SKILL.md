@@ -1,8 +1,10 @@
 ---
-name: "Kubernetes CrashLoopBackOff Resolver"
-description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
+name: Kubernetes CrashLoopBackOff Resolver
+description: Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods
+  endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies
+  OOMKilled events, missing ConfigMaps, and image pull failures.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-crashloopbackoff-res
 ```bash
 clawhub install kubernetes-crashloopbackoff-resolver
 ```
+
 
 ## Source
 

@@ -1,14 +1,17 @@
 ---
-name: "Mastra TypeScript AI Agent Framework"
-description: "Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team behind Gatsby, it provides model routing across 40+ providers, graph-based workflows, human-in-the-loop suspension, and MCP server authoring in a single cohesive package."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Mastra TypeScript AI Agent Framework
+description: Mastra is an open-source TypeScript framework for building AI-powered
+  applications and agents. Created by the team behind Gatsby, it provides model routing
+  across 40+ providers, graph-based workflows, human-in-the-loop suspension, and MCP
+  server authoring in a single cohesive package.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/mastra-ai/mastra"
 tool_ecosystem:
   github_repo: "https://github.com/mastra-ai/mastra"
   github_stars: 22557
-  npm_package: "mastra"
+  npm_package: mastra
   npm_weekly_downloads: 276083
 ---
 # Mastra TypeScript AI Agent Framework
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill mastra-typescript-ai-agent-fram
 clawhub install mastra-typescript-ai-agent-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mastra-typescript-ai-agent-framework/)
+- [GitHub](https://github.com/mastra-ai/mastra)

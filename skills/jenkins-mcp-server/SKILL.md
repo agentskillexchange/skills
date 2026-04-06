@@ -1,8 +1,12 @@
 ---
-name: "Jenkins MCP Server"
-description: "Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like jobs, builds, buildWithParameters, console logs, artifacts, pipeline stages and preserving the operational […]"
-category: "Developer Tools"
-framework: "MCP"
+name: Jenkins MCP Server
+description: "Jenkins MCP Server is built around Jenkins automation server. The underlying\
+  \ ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives\
+  \ an agent a more technical and reliable way to work with the tool than a thin one-line\
+  \ wrapper, using stable interfaces like jobs, builds, buildWithParameters, console\
+  \ logs, artifacts, pipeline stages and preserving the operational […]"
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
@@ -59,6 +63,7 @@ npx skills add agentskillexchange/skills --skill jenkins-mcp-server -a codex
 clawhub install jenkins-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/jenkins-mcp-server/)
+- [GitHub](https://github.com/jenkinsci/jenkins)

@@ -1,14 +1,15 @@
 ---
-name: "OpenAI Image Gen"
-description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
+name: OpenAI Image Gen
+description: Batch-generate images through the OpenAI Images API with a prompt sampler
+  and gallery output.
 category: "Image &amp; Creative Automation"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/openai/openai-node"
 tool_ecosystem:
   github_repo: "https://github.com/openai/openai-node"
   github_stars: 10791
-  npm_package: "openai"
+  npm_package: openai
 ---
 # OpenAI Image Gen
 
@@ -60,6 +61,7 @@ npx skills add agentskillexchange/skills --skill openai-image-gen -a codex
 clawhub install openai-image-gen
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-image-gen/)
+- [GitHub](https://github.com/openai/openai-node)

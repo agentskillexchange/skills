@@ -1,8 +1,10 @@
 ---
-name: "RunPod Serverless GPU Inference"
-description: "Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models."
+name: RunPod Serverless GPU Inference
+description: Deploy and manage GPU inference endpoints on RunPod Serverless using
+  their REST API. Handles endpoint creation, cold start optimization, request queuing,
+  and auto-scaling configuration for image generation models.
 category: "Image &amp; Creative Automation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/"
 ---
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill runpod-serverless-gpu-inference
 ```bash
 clawhub install runpod-serverless-gpu-inference
 ```
+
 
 ## Source
 

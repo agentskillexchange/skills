@@ -1,8 +1,11 @@
 ---
-name: "Anthropic SDK Token Usage Logger"
-description: "Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create method to capture usage.input_tokens, usage.output_tokens, and timing from the API response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient."
+name: Anthropic SDK Token Usage Logger
+description: Instruments Anthropic API calls to log token usage, latency, and cost
+  per request using the Anthropic TypeScript SDK. Wraps the anthropic.messages.create
+  method to capture usage.input_tokens, usage.output_tokens, and timing from the API
+  response. Writes structured logs to CloudWatch Logs via the AWS SDK v3 CloudWatchLogsClient.
 category: "Library &amp; API Reference"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill anthropic-sdk-token-usage-logge
 ```bash
 clawhub install anthropic-sdk-token-usage-logger
 ```
+
 
 ## Source
 

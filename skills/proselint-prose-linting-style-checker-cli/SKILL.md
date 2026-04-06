@@ -1,14 +1,17 @@
 ---
-name: "proselint Prose Linting and Style Checker CLI"
-description: "proselint is a Python CLI tool that lints English prose for style and usage issues. It aggregates writing advice from renowned authors and editors including Bryan Garner, David Foster Wallace, and Strunk & White into automated checks that scan text files and flag problems."
+name: proselint Prose Linting and Style Checker CLI
+description: "proselint is a Python CLI tool that lints English prose for style and\
+  \ usage issues. It aggregates writing advice from renowned authors and editors including\
+  \ Bryan Garner, David Foster Wallace, and Strunk & White into automated checks that\
+  \ scan text files and flag problems."
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/amperser/proselint"
 tool_ecosystem:
   github_repo: "https://github.com/amperser/proselint"
   github_stars: 4515
-  license: "BSD-3-Clause"
+  license: BSD-3-Clause
 ---
 # proselint Prose Linting and Style Checker CLI
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill proselint-prose-linting-style-c
 clawhub install proselint-prose-linting-style-checker-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/proselint-prose-linting-style-checker-cli/)
+- [GitHub](https://github.com/amperser/proselint)

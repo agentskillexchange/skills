@@ -1,8 +1,10 @@
 ---
-name: "SendGrid Transactional Email Builder"
-description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
+name: SendGrid Transactional Email Builder
+description: Constructs and sends transactional emails using the SendGrid v3 Mail
+  Send API. Builds dynamic templates with Handlebars substitutions, manages suppression
+  groups, and tracks delivery via Event Webhook parsing.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sendgrid-transactional-email-bu
 ```bash
 clawhub install sendgrid-transactional-email-builder
 ```
+
 
 ## Source
 

@@ -1,14 +1,17 @@
 ---
-name: "SVGO SVG Optimization Tool"
-description: "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes unnecessary metadata, simplifies paths, collapses groups, and reduces SVG file sizes for faster web rendering."
+name: SVGO SVG Optimization Tool
+description: An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing
+  SVG files by applying a configurable set of transformation plugins. Removes unnecessary
+  metadata, simplifies paths, collapses groups, and reduces SVG file sizes for faster
+  web rendering.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/svg/svgo"
 tool_ecosystem:
   github_repo: "https://github.com/svg/svgo"
   github_stars: 22412
-  npm_package: "svgo"
+  npm_package: svgo
   npm_weekly_downloads: 28577838
 ---
 # SVGO SVG Optimization Tool
@@ -69,6 +72,7 @@ npx skills add agentskillexchange/skills --skill svgo-svg-optimization-tool -a c
 clawhub install svgo-svg-optimization-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/svgo-svg-optimization-tool/)
+- [GitHub](https://github.com/svg/svgo)

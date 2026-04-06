@@ -1,8 +1,10 @@
 ---
-name: "Papermark Open Source Document Sharing Platform with Analytics"
-description: "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL."
+name: Papermark Open Source Document Sharing Platform with Analytics
+description: Papermark is an open-source alternative to DocSend for secure document
+  sharing with built-in page-by-page analytics, custom branding, custom domains, and
+  self-hosting support. Built with Next.js and PostgreSQL.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mfts/papermark"
 tool_ecosystem:
@@ -63,6 +65,7 @@ npx skills add agentskillexchange/skills --skill papermark-document-sharing-anal
 clawhub install papermark-document-sharing-analytics
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/papermark-document-sharing-analytics/)
+- [GitHub](https://github.com/mfts/papermark)

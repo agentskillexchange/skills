@@ -1,8 +1,11 @@
 ---
-name: "Pixi Cross-Platform Package Manager Built on Conda"
-description: "A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with a Cargo-like developer experience for Python, C++, R, and more."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Pixi Cross-Platform Package Manager Built on Conda
+description: A blazing-fast, cross-platform package manager and workflow tool written
+  in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language
+  dependency management with a Cargo-like developer experience for Python, C++, R,
+  and more.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/prefix-dev/pixi"
 tool_ecosystem:
@@ -57,6 +60,7 @@ npx skills add agentskillexchange/skills --skill pixi-cross-platform-package-man
 clawhub install pixi-cross-platform-package-manager-conda-rust
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pixi-cross-platform-package-manager-conda-rust/)
+- [GitHub](https://github.com/prefix-dev/pixi)

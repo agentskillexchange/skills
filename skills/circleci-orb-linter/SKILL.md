@@ -1,8 +1,10 @@
 ---
-name: "CircleCI Orb Linter"
-description: "Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images, inefficient caching strategies, and security anti-patterns."
-category: "CI/CD Integrations"
-framework: "Cursor"
+name: CircleCI Orb Linter
+description: Validates CircleCI configuration files and custom Orbs using the CircleCI
+  CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images,
+  inefficient caching strategies, and security anti-patterns.
+category: CI/CD Integrations
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-linter/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill circleci-orb-linter -a codex
 ```bash
 clawhub install circleci-orb-linter
 ```
+
 
 ## Source
 

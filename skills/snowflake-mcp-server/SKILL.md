@@ -1,8 +1,12 @@
 ---
-name: "Snowflake MCP Server"
-description: "Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages, tasks, streams, Snowpark, query history and preserving the operational context that matters for real tasks. In practice, the […]"
+name: Snowflake MCP Server
+description: "Snowflake MCP Server is built around Snowflake cloud data warehouse.\
+  \ It gives an agent a more technical and reliable way to work with the tool than\
+  \ a thin one-line wrapper, using stable interfaces like SQL, warehouses, stages,\
+  \ tasks, streams, Snowpark, query history and preserving the operational context\
+  \ that matters for real tasks. In practice, the […]"
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-mcp-server/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill snowflake-mcp-server -a codex
 ```bash
 clawhub install snowflake-mcp-server
 ```
+
 
 ## Source
 

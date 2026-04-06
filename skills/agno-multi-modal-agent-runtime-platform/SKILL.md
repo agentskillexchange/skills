@@ -1,14 +1,17 @@
 ---
-name: "Agno Multi-Modal Agent Runtime Platform"
-description: "Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It provides a three-layer architecture — framework, runtime, and control plane — enabling developers to go from agent prototype to production API in roughly 20 lines of code."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Agno Multi-Modal Agent Runtime Platform
+description: Agno is a high-performance Python framework for building, running, and
+  managing agentic software at scale. It provides a three-layer architecture — framework,
+  runtime, and control plane — enabling developers to go from agent prototype to production
+  API in roughly 20 lines of code.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/agno-agi/agno"
 tool_ecosystem:
   github_repo: "https://github.com/agno-agi/agno"
   github_stars: 39050
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Agno Multi-Modal Agent Runtime Platform
 
@@ -66,6 +69,7 @@ npx skills add agentskillexchange/skills --skill agno-multi-modal-agent-runtime-
 clawhub install agno-multi-modal-agent-runtime-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/agno-multi-modal-agent-runtime-platform/)
+- [GitHub](https://github.com/agno-agi/agno)

@@ -1,8 +1,10 @@
 ---
-name: "Pandas DataFrame Pipeline Orchestrator"
-description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
+name: Pandas DataFrame Pipeline Orchestrator
+description: Chains pandas DataFrame transformations into reproducible pipelines using
+  pipe() method composition. Handles missing data imputation with fillna() strategies,
+  type coercion with astype(), and memory optimization via category dtypes.
 category: "Data Extraction &amp; Transformation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-pipeline-orche
 ```bash
 clawhub install pandas-dataframe-pipeline-orchestrator
 ```
+
 
 ## Source
 

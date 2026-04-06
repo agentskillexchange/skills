@@ -1,8 +1,11 @@
 ---
-name: "OpenCode Multi-Model AI Coding Agent CLI"
-description: "An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: OpenCode Multi-Model AI Coding Agent CLI
+description: An open-source terminal-native AI coding agent written in Go that supports
+  75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing,
+  code generation, shell command execution, and project understanding without subscription
+  fees.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/opencode-ai/opencode"
 tool_ecosystem:
@@ -65,6 +68,7 @@ npx skills add agentskillexchange/skills --skill opencode-multi-model-ai-coding-
 clawhub install opencode-multi-model-ai-coding-agent-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/opencode-multi-model-ai-coding-agent-cli/)
+- [GitHub](https://github.com/opencode-ai/opencode)

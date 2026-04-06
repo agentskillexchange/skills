@@ -1,8 +1,11 @@
 ---
-name: "Prefect Python Workflow Orchestration Framework for Data Pipelines"
-description: "Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries, caching, and observability to any Python script with simple decorators. Monitor workflows through the self-hosted Prefect server or managed Prefect Cloud dashboard."
+name: Prefect Python Workflow Orchestration Framework for Data Pipelines
+description: Prefect is a Python workflow orchestration framework for building resilient
+  data pipelines. Add scheduling, retries, caching, and observability to any Python
+  script with simple decorators. Monitor workflows through the self-hosted Prefect
+  server or managed Prefect Cloud dashboard.
 category: "Templates &amp; Workflows"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/PrefectHQ/prefect"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill prefect-python-workflow-orchest
 clawhub install prefect-python-workflow-orchestration-data-pipelines
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/prefect-python-workflow-orchestration-data-pipelines/)
+- [GitHub](https://github.com/PrefectHQ/prefect)

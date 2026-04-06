@@ -1,14 +1,17 @@
 ---
-name: "WP-CLI Command-Line Interface for WordPress"
-description: "Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin."
+name: WP-CLI Command-Line Interface for WordPress
+description: Builds repeatable WordPress maintenance and content workflows around
+  WP-CLI, the official command-line interface for WordPress. Useful for plugin management,
+  database tasks, user administration, search-replace operations, and scripted publishing
+  without living inside wp-admin.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
 tool_ecosystem:
   github_repo: "https://github.com/wp-cli/wp-cli"
   github_stars: 5044
-  license: "MIT"
+  license: MIT
 ---
 # WP-CLI Command-Line Interface for WordPress
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill wp-cli-command-line-interface-w
 clawhub install wp-cli-command-line-interface-wordpress
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/)
+- [GitHub](https://github.com/wp-cli/wp-cli)

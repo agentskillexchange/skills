@@ -1,8 +1,10 @@
 ---
-name: "Docker Image Layer Analyzer"
-description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
+name: Docker Image Layer Analyzer
+description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and
+  dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage
+  build optimizations.
 category: "Library &amp; API Reference"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill docker-image-layer-analyzer -a 
 ```bash
 clawhub install docker-image-layer-analyzer
 ```
+
 
 ## Source
 

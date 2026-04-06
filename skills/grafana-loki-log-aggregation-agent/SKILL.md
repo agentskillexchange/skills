@@ -1,8 +1,10 @@
 ---
-name: "Grafana Loki Log Aggregation Agent"
-description: "Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces."
+name: Grafana Loki Log Aggregation Agent
+description: Configures Grafana Loki log pipelines with Promtail collectors and LogQL
+  queries. Supports multi-tenant log routing, retention policies, and correlation
+  with Grafana Tempo traces.
 category: "Monitoring &amp; Alerts"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill grafana-loki-log-aggregation-ag
 ```bash
 clawhub install grafana-loki-log-aggregation-agent
 ```
+
 
 ## Source
 

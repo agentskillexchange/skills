@@ -1,8 +1,10 @@
 ---
-name: "Cal.com Open Source Scheduling Infrastructure and API"
-description: "Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API."
+name: Cal.com Open Source Scheduling Infrastructure and API
+description: Integrate Cal.com’s open-source scheduling platform into AI agent workflows.
+  Agents can programmatically create event types, check availability, book meetings,
+  and manage scheduling infrastructure through Cal.com’s comprehensive REST API.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/calcom/cal.com"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill cal-com-open-source-scheduling-
 clawhub install cal-com-open-source-scheduling-infrastructure-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cal-com-open-source-scheduling-infrastructure-api/)
+- [GitHub](https://github.com/calcom/cal.com)

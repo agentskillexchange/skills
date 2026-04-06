@@ -1,8 +1,11 @@
 ---
-name: "Nodriver Async Undetected Chrome Browser Automation for Python"
-description: "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built for stealth web automation that bypasses anti-bot systems including Cloudflare and Imperva."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Nodriver Async Undetected Chrome Browser Automation for Python
+description: Nodriver is the official successor to Undetected-Chromedriver, providing
+  async browser automation that communicates directly with Chrome DevTools Protocol
+  without Selenium or WebDriver dependencies. Built for stealth web automation that
+  bypasses anti-bot systems including Cloudflare and Imperva.
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 ---
@@ -70,6 +73,7 @@ npx skills add agentskillexchange/skills --skill nodriver-undetected-chrome-auto
 clawhub install nodriver-undetected-chrome-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nodriver-undetected-chrome-automation/)
+- [GitHub](https://github.com/ultrafunkamsterdam/nodriver)

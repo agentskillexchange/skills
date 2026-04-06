@@ -1,8 +1,11 @@
 ---
-name: "Betterleaks Next-Generation Secrets Scanner"
-description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
+name: Betterleaks Next-Generation Secrets Scanner
+description: A fast, configurable secrets scanner built by the creator of Gitleaks
+  and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and
+  tokens in git repositories, directories, and stdin with CEL-based validation and
+  parallelized scanning.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/betterleaks/betterleaks"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill betterleaks-secrets-scanner -a 
 clawhub install betterleaks-secrets-scanner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/betterleaks-secrets-scanner/)
+- [GitHub](https://github.com/betterleaks/betterleaks)

@@ -1,8 +1,10 @@
 ---
-name: "Nx Workspace Generator"
-description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
+name: Nx Workspace Generator
+description: Creates and manages Nx monorepo workspace generators using @nx/devkit
+  and the Nx plugin API. Generates libraries, applications, and custom executors with
+  automatic dependency graph updates via nx graph.
 category: "Templates &amp; Workflows"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill nx-workspace-generator -a codex
 ```bash
 clawhub install nx-workspace-generator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Deployment Runbook Agent"
-description: "Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback procedures, and application health monitoring."
+name: ArgoCD Deployment Runbook Agent
+description: Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize
+  overlays. Automates sync operations, rollback procedures, and application health
+  monitoring.
 category: "Runbooks &amp; Diagnostics"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-deployment-runbook-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill argocd-deployment-runbook-agent
 ```bash
 clawhub install argocd-deployment-runbook-agent
 ```
+
 
 ## Source
 

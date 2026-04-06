@@ -1,8 +1,11 @@
 ---
-name: "SuperTokens Open Source Authentication Platform and Auth0 Alternative"
-description: "SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social auth, MFA, session management, and multi-tenancy with SDKs for Node.js, Python, Go, and popular frontend frameworks."
+name: SuperTokens Open Source Authentication Platform and Auth0 Alternative
+description: SuperTokens is an open-source authentication platform that serves as
+  a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides
+  passwordless login, social auth, MFA, session management, and multi-tenancy with
+  SDKs for Node.js, Python, Go, and popular frontend frameworks.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/supertokens/supertokens-core"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill supertokens-open-source-auth-pl
 clawhub install supertokens-open-source-auth-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/supertokens-open-source-auth-platform/)
+- [GitHub](https://github.com/supertokens/supertokens-core)

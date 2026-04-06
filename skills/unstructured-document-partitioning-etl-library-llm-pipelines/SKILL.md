@@ -1,14 +1,17 @@
 ---
-name: "Unstructured Document Partitioning and ETL Library for LLM Pipelines"
-description: "Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and other unstructured inputs into structured elements and metadata. It is commonly used as a preprocessing layer for RAG, search, extraction, and downstream AI pipelines."
+name: Unstructured Document Partitioning and ETL Library for LLM Pipelines
+description: Unstructured is an open-source library for ingesting and partitioning
+  PDFs, HTML, Office documents, emails, and other unstructured inputs into structured
+  elements and metadata. It is commonly used as a preprocessing layer for RAG, search,
+  extraction, and downstream AI pipelines.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Unstructured-IO/unstructured"
 tool_ecosystem:
   github_repo: "https://github.com/unstructured-io/unstructured"
   github_stars: 14390
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill unstructured-document-partition
 clawhub install unstructured-document-partitioning-etl-library-llm-pipelines
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/unstructured-document-partitioning-etl-library-llm-pipelines/)
+- [GitHub](https://github.com/Unstructured-IO/unstructured)

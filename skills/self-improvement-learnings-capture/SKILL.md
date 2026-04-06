@@ -1,8 +1,9 @@
 ---
-name: "Self-Improvement / Learnings Capture"
-description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
+name: Self-Improvement / Learnings Capture
+description: Capture failures, corrections, and repeatable lessons so important operational
+  knowledge persists across sessions.
 category: "Templates &amp; Workflows"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
 ---
@@ -57,6 +58,7 @@ npx skills add agentskillexchange/skills --skill self-improvement-learnings-capt
 ```bash
 clawhub install self-improvement-learnings-capture
 ```
+
 
 ## Source
 

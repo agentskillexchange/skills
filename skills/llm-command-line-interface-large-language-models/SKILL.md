@@ -1,14 +1,17 @@
 ---
-name: "LLM Command-Line Interface for Large Language Models"
-description: "LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Anthropic Claude, Google Gemini, Meta Llama, and dozens of other language models from the terminal. It supports API-based and local models via plugins, conversation logging to SQLite, templates, embeddings, and tool use."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: LLM Command-Line Interface for Large Language Models
+description: LLM is a Python CLI tool and library by Simon Willison for accessing
+  OpenAI, Anthropic Claude, Google Gemini, Meta Llama, and dozens of other language
+  models from the terminal. It supports API-based and local models via plugins, conversation
+  logging to SQLite, templates, embeddings, and tool use.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/simonw/llm"
 tool_ecosystem:
   github_repo: "https://github.com/simonw/llm"
   github_stars: 11508
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # LLM Command-Line Interface for Large Language Models
 
@@ -72,6 +75,7 @@ npx skills add agentskillexchange/skills --skill llm-command-line-interface-larg
 clawhub install llm-command-line-interface-large-language-models
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/llm-command-line-interface-large-language-models/)
+- [GitHub](https://github.com/simonw/llm)

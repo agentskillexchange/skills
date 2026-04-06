@@ -1,8 +1,11 @@
 ---
-name: "Semgrep Rule Runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+name: Semgrep Rule Runner
+description: Executes Semgrep static analysis using the semgrep CLI with custom YAML
+  rule packs. Supports –config auto for community rules, parses JSON output via –json
+  flag, and integrates with Semgrep App API for centralized findings management and
+  triage workflows.
 category: "Code Quality &amp; Review"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 ---
@@ -49,6 +52,7 @@ npx skills add agentskillexchange/skills --skill semgrep-rule-runner -a codex
 ```bash
 clawhub install semgrep-rule-runner
 ```
+
 
 ## Source
 

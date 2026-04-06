@@ -1,14 +1,18 @@
 ---
-name: "PagerDuty MCP Server"
-description: "PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented by PagerDuty/pdjs (69+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like incidents, escalation policies, schedules, services, responders, analytics and preserving the operational […]"
+name: PagerDuty MCP Server
+description: "PagerDuty MCP Server is built around PagerDuty incident response platform.\
+  \ The underlying ecosystem is represented by PagerDuty/pdjs (69+ GitHub stars).\
+  \ It gives an agent a more technical and reliable way to work with the tool than\
+  \ a thin one-line wrapper, using stable interfaces like incidents, escalation policies,\
+  \ schedules, services, responders, analytics and preserving the operational […]"
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 tool_ecosystem:
   github_repo: "https://github.com/pagerduty/pdjs"
   github_stars: 69
-  npm_package: "@pagerduty/pdjs"
+  npm_package: '@pagerduty/pdjs'
 ---
 # PagerDuty MCP Server
 
@@ -60,6 +64,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-mcp-server -a codex
 clawhub install pagerduty-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-mcp-server/)
+- [GitHub](https://github.com/PagerDuty/pdjs)

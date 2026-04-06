@@ -1,8 +1,10 @@
 ---
-name: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
-description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
+name: Listmonk Self-Hosted Newsletter and Mailing List Manager
+description: High-performance, self-hosted newsletter and mailing list manager packed
+  into a single binary. Manages millions of subscribers with templated campaigns,
+  analytics, and a REST API for programmatic email automation.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/knadh/listmonk"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill listmonk-self-hosted-newsletter
 clawhub install listmonk-self-hosted-newsletter-mailing-list
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/listmonk-self-hosted-newsletter-mailing-list/)
+- [GitHub](https://github.com/knadh/listmonk)

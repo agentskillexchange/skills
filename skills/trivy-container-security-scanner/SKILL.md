@@ -1,8 +1,10 @@
 ---
-name: "Trivy Container Security Scanner"
-description: "Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration."
+name: Trivy Container Security Scanner
+description: Integrates Aqua Security Trivy CLI for comprehensive container image
+  vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities,
+  and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
 ---
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill trivy-container-security-scanne
 ```bash
 clawhub install trivy-container-security-scanner
 ```
+
 
 ## Source
 

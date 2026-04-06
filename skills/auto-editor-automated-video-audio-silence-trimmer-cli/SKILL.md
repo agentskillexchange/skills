@@ -1,14 +1,16 @@
 ---
-name: "Auto-Editor Automated Video and Audio Silence Trimmer CLI"
-description: "Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines."
+name: Auto-Editor Automated Video and Audio Silence Trimmer CLI
+description: Auto-Editor is a command-line application that automatically edits video
+  and audio by analyzing loudness, motion, and other signals to cut dead space. It
+  exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/WyattBlue/auto-editor"
 tool_ecosystem:
   github_repo: "https://github.com/wyattblue/auto-editor"
   github_stars: 4089
-  license: "Unlicense"
+  license: Unlicense
 ---
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI
 
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill auto-editor-automated-video-aud
 clawhub install auto-editor-automated-video-audio-silence-trimmer-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/auto-editor-automated-video-audio-silence-trimmer-cli/)
+- [GitHub](https://github.com/WyattBlue/auto-editor)

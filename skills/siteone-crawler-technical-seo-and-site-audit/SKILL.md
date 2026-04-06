@@ -1,8 +1,11 @@
 ---
-name: "SiteOne Crawler Technical SEO and Site Audit"
-description: "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler project to turn large site crawls into structured diagnostics, export files, and remediation queues."
+name: SiteOne Crawler Technical SEO and Site Audit
+description: SiteOne Crawler is a real website crawler and analyzer for technical
+  SEO, accessibility, security, and performance checks. This skill uses the upstream
+  SiteOne Crawler project to turn large site crawls into structured diagnostics, export
+  files, and remediation queues.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/janreges/siteone-crawler"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill siteone-crawler-technical-seo-a
 clawhub install siteone-crawler-technical-seo-and-site-audit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/siteone-crawler-technical-seo-and-site-audit/)
+- [GitHub](https://github.com/janreges/siteone-crawler)

@@ -1,8 +1,11 @@
 ---
-name: "FilePond Flexible JavaScript File Upload Library"
-description: "FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with drag-and-drop, paste, and API support. It includes built-in image optimization, async chunked uploads, and adapters for React, Vue, Angular, and Svelte."
+name: FilePond Flexible JavaScript File Upload Library
+description: FilePond is a JavaScript file upload library that handles files, directories,
+  URLs, and Data URIs with drag-and-drop, paste, and API support. It includes built-in
+  image optimization, async chunked uploads, and adapters for React, Vue, Angular,
+  and Svelte.
 category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/pqina/filepond"
 ---
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill filepond-javascript-file-upload
 clawhub install filepond-javascript-file-upload-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/filepond-javascript-file-upload-library/)
+- [GitHub](https://github.com/pqina/filepond)

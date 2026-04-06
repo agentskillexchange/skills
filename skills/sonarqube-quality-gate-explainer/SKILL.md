@@ -1,8 +1,11 @@
 ---
-name: "SonarQube Quality Gate Explainer"
-description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
+name: SonarQube Quality Gate Explainer
+description: Fetches the latest SonarQube project analysis result, explains why the
+  Quality Gate failed in plain English, and links to specific issues. Covers coverage
+  drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud.
+  Diagnostic only.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-explaine
 ```bash
 clawhub install sonarqube-quality-gate-explainer
 ```
+
 
 ## Source
 

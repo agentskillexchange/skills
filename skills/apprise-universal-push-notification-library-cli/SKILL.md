@@ -1,14 +1,17 @@
 ---
-name: "Apprise Universal Push Notification Library and CLI"
-description: "Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email, and more through a single unified API. It supports attachments, images, and asynchronous delivery."
+name: Apprise Universal Push Notification Library and CLI
+description: Apprise is a Python library and CLI that sends push notifications to
+  over 100 services including Telegram, Discord, Slack, Amazon SNS, Gotify, email,
+  and more through a single unified API. It supports attachments, images, and asynchronous
+  delivery.
 category: "Monitoring &amp; Alerts"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/caronc/apprise"
 tool_ecosystem:
   github_repo: "https://github.com/caronc/apprise"
   github_stars: 16227
-  license: "BSD-2-Clause"
+  license: BSD-2-Clause
 ---
 # Apprise Universal Push Notification Library and CLI
 
@@ -66,6 +69,7 @@ npx skills add agentskillexchange/skills --skill apprise-universal-push-notifica
 clawhub install apprise-universal-push-notification-library-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/apprise-universal-push-notification-library-cli/)
+- [GitHub](https://github.com/caronc/apprise)

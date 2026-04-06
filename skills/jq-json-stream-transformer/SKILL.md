@@ -1,8 +1,10 @@
 ---
-name: "jq JSON Stream Transformer"
-description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq’s streaming parser."
+name: jq JSON Stream Transformer
+description: Constructs complex jq filter expressions for transforming JSON/NDJSON
+  streams, including recursive descent, object construction, and reduce operations.
+  Handles multi-gigabyte streams with jq’s streaming parser.
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill jq-json-stream-transformer -a c
 ```bash
 clawhub install jq-json-stream-transformer
 ```
+
 
 ## Source
 

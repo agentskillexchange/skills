@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Documentation Builder"
-description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files."
+name: GraphQL Schema Documentation Builder
+description: Generates interactive API documentation from GraphQL schemas using graphql-js
+  introspection queries and SpectaQL. Produces type relationship diagrams, query examples,
+  and deprecation notices from SDL files.
 category: "Library &amp; API Reference"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-documentation-bu
 ```bash
 clawhub install graphql-schema-documentation-builder
 ```
+
 
 ## Source
 

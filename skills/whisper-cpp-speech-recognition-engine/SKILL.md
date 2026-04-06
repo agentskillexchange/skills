@@ -1,8 +1,10 @@
 ---
-name: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
-description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
+name: whisper.cpp High-Performance C/C++ Speech Recognition Engine
+description: whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI’s
+  Whisper automatic speech recognition model. It runs on CPU and GPU across all major
+  platforms with zero dependencies and zero runtime memory allocations.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/ggml-org/whisper.cpp"
 tool_ecosystem:
@@ -71,6 +73,7 @@ npx skills add agentskillexchange/skills --skill whisper-cpp-speech-recognition-
 clawhub install whisper-cpp-speech-recognition-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/whisper-cpp-speech-recognition-engine/)
+- [GitHub](https://github.com/ggml-org/whisper.cpp)

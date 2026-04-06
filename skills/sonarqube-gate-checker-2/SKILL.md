@@ -1,8 +1,10 @@
 ---
-name: "SonarQube Gate Checker"
-description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
+name: SonarQube Gate Checker
+description: Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate
+  quality gate conditions before merge. Reports code smells, coverage thresholds,
+  and duplications against configurable SonarQube quality profiles.
 category: "Templates &amp; Workflows"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill sonarqube-gate-checker-2 -a cod
 ```bash
 clawhub install sonarqube-gate-checker-2
 ```
+
 
 ## Source
 

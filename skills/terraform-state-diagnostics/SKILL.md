@@ -1,8 +1,10 @@
 ---
-name: "Terraform State Diagnostics"
-description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
+name: Terraform State Diagnostics
+description: Diagnoses Terraform state issues using terraform state commands, the
+  Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state
+  lock conflicts across workspaces.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill terraform-state-diagnostics -a 
 ```bash
 clawhub install terraform-state-diagnostics
 ```
+
 
 ## Source
 

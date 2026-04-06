@@ -1,8 +1,11 @@
 ---
-name: "Gemini Image Style Transfer Agent"
-description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
+name: Gemini Image Style Transfer Agent
+description: Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic
+  transformations to uploaded images, converting photos to watercolor, line art, or
+  oil painting styles. Accepts base64-encoded input images and returns styled outputs
+  with configurable style prompts.
 category: "Image &amp; Creative Automation"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
 ---
@@ -45,6 +48,7 @@ npx skills add agentskillexchange/skills --skill gemini-image-style-transfer-age
 ```bash
 clawhub install gemini-image-style-transfer-agent
 ```
+
 
 ## Source
 

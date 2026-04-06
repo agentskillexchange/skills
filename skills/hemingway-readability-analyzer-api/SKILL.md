@@ -1,8 +1,10 @@
 ---
-name: "Hemingway Readability Analyzer API"
-description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density."
+name: Hemingway Readability Analyzer API
+description: Scores content readability using textstat library metrics (Flesch-Kincaid,
+  Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via
+  spaCy dependency parsing, and adverb density.
 category: "Content Writing &amp; SEO"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill hemingway-readability-analyzer-
 ```bash
 clawhub install hemingway-readability-analyzer-api
 ```
+
 
 ## Source
 

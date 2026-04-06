@@ -1,8 +1,10 @@
 ---
-name: "Cookiecutter Project Scaffold"
-description: "Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for post-generation linting via Ruff and pre-commit framework setup."
+name: Cookiecutter Project Scaffold
+description: Generates project boilerplate from Cookiecutter templates with Jinja2
+  variable injection. Supports custom hooks for post-generation linting via Ruff and
+  pre-commit framework setup.
 category: "Templates &amp; Workflows"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-scaffold -
 ```bash
 clawhub install cookiecutter-project-scaffold
 ```
+
 
 ## Source
 

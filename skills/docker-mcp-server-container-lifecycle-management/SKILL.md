@@ -1,8 +1,10 @@
 ---
-name: "Docker MCP Server for Container Lifecycle Management"
-description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
+name: Docker MCP Server for Container Lifecycle Management
+description: An MCP server that enables AI agents to manage Docker containers, images,
+  volumes, and networks through natural language. Supports local and remote Docker
+  engines for container lifecycle operations via the Model Context Protocol.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/ckreiling/mcp-server-docker"
 tool_ecosystem:
@@ -65,6 +67,7 @@ npx skills add agentskillexchange/skills --skill docker-mcp-server-container-lif
 clawhub install docker-mcp-server-container-lifecycle-management
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/docker-mcp-server-container-lifecycle-management/)
+- [GitHub](https://github.com/ckreiling/mcp-server-docker)

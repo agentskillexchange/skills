@@ -1,8 +1,10 @@
 ---
-name: "PostgreSQL Query Optimizer Agent"
-description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives."
-category: "Developer Tools"
-framework: "OpenClaw"
+name: PostgreSQL Query Optimizer Agent
+description: Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with
+  pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical
+  index simulator and validates query plans against pg_hint_plan directives.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill postgresql-query-optimizer-expl
 ```bash
 clawhub install postgresql-query-optimizer-explain-api
 ```
+
 
 ## Source
 

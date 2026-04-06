@@ -1,14 +1,16 @@
 ---
-name: "wp-browser WordPress Integration Testing with Codeception"
-description: "wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports unit, integration, functional, and acceptance testing with WordPress-aware test environments and database isolation."
+name: wp-browser WordPress Integration Testing with Codeception
+description: wp-browser is a PHP library that provides Codeception modules for testing
+  WordPress plugins and themes. It supports unit, integration, functional, and acceptance
+  testing with WordPress-aware test environments and database isolation.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/lucatume/wp-browser"
 tool_ecosystem:
   github_repo: "https://github.com/lucatume/wp-browser"
   github_stars: 634
-  license: "MIT"
+  license: MIT
 ---
 # wp-browser WordPress Integration Testing with Codeception
 
@@ -56,6 +58,7 @@ npx skills add agentskillexchange/skills --skill wp-browser-wordpress-integratio
 clawhub install wp-browser-wordpress-integration-testing-codeception
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-browser-wordpress-integration-testing-codeception/)
+- [GitHub](https://github.com/lucatume/wp-browser)

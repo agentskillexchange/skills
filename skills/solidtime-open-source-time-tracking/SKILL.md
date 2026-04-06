@@ -1,8 +1,11 @@
 ---
-name: "solidtime Modern Open Source Time Tracking for Freelancers and Agencies"
-description: "solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project and client management, billable rates, task assignment, multi-organization support, and data import from Toggl and Clockify. Self-hostable with Docker."
+name: solidtime Modern Open Source Time Tracking for Freelancers and Agencies
+description: solidtime is a modern open-source time tracking application built for
+  freelancers and agencies, featuring project and client management, billable rates,
+  task assignment, multi-organization support, and data import from Toggl and Clockify.
+  Self-hostable with Docker.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/solidtime-io/solidtime"
 ---
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill solidtime-open-source-time-trac
 clawhub install solidtime-open-source-time-tracking
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/solidtime-open-source-time-tracking/)
+- [GitHub](https://github.com/solidtime-io/solidtime)

@@ -1,8 +1,10 @@
 ---
-name: "OpenAPI Spec Navigator"
-description: "Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs."
+name: OpenAPI Spec Navigator
+description: Parses and navigates OpenAPI 3.1 specifications using swagger-parser
+  and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint
+  signatures, and generates typed client stubs.
 category: "Library &amp; API Reference"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill openapi-spec-navigator -a codex
 ```bash
 clawhub install openapi-spec-navigator
 ```
+
 
 ## Source
 

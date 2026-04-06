@@ -1,8 +1,10 @@
 ---
-name: "npm Registry Explorer"
-description: "Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated packages, and checks bundle sizes via Bundlephobia API."
+name: npm Registry Explorer
+description: Queries the npm registry API and npms.io search API for package discovery,
+  dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated
+  packages, and checks bundle sizes via Bundlephobia API.
 category: "Library &amp; API Reference"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill npm-registry-explorer -a codex
 ```bash
 clawhub install npm-registry-explorer
 ```
+
 
 ## Source
 

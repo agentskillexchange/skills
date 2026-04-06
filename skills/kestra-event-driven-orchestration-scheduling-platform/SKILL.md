@@ -1,8 +1,11 @@
 ---
-name: "Kestra Event-Driven Orchestration and Scheduling Platform"
-description: "Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. Define workflows declaratively in YAML with a rich plugin ecosystem covering databases, cloud storage, APIs, and scripting in any language."
+name: Kestra Event-Driven Orchestration and Scheduling Platform
+description: Kestra is an open-source, event-driven orchestration platform that makes
+  both scheduled and event-driven workflows easy. Define workflows declaratively in
+  YAML with a rich plugin ecosystem covering databases, cloud storage, APIs, and scripting
+  in any language.
 category: "Templates &amp; Workflows"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/kestra-io/kestra"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill kestra-event-driven-orchestrati
 clawhub install kestra-event-driven-orchestration-scheduling-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/kestra-event-driven-orchestration-scheduling-platform/)
+- [GitHub](https://github.com/kestra-io/kestra)

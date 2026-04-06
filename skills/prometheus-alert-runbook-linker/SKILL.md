@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Runbook Linker"
-description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
+name: Prometheus Alert Runbook Linker
+description: Links Prometheus alerting rules to operational runbooks by parsing AlertManager
+  configurations and PrometheusRule CRDs. Validates runbook_url annotations exist
+  and are reachable, and generates stub runbooks for undocumented alerts.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
 ---
@@ -61,6 +63,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-linker
 ```bash
 clawhub install prometheus-alert-runbook-linker
 ```
+
 
 ## Source
 

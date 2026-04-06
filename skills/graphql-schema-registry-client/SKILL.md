@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Registry Client"
-description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
+name: GraphQL Schema Registry Client
+description: Manages GraphQL schema versions using Apollo Schema Registry API and
+  graphql-inspector. Performs schema diffing, breaking change detection, and composition
+  validation for federated GraphQL architectures.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-client/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-registry-client 
 ```bash
 clawhub install graphql-schema-registry-client
 ```
+
 
 ## Source
 

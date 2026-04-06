@@ -1,8 +1,10 @@
 ---
-name: "Steampipe Zero-ETL SQL Cloud API Query Engine"
-description: "Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and more) to PostgreSQL tables — no ETL pipelines needed."
+name: Steampipe Zero-ETL SQL Cloud API Query Engine
+description: Query cloud APIs, SaaS services, and infrastructure with standard SQL
+  using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and
+  more) to PostgreSQL tables — no ETL pipelines needed.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/turbot/steampipe"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill steampipe-zero-etl-sql-cloud-ap
 clawhub install steampipe-zero-etl-sql-cloud-api-query-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/steampipe-zero-etl-sql-cloud-api-query-engine/)
+- [GitHub](https://github.com/turbot/steampipe)

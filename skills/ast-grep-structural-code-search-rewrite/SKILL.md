@@ -1,8 +1,10 @@
 ---
-name: "ast-grep Structural Code Search and Rewrite"
-description: "Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A blazing-fast alternative to regex-based code transformations that understands syntax structure."
+name: ast-grep Structural Code Search and Rewrite
+description: Use ast-grep (sg) to search, lint, and rewrite code across large codebases
+  using AST pattern matching. A blazing-fast alternative to regex-based code transformations
+  that understands syntax structure.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/ast-grep/ast-grep"
 tool_ecosystem:
@@ -61,6 +63,7 @@ npx skills add agentskillexchange/skills --skill ast-grep-structural-code-search
 clawhub install ast-grep-structural-code-search-rewrite
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ast-grep-structural-code-search-rewrite/)
+- [GitHub](https://github.com/ast-grep/ast-grep)

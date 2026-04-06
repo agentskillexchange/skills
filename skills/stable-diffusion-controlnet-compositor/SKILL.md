@@ -1,8 +1,10 @@
 ---
-name: "Stable Diffusion ControlNet Compositor"
-description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing."
+name: Stable Diffusion ControlNet Compositor
+description: Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny,
+  Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports
+  and A1111 API batch processing.
 category: "Image &amp; Creative Automation"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-controlnet-com
 ```bash
 clawhub install stable-diffusion-controlnet-compositor
 ```
+
 
 ## Source
 

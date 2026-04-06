@@ -1,8 +1,10 @@
 ---
-name: "Navidrome Self-Hosted Music Streaming Server and Subsonic API"
-description: "Integrate Navidrome’s self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible API and Navidrome’s native REST endpoints."
+name: Navidrome Self-Hosted Music Streaming Server and Subsonic API
+description: Integrate Navidrome’s self-hosted music server into AI agent workflows.
+  Agents can manage music libraries, create playlists, control playback, and search
+  collections through the Subsonic-compatible API and Navidrome’s native REST endpoints.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/navidrome/navidrome"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill navidrome-self-hosted-music-str
 clawhub install navidrome-self-hosted-music-streaming-subsonic-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/navidrome-self-hosted-music-streaming-subsonic-api/)
+- [GitHub](https://github.com/navidrome/navidrome)

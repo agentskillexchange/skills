@@ -1,8 +1,11 @@
 ---
-name: "Microsoft Graph Calendar Conflict Resolver"
-description: "Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and `findMeetingTimes`. Useful for agents that need to compare attendees, constraints, and availability before proposing a meeting move."
+name: Microsoft Graph Calendar Conflict Resolver
+description: Resolves scheduling collisions with Microsoft Graph Calendar endpoints
+  like `/me/events`, `/calendarView`, and `findMeetingTimes`. Useful for agents that
+  need to compare attendees, constraints, and availability before proposing a meeting
+  move.
 category: "Calendar, Email &amp; Productivity"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://learn.microsoft.com/en-us/graph/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill microsoft-graph-calendar-confli
 clawhub install microsoft-graph-calendar-conflict-resolver
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-calendar-conflict-resolver/)
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/graph/)

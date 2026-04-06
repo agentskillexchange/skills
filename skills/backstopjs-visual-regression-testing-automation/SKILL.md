@@ -1,14 +1,17 @@
 ---
-name: "BackstopJS Visual Regression Testing Automation"
-description: "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on the real BackstopJS project and turns browser-based layout comparison into a structured QA workflow for web teams."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: BackstopJS Visual Regression Testing Automation
+description: BackstopJS gives agents a repeatable way to capture reference screenshots,
+  compare UI states, and flag visual regressions before changes ship. This skill centers
+  on the real BackstopJS project and turns browser-based layout comparison into a
+  structured QA workflow for web teams.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/garris/BackstopJS"
 tool_ecosystem:
   github_repo: "https://github.com/garris/backstopjs"
   github_stars: 7116
-  npm_package: "backstopjs"
+  npm_package: backstopjs
   npm_weekly_downloads: 63062
 ---
 # BackstopJS Visual Regression Testing Automation
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill backstopjs-visual-regression-te
 clawhub install backstopjs-visual-regression-testing-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/backstopjs-visual-regression-testing-automation/)
+- [GitHub](https://github.com/garris/BackstopJS)

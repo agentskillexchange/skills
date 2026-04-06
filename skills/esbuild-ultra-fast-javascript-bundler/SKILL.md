@@ -1,16 +1,19 @@
 ---
-name: "esbuild Ultra-Fast JavaScript Bundler"
-description: "esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It handles bundling, minification, tree shaking, source maps, and CSS modules with a straightforward API available from the CLI, JavaScript, and Go."
-category: "Developer Tools"
-framework: "Claude Code"
+name: esbuild Ultra-Fast JavaScript Bundler
+description: esbuild is an extremely fast JavaScript and TypeScript bundler written
+  in Go that delivers 10-100x faster build times than traditional tools like webpack.
+  It handles bundling, minification, tree shaking, source maps, and CSS modules with
+  a straightforward API available from the CLI, JavaScript, and Go.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/evanw/esbuild"
 tool_ecosystem:
   github_repo: "https://github.com/evanw/esbuild"
   github_stars: 39815
-  npm_package: "esbuild"
+  npm_package: esbuild
   npm_weekly_downloads: 163703618
-  license: "MIT"
+  license: MIT
 ---
 # esbuild Ultra-Fast JavaScript Bundler
 
@@ -58,6 +61,7 @@ npx skills add agentskillexchange/skills --skill esbuild-ultra-fast-javascript-b
 clawhub install esbuild-ultra-fast-javascript-bundler
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/esbuild-ultra-fast-javascript-bundler/)
+- [GitHub](https://github.com/evanw/esbuild)

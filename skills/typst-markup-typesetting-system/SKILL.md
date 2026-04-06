@@ -1,14 +1,17 @@
 ---
-name: "Typst Markup-Based Document Typesetting System"
-description: "Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math typesetting, bibliography management, and incremental compilation for near-instant builds."
+name: Typst Markup-Based Document Typesetting System
+description: Typst is a modern markup-based typesetting system designed to replace
+  LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a
+  scripting system, math typesetting, bibliography management, and incremental compilation
+  for near-instant builds.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/typst/typst"
 tool_ecosystem:
   github_repo: "https://github.com/typst/typst"
   github_stars: 52359
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Typst Markup-Based Document Typesetting System
 
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill typst-markup-typesetting-system
 clawhub install typst-markup-typesetting-system
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/typst-markup-typesetting-system/)
+- [GitHub](https://github.com/typst/typst)

@@ -1,8 +1,10 @@
 ---
-name: "Bannerbear Dynamic Image API"
-description: "Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications, font layers, and signed URL generation for on-the-fly image personalization."
+name: Bannerbear Dynamic Image API
+description: Generates social media graphics and OG images dynamically via Bannerbear
+  REST API. Manages template modifications, font layers, and signed URL generation
+  for on-the-fly image personalization.
 category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill bannerbear-dynamic-image-api -a
 ```bash
 clawhub install bannerbear-dynamic-image-api
 ```
+
 
 ## Source
 

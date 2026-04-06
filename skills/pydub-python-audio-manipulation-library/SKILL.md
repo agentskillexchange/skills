@@ -1,14 +1,17 @@
 ---
-name: "pydub Python Audio Manipulation Library"
-description: "pydub is a Python library that provides a simple, high-level interface for manipulating audio files. It supports slicing, concatenation, volume adjustment, crossfading, format conversion, and effects processing across all formats supported by FFmpeg."
+name: pydub Python Audio Manipulation Library
+description: pydub is a Python library that provides a simple, high-level interface
+  for manipulating audio files. It supports slicing, concatenation, volume adjustment,
+  crossfading, format conversion, and effects processing across all formats supported
+  by FFmpeg.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/jiaaro/pydub"
 tool_ecosystem:
   github_repo: "https://github.com/jiaaro/pydub"
   github_stars: 9746
-  license: "MIT"
+  license: MIT
 ---
 # pydub Python Audio Manipulation Library
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill pydub-python-audio-manipulation
 clawhub install pydub-python-audio-manipulation-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pydub-python-audio-manipulation-library/)
+- [GitHub](https://github.com/jiaaro/pydub)

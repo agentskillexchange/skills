@@ -1,8 +1,10 @@
 ---
-name: "Rust Crates.io Explorer"
-description: "Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing."
+name: Rust Crates.io Explorer
+description: Searches the crates.io REST API for Rust crate metadata, version diffs,
+  and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval
+  and lib.rs category browsing.
 category: "Library &amp; API Reference"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill rust-crates-io-explorer -a code
 ```bash
 clawhub install rust-crates-io-explorer
 ```
+
 
 ## Source
 

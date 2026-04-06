@@ -1,8 +1,11 @@
 ---
-name: "Hasura GraphQL Engine for Instant API and Database Automation"
-description: "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is useful when an agent needs to inspect schemas, expose structured data safely, or automate backend workflows without hand-writing resolvers."
+name: Hasura GraphQL Engine for Instant API and Database Automation
+description: Hasura turns Postgres and other supported data sources into a production-ready
+  GraphQL API with realtime subscriptions, event triggers, and role-based permissions.
+  This skill is useful when an agent needs to inspect schemas, expose structured data
+  safely, or automate backend workflows without hand-writing resolvers.
 category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/hasura/graphql-engine"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill hasura-graphql-engine-instant-a
 clawhub install hasura-graphql-engine-instant-api-database-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/hasura-graphql-engine-instant-api-database-automation/)
+- [GitHub](https://github.com/hasura/graphql-engine)

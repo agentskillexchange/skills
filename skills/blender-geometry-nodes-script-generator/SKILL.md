@@ -1,8 +1,10 @@
 ---
-name: "Blender Geometry Nodes Script Generator"
-description: "Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation."
+name: Blender Geometry Nodes Script Generator
+description: Generates Blender Python (bpy) scripts that programmatically create Geometry
+  Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for
+  parametric 3D asset generation.
 category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://www.blender.org/"
 ---
@@ -44,6 +46,7 @@ npx skills add agentskillexchange/skills --skill blender-geometry-nodes-script-g
 clawhub install blender-geometry-nodes-script-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/blender-geometry-nodes-script-generator/)
+- [www.blender.org](https://www.blender.org/)

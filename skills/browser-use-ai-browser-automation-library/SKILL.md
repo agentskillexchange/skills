@@ -1,14 +1,17 @@
 ---
-name: "Browser Use AI Browser Automation Library"
-description: "Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites, filling forms, extracting structured page data, and running agentic browser workflows with screenshots and stateful sessions."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Browser Use AI Browser Automation Library
+description: Automates browser tasks with Browser Use, the open-source library that
+  connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites,
+  filling forms, extracting structured page data, and running agentic browser workflows
+  with screenshots and stateful sessions.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 tool_ecosystem:
   github_repo: "https://github.com/browser-use/browser-use"
   github_stars: 85193
-  license: "MIT"
+  license: MIT
 ---
 # Browser Use AI Browser Automation Library
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill browser-use-ai-browser-automati
 clawhub install browser-use-ai-browser-automation-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/browser-use-ai-browser-automation-library/)
+- [GitHub](https://github.com/browser-use/browser-use)

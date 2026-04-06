@@ -1,8 +1,10 @@
 ---
-name: "GitLab Pipeline Orchestrator"
-description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: GitLab Pipeline Orchestrator
+description: Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API
+  and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the
+  GitLab Artifacts API and triggers downstream pipelines through bridge jobs.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill gitlab-pipeline-orchestrator -a
 ```bash
 clawhub install gitlab-pipeline-orchestrator
 ```
+
 
 ## Source
 

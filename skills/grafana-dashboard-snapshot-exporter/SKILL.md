@@ -1,8 +1,10 @@
 ---
-name: "Grafana Dashboard Snapshot Exporter"
-description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
+name: Grafana Dashboard Snapshot Exporter
+description: Exports Grafana dashboards as shareable snapshots using the Grafana HTTP
+  API /api/snapshots endpoint. Captures panel data at point-in-time with configurable
+  expiration and external sharing via snapshot keys.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-snapshot-expo
 ```bash
 clawhub install grafana-dashboard-snapshot-exporter
 ```
+
 
 ## Source
 

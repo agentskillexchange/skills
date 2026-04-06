@@ -1,8 +1,11 @@
 ---
-name: "Harper Offline Privacy-First Grammar Checker by Automattic"
-description: "Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms response times, supports LSP for editor integration, compiles to WebAssembly for browser use, and provides grammar, spelling, and style checking without sending text to external servers."
+name: Harper Offline Privacy-First Grammar Checker by Automattic
+description: Harper is an offline, privacy-first grammar checker written in Rust by
+  Automattic. It runs locally with sub-10ms response times, supports LSP for editor
+  integration, compiles to WebAssembly for browser use, and provides grammar, spelling,
+  and style checking without sending text to external servers.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Automattic/harper"
 tool_ecosystem:
@@ -59,6 +62,7 @@ npx skills add agentskillexchange/skills --skill harper-offline-grammar-checker-
 clawhub install harper-offline-grammar-checker-automattic
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/harper-offline-grammar-checker-automattic/)
+- [GitHub](https://github.com/Automattic/harper)

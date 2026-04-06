@@ -1,14 +1,17 @@
 ---
-name: "Vale Prose Linter for Technical Documentation"
-description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
+name: Vale Prose Linter for Technical Documentation
+description: Vale is an open-source, markup-aware prose linter that enforces editorial
+  style guides on technical documentation. This skill enables agents to run Vale against
+  Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology
+  issues.
 category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/vale-cli/vale"
 tool_ecosystem:
   github_repo: "https://github.com/vale-cli/vale"
   github_stars: 5316
-  license: "MIT"
+  license: MIT
 ---
 # Vale Prose Linter for Technical Documentation
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill vale-prose-linter-technical-doc
 clawhub install vale-prose-linter-technical-docs
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vale-prose-linter-technical-docs/)
+- [GitHub](https://github.com/vale-cli/vale)

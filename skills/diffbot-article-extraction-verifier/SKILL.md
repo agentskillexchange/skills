@@ -1,8 +1,11 @@
 ---
-name: "Diffbot Article Extraction Verifier"
-description: "Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful for verifying whether an extraction pipeline is capturing real editorial structure instead of noisy page chrome."
+name: Diffbot Article Extraction Verifier
+description: Validates article extraction quality using the Diffbot Article API and
+  Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful
+  for verifying whether an extraction pipeline is capturing real editorial structure
+  instead of noisy page chrome.
 category: "Research &amp; Scraping"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://www.diffbot.com/dev/docs/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill diffbot-article-extraction-veri
 clawhub install diffbot-article-extraction-verifier
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/diffbot-article-extraction-verifier/)
+- [www.diffbot.com](https://www.diffbot.com/dev/docs/)

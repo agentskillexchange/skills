@@ -1,8 +1,10 @@
 ---
-name: "GitLab CI Template Library"
-description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables."
-category: "CI/CD Integrations"
-framework: "MCP"
+name: GitLab CI Template Library
+description: Creates reusable GitLab CI/CD template libraries using include:template
+  and extends keywords. Manages pipeline configurations with rules:changes path filtering,
+  needs DAG dependencies, and Auto DevOps customization via CI/CD variables.
+category: CI/CD Integrations
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-template-library -a c
 ```bash
 clawhub install gitlab-ci-template-library
 ```
+
 
 ## Source
 

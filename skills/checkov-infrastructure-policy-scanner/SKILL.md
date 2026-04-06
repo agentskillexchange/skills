@@ -1,8 +1,10 @@
 ---
-name: "Checkov Infrastructure Policy Scanner"
-description: "Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration."
+name: Checkov Infrastructure Policy Scanner
+description: Scans IaC files with Bridgecrew Checkov for policy violations across
+  Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom
+  Python-based policy authoring and Prisma Cloud integration.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill checkov-infrastructure-policy-s
 ```bash
 clawhub install checkov-infrastructure-policy-scanner
 ```
+
 
 ## Source
 

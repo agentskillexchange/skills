@@ -1,8 +1,11 @@
 ---
-name: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
-description: "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers."
+name: MailDev SMTP Testing Server and Web Interface for Development Email Workflows
+description: MailDev is a local SMTP server with a browser UI for viewing test emails
+  during development. It catches outgoing mail, exposes a REST API, supports attachments
+  and relay options, and helps teams test email flows without sending real messages
+  to customers.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/maildev/maildev"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill maildev-smtp-testing-server-and
 clawhub install maildev-smtp-testing-server-and-web-interface-for-development-email-workflows
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/)
+- [GitHub](https://github.com/maildev/maildev)

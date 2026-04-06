@@ -1,8 +1,12 @@
 ---
-name: "Terraform Cloud MCP Server"
-description: "Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving […]"
-category: "Developer Tools"
-framework: "MCP"
+name: Terraform Cloud MCP Server
+description: "Terraform Cloud MCP Server is built around Terraform infrastructure\
+  \ as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+\
+  \ GitHub stars). It gives an agent a more technical and reliable way to work with\
+  \ the tool than a thin one-line wrapper, using stable interfaces like plans, applies,\
+  \ state, workspaces, providers, Sentinel, cloud runs and preserving […]"
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
@@ -59,6 +63,7 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-mcp-server -a c
 clawhub install terraform-cloud-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-cloud-mcp-server/)
+- [GitHub](https://github.com/hashicorp/terraform)

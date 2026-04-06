@@ -1,8 +1,11 @@
 ---
-name: "Advanced Custom Fields REST Schema Mapper"
-description: "Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely."
+name: Advanced Custom Fields REST Schema Mapper
+description: Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`,
+  `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads
+  than the default ACF exposure and want WordPress clients to consume structured field
+  data safely.
 category: "WordPress &amp; CMS"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://www.advancedcustomfields.com/resources/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill advanced-custom-fields-rest-sch
 clawhub install advanced-custom-fields-rest-schema-mapper
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/advanced-custom-fields-rest-schema-mapper/)
+- [www.advancedcustomfields.com](https://www.advancedcustomfields.com/resources/)

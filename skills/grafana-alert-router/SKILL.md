@@ -1,8 +1,10 @@
 ---
-name: "Grafana Alert Router"
-description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API."
+name: Grafana Alert Router
+description: Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie
+  channels based on label matching rules. Supports alert grouping and silence management
+  via the Grafana Alerting API.
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-alert-router/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill grafana-alert-router -a codex
 ```bash
 clawhub install grafana-alert-router
 ```
+
 
 ## Source
 

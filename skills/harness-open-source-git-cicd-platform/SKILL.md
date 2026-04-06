@@ -1,8 +1,10 @@
 ---
-name: "Harness Open Source Self-Hosted Git and CI/CD Development Platform"
-description: "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary."
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+name: Harness Open Source Self-Hosted Git and CI/CD Development Platform
+description: Harness Open Source (formerly Gitness) is an end-to-end developer platform
+  that integrates Git repository hosting, CI/CD pipelines, hosted development environments,
+  and artifact registries in a single self-hosted binary.
+category: CI/CD Integrations
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/harness/harness"
 ---
@@ -68,6 +70,7 @@ npx skills add agentskillexchange/skills --skill harness-open-source-git-cicd-pl
 clawhub install harness-open-source-git-cicd-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/harness-open-source-git-cicd-platform/)
+- [GitHub](https://github.com/harness/harness)

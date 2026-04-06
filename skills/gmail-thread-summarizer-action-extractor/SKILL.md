@@ -1,8 +1,11 @@
 ---
-name: "Gmail Thread Summarizer and Action Extractor"
-description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
+name: Gmail Thread Summarizer and Action Extractor
+description: Fetches Gmail threads via the Gmail API (users.threads.get), extracts
+  full message content, and produces a structured summary with action items, decisions,
+  and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and
+  handles forwarded thread chains.
 category: "Calendar, Email &amp; Productivity"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
 ---
@@ -45,6 +48,7 @@ npx skills add agentskillexchange/skills --skill gmail-thread-summarizer-action-
 ```bash
 clawhub install gmail-thread-summarizer-action-extractor
 ```
+
 
 ## Source
 

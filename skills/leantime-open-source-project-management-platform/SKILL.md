@@ -1,14 +1,16 @@
 ---
-name: "Leantime Open Source Goals-Focused Project Management Platform"
-description: "Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind."
+name: Leantime Open Source Goals-Focused Project Management Platform
+description: Leantime is an open-source project management system designed for non-project
+  managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean
+  canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Leantime/leantime"
 tool_ecosystem:
   github_repo: "https://github.com/leantime/leantime"
   github_stars: 9460
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # Leantime Open Source Goals-Focused Project Management Platform
 
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill leantime-open-source-project-ma
 clawhub install leantime-open-source-project-management-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/leantime-open-source-project-management-platform/)
+- [GitHub](https://github.com/Leantime/leantime)

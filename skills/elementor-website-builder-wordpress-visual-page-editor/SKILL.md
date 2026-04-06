@@ -1,8 +1,11 @@
 ---
-name: "Elementor Website Builder WordPress Visual Page Editor"
-description: "Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill is for agents that need to work with Elementor-powered pages, templates, sections, and widgets without treating the site like a generic WordPress install."
+name: Elementor Website Builder WordPress Visual Page Editor
+description: Elementor is the visual drag-and-drop website builder plugin for WordPress
+  maintained by Elementor, with more than 10 million active installs on WordPress.org.
+  This skill is for agents that need to work with Elementor-powered pages, templates,
+  sections, and widgets without treating the site like a generic WordPress install.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://wordpress.org/plugins/elementor/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill elementor-website-builder-wordp
 clawhub install elementor-website-builder-wordpress-visual-page-editor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/elementor-website-builder-wordpress-visual-page-editor/)
+- [wordpress.org](https://wordpress.org/plugins/elementor/)

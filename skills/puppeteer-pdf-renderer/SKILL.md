@@ -1,8 +1,9 @@
 ---
-name: "Puppeteer PDF Renderer"
-description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
-category: "Browser Automation"
-framework: "Cursor"
+name: Puppeteer PDF Renderer
+description: Generates pixel-perfect PDFs from web pages using Puppeteer with custom
+  headers, footers, and page breaks. Supports authenticated pages via cookie injection.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 ---
@@ -47,6 +48,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-pdf-renderer -a codex
 ```bash
 clawhub install puppeteer-pdf-renderer
 ```
+
 
 ## Source
 

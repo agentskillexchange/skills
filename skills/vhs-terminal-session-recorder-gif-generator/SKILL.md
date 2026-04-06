@@ -1,8 +1,10 @@
 ---
-name: "VHS Terminal Session Recorder and GIF Generator"
-description: "Create terminal session recordings as GIFs, videos, or images using VHS (charmbracelet/vhs). Write declarative .tape scripts that define typed commands, delays, and settings — then render pixel-perfect terminal demos automatically."
-category: "Developer Tools"
-framework: "Claude Code"
+name: VHS Terminal Session Recorder and GIF Generator
+description: Create terminal session recordings as GIFs, videos, or images using VHS
+  (charmbracelet/vhs). Write declarative .tape scripts that define typed commands,
+  delays, and settings — then render pixel-perfect terminal demos automatically.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/charmbracelet/vhs"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill vhs-terminal-session-recorder-g
 clawhub install vhs-terminal-session-recorder-gif-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vhs-terminal-session-recorder-gif-generator/)
+- [GitHub](https://github.com/charmbracelet/vhs)

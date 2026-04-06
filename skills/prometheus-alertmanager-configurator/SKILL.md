@@ -1,8 +1,10 @@
 ---
-name: "Prometheus AlertManager Configurator"
-description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization."
+name: Prometheus AlertManager Configurator
+description: Generates Prometheus AlertManager configurations with routing trees,
+  inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs.
+  Supports template-based notification customization.
 category: "Monitoring &amp; Alerts"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-configu
 ```bash
 clawhub install prometheus-alertmanager-configurator
 ```
+
 
 ## Source
 

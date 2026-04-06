@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions CI Builder"
-description: "Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch events. Supports matrix builds, reusable workflows, and composite actions."
-category: "CI/CD Integrations"
-framework: "Codex"
+name: GitHub Actions CI Builder
+description: Generate and manage GitHub Actions workflow YAML files using the GitHub
+  Actions REST API and workflow_dispatch events. Supports matrix builds, reusable
+  workflows, and composite actions.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-ci-builder/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill github-actions-ci-builder -a co
 ```bash
 clawhub install github-actions-ci-builder
 ```
+
 
 ## Source
 

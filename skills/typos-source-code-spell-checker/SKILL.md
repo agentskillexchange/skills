@@ -1,8 +1,11 @@
 ---
-name: "typos Source Code Spell Checker"
-description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
+name: typos Source Code Spell Checker
+description: A blazing-fast source code spell checker written in Rust that finds and
+  corrects typos across entire codebases. Designed to run on monorepos with minimal
+  false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor
+  workflows.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/crate-ci/typos"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill typos-source-code-spell-checker
 clawhub install typos-source-code-spell-checker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/typos-source-code-spell-checker/)
+- [GitHub](https://github.com/crate-ci/typos)

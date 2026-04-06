@@ -1,8 +1,10 @@
 ---
-name: "Tesseract OCR Document Extractor"
-description: "Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation."
+name: Tesseract OCR Document Extractor
+description: Extracts structured text from scanned documents and images using Tesseract
+  OCR with custom LSTM training data. Supports table detection via OpenCV contour
+  analysis and PDF/A output generation.
 category: "Data Extraction &amp; Transformation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill tesseract-ocr-document-extracto
 ```bash
 clawhub install tesseract-ocr-document-extractor
 ```
+
 
 ## Source
 

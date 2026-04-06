@@ -1,8 +1,10 @@
 ---
-name: "Sentry Issue Spike Detection Agent"
-description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
+name: Sentry Issue Spike Detection Agent
+description: Analyzes Sentry project event streams via the Sentry Issues API to detect
+  sudden spikes in error frequency. Computes rolling baselines and triggers alerts
+  through configurable notification channels.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sentry-issue-spike-detection-ag
 clawhub install sentry-issue-spike-detection-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-issue-spike-detection-agent/)
+- [GitHub](https://github.com/getsentry/sentry)

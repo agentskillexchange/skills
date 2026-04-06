@@ -1,8 +1,10 @@
 ---
-name: "ImageMagick Batch Processor"
-description: "Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
+name: ImageMagick Batch Processor
+description: Batch image processing using ImageMagick’s convert and mogrify commands
+  with support for resize, crop, watermark, and format conversion. Integrates with
+  libvips for high-performance thumbnail generation.
 category: "Image &amp; Creative Automation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imagemagick-batch-processor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-processor -a 
 ```bash
 clawhub install imagemagick-batch-processor
 ```
+
 
 ## Source
 

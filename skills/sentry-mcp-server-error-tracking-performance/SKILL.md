@@ -1,8 +1,11 @@
 ---
-name: "Sentry MCP Server for Error Tracking and Performance"
-description: "The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance telemetry through the Model Context Protocol, enabling automated incident triage, error analysis, and release monitoring workflows."
+name: Sentry MCP Server for Error Tracking and Performance
+description: The official Sentry MCP server gives AI agents access to Sentry error
+  tracking, issue management, and performance telemetry through the Model Context
+  Protocol, enabling automated incident triage, error analysis, and release monitoring
+  workflows.
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry-mcp"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill sentry-mcp-server-error-trackin
 clawhub install sentry-mcp-server-error-tracking-performance
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-performance/)
+- [GitHub](https://github.com/getsentry/sentry-mcp)

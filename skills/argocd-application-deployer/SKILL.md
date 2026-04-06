@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Application Deployer"
-description: "Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: ArgoCD Application Deployer
+description: Manages ArgoCD application deployments via the ArgoCD REST API and argocd
+  CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application
+  sets with generator templates.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill argocd-application-deployer -a 
 ```bash
 clawhub install argocd-application-deployer
 ```
+
 
 ## Source
 

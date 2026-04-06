@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Linter"
-description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
-category: "CI/CD Integrations"
-framework: "Custom Agents"
+name: Jenkins Pipeline Linter
+description: Validates Jenkinsfile declarative and scripted pipelines using the Jenkins
+  Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint
+  for Groovy static analysis with CodeNarc rulesets.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-linter-6 -a co
 ```bash
 clawhub install jenkins-pipeline-linter-6
 ```
+
 
 ## Source
 

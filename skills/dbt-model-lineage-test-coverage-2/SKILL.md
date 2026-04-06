@@ -1,8 +1,11 @@
 ---
 name: "dbt Model Lineage & Test Coverage Checker"
-description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status."
+description: Parses dbt project artifacts (manifest.json and catalog.json) to build
+  a lineage graph and identify models with no tests, stale documentation, or missing
+  uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results
+  and annotates each model with pass/fail status.
 category: "Data Extraction &amp; Transformation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill dbt-model-lineage-test-coverage
 ```bash
 clawhub install dbt-model-lineage-test-coverage-2
 ```
+
 
 ## Source
 

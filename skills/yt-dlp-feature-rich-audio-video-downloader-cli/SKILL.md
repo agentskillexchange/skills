@@ -1,8 +1,11 @@
 ---
-name: "yt-dlp Feature-Rich Audio and Video Downloader CLI"
-description: "yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube, Vimeo, and social media platforms. It supports format selection, subtitle extraction, metadata embedding, SponsorBlock integration, and batch processing with extensive post-processing options."
+name: yt-dlp Feature-Rich Audio and Video Downloader CLI
+description: yt-dlp is a powerful command-line tool for downloading audio and video
+  from thousands of websites including YouTube, Vimeo, and social media platforms.
+  It supports format selection, subtitle extraction, metadata embedding, SponsorBlock
+  integration, and batch processing with extensive post-processing options.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/yt-dlp/yt-dlp"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill yt-dlp-feature-rich-audio-video
 clawhub install yt-dlp-feature-rich-audio-video-downloader-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/yt-dlp-feature-rich-audio-video-downloader-cli/)
+- [GitHub](https://github.com/yt-dlp/yt-dlp)

@@ -1,8 +1,10 @@
 ---
-name: "Vault Secrets Rotation Orchestrator"
-description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token rotation with zero-downtime rollover."
+name: Vault Secrets Rotation Orchestrator
+description: Automates HashiCorp Vault secret rotation using the Vault HTTP API and
+  dynamic secrets engines. Manages database credential leases, PKI certificate renewal,
+  and AWS STS token rotation with zero-downtime rollover.
 category: "Security &amp; Verification"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill vault-secrets-rotation-orchestr
 ```bash
 clawhub install vault-secrets-rotation-orchestrator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "MinIO High-Performance S3-Compatible Object Storage Server"
-description: "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs."
+name: MinIO High-Performance S3-Compatible Object Storage Server
+description: MinIO is a high-performance, S3-compatible object storage server. It
+  can run standalone or distributed, providing enterprise-grade storage with a familiar
+  AWS S3 API for seamless integration with existing tools and SDKs.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/minio/minio"
 tool_ecosystem:
@@ -89,6 +91,7 @@ npx skills add agentskillexchange/skills --skill minio-s3-compatible-object-stor
 clawhub install minio-s3-compatible-object-storage
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/minio-s3-compatible-object-storage/)
+- [GitHub](https://github.com/minio/minio)

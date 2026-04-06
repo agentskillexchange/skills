@@ -1,8 +1,10 @@
 ---
-name: "OpenClaw Security Suite (ClawSec)"
-description: "Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects cognitive architecture files, audits skill supply chains, and monitors CVE advisories."
+name: OpenClaw Security Suite (ClawSec)
+description: Agent-layer security monitoring, drift detection, and integrity verification
+  for OpenClaw environments. Protects cognitive architecture files, audits skill supply
+  chains, and monitors CVE advisories.
 category: "Security &amp; Verification"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/prompt-security/clawsec"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill openclaw-security-suite-clawsec
 clawhub install openclaw-security-suite-clawsec
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/openclaw-security-suite-clawsec/)
+- [GitHub](https://github.com/prompt-security/clawsec)

@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions OIDC Token Verifier"
-description: "Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: GitHub Actions OIDC Token Verifier
+description: Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider
+  JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership
+  for secure cloud deployments.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill github-actions-oidc-token-verif
 ```bash
 clawhub install github-actions-oidc-token-verifier
 ```
+
 
 ## Source
 

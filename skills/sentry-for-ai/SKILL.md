@@ -1,8 +1,8 @@
 ---
-name: "Sentry for AI"
-description: "Observability and debugging support for AI-assisted application workflows."
+name: Sentry for AI
+description: Observability and debugging support for AI-assisted application workflows.
 category: "Security &amp; Verification"
-framework: "Claude Code, Cursor, Custom Agents"
+framework: Claude Code, Cursor, Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 ---
@@ -55,6 +55,7 @@ npx skills add agentskillexchange/skills --skill sentry-for-ai -a codex
 ```bash
 clawhub install sentry-for-ai
 ```
+
 
 ## Source
 

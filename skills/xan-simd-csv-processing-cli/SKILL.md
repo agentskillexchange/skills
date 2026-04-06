@@ -1,8 +1,11 @@
 ---
-name: "xan SIMD-Powered CSV Processing and Analysis CLI"
-description: "xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation, sorting, joining, and visualization of CSV data, with its own expression language for complex transformations and support for adjacent data formats."
+name: xan SIMD-Powered CSV Processing and Analysis CLI
+description: xan is a high-performance command-line tool for processing CSV files,
+  written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation,
+  sorting, joining, and visualization of CSV data, with its own expression language
+  for complex transformations and support for adjacent data formats.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/medialab/xan"
 tool_ecosystem:
@@ -73,6 +76,7 @@ npx skills add agentskillexchange/skills --skill xan-simd-csv-processing-cli -a 
 clawhub install xan-simd-csv-processing-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/xan-simd-csv-processing-cli/)
+- [GitHub](https://github.com/medialab/xan)

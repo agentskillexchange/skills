@@ -1,8 +1,10 @@
 ---
-name: "CircleCI Orb Validator"
-description: "Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor compatibility before publishing."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
+name: CircleCI Orb Validator
+description: Validates and lints CircleCI orb configurations using the CircleCI CLI
+  and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor
+  compatibility before publishing.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-validator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill circleci-orb-validator -a codex
 ```bash
 clawhub install circleci-orb-validator
 ```
+
 
 ## Source
 

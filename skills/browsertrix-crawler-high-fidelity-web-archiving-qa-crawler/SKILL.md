@@ -1,14 +1,17 @@
 ---
-name: "Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler"
-description: "Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood."
+name: Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
+description: Browsertrix Crawler is a browser-based crawling system from Webrecorder
+  for high-fidelity site capture, QA replay analysis, and configurable crawl behavior.
+  It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome
+  DevTools Protocol under the hood.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/webrecorder/browsertrix-crawler"
 tool_ecosystem:
   github_repo: "https://github.com/webrecorder/browsertrix-crawler"
   github_stars: 1013
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill browsertrix-crawler-high-fideli
 clawhub install browsertrix-crawler-high-fidelity-web-archiving-qa-crawler
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/)
+- [GitHub](https://github.com/webrecorder/browsertrix-crawler)

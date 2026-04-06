@@ -1,16 +1,18 @@
 ---
-name: "Tiptap Headless Rich Text Editor Framework for Web Applications"
-description: "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints."
+name: Tiptap Headless Rich Text Editor Framework for Web Applications
+description: Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror.
+  It provides a fully customizable editing experience through 100+ extensions, supporting
+  React, Vue, and plain JavaScript with no preset UI constraints.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/ueberdosis/tiptap"
 tool_ecosystem:
   github_repo: "https://github.com/ueberdosis/tiptap"
   github_stars: 35948
-  npm_package: "tiptap"
+  npm_package: tiptap
   npm_weekly_downloads: 41616
-  license: "MIT"
+  license: MIT
 ---
 # Tiptap Headless Rich Text Editor Framework for Web Applications
 
@@ -78,6 +80,7 @@ npx skills add agentskillexchange/skills --skill tiptap-headless-rich-text-edito
 clawhub install tiptap-headless-rich-text-editor-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tiptap-headless-rich-text-editor-framework/)
+- [GitHub](https://github.com/ueberdosis/tiptap)

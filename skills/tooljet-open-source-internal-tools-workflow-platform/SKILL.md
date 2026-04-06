@@ -1,8 +1,11 @@
 ---
-name: "ToolJet Open Source Internal Tools and Workflow Platform"
-description: "ToolJet is an open-source platform for internal tools, dashboards, workflows, and AI-assisted business apps. It connects visual app building with databases, APIs, object storage, and self-hosted deployment patterns that agents can reuse across teams."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: ToolJet Open Source Internal Tools and Workflow Platform
+description: ToolJet is an open-source platform for internal tools, dashboards, workflows,
+  and AI-assisted business apps. It connects visual app building with databases, APIs,
+  object storage, and self-hosted deployment patterns that agents can reuse across
+  teams.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/ToolJet/ToolJet"
 ---
@@ -46,6 +49,7 @@ npx skills add agentskillexchange/skills --skill tooljet-open-source-internal-to
 clawhub install tooljet-open-source-internal-tools-workflow-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tooljet-open-source-internal-tools-workflow-platform/)
+- [GitHub](https://github.com/ToolJet/ToolJet)

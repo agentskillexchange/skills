@@ -1,8 +1,10 @@
 ---
-name: "Cypress Component Testing Toolkit"
-description: "Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Cypress Component Testing Toolkit
+description: Creates component and integration tests using the Cypress Testing Library
+  API and cy.intercept for network stubbing. Supports visual testing via the Cypress
+  Image Snapshot plugin and accessibility auditing with cypress-axe.
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill cypress-component-testing-toolk
 ```bash
 clawhub install cypress-component-testing-toolkit
 ```
+
 
 ## Source
 

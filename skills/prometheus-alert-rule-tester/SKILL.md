@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Rule Tester"
-description: "Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations."
+name: Prometheus Alert Rule Tester
+description: Tests Prometheus alerting rules against historical metrics using promtool
+  and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions,
+  simulates alert firing, and checks routing configurations.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-tester -a
 ```bash
 clawhub install prometheus-alert-rule-tester
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Incident Response Checklist Engine"
-description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
+name: Incident Response Checklist Engine
+description: Generates and tracks incident response checklists using PagerDuty Incident
+  Workflows API and Statuspage.io API. Automates severity classification, stakeholder
+  notification, and post-incident review scheduling with Jira Service Management integration.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill incident-response-checklist-eng
 ```bash
 clawhub install incident-response-checklist-engine
 ```
+
 
 ## Source
 

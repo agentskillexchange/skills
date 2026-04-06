@@ -1,14 +1,17 @@
 ---
-name: "Puppeteer Browser Automation Library for Chrome and Firefox"
-description: "Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF generation, scraping, and browser workflow automation. Best when you want a well-known JavaScript automation library with straightforward installation and deep control over browser pages."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Puppeteer Browser Automation Library for Chrome and Firefox
+description: Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol
+  or WebDriver BiDi for screenshots, PDF generation, scraping, and browser workflow
+  automation. Best when you want a well-known JavaScript automation library with straightforward
+  installation and deep control over browser pages.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 tool_ecosystem:
   github_repo: "https://github.com/puppeteer/puppeteer"
   github_stars: 94016
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Puppeteer Browser Automation Library for Chrome and Firefox
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-browser-automation-li
 clawhub install puppeteer-browser-automation-library-for-chrome-and-firefox
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/puppeteer-browser-automation-library-for-chrome-and-firefox/)
+- [GitHub](https://github.com/puppeteer/puppeteer)

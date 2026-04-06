@@ -1,8 +1,10 @@
 ---
-name: "Zulip Open Source Team Chat Platform with Topic-Based Threading"
-description: "Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of email and chat. It offers a comprehensive REST API, webhook integrations, and bot framework for building automated workflows."
+name: Zulip Open Source Team Chat Platform with Topic-Based Threading
+description: Zulip is an open-source organized team chat application with unique topic-based
+  threading that combines the best of email and chat. It offers a comprehensive REST
+  API, webhook integrations, and bot framework for building automated workflows.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/zulip/zulip"
 ---
@@ -54,6 +56,7 @@ npx skills add agentskillexchange/skills --skill zulip-team-chat-threading -a co
 clawhub install zulip-team-chat-threading
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/zulip-team-chat-threading/)
+- [GitHub](https://github.com/zulip/zulip)

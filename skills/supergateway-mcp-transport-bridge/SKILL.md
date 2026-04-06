@@ -1,14 +1,17 @@
 ---
-name: "Supergateway MCP Transport Bridge"
-description: "Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging, and connecting clients across network boundaries with Docker and OAuth support."
-category: "Developer Tools"
-framework: "MCP"
+name: Supergateway MCP Transport Bridge
+description: Supergateway enables running MCP stdio-based servers over SSE, WebSockets,
+  or Streamable HTTP with a single command. Essential infrastructure for remote MCP
+  server access, debugging, and connecting clients across network boundaries with
+  Docker and OAuth support.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/supercorp-ai/supergateway"
 tool_ecosystem:
   github_repo: "https://github.com/supercorp-ai/supergateway"
   github_stars: 2538
-  npm_package: "supergateway"
+  npm_package: supergateway
   npm_weekly_downloads: 107459
 ---
 # Supergateway MCP Transport Bridge
@@ -65,6 +68,7 @@ npx skills add agentskillexchange/skills --skill supergateway-mcp-transport-brid
 clawhub install supergateway-mcp-transport-bridge
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/supergateway-mcp-transport-bridge/)
+- [GitHub](https://github.com/supercorp-ai/supergateway)

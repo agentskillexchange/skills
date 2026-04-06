@@ -1,8 +1,10 @@
 ---
-name: "dbt Data Transformation Orchestrator"
-description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration."
+name: dbt Data Transformation Orchestrator
+description: Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations.
+  Handles model lineage, incremental builds, and data quality tests with Great Expectations
+  integration.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill dbt-data-transformation-orchest
 ```bash
 clawhub install dbt-data-transformation-orchestrator
 ```
+
 
 ## Source
 

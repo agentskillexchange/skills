@@ -1,8 +1,10 @@
 ---
-name: "Memos Self-Hosted Note Capture and Knowledge API"
-description: "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos programmatically for knowledge management and quick capture workflows."
+name: Memos Self-Hosted Note Capture and Knowledge API
+description: Enable AI agents to interact with Memos, an open-source self-hosted note-taking
+  tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos
+  programmatically for knowledge management and quick capture workflows.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/usememos/memos"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill memos-self-hosted-note-capture-
 clawhub install memos-self-hosted-note-capture-knowledge-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/memos-self-hosted-note-capture-knowledge-api/)
+- [GitHub](https://github.com/usememos/memos)

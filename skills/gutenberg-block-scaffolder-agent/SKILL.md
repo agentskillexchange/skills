@@ -1,8 +1,10 @@
 ---
-name: "Gutenberg Block Scaffolder"
-description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with InnerBlocks support and block.json viewScriptModule."
+name: Gutenberg Block Scaffolder
+description: Generates custom Gutenberg blocks using @wordpress/create-block and the
+  Block API v3 schema. Produces edit.js, save.js, block.json, and render.php with
+  InnerBlocks support and block.json viewScriptModule.
 category: "WordPress &amp; CMS"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill gutenberg-block-scaffolder-agen
 ```bash
 clawhub install gutenberg-block-scaffolder-agent
 ```
+
 
 ## Source
 

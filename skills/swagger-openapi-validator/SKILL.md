@@ -1,8 +1,12 @@
 ---
-name: "Swagger / OpenAPI Validator"
-description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like spec validation, schemas, client generation, Swagger UI, examples, refs and preserving the […]"
+name: Swagger / OpenAPI Validator
+description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling.\
+  \ The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like spec validation, schemas,\
+  \ client generation, Swagger UI, examples, refs and preserving the […]"
 category: "Library &amp; API Reference"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill swagger-openapi-validator -a co
 ```bash
 clawhub install swagger-openapi-validator
 ```
+
 
 ## Source
 

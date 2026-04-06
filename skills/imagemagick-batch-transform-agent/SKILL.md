@@ -1,8 +1,10 @@
 ---
-name: "ImageMagick Batch Transform Agent"
-description: "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration."
+name: ImageMagick Batch Transform Agent
+description: Automates ImageMagick convert and mogrify operations for bulk image processing
+  including responsive srcset generation, WebP/AVIF conversion, and ICC color profile
+  management with Little CMS integration.
 category: "Image &amp; Creative Automation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill imagemagick-batch-transform-age
 ```bash
 clawhub install imagemagick-batch-transform-agent
 ```
+
 
 ## Source
 

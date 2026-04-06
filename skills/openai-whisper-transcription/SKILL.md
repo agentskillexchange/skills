@@ -1,8 +1,8 @@
 ---
-name: "OpenAI Whisper Transcription"
-description: "Local speech-to-text transcription without relying on an API."
+name: OpenAI Whisper Transcription
+description: Local speech-to-text transcription without relying on an API.
 category: "Media &amp; Transcription"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/openai/whisper"
 tool_ecosystem:
@@ -59,6 +59,7 @@ npx skills add agentskillexchange/skills --skill openai-whisper-transcription -a
 clawhub install openai-whisper-transcription
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-whisper-transcription/)
+- [GitHub](https://github.com/openai/whisper)

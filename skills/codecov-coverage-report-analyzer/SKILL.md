@@ -1,8 +1,10 @@
 ---
-name: "Codecov Coverage Report Analyzer"
-description: "Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats."
+name: Codecov Coverage Report Analyzer
+description: Integrates with the Codecov API v2 and codecov-cli to upload coverage
+  reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov,
+  cobertura, and jacoco report formats.
 category: "Code Quality &amp; Review"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill codecov-coverage-report-analyze
 ```bash
 clawhub install codecov-coverage-report-analyzer
 ```
+
 
 ## Source
 

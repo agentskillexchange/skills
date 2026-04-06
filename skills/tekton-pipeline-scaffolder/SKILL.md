@@ -1,8 +1,10 @@
 ---
-name: "Tekton Pipeline Scaffolder"
-description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: Tekton Pipeline Scaffolder
+description: Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs
+  (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests
+  with proper workspace bindings, result passing, and when expressions.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-scaffolder -a c
 ```bash
 clawhub install tekton-pipeline-scaffolder
 ```
+
 
 ## Source
 

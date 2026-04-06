@@ -1,8 +1,11 @@
 ---
-name: "Dasel Multi-Format Data Selector and Modifier"
-description: "Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL, and INI formats using a unified selector syntax. It supports format conversion between all supported types."
+name: Dasel Multi-Format Data Selector and Modifier
+description: Dasel (Data-Select) is a command-line tool and Go library for querying,
+  modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL,
+  and INI formats using a unified selector syntax. It supports format conversion between
+  all supported types.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/TomWright/dasel"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill dasel-multi-format-data-selecto
 clawhub install dasel-multi-format-data-selector-modifier
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dasel-multi-format-data-selector-modifier/)
+- [GitHub](https://github.com/TomWright/dasel)

@@ -1,8 +1,11 @@
 ---
-name: "Directus SQL-Native Headless CMS and Internal App Platform"
-description: "Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary data model. It is a strong fit for teams that want self-hosted content operations, internal tooling, and database-first workflows with REST, GraphQL, auth, and extension support."
+name: Directus SQL-Native Headless CMS and Internal App Platform
+description: Directus turns a SQL database into a headless CMS, admin app, and instant
+  API layer without forcing a proprietary data model. It is a strong fit for teams
+  that want self-hosted content operations, internal tooling, and database-first workflows
+  with REST, GraphQL, auth, and extension support.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/directus/directus"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill directus-sql-native-headless-cm
 clawhub install directus-sql-native-headless-cms-internal-app-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/directus-sql-native-headless-cms-internal-app-platform/)
+- [GitHub](https://github.com/directus/directus)

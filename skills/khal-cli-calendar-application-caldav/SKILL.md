@@ -1,8 +1,11 @@
 ---
-name: "khal Standards-Based CLI Calendar Application"
-description: "khal is a standards-based CLI and terminal calendar program written in Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV servers via vdirsyncer, and provides both a command-line interface for scripting and an interactive terminal UI (ikhal) for browsing and editing events."
+name: khal Standards-Based CLI Calendar Application
+description: khal is a standards-based CLI and terminal calendar program written in
+  Python. It reads and writes iCalendar data to vdir format, synchronizes with CalDAV
+  servers via vdirsyncer, and provides both a command-line interface for scripting
+  and an interactive terminal UI (ikhal) for browsing and editing events.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/pimutils/khal"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill khal-cli-calendar-application-c
 clawhub install khal-cli-calendar-application-caldav
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/khal-cli-calendar-application-caldav/)
+- [GitHub](https://github.com/pimutils/khal)

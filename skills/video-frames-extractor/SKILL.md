@@ -1,14 +1,14 @@
 ---
-name: "Video Frames Extractor"
-description: "Extract frames and short clips from videos.
+name: Video Frames Extractor
+description: 'Extract frames and short clips from videos.
 
-Core Capabilities
+  Core Capabilities
 
-Process audio and video files using ffmpeg for transcription and analysis
+  Process audio and video files using ffmpeg for transcription and analysis
 
-Extract text, timestamps, and speaker metadata from media cont"
+  Extract text, timestamps, and speaker metadata from media cont'
 category: "Media &amp; Transcription"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
@@ -71,6 +71,7 @@ npx skills add agentskillexchange/skills --skill video-frames-extractor -a codex
 clawhub install video-frames-extractor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/video-frames-extractor/)
+- [GitHub](https://github.com/FFmpeg/FFmpeg)

@@ -1,8 +1,13 @@
 ---
-name: "Stripe Reporting Agent"
-description: "Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational […]"
+name: Stripe Reporting Agent
+description: "Stripe Reporting Agent is built around Stripe payments platform. The\
+  \ underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars).\
+  \ It gives an agent a more technical and reliable way to work with the tool than\
+  \ a thin one-line wrapper, using stable interfaces like charges, payment intents,\
+  \ subscriptions, billing, payouts, webhooks, reports and preserving the operational\
+  \ […]"
 category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
 ---
@@ -55,6 +60,7 @@ npx skills add agentskillexchange/skills --skill stripe-reporting-agent -a codex
 ```bash
 clawhub install stripe-reporting-agent
 ```
+
 
 ## Source
 

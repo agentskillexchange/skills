@@ -1,8 +1,11 @@
 ---
-name: "Tolgee Open Source Localization and i18n Platform"
-description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
+name: Tolgee Open Source Localization and i18n Platform
+description: Tolgee is an open-source localization platform that lets developers and
+  translators manage translations through in-context editing, machine translation
+  integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP
+  server support for AI coding assistants.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/tolgee/tolgee-platform"
 tool_ecosystem:
@@ -75,6 +78,7 @@ npx skills add agentskillexchange/skills --skill tolgee-localization-i18n-platfo
 clawhub install tolgee-localization-i18n-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tolgee-localization-i18n-platform/)
+- [GitHub](https://github.com/tolgee/tolgee-platform)

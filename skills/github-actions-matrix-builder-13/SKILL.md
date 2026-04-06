@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions Matrix Builder"
-description: "Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets, and dependency variations from repository configuration files."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: GitHub Actions Matrix Builder
+description: Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub
+  REST API and YAML AST parsing via js-yaml. Automatically detects language versions,
+  OS targets, and dependency variations from repository configuration files.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill github-actions-matrix-builder-1
 ```bash
 clawhub install github-actions-matrix-builder-13
 ```
+
 
 ## Source
 

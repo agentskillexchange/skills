@@ -1,8 +1,10 @@
 ---
-name: "Puppeteer Visual Regression Testing"
-description: "Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance."
-category: "Browser Automation"
-framework: "Cursor"
+name: Puppeteer Visual Regression Testing
+description: Runs pixel-level visual regression tests using Puppeteer page.screenshot()
+  and pixelmatch diffing library. Compares baseline screenshots against current renders
+  with configurable threshold tolerance.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-visual-regression-tes
 ```bash
 clawhub install puppeteer-visual-regression-testing
 ```
+
 
 ## Source
 

@@ -1,8 +1,11 @@
 ---
-name: "Medusa Commerce API and Store Operations Automation Skill"
-description: "Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment logic through a modern commerce backend that teams can self-host and extend."
+name: Medusa Commerce API and Store Operations Automation Skill
+description: Medusa is an open-source commerce platform with modular backend services,
+  an admin app, and API-first store workflows. This skill helps agents manage products,
+  orders, carts, pricing, and fulfillment logic through a modern commerce backend
+  that teams can self-host and extend.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/medusajs/medusa"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill medusa-commerce-api-store-opera
 clawhub install medusa-commerce-api-store-operations-automation-skill
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/medusa-commerce-api-store-operations-automation-skill/)
+- [GitHub](https://github.com/medusajs/medusa)

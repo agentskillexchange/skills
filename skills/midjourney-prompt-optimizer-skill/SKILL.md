@@ -1,8 +1,10 @@
 ---
-name: "Midjourney Prompt Optimizer"
-description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
+name: Midjourney Prompt Optimizer
+description: Analyze and optimize Midjourney prompts using parameter tuning for –ar,
+  –stylize, –chaos, and –weird flags. Generates prompt variations with style references
+  (–sref) and character references (–cref) for consistent image output.
 category: "Image &amp; Creative Automation"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill midjourney-prompt-optimizer-ski
 ```bash
 clawhub install midjourney-prompt-optimizer-skill
 ```
+
 
 ## Source
 

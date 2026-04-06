@@ -1,8 +1,11 @@
 ---
-name: "qsv Blazing-Fast CSV Data Wrangling Toolkit"
-description: "qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular data. Written in Rust, it provides over 50 commands for data wrangling tasks and supports Excel, Parquet, JSON, and other formats."
+name: qsv Blazing-Fast CSV Data Wrangling Toolkit
+description: qsv is a high-performance command-line toolkit for querying, transforming,
+  validating, and analyzing CSV and tabular data. Written in Rust, it provides over
+  50 commands for data wrangling tasks and supports Excel, Parquet, JSON, and other
+  formats.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/dathere/qsv"
 tool_ecosystem:
@@ -61,6 +64,7 @@ npx skills add agentskillexchange/skills --skill qsv-blazing-fast-csv-data-wrang
 clawhub install qsv-blazing-fast-csv-data-wrangling-toolkit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/qsv-blazing-fast-csv-data-wrangling-toolkit/)
+- [GitHub](https://github.com/dathere/qsv)

@@ -1,8 +1,10 @@
 ---
-name: "HashiCorp Vault Secret Scanner"
-description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
+name: HashiCorp Vault Secret Scanner
+description: Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog
+  patterns. Integrates with Vault Transit engine for automatic secret rotation and
+  re-encryption of detected credentials.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill hashicorp-vault-secret-scanner-
 ```bash
 clawhub install hashicorp-vault-secret-scanner-2
 ```
+
 
 ## Source
 

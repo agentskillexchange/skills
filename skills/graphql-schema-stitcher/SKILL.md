@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Stitcher"
-description: "Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check."
+name: GraphQL Schema Stitcher
+description: Merges multiple GraphQL schemas into a unified federated gateway using
+  Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas
+  with rover graph check.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-stitcher/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-stitcher -a code
 ```bash
 clawhub install graphql-schema-stitcher
 ```
+
 
 ## Source
 

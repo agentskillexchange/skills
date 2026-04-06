@@ -1,8 +1,9 @@
 ---
-name: "OpenAI Whisper API Transcription"
-description: "API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script."
+name: OpenAI Whisper API Transcription
+description: API-based speech-to-text transcription through OpenAI. No local model
+  downloads, no GPU, no Python ML stack — just an API key and a shell script.
 category: "Media &amp; Transcription"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
 ---
@@ -61,6 +62,7 @@ npx skills add agentskillexchange/skills --skill openai-whisper-api-transcriptio
 ```bash
 clawhub install openai-whisper-api-transcription
 ```
+
 
 ## Source
 

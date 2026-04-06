@@ -1,8 +1,10 @@
 ---
-name: "OpenAI Agents SDK Multi-Agent Workflow Framework for Python"
-description: "The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs, provides built-in guardrails, handoffs between agents, MCP tool integration, tracing, sessions, and real-time voice capabilities."
-category: "Developer Tools"
-framework: "ChatGPT Agents"
+name: OpenAI Agents SDK Multi-Agent Workflow Framework for Python
+description: The OpenAI Agents SDK is a lightweight Python framework for building
+  multi-agent workflows. It supports 100+ LLMs, provides built-in guardrails, handoffs
+  between agents, MCP tool integration, tracing, sessions, and real-time voice capabilities.
+category: Developer Tools
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://github.com/openai/openai-agents-python"
 tool_ecosystem:
@@ -71,6 +73,7 @@ npx skills add agentskillexchange/skills --skill openai-agents-sdk-python-multi-
 clawhub install openai-agents-sdk-python-multi-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-agents-sdk-python-multi-agent/)
+- [GitHub](https://github.com/openai/openai-agents-python)

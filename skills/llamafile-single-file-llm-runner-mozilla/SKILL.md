@@ -1,8 +1,11 @@
 ---
-name: "llamafile Single-File LLM Distribution and Runner by Mozilla"
-description: "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights, server, and runtime into one file."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: llamafile Single-File LLM Distribution and Runner by Mozilla
+description: llamafile by Mozilla bundles open-source LLMs into a single portable
+  executable that runs locally on macOS, Windows, Linux, and BSD with zero installation.
+  It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights,
+  server, and runtime into one file.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mozilla-ai/llamafile"
 ---
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill llamafile-single-file-llm-runne
 clawhub install llamafile-single-file-llm-runner-mozilla
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/llamafile-single-file-llm-runner-mozilla/)
+- [GitHub](https://github.com/mozilla-ai/llamafile)

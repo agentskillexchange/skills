@@ -1,8 +1,10 @@
 ---
-name: "Apache Kafka Schema Registry Validator"
-description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
+name: Apache Kafka Schema Registry Validator
+description: Validates Avro, Protobuf, and JSON Schema compatibility against Confluent
+  Schema Registry using the REST API. Enforces backward/forward/full compatibility
+  modes and detects breaking schema evolution changes.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill kafka-schema-registry-validator
 ```bash
 clawhub install kafka-schema-registry-validator
 ```
+
 
 ## Source
 

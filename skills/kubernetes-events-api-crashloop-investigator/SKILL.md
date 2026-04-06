@@ -1,8 +1,11 @@
 ---
-name: "Kubernetes Events API CrashLoop Investigator"
-description: "Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great for agents that need to summarize cluster evidence before an operator starts digging through kubectl output by hand."
+name: Kubernetes Events API CrashLoop Investigator
+description: Diagnoses restart storms with the Kubernetes Events API, Pod status conditions,
+  and the Metrics API to explain why workloads are stuck in CrashLoopBackOff. Great
+  for agents that need to summarize cluster evidence before an operator starts digging
+  through kubectl output by hand.
 category: "Runbooks &amp; Diagnostics"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-events-api-crashloop
 clawhub install kubernetes-events-api-crashloop-investigator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/kubernetes-events-api-crashloop-investigator/)
+- [GitHub](https://github.com/kubernetes/kubernetes)

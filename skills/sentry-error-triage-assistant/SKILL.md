@@ -1,8 +1,11 @@
 ---
-name: "Sentry Error Triage Assistant"
-description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
+name: Sentry Error Triage Assistant
+description: "Triages application errors using the Sentry Web API (/api/0/issues/)\
+  \ and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using\
+  \ Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/\
+  \ endpoint."
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
 ---
@@ -49,6 +52,7 @@ npx skills add agentskillexchange/skills --skill sentry-error-triage-assistant -
 ```bash
 clawhub install sentry-error-triage-assistant
 ```
+
 
 ## Source
 

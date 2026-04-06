@@ -1,8 +1,10 @@
 ---
-name: "WordPress Theme.json Design Token Manager"
-description: "Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution."
+name: WordPress Theme.json Design Token Manager
+description: Manages WordPress theme.json design tokens including color palettes,
+  typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and
+  wp_get_global_settings() for dynamic token resolution.
 category: "WordPress &amp; CMS"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill wp-theme-json-design-token-mana
 ```bash
 clawhub install wp-theme-json-design-token-manager
 ```
+
 
 ## Source
 

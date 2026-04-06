@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD GitOps Sync Controller"
-description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
-category: "CI/CD Integrations"
-framework: "MCP"
+name: ArgoCD GitOps Sync Controller
+description: Manages ArgoCD Application and ApplicationSet resources for Kubernetes
+  GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves,
+  health checks, and progressive rollout configurations.
+category: CI/CD Integrations
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-controller -
 ```bash
 clawhub install argocd-gitops-sync-controller
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Shodan Network Reconnaissance Agent"
-description: "Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories with risk scores for security teams."
+name: Shodan Network Reconnaissance Agent
+description: Performs network reconnaissance using the Shodan REST API and Shodan
+  InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories
+  with risk scores for security teams.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill shodan-network-reconnaissance-a
 ```bash
 clawhub install shodan-network-reconnaissance-agent
 ```
+
 
 ## Source
 

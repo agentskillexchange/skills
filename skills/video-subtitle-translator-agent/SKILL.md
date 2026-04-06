@@ -1,8 +1,11 @@
 ---
-name: "Video Subtitle Translator Agent"
-description: "Extracts embedded subtitles from video containers using FFmpeg’s subtitle stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation v3, and re-embeds localized subtitle tracks. Supports batch processing with language detection via langdetect and proper bidirectional text handling for RTL languages."
+name: Video Subtitle Translator Agent
+description: Extracts embedded subtitles from video containers using FFmpeg’s subtitle
+  stream extraction, translates SRT/VTT files through DeepL API or Google Cloud Translation
+  v3, and re-embeds localized subtitle tracks. Supports batch processing with language
+  detection via langdetect and proper bidirectional text handling for RTL languages.
 category: "Media &amp; Transcription"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill video-subtitle-translator-agent
 clawhub install video-subtitle-translator-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/video-subtitle-translator-agent/)
+- [GitHub](https://github.com/FFmpeg/FFmpeg)

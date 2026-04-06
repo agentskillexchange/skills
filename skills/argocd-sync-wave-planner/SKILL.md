@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Sync Wave Planner"
-description: "Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses kubectl diff and Helm template rendering to validate manifests before triggering progressive rollouts via Argo Rollouts."
-category: "CI/CD Integrations"
-framework: "Codex"
+name: ArgoCD Sync Wave Planner
+description: Manages ArgoCD Application sync waves and hooks through the ArgoCD REST
+  API and Kubernetes custom resources. Uses kubectl diff and Helm template rendering
+  to validate manifests before triggering progressive rollouts via Argo Rollouts.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
 ---
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill argocd-sync-wave-planner -a cod
 ```bash
 clawhub install argocd-sync-wave-planner
 ```
+
 
 ## Source
 

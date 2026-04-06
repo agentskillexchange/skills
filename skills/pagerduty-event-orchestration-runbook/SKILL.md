@@ -1,8 +1,11 @@
 ---
-name: "PagerDuty Event Orchestration Runbook"
-description: "Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can classify alerts, enrich context, and drive consistent handoffs. Useful when noisy monitoring signals need a repeatable escalation flow instead of ad hoc human triage."
+name: PagerDuty Event Orchestration Runbook
+description: Builds incident runbooks around the PagerDuty Events API v2, Incidents
+  API, and Response Plays so agents can classify alerts, enrich context, and drive
+  consistent handoffs. Useful when noisy monitoring signals need a repeatable escalation
+  flow instead of ad hoc human triage.
 category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://developer.pagerduty.com/"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-event-orchestration-r
 clawhub install pagerduty-event-orchestration-runbook
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pagerduty-event-orchestration-runbook/)
+- [developer.pagerduty.com](https://developer.pagerduty.com/)

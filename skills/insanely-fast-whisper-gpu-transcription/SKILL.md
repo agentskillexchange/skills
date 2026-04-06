@@ -1,14 +1,17 @@
 ---
-name: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
-description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU."
+name: Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI
+description: Insanely Fast Whisper is a CLI tool that transcribes audio at extreme
+  speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention
+  2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds
+  on a GPU.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 tool_ecosystem:
   github_repo: "https://github.com/vaibhavs10/insanely-fast-whisper"
   github_stars: 12204
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI
 
@@ -78,6 +81,7 @@ npx skills add agentskillexchange/skills --skill insanely-fast-whisper-gpu-trans
 clawhub install insanely-fast-whisper-gpu-transcription
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/insanely-fast-whisper-gpu-transcription/)
+- [GitHub](https://github.com/Vaibhavs10/insanely-fast-whisper)

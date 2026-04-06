@@ -1,8 +1,11 @@
 ---
-name: "Gorse AI-Powered Open Source Recommender System Engine"
-description: "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management."
+name: Gorse AI-Powered Open Source Recommender System Engine
+description: Gorse is an AI-powered open-source recommender system written in Go that
+  generates personalized recommendations via collaborative filtering, item-to-item
+  similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard
+  for recommendation pipeline editing, system monitoring, and data management.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/gorse-io/gorse"
 ---
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill gorse-ai-recommender-system-eng
 clawhub install gorse-ai-recommender-system-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gorse-ai-recommender-system-engine/)
+- [GitHub](https://github.com/gorse-io/gorse)

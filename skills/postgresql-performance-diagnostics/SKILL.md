@@ -1,8 +1,10 @@
 ---
-name: "PostgreSQL Performance Diagnostics"
-description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
+name: PostgreSQL Performance Diagnostics
+description: Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables,
+  and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes
+  and detects lock contention through pg_locks and pg_stat_activity.
 category: "Runbooks &amp; Diagnostics"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostics/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill postgresql-performance-diagnost
 ```bash
 clawhub install postgresql-performance-diagnostics
 ```
+
 
 ## Source
 

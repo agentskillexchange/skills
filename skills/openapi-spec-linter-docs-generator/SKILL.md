@@ -1,8 +1,10 @@
 ---
 name: "OpenAPI Spec Linter & Docs Generator"
-description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
+description: Validates OpenAPI 3.x specifications using Spectral rulesets and generates
+  interactive API documentation with Redoc and Swagger UI. Detects breaking changes
+  using oasdiff for versioned APIs.
 category: "Library &amp; API Reference"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill openapi-spec-linter-docs-genera
 ```bash
 clawhub install openapi-spec-linter-docs-generator
 ```
+
 
 ## Source
 

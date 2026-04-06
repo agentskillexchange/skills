@@ -1,8 +1,10 @@
 ---
-name: "Wish SSH Application Framework by Charmbracelet"
-description: "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos, and custom protocols over SSH without touching openssh-server."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Wish SSH Application Framework by Charmbracelet
+description: Wish is a Go library for building SSH-accessible applications with sensible
+  defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git
+  repos, and custom protocols over SSH without touching openssh-server.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/charmbracelet/wish"
 tool_ecosystem:
@@ -71,6 +73,7 @@ npx skills add agentskillexchange/skills --skill wish-ssh-application-framework 
 clawhub install wish-ssh-application-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wish-ssh-application-framework/)
+- [GitHub](https://github.com/charmbracelet/wish)

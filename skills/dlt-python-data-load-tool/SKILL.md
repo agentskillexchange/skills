@@ -1,8 +1,11 @@
 ---
-name: "dlt Python Data Load Tool"
-description: "An open-source Python library that makes loading data from APIs, databases, and files into structured datasets simple and Pythonic. dlt automates schema inference, incremental loading, and normalization, supporting destinations like DuckDB, BigQuery, Snowflake, and Postgres."
+name: dlt Python Data Load Tool
+description: An open-source Python library that makes loading data from APIs, databases,
+  and files into structured datasets simple and Pythonic. dlt automates schema inference,
+  incremental loading, and normalization, supporting destinations like DuckDB, BigQuery,
+  Snowflake, and Postgres.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/dlt-hub/dlt"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill dlt-python-data-load-tool -a co
 clawhub install dlt-python-data-load-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dlt-python-data-load-tool/)
+- [GitHub](https://github.com/dlt-hub/dlt)

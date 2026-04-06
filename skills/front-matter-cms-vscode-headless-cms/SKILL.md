@@ -1,8 +1,11 @@
 ---
-name: "Front Matter CMS Visual Studio Code Headless CMS"
-description: "An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual Studio Code. Manages content for static site generators like Hugo, Jekyll, Next.js, Gatsby, and Astro through an editor-native interface with taxonomy management, media handling, and content scaffolding."
+name: Front Matter CMS Visual Studio Code Headless CMS
+description: An agent skill built on Front Matter CMS, the headless content management
+  system that runs directly inside Visual Studio Code. Manages content for static
+  site generators like Hugo, Jekyll, Next.js, Gatsby, and Astro through an editor-native
+  interface with taxonomy management, media handling, and content scaffolding.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/estruyf/vscode-front-matter"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill front-matter-cms-vscode-headles
 clawhub install front-matter-cms-vscode-headless-cms
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/front-matter-cms-vscode-headless-cms/)
+- [GitHub](https://github.com/estruyf/vscode-front-matter)

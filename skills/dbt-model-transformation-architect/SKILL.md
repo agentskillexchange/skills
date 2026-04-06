@@ -1,8 +1,10 @@
 ---
-name: "dbt Model Transformation Architect"
-description: "Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and Redshift. Parses dbt manifest.json to analyze DAG lineage and detect circular dependencies."
+name: dbt Model Transformation Architect
+description: Generates and validates dbt (data build tool) models, tests, and documentation
+  for Snowflake, BigQuery, and Redshift. Parses dbt manifest.json to analyze DAG lineage
+  and detect circular dependencies.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-transformation-architect/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill dbt-model-transformation-archit
 ```bash
 clawhub install dbt-model-transformation-architect
 ```
+
 
 ## Source
 

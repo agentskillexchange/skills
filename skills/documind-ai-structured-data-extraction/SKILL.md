@@ -1,14 +1,17 @@
 ---
-name: "Documind AI-Powered Structured Data Extraction from Documents"
-description: "Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision."
+name: Documind AI-Powered Structured Data Extraction from Documents
+description: Documind is an open-source Node.js tool that uses AI to extract structured
+  JSON data from PDFs and other documents. Define a custom schema for what you need,
+  and Documind returns clean, typed data — supporting OpenAI and local LLM backends
+  like Llama 3.2 Vision.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/DocumindHQ/documind"
 tool_ecosystem:
   github_repo: "https://github.com/documindhq/documind"
   github_stars: 1468
-  npm_package: "documind"
+  npm_package: documind
   npm_weekly_downloads: 4
 ---
 # Documind AI-Powered Structured Data Extraction from Documents
@@ -57,6 +60,7 @@ npx skills add agentskillexchange/skills --skill documind-ai-structured-data-ext
 clawhub install documind-ai-structured-data-extraction
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/)
+- [GitHub](https://github.com/DocumindHQ/documind)

@@ -1,8 +1,10 @@
 ---
-name: "GitLab CI Pipeline Optimizer"
-description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: GitLab CI Pipeline Optimizer
+description: Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG
+  keyword configurations. Analyzes job dependencies, parallel execution opportunities,
+  and cache strategies for faster builds.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-optimizer-8 
 ```bash
 clawhub install gitlab-ci-pipeline-optimizer-8
 ```
+
 
 ## Source
 

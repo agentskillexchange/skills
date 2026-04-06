@@ -1,8 +1,11 @@
 ---
-name: "Healthchecks.io Cron Job Monitoring and Alerting Platform"
-description: "Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a dashboard, API, and notification integrations for tracking recurring jobs without building their own heartbeat system."
+name: Healthchecks.io Cron Job Monitoring and Alerting Platform
+description: Healthchecks.io is an open-source cron and background task monitoring
+  platform that alerts when scheduled jobs fail to ping on time. It gives teams a
+  dashboard, API, and notification integrations for tracking recurring jobs without
+  building their own heartbeat system.
 category: "Monitoring &amp; Alerts"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/healthchecks/healthchecks"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill healthchecks-io-cron-job-monito
 clawhub install healthchecks-io-cron-job-monitoring-alerting-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/healthchecks-io-cron-job-monitoring-alerting-platform/)
+- [GitHub](https://github.com/healthchecks/healthchecks)

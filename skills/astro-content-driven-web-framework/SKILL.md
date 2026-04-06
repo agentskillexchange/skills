@@ -1,14 +1,16 @@
 ---
-name: "Astro Content-Driven Web Framework"
-description: "Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid), and provides islands architecture for optimal performance."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Astro Content-Driven Web Framework
+description: Astro is a modern web framework for building content-driven websites.
+  It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue,
+  Svelte, Solid), and provides islands architecture for optimal performance.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/withastro/astro"
 tool_ecosystem:
   github_repo: "https://github.com/withastro/astro"
   github_stars: 57979
-  npm_package: "astro"
+  npm_package: astro
   npm_weekly_downloads: 1890539
 ---
 # Astro Content-Driven Web Framework
@@ -69,6 +71,7 @@ npx skills add agentskillexchange/skills --skill astro-content-driven-web-framew
 clawhub install astro-content-driven-web-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/astro-content-driven-web-framework/)
+- [GitHub](https://github.com/withastro/astro)

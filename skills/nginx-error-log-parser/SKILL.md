@@ -1,8 +1,11 @@
 ---
-name: "Nginx Error Log Parser"
-description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Nginx Error Log Parser
+description: Parses nginx error.log and access.log files using pattern matching for
+  5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error
+  spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and
+  keepalive settings.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-parser -a codex
 ```bash
 clawhub install nginx-error-log-parser
 ```
+
 
 ## Source
 

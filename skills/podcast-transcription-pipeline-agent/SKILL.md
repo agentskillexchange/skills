@@ -1,8 +1,10 @@
 ---
-name: "Podcast Transcription Pipeline"
-description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
+name: Podcast Transcription Pipeline
+description: Transcribes podcast episodes using OpenAI Whisper API with speaker diarization
+  via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON
+  with timestamped segments.
 category: "Media &amp; Transcription"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill podcast-transcription-pipeline-
 ```bash
 clawhub install podcast-transcription-pipeline-agent
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "ESLint Rule Enforcement Agent"
-description: "Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases."
+name: ESLint Rule Enforcement Agent
+description: Automates ESLint configuration and rule enforcement using the ESLint
+  Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects
+  violations across JavaScript and TypeScript codebases.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill eslint-rule-enforcement-agent -
 ```bash
 clawhub install eslint-rule-enforcement-agent
 ```
+
 
 ## Source
 

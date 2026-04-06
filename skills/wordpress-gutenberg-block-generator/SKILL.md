@@ -1,8 +1,11 @@
 ---
-name: "WordPress Gutenberg Block Generator"
-description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI and block.json schema, then registers them via register_block_type PHP API. Generates edit/save components with InspectorControls and useBlockProps. Outputs production-ready block plugin structure."
+name: WordPress Gutenberg Block Generator
+description: Scaffolds custom Gutenberg blocks using the @wordpress/create-block CLI
+  and block.json schema, then registers them via register_block_type PHP API. Generates
+  edit/save components with InspectorControls and useBlockProps. Outputs production-ready
+  block plugin structure.
 category: "WordPress &amp; CMS"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
 ---
@@ -45,6 +48,7 @@ npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-gener
 ```bash
 clawhub install wordpress-gutenberg-block-generator
 ```
+
 
 ## Source
 

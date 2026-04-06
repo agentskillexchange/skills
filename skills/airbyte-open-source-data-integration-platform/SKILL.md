@@ -1,8 +1,11 @@
 ---
-name: "Airbyte Open Source Data Integration Platform"
-description: "Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines from APIs, databases, and files to data warehouses, lakes, and lakehouses. It supports both self-hosted and cloud deployments with a no-code connector builder."
+name: Airbyte Open Source Data Integration Platform
+description: Airbyte is the leading open-source data integration platform providing
+  600+ pre-built connectors for ELT pipelines from APIs, databases, and files to data
+  warehouses, lakes, and lakehouses. It supports both self-hosted and cloud deployments
+  with a no-code connector builder.
 category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/airbytehq/airbyte"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill airbyte-open-source-data-integr
 clawhub install airbyte-open-source-data-integration-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/airbyte-open-source-data-integration-platform/)
+- [GitHub](https://github.com/airbytehq/airbyte)

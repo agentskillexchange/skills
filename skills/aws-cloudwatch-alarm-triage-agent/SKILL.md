@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Alarm Triage Agent"
-description: "Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause correlation. Prioritizes alerts by blast radius and provides remediation playbooks."
+name: AWS CloudWatch Alarm Triage Agent
+description: Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API,
+  GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause
+  correlation. Prioritizes alerts by blast radius and provides remediation playbooks.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-triage-age
 ```bash
 clawhub install aws-cloudwatch-alarm-triage-agent
 ```
+
 
 ## Source
 

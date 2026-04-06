@@ -1,8 +1,11 @@
 ---
-name: "Terraform Module Scaffold Generator"
-description: "Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL). Integrates with terraform-docs for automatic README generation and includes pre-configured .terraform-version files."
+name: Terraform Module Scaffold Generator
+description: Generates production-ready Terraform module scaffolds with variables.tf,
+  outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL).
+  Integrates with terraform-docs for automatic README generation and includes pre-configured
+  .terraform-version files.
 category: "Templates &amp; Workflows"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-scaffold-generator/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffold-gener
 ```bash
 clawhub install terraform-module-scaffold-generator
 ```
+
 
 ## Source
 

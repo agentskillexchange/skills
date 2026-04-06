@@ -1,8 +1,10 @@
 ---
-name: "Pandas DataFrame Schema Enforcer"
-description: "Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and custom check constraints. Auto-generates Pandera schema code from sample DataFrames."
+name: Pandas DataFrame Schema Enforcer
+description: Validates and transforms Pandas DataFrames using Pandera schema definitions
+  with column-level dtype, nullable, and custom check constraints. Auto-generates
+  Pandera schema code from sample DataFrames.
 category: "Data Extraction &amp; Transformation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill pandas-dataframe-schema-enforce
 ```bash
 clawhub install pandas-dataframe-schema-enforcer
 ```
+
 
 ## Source
 

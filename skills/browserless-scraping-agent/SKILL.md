@@ -1,8 +1,10 @@
 ---
-name: "Browserless Scraping Agent"
-description: "Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits."
+name: Browserless Scraping Agent
+description: Drives headless Chrome via the Browserless.io API for scraping dynamic
+  SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages
+  session tokens and concurrent connection limits.
 category: "Research &amp; Scraping"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill browserless-scraping-agent -a c
 ```bash
 clawhub install browserless-scraping-agent
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Kubernetes Incident Runbook"
-description: "Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage."
+name: Kubernetes Incident Runbook
+description: Executes structured incident response procedures for Kubernetes clusters
+  using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod
+  crash diagnosis, OOMKill analysis, and node pressure triage.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-incident-runbook/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-incident-runbook -a 
 ```bash
 clawhub install kubernetes-incident-runbook
 ```
+
 
 ## Source
 

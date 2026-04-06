@@ -1,8 +1,10 @@
 ---
-name: "Snowflake Query Profiler"
-description: "Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys."
+name: Snowflake Query Profiler
+description: Profiles and optimizes Snowflake SQL queries using the Snowflake Information
+  Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies,
+  and recommends clustering keys.
 category: "Data Extraction &amp; Transformation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill snowflake-query-profiler -a cod
 ```bash
 clawhub install snowflake-query-profiler
 ```
+
 
 ## Source
 

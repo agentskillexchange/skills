@@ -1,8 +1,10 @@
 ---
-name: "Terraform Cloud Pipeline Agent"
-description: "Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe provider. Manages workspace variables, Sentinel policy checks, and cost estimation hooks with automatic plan approval workflows."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: Terraform Cloud Pipeline Agent
+description: Orchestrates Terraform Cloud run pipelines via the TFC API v2 and tfe
+  provider. Manages workspace variables, Sentinel policy checks, and cost estimation
+  hooks with automatic plan approval workflows.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill terraform-cloud-pipeline-agent 
 ```bash
 clawhub install terraform-cloud-pipeline-agent
 ```
+
 
 ## Source
 

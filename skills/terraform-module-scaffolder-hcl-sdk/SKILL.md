@@ -1,8 +1,10 @@
 ---
-name: "Terraform Module Scaffolder"
-description: "Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction. Generates documentation via terraform-docs API, validates with tflint rules, and publishes to Terraform Registry via API."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Terraform Module Scaffolder
+description: Scaffolds Terraform modules using the HCL SDK with provider schema introspection
+  and automatic variable extraction. Generates documentation via terraform-docs API,
+  validates with tflint rules, and publishes to Terraform Registry via API.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-scaffolder-hcl-sdk/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill terraform-module-scaffolder-hcl
 ```bash
 clawhub install terraform-module-scaffolder-hcl-sdk
 ```
+
 
 ## Source
 

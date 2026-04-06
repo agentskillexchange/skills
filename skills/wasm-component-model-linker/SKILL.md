@@ -1,8 +1,10 @@
 ---
-name: "WASM Component Model Linker"
-description: "Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions."
-category: "Developer Tools"
-framework: "Gemini"
+name: WASM Component Model Linker
+description: Compiles and links WebAssembly components using the WASI Preview 2 Component
+  Model, wasm-tools CLI for component composition, and wit-bindgen for generating
+  host/guest bindings from WIT interface definitions.
+category: Developer Tools
+framework: Gemini
 verification: security_reviewed
 source: "https://github.com/WebAssembly/component-model"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill wasm-component-model-linker -a 
 clawhub install wasm-component-model-linker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wasm-component-model-linker/)
+- [GitHub](https://github.com/WebAssembly/component-model)

@@ -1,8 +1,10 @@
 ---
 name: "GraphQL Schema Stitching & Federation Agent"
-description: "Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives."
+description: Manages Apollo Federation v2 supergraph composition from subgraph schemas,
+  validating composition rules and generating rover CLI deployment manifests. Handles
+  @key, @shareable, and @override directives.
 category: "Library &amp; API Reference"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-stitching-federa
 ```bash
 clawhub install graphql-schema-stitching-federation-agent
 ```
+
 
 ## Source
 

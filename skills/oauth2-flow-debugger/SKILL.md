@@ -1,8 +1,10 @@
 ---
-name: "OAuth2 Flow Debugger"
-description: "Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses jose JWT library and node-fetch to validate tokens, decode claims, and trace redirect chains."
+name: OAuth2 Flow Debugger
+description: Inspects and debugs OAuth 2.0 authorization flows including PKCE, client
+  credentials, and device code grants. Uses jose JWT library and node-fetch to validate
+  tokens, decode claims, and trace redirect chains.
 category: "Security &amp; Verification"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill oauth2-flow-debugger -a codex
 ```bash
 clawhub install oauth2-flow-debugger
 ```
+
 
 ## Source
 

@@ -1,14 +1,17 @@
 ---
-name: "mdBook Markdown Book Generator by Rust Project"
-description: "mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the Rust project, it powers The Rust Programming Language book and is ideal for creating product documentation, tutorials, course materials, and technical references."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: mdBook Markdown Book Generator by Rust Project
+description: mdBook is a command-line utility for creating online books from Markdown
+  files. Built in Rust and maintained by the Rust project, it powers The Rust Programming
+  Language book and is ideal for creating product documentation, tutorials, course
+  materials, and technical references.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/rust-lang/mdBook"
 tool_ecosystem:
   github_repo: "https://github.com/rust-lang/mdbook"
   github_stars: 21419
-  license: "MPL-2.0"
+  license: MPL-2.0
 ---
 # mdBook Markdown Book Generator by Rust Project
 
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill mdbook-markdown-book-generator-
 clawhub install mdbook-markdown-book-generator-rust
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mdbook-markdown-book-generator-rust/)
+- [GitHub](https://github.com/rust-lang/mdBook)

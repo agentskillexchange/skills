@@ -1,14 +1,16 @@
 ---
-name: "Vosk Offline Speech Recognition Toolkit"
-description: "Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies."
+name: Vosk Offline Speech Recognition Toolkit
+description: "Perform offline speech recognition across 20+ languages with Vosk. Provides\
+  \ compact models, zero-latency streaming transcription, and bindings for Python,\
+  \ Node.js, Java, C#, and Go — all without cloud API dependencies."
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/alphacep/vosk-api"
 tool_ecosystem:
   github_repo: "https://github.com/alphacep/vosk-api"
   github_stars: 14474
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Vosk Offline Speech Recognition Toolkit
 
@@ -74,6 +76,7 @@ npx skills add agentskillexchange/skills --skill vosk-offline-speech-recognition
 clawhub install vosk-offline-speech-recognition-toolkit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vosk-offline-speech-recognition-toolkit/)
+- [GitHub](https://github.com/alphacep/vosk-api)

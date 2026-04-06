@@ -1,8 +1,8 @@
 ---
-name: "PostgreSQL MCP Server"
-description: "Agent access to PostgreSQL data and queries through MCP."
+name: PostgreSQL MCP Server
+description: Agent access to PostgreSQL data and queries through MCP.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code, Cursor, MCP, OpenClaw"
+framework: Claude Code, Cursor, MCP, OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
 ---
@@ -55,6 +55,7 @@ npx skills add agentskillexchange/skills --skill postgresql-mcp-server -a codex
 ```bash
 clawhub install postgresql-mcp-server
 ```
+
 
 ## Source
 

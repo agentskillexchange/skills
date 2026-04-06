@@ -1,8 +1,10 @@
 ---
-name: "FFmpeg Audio Transcoder"
-description: "Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe."
+name: FFmpeg Audio Transcoder
+description: Transcodes and processes audio files using the FFmpeg CLI and libavcodec
+  library. Supports batch format conversion, loudness normalization via EBU R128,
+  and metadata extraction with ffprobe.
 category: "Media &amp; Transcription"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-audio-transcoder -a code
 ```bash
 clawhub install ffmpeg-audio-transcoder
 ```
+
 
 ## Source
 

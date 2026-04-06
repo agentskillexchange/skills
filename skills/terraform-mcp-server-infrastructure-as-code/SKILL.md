@@ -1,8 +1,11 @@
 ---
-name: "Terraform MCP Server for Infrastructure as Code"
-description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
-category: "Developer Tools"
-framework: "MCP"
+name: Terraform MCP Server for Infrastructure as Code
+description: The official HashiCorp Terraform MCP server integrates with the Terraform
+  Registry and HCP Terraform, enabling AI agents to browse providers, discover modules,
+  manage workspaces, and validate infrastructure configurations through the Model
+  Context Protocol.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform-mcp-server"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill terraform-mcp-server-infrastruc
 clawhub install terraform-mcp-server-infrastructure-as-code
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/)
+- [GitHub](https://github.com/hashicorp/terraform-mcp-server)

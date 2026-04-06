@@ -1,8 +1,10 @@
 ---
-name: "SerpAPI Search Pipeline"
-description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
+name: SerpAPI Search Pipeline
+description: Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo)
+  with structured JSON extraction. Supports pagination, location targeting, and result
+  deduplication using MinHash LSH.
 category: "Research &amp; Scraping"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill serpapi-search-pipeline -a code
 ```bash
 clawhub install serpapi-search-pipeline
 ```
+
 
 ## Source
 

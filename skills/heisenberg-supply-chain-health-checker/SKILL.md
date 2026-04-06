@@ -1,8 +1,11 @@
 ---
-name: "Heisenberg Supply Chain Health Checker"
-description: "An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios."
+name: Heisenberg Supply Chain Health Checker
+description: An open-source software supply chain health check tool that analyzes
+  dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates
+  health scores, detects risky packages, and produces CSV reports for individual dependencies
+  or entire GitHub organization portfolios.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill heisenberg-supply-chain-health-
 clawhub install heisenberg-supply-chain-health-checker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/heisenberg-supply-chain-health-checker/)
+- [GitHub](https://github.com/AppOmni-Labs/heisenberg-ssc-health-check)

@@ -1,8 +1,10 @@
 ---
-name: "Cloudinary Asset Optimization Agent"
-description: "Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection, responsive breakpoints, and AI-based cropping with face detection."
+name: Cloudinary Asset Optimization Agent
+description: Manages image and video assets using the Cloudinary Node.js SDK and Upload
+  API. Applies automatic format selection, responsive breakpoints, and AI-based cropping
+  with face detection.
 category: "Image &amp; Creative Automation"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cloudinary-asset-optimization-a
 ```bash
 clawhub install cloudinary-asset-optimization-agent
 ```
+
 
 ## Source
 

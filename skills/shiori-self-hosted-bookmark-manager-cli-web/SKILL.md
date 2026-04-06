@@ -1,14 +1,17 @@
 ---
-name: "Shiori Self-Hosted Bookmark Manager with CLI and Web Interface"
-description: "Shiori is a simple, portable bookmark manager written in Go inspired by Pocket. It provides both a command-line interface and a clean web UI for adding, editing, searching, and organizing bookmarks with automatic offline archive generation and readable content extraction."
+name: Shiori Self-Hosted Bookmark Manager with CLI and Web Interface
+description: Shiori is a simple, portable bookmark manager written in Go inspired
+  by Pocket. It provides both a command-line interface and a clean web UI for adding,
+  editing, searching, and organizing bookmarks with automatic offline archive generation
+  and readable content extraction.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/go-shiori/shiori"
 tool_ecosystem:
   github_repo: "https://github.com/go-shiori/shiori"
   github_stars: 11399
-  license: "MIT"
+  license: MIT
 ---
 # Shiori Self-Hosted Bookmark Manager with CLI and Web Interface
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill shiori-self-hosted-bookmark-man
 clawhub install shiori-self-hosted-bookmark-manager-cli-web
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/shiori-self-hosted-bookmark-manager-cli-web/)
+- [GitHub](https://github.com/go-shiori/shiori)

@@ -1,8 +1,11 @@
 ---
-name: "Docling AI Document Intelligence Pipeline"
-description: "Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI."
+name: Docling AI Document Intelligence Pipeline
+description: Docling is an IBM-backed open-source toolkit that converts PDF, DOCX,
+  PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen
+  AI workflows. It features advanced PDF layout understanding, OCR, table extraction,
+  and integrations with LangChain, LlamaIndex, and CrewAI.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/docling-project/docling"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill docling-ai-document-intelligenc
 clawhub install docling-ai-document-intelligence-pipeline
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/docling-ai-document-intelligence-pipeline/)
+- [GitHub](https://github.com/docling-project/docling)

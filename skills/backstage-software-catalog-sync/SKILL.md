@@ -1,8 +1,10 @@
 ---
-name: "Backstage Software Catalog Sync"
-description: "Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams."
+name: Backstage Software Catalog Sync
+description: Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml
+  generation and the Backstage Catalog REST API. Manages component, API, and system
+  entity relationships across teams.
 category: "Templates &amp; Workflows"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill backstage-software-catalog-sync
 ```bash
 clawhub install backstage-software-catalog-sync
 ```
+
 
 ## Source
 

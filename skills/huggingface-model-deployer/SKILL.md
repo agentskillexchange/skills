@@ -1,8 +1,11 @@
 ---
-name: "Hugging Face Model Deployer"
-description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
-category: "CI/CD Integrations"
-framework: "Codex"
+name: Hugging Face Model Deployer
+description: Deploys models from Hugging Face Hub to Inference Endpoints using the
+  huggingface_hub client and REST API. Monitors endpoint health and autoscaling status
+  and streams logs to the terminal. Supports private repos with HF_TOKEN and custom
+  Docker containers.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill huggingface-model-deployer -a c
 ```bash
 clawhub install huggingface-model-deployer
 ```
+
 
 ## Source
 

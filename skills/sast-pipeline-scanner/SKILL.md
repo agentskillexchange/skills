@@ -1,8 +1,10 @@
 ---
-name: "SAST Pipeline Scanner"
-description: "Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management."
+name: SAST Pipeline Scanner
+description: Runs static application security testing using Semgrep rules and CodeQL
+  queries against pull request diffs. Supports SARIF output format and integrates
+  with GitHub Advanced Security for findings management.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sast-pipeline-scanner -a codex
 ```bash
 clawhub install sast-pipeline-scanner
 ```
+
 
 ## Source
 

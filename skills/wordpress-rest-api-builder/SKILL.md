@@ -1,8 +1,8 @@
 ---
-name: "WordPress REST API Builder"
-description: "Build and debug WordPress REST endpoints with a specialized skill."
+name: WordPress REST API Builder
+description: Build and debug WordPress REST endpoints with a specialized skill.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
@@ -59,6 +59,7 @@ npx skills add agentskillexchange/skills --skill wordpress-rest-api-builder -a c
 clawhub install wordpress-rest-api-builder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-rest-api-builder/)
+- [GitHub](https://github.com/WordPress/WordPress)

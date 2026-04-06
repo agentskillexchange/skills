@@ -1,8 +1,10 @@
 ---
-name: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
-description: "Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages, custom post types, taxonomies, settings pages, user profiles, and comments."
+name: Meta Box WordPress Custom Fields and Meta Boxes Framework
+description: Meta Box is a professional WordPress framework for creating custom fields
+  and custom meta boxes with over 40 field types. It supports posts, pages, custom
+  post types, taxonomies, settings pages, user profiles, and comments.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/wpmetabox/meta-box"
 tool_ecosystem:
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill meta-box-wordpress-custom-field
 clawhub install meta-box-wordpress-custom-fields-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/meta-box-wordpress-custom-fields-framework/)
+- [GitHub](https://github.com/wpmetabox/meta-box)

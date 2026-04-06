@@ -1,8 +1,10 @@
 ---
-name: "Umami Privacy-Focused Web Analytics Platform"
-description: "Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data without cookies and is fully GDPR compliant."
+name: Umami Privacy-Focused Web Analytics Platform
+description: Umami is a modern, privacy-focused, open-source web analytics platform
+  and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It
+  collects website traffic data without cookies and is fully GDPR compliant.
 category: "Monitoring &amp; Alerts"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/umami-software/umami"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill umami-privacy-focused-web-analy
 clawhub install umami-privacy-focused-web-analytics
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/umami-privacy-focused-web-analytics/)
+- [GitHub](https://github.com/umami-software/umami)

@@ -1,8 +1,10 @@
 ---
-name: "Microsoft Outlook Calendar Sync Agent"
-description: "Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental sync, manages recurrence patterns, and resolves timezone conflicts."
+name: Microsoft Outlook Calendar Sync Agent
+description: Synchronizes calendar events bidirectionally using the Microsoft Graph
+  API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental
+  sync, manages recurrence patterns, and resolves timezone conflicts.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ms-outlook-calendar-sync-agent 
 ```bash
 clawhub install ms-outlook-calendar-sync-agent
 ```
+
 
 ## Source
 

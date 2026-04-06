@@ -1,8 +1,10 @@
 ---
-name: "Protocol Buffers Documentation Compiler"
-description: "Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages."
+name: Protocol Buffers Documentation Compiler
+description: Compiles Protocol Buffer .proto files using protoc and generates API
+  documentation with protoc-gen-doc. Validates proto style with buf lint and produces
+  gRPC service client stubs for multiple languages.
 category: "Library &amp; API Reference"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill protobuf-documentation-compiler
 ```bash
 clawhub install protobuf-documentation-compiler
 ```
+
 
 ## Source
 

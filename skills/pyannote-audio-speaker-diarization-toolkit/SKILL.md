@@ -1,8 +1,11 @@
 ---
-name: "pyannote.audio Neural Speaker Diarization Toolkit"
-description: "pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding."
+name: pyannote.audio Neural Speaker Diarization Toolkit
+description: pyannote.audio is an open-source Python toolkit for speaker diarization
+  built on PyTorch. It provides state-of-the-art pretrained models and pipelines for
+  speech activity detection, speaker segmentation, overlapped speech detection, and
+  speaker embedding.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/pyannote/pyannote-audio"
 ---
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill pyannote-audio-speaker-diarizat
 clawhub install pyannote-audio-speaker-diarization-toolkit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pyannote-audio-speaker-diarization-toolkit/)
+- [GitHub](https://github.com/pyannote/pyannote-audio)

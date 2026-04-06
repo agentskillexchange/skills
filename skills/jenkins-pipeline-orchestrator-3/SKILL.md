@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Orchestrator"
-description: "Automates Jenkins CI/CD pipeline configuration using the Jenkins REST API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks, and parses build artifacts for deployment readiness."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: Jenkins Pipeline Orchestrator
+description: Automates Jenkins CI/CD pipeline configuration using the Jenkins REST
+  API and Jenkinsfile DSL. Manages multi-branch pipelines, triggers builds via webhooks,
+  and parses build artifacts for deployment readiness.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-orchestrator-3
 ```bash
 clawhub install jenkins-pipeline-orchestrator-3
 ```
+
 
 ## Source
 

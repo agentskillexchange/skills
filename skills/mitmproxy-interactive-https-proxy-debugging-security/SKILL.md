@@ -1,14 +1,17 @@
 ---
-name: "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing"
-description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line, and web-based interfaces for intercepting, inspecting, modifying, and replaying web traffic."
+name: mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
+description: mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy
+  for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3,
+  and WebSockets, offering console, command-line, and web-based interfaces for intercepting,
+  inspecting, modifying, and replaying web traffic.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/mitmproxy/mitmproxy"
 tool_ecosystem:
   github_repo: "https://github.com/mitmproxy/mitmproxy"
   github_stars: 42881
-  license: "MIT"
+  license: MIT
 ---
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
 
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill mitmproxy-interactive-https-pro
 clawhub install mitmproxy-interactive-https-proxy-debugging-security
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mitmproxy-interactive-https-proxy-debugging-security/)
+- [GitHub](https://github.com/mitmproxy/mitmproxy)

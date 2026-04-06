@@ -1,8 +1,10 @@
 ---
-name: "NPM Audit Deep Scanner"
-description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
+name: NPM Audit Deep Scanner
+description: Extends npm audit with deep transitive dependency analysis using the
+  npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against
+  the OSV.dev vulnerability database.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill npm-audit-deep-scanner -a codex
 ```bash
 clawhub install npm-audit-deep-scanner
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "ESLint Rule Impact Analyzer"
-description: "Measures the impact of enabling new ESLint rules across a codebase using the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps, estimates auto-fix coverage, and prioritizes rules by fix effort."
+name: ESLint Rule Impact Analyzer
+description: Measures the impact of enabling new ESLint rules across a codebase using
+  the ESLint Node.js API and @typescript-eslint/parser. Generates violation heatmaps,
+  estimates auto-fix coverage, and prioritizes rules by fix effort.
 category: "Code Quality &amp; Review"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill eslint-rule-impact-analyzer-2 -
 ```bash
 clawhub install eslint-rule-impact-analyzer-2
 ```
+
 
 ## Source
 

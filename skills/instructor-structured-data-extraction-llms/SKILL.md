@@ -1,8 +1,11 @@
 ---
-name: "Instructor Structured Data Extraction from LLMs"
-description: "Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers including OpenAI, Anthropic, and Google."
+name: Instructor Structured Data Extraction from LLMs
+description: Instructor is a multi-language library for extracting structured, validated
+  data from LLM outputs. It patches LLM client libraries to return Pydantic models
+  (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers
+  including OpenAI, Anthropic, and Google.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/567-labs/instructor"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill instructor-structured-data-extr
 clawhub install instructor-structured-data-extraction-llms
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/instructor-structured-data-extraction-llms/)
+- [GitHub](https://github.com/567-labs/instructor)

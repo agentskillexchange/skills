@@ -1,8 +1,10 @@
 ---
-name: "grpcurl Command-Line gRPC Client"
-description: "Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers."
-category: "Developer Tools"
-framework: "Claude Code"
+name: grpcurl Command-Line gRPC Client
+description: Like cURL but for gRPC servers. A command-line tool for interacting with
+  gRPC services using server reflection or proto files, supporting unary calls, streaming,
+  TLS, and metadata headers.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/fullstorydev/grpcurl"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill grpcurl-command-line-grpc-clien
 clawhub install grpcurl-command-line-grpc-client
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/)
+- [GitHub](https://github.com/fullstorydev/grpcurl)

@@ -1,14 +1,17 @@
 ---
-name: "jrnl Command-Line Journal and Note Capture Tool"
-description: "jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It stores entries as human-readable plain text with optional AES encryption, supports natural-language timestamps, and integrates with external editors and cloud sync services."
+name: jrnl Command-Line Journal and Note Capture Tool
+description: jrnl is a command-line journal application that lets you capture thoughts
+  and notes without leaving the terminal. It stores entries as human-readable plain
+  text with optional AES encryption, supports natural-language timestamps, and integrates
+  with external editors and cloud sync services.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/jrnl-org/jrnl"
 tool_ecosystem:
   github_repo: "https://github.com/jrnl-org/jrnl"
   github_stars: 7195
-  license: "GPL-3.0"
+  license: GPL-3.0
 ---
 # jrnl Command-Line Journal and Note Capture Tool
 
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill jrnl-command-line-journal-note-
 clawhub install jrnl-command-line-journal-note-capture
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/jrnl-command-line-journal-note-capture/)
+- [GitHub](https://github.com/jrnl-org/jrnl)

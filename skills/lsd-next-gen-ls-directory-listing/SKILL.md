@@ -1,8 +1,10 @@
 ---
-name: "lsd Next-Generation ls Directory Listing Tool"
-description: "lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons via Nerd Fonts, tree view, and extensive formatting options while maintaining familiar ls command syntax."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: lsd Next-Generation ls Directory Listing Tool
+description: lsd (LSDeluxe) is a modern rewrite of the classic ls command written
+  in Rust, adding color coding, file-type icons via Nerd Fonts, tree view, and extensive
+  formatting options while maintaining familiar ls command syntax.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/lsd-rs/lsd"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill lsd-next-gen-ls-directory-listi
 clawhub install lsd-next-gen-ls-directory-listing
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lsd-next-gen-ls-directory-listing/)
+- [GitHub](https://github.com/lsd-rs/lsd)

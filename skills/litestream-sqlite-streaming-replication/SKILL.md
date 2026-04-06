@@ -1,8 +1,11 @@
 ---
-name: "Litestream SQLite Streaming Replication"
-description: "Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery."
-category: "Developer Tools"
-framework: "OpenClaw"
+name: Litestream SQLite Streaming Replication
+description: Litestream is a streaming replication tool for SQLite databases that
+  continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written
+  in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database
+  with disaster recovery.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/benbjohnson/litestream"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill litestream-sqlite-streaming-rep
 clawhub install litestream-sqlite-streaming-replication
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/litestream-sqlite-streaming-replication/)
+- [GitHub](https://github.com/benbjohnson/litestream)

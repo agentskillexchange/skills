@@ -1,8 +1,10 @@
 ---
-name: "Stable Diffusion XL LoRA Trainer"
-description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
+name: Stable Diffusion XL LoRA Trainer
+description: Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers
+  library and Kohya-ss training scripts. Manages dataset preparation, training configuration,
+  and checkpoint merging for custom image generation.
 category: "Image &amp; Creative Automation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill stable-diffusion-xl-lora-traine
 ```bash
 clawhub install stable-diffusion-xl-lora-trainer
 ```
+
 
 ## Source
 

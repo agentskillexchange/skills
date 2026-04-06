@@ -1,14 +1,17 @@
 ---
-name: "onefetch Git Repository Information and Statistics CLI"
-description: "onefetch is a Rust CLI tool that displays project information and code statistics for Git repositories directly in the terminal. It detects languages, shows contributor stats, license info, and repo metadata with an ASCII art logo for the dominant language."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: onefetch Git Repository Information and Statistics CLI
+description: onefetch is a Rust CLI tool that displays project information and code
+  statistics for Git repositories directly in the terminal. It detects languages,
+  shows contributor stats, license info, and repo metadata with an ASCII art logo
+  for the dominant language.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/o2sh/onefetch"
 tool_ecosystem:
   github_repo: "https://github.com/o2sh/onefetch"
   github_stars: 11710
-  license: "MIT"
+  license: MIT
 ---
 # onefetch Git Repository Information and Statistics CLI
 
@@ -82,6 +85,7 @@ npx skills add agentskillexchange/skills --skill onefetch-git-repository-info-st
 clawhub install onefetch-git-repository-info-statistics-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/onefetch-git-repository-info-statistics-cli/)
+- [GitHub](https://github.com/o2sh/onefetch)

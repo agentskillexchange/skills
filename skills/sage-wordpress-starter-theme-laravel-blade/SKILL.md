@@ -1,14 +1,17 @@
 ---
-name: "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS"
-description: "Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub."
+name: Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
+description: Sage by Roots is an advanced WordPress starter theme that brings Laravel
+  Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor
+  support to WordPress theme development. It is the most-starred WordPress theme framework
+  on GitHub.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/roots/sage"
 tool_ecosystem:
   github_repo: "https://github.com/roots/sage"
   github_stars: 13199
-  license: "MIT"
+  license: MIT
 ---
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
 
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill sage-wordpress-starter-theme-la
 clawhub install sage-wordpress-starter-theme-laravel-blade
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sage-wordpress-starter-theme-laravel-blade/)
+- [GitHub](https://github.com/roots/sage)

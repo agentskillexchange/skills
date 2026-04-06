@@ -1,8 +1,11 @@
 ---
-name: "MetaMCP Unified MCP Server Aggregator and Gateway"
-description: "MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI management interface. It supports namespacing, middleware, rate limiting, OIDC authentication, and works with any MCP client including Claude Desktop and Cursor."
+name: MetaMCP Unified MCP Server Aggregator and Gateway
+description: MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers
+  into a single unified endpoint with a GUI management interface. It supports namespacing,
+  middleware, rate limiting, OIDC authentication, and works with any MCP client including
+  Claude Desktop and Cursor.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/metatool-ai/metamcp"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill metamcp-unified-mcp-server-aggr
 clawhub install metamcp-unified-mcp-server-aggregator-gateway
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/metamcp-unified-mcp-server-aggregator-gateway/)
+- [GitHub](https://github.com/metatool-ai/metamcp)

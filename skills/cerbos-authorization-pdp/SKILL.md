@@ -1,8 +1,11 @@
 ---
-name: "Cerbos Open Source Authorization Policy Decision Point"
-description: "Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed through Git-ops, providing high-availability APIs for dynamic access decisions across applications."
+name: Cerbos Open Source Authorization Policy Decision Point
+description: Cerbos is an open-core, language-agnostic, scalable authorization solution
+  that makes implementing and managing user permissions simple. It uses context-aware
+  YAML access control policies managed through Git-ops, providing high-availability
+  APIs for dynamic access decisions across applications.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/cerbos/cerbos"
 ---
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill cerbos-authorization-pdp -a cod
 clawhub install cerbos-authorization-pdp
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cerbos-authorization-pdp/)
+- [GitHub](https://github.com/cerbos/cerbos)

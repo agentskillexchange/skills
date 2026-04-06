@@ -1,8 +1,10 @@
 ---
-name: "Marker PDF-to-Markdown Converter"
-description: "Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles tables, equations, code blocks, and multi-column layouts, with optional LLM-boosted extraction for maximum fidelity."
+name: Marker PDF-to-Markdown Converter
+description: Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON,
+  and HTML with high accuracy. It handles tables, equations, code blocks, and multi-column
+  layouts, with optional LLM-boosted extraction for maximum fidelity.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/datalab-to/marker"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill marker-pdf-to-markdown-converte
 clawhub install marker-pdf-to-markdown-converter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/marker-pdf-to-markdown-converter/)
+- [GitHub](https://github.com/datalab-to/marker)

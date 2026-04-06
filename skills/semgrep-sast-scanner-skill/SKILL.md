@@ -1,8 +1,10 @@
 ---
-name: "Semgrep SAST Scanner"
-description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
+name: Semgrep SAST Scanner
+description: Runs Semgrep static analysis with custom rule packs targeting OWASP Top
+  10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced
+  Security integration and CWE-tagged finding reports.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
 ---
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill semgrep-sast-scanner-skill -a c
 ```bash
 clawhub install semgrep-sast-scanner-skill
 ```
+
 
 ## Source
 

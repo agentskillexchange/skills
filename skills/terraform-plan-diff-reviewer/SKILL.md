@@ -1,8 +1,10 @@
 ---
-name: "Terraform Plan Diff Reviewer"
-description: "Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison."
+name: Terraform Plan Diff Reviewer
+description: Parses terraform plan JSON output to identify destructive changes, security
+  group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace
+  state comparison.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-diff-reviewer -a
 ```bash
 clawhub install terraform-plan-diff-reviewer
 ```
+
 
 ## Source
 

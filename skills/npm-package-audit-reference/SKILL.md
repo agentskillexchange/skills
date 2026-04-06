@@ -1,8 +1,10 @@
 ---
-name: "NPM Package Audit Reference"
-description: "Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker."
+name: NPM Package Audit Reference
+description: Provides deep dependency analysis using npm audit, socket.dev API for
+  supply chain risk scoring, and bundlephobia API for bundle size impact assessment.
+  Generates license compliance reports via license-checker.
 category: "Library &amp; API Reference"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 ---
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill npm-package-audit-reference -a 
 ```bash
 clawhub install npm-package-audit-reference
 ```
+
 
 ## Source
 

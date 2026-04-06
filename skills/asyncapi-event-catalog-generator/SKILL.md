@@ -1,8 +1,10 @@
 ---
-name: "AsyncAPI Event Catalog Generator"
-description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
+name: AsyncAPI Event Catalog Generator
+description: Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture
+  catalogs using the AsyncAPI Generator. Produces channel documentation, message schema
+  validators, and EventBridge rule templates.
 category: "Library &amp; API Reference"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill asyncapi-event-catalog-generato
 ```bash
 clawhub install asyncapi-event-catalog-generator
 ```
+
 
 ## Source
 

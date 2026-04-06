@@ -1,8 +1,10 @@
 ---
-name: "Terraform Plan Analyzer"
-description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: Terraform Plan Analyzer
+description: Analyzes Terraform plan output using the terraform show -json command
+  and HCL2 parser library. Detects destructive changes, cost implications via Infracost
+  API, and policy violations against Open Policy Agent (OPA) rules.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-analyzer-agent -
 ```bash
 clawhub install terraform-plan-analyzer-agent
 ```
+
 
 ## Source
 

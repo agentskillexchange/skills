@@ -1,14 +1,17 @@
 ---
-name: "Open Interpreter Natural Language Computer Interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Open Interpreter Natural Language Computer Interface
+description: Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell,
+  and more) through a ChatGPT-like terminal interface. It provides a natural-language
+  interface to your computer’s general-purpose capabilities including file manipulation,
+  browser control, and data analysis.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/openinterpreter/open-interpreter"
 tool_ecosystem:
   github_repo: "https://github.com/openinterpreter/open-interpreter"
   github_stars: 62934
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # Open Interpreter Natural Language Computer Interface
 
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill open-interpreter-natural-langua
 clawhub install open-interpreter-natural-language-computer-interface
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/open-interpreter-natural-language-computer-interface/)
+- [GitHub](https://github.com/openinterpreter/open-interpreter)

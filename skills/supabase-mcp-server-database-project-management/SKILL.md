@@ -1,8 +1,11 @@
 ---
-name: "Supabase MCP Server for Database and Project Management"
-description: "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries, and project configuration through the Model Context Protocol."
+name: Supabase MCP Server for Database and Project Management
+description: An official MCP server that connects Supabase projects to AI assistants
+  like Claude, Cursor, and Windsurf. Enables natural-language database management,
+  table operations, SQL queries, and project configuration through the Model Context
+  Protocol.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/supabase-community/supabase-mcp"
 tool_ecosystem:
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill supabase-mcp-server-database-pr
 clawhub install supabase-mcp-server-database-project-management
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/supabase-mcp-server-database-project-management/)
+- [GitHub](https://github.com/supabase-community/supabase-mcp)

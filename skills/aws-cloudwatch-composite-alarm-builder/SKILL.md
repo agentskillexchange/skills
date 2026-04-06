@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Composite Alarm Builder"
-description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
+name: AWS CloudWatch Composite Alarm Builder
+description: Creates and manages AWS CloudWatch composite alarms using the CloudWatch
+  PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms
+  with AND/OR/NOT logic for multi-signal alerting.
 category: "Monitoring &amp; Alerts"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-composite-alarm-
 ```bash
 clawhub install aws-cloudwatch-composite-alarm-builder
 ```
+
 
 ## Source
 

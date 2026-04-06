@@ -1,8 +1,11 @@
 ---
-name: "Microsoft Learn MCP Server"
-description: "Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and code samples through a hosted MCP endpoint. It is built to reduce hallucinations around Azure, .NET, Microsoft 365, and other Microsoft platforms by grounding answers in first-party docs."
+name: Microsoft Learn MCP Server
+description: Microsoft Learn MCP Server gives agents and IDE assistants direct access
+  to official Microsoft documentation and code samples through a hosted MCP endpoint.
+  It is built to reduce hallucinations around Azure, .NET, Microsoft 365, and other
+  Microsoft platforms by grounding answers in first-party docs.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: listed
 source: "https://github.com/MicrosoftDocs/mcp"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill microsoft-learn-mcp-server -a c
 clawhub install microsoft-learn-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-learn-mcp-server/)
+- [GitHub](https://github.com/MicrosoftDocs/mcp)

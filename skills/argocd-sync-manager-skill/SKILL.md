@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Sync Manager"
-description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes manifest health using argocd CLI diff commands."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
+name: ArgoCD Sync Manager
+description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/applications/{name}/sync\
+  \ endpoint. Monitors sync status, handles rollback operations, and validates Kubernetes\
+  \ manifest health using argocd CLI diff commands."
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-manager-skill/"
 ---
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill argocd-sync-manager-skill -a co
 ```bash
 clawhub install argocd-sync-manager-skill
 ```
+
 
 ## Source
 

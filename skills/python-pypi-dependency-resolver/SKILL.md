@@ -1,8 +1,10 @@
 ---
-name: "Python PyPI Dependency Resolver"
-description: "Resolves Python package dependencies using the PyPI JSON API and pip resolver algorithm. Generates locked requirements files and checks compatibility across Python version markers via packaging library."
+name: Python PyPI Dependency Resolver
+description: Resolves Python package dependencies using the PyPI JSON API and pip
+  resolver algorithm. Generates locked requirements files and checks compatibility
+  across Python version markers via packaging library.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-pypi-dependency-resolver/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill python-pypi-dependency-resolver
 ```bash
 clawhub install python-pypi-dependency-resolver
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "OWASP ZAP API Security Auditor"
-description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
+name: OWASP ZAP API Security Auditor
+description: Orchestrates OWASP ZAP active and passive scans against REST and GraphQL
+  endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings
+  and suggests WAF rule configurations.
 category: "Security &amp; Verification"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill owasp-zap-api-security-auditor 
 ```bash
 clawhub install owasp-zap-api-security-auditor
 ```
+
 
 ## Source
 

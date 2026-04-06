@@ -1,14 +1,16 @@
 ---
-name: "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool"
-description: "Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable threshold — no password required."
+name: Horcrux Shamir Secret Sharing File Encryption and Splitting Tool
+description: Horcrux splits files into encrypted fragments using Shamir Secret Sharing,
+  so you can distribute pieces across locations and reconstruct the original with
+  a configurable threshold — no password required.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/jesseduffield/horcrux"
 tool_ecosystem:
   github_repo: "https://github.com/jesseduffield/horcrux"
   github_stars: 5037
-  license: "MIT"
+  license: MIT
 ---
 # Horcrux Shamir Secret Sharing File Encryption and Splitting Tool
 
@@ -70,6 +72,7 @@ npx skills add agentskillexchange/skills --skill horcrux-shamir-secret-file-spli
 clawhub install horcrux-shamir-secret-file-splitter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/horcrux-shamir-secret-file-splitter/)
+- [GitHub](https://github.com/jesseduffield/horcrux)

@@ -1,8 +1,10 @@
 ---
-name: "PubMed Literature Mining Agent"
-description: "Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text links from PubMed Central via the PMC OAI-PMH service."
+name: PubMed Literature Mining Agent
+description: Queries the NCBI E-utilities API (esearch, efetch, elink) to retrieve
+  PubMed biomedical literature, extracting MeSH terms, citation networks, and full-text
+  links from PubMed Central via the PMC OAI-PMH service.
 category: "Research &amp; Scraping"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://pubmed.ncbi.nlm.nih.gov/"
 ---
@@ -44,6 +46,7 @@ npx skills add agentskillexchange/skills --skill pubmed-literature-mining-agent 
 clawhub install pubmed-literature-mining-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pubmed-literature-mining-agent/)
+- [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/)

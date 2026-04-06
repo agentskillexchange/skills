@@ -1,8 +1,10 @@
 ---
-name: "Apify Web Scraper Orchestrator"
-description: "Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2."
+name: Apify Web Scraper Orchestrator
+description: Orchestrates Apify actors for large-scale web scraping via the Apify
+  Client SDK. Manages actor runs, dataset exports, and proxy configuration through
+  the Apify API v2.
 category: "Research &amp; Scraping"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill apify-web-scraper-orchestrator-
 ```bash
 clawhub install apify-web-scraper-orchestrator-3
 ```
+
 
 ## Source
 

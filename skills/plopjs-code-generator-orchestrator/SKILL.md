@@ -1,14 +1,16 @@
 ---
-name: "Plop.js Code Generator Orchestrator"
-description: "Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts."
+name: Plop.js Code Generator Orchestrator
+description: Manages Plop.js micro-generators to scaffold components, modules, and
+  boilerplate files using Handlebars templates. Drives plopfile.js configuration with
+  custom actions and dynamic prompts.
 category: "Templates &amp; Workflows"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://github.com/plopjs/plop"
 tool_ecosystem:
   github_repo: "https://github.com/plopjs/plop"
   github_stars: 7636
-  npm_package: "plop"
+  npm_package: plop
   npm_weekly_downloads: 1420765
 ---
 # Plop.js Code Generator Orchestrator
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill plopjs-code-generator-orchestra
 clawhub install plopjs-code-generator-orchestrator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/plopjs-code-generator-orchestrator/)
+- [GitHub](https://github.com/plopjs/plop)

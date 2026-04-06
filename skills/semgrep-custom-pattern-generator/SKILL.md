@@ -1,8 +1,10 @@
 ---
-name: "Semgrep Custom Pattern Generator"
-description: "Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint tracking, and join rules for cross-function analysis."
+name: Semgrep Custom Pattern Generator
+description: Generates Semgrep SAST rules from vulnerability descriptions using the
+  Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint
+  tracking, and join rules for cross-function analysis.
 category: "Code Quality &amp; Review"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill semgrep-custom-pattern-generato
 ```bash
 clawhub install semgrep-custom-pattern-generator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Alarm Runbook Generator"
-description: "Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links alarms to remediation procedures automatically."
+name: AWS CloudWatch Alarm Runbook Generator
+description: Generates structured incident runbooks from AWS CloudWatch alarm configurations
+  using the CloudWatch DescribeAlarms API and AWS Systems Manager documents. Links
+  alarms to remediation procedures automatically.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-runbook-ge
 ```bash
 clawhub install aws-cloudwatch-alarm-runbook-generator
 ```
+
 
 ## Source
 

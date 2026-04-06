@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Analyzer"
-description: "Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils. Maps type relationships, detects N+1 query patterns, and generates DataLoader batching recommendations."
+name: GraphQL Schema Analyzer
+description: Analyzes GraphQL schemas using graphql-js introspection and @graphql-tools/utils.
+  Maps type relationships, detects N+1 query patterns, and generates DataLoader batching
+  recommendations.
 category: "Library &amp; API Reference"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-analyzer -a code
 ```bash
 clawhub install graphql-schema-analyzer
 ```
+
 
 ## Source
 

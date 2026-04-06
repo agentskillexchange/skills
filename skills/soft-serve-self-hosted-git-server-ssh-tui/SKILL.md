@@ -1,14 +1,17 @@
 ---
-name: "Soft Serve Self-Hosted Git Server with SSH TUI"
-description: "Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control with SSH keys, and on-demand repository creation."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Soft Serve Self-Hosted Git Server with SSH TUI
+description: Soft Serve is a self-hostable Git server by Charmbracelet that provides
+  a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP,
+  and Git protocol, Git LFS, access control with SSH keys, and on-demand repository
+  creation.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/charmbracelet/soft-serve"
 tool_ecosystem:
   github_repo: "https://github.com/charmbracelet/soft-serve"
   github_stars: 6756
-  license: "MIT"
+  license: MIT
 ---
 # Soft Serve Self-Hosted Git Server with SSH TUI
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill soft-serve-self-hosted-git-serv
 clawhub install soft-serve-self-hosted-git-server-ssh-tui
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/soft-serve-self-hosted-git-server-ssh-tui/)
+- [GitHub](https://github.com/charmbracelet/soft-serve)

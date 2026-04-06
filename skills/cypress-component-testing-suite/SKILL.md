@@ -1,8 +1,10 @@
 ---
-name: "Cypress Component Testing Suite"
-description: "Implements component and E2E tests using Cypress with cy.mount, cy.intercept, and cy.get selectors. Configures cypress.config.ts with component devServer, custom commands, and Mochawesome reporter integration."
-category: "Browser Automation"
-framework: "MCP"
+name: Cypress Component Testing Suite
+description: Implements component and E2E tests using Cypress with cy.mount, cy.intercept,
+  and cy.get selectors. Configures cypress.config.ts with component devServer, custom
+  commands, and Mochawesome reporter integration.
+category: Browser Automation
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill cypress-component-testing-suite
 ```bash
 clawhub install cypress-component-testing-suite
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Schema.org Structured Data Generator"
-description: "Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary. Validates output against Google Rich Results Test API and SchemaValidator.org endpoints."
+name: Schema.org Structured Data Generator
+description: Generates JSON-LD structured data markup for articles, products, FAQs,
+  and how-to pages using Schema.org vocabulary. Validates output against Google Rich
+  Results Test API and SchemaValidator.org endpoints.
 category: "Content Writing &amp; SEO"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill schema-org-structured-data-gene
 ```bash
 clawhub install schema-org-structured-data-generator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Sentry Error Intelligence"
-description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
+name: Sentry Error Intelligence
+description: Connects to the Sentry API v0 to analyze error trends, group similar
+  stack traces using fingerprinting rules, and auto-assigns issues to code owners
+  via GitHub CODEOWNERS integration.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sentry-error-intelligence -a co
 ```bash
 clawhub install sentry-error-intelligence
 ```
+
 
 ## Source
 

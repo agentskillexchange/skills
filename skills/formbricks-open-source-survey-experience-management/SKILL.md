@@ -1,8 +1,10 @@
 ---
-name: "Formbricks Open Source Survey and Experience Management Platform"
-description: "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer insights at every point of their journey."
+name: Formbricks Open Source Survey and Experience Management Platform
+description: Formbricks is an open source survey platform and privacy-first experience
+  management solution. Create in-app, website, link, and email surveys to gather user
+  and customer insights at every point of their journey.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/formbricks/formbricks"
 ---
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill formbricks-open-source-survey-e
 clawhub install formbricks-open-source-survey-experience-management
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/formbricks-open-source-survey-experience-management/)
+- [GitHub](https://github.com/formbricks/formbricks)

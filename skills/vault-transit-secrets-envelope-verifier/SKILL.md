@@ -1,8 +1,11 @@
 ---
-name: "Vault Transit Secrets Envelope Verifier"
-description: "Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe."
+name: Vault Transit Secrets Envelope Verifier
+description: Verifies encryption workflows with HashiCorp Vault Transit endpoints
+  like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful
+  for agents reviewing whether application secrets handling is actually using envelope
+  encryption correctly instead of assuming the library setup is safe.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill vault-transit-secrets-envelope-
 clawhub install vault-transit-secrets-envelope-verifier
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vault-transit-secrets-envelope-verifier/)
+- [GitHub](https://github.com/hashicorp/vault)

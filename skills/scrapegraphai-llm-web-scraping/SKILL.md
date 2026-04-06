@@ -1,8 +1,11 @@
 ---
-name: "ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines"
-description: "ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent scraping pipelines. Describe what data you want to extract in natural language and the library builds and executes the extraction pipeline automatically."
+name: ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines
+description: ScrapeGraphAI is a Python web scraping library that uses LLMs and directed
+  graph logic to create intelligent scraping pipelines. Describe what data you want
+  to extract in natural language and the library builds and executes the extraction
+  pipeline automatically.
 category: "Research &amp; Scraping"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
 ---
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill scrapegraphai-llm-web-scraping 
 clawhub install scrapegraphai-llm-web-scraping
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/scrapegraphai-llm-web-scraping/)
+- [GitHub](https://github.com/ScrapeGraphAI/Scrapegraph-ai)

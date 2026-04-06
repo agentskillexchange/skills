@@ -1,8 +1,11 @@
 ---
-name: "ChartDB Database Schema Visualization and Diagram Editor"
-description: "ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It supports AI-powered DDL export for cross-database migration, interactive schema editing, and works entirely in the browser with no account required."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: ChartDB Database Schema Visualization and Diagram Editor
+description: ChartDB is a web-based database diagramming editor that instantly visualizes
+  your schema from a single SQL query. It supports AI-powered DDL export for cross-database
+  migration, interactive schema editing, and works entirely in the browser with no
+  account required.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/chartdb/chartdb"
 tool_ecosystem:
@@ -79,6 +82,7 @@ npx skills add agentskillexchange/skills --skill chartdb-database-schema-visuali
 clawhub install chartdb-database-schema-visualization
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chartdb-database-schema-visualization/)
+- [GitHub](https://github.com/chartdb/chartdb)

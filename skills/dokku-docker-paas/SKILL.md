@@ -1,8 +1,11 @@
 ---
-name: "Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS"
-description: "Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt, and a rich plugin ecosystem for databases, caching, and storage."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS
+description: Dokku is a self-hosted Platform-as-a-Service built on Docker that provides
+  Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub
+  stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt,
+  and a rich plugin ecosystem for databases, caching, and storage.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/dokku/dokku"
 ---
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill dokku-docker-paas -a codex
 clawhub install dokku-docker-paas
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dokku-docker-paas/)
+- [GitHub](https://github.com/dokku/dokku)

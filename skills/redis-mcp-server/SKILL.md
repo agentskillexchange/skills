@@ -1,8 +1,12 @@
 ---
-name: "Redis MCP Server"
-description: "Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like keys, hashes, TTLs, streams, pub/sub, sorted sets, locks and preserving the operational […]"
-category: "Developer Tools"
-framework: "MCP"
+name: Redis MCP Server
+description: "Redis MCP Server is built around Redis in-memory datastore. The underlying\
+  \ ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent\
+  \ a more technical and reliable way to work with the tool than a thin one-line wrapper,\
+  \ using stable interfaces like keys, hashes, TTLs, streams, pub/sub, sorted sets,\
+  \ locks and preserving the operational […]"
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/redis-mcp-server/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill redis-mcp-server -a codex
 ```bash
 clawhub install redis-mcp-server
 ```
+
 
 ## Source
 

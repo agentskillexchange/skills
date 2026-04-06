@@ -1,8 +1,11 @@
 ---
-name: "Docker Container Health Inspector"
-description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
+name: Docker Container Health Inspector
+description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json\
+  \ and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and\
+  \ network connectivity issues with automated log analysis via /containers/{id}/logs\
+  \ streaming."
 category: "Runbooks &amp; Diagnostics"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
 ---
@@ -47,6 +50,7 @@ npx skills add agentskillexchange/skills --skill docker-container-health-inspect
 ```bash
 clawhub install docker-container-health-inspector
 ```
+
 
 ## Source
 

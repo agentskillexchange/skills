@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Insights Agent"
-description: "Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions."
+name: AWS CloudWatch Insights Agent
+description: Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3.
+  Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates
+  anomaly detection alarms with math expressions.
 category: "Monitoring &amp; Alerts"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-insights-agent -
 ```bash
 clawhub install aws-cloudwatch-insights-agent
 ```
+
 
 ## Source
 

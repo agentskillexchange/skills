@@ -1,8 +1,10 @@
 ---
-name: "Twilio Programmable SMS Gateway"
-description: "Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message scheduling, delivery status callbacks, and Twilio Verify for OTP flows."
+name: Twilio Programmable SMS Gateway
+description: Sends and receives SMS/MMS messages via Twilio REST API with webhook
+  handler generation. Supports message scheduling, delivery status callbacks, and
+  Twilio Verify for OTP flows.
 category: "Integrations &amp; Connectors"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill twilio-programmable-sms-gateway
 ```bash
 clawhub install twilio-programmable-sms-gateway
 ```
+
 
 ## Source
 

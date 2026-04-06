@@ -1,8 +1,10 @@
 ---
-name: "Nx Monorepo Workflow Orchestrator"
-description: "Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency graph analysis, affected project detection, and distributed task execution via Nx Cloud."
+name: Nx Monorepo Workflow Orchestrator
+description: Manages Nx workspace task orchestration using nx.json configuration and
+  @nrwl/devkit executors. Automates dependency graph analysis, affected project detection,
+  and distributed task execution via Nx Cloud.
 category: "Templates &amp; Workflows"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://github.com/nrwl/nx"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill nx-monorepo-workflow-orchestrat
 clawhub install nx-monorepo-workflow-orchestrator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nx-monorepo-workflow-orchestrator/)
+- [GitHub](https://github.com/nrwl/nx)

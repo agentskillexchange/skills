@@ -1,8 +1,10 @@
 ---
-name: "Jina Reader URL-to-Markdown Converter and Web Search API"
-description: "Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that returns web search results in clean markdown format for RAG and agent workflows."
+name: Jina Reader URL-to-Markdown Converter and Web Search API
+description: Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/
+  to any web address. It also provides a search endpoint at https://s.jina.ai/ that
+  returns web search results in clean markdown format for RAG and agent workflows.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/jina-ai/reader"
 ---
@@ -68,6 +70,7 @@ npx skills add agentskillexchange/skills --skill jina-reader-url-to-markdown-web
 clawhub install jina-reader-url-to-markdown-web-search
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/jina-reader-url-to-markdown-web-search/)
+- [GitHub](https://github.com/jina-ai/reader)

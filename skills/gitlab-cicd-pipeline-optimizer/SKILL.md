@@ -1,8 +1,10 @@
 ---
-name: "GitLab CI/CD Pipeline Optimizer"
-description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
-category: "CI/CD Integrations"
-framework: "ChatGPT Agents"
+name: GitLab CI/CD Pipeline Optimizer
+description: Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification
+  and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child
+  pipelines.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill gitlab-cicd-pipeline-optimizer 
 ```bash
 clawhub install gitlab-cicd-pipeline-optimizer
 ```
+
 
 ## Source
 

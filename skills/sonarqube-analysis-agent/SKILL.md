@@ -1,8 +1,10 @@
 ---
-name: "SonarQube Analysis Agent"
-description: "Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication."
+name: SonarQube Analysis Agent
+description: Integrates with the SonarQube REST API to run static code analysis scans,
+  retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise
+  SonarQube instances via token-based authentication.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sonarqube-analysis-agent -a cod
 ```bash
 clawhub install sonarqube-analysis-agent
 ```
+
 
 ## Source
 

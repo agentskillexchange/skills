@@ -1,14 +1,17 @@
 ---
-name: "Liquidsoap Audio and Video Streaming Language"
-description: "Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model."
+name: Liquidsoap Audio and Video Streaming Language
+description: Build audio and video streaming pipelines with Liquidsoap, a statically
+  typed scripting language purpose-built for media automation. Create internet radio
+  stations, live stream processors, and automated playout systems with a composable
+  operator model.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/savonet/liquidsoap"
 tool_ecosystem:
   github_repo: "https://github.com/savonet/liquidsoap"
   github_stars: 1638
-  license: "GPL-2.0"
+  license: GPL-2.0
 ---
 # Liquidsoap Audio and Video Streaming Language
 
@@ -60,6 +63,7 @@ npx skills add agentskillexchange/skills --skill liquidsoap-audio-video-streamin
 clawhub install liquidsoap-audio-video-streaming-language
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/liquidsoap-audio-video-streaming-language/)
+- [GitHub](https://github.com/savonet/liquidsoap)

@@ -1,8 +1,10 @@
 ---
-name: "Salesforce Bulk API Data Loader"
-description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
+name: Salesforce Bulk API Data Loader
+description: Performs high-volume data operations using the Salesforce Bulk API 2.0.
+  Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status
+  via getJobInfo() for millions of records.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill salesforce-bulk-api-data-loader
 ```bash
 clawhub install salesforce-bulk-api-data-loader
 ```
+
 
 ## Source
 

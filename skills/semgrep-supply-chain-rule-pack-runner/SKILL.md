@@ -1,8 +1,11 @@
 ---
-name: "Semgrep Supply Chain Rule Pack Runner"
-description: "Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to surface risky patterns early. Useful when agents need to summarize security results in repo terms developers can act on immediately."
+name: Semgrep Supply Chain Rule Pack Runner
+description: Runs Semgrep code and supply-chain checks with `semgrep scan`, registry
+  rule packs, and dependency-aware findings to surface risky patterns early. Useful
+  when agents need to summarize security results in repo terms developers can act
+  on immediately.
 category: "Security &amp; Verification"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill semgrep-supply-chain-rule-pack-
 clawhub install semgrep-supply-chain-rule-pack-runner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/semgrep-supply-chain-rule-pack-runner/)
+- [GitHub](https://github.com/semgrep/semgrep)

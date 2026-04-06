@@ -1,8 +1,10 @@
 ---
-name: "Playwright Network Interceptor"
-description: "Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification. Uses the Playwright page.route() API, HAR recording, and request/response event listeners."
+name: Playwright Network Interceptor
+description: Intercepts and analyzes network traffic using Playwright route handlers
+  for API response capture and modification. Uses the Playwright page.route() API,
+  HAR recording, and request/response event listeners.
 category: "Research &amp; Scraping"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill playwright-network-interceptor 
 ```bash
 clawhub install playwright-network-interceptor
 ```
+
 
 ## Source
 

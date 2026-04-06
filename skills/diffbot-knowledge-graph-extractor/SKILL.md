@@ -1,8 +1,10 @@
 ---
-name: "Diffbot Knowledge Graph Extractor"
-description: "Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries."
+name: Diffbot Knowledge Graph Extractor
+description: Extracts structured entities from web pages using the Diffbot Extraction
+  API and Knowledge Graph. Supports article, product, and discussion extraction with
+  automatic entity linking via DQL queries.
 category: "Research &amp; Scraping"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill diffbot-knowledge-graph-extract
 ```bash
 clawhub install diffbot-knowledge-graph-extractor
 ```
+
 
 ## Source
 

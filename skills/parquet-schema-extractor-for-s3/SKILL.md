@@ -1,8 +1,11 @@
 ---
-name: "Parquet Schema Extractor for S3"
-description: "Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details."
+name: Parquet Schema Extractor for S3
+description: Extracts and validates Parquet file schemas from Amazon S3 using the
+  PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions
+  to detect schema drift and incompatible type changes. Outputs a schema diff report
+  with partition paths and affected column details.
 category: "Data Extraction &amp; Transformation"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill parquet-schema-extractor-for-s3
 ```bash
 clawhub install parquet-schema-extractor-for-s3
 ```
+
 
 ## Source
 

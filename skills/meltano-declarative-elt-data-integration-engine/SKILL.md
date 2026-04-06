@@ -1,8 +1,11 @@
 ---
-name: "Meltano Declarative ELT Data Integration Engine"
-description: "Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes."
+name: Meltano Declarative ELT Data Integration Engine
+description: Meltano is an open-source, CLI-first ELT platform built on the Singer
+  specification. It provides declarative, code-first data integration with 600+ connectors
+  through Singer taps and targets, orchestrating data movement from APIs, databases,
+  and files to warehouses and lakes.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/meltano/meltano"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill meltano-declarative-elt-data-in
 clawhub install meltano-declarative-elt-data-integration-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/meltano-declarative-elt-data-integration-engine/)
+- [GitHub](https://github.com/meltano/meltano)

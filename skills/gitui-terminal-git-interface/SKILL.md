@@ -1,8 +1,10 @@
 ---
-name: "GitUI Blazing Fast Terminal Git Interface"
-description: "GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging, committing, branching, stashing, and log browsing with async Git operations that outperform other terminal Git clients on large repositories."
-category: "Developer Tools"
-framework: "Claude Code"
+name: GitUI Blazing Fast Terminal Git Interface
+description: GitUI is a fast terminal-based user interface for Git written in Rust.
+  It provides keyboard-driven staging, committing, branching, stashing, and log browsing
+  with async Git operations that outperform other terminal Git clients on large repositories.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/gitui-org/gitui"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill gitui-terminal-git-interface -a
 clawhub install gitui-terminal-git-interface
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitui-terminal-git-interface/)
+- [GitHub](https://github.com/gitui-org/gitui)

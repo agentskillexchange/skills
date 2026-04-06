@@ -1,8 +1,10 @@
 ---
-name: "Semgrep Security Review Agent"
-description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with custom rule YAML authoring."
+name: Semgrep Security Review Agent
+description: Performs SAST scanning using Semgrep CLI and Semgrep Registry rules.
+  Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with
+  custom rule YAML authoring.
 category: "Code Quality &amp; Review"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill semgrep-security-review-agent -
 ```bash
 clawhub install semgrep-security-review-agent
 ```
+
 
 ## Source
 

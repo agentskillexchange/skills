@@ -1,8 +1,11 @@
 ---
-name: "jnv Interactive JSON Navigator and jq Filter Editor"
-description: "A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex JSON structures visually while building and testing jq queries in real time, with syntax highlighting, auto-completion, and clipboard support."
+name: jnv Interactive JSON Navigator and jq Filter Editor
+description: A terminal-based interactive JSON viewer and jq filter editor written
+  in Rust. jnv lets developers navigate complex JSON structures visually while building
+  and testing jq queries in real time, with syntax highlighting, auto-completion,
+  and clipboard support.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/ynqa/jnv"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill jnv-interactive-json-navigator 
 clawhub install jnv-interactive-json-navigator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/jnv-interactive-json-navigator/)
+- [GitHub](https://github.com/ynqa/jnv)

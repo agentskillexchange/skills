@@ -1,8 +1,10 @@
 ---
 name: "OpenAPI Spec Validator & Docs Generator"
-description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration."
+description: Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules
+  and generates interactive API documentation with Redoc and Swagger UI. Supports
+  custom ruleset definitions and CI integration.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill openapi-spec-validator-docs-gen
 ```bash
 clawhub install openapi-spec-validator-docs-generator
 ```
+
 
 ## Source
 

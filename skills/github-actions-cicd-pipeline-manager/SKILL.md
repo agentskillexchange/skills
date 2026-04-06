@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions CI/CD Pipeline Manager"
-description: "Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates."
-category: "CI/CD Integrations"
-framework: "OpenClaw"
+name: GitHub Actions CI/CD Pipeline Manager
+description: Automates GitHub Actions workflow creation, runner management, and artifact
+  caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable
+  workflows, and environment-specific deployment gates.
+category: CI/CD Integrations
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill github-actions-cicd-pipeline-ma
 ```bash
 clawhub install github-actions-cicd-pipeline-manager
 ```
+
 
 ## Source
 

@@ -1,8 +1,11 @@
 ---
-name: "GitLab CI Pipeline Dependency Tracer"
-description: "Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments."
-category: "CI/CD Integrations"
-framework: "Codex"
+name: GitLab CI Pipeline Dependency Tracer
+description: Traces job dependency chains in GitLab CI pipelines using the GitLab
+  Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel
+  execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests
+  API to post optimization reports as MR comments.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-pipeline-dependency-t
 ```bash
 clawhub install gitlab-ci-pipeline-dependency-tracer
 ```
+
 
 ## Source
 

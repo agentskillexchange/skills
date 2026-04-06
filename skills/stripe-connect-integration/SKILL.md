@@ -1,8 +1,10 @@
 ---
-name: "Stripe Connect Integration"
-description: "Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees, and processes Connect webhooks."
+name: Stripe Connect Integration
+description: Manages Stripe Connect accounts and payment flows using the Stripe Node.js
+  SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents
+  with application fees, and processes Connect webhooks.
 category: "Integrations &amp; Connectors"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-integration/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill stripe-connect-integration -a c
 ```bash
 clawhub install stripe-connect-integration
 ```
+
 
 ## Source
 

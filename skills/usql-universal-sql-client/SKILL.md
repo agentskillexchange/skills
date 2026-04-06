@@ -1,14 +1,17 @@
 ---
-name: "usql Universal Command-Line SQL Client for Multiple Databases"
-description: "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: usql Universal Command-Line SQL Client for Multiple Databases
+description: usql is a universal command-line interface for SQL databases including
+  PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent
+  psql-like experience with syntax highlighting, tab completion, and cross-database
+  copying.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/xo/usql"
 tool_ecosystem:
   github_repo: "https://github.com/xo/usql"
   github_stars: 9894
-  license: "MIT"
+  license: MIT
 ---
 # usql Universal Command-Line SQL Client for Multiple Databases
 
@@ -70,6 +73,7 @@ npx skills add agentskillexchange/skills --skill usql-universal-sql-client -a co
 clawhub install usql-universal-sql-client
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/usql-universal-sql-client/)
+- [GitHub](https://github.com/xo/usql)

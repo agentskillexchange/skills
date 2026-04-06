@@ -1,8 +1,10 @@
 ---
-name: "Selenium Grid Test Orchestrator"
-description: "Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing, node health, and parallel test execution via the WebDriver protocol."
-category: "Browser Automation"
-framework: "ChatGPT Agents"
+name: Selenium Grid Test Orchestrator
+description: Orchestrates distributed browser testing across Selenium Grid 4 nodes
+  using the Grid API. Manages session queuing, node health, and parallel test execution
+  via the WebDriver protocol.
+category: Browser Automation
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill selenium-grid-test-orchestrator
 ```bash
 clawhub install selenium-grid-test-orchestrator-2
 ```
+
 
 ## Source
 

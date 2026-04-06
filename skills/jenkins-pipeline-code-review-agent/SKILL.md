@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Code Review Agent"
-description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules."
+name: Jenkins Pipeline Code Review Agent
+description: Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security
+  issues, and performance bottlenecks using Jenkins Pipeline Linter API and static
+  analysis rules.
 category: "Code Quality &amp; Review"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-code-review-ag
 ```bash
 clawhub install jenkins-pipeline-code-review-agent
 ```
+
 
 ## Source
 

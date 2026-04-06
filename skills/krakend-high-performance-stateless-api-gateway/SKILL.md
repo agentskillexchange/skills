@@ -1,8 +1,10 @@
 ---
-name: "KrakenD High-Performance Stateless API Gateway"
-description: "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies, and telemetry integration."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: KrakenD High-Performance Stateless API Gateway
+description: KrakenD is an ultra-high performance, stateless, declarative API Gateway
+  written in Go. It helps adopt microservices architecture with content aggregation,
+  rate limiting, security policies, and telemetry integration.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/krakend/krakend-ce"
 ---
@@ -64,6 +66,7 @@ npx skills add agentskillexchange/skills --skill krakend-high-performance-statel
 clawhub install krakend-high-performance-stateless-api-gateway
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/krakend-high-performance-stateless-api-gateway/)
+- [GitHub](https://github.com/krakend/krakend-ce)

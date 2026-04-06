@@ -1,8 +1,10 @@
 ---
-name: "Nginx Error Pattern Analyzer"
-description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
+name: Nginx Error Pattern Analyzer
+description: Analyzes Nginx error logs using GoAccess and custom regex parsers to
+  identify recurring 502/503 patterns. Correlates upstream timeout errors with backend
+  service health via Prometheus PromQL queries.
 category: "Runbooks &amp; Diagnostics"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill nginx-error-pattern-analyzer-ag
 ```bash
 clawhub install nginx-error-pattern-analyzer-agent
 ```
+
 
 ## Source
 

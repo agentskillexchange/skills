@@ -1,8 +1,10 @@
 ---
-name: "Plaid Financial Data Connector"
-description: "Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API. Supports account balance polling, institution search, and webhook-driven sync."
+name: Plaid Financial Data Connector
+description: Connects to bank accounts via Plaid Link SDK and retrieves transaction
+  data using the Plaid Transactions API. Supports account balance polling, institution
+  search, and webhook-driven sync.
 category: "Integrations &amp; Connectors"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill plaid-financial-data-connector 
 ```bash
 clawhub install plaid-financial-data-connector
 ```
+
 
 ## Source
 

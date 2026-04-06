@@ -1,14 +1,18 @@
 ---
-name: "OpsGenie MCP Server"
-description: "OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented by opsgenie/opsgenie-nodejs-sdk (24+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like alerts, schedules, teams, escalation policies, notes, integrations and preserving the […]"
+name: OpsGenie MCP Server
+description: "OpsGenie MCP Server is built around Opsgenie incident and on-call platform.\
+  \ The underlying ecosystem is represented by opsgenie/opsgenie-nodejs-sdk (24+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like alerts, schedules,\
+  \ teams, escalation policies, notes, integrations and preserving the […]"
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 tool_ecosystem:
   github_repo: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24
-  npm_package: "opsgenie-sdk"
+  npm_package: opsgenie-sdk
 ---
 # OpsGenie MCP Server
 
@@ -60,6 +64,7 @@ npx skills add agentskillexchange/skills --skill opsgenie-mcp-server -a codex
 clawhub install opsgenie-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/opsgenie-mcp-server/)
+- [GitHub](https://github.com/opsgenie/opsgenie-nodejs-sdk)

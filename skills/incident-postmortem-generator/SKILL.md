@@ -1,8 +1,10 @@
 ---
-name: "Incident Postmortem Generator"
-description: "Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format."
+name: Incident Postmortem Generator
+description: Generates structured incident postmortems by aggregating data from PagerDuty
+  incidents API, Slack channel history, and Grafana dashboard snapshots. Produces
+  blameless postmortem documents following the Google SRE template format.
 category: "Runbooks &amp; Diagnostics"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
 ---
@@ -61,6 +63,7 @@ npx skills add agentskillexchange/skills --skill incident-postmortem-generator -
 ```bash
 clawhub install incident-postmortem-generator
 ```
+
 
 ## Source
 

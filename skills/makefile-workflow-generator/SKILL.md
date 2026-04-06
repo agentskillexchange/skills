@@ -1,8 +1,10 @@
 ---
-name: "Makefile Workflow Generator"
-description: "Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets."
+name: Makefile Workflow Generator
+description: Generates project Makefiles with standard targets using GNU Make syntax,
+  autodeps pattern rules, and integration with package managers (npm scripts, Poetry
+  tasks, Cargo commands). Produces .PHONY declarations and help targets.
 category: "Templates &amp; Workflows"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill makefile-workflow-generator -a 
 ```bash
 clawhub install makefile-workflow-generator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Puppeteer Cookie Consent Handler"
-description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
-category: "Browser Automation"
-framework: "Claude Code"
+name: Puppeteer Cookie Consent Handler
+description: Detects and dismisses cookie consent banners across websites using Puppeteer
+  page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports
+  IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns.
+category: Browser Automation
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-cookie-consent-handle
 ```bash
 clawhub install puppeteer-cookie-consent-handler-3
 ```
+
 
 ## Source
 

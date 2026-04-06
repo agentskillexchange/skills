@@ -1,8 +1,11 @@
 ---
-name: "Strapi Open Source Headless CMS for Custom Content APIs"
-description: "Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST or GraphQL APIs. It fits AI and automation workflows that need an extensible admin UI, custom content types, role-based access controls, and self-hosted deployment options."
+name: Strapi Open Source Headless CMS for Custom Content APIs
+description: Strapi is a JavaScript and TypeScript headless CMS that helps teams model
+  content once and publish it through REST or GraphQL APIs. It fits AI and automation
+  workflows that need an extensible admin UI, custom content types, role-based access
+  controls, and self-hosted deployment options.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/strapi/strapi"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill strapi-open-source-headless-cms
 clawhub install strapi-open-source-headless-cms-custom-content-apis
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/strapi-open-source-headless-cms-custom-content-apis/)
+- [GitHub](https://github.com/strapi/strapi)

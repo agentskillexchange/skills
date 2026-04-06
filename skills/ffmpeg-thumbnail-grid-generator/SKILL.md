@@ -1,8 +1,10 @@
 ---
-name: "FFmpeg Thumbnail Grid Generator"
-description: "Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports customizable grid dimensions, timestamp overlays, and batch processing across directories."
+name: FFmpeg Thumbnail Grid Generator
+description: Generates contact-sheet-style thumbnail grids from video files using
+  FFmpeg tile filter and libvips. Supports customizable grid dimensions, timestamp
+  overlays, and batch processing across directories.
 category: "Image &amp; Creative Automation"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill ffmpeg-thumbnail-grid-generator
 ```bash
 clawhub install ffmpeg-thumbnail-grid-generator
 ```
+
 
 ## Source
 

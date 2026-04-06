@@ -1,8 +1,9 @@
 ---
-name: "WordPress Content Publisher"
-description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+name: WordPress Content Publisher
+description: Structured publishing workflow for WordPress drafts, metadata, and content
+  operations.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
@@ -59,6 +60,7 @@ npx skills add agentskillexchange/skills --skill wordpress-content-publisher -a 
 clawhub install wordpress-content-publisher
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-content-publisher/)
+- [GitHub](https://github.com/WordPress/WordPress)

@@ -1,8 +1,10 @@
 ---
 name: "Google Calendar Sync & Conflict Resolver"
-description: "Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries."
+description: Bidirectional calendar synchronization using Google Calendar API v3 with
+  OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal
+  meeting times using FreeBusy API queries.
 category: "Calendar, Email &amp; Productivity"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill google-calendar-sync-conflict-r
 ```bash
 clawhub install google-calendar-sync-conflict-resolver
 ```
+
 
 ## Source
 

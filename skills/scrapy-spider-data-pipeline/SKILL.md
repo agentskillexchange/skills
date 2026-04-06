@@ -1,8 +1,10 @@
 ---
-name: "Scrapy Spider Data Pipeline"
-description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
+name: Scrapy Spider Data Pipeline
+description: Builds and manages Scrapy web scraping spiders with custom item pipelines.
+  Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies,
+  and export to MongoDB or Elasticsearch.
 category: "Data Extraction &amp; Transformation"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill scrapy-spider-data-pipeline -a 
 ```bash
 clawhub install scrapy-spider-data-pipeline
 ```
+
 
 ## Source
 

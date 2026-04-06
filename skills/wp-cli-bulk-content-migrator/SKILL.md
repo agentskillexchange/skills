@@ -1,8 +1,10 @@
 ---
-name: "WP-CLI Bulk Content Migrator"
-description: "Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles custom post types, ACF field mapping, and taxonomy reassignment with rollback support."
+name: WP-CLI Bulk Content Migrator
+description: Automates large-scale WordPress content migrations using WP-CLI wp post
+  create and wp term set commands. Handles custom post types, ACF field mapping, and
+  taxonomy reassignment with rollback support.
 category: "WordPress &amp; CMS"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill wp-cli-bulk-content-migrator -a
 ```bash
 clawhub install wp-cli-bulk-content-migrator
 ```
+
 
 ## Source
 

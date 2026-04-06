@@ -1,8 +1,10 @@
 ---
-name: "ESLint Rule Auditor"
-description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
+name: ESLint Rule Auditor
+description: Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat
+  config APIs. Detects conflicting rules, deprecated configs, and generates migration
+  paths from eslintrc to eslint.config.js flat config format.
 category: "Code Quality &amp; Review"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill eslint-rule-auditor-3 -a codex
 ```bash
 clawhub install eslint-rule-auditor-3
 ```
+
 
 ## Source
 

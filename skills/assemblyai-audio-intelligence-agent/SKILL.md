@@ -1,8 +1,10 @@
 ---
-name: "AssemblyAI Audio Intelligence Agent"
-description: "Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic modeling, and auto-chapter generation. Uses the assemblyai Python SDK for transcript processing pipelines."
+name: AssemblyAI Audio Intelligence Agent
+description: Extract structured intelligence from audio using the AssemblyAI API with
+  sentiment analysis, entity detection, topic modeling, and auto-chapter generation.
+  Uses the assemblyai Python SDK for transcript processing pipelines.
 category: "Media &amp; Transcription"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
 ---
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill assemblyai-audio-intelligence-a
 ```bash
 clawhub install assemblyai-audio-intelligence-agent
 ```
+
 
 ## Source
 

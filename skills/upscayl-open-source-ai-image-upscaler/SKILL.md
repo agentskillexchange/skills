@@ -1,14 +1,16 @@
 ---
-name: "Upscayl Open Source AI Image Upscaler"
-description: "Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution images, supporting batch processing, custom models, and multiple output formats."
+name: Upscayl Open Source AI Image Upscaler
+description: Upscayl is a free, open-source AI image upscaler for Linux, macOS, and
+  Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution
+  images, supporting batch processing, custom models, and multiple output formats.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/upscayl/upscayl"
 tool_ecosystem:
   github_repo: "https://github.com/upscayl/upscayl"
   github_stars: 44297
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # Upscayl Open Source AI Image Upscaler
 
@@ -68,6 +70,7 @@ npx skills add agentskillexchange/skills --skill upscayl-open-source-ai-image-up
 clawhub install upscayl-open-source-ai-image-upscaler
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/upscayl-open-source-ai-image-upscaler/)
+- [GitHub](https://github.com/upscayl/upscayl)

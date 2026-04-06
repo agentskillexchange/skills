@@ -1,8 +1,10 @@
 ---
-name: "OAuth2 Token Introspection Agent"
-description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time."
+name: OAuth2 Token Introspection Agent
+description: Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates
+  with Keycloak, Auth0, and Okta token introspection APIs to verify token claims,
+  scopes, and expiration in real time.
 category: "Security &amp; Verification"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
 ---
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill oauth2-token-introspection-agen
 ```bash
 clawhub install oauth2-token-introspection-agent
 ```
+
 
 ## Source
 

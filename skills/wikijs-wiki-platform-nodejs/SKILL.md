@@ -1,8 +1,11 @@
 ---
-name: "Wiki.js Modern Open Source Wiki Platform on Node.js"
-description: "Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides multi-language content, granular access controls, and integrations with major authentication providers."
+name: Wiki.js Modern Open Source Wiki Platform on Node.js
+description: Wiki.js is a powerful open-source wiki app built on Node.js with support
+  for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides
+  multi-language content, granular access controls, and integrations with major authentication
+  providers.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/requarks/wiki"
 ---
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill wikijs-wiki-platform-nodejs -a 
 clawhub install wikijs-wiki-platform-nodejs
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wikijs-wiki-platform-nodejs/)
+- [GitHub](https://github.com/requarks/wiki)

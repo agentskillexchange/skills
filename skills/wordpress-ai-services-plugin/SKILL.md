@@ -1,8 +1,10 @@
 ---
-name: "WordPress AI Services Plugin"
-description: "AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities centrally across PHP, REST API, JavaScript, and WP-CLI. It is built as infrastructure for other plugins and site workflows, rather than as a single-purpose chatbot feature."
+name: WordPress AI Services Plugin
+description: AI Services is a WordPress plugin by Felix Arntz that exposes AI capabilities
+  centrally across PHP, REST API, JavaScript, and WP-CLI. It is built as infrastructure
+  for other plugins and site workflows, rather than as a single-purpose chatbot feature.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/felixarntz/ai-services"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill wordpress-ai-services-plugin -a
 clawhub install wordpress-ai-services-plugin
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-ai-services-plugin/)
+- [GitHub](https://github.com/felixarntz/ai-services)

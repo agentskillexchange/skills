@@ -1,8 +1,10 @@
 ---
-name: "GitLab CI Auto DevOps Configurator"
-description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments."
-category: "CI/CD Integrations"
-framework: "Claude Agents"
+name: GitLab CI Auto DevOps Configurator
+description: Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps
+  templates, includes, and the GitLab Container Registry. Manages multi-project pipelines
+  and environment-specific deployments.
+category: CI/CD Integrations
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill gitlab-ci-auto-devops-configura
 ```bash
 clawhub install gitlab-ci-auto-devops-configurator
 ```
+
 
 ## Source
 

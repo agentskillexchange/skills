@@ -1,14 +1,17 @@
 ---
-name: "Ghostty Fast Native Terminal Emulator with GPU Acceleration"
-description: "Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience on macOS and Linux while supporting modern terminal protocols including Kitty graphics and synchronized rendering."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Ghostty Fast Native Terminal Emulator with GPU Acceleration
+description: Ghostty is a fast, feature-rich, cross-platform terminal emulator that
+  uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it
+  provides a native experience on macOS and Linux while supporting modern terminal
+  protocols including Kitty graphics and synchronized rendering.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/ghostty-org/ghostty"
 tool_ecosystem:
   github_repo: "https://github.com/ghostty-org/ghostty"
   github_stars: 49204
-  license: "MIT"
+  license: MIT
 ---
 # Ghostty Fast Native Terminal Emulator with GPU Acceleration
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill ghostty-fast-native-terminal-em
 clawhub install ghostty-fast-native-terminal-emulator-gpu-acceleration
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/)
+- [GitHub](https://github.com/ghostty-org/ghostty)

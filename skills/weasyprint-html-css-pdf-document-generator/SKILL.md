@@ -1,8 +1,12 @@
 ---
-name: "WeasyPrint HTML and CSS to PDF Document Generator"
-description: "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for pagination, supporting web standards for printing including page breaks, headers, page counters, and responsive layouts without relying on a browser engine like WebKit or Gecko."
+name: WeasyPrint HTML and CSS to PDF Document Generator
+description: WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML
+  and CSS into PDF documents. It implements a CSS layout engine designed specifically
+  for pagination, supporting web standards for printing including page breaks, headers,
+  page counters, and responsive layouts without relying on a browser engine like WebKit
+  or Gecko.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/Kozea/WeasyPrint"
 ---
@@ -62,6 +66,7 @@ npx skills add agentskillexchange/skills --skill weasyprint-html-css-pdf-documen
 clawhub install weasyprint-html-css-pdf-document-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/weasyprint-html-css-pdf-document-generator/)
+- [GitHub](https://github.com/Kozea/WeasyPrint)

@@ -1,8 +1,10 @@
 ---
-name: "Plop.js Code Generator"
-description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation."
+name: Plop.js Code Generator
+description: Creates Plop.js generators with Handlebars templates and custom action
+  types for scaffolding React components, API routes, and test files. Uses inquirer
+  prompts with validation and the addMany action for batch file generation.
 category: "Templates &amp; Workflows"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill plopjs-code-generator -a codex
 ```bash
 clawhub install plopjs-code-generator
 ```
+
 
 ## Source
 

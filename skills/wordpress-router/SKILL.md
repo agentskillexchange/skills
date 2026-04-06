@@ -1,16 +1,16 @@
 ---
-name: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast.
+name: WordPress Router
+description: 'Route WordPress tasks to the right workflow fast.
 
-Core Capabilities
+  Core Capabilities
 
-Manage WordPress sites using WP-CLI and the WordPress REST API
+  Manage WordPress sites using WP-CLI and the WordPress REST API
 
-Automate plugin, theme, and core update workflows
+  Automate plugin, theme, and core update workflows
 
-Handle content op"
+  Handle content op'
 category: "WordPress &amp; CMS"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 tool_ecosystem:
@@ -75,6 +75,7 @@ npx skills add agentskillexchange/skills --skill wordpress-router -a codex
 clawhub install wordpress-router
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-router/)
+- [GitHub](https://github.com/WordPress/WordPress)

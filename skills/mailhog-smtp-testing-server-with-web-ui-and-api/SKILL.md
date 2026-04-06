@@ -1,14 +1,17 @@
 ---
-name: "MailHog SMTP Testing Server with Web UI and API"
-description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
+name: MailHog SMTP Testing Server with Web UI and API
+description: Uses MailHog to capture outbound email in development and test environments
+  through a local SMTP server, browser UI, and JSON API. It is a practical fit for
+  debugging transactional mail, verifying templates, and testing delivery behavior
+  without sending messages to real recipients.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mailhog/MailHog"
 tool_ecosystem:
   github_repo: "https://github.com/mailhog/mailhog"
   github_stars: 15892
-  license: "MIT"
+  license: MIT
 ---
 # MailHog SMTP Testing Server with Web UI and API
 
@@ -52,6 +55,7 @@ npx skills add agentskillexchange/skills --skill mailhog-smtp-testing-server-wit
 clawhub install mailhog-smtp-testing-server-with-web-ui-and-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mailhog-smtp-testing-server-with-web-ui-and-api/)
+- [GitHub](https://github.com/mailhog/MailHog)

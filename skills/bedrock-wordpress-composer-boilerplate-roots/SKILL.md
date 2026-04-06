@@ -1,14 +1,17 @@
 ---
-name: "Bedrock Modern WordPress Project Boilerplate by Roots"
-description: "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from application code for cleaner version control and deployment."
+name: Bedrock Modern WordPress Project Boilerplate by Roots
+description: Bedrock is a WordPress boilerplate with Composer-based dependency management,
+  environment-specific configuration via .env files, and an improved folder structure.
+  It separates WordPress core from application code for cleaner version control and
+  deployment.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/roots/bedrock"
 tool_ecosystem:
   github_repo: "https://github.com/roots/bedrock"
   github_stars: 6498
-  license: "MIT"
+  license: MIT
 ---
 # Bedrock Modern WordPress Project Boilerplate by Roots
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill bedrock-wordpress-composer-boil
 clawhub install bedrock-wordpress-composer-boilerplate-roots
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/bedrock-wordpress-composer-boilerplate-roots/)
+- [GitHub](https://github.com/roots/bedrock)

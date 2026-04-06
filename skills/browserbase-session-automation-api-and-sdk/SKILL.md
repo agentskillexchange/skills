@@ -1,16 +1,19 @@
 ---
-name: "Browserbase Session Automation API and SDK"
-description: "Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill packages the Browserbase API and SDK into a concrete workflow for running, monitoring, and extracting results from cloud browser sessions."
-category: "Browser Automation"
-framework: "Multi-Framework"
+name: Browserbase Session Automation API and SDK
+description: Use Browserbase when an agent needs hosted browser sessions, remote automation,
+  session recording, and scalable browser infrastructure without managing Chromium
+  fleets directly. This skill packages the Browserbase API and SDK into a concrete
+  workflow for running, monitoring, and extracting results from cloud browser sessions.
+category: Browser Automation
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/browserbase/sdk-node"
 tool_ecosystem:
   github_repo: "https://github.com/browserbase/sdk-node"
   github_stars: 61
-  npm_package: "@browserbasehq/sdk"
+  npm_package: '@browserbasehq/sdk'
   npm_weekly_downloads: 766062
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Browserbase Session Automation API and SDK
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill browserbase-session-automation-
 clawhub install browserbase-session-automation-api-and-sdk
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/browserbase-session-automation-api-and-sdk/)
+- [GitHub](https://github.com/browserbase/sdk-node)

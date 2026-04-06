@@ -1,8 +1,10 @@
 ---
-name: "DALL-E Prompt Engineering Kit"
-description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
+name: DALL-E Prompt Engineering Kit
+description: Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations
+  endpoint) with style modifiers, aspect ratio control, and batch variation generation.
+  Includes negative prompt patterns and quality presets.
 category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill dall-e-prompt-engineering-kit -
 ```bash
 clawhub install dall-e-prompt-engineering-kit
 ```
+
 
 ## Source
 

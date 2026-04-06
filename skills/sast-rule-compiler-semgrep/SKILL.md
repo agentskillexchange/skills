@@ -1,8 +1,10 @@
 ---
-name: "SAST Rule Compiler for Semgrep"
-description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
+name: SAST Rule Compiler for Semgrep
+description: Compiles and validates custom Semgrep SAST rules using the semgrep-core
+  engine. Tests pattern matching against sample codebases and generates rule performance
+  benchmarks with p/ci rulesets.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sast-rule-compiler-semgrep -a c
 ```bash
 clawhub install sast-rule-compiler-semgrep
 ```
+
 
 ## Source
 

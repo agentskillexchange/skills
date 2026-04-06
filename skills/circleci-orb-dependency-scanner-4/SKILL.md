@@ -1,8 +1,10 @@
 ---
-name: "CircleCI Orb Dependency Scanner"
-description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: CircleCI Orb Dependency Scanner
+description: Scans CircleCI config.yml for outdated orb versions using the CircleCI
+  Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability
+  database lookups.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill circleci-orb-dependency-scanner
 ```bash
 clawhub install circleci-orb-dependency-scanner-4
 ```
+
 
 ## Source
 

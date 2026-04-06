@@ -1,8 +1,10 @@
 ---
-name: "Terraform Plan Reviewer Agent"
-description: "Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: Terraform Plan Reviewer Agent
+description: Parses terraform plan -json output and queries the Terraform Cloud API
+  /runs endpoint to review infrastructure changes. Detects destructive operations,
+  estimates cost impact via Infracost API, and validates against OPA policies.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-reviewer-agent -
 ```bash
 clawhub install terraform-plan-reviewer-agent
 ```
+
 
 ## Source
 

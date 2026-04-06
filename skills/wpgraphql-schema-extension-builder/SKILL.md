@@ -1,8 +1,11 @@
 ---
-name: "WPGraphQL Schema Extension Builder"
-description: "Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries."
+name: WPGraphQL Schema Extension Builder
+description: Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`,
+  `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing
+  custom fields, computed properties, and relationships in a way that stays aligned
+  with WordPress data models and client queries.
 category: "WordPress &amp; CMS"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill wpgraphql-schema-extension-buil
 clawhub install wpgraphql-schema-extension-builder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wpgraphql-schema-extension-builder/)
+- [GitHub](https://github.com/wp-graphql/wp-graphql)

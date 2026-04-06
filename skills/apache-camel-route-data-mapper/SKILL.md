@@ -1,8 +1,10 @@
 ---
-name: "Apache Camel Route Data Mapper"
-description: "Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK."
+name: Apache Camel Route Data Mapper
+description: Maps and transforms data between systems using Apache Camel route definitions
+  and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations
+  via camel-core SDK.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill apache-camel-route-data-mapper 
 ```bash
 clawhub install apache-camel-route-data-mapper
 ```
+
 
 ## Source
 

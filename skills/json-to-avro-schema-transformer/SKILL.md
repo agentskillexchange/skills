@@ -1,8 +1,11 @@
 ---
-name: "JSON-to-Avro Schema Transformer"
-description: "Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API."
+name: JSON-to-Avro Schema Transformer
+description: Transforms JSON Schema definitions into Apache Avro schema format using
+  the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional
+  fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema
+  Registry via the Schema Registry REST API.
 category: "Data Extraction &amp; Transformation"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill json-to-avro-schema-transformer
 ```bash
 clawhub install json-to-avro-schema-transformer
 ```
+
 
 ## Source
 

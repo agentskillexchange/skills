@@ -1,8 +1,10 @@
 ---
-name: "Docmost Open Source Collaborative Wiki and Documentation Platform"
-description: "Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested pages, diagrams, spaces, and granular permissions management."
+name: Docmost Open Source Collaborative Wiki and Documentation Platform
+description: Docmost is an open-source collaborative wiki and documentation platform
+  that serves as a self-hosted alternative to Confluence and Notion. It features real-time
+  collaboration, nested pages, diagrams, spaces, and granular permissions management.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/docmost/docmost"
 tool_ecosystem:
@@ -91,6 +93,7 @@ npx skills add agentskillexchange/skills --skill docmost-open-source-collaborati
 clawhub install docmost-open-source-collaborative-wiki-documentation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/docmost-open-source-collaborative-wiki-documentation/)
+- [GitHub](https://github.com/docmost/docmost)

@@ -1,8 +1,10 @@
 ---
-name: "AI Content Readability Optimizer"
-description: "Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels."
+name: AI Content Readability Optimizer
+description: Analyzes and optimizes content readability using Flesch-Kincaid scoring,
+  Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized
+  rewrites targeting specific grade levels.
 category: "Content Writing &amp; SEO"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill ai-content-readability-optimize
 ```bash
 clawhub install ai-content-readability-optimizer
 ```
+
 
 ## Source
 

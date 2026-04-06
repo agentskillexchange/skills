@@ -1,8 +1,11 @@
 ---
-name: "Firecrawl Web Data API for AI Search Scraping and Crawl Workflows"
-description: "Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data."
+name: Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
+description: Firecrawl is an open source web data platform for search, scraping, crawling,
+  and browser-like page interaction. It gives agents LLM-ready markdown, structured
+  JSON, screenshots, and agent-oriented endpoints for turning live websites into usable
+  data.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/firecrawl/firecrawl"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill firecrawl-web-data-api-ai-searc
 clawhub install firecrawl-web-data-api-ai-search-scraping-crawl-workflows
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/)
+- [GitHub](https://github.com/firecrawl/firecrawl)

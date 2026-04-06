@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Runbook Agent"
-description: "Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps."
+name: Prometheus Alert Runbook Agent
+description: Automates incident response for Prometheus alerts using PromQL queries,
+  Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with
+  remediation steps.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-runbook-agent 
 ```bash
 clawhub install prometheus-alert-runbook-agent
 ```
+
 
 ## Source
 

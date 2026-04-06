@@ -1,8 +1,10 @@
 ---
-name: "ESLint Rule Enforcer"
-description: "Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns."
+name: ESLint Rule Enforcer
+description: Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn
+  and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable
+  rules, and generates per-package lint reports with violation severity breakdowns.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer/"
 ---
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill eslint-rule-enforcer -a codex
 ```bash
 clawhub install eslint-rule-enforcer
 ```
+
 
 ## Source
 

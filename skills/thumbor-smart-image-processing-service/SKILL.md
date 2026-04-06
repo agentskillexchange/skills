@@ -1,8 +1,11 @@
 ---
-name: "Thumbor Smart Image Processing Service"
-description: "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent face and feature detection. Enables automated image optimization pipelines for web applications and content delivery workflows."
+name: Thumbor Smart Image Processing Service
+description: An agent skill that leverages Thumbor, the open-source smart image processing
+  service by Globo.com, to perform on-demand image cropping, resizing, and filtering
+  with intelligent face and feature detection. Enables automated image optimization
+  pipelines for web applications and content delivery workflows.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/thumbor/thumbor"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill thumbor-smart-image-processing-
 clawhub install thumbor-smart-image-processing-service
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/thumbor-smart-image-processing-service/)
+- [GitHub](https://github.com/thumbor/thumbor)

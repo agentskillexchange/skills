@@ -1,8 +1,10 @@
 ---
-name: "Parquet to PostgreSQL Loader"
-description: "Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental upserts with conflict resolution."
+name: Parquet to PostgreSQL Loader
+description: Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL
+  via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental
+  upserts with conflict resolution.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: listed
 source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill parquet-to-postgresql-loader -a
 ```bash
 clawhub install parquet-to-postgresql-loader
 ```
+
 
 ## Source
 

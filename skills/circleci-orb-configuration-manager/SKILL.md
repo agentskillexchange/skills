@@ -1,8 +1,10 @@
 ---
-name: "CircleCI Orb Configuration Manager"
-description: "Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml."
-category: "CI/CD Integrations"
-framework: "ChatGPT Agents"
+name: CircleCI Orb Configuration Manager
+description: Manages CircleCI pipeline configurations using orbs like circleci/node,
+  circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism,
+  and resource class selection via .circleci/config.yml.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-configuration-manager/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill circleci-orb-configuration-mana
 ```bash
 clawhub install circleci-orb-configuration-manager
 ```
+
 
 ## Source
 

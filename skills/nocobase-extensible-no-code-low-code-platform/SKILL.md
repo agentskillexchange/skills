@@ -1,8 +1,10 @@
 ---
-name: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
-description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: NocoBase Extensible AI-Powered No-Code and Low-Code Platform
+description: NocoBase is the most extensible open-source no-code/low-code platform
+  for building business applications. It features a data model-driven architecture,
+  AI employee integration, plugin system, and WYSIWYG interface builder.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/nocobase/nocobase"
 ---
@@ -68,6 +70,7 @@ npx skills add agentskillexchange/skills --skill nocobase-extensible-no-code-low
 clawhub install nocobase-extensible-no-code-low-code-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nocobase-extensible-no-code-low-code-platform/)
+- [GitHub](https://github.com/nocobase/nocobase)

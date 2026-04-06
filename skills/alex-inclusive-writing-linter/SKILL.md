@@ -1,16 +1,18 @@
 ---
-name: "alex Inclusive Writing Linter"
-description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
+name: alex Inclusive Writing Linter
+description: Catch insensitive, inconsiderate writing with alex. This CLI tool and
+  Node.js library scans Markdown and plain text for gender-biased, polarizing, or
+  exclusionary language and suggests inclusive alternatives.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/get-alex/alex"
 tool_ecosystem:
   github_repo: "https://github.com/get-alex/alex"
   github_stars: 5096
-  npm_package: "alex"
+  npm_package: alex
   npm_weekly_downloads: 30268
-  license: "MIT"
+  license: MIT
 ---
 # alex Inclusive Writing Linter
 
@@ -62,6 +64,7 @@ npx skills add agentskillexchange/skills --skill alex-inclusive-writing-linter -
 clawhub install alex-inclusive-writing-linter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/alex-inclusive-writing-linter/)
+- [GitHub](https://github.com/get-alex/alex)

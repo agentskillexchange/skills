@@ -1,8 +1,11 @@
 ---
-name: "Pixelmatch Pixel-Level Image Comparison Library by Mapbox"
-description: "Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It features anti-aliased pixel detection and perceptual color difference metrics, making it ideal for visual regression testing in CI/CD pipelines."
+name: Pixelmatch Pixel-Level Image Comparison Library by Mapbox
+description: Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level
+  image comparison library by Mapbox. It features anti-aliased pixel detection and
+  perceptual color difference metrics, making it ideal for visual regression testing
+  in CI/CD pipelines.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/mapbox/pixelmatch"
 ---
@@ -77,6 +80,7 @@ npx skills add agentskillexchange/skills --skill pixelmatch-image-comparison-lib
 clawhub install pixelmatch-image-comparison-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pixelmatch-image-comparison-library/)
+- [GitHub](https://github.com/mapbox/pixelmatch)

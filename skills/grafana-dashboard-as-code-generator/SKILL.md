@@ -1,8 +1,10 @@
 ---
-name: "Grafana Dashboard as Code Generator"
-description: "Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries."
+name: Grafana Dashboard as Code Generator
+description: Generates Grafana dashboards programmatically using Grafonnet (jsonnet),
+  the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with
+  Prometheus, Loki, and Tempo queries.
 category: "Monitoring &amp; Alerts"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-gener
 ```bash
 clawhub install grafana-dashboard-as-code-generator
 ```
+
 
 ## Source
 

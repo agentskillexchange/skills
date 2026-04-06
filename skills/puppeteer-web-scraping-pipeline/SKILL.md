@@ -1,8 +1,10 @@
 ---
-name: "Puppeteer Web Scraping Pipeline"
-description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
-category: "Browser Automation"
-framework: "Gemini"
+name: Puppeteer Web Scraping Pipeline
+description: Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector,
+  and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot
+  detection with stealth plugin.
+category: Browser Automation
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill puppeteer-web-scraping-pipeline
 ```bash
 clawhub install puppeteer-web-scraping-pipeline
 ```
+
 
 ## Source
 

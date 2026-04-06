@@ -1,8 +1,10 @@
 ---
-name: "Ansible Runbook Executor"
-description: "Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming."
+name: Ansible Runbook Executor
+description: Executes Ansible playbooks for server diagnostics and remediation using
+  ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials,
+  and real-time task output streaming.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ansible-runbook-executor -a cod
 ```bash
 clawhub install ansible-runbook-executor
 ```
+
 
 ## Source
 

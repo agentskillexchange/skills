@@ -1,8 +1,10 @@
 ---
-name: "ScrapyCloud Job Manager"
-description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
+name: ScrapyCloud Job Manager
+description: Manages Scrapy spider deployments and job scheduling on ScrapyCloud via
+  the Scrapinghub API. Handles spider argument injection, job prioritization, and
+  item export to S3 or BigQuery.
 category: "Research &amp; Scraping"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill scrapycloud-job-manager -a code
 ```bash
 clawhub install scrapycloud-job-manager
 ```
+
 
 ## Source
 

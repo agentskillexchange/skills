@@ -1,8 +1,10 @@
 ---
-name: "Terraform State Forensics Tool"
-description: "Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis."
+name: Terraform State Forensics Tool
+description: Analyzes Terraform state files and plan outputs to detect drift, orphaned
+  resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for
+  security scanning, and Infracost API for cost impact analysis.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill terraform-state-forensics-tool 
 ```bash
 clawhub install terraform-state-forensics-tool
 ```
+
 
 ## Source
 

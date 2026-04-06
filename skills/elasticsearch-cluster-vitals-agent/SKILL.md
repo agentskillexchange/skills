@@ -1,8 +1,10 @@
 ---
-name: "ElasticSearch Cluster Vitals Agent"
-description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies to Opsgenie Alert API for on-call routing."
+name: ElasticSearch Cluster Vitals Agent
+description: Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards APIs
+  to detect node drops, unassigned shards, and JVM heap pressure. Forwards anomalies
+  to Opsgenie Alert API for on-call routing.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill elasticsearch-cluster-vitals-ag
 clawhub install elasticsearch-cluster-vitals-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/elasticsearch-cluster-vitals-agent/)
+- [GitHub](https://github.com/elastic/elasticsearch)

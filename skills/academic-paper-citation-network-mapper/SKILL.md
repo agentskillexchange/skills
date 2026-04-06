@@ -1,8 +1,10 @@
 ---
-name: "Academic Paper Citation Network Mapper"
-description: "Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage across fields."
+name: Academic Paper Citation Network Mapper
+description: Builds citation networks from Semantic Scholar API and CrossRef DOI metadata.
+  Visualizes paper influence graphs using NetworkX, identifies seminal works, and
+  tracks research lineage across fields.
 category: "Research &amp; Scraping"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill academic-paper-citation-network
 ```bash
 clawhub install academic-paper-citation-network-mapper
 ```
+
 
 ## Source
 

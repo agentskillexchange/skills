@@ -1,8 +1,12 @@
 ---
-name: "Elastic / Kibana MCP Server"
-description: "Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]"
+name: Elastic / Kibana MCP Server
+description: "Elastic / Kibana MCP Server is built around Elasticsearch search and\
+  \ analytics engine. The underlying ecosystem is represented by elastic/elasticsearch\
+  \ (76,387+ GitHub stars). It gives an agent a more technical and reliable way to\
+  \ work with the tool than a thin one-line wrapper, using stable interfaces like\
+  \ Query DSL, aggregations, indices, shards, mappings, cluster health […]"
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 tool_ecosystem:
@@ -59,6 +63,7 @@ npx skills add agentskillexchange/skills --skill elastic-kibana-mcp-server -a co
 clawhub install elastic-kibana-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/elastic-kibana-mcp-server/)
+- [GitHub](https://github.com/elastic/elasticsearch)

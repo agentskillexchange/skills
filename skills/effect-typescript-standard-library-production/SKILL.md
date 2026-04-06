@@ -1,8 +1,11 @@
 ---
-name: "Effect TypeScript Standard Library for Production Applications"
-description: "Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual packages with one cohesive, type-safe framework for building production-grade applications."
+name: Effect TypeScript Standard Library for Production Applications
+description: Effect is a comprehensive TypeScript standard library that provides structured
+  concurrency, typed errors, dependency injection, schema validation, and observability
+  — replacing dozens of individual packages with one cohesive, type-safe framework
+  for building production-grade applications.
 category: "Library &amp; API Reference"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Effect-TS/effect"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill effect-typescript-standard-libr
 clawhub install effect-typescript-standard-library-production
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/effect-typescript-standard-library-production/)
+- [GitHub](https://github.com/Effect-TS/effect)

@@ -1,8 +1,11 @@
 ---
-name: "LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem"
-description: "LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a self-hosted alternative to ChatGPT with extensible function calling and voice capabilities."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem
+description: LobeHub is an open-source multi-agent chat platform supporting 50+ LLM
+  providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration.
+  It serves as a self-hosted alternative to ChatGPT with extensible function calling
+  and voice capabilities.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/lobehub/lobehub"
 tool_ecosystem:
@@ -93,6 +96,7 @@ npx skills add agentskillexchange/skills --skill lobehub-multi-agent-chat-platfo
 clawhub install lobehub-multi-agent-chat-platform-mcp-plugins
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lobehub-multi-agent-chat-platform-mcp-plugins/)
+- [GitHub](https://github.com/lobehub/lobehub)

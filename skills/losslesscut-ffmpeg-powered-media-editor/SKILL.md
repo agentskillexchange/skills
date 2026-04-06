@@ -1,14 +1,17 @@
 ---
-name: "LosslessCut FFmpeg-Powered Media Editor"
-description: "Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time."
+name: LosslessCut FFmpeg-Powered Media Editor
+description: Perform ultra-fast lossless trimming, cutting, and merging of video and
+  audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations
+  without re-encoding, preserving original quality while saving hours of processing
+  time.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/mifi/lossless-cut"
 tool_ecosystem:
   github_repo: "https://github.com/mifi/lossless-cut"
   github_stars: 39480
-  license: "GPL-2.0"
+  license: GPL-2.0
 ---
 # LosslessCut FFmpeg-Powered Media Editor
 
@@ -76,6 +79,7 @@ npx skills add agentskillexchange/skills --skill losslesscut-ffmpeg-powered-medi
 clawhub install losslesscut-ffmpeg-powered-media-editor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/losslesscut-ffmpeg-powered-media-editor/)
+- [GitHub](https://github.com/mifi/lossless-cut)

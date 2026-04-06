@@ -1,8 +1,10 @@
 ---
-name: "Prettier Config Harmonizer"
-description: "Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization."
+name: Prettier Config Harmonizer
+description: Resolves Prettier formatting conflicts across monorepo packages using
+  the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs
+  with per-package overrides and EditorConfig synchronization.
 category: "Code Quality &amp; Review"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill prettier-config-harmonizer-2 -a
 ```bash
 clawhub install prettier-config-harmonizer-2
 ```
+
 
 ## Source
 

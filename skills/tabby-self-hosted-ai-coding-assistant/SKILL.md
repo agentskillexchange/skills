@@ -1,8 +1,10 @@
 ---
-name: "Tabby Self-Hosted AI Coding Assistant and Copilot Alternative"
-description: "Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities using consumer-grade GPUs with no cloud dependency."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Tabby Self-Hosted AI Coding Assistant and Copilot Alternative
+description: Tabby is an open-source, self-hosted AI coding assistant that serves
+  as an on-premises alternative to GitHub Copilot. It provides code completion and
+  chat capabilities using consumer-grade GPUs with no cloud dependency.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/TabbyML/tabby"
 tool_ecosystem:
@@ -63,6 +65,7 @@ npx skills add agentskillexchange/skills --skill tabby-self-hosted-ai-coding-ass
 clawhub install tabby-self-hosted-ai-coding-assistant
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tabby-self-hosted-ai-coding-assistant/)
+- [GitHub](https://github.com/TabbyML/tabby)

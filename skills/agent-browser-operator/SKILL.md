@@ -1,8 +1,9 @@
 ---
-name: "Agent Browser Operator"
-description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-category: "Browser Automation"
-framework: "Custom Agents, OpenClaw"
+name: Agent Browser Operator
+description: Interactive browser skill for logged-in flows, dynamic pages, and session-aware
+  site operations.
+category: Browser Automation
+framework: Custom Agents, OpenClaw
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
@@ -65,6 +66,7 @@ npx skills add agentskillexchange/skills --skill agent-browser-operator -a codex
 clawhub install agent-browser-operator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/agent-browser-operator/)
+- [GitHub](https://github.com/microsoft/playwright)

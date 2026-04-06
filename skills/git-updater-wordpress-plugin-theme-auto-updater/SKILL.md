@@ -1,14 +1,16 @@
 ---
-name: "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories"
-description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
+name: Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
+description: Git Updater enables automatic updates for WordPress plugins and themes
+  hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release
+  assets, language packs, and branch switching.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/afragen/git-updater"
 tool_ecosystem:
   github_repo: "https://github.com/afragen/git-updater"
   github_stars: 3316
-  license: "GPL-3.0"
+  license: GPL-3.0
 ---
 # Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
 
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill git-updater-wordpress-plugin-th
 clawhub install git-updater-wordpress-plugin-theme-auto-updater
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-updater-wordpress-plugin-theme-auto-updater/)
+- [GitHub](https://github.com/afragen/git-updater)

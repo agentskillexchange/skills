@@ -1,8 +1,10 @@
 ---
-name: "Jina Reader API Skill"
-description: "Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling with depth control. Returns structured LLM-ready text."
+name: Jina Reader API Skill
+description: Extracts clean markdown content from any URL using the Jina Reader API
+  (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling
+  with depth control. Returns structured LLM-ready text.
 category: "Research &amp; Scraping"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill jina-reader-api-skill -a codex
 ```bash
 clawhub install jina-reader-api-skill
 ```
+
 
 ## Source
 

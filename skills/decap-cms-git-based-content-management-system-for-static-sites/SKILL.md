@@ -1,8 +1,11 @@
 ---
-name: "Decap CMS Git-Based Content Management System for Static Sites"
-description: "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and lets teams edit structured content in repositories without building a custom editorial interface from scratch."
+name: Decap CMS Git-Based Content Management System for Static Sites
+description: Decap CMS is a Git-based content management system for static site generators.
+  It provides an admin UI at /admin, authenticates against Git-backed backends, and
+  lets teams edit structured content in repositories without building a custom editorial
+  interface from scratch.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/decaporg/decap-cms"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill decap-cms-git-based-content-man
 clawhub install decap-cms-git-based-content-management-system-for-static-sites
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/decap-cms-git-based-content-management-system-for-static-sites/)
+- [GitHub](https://github.com/decaporg/decap-cms)

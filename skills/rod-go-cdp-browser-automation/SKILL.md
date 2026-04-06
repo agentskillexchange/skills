@@ -1,14 +1,16 @@
 ---
-name: "Rod Go Chrome DevTools Protocol Driver for Web Automation"
-description: "Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It provides thread-safe, chained-context operations with auto-wait, headless browser debugging, and 100% CI test coverage."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Rod Go Chrome DevTools Protocol Driver for Web Automation
+description: Rod is a high-level Go library built directly on the Chrome DevTools
+  Protocol for web automation and scraping. It provides thread-safe, chained-context
+  operations with auto-wait, headless browser debugging, and 100% CI test coverage.
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/go-rod/rod"
 tool_ecosystem:
   github_repo: "https://github.com/go-rod/rod"
   github_stars: 6830
-  license: "MIT"
+  license: MIT
 ---
 # Rod Go Chrome DevTools Protocol Driver for Web Automation
 
@@ -82,6 +84,7 @@ npx skills add agentskillexchange/skills --skill rod-go-cdp-browser-automation -
 clawhub install rod-go-cdp-browser-automation
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/rod-go-cdp-browser-automation/)
+- [GitHub](https://github.com/go-rod/rod)

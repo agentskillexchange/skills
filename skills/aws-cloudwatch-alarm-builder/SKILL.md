@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Alarm Builder"
-description: "Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures metric math expressions, composite alarms, and SNS notification routing via @aws-sdk/client-sns."
-category: "CI/CD Integrations"
-framework: "ChatGPT Agents"
+name: AWS CloudWatch Alarm Builder
+description: Creates and manages CloudWatch alarms using the AWS SDK for JavaScript
+  v3 (@aws-sdk/client-cloudwatch). Configures metric math expressions, composite alarms,
+  and SNS notification routing via @aws-sdk/client-sns.
+category: CI/CD Integrations
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-builder/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-alarm-builder -a
 ```bash
 clawhub install aws-cloudwatch-alarm-builder
 ```
+
 
 ## Source
 

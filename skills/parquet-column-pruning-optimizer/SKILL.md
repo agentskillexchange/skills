@@ -1,8 +1,10 @@
 ---
-name: "Parquet Column Pruning Optimizer"
-description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
+name: Parquet Column Pruning Optimizer
+description: Optimizes Apache Parquet file reads using PyArrow column pruning and
+  predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary
+  encoding strategies.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill parquet-column-pruning-optimize
 ```bash
 clawhub install parquet-column-pruning-optimizer
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Gitxray GitHub Repository Security X-Ray"
-description: "A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and suspicious contributor behavior using public GitHub REST APIs."
+name: Gitxray GitHub Repository Security X-Ray
+description: A multifaceted OSINT and forensics tool for GitHub repositories that
+  detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and
+  suspicious contributor behavior using public GitHub REST APIs.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/kulkansecurity/gitxray"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill gitxray-github-repository-secur
 clawhub install gitxray-github-repository-security-xray
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitxray-github-repository-security-xray/)
+- [GitHub](https://github.com/kulkansecurity/gitxray)

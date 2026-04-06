@@ -1,8 +1,11 @@
 ---
-name: "Kubernetes Pod Diagnostics"
-description: "Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
+name: Kubernetes Pod Diagnostics
+description: "Diagnoses Kubernetes pod failures using kubectl describe, logs –previous,\
+  \ and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff\
+  \ root causes, OOMKilled memory analysis, and generates remediation steps with resource\
+  \ limit recommendations."
 category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/"
 ---
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-diagnostics-skil
 ```bash
 clawhub install kubernetes-pod-diagnostics-skill
 ```
+
 
 ## Source
 

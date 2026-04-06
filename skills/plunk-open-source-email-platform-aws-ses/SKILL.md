@@ -1,8 +1,10 @@
 ---
-name: "Plunk Open Source Transactional Email Platform on AWS SES"
-description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
+name: Plunk Open Source Transactional Email Platform on AWS SES
+description: Plunk is an open-source email platform built on AWS SES for sending transactional
+  emails, creating event-driven automations, and broadcasting newsletters. It serves
+  as a self-hosted alternative to SendGrid, Resend, and Mailgun.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/useplunk/plunk"
 tool_ecosystem:
@@ -75,6 +77,7 @@ npx skills add agentskillexchange/skills --skill plunk-open-source-email-platfor
 clawhub install plunk-open-source-email-platform-aws-ses
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/)
+- [GitHub](https://github.com/useplunk/plunk)

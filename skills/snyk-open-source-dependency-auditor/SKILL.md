@@ -1,8 +1,10 @@
 ---
-name: "Snyk Open Source Dependency Auditor"
-description: "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations."
+name: Snyk Open Source Dependency Auditor
+description: Performs deep dependency analysis using the Snyk CLI and REST API to
+  detect vulnerable transitive packages. Generates fix PRs with version pinning and
+  patch recommendations.
 category: "Security &amp; Verification"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill snyk-open-source-dependency-aud
 ```bash
 clawhub install snyk-open-source-dependency-auditor
 ```
+
 
 ## Source
 

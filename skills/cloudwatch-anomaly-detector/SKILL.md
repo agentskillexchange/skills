@@ -1,8 +1,10 @@
 ---
-name: "CloudWatch Anomaly Detector"
-description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
+name: CloudWatch Anomaly Detector
+description: Creates and manages CloudWatch Anomaly Detection bands using AWS SDK
+  PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach
+  learned baselines with configurable sensitivity.
 category: "Monitoring &amp; Alerts"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cloudwatch-anomaly-detector -a 
 ```bash
 clawhub install cloudwatch-anomaly-detector
 ```
+
 
 ## Source
 

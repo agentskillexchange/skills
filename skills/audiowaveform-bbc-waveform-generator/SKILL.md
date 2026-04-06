@@ -1,14 +1,16 @@
 ---
-name: "audiowaveform Audio Waveform Data Generator and Image Renderer"
-description: "audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or JSON waveform data and renders PNG waveform images at configurable zoom levels."
+name: audiowaveform Audio Waveform Data Generator and Image Renderer
+description: audiowaveform is a BBC open-source C++ CLI tool that generates waveform
+  data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or
+  JSON waveform data and renders PNG waveform images at configurable zoom levels.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/bbc/audiowaveform"
 tool_ecosystem:
   github_repo: "https://github.com/bbc/audiowaveform"
   github_stars: 2130
-  license: "GPL-3.0"
+  license: GPL-3.0
 ---
 # audiowaveform Audio Waveform Data Generator and Image Renderer
 
@@ -56,6 +58,7 @@ npx skills add agentskillexchange/skills --skill audiowaveform-bbc-waveform-gene
 clawhub install audiowaveform-bbc-waveform-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/)
+- [GitHub](https://github.com/bbc/audiowaveform)

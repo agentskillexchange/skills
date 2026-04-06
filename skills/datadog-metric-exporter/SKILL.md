@@ -1,8 +1,10 @@
 ---
-name: "Datadog Metric Exporter"
-description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
+name: Datadog Metric Exporter
+description: Exports custom metrics and traces to Datadog using the DogStatsD protocol
+  and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO
+  tracking.
 category: "Monitoring &amp; Alerts"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill datadog-metric-exporter -a code
 ```bash
 clawhub install datadog-metric-exporter
 ```
+
 
 ## Source
 

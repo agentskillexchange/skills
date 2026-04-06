@@ -1,8 +1,10 @@
 ---
-name: "NPM Package Audit Analyzer"
-description: "Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability reports with upgrade path recommendations."
+name: NPM Package Audit Analyzer
+description: Analyzes npm package security advisories using npm audit, the npm Registry
+  API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability
+  reports with upgrade path recommendations.
 category: "Library &amp; API Reference"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill npm-package-audit-analyzer -a c
 ```bash
 clawhub install npm-package-audit-analyzer
 ```
+
 
 ## Source
 

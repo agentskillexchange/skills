@@ -1,8 +1,11 @@
 ---
-name: "fzf Command-Line Fuzzy Finder"
-description: "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos."
-category: "Developer Tools"
-framework: "Claude Code"
+name: fzf Command-Line Fuzzy Finder
+description: fzf is a general-purpose command-line fuzzy finder written in Go. It
+  works as an interactive filter for any list — files, command history, processes,
+  git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted
+  characters and typos.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/junegunn/fzf"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill fzf-command-line-fuzzy-finder -
 clawhub install fzf-command-line-fuzzy-finder
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/fzf-command-line-fuzzy-finder/)
+- [GitHub](https://github.com/junegunn/fzf)

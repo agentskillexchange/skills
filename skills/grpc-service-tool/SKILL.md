@@ -1,8 +1,12 @@
 ---
-name: "gRPC Service Tool"
-description: "gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary and streaming RPCs, reflection, deadlines, interceptors and […]"
+name: gRPC Service Tool
+description: "gRPC Service Tool is built around gRPC remote procedure call framework.\
+  \ The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars).\
+  \ It gives an agent a more technical and reliable way to work with the tool than\
+  \ a thin one-line wrapper, using stable interfaces like Protocol Buffers, unary\
+  \ and streaming RPCs, reflection, deadlines, interceptors and […]"
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grpc-service-tool/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill grpc-service-tool -a codex
 ```bash
 clawhub install grpc-service-tool
 ```
+
 
 ## Source
 

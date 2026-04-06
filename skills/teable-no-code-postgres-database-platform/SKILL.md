@@ -1,8 +1,11 @@
 ---
-name: "Teable No-Code Postgres Database Platform and Airtable Alternative"
-description: "Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access."
+name: Teable No-Code Postgres Database Platform and Airtable Alternative
+description: Teable is an open source no-code database platform built on PostgreSQL
+  that uses a spreadsheet-like interface for creating powerful database applications.
+  It supports real-time collaboration, scales to millions of rows, and provides a
+  REST API for programmatic access.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/teableio/teable"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill teable-no-code-postgres-databas
 clawhub install teable-no-code-postgres-database-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/teable-no-code-postgres-database-platform/)
+- [GitHub](https://github.com/teableio/teable)

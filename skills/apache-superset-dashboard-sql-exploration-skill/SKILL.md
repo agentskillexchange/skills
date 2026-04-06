@@ -1,8 +1,11 @@
 ---
-name: "Apache Superset Dashboard and SQL Exploration Skill"
-description: "Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent needs to query warehouse data, assemble dashboards, or explain metrics using a mature analytics interface instead of ad hoc notebook code."
+name: Apache Superset Dashboard and SQL Exploration Skill
+description: Apache Superset is a widely adopted open-source BI platform for SQL exploration,
+  chart building, and dashboard delivery. This skill is useful when an agent needs
+  to query warehouse data, assemble dashboards, or explain metrics using a mature
+  analytics interface instead of ad hoc notebook code.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/apache/superset"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill apache-superset-dashboard-sql-e
 clawhub install apache-superset-dashboard-sql-exploration-skill
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/apache-superset-dashboard-sql-exploration-skill/)
+- [GitHub](https://github.com/apache/superset)

@@ -1,8 +1,10 @@
 ---
-name: "Cypress Network Stub Generator"
-description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
-category: "Browser Automation"
-framework: "Codex"
+name: Cypress Network Stub Generator
+description: Generates cy.intercept() stubs from recorded HAR files for deterministic
+  E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin
+  testing workflows.
+category: Browser Automation
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill cypress-network-stub-generator 
 ```bash
 clawhub install cypress-network-stub-generator
 ```
+
 
 ## Source
 

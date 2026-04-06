@@ -1,14 +1,17 @@
 ---
-name: "Svix Enterprise Webhook Delivery Service"
-description: "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call."
+name: Svix Enterprise Webhook Delivery Service
+description: Svix is an open-source enterprise-grade webhook delivery service written
+  in Rust. It handles webhook sending, retries, signature verification, and delivery
+  monitoring so developers can offer reliable webhooks to their users with a single
+  API call.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/svix/svix-webhooks"
 tool_ecosystem:
   github_repo: "https://github.com/svix/svix-webhooks"
   github_stars: 3152
-  license: "MIT"
+  license: MIT
 ---
 # Svix Enterprise Webhook Delivery Service
 
@@ -72,6 +75,7 @@ npx skills add agentskillexchange/skills --skill svix-enterprise-webhook-deliver
 clawhub install svix-enterprise-webhook-delivery-service
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/svix-enterprise-webhook-delivery-service/)
+- [GitHub](https://github.com/svix/svix-webhooks)

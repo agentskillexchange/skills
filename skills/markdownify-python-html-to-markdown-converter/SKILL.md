@@ -1,8 +1,11 @@
 ---
-name: "markdownify Python HTML to Markdown Conversion Library"
-description: "markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines."
+name: markdownify Python HTML to Markdown Conversion Library
+description: markdownify is a Python library that converts HTML content to clean Markdown
+  text. It supports tag filtering, heading styles, custom converters, and code language
+  detection, making it essential for content extraction and document transformation
+  pipelines.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/matthewwithanm/python-markdownify"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill markdownify-python-html-to-mark
 clawhub install markdownify-python-html-to-markdown-converter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/markdownify-python-html-to-markdown-converter/)
+- [GitHub](https://github.com/matthewwithanm/python-markdownify)

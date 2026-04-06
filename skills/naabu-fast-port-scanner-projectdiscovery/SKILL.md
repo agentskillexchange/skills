@@ -1,8 +1,11 @@
 ---
-name: "Naabu Fast Port Scanner by ProjectDiscovery"
-description: "Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP scans, integrates with Nmap for service discovery, and handles IPv4/IPv6 targets with automatic deduplication for efficient attack surface enumeration."
+name: Naabu Fast Port Scanner by ProjectDiscovery
+description: Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery.
+  It supports SYN, CONNECT, and UDP scans, integrates with Nmap for service discovery,
+  and handles IPv4/IPv6 targets with automatic deduplication for efficient attack
+  surface enumeration.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/naabu"
 ---
@@ -95,6 +98,7 @@ npx skills add agentskillexchange/skills --skill naabu-fast-port-scanner-project
 clawhub install naabu-fast-port-scanner-projectdiscovery
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/naabu-fast-port-scanner-projectdiscovery/)
+- [GitHub](https://github.com/projectdiscovery/naabu)

@@ -1,8 +1,11 @@
 ---
-name: "pgcli Interactive PostgreSQL Client with Autocompletion"
-description: "pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query editing. Part of the dbcli project with 13k+ GitHub stars, it makes database exploration and query writing dramatically more productive."
-category: "Developer Tools"
-framework: "OpenClaw"
+name: pgcli Interactive PostgreSQL Client with Autocompletion
+description: pgcli is an interactive PostgreSQL CLI with context-aware autocompletion,
+  syntax highlighting, and multi-line query editing. Part of the dbcli project with
+  13k+ GitHub stars, it makes database exploration and query writing dramatically
+  more productive.
+category: Developer Tools
+framework: OpenClaw
 verification: security_reviewed
 source: "https://github.com/dbcli/pgcli"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill pgcli-interactive-postgresql-cl
 clawhub install pgcli-interactive-postgresql-client
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/)
+- [GitHub](https://github.com/dbcli/pgcli)

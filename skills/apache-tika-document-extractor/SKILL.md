@@ -1,8 +1,10 @@
 ---
-name: "Apache Tika Document Extractor"
-description: "Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode."
+name: Apache Tika Document Extractor
+description: Wraps Apache Tika Server REST API for extracting structured text from
+  PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata
+  preservation using Tika /rmeta/text endpoint and recursive parsing mode.
 category: "Data Extraction &amp; Transformation"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
 ---
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill apache-tika-document-extractor 
 ```bash
 clawhub install apache-tika-document-extractor
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Prometheus Alert Rule Generator"
-description: "Generates and validates Prometheus alerting rules from natural language descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager routing configuration and Grafana dashboard annotation."
+name: Prometheus Alert Rule Generator
+description: Generates and validates Prometheus alerting rules from natural language
+  descriptions using the Prometheus HTTP API and PromQL query engine. Supports Alertmanager
+  routing configuration and Grafana dashboard annotation.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-rule-generator
 ```bash
 clawhub install prometheus-alert-rule-generator-2
 ```
+
 
 ## Source
 

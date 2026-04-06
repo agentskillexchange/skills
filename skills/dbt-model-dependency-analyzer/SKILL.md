@@ -1,8 +1,10 @@
 ---
-name: "dbt Model Dependency Analyzer"
-description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
+name: dbt Model Dependency Analyzer
+description: Analyzes dbt project DAGs using the dbt manifest.json artifact and the
+  dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage
+  visualizations.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill dbt-model-dependency-analyzer -
 ```bash
 clawhub install dbt-model-dependency-analyzer
 ```
+
 
 ## Source
 

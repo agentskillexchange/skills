@@ -1,8 +1,11 @@
 ---
-name: "DocuSign Contract Auto-Sender with Conditional Logic"
-description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
+name: DocuSign Contract Auto-Sender with Conditional Logic
+description: Uses the DocuSign eSignature REST API SDK to programmatically create
+  envelope definitions with conditional routing rules based on contract value thresholds.
+  Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope
+  status updates are tracked via DocuSign Connect webhooks.
 category: "Security &amp; Verification"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill docusign-contract-auto-sender -
 ```bash
 clawhub install docusign-contract-auto-sender
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Great Expectations Data Validation Pipeline"
-description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
+name: Great Expectations Data Validation Pipeline
+description: Validate data quality using the Great Expectations Python library. Define
+  expectations as unit tests for your data, run validation suites, and generate human-readable
+  data quality reports.
 category: "Code Quality &amp; Review"
-framework: "Claude Code, OpenClaw"
+framework: Claude Code, OpenClaw
 verification: security_reviewed
 source: "https://github.com/great-expectations/great_expectations"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill great-expectations-data-validat
 clawhub install great-expectations-data-validation-pipeline
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/)
+- [GitHub](https://github.com/great-expectations/great_expectations)

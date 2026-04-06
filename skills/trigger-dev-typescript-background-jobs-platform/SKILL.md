@@ -1,14 +1,17 @@
 ---
-name: "Trigger.dev TypeScript Background Jobs Platform"
-description: "Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and durable workflows in TypeScript. It provides managed infrastructure with retries, queues, real-time observability, and human-in-the-loop support."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Trigger.dev TypeScript Background Jobs Platform
+description: Trigger.dev is an open-source platform for building and deploying long-running
+  background tasks, AI agents, and durable workflows in TypeScript. It provides managed
+  infrastructure with retries, queues, real-time observability, and human-in-the-loop
+  support.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/triggerdotdev/trigger.dev"
 tool_ecosystem:
   github_repo: "https://github.com/triggerdotdev/trigger.dev"
   github_stars: 14318
-  npm_package: "trigger.dev"
+  npm_package: trigger.dev
   npm_weekly_downloads: 200743
 ---
 # Trigger.dev TypeScript Background Jobs Platform
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill trigger-dev-typescript-backgrou
 clawhub install trigger-dev-typescript-background-jobs-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/trigger-dev-typescript-background-jobs-platform/)
+- [GitHub](https://github.com/triggerdotdev/trigger.dev)

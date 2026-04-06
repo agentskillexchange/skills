@@ -1,8 +1,10 @@
 ---
-name: "Scrapy Spider Architect"
-description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
+name: Scrapy Spider Architect
+description: Generates Scrapy spider classes with CSS/XPath selectors, item pipelines,
+  and middleware configurations for structured web scraping. Includes Scrapy-Splash
+  integration for JavaScript-rendered content.
 category: "Research &amp; Scraping"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill scrapy-spider-architect -a code
 ```bash
 clawhub install scrapy-spider-architect
 ```
+
 
 ## Source
 

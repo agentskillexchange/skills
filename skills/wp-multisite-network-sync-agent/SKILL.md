@@ -1,8 +1,10 @@
 ---
-name: "WP Multisite Network Sync Agent"
-description: "Synchronizes content, users, and plugin configurations across WordPress Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk site provisioning via wp_insert_site() with REST endpoint monitoring."
+name: WP Multisite Network Sync Agent
+description: Synchronizes content, users, and plugin configurations across WordPress
+  Multisite networks using the WP_Site_Query API and switch_to_blog(). Automates bulk
+  site provisioning via wp_insert_site() with REST endpoint monitoring.
 category: "WordPress &amp; CMS"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill wp-multisite-network-sync-agent
 ```bash
 clawhub install wp-multisite-network-sync-agent
 ```
+
 
 ## Source
 

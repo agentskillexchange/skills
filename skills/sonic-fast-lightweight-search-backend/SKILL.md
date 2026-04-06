@@ -1,14 +1,17 @@
 ---
-name: "Sonic Fast Lightweight Schema-Less Search Backend"
-description: "Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a few megabytes of RAM, making it ideal for resource-constrained environments and edge deployments."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Sonic Fast Lightweight Schema-Less Search Backend
+description: Sonic is a fast, lightweight, and schema-less search backend written
+  in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a
+  few megabytes of RAM, making it ideal for resource-constrained environments and
+  edge deployments.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/valeriansaliou/sonic"
 tool_ecosystem:
   github_repo: "https://github.com/valeriansaliou/sonic"
   github_stars: 21176
-  license: "MPL-2.0"
+  license: MPL-2.0
 ---
 # Sonic Fast Lightweight Schema-Less Search Backend
 
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill sonic-fast-lightweight-search-b
 clawhub install sonic-fast-lightweight-search-backend
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sonic-fast-lightweight-search-backend/)
+- [GitHub](https://github.com/valeriansaliou/sonic)

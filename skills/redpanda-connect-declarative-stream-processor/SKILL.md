@@ -1,8 +1,11 @@
 ---
-name: "Redpanda Connect Declarative Stream Processor"
-description: "Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks through declarative YAML pipelines. It supports hundreds of connectors and a built-in mapping language called Bloblang for data transformation."
+name: Redpanda Connect Declarative Stream Processor
+description: Redpanda Connect (formerly Benthos) is a high-performance stream processor
+  that connects data sources and sinks through declarative YAML pipelines. It supports
+  hundreds of connectors and a built-in mapping language called Bloblang for data
+  transformation.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/redpanda-data/connect"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill redpanda-connect-declarative-st
 clawhub install redpanda-connect-declarative-stream-processor
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/redpanda-connect-declarative-stream-processor/)
+- [GitHub](https://github.com/redpanda-data/connect)

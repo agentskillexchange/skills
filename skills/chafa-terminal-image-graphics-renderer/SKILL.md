@@ -1,8 +1,11 @@
 ---
-name: "Chafa Terminal Image and Graphics Renderer"
-description: "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments."
+name: Chafa Terminal Image and Graphics Renderer
+description: Chafa converts images, animated GIFs, and video frames into ANSI/Unicode
+  character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display
+  in any terminal. It supports a wide range of image formats and output modes, making
+  it the go-to tool for rendering rich visual content in CLI environments.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/hpjansson/chafa"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill chafa-terminal-image-graphics-r
 clawhub install chafa-terminal-image-graphics-renderer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chafa-terminal-image-graphics-renderer/)
+- [GitHub](https://github.com/hpjansson/chafa)

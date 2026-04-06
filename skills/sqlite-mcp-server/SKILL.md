@@ -1,8 +1,8 @@
 ---
-name: "SQLite MCP Server"
-description: "Lightweight local database access for agent tasks."
+name: SQLite MCP Server
+description: Lightweight local database access for agent tasks.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code, Cursor, MCP, OpenClaw"
+framework: Claude Code, Cursor, MCP, OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 ---
@@ -55,6 +55,7 @@ npx skills add agentskillexchange/skills --skill sqlite-mcp-server -a codex
 ```bash
 clawhub install sqlite-mcp-server
 ```
+
 
 ## Source
 

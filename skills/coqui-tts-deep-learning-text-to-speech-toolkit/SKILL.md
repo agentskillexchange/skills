@@ -1,8 +1,11 @@
 ---
-name: "Coqui TTS Deep Learning Text-to-Speech Toolkit"
-description: "An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS model architectures including VITS, Tacotron2, and GlowTTS, with support for voice cloning, multilingual synthesis, and on-the-fly voice conversion."
+name: Coqui TTS Deep Learning Text-to-Speech Toolkit
+description: An agent skill built on Coqui TTS, the open-source deep learning toolkit
+  for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS
+  model architectures including VITS, Tacotron2, and GlowTTS, with support for voice
+  cloning, multilingual synthesis, and on-the-fly voice conversion.
 category: "Media &amp; Transcription"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/coqui-ai/TTS"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill coqui-tts-deep-learning-text-to
 clawhub install coqui-tts-deep-learning-text-to-speech-toolkit
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/coqui-tts-deep-learning-text-to-speech-toolkit/)
+- [GitHub](https://github.com/coqui-ai/TTS)

@@ -1,8 +1,10 @@
 ---
-name: "Playwright Accessibility Audit Runner"
-description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
-category: "Browser Automation"
-framework: "Cursor"
+name: Playwright Accessibility Audit Runner
+description: Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright
+  with axe-core integration. Generates detailed violation reports with CSS selectors,
+  ARIA role analysis, and remediation suggestions.
+category: Browser Automation
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill playwright-accessibility-audit-
 ```bash
 clawhub install playwright-accessibility-audit-runner
 ```
+
 
 ## Source
 

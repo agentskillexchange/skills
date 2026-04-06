@@ -1,14 +1,17 @@
 ---
-name: "Newsboat Terminal RSS and Atom Feed Reader"
-description: "Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter, it provides a fast, keyboard-driven interface for subscribing to, reading, and managing feeds with powerful filtering, macro support, and scriptable automation."
+name: Newsboat Terminal RSS and Atom Feed Reader
+description: Newsboat is an actively maintained RSS/Atom feed reader for the text
+  console. A fork of the discontinued Newsbeuter, it provides a fast, keyboard-driven
+  interface for subscribing to, reading, and managing feeds with powerful filtering,
+  macro support, and scriptable automation.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/newsboat/newsboat"
 tool_ecosystem:
   github_repo: "https://github.com/newsboat/newsboat"
   github_stars: 3750
-  license: "MIT"
+  license: MIT
 ---
 # Newsboat Terminal RSS and Atom Feed Reader
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill newsboat-terminal-rss-atom-feed
 clawhub install newsboat-terminal-rss-atom-feed-reader
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/newsboat-terminal-rss-atom-feed-reader/)
+- [GitHub](https://github.com/newsboat/newsboat)

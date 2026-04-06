@@ -1,16 +1,19 @@
 ---
-name: "Browserable Self-Hostable Browser Automation for AI Agents"
-description: "Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling, extraction, and browser-based task execution with local control instead of a hosted black box."
-category: "Browser Automation"
-framework: "Custom Agents"
+name: Browserable Self-Hostable Browser Automation for AI Agents
+description: Browserable is an open-source, self-hostable browser automation library
+  built for AI agents. This skill turns Browserable into a repeatable workflow for
+  navigation, form filling, extraction, and browser-based task execution with local
+  control instead of a hosted black box.
+category: Browser Automation
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/browserable/browserable"
 tool_ecosystem:
   github_repo: "https://github.com/browserable/browserable"
   github_stars: 1177
-  npm_package: "browserable"
+  npm_package: browserable
   npm_weekly_downloads: 5
-  license: "MIT"
+  license: MIT
 ---
 # Browserable Self-Hostable Browser Automation for AI Agents
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill browserable-self-hostable-brows
 clawhub install browserable-self-hostable-browser-automation-ai-agents
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/browserable-self-hostable-browser-automation-ai-agents/)
+- [GitHub](https://github.com/browserable/browserable)

@@ -1,8 +1,10 @@
 ---
-name: "eza Modern File Listing CLI"
-description: "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary."
-category: "Developer Tools"
-framework: "Claude Code"
+name: eza Modern File Listing CLI
+description: A modern, maintained replacement for the ls command, written in Rust.
+  eza provides colorized output, Git integration, tree views, symlink awareness, and
+  extended attribute support in a single fast binary.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/eza-community/eza"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill eza-modern-file-listing-cli -a 
 clawhub install eza-modern-file-listing-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/eza-modern-file-listing-cli/)
+- [GitHub](https://github.com/eza-community/eza)

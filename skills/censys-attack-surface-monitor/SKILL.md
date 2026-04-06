@@ -1,8 +1,10 @@
 ---
-name: "Censys Attack Surface Monitor"
-description: "Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations."
+name: Censys Attack Surface Monitor
+description: Monitors internet-facing assets using Censys Search API v2 for host discovery
+  and certificate enumeration. Tracks exposed services, TLS configurations, and new
+  asset appearances with delta alerting via webhook integrations.
 category: "Research &amp; Scraping"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill censys-attack-surface-monitor -
 ```bash
 clawhub install censys-attack-surface-monitor
 ```
+
 
 ## Source
 

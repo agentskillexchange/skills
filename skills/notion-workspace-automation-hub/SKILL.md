@@ -1,8 +1,10 @@
 ---
-name: "Notion Workspace Automation Hub"
-description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
+name: Notion Workspace Automation Hub
+description: Orchestrates Notion workspace workflows using Notion API v2 with database
+  queries, page creation, and relation property management. Automates sprint boards,
+  meeting notes, and knowledge base maintenance.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill notion-workspace-automation-hub
 ```bash
 clawhub install notion-workspace-automation-hub
 ```
+
 
 ## Source
 

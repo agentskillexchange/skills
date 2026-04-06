@@ -1,8 +1,10 @@
 ---
-name: "WordPress Gutenberg Block Scaffolder"
-description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type."
+name: WordPress Gutenberg Block Scaffolder
+description: Generates custom Gutenberg blocks using @wordpress/create-block and the
+  Block API v2. Configures block.json metadata, InspectorControls, and server-side
+  render callbacks with register_block_type.
 category: "WordPress &amp; CMS"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill wordpress-gutenberg-block-scaff
 ```bash
 clawhub install wordpress-gutenberg-block-scaffolder
 ```
+
 
 ## Source
 

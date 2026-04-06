@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Documentation Generator"
-description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
+name: GraphQL Schema Documentation Generator
+description: Generates interactive API documentation from GraphQL schemas using graphql-js
+  introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo
+  Studio API.
 category: "Library &amp; API Reference"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-documentation-ge
 ```bash
 clawhub install graphql-schema-documentation-generator
 ```
+
 
 ## Source
 

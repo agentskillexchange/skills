@@ -1,8 +1,11 @@
 ---
-name: "Yeoman Enterprise Generator Suite"
-description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
+name: Yeoman Enterprise Generator Suite
+description: Manages Yeoman generators for enterprise application scaffolding with
+  custom sub-generators. Handles Angular module generation via generator-angular,
+  Express API scaffolding, and composite generators with shared prompting and conflict
+  resolution.
 category: "Templates &amp; Workflows"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/"
 ---
@@ -47,6 +50,7 @@ npx skills add agentskillexchange/skills --skill yeoman-enterprise-generator-sui
 ```bash
 clawhub install yeoman-enterprise-generator-suite
 ```
+
 
 ## Source
 

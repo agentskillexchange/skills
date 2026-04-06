@@ -1,14 +1,17 @@
 ---
-name: "Subfinder Fast Passive Subdomain Enumeration Tool"
-description: "Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using curated online sources. Optimized for speed and stealth, it integrates cleanly into security reconnaissance pipelines via stdin/stdout support."
+name: Subfinder Fast Passive Subdomain Enumeration Tool
+description: Subfinder is a passive subdomain discovery tool by ProjectDiscovery that
+  finds valid subdomains for websites using curated online sources. Optimized for
+  speed and stealth, it integrates cleanly into security reconnaissance pipelines
+  via stdin/stdout support.
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/subfinder"
 tool_ecosystem:
   github_repo: "https://github.com/projectdiscovery/subfinder"
   github_stars: 13332
-  license: "MIT"
+  license: MIT
 ---
 # Subfinder Fast Passive Subdomain Enumeration Tool
 
@@ -66,6 +69,7 @@ npx skills add agentskillexchange/skills --skill subfinder-passive-subdomain-enu
 clawhub install subfinder-passive-subdomain-enumeration
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/subfinder-passive-subdomain-enumeration/)
+- [GitHub](https://github.com/projectdiscovery/subfinder)

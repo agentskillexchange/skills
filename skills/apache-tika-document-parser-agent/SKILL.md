@@ -1,8 +1,10 @@
 ---
-name: "Apache Tika Document Parser Agent"
-description: "Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection."
+name: Apache Tika Document Parser Agent
+description: Extracts text and metadata from 1000+ file formats using Apache Tika
+  server REST API. Handles PDF OCR via Tesseract integration, Office document parsing,
+  and email archive extraction with MIME detection.
 category: "Data Extraction &amp; Transformation"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill apache-tika-document-parser-age
 ```bash
 clawhub install apache-tika-document-parser-agent
 ```
+
 
 ## Source
 

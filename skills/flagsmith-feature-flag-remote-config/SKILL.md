@@ -1,8 +1,11 @@
 ---
-name: "Flagsmith Open Source Feature Flag and Remote Config Platform"
-description: "Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote config across web, mobile, and server-side applications with granular user segmentation."
+name: Flagsmith Open Source Feature Flag and Remote Config Platform
+description: Flagsmith is an open-source feature flagging and remote configuration
+  platform. It enables teams to safely roll out features, run A/B tests, and manage
+  remote config across web, mobile, and server-side applications with granular user
+  segmentation.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Flagsmith/flagsmith"
 tool_ecosystem:
@@ -75,6 +78,7 @@ npx skills add agentskillexchange/skills --skill flagsmith-feature-flag-remote-c
 clawhub install flagsmith-feature-flag-remote-config
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/flagsmith-feature-flag-remote-config/)
+- [GitHub](https://github.com/Flagsmith/flagsmith)

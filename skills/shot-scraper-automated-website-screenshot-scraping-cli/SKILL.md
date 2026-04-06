@@ -1,14 +1,17 @@
 ---
-name: "shot-scraper Automated Website Screenshot and Scraping CLI"
-description: "shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring."
+name: shot-scraper Automated Website Screenshot and Scraping CLI
+description: shot-scraper is a Python CLI tool by Simon Willison for taking automated
+  screenshots of websites and executing JavaScript against pages. Built on Playwright,
+  it supports headless browser automation, multi-step screenshot workflows defined
+  in YAML, and HTML-to-image rendering for CI pipelines and monitoring.
 category: "Research &amp; Scraping"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/simonw/shot-scraper"
 tool_ecosystem:
   github_repo: "https://github.com/simonw/shot-scraper"
   github_stars: 2311
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # shot-scraper Automated Website Screenshot and Scraping CLI
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill shot-scraper-automated-website-
 clawhub install shot-scraper-automated-website-screenshot-scraping-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/shot-scraper-automated-website-screenshot-scraping-cli/)
+- [GitHub](https://github.com/simonw/shot-scraper)

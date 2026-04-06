@@ -1,14 +1,17 @@
 ---
-name: "files-to-prompt Directory Concatenator for LLM Context"
-description: "files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs. It supports file extension filtering, gitignore-aware exclusions, Claude XML format output, Markdown fenced code blocks, line numbering, and stdin piping for flexible codebase-to-prompt workflows."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: files-to-prompt Directory Concatenator for LLM Context
+description: files-to-prompt by Simon Willison concatenates an entire directory of
+  files into a single prompt for use with LLMs. It supports file extension filtering,
+  gitignore-aware exclusions, Claude XML format output, Markdown fenced code blocks,
+  line numbering, and stdin piping for flexible codebase-to-prompt workflows.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/simonw/files-to-prompt"
 tool_ecosystem:
   github_repo: "https://github.com/simonw/files-to-prompt"
   github_stars: 2643
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # files-to-prompt Directory Concatenator for LLM Context
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill files-to-prompt-directory-conca
 clawhub install files-to-prompt-directory-concatenator-llm-context
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/files-to-prompt-directory-concatenator-llm-context/)
+- [GitHub](https://github.com/simonw/files-to-prompt)

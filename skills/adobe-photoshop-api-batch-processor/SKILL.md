@@ -1,8 +1,10 @@
 ---
-name: "Adobe Photoshop API Batch Processor"
-description: "Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement, action playback, and PSD layer manipulation at scale."
+name: Adobe Photoshop API Batch Processor
+description: Automates image editing workflows via the Adobe Photoshop API (Firefly
+  Services). Supports smart object replacement, action playback, and PSD layer manipulation
+  at scale.
 category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill adobe-photoshop-api-batch-proce
 ```bash
 clawhub install adobe-photoshop-api-batch-processor
 ```
+
 
 ## Source
 

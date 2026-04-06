@@ -1,8 +1,9 @@
 ---
-name: "WP Abilities API"
-description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
+name: WP Abilities API
+description: Specialized support for defining, exposing, and debugging WordPress abilities
+  through the Abilities API.
 category: "WordPress &amp; CMS"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 ---
@@ -57,6 +58,7 @@ npx skills add agentskillexchange/skills --skill wp-abilities-api -a codex
 ```bash
 clawhub install wp-abilities-api
 ```
+
 
 ## Source
 

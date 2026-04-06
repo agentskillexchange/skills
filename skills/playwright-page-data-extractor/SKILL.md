@@ -1,8 +1,10 @@
 ---
-name: "Playwright Page Data Extractor"
-description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
+name: Playwright Page Data Extractor
+description: Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications,
+  intercept network requests, and extract structured data from React/Vue/Angular SPAs
+  with automatic wait strategies.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill playwright-page-data-extractor 
 ```bash
 clawhub install playwright-page-data-extractor
 ```
+
 
 ## Source
 

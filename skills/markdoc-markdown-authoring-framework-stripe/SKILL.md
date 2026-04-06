@@ -1,14 +1,16 @@
 ---
-name: "Markdoc Markdown-Based Authoring Framework by Stripe"
-description: "Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation sites and content experiences."
+name: Markdoc Markdown-Based Authoring Framework by Stripe
+description: Markdoc is a powerful Markdown-based authoring framework created by Stripe
+  to power their public documentation. It extends Markdown with custom tags, functions,
+  and variables for building structured documentation sites and content experiences.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/markdoc/markdoc"
 tool_ecosystem:
   github_repo: "https://github.com/markdoc/markdoc"
   github_stars: 7949
-  license: "MIT"
+  license: MIT
 ---
 # Markdoc Markdown-Based Authoring Framework by Stripe
 
@@ -64,6 +66,7 @@ npx skills add agentskillexchange/skills --skill markdoc-markdown-authoring-fram
 clawhub install markdoc-markdown-authoring-framework-stripe
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/markdoc-markdown-authoring-framework-stripe/)
+- [GitHub](https://github.com/markdoc/markdoc)

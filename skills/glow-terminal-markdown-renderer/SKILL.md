@@ -1,8 +1,10 @@
 ---
-name: "Glow Terminal Markdown Renderer"
-description: "Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Glow Terminal Markdown Renderer
+description: Glow is a terminal-based markdown reader by Charm that renders markdown
+  files with syntax highlighting, word wrapping, and styled formatting directly in
+  the CLI. It includes a TUI for browsing local markdown files and discovering documentation.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/charmbracelet/glow"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill glow-terminal-markdown-renderer
 clawhub install glow-terminal-markdown-renderer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/)
+- [GitHub](https://github.com/charmbracelet/glow)

@@ -1,8 +1,10 @@
 ---
-name: "Tekton Pipeline Task Generator"
-description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: Tekton Pipeline Task Generator
+description: Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using
+  the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups
+  and automated resource binding.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-task-generator/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill tekton-pipeline-task-generator 
 ```bash
 clawhub install tekton-pipeline-task-generator
 ```
+
 
 ## Source
 

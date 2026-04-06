@@ -1,14 +1,16 @@
 ---
-name: "LanguageTool Grammar and Style Checker"
-description: "Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can run as a local Java server or via its public API, providing detailed error reports with correction suggestions for any text content."
+name: LanguageTool Grammar and Style Checker
+description: Check grammar, style, and spelling across 25+ languages with LanguageTool.
+  This open-source proofreading engine can run as a local Java server or via its public
+  API, providing detailed error reports with correction suggestions for any text content.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/languagetool-org/languagetool"
 tool_ecosystem:
   github_repo: "https://github.com/languagetool-org/languagetool"
   github_stars: 14238
-  license: "LGPL-2.1"
+  license: LGPL-2.1
 ---
 # LanguageTool Grammar and Style Checker
 
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill languagetool-grammar-style-chec
 clawhub install languagetool-grammar-style-checker
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/languagetool-grammar-style-checker/)
+- [GitHub](https://github.com/languagetool-org/languagetool)

@@ -1,8 +1,10 @@
 ---
-name: "Apache Kafka Schema Registry Extractor"
-description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects."
+name: Apache Kafka Schema Registry Extractor
+description: Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry
+  using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract
+  documentation from registered subjects.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-extractor/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill kafka-schema-registry-extractor
 ```bash
 clawhub install kafka-schema-registry-extractor
 ```
+
 
 ## Source
 

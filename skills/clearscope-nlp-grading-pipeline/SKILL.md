@@ -1,8 +1,10 @@
 ---
-name: "Clearscope NLP Grading Pipeline"
-description: "Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring."
+name: Clearscope NLP Grading Pipeline
+description: Connects to Clearscope API to generate content grades based on NLP term
+  frequency analysis. Automates keyword research via Clearscope Research Reports endpoint
+  and outputs structured optimization recommendations with TF-IDF scoring.
 category: "Content Writing &amp; SEO"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 ---
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill clearscope-nlp-grading-pipeline
 ```bash
 clawhub install clearscope-nlp-grading-pipeline
 ```
+
 
 ## Source
 

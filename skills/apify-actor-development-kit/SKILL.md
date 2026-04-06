@@ -1,8 +1,10 @@
 ---
-name: "Apify Actor Development Kit"
-description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
+name: Apify Actor Development Kit
+description: Builds Apify Actors for scalable cloud scraping with automatic proxy
+  management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue)
+  and Crawlee library for robust crawling.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill apify-actor-development-kit -a 
 ```bash
 clawhub install apify-actor-development-kit
 ```
+
 
 ## Source
 

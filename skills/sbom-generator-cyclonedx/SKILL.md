@@ -1,8 +1,10 @@
 ---
-name: "SBOM Generator with CycloneDX"
-description: "Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev."
+name: SBOM Generator with CycloneDX
+description: Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen
+  and syft. Enriches component data with license detection from clearlydefined.io
+  and vulnerability cross-referencing via OSV.dev.
 category: "Security &amp; Verification"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill sbom-generator-cyclonedx -a cod
 ```bash
 clawhub install sbom-generator-cyclonedx
 ```
+
 
 ## Source
 

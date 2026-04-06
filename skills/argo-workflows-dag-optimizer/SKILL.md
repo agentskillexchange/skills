@@ -1,8 +1,9 @@
 ---
-name: "Argo Workflows DAG Optimizer"
-description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
+name: Argo Workflows DAG Optimizer
+description: Analyzes Argo Workflows DAG templates to identify parallelization opportunities.
+  Uses the Argo Server API to fetch workflow execution history and critical path analysis.
 category: "Templates &amp; Workflows"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
 ---
@@ -43,6 +44,7 @@ npx skills add agentskillexchange/skills --skill argo-workflows-dag-optimizer -a
 ```bash
 clawhub install argo-workflows-dag-optimizer
 ```
+
 
 ## Source
 

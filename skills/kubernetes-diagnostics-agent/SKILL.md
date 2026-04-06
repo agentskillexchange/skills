@@ -1,8 +1,10 @@
 ---
-name: "Kubernetes Diagnostics Agent"
-description: "Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource pressure via the Metrics Server API and kube-state-metrics."
+name: Kubernetes Diagnostics Agent
+description: Performs deep cluster troubleshooting using the Kubernetes API server
+  /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource
+  pressure via the Metrics Server API and kube-state-metrics.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-diagnostics-agent -a
 ```bash
 clawhub install kubernetes-diagnostics-agent
 ```
+
 
 ## Source
 

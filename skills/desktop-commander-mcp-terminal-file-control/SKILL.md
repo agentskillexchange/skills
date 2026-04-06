@@ -1,8 +1,11 @@
 ---
-name: "Desktop Commander MCP Server for Terminal and File Control"
-description: "Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It extends Claude Desktop and other MCP clients with full local development environment control."
-category: "Developer Tools"
-framework: "MCP"
+name: Desktop Commander MCP Server for Terminal and File Control
+description: Desktop Commander is an MCP server that gives AI assistants terminal
+  command execution, file system search, diff-based file editing, and process management
+  capabilities. It extends Claude Desktop and other MCP clients with full local development
+  environment control.
+category: Developer Tools
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
 tool_ecosystem:
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill desktop-commander-mcp-terminal-
 clawhub install desktop-commander-mcp-terminal-file-control
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/desktop-commander-mcp-terminal-file-control/)
+- [GitHub](https://github.com/wonderwhy-er/DesktopCommanderMCP)

@@ -1,8 +1,10 @@
 ---
-name: "CDP Network Interception Logger"
-description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification."
-category: "Browser Automation"
-framework: "Codex"
+name: CDP Network Interception Logger
+description: Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived
+  events to intercept, log, and modify HTTP traffic during browser automation. Exports
+  HAR files compatible with Charles Proxy and supports request/response body modification.
+category: Browser Automation
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill cdp-network-interception-logger
 ```bash
 clawhub install cdp-network-interception-logger
 ```
+
 
 ## Source
 

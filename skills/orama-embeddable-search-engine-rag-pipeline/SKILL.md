@@ -1,8 +1,11 @@
 ---
-name: "Orama Embeddable Search Engine and RAG Pipeline for JavaScript"
-description: "Orama is a full-text, vector, and hybrid search engine that runs in the browser, on a server, or at the edge in under 2KB. It provides built-in RAG pipeline support, typo tolerance, faceted search, and language-agnostic stemming — all without external dependencies."
+name: Orama Embeddable Search Engine and RAG Pipeline for JavaScript
+description: Orama is a full-text, vector, and hybrid search engine that runs in the
+  browser, on a server, or at the edge in under 2KB. It provides built-in RAG pipeline
+  support, typo tolerance, faceted search, and language-agnostic stemming — all without
+  external dependencies.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/oramasearch/orama"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill orama-embeddable-search-engine-
 clawhub install orama-embeddable-search-engine-rag-pipeline
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/orama-embeddable-search-engine-rag-pipeline/)
+- [GitHub](https://github.com/oramasearch/orama)

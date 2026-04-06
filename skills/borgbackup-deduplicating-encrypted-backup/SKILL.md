@@ -1,8 +1,11 @@
 ---
-name: "BorgBackup Deduplicating Encrypted Backup Program"
-description: "BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses content-defined chunking for space-efficient daily backups, making it ideal for automating secure incremental backups to local or remote SSH targets."
+name: BorgBackup Deduplicating Encrypted Backup Program
+description: BorgBackup (Borg) is a deduplicating backup program with optional compression
+  and authenticated encryption. It uses content-defined chunking for space-efficient
+  daily backups, making it ideal for automating secure incremental backups to local
+  or remote SSH targets.
 category: "Runbooks &amp; Diagnostics"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/borgbackup/borg"
 ---
@@ -91,6 +94,7 @@ npx skills add agentskillexchange/skills --skill borgbackup-deduplicating-encryp
 clawhub install borgbackup-deduplicating-encrypted-backup
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/borgbackup-deduplicating-encrypted-backup/)
+- [GitHub](https://github.com/borgbackup/borg)

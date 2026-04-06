@@ -1,14 +1,17 @@
 ---
-name: "WriteFreely Federated Markdown Publishing Platform with ActivityPub"
-description: "WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community building, multi-blog support from a single account, and OAuth 2.0 integration for onboarding users from existing platforms."
+name: WriteFreely Federated Markdown Publishing Platform with ActivityPub
+description: WriteFreely is a clean, minimalist self-hosted publishing platform built
+  in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation
+  for cross-platform community building, multi-blog support from a single account,
+  and OAuth 2.0 integration for onboarding users from existing platforms.
 category: "Content Writing &amp; SEO"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/writefreely/writefreely"
 tool_ecosystem:
   github_repo: "https://github.com/writefreely/writefreely"
   github_stars: 5117
-  license: "AGPL-3.0"
+  license: AGPL-3.0
 ---
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill writefreely-federated-markdown-
 clawhub install writefreely-federated-markdown-publishing-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/writefreely-federated-markdown-publishing-platform/)
+- [GitHub](https://github.com/writefreely/writefreely)

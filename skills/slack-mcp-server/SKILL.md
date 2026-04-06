@@ -1,8 +1,8 @@
 ---
-name: "Slack MCP Server"
-description: "Agent access to Slack conversations and workspace workflows."
+name: Slack MCP Server
+description: Agent access to Slack conversations and workspace workflows.
 category: "Calendar, Email &amp; Productivity"
-framework: "Claude Code, Cursor, MCP, OpenClaw"
+framework: Claude Code, Cursor, MCP, OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 ---
@@ -55,6 +55,7 @@ npx skills add agentskillexchange/skills --skill slack-mcp-server -a codex
 ```bash
 clawhub install slack-mcp-server
 ```
+
 
 ## Source
 

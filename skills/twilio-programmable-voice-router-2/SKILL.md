@@ -1,8 +1,10 @@
 ---
-name: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource."
+name: Twilio Programmable Voice Router
+description: Builds intelligent voice routing flows using the Twilio Programmable
+  Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings
+  via the Recordings REST resource.
 category: "Integrations &amp; Connectors"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill twilio-programmable-voice-route
 ```bash
 clawhub install twilio-programmable-voice-router-2
 ```
+
 
 ## Source
 

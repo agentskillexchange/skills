@@ -1,8 +1,11 @@
 ---
-name: "Tera Jinja2-Inspired Template Engine for Rust"
-description: "Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template inheritance, macros, filters, and auto-escaping, making it the go-to choice for HTML generation, static site builders, and code generation in Rust projects."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Tera Jinja2-Inspired Template Engine for Rust
+description: Tera is a powerful template engine for Rust inspired by Jinja2 and Django
+  templates. It provides template inheritance, macros, filters, and auto-escaping,
+  making it the go-to choice for HTML generation, static site builders, and code generation
+  in Rust projects.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/Keats/tera"
 ---
@@ -84,6 +87,7 @@ npx skills add agentskillexchange/skills --skill tera-rust-template-engine -a co
 clawhub install tera-rust-template-engine
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tera-rust-template-engine/)
+- [GitHub](https://github.com/Keats/tera)

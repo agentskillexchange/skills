@@ -1,14 +1,16 @@
 ---
-name: "Neon MCP Server for Serverless Postgres Management"
-description: "The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the Model Context Protocol. Create projects, run queries, manage branches, and perform database migrations conversationally."
+name: Neon MCP Server for Serverless Postgres Management
+description: The Neon MCP Server enables AI agents to manage serverless PostgreSQL
+  databases through natural language via the Model Context Protocol. Create projects,
+  run queries, manage branches, and perform database migrations conversationally.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/neondatabase/mcp-server-neon"
 tool_ecosystem:
   github_repo: "https://github.com/neondatabase/mcp-server-neon"
   github_stars: 567
-  license: "MIT"
+  license: MIT
 ---
 # Neon MCP Server for Serverless Postgres Management
 
@@ -54,6 +56,7 @@ npx skills add agentskillexchange/skills --skill neon-mcp-server-serverless-post
 clawhub install neon-mcp-server-serverless-postgres
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/neon-mcp-server-serverless-postgres/)
+- [GitHub](https://github.com/neondatabase/mcp-server-neon)

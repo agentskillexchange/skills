@@ -1,8 +1,10 @@
 ---
-name: "Cookiecutter Project Bootstrap"
-description: "Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine."
+name: Cookiecutter Project Bootstrap
+description: Bootstraps new projects from Cookiecutter templates with variable substitution
+  and post-generation hooks. Supports remote template repositories via the cookiecutter
+  CLI and Jinja2 rendering engine.
 category: "Templates &amp; Workflows"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill cookiecutter-project-bootstrap 
 ```bash
 clawhub install cookiecutter-project-bootstrap
 ```
+
 
 ## Source
 

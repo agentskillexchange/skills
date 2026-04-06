@@ -1,8 +1,10 @@
 ---
-name: "OWASP ZAP Automated Pen Testing Agent"
-description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
+name: OWASP ZAP Automated Pen Testing Agent
+description: Runs automated penetration tests using OWASP ZAP API with spider crawling,
+  active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped
+  findings for security review workflows.
 category: "Security &amp; Verification"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill owasp-zap-automated-pen-testing
 ```bash
 clawhub install owasp-zap-automated-pen-testing-agent
 ```
+
 
 ## Source
 

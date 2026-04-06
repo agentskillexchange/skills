@@ -1,8 +1,11 @@
 ---
-name: "NetBird WireGuard Mesh VPN with Zero Trust Access Controls"
-description: "NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a web UI and REST API, and supports self-hosted deployment for secure private networking."
+name: NetBird WireGuard Mesh VPN with Zero Trust Access Controls
+description: NetBird creates encrypted WireGuard-based overlay networks with SSO,
+  MFA, and granular access controls. It provides peer-to-peer connectivity with NAT
+  traversal, centralized management via a web UI and REST API, and supports self-hosted
+  deployment for secure private networking.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/netbirdio/netbird"
 tool_ecosystem:
@@ -69,6 +72,7 @@ npx skills add agentskillexchange/skills --skill netbird-wireguard-mesh-vpn-zero
 clawhub install netbird-wireguard-mesh-vpn-zero-trust-access
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/netbird-wireguard-mesh-vpn-zero-trust-access/)
+- [GitHub](https://github.com/netbirdio/netbird)

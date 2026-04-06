@@ -1,8 +1,10 @@
 ---
-name: "Nginx Error Log Classifier"
-description: "Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation."
+name: Nginx Error Log Classifier
+description: Classifies and prioritizes Nginx error log entries using pattern matching
+  against known error signatures and the GoAccess real-time log analyzer. Maps upstream
+  timeout patterns to specific backend service degradation.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill nginx-error-log-classifier -a c
 ```bash
 clawhub install nginx-error-log-classifier
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Neon Serverless Postgres MCP"
-description: "Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform."
+name: Neon Serverless Postgres MCP
+description: Neon’s official MCP server translates natural language requests into
+  Neon API calls, letting AI agents create projects, manage branches, run SQL queries,
+  and perform database migrations on Neon’s serverless Postgres platform.
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/"
 ---
@@ -63,6 +65,7 @@ npx skills add agentskillexchange/skills --skill neon-serverless-postgres-mcp -a
 ```bash
 clawhub install neon-serverless-postgres-mcp
 ```
+
 
 ## Source
 

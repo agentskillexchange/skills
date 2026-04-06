@@ -1,8 +1,10 @@
 ---
-name: "Grafana Dashboard Template Generator"
-description: "Programmatically creates Grafana dashboard JSON models using the Grafana HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource layouts for Prometheus, Loki, and Tempo."
+name: Grafana Dashboard Template Generator
+description: Programmatically creates Grafana dashboard JSON models using the Grafana
+  HTTP API and grafonnet-lib. Supports templated variables, panel linking, and multi-datasource
+  layouts for Prometheus, Loki, and Tempo.
 category: "Monitoring &amp; Alerts"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-template-gene
 ```bash
 clawhub install grafana-dashboard-template-generator
 ```
+
 
 ## Source
 

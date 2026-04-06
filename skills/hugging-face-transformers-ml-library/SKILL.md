@@ -1,8 +1,10 @@
 ---
-name: "Hugging Face Transformers — Machine Learning Model Library"
-description: "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Hugging Face Transformers — Machine Learning Model Library
+description: Hugging Face Transformers provides 400,000+ pretrained models for NLP,
+  computer vision, audio, and multimodal tasks with a unified API across PyTorch,
+  TensorFlow, and JAX for training, fine-tuning, and deployment.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/huggingface/transformers"
 tool_ecosystem:
@@ -45,6 +47,7 @@ npx skills add agentskillexchange/skills --skill hugging-face-transformers-ml-li
 clawhub install hugging-face-transformers-ml-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/hugging-face-transformers-ml-library/)
+- [GitHub](https://github.com/huggingface/transformers)

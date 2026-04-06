@@ -1,8 +1,10 @@
 ---
-name: "Surfer SEO Content Optimizer Integration"
-description: "Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
+name: Surfer SEO Content Optimizer Integration
+description: Optimizes content against Surfer SEO’s NLP-based recommendations via
+  the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure,
+  and semantic term coverage for target SERP ranking.
 category: "Content Writing &amp; SEO"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill surfer-seo-content-optimizer-in
 ```bash
 clawhub install surfer-seo-content-optimizer-integration
 ```
+
 
 ## Source
 

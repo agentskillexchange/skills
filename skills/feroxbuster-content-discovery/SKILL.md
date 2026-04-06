@@ -1,8 +1,11 @@
 ---
-name: "Feroxbuster Fast Recursive Content Discovery Tool in Rust"
-description: "Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options."
+name: Feroxbuster Fast Recursive Content Discovery Tool in Rust
+description: Feroxbuster is a high-performance content discovery tool written in Rust
+  that performs forced browsing attacks to enumerate hidden files, directories, and
+  endpoints on web servers. It features recursive scanning, smart filtering, and extensive
+  output options.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/epi052/feroxbuster"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill feroxbuster-content-discovery -
 clawhub install feroxbuster-content-discovery
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/feroxbuster-content-discovery/)
+- [GitHub](https://github.com/epi052/feroxbuster)

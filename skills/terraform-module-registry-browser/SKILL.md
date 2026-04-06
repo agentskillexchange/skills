@@ -1,8 +1,10 @@
 ---
-name: "Terraform Module Registry Browser"
-description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
+name: Terraform Module Registry Browser
+description: Searches and evaluates Terraform modules from the HashiCorp Registry
+  API and private registries. Uses hcl2json parser to analyze module input variables,
+  outputs, and provider requirements.
 category: "Templates &amp; Workflows"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill terraform-module-registry-brows
 ```bash
 clawhub install terraform-module-registry-browser
 ```
+
 
 ## Source
 

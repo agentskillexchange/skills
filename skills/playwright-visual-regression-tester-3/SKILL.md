@@ -1,8 +1,11 @@
 ---
-name: "Playwright Visual Regression Tester"
-description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
-category: "Browser Automation"
-framework: "OpenClaw"
+name: Playwright Visual Regression Tester
+description: Automates visual regression testing using the Playwright screenshot comparison
+  API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level
+  UI changes across viewport sizes, and generates HTML diff reports with threshold-based
+  pass/fail results.
+category: Browser Automation
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill playwright-visual-regression-te
 ```bash
 clawhub install playwright-visual-regression-tester-3
 ```
+
 
 ## Source
 

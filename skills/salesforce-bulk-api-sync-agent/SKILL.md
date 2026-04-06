@@ -1,8 +1,10 @@
 ---
-name: "Salesforce Bulk API Sync Agent"
-description: "Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT bearer flow authentication via jsforce."
+name: Salesforce Bulk API Sync Agent
+description: Perform high-volume data synchronization with Salesforce using the Bulk
+  API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT
+  bearer flow authentication via jsforce.
 category: "Integrations &amp; Connectors"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
 ---
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill salesforce-bulk-api-sync-agent 
 ```bash
 clawhub install salesforce-bulk-api-sync-agent
 ```
+
 
 ## Source
 

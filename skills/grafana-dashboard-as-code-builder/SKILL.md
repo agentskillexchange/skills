@@ -1,8 +1,10 @@
 ---
-name: "Grafana Dashboard as Code Builder"
-description: "Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries."
+name: Grafana Dashboard as Code Builder
+description: Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet)
+  and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and
+  heatmap visualizations with PromQL/LogQL queries.
 category: "Monitoring &amp; Alerts"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-as-code-build
 ```bash
 clawhub install grafana-dashboard-as-code-builder
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "TLS Certificate Chain Validator"
-description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let’s Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
+name: TLS Certificate Chain Validator
+description: Validates TLS/SSL certificate chains using OpenSSL x509 verification
+  and checks OCSP stapling status. Integrates with Let’s Encrypt ACME protocol for
+  automated certificate renewal alerts and CT log monitoring via crt.sh API.
 category: "Security &amp; Verification"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill tls-certificate-chain-validator
 ```bash
 clawhub install tls-certificate-chain-validator
 ```
+
 
 ## Source
 

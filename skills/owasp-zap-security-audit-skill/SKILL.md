@@ -1,8 +1,10 @@
 ---
-name: "OWASP ZAP Security Audit Skill"
-description: "Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping."
+name: OWASP ZAP Security Audit Skill
+description: Wraps OWASP ZAP API for automated web application security testing including
+  active scan, spider crawl, and ajax spider endpoints. Generates structured findings
+  reports with CWE classifications and OWASP Top 10 category mapping.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/"
 ---
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill owasp-zap-security-audit-skill 
 ```bash
 clawhub install owasp-zap-security-audit-skill
 ```
+
 
 ## Source
 

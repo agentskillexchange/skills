@@ -1,8 +1,11 @@
 ---
-name: "Slack Digest and Task Router"
-description: "Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API."
+name: Slack Digest and Task Router
+description: Reads unread Slack messages from specified channels using the conversations.history
+  API, extracts action items and questions, routes tasks to the right person based
+  on mention patterns, and posts a daily digest summary to a designated summary channel
+  via the Slack Web API.
 category: "Calendar, Email &amp; Productivity"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-digest-and-task-router/"
 ---
@@ -45,6 +48,7 @@ npx skills add agentskillexchange/skills --skill slack-digest-and-task-router -a
 ```bash
 clawhub install slack-digest-and-task-router
 ```
+
 
 ## Source
 

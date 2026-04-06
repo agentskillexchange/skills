@@ -1,8 +1,10 @@
 ---
-name: "GraphQL Schema Introspection Mapper"
-description: "Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions."
+name: GraphQL Schema Introspection Mapper
+description: Introspects GraphQL APIs via the __schema query and maps type relationships,
+  deprecated fields, and circular references. Generates SDL exports, TypeScript types
+  via graphql-codegen, and schema diff reports between versions.
 category: "Data Extraction &amp; Transformation"
-framework: "Cursor, Multi-Framework"
+framework: Cursor, Multi-Framework
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill graphql-schema-introspection-ma
 ```bash
 clawhub install graphql-schema-introspection-mapper
 ```
+
 
 ## Source
 

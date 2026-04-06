@@ -1,8 +1,10 @@
 ---
-name: "Python Type Coverage Analyzer"
-description: "Measures and improves Python type annotation coverage using mypy –html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
+name: Python Type Coverage Analyzer
+description: Measures and improves Python type annotation coverage using mypy –html-report
+  and pyright type completeness scoring. Identifies untyped function signatures, missing
+  return types, and Any-typed parameters across codebases.
 category: "Code Quality &amp; Review"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill python-type-coverage-analyzer -
 ```bash
 clawhub install python-type-coverage-analyzer
 ```
+
 
 ## Source
 

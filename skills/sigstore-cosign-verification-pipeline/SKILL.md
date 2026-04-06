@@ -1,8 +1,10 @@
 ---
-name: "Sigstore Cosign Verification Pipeline"
-description: "Verifies container image signatures and SBOMs using Sigstore Cosign and Rekor transparency log. Enforces supply chain security policies by validating keyless signatures against Fulcio certificate authorities."
+name: Sigstore Cosign Verification Pipeline
+description: Verifies container image signatures and SBOMs using Sigstore Cosign and
+  Rekor transparency log. Enforces supply chain security policies by validating keyless
+  signatures against Fulcio certificate authorities.
 category: "Security &amp; Verification"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill sigstore-cosign-verification-pi
 ```bash
 clawhub install sigstore-cosign-verification-pipeline
 ```
+
 
 ## Source
 

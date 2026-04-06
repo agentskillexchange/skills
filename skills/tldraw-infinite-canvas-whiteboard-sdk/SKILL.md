@@ -1,14 +1,17 @@
 ---
-name: "tldraw Infinite Canvas Whiteboard SDK for React"
-description: "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of the box, with full extensibility for custom shapes, tools, and UI components."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: tldraw Infinite Canvas Whiteboard SDK for React
+description: tldraw is a feature-complete infinite canvas engine and whiteboard SDK
+  for React. It provides drawing, diagramming, real-time multiplayer collaboration,
+  and AI integrations out of the box, with full extensibility for custom shapes, tools,
+  and UI components.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/tldraw/tldraw"
 tool_ecosystem:
   github_repo: "https://github.com/tldraw/tldraw"
   github_stars: 46154
-  npm_package: "tldraw"
+  npm_package: tldraw
   npm_weekly_downloads: 164518
 ---
 # tldraw Infinite Canvas Whiteboard SDK for React
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill tldraw-infinite-canvas-whiteboa
 clawhub install tldraw-infinite-canvas-whiteboard-sdk
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/tldraw-infinite-canvas-whiteboard-sdk/)
+- [GitHub](https://github.com/tldraw/tldraw)

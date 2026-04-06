@@ -1,8 +1,10 @@
 ---
-name: "Dockerfile Security Hardening Advisor"
-description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
+name: Dockerfile Security Hardening Advisor
+description: Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy
+  container scanner. Recommends hardening steps based on CIS Docker Benchmark and
+  Snyk container advisories.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill dockerfile-security-hardening-a
 ```bash
 clawhub install dockerfile-security-hardening-advisor
 ```
+
 
 ## Source
 

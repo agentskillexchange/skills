@@ -1,8 +1,10 @@
 ---
-name: "PagerDuty Incident Orchestrator"
-description: "Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation."
+name: PagerDuty Incident Orchestrator
+description: Manages PagerDuty incident lifecycle using the PagerDuty Events API v2
+  and REST API. Automates escalation policies, runbook attachment, and post-incident
+  timeline generation.
 category: "Monitoring &amp; Alerts"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-orchestrator
 ```bash
 clawhub install pagerduty-incident-orchestrator-2
 ```
+
 
 ## Source
 

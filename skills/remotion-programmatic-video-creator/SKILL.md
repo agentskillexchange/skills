@@ -1,14 +1,16 @@
 ---
-name: "Remotion Programmatic Video Creator"
-description: "Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven video content with full JavaScript control over every frame."
+name: Remotion Programmatic Video Creator
+description: Create videos programmatically using React components with Remotion.
+  Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven
+  video content with full JavaScript control over every frame.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/remotion-dev/remotion"
 tool_ecosystem:
   github_repo: "https://github.com/remotion-dev/remotion"
   github_stars: 41477
-  npm_package: "remotion"
+  npm_package: remotion
   npm_weekly_downloads: 506674
 ---
 # Remotion Programmatic Video Creator
@@ -75,6 +77,7 @@ npx skills add agentskillexchange/skills --skill remotion-programmatic-video-cre
 clawhub install remotion-programmatic-video-creator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/remotion-programmatic-video-creator/)
+- [GitHub](https://github.com/remotion-dev/remotion)

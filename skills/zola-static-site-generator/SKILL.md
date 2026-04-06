@@ -1,14 +1,16 @@
 ---
-name: "Zola Fast Static Site Generator in a Single Binary"
-description: "Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing, image processing, and multilingual support. No dependencies required."
+name: Zola Fast Static Site Generator in a Single Binary
+description: Zola is a fast static site generator written in Rust that ships as a
+  single binary with built-in Sass compilation, syntax highlighting, search indexing,
+  image processing, and multilingual support. No dependencies required.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/getzola/zola"
 tool_ecosystem:
   github_repo: "https://github.com/getzola/zola"
   github_stars: 16799
-  license: "EUPL-1.2"
+  license: EUPL-1.2
 ---
 # Zola Fast Static Site Generator in a Single Binary
 
@@ -64,6 +66,7 @@ npx skills add agentskillexchange/skills --skill zola-static-site-generator -a c
 clawhub install zola-static-site-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/zola-static-site-generator/)
+- [GitHub](https://github.com/getzola/zola)

@@ -1,8 +1,11 @@
 ---
-name: "Deepgram Podcast Chapter Generator"
-description: "Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps into logical chapters using a sliding-window topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry."
+name: Deepgram Podcast Chapter Generator
+description: Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize
+  features, then clusters returned timestamps into logical chapters using a sliding-window
+  topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready
+  podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry.
 category: "Media &amp; Transcription"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill deepgram-podcast-chapter-genera
 ```bash
 clawhub install deepgram-podcast-chapter-generator
 ```
+
 
 ## Source
 

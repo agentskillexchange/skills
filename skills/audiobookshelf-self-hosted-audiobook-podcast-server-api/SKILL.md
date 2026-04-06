@@ -1,8 +1,11 @@
 ---
-name: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
-description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
+name: Audiobookshelf Self-Hosted Audiobook and Podcast Server API
+description: Integrate Audiobookshelf’s self-hosted audiobook and podcast server into
+  AI agent workflows. Agents can manage libraries, track listening progress, search
+  metadata, and automate podcast episode downloads through the comprehensive REST
+  API.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/advplyr/audiobookshelf"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill audiobookshelf-self-hosted-audi
 clawhub install audiobookshelf-self-hosted-audiobook-podcast-server-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/)
+- [GitHub](https://github.com/advplyr/audiobookshelf)

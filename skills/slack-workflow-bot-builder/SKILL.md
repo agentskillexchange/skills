@@ -1,8 +1,10 @@
 ---
-name: "Slack Workflow Bot Builder"
-description: "Creates interactive Slack workflows using Block Kit UI components and the Bolt.js framework. Implements slash commands, modal views via views.open(), and message shortcuts with action listeners."
+name: Slack Workflow Bot Builder
+description: Creates interactive Slack workflows using Block Kit UI components and
+  the Bolt.js framework. Implements slash commands, modal views via views.open(),
+  and message shortcuts with action listeners.
 category: "Calendar, Email &amp; Productivity"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill slack-workflow-bot-builder -a c
 ```bash
 clawhub install slack-workflow-bot-builder
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Surfer SEO SERP Analyzer"
-description: "Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints."
+name: Surfer SEO SERP Analyzer
+description: Uses Surfer SEO Content Editor API to pull SERP analysis data including
+  word count benchmarks, heading structure patterns, and NLP entity recommendations.
+  Generates content briefs with target keyword clusters from Surfer Audit endpoints.
 category: "Content Writing &amp; SEO"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 ---
@@ -59,6 +61,7 @@ npx skills add agentskillexchange/skills --skill surfer-seo-serp-analyzer -a cod
 ```bash
 clawhub install surfer-seo-serp-analyzer
 ```
+
 
 ## Source
 

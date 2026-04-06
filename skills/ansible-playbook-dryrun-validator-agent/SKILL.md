@@ -1,8 +1,10 @@
 ---
-name: "Ansible Playbook Dry-Run Validator"
-description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
+name: Ansible Playbook Dry-Run Validator
+description: Validates Ansible playbooks in check mode using ansible-playbook –check
+  –diff and the Ansible Python API. Detects idempotency issues, undefined variables,
+  and unreachable hosts before production runs.
 category: "Runbooks &amp; Diagnostics"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill ansible-playbook-dryrun-validat
 ```bash
 clawhub install ansible-playbook-dryrun-validator-agent
 ```
+
 
 ## Source
 

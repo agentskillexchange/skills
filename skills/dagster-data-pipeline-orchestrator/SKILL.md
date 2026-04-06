@@ -1,8 +1,10 @@
 ---
-name: "Dagster Data Pipeline Orchestrator"
-description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
+name: Dagster Data Pipeline Orchestrator
+description: Orchestrate data pipelines using Dagster, the cloud-native data orchestration
+  platform. Define data assets as Python functions with automatic lineage tracking,
+  scheduling, and observability.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code, OpenClaw"
+framework: Claude Code, OpenClaw
 verification: security_reviewed
 source: "https://github.com/dagster-io/dagster"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill dagster-data-pipeline-orchestra
 clawhub install dagster-data-pipeline-orchestrator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dagster-data-pipeline-orchestrator/)
+- [GitHub](https://github.com/dagster-io/dagster)

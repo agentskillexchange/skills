@@ -1,8 +1,10 @@
 ---
-name: "Angular — TypeScript Web Application Framework by Google"
-description: "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Angular — TypeScript Web Application Framework by Google
+description: Angular is a TypeScript-based web application platform by Google providing
+  dependency injection, declarative templates, a powerful CLI, and comprehensive libraries
+  for routing, forms, and HTTP communication.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/angular/angular"
 tool_ecosystem:
@@ -45,6 +47,7 @@ npx skills add agentskillexchange/skills --skill angular-typescript-web-framewor
 clawhub install angular-typescript-web-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/angular-typescript-web-framework/)
+- [GitHub](https://github.com/angular/angular)

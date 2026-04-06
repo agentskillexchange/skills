@@ -1,14 +1,18 @@
 ---
-name: "JSDoc JavaScript API Documentation Generator"
-description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
+name: JSDoc JavaScript API Documentation Generator
+description: JSDoc is the standard API documentation generator for JavaScript. It
+  parses specially-formatted comments in JavaScript source code to produce HTML documentation
+  pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely
+  adopted JavaScript documentation tool and the foundation of the JSDoc comment standard
+  used across the entire JS ecosystem.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/jsdoc/jsdoc"
 tool_ecosystem:
   github_repo: "https://github.com/jsdoc/jsdoc"
   github_stars: 15426
-  npm_package: "jsdoc"
+  npm_package: jsdoc
   npm_weekly_downloads: 2821540
 ---
 # JSDoc JavaScript API Documentation Generator
@@ -65,6 +69,7 @@ npx skills add agentskillexchange/skills --skill jsdoc-javascript-api-documentat
 clawhub install jsdoc-javascript-api-documentation-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-generator/)
+- [GitHub](https://github.com/jsdoc/jsdoc)

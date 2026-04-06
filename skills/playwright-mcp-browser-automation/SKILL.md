@@ -1,8 +1,8 @@
 ---
-name: "Playwright MCP Browser Automation"
-description: "Official Playwright-powered browser control for agent workflows."
-category: "Browser Automation"
-framework: "Claude Code, Cursor, MCP, OpenClaw"
+name: Playwright MCP Browser Automation
+description: Official Playwright-powered browser control for agent workflows.
+category: Browser Automation
+framework: Claude Code, Cursor, MCP, OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-mcp-browser-automation/"
 ---
@@ -55,6 +55,7 @@ npx skills add agentskillexchange/skills --skill playwright-mcp-browser-automati
 ```bash
 clawhub install playwright-mcp-browser-automation
 ```
+
 
 ## Source
 

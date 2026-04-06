@@ -1,8 +1,10 @@
 ---
-name: "DuckDB SQL Analytics Agent"
-description: "Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables fast OLAP-style analysis without a server, directly from flat files on disk."
+name: DuckDB SQL Analytics Agent
+description: Run analytical SQL queries on local files (CSV, Parquet, JSON) using
+  the DuckDB in-process database engine. Enables fast OLAP-style analysis without
+  a server, directly from flat files on disk.
 category: "Data Extraction &amp; Transformation"
-framework: "Claude Code, OpenClaw"
+framework: Claude Code, OpenClaw
 verification: security_reviewed
 source: "https://github.com/duckdb/duckdb"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill duckdb-sql-analytics-agent -a c
 clawhub install duckdb-sql-analytics-agent
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/duckdb-sql-analytics-agent/)
+- [GitHub](https://github.com/duckdb/duckdb)

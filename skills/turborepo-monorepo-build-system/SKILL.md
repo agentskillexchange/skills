@@ -1,14 +1,16 @@
 ---
-name: "Turborepo Monorepo Build System"
-description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Turborepo Monorepo Build System
+description: Use Turborepo to orchestrate builds, tests, and tasks across JavaScript
+  and TypeScript monorepos with intelligent caching, parallel execution, and remote
+  cache sharing via Vercel.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/vercel/turborepo"
 tool_ecosystem:
   github_repo: "https://github.com/vercel/turborepo"
   github_stars: 30114
-  npm_package: "turbo"
+  npm_package: turbo
   npm_weekly_downloads: 11434861
 ---
 # Turborepo Monorepo Build System
@@ -63,6 +65,7 @@ npx skills add agentskillexchange/skills --skill turborepo-monorepo-build-system
 clawhub install turborepo-monorepo-build-system
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/turborepo-monorepo-build-system/)
+- [GitHub](https://github.com/vercel/turborepo)

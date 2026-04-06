@@ -1,8 +1,10 @@
 ---
-name: "CodeClimate Diff Analyzer"
-description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
+name: CodeClimate Diff Analyzer
+description: Runs CodeClimate analysis on pull request diffs using the CLI engine
+  and reports new issues inline. Calculates maintainability impact scores per changed
+  file.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill codeclimate-diff-analyzer-2 -a 
 ```bash
 clawhub install codeclimate-diff-analyzer-2
 ```
+
 
 ## Source
 

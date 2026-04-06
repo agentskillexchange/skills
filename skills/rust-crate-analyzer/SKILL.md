@@ -1,8 +1,10 @@
 ---
-name: "Rust Crate Analyzer"
-description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
+name: Rust Crate Analyzer
+description: Fetches crate metadata from the crates.io API and docs.rs API for Rust
+  package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory
+  DB, and MSRV compatibility checking.
 category: "Library &amp; API Reference"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill rust-crate-analyzer -a codex
 ```bash
 clawhub install rust-crate-analyzer
 ```
+
 
 ## Source
 

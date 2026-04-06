@@ -1,8 +1,10 @@
 ---
-name: "MDN Web API Reference Fetcher"
-description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
+name: MDN Web API Reference Fetcher
+description: Fetches and indexes Mozilla Developer Network Web API documentation using
+  the MDN Yari content API. Provides structured API signatures, browser compatibility
+  data from BCD, and code examples.
 category: "Library &amp; API Reference"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill mdn-web-api-reference-fetcher -
 ```bash
 clawhub install mdn-web-api-reference-fetcher
 ```
+
 
 ## Source
 

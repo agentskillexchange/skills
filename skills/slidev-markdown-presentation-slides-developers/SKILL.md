@@ -1,8 +1,10 @@
 ---
-name: "Slidev Markdown Presentation Slides for Developers"
-description: "Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Slidev Markdown Presentation Slides for Developers
+description: Slidev is a web-based presentation tool built for developers that turns
+  Markdown files into interactive slide decks with code highlighting, live coding
+  via Monaco Editor, LaTeX math, Mermaid diagrams, and export to PDF or PPTX.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/slidevjs/slidev"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill slidev-markdown-presentation-sl
 clawhub install slidev-markdown-presentation-slides-developers
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-developers/)
+- [GitHub](https://github.com/slidevjs/slidev)

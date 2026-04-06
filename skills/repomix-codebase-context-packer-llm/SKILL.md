@@ -1,14 +1,17 @@
 ---
-name: "Repomix Codebase Context Packer for LLMs"
-description: "Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Repomix Codebase Context Packer for LLMs
+description: Repomix packs an entire code repository into a single AI-friendly file
+  optimized for LLM consumption. It provides token counting, security scanning via
+  Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or
+  plain text format.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/yamadashy/repomix"
 tool_ecosystem:
   github_repo: "https://github.com/yamadashy/repomix"
   github_stars: 22816
-  npm_package: "repomix"
+  npm_package: repomix
   npm_weekly_downloads: 54874
 ---
 # Repomix Codebase Context Packer for LLMs
@@ -57,6 +60,7 @@ npx skills add agentskillexchange/skills --skill repomix-codebase-context-packer
 clawhub install repomix-codebase-context-packer-llm
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/repomix-codebase-context-packer-llm/)
+- [GitHub](https://github.com/yamadashy/repomix)

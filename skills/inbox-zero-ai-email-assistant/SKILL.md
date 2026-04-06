@@ -1,8 +1,11 @@
 ---
-name: "Inbox Zero AI Email Assistant"
-description: "Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox, pre-drafts replies in your tone, bulk unsubscribes from unwanted senders, and blocks cold emails. Includes MCP server integration and Slack/Telegram chat interface."
+name: Inbox Zero AI Email Assistant
+description: Inbox Zero is an open-source AI email assistant with over 10,000 GitHub
+  stars that auto-triages your inbox, pre-drafts replies in your tone, bulk unsubscribes
+  from unwanted senders, and blocks cold emails. Includes MCP server integration and
+  Slack/Telegram chat interface.
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/elie222/inbox-zero"
 tool_ecosystem:
@@ -63,6 +66,7 @@ npx skills add agentskillexchange/skills --skill inbox-zero-ai-email-assistant -
 clawhub install inbox-zero-ai-email-assistant
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/inbox-zero-ai-email-assistant/)
+- [GitHub](https://github.com/elie222/inbox-zero)

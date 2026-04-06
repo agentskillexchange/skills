@@ -1,14 +1,18 @@
 ---
-name: "HubSpot MCP Server"
-description: "HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like contacts, companies, deals, forms, workflows, search API, associations and preserving […]"
+name: HubSpot MCP Server
+description: "HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The\
+  \ underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like contacts, companies,\
+  \ deals, forms, workflows, search API, associations and preserving […]"
 category: "Integrations &amp; Connectors"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 tool_ecosystem:
   github_repo: "https://github.com/hubspot/hubspot-api-nodejs"
   github_stars: 392
-  npm_package: "@hubspot/api-client"
+  npm_package: '@hubspot/api-client'
 ---
 # HubSpot MCP Server
 
@@ -60,6 +64,7 @@ npx skills add agentskillexchange/skills --skill hubspot-mcp-server -a codex
 clawhub install hubspot-mcp-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/hubspot-mcp-server/)
+- [GitHub](https://github.com/HubSpot/hubspot-api-nodejs)

@@ -1,8 +1,10 @@
 ---
-name: "Scrapy Distributed Crawler Framework"
-description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
+name: Scrapy Distributed Crawler Framework
+description: Orchestrates large-scale web crawling using Scrapy with scrapy-redis
+  for distributed job queuing. Integrates Splash for JavaScript rendering, stores
+  results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle.
 category: "Research &amp; Scraping"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill scrapy-distributed-crawler-fram
 ```bash
 clawhub install scrapy-distributed-crawler-framework
 ```
+
 
 ## Source
 

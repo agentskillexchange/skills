@@ -1,8 +1,9 @@
 ---
-name: "Ruff Python Linter Configurator"
-description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
+name: Ruff Python Linter Configurator
+description: Generates optimized Ruff configuration from existing Flake8, isort, and
+  Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
 category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
 ---
@@ -47,6 +48,7 @@ npx skills add agentskillexchange/skills --skill ruff-python-linter-configurator
 ```bash
 clawhub install ruff-python-linter-configurator
 ```
+
 
 ## Source
 

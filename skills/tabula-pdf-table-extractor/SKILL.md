@@ -1,8 +1,10 @@
 ---
-name: "Tabula PDF Table Extractor"
-description: "Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to CSV, JSON, or pandas DataFrames with automatic column type inference via python-tabula."
+name: Tabula PDF Table Extractor
+description: Extracts structured tables from PDF documents using Tabula-java with
+  lattice and stream detection modes. Outputs to CSV, JSON, or pandas DataFrames with
+  automatic column type inference via python-tabula.
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tabula-pdf-table-extractor/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill tabula-pdf-table-extractor -a c
 ```bash
 clawhub install tabula-pdf-table-extractor
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudWatch Log Anomaly Scanner"
-description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups."
+name: AWS CloudWatch Log Anomaly Scanner
+description: Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and
+  CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes,
+  and log volume anomalies across log groups.
 category: "Runbooks &amp; Diagnostics"
-framework: "Codex"
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
 ---
@@ -43,6 +45,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudwatch-log-anomaly-scan
 ```bash
 clawhub install aws-cloudwatch-log-anomaly-scanner
 ```
+
 
 ## Source
 

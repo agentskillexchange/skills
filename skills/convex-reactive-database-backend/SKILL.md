@@ -1,8 +1,10 @@
 ---
-name: "Convex Open Source Reactive Database and Backend Platform"
-description: "Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong consistency, real-time subscriptions, and automatic caching. Self-hostable or available as a managed cloud service."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Convex Open Source Reactive Database and Backend Platform
+description: Convex is an open-source reactive database for app developers. Write
+  pure TypeScript server functions with strong consistency, real-time subscriptions,
+  and automatic caching. Self-hostable or available as a managed cloud service.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/get-convex/convex-backend"
 tool_ecosystem:
@@ -67,6 +69,7 @@ npx skills add agentskillexchange/skills --skill convex-reactive-database-backen
 clawhub install convex-reactive-database-backend
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/convex-reactive-database-backend/)
+- [GitHub](https://github.com/get-convex/convex-backend)

@@ -1,8 +1,10 @@
 ---
-name: "Task Taskfile Build Automation Runner"
-description: "Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands."
-category: "Developer Tools"
-framework: "Claude Code"
+name: Task Taskfile Build Automation Runner
+description: Automate build workflows with Task (go-task), a modern cross-platform
+  task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler
+  syntax for defining and running project commands.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/go-task/task"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill task-taskfile-build-automation-
 clawhub install task-taskfile-build-automation-runner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/task-taskfile-build-automation-runner/)
+- [GitHub](https://github.com/go-task/task)

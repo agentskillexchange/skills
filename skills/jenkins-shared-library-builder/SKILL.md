@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Shared Library Builder"
-description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: Jenkins Shared Library Builder
+description: Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit
+  framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static
+  analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
 ---
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill jenkins-shared-library-builder 
 ```bash
 clawhub install jenkins-shared-library-builder
 ```
+
 
 ## Source
 

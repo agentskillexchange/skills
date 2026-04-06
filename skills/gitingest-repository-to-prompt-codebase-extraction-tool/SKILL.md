@@ -1,8 +1,11 @@
 ---
-name: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
-description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
+name: Gitingest Repository-to-Prompt Codebase Extraction Tool
+description: Gitingest turns a Git repository into a prompt-friendly text bundle that
+  agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern,
+  a Python package, or a local server for extracting repository summaries, structure,
+  and source content.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/coderamp-labs/gitingest"
 tool_ecosystem:
@@ -51,6 +54,7 @@ npx skills add agentskillexchange/skills --skill gitingest-repository-to-prompt-
 clawhub install gitingest-repository-to-prompt-codebase-extraction-tool
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitingest-repository-to-prompt-codebase-extraction-tool/)
+- [GitHub](https://github.com/coderamp-labs/gitingest)

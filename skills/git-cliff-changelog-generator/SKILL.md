@@ -1,8 +1,11 @@
 ---
-name: "git-cliff Customizable Changelog Generator for Git Repositories"
-description: "git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a TOML configuration file, with integrations for GitHub Actions, Docker, and CI/CD pipelines."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: git-cliff Customizable Changelog Generator for Git Repositories
+description: git-cliff generates changelog files from Git history using conventional
+  commits and regex-powered custom parsers. Written in Rust, it provides highly customizable
+  templates via a TOML configuration file, with integrations for GitHub Actions, Docker,
+  and CI/CD pipelines.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/orhun/git-cliff"
 tool_ecosystem:
@@ -75,6 +78,7 @@ npx skills add agentskillexchange/skills --skill git-cliff-changelog-generator -
 clawhub install git-cliff-changelog-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-cliff-changelog-generator/)
+- [GitHub](https://github.com/orhun/git-cliff)

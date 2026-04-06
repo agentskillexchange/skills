@@ -1,14 +1,17 @@
 ---
-name: "Excalidraw Virtual Whiteboard and Diagram SDK"
-description: "Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an infinite canvas, real-time collaboration, end-to-end encryption, and a React component library for embedding in custom applications."
+name: Excalidraw Virtual Whiteboard and Diagram SDK
+description: Excalidraw is an open-source virtual whiteboard for creating hand-drawn
+  style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an
+  infinite canvas, real-time collaboration, end-to-end encryption, and a React component
+  library for embedding in custom applications.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/excalidraw/excalidraw"
 tool_ecosystem:
   github_repo: "https://github.com/excalidraw/excalidraw"
   github_stars: 119886
-  license: "MIT"
+  license: MIT
 ---
 # Excalidraw Virtual Whiteboard and Diagram SDK
 
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill excalidraw-virtual-whiteboard-d
 clawhub install excalidraw-virtual-whiteboard-diagram-sdk
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/excalidraw-virtual-whiteboard-diagram-sdk/)
+- [GitHub](https://github.com/excalidraw/excalidraw)

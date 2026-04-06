@@ -1,8 +1,11 @@
 ---
-name: "Datadog Incident Runbook Runner"
-description: "Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation."
+name: Datadog Incident Runbook Runner
+description: Fetches an active Datadog incident, retrieves associated monitors and
+  dashboards, pulls the last 30 minutes of metric data, and walks through a runbook
+  checklist with automated triage steps. Reduces mean time to diagnosis by surfacing
+  signal without dashboard navigation.
 category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill datadog-incident-runbook-runner
 ```bash
 clawhub install datadog-incident-runbook-runner-2
 ```
+
 
 ## Source
 

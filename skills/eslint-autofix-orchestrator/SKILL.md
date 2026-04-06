@@ -1,8 +1,10 @@
 ---
-name: "ESLint Auto-Fix Orchestrator"
-description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
+name: ESLint Auto-Fix Orchestrator
+description: Runs ESLint with auto-fix capabilities using the ESLint Node.js API and
+  flat config system. Supports custom rule sets, TypeScript via typescript-eslint,
+  and Prettier integration.
 category: "Code Quality &amp; Review"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill eslint-autofix-orchestrator -a 
 ```bash
 clawhub install eslint-autofix-orchestrator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "git-absorb Automatic Fixup Commit Generator"
-description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback."
-category: "Developer Tools"
-framework: "Claude Code"
+name: git-absorb Automatic Fixup Commit Generator
+description: Automatically generates fixup commits by analyzing staged changes and
+  matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb
+  that eliminates manual interactive rebasing for review feedback.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/tummychow/git-absorb"
 tool_ecosystem:
@@ -65,6 +67,7 @@ npx skills add agentskillexchange/skills --skill git-absorb-automatic-fixup-comm
 clawhub install git-absorb-automatic-fixup-commit-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-absorb-automatic-fixup-commit-generator/)
+- [GitHub](https://github.com/tummychow/git-absorb)

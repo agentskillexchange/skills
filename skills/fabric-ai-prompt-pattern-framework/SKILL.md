@@ -1,14 +1,17 @@
 ---
-name: "Fabric AI Prompt Pattern Framework"
-description: "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems—from summarizing content to extracting wisdom to analyzing security threats—all usable from the command line."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: Fabric AI Prompt Pattern Framework
+description: Fabric is an open-source framework for augmenting humans using AI. It
+  provides a modular system of crowdsourced prompt patterns that solve specific problems—from
+  summarizing content to extracting wisdom to analyzing security threats—all usable
+  from the command line.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/danielmiessler/fabric"
 tool_ecosystem:
   github_repo: "https://github.com/danielmiessler/fabric"
   github_stars: 40278
-  license: "MIT"
+  license: MIT
 ---
 # Fabric AI Prompt Pattern Framework
 
@@ -62,6 +65,7 @@ npx skills add agentskillexchange/skills --skill fabric-ai-prompt-pattern-framew
 clawhub install fabric-ai-prompt-pattern-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/)
+- [GitHub](https://github.com/danielmiessler/fabric)

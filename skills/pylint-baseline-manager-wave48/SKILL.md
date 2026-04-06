@@ -1,8 +1,10 @@
 ---
-name: "Pylint Baseline Manager"
-description: "Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+name: Pylint Baseline Manager
+description: Manages Pylint baseline files for gradual code quality improvement using
+  pylint –output-format=json and the pylint.reporters API. Tracks new violations per
+  commit while suppressing pre-existing issues in legacy code.
 category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill pylint-baseline-manager-wave48 
 ```bash
 clawhub install pylint-baseline-manager-wave48
 ```
+
 
 ## Source
 

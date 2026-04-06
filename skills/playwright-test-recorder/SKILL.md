@@ -1,8 +1,12 @@
 ---
-name: "Playwright Test Recorder"
-description: "Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving […]"
+name: Playwright Test Recorder
+description: "Playwright Test Recorder is built around Playwright browser automation\
+  \ framework. The underlying ecosystem is represented by microsoft/playwright (84,874+\
+  \ GitHub stars). It gives an agent a more technical and reliable way to work with\
+  \ the tool than a thin one-line wrapper, using stable interfaces like browser contexts,\
+  \ locators, page actions, tracing, screenshots, test runner and preserving […]"
 category: "Code Quality &amp; Review"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-test-recorder/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill playwright-test-recorder -a cod
 ```bash
 clawhub install playwright-test-recorder
 ```
+
 
 ## Source
 

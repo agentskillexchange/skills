@@ -1,8 +1,12 @@
 ---
-name: "Discord Bot Manager"
-description: "Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like gateway events, slash commands, REST API, webhooks, intents, role actions […]"
+name: Discord Bot Manager
+description: "Discord Bot Manager is built around Discord bot and moderation platform.\
+  \ The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub\
+  \ stars). It gives an agent a more technical and reliable way to work with the tool\
+  \ than a thin one-line wrapper, using stable interfaces like gateway events, slash\
+  \ commands, REST API, webhooks, intents, role actions […]"
 category: "Calendar, Email &amp; Productivity"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/discord-bot-manager/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill discord-bot-manager -a codex
 ```bash
 clawhub install discord-bot-manager
 ```
+
 
 ## Source
 

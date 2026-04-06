@@ -1,8 +1,12 @@
 ---
-name: "dbt Cloud MCP"
-description: "dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context […]"
+name: dbt Cloud MCP
+description: "dbt Cloud MCP is built around dbt transformation framework. The underlying\
+  \ ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives\
+  \ an agent a more technical and reliable way to work with the tool than a thin one-line\
+  \ wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build,\
+  \ dbt Cloud API and preserving the operational context […]"
 category: "Data Extraction &amp; Transformation"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-cloud-mcp/"
 ---
@@ -55,6 +59,7 @@ npx skills add agentskillexchange/skills --skill dbt-cloud-mcp -a codex
 ```bash
 clawhub install dbt-cloud-mcp
 ```
+
 
 ## Source
 

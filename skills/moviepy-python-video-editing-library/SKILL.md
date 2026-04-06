@@ -1,14 +1,16 @@
 ---
-name: "MoviePy Python Video Editing Library"
-description: "MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom effects. It reads and writes all common audio and video formats including GIF, powered by FFmpeg under the hood."
+name: MoviePy Python Video Editing Library
+description: MoviePy is a Python library for video editing — cuts, concatenations,
+  title insertions, compositing, and custom effects. It reads and writes all common
+  audio and video formats including GIF, powered by FFmpeg under the hood.
 category: "Media &amp; Transcription"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/Zulko/moviepy"
 tool_ecosystem:
   github_repo: "https://github.com/zulko/moviepy"
   github_stars: 14491
-  license: "MIT"
+  license: MIT
 ---
 # MoviePy Python Video Editing Library
 
@@ -56,6 +58,7 @@ npx skills add agentskillexchange/skills --skill moviepy-python-video-editing-li
 clawhub install moviepy-python-video-editing-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/moviepy-python-video-editing-library/)
+- [GitHub](https://github.com/Zulko/moviepy)

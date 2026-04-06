@@ -1,8 +1,10 @@
 ---
-name: "Terraform Plan Validator"
-description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
-category: "CI/CD Integrations"
-framework: "MCP"
+name: Terraform Plan Validator
+description: Parses terraform plan JSON output via the Terraform CLI (terraform show
+  -json) to validate infrastructure changes before apply. Detects destructive operations,
+  cost estimate impacts via Infracost API, and drift from desired state.
+category: CI/CD Integrations
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-validator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill terraform-plan-validator -a cod
 ```bash
 clawhub install terraform-plan-validator
 ```
+
 
 ## Source
 

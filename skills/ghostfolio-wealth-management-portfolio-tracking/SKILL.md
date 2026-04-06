@@ -1,8 +1,11 @@
 ---
-name: "Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform"
-description: "Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL, it provides portfolio performance analysis, allocation insights, and data-driven investment decision support."
+name: Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform
+description: Ghostfolio is an open-source wealth management application for tracking
+  stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular,
+  NestJS, and Prisma on PostgreSQL, it provides portfolio performance analysis, allocation
+  insights, and data-driven investment decision support.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/ghostfolio/ghostfolio"
 ---
@@ -68,6 +71,7 @@ npx skills add agentskillexchange/skills --skill ghostfolio-wealth-management-po
 clawhub install ghostfolio-wealth-management-portfolio-tracking
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ghostfolio-wealth-management-portfolio-tracking/)
+- [GitHub](https://github.com/ghostfolio/ghostfolio)

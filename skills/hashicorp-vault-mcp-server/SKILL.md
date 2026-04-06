@@ -1,8 +1,10 @@
 ---
-name: "HashiCorp Vault MCP Server"
-description: "The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls."
+name: HashiCorp Vault MCP Server
+description: The official HashiCorp Vault MCP server lets AI assistants read, write,
+  list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface.
+  Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
 category: "Security &amp; Verification"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-mcp-server/"
 ---
@@ -73,6 +75,7 @@ npx skills add agentskillexchange/skills --skill hashicorp-vault-mcp-server -a c
 ```bash
 clawhub install hashicorp-vault-mcp-server
 ```
+
 
 ## Source
 

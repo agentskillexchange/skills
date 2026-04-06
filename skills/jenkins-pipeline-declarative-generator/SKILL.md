@@ -1,8 +1,10 @@
 ---
-name: "Jenkins Pipeline Declarative Generator"
-description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
-category: "CI/CD Integrations"
-framework: "Custom Agents"
+name: Jenkins Pipeline Declarative Generator
+description: Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax
+  and jenkins-shared-libraries. Configures stages, parallel execution, and post-build
+  actions with Blue Ocean compatibility.
+category: CI/CD Integrations
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill jenkins-pipeline-declarative-ge
 ```bash
 clawhub install jenkins-pipeline-declarative-generator
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Lottie Animation Optimizer"
-description: "Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS)."
+name: Lottie Animation Optimizer
+description: Analyzes and optimizes Lottie JSON animation files using lottie-web parser
+  internals, reduces file size via keyframe deduplication and path simplification,
+  and validates against the Telegram Lottie sticker spec (TGS).
 category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://github.com/airbnb/lottie-web"
 tool_ecosystem:
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill lottie-animation-optimizer -a c
 clawhub install lottie-animation-optimizer
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lottie-animation-optimizer/)
+- [GitHub](https://github.com/airbnb/lottie-web)

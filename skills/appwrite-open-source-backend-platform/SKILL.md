@@ -1,8 +1,10 @@
 ---
-name: "Appwrite Open-Source Backend Platform"
-description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
+name: Appwrite Open-Source Backend Platform
+description: Appwrite is an open-source backend platform for web, mobile, and AI apps.
+  This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions,
+  Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/appwrite/appwrite"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill appwrite-open-source-backend-pl
 clawhub install appwrite-open-source-backend-platform
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-platform/)
+- [GitHub](https://github.com/appwrite/appwrite)

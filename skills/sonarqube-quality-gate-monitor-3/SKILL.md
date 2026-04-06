@@ -1,8 +1,9 @@
 ---
-name: "SonarQube Quality Gate Monitor"
-description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
+name: SonarQube Quality Gate Monitor
+description: Monitors SonarQube project quality gates via the Web API and blocks CI
+  deployments when thresholds fail. Tracks technical debt trends across releases.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
 ---
@@ -47,6 +48,7 @@ npx skills add agentskillexchange/skills --skill sonarqube-quality-gate-monitor-
 ```bash
 clawhub install sonarqube-quality-gate-monitor-3
 ```
+
 
 ## Source
 

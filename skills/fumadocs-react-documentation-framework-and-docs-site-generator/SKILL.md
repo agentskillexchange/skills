@@ -1,8 +1,11 @@
 ---
-name: "Fumadocs React Documentation Framework and Docs Site Generator"
-description: "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages, wire content collections, and extend interactive UI components for product docs, SDK docs, and internal knowledge bases."
+name: Fumadocs React Documentation Framework and Docs Site Generator
+description: Build and maintain documentation websites with Fumadocs, the React-based
+  docs framework published by the fuma-nama project. This skill helps an agent scaffold
+  docs pages, wire content collections, and extend interactive UI components for product
+  docs, SDK docs, and internal knowledge bases.
 category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/fuma-nama/fumadocs"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill fumadocs-react-documentation-fr
 clawhub install fumadocs-react-documentation-framework-and-docs-site-generator
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/fumadocs-react-documentation-framework-and-docs-site-generator/)
+- [GitHub](https://github.com/fuma-nama/fumadocs)

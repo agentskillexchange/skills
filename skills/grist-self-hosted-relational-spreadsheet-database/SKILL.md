@@ -1,14 +1,16 @@
 ---
-name: "Grist Self-Hosted Relational Spreadsheet and Database Platform"
-description: "Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. It supports Python formulas, a REST API, self-hosting via Docker, and AI-powered formula assistance."
+name: Grist Self-Hosted Relational Spreadsheet and Database Platform
+description: Grist is an open-source modern relational spreadsheet that combines the
+  flexibility of a spreadsheet with the robustness of a database. It supports Python
+  formulas, a REST API, self-hosting via Docker, and AI-powered formula assistance.
 category: "Data Extraction &amp; Transformation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/gristlabs/grist-core"
 tool_ecosystem:
   github_repo: "https://github.com/gristlabs/grist-core"
   github_stars: 10827
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Grist Self-Hosted Relational Spreadsheet and Database Platform
 
@@ -74,6 +76,7 @@ npx skills add agentskillexchange/skills --skill grist-self-hosted-relational-sp
 clawhub install grist-self-hosted-relational-spreadsheet-database
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/grist-self-hosted-relational-spreadsheet-database/)
+- [GitHub](https://github.com/gristlabs/grist-core)

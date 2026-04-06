@@ -1,8 +1,9 @@
 ---
-name: "Prometheus Alertmanager Bridge"
-description: "Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord, and Telegram using adaptive card templates and PromQL-based alert correlation."
+name: Prometheus Alertmanager Bridge
+description: Bridges Prometheus Alertmanager notifications to Microsoft Teams, Discord,
+  and Telegram using adaptive card templates and PromQL-based alert correlation.
 category: "Monitoring &amp; Alerts"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge-2/"
 ---
@@ -47,6 +48,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alertmanager-bridge-
 ```bash
 clawhub install prometheus-alertmanager-bridge-2
 ```
+
 
 ## Source
 

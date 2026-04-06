@@ -1,8 +1,10 @@
 ---
-name: "SonarQube Code Scanner Agent"
-description: "Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates."
+name: SonarQube Code Scanner Agent
+description: Automated code quality scanning using SonarQube REST API and SonarScanner
+  CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable
+  quality gates.
 category: "Code Quality &amp; Review"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill sonarqube-code-scanner-agent -a
 ```bash
 clawhub install sonarqube-code-scanner-agent
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "Common Crawl URL Index Miner"
-description: "Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research workflows that need broad web recall without building a full crawler from scratch."
+name: Common Crawl URL Index Miner
+description: Queries the Common Crawl Index API and CC-MAIN collections to surface
+  historical URL coverage, MIME types, and crawl snapshots at scale. Handy for research
+  workflows that need broad web recall without building a full crawler from scratch.
 category: "Research &amp; Scraping"
-framework: "MCP"
+framework: MCP
 verification: security_reviewed
 source: "https://github.com/commoncrawl/cc-index-table"
 tool_ecosystem:
@@ -51,6 +53,7 @@ npx skills add agentskillexchange/skills --skill common-crawl-url-index-miner -a
 clawhub install common-crawl-url-index-miner
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/common-crawl-url-index-miner/)
+- [GitHub](https://github.com/commoncrawl/cc-index-table)

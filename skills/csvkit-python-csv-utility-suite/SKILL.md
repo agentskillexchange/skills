@@ -1,8 +1,10 @@
 ---
-name: "csvkit Python CSV Utility Suite"
-description: "csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It includes tools for format conversion, querying CSV with SQL, data cleaning, filtering, sorting, and statistical analysis."
+name: csvkit Python CSV Utility Suite
+description: csvkit is a suite of Python command-line utilities for converting to,
+  working with, and analyzing CSV files. It includes tools for format conversion,
+  querying CSV with SQL, data cleaning, filtering, sorting, and statistical analysis.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/wireservice/csvkit"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill csvkit-python-csv-utility-suite
 clawhub install csvkit-python-csv-utility-suite
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/csvkit-python-csv-utility-suite/)
+- [GitHub](https://github.com/wireservice/csvkit)

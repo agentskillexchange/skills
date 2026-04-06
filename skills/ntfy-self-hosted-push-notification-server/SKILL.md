@@ -1,14 +1,17 @@
 ---
-name: "ntfy Self-Hosted Push Notification Server"
-description: "ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices."
+name: ntfy Self-Hosted Push Notification Server
+description: ntfy is an open-source HTTP-based pub-sub notification service that lets
+  you send push notifications to phones and desktops via simple PUT or POST requests.
+  Self-hostable with zero signup required, it provides a dead-simple API for alerting
+  from scripts, CI pipelines, cron jobs, and IoT devices.
 category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/binwiederhier/ntfy"
 tool_ecosystem:
   github_repo: "https://github.com/binwiederhier/ntfy"
   github_stars: 29493
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # ntfy Self-Hosted Push Notification Server
 
@@ -70,6 +73,7 @@ npx skills add agentskillexchange/skills --skill ntfy-self-hosted-push-notificat
 clawhub install ntfy-self-hosted-push-notification-server
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/ntfy-self-hosted-push-notification-server/)
+- [GitHub](https://github.com/binwiederhier/ntfy)

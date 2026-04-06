@@ -1,14 +1,17 @@
 ---
-name: "llama.cpp Portable LLM Inference Engine in C/C++"
-description: "llama.cpp is a high-performance C/C++ implementation for running LLM inference across diverse hardware. It supports GGUF model quantization, GPU acceleration on NVIDIA/AMD/Apple Silicon, and provides both a CLI and an OpenAI-compatible HTTP server for local model serving."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: llama.cpp Portable LLM Inference Engine in C/C++
+description: llama.cpp is a high-performance C/C++ implementation for running LLM
+  inference across diverse hardware. It supports GGUF model quantization, GPU acceleration
+  on NVIDIA/AMD/Apple Silicon, and provides both a CLI and an OpenAI-compatible HTTP
+  server for local model serving.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/ggml-org/llama.cpp"
 tool_ecosystem:
   github_repo: "https://github.com/ggml-org/llama.cpp"
   github_stars: 100939
-  license: "MIT"
+  license: MIT
 ---
 # llama.cpp Portable LLM Inference Engine in C/C++
 
@@ -80,6 +83,7 @@ npx skills add agentskillexchange/skills --skill llama-cpp-portable-llm-inferenc
 clawhub install llama-cpp-portable-llm-inference
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/llama-cpp-portable-llm-inference/)
+- [GitHub](https://github.com/ggml-org/llama.cpp)

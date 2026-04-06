@@ -1,8 +1,10 @@
 ---
-name: "PuppeteerSharp Web Scraping Pipeline"
-description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
+name: PuppeteerSharp Web Scraping Pipeline
+description: Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET
+  environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via
+  stealth plugins, and exports structured data through Newtonsoft.Json serialization.
 category: "Research &amp; Scraping"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill puppeteersharp-web-scraping-pip
 ```bash
 clawhub install puppeteersharp-web-scraping-pipeline
 ```
+
 
 ## Source
 

@@ -1,8 +1,10 @@
 ---
-name: "gron Greppable JSON Flattener"
-description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
+name: gron Greppable JSON Flattener
+description: gron transforms JSON into discrete assignment statements, making it possible
+  to grep through complex JSON structures using standard Unix tools. It reverses the
+  process with ungron, turning filtered assignments back into valid JSON.
 category: "Data Extraction &amp; Transformation"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/tomnomnom/gron"
 tool_ecosystem:
@@ -55,6 +57,7 @@ npx skills add agentskillexchange/skills --skill gron-greppable-json-flattener -
 clawhub install gron-greppable-json-flattener
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gron-greppable-json-flattener/)
+- [GitHub](https://github.com/tomnomnom/gron)

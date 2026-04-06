@@ -1,8 +1,11 @@
 ---
-name: "Gotify Self-Hosted Push Notification Server and API"
-description: "Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send alerts, manage applications, and connect monitored events to a private notification channel instead of relying on third-party push vendors."
+name: Gotify Self-Hosted Push Notification Server and API
+description: Run self-hosted push notifications with Gotify, including a REST API,
+  WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send
+  alerts, manage applications, and connect monitored events to a private notification
+  channel instead of relying on third-party push vendors.
 category: "Monitoring &amp; Alerts"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/gotify/server"
 ---
@@ -48,6 +51,7 @@ npx skills add agentskillexchange/skills --skill gotify-self-hosted-push-notific
 clawhub install gotify-self-hosted-push-notification-server-and-api
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gotify-self-hosted-push-notification-server-and-api/)
+- [GitHub](https://github.com/gotify/server)

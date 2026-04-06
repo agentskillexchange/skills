@@ -1,8 +1,11 @@
 ---
-name: "Kubernetes Pod Crashloop Runbook"
-description: "Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to identify root causes such as OOMKilled, misconfigured liveness probes, or missing ConfigMaps. Generates a step-by-step remediation runbook."
+name: Kubernetes Pod Crashloop Runbook
+description: Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped
+  via the Kubernetes API server. Fetches recent events, container logs, and resource
+  quota status to identify root causes such as OOMKilled, misconfigured liveness probes,
+  or missing ConfigMaps. Generates a step-by-step remediation runbook.
 category: "Runbooks &amp; Diagnostics"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
 ---
@@ -43,6 +46,7 @@ npx skills add agentskillexchange/skills --skill kubernetes-pod-crashloop-runboo
 ```bash
 clawhub install kubernetes-pod-crashloop-runbook
 ```
+
 
 ## Source
 

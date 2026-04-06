@@ -1,8 +1,10 @@
 ---
-name: "Figma Export Automator"
-description: "Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles."
+name: Figma Export Automator
+description: Exports assets from Figma files using the Figma REST API v1. Extracts
+  component sets, design tokens (colors, typography, spacing), and renders frames
+  as SVG/PNG. Generates CSS custom properties from styles.
 category: "Image &amp; Creative Automation"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-export-automator/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill figma-export-automator -a codex
 ```bash
 clawhub install figma-export-automator
 ```
+
 
 ## Source
 

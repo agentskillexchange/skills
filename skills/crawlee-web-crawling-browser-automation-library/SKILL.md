@@ -1,16 +1,19 @@
 ---
-name: "Crawlee Web Crawling and Browser Automation Library"
-description: "Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library. Useful for request queue management, Playwright or Puppeteer crawling, structured dataset export, and resilient scraping across large sets of pages."
+name: Crawlee Web Crawling and Browser Automation Library
+description: Builds scalable web collection pipelines with Crawlee, Apify’s open-source
+  crawling and browser automation library. Useful for request queue management, Playwright
+  or Puppeteer crawling, structured dataset export, and resilient scraping across
+  large sets of pages.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/apify/crawlee"
 tool_ecosystem:
   github_repo: "https://github.com/apify/crawlee"
   github_stars: 22591
-  npm_package: "crawlee"
+  npm_package: crawlee
   npm_weekly_downloads: 80434
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Crawlee Web Crawling and Browser Automation Library
 
@@ -54,6 +57,7 @@ npx skills add agentskillexchange/skills --skill crawlee-web-crawling-browser-au
 clawhub install crawlee-web-crawling-browser-automation-library
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-web-crawling-browser-automation-library/)
+- [GitHub](https://github.com/apify/crawlee)

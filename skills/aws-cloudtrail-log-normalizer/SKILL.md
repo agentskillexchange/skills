@@ -1,8 +1,10 @@
 ---
-name: "AWS CloudTrail Log Normalizer"
-description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
+name: AWS CloudTrail Log Normalizer
+description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity\
+  \ Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique\
+  \ IDs using the MITRE ATT&CK STIX API."
 category: "Security &amp; Verification"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill aws-cloudtrail-log-normalizer -
 ```bash
 clawhub install aws-cloudtrail-log-normalizer
 ```
+
 
 ## Source
 

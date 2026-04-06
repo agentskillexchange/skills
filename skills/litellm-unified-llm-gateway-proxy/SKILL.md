@@ -1,8 +1,11 @@
 ---
-name: "LiteLLM Unified LLM Gateway and Proxy Server"
-description: "LiteLLM is an open-source Python SDK and proxy server that provides a unified OpenAI-compatible interface to call 100+ LLM APIs including OpenAI, Anthropic, Azure, Bedrock, and more. It includes cost tracking, guardrails, load balancing, and virtual key management for production deployments."
+name: LiteLLM Unified LLM Gateway and Proxy Server
+description: LiteLLM is an open-source Python SDK and proxy server that provides a
+  unified OpenAI-compatible interface to call 100+ LLM APIs including OpenAI, Anthropic,
+  Azure, Bedrock, and more. It includes cost tracking, guardrails, load balancing,
+  and virtual key management for production deployments.
 category: "Integrations &amp; Connectors"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/BerriAI/litellm"
 tool_ecosystem:
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill litellm-unified-llm-gateway-pro
 clawhub install litellm-unified-llm-gateway-proxy
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/litellm-unified-llm-gateway-proxy/)
+- [GitHub](https://github.com/BerriAI/litellm)

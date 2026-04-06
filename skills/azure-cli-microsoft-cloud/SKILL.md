@@ -1,8 +1,10 @@
 ---
-name: "Azure CLI — Command-Line Interface for Microsoft Azure"
-description: "The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with consistent hierarchical commands."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Azure CLI — Command-Line Interface for Microsoft Azure
+description: The Azure CLI provides cross-platform command-line access to Microsoft
+  Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds
+  of cloud resources with consistent hierarchical commands.
+category: Developer Tools
+framework: Multi-Framework
 verification: listed
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
@@ -45,6 +47,7 @@ npx skills add agentskillexchange/skills --skill azure-cli-microsoft-cloud -a co
 clawhub install azure-cli-microsoft-cloud
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/)
+- [GitHub](https://github.com/Azure/azure-cli)

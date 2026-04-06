@@ -1,8 +1,10 @@
 ---
-name: "Snyk Container Image Analyzer"
-description: "Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions."
+name: Snyk Container Image Analyzer
+description: Scans Docker and OCI container images for OS and application vulnerabilities
+  using Snyk Container API. Cross-references findings against the Snyk vulnerability
+  database with CVSS scoring and provides Dockerfile remediation suggestions.
 category: "Security &amp; Verification"
-framework: "Claude Agents"
+framework: Claude Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill snyk-container-image-analyzer -
 ```bash
 clawhub install snyk-container-image-analyzer
 ```
+
 
 ## Source
 

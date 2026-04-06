@@ -1,14 +1,16 @@
 ---
-name: "libSQL Edge-Ready SQLite Fork by Turso"
-description: "libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents to work with libSQL for edge computing, serverless, and embedded database workloads."
-category: "Developer Tools"
-framework: "Custom Agents"
+name: libSQL Edge-Ready SQLite Fork by Turso
+description: libSQL is an open-source, open-contribution fork of SQLite by Turso that
+  adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents
+  to work with libSQL for edge computing, serverless, and embedded database workloads.
+category: Developer Tools
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/tursodatabase/libsql"
 tool_ecosystem:
   github_repo: "https://github.com/tursodatabase/libsql"
   github_stars: 16551
-  license: "MIT"
+  license: MIT
 ---
 # libSQL Edge-Ready SQLite Fork by Turso
 
@@ -54,6 +56,7 @@ npx skills add agentskillexchange/skills --skill libsql-edge-sqlite-fork-turso -
 clawhub install libsql-edge-sqlite-fork-turso
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/libsql-edge-sqlite-fork-turso/)
+- [GitHub](https://github.com/tursodatabase/libsql)

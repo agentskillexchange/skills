@@ -1,8 +1,10 @@
 ---
-name: "GitHub Actions CI Pipeline Builder"
-description: "Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions."
-category: "CI/CD Integrations"
-framework: "Codex"
+name: GitHub Actions CI Pipeline Builder
+description: Generates and manages GitHub Actions workflows using the Workflow YAML
+  syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite
+  actions.
+category: CI/CD Integrations
+framework: Codex
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/"
 ---
@@ -49,6 +51,7 @@ npx skills add agentskillexchange/skills --skill github-actions-ci-pipeline-buil
 ```bash
 clawhub install github-actions-ci-pipeline-builder
 ```
+
 
 ## Source
 

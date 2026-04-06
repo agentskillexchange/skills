@@ -1,8 +1,10 @@
 ---
-name: "Mailpit SMTP Testing and Email Capture Workbench"
-description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
+name: Mailpit SMTP Testing and Email Capture Workbench
+description: This skill uses Mailpit as a safe SMTP sink for development, QA, and
+  automated test runs. It helps teams capture, inspect, search, and validate transactional
+  email without sending anything to real inboxes.
 category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://mailpit.axllent.org/"
 ---
@@ -48,6 +50,7 @@ npx skills add agentskillexchange/skills --skill mailpit-smtp-testing-email-capt
 clawhub install mailpit-smtp-testing-email-capture-workbench
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/mailpit-smtp-testing-email-capture-workbench/)
+- [mailpit.axllent.org](https://mailpit.axllent.org/)

@@ -1,8 +1,10 @@
 ---
-name: "DALL-E Prompt Chain Generator"
-description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
+name: DALL-E Prompt Chain Generator
+description: Generates and iterates DALL-E 3 image prompts using the OpenAI Images
+  API with size, quality, and style parameters. Chains edits via the images/edits
+  endpoint with mask-based inpainting.
 category: "Image &amp; Creative Automation"
-framework: "ChatGPT Agents"
+framework: ChatGPT Agents
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill dalle-prompt-chain-generator -a
 ```bash
 clawhub install dalle-prompt-chain-generator
 ```
+
 
 ## Source
 

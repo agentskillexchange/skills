@@ -1,8 +1,11 @@
 ---
-name: "retext Natural Language Processor with Unified Plugin Ecosystem"
-description: "retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script text into an AST (nlcst), enabling programmatic text analysis and transformation through a rich plugin ecosystem for spell checking, readability analysis, typography fixes, and content quality enforcement."
+name: retext Natural Language Processor with Unified Plugin Ecosystem
+description: retext is a natural language processor powered by plugins, part of the
+  unified.js collective. It parses Latin-script text into an AST (nlcst), enabling
+  programmatic text analysis and transformation through a rich plugin ecosystem for
+  spell checking, readability analysis, typography fixes, and content quality enforcement.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/retextjs/retext"
 tool_ecosystem:
@@ -57,6 +60,7 @@ npx skills add agentskillexchange/skills --skill retext-natural-language-process
 clawhub install retext-natural-language-processor-unified-plugins
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/retext-natural-language-processor-unified-plugins/)
+- [GitHub](https://github.com/retextjs/retext)

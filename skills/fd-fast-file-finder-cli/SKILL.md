@@ -1,8 +1,10 @@
 ---
-name: "fd Fast File Finder CLI"
-description: "A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and glob support, colorized output, parallel execution, and automatic .gitignore awareness."
-category: "Developer Tools"
-framework: "Claude Code"
+name: fd Fast File Finder CLI
+description: A fast and user-friendly alternative to the find command, written in
+  Rust. fd provides intuitive syntax, regex and glob support, colorized output, parallel
+  execution, and automatic .gitignore awareness.
+category: Developer Tools
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/sharkdp/fd"
 tool_ecosystem:
@@ -53,6 +55,7 @@ npx skills add agentskillexchange/skills --skill fd-fast-file-finder-cli -a code
 clawhub install fd-fast-file-finder-cli
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/fd-fast-file-finder-cli/)
+- [GitHub](https://github.com/sharkdp/fd)

@@ -1,8 +1,11 @@
 ---
-name: "SpiderFoot Open Source Intelligence Automation Framework"
-description: "SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping."
+name: SpiderFoot Open Source Intelligence Automation Framework
+description: SpiderFoot is an open-source OSINT automation tool that queries over
+  200 data sources to gather intelligence about IP addresses, domain names, email
+  addresses, and other targets. Written in Python, it provides both a web UI and CLI
+  for reconnaissance, threat intelligence, and attack surface mapping.
 category: "Research &amp; Scraping"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/smicallef/spiderfoot"
 tool_ecosystem:
@@ -71,6 +74,7 @@ npx skills add agentskillexchange/skills --skill spiderfoot-osint-automation-fra
 clawhub install spiderfoot-osint-automation-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/)
+- [GitHub](https://github.com/smicallef/spiderfoot)

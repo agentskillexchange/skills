@@ -1,8 +1,10 @@
 ---
-name: "Makedown Task Runner"
-description: "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks."
+name: Makedown Task Runner
+description: Extracts executable task definitions from Markdown files and runs them
+  as shell pipelines. Parses fenced code blocks with task metadata annotations and
+  manages dependencies between tasks.
 category: "Templates &amp; Workflows"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/makedown-task-runner/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill makedown-task-runner -a codex
 ```bash
 clawhub install makedown-task-runner
 ```
+
 
 ## Source
 

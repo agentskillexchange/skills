@@ -1,8 +1,11 @@
 ---
-name: "Syft SBOM Generator for Containers and Filesystems"
-description: "Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple output formats with coverage across dozens of packaging ecosystems including npm, PyPI, Go, and more."
+name: Syft SBOM Generator for Containers and Filesystems
+description: Syft by Anchore is a CLI tool for generating Software Bills of Materials
+  (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple
+  output formats with coverage across dozens of packaging ecosystems including npm,
+  PyPI, Go, and more.
 category: "Security &amp; Verification"
-framework: "Claude Code"
+framework: Claude Code
 verification: security_reviewed
 source: "https://github.com/anchore/syft"
 tool_ecosystem:
@@ -53,6 +56,7 @@ npx skills add agentskillexchange/skills --skill syft-sbom-generator-containers-
 clawhub install syft-sbom-generator-containers-filesystems
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/syft-sbom-generator-containers-filesystems/)
+- [GitHub](https://github.com/anchore/syft)

@@ -1,8 +1,10 @@
 ---
-name: "Vitest Next-Generation Vite-Powered Testing Framework"
-description: "Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless migration of existing test suites."
+name: Vitest Next-Generation Vite-Powered Testing Framework
+description: Vitest is a blazing-fast unit testing framework powered by Vite. It provides
+  native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless
+  migration of existing test suites.
 category: "Code Quality &amp; Review"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/vitest-dev/vitest"
 tool_ecosystem:
@@ -83,6 +85,7 @@ npx skills add agentskillexchange/skills --skill vitest-vite-testing-framework -
 clawhub install vitest-vite-testing-framework
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vitest-vite-testing-framework/)
+- [GitHub](https://github.com/vitest-dev/vitest)

@@ -1,8 +1,11 @@
 ---
-name: "imgproxy High-Performance Image Processing Proxy"
-description: "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations. Designed for production CDN pipelines and automated media workflows."
+name: imgproxy High-Performance Image Processing Proxy
+description: An agent skill built on imgproxy, the high-performance Go-based image
+  processing server, enabling on-the-fly image resizing, cropping, format conversion,
+  and optimization through URL-based transformations. Designed for production CDN
+  pipelines and automated media workflows.
 category: "Image &amp; Creative Automation"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/imgproxy/imgproxy"
 tool_ecosystem:
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill imgproxy-high-performance-image
 clawhub install imgproxy-high-performance-image-processing-proxy
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/imgproxy-high-performance-image-processing-proxy/)
+- [GitHub](https://github.com/imgproxy/imgproxy)

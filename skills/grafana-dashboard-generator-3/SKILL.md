@@ -1,8 +1,10 @@
 ---
-name: "Grafana Dashboard Generator"
-description: "Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views."
+name: Grafana Dashboard Generator
+description: Programmatically generates Grafana dashboards from service definitions
+  using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics,
+  SLO tracking, and infrastructure views.
 category: "Monitoring &amp; Alerts"
-framework: "Cursor"
+framework: Cursor
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill grafana-dashboard-generator-3 -
 ```bash
 clawhub install grafana-dashboard-generator-3
 ```
+
 
 ## Source
 

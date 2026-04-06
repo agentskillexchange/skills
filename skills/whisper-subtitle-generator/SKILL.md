@@ -1,8 +1,10 @@
 ---
-name: "Whisper Subtitle Generator"
-description: "Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote."
+name: Whisper Subtitle Generator
+description: Generates accurate subtitles and captions using OpenAI Whisper API with
+  word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line
+  length and speaker diarization via pyannote.
 category: "Media &amp; Transcription"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill whisper-subtitle-generator -a c
 ```bash
 clawhub install whisper-subtitle-generator
 ```
+
 
 ## Source
 

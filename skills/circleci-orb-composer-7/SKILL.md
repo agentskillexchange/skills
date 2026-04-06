@@ -1,8 +1,10 @@
 ---
-name: "CircleCI Orb Composer"
-description: "Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry."
-category: "CI/CD Integrations"
-framework: "Claude Code"
+name: CircleCI Orb Composer
+description: Composes and validates CircleCI Orbs using the circleci/circleci-cli
+  and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with
+  conventional-changelog, and publishing to the CircleCI Orb Registry.
+category: CI/CD Integrations
+framework: Claude Code
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-composer-7/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill circleci-orb-composer-7 -a code
 ```bash
 clawhub install circleci-orb-composer-7
 ```
+
 
 ## Source
 

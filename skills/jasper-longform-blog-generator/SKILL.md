@@ -1,8 +1,11 @@
 ---
-name: "Jasper AI Long-Form Blog Post Generator"
-description: "Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
+name: Jasper AI Long-Form Blog Post Generator
+description: Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized
+  long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets,
+  and brand voice templates via the Jasper API SDK, then auto-publishes drafts to
+  WordPress via the WP REST API.
 category: "Content Writing &amp; SEO"
-framework: "OpenClaw"
+framework: OpenClaw
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 ---
@@ -55,6 +58,7 @@ npx skills add agentskillexchange/skills --skill jasper-longform-blog-generator 
 ```bash
 clawhub install jasper-longform-blog-generator
 ```
+
 
 ## Source
 

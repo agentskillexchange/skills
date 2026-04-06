@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD GitOps Sync Manager"
-description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: ArgoCD GitOps Sync Manager
+description: Manages ArgoCD application sync operations with intelligent drift detection
+  and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster
+  GitOps deployments.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill argocd-gitops-sync-manager -a c
 ```bash
 clawhub install argocd-gitops-sync-manager
 ```
+
 
 ## Source
 

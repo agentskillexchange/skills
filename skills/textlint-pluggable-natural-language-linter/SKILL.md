@@ -1,16 +1,18 @@
 ---
-name: "textlint Pluggable Natural Language Linter"
-description: "Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar issues, and maintain consistent documentation style across your project."
+name: textlint Pluggable Natural Language Linter
+description: Lint natural language text with textlint, the pluggable linting framework
+  inspired by ESLint. Install community rules from npm to enforce writing standards,
+  catch grammar issues, and maintain consistent documentation style across your project.
 category: "Content Writing &amp; SEO"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/textlint/textlint"
 tool_ecosystem:
   github_repo: "https://github.com/textlint/textlint"
   github_stars: 3099
-  npm_package: "textlint"
+  npm_package: textlint
   npm_weekly_downloads: 98739
-  license: "MIT"
+  license: MIT
 ---
 # textlint Pluggable Natural Language Linter
 
@@ -60,6 +62,7 @@ npx skills add agentskillexchange/skills --skill textlint-pluggable-natural-lang
 clawhub install textlint-pluggable-natural-language-linter
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/)
+- [GitHub](https://github.com/textlint/textlint)

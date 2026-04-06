@@ -1,16 +1,19 @@
 ---
-name: "Docusaurus React Documentation Framework by Meta"
-description: "Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation websites, blogs, and marketing pages with Markdown content, versioning support, and a rich plugin ecosystem."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: Docusaurus React Documentation Framework by Meta
+description: Docusaurus is an open-source static site generator built with React,
+  developed and maintained by Meta. It enables teams to build, deploy, and maintain
+  documentation websites, blogs, and marketing pages with Markdown content, versioning
+  support, and a rich plugin ecosystem.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/facebook/docusaurus"
 tool_ecosystem:
   github_repo: "https://github.com/facebook/docusaurus"
   github_stars: 64315
-  npm_package: "docusaurus"
+  npm_package: docusaurus
   npm_weekly_downloads: 21996
-  license: "MIT"
+  license: MIT
 ---
 # Docusaurus React Documentation Framework by Meta
 
@@ -62,6 +65,7 @@ npx skills add agentskillexchange/skills --skill docusaurus-react-documentation-
 clawhub install docusaurus-react-documentation-framework-meta
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/docusaurus-react-documentation-framework-meta/)
+- [GitHub](https://github.com/facebook/docusaurus)

@@ -1,14 +1,17 @@
 ---
-name: "OpenTofu Open Source Infrastructure as Code Tool"
-description: "OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of Terraform, it provides execution plans, resource graphs, and change automation for safe infrastructure provisioning."
-category: "Developer Tools"
-framework: "Multi-Framework"
+name: OpenTofu Open Source Infrastructure as Code Tool
+description: OpenTofu is an open-source infrastructure as code tool that lets you
+  declaratively manage cloud and on-premises resources. A CNCF project and community-driven
+  fork of Terraform, it provides execution plans, resource graphs, and change automation
+  for safe infrastructure provisioning.
+category: Developer Tools
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/opentofu/opentofu"
 tool_ecosystem:
   github_repo: "https://github.com/opentofu/opentofu"
   github_stars: 28244
-  license: "MPL-2.0"
+  license: MPL-2.0
 ---
 # OpenTofu Open Source Infrastructure as Code Tool
 
@@ -56,6 +59,7 @@ npx skills add agentskillexchange/skills --skill opentofu-open-source-infrastruc
 clawhub install opentofu-open-source-infrastructure-as-code
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/opentofu-open-source-infrastructure-as-code/)
+- [GitHub](https://github.com/opentofu/opentofu)

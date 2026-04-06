@@ -1,14 +1,16 @@
 ---
-name: "Grafana Alloy OpenTelemetry Collector Distribution"
-description: "Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and manage observability data collection using Alloy."
+name: Grafana Alloy OpenTelemetry Collector Distribution
+description: Grafana Alloy is an open-source OpenTelemetry Collector distribution
+  with programmable pipelines for metrics, logs, traces, and profiles. This skill
+  enables agents to configure and manage observability data collection using Alloy.
 category: "Monitoring &amp; Alerts"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/grafana/alloy"
 tool_ecosystem:
   github_repo: "https://github.com/grafana/alloy"
   github_stars: 3026
-  license: "Apache-2.0"
+  license: Apache-2.0
 ---
 # Grafana Alloy OpenTelemetry Collector Distribution
 
@@ -54,6 +56,7 @@ npx skills add agentskillexchange/skills --skill grafana-alloy-opentelemetry-col
 clawhub install grafana-alloy-opentelemetry-collector
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/grafana-alloy-opentelemetry-collector/)
+- [GitHub](https://github.com/grafana/alloy)

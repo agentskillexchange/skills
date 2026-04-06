@@ -1,14 +1,17 @@
 ---
-name: "SOPS Encrypted Secrets Editor and Manager"
-description: "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories."
+name: SOPS Encrypted Secrets Editor and Manager
+description: SOPS (Secrets OPerationS) is an editor of encrypted files that supports
+  YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure
+  Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing
+  secrets in version-controlled repositories.
 category: "Security &amp; Verification"
-framework: "Multi-Framework"
+framework: Multi-Framework
 verification: security_reviewed
 source: "https://github.com/getsops/sops"
 tool_ecosystem:
   github_repo: "https://github.com/getsops/sops"
   github_stars: 21312
-  license: "MPL-2.0"
+  license: MPL-2.0
 ---
 # SOPS Encrypted Secrets Editor and Manager
 
@@ -64,6 +67,7 @@ npx skills add agentskillexchange/skills --skill sops-encrypted-secrets-editor-m
 clawhub install sops-encrypted-secrets-editor-manager
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/sops-encrypted-secrets-editor-manager/)
+- [GitHub](https://github.com/getsops/sops)

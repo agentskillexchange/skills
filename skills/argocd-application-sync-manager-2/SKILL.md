@@ -1,8 +1,10 @@
 ---
-name: "ArgoCD Application Sync Manager"
-description: "Manages ArgoCD application synchronization using the ArgoCD REST API and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven Kubernetes deployments."
-category: "CI/CD Integrations"
-framework: "Gemini"
+name: ArgoCD Application Sync Manager
+description: Manages ArgoCD application synchronization using the ArgoCD REST API
+  and argocd CLI. Handles sync waves, hooks, and health assessments for GitOps-driven
+  Kubernetes deployments.
+category: CI/CD Integrations
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill argocd-application-sync-manager
 ```bash
 clawhub install argocd-application-sync-manager-2
 ```
+
 
 ## Source
 

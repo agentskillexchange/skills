@@ -1,8 +1,11 @@
 ---
-name: "OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces"
-description: "OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User Monitoring (RUM). Designed as a cost-effective alternative to Datadog, Splunk, and Elasticsearch, it achieves 140x lower storage costs through Parquet columnar storage and S3-native architecture."
+name: OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces
+description: OpenObserve is an open-source, cloud-native observability platform for
+  logs, metrics, traces, and Real User Monitoring (RUM). Designed as a cost-effective
+  alternative to Datadog, Splunk, and Elasticsearch, it achieves 140x lower storage
+  costs through Parquet columnar storage and S3-native architecture.
 category: "Monitoring &amp; Alerts"
-framework: "Custom Agents"
+framework: Custom Agents
 verification: security_reviewed
 source: "https://github.com/openobserve/openobserve"
 tool_ecosystem:
@@ -95,6 +98,7 @@ npx skills add agentskillexchange/skills --skill openobserve-observability-platf
 clawhub install openobserve-observability-platform-logs-metrics-traces
 ```
 
+
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/openobserve-observability-platform-logs-metrics-traces/)
+- [GitHub](https://github.com/openobserve/openobserve)

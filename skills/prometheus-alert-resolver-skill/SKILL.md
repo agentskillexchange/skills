@@ -1,8 +1,11 @@
 ---
-name: "Prometheus Alert Resolver"
-description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences."
+name: Prometheus Alert Resolver
+description: Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range
+  endpoints for metric time series analysis. Executes playbook steps for common alerts
+  like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences
+  alerts via Alertmanager /api/v2/silences.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/"
 ---
@@ -67,6 +70,7 @@ npx skills add agentskillexchange/skills --skill prometheus-alert-resolver-skill
 ```bash
 clawhub install prometheus-alert-resolver-skill
 ```
+
 
 ## Source
 

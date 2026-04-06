@@ -1,8 +1,10 @@
 ---
-name: "PagerDuty Incident Runbook Automator"
-description: "Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity."
+name: PagerDuty Incident Runbook Automator
+description: Automates incident response runbooks using the PagerDuty Events API v2
+  and REST API. Manages incident creation, escalation policies, and automated diagnostics
+  triggered by alert severity.
 category: "Runbooks &amp; Diagnostics"
-framework: "Gemini"
+framework: Gemini
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
 ---
@@ -47,6 +49,7 @@ npx skills add agentskillexchange/skills --skill pagerduty-incident-runbook-auto
 ```bash
 clawhub install pagerduty-incident-runbook-automator
 ```
+
 
 ## Source
 
