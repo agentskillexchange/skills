@@ -64,6 +64,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | — | — |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | — | — |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | — | — |
+| [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | — | — |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | — | — |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | — | — |

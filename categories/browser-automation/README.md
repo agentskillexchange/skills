@@ -64,6 +64,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | — | — |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
+| [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | — | — |
+| [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | — | — |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | — | — |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | — | — |

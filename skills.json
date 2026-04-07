@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1752,
+  "total": 1755,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "bright-data-web-mcp-live-web-access-scraping-tools",
+      "name": "Bright Data Web MCP Live Web Access and Scraping Tools",
+      "description": "Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chrome-mcp-server-extension-based-browser-automation-ai-agents",
+      "name": "Chrome MCP Server Extension-Based Browser Automation for AI Agents",
+      "description": "Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents. It is designed for workflows where…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "chrome-devtools-mcp-browser-debugging-performance-analysis",
+      "name": "Chrome DevTools MCP Browser Debugging and Performance Analysis",
+      "description": "Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser for debugging, automation, and performance work. It exposes Chrome DevTools capabilities through…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mailchimp-marketing-api-nodejs-sdk",
       "name": "Mailchimp Marketing API Node.js SDK",
