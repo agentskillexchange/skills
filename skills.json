@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1749,
-  "generated": "2026-04-06",
+  "total": 1752,
+  "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "mailchimp-marketing-api-nodejs-sdk",
+      "name": "Mailchimp Marketing API Node.js SDK",
+      "description": "Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "webflow-data-api-javascript-sdk",
+      "name": "Webflow Data API JavaScript SDK",
+      "description": "Automates site, CMS, and publishing workflows with Webflow’s official JavaScript SDK for the Webflow Data API. Useful for agents that need to list sites,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "statamic-laravel-git-powered-cms",
+      "name": "Statamic Laravel Git-Powered CMS",
+      "description": "Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while still offering a full control panel and…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "linkup-js-sdk-sourced-web-search-fetch",
       "name": "Linkup JS SDK for Sourced Web Search and Fetch",

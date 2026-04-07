@@ -96,7 +96,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
+| [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
+| [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
