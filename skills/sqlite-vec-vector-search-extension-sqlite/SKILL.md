@@ -4,7 +4,7 @@ description: "sqlite-vec is a lightweight SQLite extension for vector similarity
 verification: security_reviewed
 source: "https://github.com/asg017/sqlite-vec"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

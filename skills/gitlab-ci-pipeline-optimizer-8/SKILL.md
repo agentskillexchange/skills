@@ -4,7 +4,7 @@ description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-optimizer-8/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

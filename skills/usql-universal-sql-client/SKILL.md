@@ -4,7 +4,7 @@ description: "usql is a universal command-line interface for SQL databases inclu
 verification: security_reviewed
 source: "https://github.com/xo/usql"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

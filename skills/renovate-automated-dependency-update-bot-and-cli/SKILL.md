@@ -4,7 +4,7 @@ description: "Renovate is an open source dependency automation tool that discove
 verification: listed
 source: "https://github.com/renovatebot/renovate"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 ---

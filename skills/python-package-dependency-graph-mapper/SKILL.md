@@ -4,7 +4,7 @@ description: "Builds dependency graphs for Python packages using the PyPI JSON A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "MCP"
 ---

@@ -4,7 +4,7 @@ description: "markuplint is a comprehensive HTML linter designed for all markup 
 verification: security_reviewed
 source: "https://github.com/markuplint/markuplint"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

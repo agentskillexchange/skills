@@ -4,7 +4,7 @@ description: "Generates image variations and edits using the OpenAI Images API (
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-variations-pipeline/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---

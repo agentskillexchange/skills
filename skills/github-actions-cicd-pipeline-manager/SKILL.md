@@ -4,7 +4,7 @@ description: "Automates GitHub Actions workflow creation, runner management, and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-cicd-pipeline-manager/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 ---

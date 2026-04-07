@@ -4,7 +4,7 @@ description: "Generates comprehensive test suites for regular expressions using 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Cursor"
 ---

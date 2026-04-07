@@ -4,7 +4,7 @@ description: "Creates Datadog monitor definitions using the Datadog API v2 with 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 ---

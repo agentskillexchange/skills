@@ -4,7 +4,7 @@ description: "Monitors ArgoCD application sync status using the ArgoCD REST API 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Gemini"
 ---

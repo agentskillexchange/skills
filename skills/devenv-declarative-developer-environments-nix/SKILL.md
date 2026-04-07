@@ -4,7 +4,7 @@ description: "A fast, declarative, and reproducible developer environment tool b
 verification: security_reviewed
 source: "https://github.com/cachix/devenv"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

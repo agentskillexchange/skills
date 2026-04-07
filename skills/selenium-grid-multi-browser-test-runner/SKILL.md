@@ -4,7 +4,7 @@ description: "Orchestrates parallel cross-browser testing across Selenium Grid n
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "OpenClaw"
 ---

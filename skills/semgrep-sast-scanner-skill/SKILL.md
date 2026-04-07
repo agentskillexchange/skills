@@ -1,17 +1,17 @@
 ---
 title: "Semgrep SAST Scanner"
-description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
+description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with &#8211;config=auto and &#8211;sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 ---
 
 # Semgrep SAST Scanner
 
-Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
+Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with &#8211;config=auto and &#8211;sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
 
 ## Installation
 

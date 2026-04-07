@@ -4,7 +4,7 @@ description: "Chrome DevTools MCP connects an MCP-compatible agent to a live Chr
 verification: security_reviewed
 source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "MCP"
 ---

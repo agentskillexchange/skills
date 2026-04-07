@@ -4,7 +4,7 @@ description: "Monitors Jenkins pipelines using the Jenkins REST API and Blue Oce
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Codex"
 ---

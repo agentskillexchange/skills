@@ -4,7 +4,7 @@ description: "Validates and auto-generates Python docstrings using the ast modul
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Codex"
 ---

@@ -4,7 +4,7 @@ description: "Manages Grafana Unified Alerting rules, contact points, and notifi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 ---

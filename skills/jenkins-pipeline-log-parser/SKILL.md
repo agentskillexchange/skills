@@ -4,7 +4,7 @@ description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkin
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Agents"
 ---

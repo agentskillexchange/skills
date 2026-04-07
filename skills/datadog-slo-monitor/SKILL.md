@@ -4,7 +4,7 @@ description: "Monitors Datadog Service Level Objectives and burn rate alerts via
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-slo-monitor/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 ---

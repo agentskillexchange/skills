@@ -4,7 +4,7 @@ description: "Polls Elasticsearch _cluster/health, _nodes/stats, and _cat/shards
 verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
 tool_ecosystem:

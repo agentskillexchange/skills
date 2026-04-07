@@ -4,7 +4,7 @@ description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven ar
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 ---

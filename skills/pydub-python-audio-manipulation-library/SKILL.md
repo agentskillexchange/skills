@@ -4,7 +4,7 @@ description: "pydub is a Python library that provides a simple, high-level inter
 verification: security_reviewed
 source: "https://github.com/jiaaro/pydub"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

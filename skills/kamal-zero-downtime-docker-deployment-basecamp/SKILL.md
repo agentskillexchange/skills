@@ -4,7 +4,7 @@ description: "Kamal is an open-source deployment tool by Basecamp that deploys c
 verification: security_reviewed
 source: "https://github.com/basecamp/kamal"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 ---

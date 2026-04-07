@@ -4,7 +4,7 @@ description: "Photon is a blazing-fast Python web crawler purpose-built for OSIN
 verification: security_reviewed
 source: "https://github.com/s0md3v/Photon"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

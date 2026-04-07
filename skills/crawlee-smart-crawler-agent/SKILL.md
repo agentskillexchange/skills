@@ -4,7 +4,7 @@ description: "Implements intelligent web crawling using the Crawlee framework wi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Cursor"
 ---

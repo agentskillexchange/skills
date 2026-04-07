@@ -4,7 +4,7 @@ description: "Manages Nx workspace task orchestration using nx.json configuratio
 verification: security_reviewed
 source: "https://github.com/nrwl/nx"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Cursor"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Builds incident runbooks around the PagerDuty Events API v2, Incid
 verification: security_reviewed
 source: "https://developer.pagerduty.com/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---

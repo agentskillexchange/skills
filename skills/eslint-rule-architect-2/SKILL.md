@@ -4,7 +4,7 @@ description: "Creates custom ESLint rules and shareable configs using the ESLint
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-architect-2/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 ---

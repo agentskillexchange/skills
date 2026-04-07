@@ -4,7 +4,7 @@ description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "OpenClaw"
 ---

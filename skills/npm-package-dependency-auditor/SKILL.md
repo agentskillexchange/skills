@@ -4,7 +4,7 @@ description: "Deep-audits npm package dependency trees using the npm Registry AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "MCP"
 ---

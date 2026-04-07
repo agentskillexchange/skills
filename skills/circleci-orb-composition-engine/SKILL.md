@@ -4,7 +4,7 @@ description: "Composes and publishes CircleCI Orbs using the circleci CLI with o
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-composition-engine/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Custom Agents"
 ---

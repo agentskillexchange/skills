@@ -4,7 +4,7 @@ description: "Queries the MDN Web Docs content API (Yari) and the MDN search ind
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

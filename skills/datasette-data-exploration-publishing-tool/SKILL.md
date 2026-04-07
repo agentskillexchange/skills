@@ -4,7 +4,7 @@ description: "Datasette is an open-source Python tool for exploring and publishi
 verification: security_reviewed
 source: "https://github.com/simonw/datasette"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

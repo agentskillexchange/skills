@@ -4,7 +4,7 @@ description: "Deep analysis of npm packages using npm-registry-fetch and pacote.
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-analyzer/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "ChatGPT Agents"
 ---

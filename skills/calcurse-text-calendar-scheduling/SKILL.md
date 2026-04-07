@@ -4,7 +4,7 @@ description: "calcurse is a text-based calendar and scheduling application for t
 verification: security_reviewed
 source: "https://github.com/lfos/calcurse"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-saf
 verification: security_reviewed
 source: "https://github.com/drizzle-team/drizzle-orm"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

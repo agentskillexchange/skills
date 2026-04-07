@@ -4,7 +4,7 @@ description: "An interactive cheatsheet tool for the command line that lets you 
 verification: security_reviewed
 source: "https://github.com/denisidoro/navi"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

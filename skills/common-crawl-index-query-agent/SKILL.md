@@ -4,7 +4,7 @@ description: "Queries the Common Crawl Index API for large-scale web archive res
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "OpenClaw"
 ---

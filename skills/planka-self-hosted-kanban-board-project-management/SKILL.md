@@ -4,7 +4,7 @@ description: "Planka is an elegant, self-hosted Kanban-style project management 
 verification: security_reviewed
 source: "https://github.com/plankanban/planka"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 ---

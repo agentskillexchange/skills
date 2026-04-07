@@ -4,7 +4,7 @@ description: "Agent access to PostgreSQL data and queries through MCP."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
   - "Cursor"

@@ -4,7 +4,7 @@ description: "Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "OpenClaw"
 ---

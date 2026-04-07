@@ -4,7 +4,7 @@ description: "Generates production-ready Scrapy spiders with middleware configur
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-generator/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Performs automated TypeScript refactoring using ts-morph and the T
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Cursor"
 ---

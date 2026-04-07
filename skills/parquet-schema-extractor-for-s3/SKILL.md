@@ -4,7 +4,7 @@ description: "Extracts and validates Parquet file schemas from Amazon S3 using t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Gemini"
 ---

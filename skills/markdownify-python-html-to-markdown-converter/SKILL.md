@@ -4,7 +4,7 @@ description: "markdownify is a Python library that converts HTML content to clea
 verification: security_reviewed
 source: "https://github.com/matthewwithanm/python-markdownify"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

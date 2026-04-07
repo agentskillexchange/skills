@@ -4,7 +4,7 @@ description: "Browserbase MCP Server gives agents cloud browser control through 
 verification: security_reviewed
 source: "https://github.com/browserbase/mcp-server-browserbase"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "MCP"
 ---

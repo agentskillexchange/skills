@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

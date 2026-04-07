@@ -4,7 +4,7 @@ description: "Performs PHP static analysis using PHPStan CLI at rule levels 0-9 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 ---

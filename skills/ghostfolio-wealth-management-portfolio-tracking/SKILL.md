@@ -4,7 +4,7 @@ description: "Ghostfolio is an open-source wealth management application for tra
 verification: security_reviewed
 source: "https://github.com/ghostfolio/ghostfolio"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

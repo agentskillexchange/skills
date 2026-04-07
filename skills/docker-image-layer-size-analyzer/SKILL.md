@@ -4,7 +4,7 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Automates browser tasks with Browser Use, the open-source library 
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

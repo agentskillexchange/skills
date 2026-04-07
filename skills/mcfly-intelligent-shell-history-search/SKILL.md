@@ -4,7 +4,7 @@ description: "mcfly is a Rust-based shell history search tool that uses a small 
 verification: security_reviewed
 source: "https://github.com/cantino/mcfly"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Automates pixel-level visual regression testing using Cypress with
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cypress-visual-regression-testing-suite/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "ChatGPT Agents"
 ---

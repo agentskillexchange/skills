@@ -4,7 +4,7 @@ description: "Orama is a full-text, vector, and hybrid search engine that runs i
 verification: security_reviewed
 source: "https://github.com/oramasearch/orama"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

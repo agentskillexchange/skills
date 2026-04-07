@@ -4,7 +4,7 @@ description: "Monitors Docker Compose service health using the Docker Engine API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-health-monitor/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 ---

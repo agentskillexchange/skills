@@ -1,16 +1,16 @@
 ---
-title: "SEC EDGAR Filing Scraper & Analyzer"
+title: "SEC EDGAR Filing Scraper &#038; Analyzer"
 description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
   - "Multi-Framework"
 ---
 
-# SEC EDGAR Filing Scraper & Analyzer
+# SEC EDGAR Filing Scraper &#038; Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
 

@@ -4,7 +4,7 @@ description: "WXT is an open-source, next-generation framework for building brow
 verification: security_reviewed
 source: "https://github.com/wxt-dev/wxt"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

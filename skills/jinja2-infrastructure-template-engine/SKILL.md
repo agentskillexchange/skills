@@ -4,7 +4,7 @@ description: "Generates infrastructure-as-code configurations from Jinja2 templa
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Gemini"
 ---

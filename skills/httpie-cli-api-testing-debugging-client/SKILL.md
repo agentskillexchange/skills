@@ -4,7 +4,7 @@ description: "HTTPie is a modern, user-friendly command-line HTTP client designe
 verification: security_reviewed
 source: "https://github.com/httpie/cli"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

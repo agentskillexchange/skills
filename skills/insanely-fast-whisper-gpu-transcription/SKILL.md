@@ -4,12 +4,9 @@ description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extr
 verification: security_reviewed
 source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "vaibhavs10/insanely-fast-whisper"
-  github_stars: 12204
 ---
 
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI

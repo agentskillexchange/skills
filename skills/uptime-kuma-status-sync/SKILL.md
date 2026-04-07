@@ -4,7 +4,7 @@ description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service h
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
 ---

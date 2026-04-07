@@ -4,7 +4,7 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 ---

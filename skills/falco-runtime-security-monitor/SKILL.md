@@ -4,7 +4,7 @@ description: "Monitors container runtime events using Falco sysdig libraries and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
   - "OpenClaw"

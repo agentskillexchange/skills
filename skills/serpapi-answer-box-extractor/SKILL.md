@@ -4,7 +4,7 @@ description: "Extracts high-signal SERP features from SerpAPI responses, includi
 verification: security_reviewed
 source: "https://github.com/serpapi/google-search-results-python"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Gemini"
 tool_ecosystem:

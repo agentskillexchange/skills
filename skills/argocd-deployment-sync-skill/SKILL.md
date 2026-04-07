@@ -4,7 +4,7 @@ description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI.
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-deployment-sync-skill/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Agents"
 ---

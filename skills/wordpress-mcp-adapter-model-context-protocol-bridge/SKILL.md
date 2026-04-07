@@ -4,7 +4,7 @@ description: "An agent skill built on the official WordPress MCP Adapter plugin,
 verification: security_reviewed
 source: "https://github.com/WordPress/mcp-adapter"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "MCP"
 tool_ecosystem:

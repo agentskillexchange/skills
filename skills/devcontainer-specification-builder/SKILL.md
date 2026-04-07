@@ -4,7 +4,7 @@ description: "Generates dev container specifications with feature composition an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Agents"
   - "Multi-Framework"

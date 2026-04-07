@@ -4,7 +4,7 @@ description: "ToolJet is an open-source platform for internal tools, dashboards,
 verification: security_reviewed
 source: "https://github.com/ToolJet/ToolJet"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 ---

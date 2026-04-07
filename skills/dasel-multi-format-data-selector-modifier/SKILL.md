@@ -4,7 +4,7 @@ description: "Dasel (Data-Select) is a command-line tool and Go library for quer
 verification: security_reviewed
 source: "https://github.com/TomWright/dasel"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

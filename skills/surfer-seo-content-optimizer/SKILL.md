@@ -4,7 +4,7 @@ description: "Analyzes top SERP competitors using DataForSEO API and generates c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Triages Outlook inboxes via Microsoft Graph API with delta query f
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "OpenClaw"
 ---

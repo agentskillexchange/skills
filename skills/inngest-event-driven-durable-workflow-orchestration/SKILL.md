@@ -4,7 +4,7 @@ description: "Inngest is an open-source workflow orchestration platform that rep
 verification: security_reviewed
 source: "https://github.com/inngest/inngest"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

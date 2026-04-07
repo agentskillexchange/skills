@@ -4,7 +4,7 @@ description: "Converts OpenAPI 3.x specification files into browsable API refere
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-reference-generator/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

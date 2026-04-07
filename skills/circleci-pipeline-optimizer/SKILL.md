@@ -4,7 +4,7 @@ description: "Interfaces with CircleCI API v2 /pipeline and /workflow endpoints 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "ChatGPT Agents"
 ---

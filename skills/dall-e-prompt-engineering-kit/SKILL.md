@@ -1,17 +1,17 @@
 ---
 title: "DALL-E Prompt Engineering Kit"
-description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
+description: "Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---
 
 # DALL-E Prompt Engineering Kit
 
-Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
+Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets.
 
 ## Installation
 

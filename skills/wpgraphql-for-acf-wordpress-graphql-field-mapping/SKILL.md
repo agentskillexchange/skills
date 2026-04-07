@@ -4,7 +4,7 @@ description: "WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wpgraphql-acf"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 ---

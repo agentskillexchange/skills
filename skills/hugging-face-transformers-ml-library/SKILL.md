@@ -4,7 +4,7 @@ description: "Hugging Face Transformers provides 400,000+ pretrained models for 
 verification: listed
 source: "https://github.com/huggingface/transformers"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

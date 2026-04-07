@@ -4,7 +4,7 @@ description: "Generates event-driven architecture documentation from AsyncAPI 3.
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Builds Apify Actors for scalable cloud scraping with automatic pro
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 ---

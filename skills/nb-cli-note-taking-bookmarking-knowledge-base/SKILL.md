@@ -4,7 +4,7 @@ description: "nb is a command-line and local web note-taking, bookmarking, archi
 verification: security_reviewed
 source: "https://github.com/xwmx/nb"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

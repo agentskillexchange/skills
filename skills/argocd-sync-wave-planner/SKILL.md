@@ -4,7 +4,7 @@ description: "Manages ArgoCD Application sync waves and hooks through the ArgoCD
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Codex"
 ---

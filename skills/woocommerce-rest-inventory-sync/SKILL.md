@@ -4,7 +4,7 @@ description: "Synchronizes WooCommerce product inventory across multiple channel
 verification: security_reviewed
 source: "https://github.com/woocommerce/woocommerce"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "OpenClaw"
 tool_ecosystem:

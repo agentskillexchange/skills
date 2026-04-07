@@ -4,7 +4,7 @@ description: "Yoast SEO is one of the most widely deployed WordPress SEO plugins
 verification: security_reviewed
 source: "https://github.com/Yoast/wordpress-seo"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

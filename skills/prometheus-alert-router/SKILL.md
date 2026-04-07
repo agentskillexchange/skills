@@ -4,7 +4,7 @@ description: "Routes and escalates Prometheus AlertManager notifications based o
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-router/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
 ---

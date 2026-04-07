@@ -4,12 +4,9 @@ description: "Taskwarrior is a command-line task list management utility with ri
 verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "gothenburgbitfactory/taskwarrior"
-  github_stars: 5685
 ---
 
 # Taskwarrior Command-Line Task Management System

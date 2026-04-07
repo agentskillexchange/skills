@@ -4,7 +4,7 @@ description: "Generates JSON-LD structured data markup for articles, products, F
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "Gemini"
 ---

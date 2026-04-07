@@ -4,7 +4,7 @@ description: "Automates daily standup collection and reporting in Slack using th
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-standup-automator/"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Codex"
 ---

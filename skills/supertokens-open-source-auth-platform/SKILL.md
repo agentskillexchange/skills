@@ -4,7 +4,7 @@ description: "SuperTokens is an open-source authentication platform that serves 
 verification: security_reviewed
 source: "https://github.com/supertokens/supertokens-core"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

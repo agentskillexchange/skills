@@ -4,7 +4,7 @@ description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWa
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 ---

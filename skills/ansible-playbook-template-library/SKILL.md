@@ -4,7 +4,7 @@ description: "Generates and validates Ansible playbooks from infrastructure requ
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-template-library/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "ChatGPT Agents"
 ---

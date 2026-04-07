@@ -4,7 +4,7 @@ description: "The minimal, blazing-fast, and infinitely customizable prompt for 
 verification: security_reviewed
 source: "https://github.com/starship/starship"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

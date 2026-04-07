@@ -4,7 +4,7 @@ description: "Scaffolds VS Code extensions using the vscode-extension API with T
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vscode-extension-scaffolder-agent/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Cursor"
 ---

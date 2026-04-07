@@ -4,7 +4,7 @@ description: "PocketBase is an open-source Go backend that ships as a single por
 verification: security_reviewed
 source: "https://github.com/pocketbase/pocketbase"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

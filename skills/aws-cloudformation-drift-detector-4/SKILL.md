@@ -4,7 +4,7 @@ description: "Monitors AWS CloudFormation stacks for configuration drift using t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

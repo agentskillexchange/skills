@@ -4,7 +4,7 @@ description: "Automates academic research using the SerpAPI Google Scholar endpo
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
 category:
-  - "Uncategorized"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
 ---

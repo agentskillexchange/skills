@@ -4,7 +4,7 @@ description: "Creates GitLab CI/CD pipeline templates using Auto DevOps componen
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-generator/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 ---

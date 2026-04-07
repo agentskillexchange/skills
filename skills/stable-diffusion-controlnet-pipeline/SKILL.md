@@ -4,7 +4,7 @@ description: "Automates image generation workflows using Stability AI ControlNet
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Cursor"
 ---

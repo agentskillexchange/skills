@@ -4,7 +4,7 @@ description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Agents"
 ---

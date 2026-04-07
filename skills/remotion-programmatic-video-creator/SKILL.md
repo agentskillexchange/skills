@@ -4,7 +4,7 @@ description: "Create videos programmatically using React components with Remotio
 verification: security_reviewed
 source: "https://github.com/remotion-dev/remotion"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

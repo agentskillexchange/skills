@@ -4,7 +4,7 @@ description: "onefetch is a Rust CLI tool that displays project information and 
 verification: security_reviewed
 source: "https://github.com/o2sh/onefetch"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

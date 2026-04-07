@@ -4,7 +4,7 @@ description: "Detects and dismisses cookie consent banners across websites using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Claude Code"
 ---

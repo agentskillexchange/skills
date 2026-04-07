@@ -4,7 +4,7 @@ description: "Manages ArgoCD application syncs using the argocd CLI and the Argo
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 ---

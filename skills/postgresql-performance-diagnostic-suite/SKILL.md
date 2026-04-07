@@ -4,7 +4,7 @@ description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 ---

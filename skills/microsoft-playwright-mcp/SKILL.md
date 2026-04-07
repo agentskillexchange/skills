@@ -4,7 +4,7 @@ description: "Microsoft Playwright MCP exposes Playwright browser automation thr
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "MCP"
 ---

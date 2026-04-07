@@ -4,7 +4,7 @@ description: "Validates Jenkinsfile declarative and scripted pipelines using the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Custom Agents"
 ---

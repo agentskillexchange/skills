@@ -4,7 +4,7 @@ description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilit
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Codex"
 ---

@@ -4,7 +4,7 @@ description: "Queries and updates WooCommerce orders via the WooCommerce REST AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Claude Code"
 ---

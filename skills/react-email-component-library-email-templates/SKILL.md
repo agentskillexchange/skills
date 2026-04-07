@@ -4,7 +4,7 @@ description: "React Email is an open source component library for building respo
 verification: security_reviewed
 source: "https://github.com/resend/react-email"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
 ---

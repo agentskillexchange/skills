@@ -4,7 +4,7 @@ description: "Integrates the OWASP ZAP API to run automated DAST scans against w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 ---

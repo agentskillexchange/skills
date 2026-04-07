@@ -4,7 +4,7 @@ description: "Remotion is a framework for making videos programmatically with Re
 verification: security_reviewed
 source: "https://github.com/remotion-dev/remotion"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 ---

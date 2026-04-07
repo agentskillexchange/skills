@@ -4,7 +4,7 @@ description: "Synchronizes service metadata into Spotify Backstage catalog using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Cursor"
 ---

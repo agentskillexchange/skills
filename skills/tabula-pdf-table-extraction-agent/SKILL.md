@@ -4,7 +4,7 @@ description: "Uses Tabula Java library via tabula-py bindings to detect and extr
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 ---

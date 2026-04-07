@@ -4,7 +4,7 @@ description: "An agent skill built on schema-dts by Google, which provides compl
 verification: security_reviewed
 source: "https://github.com/google/schema-dts"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:

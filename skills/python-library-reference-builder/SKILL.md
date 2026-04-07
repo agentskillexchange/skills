@@ -4,7 +4,7 @@ description: "Generates searchable Python library references using ast module fo
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-library-reference-builder/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "OpenClaw"
 ---

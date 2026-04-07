@@ -4,7 +4,7 @@ description: "Uses Microsoft Playwright to automate Chromium, Firefox, and WebKi
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

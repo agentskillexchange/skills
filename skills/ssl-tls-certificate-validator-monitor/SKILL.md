@@ -4,7 +4,7 @@ description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 ---

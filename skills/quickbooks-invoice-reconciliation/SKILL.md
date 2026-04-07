@@ -4,7 +4,7 @@ description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 v
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 ---

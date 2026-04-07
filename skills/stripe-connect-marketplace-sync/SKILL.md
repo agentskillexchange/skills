@@ -4,7 +4,7 @@ description: "Synchronize marketplace transactions using the Stripe Connect API 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Gemini"
 ---

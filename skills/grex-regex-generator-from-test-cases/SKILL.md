@@ -4,7 +4,7 @@ description: "grex is a command-line tool and library that automatically generat
 verification: security_reviewed
 source: "https://github.com/pemistahl/grex"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

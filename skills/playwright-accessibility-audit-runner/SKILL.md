@@ -4,7 +4,7 @@ description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwrig
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Cursor"
 ---

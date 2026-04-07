@@ -4,7 +4,7 @@ description: "ripgrep (rg) is a line-oriented search tool that recursively searc
 verification: security_reviewed
 source: "https://github.com/BurntSushi/ripgrep"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

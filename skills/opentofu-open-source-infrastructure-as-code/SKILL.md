@@ -4,7 +4,7 @@ description: "OpenTofu is an open-source infrastructure as code tool that lets y
 verification: security_reviewed
 source: "https://github.com/opentofu/opentofu"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

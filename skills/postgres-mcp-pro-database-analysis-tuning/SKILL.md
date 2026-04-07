@@ -4,7 +4,7 @@ description: "Postgres MCP Pro is an open-source MCP server that provides AI age
 verification: security_reviewed
 source: "https://github.com/crystaldba/postgres-mcp"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:

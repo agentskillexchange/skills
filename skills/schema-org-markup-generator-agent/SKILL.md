@@ -4,7 +4,7 @@ description: "Generates structured data markup using Schema.org vocabulary in JS
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "MCP"
 ---

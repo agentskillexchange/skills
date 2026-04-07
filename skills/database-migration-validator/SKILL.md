@@ -4,7 +4,7 @@ description: "Validates SQL database migrations for safety using pg_stat_stateme
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/database-migration-validator/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---

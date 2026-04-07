@@ -4,7 +4,7 @@ description: "Vue.js is a progressive JavaScript framework for building user int
 verification: listed
 source: "https://github.com/vuejs/core"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

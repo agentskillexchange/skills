@@ -4,7 +4,7 @@ description: "Run self-hosted push notifications with Gotify, including a REST A
 verification: security_reviewed
 source: "https://github.com/gotify/server"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 ---

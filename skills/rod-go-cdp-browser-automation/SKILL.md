@@ -4,7 +4,7 @@ description: "Rod is a high-level Go library built directly on the Chrome DevToo
 verification: security_reviewed
 source: "https://github.com/go-rod/rod"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

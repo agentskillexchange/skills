@@ -4,7 +4,7 @@ description: "Auto-scales Buildkite agent fleets based on queue depth and job wa
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Gemini"
 ---

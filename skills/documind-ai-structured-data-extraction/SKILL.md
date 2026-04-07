@@ -4,7 +4,7 @@ description: "Documind is an open-source Node.js tool that uses AI to extract st
 verification: security_reviewed
 source: "https://github.com/DocumindHQ/documind"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

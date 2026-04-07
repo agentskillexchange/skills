@@ -4,7 +4,7 @@ description: "Executes diagnostic queries against PostgreSQL using pg_stat_state
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-performance-runbook/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Codex"
 ---

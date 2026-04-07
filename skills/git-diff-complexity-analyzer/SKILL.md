@@ -4,7 +4,7 @@ description: "Analyzes git diffs using libgit2 and radon to compute cyclomatic c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-diff-complexity-analyzer/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "MCP"
 ---

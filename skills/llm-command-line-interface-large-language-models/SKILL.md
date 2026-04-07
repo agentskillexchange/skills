@@ -4,7 +4,7 @@ description: "LLM is a Python CLI tool and library by Simon Willison for accessi
 verification: security_reviewed
 source: "https://github.com/simonw/llm"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

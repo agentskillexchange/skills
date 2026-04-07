@@ -4,7 +4,7 @@ description: "Find, verify, and analyze leaked credentials across Git repositori
 verification: security_reviewed
 source: "https://github.com/trufflesecurity/trufflehog"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Configures and manages Prometheus AlertManager routing trees and s
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
 ---

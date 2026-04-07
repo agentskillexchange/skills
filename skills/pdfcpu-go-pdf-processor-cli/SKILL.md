@@ -4,7 +4,7 @@ description: "pdfcpu is a Go-based PDF processing library and CLI tool that hand
 verification: security_reviewed
 source: "https://github.com/pdfcpu/pdfcpu"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Interactive browser skill for logged-in flows, dynamic pages, and 
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Custom Agents"
   - "OpenClaw"

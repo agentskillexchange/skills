@@ -4,7 +4,7 @@ description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Ima
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---

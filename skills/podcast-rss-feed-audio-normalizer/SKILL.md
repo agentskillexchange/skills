@@ -4,7 +4,7 @@ description: "Parses podcast RSS feeds with feedparser and normalizes audio loud
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "MCP"
 ---

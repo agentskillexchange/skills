@@ -4,7 +4,7 @@ description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "OpenClaw"
 ---

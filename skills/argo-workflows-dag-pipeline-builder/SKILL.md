@@ -4,7 +4,7 @@ description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CR
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "MCP"
 tool_ecosystem:

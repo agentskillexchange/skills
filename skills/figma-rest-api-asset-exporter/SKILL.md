@@ -4,7 +4,7 @@ description: "Exports design assets from Figma files using the GET /v1/files/:ke
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 ---

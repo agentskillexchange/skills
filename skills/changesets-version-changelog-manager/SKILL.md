@@ -4,7 +4,7 @@ description: "Use Changesets to manage package versioning and changelogs in mono
 verification: security_reviewed
 source: "https://github.com/changesets/changesets"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

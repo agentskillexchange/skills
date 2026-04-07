@@ -4,7 +4,7 @@ description: "Analyzes Tekton Pipeline and Task resource definitions using the T
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Cursor"
 ---

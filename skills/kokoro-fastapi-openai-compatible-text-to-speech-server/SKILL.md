@@ -4,7 +4,7 @@ description: "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-8
 verification: security_reviewed
 source: "https://github.com/remsky/Kokoro-FastAPI"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

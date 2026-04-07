@@ -4,7 +4,7 @@ description: "Shiori is a simple, portable bookmark manager written in Go inspir
 verification: security_reviewed
 source: "https://github.com/go-shiori/shiori"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

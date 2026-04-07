@@ -4,7 +4,7 @@ description: "Run SonarQube static analysis scans via the SonarQube Web API and 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-runner/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Automates incident response runbooks using the PagerDuty Events AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

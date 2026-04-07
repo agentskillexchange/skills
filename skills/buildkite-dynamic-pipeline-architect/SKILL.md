@@ -4,7 +4,7 @@ description: "Creates dynamic Buildkite pipelines using the Buildkite REST API a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Cursor"
 ---

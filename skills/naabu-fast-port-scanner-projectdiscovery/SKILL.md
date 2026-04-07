@@ -4,7 +4,7 @@ description: "Naabu is a fast and reliable port scanning tool written in Go by P
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/naabu"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

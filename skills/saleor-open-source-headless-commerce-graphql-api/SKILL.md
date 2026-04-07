@@ -4,7 +4,7 @@ description: "Saleor is a leading open source headless e-commerce platform built
 verification: security_reviewed
 source: "https://github.com/saleor/saleor"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

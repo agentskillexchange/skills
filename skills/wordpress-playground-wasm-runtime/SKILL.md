@@ -4,7 +4,7 @@ description: "WordPress Playground runs a full WordPress instance entirely in th
 verification: security_reviewed
 source: "https://github.com/WordPress/wordpress-playground"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

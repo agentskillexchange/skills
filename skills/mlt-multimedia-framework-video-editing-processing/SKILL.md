@@ -4,7 +4,7 @@ description: "MLT is an open-source LGPL multimedia framework designed for video
 verification: security_reviewed
 source: "https://github.com/mltframework/mlt"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

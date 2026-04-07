@@ -4,7 +4,7 @@ description: "Apprise is a Python library and CLI that sends push notifications 
 verification: security_reviewed
 source: "https://github.com/caronc/apprise"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

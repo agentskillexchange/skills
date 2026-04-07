@@ -4,7 +4,7 @@ description: "Extracts and documents public API surfaces from NPM packages using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 ---

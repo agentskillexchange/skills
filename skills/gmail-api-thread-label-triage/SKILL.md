@@ -4,7 +4,7 @@ description: "Triage inbox backlog with the Gmail API’s `users.threads`, `user
 verification: security_reviewed
 source: "https://developers.google.com/gmail/api"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Formbricks is an open source survey platform and privacy-first exp
 verification: security_reviewed
 source: "https://github.com/formbricks/formbricks"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

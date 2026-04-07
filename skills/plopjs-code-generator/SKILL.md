@@ -4,7 +4,7 @@ description: "Creates Plop.js generators with Handlebars templates and custom ac
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Cursor"
 ---

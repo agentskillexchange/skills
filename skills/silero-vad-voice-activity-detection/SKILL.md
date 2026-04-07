@@ -4,7 +4,7 @@ description: "Silero VAD is a pre-trained enterprise-grade Voice Activity Detect
 verification: security_reviewed
 source: "https://github.com/snakers4/silero-vad"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

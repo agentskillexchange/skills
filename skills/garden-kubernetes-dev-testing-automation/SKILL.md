@@ -4,7 +4,7 @@ description: "Garden is a DevOps automation tool for developing and testing Kube
 verification: security_reviewed
 source: "https://github.com/garden-io/garden"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Custom Agents"
 ---

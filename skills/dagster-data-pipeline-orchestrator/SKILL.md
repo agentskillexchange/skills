@@ -4,7 +4,7 @@ description: "Orchestrate data pipelines using Dagster, the cloud-native data or
 verification: security_reviewed
 source: "https://github.com/dagster-io/dagster"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
   - "OpenClaw"

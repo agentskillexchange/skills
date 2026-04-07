@@ -4,7 +4,7 @@ description: "Generates GitHub Actions workflow YAML files using the GitHub REST
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-generator-3/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

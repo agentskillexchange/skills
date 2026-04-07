@@ -4,7 +4,7 @@ description: "Generates and validates GitHub Actions YAML workflows using the ac
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Cursor"
 ---

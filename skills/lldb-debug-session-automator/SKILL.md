@@ -4,7 +4,7 @@ description: "Automates LLDB debugging sessions with scripted breakpoint managem
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Automates git bisect workflows with custom test scripts and CI pip
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-bisect-automator/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 ---

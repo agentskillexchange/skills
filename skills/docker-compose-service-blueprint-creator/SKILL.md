@@ -4,7 +4,7 @@ description: "Creates Docker Compose YAML service definitions using the Compose 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "MCP"
 ---

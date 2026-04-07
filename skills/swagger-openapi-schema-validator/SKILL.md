@@ -4,7 +4,7 @@ description: "Validates and lints OpenAPI 3.1 specifications using Spectral rule
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

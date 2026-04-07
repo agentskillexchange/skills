@@ -4,7 +4,7 @@ description: "Jina Reader converts any URL to LLM-friendly markdown by prefixing
 verification: security_reviewed
 source: "https://github.com/jina-ai/reader"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 ---

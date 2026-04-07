@@ -4,7 +4,7 @@ description: "Aider is an open-source AI pair programming tool that runs in your
 verification: security_reviewed
 source: "https://github.com/Aider-AI/aider"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

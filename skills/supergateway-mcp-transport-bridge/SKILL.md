@@ -4,7 +4,7 @@ description: "Supergateway enables running MCP stdio-based servers over SSE, Web
 verification: security_reviewed
 source: "https://github.com/supercorp-ai/supergateway"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "MCP"
 tool_ecosystem:

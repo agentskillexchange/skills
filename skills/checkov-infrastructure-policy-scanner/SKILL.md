@@ -4,7 +4,7 @@ description: "Scans IaC files with Bridgecrew Checkov for policy violations acro
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "Codex"
 ---

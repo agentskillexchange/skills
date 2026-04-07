@@ -4,7 +4,7 @@ description: "Manages distributed browser sessions on Selenium Grid 4 via the Gr
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-session-manager/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Gemini"
 ---

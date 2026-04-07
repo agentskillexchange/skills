@@ -4,7 +4,7 @@ description: "Orchestrates Yeoman generator workflows with composable sub-genera
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "Gemini"
 ---

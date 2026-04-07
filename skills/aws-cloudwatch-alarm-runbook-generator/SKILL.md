@@ -4,7 +4,7 @@ description: "Generates structured incident runbooks from AWS CloudWatch alarm c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 ---

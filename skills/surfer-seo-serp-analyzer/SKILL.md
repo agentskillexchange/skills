@@ -4,7 +4,7 @@ description: "Uses Surfer SEO Content Editor API to pull SERP analysis data incl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "Cursor"
 ---

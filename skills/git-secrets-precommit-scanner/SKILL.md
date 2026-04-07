@@ -4,7 +4,7 @@ description: "Scans git diffs for exposed secrets using truffleHog entropy detec
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 ---

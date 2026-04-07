@@ -1,10 +1,10 @@
 ---
 title: "Prometheus / Grafana MCP Server"
-description: "Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images […]"
+description: "Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Prometheus / Grafana MCP Server
 
-Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images […]
+Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images [&hellip;]
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Runs ESLint against a JS/TS codebase, groups violations by rule an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 ---

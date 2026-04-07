@@ -4,7 +4,7 @@ description: "shadcn/ui is a collection of accessible UI components built with R
 verification: listed
 source: "https://github.com/shadcn-ui/ui"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

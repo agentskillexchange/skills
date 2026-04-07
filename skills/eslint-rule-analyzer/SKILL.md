@@ -4,7 +4,7 @@ description: "Analyzes ESLint configurations using the ESLint Node.js API (new E
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 ---

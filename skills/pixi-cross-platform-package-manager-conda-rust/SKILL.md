@@ -4,7 +4,7 @@ description: "A blazing-fast, cross-platform package manager and workflow tool w
 verification: security_reviewed
 source: "https://github.com/prefix-dev/pixi"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Sanity combines a customizable content studio with a real-time con
 verification: security_reviewed
 source: "https://github.com/sanity-io/sanity"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:

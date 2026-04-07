@@ -4,7 +4,7 @@ description: "Creates and manages Outlook email rules programmatically using the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/outlook-rule-automation-manager/"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
 ---

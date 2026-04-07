@@ -4,7 +4,7 @@ description: "BullMQ is the fastest, most reliable Redis-based distributed queue
 verification: security_reviewed
 source: "https://github.com/taskforcesh/bullmq"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

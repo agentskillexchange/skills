@@ -4,7 +4,7 @@ description: "Analyzes Docker Compose configurations for security, networking, a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Gemini"
 ---

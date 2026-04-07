@@ -4,7 +4,7 @@ description: "Automated code quality scanning using SonarQube REST API and Sonar
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-code-scanner-agent/"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 ---

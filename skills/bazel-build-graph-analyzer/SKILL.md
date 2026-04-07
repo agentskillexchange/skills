@@ -4,7 +4,7 @@ description: "Analyzes Bazel build dependency graphs to identify bottlenecks and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "MCP"
 ---

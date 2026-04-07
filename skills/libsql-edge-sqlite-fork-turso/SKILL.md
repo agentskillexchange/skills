@@ -4,7 +4,7 @@ description: "libSQL is an open-source, open-contribution fork of SQLite by Turs
 verification: security_reviewed
 source: "https://github.com/tursodatabase/libsql"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

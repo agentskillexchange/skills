@@ -4,7 +4,7 @@ description: "Dagger is an open-source automation engine for building, testing, 
 verification: security_reviewed
 source: "https://github.com/dagger/dagger"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

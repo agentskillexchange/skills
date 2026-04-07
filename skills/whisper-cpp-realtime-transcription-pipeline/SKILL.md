@@ -4,7 +4,7 @@ description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Claude Code"
 ---

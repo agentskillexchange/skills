@@ -4,7 +4,7 @@ description: "Distributes browser automation workloads across Selenium Grid 4 no
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-load-balancer/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Codex"
 ---

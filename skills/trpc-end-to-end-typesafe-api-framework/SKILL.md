@@ -4,7 +4,7 @@ description: "tRPC enables developers to build fully typesafe APIs in TypeScript
 verification: security_reviewed
 source: "https://github.com/trpc/trpc"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Claude Code"
 tool_ecosystem:

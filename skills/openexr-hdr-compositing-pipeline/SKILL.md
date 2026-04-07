@@ -4,7 +4,7 @@ description: "Processes OpenEXR high dynamic range images using the OpenImageIO 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openexr-hdr-compositing-pipeline/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "OpenClaw"
 ---

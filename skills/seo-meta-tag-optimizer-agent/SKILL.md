@@ -4,7 +4,7 @@ description: "Generates optimized title tags, meta descriptions, and Open Graph 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Claude Code"
 ---

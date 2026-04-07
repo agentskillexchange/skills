@@ -4,7 +4,7 @@ description: "Deploys models from Hugging Face Hub to Inference Endpoints using 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Codex"
 ---

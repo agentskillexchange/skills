@@ -4,7 +4,7 @@ description: "Constructs and executes SDXL image generation pipelines using diff
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Cursor"
 ---

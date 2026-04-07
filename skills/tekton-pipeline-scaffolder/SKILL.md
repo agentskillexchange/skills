@@ -4,7 +4,7 @@ description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Gemini"
 ---

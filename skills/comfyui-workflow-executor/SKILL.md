@@ -4,7 +4,7 @@ description: "Executes ComfyUI image generation workflows via the /prompt REST A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Codex"
 ---

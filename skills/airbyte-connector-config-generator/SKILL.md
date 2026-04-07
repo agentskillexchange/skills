@@ -4,7 +4,7 @@ description: "Generates Airbyte source and destination connector configurations 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
 ---

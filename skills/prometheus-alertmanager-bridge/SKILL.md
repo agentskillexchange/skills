@@ -4,7 +4,7 @@ description: "Connects to Prometheus AlertManager API to query active alerts, si
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "OpenClaw"
 ---

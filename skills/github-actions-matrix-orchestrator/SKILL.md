@@ -4,7 +4,7 @@ description: "Dynamically generates GitHub Actions matrix strategies using the G
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

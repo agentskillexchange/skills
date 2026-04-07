@@ -4,7 +4,7 @@ description: "Automated video and audio transcoding using FFmpeg with hardware-a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-media-transcoder/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Code"
 ---

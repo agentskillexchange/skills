@@ -4,7 +4,7 @@ description: "The Google Cloud CLI provides command-line access to 200+ GCP serv
 verification: listed
 source: "https://cloud.google.com/sdk"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 ---

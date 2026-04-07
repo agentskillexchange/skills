@@ -4,7 +4,7 @@ description: "Creates interactive Slack workflows using Block Kit UI components 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "MCP"
 ---

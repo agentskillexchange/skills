@@ -4,7 +4,7 @@ description: "Performs deep cluster troubleshooting using the Kubernetes API ser
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Code"
 ---

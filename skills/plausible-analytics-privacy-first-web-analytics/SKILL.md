@@ -4,7 +4,7 @@ description: "Plausible Analytics is a lightweight, open-source, privacy-friendl
 verification: security_reviewed
 source: "https://github.com/plausible/analytics"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

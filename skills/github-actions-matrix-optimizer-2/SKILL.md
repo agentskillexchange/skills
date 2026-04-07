@@ -4,7 +4,7 @@ description: "Analyzes GitHub Actions workflow matrix strategies using the GitHu
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

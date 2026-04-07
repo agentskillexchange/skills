@@ -4,7 +4,7 @@ description: "Automatically fetches podcast episodes from RSS feeds using feedpa
 verification: security_reviewed
 source: "https://github.com/openai/whisper"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
 tool_ecosystem:

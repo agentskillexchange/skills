@@ -4,7 +4,7 @@ description: "Automates PySpark DataFrame transformations including schema infer
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/spark-dataframe-etl-pipeline/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "OpenClaw"
 ---

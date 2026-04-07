@@ -4,7 +4,7 @@ description: "Extracts text and metadata from 1000+ file formats using Apache Ti
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser-agent/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Gemini"
 ---

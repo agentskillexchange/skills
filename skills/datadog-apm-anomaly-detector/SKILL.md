@@ -4,7 +4,7 @@ description: "Detects performance anomalies in Datadog APM traces using the Data
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "ChatGPT Agents"
 ---

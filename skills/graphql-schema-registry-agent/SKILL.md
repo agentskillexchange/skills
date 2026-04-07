@@ -4,7 +4,7 @@ description: "Manages federated GraphQL schemas using Apollo Studio API and Hive
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
 category:
-  - "Uncategorized"
+  - "Library &amp; API Reference"
 framework:
   - "Codex"
 ---

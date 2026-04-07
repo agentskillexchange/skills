@@ -4,7 +4,7 @@ description: "Analyzes Terraform plan output using the terraform show -json comm
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

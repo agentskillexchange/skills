@@ -4,7 +4,7 @@ description: "Papermark is an open-source alternative to DocSend for secure docu
 verification: security_reviewed
 source: "https://github.com/mfts/papermark"
 category:
-  - "Uncategorized"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

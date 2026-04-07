@@ -4,7 +4,7 @@ description: "Optimizes meeting scheduling using the Google Calendar API v3 and 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "OpenClaw"
 ---

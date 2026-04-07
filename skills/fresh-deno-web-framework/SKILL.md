@@ -4,7 +4,7 @@ description: "Fresh is a next-generation web framework built for Deno that uses 
 verification: security_reviewed
 source: "https://github.com/denoland/fresh"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

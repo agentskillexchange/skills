@@ -4,7 +4,7 @@ description: "Records browser sessions using Playwright codegen and exports repl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-session-recorder-2/"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Claude Code"
 ---

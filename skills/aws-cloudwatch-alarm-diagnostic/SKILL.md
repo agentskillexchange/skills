@@ -4,7 +4,7 @@ description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metr
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
 category:
-  - "Uncategorized"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

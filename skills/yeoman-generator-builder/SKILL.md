@@ -4,7 +4,7 @@ description: "Creates custom Yeoman generators using the yeoman-generator API an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
 category:
-  - "Uncategorized"
+  - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
 ---

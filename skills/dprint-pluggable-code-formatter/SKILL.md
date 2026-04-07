@@ -4,7 +4,7 @@ description: "dprint is a pluggable and configurable code formatting platform wr
 verification: security_reviewed
 source: "https://github.com/dprint/dprint"
 category:
-  - "Uncategorized"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Volta is a JavaScript toolchain manager written in Rust that pins 
 verification: security_reviewed
 source: "https://github.com/volta-cli/volta"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

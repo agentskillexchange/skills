@@ -4,7 +4,7 @@ description: "Wraps the Trivy CLI for comprehensive container image vulnerabilit
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
 category:
-  - "Uncategorized"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 ---

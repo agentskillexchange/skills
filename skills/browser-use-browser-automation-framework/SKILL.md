@@ -4,7 +4,7 @@ description: "Use browser-use to turn natural-language web tasks into repeatable
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

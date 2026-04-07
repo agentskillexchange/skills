@@ -4,7 +4,7 @@ description: "Tracks SLO compliance using the New Relic NerdGraph GraphQL API an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
 category:
-  - "Uncategorized"
+  - "Monitoring &amp; Alerts"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "The Azure CLI provides cross-platform command-line access to Micro
 verification: listed
 source: "https://github.com/Azure/azure-cli"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

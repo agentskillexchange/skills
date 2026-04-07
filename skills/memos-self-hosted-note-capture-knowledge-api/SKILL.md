@@ -4,7 +4,7 @@ description: "Enable AI agents to interact with Memos, an open-source self-hoste
 verification: security_reviewed
 source: "https://github.com/usememos/memos"
 category:
-  - "Uncategorized"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

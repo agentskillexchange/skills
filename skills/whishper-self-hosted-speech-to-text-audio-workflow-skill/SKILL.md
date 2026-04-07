@@ -4,7 +4,7 @@ description: "Whishper is an open source self-hosted web app for speech-to-text,
 verification: security_reviewed
 source: "https://github.com/pluja/whishper"
 category:
-  - "Uncategorized"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Generates Blender Python (bpy) scripts that programmatically creat
 verification: security_reviewed
 source: "https://www.blender.org/"
 category:
-  - "Uncategorized"
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 ---

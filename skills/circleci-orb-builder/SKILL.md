@@ -4,7 +4,7 @@ description: "Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circ
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-builder/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Claude Code"
 ---

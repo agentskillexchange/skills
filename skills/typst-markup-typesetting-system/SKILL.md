@@ -4,7 +4,7 @@ description: "Typst is a modern markup-based typesetting system designed to repl
 verification: security_reviewed
 source: "https://github.com/typst/typst"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

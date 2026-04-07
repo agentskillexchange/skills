@@ -4,7 +4,7 @@ description: "A modern shell that treats all input as structured data rather tha
 verification: security_reviewed
 source: "https://github.com/nushell/nushell"
 category:
-  - "Uncategorized"
+  - "Developer Tools"
 framework:
   - "Custom Agents"
 tool_ecosystem:

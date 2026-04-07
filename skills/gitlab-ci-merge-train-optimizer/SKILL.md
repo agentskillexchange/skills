@@ -4,7 +4,7 @@ description: "Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
 category:
-  - "Uncategorized"
+  - "CI/CD Integrations"
 framework:
   - "Codex"
 ---

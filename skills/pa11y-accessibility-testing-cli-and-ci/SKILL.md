@@ -4,7 +4,7 @@ description: "Pa11y is a real open-source accessibility testing tool that lets a
 verification: security_reviewed
 source: "https://github.com/pa11y/pa11y"
 category:
-  - "Uncategorized"
+  - "Browser Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

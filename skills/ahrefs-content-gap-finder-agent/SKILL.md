@@ -4,7 +4,7 @@ description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/org
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/"
 category:
-  - "Uncategorized"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 ---

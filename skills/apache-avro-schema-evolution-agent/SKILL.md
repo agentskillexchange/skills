@@ -4,7 +4,7 @@ description: "Manages Apache Avro schema evolution with compatibility checking v
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
 category:
-  - "Uncategorized"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 ---

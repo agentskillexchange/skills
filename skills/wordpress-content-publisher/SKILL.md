@@ -4,7 +4,7 @@ description: "Structured publishing workflow for WordPress drafts, metadata, and
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "Uncategorized"
+  - "WordPress &amp; CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:
