@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1769,
+  "total": 1775,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "crawl4ai-open-source-web-crawling-and-markdown-extraction",
+      "name": "Crawl4AI Open-Source Web Crawling and Markdown Extraction",
+      "description": "Crawl4AI is an open source crawler and scraper built for LLM-ready web extraction, with structured markdown output, browser support, and Python package distribution. It…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "docling-document-conversion-and-extraction-toolkit",
+      "name": "Docling Document Conversion and Extraction Toolkit",
+      "description": "Docling is an open source document processing toolkit from the Docling project that converts PDFs, Office files, HTML, and other formats into structured output…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wp-cli-wordpress-command-line-interface",
+      "name": "WP-CLI WordPress Command Line Interface",
+      "description": "WP-CLI is the official command-line interface for WordPress, maintained as an open source project with extensive command docs and release history. It gives agents…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "metabase-open-source-business-intelligence-and-embedded-analytics",
+      "name": "Metabase Open Source Business Intelligence and Embedded Analytics",
+      "description": "Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "checkly-cli-monitoring-as-code-for-api-and-browser-checks",
+      "name": "Checkly CLI Monitoring as Code for API and Browser Checks",
+      "description": "Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It is especially useful when monitoring should live…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "uptime-kuma-self-hosted-uptime-monitoring-platform",
+      "name": "Uptime Kuma Self-Hosted Uptime Monitoring Platform",
+      "description": "Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a concrete way to…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "agentql-natural-language-web-query-sdk-extraction-automation",
       "name": "AgentQL Natural Language Web Query SDK for Extraction and Automation",

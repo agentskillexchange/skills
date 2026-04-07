@@ -73,6 +73,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
 | [Crawl4AI LLM-Friendly Web Crawler](../../skills/crawl4ai-llm-friendly-web-crawler/) | — | — |
+| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | — | — |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
