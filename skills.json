@@ -15731,7 +15731,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "docker"
+        "tool": "docker",
+        "github_stars": 37211
       }
     },
     {
@@ -15840,7 +15841,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grafana"
+        "tool": "grafana",
+        "github_stars": 528
       }
     },
     {
@@ -15855,7 +15857,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "swagger"
+        "tool": "swagger",
+        "github_stars": 1194
       }
     },
     {
@@ -15882,7 +15885,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "argocd"
+        "tool": "argocd",
+        "github_stars": 22484
       }
     },
     {
@@ -15897,7 +15901,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "jenkins"
+        "tool": "jenkins",
+        "github_stars": 564
       }
     },
     {
@@ -15910,7 +15915,10 @@
       "framework": [
         "Claude Code"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4734
+      }
     },
     {
       "slug": "notion-workspace-sync-engine-2",
@@ -15939,7 +15947,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "cypress"
+        "tool": "cypress",
+        "github_stars": 49613
       }
     },
     {

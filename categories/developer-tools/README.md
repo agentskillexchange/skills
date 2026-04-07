@@ -88,6 +88,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | 39k | — |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 6.2k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
+| [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | 37.2k | — |
 | [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | 35.8k | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.6k | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | 35.2k | — |
@@ -220,7 +221,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | — | — |
 | [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | — | — |
-| [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | — | — |
 | [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | — | — |
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |

@@ -11,11 +11,11 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | ⭐ 85.5k |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | ⭐ 85.2k |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | ⭐ 85.2k |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⭐ 49.6k |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 30.1k |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | ⭐ 30.1k |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | ⭐ 26.5k |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | ⭐ 21.8k |
-| [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | ⭐ 21k |
 
 ---
 
@@ -43,6 +43,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | 45.8M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | 85.2k | — |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | — |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 30.1k | — |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | — |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
@@ -67,7 +68,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | — | — |
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | — | — |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
-| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | — | — |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | — | — |
 | [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | — | — |
 | [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | — | — |

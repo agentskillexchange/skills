@@ -56,6 +56,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.4M/wk |
+| [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | — |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | — |
@@ -86,7 +87,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
-| [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | — | — |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | — | — |
 | [Grafana Dashboard JSON Assembler](../../skills/grafana-dashboard-json-assembler/) | — | — |
 | [Grafana Dashboard JSON Migrator](../../skills/grafana-dashboard-json-migrator/) | — | — |

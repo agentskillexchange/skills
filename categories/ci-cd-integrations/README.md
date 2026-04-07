@@ -7,11 +7,14 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars |
 |---|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
+| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.8k |
+| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | ⭐ 4.7k |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | ⭐ 1.1k |
+| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | ⭐ 564 |
 
 ---
 
@@ -28,11 +31,14 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
+| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.7k/wk |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
+| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
+| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
 | [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | — | — |
@@ -40,7 +46,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | — | — |
 | [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | — | — |
 | [ArgoCD Deployment Sync Skill](../../skills/argocd-deployment-sync-skill/) | — | — |
-| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | — | — |
 | [ArgoCD GitOps Sync Controller](../../skills/argocd-gitops-sync-controller/) | — | — |
 | [ArgoCD GitOps Sync Manager](../../skills/argocd-gitops-sync-manager/) | — | — |
 | [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | — | — |
@@ -94,7 +99,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Matrix Builder](../../skills/github-actions-matrix-builder-13/) | — | — |
 | [GitHub Actions Matrix Optimizer](../../skills/github-actions-matrix-optimizer-2/) | — | — |
 | [GitHub Actions Matrix Orchestrator](../../skills/github-actions-matrix-orchestrator/) | — | — |
-| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | — | — |
 | [GitHub Actions OIDC Token Validator](../../skills/github-actions-oidc-token-validator/) | — | — |
 | [GitHub Actions OIDC Token Verifier](../../skills/github-actions-oidc-token-verifier/) | — | — |
 | [GitHub Actions Pipeline Validator](../../skills/github-actions-pipeline-validator/) | — | — |
@@ -128,7 +132,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | — | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | — | — |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | — | — |
-| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | — | — |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | — | — |
 | [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | — | — |
 | [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | — | — |

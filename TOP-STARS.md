@@ -46,16 +46,16 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 38 | [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | 52.4k | typst | Content Writing & SEO |
 | 39 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | context7 | Library & API Reference |
 | 40 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | 50.5k | lazydocker | Developer Tools |
-| 41 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
-| 42 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48k | terraform | Developer Tools |
-| 43 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
-| 44 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
-| 45 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |
-| 46 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 45.3k | zx | Developer Tools |
-| 47 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | tts | Media & Transcription |
-| 48 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | upscayl | Image & Creative Automation |
-| 49 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | helix | Developer Tools |
-| 50 | [Twenty Open Source CRM Platform and Salesforce Alternative](skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | twenty | Calendar, Email & Productivity |
+| 41 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | 49.6k | cypress | Browser Automation |
+| 42 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
+| 43 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48k | terraform | Developer Tools |
+| 44 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
+| 45 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
+| 46 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |
+| 47 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 45.3k | zx | Developer Tools |
+| 48 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | tts | Media & Transcription |
+| 49 | [Upscayl Open Source AI Image Upscaler](skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | upscayl | Image & Creative Automation |
+| 50 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | helix | Developer Tools |
 
 ---
 
