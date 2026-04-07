@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1763 published skills** across **17 categories** · 1740 security reviewed · Updated 2026-04-07 11:38 UTC
+> **1766 published skills** across **17 categories** · 1740 security reviewed · Updated 2026-04-07 13:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -546,7 +546,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (117 skills)
+### 🔒 Security & Verification (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -591,10 +591,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV… | Security Reviewed | 40 | — |
 | [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps… | Security Reviewed | — | — |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | — | — |
+| [Better Auth Authentication Framework for TypeScript Applications](skills/better-auth-authentication-framework-typescript-applications/) | Better Auth is an open source authentication framework for TypeScript apps. It gives agents a concrete way to wire… | Published | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](skills/cariddi-domain-crawler-endpoint-secret-scanner/) | Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints,… | Security Reviewed | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](skills/cerbos-authorization-pdp/) | Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user… | Security Reviewed | — | — |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Checkov Infrastructure Policy Scanner](skills/checkov-infrastructure-policy-scanner/) | Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and… | Security Reviewed | — | — |
+| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Published | — | — |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
 | [Conftest Policy Tester](skills/conftest-policy-tester/) | Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Container Image Vulnerability Scanner](skills/container-image-vulnerability-scanner/) | Scans Docker and OCI container images for vulnerabilities using Trivy JSON output and the Docker Hub API v2 for… | Security Reviewed | — | — |
@@ -668,6 +670,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Scans container images, IaC templates, and SBOM artifacts using Aqua Trivy CLI. Generates CycloneDX and SPDX reports… | Security Reviewed | — | — |
 | [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic… | Security Reviewed | — | — |
+| [WorkOS AuthKit Next.js Authentication Toolkit](skills/workos-authkit-nextjs-authentication-toolkit/) | WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration… | Published | — | — |
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 

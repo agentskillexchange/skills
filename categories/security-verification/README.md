@@ -62,10 +62,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 40 | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
+| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
@@ -139,6 +141,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
 
 ---

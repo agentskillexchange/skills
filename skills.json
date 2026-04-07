@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1763,
+  "total": 1766,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "clerk-javascript-backend-sdk-server-side-auth-workflows",
+      "name": "Clerk JavaScript Backend SDK for Server-Side Auth Workflows",
+      "description": "Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful for verifying sessions, fetching users, issuing…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "workos-authkit-nextjs-authentication-toolkit",
+      "name": "WorkOS AuthKit Next.js Authentication Toolkit",
+      "description": "WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration target for login, sessions, RBAC, SSO, MFA, and…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "better-auth-authentication-framework-typescript-applications",
+      "name": "Better Auth Authentication Framework for TypeScript Applications",
+      "description": "Better Auth is an open source authentication framework for TypeScript apps. It gives agents a concrete way to wire sign-in, sessions, passkeys, OAuth providers,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "langsmith-sdk-for-llm-tracing-and-evaluation",
       "name": "LangSmith SDK for LLM Tracing and Evaluation",
