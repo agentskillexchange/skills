@@ -4,7 +4,7 @@ description: "Manages image and video assets using the Cloudinary Node.js SDK an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

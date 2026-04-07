@@ -4,7 +4,7 @@ description: "Manages PagerDuty incident lifecycle using the PagerDuty Events AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

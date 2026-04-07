@@ -4,7 +4,7 @@ description: "Trafilatura is a Python package and CLI tool for gathering text fr
 verification: security_reviewed
 source: "https://github.com/adbar/trafilatura"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

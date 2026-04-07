@@ -4,7 +4,7 @@ description: "Supabase MCP Server is built around Supabase developer platform. T
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/supabase-mcp-server/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

@@ -4,7 +4,7 @@ description: "AI Services is a WordPress plugin by Felix Arntz that exposes AI c
 verification: security_reviewed
 source: "https://github.com/felixarntz/ai-services"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

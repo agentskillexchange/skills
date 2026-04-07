@@ -4,7 +4,7 @@ description: "The official Microsoft Playwright MCP server provides browser auto
 verification: security_reviewed
 source: "https://github.com/microsoft/playwright-mcp"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "ClickHouse Query Agent is built around ClickHouse columnar analyti
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/clickhouse-query-agent/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

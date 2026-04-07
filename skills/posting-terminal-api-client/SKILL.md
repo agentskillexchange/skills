@@ -4,7 +4,7 @@ description: "A modern, open-source HTTP client built as a terminal UI applicati
 verification: security_reviewed
 source: "https://github.com/darrenburns/posting"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

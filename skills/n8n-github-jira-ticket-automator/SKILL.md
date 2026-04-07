@@ -4,7 +4,7 @@ description: "Deploys an n8n workflow via the n8n REST API using the GitHub Trig
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

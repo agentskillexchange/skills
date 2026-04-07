@@ -4,7 +4,7 @@ description: "Validates live API responses against JSON Schema definitions using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

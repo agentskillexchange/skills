@@ -4,7 +4,7 @@ description: "Orchestrates Terraform Cloud run pipelines via the TFC API v2 and 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

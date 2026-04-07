@@ -4,7 +4,7 @@ description: "Calculates CI/CD spend using the GitLab REST API v4 pipelines and 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-cost-calculator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

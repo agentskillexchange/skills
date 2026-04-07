@@ -4,7 +4,7 @@ description: "Manages Pylint baseline files for gradual code quality improvement
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

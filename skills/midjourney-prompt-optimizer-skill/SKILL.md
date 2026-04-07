@@ -4,7 +4,7 @@ description: "Analyze and optimize Midjourney prompts using parameter tuning for
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

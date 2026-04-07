@@ -4,7 +4,7 @@ description: "Prometheus / Grafana MCP Server is built around Grafana visualizat
 verification: security_reviewed
 source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

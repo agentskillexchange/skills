@@ -4,7 +4,7 @@ description: "Parses Jenkins build console logs via the Jenkins Remote Access AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-build-log-analyzer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

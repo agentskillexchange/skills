@@ -4,7 +4,7 @@ description: "Postman Collection Runner is built around Postman API testing plat
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postman-collection-runner/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

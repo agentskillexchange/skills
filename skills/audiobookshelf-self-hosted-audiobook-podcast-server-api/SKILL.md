@@ -4,7 +4,7 @@ description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast ser
 verification: security_reviewed
 source: "https://github.com/advplyr/audiobookshelf"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

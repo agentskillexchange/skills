@@ -4,7 +4,7 @@ description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Pu
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Cursor"
 tool_ecosystem:

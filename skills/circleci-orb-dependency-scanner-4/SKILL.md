@@ -4,7 +4,7 @@ description: "Scans CircleCI config.yml for outdated orb versions using the Circ
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

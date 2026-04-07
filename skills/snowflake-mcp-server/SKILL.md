@@ -4,7 +4,7 @@ description: "Snowflake MCP Server is built around Snowflake cloud data warehous
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-mcp-server/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

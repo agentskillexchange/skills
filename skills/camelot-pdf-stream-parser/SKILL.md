@@ -4,7 +4,7 @@ description: "Implements Camelot library for advanced PDF table detection using 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

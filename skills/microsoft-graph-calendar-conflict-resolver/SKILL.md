@@ -4,7 +4,7 @@ description: "Resolves scheduling collisions with Microsoft Graph Calendar endpo
 verification: security_reviewed
 source: "https://learn.microsoft.com/en-us/graph/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

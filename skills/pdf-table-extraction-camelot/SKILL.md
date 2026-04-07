@@ -4,7 +4,7 @@ description: "Extracts structured tables from PDF documents using Camelot’s la
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pdf-table-extraction-camelot/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

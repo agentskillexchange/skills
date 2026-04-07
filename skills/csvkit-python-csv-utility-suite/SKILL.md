@@ -4,7 +4,7 @@ description: "csvkit is a suite of Python command-line utilities for converting 
 verification: security_reviewed
 source: "https://github.com/wireservice/csvkit"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

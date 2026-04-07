@@ -4,7 +4,7 @@ description: "Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backen
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

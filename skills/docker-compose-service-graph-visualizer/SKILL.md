@@ -4,7 +4,7 @@ description: "Parses docker-compose.yml files using PyYAML and generates interac
 verification: security_reviewed
 source: "https://github.com/docker/compose"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
   - "Multi-Framework"

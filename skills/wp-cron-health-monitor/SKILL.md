@@ -4,7 +4,7 @@ description: "Monitors WordPress wp-cron scheduled events using the WP_Cron API 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

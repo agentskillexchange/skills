@@ -4,13 +4,12 @@ description: "Uses Puppeteer to control Chrome and Firefox through the DevTools 
 verification: security_reviewed
 source: "https://github.com/puppeteer/puppeteer"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94016
-  license: "Apache-2.0"
 ---
 
 # Puppeteer Browser Automation Library for Chrome and Firefox

@@ -4,7 +4,7 @@ description: "Validates GitHub Actions workflow YAML files against the Actions s
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

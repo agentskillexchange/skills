@@ -4,7 +4,7 @@ description: "Topgrade is a CLI tool written in Rust that detects all package ma
 verification: security_reviewed
 source: "https://github.com/topgrade-rs/topgrade"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

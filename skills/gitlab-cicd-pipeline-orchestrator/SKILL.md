@@ -4,7 +4,7 @@ description: "Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

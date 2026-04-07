@@ -4,7 +4,7 @@ description: "A fast and user-friendly alternative to the find command, written 
 verification: security_reviewed
 source: "https://github.com/sharkdp/fd"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

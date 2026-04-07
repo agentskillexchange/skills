@@ -4,7 +4,7 @@ description: "Harness Open Source (formerly Gitness) is an end-to-end developer 
 verification: security_reviewed
 source: "https://github.com/harness/harness"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

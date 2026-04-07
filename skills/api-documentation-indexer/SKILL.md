@@ -4,7 +4,7 @@ description: "Indexes and searches API documentation from OpenAPI 3.0 specs usin
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/api-documentation-indexer/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

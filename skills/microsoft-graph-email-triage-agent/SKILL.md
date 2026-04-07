@@ -4,7 +4,7 @@ description: "Automates email triage using Microsoft Graph API v1.0 with delegat
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

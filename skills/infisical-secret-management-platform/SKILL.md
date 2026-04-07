@@ -4,9 +4,12 @@ description: "Infisical is an open-source platform for managing application secr
 verification: security_reviewed
 source: "https://github.com/Infisical/infisical"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "infisical/infisical"
+  github_stars: 25635
 ---
 
 # Infisical Open-Source Secret Management Platform

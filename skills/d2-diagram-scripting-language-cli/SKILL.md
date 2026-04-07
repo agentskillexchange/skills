@@ -4,13 +4,12 @@ description: "D2 is a modern diagram scripting language that turns text into dia
 verification: security_reviewed
 source: "https://github.com/terrastruct/d2"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "terrastruct/d2"
   github_stars: 23316
-  license: "MPL-2.0"
 ---
 
 # D2 Modern Diagram Scripting Language and CLI

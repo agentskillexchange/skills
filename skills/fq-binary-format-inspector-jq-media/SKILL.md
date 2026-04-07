@@ -4,7 +4,7 @@ description: "fq is a command-line tool that brings jq-style querying to binary 
 verification: security_reviewed
 source: "https://github.com/wader/fq"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

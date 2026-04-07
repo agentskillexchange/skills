@@ -4,13 +4,12 @@ description: "MkDocs is a fast, simple, and elegant static site generator design
 verification: security_reviewed
 source: "https://github.com/mkdocs/mkdocs"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mkdocs/mkdocs"
   github_stars: 21931
-  license: "BSD-2-Clause"
 ---
 
 # MkDocs Project Documentation Generator

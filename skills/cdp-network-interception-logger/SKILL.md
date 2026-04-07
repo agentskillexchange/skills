@@ -4,7 +4,7 @@ description: "Uses Chrome DevTools Protocol Fetch.requestPaused and Network.resp
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

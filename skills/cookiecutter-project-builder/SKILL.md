@@ -4,7 +4,7 @@ description: "Creates project scaffolds from Cookiecutter templates with interac
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

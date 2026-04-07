@@ -4,7 +4,7 @@ description: "Generates custom WordPress Gutenberg block patterns using register
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

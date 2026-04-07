@@ -4,7 +4,7 @@ description: "GitHub’s official Model Context Protocol (MCP) server that conne
 verification: security_reviewed
 source: "https://github.com/github/github-mcp-server"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Automates Kubernetes troubleshooting using kubectl and the Kuberne
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Generates and manages GitHub Actions workflows using the Workflow 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

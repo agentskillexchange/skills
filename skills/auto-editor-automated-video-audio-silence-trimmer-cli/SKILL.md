@@ -4,11 +4,12 @@ description: "Auto-Editor is a command-line application that automatically edits
 verification: security_reviewed
 source: "https://github.com/WyattBlue/auto-editor"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  license: "Unlicense"
+  github_repo: "wyattblue/auto-editor"
+  github_stars: 4089
 ---
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI

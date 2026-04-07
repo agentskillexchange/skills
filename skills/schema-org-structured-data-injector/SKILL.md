@@ -4,7 +4,7 @@ description: "Generates and validates JSON-LD structured data markup for article
 verification: security_reviewed
 source: "https://schema.org/"
 category:
-  - "Content Writing & SEO"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Parses Playwright HTML and JSON test reports and posts structured 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

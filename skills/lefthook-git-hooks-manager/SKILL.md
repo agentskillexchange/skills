@@ -4,13 +4,13 @@ description: "Lefthook is a fast, dependency-free Git hooks manager written in G
 verification: security_reviewed
 source: "https://github.com/evilmartians/lefthook"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "evilmartians/lefthook"
   github_stars: 7894
-  ase_npm_package: "lefthook"
+  npm_package: "lefthook"
   npm_weekly_downloads: 1544173
 ---
 

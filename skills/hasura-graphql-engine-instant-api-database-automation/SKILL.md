@@ -4,7 +4,7 @@ description: "Hasura turns Postgres and other supported data sources into a prod
 verification: security_reviewed
 source: "https://github.com/hasura/graphql-engine"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Audits Dockerfiles for security vulnerabilities using Hadolint and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

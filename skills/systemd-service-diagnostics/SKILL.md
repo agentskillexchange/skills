@@ -4,7 +4,7 @@ description: "Diagnoses systemd service failures using journalctl structured JSO
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/systemd-service-diagnostics/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

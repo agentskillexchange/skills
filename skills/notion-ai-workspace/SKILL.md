@@ -4,7 +4,7 @@ description: "Notion AI Workspace is built around Notion workspace and database 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-ai-workspace/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

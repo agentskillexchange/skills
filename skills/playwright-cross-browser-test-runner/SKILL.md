@@ -4,7 +4,7 @@ description: "Runs end-to-end browser tests using Playwright Test with page.goto
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Enforces code formatting standards using the Prettier API (prettie
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

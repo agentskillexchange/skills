@@ -4,7 +4,7 @@ description: "Enriches HubSpot CRM contacts using the v3 Contacts API with batch
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

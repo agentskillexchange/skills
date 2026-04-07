@@ -4,7 +4,7 @@ description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

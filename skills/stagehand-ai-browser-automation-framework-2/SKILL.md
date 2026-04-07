@@ -4,7 +4,7 @@ description: "Build browser automations with Stagehand, Browserbase’s AI brows
 verification: security_reviewed
 source: "https://github.com/browserbase/stagehand"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Automates migration from ESLint and Prettier to Biome (formerly Ro
 verification: security_reviewed
 source: "https://github.com/biomejs/biome"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Dioxus is a fullstack app framework for Rust that enables building
 verification: security_reviewed
 source: "https://github.com/DioxusLabs/dioxus"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

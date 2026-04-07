@@ -4,7 +4,7 @@ description: "Netlify Site Manager is built around Netlify deployment platform. 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/netlify-site-manager/"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

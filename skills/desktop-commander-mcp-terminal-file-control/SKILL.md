@@ -4,7 +4,7 @@ description: "Desktop Commander is an MCP server that gives AI assistants termin
 verification: security_reviewed
 source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

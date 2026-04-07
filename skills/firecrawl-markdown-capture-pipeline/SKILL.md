@@ -4,7 +4,7 @@ description: "Captures clean site content through Firecrawl endpoints like `/v1/
 verification: security_reviewed
 source: "https://github.com/firecrawl/firecrawl"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Codex"
 tool_ecosystem:

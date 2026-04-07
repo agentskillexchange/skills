@@ -4,7 +4,7 @@ description: "Automate software releases with GoReleaser — build cross-platfor
 verification: security_reviewed
 source: "https://github.com/goreleaser/goreleaser"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

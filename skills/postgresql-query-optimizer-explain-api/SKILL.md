@@ -4,7 +4,7 @@ description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

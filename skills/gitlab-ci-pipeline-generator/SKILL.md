@@ -4,7 +4,7 @@ description: "Creates and manages GitLab CI/CD pipelines via the GitLab REST API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

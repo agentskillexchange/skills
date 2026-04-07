@@ -4,7 +4,7 @@ description: "Langflow is an open-source visual builder for AI agents and workfl
 verification: security_reviewed
 source: "https://github.com/langflow-ai/langflow"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

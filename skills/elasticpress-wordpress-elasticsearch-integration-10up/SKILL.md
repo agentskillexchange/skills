@@ -4,11 +4,12 @@ description: "ElasticPress supercharges WordPress search and queries by integrat
 verification: security_reviewed
 source: "https://github.com/10up/ElasticPress"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  license: "GPL-2.0"
+  github_repo: "10up/elasticpress"
+  github_stars: 1297
 ---
 
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up

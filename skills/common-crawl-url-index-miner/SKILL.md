@@ -4,7 +4,7 @@ description: "Queries the Common Crawl Index API and CC-MAIN collections to surf
 verification: security_reviewed
 source: "https://github.com/commoncrawl/cc-index-table"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

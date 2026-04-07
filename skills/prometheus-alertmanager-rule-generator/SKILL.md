@@ -4,7 +4,7 @@ description: "Generates Prometheus alerting rules and AlertManager routing confi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

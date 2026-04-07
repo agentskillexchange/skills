@@ -4,7 +4,7 @@ description: "Fetches the latest SonarQube project analysis result, explains why
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

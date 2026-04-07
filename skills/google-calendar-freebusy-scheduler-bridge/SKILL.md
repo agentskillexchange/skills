@@ -4,7 +4,7 @@ description: "Coordinates meeting suggestions with the Google Calendar `freeBusy
 verification: security_reviewed
 source: "https://developers.google.com/calendar/api"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

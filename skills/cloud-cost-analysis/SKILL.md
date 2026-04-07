@@ -4,7 +4,7 @@ description: "Cloud Cost Analysis is built around Amazon Web Services cloud APIs
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

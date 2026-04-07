@@ -4,7 +4,7 @@ description: "Generates dynamic GitHub Actions CI/CD matrix strategies using the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-rule-enforcement-agent/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

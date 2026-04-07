@@ -4,7 +4,7 @@ description: "Generates end-to-end test suites using the Playwright Test Runner 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

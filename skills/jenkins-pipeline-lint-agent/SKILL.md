@@ -4,7 +4,7 @@ description: "Validates Jenkinsfile declarative and scripted pipelines using the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

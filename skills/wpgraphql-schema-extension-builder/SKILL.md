@@ -4,7 +4,7 @@ description: "Builds and documents WPGraphQL extensions with hooks such as `grap
 verification: security_reviewed
 source: "https://github.com/wp-graphql/wp-graphql"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

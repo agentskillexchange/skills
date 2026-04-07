@@ -4,7 +4,7 @@ description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipeline
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

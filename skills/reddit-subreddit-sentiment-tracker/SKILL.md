@@ -4,7 +4,7 @@ description: "Uses the Reddit OAuth2 API via PRAW to collect top posts and comme
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

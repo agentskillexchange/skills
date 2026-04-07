@@ -4,11 +4,14 @@ description: "SeleniumBase is a Python framework for browser automation, end-to-
 verification: security_reviewed
 source: "https://github.com/seleniumbase/SeleniumBase"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  license: "MIT"
+  github_repo: "seleniumbase/seleniumbase"
+  github_stars: 12560
+  npm_package: "seleniumbase"
+  npm_weekly_downloads: 18
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework

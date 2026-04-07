@@ -4,7 +4,7 @@ description: "Queries the SonarQube Web API (/api/qualitygates/project_status) t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

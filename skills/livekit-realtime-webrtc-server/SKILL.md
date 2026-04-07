@@ -4,7 +4,7 @@ description: "LiveKit is an open-source, scalable WebRTC-based real-time communi
 verification: security_reviewed
 source: "https://github.com/livekit/livekit"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

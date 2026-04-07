@@ -4,7 +4,7 @@ description: "Audits NPM packages using the NPM Registry API with dependency tre
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

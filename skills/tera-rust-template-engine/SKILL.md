@@ -4,7 +4,7 @@ description: "Tera is a powerful template engine for Rust inspired by Jinja2 and
 verification: security_reviewed
 source: "https://github.com/Keats/tera"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Linear Sprint Planner is built around GraphQL API ecosystem. The u
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/linear-sprint-planner/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

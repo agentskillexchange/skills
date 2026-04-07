@@ -4,7 +4,7 @@ description: "watchexec is a standalone file-watching tool written in Rust that 
 verification: security_reviewed
 source: "https://github.com/watchexec/watchexec"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

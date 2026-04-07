@@ -4,13 +4,13 @@ description: "Manages Plop.js micro-generators to scaffold components, modules, 
 verification: security_reviewed
 source: "https://github.com/plopjs/plop"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7636
-  ase_npm_package: "plop"
+  npm_package: "plop"
   npm_weekly_downloads: 1420765
 ---
 

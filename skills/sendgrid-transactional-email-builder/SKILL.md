@@ -4,7 +4,7 @@ description: "Constructs and sends transactional emails using the SendGrid v3 Ma
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

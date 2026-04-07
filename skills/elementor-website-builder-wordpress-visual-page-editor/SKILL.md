@@ -4,7 +4,7 @@ description: "Elementor is the visual drag-and-drop website builder plugin for W
 verification: security_reviewed
 source: "https://wordpress.org/plugins/elementor/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "pgroll is an open-source CLI tool by Xata that performs zero-downt
 verification: security_reviewed
 source: "https://github.com/xataio/pgroll"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

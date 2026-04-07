@@ -4,7 +4,7 @@ description: "Fetches crate metadata from the crates.io API and docs.rs API for 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

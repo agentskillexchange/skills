@@ -4,7 +4,7 @@ description: "Metrics Dashboard Builder is built around Datadog observability pl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/metrics-dashboard-builder/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

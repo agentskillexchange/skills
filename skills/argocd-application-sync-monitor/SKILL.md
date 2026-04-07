@@ -4,7 +4,7 @@ description: "Monitors ArgoCD application sync status via the ArgoCD REST API an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-application-sync-monitor/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

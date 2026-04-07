@@ -4,7 +4,7 @@ description: "Composes multi-stage CircleCI pipelines using reusable Orbs and th
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

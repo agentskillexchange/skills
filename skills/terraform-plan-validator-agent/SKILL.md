@@ -4,7 +4,7 @@ description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov.
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

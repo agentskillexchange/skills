@@ -4,7 +4,7 @@ description: "Validates CircleCI configuration files and custom Orbs using the C
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-linter/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

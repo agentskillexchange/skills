@@ -4,7 +4,7 @@ description: "Runs OWASP ZAP active security scans via the ZAP API daemon with c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

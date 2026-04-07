@@ -4,7 +4,7 @@ description: "Monitors SonarQube project quality gates via the Web API and block
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

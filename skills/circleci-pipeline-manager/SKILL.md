@@ -4,7 +4,7 @@ description: "Configure and trigger CircleCI pipelines using the CircleCI v2 API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-pipeline-manager/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

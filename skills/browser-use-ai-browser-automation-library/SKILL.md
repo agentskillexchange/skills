@@ -4,13 +4,12 @@ description: "Automates browser tasks with Browser Use, the open-source library 
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 85193
-  license: "MIT"
 ---
 
 # Browser Use AI Browser Automation Library

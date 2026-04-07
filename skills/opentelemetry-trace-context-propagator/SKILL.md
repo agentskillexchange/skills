@@ -4,7 +4,7 @@ description: "Implements W3C TraceContext and Baggage propagation using the Open
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

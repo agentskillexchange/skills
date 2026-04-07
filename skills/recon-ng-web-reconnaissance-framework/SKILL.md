@@ -4,7 +4,7 @@ description: "Recon-ng is a full-featured modular reconnaissance framework writt
 verification: security_reviewed
 source: "https://github.com/lanmaster53/recon-ng"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

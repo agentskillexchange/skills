@@ -4,7 +4,7 @@ description: "Manages WordPress theme.json design tokens including color palette
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

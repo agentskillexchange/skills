@@ -4,7 +4,7 @@ description: "Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate 
 verification: security_reviewed
 source: "https://github.com/oven-sh/bun"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Codex"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Angular is a TypeScript-based web application platform by Google p
 verification: listed
 source: "https://github.com/angular/angular"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

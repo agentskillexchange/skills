@@ -4,7 +4,7 @@ description: "Run Claude Code as a one-shot MCP tool so other agents and editors
 verification: security_reviewed
 source: "https://github.com/steipete/claude-code-mcp"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
   - "MCP"

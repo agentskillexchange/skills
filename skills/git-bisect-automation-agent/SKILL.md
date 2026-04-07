@@ -4,7 +4,7 @@ description: "Automates git bisect workflows to find regression-introducing comm
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/git-bisect-automation-agent/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

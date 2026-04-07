@@ -4,7 +4,7 @@ description: "Checkov IaC Scanner is built around Kubernetes orchestration platf
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/checkov-iac-scanner/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

@@ -4,13 +4,12 @@ description: "Ghostty is a fast, feature-rich, cross-platform terminal emulator 
 verification: security_reviewed
 source: "https://github.com/ghostty-org/ghostty"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ghostty-org/ghostty"
   github_stars: 49204
-  license: "MIT"
 ---
 
 # Ghostty Fast Native Terminal Emulator with GPU Acceleration

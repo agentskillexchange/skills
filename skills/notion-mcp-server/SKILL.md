@@ -4,13 +4,13 @@ description: "Notion MCP Server is built around Notion workspace and database pl
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5574
-  ase_npm_package: "@notionhq/client"
+  npm_package: "@notionhq/client"
   npm_weekly_downloads: 1110418
 ---
 

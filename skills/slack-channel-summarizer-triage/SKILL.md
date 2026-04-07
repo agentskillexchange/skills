@@ -4,7 +4,7 @@ description: "Connects to the Slack Web API to fetch unread messages across spec
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-triage/"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

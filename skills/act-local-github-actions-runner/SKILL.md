@@ -4,7 +4,7 @@ description: "act is an open-source CLI tool that runs GitHub Actions workflows 
 verification: security_reviewed
 source: "https://github.com/nektos/act"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

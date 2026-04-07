@@ -4,13 +4,12 @@ description: "Rclone is an open-source command-line program to sync files and di
 verification: security_reviewed
 source: "https://github.com/rclone/rclone"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rclone/rclone"
   github_stars: 56382
-  license: "MIT"
 ---
 
 # Rclone Cloud Storage Sync and Management CLI

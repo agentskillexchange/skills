@@ -4,7 +4,7 @@ description: "Validates Tekton pipeline supply chain security using Sigstore cos
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

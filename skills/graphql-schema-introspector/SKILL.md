@@ -4,7 +4,7 @@ description: "Performs GraphQL schema introspection using the graphql-js referen
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-introspector/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

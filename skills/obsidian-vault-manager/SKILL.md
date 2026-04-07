@@ -4,7 +4,7 @@ description: "Obsidian Vault Manager is built around HashiCorp Vault secrets pla
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/obsidian-vault-manager/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Searches and evaluates Terraform modules from the HashiCorp Regist
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

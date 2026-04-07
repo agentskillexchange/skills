@@ -4,7 +4,7 @@ description: "Glow is a terminal-based markdown reader by Charm that renders mar
 verification: security_reviewed
 source: "https://github.com/charmbracelet/glow"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

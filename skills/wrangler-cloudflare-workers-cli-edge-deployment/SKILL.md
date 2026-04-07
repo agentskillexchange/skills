@@ -4,7 +4,7 @@ description: "Wrangler is the official command-line tool for building, testing, 
 verification: security_reviewed
 source: "https://github.com/cloudflare/workers-sdk"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

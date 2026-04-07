@@ -4,7 +4,7 @@ description: "Calls Adobe Firefly’s text-to-image and generative fill APIs for
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

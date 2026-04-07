@@ -4,7 +4,7 @@ description: "Umami is a modern, privacy-focused, open-source web analytics plat
 verification: security_reviewed
 source: "https://github.com/umami-software/umami"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

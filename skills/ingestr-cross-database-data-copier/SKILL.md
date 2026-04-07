@@ -4,8 +4,7 @@ description: "Copy data between any databases with a single CLI command using In
 verification: security_reviewed
 source: "https://github.com/bruin-data/ingestr"
 category:
-  - "Data Extraction & Transformation"
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "Claude Code"
   - "OpenClaw"

@@ -4,7 +4,7 @@ description: "Falco Runtime Security is built around Kubernetes orchestration pl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/falco-runtime-security/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

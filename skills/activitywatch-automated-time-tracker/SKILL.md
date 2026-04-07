@@ -4,7 +4,7 @@ description: "ActivityWatch is a privacy-first, open-source automated time track
 verification: security_reviewed
 source: "https://github.com/ActivityWatch/activitywatch"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

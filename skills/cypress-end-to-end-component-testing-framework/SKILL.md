@@ -4,7 +4,7 @@ description: "Cypress is an open-source browser testing framework for end-to-end
 verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

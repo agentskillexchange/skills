@@ -4,7 +4,7 @@ description: "Automates visual regression testing using the Playwright screensho
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

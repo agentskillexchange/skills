@@ -4,7 +4,7 @@ description: "GitLab CI Integration is built around GitLab DevSecOps platform. T
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-integration-2/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

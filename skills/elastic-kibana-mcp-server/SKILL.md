@@ -4,7 +4,7 @@ description: "Elastic / Kibana MCP Server is built around Elasticsearch search a
 verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

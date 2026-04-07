@@ -4,7 +4,7 @@ description: "Gitleaks is an open-source SAST tool for detecting hardcoded secre
 verification: security_reviewed
 source: "https://github.com/gitleaks/gitleaks"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

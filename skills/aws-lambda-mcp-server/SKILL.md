@@ -4,7 +4,7 @@ description: "AWS Lambda MCP Server is built around Amazon Web Services cloud AP
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

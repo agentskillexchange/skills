@@ -4,7 +4,7 @@ description: "Agent access to Slack conversations and workspace workflows."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "Claude Code"
   - "Cursor"

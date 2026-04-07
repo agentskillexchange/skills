@@ -4,7 +4,7 @@ description: "browser-use is an open-source Python framework for letting AI agen
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

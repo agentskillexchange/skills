@@ -4,7 +4,7 @@ description: "Stagehand is an open-source browser automation framework that comb
 verification: security_reviewed
 source: "https://github.com/browserbase/stagehand"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

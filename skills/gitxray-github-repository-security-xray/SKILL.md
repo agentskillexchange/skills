@@ -4,7 +4,7 @@ description: "A multifaceted OSINT and forensics tool for GitHub repositories th
 verification: security_reviewed
 source: "https://github.com/kulkansecurity/gitxray"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

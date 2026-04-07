@@ -4,7 +4,7 @@ description: "Validates and optimizes .gitlab-ci.yml configurations using the Gi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

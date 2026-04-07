@@ -4,7 +4,7 @@ description: "Scans CircleCI config.yml for orb version conflicts and breaking c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-checker/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

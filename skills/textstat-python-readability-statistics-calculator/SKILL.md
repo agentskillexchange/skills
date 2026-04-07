@@ -4,7 +4,7 @@ description: "textstat is a Python package that calculates readability statistic
 verification: security_reviewed
 source: "https://github.com/textstat/textstat"
 category:
-  - "Content Writing & SEO"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

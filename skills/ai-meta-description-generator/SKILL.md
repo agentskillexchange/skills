@@ -4,7 +4,7 @@ description: "Bulk-generates SEO meta descriptions from page content using OpenA
 verification: security_reviewed
 source: "https://platform.openai.com/docs/api-reference"
 category:
-  - "Content Writing & SEO"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

@@ -4,13 +4,12 @@ description: "smolagents is HuggingFace’s barebones Python library for buildin
 verification: security_reviewed
 source: "https://github.com/huggingface/smolagents"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355
-  license: "Apache-2.0"
 ---
 
 # smolagents Code-First AI Agent Library

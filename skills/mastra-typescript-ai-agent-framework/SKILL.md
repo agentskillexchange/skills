@@ -4,13 +4,13 @@ description: "Mastra is an open-source TypeScript framework for building AI-powe
 verification: security_reviewed
 source: "https://github.com/mastra-ai/mastra"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "mastra-ai/mastra"
   github_stars: 22557
-  ase_npm_package: "mastra"
+  npm_package: "mastra"
   npm_weekly_downloads: 276083
 ---
 

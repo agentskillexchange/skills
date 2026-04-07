@@ -4,7 +4,7 @@ description: "Generates optimized Ruff configuration from existing Flake8, isort
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

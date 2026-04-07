@@ -4,7 +4,7 @@ description: "Conftest is a CLI tool that tests structured configuration data us
 verification: security_reviewed
 source: "https://github.com/open-policy-agent/conftest"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

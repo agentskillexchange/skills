@@ -4,7 +4,7 @@ description: "Jenkins MCP Server is built around Jenkins automation server. The 
 verification: security_reviewed
 source: "https://github.com/jenkinsci/jenkins"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

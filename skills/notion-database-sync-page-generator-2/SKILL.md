@@ -4,7 +4,7 @@ description: "Reads from and writes to Notion databases using the official Notio
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

@@ -4,11 +4,12 @@ description: "Unstructured is an open-source library for ingesting and partition
 verification: security_reviewed
 source: "https://github.com/Unstructured-IO/unstructured"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  license: "Apache-2.0"
+  github_repo: "unstructured-io/unstructured"
+  github_stars: 14390
 ---
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines

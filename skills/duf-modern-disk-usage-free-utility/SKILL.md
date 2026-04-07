@@ -4,7 +4,7 @@ description: "duf is a modern disk usage/free utility written in Go that provide
 verification: security_reviewed
 source: "https://github.com/muesli/duf"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

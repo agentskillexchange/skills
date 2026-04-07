@@ -4,7 +4,7 @@ description: "Queue Backup Runbook is built around Apache Kafka event streaming 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

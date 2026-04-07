@@ -4,7 +4,7 @@ description: "Hurl is a command-line tool for running and testing HTTP requests 
 verification: security_reviewed
 source: "https://github.com/Orange-OpenSource/hurl"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

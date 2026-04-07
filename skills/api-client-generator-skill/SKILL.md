@@ -4,7 +4,7 @@ description: "API Client Generator Skill is built around Swagger/OpenAPI tooling
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/api-client-generator-skill/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

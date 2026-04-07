@@ -4,13 +4,12 @@ description: "librosa is a Python library for audio and music analysis. It provi
 verification: security_reviewed
 source: "https://github.com/librosa/librosa"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "librosa/librosa"
   github_stars: 8294
-  license: "ISC"
 ---
 
 # librosa Python Audio and Music Analysis Library

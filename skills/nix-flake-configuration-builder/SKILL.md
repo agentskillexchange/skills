@@ -4,7 +4,7 @@ description: "Generates reproducible Nix flake configurations with devShell envi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

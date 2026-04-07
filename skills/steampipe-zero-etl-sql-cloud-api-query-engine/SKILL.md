@@ -4,7 +4,7 @@ description: "Query cloud APIs, SaaS services, and infrastructure with standard 
 verification: security_reviewed
 source: "https://github.com/turbot/steampipe"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

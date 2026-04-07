@@ -4,7 +4,7 @@ description: "DevDocs aggregates 500+ API documentation sets into a single searc
 verification: security_reviewed
 source: "https://github.com/freeCodeCamp/devdocs"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

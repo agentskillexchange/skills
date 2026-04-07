@@ -4,7 +4,7 @@ description: "An official MCP server that connects Supabase projects to AI assis
 verification: security_reviewed
 source: "https://github.com/supabase-community/supabase-mcp"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

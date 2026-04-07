@@ -4,7 +4,7 @@ description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

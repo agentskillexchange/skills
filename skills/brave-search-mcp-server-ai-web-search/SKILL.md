@@ -4,7 +4,7 @@ description: "The official Brave Search MCP server integrates the Brave Search A
 verification: security_reviewed
 source: "https://github.com/brave/brave-search-mcp-server"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

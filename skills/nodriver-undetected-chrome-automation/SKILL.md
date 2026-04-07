@@ -4,7 +4,7 @@ description: "Nodriver is the official successor to Undetected-Chromedriver, pro
 verification: security_reviewed
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

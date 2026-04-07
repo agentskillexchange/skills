@@ -4,7 +4,7 @@ description: "Rspack is a blazing-fast JavaScript bundler written in Rust with f
 verification: security_reviewed
 source: "https://github.com/web-infra-dev/rspack"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

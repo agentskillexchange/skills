@@ -4,7 +4,7 @@ description: "git-cliff generates changelog files from Git history using convent
 verification: security_reviewed
 source: "https://github.com/orhun/git-cliff"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

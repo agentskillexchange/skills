@@ -4,13 +4,12 @@ description: "Bedrock is a WordPress boilerplate with Composer-based dependency 
 verification: security_reviewed
 source: "https://github.com/roots/bedrock"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "roots/bedrock"
   github_stars: 6498
-  license: "MIT"
 ---
 
 # Bedrock Modern WordPress Project Boilerplate by Roots

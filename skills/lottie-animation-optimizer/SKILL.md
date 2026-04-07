@@ -4,7 +4,7 @@ description: "Analyzes and optimizes Lottie JSON animation files using lottie-we
 verification: security_reviewed
 source: "https://github.com/airbnb/lottie-web"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

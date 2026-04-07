@@ -4,7 +4,7 @@ description: "Freeze by Charmbracelet generates polished PNG and SVG images of c
 verification: security_reviewed
 source: "https://github.com/charmbracelet/freeze"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

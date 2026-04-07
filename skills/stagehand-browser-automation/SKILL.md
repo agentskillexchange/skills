@@ -4,7 +4,7 @@ description: "Stagehand is Browserbase’s AI browser automation framework for m
 verification: security_reviewed
 source: "https://github.com/browserbase/stagehand"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

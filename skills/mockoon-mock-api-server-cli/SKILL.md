@@ -4,7 +4,7 @@ description: "Mockoon is the fastest way to run mock REST APIs locally. It provi
 verification: security_reviewed
 source: "https://github.com/mockoon/mockoon"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

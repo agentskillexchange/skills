@@ -4,7 +4,7 @@ description: "Monitors Checkly browser checks via the Checkly Management API and
 verification: security_reviewed
 source: "https://github.com/checkly/checkly-cli"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "K9s is a terminal-based UI for managing Kubernetes clusters, provi
 verification: security_reviewed
 source: "https://github.com/derailed/k9s"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Controls Rive (.riv) interactive animations at runtime using @rive
 verification: security_reviewed
 source: "https://github.com/rive-app/rive-react"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

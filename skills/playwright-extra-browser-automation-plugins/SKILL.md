@@ -4,7 +4,7 @@ description: "Playwright Extra adds a plugin layer on top of Microsoft Playwrigh
 verification: security_reviewed
 source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

@@ -4,13 +4,13 @@ description: "Write better shell scripts in JavaScript using Google’s zx. Prov
 verification: security_reviewed
 source: "https://github.com/google/zx"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "google/zx"
   github_stars: 45324
-  ase_npm_package: "zx"
+  npm_package: "zx"
   npm_weekly_downloads: 1590527
 ---
 

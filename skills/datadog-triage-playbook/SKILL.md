@@ -4,7 +4,7 @@ description: "Automates alert triage using the Datadog Monitors API v2 and Noteb
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-triage-playbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

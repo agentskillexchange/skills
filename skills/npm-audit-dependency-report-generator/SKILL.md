@@ -4,7 +4,7 @@ description: "Generates comprehensive vulnerability reports from npm audit JSON 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

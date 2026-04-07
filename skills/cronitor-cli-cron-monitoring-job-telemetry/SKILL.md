@@ -4,7 +4,7 @@ description: "CronitorCLI is Cronitor’s open-source command-line tool for sync
 verification: security_reviewed
 source: "https://github.com/cronitorio/cronitor-cli"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

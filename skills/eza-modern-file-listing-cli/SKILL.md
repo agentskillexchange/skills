@@ -4,7 +4,7 @@ description: "A modern, maintained replacement for the ls command, written in Ru
 verification: security_reviewed
 source: "https://github.com/eza-community/eza"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

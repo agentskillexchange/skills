@@ -4,7 +4,7 @@ description: "Scaffolds custom Gutenberg blocks using the @wordpress/create-bloc
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

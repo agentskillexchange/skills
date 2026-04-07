@@ -4,7 +4,7 @@ description: "Generates optimized GitHub Actions workflow matrices using the act
 verification: security_reviewed
 source: "https://github.com/actions/setup-node"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

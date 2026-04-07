@@ -4,7 +4,7 @@ description: "Extracts embedded subtitles from video containers using FFmpeg’s
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Gemini"
 tool_ecosystem:

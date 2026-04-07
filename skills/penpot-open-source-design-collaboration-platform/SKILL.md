@@ -4,7 +4,7 @@ description: "Penpot is an open-source design and prototyping platform built for
 verification: security_reviewed
 source: "https://github.com/penpot/penpot"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

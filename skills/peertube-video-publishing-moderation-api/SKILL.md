@@ -4,7 +4,7 @@ description: "Uses PeerTube’s REST API and federation-aware platform features 
 verification: security_reviewed
 source: "https://github.com/Chocobozzz/PeerTube"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Observability and debugging support for AI-assisted application wo
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry-for-ai"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Claude Code"
   - "Cursor"

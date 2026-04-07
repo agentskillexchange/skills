@@ -4,7 +4,7 @@ description: "Builds multi-service Docker Compose stacks using Docker Engine SDK
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

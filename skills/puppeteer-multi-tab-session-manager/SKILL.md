@@ -4,7 +4,7 @@ description: "Manages concurrent Puppeteer browser tabs with shared cookie jars 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

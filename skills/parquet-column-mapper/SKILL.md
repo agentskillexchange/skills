@@ -4,7 +4,7 @@ description: "Reads and transforms Apache Parquet file metadata and column stati
 verification: listed
 source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

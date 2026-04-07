@@ -4,13 +4,12 @@ description: "Browsertrix Crawler is a browser-based crawling system from Webrec
 verification: security_reviewed
 source: "https://github.com/webrecorder/browsertrix-crawler"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "webrecorder/browsertrix-crawler"
   github_stars: 1013
-  license: "AGPL-3.0"
 ---
 
 # Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler

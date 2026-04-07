@@ -4,7 +4,7 @@ description: "Detects keyword cannibalization issues using Google Search Console
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/"
 category:
-  - "Content Writing & SEO"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

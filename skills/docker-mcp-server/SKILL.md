@@ -4,7 +4,7 @@ description: "Docker MCP Server is built around Docker container platform. The u
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-mcp-server/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

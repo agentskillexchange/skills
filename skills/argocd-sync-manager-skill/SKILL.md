@@ -4,7 +4,7 @@ description: "Manages ArgoCD application syncs via the ArgoCD REST API /api/v1/a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-manager-skill/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

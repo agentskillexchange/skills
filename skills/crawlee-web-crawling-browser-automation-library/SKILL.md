@@ -4,15 +4,14 @@ description: "Builds scalable web collection pipelines with Crawlee, Apify’s o
 verification: security_reviewed
 source: "https://github.com/apify/crawlee"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22591
-  ase_npm_package: "crawlee"
+  npm_package: "crawlee"
   npm_weekly_downloads: 77611
-  license: "Apache-2.0"
 ---
 
 # Crawlee Web Crawling and Browser Automation Library

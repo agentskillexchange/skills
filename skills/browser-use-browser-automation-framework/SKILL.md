@@ -4,13 +4,12 @@ description: "Use browser-use to turn natural-language web tasks into repeatable
 verification: security_reviewed
 source: "https://github.com/browser-use/browser-use"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 85193
-  license: "MIT"
 ---
 
 # browser-use Browser Automation Framework

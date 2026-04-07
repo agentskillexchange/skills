@@ -4,7 +4,7 @@ description: "KICS IaC Linter is built around Kubernetes orchestration platform.
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kics-iac-linter/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

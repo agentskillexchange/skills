@@ -4,7 +4,7 @@ description: "Maigret collects a dossier on a person by username only, checking 
 verification: security_reviewed
 source: "https://github.com/soxoj/maigret"
 category:
-  - "Research & Scraping"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

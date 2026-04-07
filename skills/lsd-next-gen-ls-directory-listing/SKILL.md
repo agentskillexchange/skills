@@ -4,7 +4,7 @@ description: "lsd (LSDeluxe) is a modern rewrite of the classic ls command writt
 verification: security_reviewed
 source: "https://github.com/lsd-rs/lsd"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:

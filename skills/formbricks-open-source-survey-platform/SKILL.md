@@ -4,7 +4,7 @@ description: "Formbricks is an open-source survey and experience-management plat
 verification: security_reviewed
 source: "https://github.com/formbricks/formbricks"
 category:
-  - "Integrations & Connectors"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

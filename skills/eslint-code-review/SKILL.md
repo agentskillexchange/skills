@@ -4,13 +4,13 @@ description: "ESLint Code Review is built around ESLint static analysis for Java
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27141
-  ase_npm_package: "eslint"
+  npm_package: "eslint"
   npm_weekly_downloads: 110308282
 ---
 

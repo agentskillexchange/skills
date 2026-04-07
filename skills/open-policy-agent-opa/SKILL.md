@@ -4,7 +4,7 @@ description: "Open Policy Agent (OPA) is built around Kubernetes orchestration p
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/open-policy-agent-opa/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

@@ -4,7 +4,7 @@ description: "Open WebUI is an extensible, feature-rich, and user-friendly self-
 verification: security_reviewed
 source: "https://github.com/open-webui/open-webui"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

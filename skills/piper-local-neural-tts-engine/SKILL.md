@@ -4,13 +4,12 @@ description: "Run fast, high-quality neural text-to-speech locally with Piper. S
 verification: security_reviewed
 source: "https://github.com/rhasspy/piper"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741
-  license: "MIT"
 ---
 
 # Piper Local Neural Text-to-Speech Engine

@@ -4,7 +4,7 @@ description: "Wails is an open source framework for building desktop application
 verification: security_reviewed
 source: "https://github.com/wailsapp/wails"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

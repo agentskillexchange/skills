@@ -4,7 +4,7 @@ description: "Compiles and links WebAssembly components using the WASI Preview 2
 verification: security_reviewed
 source: "https://github.com/WebAssembly/component-model"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Gemini"
 tool_ecosystem:

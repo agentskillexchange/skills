@@ -4,7 +4,7 @@ description: "Generates and validates Prometheus alerting rules from natural lan
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

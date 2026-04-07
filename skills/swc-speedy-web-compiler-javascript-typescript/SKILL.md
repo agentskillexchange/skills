@@ -4,7 +4,7 @@ description: "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScrip
 verification: security_reviewed
 source: "https://github.com/swc-project/swc"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

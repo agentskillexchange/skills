@@ -4,7 +4,7 @@ description: "Generates Playwright test scripts for Chromium, Firefox, and WebKi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

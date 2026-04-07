@@ -4,15 +4,14 @@ description: "Use Browserbase when an agent needs hosted browser sessions, remot
 verification: security_reviewed
 source: "https://github.com/browserbase/sdk-node"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61
-  ase_npm_package: "@browserbasehq/sdk"
+  npm_package: "@browserbasehq/sdk"
   npm_weekly_downloads: 760166
-  license: "Apache-2.0"
 ---
 
 # Browserbase Session Automation API and SDK

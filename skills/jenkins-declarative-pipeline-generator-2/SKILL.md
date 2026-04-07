@@ -4,7 +4,7 @@ description: "Generates Jenkins Declarative Pipelines using the Pipeline Model D
 verification: security_reviewed
 source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 tool_ecosystem:

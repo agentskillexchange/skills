@@ -4,7 +4,7 @@ description: "Tarsier is a Python library by Reworkd that provides vision utilit
 verification: security_reviewed
 source: "https://github.com/reworkd/tarsier"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

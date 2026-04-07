@@ -4,7 +4,7 @@ description: "Audits npm dependencies for supply chain risks using npm audit, So
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

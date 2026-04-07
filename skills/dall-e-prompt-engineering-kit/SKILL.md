@@ -4,7 +4,7 @@ description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/g
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/"
 category:
-  - "Image & Creative Automation"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

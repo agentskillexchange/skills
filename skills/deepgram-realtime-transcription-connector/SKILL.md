@@ -4,7 +4,7 @@ description: "Streams live audio to Deepgram’s WebSocket API at wss://api.deep
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

@@ -4,13 +4,13 @@ description: "Scaffolds Cypress component tests for React, Vue, and Angular apps
 verification: security_reviewed
 source: "https://github.com/cypress-io/cypress"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49613
-  ase_npm_package: "cypress"
+  npm_package: "cypress"
 ---
 
 # Cypress Component Testing Framework

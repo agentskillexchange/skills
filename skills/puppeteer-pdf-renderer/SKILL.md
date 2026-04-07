@@ -4,7 +4,7 @@ description: "Generates pixel-perfect PDFs from web pages using Puppeteer with c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Cursor"
 ---

@@ -4,7 +4,7 @@ description: "Devbox by Jetify creates instant, isolated development environment
 verification: security_reviewed
 source: "https://github.com/jetify-com/devbox"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

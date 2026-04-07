@@ -4,7 +4,7 @@ description: "Automates WordPress Multisite network site creation using wp_inser
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

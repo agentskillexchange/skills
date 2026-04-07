@@ -4,7 +4,7 @@ description: "Runs Semgrep static analysis with custom rule packs targeting OWAS
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

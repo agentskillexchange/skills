@@ -4,7 +4,7 @@ description: "Dive is a CLI tool for exploring Docker image layers, analyzing fi
 verification: security_reviewed
 source: "https://github.com/wagoodman/dive"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

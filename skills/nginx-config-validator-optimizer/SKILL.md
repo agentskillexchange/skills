@@ -4,7 +4,7 @@ description: "Parses nginx.conf and included config files using the crossplane P
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-config-validator-optimizer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

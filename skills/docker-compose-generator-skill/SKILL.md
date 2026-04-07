@@ -4,7 +4,7 @@ description: "Docker Compose Generator Skill is built around Docker container pl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docker-compose-generator-skill/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

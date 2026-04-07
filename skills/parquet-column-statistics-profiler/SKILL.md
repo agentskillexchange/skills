@@ -4,7 +4,7 @@ description: "Profiles Apache Parquet files using pyarrow metadata APIs to extra
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-column-statistics-profiler/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

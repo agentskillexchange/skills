@@ -4,7 +4,7 @@ description: "The Google Workspace MCP Server provides comprehensive natural lan
 verification: security_reviewed
 source: "https://github.com/taylorwilsdon/google_workspace_mcp"
 category:
-  - "Calendar, Email & Productivity"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

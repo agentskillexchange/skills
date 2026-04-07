@@ -4,7 +4,7 @@ description: "Validates and optimizes CircleCI configuration files using the Cir
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-config-validator/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

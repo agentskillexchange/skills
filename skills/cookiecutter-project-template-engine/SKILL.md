@@ -4,7 +4,7 @@ description: "Manages and instantiates Cookiecutter project templates with dynam
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-template-engine/"
 category:
-  - "Templates & Workflows"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

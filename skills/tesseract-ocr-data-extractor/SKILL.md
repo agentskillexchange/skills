@@ -4,7 +4,7 @@ description: "Extracts structured data from scanned documents using Tesseract OC
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

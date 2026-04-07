@@ -4,7 +4,7 @@ description: "Extract structured intelligence from audio using the AssemblyAI AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
 category:
-  - "Media & Transcription"
+  - "Uncategorized"
 framework:
   - "MCP"
 ---

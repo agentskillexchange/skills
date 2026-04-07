@@ -4,7 +4,7 @@ description: "Generates custom ESLint rules from natural language descriptions u
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/eslint-rule-generator-agent/"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

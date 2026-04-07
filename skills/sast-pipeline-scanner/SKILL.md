@@ -4,7 +4,7 @@ description: "Runs static application security testing using Semgrep rules and C
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

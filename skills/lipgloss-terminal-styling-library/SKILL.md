@@ -4,7 +4,7 @@ description: "Lip Gloss by Charmbracelet is a Go library that brings CSS-like de
 verification: security_reviewed
 source: "https://github.com/charmbracelet/lipgloss"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

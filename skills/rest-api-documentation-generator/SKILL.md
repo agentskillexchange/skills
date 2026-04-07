@@ -4,7 +4,7 @@ description: "Generates interactive API documentation from code annotations usin
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 ---

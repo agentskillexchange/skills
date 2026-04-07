@@ -4,7 +4,7 @@ description: "AWS S3 MCP Server is built around Amazon Web Services cloud APIs. 
 verification: security_reviewed
 source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

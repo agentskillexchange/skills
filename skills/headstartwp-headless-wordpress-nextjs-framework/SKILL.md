@@ -4,7 +4,7 @@ description: "HeadstartWP is 10up’s open-source framework for building headles
 verification: security_reviewed
 source: "https://github.com/10up/headstartwp"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

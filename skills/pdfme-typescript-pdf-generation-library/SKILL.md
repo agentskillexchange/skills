@@ -4,7 +4,7 @@ description: "pdfme is an open-source TypeScript and React library for generatin
 verification: security_reviewed
 source: "https://github.com/pdfme/pdfme"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

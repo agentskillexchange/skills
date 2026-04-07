@@ -4,15 +4,14 @@ description: "Docusaurus is an open-source static site generator built with Reac
 verification: security_reviewed
 source: "https://github.com/facebook/docusaurus"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/docusaurus"
   github_stars: 64315
-  ase_npm_package: "docusaurus"
+  npm_package: "docusaurus"
   npm_weekly_downloads: 22084
-  license: "MIT"
 ---
 
 # Docusaurus React Documentation Framework by Meta

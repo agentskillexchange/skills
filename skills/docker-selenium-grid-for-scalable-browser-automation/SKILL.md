@@ -4,13 +4,12 @@ description: "docker-selenium packages Selenium Grid into ready-to-run container
 verification: security_reviewed
 source: "https://github.com/SeleniumHQ/docker-selenium"
 category:
-  - "Browser Automation"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SeleniumHQ/docker-selenium"
   github_stars: 8614
-  license: "Apache-2.0"
 ---
 
 # Docker Selenium Grid for Scalable Browser Automation

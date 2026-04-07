@@ -4,7 +4,7 @@ description: "Retrieves and indexes Python package documentation from PyPI metad
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/python-package-docs-fetcher/"
 category:
-  - "Library & API Reference"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

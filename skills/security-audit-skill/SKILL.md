@@ -4,7 +4,7 @@ description: "Security Audit Skill is built around OWASP security tooling ecosys
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/security-audit-skill/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 ---

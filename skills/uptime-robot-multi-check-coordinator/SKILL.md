@@ -4,7 +4,7 @@ description: "Manages bulk uptime monitoring via the Uptime Robot API v2. Create
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

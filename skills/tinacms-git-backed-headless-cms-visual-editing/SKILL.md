@@ -4,13 +4,13 @@ description: "TinaCMS is a fully open-source headless CMS backed by Git that sup
 verification: security_reviewed
 source: "https://github.com/tinacms/tinacms"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tinacms/tinacms"
   github_stars: 13245
-  ase_npm_package: "tinacms"
+  npm_package: "tinacms"
   npm_weekly_downloads: 87033
 ---
 

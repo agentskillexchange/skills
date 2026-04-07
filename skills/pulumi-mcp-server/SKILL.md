@@ -4,7 +4,7 @@ description: "Pulumi MCP Server is built around Pulumi infrastructure as code pl
 verification: security_reviewed
 source: "https://github.com/pulumi/pulumi"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "MCP"
 tool_ecosystem:

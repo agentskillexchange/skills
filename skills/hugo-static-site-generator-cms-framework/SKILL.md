@@ -4,13 +4,12 @@ description: "Hugo is the fastest static site generator written in Go, rendering
 verification: security_reviewed
 source: "https://github.com/gohugoio/hugo"
 category:
-  - "WordPress & CMS"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gohugoio/hugo"
   github_stars: 87352
-  license: "Apache-2.0"
 ---
 
 # Hugo Fast Static Site Generator and CMS Framework

@@ -4,7 +4,7 @@ description: "Biome is a high-performance Rust-based toolchain for JavaScript, T
 verification: security_reviewed
 source: "https://github.com/biomejs/biome"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 ---

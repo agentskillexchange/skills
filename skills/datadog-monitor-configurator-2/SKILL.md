@@ -4,7 +4,7 @@ description: "Manages Datadog monitors and dashboards via the Datadog REST API v
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

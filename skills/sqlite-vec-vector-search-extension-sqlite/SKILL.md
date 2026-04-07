@@ -4,13 +4,13 @@ description: "sqlite-vec is a lightweight SQLite extension for vector similarity
 verification: security_reviewed
 source: "https://github.com/asg017/sqlite-vec"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "asg017/sqlite-vec"
   github_stars: 7331
-  ase_npm_package: "sqlite-vec"
+  npm_package: "sqlite-vec"
   npm_weekly_downloads: 1485498
 ---
 

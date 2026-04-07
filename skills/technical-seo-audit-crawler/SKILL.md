@@ -4,7 +4,7 @@ description: "Crawls websites for technical SEO issues using Screaming Frog CLI,
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
 category:
-  - "Content Writing & SEO"
+  - "Uncategorized"
 framework:
   - "OpenClaw"
 ---

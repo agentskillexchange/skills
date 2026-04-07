@@ -4,7 +4,7 @@ description: "A syntax-highlighting pager for git diff, grep, and blame output b
 verification: security_reviewed
 source: "https://github.com/dandavison/delta"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

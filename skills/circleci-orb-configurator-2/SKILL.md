@@ -4,7 +4,7 @@ description: "Builds and validates CircleCI orb configurations using the CircleC
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-configurator-2/"
 category:
-  - "CI/CD Integrations"
+  - "Uncategorized"
 framework:
   - "Claude Agents"
 ---

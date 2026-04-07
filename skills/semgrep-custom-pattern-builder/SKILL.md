@@ -4,7 +4,7 @@ description: "Builds custom Semgrep rules using the Semgrep pattern syntax and s
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/"
 category:
-  - "Code Quality & Review"
+  - "Uncategorized"
 framework:
   - "Codex"
 ---

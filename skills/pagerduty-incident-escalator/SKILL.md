@@ -4,7 +4,7 @@ description: "Manages PagerDuty incident lifecycle using the PagerDuty REST API 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-escalator/"
 category:
-  - "Monitoring & Alerts"
+  - "Uncategorized"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Automates OWASP ZAP scans against REST APIs using the ZAP Python A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-scanner/"
 category:
-  - "Security & Verification"
+  - "Uncategorized"
 framework:
   - "Gemini"
 ---

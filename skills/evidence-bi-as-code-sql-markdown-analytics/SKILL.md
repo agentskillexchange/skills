@@ -4,7 +4,7 @@ description: "Evidence is an open-source framework for building data products wi
 verification: security_reviewed
 source: "https://github.com/evidence-dev/evidence"
 category:
-  - "Data Extraction & Transformation"
+  - "Uncategorized"
 framework:
   - "Claude Code"
 tool_ecosystem:

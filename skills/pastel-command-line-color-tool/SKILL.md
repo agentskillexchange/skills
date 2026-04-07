@@ -4,13 +4,12 @@ description: "pastel is a command-line tool for generating, analyzing, convertin
 verification: security_reviewed
 source: "https://github.com/sharkdp/pastel"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sharkdp/pastel"
   github_stars: 6301
-  license: "Apache-2.0"
 ---
 
 # pastel Command-Line Color Generation Analysis and Manipulation Tool

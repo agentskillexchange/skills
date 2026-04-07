@@ -4,7 +4,7 @@ description: "AutoGen is Microsoft’s open-source framework for building multi-
 verification: listed
 source: "https://github.com/microsoft/autogen"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

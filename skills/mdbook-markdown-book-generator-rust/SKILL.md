@@ -4,11 +4,12 @@ description: "mdBook is a command-line utility for creating online books from Ma
 verification: security_reviewed
 source: "https://github.com/rust-lang/mdBook"
 category:
-  - "Developer Tools"
+  - "Uncategorized"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  license: "MPL-2.0"
+  github_repo: "rust-lang/mdbook"
+  github_stars: 21419
 ---
 
 # mdBook Markdown Book Generator by Rust Project
