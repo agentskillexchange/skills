@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "evanw/esbuild"
   github_stars: 39815
-  ase_npm_package: "esbuild"
+  npm_package: "esbuild"
   npm_weekly_downloads: 163703618
 ---
 

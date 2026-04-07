@@ -4,7 +4,7 @@ description: "Unstructured is an open-source library for ingesting and partition
 verification: security_reviewed
 source: "https://github.com/Unstructured-IO/unstructured"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -1,17 +1,17 @@
 ---
 title: "Stripe Reporting Agent"
-description: "Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational [&hellip;]"
+description: "Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts,..."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Custom Agents"
 ---
 
 # Stripe Reporting Agent
 
-Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational [&hellip;]
+Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts,...
 
 ## Installation
 

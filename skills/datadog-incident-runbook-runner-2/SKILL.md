@@ -4,7 +4,7 @@ description: "Fetches an active Datadog incident, retrieves associated monitors 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

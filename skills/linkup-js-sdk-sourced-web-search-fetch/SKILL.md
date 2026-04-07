@@ -4,7 +4,7 @@ description: "Linkup’s JS SDK wraps the Linkup API for sourced web search and 
 verification: listed
 source: "https://github.com/LinkupPlatform/linkup-js-sdk"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---

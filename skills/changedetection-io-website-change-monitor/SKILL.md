@@ -4,7 +4,7 @@ description: "changedetection.io is an open-source, self-hosted tool for monitor
 verification: security_reviewed
 source: "https://github.com/dgtlmoon/changedetection.io"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

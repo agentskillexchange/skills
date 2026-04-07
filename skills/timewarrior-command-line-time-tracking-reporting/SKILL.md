@@ -4,7 +4,7 @@ description: "Timewarrior is a command-line time tracking tool from the Taskwarr
 verification: security_reviewed
 source: "https://github.com/GothenburgBitFactory/timewarrior"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

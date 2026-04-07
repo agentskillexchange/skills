@@ -4,7 +4,7 @@ description: "Creates and validates Prometheus alerting rules using PromQL expre
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
 ---

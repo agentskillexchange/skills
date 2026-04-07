@@ -4,7 +4,7 @@ description: "Plane is an open-source project management platform that serves as
 verification: security_reviewed
 source: "https://github.com/makeplane/plane"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

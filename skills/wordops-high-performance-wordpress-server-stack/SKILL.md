@@ -4,7 +4,7 @@ description: "WordOps is an open-source CLI tool that installs and manages a com
 verification: security_reviewed
 source: "https://github.com/WordOps/WordOps"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Custom Agents"
 tool_ecosystem:

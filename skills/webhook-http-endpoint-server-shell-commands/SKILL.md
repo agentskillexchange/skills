@@ -4,7 +4,7 @@ description: "Webhook is a lightweight, configurable tool written in Go that cre
 verification: security_reviewed
 source: "https://github.com/adnanh/webhook"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

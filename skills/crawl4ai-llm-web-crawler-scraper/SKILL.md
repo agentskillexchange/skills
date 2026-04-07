@@ -4,7 +4,7 @@ description: "Crawl4AI is an open-source web crawler that converts any website i
 verification: security_reviewed
 source: "https://github.com/unclecode/crawl4ai"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Custom Agents"
 tool_ecosystem:

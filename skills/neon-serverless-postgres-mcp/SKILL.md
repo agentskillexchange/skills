@@ -4,7 +4,7 @@ description: "Neon’s official MCP server translates natural language requests 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/neon-serverless-postgres-mcp/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 ---

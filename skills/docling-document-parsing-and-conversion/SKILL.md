@@ -4,7 +4,7 @@ description: "Docling is an open-source document processing toolkit for turning 
 verification: listed
 source: "https://github.com/docling-project/docling"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 ---

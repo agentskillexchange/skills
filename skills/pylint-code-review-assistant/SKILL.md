@@ -4,7 +4,7 @@ description: "Perform automated Python code reviews using Pylint programmatic AP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Custom Agents"
 ---

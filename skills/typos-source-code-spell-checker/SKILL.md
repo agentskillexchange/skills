@@ -4,7 +4,7 @@ description: "A blazing-fast source code spell checker written in Rust that find
 verification: security_reviewed
 source: "https://github.com/crate-ci/typos"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

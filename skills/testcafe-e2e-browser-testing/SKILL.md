@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "devexpress/testcafe"
   github_stars: 9915
-  ase_npm_package: "testcafe"
+  npm_package: "testcafe"
   npm_weekly_downloads: 194159
 ---
 

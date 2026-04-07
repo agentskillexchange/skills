@@ -4,7 +4,7 @@ description: "FilePond is a JavaScript file upload library that handles files, d
 verification: security_reviewed
 source: "https://github.com/pqina/filepond"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---

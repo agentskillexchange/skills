@@ -4,7 +4,7 @@ description: "Integrate Cal.com’s open-source scheduling platform into AI agen
 verification: security_reviewed
 source: "https://github.com/calcom/cal.com"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

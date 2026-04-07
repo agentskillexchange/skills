@@ -4,7 +4,7 @@ description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. 
 verification: security_reviewed
 source: "https://github.com/sqlfluff/sqlfluff"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
   - "Codex"

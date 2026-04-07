@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949
-  ase_npm_package: "caprover"
+  npm_package: "caprover"
   npm_weekly_downloads: 8696
 ---
 

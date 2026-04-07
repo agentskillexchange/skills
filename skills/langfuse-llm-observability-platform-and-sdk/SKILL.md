@@ -4,7 +4,7 @@ description: "Use Langfuse to capture prompts, traces, generations, evaluations,
 verification: security_reviewed
 source: "https://github.com/langfuse/langfuse"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

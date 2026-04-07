@@ -4,7 +4,7 @@ description: "Netdata is an open-source observability platform for real-time met
 verification: listed
 source: "https://github.com/netdata/netdata"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

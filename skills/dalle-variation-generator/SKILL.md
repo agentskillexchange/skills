@@ -4,7 +4,7 @@ description: "Generates image variations and edits using OpenAI’s DALL-E 3 API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-variation-generator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---

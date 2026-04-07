@@ -4,7 +4,7 @@ description: "PGlite is a WASM build of Postgres packaged as a TypeScript librar
 verification: security_reviewed
 source: "https://github.com/electric-sql/pglite"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Automates site, CMS, and publishing workflows with Webflow’s off
 verification: listed
 source: "https://github.com/webflow/js-webflow-api"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

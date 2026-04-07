@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 85523
-  ase_npm_package: "playwright"
+  npm_package: "playwright"
   npm_weekly_downloads: 45826303
 ---
 

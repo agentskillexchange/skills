@@ -4,7 +4,7 @@ description: "Bidirectional Salesforce integration using jsforce library and the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/salesforce-crm-sync-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Cursor"
 ---

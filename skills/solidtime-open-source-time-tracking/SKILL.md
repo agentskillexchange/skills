@@ -4,7 +4,7 @@ description: "solidtime is a modern open-source time tracking application built 
 verification: security_reviewed
 source: "https://github.com/solidtime-io/solidtime"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

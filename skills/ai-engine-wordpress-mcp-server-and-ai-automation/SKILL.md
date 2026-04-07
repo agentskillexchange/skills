@@ -4,7 +4,7 @@ description: "AI Engine is a WordPress plugin by Meow Apps that connects sites t
 verification: listed
 source: "https://github.com/jordymeow/ai-engine"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "MCP"
 ---

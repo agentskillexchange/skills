@@ -4,7 +4,7 @@ description: "Summarizes audio content using AssemblyAI’s LeMUR (Large Languag
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Gemini"
 ---

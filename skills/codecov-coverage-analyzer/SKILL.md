@@ -4,7 +4,7 @@ description: "Analyzes test coverage using the Codecov API v2 and codecov-cli up
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Codex"
 ---

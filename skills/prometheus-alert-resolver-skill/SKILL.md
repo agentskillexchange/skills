@@ -4,7 +4,7 @@ description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 ---

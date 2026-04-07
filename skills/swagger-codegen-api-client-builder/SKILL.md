@@ -4,7 +4,7 @@ description: "Generates typed API client libraries from OpenAPI 3.x specificatio
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 ---

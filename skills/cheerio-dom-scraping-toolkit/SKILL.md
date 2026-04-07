@@ -4,7 +4,7 @@ description: "Parses static HTML using Cheerio’s jQuery-like API for fast serv
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 ---

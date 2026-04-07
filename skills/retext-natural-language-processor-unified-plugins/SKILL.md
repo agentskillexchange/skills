@@ -4,7 +4,7 @@ description: "retext is a natural language processor powered by plugins, part of
 verification: security_reviewed
 source: "https://github.com/retextjs/retext"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

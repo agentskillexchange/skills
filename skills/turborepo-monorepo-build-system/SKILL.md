@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "vercel/turborepo"
   github_stars: 30114
-  ase_npm_package: "turbo"
+  npm_package: "turbo"
   npm_weekly_downloads: 11434861
 ---
 

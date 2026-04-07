@@ -4,7 +4,7 @@ description: "Connects to SerpAPI endpoints for Google, Bing, YouTube, and Googl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Code"
 ---

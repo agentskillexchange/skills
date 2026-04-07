@@ -4,7 +4,7 @@ description: "Builds repeatable WordPress maintenance and content workflows arou
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

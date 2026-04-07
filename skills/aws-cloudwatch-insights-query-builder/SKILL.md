@@ -4,7 +4,7 @@ description: "Builds CloudWatch Logs Insights queries and metric alarms using AW
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-query-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Codex"
   - "Multi-Framework"

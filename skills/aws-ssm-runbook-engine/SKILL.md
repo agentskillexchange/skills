@@ -4,7 +4,7 @@ description: "Executes automated diagnostics using the AWS Systems Manager Autom
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-engine/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 ---

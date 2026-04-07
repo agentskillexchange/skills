@@ -4,7 +4,7 @@ description: "Generates and tracks incident response checklists using PagerDuty 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 ---

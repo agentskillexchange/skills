@@ -4,7 +4,7 @@ description: "Lightweight local database access for agent tasks."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sqlite-mcp-server/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
   - "Cursor"

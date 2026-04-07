@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "supercorp-ai/supergateway"
   github_stars: 2538
-  ase_npm_package: "supergateway"
+  npm_package: "supergateway"
   npm_weekly_downloads: 107459
 ---
 

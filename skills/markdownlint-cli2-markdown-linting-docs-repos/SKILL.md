@@ -4,13 +4,13 @@ description: "This skill uses markdownlint-cli2 to enforce consistent Markdown q
 verification: security_reviewed
 source: "https://github.com/DavidAnson/markdownlint-cli2"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "davidanson/markdownlint-cli2"
   github_stars: 740
-  ase_npm_package: "markdownlint-cli2"
+  npm_package: "markdownlint-cli2"
   npm_weekly_downloads: 529626
 ---
 

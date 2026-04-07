@@ -4,7 +4,7 @@ description: "Scaffolds production-ready Terraform modules with HCL templates, v
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "OpenClaw"
 ---

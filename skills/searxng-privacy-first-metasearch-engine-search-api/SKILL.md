@@ -4,7 +4,7 @@ description: "SearXNG is an open-source metasearch engine that aggregates result
 verification: listed
 source: "https://github.com/searxng/searxng"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 ---

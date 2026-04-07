@@ -4,7 +4,7 @@ description: "Connects agents to Mailchimp’s official Marketing API through th
 verification: listed
 source: "https://github.com/mailchimp/mailchimp-marketing-node"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---
