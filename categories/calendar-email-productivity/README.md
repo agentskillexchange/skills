@@ -8,7 +8,7 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---:|
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 82.7k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
-| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.3k |
+| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.4k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | ⭐ 19.7k |
@@ -33,7 +33,7 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---:|---:|
 | [Slack MCP Server](../../skills/slack-mcp-server/) | 82.7k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
-| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.3k | — |
+| [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.4k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
@@ -109,6 +109,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | — | — |
+| [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | — | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |

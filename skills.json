@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1755,
+  "total": 1758,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "postmarkjs-email-delivery-api-transactional-messaging",
+      "name": "Postmark.js Email Delivery API for Transactional Messaging",
+      "description": "postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and message streams from code. It is a…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "cronitor-cli-cron-monitoring-job-telemetry",
+      "name": "Cronitor CLI for Cron Monitoring and Job Telemetry",
+      "description": "CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "hookdeck-cli-webhook-development-event-debugging",
+      "name": "Hookdeck CLI for Webhook Development and Event Debugging",
+      "description": "Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows.…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "security_reviewed"
+    },
     {
       "slug": "bright-data-web-mcp-live-web-access-scraping-tools",
       "name": "Bright Data Web MCP Live Web Access and Scraping Tools",
@@ -13,7 +49,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chrome-mcp-server-extension-based-browser-automation-ai-agents",
@@ -25,7 +61,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "chrome-devtools-mcp-browser-debugging-performance-analysis",
@@ -37,7 +73,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "mailchimp-marketing-api-nodejs-sdk",
@@ -49,7 +85,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "webflow-data-api-javascript-sdk",
@@ -61,7 +97,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "statamic-laravel-git-powered-cms",
@@ -73,7 +109,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "linkup-js-sdk-sourced-web-search-fetch",
@@ -85,7 +121,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "exa-js-web-search-sdk-ai-applications",
@@ -97,7 +133,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "headstartwp-headless-wordpress-nextjs-framework",
@@ -109,7 +145,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "remotion-react-video-generation-rendering-framework",
@@ -121,7 +157,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "scrapy-python-web-crawling-structured-data-extraction-framework",
@@ -133,7 +169,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "cypress-end-to-end-component-testing-framework",
@@ -145,7 +181,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "ai-engine-wordpress-mcp-server-and-ai-automation",
@@ -157,7 +193,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "moonshine-voice-on-device-speech-recognition-and-voice-commands",
@@ -169,7 +205,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "netdata-real-time-infrastructure-monitoring-and-alerting",
@@ -181,7 +217,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "official-firecrawl-mcp-server",
@@ -193,7 +229,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "browserbase-mcp-server",
@@ -205,7 +241,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "automattic-wordpress-remote-mcp",
@@ -217,7 +253,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "microsoft-playwright-mcp",
@@ -229,7 +265,7 @@
       "framework": [
         "MCP"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "searxng-privacy-first-metasearch-engine-search-api",
@@ -241,7 +277,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "taiko-smart-selector-browser-automation-nodejs",
@@ -253,7 +289,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "wpgraphql-for-acf-wordpress-graphql-field-mapping",
@@ -265,7 +301,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "photoprism-self-hosted-photo-library-automation",
@@ -277,7 +313,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "peertube-video-publishing-moderation-api",
@@ -289,7 +325,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "gitea-repository-pull-request-automation",
@@ -301,7 +337,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "prismic-headless-cms-content-api-client",
@@ -313,7 +349,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "ffsubsync-subtitle-synchronization-tool",
@@ -325,7 +361,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "playwright-extra-browser-automation-plugins",
@@ -337,7 +373,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "docling-document-parsing-and-conversion",
@@ -349,7 +385,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "browser-use-web-agent-automation",
@@ -361,7 +397,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "stagehand-browser-automation",
@@ -373,7 +409,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "gotify-self-hosted-push-notification-server-and-api",
@@ -475,7 +511,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9938,
+        "github_stars": 9939,
         "license": "MIT"
       }
     },
@@ -491,7 +527,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10195,
+        "github_stars": 10199,
         "license": "Apache-2.0"
       }
     },
@@ -1611,7 +1647,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2807,
+        "github_stars": 2808,
         "license": "MIT"
       }
     },
@@ -1627,7 +1663,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6105,
+        "github_stars": 6106,
         "license": "MIT/Apache-2.0"
       }
     },
@@ -1643,7 +1679,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5037,
+        "github_stars": 5039,
         "license": "MIT"
       }
     },
@@ -1659,7 +1695,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9897,
+        "github_stars": 9898,
         "license": "MIT"
       }
     },
@@ -1711,7 +1747,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 111605
+        "github_stars": 111690
       }
     },
     {
@@ -1726,7 +1762,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 4498
+        "github_stars": 4499
       }
     },
     {
@@ -1753,7 +1789,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 5094
+        "github_stars": 5097
       }
     },
     {
@@ -1768,7 +1804,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 158855
+        "github_stars": 158931
       }
     },
     {
@@ -1783,7 +1819,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 22054
+        "github_stars": 22080
       }
     },
     {
@@ -1798,7 +1834,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8680
+        "github_stars": 8685
       }
     },
     {
@@ -1813,7 +1849,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 26659
+        "github_stars": 26663
       }
     },
     {
@@ -1828,7 +1864,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11338
+        "github_stars": 11340
       }
     },
     {
@@ -1843,7 +1879,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 18455
+        "github_stars": 18465
       }
     },
     {
@@ -1858,7 +1894,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9516
+        "github_stars": 9529
       }
     },
     {
@@ -1873,7 +1909,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5222
+        "github_stars": 5223
       }
     },
     {
@@ -1888,7 +1924,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2179
+        "github_stars": 2183
       }
     },
     {
@@ -1903,7 +1939,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 74790
+        "github_stars": 74841
       }
     },
     {
@@ -1918,7 +1954,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 19702
+        "github_stars": 19713
       }
     },
     {
@@ -1948,7 +1984,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25238
+        "github_stars": 25239
       }
     },
     {
@@ -1978,7 +2014,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7693
+        "github_stars": 7699
       }
     },
     {
@@ -1993,7 +2029,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 17361
+        "github_stars": 17362
       }
     },
     {
@@ -2008,7 +2044,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 35555
+        "github_stars": 35565
       }
     },
     {
@@ -2053,7 +2089,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 35247
+        "github_stars": 35267
       }
     },
     {
@@ -2068,7 +2104,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8891
+        "github_stars": 8892
       }
     },
     {
@@ -2083,7 +2119,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11684
+        "github_stars": 11688
       }
     },
     {
@@ -2098,7 +2134,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3870
+        "github_stars": 3872
       }
     },
     {
@@ -2128,7 +2164,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13289
+        "github_stars": 13292
       }
     },
     {
@@ -2143,7 +2179,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 33598
+        "github_stars": 33608
       }
     },
     {
@@ -2158,7 +2194,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13804
+        "github_stars": 13806
       }
     },
     {
@@ -2188,7 +2224,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11166
+        "github_stars": 11179
       }
     },
     {
@@ -2203,7 +2239,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 5308
+        "github_stars": 5309
       }
     },
     {
@@ -2230,7 +2266,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 56733
+        "github_stars": 56777
       }
     },
     {
@@ -2245,7 +2281,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 75060
+        "github_stars": 75073
       }
     },
     {
@@ -2260,7 +2296,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 59951
+        "github_stars": 59957
       }
     },
     {
@@ -2290,7 +2326,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 53374
+        "github_stars": 53379
       }
     },
     {
@@ -2305,7 +2341,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3150
+        "github_stars": 3151
       }
     },
     {
@@ -2320,7 +2356,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5100
+        "github_stars": 5110
       }
     },
     {
@@ -2335,7 +2371,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 53705
+        "github_stars": 53711
       }
     },
     {
@@ -2350,7 +2386,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13712
+        "github_stars": 13711
       }
     },
     {
@@ -2365,7 +2401,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8148
+        "github_stars": 8152
       }
     },
     {
@@ -2380,7 +2416,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 33303
+        "github_stars": 33305
       }
     },
     {
@@ -2410,7 +2446,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 15000
+        "github_stars": 15002
       }
     },
     {
@@ -2425,7 +2461,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25676
+        "github_stars": 25682
       }
     },
     {
@@ -2440,7 +2476,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11858
+        "github_stars": 11862
       }
     },
     {
@@ -2455,7 +2491,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 167357
+        "github_stars": 167878
       }
     },
     {
@@ -2470,7 +2506,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11447
+        "github_stars": 11448
       }
     },
     {
@@ -2485,7 +2521,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11676
+        "github_stars": 11678
       }
     },
     {
@@ -2500,7 +2536,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 78550
+        "github_stars": 78608
       }
     },
     {
@@ -2515,7 +2551,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 130242
+        "github_stars": 130412
       }
     },
     {
@@ -2530,7 +2566,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4952
+        "github_stars": 4955
       }
     },
     {
@@ -2545,7 +2581,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12580
+        "github_stars": 12587
       }
     },
     {
@@ -2560,7 +2596,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6289
+        "github_stars": 6290
       }
     },
     {
@@ -2575,7 +2611,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5489
+        "github_stars": 5499
       }
     },
     {
@@ -2590,7 +2626,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7643
+        "github_stars": 7645
       }
     },
     {
@@ -2605,7 +2641,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12789
+        "github_stars": 12795
       }
     },
     {
@@ -2620,7 +2656,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7726
+        "github_stars": 7727
       }
     },
     {
@@ -2650,7 +2686,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4515
+        "github_stars": 4517
       }
     },
     {
@@ -2665,7 +2701,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8190
+        "github_stars": 8196
       }
     },
     {
@@ -2680,7 +2716,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13224
+        "github_stars": 13234
       }
     },
     {
@@ -2695,7 +2731,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4142
+        "github_stars": 4143
       }
     },
     {
@@ -2710,7 +2746,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 47285
+        "github_stars": 47388
       }
     },
     {
@@ -2725,7 +2761,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 21727
+        "github_stars": 21734
       }
     },
     {
@@ -2740,7 +2776,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 45183
+        "github_stars": 45224
       }
     },
     {
@@ -2755,7 +2791,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13754
+        "github_stars": 13778
       }
     },
     {
@@ -2770,7 +2806,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10637
+        "github_stars": 10640
       }
     },
     {
@@ -2785,7 +2821,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10281
+        "github_stars": 10286
       }
     },
     {
@@ -2800,7 +2836,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10656
+        "github_stars": 10665
       }
     },
     {
@@ -2815,7 +2851,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3946
+        "github_stars": 3951
       }
     },
     {
@@ -2830,7 +2866,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 29736
+        "github_stars": 29789
       }
     },
     {
@@ -2845,7 +2881,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 14976
+        "github_stars": 14984
       }
     },
     {
@@ -2860,7 +2896,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12592
+        "github_stars": 12599
       }
     },
     {
@@ -2875,7 +2911,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3343
+        "github_stars": 3359
       }
     },
     {
@@ -3248,7 +3284,7 @@
       "signals": {
         "tool": "playwright",
         "github_stars": 85523,
-        "npm_weekly_downloads": 45826303,
+        "npm_weekly_downloads": 45520206,
         "license": "Apache-2.0"
       }
     },
@@ -3451,7 +3487,7 @@
       "signals": {
         "tool": "dprint",
         "github_stars": 3857,
-        "npm_weekly_downloads": 157708,
+        "npm_weekly_downloads": 156763,
         "license": "MIT"
       }
     },
@@ -3720,7 +3756,7 @@
       "signals": {
         "tool": "nocodb",
         "github_stars": 62560,
-        "npm_weekly_downloads": 487
+        "npm_weekly_downloads": 526
       }
     },
     {
@@ -3737,7 +3773,7 @@
       "signals": {
         "tool": "tiptap",
         "github_stars": 35948,
-        "npm_weekly_downloads": 41452,
+        "npm_weekly_downloads": 40128,
         "license": "MIT"
       }
     },
@@ -3840,7 +3876,7 @@
       "signals": {
         "tool": "webdriverio",
         "github_stars": 9762,
-        "npm_weekly_downloads": 2617614,
+        "npm_weekly_downloads": 2455315,
         "license": "MIT"
       }
     },
@@ -3875,7 +3911,7 @@
       "signals": {
         "tool": "docusaurus",
         "github_stars": 64315,
-        "npm_weekly_downloads": 23558,
+        "npm_weekly_downloads": 22084,
         "license": "MIT"
       }
     },
@@ -3993,7 +4029,7 @@
       "signals": {
         "tool": "sveltia-cms",
         "github_stars": 2245,
-        "npm_weekly_downloads": 2761,
+        "npm_weekly_downloads": 2777,
         "license": "MIT"
       }
     },
@@ -4091,7 +4127,7 @@
       "signals": {
         "tool": "testcafe",
         "github_stars": 9915,
-        "npm_weekly_downloads": 194159,
+        "npm_weekly_downloads": 185146,
         "license": "MIT"
       }
     },
@@ -4143,7 +4179,7 @@
       "signals": {
         "tool": "docker",
         "github_stars": 14949,
-        "npm_weekly_downloads": 8696
+        "npm_weekly_downloads": 8664
       }
     },
     {
@@ -4176,7 +4212,7 @@
       "signals": {
         "tool": "react",
         "github_stars": 46154,
-        "npm_weekly_downloads": 161241
+        "npm_weekly_downloads": 155204
       }
     },
     {
@@ -4193,7 +4229,7 @@
       "signals": {
         "tool": "docker",
         "github_stars": 4972,
-        "npm_weekly_downloads": 4816
+        "npm_weekly_downloads": 5421
       }
     },
     {
@@ -4582,7 +4618,7 @@
       "signals": {
         "tool": "astro",
         "github_stars": 57979,
-        "npm_weekly_downloads": 1885189
+        "npm_weekly_downloads": 1854964
       }
     },
     {
@@ -4599,7 +4635,7 @@
       "signals": {
         "tool": "pagefind",
         "github_stars": 5094,
-        "npm_weekly_downloads": 469266,
+        "npm_weekly_downloads": 455993,
         "license": "MIT"
       }
     },
@@ -5025,7 +5061,7 @@
       "signals": {
         "tool": "novu",
         "github_stars": 38747,
-        "npm_weekly_downloads": 6146
+        "npm_weekly_downloads": 6025
       }
     },
     {
@@ -5431,7 +5467,7 @@
       "signals": {
         "tool": "schema-dts",
         "github_stars": 1164,
-        "npm_weekly_downloads": 1490523
+        "npm_weekly_downloads": 1409072
       }
     },
     {
@@ -5512,7 +5548,7 @@
       "signals": {
         "tool": "decap-cms",
         "github_stars": 18998,
-        "npm_weekly_downloads": 1982
+        "npm_weekly_downloads": 1911
       }
     },
     {
@@ -5529,7 +5565,7 @@
       "signals": {
         "tool": "svgo",
         "github_stars": 22412,
-        "npm_weekly_downloads": 28615087
+        "npm_weekly_downloads": 27199119
       }
     },
     {
@@ -5546,7 +5582,7 @@
       "signals": {
         "tool": "blurhash",
         "github_stars": 16958,
-        "npm_weekly_downloads": 845384
+        "npm_weekly_downloads": 807680
       }
     },
     {
@@ -5739,7 +5775,7 @@
       "signals": {
         "tool": "tinacms",
         "github_stars": 13245,
-        "npm_weekly_downloads": 85232
+        "npm_weekly_downloads": 87033
       }
     },
     {
@@ -5884,7 +5920,7 @@
       "signals": {
         "tool": "pa11y",
         "github_stars": 4418,
-        "npm_weekly_downloads": 212327
+        "npm_weekly_downloads": 201432
       }
     },
     {
@@ -5901,7 +5937,7 @@
       "signals": {
         "tool": "backstopjs",
         "github_stars": 7116,
-        "npm_weekly_downloads": 63157
+        "npm_weekly_downloads": 60338
       }
     },
     {
@@ -5918,7 +5954,7 @@
       "signals": {
         "tool": "posthog-js",
         "github_stars": 531,
-        "npm_weekly_downloads": 4371959
+        "npm_weekly_downloads": 4263590
       }
     },
     {
@@ -5968,7 +6004,7 @@
       "signals": {
         "tool": "contentful-management",
         "github_stars": 286,
-        "npm_weekly_downloads": 688680,
+        "npm_weekly_downloads": 643097,
         "license": "MIT"
       }
     },
@@ -5986,7 +6022,7 @@
       "signals": {
         "tool": "sdk-node",
         "github_stars": 61,
-        "npm_weekly_downloads": 763969,
+        "npm_weekly_downloads": 760166,
         "license": "Apache-2.0"
       }
     },
@@ -6033,7 +6069,7 @@
       "signals": {
         "tool": "sanity",
         "github_stars": 6041,
-        "npm_weekly_downloads": 408168,
+        "npm_weekly_downloads": 397403,
         "license": "MIT"
       }
     },
@@ -6051,7 +6087,7 @@
       "signals": {
         "tool": "unlighthouse",
         "github_stars": 4469,
-        "npm_weekly_downloads": 15510,
+        "npm_weekly_downloads": 15570,
         "license": "MIT"
       }
     },
@@ -6087,7 +6123,7 @@
       "signals": {
         "tool": "write-good",
         "github_stars": 5065,
-        "npm_weekly_downloads": 50185,
+        "npm_weekly_downloads": 48426,
         "license": "MIT"
       }
     },
@@ -6105,7 +6141,7 @@
       "signals": {
         "tool": "markdownlint-cli2",
         "github_stars": 740,
-        "npm_weekly_downloads": 529626,
+        "npm_weekly_downloads": 515847,
         "license": "MIT"
       }
     },
@@ -6157,7 +6193,7 @@
       "signals": {
         "tool": "crawlee",
         "github_stars": 22591,
-        "npm_weekly_downloads": 81037,
+        "npm_weekly_downloads": 77611,
         "license": "Apache-2.0"
       }
     },
@@ -6429,7 +6465,7 @@
       "signals": {
         "tool": "alex",
         "github_stars": 5096,
-        "npm_weekly_downloads": 31553,
+        "npm_weekly_downloads": 30032,
         "license": "MIT"
       }
     },
@@ -6447,7 +6483,7 @@
       "signals": {
         "tool": "textlint",
         "github_stars": 3099,
-        "npm_weekly_downloads": 98681,
+        "npm_weekly_downloads": 97952,
         "license": "MIT"
       }
     },
@@ -6567,7 +6603,7 @@
       "signals": {
         "tool": "remotion",
         "github_stars": 41477,
-        "npm_weekly_downloads": 504519
+        "npm_weekly_downloads": 499225
       }
     },
     {
@@ -6584,7 +6620,7 @@
       "signals": {
         "tool": "payload",
         "github_stars": 41552,
-        "npm_weekly_downloads": 317783,
+        "npm_weekly_downloads": 307838,
         "license": "MIT"
       }
     },
@@ -6602,7 +6638,7 @@
       "signals": {
         "tool": "strapi",
         "github_stars": 71740,
-        "npm_weekly_downloads": 156398
+        "npm_weekly_downloads": 147534
       }
     },
     {
@@ -6635,7 +6671,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "env",
-        "npm_weekly_downloads": 48457
+        "npm_weekly_downloads": 47773
       }
     },
     {
@@ -6783,7 +6819,7 @@
       "signals": {
         "tool": "tavily-mcp",
         "github_stars": 1615,
-        "npm_weekly_downloads": 49629
+        "npm_weekly_downloads": 46071
       }
     },
     {
@@ -6800,7 +6836,7 @@
       "signals": {
         "tool": "directus",
         "github_stars": 34621,
-        "npm_weekly_downloads": 19990
+        "npm_weekly_downloads": 20061
       }
     },
     {
@@ -6961,7 +6997,7 @@
       "signals": {
         "tool": "jsdoc",
         "github_stars": 15426,
-        "npm_weekly_downloads": 2814196
+        "npm_weekly_downloads": 2663272
       }
     },
     {
@@ -25314,7 +25350,7 @@
       "signals": {
         "tool": "eslint",
         "github_stars": 27141,
-        "npm_weekly_downloads": 117599181
+        "npm_weekly_downloads": 110308282
       }
     },
     {

@@ -23,9 +23,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Downloads |
 |---|---:|
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 4.8k/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 5.4k/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.8M/wk |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.4M/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.3M/wk |
 
 ---
 
@@ -48,14 +48,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 4.8k/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 5.4k/wk |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.8M/wk |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.4M/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.3M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | — |
@@ -69,6 +69,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | — | — |
+| [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | — | — |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | — | — |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | — | — |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | — | — |

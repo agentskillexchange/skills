@@ -23,8 +23,8 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.6M/wk |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 845.4k/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 27.2M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 807.7k/wk |
 
 ---
 
@@ -38,9 +38,9 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.6M/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 27.2M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 845.4k/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 807.7k/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
