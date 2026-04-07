@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "oxipng/oxipng"
   github_stars: 3870
+  license: "MIT"
 ---
 
 # Oxipng Multithreaded Lossless PNG Compression Optimizer

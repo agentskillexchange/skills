@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "directus/directus"
   github_stars: 34621
-  npm_package: "directus"
+  ase_npm_package: "directus"
   npm_weekly_downloads: 19990
 ---
 

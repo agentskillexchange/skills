@@ -8,8 +8,7 @@ category:
 framework:
   - "Custom Agents"
 tool_ecosystem:
-  github_repo: "koljab/realtimestt"
-  github_stars: 9615
+  license: "MIT"
 ---
 
 # RealtimeSTT Low-Latency Speech-to-Text Python Library

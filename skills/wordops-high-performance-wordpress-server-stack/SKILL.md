@@ -8,8 +8,7 @@ category:
 framework:
   - "Custom Agents"
 tool_ecosystem:
-  github_repo: "wordops/wordops"
-  github_stars: 1538
+  license: "MIT"
 ---
 
 # WordOps High-Performance WordPress Server Stack Manager

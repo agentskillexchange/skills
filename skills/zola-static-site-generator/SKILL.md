@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "getzola/zola"
   github_stars: 16799
+  license: "EUPL-1.2"
 ---
 
 # Zola Fast Static Site Generator in a Single Binary

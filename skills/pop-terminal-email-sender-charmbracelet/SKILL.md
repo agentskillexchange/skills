@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
   github_stars: 2807
+  license: "MIT"
 ---
 
 # Pop Terminal Email Sender and TUI by Charmbracelet

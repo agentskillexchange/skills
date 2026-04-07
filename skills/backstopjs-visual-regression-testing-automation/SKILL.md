@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116
-  npm_package: "backstopjs"
+  ase_npm_package: "backstopjs"
   npm_weekly_downloads: 63157
 ---
 

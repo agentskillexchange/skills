@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "antonmedv/fx"
   github_stars: 20376
-  npm_package: "fx"
+  ase_npm_package: "fx"
   npm_weekly_downloads: 199995
 ---
 

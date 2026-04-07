@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mongodb-js/mongodb-mcp-server"
   github_stars: 983
-  npm_package: "mongodb-mcp-server"
+  ase_npm_package: "mongodb-mcp-server"
   npm_weekly_downloads: 51003
 ---
 

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nocodb/nocodb"
   github_stars: 62560
-  npm_package: "nocodb"
+  ase_npm_package: "nocodb"
   npm_weekly_downloads: 487
 ---
 

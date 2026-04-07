@@ -8,7 +8,7 @@ category:
 framework:
   - "Claude Code"
 tool_ecosystem:
-  npm_package: "@wordpress/env"
+  ase_npm_package: "@wordpress/env"
   npm_weekly_downloads: 48457
 ---
 

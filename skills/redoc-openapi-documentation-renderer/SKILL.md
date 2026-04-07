@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "Redocly/redoc"
   github_stars: 25596
-  npm_package: "redoc"
+  ase_npm_package: "redoc"
   npm_weekly_downloads: 1322949
 ---
 

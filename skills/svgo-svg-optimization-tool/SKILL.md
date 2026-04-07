@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "svg/svgo"
   github_stars: 22412
-  npm_package: "svgo"
+  ase_npm_package: "svgo"
   npm_weekly_downloads: 28615087
 ---
 

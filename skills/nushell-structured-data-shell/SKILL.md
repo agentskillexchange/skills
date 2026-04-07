@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nushell/nushell"
   github_stars: 38872
-  npm_package: "nushell"
+  ase_npm_package: "nushell"
   npm_weekly_downloads: 6213
 ---
 

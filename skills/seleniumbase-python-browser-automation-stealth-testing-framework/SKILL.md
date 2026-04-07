@@ -8,10 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "seleniumbase/seleniumbase"
-  github_stars: 12560
-  npm_package: "seleniumbase"
-  npm_weekly_downloads: 18
+  license: "MIT"
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework

@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "10up/elasticpress"
-  github_stars: 1297
+  license: "GPL-2.0"
 ---
 
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up

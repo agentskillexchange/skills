@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tinacms/tinacms"
   github_stars: 13245
-  npm_package: "tinacms"
+  ase_npm_package: "tinacms"
   npm_weekly_downloads: 85232
 ---
 

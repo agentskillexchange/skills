@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "changesets/changesets"
   github_stars: 11620
-  npm_package: "@changesets/cli"
+  ase_npm_package: "@changesets/cli"
   npm_weekly_downloads: 2420314
 ---
 

@@ -7,6 +7,8 @@ category:
   - "Integrations & Connectors"
 framework:
   - "MCP"
+tool_ecosystem:
+  license: "MIT"
 ---
 
 # Neon Serverless Postgres MCP

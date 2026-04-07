@@ -8,8 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "gothenburgbitfactory/timewarrior"
-  github_stars: 1580
+  license: "MIT"
 ---
 
 # Timewarrior Command-Line Time Tracking and Reporting

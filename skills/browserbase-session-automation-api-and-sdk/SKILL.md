@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61
-  npm_package: "@browserbasehq/sdk"
+  ase_npm_package: "@browserbasehq/sdk"
   npm_weekly_downloads: 763969
+  license: "Apache-2.0"
 ---
 
 # Browserbase Session Automation API and SDK

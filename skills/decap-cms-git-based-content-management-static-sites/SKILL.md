@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 18998
-  npm_package: "decap-cms"
+  ase_npm_package: "decap-cms"
   npm_weekly_downloads: 1982
 ---
 

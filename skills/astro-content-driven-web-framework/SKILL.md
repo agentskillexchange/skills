@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "withastro/astro"
   github_stars: 57979
-  npm_package: "astro"
+  ase_npm_package: "astro"
   npm_weekly_downloads: 1885189
 ---
 

@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "evanw/esbuild"
   github_stars: 39815
-  npm_package: "esbuild"
+  ase_npm_package: "esbuild"
   npm_weekly_downloads: 163703618
+  license: "MIT"
 ---
 
 # esbuild Ultra-Fast JavaScript Bundler

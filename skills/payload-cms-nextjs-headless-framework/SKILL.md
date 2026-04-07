@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
-  npm_package: "payload"
+  ase_npm_package: "payload"
   npm_weekly_downloads: 317783
+  license: "MIT"
 ---
 
 # Payload CMS Next.js-Native Headless CMS and Application Framework

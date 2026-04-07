@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "ghostty-org/ghostty"
   github_stars: 49204
+  license: "MIT"
 ---
 
 # Ghostty Fast Native Terminal Emulator with GPU Acceleration

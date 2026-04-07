@@ -7,6 +7,8 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  license: "MIT"
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench

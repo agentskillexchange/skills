@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
   github_stars: 5037
+  license: "MIT"
 ---
 
 # Horcrux Shamir Secret Sharing File Encryption and Splitting Tool

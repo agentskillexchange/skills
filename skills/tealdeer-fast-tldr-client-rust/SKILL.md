@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tealdeer-rs/tealdeer"
   github_stars: 6105
+  license: "MIT/Apache-2.0"
 ---
 
 # Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages

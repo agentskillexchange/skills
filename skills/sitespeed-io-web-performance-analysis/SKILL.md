@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "sitespeedio/sitespeed.io"
   github_stars: 4972
-  npm_package: "sitespeed.io"
+  ase_npm_package: "sitespeed.io"
   npm_weekly_downloads: 4816
 ---
 

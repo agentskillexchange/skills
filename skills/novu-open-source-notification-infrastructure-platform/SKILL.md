@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "novuhq/novu"
   github_stars: 38747
-  npm_package: "novu"
+  ase_npm_package: "novu"
   npm_weekly_downloads: 6146
 ---
 

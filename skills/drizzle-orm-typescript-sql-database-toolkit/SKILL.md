@@ -10,8 +10,9 @@ framework:
 tool_ecosystem:
   github_repo: "drizzle-team/drizzle-orm"
   github_stars: 33566
-  npm_package: "drizzle-orm"
+  ase_npm_package: "drizzle-orm"
   npm_weekly_downloads: 6774955
+  license: "Apache-2.0"
 ---
 
 # Drizzle ORM TypeScript SQL Database Toolkit

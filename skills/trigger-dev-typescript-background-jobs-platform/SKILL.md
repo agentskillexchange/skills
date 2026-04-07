@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "triggerdotdev/trigger.dev"
   github_stars: 14318
-  npm_package: "trigger.dev"
+  ase_npm_package: "trigger.dev"
   npm_weekly_downloads: 200743
 ---
 

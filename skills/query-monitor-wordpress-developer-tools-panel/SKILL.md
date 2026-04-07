@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "johnbillion/query-monitor"
   github_stars: 1743
+  license: "GPL-2.0"
 ---
 
 # Query Monitor WordPress Developer Tools Panel

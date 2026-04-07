@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959
+  ase_npm_package: "@shopify/shopify-api"
 ---
 
 # Shopify Admin GraphQL Sync Agent

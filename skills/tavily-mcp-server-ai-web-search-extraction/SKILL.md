@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "tavily-ai/tavily-mcp"
   github_stars: 1615
-  npm_package: "tavily-mcp"
+  ase_npm_package: "tavily-mcp"
   npm_weekly_downloads: 49629
 ---
 

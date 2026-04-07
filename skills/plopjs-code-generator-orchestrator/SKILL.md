@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7636
-  npm_package: "plop"
+  ase_npm_package: "plop"
   npm_weekly_downloads: 1420765
 ---
 

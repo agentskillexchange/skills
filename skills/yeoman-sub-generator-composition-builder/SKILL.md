@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3953
-  npm_package: "yo"
+  ase_npm_package: "yo"
   npm_weekly_downloads: 391867
 ---
 
