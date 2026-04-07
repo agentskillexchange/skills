@@ -4,7 +4,7 @@ description: "Subfinder is a passive subdomain discovery tool by ProjectDiscover
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/subfinder"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

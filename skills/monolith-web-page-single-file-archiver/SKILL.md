@@ -4,9 +4,12 @@ description: "Monolith is a CLI tool and Rust library that saves complete web pa
 verification: security_reviewed
 source: "https://github.com/Y2Z/monolith"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "y2z/monolith"
+  github_stars: 14932
 ---
 
 # Monolith Web Page Archiver and Single-File Bundler

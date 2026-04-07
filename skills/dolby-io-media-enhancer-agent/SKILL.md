@@ -4,7 +4,7 @@ description: "Enhances audio and video quality using the Dolby.io Media Processi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Cursor"
 ---

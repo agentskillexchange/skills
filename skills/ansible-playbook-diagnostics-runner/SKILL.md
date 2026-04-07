@@ -4,7 +4,7 @@ description: "Runs Ansible diagnostic playbooks using ansible-runner and the Ans
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 ---

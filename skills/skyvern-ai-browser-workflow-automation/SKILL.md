@@ -7,6 +7,9 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "skyvern-ai/skyvern"
+  github_stars: 20997
 ---
 
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision

@@ -4,7 +4,7 @@ description: "Run analytical SQL queries on local files (CSV, Parquet, JSON) usi
 verification: security_reviewed
 source: "https://github.com/duckdb/duckdb"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
   - "OpenClaw"

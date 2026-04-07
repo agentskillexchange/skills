@@ -4,7 +4,7 @@ description: "Analyzes dbt project DAGs to identify circular references, orphane
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
   - "Multi-Framework"

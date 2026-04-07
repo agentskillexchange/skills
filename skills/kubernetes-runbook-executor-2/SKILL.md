@@ -4,7 +4,7 @@ description: "Executes diagnostic runbooks against Kubernetes clusters using the
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

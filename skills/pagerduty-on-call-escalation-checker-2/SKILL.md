@@ -4,7 +4,7 @@ description: "Queries PagerDuty to show who is currently on-call for each escala
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 ---

@@ -4,7 +4,7 @@ description: "Query, analyze, and tune PostgreSQL databases through your AI agen
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgres-mcp-pro/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "MCP"
 ---

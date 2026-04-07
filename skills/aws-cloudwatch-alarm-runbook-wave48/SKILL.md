@@ -4,7 +4,7 @@ description: "Automates incident response for AWS CloudWatch alarms using boto3,
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 ---

@@ -4,7 +4,7 @@ description: "Exports Grafana dashboards as shareable snapshots using the Grafan
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Code"
 ---

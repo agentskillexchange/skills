@@ -4,7 +4,7 @@ description: "Automates image and video optimization workflows via the Cloudinar
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Agents"
 ---

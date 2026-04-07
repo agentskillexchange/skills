@@ -4,7 +4,7 @@ description: "Generates Scrapy spider classes with CSS/XPath selectors, item pip
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Custom Agents"
 ---

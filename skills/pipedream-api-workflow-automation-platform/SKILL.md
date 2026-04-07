@@ -4,7 +4,7 @@ description: "Pipedream is a developer-focused workflow platform for connecting 
 verification: listed
 source: "https://github.com/PipedreamHQ/pipedream"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 ---

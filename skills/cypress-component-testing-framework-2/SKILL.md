@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49613
+  npm_package: "cypress"
 ---
 
 # Cypress Component Testing Framework

@@ -4,7 +4,7 @@ description: "Nodemailer is the most widely used Node.js library for sending ema
 verification: security_reviewed
 source: "https://github.com/nodemailer/nodemailer"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

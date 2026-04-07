@@ -4,7 +4,7 @@ description: "Uses the Snyk CLI and REST API v1 to scan package manifests for kn
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 ---

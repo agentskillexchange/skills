@@ -4,7 +4,7 @@ description: "Enhances OpenAI Whisper transcription output with speaker diarizat
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Claude Code"
 ---

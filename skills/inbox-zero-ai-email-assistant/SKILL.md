@@ -4,7 +4,7 @@ description: "Inbox Zero is an open-source AI email assistant with over 10,000 G
 verification: security_reviewed
 source: "https://github.com/elie222/inbox-zero"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:

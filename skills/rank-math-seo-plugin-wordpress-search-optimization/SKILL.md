@@ -4,7 +4,7 @@ description: "Rank Math SEO is the WordPress SEO plugin from Rank Math SEO, with
 verification: security_reviewed
 source: "https://wordpress.org/plugins/seo-by-rank-math/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 ---

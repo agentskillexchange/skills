@@ -4,7 +4,7 @@ description: "Extracts structured entities from web pages using the Diffbot Extr
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Agents"
 ---

@@ -4,7 +4,7 @@ description: "Extracts query history and performance metadata from Snowflake usi
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-query-history-extractor/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Nylas provides REST APIs and SDKs for Python and Node.js that offe
 verification: security_reviewed
 source: "https://github.com/nylas/nylas-python"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 ---

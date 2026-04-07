@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Ku
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Codex"
 ---

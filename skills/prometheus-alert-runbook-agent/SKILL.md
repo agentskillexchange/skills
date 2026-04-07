@@ -4,7 +4,7 @@ description: "Automates incident response for Prometheus alerts using PromQL que
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 ---

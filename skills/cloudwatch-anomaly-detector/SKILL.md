@@ -4,7 +4,7 @@ description: "Creates and manages CloudWatch Anomaly Detection bands using AWS S
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Gemini"
 ---

@@ -4,7 +4,7 @@ description: "Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the
 verification: security_reviewed
 source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Code"
 ---

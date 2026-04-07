@@ -4,7 +4,7 @@ description: "Immich is a high-performance self-hosted photo and video managemen
 verification: security_reviewed
 source: "https://github.com/immich-app/immich"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

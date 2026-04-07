@@ -1,6 +1,6 @@
 ---
 title: "Terraform Cloud MCP Server"
-description: "Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving [&hellip;]"
+description: "Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving […]"
 verification: security_reviewed
 source: "https://github.com/hashicorp/terraform"
 category:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Terraform Cloud MCP Server
 
-Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving [&hellip;]
+Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving […]
 
 ## Installation
 

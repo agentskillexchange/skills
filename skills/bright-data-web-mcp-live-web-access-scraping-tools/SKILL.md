@@ -4,7 +4,7 @@ description: "Bright Data Web MCP gives MCP-compatible agents live web search, s
 verification: security_reviewed
 source: "https://github.com/brightdata/brightdata-mcp"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "MCP"
 ---

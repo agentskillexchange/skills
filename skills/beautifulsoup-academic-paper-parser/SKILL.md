@@ -4,7 +4,7 @@ description: "Extracts structured citation data from academic repositories using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "MCP"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "DynamoDB Manager"
-description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational [&hellip;]"
+description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]"
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dynamodb-manager/"
 category:
@@ -11,7 +11,7 @@ framework:
 
 # DynamoDB Manager
 
-DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational [&hellip;]
+DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]
 
 ## Installation
 

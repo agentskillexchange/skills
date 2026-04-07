@@ -4,7 +4,7 @@ description: "Syncs away-state updates through Slack users.profile APIs, status 
 verification: security_reviewed
 source: "https://api.slack.com/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 ---

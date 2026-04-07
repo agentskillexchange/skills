@@ -4,7 +4,7 @@ description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit fo
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/httpx"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Orchestrates Notion workspace workflows using Notion API v2 with d
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 ---

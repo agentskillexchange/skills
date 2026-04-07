@@ -4,7 +4,7 @@ description: "mcp-atlassian is a Model Context Protocol server that connects AI 
 verification: security_reviewed
 source: "https://github.com/sooperset/mcp-atlassian"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "SerpBear is an open-source, self-hosted search engine position tra
 verification: security_reviewed
 source: "https://github.com/towfiqi/serpbear"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
