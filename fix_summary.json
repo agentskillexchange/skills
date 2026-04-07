@@ -1,8 +1,10 @@
 {
-  "files_changed": 1724,
-  "signal_mismatches_removed": 0,
-  "source_aligned_npm_preserved": 64,
-  "verification_mapped": 0,
-  "install_normalized": 1724,
-  "source_normalized": 690
+  "files_scanned": 1758,
+  "files_changed": 0,
+  "source_section_added": 0,
+  "listed_mapped": 0,
+  "signal_integrity_mismatches_removed": 0,
+  "source_aligned_npm_blocks_preserved": 0,
+  "install_commands_normalized": 0,
+  "frontmatter_normalized": 0
 }
