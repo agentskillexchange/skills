@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1758 published skills** across **17 categories** · 1740 security reviewed · Updated 2026-04-07 07:35 UTC
+> **1760 published skills** across **17 categories** · 1740 security reviewed · Updated 2026-04-07 10:44 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -256,7 +256,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (146 skills)
+### 🔧 CI/CD Integrations (147 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -387,6 +387,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](skills/kamal-zero-downtime-docker-deployment-basecamp/) | Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare… | Security Reviewed | — | — |
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
+| [Renovate Automated Dependency Update Bot and CLI](skills/renovate-automated-dependency-update-bot-and-cli/) | Renovate is an open source dependency automation tool that discovers package files and opens update pull requests… | Published | — | — |
 | [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks.… | Security Reviewed | — | — |
 | [Tekton Pipeline Composer](skills/tekton-pipeline-composer/) | Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks,… | Security Reviewed | — | — |
 | [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API.… | Security Reviewed | — | — |
@@ -792,7 +793,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (104 skills)
+### 📚 Library & API Reference (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -834,6 +835,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](skills/hasura-graphql-engine-instant-api-database-automation/) | Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime… | Security Reviewed | — | — |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | — | — |
+| [Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for… | Published | — | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | — | — |
 | [MDN Web API Reference Fetcher](skills/mdn-web-api-reference-fetcher/) | Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides… | Security Reviewed | — | — |
 | [MDN Web Docs Fetcher](skills/mdn-web-docs-fetcher/) | Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API… | Security Reviewed | — | — |

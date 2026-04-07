@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 1758,
+  "total": 1760,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "renovate-automated-dependency-update-bot-and-cli",
+      "name": "Renovate Automated Dependency Update Bot and CLI",
+      "description": "Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "lightning-css-high-performance-css-parser-transformer-and-minifier",
+      "name": "Lightning CSS High-Performance CSS Parser Transformer and Minifier",
+      "description": "Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "postmarkjs-email-delivery-api-transactional-messaging",
       "name": "Postmark.js Email Delivery API for Transactional Messaging",

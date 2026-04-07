@@ -155,6 +155,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
+| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | — | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | — | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | — | — |
