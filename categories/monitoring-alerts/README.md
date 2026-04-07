@@ -103,6 +103,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
+| [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | — | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | — | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |

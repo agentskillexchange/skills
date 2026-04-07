@@ -99,6 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | — | — |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
+| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | — | — |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | — | — |
