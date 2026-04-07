@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "casdoor/casdoor"
-  github_stars: 13289
+  github_stars: 13292
 ---
 
 # Casdoor Open Source Identity and Access Management Platform

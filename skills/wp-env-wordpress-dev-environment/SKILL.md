@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   ase_npm_package: "@wordpress/env"
-  npm_weekly_downloads: 48457
+  npm_weekly_downloads: 47773
 ---
 
 # wp-env Zero-Config WordPress Development Environment

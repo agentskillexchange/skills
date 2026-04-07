@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "web-infra-dev/rspack"
-  github_stars: 12592
+  github_stars: 12599
 ---
 
 # Rspack High-Performance Rust-Based JavaScript Bundler

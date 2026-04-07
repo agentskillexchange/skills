@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mfts/papermark"
-  github_stars: 8148
+  github_stars: 8152
 ---
 
 # Papermark Open Source Document Sharing Platform with Analytics

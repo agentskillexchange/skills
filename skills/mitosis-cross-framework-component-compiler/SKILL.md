@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "BuilderIO/mitosis"
-  github_stars: 13804
+  github_stars: 13806
 ---
 
 # Mitosis Cross-Framework Component Compiler by Builder.io

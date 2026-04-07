@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "svg/svgo"
   github_stars: 22412
   ase_npm_package: "svgo"
-  npm_weekly_downloads: 28615087
+  npm_weekly_downloads: 27199119
 ---
 
 # SVGO SVG Optimization Tool

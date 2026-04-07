@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "supertokens/supertokens-core"
-  github_stars: 15000
+  github_stars: 15002
 ---
 
 # SuperTokens Open Source Authentication Platform and Auth0 Alternative

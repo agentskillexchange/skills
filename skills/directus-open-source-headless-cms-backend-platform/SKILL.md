@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "directus/directus"
   github_stars: 34621
   ase_npm_package: "directus"
-  npm_weekly_downloads: 19990
+  npm_weekly_downloads: 20061
 ---
 
 # Directus Open-Source Headless CMS and Backend Platform

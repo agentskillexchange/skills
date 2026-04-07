@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22591
   ase_npm_package: "crawlee"
-  npm_weekly_downloads: 81037
+  npm_weekly_downloads: 77611
   license: "Apache-2.0"
 ---
 

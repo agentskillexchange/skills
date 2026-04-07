@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kestra-io/kestra"
-  github_stars: 26659
+  github_stars: 26663
 ---
 
 # Kestra Event-Driven Orchestration and Scheduling Platform

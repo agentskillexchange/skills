@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "honojs/hono"
-  github_stars: 29736
+  github_stars: 29789
 ---
 
 # Hono Ultrafast Web Framework Built on Web Standards

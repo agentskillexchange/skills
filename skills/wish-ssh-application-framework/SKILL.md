@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
-  github_stars: 5100
+  github_stars: 5110
 ---
 
 # Wish SSH Application Framework by Charmbracelet

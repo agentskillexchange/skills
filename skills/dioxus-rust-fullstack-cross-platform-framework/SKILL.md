@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DioxusLabs/dioxus"
-  github_stars: 35555
+  github_stars: 35565
 ---
 
 # Dioxus Rust Fullstack Cross-Platform Application Framework

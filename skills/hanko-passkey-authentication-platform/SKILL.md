@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "teamhanko/hanko"
-  github_stars: 8891
+  github_stars: 8892
 ---
 
 # Hanko Open Source Passkey Authentication and User Management

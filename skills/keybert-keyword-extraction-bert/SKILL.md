@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "MaartenGr/KeyBERT"
-  github_stars: 4142
+  github_stars: 4143
 ---
 
 # KeyBERT Minimal Keyword Extraction with BERT Embeddings

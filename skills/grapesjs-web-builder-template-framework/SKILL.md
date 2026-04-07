@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "GrapesJS/grapesjs"
-  github_stars: 25676
+  github_stars: 25682
 ---
 
 # GrapesJS Open Source Web Builder and Template Design Framework

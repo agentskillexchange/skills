@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
-  github_stars: 2807
+  github_stars: 2808
   license: "MIT"
 ---
 

@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "openobserve/openobserve"
-  github_stars: 18455
+  github_stars: 18465
 ---
 
 # OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces

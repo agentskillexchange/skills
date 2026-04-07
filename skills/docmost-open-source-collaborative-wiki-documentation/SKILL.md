@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "docmost/docmost"
-  github_stars: 19702
+  github_stars: 19713
 ---
 
 # Docmost Open Source Collaborative Wiki and Documentation Platform

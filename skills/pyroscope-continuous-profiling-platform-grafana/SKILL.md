@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
-  github_stars: 11338
+  github_stars: 11340
 ---
 
 # Pyroscope Continuous Profiling Platform by Grafana

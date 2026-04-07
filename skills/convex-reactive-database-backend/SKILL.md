@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "get-convex/convex-backend"
-  github_stars: 11166
+  github_stars: 11179
 ---
 
 # Convex Open Source Reactive Database and Backend Platform

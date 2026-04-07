@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "taskforcesh/bullmq"
-  github_stars: 8680
+  github_stars: 8685
 ---
 
 # BullMQ Redis-Based Message Queue and Job Processor for Node.js

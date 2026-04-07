@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xo/usql"
-  github_stars: 9897
+  github_stars: 9898
   license: "MIT"
 ---
 

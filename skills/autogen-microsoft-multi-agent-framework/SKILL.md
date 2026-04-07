@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/autogen"
-  github_stars: 56733
+  github_stars: 56777
 ---
 
 # AutoGen — Microsoft Multi-Agent Conversation Framework

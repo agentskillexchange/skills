@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
-  github_stars: 5094
+  github_stars: 5097
 ---
 
 # Firebase — Google Application Development Platform

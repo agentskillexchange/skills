@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chartdb/chartdb"
-  github_stars: 21727
+  github_stars: 21734
 ---
 
 # ChartDB Database Schema Visualization and Diagram Editor

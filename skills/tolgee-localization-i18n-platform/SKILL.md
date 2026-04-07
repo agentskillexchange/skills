@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tolgee/tolgee-platform"
-  github_stars: 3870
+  github_stars: 3872
 ---
 
 # Tolgee Open Source Localization and i18n Platform

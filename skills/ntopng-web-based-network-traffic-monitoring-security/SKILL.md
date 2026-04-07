@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
-  github_stars: 7693
+  github_stars: 7699
 ---
 
 # ntopng Web-Based Network Traffic Monitoring and Security Analysis

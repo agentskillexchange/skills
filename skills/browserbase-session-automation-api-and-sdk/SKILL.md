@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61
   ase_npm_package: "@browserbasehq/sdk"
-  npm_weekly_downloads: 763969
+  npm_weekly_downloads: 760166
   license: "Apache-2.0"
 ---
 

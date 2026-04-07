@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
   ase_npm_package: "alex"
-  npm_weekly_downloads: 31553
+  npm_weekly_downloads: 30032
   license: "MIT"
 ---
 

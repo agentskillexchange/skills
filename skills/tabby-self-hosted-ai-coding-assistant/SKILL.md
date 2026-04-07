@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "TabbyML/tabby"
-  github_stars: 33303
+  github_stars: 33305
 ---
 
 # Tabby Self-Hosted AI Coding Assistant and Copilot Alternative

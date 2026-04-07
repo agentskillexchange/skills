@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "Foundry376/Mailspring"
-  github_stars: 17361
+  github_stars: 17362
 ---
 
 # Mailspring Open Source Email Client with Plugin Architecture

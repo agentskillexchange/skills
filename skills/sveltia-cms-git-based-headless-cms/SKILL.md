@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "sveltia/sveltia-cms"
   github_stars: 2245
   ase_npm_package: "@sveltia/cms"
-  npm_weekly_downloads: 2761
+  npm_weekly_downloads: 2777
   license: "MIT"
 ---
 

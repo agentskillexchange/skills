@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wailsapp/wails"
-  github_stars: 33598
+  github_stars: 33608
 ---
 
 # Wails Desktop Application Framework for Go and Web Technologies

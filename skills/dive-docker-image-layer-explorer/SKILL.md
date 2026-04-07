@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wagoodman/dive"
-  github_stars: 53705
+  github_stars: 53711
 ---
 
 # Dive Docker Image Layer Explorer and Size Optimizer

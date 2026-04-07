@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/magika"
-  github_stars: 10195
+  github_stars: 10199
   license: "Apache-2.0"
 ---
 

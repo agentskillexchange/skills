@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dotenvx/dotenvx"
-  github_stars: 5308
+  github_stars: 5309
 ---
 
 # dotenvx Secure Environment Variable Manager and Encryptor

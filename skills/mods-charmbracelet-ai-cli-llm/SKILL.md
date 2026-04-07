@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/mods"
-  github_stars: 4515
+  github_stars: 4517
 ---
 
 # Mods AI-Powered Command-Line LLM Interface by Charmbracelet

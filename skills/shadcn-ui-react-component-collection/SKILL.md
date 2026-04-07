@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
-  github_stars: 111605
+  github_stars: 111690
 ---
 
 # shadcn/ui — Re-usable UI Component Collection for React

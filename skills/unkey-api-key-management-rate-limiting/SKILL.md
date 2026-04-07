@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
-  github_stars: 5222
+  github_stars: 5223
 ---
 
 # Unkey Open Source API Key Management and Rate Limiting Platform

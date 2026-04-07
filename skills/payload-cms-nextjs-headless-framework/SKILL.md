@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
   ase_npm_package: "payload"
-  npm_weekly_downloads: 317783
+  npm_weekly_downloads: 307838
   license: "MIT"
 ---
 

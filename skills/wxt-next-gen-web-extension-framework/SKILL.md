@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
-  github_stars: 9516
+  github_stars: 9529
 ---
 
 # WXT Next-Generation Web Extension Framework for Browser Extensions

@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "containers/skopeo"
-  github_stars: 10656
+  github_stars: 10665
 ---
 
 # Skopeo Container Image Registry Operations CLI

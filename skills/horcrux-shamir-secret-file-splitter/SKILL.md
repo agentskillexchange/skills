@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
-  github_stars: 5037
+  github_stars: 5039
   license: "MIT"
 ---
 

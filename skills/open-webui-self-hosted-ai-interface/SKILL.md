@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-webui/open-webui"
-  github_stars: 130242
+  github_stars: 130412
 ---
 
 # Open WebUI Self-Hosted AI Interface for LLMs

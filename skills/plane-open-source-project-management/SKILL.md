@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "makeplane/plane"
-  github_stars: 47285
+  github_stars: 47388
 ---
 
 # Plane Open Source Project Management Platform

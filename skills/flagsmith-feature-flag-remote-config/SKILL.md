@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Flagsmith/flagsmith"
-  github_stars: 6289
+  github_stars: 6290
 ---
 
 # Flagsmith Open Source Feature Flag and Remote Config Platform

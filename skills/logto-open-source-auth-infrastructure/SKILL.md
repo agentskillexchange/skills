@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "logto-io/logto"
-  github_stars: 11858
+  github_stars: 11862
 ---
 
 # Logto Open Source Authentication and Authorization Infrastructure

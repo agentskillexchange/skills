@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
-  github_stars: 158855
+  github_stars: 158931
 ---
 
 # Hugging Face Transformers — Machine Learning Model Library

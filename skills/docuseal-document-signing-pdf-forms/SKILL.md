@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
-  github_stars: 11684
+  github_stars: 11688
 ---
 
 # DocuSeal Open Source Document Signing and PDF Form Platform

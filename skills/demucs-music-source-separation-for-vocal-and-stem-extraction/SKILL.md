@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebookresearch/demucs"
-  github_stars: 9938
+  github_stars: 9939
   license: "MIT"
 ---
 

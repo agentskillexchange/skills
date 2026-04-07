@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "useplunk/plunk"
-  github_stars: 4952
+  github_stars: 4955
 ---
 
 # Plunk Open Source Transactional Email Platform on AWS SES

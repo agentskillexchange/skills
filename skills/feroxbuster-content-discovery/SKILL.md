@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"
-  github_stars: 7643
+  github_stars: 7645
 ---
 
 # Feroxbuster Fast Recursive Content Discovery Tool in Rust

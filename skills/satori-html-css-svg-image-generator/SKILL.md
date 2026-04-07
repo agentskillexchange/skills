@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/satori"
-  github_stars: 13224
+  github_stars: 13234
 ---
 
 # Satori HTML and CSS to SVG Image Generator by Vercel

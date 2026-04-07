@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lobehub/lobehub"
-  github_stars: 74790
+  github_stars: 74841
 ---
 
 # LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem

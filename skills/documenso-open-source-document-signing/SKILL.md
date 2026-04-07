@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "documenso/documenso"
-  github_stars: 12580
+  github_stars: 12587
 ---
 
 # Documenso Open Source Document Signing Platform

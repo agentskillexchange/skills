@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
-  github_stars: 2179
+  github_stars: 2183
 ---
 
 # WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS

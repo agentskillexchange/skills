@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "sanity-io/sanity"
   github_stars: 6041
   ase_npm_package: "sanity"
-  npm_weekly_downloads: 408168
+  npm_weekly_downloads: 397403
   license: "MIT"
 ---
 

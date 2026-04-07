@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71740
   ase_npm_package: "@strapi/strapi"
-  npm_weekly_downloads: 156398
+  npm_weekly_downloads: 147534
 ---
 
 # Strapi Open Source Headless CMS with REST and GraphQL APIs

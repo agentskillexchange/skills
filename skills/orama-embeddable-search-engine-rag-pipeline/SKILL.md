@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "oramasearch/orama"
-  github_stars: 10281
+  github_stars: 10286
 ---
 
 # Orama Embeddable Search Engine and RAG Pipeline for JavaScript

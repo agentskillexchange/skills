@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
-  github_stars: 3946
+  github_stars: 3951
 ---
 
 # Wrangler Cloudflare Workers CLI for Edge Deployment

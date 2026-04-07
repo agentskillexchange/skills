@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nitrojs/nitro"
-  github_stars: 10637
+  github_stars: 10640
 ---
 
 # Nitro Next-Generation Universal Server Toolkit by UnJS

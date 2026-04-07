@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Textualize/textual"
-  github_stars: 35247
+  github_stars: 35267
 ---
 
 # Textual Python TUI Application Framework by Textualize
