@@ -1,10 +1,12 @@
 ---
 title: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op"
+description: "Route WordPress tasks to the right workflow fast.\n\nCore Capabilities\n\nManage WordPress sites using WP-CLI and the WordPress REST API\n\nAutomate plugin, theme, and core update workflows\n\nHandle content op"
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
-category: ["WordPress & CMS"]
-framework: ["OpenClaw"]
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "WordPress/WordPress"
   github_stars: 21002
@@ -12,17 +14,25 @@ tool_ecosystem:
 
 # WordPress Router
 
-Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op
+Route WordPress tasks to the right workflow fast.
+
+Core Capabilities
+
+Manage WordPress sites using WP-CLI and the WordPress REST API
+
+Automate plugin, theme, and core update workflows
+
+Handle content op
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

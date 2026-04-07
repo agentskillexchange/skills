@@ -1,13 +1,16 @@
 ---
-title: "SEC EDGAR Filing Scraper & Analyzer"
+title: "SEC EDGAR Filing Scraper &#038; Analyzer"
 description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
-category: ["Research & Scraping"]
-framework: ["Claude Code", "Multi-Framework"]
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
-# SEC EDGAR Filing Scraper & Analyzer
+# SEC EDGAR Filing Scraper &#038; Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
 
@@ -15,11 +18,11 @@ Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-te
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

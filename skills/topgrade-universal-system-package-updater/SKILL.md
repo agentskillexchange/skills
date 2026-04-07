@@ -3,8 +3,10 @@ title: "Topgrade Universal System Package Updater"
 description: "Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more."
 verification: security_reviewed
 source: "https://github.com/topgrade-rs/topgrade"
-category: ["Developer Tools"]
-framework: ["Custom Agents"]
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "topgrade-rs/topgrade"
   github_stars: 3619
@@ -18,11 +20,11 @@ Topgrade is a CLI tool written in Rust that detects all package managers and upd
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

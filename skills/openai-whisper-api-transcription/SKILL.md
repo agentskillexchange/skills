@@ -3,8 +3,10 @@ title: "OpenAI Whisper API Transcription"
 description: "API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openai-whisper-api-transcription/"
-category: ["Media & Transcription"]
-framework: ["OpenClaw"]
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # OpenAI Whisper API Transcription
@@ -15,11 +17,11 @@ API-based speech-to-text transcription through OpenAI. No local model downloads,
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

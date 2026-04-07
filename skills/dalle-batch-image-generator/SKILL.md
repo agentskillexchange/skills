@@ -3,8 +3,10 @@ title: "DALL-E Batch Image Generator"
 description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
-category: ["Image & Creative Automation"]
-framework: ["Claude Agents"]
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # DALL-E Batch Image Generator
@@ -15,11 +17,11 @@ Generates and manages batch image creation jobs using the OpenAI Images API /v1/
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

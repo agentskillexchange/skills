@@ -3,8 +3,11 @@ title: "Terraform Module Testing Framework"
 description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
-category: ["Templates & Workflows"]
-framework: ["Claude Code", "Multi-Framework"]
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Terraform Module Testing Framework
@@ -15,11 +18,11 @@ Tests Terraform modules using Terratest Go library and terraform test native fra
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

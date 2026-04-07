@@ -3,8 +3,10 @@ title: "Lip Gloss CSS-Like Terminal Styling Library for Go"
 description: "Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color handling, borders, padding, tables, and layout primitives for building polished terminal applications."
 verification: security_reviewed
 source: "https://github.com/charmbracelet/lipgloss"
-category: ["Developer Tools"]
-framework: ["Multi-Framework"]
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Lip Gloss CSS-Like Terminal Styling Library for Go
@@ -15,11 +17,11 @@ Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styl
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

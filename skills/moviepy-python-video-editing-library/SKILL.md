@@ -3,12 +3,13 @@ title: "MoviePy Python Video Editing Library"
 description: "MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom effects. It reads and writes all common audio and video formats including GIF, powered by FFmpeg under the hood."
 verification: security_reviewed
 source: "https://github.com/Zulko/moviepy"
-category: ["Media & Transcription"]
-framework: ["Multi-Framework"]
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zulko/moviepy"
   github_stars: 14491
-  license: "MIT"
 ---
 
 # MoviePy Python Video Editing Library
@@ -19,11 +20,11 @@ MoviePy is a Python library for video editing — cuts, concatenations, title in
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

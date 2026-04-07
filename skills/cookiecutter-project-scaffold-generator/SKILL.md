@@ -3,8 +3,10 @@ title: "Cookiecutter Project Scaffold Generator"
 description: "Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/"
-category: ["Templates & Workflows"]
-framework: ["Codex"]
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Codex"
 ---
 
 # Cookiecutter Project Scaffold Generator
@@ -15,11 +17,11 @@ Generates project scaffolds from Cookiecutter templates with Jinja2 variable int
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

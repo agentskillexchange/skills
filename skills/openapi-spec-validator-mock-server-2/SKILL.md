@@ -1,13 +1,15 @@
 ---
-title: "OpenAPI Spec Validator & Mock Server"
+title: "OpenAPI Spec Validator &#038; Mock Server"
 description: "Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
-category: ["Library & API Reference"]
-framework: ["Codex"]
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Codex"
 ---
 
-# OpenAPI Spec Validator & Mock Server
+# OpenAPI Spec Validator &#038; Mock Server
 
 Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via openapi-generator.
 
@@ -15,11 +17,11 @@ Validates OpenAPI 3.x specifications using the swagger-parser library and genera
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

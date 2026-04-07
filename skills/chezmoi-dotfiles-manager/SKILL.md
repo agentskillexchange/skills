@@ -3,8 +3,10 @@ title: "chezmoi Cross-Machine Dotfiles Manager"
 description: "chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates, encryption, and cross-platform support. Written in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and one-command bootstrap."
 verification: security_reviewed
 source: "https://github.com/twpayne/chezmoi"
-category: ["Developer Tools"]
-framework: ["OpenClaw"]
+category:
+  - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "twpayne/chezmoi"
   github_stars: 18876
@@ -18,11 +20,11 @@ chezmoi manages dotfiles across multiple machines securely using a Git-backed so
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

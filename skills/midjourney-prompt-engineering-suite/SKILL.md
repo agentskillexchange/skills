@@ -3,8 +3,10 @@ title: "Midjourney Prompt Engineering Suite"
 description: "Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
-category: ["Image & Creative Automation"]
-framework: ["ChatGPT Agents"]
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Midjourney Prompt Engineering Suite
@@ -15,11 +17,11 @@ Generates and optimizes Midjourney prompts using the Midjourney API with automat
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

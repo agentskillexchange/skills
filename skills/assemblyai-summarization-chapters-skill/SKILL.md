@@ -1,13 +1,15 @@
 ---
-title: "AssemblyAI Summarization & Chapters Skill"
+title: "AssemblyAI Summarization &#038; Chapters Skill"
 description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/"
-category: ["Media & Transcription"]
-framework: ["Claude Agents"]
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Claude Agents"
 ---
 
-# AssemblyAI Summarization & Chapters Skill
+# AssemblyAI Summarization &#038; Chapters Skill
 
 Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
@@ -15,11 +17,11 @@ Transcribes audio and generates auto-chapters with summaries using AssemblyAI’
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

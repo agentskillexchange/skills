@@ -3,12 +3,13 @@ title: "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositorie
 description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
 verification: security_reviewed
 source: "https://github.com/afragen/git-updater"
-category: ["WordPress & CMS"]
-framework: ["Multi-Framework"]
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "afragen/git-updater"
   github_stars: 3316
-  license: "GPL-3.0"
 ---
 
 # Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories
@@ -19,11 +20,11 @@ Git Updater enables automatic updates for WordPress plugins and themes hosted on
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

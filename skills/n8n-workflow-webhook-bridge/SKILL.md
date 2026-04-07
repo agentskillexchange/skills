@@ -3,8 +3,10 @@ title: "n8n Workflow Webhook Bridge"
 description: "Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware."
 verification: security_reviewed
 source: "https://github.com/n8n-io/n8n"
-category: ["Integrations & Connectors"]
-framework: ["OpenClaw"]
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "n8n-io/n8n"
   github_stars: 182065
@@ -20,11 +22,11 @@ Builds integration handoffs around n8n primitives like the Webhook node, HTTP Re
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI.
-2. Add it through your agent or assistant skill manager.
-3. Clone or copy this skill into your local skills directory.
-4. Install with a package manager if the upstream project provides one.
-5. Follow the upstream project documentation for manual setup.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
