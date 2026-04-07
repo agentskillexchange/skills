@@ -49,6 +49,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
+| [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | 12.6k | 18/wk |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 185.1k/wk |

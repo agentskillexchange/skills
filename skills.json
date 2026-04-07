@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1766,
+  "total": 1769,
   "generated": "2026-04-07",
   "skills": [
+    {
+      "slug": "agentql-natural-language-web-query-sdk-extraction-automation",
+      "name": "AgentQL Natural Language Web Query SDK for Extraction and Automation",
+      "description": "AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1309,
+        "license": "MIT"
+      }
+    },
+    {
+      "slug": "playwright-python-browser-automation-library-cross-browser-testing",
+      "name": "Playwright Python Browser Automation Library for Cross-Browser Testing",
+      "description": "Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 14487,
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "slug": "logfire-python-observability-sdk-llm-agent-tracing",
+      "name": "Logfire Python Observability SDK for LLM and Agent Tracing",
+      "description": "Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4153,
+        "license": "MIT"
+      }
+    },
     {
       "slug": "clerk-javascript-backend-sdk-server-side-auth-workflows",
       "name": "Clerk JavaScript Backend SDK for Server-Side Auth Workflows",

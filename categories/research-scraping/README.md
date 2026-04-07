@@ -53,6 +53,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 456k/wk |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 46.1k/wk |
+| [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
