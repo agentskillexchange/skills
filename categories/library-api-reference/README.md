@@ -129,6 +129,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | — | — |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | — | — |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | — | — |
+| [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | — | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | — | — |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | — | — |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | — | — |

@@ -23,7 +23,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Downloads |
 |---|---:|
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 5.4k/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 5.2k/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.8M/wk |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.3M/wk |
 
@@ -48,7 +48,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 5.4k/wk |
+| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 5.2k/wk |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](../../skills/logfire-python-observability-sdk-llm-agent-tracing/) | 4.2k | — |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
