@@ -4,7 +4,7 @@ description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenA
 verification: security_reviewed
 source: "https://github.com/ggml-org/whisper.cpp"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

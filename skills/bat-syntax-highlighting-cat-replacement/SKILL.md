@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "sharkdp/bat"
-  github_stars: 57909
 ---
 
 # bat Syntax-Highlighting Cat Replacement

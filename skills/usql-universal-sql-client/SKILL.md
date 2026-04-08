@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "xo/usql"
   github_stars: 9901
+  license: "MIT"
 ---
 
 # usql Universal Command-Line SQL Client for Multiple Databases

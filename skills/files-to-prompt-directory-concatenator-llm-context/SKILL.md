@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "simonw/files-to-prompt"
-  github_stars: 2643
 ---
 
 # files-to-prompt Directory Concatenator for LLM Context

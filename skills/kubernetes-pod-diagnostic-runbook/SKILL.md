@@ -4,7 +4,7 @@ description: "Automated K8s pod troubleshooting using kubectl, crictl, and the K
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Codex"
 ---

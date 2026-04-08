@@ -4,7 +4,7 @@ description: "Extracts clean markdown content from any URL using the Jina Reader
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Gemini"
 ---

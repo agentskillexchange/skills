@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "prefix-dev/pixi"
-  github_stars: 6724
 ---
 
 # Pixi Cross-Platform Package Manager Built on Conda

@@ -4,7 +4,7 @@ description: "Leverages the Datadog API v2 metrics and events endpoints to detec
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Gemini"
 ---

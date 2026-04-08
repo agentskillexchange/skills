@@ -4,7 +4,7 @@ description: "Validates container image and artifact signatures using Sigstore C
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Codex"
 ---

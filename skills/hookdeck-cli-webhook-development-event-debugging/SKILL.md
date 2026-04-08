@@ -4,7 +4,7 @@ description: "Hookdeck CLI is Hookdeck’s official command-line tool for forwar
 verification: security_reviewed
 source: "https://github.com/hookdeck/hookdeck-cli"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

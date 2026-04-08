@@ -4,7 +4,7 @@ description: "Integrate Navidrome’s self-hosted music server into AI agent wor
 verification: security_reviewed
 source: "https://github.com/navidrome/navidrome"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

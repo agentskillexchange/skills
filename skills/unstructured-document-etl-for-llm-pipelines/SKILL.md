@@ -4,7 +4,7 @@ description: "Unstructured is an open source document processing library that co
 verification: security_reviewed
 source: "https://github.com/Unstructured-IO/unstructured"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 ---

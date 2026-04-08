@@ -4,7 +4,7 @@ description: "Diagnoses failed AWS CloudFormation stack operations using the AWS
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 ---

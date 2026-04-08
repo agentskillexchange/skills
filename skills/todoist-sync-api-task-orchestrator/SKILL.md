@@ -4,7 +4,7 @@ description: "Orchestrates complex task workflows using the Todoist Sync API v9 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrator/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Gemini"
 ---

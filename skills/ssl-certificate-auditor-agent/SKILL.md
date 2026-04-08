@@ -4,7 +4,7 @@ description: "Audits TLS/SSL configurations using sslyze Python library and SSL 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 ---

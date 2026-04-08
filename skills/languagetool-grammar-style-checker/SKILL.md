@@ -4,12 +4,13 @@ description: "Check grammar, style, and spelling across 25+ languages with Langu
 verification: security_reviewed
 source: "https://github.com/languagetool-org/languagetool"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "languagetool-org/languagetool"
   github_stars: 14238
+  license: "LGPL-2.1"
 ---
 
 # LanguageTool Grammar and Style Checker

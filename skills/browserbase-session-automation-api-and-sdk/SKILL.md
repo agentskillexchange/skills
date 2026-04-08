@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 61
   npm_package: "@browserbasehq/sdk"
   npm_weekly_downloads: 774132
+  license: "Apache-2.0"
 ---
 
 # Browserbase Session Automation API and SDK

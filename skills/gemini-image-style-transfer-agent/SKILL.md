@@ -4,7 +4,7 @@ description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply s
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Gemini"
 ---

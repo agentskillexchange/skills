@@ -4,7 +4,7 @@ description: "Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "MCP"
 ---

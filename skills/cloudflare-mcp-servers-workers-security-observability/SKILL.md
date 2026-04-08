@@ -4,7 +4,7 @@ description: "Official Cloudflare MCP servers that enable AI assistants to manag
 verification: security_reviewed
 source: "https://github.com/cloudflare/mcp-server-cloudflare"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

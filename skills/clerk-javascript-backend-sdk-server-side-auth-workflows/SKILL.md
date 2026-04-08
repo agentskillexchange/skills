@@ -4,7 +4,7 @@ description: "Clerk’s JavaScript backend SDK gives agents a real server-side i
 verification: security_reviewed
 source: "https://github.com/clerk/javascript"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

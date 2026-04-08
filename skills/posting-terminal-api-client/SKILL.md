@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "darrenburns/posting"
-  github_stars: 11673
 ---
 
 # Posting Terminal API Client

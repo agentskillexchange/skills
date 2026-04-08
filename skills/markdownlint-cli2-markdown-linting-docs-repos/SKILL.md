@@ -4,7 +4,7 @@ description: "This skill uses markdownlint-cli2 to enforce consistent Markdown q
 verification: security_reviewed
 source: "https://github.com/DavidAnson/markdownlint-cli2"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 740
   npm_package: "markdownlint-cli2"
   npm_weekly_downloads: 515847
+  license: "MIT"
 ---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos

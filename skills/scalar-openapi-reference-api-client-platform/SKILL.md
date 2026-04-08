@@ -4,7 +4,7 @@ description: "Scalar is an open-source API platform for publishing modern OpenAP
 verification: listed
 source: "https://github.com/scalar/scalar"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
 ---

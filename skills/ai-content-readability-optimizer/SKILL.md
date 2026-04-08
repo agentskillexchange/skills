@@ -4,7 +4,7 @@ description: "Analyzes and optimizes content readability using Flesch-Kincaid sc
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Codex"
 ---

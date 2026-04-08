@@ -4,7 +4,7 @@ description: "Uses the DocuSign eSignature REST API SDK to programmatically crea
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. In
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "OpenClaw"
 ---

@@ -4,12 +4,13 @@ description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP pro
 verification: security_reviewed
 source: "https://github.com/mitmproxy/mitmproxy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
+  license: "MIT"
 ---
 
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing

@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 9915
   npm_package: "testcafe"
   npm_weekly_downloads: 183316
+  license: "MIT"
 ---
 
 # TestCafe Zero-Config End-to-End Browser Testing Framework

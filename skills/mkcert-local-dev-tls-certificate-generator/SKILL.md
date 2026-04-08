@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "FiloSottile/mkcert"
-  github_stars: 58399
 ---
 
 # mkcert Zero-Config Local Development TLS Certificate Generator

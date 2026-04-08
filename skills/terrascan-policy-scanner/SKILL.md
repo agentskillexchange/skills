@@ -4,7 +4,7 @@ description: "Terrascan Policy Scanner is built around Kubernetes orchestration 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terrascan-policy-scanner/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 ---

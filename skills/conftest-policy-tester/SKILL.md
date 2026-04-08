@@ -4,7 +4,7 @@ description: "Conftest Policy Tester is built around Kubernetes orchestration pl
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/conftest-policy-tester/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 ---

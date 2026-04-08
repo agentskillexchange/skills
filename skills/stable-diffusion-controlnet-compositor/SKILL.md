@@ -4,7 +4,7 @@ description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Ca
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Gemini"
 ---

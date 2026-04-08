@@ -4,7 +4,7 @@ description: "Executes NRQL queries against New Relic’s GraphQL NerdGraph API 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
 ---

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "valeriansaliou/sonic"
   github_stars: 21176
+  license: "MPL-2.0"
 ---
 
 # Sonic Fast Lightweight Schema-Less Search Backend

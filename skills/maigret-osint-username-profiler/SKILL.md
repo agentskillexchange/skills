@@ -4,12 +4,9 @@ description: "Maigret collects a dossier on a person by username only, checking 
 verification: security_reviewed
 source: "https://github.com/soxoj/maigret"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "soxoj/maigret"
-  github_stars: 19325
 ---
 
 # Maigret OSINT Username Profiler Across 3000+ Sites

@@ -4,7 +4,7 @@ description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Cursor"
 ---

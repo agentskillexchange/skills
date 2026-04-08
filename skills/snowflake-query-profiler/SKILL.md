@@ -4,7 +4,7 @@ description: "Profiles and optimizes Snowflake SQL queries using the Snowflake I
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "ChatGPT Agents"
 ---

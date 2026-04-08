@@ -4,12 +4,13 @@ description: "Upscayl is a free, open-source AI image upscaler for Linux, macOS,
 verification: security_reviewed
 source: "https://github.com/upscayl/upscayl"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "upscayl/upscayl"
   github_stars: 44297
+  license: "AGPL-3.0"
 ---
 
 # Upscayl Open Source AI Image Upscaler

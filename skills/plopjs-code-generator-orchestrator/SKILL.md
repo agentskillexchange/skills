@@ -4,7 +4,7 @@ description: "Manages Plop.js micro-generators to scaffold components, modules, 
 verification: security_reviewed
 source: "https://github.com/plopjs/plop"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:

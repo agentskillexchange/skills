@@ -4,7 +4,7 @@ description: "Composes GitHub Actions workflow YAML files from modular job templ
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-composer-2/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 ---

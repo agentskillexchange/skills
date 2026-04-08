@@ -4,7 +4,7 @@ description: "Tests Terraform modules using Terratest Go library and terraform t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Code"
   - "Multi-Framework"

@@ -4,12 +4,13 @@ description: "franc is a JavaScript library and CLI tool for detecting the langu
 verification: security_reviewed
 source: "https://github.com/wooorm/franc"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wooorm/franc"
   github_stars: 4386
+  license: "MIT"
 ---
 
 # franc Natural Language Detection Library and CLI

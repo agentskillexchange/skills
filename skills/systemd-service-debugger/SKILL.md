@@ -4,7 +4,7 @@ description: "Debugs failed systemd services using journalctl, systemctl, and th
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/systemd-service-debugger/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---

@@ -4,12 +4,9 @@ description: "The official Stripe Agent Toolkit provides Python and TypeScript l
 verification: security_reviewed
 source: "https://github.com/stripe/ai"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "stripe/ai"
-  github_stars: 1422
 ---
 
 # Stripe Agent Toolkit for AI Payment Integration

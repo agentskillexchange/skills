@@ -4,7 +4,7 @@ description: "Auto-generates operational runbooks from Kubernetes cluster state 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-generator/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---

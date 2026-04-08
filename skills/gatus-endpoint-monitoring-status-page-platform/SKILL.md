@@ -4,7 +4,7 @@ description: "Gatus is an open source uptime and endpoint monitoring platform bu
 verification: listed
 source: "https://github.com/TwiN/gatus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 ---

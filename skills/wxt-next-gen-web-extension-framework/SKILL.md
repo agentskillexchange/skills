@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "wxt-dev/wxt"
-  github_stars: 9534
 ---
 
 # WXT Next-Generation Web Extension Framework for Browser Extensions

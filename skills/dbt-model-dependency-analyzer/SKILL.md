@@ -4,7 +4,7 @@ description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 ---

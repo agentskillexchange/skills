@@ -4,12 +4,9 @@ description: "Effect is a comprehensive TypeScript standard library that provide
 verification: security_reviewed
 source: "https://github.com/Effect-TS/effect"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Effect-TS/effect"
-  github_stars: 13778
 ---
 
 # Effect TypeScript Standard Library for Production Applications

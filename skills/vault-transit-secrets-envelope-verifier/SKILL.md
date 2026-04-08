@@ -4,12 +4,9 @@ description: "Verifies encryption workflows with HashiCorp Vault Transit endpoin
 verification: security_reviewed
 source: "https://github.com/hashicorp/vault"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Codex"
-tool_ecosystem:
-  github_repo: "hashicorp/vault"
-  github_stars: 35321
 ---
 
 # Vault Transit Secrets Envelope Verifier

@@ -4,7 +4,7 @@ description: "Runs diagnostic queries against PostgreSQL using pg_stat_statement
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

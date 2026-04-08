@@ -4,7 +4,7 @@ description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 ---

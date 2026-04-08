@@ -7,11 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/playwright"
-  github_stars: 85523
-  npm_package: "playwright"
-  npm_weekly_downloads: 45520206
 ---
 
 # Playwright Cross-Browser Testing and Automation Framework

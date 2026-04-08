@@ -4,7 +4,7 @@ description: "HubSpot MCP Server is built around HubSpot CRM and marketing APIs.
 verification: security_reviewed
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

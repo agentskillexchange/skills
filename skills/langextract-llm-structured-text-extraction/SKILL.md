@@ -4,12 +4,9 @@ description: "LangExtract by Google is a Python library for extracting structure
 verification: security_reviewed
 source: "https://github.com/google/langextract"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "google/langextract"
-  github_stars: 35042
 ---
 
 # LangExtract LLM-Powered Structured Text Extraction

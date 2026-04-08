@@ -4,7 +4,7 @@ description: "Builds custom Semgrep rules using the semgrep YAML rule syntax wit
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Agents"
 ---

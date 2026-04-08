@@ -4,7 +4,7 @@ description: "Microsoft Learn MCP Server gives agents and IDE assistants direct 
 verification: security_reviewed
 source: "https://github.com/MicrosoftDocs/mcp"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "MCP"
 tool_ecosystem:

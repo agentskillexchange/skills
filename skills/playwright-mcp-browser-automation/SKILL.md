@@ -13,7 +13,6 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30110
-  npm_package: "@playwright/mcp"
 ---
 
 # Playwright MCP Browser Automation

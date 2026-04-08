@@ -4,12 +4,13 @@ description: "nb is a command-line and local web note-taking, bookmarking, archi
 verification: security_reviewed
 source: "https://github.com/xwmx/nb"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088
+  license: "AGPL-3.0"
 ---
 
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application

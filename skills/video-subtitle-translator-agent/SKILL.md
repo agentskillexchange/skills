@@ -4,12 +4,9 @@ description: "Extracts embedded subtitles from video containers using FFmpeg’s
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Gemini"
-tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
-  github_stars: 58548
 ---
 
 # Video Subtitle Translator Agent

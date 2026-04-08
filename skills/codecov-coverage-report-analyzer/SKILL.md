@@ -4,7 +4,7 @@ description: "Integrates with the Codecov API v2 and codecov-cli to upload cover
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Cursor"
 ---

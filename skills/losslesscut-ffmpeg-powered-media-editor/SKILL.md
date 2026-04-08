@@ -4,12 +4,9 @@ description: "Perform ultra-fast lossless trimming, cutting, and merging of vide
 verification: security_reviewed
 source: "https://github.com/mifi/lossless-cut"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "mifi/lossless-cut"
-  github_stars: 39480
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor

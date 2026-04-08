@@ -4,7 +4,7 @@ description: "Pagefind is a static search library written in Rust that indexes y
 verification: security_reviewed
 source: "https://github.com/Pagefind/pagefind"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5094
   npm_package: "pagefind"
   npm_weekly_downloads: 464708
+  license: "MIT"
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine

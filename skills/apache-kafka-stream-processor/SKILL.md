@@ -4,7 +4,7 @@ description: "Apache Kafka Stream Processor is built around Apache Kafka event s
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-processor/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
 ---

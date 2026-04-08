@@ -4,7 +4,7 @@ description: "Monitors test coverage trends using the Codecov API v2 /repos/{own
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "ChatGPT Agents"
 ---

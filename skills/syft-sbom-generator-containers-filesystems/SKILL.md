@@ -4,12 +4,9 @@ description: "Syft by Anchore is a CLI tool for generating Software Bills of Mat
 verification: security_reviewed
 source: "https://github.com/anchore/syft"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "anchore/syft"
-  github_stars: 8628
 ---
 
 # Syft SBOM Generator for Containers and Filesystems

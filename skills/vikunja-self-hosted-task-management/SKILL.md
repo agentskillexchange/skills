@@ -4,12 +4,13 @@ description: "Vikunja is an open-source, self-hosted task management application
 verification: security_reviewed
 source: "https://github.com/go-vikunja/vikunja"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "go-vikunja/vikunja"
   github_stars: 3768
+  license: "AGPL-3.0"
 ---
 
 # Vikunja Self-Hosted Task Management and Project Organization Platform

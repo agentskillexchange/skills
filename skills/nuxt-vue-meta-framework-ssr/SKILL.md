@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "nuxt/nuxt"
-  github_stars: 59957
 ---
 
 # Nuxt — Vue.js Meta-Framework for SSR and Static Sites

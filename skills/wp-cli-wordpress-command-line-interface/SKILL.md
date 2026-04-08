@@ -4,7 +4,7 @@ description: "WP-CLI is the official command-line interface for WordPress, maint
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 ---

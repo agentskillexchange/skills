@@ -4,7 +4,7 @@ description: "Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
 ---

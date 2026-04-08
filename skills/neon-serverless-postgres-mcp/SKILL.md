@@ -4,12 +4,13 @@ description: "Neon’s official MCP server translates natural language requests 
 verification: security_reviewed
 source: "https://github.com/neondatabase/mcp-server-neon"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
   github_stars: 567
+  license: "MIT"
 ---
 
 # Neon Serverless Postgres MCP

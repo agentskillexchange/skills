@@ -8,9 +8,6 @@ category:
 framework:
   - "Custom Agents"
   - "OpenClaw"
-tool_ecosystem:
-  github_repo: "microsoft/playwright"
-  github_stars: 85658
 ---
 
 # Agent Browser Operator

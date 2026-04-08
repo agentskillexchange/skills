@@ -4,7 +4,7 @@ description: "Route WordPress tasks to the right workflow fast."
 verification: security_reviewed
 source: "https://github.com/WordPress/WordPress"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "OpenClaw"
 tool_ecosystem:

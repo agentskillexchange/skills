@@ -4,7 +4,7 @@ description: "pyannote.audio is an open-source Python toolkit for speaker diariz
 verification: security_reviewed
 source: "https://github.com/pyannote/pyannote-audio"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 ---

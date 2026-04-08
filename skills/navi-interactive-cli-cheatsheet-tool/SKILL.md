@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "denisidoro/navi"
-  github_stars: 16941
 ---
 
 # navi Interactive CLI Cheatsheet Tool

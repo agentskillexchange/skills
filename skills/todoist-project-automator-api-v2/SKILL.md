@@ -4,7 +4,7 @@ description: "Automates Todoist project management using the Todoist REST API v2
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Gemini"
 ---

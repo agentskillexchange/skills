@@ -4,7 +4,7 @@ description: "Lightweight local database access for agent tasks."
 verification: security_reviewed
 source: "https://github.com/modelcontextprotocol/servers"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
   - "Cursor"

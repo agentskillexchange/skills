@@ -4,7 +4,7 @@ description: "Integrates with the SonarQube REST API to run static code analysis
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
 ---

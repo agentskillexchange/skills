@@ -4,7 +4,7 @@ description: "Uses the W&B Python SDK and Public API to stream live training met
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wandb-run-monitor/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 ---

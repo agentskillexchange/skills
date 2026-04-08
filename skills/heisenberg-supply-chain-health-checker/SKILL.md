@@ -4,7 +4,7 @@ description: "An open-source software supply chain health check tool that analyz
 verification: security_reviewed
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

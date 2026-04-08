@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "pulumi/pulumi"
-  github_stars: 24937
 ---
 
 # Pulumi MCP Server

@@ -7,9 +7,6 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "sxyazi/yazi"
-  github_stars: 35770
 ---
 
 # Yazi Async Terminal File Manager

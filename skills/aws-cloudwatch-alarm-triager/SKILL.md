@@ -4,7 +4,7 @@ description: "Triages AWS CloudWatch alarms by correlating alarm state changes w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Cursor"
 ---
