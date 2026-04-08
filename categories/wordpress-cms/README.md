@@ -14,8 +14,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
 | [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
 | [WordPress Router](../../skills/wordpress-router/) | ⭐ 21k |
+| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | ⭐ 19k |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 19k |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⭐ 13.2k |
 
 ---
 
@@ -47,6 +47,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
 | [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
 | [WordPress Router](../../skills/wordpress-router/) | 21k | — |
+| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 1.9k/wk |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 87k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
@@ -82,7 +83,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | — | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
-| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](../../skills/elementor-website-builder-wordpress-visual-page-editor/) | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | — | — |

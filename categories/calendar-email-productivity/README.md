@@ -11,11 +11,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.4k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⭐ 24.1k |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | ⭐ 19.7k |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 19.4k |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | ⭐ 18.3k |
 | [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | ⭐ 17.4k |
-| [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | ⭐ 15.9k |
 
 ---
 
@@ -36,6 +36,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.4k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.1k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
@@ -50,6 +51,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
+| [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.1M/wk |
@@ -77,12 +79,10 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | — | — |
 | [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
-| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | — | — |
-| [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

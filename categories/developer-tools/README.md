@@ -71,6 +71,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | 55.7k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](../../skills/dive-docker-image-layer-explorer/) | 53.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
+| [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.8k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48k | — |
@@ -88,6 +89,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | 39k | — |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 6.2k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
+| [ToolJet Open Source Internal Tools and Workflow Platform](../../skills/tooljet-open-source-internal-tools-workflow-platform/) | 37.7k | — |
 | [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | 37.2k | — |
 | [Yazi Async Terminal File Manager](../../skills/yazi-async-terminal-file-manager/) | 35.8k | — |
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.6k | — |
@@ -110,6 +112,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 28.5k | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | — |
+| [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.1k | 110.3M/wk |
@@ -213,10 +216,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
-| [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
-| [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | — | — |
@@ -272,7 +273,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
-| [ToolJet Open Source Internal Tools and Workflow Platform](../../skills/tooljet-open-source-internal-tools-workflow-platform/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |

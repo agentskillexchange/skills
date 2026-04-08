@@ -9,12 +9,13 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | ⭐ 41.2k |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
+| [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 25.6k |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | ⭐ 13.8k |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | ⭐ 9.8k |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⭐ 8.4k |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⭐ 1.2k |
 
 ---
 
@@ -35,11 +36,15 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
+| [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.3M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 9.8k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
+| [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
+| [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
@@ -64,15 +69,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | — | — |
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | — | — |
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
-| [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | — | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
-| [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | — | — |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
-| [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | — |
 | [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | — | — |
@@ -97,7 +99,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | — | — |
 | [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | — | — |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | — | — |
-| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
@@ -135,6 +136,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | — | — |
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | — | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | — | — |
+| [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | — | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | — | — |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | — | — |
 

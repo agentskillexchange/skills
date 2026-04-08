@@ -10,12 +10,12 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 82.7k |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 82.7k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
+| [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⭐ 56.9k |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | ⭐ 37.9k |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | ⭐ 37.1k |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | ⭐ 35k |
-| [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | ⭐ 33.2k |
 
 ---
 
@@ -36,6 +36,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 82.7k | — |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 82.7k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
+| [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
@@ -94,7 +95,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | — | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | — | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | — | — |
-| [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | — | — |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |

@@ -66,6 +66,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
+| [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | 3k | — |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
@@ -104,7 +105,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | — | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
-| [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
 | [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | — | — |
