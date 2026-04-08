@@ -1,13 +1,12 @@
 ---
 title: "Meltano Declarative ELT Data Integration Engine"
-slug: "meltano-declarative-elt-data-integration-engine"
 description: "Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative, code-first data integration with 600+ connectors through Singer taps and targets, orchestrating data movement from APIs, databases, and files to warehouses and lakes."
+verification: security_reviewed
+source: "https://github.com/meltano/meltano"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/meltano/meltano"
 tool_ecosystem:
   github_repo: "meltano/meltano"
   github_stars: 2403
@@ -21,11 +20,11 @@ Meltano is an open-source, CLI-first ELT platform built on the Singer specificat
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

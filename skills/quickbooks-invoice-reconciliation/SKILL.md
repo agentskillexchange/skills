@@ -1,13 +1,12 @@
 ---
 title: "QuickBooks Online Invoice Reconciliation Agent"
-slug: "quickbooks-invoice-reconciliation"
 description: "Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid invoices and match them against bank transaction records. Discrepancies are flagged and a reconciliation report is generated as a PDF using PDFKit, then emailed via SendGrid."
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/"
 ---
 
 # QuickBooks Online Invoice Reconciliation Agent
@@ -18,11 +17,11 @@ Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

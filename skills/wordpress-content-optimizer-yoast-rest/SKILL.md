@@ -1,13 +1,12 @@
 ---
 title: "WordPress Content Optimizer"
-slug: "wordpress-content-optimizer-yoast-rest"
 description: "Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates. Analyzes readability via textstat Python library and generates meta descriptions with Claude API prompt chains."
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Codex"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
 ---
 
 # WordPress Content Optimizer
@@ -18,11 +17,11 @@ Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

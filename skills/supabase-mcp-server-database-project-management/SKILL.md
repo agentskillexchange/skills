@@ -1,13 +1,12 @@
 ---
 title: "Supabase MCP Server for Database and Project Management"
-slug: "supabase-mcp-server-database-project-management"
 description: "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries, and project configuration through the Model Context Protocol."
+verification: security_reviewed
+source: "https://github.com/supabase-community/supabase-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
-verification: "security_reviewed"
-source: "https://github.com/supabase-community/supabase-mcp"
 tool_ecosystem:
   github_repo: "supabase-community/supabase-mcp"
   github_stars: 2572
@@ -21,11 +20,11 @@ An official MCP server that connects Supabase projects to AI assistants like Cla
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

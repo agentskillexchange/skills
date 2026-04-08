@@ -1,28 +1,27 @@
 ---
 title: "Semgrep Rule Runner"
-slug: "semgrep-rule-runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports -config auto for community rules, parses JSON output via -json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Gemini"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 ---
 
 # Semgrep Rule Runner
 
-Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports -config auto for community rules, parses JSON output via -json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
+Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

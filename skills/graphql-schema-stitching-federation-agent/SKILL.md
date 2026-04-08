@@ -1,16 +1,15 @@
 ---
-title: "GraphQL Schema Stitching &#038; Federation Agent"
-slug: "graphql-schema-stitching-federation-agent"
+title: "GraphQL Schema Stitching & Federation Agent"
 description: "Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives."
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
 ---
 
-# GraphQL Schema Stitching &#038; Federation Agent
+# GraphQL Schema Stitching & Federation Agent
 
 Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives.
 
@@ -18,11 +17,11 @@ Manages Apollo Federation v2 supergraph composition from subgraph schemas, valid
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange catalog in your compatible client.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule inside your skills collection.
-4. Use a package or automation workflow that syncs skills from this repository.
-5. Install directly from the original upstream project if you prefer to track source releases.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
