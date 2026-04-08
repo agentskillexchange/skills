@@ -111,6 +111,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Multisite Network Sync](../../skills/wordpress-multisite-network-sync/) | — | — |
 | [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | — | — |
 | [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | — | — |
+| [WordPress Scripts Build and Block Toolchain](../../skills/wordpress-scripts-build-and-block-toolchain/) | — | — |
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | — | — |
 | [WP Abilities API](../../skills/wp-abilities-api/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |

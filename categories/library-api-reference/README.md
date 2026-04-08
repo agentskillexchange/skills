@@ -56,6 +56,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
+| [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | — | — |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | — | — |
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | — | — |
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | — | — |

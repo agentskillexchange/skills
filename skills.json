@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1786,
+  "total": 1789,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "gotenberg-document-to-pdf-conversion-api",
+      "name": "Gotenberg Document-to-PDF Conversion API",
+      "description": "Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing post-processing tasks such as merge, split, watermark,…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "goatcounter-privacy-first-web-analytics-platform",
+      "name": "GoatCounter Privacy-First Web Analytics Platform",
+      "description": "GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wordpress-scripts-build-and-block-toolchain",
+      "name": "WordPress Scripts Build and Block Toolchain",
+      "description": "@wordpress/scripts packages the default WordPress JavaScript build stack into one reusable developer dependency. It gives plugin and block developers a consistent CLI for bundling,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "kong-gateway-api-ai-mcp-traffic-control",
       "name": "Kong Gateway API AI and MCP Traffic Control",
