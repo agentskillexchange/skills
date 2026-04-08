@@ -105,6 +105,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | — | — |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
+| [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | — | — |

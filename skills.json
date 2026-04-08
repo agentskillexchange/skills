@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1795,
+  "total": 1798,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "k6-load-testing-cli-javascript-performance-scenarios",
+      "name": "k6 Load Testing CLI for JavaScript Performance Scenarios",
+      "description": "k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and observability workflows where repeatable load…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "supabase-cli-local-development-database-migrations",
+      "name": "Supabase CLI for Local Development and Database Migrations",
+      "description": "Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream command-line tool for developers who need to work…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "openapi-generator-api-client-server-stub-tooling",
+      "name": "OpenAPI Generator API Client and Server Stub Tooling",
+      "description": "OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when you need repeatable API scaffolding…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "faster-whisper-high-performance-speech-transcription-library",
       "name": "faster-whisper High-Performance Speech Transcription Library",

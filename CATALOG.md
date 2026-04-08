@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1795 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 17:38 UTC
+> **1798 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 21:37 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (241 skills)
+### 🛠️ Developer Tools (243 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -234,6 +234,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | — | — |
+| [OpenAPI Generator API Client and Server Stub Tooling](skills/openapi-generator-api-client-server-stub-tooling/) | OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when… | Published | — | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | — | — |
 | [Package Vulnerability Scanner](skills/package-vuln-scanner-osv-api/) | Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory… | Security Reviewed | — | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](skills/pdfme-typescript-pdf-generation-library/) | pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG… | Security Reviewed | — | — |
@@ -244,6 +245,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe… | Security Reviewed | — | — |
 | [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Published | — | — |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](skills/swc-speedy-web-compiler-javascript-typescript/) | SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a… | Security Reviewed | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Security Reviewed | — | — |
@@ -803,7 +805,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (110 skills)
+### 📊 Monitoring & Alerts (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -881,6 +883,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Grafana Unified Alerting Manager](skills/grafana-unified-alerting-manager/) | Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports… | Security Reviewed | — | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Security Reviewed | — | — |
 | [Jaeger Trace Explorer](skills/jaeger-trace-explorer/) | Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [k6 Load Testing CLI for JavaScript Performance Scenarios](skills/k6-load-testing-cli-javascript-performance-scenarios/) | k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and… | Published | — | — |
 | [Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/) | Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from… | Security Reviewed | — | — |
 | [Kubernetes Troubleshooting Runbook](skills/kubernetes-troubleshooting-runbook/) | Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | — | — |

@@ -260,6 +260,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
+| [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | — | — |
@@ -270,6 +271,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | — | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
+| [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
