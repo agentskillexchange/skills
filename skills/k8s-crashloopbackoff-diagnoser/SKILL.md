@@ -1,17 +1,30 @@
 ---
-title: "Kubernetes CrashLoopBackOff Diagnoser"
-description: "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps."
+title: Kubernetes CrashLoopBackOff Diagnoser
+description: 'The Kubernetes CrashLoopBackOff Diagnoser skill automates root cause
+  analysis for pods stuck in CrashLoopBackOff state. Using kubectl and direct Kubernetes
+  API calls to the /api/v1/namespaces/{ns}/pods/{pod}/log endpoint, it systematically
+  inspects container logs, exit codes, and pod events to identify the underlying failure.
+  The diagnosis workflow begins by listing all pods with status.containerStatuses[].state.waiting.reason=CrashLoopBackOff
+  using the Kubernetes List API with field selectors. For each affected pod, it retrieves
+  the last N log lines from each container, checks for OOMKilled termination reasons
+  via the container lastState.terminated.reason field, and inspects liveness and readiness
+  probe configurations. The skill correlates exit codes with known failure patterns:
+  exit code 137 maps to OOMKilled or SIGKILL, exit code 1 to application errors, and
+  exit code 127 to missing binaries. It also checks resource requests and limits against
+  node allocatable resources, validates environment variable references to ConfigMaps
+  and Secrets, and verifies volume mount paths exist. Output includes a structured
+  diagnosis with confidence levels and specific remediation steps.'
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
+source: https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Codex"
+- Codex
 ---
 
 # Kubernetes CrashLoopBackOff Diagnoser
 
-Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled events, and liveness probe configurations to generate actionable remediation steps.
+The Kubernetes CrashLoopBackOff Diagnoser skill automates root cause analysis for pods stuck in CrashLoopBackOff state. Using kubectl and direct Kubernetes API calls to the /api/v1/namespaces/{ns}/pods/{pod}/log endpoint, it systematically inspects container logs, exit codes, and pod events to identify the underlying failure. The diagnosis workflow begins by listing all pods with status.containerStatuses[].state.waiting.reason=CrashLoopBackOff using the Kubernetes List API with field selectors. For each affected pod, it retrieves the last N log lines from each container, checks for OOMKilled termination reasons via the container lastState.terminated.reason field, and inspects liveness and readiness probe configurations. The skill correlates exit codes with known failure patterns: exit code 137 maps to OOMKilled or SIGKILL, exit code 1 to application errors, and exit code 127 to missing binaries. It also checks resource requests and limits against node allocatable resources, validates environment variable references to ConfigMaps and Secrets, and verifies volume mount paths exist. Output includes a structured diagnosis with confidence levels and specific remediation steps.
 
 ## Installation
 
