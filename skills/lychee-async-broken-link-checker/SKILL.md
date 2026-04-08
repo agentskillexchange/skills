@@ -1,12 +1,13 @@
 ---
 title: "lychee Async Broken Link Checker for Websites and Documentation"
+slug: "lychee-async-broken-link-checker"
+verification: "security_reviewed"
 description: "lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more. It supports HTTP/HTTPS, file links, and mail address validation with configurable concurrency and output formats."
-verification: security_reviewed
-source: "https://github.com/lycheeverse/lychee"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Custom Agents"
+source: "https://github.com/lycheeverse/lychee"
 tool_ecosystem:
   github_repo: "lycheeverse/lychee"
   github_stars: 3463
@@ -18,13 +19,13 @@ lychee is a fast, async, stream-based link checker written in Rust that finds br
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

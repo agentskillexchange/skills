@@ -1,12 +1,13 @@
 ---
 title: "Beets Music Library Manager and Tagger"
+slug: "beets-music-library-manager-tagger"
+verification: "security_reviewed"
 description: "Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz metadata. Import, organize, deduplicate, and query your music collection with a powerful plugin system and flexible query language."
-verification: security_reviewed
-source: "https://github.com/beetbox/beets"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
+source: "https://github.com/beetbox/beets"
 tool_ecosystem:
   github_repo: "beetbox/beets"
   github_stars: 14901
@@ -18,13 +19,13 @@ Manage and tag music libraries with beets, the Python-based CLI tool that auto-t
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

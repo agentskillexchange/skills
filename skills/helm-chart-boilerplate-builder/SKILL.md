@@ -1,12 +1,13 @@
 ---
 title: "Helm Chart Boilerplate Builder"
+slug: "helm-chart-boilerplate-builder"
+verification: "security_reviewed"
 description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses helm-unittest for test generation and Chart Testing (ct) lint integration."
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
+source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
 ---
 
 # Helm Chart Boilerplate Builder
@@ -15,13 +16,13 @@ Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configurat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

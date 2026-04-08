@@ -1,15 +1,16 @@
 ---
 title: "Mitosis Cross-Framework Component Compiler by Builder.io"
+slug: "mitosis-cross-framework-component-compiler"
+verification: "security_reviewed"
 description: "Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more. Built by Builder.io, it enables maintaining a single component codebase across all major frontend frameworks."
-verification: security_reviewed
-source: "https://github.com/BuilderIO/mitosis"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+source: "https://github.com/BuilderIO/mitosis"
 tool_ecosystem:
-  github_repo: "BuilderIO/mitosis"
-  github_stars: 13806
+  github_repo: "builderio/mitosis"
+  github_stars: 13808
 ---
 
 # Mitosis Cross-Framework Component Compiler by Builder.io
@@ -18,13 +19,13 @@ Mitosis lets you write UI components once and compile them to React, Vue, Angula
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

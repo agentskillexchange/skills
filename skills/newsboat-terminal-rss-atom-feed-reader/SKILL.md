@@ -1,12 +1,13 @@
 ---
 title: "Newsboat Terminal RSS and Atom Feed Reader"
+slug: "newsboat-terminal-rss-atom-feed-reader"
+verification: "security_reviewed"
 description: "Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter, it provides a fast, keyboard-driven interface for subscribing to, reading, and managing feeds with powerful filtering, macro support, and scriptable automation."
-verification: security_reviewed
-source: "https://github.com/newsboat/newsboat"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
+source: "https://github.com/newsboat/newsboat"
 tool_ecosystem:
   github_repo: "newsboat/newsboat"
   github_stars: 3750
@@ -18,13 +19,13 @@ Newsboat is an actively maintained RSS/Atom feed reader for the text console. A 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

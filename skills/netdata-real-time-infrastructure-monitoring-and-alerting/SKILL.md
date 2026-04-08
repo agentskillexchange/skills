@@ -1,12 +1,13 @@
 ---
 title: "Netdata Real-Time Infrastructure Monitoring and Alerting"
+slug: "netdata-real-time-infrastructure-monitoring-and-alerting"
+verification: "security_reviewed"
 description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project’s documented collectors, streaming, and cloud integrations."
-verification: security_reviewed
-source: "https://github.com/netdata/netdata"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
+source: "https://github.com/netdata/netdata"
 ---
 
 # Netdata Real-Time Infrastructure Monitoring and Alerting
@@ -15,13 +16,13 @@ Netdata is an open-source observability platform for real-time metrics, anomaly 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

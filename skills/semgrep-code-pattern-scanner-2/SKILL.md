@@ -1,12 +1,13 @@
 ---
 title: "Semgrep Code Pattern Scanner"
+slug: "semgrep-code-pattern-scanner-2"
+verification: "security_reviewed"
 description: "Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output."
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Codex"
+source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
 ---
 
 # Semgrep Code Pattern Scanner
@@ -15,13 +16,13 @@ Runs Semgrep against a codebase using official or custom rule registries and out
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

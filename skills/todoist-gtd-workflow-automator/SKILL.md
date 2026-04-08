@@ -1,12 +1,13 @@
 ---
 title: "Todoist GTD Workflow Automator"
+slug: "todoist-gtd-workflow-automator"
+verification: "security_reviewed"
 description: "Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing."
-verification: security_reviewed
-source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Cursor"
+source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 ---
 
 # Todoist GTD Workflow Automator
@@ -15,13 +16,13 @@ Implements Getting Things Done methodology on Todoist using the Todoist Sync API
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

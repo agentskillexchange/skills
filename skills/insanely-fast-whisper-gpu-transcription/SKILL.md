@@ -1,12 +1,13 @@
 ---
 title: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
+slug: "insanely-fast-whisper-gpu-transcription"
+verification: "security_reviewed"
 description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU."
-verification: security_reviewed
-source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
+source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
 tool_ecosystem:
   github_repo: "vaibhavs10/insanely-fast-whisper"
   github_stars: 12204
@@ -18,13 +19,13 @@ Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds usi
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

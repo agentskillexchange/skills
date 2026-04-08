@@ -1,15 +1,16 @@
 ---
 title: "Dioxus Rust Fullstack Cross-Platform Application Framework"
+slug: "dioxus-rust-fullstack-cross-platform-framework"
+verification: "security_reviewed"
 description: "Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and mobile from a single codebase. With 24k+ GitHub stars and an active Rust community, it combines React-like ergonomics with Rust performance and type safety."
-verification: security_reviewed
-source: "https://github.com/DioxusLabs/dioxus"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+source: "https://github.com/DioxusLabs/dioxus"
 tool_ecosystem:
-  github_repo: "DioxusLabs/dioxus"
-  github_stars: 35565
+  github_repo: "dioxuslabs/dioxus"
+  github_stars: 35577
 ---
 
 # Dioxus Rust Fullstack Cross-Platform Application Framework
@@ -18,13 +19,13 @@ Dioxus is a fullstack app framework for Rust that enables building cross-platfor
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

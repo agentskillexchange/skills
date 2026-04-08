@@ -1,15 +1,16 @@
 ---
 title: "Docker Selenium Grid for Scalable Browser Automation"
+slug: "docker-selenium-grid-for-scalable-browser-automation"
+verification: "security_reviewed"
 description: "docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed browser execution. It is useful when an agent needs reproducible browser automation infrastructure for testing, scraping, QA, or parallel session orchestration."
-verification: security_reviewed
-source: "https://github.com/SeleniumHQ/docker-selenium"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+source: "https://github.com/SeleniumHQ/docker-selenium"
 tool_ecosystem:
-  github_repo: "SeleniumHQ/docker-selenium"
-  github_stars: 8614
+  github_repo: "seleniumhq/docker-selenium"
+  github_stars: 8618
 ---
 
 # Docker Selenium Grid for Scalable Browser Automation
@@ -18,13 +19,13 @@ docker-selenium packages Selenium Grid into ready-to-run container images for Ch
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

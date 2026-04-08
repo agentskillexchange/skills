@@ -1,15 +1,16 @@
 ---
 title: "ToolJet Open Source Internal Tools and Workflow Platform"
+slug: "tooljet-open-source-internal-tools-workflow-platform"
+verification: "security_reviewed"
 description: "ToolJet is an open-source platform for internal tools, dashboards, workflows, and AI-assisted business apps. It connects visual app building with databases, APIs, object storage, and self-hosted deployment patterns that agents can reuse across teams."
-verification: security_reviewed
-source: "https://github.com/ToolJet/ToolJet"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+source: "https://github.com/ToolJet/ToolJet"
 tool_ecosystem:
-  github_repo: "ToolJet/ToolJet"
-  github_stars: 37720
+  github_repo: "tooljet/tooljet"
+  github_stars: 37721
 ---
 
 # ToolJet Open Source Internal Tools and Workflow Platform
@@ -18,13 +19,13 @@ ToolJet is an open-source platform for internal tools, dashboards, workflows, an
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

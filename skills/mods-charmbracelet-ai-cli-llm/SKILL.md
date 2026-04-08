@@ -1,12 +1,13 @@
 ---
 title: "Mods AI-Powered Command-Line LLM Interface by Charmbracelet"
+slug: "mods-charmbracelet-ai-cli-llm"
+verification: "security_reviewed"
 description: "Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text processing, code review, commit message generation, and data transformation from the terminal with support for OpenAI, Anthropic, and local models."
-verification: security_reviewed
-source: "https://github.com/charmbracelet/mods"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+source: "https://github.com/charmbracelet/mods"
 tool_ecosystem:
   github_repo: "charmbracelet/mods"
   github_stars: 4517
@@ -18,13 +19,13 @@ Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

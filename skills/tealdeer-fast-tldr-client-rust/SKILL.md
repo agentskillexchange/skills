@@ -1,15 +1,16 @@
 ---
 title: "Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages"
+slug: "tealdeer-fast-tldr-client-rust"
+verification: "security_reviewed"
 description: "Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for command-line tools. It provides quick reference with syntax highlighting, offline caching, and configurable output."
-verification: security_reviewed
-source: "https://github.com/tealdeer-rs/tealdeer"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+source: "https://github.com/tealdeer-rs/tealdeer"
 tool_ecosystem:
   github_repo: "tealdeer-rs/tealdeer"
-  github_stars: 6106
+  github_stars: 6109
 ---
 
 # Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages
@@ -18,13 +19,13 @@ Tealdeer is a very fast Rust implementation of the tldr project — simplified, 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

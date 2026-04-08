@@ -1,12 +1,13 @@
 ---
 title: "Stagehand AI Browser Automation Framework by Browserbase"
+slug: "stagehand-ai-browser-automation-framework-browserbase"
+verification: "security_reviewed"
 description: "Stagehand is Browserbase’s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching."
-verification: security_reviewed
-source: "https://github.com/browserbase/stagehand"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+source: "https://github.com/browserbase/stagehand"
 ---
 
 # Stagehand AI Browser Automation Framework by Browserbase
@@ -15,13 +16,13 @@ Stagehand is Browserbase’s open source browser automation framework that blend
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

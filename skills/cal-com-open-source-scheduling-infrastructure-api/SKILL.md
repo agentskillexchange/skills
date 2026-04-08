@@ -1,12 +1,13 @@
 ---
 title: "Cal.com Open Source Scheduling Infrastructure and API"
+slug: "cal-com-open-source-scheduling-infrastructure-api"
+verification: "security_reviewed"
 description: "Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API."
-verification: security_reviewed
-source: "https://github.com/calcom/cal.com"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+source: "https://github.com/calcom/cal.com"
 tool_ecosystem:
   github_repo: "calcom/cal.com"
   github_stars: 40908
@@ -18,13 +19,13 @@ Integrate Cal.com’s open-source scheduling platform into AI agent workflows. A
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

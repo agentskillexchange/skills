@@ -1,12 +1,13 @@
 ---
 title: "Stalwart All-in-One Mail and Collaboration Server"
+slug: "stalwart-mail-collaboration-server"
+verification: "security_reviewed"
 description: "Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables agents to deploy and manage self-hosted email infrastructure with built-in spam filtering, DKIM/DMARC/SPF authentication, and full calendar and contact synchronization."
-verification: security_reviewed
-source: "https://github.com/stalwartlabs/stalwart"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+source: "https://github.com/stalwartlabs/stalwart"
 tool_ecosystem:
   github_repo: "stalwartlabs/stalwart"
   github_stars: 12164
@@ -18,13 +19,13 @@ Stalwart is an open-source mail and collaboration server written in Rust that pr
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 

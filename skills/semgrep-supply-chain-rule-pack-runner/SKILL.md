@@ -1,12 +1,13 @@
 ---
 title: "Semgrep Supply Chain Rule Pack Runner"
+slug: "semgrep-supply-chain-rule-pack-runner"
+verification: "security_reviewed"
 description: "Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to surface risky patterns early. Useful when agents need to summarize security results in repo terms developers can act on immediately."
-verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "ChatGPT Agents"
+source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14632
@@ -18,13 +19,13 @@ Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule pac
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your local skills workspace.
+2. Install it with ClawHub if it is available there.
+3. Copy the folder into your OpenClaw or AgentSkills directory manually.
+4. Add it as a git submodule if you manage skills as pinned dependencies.
+5. Vendor it directly into a project repo when you need a fixed internal copy.
 
 ## Source
 
