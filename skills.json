@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1778,
+  "total": 1781,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "unstructured-document-etl-for-llm-pipelines",
+      "name": "Unstructured Document ETL for LLM Pipelines",
+      "description": "Unstructured is an open source document processing library that converts PDFs, HTML, Office files, emails, and other formats into structured data for downstream AI…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "stagehand-browser-agent-sdk",
+      "name": "Stagehand Browser Agent SDK",
+      "description": "Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation,…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browser-use-agentic-browser-control",
+      "name": "Browser Use Agentic Browser Control",
+      "description": "Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "tesseract-ocr-engine-for-image-to-text-workflows",
       "name": "Tesseract OCR Engine for Image-to-Text Workflows",

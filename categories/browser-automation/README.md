@@ -62,6 +62,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 5/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 760.2k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
+| [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | — | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | — | — |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | — | — |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
@@ -114,6 +115,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework-2/) | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | — | — |
+| [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | — | — |
 | [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | — | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | — | — |
