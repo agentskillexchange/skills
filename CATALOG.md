@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1798 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 21:37 UTC
+> **1801 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 23:37 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (243 skills)
+### 🛠️ Developer Tools (244 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -248,6 +248,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Published | — | — |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](skills/swc-speedy-web-compiler-javascript-typescript/) | SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a… | Security Reviewed | — | — |
+| [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Published | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
@@ -555,7 +556,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (120 skills)
+### 🔒 Security & Verification (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -663,6 +664,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Snyk License Compliance Checker](skills/snyk-license-compliance-checker/) | Uses the Snyk CLI and REST API to audit open-source dependencies for license compliance across npm, PyPI, Maven, and… | Security Reviewed | — | — |
 | [Snyk Open Source Dependency Auditor](skills/snyk-open-source-dependency-auditor/) | Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages.… | Security Reviewed | — | — |
 | [Snyk Vulnerability Scanner Agent](skills/snyk-vulnerability-scanner-agent/) | Uses Snyk REST API v1 to scan project dependencies for known CVEs and license compliance issues. Integrates with… | Security Reviewed | — | — |
+| [SOPS Secret File Encryption and Rotation](skills/sops-secret-file-encryption-rotation/) | SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets… | Published | — | — |
 | [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity,… | Security Reviewed | — | — |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
@@ -676,6 +678,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Trivy Container Scanner](skills/trivy-container-scanner-2/) | Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for… | Security Reviewed | — | — |
 | [Trivy Container Security Scanner](skills/trivy-container-security-scanner/) | Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package… | Security Reviewed | — | — |
 | [Trivy Container Vulnerability Scanner](skills/trivy-container-vulnerability-scanner/) | Automates Aqua Security Trivy scans against Docker images and OCI artifacts to detect CVEs, misconfigurations, and… | Security Reviewed | — | — |
+| [Trivy Security Scanner for Containers and IaC](skills/trivy-security-scanner-containers-iac/) | Trivy is Aqua Security’s scanner for vulnerabilities, misconfigurations, secrets, SBOMs, and license issues. It fits… | Published | — | — |
 | [Trivy Vulnerability Scanner Pipeline](skills/trivy-vulnerability-scanner-pipeline/) | Scans container images, IaC templates, and SBOM artifacts using Aqua Trivy CLI. Generates CycloneDX and SPDX reports… | Security Reviewed | — | — |
 | [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic… | Security Reviewed | — | — |

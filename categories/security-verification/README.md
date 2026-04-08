@@ -125,6 +125,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | — | — |
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | — | — |
 | [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | — | — |
+| [SOPS Secret File Encryption and Rotation](../../skills/sops-secret-file-encryption-rotation/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
@@ -138,6 +139,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | — | — |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | — | — |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | — | — |
+| [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | — | — |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |

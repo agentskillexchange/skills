@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1798,
+  "total": 1801,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "temporal-cli-workflow-server-control",
+      "name": "Temporal CLI Workflow and Server Control",
+      "description": "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "sops-secret-file-encryption-rotation",
+      "name": "SOPS Secret File Encryption and Rotation",
+      "description": "SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets handling, rotation,…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "trivy-security-scanner-containers-iac",
+      "name": "Trivy Security Scanner for Containers and IaC",
+      "description": "Trivy is Aqua Security’s scanner for vulnerabilities, misconfigurations, secrets, SBOMs, and license issues. It fits security review, container hygiene, and infrastructure-as-code checks in one…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "k6-load-testing-cli-javascript-performance-scenarios",
       "name": "k6 Load Testing CLI for JavaScript Performance Scenarios",

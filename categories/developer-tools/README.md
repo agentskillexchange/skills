@@ -274,6 +274,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
+| [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
