@@ -118,6 +118,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | — | — |
 | [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | — | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | — | — |
+| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | — | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | — | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |

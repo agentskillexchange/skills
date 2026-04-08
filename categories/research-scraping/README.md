@@ -76,6 +76,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | — | — |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | — | — |
+| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |

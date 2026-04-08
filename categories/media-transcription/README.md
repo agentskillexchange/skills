@@ -102,6 +102,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
 | [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | — | — |
+| [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |

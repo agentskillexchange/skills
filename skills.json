@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1775,
-  "generated": "2026-04-07",
+  "total": 1778,
+  "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "tesseract-ocr-engine-for-image-to-text-workflows",
+      "name": "Tesseract OCR Engine for Image-to-Text Workflows",
+      "description": "Tesseract OCR is a widely used open source optical character recognition engine with command line and library interfaces. It can extract text from images…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "docling-document-parsing-and-conversion-toolkit",
+      "name": "Docling Document Parsing and Conversion Toolkit",
+      "description": "Docling is an open source document processing toolkit that converts PDFs, Office files, HTML, images, audio, and more into structured outputs for AI workflows.…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "crawlee-web-crawling-and-scraping-sdk",
+      "name": "Crawlee Web Crawling and Scraping SDK",
+      "description": "Crawlee is Apify's open source web crawling and scraping library for Node.js. It combines request queueing, browser automation, proxy support, and storage primitives so…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "crawl4ai-open-source-web-crawling-and-markdown-extraction",
       "name": "Crawl4AI Open-Source Web Crawling and Markdown Extraction",
