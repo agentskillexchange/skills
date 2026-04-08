@@ -1,28 +1,28 @@
 ---
 title: "Helm Chart Diff & Upgrade Manager"
 slug: "helm-chart-diff-upgrade-manager"
-verification: "security_reviewed"
-description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
+description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade -atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
 category:
   - "CI/CD Integrations"
 framework:
   - "MCP"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/"
 ---
 
 # Helm Chart Diff & Upgrade Manager
 
-Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade –atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog.
+Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade -atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

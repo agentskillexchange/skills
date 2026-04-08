@@ -1,15 +1,15 @@
 ---
 title: "Coqui TTS Deep Learning Text-to-Speech Toolkit"
 slug: "coqui-tts-deep-learning-text-to-speech-toolkit"
-verification: "security_reviewed"
 description: "An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS model architectures including VITS, Tacotron2, and GlowTTS, with support for voice cloning, multilingual synthesis, and on-the-fly voice conversion."
 category:
   - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/coqui-ai/TTS"
 tool_ecosystem:
-  github_repo: "coqui-ai/tts"
+  github_repo: "coqui-ai/TTS"
   github_stars: 44959
 ---
 
@@ -19,13 +19,13 @@ An agent skill built on Coqui TTS, the open-source deep learning toolkit for tex
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
 title: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
 slug: "audiobookshelf-self-hosted-audiobook-podcast-server-api"
-verification: "security_reviewed"
-description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
+description: "Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
 category:
   - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/advplyr/audiobookshelf"
 tool_ecosystem:
   github_repo: "advplyr/audiobookshelf"
@@ -15,17 +15,17 @@ tool_ecosystem:
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 
-Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

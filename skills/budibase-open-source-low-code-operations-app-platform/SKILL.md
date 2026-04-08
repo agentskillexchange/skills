@@ -1,15 +1,15 @@
 ---
 title: "Budibase Open Source Low-Code Operations App Platform"
 slug: "budibase-open-source-low-code-operations-app-platform"
-verification: "security_reviewed"
 description: "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted deployment options."
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/Budibase/budibase"
 tool_ecosystem:
-  github_repo: "budibase/budibase"
+  github_repo: "Budibase/budibase"
   github_stars: 27811
 ---
 
@@ -19,13 +19,13 @@ Budibase is an open-source low-code platform for internal apps, forms, portals, 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

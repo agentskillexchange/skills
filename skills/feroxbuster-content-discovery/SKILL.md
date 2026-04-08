@@ -1,12 +1,12 @@
 ---
 title: "Feroxbuster Fast Recursive Content Discovery Tool in Rust"
 slug: "feroxbuster-content-discovery"
-verification: "security_reviewed"
 description: "Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to enumerate hidden files, directories, and endpoints on web servers. It features recursive scanning, smart filtering, and extensive output options."
 category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/epi052/feroxbuster"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"
@@ -19,13 +19,13 @@ Feroxbuster is a high-performance content discovery tool written in Rust that pe
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

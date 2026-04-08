@@ -1,12 +1,12 @@
 ---
 title: "OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces"
 slug: "openobserve-observability-platform-logs-metrics-traces"
-verification: "security_reviewed"
 description: "OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User Monitoring (RUM). Designed as a cost-effective alternative to Datadog, Splunk, and Elasticsearch, it achieves 140x lower storage costs through Parquet columnar storage and S3-native architecture."
 category:
   - "Monitoring &amp; Alerts"
 framework:
   - "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/openobserve/openobserve"
 tool_ecosystem:
   github_repo: "openobserve/openobserve"
@@ -19,13 +19,13 @@ OpenObserve is an open-source, cloud-native observability platform for logs, met
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

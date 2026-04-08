@@ -1,12 +1,12 @@
 ---
 title: "gron Greppable JSON Flattener"
 slug: "gron-greppable-json-flattener"
-verification: "security_reviewed"
 description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
 category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/tomnomnom/gron"
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
@@ -19,13 +19,13 @@ gron transforms JSON into discrete assignment statements, making it possible to 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
 title: "Evidence BI-as-Code SQL and Markdown Analytics Framework"
 slug: "evidence-bi-as-code-sql-markdown-analytics"
-verification: "security_reviewed"
 description: "Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive dashboards and reports as static sites, providing a code-driven alternative to drag-and-drop BI tools with version control and reproducibility built in."
 category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
+verification: "security_reviewed"
 source: "https://github.com/evidence-dev/evidence"
 tool_ecosystem:
   github_repo: "evidence-dev/evidence"
@@ -19,13 +19,13 @@ Evidence is an open-source framework for building data products with SQL and Mar
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

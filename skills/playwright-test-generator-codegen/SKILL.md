@@ -1,12 +1,12 @@
 ---
 title: "Playwright Test Generator with Codegen"
 slug: "playwright-test-generator-codegen"
-verification: "security_reviewed"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
 category:
   - "Research &amp; Scraping"
 framework:
   - "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
 ---
 
@@ -16,13 +16,13 @@ Records and generates end-to-end test scripts using Playwright Codegen with mult
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

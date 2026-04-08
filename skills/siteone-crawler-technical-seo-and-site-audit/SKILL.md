@@ -1,12 +1,12 @@
 ---
 title: "SiteOne Crawler Technical SEO and Site Audit"
 slug: "siteone-crawler-technical-seo-and-site-audit"
-verification: "security_reviewed"
 description: "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler project to turn large site crawls into structured diagnostics, export files, and remediation queues."
 category:
   - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/janreges/siteone-crawler"
 tool_ecosystem:
   github_repo: "janreges/siteone-crawler"
@@ -19,13 +19,13 @@ SiteOne Crawler is a real website crawler and analyzer for technical SEO, access
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

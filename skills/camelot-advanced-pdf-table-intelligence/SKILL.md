@@ -1,12 +1,12 @@
 ---
 title: "Camelot Advanced PDF Table Intelligence"
 slug: "camelot-advanced-pdf-table-intelligence"
-verification: "security_reviewed"
 description: "Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and morphological transformations. Handles rotated tables, merged cells, and multi-page spanning tables."
 category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/"
 ---
 
@@ -16,13 +16,13 @@ Intelligent PDF table detection and extraction using Camelot-py with OpenCV-base
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

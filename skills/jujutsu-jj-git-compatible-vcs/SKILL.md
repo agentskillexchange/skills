@@ -1,12 +1,12 @@
 ---
 title: "Jujutsu Git-Compatible Version Control System"
 slug: "jujutsu-jj-git-compatible-vcs"
-verification: "security_reviewed"
 description: "Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic rebasing, first-class conflict tracking, and operation-log undo. Built in Rust with 27k+ GitHub stars, it works directly on existing Git repositories."
 category:
   - "Developer Tools"
 framework:
   - "OpenClaw"
+verification: "security_reviewed"
 source: "https://github.com/jj-vcs/jj"
 tool_ecosystem:
   github_repo: "jj-vcs/jj"
@@ -19,13 +19,13 @@ Jujutsu (jj) is a powerful Git-compatible version control system that reimagines
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 

@@ -1,28 +1,28 @@
 ---
-title: "Twilio SMS & Voice Bridge"
+title: "Twilio SMS &#038; Voice Bridge"
 slug: "twilio-sms-voice-bridge"
-verification: "security_reviewed"
 description: "Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading."
 category:
   - "Integrations &amp; Connectors"
 framework:
   - "OpenClaw"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-sms-voice-bridge/"
 ---
 
-# Twilio SMS & Voice Bridge
+# Twilio SMS &#038; Voice Bridge
 
 Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the method that fits your setup:
 
-1. Clone or download this skill into your local skills workspace.
-2. Install it with ClawHub if it is available there.
-3. Copy the folder into your OpenClaw or AgentSkills directory manually.
-4. Add it as a git submodule if you manage skills as pinned dependencies.
-5. Vendor it directly into a project repo when you need a fixed internal copy.
+1. Install from the Agent Skill Exchange catalog in your compatible client.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule inside your skills collection.
+4. Use a package or automation workflow that syncs skills from this repository.
+5. Install directly from the original upstream project if you prefer to track source releases.
 
 ## Source
 
