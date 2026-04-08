@@ -135,6 +135,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Pandas DataFrame Schema Enforcer](../../skills/pandas-dataframe-schema-enforcer/) | — | — |
 | [Pandas DataFrame Schema Validator](../../skills/pandas-dataframe-schema-validator/) | — | — |
 | [Pandas Profiling Report Generator](../../skills/pandas-profiling-report-generator/) | — | — |
+| [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | — | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | — | — |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | — | — |
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | — | — |

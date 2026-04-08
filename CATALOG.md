@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1789 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 11:39 UTC
+> **1792 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 13:37 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -413,7 +413,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (131 skills)
+### 🔄 Data Extraction & Transformation (132 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -522,6 +522,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Pandas DataFrame Schema Enforcer](skills/pandas-dataframe-schema-enforcer/) | Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and… | Security Reviewed | — | — |
 | [Pandas DataFrame Schema Validator](skills/pandas-dataframe-schema-validator/) | Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces… | Security Reviewed | — | — |
 | [Pandas Profiling Report Generator](skills/pandas-profiling-report-generator/) | Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation… | Security Reviewed | — | — |
+| [Paperless-ngx Document OCR and Archive Management System](skills/paperless-ngx-document-ocr-archive-management-system/) | Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a… | Published | — | — |
 | [Parquet Column Mapper](skills/parquet-column-mapper/) | Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift… | Published | — | — |
 | [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to… | Security Reviewed | — | — |
 | [Parquet Column Statistics Profiler](skills/parquet-column-statistics-profiler/) | Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and… | Security Reviewed | — | — |
@@ -802,7 +803,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (109 skills)
+### 📊 Monitoring & Alerts (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -862,6 +863,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | — | — |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | — | — |
 | [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Security Reviewed | — | — |
+| [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Published | — | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Published | — | — |
 | [Gotify Self-Hosted Push Notification Server and API](skills/gotify-self-hosted-push-notification-server-and-api/) | Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile… | Security Reviewed | — | — |
 | [Grafana Alert Router](skills/grafana-alert-router/) | Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules.… | Security Reviewed | — | — |
@@ -1337,7 +1339,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (84 skills)
+### 🔍 Research & Scraping (85 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1395,6 +1397,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It… | Security Reviewed | — | — |
 | [Hacker News Deep Thread Analyzer](skills/hacker-news-deep-thread-analyzer/) | Scrapes and analyzes Hacker News threads using the official HN Firebase API and BeautifulSoup. Extracts sentiment… | Security Reviewed | — | — |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
+| [Linkwarden Collaborative Bookmark Archive and Preservation Platform](skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research… | Published | — | — |
 | [Newspaper4k Python Article Extraction and NLP Library](skills/newspaper4k-python-article-extraction-nlp/) | Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles,… | Security Reviewed | — | — |
 | [Official Firecrawl MCP Server](skills/official-firecrawl-mcp-server/) | Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |

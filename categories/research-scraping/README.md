@@ -86,6 +86,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | — | — |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
+| [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | — | — |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | — | — |
 | [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |

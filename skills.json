@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1789,
+  "total": 1792,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "paperless-ngx-document-ocr-archive-management-system",
+      "name": "Paperless-ngx Document OCR and Archive Management System",
+      "description": "Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "linkwarden-collaborative-bookmark-archive-preservation-platform",
+      "name": "Linkwarden Collaborative Bookmark Archive and Preservation Platform",
+      "description": "Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "gatus-endpoint-monitoring-status-page-platform",
+      "name": "Gatus Endpoint Monitoring and Status Page Platform",
+      "description": "Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets,…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "gotenberg-document-to-pdf-conversion-api",
       "name": "Gotenberg Document-to-PDF Conversion API",
