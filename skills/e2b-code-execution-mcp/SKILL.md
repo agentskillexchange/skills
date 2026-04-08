@@ -2,11 +2,14 @@
 title: "E2B Code Execution MCP"
 description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/e2b-code-execution-mcp/"
+source: "https://github.com/e2b-dev/mcp-server"
 category:
   - "Developer Tools"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "e2b-dev/mcp-server"
+  github_stars: 385
 ---
 
 # E2B Code Execution MCP

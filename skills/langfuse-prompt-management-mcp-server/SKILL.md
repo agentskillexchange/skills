@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "langfuse/mcp-server-langfuse"
+  github_stars: 159
 ---
 
 # Langfuse Prompt Management MCP Server

@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "coollabsio/coolify"
+  github_stars: 52765
 ---
 
 # Coolify Self-Hosted App Platform and Deployment Automation Skill

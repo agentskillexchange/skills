@@ -7,6 +7,9 @@ category:
   - "Media & Transcription"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pluja/whishper"
+  github_stars: 2971
 ---
 
 # Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill

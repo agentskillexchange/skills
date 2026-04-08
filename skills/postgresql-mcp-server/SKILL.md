@@ -2,7 +2,7 @@
 title: "PostgreSQL MCP Server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-mcp-server/"
+source: "https://github.com/modelcontextprotocol/servers"
 category:
   - "Data Extraction & Transformation"
 framework:
@@ -10,6 +10,9 @@ framework:
   - "Cursor"
   - "MCP"
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "modelcontextprotocol/servers"
+  github_stars: 82735
 ---
 
 # PostgreSQL MCP Server

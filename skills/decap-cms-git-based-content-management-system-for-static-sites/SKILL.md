@@ -7,6 +7,9 @@ category:
   - "WordPress & CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "decaporg/decap-cms"
+  github_stars: 19011
 ---
 
 # Decap CMS Git-Based Content Management System for Static Sites

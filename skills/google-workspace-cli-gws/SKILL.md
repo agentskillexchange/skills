@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "googleworkspace/cli"
+  github_stars: 24092
 ---
 
 # Google Workspace CLI (gws)

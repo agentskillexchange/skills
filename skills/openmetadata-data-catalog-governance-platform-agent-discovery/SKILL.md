@@ -7,6 +7,9 @@ category:
   - "Library & API Reference"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "open-metadata/OpenMetadata"
+  github_stars: 9821
 ---
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery

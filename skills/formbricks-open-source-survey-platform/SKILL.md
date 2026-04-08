@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "formbricks/formbricks"
+  github_stars: 12035
 ---
 
 # Formbricks Open-Source Survey Platform

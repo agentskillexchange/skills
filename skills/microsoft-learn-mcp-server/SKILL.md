@@ -7,6 +7,9 @@ category:
   - "Library & API Reference"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "MicrosoftDocs/mcp"
+  github_stars: 1528
 ---
 
 # Microsoft Learn MCP Server

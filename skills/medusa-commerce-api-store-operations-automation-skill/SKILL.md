@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "medusajs/medusa"
+  github_stars: 32594
 ---
 
 # Medusa Commerce API and Store Operations Automation Skill

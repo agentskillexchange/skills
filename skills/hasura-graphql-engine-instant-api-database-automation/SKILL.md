@@ -7,6 +7,9 @@ category:
   - "Library & API Reference"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "hasura/graphql-engine"
+  github_stars: 31932
 ---
 
 # Hasura GraphQL Engine for Instant API and Database Automation

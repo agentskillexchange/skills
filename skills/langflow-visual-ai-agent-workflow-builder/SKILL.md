@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "langflow-ai/langflow"
+  github_stars: 146655
 ---
 
 # Langflow Visual AI Agent and Workflow Builder

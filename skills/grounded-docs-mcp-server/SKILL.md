@@ -7,6 +7,9 @@ category:
   - "Library & API Reference"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "arabold/docs-mcp-server"
+  github_stars: 1209
 ---
 
 # Grounded Docs MCP Server

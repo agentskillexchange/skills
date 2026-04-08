@@ -7,6 +7,9 @@ category:
   - "Research & Scraping"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "apify/crawlee"
+  github_stars: 22676
 ---
 
 # Crawlee Web Crawling and Scraping Library by Apify

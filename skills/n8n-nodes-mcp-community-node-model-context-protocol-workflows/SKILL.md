@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "nerding-io/n8n-nodes-mcp"
+  github_stars: 3004
 ---
 
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows

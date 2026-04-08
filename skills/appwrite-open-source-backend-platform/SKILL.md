@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "appwrite/appwrite"
+  github_stars: 55583
 ---
 
 # Appwrite Open-Source Backend Platform

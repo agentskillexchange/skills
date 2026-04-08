@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "maildev/maildev"
+  github_stars: 5863
 ---
 
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows

@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "ToolJet/ToolJet"
+  github_stars: 37720
 ---
 
 # ToolJet Open Source Internal Tools and Workflow Platform
