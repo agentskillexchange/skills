@@ -84,6 +84,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
+| [faster-whisper High-Performance Speech Transcription Library](../../skills/faster-whisper-high-performance-speech-transcription-library/) | — | — |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | — | — |
 | [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | — | — |
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |

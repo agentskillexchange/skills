@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1792,
+  "total": 1795,
   "generated": "2026-04-08",
   "skills": [
+    {
+      "slug": "faster-whisper-high-performance-speech-transcription-library",
+      "name": "faster-whisper High-Performance Speech Transcription Library",
+      "description": "faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "yoast-seo-wordpress-search-optimization-plugin",
+      "name": "Yoast SEO WordPress Search Optimization Plugin",
+      "description": "Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output, readability checks, and search appearance settings…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wpgraphql-graphql-api-plugin-for-headless-wordpress",
+      "name": "WPGraphQL GraphQL API Plugin for Headless WordPress",
+      "description": "WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "paperless-ngx-document-ocr-archive-management-system",
       "name": "Paperless-ngx Document OCR and Archive Management System",

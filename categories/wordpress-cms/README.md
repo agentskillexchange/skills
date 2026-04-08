@@ -120,6 +120,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
 | [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | — | — |
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | — | — |
+| [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | — | — |
+| [Yoast SEO WordPress Search Optimization Plugin](../../skills/yoast-seo-wordpress-search-optimization-plugin/) | — | — |
 
 ---
 
