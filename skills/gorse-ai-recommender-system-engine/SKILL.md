@@ -1,7 +1,7 @@
 ---
 title: "Gorse AI-Powered Open Source Recommender System Engine"
-description: "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management."
-verification: security_reviewed
+slug: "gorse-ai-recommender-system-engine"
+verification: "security_reviewed"
 source: "https://github.com/gorse-io/gorse"
 category:
   - "Data Extraction & Transformation"
@@ -15,13 +15,13 @@ Gorse is an AI-powered open-source recommender system written in Go that generat
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

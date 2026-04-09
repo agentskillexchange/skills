@@ -1,7 +1,7 @@
 ---
 title: "Inbox Zero AI Email Assistant"
-description: "Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox, pre-drafts replies in your tone, bulk unsubscribes from unwanted senders, and blocks cold emails. Includes MCP server integration and Slack/Telegram chat interface."
-verification: security_reviewed
+slug: "inbox-zero-ai-email-assistant"
+verification: "security_reviewed"
 source: "https://github.com/elie222/inbox-zero"
 category:
   - "Calendar, Email & Productivity"
@@ -18,13 +18,13 @@ Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars th
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

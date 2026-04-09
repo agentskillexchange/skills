@@ -1,7 +1,7 @@
 ---
 title: "Qdrant MCP Server for Vector Search and Semantic Memory"
-description: "An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as a persistent knowledge layer on top of the Qdrant vector database."
-verification: security_reviewed
+slug: "qdrant-mcp-server-vector-search-semantic-memory"
+verification: "security_reviewed"
 source: "https://github.com/qdrant/mcp-server-qdrant"
 category:
   - "Integrations & Connectors"
@@ -18,13 +18,13 @@ An official Qdrant MCP server implementation that provides semantic memory capab
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

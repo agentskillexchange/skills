@@ -1,7 +1,7 @@
 ---
 title: "act Local GitHub Actions Runner"
-description: "act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. With 57,000+ stars on GitHub, it is the standard tool for local Actions development and testing."
-verification: security_reviewed
+slug: "act-local-github-actions-runner"
+verification: "security_reviewed"
 source: "https://github.com/nektos/act"
 category:
   - "CI/CD Integrations"
@@ -18,13 +18,13 @@ act is an open-source CLI tool that runs GitHub Actions workflows locally using 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 
