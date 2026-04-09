@@ -10,18 +10,18 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 2 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | kubernetes | Runbooks & Diagnostics |
 | 3 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | excalidraw | Image & Creative Automation |
 | 4 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.9k | llama.cpp | Developer Tools |
-| 5 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | 97.1k | whisper | Media & Transcription |
+| 5 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | 97.4k | whisper | Media & Transcription |
 | 6 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
 | 7 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | puppeteer | Browser Automation |
 | 8 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
 | 9 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
 | 10 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | playwright | Browser Automation |
 | 11 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
-| 12 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 82.7k | servers | Data Extraction & Transformation |
+| 12 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 83.3k | servers | Data Extraction & Transformation |
 | 13 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
 | 14 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |
 | 15 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
-| 16 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | 76.4k | elasticsearch | Monitoring & Alerts |
+| 16 | [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | 76.5k | elasticsearch | Monitoring & Alerts |
 | 17 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
 | 18 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
 | 19 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 75.1k | vllm | Developer Tools |
@@ -48,7 +48,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 40 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | 50.5k | lazydocker | Developer Tools |
 | 41 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | 49.6k | cypress | Browser Automation |
 | 42 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
-| 43 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48k | terraform | Developer Tools |
+| 43 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48.1k | terraform | Developer Tools |
 | 44 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
 | 45 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
 | 46 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |

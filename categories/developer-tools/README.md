@@ -9,12 +9,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.9k |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 159k |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.4k |
-| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | ⭐ 121.5k |
+| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | ⭐ 121.6k |
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.8k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.9k |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⭐ 100.1k |
-| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94k |
-| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.7k |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94.1k |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.9k |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | ⭐ 82.4k |
 
 ---
@@ -26,13 +26,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 22.1k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 1.9M/wk |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 156.6k/wk |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.6M/wk |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 163.7M/wk |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 6.2k/wk |
-| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 64.6M/wk |
-| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 6.8M/wk |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 11.4M/wk |
-| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 110.3M/wk |
+| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.5M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 150M/wk |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 5k/wk |
+| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 59.9M/wk |
+| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 6.7M/wk |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 11M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 108M/wk |
 
 ---
 
@@ -43,12 +43,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.9k | — |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.4k | — |
-| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | 121.5k | — |
+| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | 121.6k | — |
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.8k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
-| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94k | — |
-| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.7k | — |
+| [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | — |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | — |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | — |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | 79.2k | — |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 78.7k | — |
@@ -74,20 +74,20 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.8k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
-| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48k | — |
+| [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 156.6k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.6M/wk |
+| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.5M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
 | [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | 42.7k | — |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | 42.5k | — |
 | [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | 42.3k | — |
 | [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | 40.3k | — |
 | [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | 39.9k | — |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 39.8k | 163.7M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 39.8k | 150M/wk |
 | [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | 39k | — |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 6.2k/wk |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 5k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
 | [ToolJet Open Source Internal Tools and Workflow Platform](../../skills/tooljet-open-source-internal-tools-workflow-platform/) | 37.7k | — |
 | [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | 37.2k | — |
@@ -95,10 +95,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.6k | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | 35.3k | — |
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | 35.1k | — |
-| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 64.6M/wk |
+| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 59.9M/wk |
 | [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | 33.9k | — |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | 33.6k | — |
-| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 6.8M/wk |
+| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 6.7M/wk |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | 33.3k | — |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | 33.2k | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | 32.9k | — |
@@ -106,7 +106,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 30.3k | — |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 11.4M/wk |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 11M/wk |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 29.8k | — |
 | [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | — |
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
@@ -115,19 +115,19 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.1k | 110.3M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 108M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 24.9k | — |
-| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.2k | — |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25k | — |
+| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
-| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 53.8k/wk |
+| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 53.4k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
-| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 276.1k/wk |
+| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 230.3k/wk |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
 | [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | 21.9k | — |
@@ -149,7 +149,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](../../skills/plandex-ai-coding-agent-large-projects/) | 15.2k | — |
 | [duf Modern Disk Usage and Free Utility](../../skills/duf-modern-disk-usage-free-utility/) | 14.9k | — |
-| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 200.7k/wk |
+| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 201.5k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | 13.8k | — |
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
@@ -163,7 +163,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [onefetch Git Repository Information and Statistics CLI](../../skills/onefetch-git-repository-info-statistics-cli/) | 11.7k | — |
 | [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | — |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 11.7k | — |
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.4M/wk |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.3M/wk |
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | 11.5k | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | 11.5k | — |
 | [Devbox Instant Nix-Powered Development Environment Manager by Jetify](../../skills/devbox-nix-development-environment-jetify/) | 11.4k | — |
@@ -179,10 +179,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
-| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.5M/wk |
+| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.4M/wk |
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |
-| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.5M/wk |
+| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.4M/wk |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 83.7k/wk |
 | [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | 6.8k | — |
@@ -204,14 +204,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
-| [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 107.5k/wk |
+| [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 101.6k/wk |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 385 | — |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Amplication Open Source Backend Generation Platform](../../skills/amplication-open-source-backend-generation-platform/) | — | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C807-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C810-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C765-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C791-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,807 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,810 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -52,14 +52,14 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | kubernetes | 121.4k | Runbooks & Diagnostics |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.9k | Developer Tools |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.1k | Media & Transcription |
+| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.4k | Media & Transcription |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
-| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | servers | 82.7k | Data Extraction & Transformation |
+| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | servers | 83.3k | Data Extraction & Transformation |
 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | uv | 82.4k | Developer Tools |
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.4k | Monitoring & Alerts |
+| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.5k | Monitoring & Alerts |
 
 ---
 
@@ -77,8 +77,8 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 97 | Linting, code review, test generators, coverage |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 97 | Email automation, calendar management, task coordination |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 86 | Third-party API bridges, webhooks, service connectors |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 86 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 85 | Web research, content discovery, data collection |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 83 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 83 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 81 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 78 | Image generation, asset processing, design automation |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,807 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,765 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,810 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,791 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

@@ -6,9 +6,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.4k |
-| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.4k |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73k |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
+| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.1k |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⭐ 43k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
@@ -24,8 +24,11 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Downloads |
 |---|---:|
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 5.2k/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.8M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.6M/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⬇ 41.7k/wk |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.3M/wk |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⬇ 206.8k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⬇ 7.9k/wk |
 
 ---
 
@@ -33,9 +36,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.4k | — |
-| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.4k | — |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73k | — |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
+| [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.1k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
@@ -53,14 +56,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.8M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 615 | — |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.6M/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 626 | 41.7k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.3M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
-| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | — |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | — |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 206.8k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 7.9k/wk |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | — | — |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |

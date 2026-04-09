@@ -7,8 +7,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
-| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.1k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 58.6k |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
@@ -32,8 +32,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
+| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 97.2k | — |
-| [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.1k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | 58.6k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |

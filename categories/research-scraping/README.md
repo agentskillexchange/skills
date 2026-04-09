@@ -23,7 +23,8 @@ Web research, data collection, content aggregation, and information gathering.
 
 | Skill | Downloads |
 |---|---:|
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 77.6k/wk |
+| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 74.3k/wk |
+| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | ⬇ 29.7k/wk |
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | ⬇ 464.7k/wk |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | ⬇ 47.9k/wk |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | ⬇ 953/wk |
@@ -41,7 +42,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 77.6k/wk |
+| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 74.3k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |
@@ -50,7 +51,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
-| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | — |
+| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 29.7k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 464.7k/wk |

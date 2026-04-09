@@ -26,6 +26,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.3M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.7M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.7M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 3.7M/wk |
 
 ---
 
@@ -45,7 +46,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | — |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 3.7M/wk |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |

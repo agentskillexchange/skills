@@ -23,14 +23,16 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 | Skill | Downloads |
 |---|---:|
-| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 71k/wk |
+| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 75.9k/wk |
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 526/wk |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
-| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 13.8k/wk |
-| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 1.8M/wk |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⬇ 868.6k/wk |
-| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | ⬇ 51k/wk |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | ⬇ 908.1k/wk |
+| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 14.8k/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 8.6M/wk |
+| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 2M/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | ⬇ 3.4M/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⬇ 838.5k/wk |
+| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | ⬇ 33k/wk |
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | ⬇ 311.1k/wk |
 
 ---
 
@@ -38,7 +40,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 71k/wk |
+| [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 75.9k/wk |
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 526/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
@@ -56,12 +58,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](../../skills/webhook-http-endpoint-server-shell-commands/) | 11.7k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
-| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 13.8k/wk |
+| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 14.8k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | — |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 8.6M/wk |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | — |
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
@@ -69,21 +71,21 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | — |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
-| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 1.8M/wk |
+| [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 868.6k/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 3.4M/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 838.5k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
-| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 51k/wk |
-| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | — |
+| [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 33k/wk |
+| [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 311.1k/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 574 | — |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 567 | — |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | 908.1k/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | 829.4k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | — | — |

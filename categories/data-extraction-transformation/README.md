@@ -7,8 +7,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | Skill | Stars |
 |---|---:|
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 82.7k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 82.7k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.3k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.3k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
@@ -23,8 +23,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Downloads |
 |---|---:|
-| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 200k/wk |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 4/wk |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 190.7k/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 3/wk |
 
 ---
 
@@ -33,8 +33,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 82.7k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 82.7k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.3k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.3k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
@@ -45,11 +45,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
-| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 200k/wk |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 190.7k/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | 17.5k | — |
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
-| [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.2k | — |
+| [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.3k | — |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 15.1k | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | 14.4k | — |
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
@@ -80,10 +80,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 4/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 3/wk |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 69 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |

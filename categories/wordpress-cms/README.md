@@ -30,7 +30,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 90.3k/wk |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | ⬇ 403.2k/wk |
 | [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | ⬇ 2.4k/wk |
-| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | ⬇ 643.1k/wk |
+| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | ⬇ 655.1k/wk |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | ⬇ 46.8k/wk |
 
 ---
@@ -74,7 +74,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Meta Box WordPress Custom Fields and Meta Boxes Framework](../../skills/meta-box-wordpress-custom-fields-framework/) | 1.2k | — |
 | [WordPress MCP Adapter Model Context Protocol Bridge](../../skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | 792 | — |
 | [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | 634 | — |
-| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 643.1k/wk |
+| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 655.1k/wk |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | — |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.8k/wk |
@@ -82,6 +82,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | — | — |
+| [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | — | — |
+| [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](../../skills/elementor-website-builder-wordpress-visual-page-editor/) | — | — |
@@ -98,6 +100,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
 | [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
+| [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | — | — |
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |

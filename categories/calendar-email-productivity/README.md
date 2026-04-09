@@ -6,7 +6,7 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars |
 |---|---:|
-| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 82.7k |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.3k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.4k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
@@ -31,7 +31,7 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Slack MCP Server](../../skills/slack-mcp-server/) | 82.7k | — |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 83.3k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.4k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
@@ -67,7 +67,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 518 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 552 | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | — | — |

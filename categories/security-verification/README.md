@@ -36,7 +36,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
-| [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 11.9k | — |
+| [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 12k | — |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
@@ -51,15 +51,15 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
-| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2k | — |
+| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 867 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 887 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 98 | — |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 40 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | — | — |

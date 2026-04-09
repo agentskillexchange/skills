@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1807 skills** across **17 categories**
+> **1810 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,8 +14,8 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **97** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **97** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **86** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 📰 | [**WordPress & CMS**](wordpress-cms/) | **86** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **85** | Web research, data collection, content aggregation, and information g... |
-| 📰 | [**WordPress & CMS**](wordpress-cms/) | **83** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **83** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **81** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **78** | Image generation, asset processing, design automation, and creative t... |

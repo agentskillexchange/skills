@@ -12,7 +12,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | ⭐ 85.2k |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | ⭐ 85.2k |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⭐ 49.6k |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 30.1k |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 30.5k |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | ⭐ 30.1k |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | ⭐ 26.5k |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | ⭐ 21.8k |
@@ -24,6 +24,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | Skill | Downloads |
 |---|---:|
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | ⬇ 45.5M/wk |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⬇ 6.5M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⬇ 3.1M/wk |
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | ⬇ 18/wk |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | ⬇ 183.3k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | ⬇ 2.4M/wk |
@@ -43,8 +45,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | 45.5M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | 85.2k | — |
-| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 30.1k | — |
+| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | 6.5M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 30.5k | 3.1M/wk |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | — |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |

@@ -23,8 +23,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Downloads |
 |---|---:|
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4.1M/wk |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 527.6k/wk |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4M/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 499k/wk |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⬇ 5.1M/wk |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 156.5k/wk |
 
 ---
@@ -35,8 +36,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|---:|
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4.1M/wk |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 527.6k/wk |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4M/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 499k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
@@ -44,7 +45,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | — |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 5.1M/wk |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
