@@ -94,6 +94,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | — | — |
 | [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | — | — |
 | [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | — | — |
+| [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | — |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | — | — |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | — | — |
 | [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | — | — |

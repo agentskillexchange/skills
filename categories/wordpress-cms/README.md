@@ -79,6 +79,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | — |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.8k/wk |
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
+| [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | — | — |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | — | — |
@@ -124,6 +125,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | — | — |
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | — | — |
 | [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | — | — |
+| [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | — | — |
 | [Yoast SEO WordPress Search Optimization Plugin](../../skills/yoast-seo-wordpress-search-optimization-plugin/) | — | — |
 
 ---

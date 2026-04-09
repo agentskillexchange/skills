@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1810,
+  "total": 1813,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "playwright-extra-plugin-framework-for-playwright",
+      "name": "playwright-extra Plugin Framework for Playwright",
+      "description": "An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such as stealth and other browser behavior extensions. It…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "acf-extended-advanced-custom-fields-workflows",
+      "name": "ACF Extended for Advanced Custom Fields Workflows",
+      "description": "An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "wpgraphql-smart-cache-headless-wordpress",
+      "name": "WPGraphQL Smart Cache for Headless WordPress",
+      "description": "An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "apostrophecms-full-stack-nodejs-cms-in-context-editing",
       "name": "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing",
