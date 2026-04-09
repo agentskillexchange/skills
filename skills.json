@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 1818,
+  "total": 1824,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "infisical-cli-secrets-injection-and-access-management",
+      "name": "Infisical CLI Secrets Injection and Access Management",
+      "description": "Infisical CLI retrieves, injects, and manages secrets across local development, CI/CD, staging, and production environments. It is useful when agent workflows need a structured…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "maildev-smtp-capture-and-email-testing-server",
+      "name": "MailDev SMTP Capture and Email Testing Server",
+      "description": "MailDev is a local SMTP server with a web UI and REST API for capturing application email during development. It lets agents and test…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "browserless-headless-browser-automation-infrastructure",
+      "name": "Browserless Headless Browser Automation Infrastructure",
+      "description": "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "beekeeper-studio-cross-platform-sql-editor-database-manager",
+      "name": "Beekeeper Studio Cross-Platform SQL Editor and Database Manager",
+      "description": "A source-backed ASE skill for Beekeeper Studio, the SQL editor and database manager for Linux, macOS, and Windows. It fits workflows that need a…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "hygraph-management-sdk-schema-migration-automation",
+      "name": "Hygraph Management SDK for Schema Migration Automation",
+      "description": "A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema through code-first migrations. It is a good…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "nightwatchjs-integrated-browser-mobile-testing-framework",
+      "name": "Nightwatch.js Integrated Browser and Mobile Testing Framework",
+      "description": "A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "apify-sdk-web-scraping-actor-automation",
       "name": "Apify SDK for Web Scraping and Actor Automation",

@@ -67,6 +67,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | — | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | — | — |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | — | — |
+| [Browserless Headless Browser Automation Infrastructure](../../skills/browserless-headless-browser-automation-infrastructure/) | — | — |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
 | [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | — | — |
@@ -81,6 +82,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | — | — |
+| [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | — | — |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |

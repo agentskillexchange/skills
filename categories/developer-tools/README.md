@@ -218,6 +218,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |
 | [Baserow Open Source No-Code Database and Automation Platform](../../skills/baserow-open-source-no-code-database-automation-platform/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
+| [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |

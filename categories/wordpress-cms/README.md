@@ -97,6 +97,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | — | — |
+| [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
 | [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | — | — |
