@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1813,
+  "total": 1816,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "openproject-open-source-project-management-platform",
+      "name": "OpenProject Open Source Project Management Platform",
+      "description": "OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "appflowy-open-source-collaborative-workspace",
+      "name": "AppFlowy Open Source Collaborative Workspace",
+      "description": "AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project,…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "dokploy-self-hosted-application-deployment-platform",
+      "name": "Dokploy Self-Hosted Application Deployment Platform",
+      "description": "Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify.…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "playwright-extra-plugin-framework-for-playwright",
       "name": "playwright-extra Plugin Framework for Playwright",

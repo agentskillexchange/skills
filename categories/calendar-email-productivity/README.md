@@ -71,6 +71,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | — | — |
+| [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
@@ -104,6 +105,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | — | — |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | — | — |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | — | — |
+| [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | — | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | — | — |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | — | — |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
