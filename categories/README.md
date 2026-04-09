@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1816 skills** across **17 categories**
+> **1818 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,8 +15,8 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **97** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **88** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **86** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **85** | Web research, data collection, content aggregation, and information g... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **84** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **86** | Web research, data collection, content aggregation, and information g... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **85** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **81** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **78** | Image generation, asset processing, design automation, and creative t... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **74** | Project scaffolding, boilerplate generators, workflow templates, and ... |

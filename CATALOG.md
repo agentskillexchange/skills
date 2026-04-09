@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1816 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 11:41 UTC
+> **1818 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 13:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1449,7 +1449,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (85 skills)
+### 🔍 Research & Scraping (86 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1488,6 +1488,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | — | — |
 | [Apify Actor Web Crawler](skills/apify-actor-web-crawler/) | Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify… | Security Reviewed | — | — |
 | [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | — | — |
+| [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Published | — | — |
 | [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | — | — |
 | [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
@@ -1542,7 +1543,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (84 skills)
+### 🌐 Browser Automation (85 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1625,6 +1626,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | — | — |
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | — | — |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | — | — |
+| [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Published | — | — |
 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | Build browser automations with Stagehand, Browserbase's AI browser automation framework. It combines… | Security Reviewed | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](skills/stagehand-ai-browser-automation-framework-browserbase/) | Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with… | Security Reviewed | — | — |
 | [Stagehand Browser Agent SDK](skills/stagehand-browser-agent-sdk/) | Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language… | Security Reviewed | — | — |

@@ -68,6 +68,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | — | — |
 | [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | — | — |
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | — | — |
+| [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | — | — |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | — | — |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | — | — |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |

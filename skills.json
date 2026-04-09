@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 1816,
+  "total": 1818,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "apify-sdk-web-scraping-actor-automation",
+      "name": "Apify SDK for Web Scraping and Actor Automation",
+      "description": "Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It gives agents a structured way to…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "selenium-webdriver-browser-automation-framework",
+      "name": "Selenium WebDriver Browser Automation Framework",
+      "description": "Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "openproject-open-source-project-management-platform",
       "name": "OpenProject Open Source Project Management Platform",

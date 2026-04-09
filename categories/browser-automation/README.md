@@ -117,6 +117,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | — | — |
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | — | — |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
+| [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | — | — |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework-2/) | — | — |
 | [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | — | — |
 | [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | — | — |
