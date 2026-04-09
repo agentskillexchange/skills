@@ -4,10 +4,10 @@ description: "Analyzes Git repository branch topology using libgit2 bindings and
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/"
 category:
+- Developer Tools
 framework:
 - Claude Code
 ---
-
 
 # Git Branch Analyzer
 

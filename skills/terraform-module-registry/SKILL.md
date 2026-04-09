@@ -4,10 +4,10 @@ description: "Terraform Module Registry is built around Terraform infrastructure
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-registry/"
 category:
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---
-
 
 # Terraform Module Registry
 

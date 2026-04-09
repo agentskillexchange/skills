@@ -4,10 +4,10 @@ description: "Validates article extraction quality using the Diffbot Article API
 verification: "security_reviewed"
 source: "https://www.diffbot.com/dev/docs/"
 category:
+- Research &amp; Scraping
 framework:
 - Claude Agents
 ---
-
 
 # Diffbot Article Extraction Verifier
 

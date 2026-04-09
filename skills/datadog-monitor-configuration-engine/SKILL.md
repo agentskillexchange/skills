@@ -4,10 +4,10 @@ description: "Interfaces with the Datadog API v2 monitors and dashboards endpoin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - ChatGPT Agents
 ---
-
 
 # Datadog Monitor Configuration Engine
 

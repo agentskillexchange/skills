@@ -4,10 +4,10 @@ description: "Headless Chrome scraping using Puppeteer with stealth plugin, requ
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/"
 category:
+- Research &amp; Scraping
 framework:
 - Claude Code
 ---
-
 
 # Puppeteer Scraping Framework
 

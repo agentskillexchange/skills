@@ -4,10 +4,10 @@ description: "Automates Prisma ORM schema evolution and migration planning using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # Prisma Schema Migrator
 

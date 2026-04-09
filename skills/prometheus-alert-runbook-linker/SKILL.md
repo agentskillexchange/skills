@@ -4,10 +4,10 @@ description: "Links Prometheus alerting rules to operational runbooks by parsing
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---
-
 
 # Prometheus Alert Runbook Linker
 

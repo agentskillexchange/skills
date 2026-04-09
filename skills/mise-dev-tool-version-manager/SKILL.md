@@ -4,13 +4,13 @@ description: "Use mise (mise-en-place) to manage development tool versions, envi
 verification: "listed"
 source: "https://github.com/jdx/mise"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "jdx/mise"
   github_stars: 26298
 ---
-
 
 # Mise Dev Tool Version Manager
 

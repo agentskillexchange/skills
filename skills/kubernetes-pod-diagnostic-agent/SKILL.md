@@ -4,10 +4,10 @@ description: "Diagnoses Kubernetes pod failures using kubectl and the Kubernetes
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---
-
 
 # Kubernetes Pod Diagnostic Agent
 

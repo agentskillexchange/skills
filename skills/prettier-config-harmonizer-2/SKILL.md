@@ -4,10 +4,10 @@ description: "Resolves Prettier formatting conflicts across monorepo packages us
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
 category:
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---
-
 
 # Prettier Config Harmonizer
 

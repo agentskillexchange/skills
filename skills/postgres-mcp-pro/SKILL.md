@@ -4,13 +4,13 @@ description: "Query, analyze, and tune PostgreSQL databases through your AI agen
 verification: "security_reviewed"
 source: "https://github.com/crystaldba/postgres-mcp"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2499
 ---
-
 
 # Postgres MCP Pro
 

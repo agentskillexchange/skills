@@ -4,10 +4,10 @@ description: "Diagnoses failing GitHub Actions workflows using the GitHub REST A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Agents
 ---
-
 
 # GitHub Actions Workflow Debugger
 

@@ -4,10 +4,10 @@ description: "Visual regression testing using Puppeteer page.screenshot() with p
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 category:
+- Browser Automation
 framework:
 - Claude Code
 ---
-
 
 # Puppeteer Screenshot Diff Engine
 

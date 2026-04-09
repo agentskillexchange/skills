@@ -4,10 +4,10 @@ description: "Transcribes podcast episodes using OpenAI Whisper API with speaker
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
 category:
+- Media &amp; Transcription
 framework:
 - Codex
 ---
-
 
 # Podcast Transcription Pipeline
 

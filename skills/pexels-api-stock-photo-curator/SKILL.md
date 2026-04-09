@@ -4,10 +4,10 @@ description: "Searches and downloads royalty-free images from Pexels API with sm
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Claude Agents
 ---
-
 
 # Pexels API Stock Photo Curator
 

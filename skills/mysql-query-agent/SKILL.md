@@ -4,10 +4,10 @@ description: "MySQL Query Agent is built around MySQL relational database. The u
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mysql-query-agent/"
 category:
+- Developer Tools
 framework:
 - MCP
 ---
-
 
 # MySQL Query Agent
 

@@ -4,10 +4,10 @@ description: "Redis MCP Server is built around Redis in-memory datastore. The un
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/redis-mcp-server/"
 category:
+- Developer Tools
 framework:
 - MCP
 ---
-
 
 # Redis MCP Server
 

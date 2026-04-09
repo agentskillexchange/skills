@@ -4,10 +4,10 @@ description: "Performs safe Terraform state operations using the terraform CLI s
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 ---
-
 
 # Terraform State Surgery Kit
 

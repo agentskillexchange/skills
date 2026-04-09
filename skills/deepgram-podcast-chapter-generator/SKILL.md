@@ -4,10 +4,10 @@ description: "Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and sum
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/"
 category:
+- Media &amp; Transcription
 framework:
 - ChatGPT Agents
 ---
-
 
 # Deepgram Podcast Chapter Generator
 

@@ -4,13 +4,13 @@ description: "MinIO is a high-performance, S3-compatible object storage server. 
 verification: "security_reviewed"
 source: "https://github.com/minio/minio"
 category:
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "minio/minio"
   github_stars: 60611
 ---
-
 
 # MinIO High-Performance S3-Compatible Object Storage Server
 

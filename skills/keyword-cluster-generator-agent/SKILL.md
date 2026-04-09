@@ -4,10 +4,10 @@ description: "Groups keywords into topical clusters using sentence-transformers 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
 category:
+- Content Writing &amp; SEO
 framework:
 - MCP
 ---
-
 
 # Keyword Cluster Generator
 

@@ -4,13 +4,13 @@ description: "A terminal-based interactive JSON viewer and jq filter editor writ
 verification: "security_reviewed"
 source: "https://github.com/ynqa/jnv"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "ynqa/jnv"
   github_stars: 5979
 ---
-
 
 # jnv Interactive JSON Navigator and jq Filter Editor
 

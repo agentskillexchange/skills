@@ -4,10 +4,10 @@ description: "Baserow is an open-source no-code platform for databases, automati
 verification: "security_reviewed"
 source: "https://github.com/baserow/baserow"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # Baserow Open Source No-Code Database and Automation Platform
 

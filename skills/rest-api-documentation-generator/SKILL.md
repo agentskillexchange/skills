@@ -4,10 +4,10 @@ description: "Generates interactive API documentation from code annotations usin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---
-
 
 # REST API Documentation Generator
 

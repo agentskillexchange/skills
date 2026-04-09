@@ -4,10 +4,10 @@ description: "Analyzes code coverage diffs on pull requests using the Codecov AP
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
 category:
+- Code Quality &amp; Review
 framework:
 - ChatGPT Agents
 ---
-
 
 # Codecov Coverage Diff Analyzer
 

@@ -4,6 +4,7 @@ description: "Twilio MCP Server is built around Twilio communications APIs. The 
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "twilio"
   npm_weekly_downloads: 3377332
 ---
-
 
 # Twilio MCP Server
 

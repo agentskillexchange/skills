@@ -4,10 +4,10 @@ description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_stateme
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-explainer/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---
-
 
 # PostgreSQL Query Plan Explainer
 

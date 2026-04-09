@@ -4,10 +4,10 @@ description: "Retrieves and indexes Python package documentation from PyPI metad
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-docs-fetcher/"
 category:
+- Library &amp; API Reference
 framework:
 - OpenClaw
 ---
-
 
 # Python Package Docs Fetcher
 

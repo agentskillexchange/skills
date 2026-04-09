@@ -4,10 +4,10 @@ description: "Analyzes GitHub Actions YAML workflows to identify redundant steps
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 ---
-
 
 # GitHub Actions Workflow Optimizer
 

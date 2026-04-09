@@ -4,13 +4,13 @@ description: "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-8
 verification: "security_reviewed"
 source: "https://github.com/remsky/Kokoro-FastAPI"
 category:
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "remsky/Kokoro-FastAPI"
   github_stars: 4671
 ---
-
 
 # Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server
 

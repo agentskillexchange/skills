@@ -4,6 +4,7 @@ description: "Use the Contentful Management API and JavaScript SDK to create, up
 verification: "security_reviewed"
 source: "https://github.com/contentful/contentful-management.js"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 286
   npm_package: "contentful-management"
   npm_weekly_downloads: 655148
+  license: "MIT"
 ---
-
 
 # Contentful Management API and JavaScript SDK
 

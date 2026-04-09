@@ -4,10 +4,10 @@ description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 category:
+- Security &amp; Verification
 framework:
 - MCP
 ---
-
 
 # TLS Certificate Chain Analyzer
 

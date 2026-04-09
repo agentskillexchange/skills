@@ -4,10 +4,10 @@ description: "Parses Terraform plan JSON output from terraform show -json and th
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-4/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # Terraform Plan Reviewer
 

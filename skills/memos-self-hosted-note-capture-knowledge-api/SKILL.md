@@ -4,13 +4,13 @@ description: "Enable AI agents to interact with Memos, an open-source self-hoste
 verification: "security_reviewed"
 source: "https://github.com/usememos/memos"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "usememos/memos"
   github_stars: 58453
 ---
-
 
 # Memos Self-Hosted Note Capture and Knowledge API
 

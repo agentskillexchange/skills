@@ -4,10 +4,10 @@ description: "Extracts comprehensive media metadata using the MediaInfo library 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mediainfo-metadata-extractor/"
 category:
+- Media &amp; Transcription
 framework:
 - Custom Agents
 ---
-
 
 # MediaInfo Metadata Extractor
 

@@ -4,10 +4,10 @@ description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rule
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Agents
 ---
-
 
 # Semgrep Security Review Agent
 

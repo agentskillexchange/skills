@@ -4,10 +4,10 @@ description: "Extracts design tokens from Figma files using the Figma REST API v
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Claude Code
 ---
-
 
 # Figma Design Token Exporter
 

@@ -4,6 +4,7 @@ description: "TypeDoc is the standard documentation generator for TypeScript pro
 verification: "security_reviewed"
 source: "https://github.com/TypeStrong/typedoc"
 category:
+- Library &amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "typedoc"
   npm_weekly_downloads: 3703073
 ---
-
 
 # TypeDoc TypeScript API Documentation Generator
 

@@ -4,10 +4,10 @@ description: "An ASE skill built around ACF Extended, the WordPress enhancement 
 verification: "listed"
 source: "https://github.com/acf-extended/ACF-Extended"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # ACF Extended for Advanced Custom Fields Workflows
 

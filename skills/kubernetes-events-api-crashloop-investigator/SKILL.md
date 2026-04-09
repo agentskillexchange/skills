@@ -4,13 +4,13 @@ description: "Diagnoses restart storms with the Kubernetes Events API, Pod statu
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121439
 ---
-
 
 # Kubernetes Events API CrashLoop Investigator
 

@@ -4,10 +4,10 @@ description: "Profiles GitLab CI/CD pipeline execution times using the GitLab RE
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/"
 category:
+- CI/CD Integrations
 framework:
 - Custom Agents
 ---
-
 
 # GitLab CI Pipeline Profiler
 

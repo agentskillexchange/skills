@@ -4,13 +4,13 @@ description: "Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate 
 verification: "security_reviewed"
 source: "https://github.com/oven-sh/bun"
 category:
+- Developer Tools
 framework:
 - Codex
 tool_ecosystem:
   github_repo: "oven-sh/bun"
   github_stars: 88912
 ---
-
 
 # Bun Shell Script Executor
 

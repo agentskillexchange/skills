@@ -4,10 +4,10 @@ description: "Creates detailed SEO content briefs using Ahrefs API keyword data,
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
 category:
+- Content Writing &amp; SEO
 framework:
 - MCP
 ---
-
 
 # Content Brief Architect
 

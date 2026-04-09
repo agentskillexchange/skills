@@ -4,13 +4,13 @@ description: "fq is a command-line tool that brings jq-style querying to binary 
 verification: "security_reviewed"
 source: "https://github.com/wader/fq"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "wader/fq"
   github_stars: 10468
 ---
-
 
 # fq Binary Format Inspector and jq for Media Files
 

@@ -4,10 +4,10 @@ description: "ScrapeGraphAI is a Python web scraping library that uses LLMs and 
 verification: "security_reviewed"
 source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---
-
 
 # ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines
 

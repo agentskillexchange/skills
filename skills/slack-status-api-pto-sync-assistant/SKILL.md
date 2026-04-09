@@ -4,10 +4,10 @@ description: "Syncs away-state updates through Slack users.profile APIs, status 
 verification: "security_reviewed"
 source: "https://api.slack.com/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---
-
 
 # Slack Status API PTO Sync Assistant
 

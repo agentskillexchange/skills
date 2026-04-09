@@ -4,10 +4,10 @@ description: "API-based speech-to-text transcription through OpenAI. No local mo
 verification: "security_reviewed"
 source: "https://developers.openai.com/api/docs/guides/speech-to-text"
 category:
+- Media &amp; Transcription
 framework:
 - OpenClaw
 ---
-
 
 # OpenAI Whisper API Transcription
 

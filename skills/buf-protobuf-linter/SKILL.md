@@ -4,10 +4,10 @@ description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and va
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---
-
 
 # Buf Protobuf Linter
 

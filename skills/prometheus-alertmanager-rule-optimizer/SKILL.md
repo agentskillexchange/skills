@@ -4,10 +4,10 @@ description: "Analyzes Prometheus alerting rules and AlertManager configuration 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---
-
 
 # Prometheus AlertManager Rule Optimizer
 

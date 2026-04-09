@@ -4,10 +4,10 @@ description: "Extends npm audit with deep transitive dependency analysis using t
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
 category:
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---
-
 
 # NPM Audit Deep Scanner
 

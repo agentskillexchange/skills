@@ -4,10 +4,10 @@ description: "Browser Use is an open source browser automation framework for AI 
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Browser Use Agentic Browser Control
 

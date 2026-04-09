@@ -4,10 +4,10 @@ description: "Manages ArgoCD application deployments via the ArgoCD REST API and
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # ArgoCD Application Deployer
 

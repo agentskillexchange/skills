@@ -4,13 +4,13 @@ description: "Captures clean site content through Firecrawl endpoints like `/v1/
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
+- Research &amp; Scraping
 framework:
 - Codex
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630
 ---
-
 
 # Firecrawl Markdown Capture Pipeline
 

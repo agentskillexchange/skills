@@ -4,13 +4,13 @@ description: "Terraform Cloud MCP Server is built around Terraform infrastructur
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
+- Developer Tools
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48080
 ---
-
 
 # Terraform Cloud MCP Server
 

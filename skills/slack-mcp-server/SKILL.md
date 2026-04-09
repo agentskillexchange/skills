@@ -4,6 +4,7 @@ description: "Agent access to Slack conversations and workspace workflows."
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 - Cursor
@@ -13,7 +14,6 @@ tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
   github_stars: 83288
 ---
-
 
 # Slack MCP Server
 

@@ -4,13 +4,13 @@ description: "Queries the Common Crawl Index API and CC-MAIN collections to surf
 verification: "security_reviewed"
 source: "https://github.com/commoncrawl/cc-index-table"
 category:
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "commoncrawl/cc-index-table"
   github_stars: 127
 ---
-
 
 # Common Crawl URL Index Miner
 

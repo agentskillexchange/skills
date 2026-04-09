@@ -4,10 +4,10 @@ description: "Renders Jinja2 templates with variable injection, macro expansion,
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 category:
+- Templates &amp; Workflows
 framework:
 - Gemini
 ---
-
 
 # Jinja2 Template Engine
 

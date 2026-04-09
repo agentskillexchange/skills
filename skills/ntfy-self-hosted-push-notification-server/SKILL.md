@@ -4,13 +4,14 @@ description: "ntfy is an open-source HTTP-based pub-sub notification service tha
 verification: "listed"
 source: "https://github.com/binwiederhier/ntfy"
 category:
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "binwiederhier/ntfy"
   github_stars: 29493
+  license: "Apache-2.0"
 ---
-
 
 # ntfy Self-Hosted Push Notification Server
 

@@ -4,10 +4,10 @@ description: "OpenAPI Generator turns OpenAPI specs into client SDKs, server stu
 verification: "security_reviewed"
 source: "https://github.com/OpenAPITools/openapi-generator"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # OpenAPI Generator API Client and Server Stub Tooling
 

@@ -4,10 +4,10 @@ description: "Polls the X API v2 trending topics endpoint every 15 minutes and c
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/"
 category:
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---
-
 
 # Twitter/X Trend Monitor & Thread Publisher
 

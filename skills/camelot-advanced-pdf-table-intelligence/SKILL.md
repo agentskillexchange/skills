@@ -4,10 +4,10 @@ description: "Intelligent PDF table detection and extraction using Camelot-py wi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---
-
 
 # Camelot Advanced PDF Table Intelligence
 

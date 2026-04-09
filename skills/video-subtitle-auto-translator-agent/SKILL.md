@@ -4,10 +4,10 @@ description: "Translates video subtitles across 100+ languages using DeepL API a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/"
 category:
+- Media &amp; Transcription
 framework:
 - Cursor
 ---
-
 
 # Video Subtitle Auto-Translator
 

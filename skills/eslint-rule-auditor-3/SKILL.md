@@ -4,10 +4,10 @@ description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
 category:
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---
-
 
 # ESLint Rule Auditor
 

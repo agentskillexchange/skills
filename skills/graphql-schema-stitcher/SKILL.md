@@ -4,10 +4,10 @@ description: "Merges multiple GraphQL schemas into a unified federated gateway u
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-stitcher/"
 category:
+- Library &amp; API Reference
 framework:
 - MCP
 ---
-
 
 # GraphQL Schema Stitcher
 

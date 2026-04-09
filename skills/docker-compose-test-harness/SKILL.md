@@ -4,10 +4,10 @@ description: "Scaffolds integration test environments using Docker Compose v2 CL
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-test-harness/"
 category:
+- Templates &amp; Workflows
 framework:
 - MCP
 ---
-
 
 # Docker Compose Test Harness
 

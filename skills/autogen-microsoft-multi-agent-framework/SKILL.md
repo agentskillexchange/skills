@@ -4,13 +4,13 @@ description: "AutoGen is Microsoft’s open-source framework for building multi-
 verification: "listed"
 source: "https://github.com/microsoft/autogen"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "microsoft/autogen"
   github_stars: 56777
 ---
-
 
 # AutoGen — Microsoft Multi-Agent Conversation Framework
 

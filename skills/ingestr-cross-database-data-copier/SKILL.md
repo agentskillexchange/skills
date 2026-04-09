@@ -4,6 +4,8 @@ description: "Copy data between any databases with a single CLI command using In
 verification: "security_reviewed"
 source: "https://github.com/bruin-data/ingestr"
 category:
+- Data Extraction &amp; Transformation
+- Integrations &amp; Connectors
 framework:
 - Claude Code
 - OpenClaw
@@ -11,7 +13,6 @@ tool_ecosystem:
   github_repo: "bruin-data/ingestr"
   github_stars: 3442
 ---
-
 
 # Ingestr Cross-Database Data Copier
 

@@ -4,10 +4,10 @@ description: "Automates visual regression testing using Puppeteer page.screensho
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 category:
+- Browser Automation
 framework:
 - Cursor
 ---
-
 
 # Puppeteer Visual Regression Tester
 

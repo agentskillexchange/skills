@@ -4,13 +4,13 @@ description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenA
 verification: "security_reviewed"
 source: "https://github.com/ggml-org/whisper.cpp"
 category:
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "ggml-org/whisper.cpp"
   github_stars: 48315
 ---
-
 
 # whisper.cpp High-Performance C/C++ Speech Recognition Engine
 

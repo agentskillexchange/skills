@@ -4,13 +4,13 @@ description: "The official Sentry MCP server gives AI agents access to Sentry er
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 615
 ---
-
 
 # Sentry MCP Server for Error Tracking and Performance
 

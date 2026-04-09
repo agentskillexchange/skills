@@ -4,10 +4,10 @@ description: "Fetches and indexes Mozilla Developer Network Web API documentatio
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
 category:
+- Library &amp; API Reference
 framework:
 - Custom Agents
 ---
-
 
 # MDN Web API Reference Fetcher
 

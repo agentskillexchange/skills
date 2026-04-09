@@ -4,10 +4,10 @@ description: "Converts JSON samples, TypeScript interfaces, and OpenAPI specs in
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
 category:
+- Library &amp; API Reference
 framework:
 - Cursor
 ---
-
 
 # Zod Schema Generator
 

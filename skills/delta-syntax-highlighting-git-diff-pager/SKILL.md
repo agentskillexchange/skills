@@ -4,13 +4,13 @@ description: "A syntax-highlighting pager for git diff, grep, and blame output b
 verification: "security_reviewed"
 source: "https://github.com/dandavison/delta"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "dandavison/delta"
   github_stars: 29842
 ---
-
 
 # delta Syntax-Highlighting Git Diff Pager
 

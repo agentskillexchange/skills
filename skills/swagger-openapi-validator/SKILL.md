@@ -4,10 +4,10 @@ description: "Swagger / OpenAPI Validator is built around Swagger/OpenAPI toolin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---
-
 
 # Swagger / OpenAPI Validator
 

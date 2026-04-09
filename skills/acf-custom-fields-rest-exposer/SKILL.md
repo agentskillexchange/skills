@@ -4,10 +4,10 @@ description: "Exposes Advanced Custom Fields data through the WordPress REST API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
 category:
+- WordPress &amp; CMS
 framework:
 - Cursor
 ---
-
 
 # ACF Custom Fields REST Exposer
 

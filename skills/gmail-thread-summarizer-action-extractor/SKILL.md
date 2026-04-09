@@ -4,10 +4,10 @@ description: "Fetches Gmail threads via the Gmail API (users.threads.get), extra
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - OpenClaw
 ---
-
 
 # Gmail Thread Summarizer and Action Extractor
 

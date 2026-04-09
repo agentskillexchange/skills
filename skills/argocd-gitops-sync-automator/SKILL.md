@@ -4,13 +4,13 @@ description: "Automates ArgoCD application synchronization using the ArgoCD gRPC
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
+- CI/CD Integrations
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22518
 ---
-
 
 # ArgoCD GitOps Sync Automator
 

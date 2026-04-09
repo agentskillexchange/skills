@@ -4,10 +4,10 @@ description: "Orchestrates OWASP ZAP security scans via the ZAP API with automat
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/"
 category:
+- Security &amp; Verification
 framework:
 - Codex
 ---
-
 
 # ZAP Automated Security Scan Orchestrator
 

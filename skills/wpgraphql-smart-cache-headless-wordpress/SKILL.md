@@ -4,10 +4,10 @@ description: "An ASE skill built around WPGraphQL Smart Cache, the open source W
 verification: "listed"
 source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # WPGraphQL Smart Cache for Headless WordPress
 

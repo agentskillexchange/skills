@@ -4,10 +4,10 @@ description: "k6 is a modern load testing tool for writing performance checks in
 verification: "security_reviewed"
 source: "https://github.com/grafana/k6"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---
-
 
 # k6 Load Testing CLI for JavaScript Performance Scenarios
 

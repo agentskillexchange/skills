@@ -4,10 +4,10 @@ description: "aerc is a terminal-based email client written in Go with first-cla
 verification: "security_reviewed"
 source: "https://git.sr.ht/~rjarry/aerc"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---
-
 
 # aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch
 

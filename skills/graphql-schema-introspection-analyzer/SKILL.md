@@ -4,10 +4,10 @@ description: "Introspects GraphQL APIs via the standard __schema query and analy
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
 category:
+- Library &amp; API Reference
 framework:
 - MCP
 ---
-
 
 # GraphQL Schema Introspection Analyzer
 

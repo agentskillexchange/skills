@@ -4,10 +4,10 @@ description: "Temporal CLI runs a local Temporal server and talks to workflows, 
 verification: "security_reviewed"
 source: "https://github.com/temporalio/cli"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # Temporal CLI Workflow and Server Control
 

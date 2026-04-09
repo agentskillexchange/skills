@@ -4,10 +4,10 @@ description: "Orchestrates Selenium Grid 4 node scaling based on test queue dept
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/"
 category:
+- Browser Automation
 framework:
 - OpenClaw
 ---
-
 
 # Selenium Grid Auto-Scaling Orchestrator
 

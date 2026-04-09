@@ -4,10 +4,10 @@ description: "Monitors ArgoCD applications for configuration drift using the Arg
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-drift-detector/"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 ---
-
 
 # ArgoCD Sync Drift Detector
 

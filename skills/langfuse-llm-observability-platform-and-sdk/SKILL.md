@@ -4,13 +4,13 @@ description: "Use Langfuse to capture prompts, traces, generations, evaluations,
 verification: "security_reviewed"
 source: "https://github.com/langfuse/langfuse"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "langfuse/langfuse"
   github_stars: 24091
 ---
-
 
 # Langfuse LLM Observability Platform and SDK
 

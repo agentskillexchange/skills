@@ -4,13 +4,13 @@ description: "ArgoCD MCP Server is built around Argo CD GitOps deployment contro
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 category:
+- Developer Tools
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22518
 ---
-
 
 # ArgoCD MCP Server
 

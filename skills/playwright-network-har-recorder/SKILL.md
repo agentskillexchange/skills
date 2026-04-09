@@ -4,10 +4,10 @@ description: "Records and replays HTTP Archive (HAR) files using Playwright rout
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
 category:
+- Browser Automation
 framework:
 - Codex
 ---
-
 
 # Playwright Network HAR Recorder
 

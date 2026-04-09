@@ -4,10 +4,10 @@ description: "Connects to Jenkins via the Jenkins REST API and Blue Ocean API to
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Agents
 ---
-
 
 # Jenkins Pipeline Debugger
 

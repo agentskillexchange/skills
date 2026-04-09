@@ -4,6 +4,7 @@ description: "dbmate is a standalone, framework-agnostic database migration tool
 verification: "security_reviewed"
 source: "https://github.com/amacneil/dbmate"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "dbmate"
   npm_weekly_downloads: 83734
 ---
-
 
 # dbmate Lightweight Database Migration CLI
 

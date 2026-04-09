@@ -4,10 +4,10 @@ description: "Analyzes npm package security advisories using npm audit, the npm 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Agents
 ---
-
 
 # NPM Package Audit Analyzer
 

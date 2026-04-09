@@ -4,13 +4,13 @@ description: "NetBird creates encrypted WireGuard-based overlay networks with SS
 verification: "security_reviewed"
 source: "https://github.com/netbirdio/netbird"
 category:
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "netbirdio/netbird"
   github_stars: 24034
 ---
-
 
 # NetBird WireGuard Mesh VPN with Zero Trust Access Controls
 

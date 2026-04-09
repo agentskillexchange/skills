@@ -4,10 +4,10 @@ description: "Orchestrates parallel browser automation across Selenium Grid node
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 ---
-
 
 # Selenium Grid Parallel Executor
 

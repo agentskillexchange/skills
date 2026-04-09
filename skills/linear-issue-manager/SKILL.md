@@ -4,10 +4,10 @@ description: "Linear Issue Manager is built around GraphQL API ecosystem. The un
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/linear-issue-manager/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # Linear Issue Manager
 

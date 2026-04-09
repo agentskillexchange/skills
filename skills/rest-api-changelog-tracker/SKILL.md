@@ -4,10 +4,10 @@ description: "Tracks breaking changes across REST API versions by diffing OpenAP
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-changelog-tracker/"
 category:
+- Library &amp; API Reference
 framework:
 - Custom Agents
 ---
-
 
 # REST API Changelog Tracker
 

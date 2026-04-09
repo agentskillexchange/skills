@@ -4,13 +4,13 @@ description: "WritingTools is an open-source, Apple Intelligence-inspired writin
 verification: "security_reviewed"
 source: "https://github.com/theJayTea/WritingTools"
 category:
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186
 ---
-
 
 # WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS
 

@@ -4,10 +4,10 @@ description: "Creates Buildkite pipelines dynamically using the Buildkite REST A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/"
 category:
+- CI/CD Integrations
 framework:
 - Cursor
 ---
-
 
 # Buildkite Dynamic Pipeline Agent
 

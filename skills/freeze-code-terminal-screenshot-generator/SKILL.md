@@ -4,13 +4,13 @@ description: "Freeze by Charmbracelet generates polished PNG and SVG images of c
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/freeze"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "charmbracelet/freeze"
   github_stars: 4409
 ---
-
 
 # Freeze Code and Terminal Screenshot Generator
 

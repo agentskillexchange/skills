@@ -4,6 +4,7 @@ description: "fx is a terminal-based JSON viewer and processor that provides an 
 verification: "security_reviewed"
 source: "https://github.com/antonmedv/fx"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "fx"
   npm_weekly_downloads: 190694
 ---
-
 
 # fx Terminal JSON Viewer and Processor
 

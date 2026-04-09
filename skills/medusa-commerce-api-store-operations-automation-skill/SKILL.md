@@ -4,13 +4,13 @@ description: "Medusa is an open-source commerce platform with modular backend se
 verification: "security_reviewed"
 source: "https://github.com/medusajs/medusa"
 category:
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "medusajs/medusa"
   github_stars: 32598
 ---
-
 
 # Medusa Commerce API and Store Operations Automation Skill
 

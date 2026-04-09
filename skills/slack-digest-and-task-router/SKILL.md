@@ -4,10 +4,10 @@ description: "Reads unread Slack messages from specified channels using the conv
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-digest-and-task-router/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - OpenClaw
 ---
-
 
 # Slack Digest and Task Router
 

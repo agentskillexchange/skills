@@ -4,10 +4,10 @@ description: "Validates nginx.conf files using the gixy static analyzer and cros
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-config-linter-tester/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---
-
 
 # Nginx Config Linter and Tester
 

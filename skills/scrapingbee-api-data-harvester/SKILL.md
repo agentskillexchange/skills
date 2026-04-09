@@ -4,10 +4,10 @@ description: "Interfaces with the ScrapingBee REST API for JavaScript rendering 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---
-
 
 # ScrapingBee API Data Harvester
 

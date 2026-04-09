@@ -4,10 +4,10 @@ description: "Queries the NCBI E-utilities API (esearch, efetch, elink) to retri
 verification: "security_reviewed"
 source: "https://pubmed.ncbi.nlm.nih.gov/"
 category:
+- Research &amp; Scraping
 framework:
 - Gemini
 ---
-
 
 # PubMed Literature Mining Agent
 

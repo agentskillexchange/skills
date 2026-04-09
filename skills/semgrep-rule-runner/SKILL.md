@@ -4,10 +4,10 @@ description: "Executes Semgrep static analysis using the semgrep CLI with custom
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 category:
+- Code Quality &amp; Review
 framework:
 - Gemini
 ---
-
 
 # Semgrep Rule Runner
 

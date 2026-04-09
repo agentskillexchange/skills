@@ -4,10 +4,10 @@ description: "Gorse is an AI-powered open-source recommender system written in G
 verification: "security_reviewed"
 source: "https://github.com/gorse-io/gorse"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---
-
 
 # Gorse AI-Powered Open Source Recommender System Engine
 

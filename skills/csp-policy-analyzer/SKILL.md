@@ -4,10 +4,10 @@ description: "Parses and evaluates Content Security Policy headers using csp-par
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
 category:
+- Security &amp; Verification
 framework:
 - Claude Agents
 ---
-
 
 # CSP Policy Analyzer
 

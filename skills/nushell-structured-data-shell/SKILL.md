@@ -4,6 +4,7 @@ description: "A modern shell that treats all input as structured data rather tha
 verification: "security_reviewed"
 source: "https://github.com/nushell/nushell"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "nushell"
   npm_weekly_downloads: 4961
 ---
-
 
 # Nushell Structured Data Shell
 

@@ -4,10 +4,10 @@ description: "Analyzes site content graph using Screaming Frog SEO Spider API an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-builder-seo-agent/"
 category:
+- Content Writing &amp; SEO
 framework:
 - Claude Agents
 ---
-
 
 # Internal Link Builder
 

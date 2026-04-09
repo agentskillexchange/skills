@@ -4,10 +4,10 @@ description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. T
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dynamodb-manager/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # DynamoDB Manager
 

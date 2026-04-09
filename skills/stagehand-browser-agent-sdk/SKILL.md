@@ -4,10 +4,10 @@ description: "Stagehand is Browserbase’s open source SDK for browser agents, c
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Stagehand Browser Agent SDK
 

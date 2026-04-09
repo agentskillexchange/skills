@@ -4,10 +4,10 @@ description: "Elasticsearch MCP is built around Elasticsearch search and analyti
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elasticsearch-mcp/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---
-
 
 # Elasticsearch MCP
 

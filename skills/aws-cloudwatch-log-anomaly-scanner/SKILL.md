@@ -4,10 +4,10 @@ description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---
-
 
 # AWS CloudWatch Log Anomaly Scanner
 

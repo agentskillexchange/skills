@@ -4,10 +4,10 @@ description: "Debugs Tekton pipeline failures by querying TaskRun and PipelineRu
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-debugger/"
 category:
+- CI/CD Integrations
 framework:
 - Custom Agents
 ---
-
 
 # Tekton Pipeline Debugger
 

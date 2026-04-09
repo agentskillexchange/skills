@@ -4,10 +4,10 @@ description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto D
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Agents
 ---
-
 
 # GitLab CI Auto DevOps Configurator
 

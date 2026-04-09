@@ -4,10 +4,10 @@ description: "Queries distributed traces from Jaeger and Tempo via their gRPC an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # OpenTelemetry Trace Analyzer
 

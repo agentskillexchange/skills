@@ -4,10 +4,10 @@ description: "Manages Yeoman generators for enterprise application scaffolding w
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/"
 category:
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---
-
 
 # Yeoman Enterprise Generator Suite
 

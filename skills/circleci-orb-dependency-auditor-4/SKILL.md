@@ -4,10 +4,10 @@ description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
 category:
+- CI/CD Integrations
 framework:
 - MCP
 ---
-
 
 # CircleCI Orb Dependency Auditor
 

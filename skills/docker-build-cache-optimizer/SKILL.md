@@ -4,10 +4,10 @@ description: "Optimizes Docker build performance using BuildKit cache mount anal
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---
-
 
 # Docker Build Cache Optimizer
 

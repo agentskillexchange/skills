@@ -4,6 +4,7 @@ description: "Salesforce MCP Server is built around Salesforce CRM platform. The
 verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "jsforce"
   npm_weekly_downloads: 838549
 ---
-
 
 # Salesforce MCP Server
 

@@ -4,10 +4,10 @@ description: "Resolves TypeScript symbols and generates API documentation using 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/typedoc-symbol-resolver/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Agents
 ---
-
 
 # TypeDoc Symbol Resolver
 

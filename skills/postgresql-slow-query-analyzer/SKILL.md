@@ -4,10 +4,10 @@ description: "Queries pg_stat_statements and pg_stat_activity to surface the top
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---
-
 
 # PostgreSQL Slow Query Analyzer
 

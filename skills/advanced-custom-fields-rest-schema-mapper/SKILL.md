@@ -4,10 +4,10 @@ description: "Maps ACF field groups into predictable REST responses using `acf_a
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/"
 category:
+- WordPress &amp; CMS
 framework:
 - Cursor
 ---
-
 
 # Advanced Custom Fields REST Schema Mapper
 

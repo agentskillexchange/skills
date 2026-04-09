@@ -4,10 +4,10 @@ description: "Automatically detects and handles cookie consent banners across we
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-automator/"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 ---
-
 
 # Puppeteer Cookie Consent Automator
 

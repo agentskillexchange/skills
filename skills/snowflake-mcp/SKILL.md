@@ -4,10 +4,10 @@ description: "Snowflake MCP is built around Snowflake cloud data warehouse. It g
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snowflake-mcp/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---
-
 
 # Snowflake MCP
 

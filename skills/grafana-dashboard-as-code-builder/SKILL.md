@@ -4,10 +4,10 @@ description: "Builds Grafana dashboards programmatically using grafonnet-lib (Js
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---
-
 
 # Grafana Dashboard as Code Builder
 

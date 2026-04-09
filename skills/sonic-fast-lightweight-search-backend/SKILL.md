@@ -4,13 +4,14 @@ description: "Sonic is a fast, lightweight, and schema-less search backend writt
 verification: "security_reviewed"
 source: "https://github.com/valeriansaliou/sonic"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "valeriansaliou/sonic"
   github_stars: 21176
+  license: "MPL-2.0"
 ---
-
 
 # Sonic Fast Lightweight Schema-Less Search Backend
 

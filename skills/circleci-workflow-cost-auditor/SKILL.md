@@ -4,10 +4,10 @@ description: "Audits CircleCI workflow spend using the CircleCI Insights API and
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 ---
-
 
 # CircleCI Workflow Cost Auditor
 

@@ -4,13 +4,13 @@ description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n
 verification: "security_reviewed"
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "nerding-io/n8n-nodes-mcp"
   github_stars: 3003
 ---
-
 
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows
 

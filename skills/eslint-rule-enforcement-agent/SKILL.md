@@ -4,10 +4,10 @@ description: "Automates ESLint configuration and rule enforcement using the ESLi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---
-
 
 # ESLint Rule Enforcement Agent
 

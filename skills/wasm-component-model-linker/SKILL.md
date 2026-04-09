@@ -4,13 +4,13 @@ description: "Compiles and links WebAssembly components using the WASI Preview 2
 verification: "security_reviewed"
 source: "https://github.com/WebAssembly/component-model"
 category:
+- Developer Tools
 framework:
 - Gemini
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
   github_stars: 1294
 ---
-
 
 # WASM Component Model Linker
 

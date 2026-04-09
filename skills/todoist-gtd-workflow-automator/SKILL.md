@@ -4,10 +4,10 @@ description: "Implements Getting Things Done methodology on Todoist using the To
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---
-
 
 # Todoist GTD Workflow Automator
 

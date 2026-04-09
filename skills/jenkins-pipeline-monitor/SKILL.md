@@ -4,10 +4,10 @@ description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json)
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
 category:
+- CI/CD Integrations
 framework:
 - Gemini
 ---
-
 
 # Jenkins Pipeline Monitor
 

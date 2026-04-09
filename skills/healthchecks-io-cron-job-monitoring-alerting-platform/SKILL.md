@@ -4,13 +4,13 @@ description: "Healthchecks.io is an open-source cron and background task monitor
 verification: "security_reviewed"
 source: "https://github.com/healthchecks/healthchecks"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "healthchecks/healthchecks"
   github_stars: 9967
 ---
-
 
 # Healthchecks.io Cron Job Monitoring and Alerting Platform
 

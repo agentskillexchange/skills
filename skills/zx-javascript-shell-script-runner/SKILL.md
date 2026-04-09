@@ -4,6 +4,7 @@ description: "Write better shell scripts in JavaScript using Google’s zx. Prov
 verification: "security_reviewed"
 source: "https://github.com/google/zx"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "zx"
   npm_weekly_downloads: 1467127
 ---
-
 
 # zx JavaScript Shell Script Runner
 

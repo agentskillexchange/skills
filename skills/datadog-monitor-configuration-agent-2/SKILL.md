@@ -4,10 +4,10 @@ description: "Creates and manages Datadog monitors using the datadog-api-client 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 ---
-
 
 # Datadog Monitor Configuration Agent
 

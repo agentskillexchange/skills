@@ -4,13 +4,13 @@ description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and prop
 verification: "security_reviewed"
 source: "https://github.com/mikefarah/yq"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "mikefarah/yq"
   github_stars: 15143
 ---
-
 
 # yq YAML and Structured Data Processor
 

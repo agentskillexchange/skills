@@ -4,10 +4,10 @@ description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTO
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---
-
 
 # Snowflake Query Optimizer Agent
 

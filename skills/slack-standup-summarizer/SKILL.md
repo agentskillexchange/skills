@@ -4,10 +4,10 @@ description: "Collects daily standup updates from Slack channels using the Web A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-standup-summarizer/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Agents
 ---
-
 
 # Slack Standup Summarizer
 

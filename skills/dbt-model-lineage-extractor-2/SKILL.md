@@ -4,10 +4,10 @@ description: "Extracts and visualizes dbt model dependency lineage using the dbt
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 ---
-
 
 # dbt Model Lineage Extractor
 

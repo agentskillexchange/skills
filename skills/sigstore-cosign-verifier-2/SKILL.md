@@ -4,10 +4,10 @@ description: "Automates container image signature verification using Cosign CLI 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
 category:
+- Security &amp; Verification
 framework:
 - Cursor
 ---
-
 
 # Sigstore Cosign Verifier
 

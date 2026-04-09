@@ -4,10 +4,10 @@ description: "Vercel Agent Browser is a browser automation CLI built specificall
 verification: "security_reviewed"
 source: "https://github.com/vercel-labs/agent-browser"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Vercel Agent Browser
 

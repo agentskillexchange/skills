@@ -4,10 +4,10 @@ description: "Automates ESLint v9 flat config enforcement across monorepos using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---
-
 
 # ESLint Rule Enforcer
 

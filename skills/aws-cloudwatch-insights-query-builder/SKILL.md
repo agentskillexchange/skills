@@ -4,11 +4,11 @@ description: "Builds CloudWatch Logs Insights queries and metric alarms using AW
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Codex
 - Multi-Framework
 ---
-
 
 # AWS CloudWatch Insights Query Builder
 

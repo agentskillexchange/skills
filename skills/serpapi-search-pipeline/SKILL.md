@@ -4,10 +4,10 @@ description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuc
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
 category:
+- Research &amp; Scraping
 framework:
 - OpenClaw
 ---
-
 
 # SerpAPI Search Pipeline
 

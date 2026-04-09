@@ -4,10 +4,10 @@ description: "Bootstraps new projects from Cookiecutter templates with variable 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
 category:
+- Templates &amp; Workflows
 framework:
 - MCP
 ---
-
 
 # Cookiecutter Project Bootstrap
 

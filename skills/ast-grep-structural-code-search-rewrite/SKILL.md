@@ -4,13 +4,13 @@ description: "Use ast-grep (sg) to search, lint, and rewrite code across large c
 verification: "security_reviewed"
 source: "https://github.com/ast-grep/ast-grep"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "ast-grep/ast-grep"
   github_stars: 13245
 ---
-
 
 # ast-grep Structural Code Search and Rewrite
 

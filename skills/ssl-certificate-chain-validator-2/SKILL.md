@@ -4,10 +4,10 @@ description: "Performs deep TLS certificate chain validation using OpenSSL and C
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/"
 category:
+- Security &amp; Verification
 framework:
 - Codex
 ---
-
 
 # SSL Certificate Chain Validator
 

@@ -4,6 +4,7 @@ description: "pnpm is a fast, disk space efficient package manager for Node.js t
 verification: "security_reviewed"
 source: "https://github.com/pnpm/pnpm"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 34426
   npm_package: "pnpm"
   npm_weekly_downloads: 59943100
+  license: "MIT"
 ---
-
 
 # pnpm Fast Disk-Efficient Package Manager
 

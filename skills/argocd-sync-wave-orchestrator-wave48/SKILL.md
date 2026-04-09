@@ -4,10 +4,10 @@ description: "Manages ArgoCD application sync waves and hooks using the ArgoCD A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
 category:
+- CI/CD Integrations
 framework:
 - MCP
 ---
-
 
 # ArgoCD Sync Wave Orchestrator
 

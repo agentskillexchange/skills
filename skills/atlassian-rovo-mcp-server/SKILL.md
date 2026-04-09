@@ -4,13 +4,13 @@ description: "The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspa
 verification: "security_reviewed"
 source: "https://github.com/atlassian/atlassian-mcp-server"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
   github_stars: 552
 ---
-
 
 # Atlassian Rovo MCP Server
 

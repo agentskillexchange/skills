@@ -4,10 +4,10 @@ description: "Validates TLS/SSL certificate chains using OpenSSL x509 verificati
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
 category:
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---
-
 
 # TLS Certificate Chain Validator
 

@@ -4,6 +4,7 @@ description: "OpsGenie MCP Server is built around Opsgenie incident and on-call 
 verification: "security_reviewed"
 source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "opsgenie-sdk"
   npm_weekly_downloads: 7891
 ---
-
 
 # OpsGenie MCP Server
 

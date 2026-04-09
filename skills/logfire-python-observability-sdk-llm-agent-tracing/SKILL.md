@@ -4,13 +4,14 @@ description: "Logfire is Pydantic’s observability SDK for Python applications,
 verification: "security_reviewed"
 source: "https://github.com/pydantic/logfire"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "pydantic/logfire"
   github_stars: 4154
+  license: "MIT"
 ---
-
 
 # Logfire Python Observability SDK for LLM and Agent Tracing
 

@@ -4,13 +4,13 @@ description: "dotenvx is a secure, cross-platform environment variable manager f
 verification: "listed"
 source: "https://github.com/dotenvx/dotenvx"
 category:
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "dotenvx/dotenvx"
   github_stars: 5309
 ---
-
 
 # dotenvx Secure Environment Variable Manager and Encryptor
 

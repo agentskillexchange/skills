@@ -4,10 +4,10 @@ description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kub
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---
-
 
 # Kubernetes Pod Crash Analyzer
 

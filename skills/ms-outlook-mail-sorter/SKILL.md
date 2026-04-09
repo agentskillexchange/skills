@@ -4,10 +4,10 @@ description: "Automatically triages Microsoft Outlook emails using the Microsoft
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ms-outlook-mail-sorter/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---
-
 
 # Microsoft Outlook Mail Sorter
 

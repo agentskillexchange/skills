@@ -4,13 +4,13 @@ description: "The official AWS Labs MCP server collection provides AI agents wit
 verification: "security_reviewed"
 source: "https://github.com/awslabs/mcp"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "awslabs/mcp"
   github_stars: 8645
 ---
-
 
 # AWS MCP Servers for Cloud Service Integration
 

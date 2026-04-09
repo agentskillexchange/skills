@@ -4,6 +4,7 @@ description: "Builds integration handoffs around n8n primitives like the Webhook
 verification: "security_reviewed"
 source: "https://github.com/n8n-io/n8n"
 category:
+- Integrations &amp; Connectors
 framework:
 - OpenClaw
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "n8n"
   npm_weekly_downloads: 75947
 ---
-
 
 # n8n Workflow Webhook Bridge
 

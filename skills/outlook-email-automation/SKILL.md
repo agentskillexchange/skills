@@ -4,10 +4,10 @@ description: "Authenticates to Microsoft Graph API using MSAL with Mail.ReadWrit
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/outlook-email-automation/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---
-
 
 # Outlook Email Automation
 

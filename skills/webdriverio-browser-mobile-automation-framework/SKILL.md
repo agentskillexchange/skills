@@ -4,6 +4,7 @@ description: "WebdriverIO is a next-generation browser and mobile automation tes
 verification: "security_reviewed"
 source: "https://github.com/webdriverio/webdriverio"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 9762
   npm_package: "webdriverio"
   npm_weekly_downloads: 2428870
+  license: "MIT"
 ---
-
 
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework
 

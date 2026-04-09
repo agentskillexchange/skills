@@ -4,10 +4,10 @@ description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-s
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
 category:
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---
-
 
 # Bubble.io Stripe Subscription Portal Builder
 

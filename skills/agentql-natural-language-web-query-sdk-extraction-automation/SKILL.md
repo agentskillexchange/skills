@@ -4,6 +4,7 @@ description: "AgentQL is TinyFish’s web automation and extraction toolkit that
 verification: "security_reviewed"
 source: "https://github.com/tinyfish-io/agentql"
 category:
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 1311
   npm_package: "agentql"
   npm_weekly_downloads: 953
+  license: "MIT"
 ---
-
 
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 

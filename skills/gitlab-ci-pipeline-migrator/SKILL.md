@@ -4,10 +4,10 @@ description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions work
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-migrator/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # GitLab CI Pipeline Migrator
 

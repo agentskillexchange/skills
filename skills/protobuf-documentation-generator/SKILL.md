@@ -4,10 +4,10 @@ description: "Generates API documentation from Protocol Buffer definitions using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
 category:
+- Library &amp; API Reference
 framework:
 - Gemini
 ---
-
 
 # Protobuf Documentation Generator
 

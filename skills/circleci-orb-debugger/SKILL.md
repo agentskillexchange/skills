@@ -4,10 +4,10 @@ description: "Diagnoses and fixes CircleCI orb configuration errors using the Ci
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-debugger/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Agents
 ---
-
 
 # CircleCI Orb Debugger
 

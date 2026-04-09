@@ -4,10 +4,10 @@ description: "Creates and manages custom Nx workspace generators using @nrwl/dev
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/"
 category:
+- Templates &amp; Workflows
 framework:
 - Cursor
 ---
-
 
 # Nx Workspace Generator Toolkit
 

@@ -4,13 +4,13 @@ description: "tRPC enables developers to build fully typesafe APIs in TypeScript
 verification: "security_reviewed"
 source: "https://github.com/trpc/trpc"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "trpc/trpc"
   github_stars: 39862
 ---
-
 
 # tRPC End-to-End Typesafe API Framework
 

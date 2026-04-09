@@ -4,13 +4,14 @@ description: "htmlq is a command-line tool for extracting content from HTML usin
 verification: "security_reviewed"
 source: "https://github.com/mgdm/htmlq"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "mgdm/htmlq"
   github_stars: 7514
+  license: "MIT"
 ---
-
 
 # htmlq Command-Line HTML Content Extractor with CSS Selectors
 

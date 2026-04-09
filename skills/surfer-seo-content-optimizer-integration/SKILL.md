@@ -4,10 +4,10 @@ description: "Optimizes content against Surfer SEO’s NLP-based recommendations
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/"
 category:
+- Content Writing &amp; SEO
 framework:
 - Cursor
 ---
-
 
 # Surfer SEO Content Optimizer Integration
 

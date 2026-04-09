@@ -4,13 +4,14 @@ description: "Dockge is a self-hosted Docker Compose stack manager with a reacti
 verification: "security_reviewed"
 source: "https://github.com/louislam/dockge"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "louislam/dockge"
   github_stars: 22685
+  license: "MIT"
 ---
-
 
 # Dockge Self-Hosted Docker Compose Stack Manager
 

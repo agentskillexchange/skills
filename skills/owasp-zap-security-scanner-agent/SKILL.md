@@ -4,10 +4,10 @@ description: "Automates OWASP ZAP active and passive scanning against web applic
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
 category:
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---
-
 
 # OWASP ZAP Security Scanner Agent
 

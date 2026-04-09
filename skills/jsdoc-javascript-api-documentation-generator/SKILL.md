@@ -4,6 +4,7 @@ description: "JSDoc is the standard API documentation generator for JavaScript. 
 verification: "security_reviewed"
 source: "https://github.com/jsdoc/jsdoc"
 category:
+- Library &amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "jsdoc"
   npm_weekly_downloads: 2663272
 ---
-
 
 # JSDoc JavaScript API Documentation Generator
 

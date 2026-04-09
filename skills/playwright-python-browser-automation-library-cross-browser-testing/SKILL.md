@@ -4,13 +4,14 @@ description: "Playwright for Python is Microsoft’s cross-browser automation li
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-python"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "microsoft/playwright-python"
   github_stars: 14487
+  license: "Apache-2.0"
 ---
-
 
 # Playwright Python Browser Automation Library for Cross-Browser Testing
 

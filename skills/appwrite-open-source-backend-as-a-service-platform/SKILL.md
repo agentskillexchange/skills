@@ -4,10 +4,10 @@ description: "Appwrite is an open-source, self-hosted backend platform that prov
 verification: "security_reviewed"
 source: "https://github.com/appwrite/appwrite"
 category:
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 ---
-
 
 # Appwrite Open Source Backend as a Service Platform
 

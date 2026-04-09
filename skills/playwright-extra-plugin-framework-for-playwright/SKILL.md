@@ -4,10 +4,10 @@ description: "An ASE skill built around playwright-extra, the plugin framework t
 verification: "listed"
 source: "https://www.npmjs.com/package/playwright-extra"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # playwright-extra Plugin Framework for Playwright
 

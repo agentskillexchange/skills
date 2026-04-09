@@ -4,10 +4,10 @@ description: "Validates and tests Prometheus alerting rules against historical m
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 ---
-
 
 # Prometheus Rule Evaluator
 

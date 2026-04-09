@@ -4,10 +4,10 @@ description: "Manages GPG key lifecycle and file encryption operations using Gnu
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/"
 category:
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---
-
 
 # GPG Encryption and Key Management Agent
 

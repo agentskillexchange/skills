@@ -4,13 +4,14 @@ description: "Manage and tag music libraries with beets, the Python-based CLI to
 verification: "security_reviewed"
 source: "https://github.com/beetbox/beets"
 category:
+- Media &amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "beetbox/beets"
   github_stars: 14901
+  license: "MIT"
 ---
-
 
 # Beets Music Library Manager and Tagger
 

@@ -4,13 +4,13 @@ description: "Extract frames and short clips from videos.\n\nCore Capabilities\n
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
+- Media &amp; Transcription
 framework:
 - OpenClaw
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58637
 ---
-
 
 # Video Frames Extractor
 

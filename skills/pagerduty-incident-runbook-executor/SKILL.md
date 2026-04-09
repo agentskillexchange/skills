@@ -4,10 +4,10 @@ description: "Automatically executes diagnostic runbooks when PagerDuty incident
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---
-
 
 # PagerDuty Incident Runbook Executor
 

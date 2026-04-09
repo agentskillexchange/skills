@@ -4,10 +4,10 @@ description: "Automates diagnosis of CrashLoopBackOff pods using kubectl command
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Agents
 ---
-
 
 # Kubernetes Pod Crashloop Runbook
 

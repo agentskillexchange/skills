@@ -4,10 +4,10 @@ description: "SonarQube Code Analysis is built around SonarQube code quality pla
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-code-analysis/"
 category:
+- Developer Tools
 framework:
 - Claude Code
 ---
-
 
 # SonarQube Code Analysis
 

@@ -4,10 +4,10 @@ description: "Extracts search performance data via the Google Search Console API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
 category:
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 ---
-
 
 # Google Search Console Insights Agent
 

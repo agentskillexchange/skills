@@ -4,13 +4,13 @@ description: "Evidence is an open-source framework for building data products wi
 verification: "security_reviewed"
 source: "https://github.com/evidence-dev/evidence"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "evidence-dev/evidence"
   github_stars: 6116
 ---
-
 
 # Evidence BI-as-Code SQL and Markdown Analytics Framework
 

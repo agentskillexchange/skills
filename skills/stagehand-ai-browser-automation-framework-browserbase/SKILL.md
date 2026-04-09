@@ -4,10 +4,10 @@ description: "Stagehand is Browserbase’s open source browser automation framew
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Stagehand AI Browser Automation Framework by Browserbase
 

@@ -4,13 +4,13 @@ description: "Mautic is the world’s largest open-source marketing automation p
 verification: "security_reviewed"
 source: "https://github.com/mautic/mautic"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "mautic/mautic"
   github_stars: 9387
 ---
-
 
 # Mautic Open Source Marketing Automation Platform
 

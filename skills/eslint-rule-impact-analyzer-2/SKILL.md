@@ -4,10 +4,10 @@ description: "Measures the impact of enabling new ESLint rules across a codebase
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/"
 category:
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---
-
 
 # ESLint Rule Impact Analyzer
 

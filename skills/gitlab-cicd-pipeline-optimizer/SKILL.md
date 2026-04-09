@@ -4,10 +4,10 @@ description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specific
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
 category:
+- CI/CD Integrations
 framework:
 - ChatGPT Agents
 ---
-
 
 # GitLab CI/CD Pipeline Optimizer
 

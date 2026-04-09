@@ -4,10 +4,10 @@ description: "Builds composable image processing pipelines using the Sharp libra
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-transform-pipeline/"
 category:
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 ---
-
 
 # Sharp Image Transform Pipeline
 

@@ -4,10 +4,10 @@ description: "Generates automated incident response runbooks triggered by PagerD
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---
-
 
 # PagerDuty Incident Runbook Engine
 

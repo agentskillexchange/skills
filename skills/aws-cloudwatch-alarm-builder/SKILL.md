@@ -4,10 +4,10 @@ description: "Creates and manages CloudWatch alarms using the AWS SDK for JavaSc
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-builder/"
 category:
+- CI/CD Integrations
 framework:
 - ChatGPT Agents
 ---
-
 
 # AWS CloudWatch Alarm Builder
 

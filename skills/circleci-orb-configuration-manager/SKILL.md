@@ -4,10 +4,10 @@ description: "Manages CircleCI pipeline configurations using orbs like circleci/
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-configuration-manager/"
 category:
+- CI/CD Integrations
 framework:
 - ChatGPT Agents
 ---
-
 
 # CircleCI Orb Configuration Manager
 

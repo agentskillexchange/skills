@@ -4,13 +4,13 @@ description: "Automates migration from ESLint and Prettier to Biome (formerly Ro
 verification: "security_reviewed"
 source: "https://github.com/biomejs/biome"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "biomejs/biome"
   github_stars: 24293
 ---
-
 
 # Biome Lint Migration Toolkit
 

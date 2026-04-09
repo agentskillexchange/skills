@@ -4,10 +4,10 @@ description: "Generates channel summaries using Slack Bolt SDK with conversation
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - MCP
 ---
-
 
 # Slack Channel Summarizer
 

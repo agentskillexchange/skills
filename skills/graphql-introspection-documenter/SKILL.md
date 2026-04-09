@@ -4,10 +4,10 @@ description: "Introspects GraphQL endpoints using the __schema query and generat
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Agents
 ---
-
 
 # GraphQL Introspection Documenter
 

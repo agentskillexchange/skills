@@ -4,13 +4,13 @@ description: "Controls Rive (.riv) interactive animations at runtime using @rive
 verification: "security_reviewed"
 source: "https://github.com/rive-app/rive-react"
 category:
+- Image &amp; Creative Automation
 framework:
 - ChatGPT Agents
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111
 ---
-
 
 # Rive Runtime Animation Controller
 

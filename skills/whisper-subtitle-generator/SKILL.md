@@ -4,10 +4,10 @@ description: "Generates accurate subtitles and captions using OpenAI Whisper API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
 category:
+- Media &amp; Transcription
 framework:
 - Gemini
 ---
-
 
 # Whisper Subtitle Generator
 

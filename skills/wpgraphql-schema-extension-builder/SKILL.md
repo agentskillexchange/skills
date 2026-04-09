@@ -4,13 +4,13 @@ description: "Builds and documents WPGraphQL extensions with hooks such as `grap
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
 category:
+- WordPress &amp; CMS
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3779
 ---
-
 
 # WPGraphQL Schema Extension Builder
 

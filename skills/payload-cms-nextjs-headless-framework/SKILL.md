@@ -4,6 +4,7 @@ description: "Payload is an open-source, TypeScript-first headless CMS that inst
 verification: "security_reviewed"
 source: "https://github.com/payloadcms/payload"
 category:
+- WordPress &amp; CMS
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 41552
   npm_package: "payload"
   npm_weekly_downloads: 313086
+  license: "MIT"
 ---
-
 
 # Payload CMS Next.js-Native Headless CMS and Application Framework
 

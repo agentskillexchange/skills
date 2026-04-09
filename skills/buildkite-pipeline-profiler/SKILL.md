@@ -4,10 +4,10 @@ description: "Profiles Buildkite pipeline performance using the Buildkite REST A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
 category:
+- CI/CD Integrations
 framework:
 - MCP
 ---
-
 
 # Buildkite Pipeline Profiler
 

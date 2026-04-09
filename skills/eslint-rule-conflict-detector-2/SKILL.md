@@ -4,10 +4,10 @@ description: "Analyzes .eslintrc configurations and extended rulesets using the 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/"
 category:
+- Code Quality &amp; Review
 framework:
 - Codex
 ---
-
 
 # ESLint Rule Conflict Detector
 

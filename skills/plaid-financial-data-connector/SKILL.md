@@ -4,10 +4,10 @@ description: "Connects to bank accounts via Plaid Link SDK and retrieves transac
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
 category:
+- Integrations &amp; Connectors
 framework:
 - Gemini
 ---
-
 
 # Plaid Financial Data Connector
 

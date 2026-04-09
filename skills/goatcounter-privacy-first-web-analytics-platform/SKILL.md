@@ -4,10 +4,10 @@ description: "GoatCounter is an open source analytics platform for privacy-frien
 verification: "security_reviewed"
 source: "https://github.com/arp242/goatcounter"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---
-
 
 # GoatCounter Privacy-First Web Analytics Platform
 

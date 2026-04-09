@@ -4,13 +4,13 @@ description: "Separates audio tracks into individual stems (vocals, drums, bass,
 verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
 category:
+- Media &amp; Transcription
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507
 ---
-
 
 # Audio Stem Separator with Demucs
 

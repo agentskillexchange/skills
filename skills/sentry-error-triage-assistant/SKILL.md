@@ -4,10 +4,10 @@ description: "Triages application errors using the Sentry Web API (/api/0/issues
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Agents
 ---
-
 
 # Sentry Error Triage Assistant
 

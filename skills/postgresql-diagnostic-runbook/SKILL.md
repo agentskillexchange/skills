@@ -4,10 +4,10 @@ description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---
-
 
 # PostgreSQL Diagnostic Runbook
 

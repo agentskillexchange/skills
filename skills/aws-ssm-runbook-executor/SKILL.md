@@ -4,10 +4,10 @@ description: "Execute AWS Systems Manager Automation runbooks and Run Command do
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-executor/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Agents
 ---
-
 
 # AWS Systems Manager Runbook
 

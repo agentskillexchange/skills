@@ -4,13 +4,13 @@ description: "Generates Grafana dashboards programmatically using Grafonnet (jso
 verification: "security_reviewed"
 source: "https://github.com/grafana/grafonnet"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 tool_ecosystem:
   github_repo: "grafana/grafonnet"
   github_stars: 528
 ---
-
 
 # Grafana Dashboard as Code Generator
 

@@ -4,10 +4,10 @@ description: "Pod CrashLoop Runbook is built around Kubernetes orchestration pla
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pod-crashloop-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Custom Agents
 ---
-
 
 # Pod CrashLoop Runbook
 

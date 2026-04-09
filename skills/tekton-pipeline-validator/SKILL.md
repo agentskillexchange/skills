@@ -4,10 +4,10 @@ description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipeli
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-validator/"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 ---
-
 
 # Tekton Pipeline Validator
 

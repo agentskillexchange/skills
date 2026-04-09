@@ -4,10 +4,10 @@ description: "Scan codebases for security vulnerabilities and anti-patterns usin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-scanner-2/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Agents
 ---
-
 
 # Semgrep Security Scanner
 

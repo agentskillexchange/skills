@@ -4,10 +4,10 @@ description: "gRPC Service Tool is built around gRPC remote procedure call frame
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grpc-service-tool/"
 category:
+- Library &amp; API Reference
 framework:
 - Custom Agents
 ---
-
 
 # gRPC Service Tool
 

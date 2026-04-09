@@ -4,10 +4,10 @@ description: "Processes audio files from an S3 bucket using Whisper large-v3, sp
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/"
 category:
+- Media &amp; Transcription
 framework:
 - OpenClaw
 ---
-
 
 # OpenAI Whisper Batch Transcription Pipeline
 

@@ -4,10 +4,10 @@ description: "CI Pipeline Generator Skill is built around GitLab DevSecOps platf
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ci-pipeline-generator-skill/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # CI Pipeline Generator Skill
 

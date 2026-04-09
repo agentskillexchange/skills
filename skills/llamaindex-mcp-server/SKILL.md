@@ -4,10 +4,10 @@ description: "LlamaIndex MCP Server is built around LlamaIndex framework for LLM
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/llamaindex-mcp-server/"
 category:
+- Developer Tools
 framework:
 - MCP
 ---
-
 
 # LlamaIndex MCP Server
 

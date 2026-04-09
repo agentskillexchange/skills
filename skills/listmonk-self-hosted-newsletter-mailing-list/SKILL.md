@@ -4,13 +4,13 @@ description: "High-performance, self-hosted newsletter and mailing list manager 
 verification: "security_reviewed"
 source: "https://github.com/knadh/listmonk"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "knadh/listmonk"
   github_stars: 19404
 ---
-
 
 # Listmonk Self-Hosted Newsletter and Mailing List Manager
 

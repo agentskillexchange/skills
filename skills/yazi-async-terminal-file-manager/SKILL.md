@@ -4,13 +4,13 @@ description: "Yazi is a blazing-fast terminal file manager written in Rust with 
 verification: "security_reviewed"
 source: "https://github.com/sxyazi/yazi"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "sxyazi/yazi"
   github_stars: 35770
 ---
-
 
 # Yazi Async Terminal File Manager
 

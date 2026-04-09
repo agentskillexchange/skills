@@ -4,10 +4,10 @@ description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipe
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
 category:
+- CI/CD Integrations
 framework:
 - Cursor
 ---
-
 
 # Jenkins Pipeline Linter & Fixer
 

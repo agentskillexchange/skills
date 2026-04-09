@@ -4,10 +4,10 @@ description: "Programmatically generates Grafana dashboards from service definit
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---
-
 
 # Grafana Dashboard Generator
 

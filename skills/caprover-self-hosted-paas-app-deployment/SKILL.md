@@ -4,6 +4,7 @@ description: "CapRover is a self-hosted Platform-as-a-Service that automates Doc
 verification: "security_reviewed"
 source: "https://github.com/caprover/caprover"
 category:
+- CI/CD Integrations
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "caprover"
   npm_weekly_downloads: 8776
 ---
-
 
 # CapRover Self-Hosted PaaS for App Deployment and Server Management
 

@@ -4,13 +4,13 @@ description: "xsv is a fast CSV command-line toolkit written in Rust by Andrew G
 verification: "security_reviewed"
 source: "https://github.com/BurntSushi/xsv"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "BurntSushi/xsv"
   github_stars: 10758
 ---
-
 
 # xsv High-Performance CSV Toolkit
 

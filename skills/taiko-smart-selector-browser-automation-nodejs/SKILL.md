@@ -4,10 +4,10 @@ description: "Taiko is a Node.js browser automation framework from the Gauge and
 verification: "security_reviewed"
 source: "https://github.com/getgauge/taiko"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Taiko Smart-Selector Browser Automation for Node.js
 

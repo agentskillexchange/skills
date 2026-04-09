@@ -4,13 +4,13 @@ description: "Generates Jenkins Declarative Pipelines using the Pipeline Model D
 verification: "security_reviewed"
 source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 tool_ecosystem:
   github_repo: "jenkinsci/pipeline-model-definition-plugin"
   github_stars: 564
 ---
-
 
 # Jenkins Declarative Pipeline Generator
 

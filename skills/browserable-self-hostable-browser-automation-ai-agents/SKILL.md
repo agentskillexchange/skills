@@ -4,6 +4,7 @@ description: "Browserable is an open-source, self-hostable browser automation li
 verification: "security_reviewed"
 source: "https://github.com/browserable/browserable"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 1177
   npm_package: "browserable"
   npm_weekly_downloads: 21
+  license: "MIT"
 ---
-
 
 # Browserable Self-Hostable Browser Automation for AI Agents
 

@@ -4,10 +4,10 @@ description: "Bidirectionally syncs Notion databases with external tools via the
 verification: "security_reviewed"
 source: "https://developers.notion.com/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Gemini
 ---
-
 
 # Notion Workspace Sync Engine
 

@@ -4,10 +4,10 @@ description: "Tracks and enforces code coverage using Codecov API, lcov, and Ist
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
 category:
+- Code Quality &amp; Review
 framework:
 - MCP
 ---
-
 
 # Codecov Coverage Tracker Agent
 

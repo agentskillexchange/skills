@@ -4,10 +4,10 @@ description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-declarative-generator/"
 category:
+- CI/CD Integrations
 framework:
 - Custom Agents
 ---
-
 
 # Jenkins Pipeline Declarative Generator
 

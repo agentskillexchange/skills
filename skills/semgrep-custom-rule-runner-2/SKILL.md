@@ -4,10 +4,10 @@ description: "Executes Semgrep OSS with custom YAML rule files for project-speci
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
 category:
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---
-
 
 # Semgrep Custom Rule Runner
 

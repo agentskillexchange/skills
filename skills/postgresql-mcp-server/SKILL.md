@@ -4,6 +4,7 @@ description: "Agent access to PostgreSQL data and queries through MCP."
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 - Cursor
@@ -13,7 +14,6 @@ tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
   github_stars: 83288
 ---
-
 
 # PostgreSQL MCP Server
 

@@ -4,10 +4,10 @@ description: "semantic-release automates version calculation, changelog generati
 verification: "security_reviewed"
 source: "https://github.com/semantic-release/semantic-release"
 category:
+- CI/CD Integrations
 framework:
 - Multi-Framework
 ---
-
 
 # semantic-release Automated Versioning and Release Publishing
 

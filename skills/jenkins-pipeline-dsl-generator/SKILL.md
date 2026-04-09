@@ -4,10 +4,10 @@ description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # Jenkins Pipeline DSL Generator
 

@@ -4,10 +4,10 @@ description: "Leverages the Semgrep OSS engine and semgrep-rules registry to per
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-auditor/"
 category:
+- Code Quality &amp; Review
 framework:
 - OpenClaw
 ---
-
 
 # Semgrep Pattern Matching Auditor
 

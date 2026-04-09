@@ -4,13 +4,13 @@ description: "Wish is a Go library for building SSH-accessible applications with
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/wish"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
   github_stars: 5110
 ---
-
 
 # Wish SSH Application Framework by Charmbracelet
 

@@ -4,10 +4,10 @@ description: "Automates Notion database workflows using the Notion API databases
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---
-
 
 # Notion Task Board Automation
 

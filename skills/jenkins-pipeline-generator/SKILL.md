@@ -4,10 +4,10 @@ description: "Generates declarative Jenkins pipeline scripts using the Jenkins P
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-generator/"
 category:
+- CI/CD Integrations
 framework:
 - Custom Agents
 ---
-
 
 # Jenkins Pipeline Generator
 

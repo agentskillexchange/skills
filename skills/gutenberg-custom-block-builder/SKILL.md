@@ -4,10 +4,10 @@ description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/crea
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
 category:
+- WordPress &amp; CMS
 framework:
 - ChatGPT Agents
 ---
-
 
 # Gutenberg Custom Block Builder
 

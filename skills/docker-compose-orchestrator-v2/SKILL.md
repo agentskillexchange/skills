@@ -4,10 +4,10 @@ description: "Manages multi-service Docker Compose environments using the Compos
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
 category:
+- Developer Tools
 framework:
 - OpenClaw
 ---
-
 
 # Docker Compose Orchestrator
 

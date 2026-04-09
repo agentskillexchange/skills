@@ -4,10 +4,10 @@ description: "Manages Scrapy spider deployments via Scrapyd API with custom item
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-manager/"
 category:
+- Research &amp; Scraping
 framework:
 - Claude Code
 ---
-
 
 # Scrapy Pipeline Manager
 

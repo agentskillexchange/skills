@@ -4,10 +4,10 @@ description: "Prometheus Alerting Rules is built around Prometheus metrics and a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alerting-rules/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---
-
 
 # Prometheus Alerting Rules
 

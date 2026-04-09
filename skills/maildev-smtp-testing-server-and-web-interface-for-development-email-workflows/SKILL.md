@@ -4,13 +4,13 @@ description: "MailDev is a local SMTP server with a browser UI for viewing test 
 verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5863
 ---
-
 
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows
 

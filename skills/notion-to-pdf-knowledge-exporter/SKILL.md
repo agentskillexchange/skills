@@ -4,10 +4,10 @@ description: "Queries Notion databases and pages via the Notion API v1, then ren
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/"
 category:
+- Templates &amp; Workflows
 framework:
 - Codex
 ---
-
 
 # Notion to PDF Knowledge Exporter
 

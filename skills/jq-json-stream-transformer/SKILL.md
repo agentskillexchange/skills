@@ -4,10 +4,10 @@ description: "Constructs complex jq filter expressions for transforming JSON/NDJ
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---
-
 
 # jq JSON Stream Transformer
 

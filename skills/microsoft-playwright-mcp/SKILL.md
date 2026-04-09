@@ -4,10 +4,10 @@ description: "Microsoft Playwright MCP exposes Playwright browser automation thr
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 category:
+- Browser Automation
 framework:
 - MCP
 ---
-
 
 # Microsoft Playwright MCP
 

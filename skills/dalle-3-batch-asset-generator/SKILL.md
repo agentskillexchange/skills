@@ -4,10 +4,10 @@ description: "Generates multiple image variations from a single brief using the 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/"
 category:
+- Image &amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---
-
 
 # DALL-E 3 Batch Asset Generator
 

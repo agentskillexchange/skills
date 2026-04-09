@@ -4,13 +4,14 @@ description: "Fabric is an open-source framework for augmenting humans using AI.
 verification: "security_reviewed"
 source: "https://github.com/danielmiessler/fabric"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "danielmiessler/fabric"
   github_stars: 40278
+  license: "MIT"
 ---
-
 
 # Fabric AI Prompt Pattern Framework
 

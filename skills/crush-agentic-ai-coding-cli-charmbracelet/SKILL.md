@@ -4,13 +4,13 @@ description: "Crush is a terminal-native AI coding agent built by Charmbracelet 
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/crush"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "charmbracelet/crush"
   github_stars: 22213
 ---
-
 
 # Crush Agentic AI Coding CLI by Charmbracelet
 

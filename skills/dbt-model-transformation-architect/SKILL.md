@@ -4,10 +4,10 @@ description: "Generates and validates dbt (data build tool) models, tests, and d
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-transformation-architect/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---
-
 
 # dbt Model Transformation Architect
 

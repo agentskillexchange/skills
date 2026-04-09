@@ -4,10 +4,10 @@ description: "Listens to Discord gateway events, passing flagged messages to the
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/discord-moderation-ai-classification/"
 category:
+- Security &amp; Verification
 framework:
 - Cursor
 ---
-
 
 # Discord Moderation Bot with AI Classification
 

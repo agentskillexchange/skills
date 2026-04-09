@@ -4,10 +4,10 @@ description: "Builds composable image transformation pipelines using the Sharp l
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Claude Code
 ---
-
 
 # Sharp Image Pipeline Processor
 

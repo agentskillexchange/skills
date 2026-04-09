@@ -4,10 +4,10 @@ description: "Audits CircleCI orb versions and configurations using the CircleCI
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
 category:
+- CI/CD Integrations
 framework:
 - Cursor
 ---
-
 
 # CircleCI Orb Auditor
 

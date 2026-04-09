@@ -4,10 +4,10 @@ description: "Lints Jenkins Declarative and Scripted pipeline syntax using the J
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/"
 category:
+- CI/CD Integrations
 framework:
 - Codex
 ---
-
 
 # Jenkins Pipeline Shared Library Linter
 

@@ -4,6 +4,7 @@ description: "Use Changesets to manage package versioning and changelogs in mono
 verification: "security_reviewed"
 source: "https://github.com/changesets/changesets"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "@changesets/cli"
   npm_weekly_downloads: 2332817
 ---
-
 
 # Changesets Version and Changelog Manager
 

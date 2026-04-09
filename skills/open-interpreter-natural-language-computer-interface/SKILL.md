@@ -4,13 +4,14 @@ description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, S
 verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934
+  license: "AGPL-3.0"
 ---
-
 
 # Open Interpreter Natural Language Computer Interface
 

@@ -4,10 +4,10 @@ description: "Runs automated diagnostic sequences on Kubernetes pods using kubec
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---
-
 
 # Kubernetes Pod Diagnostics Runner
 

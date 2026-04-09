@@ -4,10 +4,10 @@ description: "OWASP ZAP Scanner is built around OWASP security tooling ecosystem
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-scanner/"
 category:
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---
-
 
 # OWASP ZAP Scanner
 

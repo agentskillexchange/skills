@@ -4,10 +4,10 @@ description: "Synchronizes Grafana dashboards between instances using the Grafan
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Gemini
 ---
-
 
 # Grafana Dashboard Sync Agent
 

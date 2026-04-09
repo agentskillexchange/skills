@@ -4,13 +4,13 @@ description: "Harper is an offline, privacy-first grammar checker written in Rus
 verification: "security_reviewed"
 source: "https://github.com/Automattic/harper"
 category:
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "Automattic/harper"
   github_stars: 10182
 ---
-
 
 # Harper Offline Privacy-First Grammar Checker by Automattic
 

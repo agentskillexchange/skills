@@ -4,10 +4,10 @@ description: "Connects to Jasper’s /v1/content/generate REST endpoint to produ
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 category:
+- Content Writing &amp; SEO
 framework:
 - OpenClaw
 ---
-
 
 # Jasper AI Long-Form Blog Post Generator
 

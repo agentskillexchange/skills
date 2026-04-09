@@ -4,10 +4,10 @@ description: "Builds and manages Scrapy web scraping spiders with custom item pi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---
-
 
 # Scrapy Spider Data Pipeline
 

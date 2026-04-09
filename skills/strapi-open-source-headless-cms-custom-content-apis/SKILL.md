@@ -4,10 +4,10 @@ description: "Strapi is a JavaScript and TypeScript headless CMS that helps team
 verification: "security_reviewed"
 source: "https://github.com/strapi/strapi"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # Strapi Open Source Headless CMS for Custom Content APIs
 

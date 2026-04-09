@@ -4,10 +4,10 @@ description: "Extracts structured text from scanned documents and images using T
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---
-
 
 # Tesseract OCR Document Extractor
 

@@ -4,6 +4,7 @@ description: "BackstopJS gives agents a repeatable way to capture reference scre
 verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "backstopjs"
   npm_weekly_downloads: 59203
 ---
-
 
 # BackstopJS Visual Regression Testing Automation
 

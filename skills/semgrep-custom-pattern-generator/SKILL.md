@@ -4,10 +4,10 @@ description: "Generates Semgrep SAST rules from vulnerability descriptions using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/"
 category:
+- Code Quality &amp; Review
 framework:
 - MCP
 ---
-
 
 # Semgrep Custom Pattern Generator
 

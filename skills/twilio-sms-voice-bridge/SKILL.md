@@ -4,10 +4,10 @@ description: "Connects to Twilio REST API via the twilio-node SDK for programmab
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-sms-voice-bridge/"
 category:
+- Integrations &amp; Connectors
 framework:
 - OpenClaw
 ---
-
 
 # Twilio SMS & Voice Bridge
 

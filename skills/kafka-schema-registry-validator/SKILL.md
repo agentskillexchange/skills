@@ -4,10 +4,10 @@ description: "Validates Avro, Protobuf, and JSON Schema compatibility against Co
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---
-
 
 # Apache Kafka Schema Registry Validator
 

@@ -4,11 +4,11 @@ description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
 category:
+- Research &amp; Scraping
 framework:
 - Claude Code
 - Multi-Framework
 ---
-
 
 # SEC EDGAR Filing Scraper & Analyzer
 

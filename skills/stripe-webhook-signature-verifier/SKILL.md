@@ -4,10 +4,10 @@ description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
 category:
+- Security &amp; Verification
 framework:
 - ChatGPT Agents
 ---
-
 
 # Stripe Webhook Signature Verifier
 

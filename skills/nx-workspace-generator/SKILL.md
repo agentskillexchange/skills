@@ -4,10 +4,10 @@ description: "Creates and manages Nx monorepo workspace generators using @nx/dev
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
 category:
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---
-
 
 # Nx Workspace Generator
 

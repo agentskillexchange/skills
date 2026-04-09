@@ -4,10 +4,10 @@ description: "Chrome MCP Server uses a Chrome extension and local bridge to expo
 verification: "security_reviewed"
 source: "https://github.com/hangwin/mcp-chrome"
 category:
+- Browser Automation
 framework:
 - MCP
 ---
-
 
 # Chrome MCP Server Extension-Based Browser Automation for AI Agents
 

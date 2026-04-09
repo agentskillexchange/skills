@@ -4,13 +4,13 @@ description: "PM2 is a production-grade process manager for Node.js and Bun appl
 verification: "security_reviewed"
 source: "https://github.com/Unitech/pm2"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "Unitech/pm2"
   github_stars: 43034
 ---
-
 
 # PM2 Node.js Production Process Manager with Load Balancing
 

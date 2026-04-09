@@ -4,10 +4,10 @@ description: "Cron Job Manager is built around Amazon Web Services cloud APIs. T
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cron-job-manager/"
 category:
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---
-
 
 # Cron Job Manager
 

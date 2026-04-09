@@ -4,10 +4,10 @@ description: "Designs OpenTelemetry Collector pipeline configurations with recei
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---
-
 
 # OpenTelemetry Collector Pipeline Designer
 

@@ -4,10 +4,10 @@ description: "ApostropheCMS is a full-stack Node.js CMS that combines in-context
 verification: "security_reviewed"
 source: "https://github.com/apostrophecms/apostrophe"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # ApostropheCMS Full-Stack Node.js CMS with In-Context Editing
 

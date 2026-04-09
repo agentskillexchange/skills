@@ -4,10 +4,10 @@ description: "Devcontainer Setup Agent is built around Docker container platform
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-setup-agent/"
 category:
+- Developer Tools
 framework:
 - Claude Code
 ---
-
 
 # Devcontainer Setup Agent
 

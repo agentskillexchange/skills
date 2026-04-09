@@ -4,11 +4,11 @@ description: "Executes structured incident response playbooks using PagerDuty Ev
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-playbook-runner/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 - Multi-Framework
 ---
-
 
 # Incident Response Playbook Runner
 

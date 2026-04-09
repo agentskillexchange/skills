@@ -4,10 +4,10 @@ description: "Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, 
 verification: "security_reviewed"
 source: "https://github.com/louislam/uptime-kuma"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---
-
 
 # Uptime Kuma Self-Hosted Uptime Monitoring Platform
 

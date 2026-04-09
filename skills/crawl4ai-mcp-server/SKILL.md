@@ -4,13 +4,13 @@ description: "Self-hosted web crawling and content extraction exposed as MCP too
 verification: "security_reviewed"
 source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "sadiuysal/crawl4ai-mcp-server"
   github_stars: 72
 ---
-
 
 # Crawl4AI MCP Server
 

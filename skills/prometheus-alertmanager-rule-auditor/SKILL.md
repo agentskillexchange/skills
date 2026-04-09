@@ -4,13 +4,13 @@ description: "Validates Prometheus recording and alerting rules using promtool c
 verification: "security_reviewed"
 source: "https://github.com/prometheus/alertmanager"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Gemini
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8403
 ---
-
 
 # Prometheus Alertmanager Rule Auditor
 

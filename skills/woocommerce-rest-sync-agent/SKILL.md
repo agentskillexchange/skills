@@ -4,10 +4,10 @@ description: "Synchronizes WooCommerce product data bidirectionally using the WC
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
 category:
+- WordPress &amp; CMS
 framework:
 - Codex
 ---
-
 
 # WooCommerce REST Sync Agent
 

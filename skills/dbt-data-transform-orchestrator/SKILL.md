@@ -4,10 +4,10 @@ description: "Integrates with dbt Cloud Administrative API v2 to trigger and mon
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---
-
 
 # dbt Data Transform Orchestrator
 

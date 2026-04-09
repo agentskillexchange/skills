@@ -4,10 +4,10 @@ description: "Executes ComfyUI workflow JSON files against a local or remote Com
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/"
 category:
+- Image &amp; Creative Automation
 framework:
 - MCP
 ---
-
 
 # Stable Diffusion ComfyUI Workflow Runner
 

@@ -4,10 +4,10 @@ description: "GitHub Copilot is an AI pair programmer providing real-time code s
 verification: "listed"
 source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # GitHub Copilot — AI-Powered Code Completion and Chat Assistant
 

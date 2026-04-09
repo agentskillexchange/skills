@@ -4,6 +4,7 @@ description: "An agent skill built on schema-dts by Google, which provides compl
 verification: "security_reviewed"
 source: "https://github.com/google/schema-dts"
 category:
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "schema-dts"
   npm_weekly_downloads: 1411438
 ---
-
 
 # schema-dts TypeScript Types for Schema.org Structured Data
 

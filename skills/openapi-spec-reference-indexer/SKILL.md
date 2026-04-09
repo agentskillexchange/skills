@@ -4,10 +4,10 @@ description: "Indexes and cross-references OpenAPI 3.x specifications using swag
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-reference-indexer/"
 category:
+- Library &amp; API Reference
 framework:
 - MCP
 ---
-
 
 # OpenAPI Spec Reference Indexer
 

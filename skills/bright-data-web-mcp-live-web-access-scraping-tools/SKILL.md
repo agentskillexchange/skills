@@ -4,14 +4,13 @@ description: "Bright Data Web MCP gives MCP-compatible agents live web search, s
 verification: "security_reviewed"
 source: "https://github.com/browserbase/mcp-server-browserbase"
 category:
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3234
-  npm_package: "@browserbasehq/mcp"
 ---
-
 
 # Bright Data Web MCP Live Web Access and Scraping Tools
 

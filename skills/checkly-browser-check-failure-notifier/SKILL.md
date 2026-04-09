@@ -4,13 +4,13 @@ description: "Monitors Checkly browser checks via the Checkly Management API and
 verification: "security_reviewed"
 source: "https://github.com/checkly/checkly-cli"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
 ---
-
 
 # Checkly Browser Check Failure Notifier
 

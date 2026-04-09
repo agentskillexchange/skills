@@ -4,13 +4,13 @@ description: "Coolify is an open source self-hosted deployment platform for appl
 verification: "security_reviewed"
 source: "https://github.com/coollabsio/coolify"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "coollabsio/coolify"
   github_stars: 52773
 ---
-
 
 # Coolify Self-Hosted App Platform and Deployment Automation Skill
 

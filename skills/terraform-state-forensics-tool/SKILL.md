@@ -4,10 +4,10 @@ description: "Analyzes Terraform state files and plan outputs to detect drift, o
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---
-
 
 # Terraform State Forensics Tool
 

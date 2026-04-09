@@ -4,10 +4,10 @@ description: "Monitors Datadog metric streams using the Datadog API v2 and appli
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---
-
 
 # Datadog Anomaly Detection Agent
 

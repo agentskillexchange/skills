@@ -4,10 +4,10 @@ description: "Automates headless PDF generation from web pages using the Playwri
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-pdf-export-automation/"
 category:
+- Browser Automation
 framework:
 - Claude Code
 ---
-
 
 # Playwright PDF Export Automation
 

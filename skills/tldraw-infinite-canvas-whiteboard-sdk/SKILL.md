@@ -4,6 +4,7 @@ description: "tldraw is a feature-complete infinite canvas engine and whiteboard
 verification: "security_reviewed"
 source: "https://github.com/tldraw/tldraw"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "tldraw"
   npm_weekly_downloads: 156588
 ---
-
 
 # tldraw Infinite Canvas Whiteboard SDK for React
 

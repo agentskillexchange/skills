@@ -4,10 +4,10 @@ description: "Packer Image Builder is built around Docker container platform. Th
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/packer-image-builder/"
 category:
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---
-
 
 # Packer Image Builder
 

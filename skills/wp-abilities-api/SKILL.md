@@ -4,10 +4,10 @@ description: "Specialized support for defining, exposing, and debugging WordPres
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-abilities-api/"
 category:
+- WordPress &amp; CMS
 framework:
 - Custom Agents
 ---
-
 
 # WP Abilities API
 

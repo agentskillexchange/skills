@@ -4,6 +4,7 @@ description: "PagerDuty MCP Server is built around PagerDuty incident response p
 verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "@pagerduty/pdjs"
   npm_weekly_downloads: 206762
 ---
-
 
 # PagerDuty MCP Server
 

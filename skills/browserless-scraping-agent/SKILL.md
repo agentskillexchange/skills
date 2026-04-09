@@ -4,10 +4,10 @@ description: "Drives headless Chrome via the Browserless.io API for scraping dyn
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
 category:
+- Research &amp; Scraping
 framework:
 - Cursor
 ---
-
 
 # Browserless Scraping Agent
 

@@ -4,10 +4,10 @@ description: "Scans Node.js projects for vulnerable dependencies using npm audit
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-scanner/"
 category:
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---
-
 
 # npm Dependency Audit Scanner
 

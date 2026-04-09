@@ -4,10 +4,10 @@ description: "Runs automated DAST scans against REST and GraphQL APIs using OWAS
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
 category:
+- Security &amp; Verification
 framework:
 - Codex
 ---
-
 
 # OWASP ZAP API Security Tester
 

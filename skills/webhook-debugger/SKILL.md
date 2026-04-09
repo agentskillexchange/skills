@@ -4,10 +4,10 @@ description: "Webhook Debugger is built around Stripe payments platform. The und
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/webhook-debugger/"
 category:
+- Developer Tools
 framework:
 - Claude Agents
 ---
-
 
 # Webhook Debugger
 

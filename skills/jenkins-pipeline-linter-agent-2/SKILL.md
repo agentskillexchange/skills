@@ -4,10 +4,10 @@ description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter RES
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
 category:
+- CI/CD Integrations
 framework:
 - OpenClaw
 ---
-
 
 # Jenkins Pipeline Linter Agent
 

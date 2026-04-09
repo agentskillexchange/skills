@@ -4,10 +4,10 @@ description: "Generates Playwright test suites from natural language description
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
 category:
+- Developer Tools
 framework:
 - Claude Code
 ---
-
 
 # Playwright E2E Test Generator
 

@@ -4,6 +4,7 @@ description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-saf
 verification: "security_reviewed"
 source: "https://github.com/drizzle-team/drizzle-orm"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 33566
   npm_package: "drizzle-orm"
   npm_weekly_downloads: 6668107
+  license: "Apache-2.0"
 ---
-
 
 # Drizzle ORM TypeScript SQL Database Toolkit
 

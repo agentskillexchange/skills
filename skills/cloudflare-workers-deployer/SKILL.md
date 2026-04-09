@@ -4,10 +4,10 @@ description: "Cloudflare Workers Deployer is built around Cloudflare developer p
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudflare-workers-deployer/"
 category:
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---
-
 
 # Cloudflare Workers Deployer
 

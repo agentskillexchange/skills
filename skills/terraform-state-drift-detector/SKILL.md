@@ -4,10 +4,10 @@ description: "Detects infrastructure drift by running terraform plan -detailed-e
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---
-
 
 # Terraform State Drift Detector
 

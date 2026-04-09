@@ -4,10 +4,10 @@ description: "Validates OpenAPI 3.x specifications using the swagger-parser libr
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # OpenAPI Spec Validator & Mock Server
 

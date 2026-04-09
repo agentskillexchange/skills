@@ -4,13 +4,13 @@ description: "Langfuse Prompt Management MCP Server connects MCP clients to Lang
 verification: "security_reviewed"
 source: "https://github.com/langfuse/mcp-server-langfuse"
 category:
+- Templates &amp; Workflows
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "langfuse/mcp-server-langfuse"
   github_stars: 159
 ---
-
 
 # Langfuse Prompt Management MCP Server
 

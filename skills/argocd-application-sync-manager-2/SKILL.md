@@ -4,10 +4,10 @@ description: "Manages ArgoCD application synchronization using the ArgoCD REST A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
 category:
+- CI/CD Integrations
 framework:
 - Gemini
 ---
-
 
 # ArgoCD Application Sync Manager
 

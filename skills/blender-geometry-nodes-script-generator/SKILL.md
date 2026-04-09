@@ -4,10 +4,10 @@ description: "Generates Blender Python (bpy) scripts that programmatically creat
 verification: "security_reviewed"
 source: "https://www.blender.org/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---
-
 
 # Blender Geometry Nodes Script Generator
 

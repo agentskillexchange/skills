@@ -4,6 +4,7 @@ description: "Repomix packs an entire code repository into a single AI-friendly 
 verification: "security_reviewed"
 source: "https://github.com/yamadashy/repomix"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "repomix"
   npm_weekly_downloads: 53411
 ---
-
 
 # Repomix Codebase Context Packer for LLMs
 

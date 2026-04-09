@@ -4,10 +4,10 @@ description: "Contact Form 7 is the long-running WordPress forms plugin from Roc
 verification: "security_reviewed"
 source: "https://wordpress.org/plugins/contact-form-7/"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # Contact Form 7 WordPress Form Builder and Mail Integration
 

@@ -4,10 +4,10 @@ description: "Provides deep dependency analysis using npm audit, socket.dev API 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # NPM Package Audit Reference
 

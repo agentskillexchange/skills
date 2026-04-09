@@ -4,13 +4,13 @@ description: "An official MCP server from Upstash that lets AI agents manage Red
 verification: "security_reviewed"
 source: "https://github.com/upstash/mcp-server"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52
 ---
-
 
 # Upstash MCP Server for Redis and QStash Management
 

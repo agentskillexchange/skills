@@ -4,10 +4,10 @@ description: "Coordinates meeting suggestions with the Google Calendar `freeBusy
 verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---
-
 
 # Google Calendar FreeBusy Scheduler Bridge
 

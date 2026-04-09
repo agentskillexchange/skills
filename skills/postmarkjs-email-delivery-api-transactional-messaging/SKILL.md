@@ -4,10 +4,10 @@ description: "postmark.js is the official Node.js library for the Postmark API, 
 verification: "security_reviewed"
 source: "https://github.com/ActiveCampaign/postmark.js"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---
-
 
 # Postmark.js Email Delivery API for Transactional Messaging
 

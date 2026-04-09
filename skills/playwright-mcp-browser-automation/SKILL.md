@@ -4,6 +4,7 @@ description: "Official Playwright-powered browser control for agent workflows."
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 category:
+- Browser Automation
 framework:
 - Claude Code
 - Cursor
@@ -15,7 +16,6 @@ tool_ecosystem:
   npm_package: "@playwright/mcp"
   npm_weekly_downloads: 3140002
 ---
-
 
 # Playwright MCP Browser Automation
 

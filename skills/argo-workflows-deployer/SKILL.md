@@ -4,10 +4,10 @@ description: "Orchestrates deployment pipelines using the Argo Workflows Engine 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-deployer/"
 category:
+- CI/CD Integrations
 framework:
 - Gemini
 ---
-
 
 # Argo Workflows Deployer
 

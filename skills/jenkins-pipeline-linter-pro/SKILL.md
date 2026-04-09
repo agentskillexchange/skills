@@ -4,10 +4,10 @@ description: "Validates Jenkinsfile syntax and best practices using the Jenkins 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/"
 category:
+- CI/CD Integrations
 framework:
 - ChatGPT Agents
 ---
-
 
 # Jenkins Pipeline Linter Pro
 

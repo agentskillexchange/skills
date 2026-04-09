@@ -4,13 +4,13 @@ description: "Generates optimized GitHub Actions workflow matrices using the act
 verification: "security_reviewed"
 source: "https://github.com/actions/setup-node"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "actions/setup-node"
   github_stars: 4738
 ---
-
 
 # GitHub Actions Matrix Strategy Builder
 

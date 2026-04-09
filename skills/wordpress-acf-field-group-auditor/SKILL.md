@@ -4,10 +4,10 @@ description: "Fetches all Advanced Custom Fields field groups and their field de
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-acf-field-group-auditor/"
 category:
+- WordPress &amp; CMS
 framework:
 - OpenClaw
 ---
-
 
 # WordPress ACF Field Group Auditor
 

@@ -4,10 +4,10 @@ description: "Validates and transforms Pandas DataFrames using Pandera schema de
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---
-
 
 # Pandas DataFrame Schema Enforcer
 

@@ -4,10 +4,10 @@ description: "Batch image processing using ImageMagick’s convert and mogrify c
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imagemagick-batch-processor/"
 category:
+- Image &amp; Creative Automation
 framework:
 - MCP
 ---
-
 
 # ImageMagick Batch Processor
 

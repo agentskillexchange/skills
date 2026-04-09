@@ -4,10 +4,10 @@ description: "Comprehensive REST API testing reference using Postman Collection 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
 category:
+- Library &amp; API Reference
 framework:
 - Cursor
 ---
-
 
 # REST API Testing Reference Kit
 

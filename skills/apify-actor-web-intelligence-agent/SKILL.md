@@ -4,10 +4,10 @@ description: "Deploys intelligent web scraping actors on the Apify platform usin
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---
-
 
 # Apify Actor Web Intelligence Agent
 

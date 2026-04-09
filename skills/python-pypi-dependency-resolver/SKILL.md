@@ -4,10 +4,10 @@ description: "Resolves Python package dependencies using the PyPI JSON API and p
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-dependency-resolver/"
 category:
+- Library &amp; API Reference
 framework:
 - MCP
 ---
-
 
 # Python PyPI Dependency Resolver
 

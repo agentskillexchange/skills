@@ -4,13 +4,13 @@ description: "Scrapling is an adaptive Python web scraping framework that automa
 verification: "security_reviewed"
 source: "https://github.com/D4Vinci/Scrapling"
 category:
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "D4Vinci/Scrapling"
   github_stars: 34148
 ---
-
 
 # Scrapling Adaptive Web Scraping Framework
 

@@ -4,10 +4,10 @@ description: "Builds structured research datasets by querying SerpAPI Google Sea
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
 category:
+- Research &amp; Scraping
 framework:
 - Codex
 ---
-
 
 # SerpAPI Research Pipeline
 

@@ -4,6 +4,7 @@ description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaS
 verification: "security_reviewed"
 source: "https://github.com/vercel/turborepo"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "turbo"
   npm_weekly_downloads: 11046834
 ---
-
 
 # Turborepo Monorepo Build System
 

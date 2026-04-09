@@ -4,10 +4,10 @@ description: "Moonshine Voice is a fast on-device speech recognition library for
 verification: "security_reviewed"
 source: "https://github.com/moonshine-ai/moonshine"
 category:
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 ---
-
 
 # Moonshine Voice On-Device Speech Recognition and Voice Commands
 

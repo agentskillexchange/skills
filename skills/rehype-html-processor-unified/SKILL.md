@@ -4,10 +4,10 @@ description: "rehype is a plugin-based HTML processing toolkit built on the unif
 verification: "security_reviewed"
 source: "https://github.com/rehypejs/rehype"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---
-
 
 # rehype Plugin-Based HTML Processor by the Unified Collective
 

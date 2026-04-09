@@ -4,10 +4,10 @@ description: "Monitors internet-facing assets using Censys Search API v2 for hos
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---
-
 
 # Censys Attack Surface Monitor
 

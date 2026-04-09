@@ -4,10 +4,10 @@ description: "NocoBase is the most extensible open-source no-code/low-code platf
 verification: "security_reviewed"
 source: "https://github.com/nocobase/nocobase"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
 

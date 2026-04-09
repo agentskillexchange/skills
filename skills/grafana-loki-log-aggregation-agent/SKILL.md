@@ -4,10 +4,10 @@ description: "Configures Grafana Loki log pipelines with Promtail collectors and
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Gemini
 ---
-
 
 # Grafana Loki Log Aggregation Agent
 

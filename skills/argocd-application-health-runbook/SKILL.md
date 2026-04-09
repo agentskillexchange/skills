@@ -4,10 +4,10 @@ description: "Diagnoses ArgoCD application sync failures and degraded states usi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-health-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---
-
 
 # ArgoCD Application Health Runbook
 

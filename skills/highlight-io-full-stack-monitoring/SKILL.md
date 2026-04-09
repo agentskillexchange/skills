@@ -4,10 +4,10 @@ description: "Highlight.io is an open-source full-stack monitoring platform comb
 verification: "security_reviewed"
 source: "https://github.com/highlight/highlight"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Custom Agents
 ---
-
 
 # Highlight.io Open Source Full-Stack Monitoring Platform
 

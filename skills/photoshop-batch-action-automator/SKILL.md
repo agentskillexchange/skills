@@ -4,10 +4,10 @@ description: "Automates Adobe Photoshop batch processing via the UXP Scripting A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---
-
 
 # Photoshop Batch Action Automator
 

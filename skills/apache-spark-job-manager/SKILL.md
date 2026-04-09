@@ -4,10 +4,10 @@ description: "Apache Spark Job Manager is built around Apache Spark distributed 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---
-
 
 # Apache Spark Job Manager
 

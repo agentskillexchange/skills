@@ -4,10 +4,10 @@ description: "Creates custom Semgrep SAST rules using the semgrep CLI and rule s
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/"
 category:
+- Code Quality &amp; Review
 framework:
 - MCP
 ---
-
 
 # Semgrep Custom Rule Builder
 

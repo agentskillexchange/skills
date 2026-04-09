@@ -4,10 +4,10 @@ description: "Dokku is a self-hosted Platform-as-a-Service built on Docker that 
 verification: "security_reviewed"
 source: "https://github.com/dokku/dokku"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS
 

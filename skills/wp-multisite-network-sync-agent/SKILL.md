@@ -4,10 +4,10 @@ description: "Synchronizes content, users, and plugin configurations across Word
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/"
 category:
+- WordPress &amp; CMS
 framework:
 - OpenClaw
 ---
-
 
 # WP Multisite Network Sync Agent
 

@@ -4,10 +4,10 @@ description: "Jira Advanced Query Agent is built around Jira issue tracking plat
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jira-advanced-query-agent/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # Jira Advanced Query Agent
 

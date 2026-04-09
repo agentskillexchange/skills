@@ -4,10 +4,10 @@ description: "Integrates with the Plaid Transactions API using the plaid Python 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-aggregator/"
 category:
+- Library &amp; API Reference
 framework:
 - Cursor
 ---
-
 
 # Plaid Financial Data Aggregator & Budget Classifier
 

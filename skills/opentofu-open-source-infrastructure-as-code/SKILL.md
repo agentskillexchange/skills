@@ -4,13 +4,14 @@ description: "OpenTofu is an open-source infrastructure as code tool that lets y
 verification: "security_reviewed"
 source: "https://github.com/opentofu/opentofu"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "opentofu/opentofu"
   github_stars: 28244
+  license: "MPL-2.0"
 ---
-
 
 # OpenTofu Open Source Infrastructure as Code Tool
 

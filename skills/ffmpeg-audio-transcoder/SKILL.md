@@ -4,10 +4,10 @@ description: "Transcodes and processes audio files using the FFmpeg CLI and liba
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
 category:
+- Media &amp; Transcription
 framework:
 - Cursor
 ---
-
 
 # FFmpeg Audio Transcoder
 

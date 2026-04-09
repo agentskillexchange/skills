@@ -4,10 +4,10 @@ description: "Validates Pandas DataFrame structures using the pandera library AP
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---
-
 
 # Pandas DataFrame Schema Validator
 

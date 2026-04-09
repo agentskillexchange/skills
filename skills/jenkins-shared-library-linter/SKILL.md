@@ -4,10 +4,10 @@ description: "Validates Jenkins Shared Library Groovy code using the Jenkins Pip
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-linter/"
 category:
+- CI/CD Integrations
 framework:
 - Codex
 ---
-
 
 # Jenkins Shared Library Linter
 

@@ -4,13 +4,13 @@ description: "qsv is a high-performance command-line toolkit for querying, trans
 verification: "security_reviewed"
 source: "https://github.com/dathere/qsv"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3569
 ---
-
 
 # qsv Blazing-Fast CSV Data Wrangling Toolkit
 

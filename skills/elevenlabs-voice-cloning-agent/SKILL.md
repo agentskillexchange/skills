@@ -4,10 +4,10 @@ description: "Clone and synthesize custom voices using the ElevenLabs API v2 wit
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
 category:
+- Media &amp; Transcription
 framework:
 - OpenClaw
 ---
-
 
 # ElevenLabs Voice Cloning Agent
 

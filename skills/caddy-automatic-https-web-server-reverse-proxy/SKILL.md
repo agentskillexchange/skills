@@ -4,13 +4,13 @@ description: "Caddy is a fast, extensible web server written in Go that provides
 verification: "security_reviewed"
 source: "https://github.com/caddyserver/caddy"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "caddyserver/caddy"
   github_stars: 71224
 ---
-
 
 # Caddy Automatic HTTPS Web Server and Reverse Proxy
 

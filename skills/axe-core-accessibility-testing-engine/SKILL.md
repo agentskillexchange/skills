@@ -4,10 +4,10 @@ description: "axe-core is the industry-standard accessibility testing engine by 
 verification: "security_reviewed"
 source: "https://github.com/dequelabs/axe-core"
 category:
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 ---
-
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing
 

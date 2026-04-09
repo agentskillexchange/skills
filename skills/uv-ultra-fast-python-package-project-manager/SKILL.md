@@ -4,13 +4,13 @@ description: "uv is an extremely fast Python package and project manager written
 verification: "security_reviewed"
 source: "https://github.com/astral-sh/uv"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "astral-sh/uv"
   github_stars: 82442
 ---
-
 
 # uv Ultra-Fast Python Package and Project Manager
 

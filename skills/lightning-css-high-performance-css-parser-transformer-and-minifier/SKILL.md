@@ -4,10 +4,10 @@ description: "Lightning CSS is a Rust-based CSS parser, transformer, bundler, an
 verification: "security_reviewed"
 source: "https://github.com/parcel-bundler/lightningcss"
 category:
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 ---
-
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier
 

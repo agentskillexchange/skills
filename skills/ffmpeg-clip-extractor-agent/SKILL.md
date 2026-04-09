@@ -4,10 +4,10 @@ description: "Extracts video clips and segments using FFmpeg libavformat and lib
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
 category:
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---
-
 
 # FFmpeg Clip Extractor
 

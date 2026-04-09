@@ -4,10 +4,10 @@ description: "Manages concurrent Playwright browser contexts with tab pooling an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
 category:
+- Browser Automation
 framework:
 - Cursor
 ---
-
 
 # Playwright Parallel Tab Manager
 

@@ -4,13 +4,13 @@ description: "Lightpanda is a headless browser built from scratch in Zig, purpos
 verification: "security_reviewed"
 source: "https://github.com/lightpanda-io/browser"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "lightpanda-io/browser"
   github_stars: 26505
 ---
-
 
 # Lightpanda Headless Browser for AI Automation
 

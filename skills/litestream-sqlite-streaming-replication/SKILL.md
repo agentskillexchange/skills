@@ -4,13 +4,13 @@ description: "Litestream is a streaming replication tool for SQLite databases th
 verification: "security_reviewed"
 source: "https://github.com/benbjohnson/litestream"
 category:
+- Developer Tools
 framework:
 - OpenClaw
 tool_ecosystem:
   github_repo: "benbjohnson/litestream"
   github_stars: 13400
 ---
-
 
 # Litestream SQLite Streaming Replication
 

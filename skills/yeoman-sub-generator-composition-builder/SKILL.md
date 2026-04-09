@@ -4,6 +4,7 @@ description: "Orchestrates Yeoman generator composition by chaining sub-generato
 verification: "security_reviewed"
 source: "https://github.com/yeoman/yo"
 category:
+- Templates &amp; Workflows
 framework:
 - Codex
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "yo"
   npm_weekly_downloads: 343306
 ---
-
 
 # Yeoman Sub-Generator Composition Builder
 

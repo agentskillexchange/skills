@@ -4,10 +4,10 @@ description: "Extracts and transforms Avro, Protobuf, and JSON Schema definition
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---
-
 
 # Apache Kafka Schema Extractor
 

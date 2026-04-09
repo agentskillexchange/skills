@@ -4,10 +4,10 @@ description: "Camoufox is an open source anti-detect browser built on Firefox th
 verification: "security_reviewed"
 source: "https://github.com/daijro/camoufox"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 ---
-
 
 # Camoufox Open Source Anti-Detect Browser for Python Automation
 

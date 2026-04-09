@@ -4,10 +4,10 @@ description: "Executes Yeoman generators via the yo CLI and yeoman-environment A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-scaffold-runner/"
 category:
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---
-
 
 # Yeoman Scaffold Runner
 

@@ -4,6 +4,7 @@ description: "Trigger.dev is an open-source platform for building and deploying 
 verification: "security_reviewed"
 source: "https://github.com/triggerdotdev/trigger.dev"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "trigger.dev"
   npm_weekly_downloads: 201540
 ---
-
 
 # Trigger.dev TypeScript Background Jobs Platform
 

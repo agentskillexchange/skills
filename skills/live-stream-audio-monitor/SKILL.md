@@ -4,13 +4,13 @@ description: "Monitors live audio streams from RTMP, HLS, or Icecast sources usi
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
+- Media &amp; Transcription
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548
 ---
-
 
 # Live Stream Audio Monitor
 

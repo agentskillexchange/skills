@@ -4,10 +4,10 @@ description: "Generates structured data markup using Schema.org vocabulary in JS
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent/"
 category:
+- Content Writing &amp; SEO
 framework:
 - MCP
 ---
-
 
 # Schema.org Markup Generator
 

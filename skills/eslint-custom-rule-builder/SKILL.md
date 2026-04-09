@@ -4,10 +4,10 @@ description: "Scaffolds and tests custom ESLint rules using the RuleTester API a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-custom-rule-builder/"
 category:
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---
-
 
 # ESLint Custom Rule Builder
 

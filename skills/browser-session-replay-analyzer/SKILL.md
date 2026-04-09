@@ -4,10 +4,10 @@ description: "Records and replays browser sessions using rrweb recording library
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 ---
-
 
 # Browser Session Replay Analyzer
 

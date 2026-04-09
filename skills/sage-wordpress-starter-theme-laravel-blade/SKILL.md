@@ -4,13 +4,14 @@ description: "Sage by Roots is an advanced WordPress starter theme that brings L
 verification: "security_reviewed"
 source: "https://github.com/roots/sage"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "roots/sage"
   github_stars: 13199
+  license: "MIT"
 ---
-
 
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
 

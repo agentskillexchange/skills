@@ -4,10 +4,10 @@ description: "Queries the Terraform Cloud API to inspect plan outputs, apply log
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 ---
-
 
 # Terraform Cloud Run Inspector
 

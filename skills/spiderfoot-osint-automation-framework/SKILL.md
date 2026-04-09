@@ -4,13 +4,13 @@ description: "SpiderFoot is an open-source OSINT automation tool that queries ov
 verification: "security_reviewed"
 source: "https://github.com/smicallef/spiderfoot"
 category:
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "smicallef/spiderfoot"
   github_stars: 17241
 ---
-
 
 # SpiderFoot Open Source Intelligence Automation Framework
 

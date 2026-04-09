@@ -4,10 +4,10 @@ description: "Queries Grafana Loki via the LogQL API to correlate log streams ac
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - ChatGPT Agents
 ---
-
 
 # Grafana Loki Log Correlation Agent
 

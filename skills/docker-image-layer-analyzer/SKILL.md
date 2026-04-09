@@ -4,10 +4,10 @@ description: "Analyzes Docker image layers using the Docker Registry HTTP API v2
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---
-
 
 # Docker Image Layer Analyzer
 

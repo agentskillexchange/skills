@@ -4,10 +4,10 @@ description: "Parses and navigates OpenAPI 3.1 specifications using swagger-pars
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 category:
+- Library &amp; API Reference
 framework:
 - Cursor
 ---
-
 
 # OpenAPI Spec Navigator
 

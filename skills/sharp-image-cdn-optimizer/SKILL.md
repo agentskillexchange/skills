@@ -4,10 +4,10 @@ description: "On-the-fly image optimization using Sharp (libvips Node.js binding
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---
-
 
 # Sharp Image CDN Optimizer
 

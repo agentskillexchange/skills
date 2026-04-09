@@ -4,10 +4,10 @@ description: "Fetches the latest SonarQube project analysis result, explains why
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---
-
 
 # SonarQube Quality Gate Explainer
 

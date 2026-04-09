@@ -4,10 +4,10 @@ description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to i
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 ---
-
 
 # Datadog APM Trace Analyzer
 

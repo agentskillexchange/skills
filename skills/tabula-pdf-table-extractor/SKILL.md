@@ -4,10 +4,10 @@ description: "Extracts structured tables from PDF documents using Tabula-java wi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tabula-pdf-table-extractor/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---
-
 
 # Tabula PDF Table Extractor
 

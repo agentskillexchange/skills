@@ -4,10 +4,10 @@ description: "Automates large-scale WordPress content migrations using WP-CLI wp
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/"
 category:
+- WordPress &amp; CMS
 framework:
 - OpenClaw
 ---
-
 
 # WP-CLI Bulk Content Migrator
 

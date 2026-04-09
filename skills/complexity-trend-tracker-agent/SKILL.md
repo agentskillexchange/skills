@@ -4,10 +4,10 @@ description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
 category:
+- Code Quality &amp; Review
 framework:
 - MCP
 ---
-
 
 # Complexity Trend Tracker
 

@@ -4,10 +4,10 @@ description: "dbt MCP Server is built around dbt transformation framework. The u
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-mcp-server/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---
-
 
 # dbt MCP Server
 

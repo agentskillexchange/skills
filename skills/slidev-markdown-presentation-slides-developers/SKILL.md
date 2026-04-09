@@ -4,13 +4,13 @@ description: "Slidev is a web-based presentation tool built for developers that 
 verification: "security_reviewed"
 source: "https://github.com/slidevjs/slidev"
 category:
+- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "slidevjs/slidev"
   github_stars: 45362
 ---
-
 
 # Slidev Markdown Presentation Slides for Developers
 

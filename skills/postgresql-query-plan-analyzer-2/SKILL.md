@@ -4,10 +4,10 @@ description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and pa
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/"
 category:
+- Developer Tools
 framework:
 - MCP
 ---
-
 
 # PostgreSQL Query Plan Analyzer
 

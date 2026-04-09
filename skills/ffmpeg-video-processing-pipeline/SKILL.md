@@ -4,10 +4,10 @@ description: "Builds complex FFmpeg filtergraph chains for batch video transcodi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/"
 category:
+- Image &amp; Creative Automation
 framework:
 - MCP
 ---
-
 
 # FFmpeg Video Processing Pipeline
 

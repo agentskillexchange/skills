@@ -4,13 +4,13 @@ description: "Harden-Runner by StepSecurity is a CI/CD security agent that works
 verification: "security_reviewed"
 source: "https://github.com/step-security/harden-runner"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "step-security/harden-runner"
   github_stars: 1055
 ---
-
 
 # Harden-Runner CI/CD Security Agent for GitHub Actions
 

@@ -4,10 +4,10 @@ description: "Run web crawling and scraping workflows with Crawl4AI, an open-sou
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
 category:
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 ---
-
 
 # Crawl4AI LLM-Friendly Web Crawler
 

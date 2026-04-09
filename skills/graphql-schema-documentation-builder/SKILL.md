@@ -4,10 +4,10 @@ description: "Generates interactive API documentation from GraphQL schemas using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
 category:
+- Library &amp; API Reference
 framework:
 - Gemini
 ---
-
 
 # GraphQL Schema Documentation Builder
 

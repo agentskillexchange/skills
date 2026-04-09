@@ -4,10 +4,10 @@ description: "Programmatically creates Grafana dashboard JSON models using the G
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---
-
 
 # Grafana Dashboard Template Generator
 

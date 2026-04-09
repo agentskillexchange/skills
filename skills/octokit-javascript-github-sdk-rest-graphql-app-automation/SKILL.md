@@ -4,10 +4,10 @@ description: "Octokit is GitHub’s JavaScript SDK family for REST API requests,
 verification: "security_reviewed"
 source: "https://github.com/octokit/octokit.js"
 category:
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 ---
-
 
 # Octokit JavaScript GitHub SDK for REST GraphQL and App Automation
 

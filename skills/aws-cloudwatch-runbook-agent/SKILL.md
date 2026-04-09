@@ -4,10 +4,10 @@ description: "Uses AWS SDK CloudWatchClient GetMetricData and CloudWatch Logs In
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---
-
 
 # AWS CloudWatch Runbook Agent
 

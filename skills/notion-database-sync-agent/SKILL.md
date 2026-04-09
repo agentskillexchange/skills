@@ -4,10 +4,10 @@ description: "Syncs records between Notion databases and external sources using 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Agents
 ---
-
 
 # Notion Database Sync Agent
 

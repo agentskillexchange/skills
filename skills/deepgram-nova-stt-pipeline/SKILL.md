@@ -4,10 +4,10 @@ description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
 category:
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---
-
 
 # Deepgram Nova STT Pipeline
 

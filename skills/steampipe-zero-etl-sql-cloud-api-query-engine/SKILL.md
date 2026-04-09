@@ -4,13 +4,13 @@ description: "Query cloud APIs, SaaS services, and infrastructure with standard 
 verification: "security_reviewed"
 source: "https://github.com/turbot/steampipe"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "turbot/steampipe"
   github_stars: 7745
 ---
-
 
 # Steampipe Zero-ETL SQL Cloud API Query Engine
 

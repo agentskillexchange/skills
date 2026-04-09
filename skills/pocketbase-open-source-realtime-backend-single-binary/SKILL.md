@@ -4,13 +4,14 @@ description: "PocketBase is an open-source Go backend that ships as a single por
 verification: "security_reviewed"
 source: "https://github.com/pocketbase/pocketbase"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "pocketbase/pocketbase"
   github_stars: 57251
+  license: "MIT"
 ---
-
 
 # PocketBase Open Source Realtime Backend in a Single Binary
 

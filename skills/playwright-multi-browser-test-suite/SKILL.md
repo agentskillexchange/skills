@@ -4,10 +4,10 @@ description: "Generates end-to-end test suites using the Playwright Test Runner 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/"
 category:
+- Browser Automation
 framework:
 - Cursor
 ---
-
 
 # Playwright Multi-Browser Test Suite
 

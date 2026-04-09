@@ -4,13 +4,13 @@ description: "Add sandboxed code execution to any MCP-compatible AI client. E2B 
 verification: "security_reviewed"
 source: "https://github.com/e2b-dev/mcp-server"
 category:
+- Developer Tools
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 386
 ---
-
 
 # E2B Code Execution MCP
 

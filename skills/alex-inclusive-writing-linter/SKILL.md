@@ -4,6 +4,7 @@ description: "Catch insensitive, inconsiderate writing with alex. This CLI tool 
 verification: "security_reviewed"
 source: "https://github.com/get-alex/alex"
 category:
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -11,8 +12,8 @@ tool_ecosystem:
   github_stars: 5096
   npm_package: "alex"
   npm_weekly_downloads: 30845
+  license: "MIT"
 ---
-
 
 # alex Inclusive Writing Linter
 

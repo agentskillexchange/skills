@@ -4,10 +4,10 @@ description: "Performs deep OSINT analysis on domains using Shodan API, Security
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/"
 category:
+- Research &amp; Scraping
 framework:
 - OpenClaw
 ---
-
 
 # OSINT Domain Intelligence Scanner
 

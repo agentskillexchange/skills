@@ -4,10 +4,10 @@ description: "Creates component and integration tests using the Cypress Testing 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
 category:
+- Browser Automation
 framework:
 - Custom Agents
 ---
-
 
 # Cypress Component Testing Toolkit
 

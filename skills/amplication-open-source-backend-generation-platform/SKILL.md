@@ -4,10 +4,10 @@ description: "Amplication is an open source developer platform for generating pr
 verification: "security_reviewed"
 source: "https://github.com/amplication/amplication"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # Amplication Open Source Backend Generation Platform
 

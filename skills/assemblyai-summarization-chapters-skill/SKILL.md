@@ -4,10 +4,10 @@ description: "Transcribes audio and generates auto-chapters with summaries using
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/"
 category:
+- Media &amp; Transcription
 framework:
 - Claude Agents
 ---
-
 
 # AssemblyAI Summarization & Chapters Skill
 

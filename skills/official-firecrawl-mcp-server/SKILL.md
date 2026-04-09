@@ -4,6 +4,7 @@ description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, craw
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl-mcp-server"
 category:
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "firecrawl-mcp"
   npm_weekly_downloads: 29710
 ---
-
 
 # Official Firecrawl MCP Server
 

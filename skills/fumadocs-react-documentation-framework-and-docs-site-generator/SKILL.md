@@ -4,10 +4,10 @@ description: "Build and maintain documentation websites with Fumadocs, the React
 verification: "security_reviewed"
 source: "https://github.com/fuma-nama/fumadocs"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # Fumadocs React Documentation Framework and Docs Site Generator
 

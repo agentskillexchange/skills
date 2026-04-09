@@ -4,10 +4,10 @@ description: "Optimizes GitLab CI/CD cache configurations using the GitLab Pipel
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # GitLab CI Cache Optimizer
 

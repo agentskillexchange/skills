@@ -4,10 +4,10 @@ description: "Generates comprehensive data quality reports using ydata-profiling
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---
-
 
 # Pandas Profiling Report Generator
 

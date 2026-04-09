@@ -4,10 +4,10 @@ description: "A verified skill for LangGraph.js, the graph-based orchestration f
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langgraphjs"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # LangGraph.js Agent Orchestration Framework
 

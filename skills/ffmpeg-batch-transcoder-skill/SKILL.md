@@ -4,10 +4,10 @@ description: "Batch transcode media files using FFmpeg CLI with preset profiles 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
 category:
+- Media &amp; Transcription
 framework:
 - Cursor
 ---
-
 
 # FFmpeg Batch Transcoder
 

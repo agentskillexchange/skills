@@ -4,10 +4,10 @@ description: "Splits blog posts or scripts into optimal chunks under ElevenLabs 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
 category:
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---
-
 
 # ElevenLabs Voiceover Generator for Long-Form Content
 

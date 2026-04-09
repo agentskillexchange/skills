@@ -4,13 +4,13 @@ description: "Spectral is an open-source JSON/YAML linter by Stoplight with buil
 verification: "security_reviewed"
 source: "https://github.com/stoplightio/spectral"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3057
 ---
-
 
 # Spectral OpenAPI and AsyncAPI Linter
 

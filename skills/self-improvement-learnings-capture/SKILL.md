@@ -4,10 +4,10 @@ description: "Capture failures, corrections, and repeatable lessons so important
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
 category:
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---
-
 
 # Self-Improvement / Learnings Capture
 

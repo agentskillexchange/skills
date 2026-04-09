@@ -4,10 +4,10 @@ description: "Builds a Zapier automation using the Zapier NLA API to trigger on 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 ---
-
 
 # Zapier Multi-Step Lead Enrichment Workflow
 

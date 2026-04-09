@@ -4,13 +4,13 @@ description: "gron transforms JSON into discrete assignment statements, making i
 verification: "security_reviewed"
 source: "https://github.com/tomnomnom/gron"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
   github_stars: 14413
 ---
-
 
 # gron Greppable JSON Flattener
 

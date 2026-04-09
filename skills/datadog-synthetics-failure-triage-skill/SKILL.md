@@ -4,13 +4,13 @@ description: "Investigates broken checks with the Datadog Synthetics API, Monito
 verification: "security_reviewed"
 source: "https://github.com/DataDog/datadog-api-client-python"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-python"
   github_stars: 158
 ---
-
 
 # Datadog Synthetics Failure Triage Skill
 

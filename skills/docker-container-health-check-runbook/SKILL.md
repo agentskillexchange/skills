@@ -4,10 +4,10 @@ description: "Runs systematic health diagnostics on Docker containers using dock
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---
-
 
 # Docker Container Health Check Runbook
 

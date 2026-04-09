@@ -4,10 +4,10 @@ description: "Constructs and manages Midjourney prompt chains for iterative imag
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-chain-builder/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Gemini
 ---
-
 
 # Midjourney Prompt Chain Builder
 

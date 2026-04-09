@@ -4,10 +4,10 @@ description: "Directus turns a SQL database into a headless CMS, admin app, and 
 verification: "security_reviewed"
 source: "https://github.com/directus/directus"
 category:
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---
-
 
 # Directus SQL-Native Headless CMS and Internal App Platform
 

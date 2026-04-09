@@ -4,10 +4,10 @@ description: "A practical guide to Puppeteer for browser automation, scraping, a
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Puppeteer Browser Automation Library
 

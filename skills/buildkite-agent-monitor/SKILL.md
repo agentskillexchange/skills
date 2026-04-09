@@ -4,10 +4,10 @@ description: "Monitors Buildkite agent pools via the Buildkite REST API v3 and G
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-agent-monitor/"
 category:
+- CI/CD Integrations
 framework:
 - Gemini
 ---
-
 
 # Buildkite Agent Monitor
 

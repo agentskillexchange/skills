@@ -4,6 +4,7 @@ description: "The official MongoDB MCP server connects AI agents to MongoDB data
 verification: "security_reviewed"
 source: "https://github.com/mongodb-js/mongodb-mcp-server"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "mongodb-mcp-server"
   npm_weekly_downloads: 33039
 ---
-
 
 # MongoDB MCP Server for Database and Atlas Management
 

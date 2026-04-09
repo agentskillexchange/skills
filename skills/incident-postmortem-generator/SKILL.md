@@ -4,10 +4,10 @@ description: "Generates structured incident postmortems by aggregating data from
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---
-
 
 # Incident Postmortem Generator
 

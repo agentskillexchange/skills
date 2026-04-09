@@ -4,10 +4,10 @@ description: "Dozzle is a lightweight, web-based real-time log viewer for Docker
 verification: "security_reviewed"
 source: "https://github.com/amir20/dozzle"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---
-
 
 # Dozzle Real-Time Docker Container Log Viewer
 

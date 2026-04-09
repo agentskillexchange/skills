@@ -4,10 +4,10 @@ description: "Constructs Prometheus alerting rules using PromQL expressions with
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-promql-alert-builder/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---
-
 
 # Prometheus PromQL Alert Builder
 

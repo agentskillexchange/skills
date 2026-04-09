@@ -4,10 +4,10 @@ description: "Resolves AWS SDK v3 client commands and service endpoint signature
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-sdk-method-resolver/"
 category:
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---
-
 
 # AWS SDK Method Resolver
 

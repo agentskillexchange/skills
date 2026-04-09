@@ -4,10 +4,10 @@ description: "Constructs data transformation pipelines using Pandas and the pipe
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---
-
 
 # Pandas DataFrame Pipeline Builder
 

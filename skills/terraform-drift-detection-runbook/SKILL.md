@@ -4,10 +4,10 @@ description: "Detects infrastructure drift using terraform plan -detailed-exitco
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-drift-detection-runbook/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---
-
 
 # Terraform Drift Detection Runbook
 

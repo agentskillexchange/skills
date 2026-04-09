@@ -4,10 +4,10 @@ description: "Performs deep ESLint configuration analysis using the ESLint Node.
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Agents
 ---
-
 
 # ESLint Rule Analyzer and Fixer
 

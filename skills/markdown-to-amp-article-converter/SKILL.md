@@ -4,10 +4,10 @@ description: "Converts Markdown files to valid AMP HTML articles using unified/r
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter/"
 category:
+- Content Writing &amp; SEO
 framework:
 - Codex
 ---
-
 
 # Markdown-to-AMP Article Converter
 

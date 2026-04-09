@@ -4,10 +4,14 @@ description: "Skyvern automates browser-based workflows using LLMs and computer 
 verification: "security_reviewed"
 source: "https://github.com/Skyvern-AI/skyvern"
 category:
+- Browser Automation
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: "skyvern-ai/skyvern"
+  github_stars: 20997
+  license: "AGPL-3.0"
 ---
-
 
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
 

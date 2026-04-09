@@ -4,10 +4,10 @@ description: "Kroki provides a unified HTTP API that converts textual diagram de
 verification: "security_reviewed"
 source: "https://github.com/yuzutech/kroki"
 category:
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 ---
-
 
 # Kroki Unified Diagram Rendering API and Server
 

@@ -4,10 +4,10 @@ description: "Manages Protocol Buffer schema evolution using buf CLI with breaki
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # Protobuf Schema Registry Manager
 

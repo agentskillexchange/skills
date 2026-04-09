@@ -4,13 +4,13 @@ description: "SLSA Verifier is the official tool from the SLSA framework for ver
 verification: "security_reviewed"
 source: "https://github.com/slsa-framework/slsa-verifier"
 category:
+- Security &amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "slsa-framework/slsa-verifier"
   github_stars: 318
 ---
-
 
 # SLSA Verifier Build Provenance Checker
 

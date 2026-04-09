@@ -4,10 +4,10 @@ description: "Automates ingestion, indexing, search, and curation workflows for 
 verification: "security_reviewed"
 source: "https://github.com/photoprism/photoprism"
 category:
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 ---
-
 
 # PhotoPrism Self-Hosted Photo Library Automation
 

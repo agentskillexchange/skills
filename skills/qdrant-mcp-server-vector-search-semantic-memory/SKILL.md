@@ -4,13 +4,13 @@ description: "An official Qdrant MCP server implementation that provides semanti
 verification: "security_reviewed"
 source: "https://github.com/qdrant/mcp-server-qdrant"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "qdrant/mcp-server-qdrant"
   github_stars: 1314
 ---
-
 
 # Qdrant MCP Server for Vector Search and Semantic Memory
 

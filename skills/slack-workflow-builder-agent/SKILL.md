@@ -4,10 +4,10 @@ description: "Creates and manages Slack workflows using @slack/bolt and @slack/w
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---
-
 
 # Slack Workflow Builder Agent
 

@@ -4,13 +4,13 @@ description: "Google Workspace CLI, branded as gws, is a command-line tool that 
 verification: "security_reviewed"
 source: "https://github.com/googleworkspace/cli"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "googleworkspace/cli"
   github_stars: 24106
 ---
-
 
 # Google Workspace CLI (gws)
 

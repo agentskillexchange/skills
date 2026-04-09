@@ -4,10 +4,10 @@ description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
 category:
+- Developer Tools
 framework:
 - OpenClaw
 ---
-
 
 # PostgreSQL Query Optimizer Agent
 

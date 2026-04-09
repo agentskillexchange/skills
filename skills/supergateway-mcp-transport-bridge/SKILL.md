@@ -4,6 +4,7 @@ description: "Supergateway enables running MCP stdio-based servers over SSE, Web
 verification: "security_reviewed"
 source: "https://github.com/supercorp-ai/supergateway"
 category:
+- Developer Tools
 framework:
 - MCP
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "supergateway"
   npm_weekly_downloads: 101559
 ---
-
 
 # Supergateway MCP Transport Bridge
 

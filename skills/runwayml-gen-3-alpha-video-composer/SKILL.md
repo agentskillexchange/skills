@@ -4,13 +4,13 @@ description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha A
 verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
+- Image &amp; Creative Automation
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548
 ---
-
 
 # RunwayML Gen-3 Alpha Video Composer
 

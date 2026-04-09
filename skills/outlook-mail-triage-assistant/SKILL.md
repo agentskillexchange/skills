@@ -4,10 +4,10 @@ description: "Automated email triage using Microsoft Graph API and @azure/msal-n
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/outlook-mail-triage-assistant/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---
-
 
 # Outlook Mail Triage Assistant
 

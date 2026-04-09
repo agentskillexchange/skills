@@ -4,10 +4,10 @@ description: "Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---
-
 
 # AWS CloudWatch Alarm Triage Agent
 

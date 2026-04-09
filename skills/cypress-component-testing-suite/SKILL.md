@@ -4,10 +4,10 @@ description: "Implements component and E2E tests using Cypress with cy.mount, cy
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
 category:
+- Browser Automation
 framework:
 - MCP
 ---
-
 
 # Cypress Component Testing Suite
 

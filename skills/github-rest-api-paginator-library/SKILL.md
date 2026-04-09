@@ -4,10 +4,10 @@ description: "Provides a typed pagination wrapper for the GitHub REST API using 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-rest-api-paginator-library/"
 category:
+- Library &amp; API Reference
 framework:
 - Codex
 ---
-
 
 # GitHub REST API Paginator Library
 

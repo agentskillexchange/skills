@@ -4,13 +4,13 @@ description: "Queries Elastic APM transaction data through the Elasticsearch RES
 verification: "security_reviewed"
 source: "https://github.com/elastic/apm-server"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "elastic/apm-server"
   github_stars: 1273
 ---
-
 
 # Elastic APM Transaction Anomaly Spotter
 

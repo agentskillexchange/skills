@@ -4,6 +4,7 @@ description: "Astro is a modern web framework for building content-driven websit
 verification: "security_reviewed"
 source: "https://github.com/withastro/astro"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -12,7 +13,6 @@ tool_ecosystem:
   npm_package: "astro"
   npm_weekly_downloads: 1864911
 ---
-
 
 # Astro Content-Driven Web Framework
 

@@ -4,10 +4,10 @@ description: "LlamaIndex Agent is built around LlamaIndex framework for LLM data
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/llamaindex-agent/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # LlamaIndex Agent
 

@@ -4,10 +4,10 @@ description: "Paperless-ngx is an open source document management system that tu
 verification: "security_reviewed"
 source: "https://github.com/paperless-ngx/paperless-ngx"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---
-
 
 # Paperless-ngx Document OCR and Archive Management System
 

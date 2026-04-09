@@ -4,13 +4,13 @@ description: "mcp-atlassian is a Model Context Protocol server that connects AI 
 verification: "security_reviewed"
 source: "https://github.com/sooperset/mcp-atlassian"
 category:
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: "sooperset/mcp-atlassian"
   github_stars: 4785
 ---
-
 
 # Atlassian MCP Server for Jira and Confluence
 

@@ -4,13 +4,13 @@ description: "Manages Nx workspace task orchestration using nx.json configuratio
 verification: "security_reviewed"
 source: "https://github.com/nrwl/nx"
 category:
+- Templates &amp; Workflows
 framework:
 - Cursor
 tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28496
 ---
-
 
 # Nx Monorepo Workflow Orchestrator
 

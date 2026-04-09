@@ -4,10 +4,10 @@ description: "Uses the Metabase REST API to export question results as CSV and r
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---
-
 
 # Metabase Dashboard Snapshot & Alerting
 

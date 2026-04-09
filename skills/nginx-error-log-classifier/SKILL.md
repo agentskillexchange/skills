@@ -4,10 +4,10 @@ description: "Classifies and prioritizes Nginx error log entries using pattern m
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
 category:
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---
-
 
 # Nginx Error Log Classifier
 

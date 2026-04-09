@@ -4,10 +4,10 @@ description: "Orchestrates Apify actors for large-scale web scraping via the Api
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/"
 category:
+- Research &amp; Scraping
 framework:
 - Cursor
 ---
-
 
 # Apify Web Scraper Orchestrator
 

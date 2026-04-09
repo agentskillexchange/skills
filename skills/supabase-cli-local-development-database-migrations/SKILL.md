@@ -4,10 +4,10 @@ description: "Supabase CLI manages local Supabase projects, database migrations,
 verification: "security_reviewed"
 source: "https://github.com/supabase/cli"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 ---
-
 
 # Supabase CLI for Local Development and Database Migrations
 

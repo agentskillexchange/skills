@@ -4,10 +4,10 @@ description: "MongoDB MCP Server is built around MongoDB document database. The 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mongodb-mcp-server/"
 category:
+- Developer Tools
 framework:
 - MCP
 ---
-
 
 # MongoDB MCP Server
 

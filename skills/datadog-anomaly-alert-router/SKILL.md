@@ -4,10 +4,10 @@ description: "Routes Datadog anomaly detection alerts to appropriate response ch
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---
-
 
 # Datadog Anomaly Alert Router
 

@@ -4,10 +4,10 @@ description: "Builds configurable data extraction pipelines using Cheerio for se
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---
-
 
 # Cheerio DOM Extraction Pipeline
 

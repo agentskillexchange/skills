@@ -4,10 +4,10 @@ description: "Analyzes webpack bundle composition using webpack-bundle-analyzer 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/"
 category:
+- Developer Tools
 framework:
 - Cursor
 ---
-
 
 # Webpack Bundle Analyzer Agent
 

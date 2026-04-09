@@ -4,6 +4,7 @@ description: "Run Claude Code as a one-shot MCP tool so other agents and editors
 verification: "security_reviewed"
 source: "https://github.com/steipete/claude-code-mcp"
 category:
+- Developer Tools
 framework:
 - Claude Code
 - MCP
@@ -11,7 +12,6 @@ tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1225
 ---
-
 
 # Claude Code MCP Bridge
 

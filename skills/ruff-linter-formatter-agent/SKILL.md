@@ -4,10 +4,10 @@ description: "Ultra-fast Python linting and formatting using Ruff CLI with pypro
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ruff-linter-formatter-agent/"
 category:
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---
-
 
 # Ruff Linter and Formatter
 

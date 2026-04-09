@@ -4,10 +4,10 @@ description: "Generates cy.intercept() stubs from recorded HAR files for determi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
 category:
+- Browser Automation
 framework:
 - Codex
 ---
-
 
 # Cypress Network Stub Generator
 

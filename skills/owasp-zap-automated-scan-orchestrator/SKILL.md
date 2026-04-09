@@ -4,10 +4,10 @@ description: "Runs OWASP ZAP active and passive scans against target URLs using 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
 category:
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---
-
 
 # OWASP ZAP Automated Scan Orchestrator
 

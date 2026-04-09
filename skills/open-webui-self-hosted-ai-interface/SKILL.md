@@ -4,13 +4,13 @@ description: "Open WebUI is an extensible, feature-rich, and user-friendly self-
 verification: "security_reviewed"
 source: "https://github.com/open-webui/open-webui"
 category:
+- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "open-webui/open-webui"
   github_stars: 130412
 ---
-
 
 # Open WebUI Self-Hosted AI Interface for LLMs
 

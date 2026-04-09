@@ -4,10 +4,10 @@ description: "Lints and validates Argo Workflows templates using the argo CLI an
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-linter/"
 category:
+- CI/CD Integrations
 framework:
 - Claude Code
 ---
-
 
 # Argo Workflows Linter
 

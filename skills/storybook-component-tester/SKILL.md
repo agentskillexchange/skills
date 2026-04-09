@@ -4,10 +4,10 @@ description: "Storybook Component Tester is built around Storybook component wor
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/storybook-component-tester/"
 category:
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---
-
 
 # Storybook Component Tester
 

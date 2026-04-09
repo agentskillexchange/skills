@@ -4,10 +4,10 @@ description: "Scaffolds Terraform modules using the HCL SDK with provider schema
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-scaffolder-hcl-sdk/"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # Terraform Module Scaffolder
 

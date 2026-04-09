@@ -4,10 +4,10 @@ description: "fonttools is a comprehensive Python library for manipulating font 
 verification: "security_reviewed"
 source: "https://github.com/fonttools/fonttools"
 category:
+- Developer Tools
 framework:
 - Custom Agents
 ---
-
 
 # fonttools Python Font Manipulation and Subsetting Library
 

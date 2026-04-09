@@ -4,13 +4,13 @@ description: "Instaloader is a Python CLI tool and library that downloads Instag
 verification: "security_reviewed"
 source: "https://github.com/instaloader/instaloader"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: "instaloader/instaloader"
   github_stars: 12047
 ---
-
 
 # Instaloader Instagram Content and Metadata Downloader
 

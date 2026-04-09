@@ -4,10 +4,10 @@ description: "Creates end-to-end tests with Cypress cy.intercept() for API mocki
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
 category:
+- Browser Automation
 framework:
 - Codex
 ---
-
 
 # Cypress E2E API Intercept Skill
 

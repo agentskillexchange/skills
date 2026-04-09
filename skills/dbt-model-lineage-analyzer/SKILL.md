@@ -4,10 +4,10 @@ description: "Parses dbt project manifests and catalog artifacts to build comple
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
 category:
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---
-
 
 # dbt Model Lineage Analyzer
 

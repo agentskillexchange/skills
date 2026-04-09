@@ -4,10 +4,10 @@ description: "Extracts company profiles, funding rounds, and investor data using
 verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
 category:
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---
-
 
 # Crunchbase Company Intelligence Scraper
 

@@ -4,10 +4,10 @@ description: "Generates production-ready Terraform module scaffolds with variabl
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-scaffold-generator/"
 category:
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---
-
 
 # Terraform Module Scaffold Generator
 

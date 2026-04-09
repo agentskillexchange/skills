@@ -4,10 +4,10 @@ description: "Leverages Copy.ai’s Workflows API to generate multi-step cold ou
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
 category:
+- Content Writing &amp; SEO
 framework:
 - ChatGPT Agents
 ---
-
 
 # Copy.ai Sales Email Sequence Builder
 

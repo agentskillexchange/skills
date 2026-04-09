@@ -4,13 +4,13 @@ description: "Marp CLI converts Markdown files into professional slide deck pres
 verification: "security_reviewed"
 source: "https://github.com/marp-team/marp-cli"
 category:
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "marp-team/marp-cli"
   github_stars: 3359
 ---
-
 
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator
 

@@ -4,10 +4,10 @@ description: "Generates social media graphics and OG images dynamically via Bann
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 category:
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---
-
 
 # Bannerbear Dynamic Image API
 

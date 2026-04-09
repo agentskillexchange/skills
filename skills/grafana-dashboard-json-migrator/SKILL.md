@@ -4,10 +4,10 @@ description: "Migrates Grafana dashboards between instances using the Grafana HT
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
 category:
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---
-
 
 # Grafana Dashboard JSON Migrator
 

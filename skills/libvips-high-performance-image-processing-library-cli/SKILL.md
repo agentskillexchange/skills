@@ -4,13 +4,14 @@ description: "libvips is a demand-driven, horizontally threaded image processing
 verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"
 category:
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
+  license: "LGPL-2.1"
 ---
-
 
 # libvips High-Performance Image Processing Library and CLI
 

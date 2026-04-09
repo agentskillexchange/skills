@@ -4,10 +4,10 @@ description: "Builds GStreamer pipelines for real-time video transcoding with NV
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/"
 category:
+- Media &amp; Transcription
 framework:
 - Gemini
 ---
-
 
 # GStreamer Live Stream Transcoder
 

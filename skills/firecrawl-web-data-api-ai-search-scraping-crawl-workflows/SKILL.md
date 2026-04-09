@@ -4,10 +4,10 @@ description: "Firecrawl is an open source web data platform for search, scraping
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 ---
-
 
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
 

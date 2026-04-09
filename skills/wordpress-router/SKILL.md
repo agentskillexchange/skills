@@ -4,13 +4,13 @@ description: "Route WordPress tasks to the right workflow fast.\n\nCore Capabili
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category:
+- WordPress &amp; CMS
 framework:
 - OpenClaw
 tool_ecosystem:
   github_repo: "WordPress/WordPress"
   github_stars: 21002
 ---
-
 
 # WordPress Router
 

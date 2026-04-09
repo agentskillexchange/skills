@@ -4,10 +4,10 @@ description: "Bidirectionally syncs tasks between Notion databases and external 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
 category:
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---
-
 
 # Notion Task Sync Bridge
 
