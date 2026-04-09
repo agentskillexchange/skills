@@ -160,6 +160,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
 | [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | — | — |
+| [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | — | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |

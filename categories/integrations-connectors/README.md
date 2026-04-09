@@ -101,6 +101,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
+| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1832 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 21:38 UTC
+> **1835 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 23:43 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -420,7 +420,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (132 skills)
+### 🔄 Data Extraction & Transformation (133 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -554,6 +554,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Tesseract OCR Data Extractor](skills/tesseract-ocr-data-extractor/) | Extracts structured data from scanned documents using Tesseract OCR engine with LSTM models. Supports table… | Security Reviewed | — | — |
 | [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data.… | Security Reviewed | — | — |
 | [Unstructured Document ETL for LLM Pipelines](skills/unstructured-document-etl-for-llm-pipelines/) | Unstructured is an open source document processing library that converts PDFs, HTML, Office files, emails, and other… | Security Reviewed | — | — |
+| [Unstructured Document ETL Toolkit](skills/unstructured-document-etl-toolkit/) | Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into… | Published | — | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](skills/weasyprint-html-css-pdf-document-generator/) | WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a… | Security Reviewed | — | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
@@ -1365,7 +1366,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Yoast SEO WordPress Search Optimization Plugin](skills/yoast-seo-wordpress-search-optimization-plugin/) | Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output,… | Published | — | — |
 
 
-### 🌐 Browser Automation (87 skills)
+### 🌐 Browser Automation (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1455,12 +1456,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Stagehand AI Browser Automation Framework by Browserbase](skills/stagehand-ai-browser-automation-framework-browserbase/) | Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with… | Security Reviewed | — | — |
 | [Stagehand Browser Agent SDK](skills/stagehand-browser-agent-sdk/) | Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language… | Security Reviewed | — | — |
 | [Stagehand Browser Automation](skills/stagehand-browser-automation/) | Stagehand is Browserbase’s AI browser automation framework for mixing natural-language actions with deterministic… | Security Reviewed | — | — |
+| [Stagehand Browser Automation SDK](skills/stagehand-browser-automation-sdk/) | Stagehand is Browserbase's browser automation SDK for combining natural-language actions with deterministic browser… | Published | — | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](skills/taiko-smart-selector-browser-automation-nodejs/) | Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and… | Security Reviewed | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | — | — |
 | [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (86 skills)
+### 🔗 Integrations & Connectors (87 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1527,6 +1529,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | — | — |
 | [Kong Gateway API AI and MCP Traffic Control](skills/kong-gateway-api-ai-mcp-traffic-control/) | Kong Gateway is an open-source API gateway that handles routing, authentication, load balancing, observability, and… | Security Reviewed | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
+| [Nango Integration Platform SDK](skills/nango-integration-platform-sdk/) | Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying,… | Published | — | — |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | — | — |
 | [Pipedream API Workflow Automation Platform](skills/pipedream-api-workflow-automation-platform/) | Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted… | Security Reviewed | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |

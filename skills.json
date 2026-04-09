@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1832,
+  "total": 1835,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "nango-integration-platform-sdk",
+      "name": "Nango Integration Platform SDK",
+      "description": "Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying, and function execution. This skill covers…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "unstructured-document-etl-toolkit",
+      "name": "Unstructured Document ETL Toolkit",
+      "description": "Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "stagehand-browser-automation-sdk",
+      "name": "Stagehand Browser Automation SDK",
+      "description": "Stagehand is Browserbase's browser automation SDK for combining natural-language actions with deterministic browser code. This skill covers how to use the real Stagehand project…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mcp-wordpress-server-docdyhr",
       "name": "MCP WordPress Server by docdyhr",

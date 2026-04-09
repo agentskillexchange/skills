@@ -124,6 +124,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | — | — |
 | [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | — | — |
 | [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | — | — |
+| [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | — | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | — | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | — | — |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | — | — |
