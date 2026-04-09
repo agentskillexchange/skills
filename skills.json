@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1824,
+  "total": 1829,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations-2",
+      "name": "Mailgun JavaScript SDK for Email Delivery and Domain Operations",
+      "description": "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations",
+      "name": "Mailgun JavaScript SDK for Email Delivery and Domain Operations",
+      "description": "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mailtrap-nodejs-sdk-transactional-and-sandbox-email",
+      "name": "Mailtrap Node.js SDK for Transactional and Sandbox Email",
+      "description": "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "cartesia-javascript-sdk-low-latency-voice-generation",
+      "name": "Cartesia JavaScript SDK for Low-Latency Voice Generation",
+      "description": "An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a strong fit for agents that…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "mux-node-sdk-video-and-streaming-api-workflows",
+      "name": "Mux Node SDK for Video and Streaming API Workflows",
+      "description": "An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or TypeScript. It fits…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "infisical-cli-secrets-injection-and-access-management",
       "name": "Infisical CLI Secrets Injection and Access Management",

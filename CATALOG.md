@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1824 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 17:39 UTC
+> **1829 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 19:42 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1049,7 +1049,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (100 skills)
+### 📅 Calendar, Email & Productivity (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1110,6 +1110,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Linear Sprint Planner](skills/linear-sprint-planner/) | Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | — | — |
 | [MailDev SMTP Capture and Email Testing Server](skills/maildev-smtp-capture-and-email-testing-server/) | MailDev is a local SMTP server with a web UI and REST API for capturing application email during development. It… | Published | — | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Published | — | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Published | — | — |
+| [Mailtrap Node.js SDK for Transactional and Sandbox Email](skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap… | Published | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](skills/microsoft-graph-calendar-conflict-resolver/) | Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and… | Security Reviewed | — | — |
 | [Microsoft Graph Email Digest Builder](skills/microsoft-graph-email-digest-builder/) | Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint.… | Security Reviewed | — | — |
 | [Microsoft Graph Email Triage Agent](skills/microsoft-graph-email-triage-agent/) | Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using… | Security Reviewed | — | — |
@@ -1642,7 +1645,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (81 skills)
+### 🎙️ Media & Transcription (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1692,6 +1695,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
 | [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
 | [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring.… | Security Reviewed | — | — |
+| [Cartesia JavaScript SDK for Low-Latency Voice Generation](skills/cartesia-javascript-sdk-low-latency-voice-generation/) | An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a… | Published | — | — |
 | [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Security Reviewed | — | — |
 | [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization,… | Security Reviewed | — | — |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |
@@ -1713,6 +1717,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | — | — |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | — | — |
 | [Moonshine Voice On-Device Speech Recognition and Voice Commands](skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps… | Security Reviewed | — | — |
+| [Mux Node SDK for Video and Streaming API Workflows](skills/mux-node-sdk-video-and-streaming-api-workflows/) | An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or… | Published | — | — |
 | [OCRmyPDF Searchable PDF OCR Pipeline](skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | OCRmyPDF is an open source tool that adds a searchable OCR text layer to scanned PDFs. It is useful when an agent… | Security Reviewed | — | — |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | — | — |

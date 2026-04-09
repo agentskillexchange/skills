@@ -75,6 +75,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
+| [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
@@ -96,6 +97,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
 | [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | — | — |
+| [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | — | — |
 | [OCRmyPDF Searchable PDF OCR Pipeline](../../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
