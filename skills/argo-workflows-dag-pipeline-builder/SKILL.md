@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
-  github_stars: 16596
+  github_stars: 16600
 ---
 
 # Argo Workflows DAG Pipeline Builder

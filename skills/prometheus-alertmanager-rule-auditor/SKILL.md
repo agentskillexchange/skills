@@ -9,7 +9,7 @@ framework:
   - "Gemini"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
-  github_stars: 8405
+  github_stars: 8403
 ---
 
 # Prometheus Alertmanager Rule Auditor

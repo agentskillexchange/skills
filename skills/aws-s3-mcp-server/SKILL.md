@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3602
+  github_stars: 3604
 ---
 
 # AWS S3 MCP Server

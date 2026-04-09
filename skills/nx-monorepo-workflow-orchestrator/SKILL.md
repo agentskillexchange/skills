@@ -9,7 +9,7 @@ framework:
   - "Cursor"
 tool_ecosystem:
   github_repo: "nrwl/nx"
-  github_stars: 28473
+  github_stars: 28496
 ---
 
 # Nx Monorepo Workflow Orchestrator

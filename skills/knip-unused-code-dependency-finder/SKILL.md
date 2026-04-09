@@ -11,6 +11,7 @@ tool_ecosystem:
   github_repo: "webpro-nl/knip"
   github_stars: 10806
   npm_package: "knip"
+  npm_weekly_downloads: 5097667
 ---
 
 # Knip Unused Code and Dependency Finder

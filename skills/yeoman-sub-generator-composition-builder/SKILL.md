@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3953
   npm_package: "yo"
-  npm_weekly_downloads: 391867
+  npm_weekly_downloads: 343306
 ---
 
 # Yeoman Sub-Generator Composition Builder

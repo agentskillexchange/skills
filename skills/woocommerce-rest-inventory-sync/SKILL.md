@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
-  github_stars: 10233
+  github_stars: 10243
 ---
 
 # WooCommerce REST Inventory Sync

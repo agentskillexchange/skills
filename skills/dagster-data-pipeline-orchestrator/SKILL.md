@@ -10,7 +10,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "dagster-io/dagster"
-  github_stars: 15185
+  github_stars: 15257
 ---
 
 # Dagster Data Pipeline Orchestrator

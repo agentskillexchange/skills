@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "actions/setup-node"
-  github_stars: 4734
+  github_stars: 4738
 ---
 
 # GitHub Actions Matrix Strategy Builder

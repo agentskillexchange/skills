@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "antonmedv/fx"
   github_stars: 20376
   npm_package: "fx"
-  npm_weekly_downloads: 199995
+  npm_weekly_downloads: 190694
 ---
 
 # fx Terminal JSON Viewer and Processor

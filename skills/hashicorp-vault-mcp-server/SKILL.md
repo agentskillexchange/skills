@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/vault-mcp-server"
-  github_stars: 40
+  github_stars: 42
 ---
 
 # HashiCorp Vault MCP Server

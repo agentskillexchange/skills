@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "certbot/certbot"
-  github_stars: 32959
+  github_stars: 32972
 ---
 
 # WP Multisite Domain Mapping Agent

@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
-  github_stars: 22484
+  github_stars: 22518
 ---
 
 # ArgoCD GitOps Sync Automator

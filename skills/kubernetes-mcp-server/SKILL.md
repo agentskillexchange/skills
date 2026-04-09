@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
-  github_stars: 121504
+  github_stars: 121613
 ---
 
 # Kubernetes MCP Server

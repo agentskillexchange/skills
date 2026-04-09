@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "nushell/nushell"
   github_stars: 38872
   npm_package: "nushell"
-  npm_weekly_downloads: 6213
+  npm_weekly_downloads: 4961
 ---
 
 # Nushell Structured Data Shell

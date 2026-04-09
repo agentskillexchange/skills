@@ -9,7 +9,7 @@ framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "backstage/backstage"
-  github_stars: 33001
+  github_stars: 33052
 ---
 
 # Backstage Software Template Composer

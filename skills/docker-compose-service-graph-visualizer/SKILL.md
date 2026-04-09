@@ -10,7 +10,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docker/compose"
-  github_stars: 37211
+  github_stars: 37227
 ---
 
 # Docker Compose Service Graph Visualizer

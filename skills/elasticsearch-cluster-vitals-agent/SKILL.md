@@ -9,7 +9,7 @@ framework:
   - "Claude Agents"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
-  github_stars: 76426
+  github_stars: 76475
 ---
 
 # ElasticSearch Cluster Vitals Agent

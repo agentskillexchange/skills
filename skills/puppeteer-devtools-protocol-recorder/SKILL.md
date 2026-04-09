@@ -9,7 +9,7 @@ framework:
   - "Cursor"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
-  github_stars: 94012
+  github_stars: 94051
 ---
 
 # Puppeteer DevTools Protocol Recorder

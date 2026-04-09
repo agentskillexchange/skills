@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 97065
+  github_stars: 97391
 ---
 
 # Podcast RSS Feed Transcriber

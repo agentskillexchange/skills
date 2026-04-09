@@ -1,7 +1,7 @@
 ---
 title: "AFFiNE Knowledge Base and Collaborative Workspace Platform"
 description: "AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This skill is useful when an agent needs to structure notes, maintain linked knowledge, or automate content workflows around AFFiNE workspaces and self-hosted deployments."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/toeverything/AFFiNE"
 category:
   - "Calendar, Email & Productivity"

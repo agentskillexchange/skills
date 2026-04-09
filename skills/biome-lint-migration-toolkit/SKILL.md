@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "biomejs/biome"
-  github_stars: 24199
+  github_stars: 24293
 ---
 
 # Biome Lint Migration Toolkit

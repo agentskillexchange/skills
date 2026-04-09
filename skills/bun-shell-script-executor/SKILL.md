@@ -9,7 +9,7 @@ framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "oven-sh/bun"
-  github_stars: 88702
+  github_stars: 88912
 ---
 
 # Bun Shell Script Executor

@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "oxc-project/oxc"
   github_stars: 20468
   npm_package: "oxlint"
-  npm_weekly_downloads: 4078753
+  npm_weekly_downloads: 4002003
 ---
 
 # Oxlint High-Performance JavaScript Linter

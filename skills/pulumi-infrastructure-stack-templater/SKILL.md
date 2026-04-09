@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
-  github_stars: 24935
+  github_stars: 24984
 ---
 
 # Pulumi Infrastructure Stack Templater

@@ -11,7 +11,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "sqlfluff/sqlfluff"
-  github_stars: 9609
+  github_stars: 9635
 ---
 
 # SQLFluff SQL Linter and Auto-Formatter

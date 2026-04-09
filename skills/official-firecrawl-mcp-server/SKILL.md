@@ -11,6 +11,7 @@ tool_ecosystem:
   github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 5985
   npm_package: "firecrawl-mcp"
+  npm_weekly_downloads: 29710
 ---
 
 # Official Firecrawl MCP Server

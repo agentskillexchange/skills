@@ -9,7 +9,7 @@ framework:
   - "Gemini"
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
-  github_stars: 1288
+  github_stars: 1294
 ---
 
 # WASM Component Model Linker

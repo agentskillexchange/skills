@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "amacneil/dbmate"
   github_stars: 6801
   npm_package: "dbmate"
-  npm_weekly_downloads: 83711
+  npm_weekly_downloads: 83734
 ---
 
 # dbmate Lightweight Database Migration CLI

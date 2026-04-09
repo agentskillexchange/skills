@@ -9,7 +9,7 @@ framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
-  github_stars: 14684
+  github_stars: 14731
 ---
 
 # Semgrep Code Scanner

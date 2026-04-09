@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "evilmartians/lefthook"
   github_stars: 7894
   npm_package: "lefthook"
-  npm_weekly_downloads: 1544173
+  npm_weekly_downloads: 1434168
 ---
 
 # Lefthook Git Hooks Manager

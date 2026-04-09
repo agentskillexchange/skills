@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "yamadashy/repomix"
   github_stars: 22816
   npm_package: "repomix"
-  npm_weekly_downloads: 53783
+  npm_weekly_downloads: 53411
 ---
 
 # Repomix Codebase Context Packer for LLMs

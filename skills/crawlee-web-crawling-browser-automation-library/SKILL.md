@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22591
   npm_package: "crawlee"
-  npm_weekly_downloads: 77611
+  npm_weekly_downloads: 74337
 ---
 
 # Crawlee Web Crawling and Browser Automation Library

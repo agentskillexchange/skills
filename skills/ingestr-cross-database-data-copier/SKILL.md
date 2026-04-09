@@ -11,7 +11,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "bruin-data/ingestr"
-  github_stars: 3438
+  github_stars: 3442
 ---
 
 # Ingestr Cross-Database Data Copier

@@ -11,6 +11,7 @@ tool_ecosystem:
   github_repo: "PagerDuty/pdjs"
   github_stars: 69
   npm_package: "@pagerduty/pdjs"
+  npm_weekly_downloads: 206762
 ---
 
 # PagerDuty MCP Server

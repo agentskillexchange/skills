@@ -9,8 +9,9 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
-  github_stars: 49613
+  github_stars: 49609
   npm_package: "cypress"
+  npm_weekly_downloads: 6456036
 ---
 
 # Cypress Component Testing Framework

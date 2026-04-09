@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "pnpm/pnpm"
   github_stars: 34426
   npm_package: "pnpm"
-  npm_weekly_downloads: 64625737
+  npm_weekly_downloads: 59943100
 ---
 
 # pnpm Fast Disk-Efficient Package Manager
