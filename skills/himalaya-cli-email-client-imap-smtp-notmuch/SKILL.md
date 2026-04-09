@@ -1,8 +1,7 @@
 ---
 title: "Himalaya CLI Email Client for IMAP SMTP and Notmuch"
 description: "Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for sending. It features multi-account configuration, PGP encryption, OAuth 2.0, system keyring integration, and JSON output for scripting and agent automation."
-slug: "himalaya-cli-email-client-imap-smtp-notmuch"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pimalaya/himalaya"
 category:
   - "Calendar, Email & Productivity"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "pimalaya/himalaya"
   github_stars: 5825
 ---
+
 # Himalaya CLI Email Client for IMAP SMTP and Notmuch
 
 Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for sending. It features multi-account configuration, PGP encryption, OAuth 2.0, system keyring integration, and JSON output for scripting and agent automation.
@@ -20,11 +20,11 @@ Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

@@ -1,8 +1,7 @@
 ---
 title: "Lottie Animation Optimizer"
 description: "Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS)."
-slug: "lottie-animation-optimizer"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/airbnb/lottie-web"
 category:
   - "Image & Creative Automation"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31794
 ---
+
 # Lottie Animation Optimizer
 
 Analyzes and optimizes Lottie JSON animation files using lottie-web parser internals, reduces file size via keyframe deduplication and path simplification, and validates against the Telegram Lottie sticker spec (TGS).
@@ -20,11 +20,11 @@ Analyzes and optimizes Lottie JSON animation files using lottie-web parser inter
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

@@ -1,8 +1,7 @@
 ---
 title: "Woodpecker CI Self-Hosted Continuous Integration Engine"
 description: "Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for extensibility, uses minimal resources, and is the CI engine behind Codeberg."
-slug: "woodpecker-ci-self-hosted-continuous-integration"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/woodpecker-ci/woodpecker"
 category:
   - "CI/CD Integrations"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "woodpecker-ci/woodpecker"
   github_stars: 6760
 ---
+
 # Woodpecker CI Self-Hosted Continuous Integration Engine
 
 Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for extensibility, uses minimal resources, and is the CI engine behind Codeberg.
@@ -20,11 +20,11 @@ Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

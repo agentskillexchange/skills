@@ -1,8 +1,7 @@
 ---
 title: "WebdriverIO Next-Gen Browser and Mobile Automation Framework"
 description: "WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing."
-slug: "webdriverio-browser-mobile-automation-framework"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/webdriverio/webdriverio"
 category:
   - "Browser Automation"
@@ -14,6 +13,7 @@ tool_ecosystem:
   npm_package: "webdriverio"
   npm_weekly_downloads: 2428870
 ---
+
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework
 
 WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver, WebDriver BiDi, and Appium protocols with built-in test runner, BDD/TDD frameworks, and cloud service integration for cross-browser and mobile testing.
@@ -22,11 +22,11 @@ WebdriverIO is a next-generation browser and mobile automation test framework fo
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

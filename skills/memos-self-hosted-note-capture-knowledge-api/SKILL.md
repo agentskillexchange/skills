@@ -1,8 +1,7 @@
 ---
 title: "Memos Self-Hosted Note Capture and Knowledge API"
 description: "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos programmatically for knowledge management and quick capture workflows."
-slug: "memos-self-hosted-note-capture-knowledge-api"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/usememos/memos"
 category:
   - "Calendar, Email & Productivity"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "usememos/memos"
   github_stars: 58453
 ---
+
 # Memos Self-Hosted Note Capture and Knowledge API
 
 Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos programmatically for knowledge management and quick capture workflows.
@@ -20,11 +20,11 @@ Enable AI agents to interact with Memos, an open-source self-hosted note-taking 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

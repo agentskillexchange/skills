@@ -1,14 +1,14 @@
 ---
 title: "Buildkite Dynamic Pipeline Architect"
 description: "Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff."
-slug: "buildkite-dynamic-pipeline-architect"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Cursor"
 ---
+
 # Buildkite Dynamic Pipeline Architect
 
 Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline upload mechanism. Implements conditional step generation based on file change detection via git diff.
@@ -17,11 +17,11 @@ Creates dynamic Buildkite pipelines using the Buildkite REST API and pipeline up
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

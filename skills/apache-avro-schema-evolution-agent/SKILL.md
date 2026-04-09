@@ -1,14 +1,14 @@
 ---
 title: "Apache Avro Schema Evolution Agent"
 description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
-slug: "apache-avro-schema-evolution-agent"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "MCP"
 ---
+
 # Apache Avro Schema Evolution Agent
 
 Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically.
@@ -17,11 +17,11 @@ Manages Apache Avro schema evolution with compatibility checking via Confluent S
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

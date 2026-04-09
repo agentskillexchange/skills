@@ -1,8 +1,7 @@
 ---
 title: "Ingestr Cross-Database Data Copier"
 description: "Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3."
-slug: "ingestr-cross-database-data-copier"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/bruin-data/ingestr"
 category:
   - "Data Extraction & Transformation"
@@ -14,6 +13,7 @@ tool_ecosystem:
   github_repo: "bruin-data/ingestr"
   github_stars: 3442
 ---
+
 # Ingestr Cross-Database Data Copier
 
 Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations including PostgreSQL, MySQL, BigQuery, Snowflake, DuckDB, MongoDB, and S3.
@@ -22,11 +22,11 @@ Copy data between any databases with a single CLI command using Ingestr. Support
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

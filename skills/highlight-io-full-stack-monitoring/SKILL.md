@@ -1,14 +1,14 @@
 ---
 title: "Highlight.io Open Source Full-Stack Monitoring Platform"
 description: "Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend."
-slug: "highlight-io-full-stack-monitoring"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/highlight/highlight"
 category:
   - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
 ---
+
 # Highlight.io Open Source Full-Stack Monitoring Platform
 
 Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend.
@@ -17,11 +17,11 @@ Highlight.io is an open-source full-stack monitoring platform combining session 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

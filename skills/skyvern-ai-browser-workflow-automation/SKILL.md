@@ -1,14 +1,17 @@
 ---
 title: "Skyvern AI Browser Workflow Automation with LLMs and Computer Vision"
 description: "Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that interacts with websites visually rather than via DOM selectors, making automations resistant to layout changes and capable of operating on never-before-seen websites."
-slug: "skyvern-ai-browser-workflow-automation"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Skyvern-AI/skyvern"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "skyvern-ai/skyvern"
+  github_stars: 20997
 ---
+
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
 
 Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that interacts with websites visually rather than via DOM selectors, making automations resistant to layout changes and capable of operating on never-before-seen websites.
@@ -17,11 +20,11 @@ Skyvern automates browser-based workflows using LLMs and computer vision. It pro
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

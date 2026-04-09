@@ -1,8 +1,7 @@
 ---
 title: "act Local GitHub Actions Runner"
 description: "act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. With 57,000+ stars on GitHub, it is the standard tool for local Actions development and testing."
-slug: "act-local-github-actions-runner"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nektos/act"
 category:
   - "CI/CD Integrations"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "nektos/act"
   github_stars: 69661
 ---
+
 # act Local GitHub Actions Runner
 
 act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. With 57,000+ stars on GitHub, it is the standard tool for local Actions development and testing.
@@ -20,11 +20,11 @@ act is an open-source CLI tool that runs GitHub Actions workflows locally using 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

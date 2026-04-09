@@ -1,14 +1,14 @@
 ---
 title: "Logdy Real-Time Log Viewer with Web UI and CLI"
 description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
-slug: "logdy-realtime-log-viewer-web-ui-cli"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/logdyhq/logdy-core"
 category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---
+
 # Logdy Real-Time Log Viewer with Web UI and CLI
 
 Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs.
@@ -17,11 +17,11 @@ Logdy is a zero-dependency single-binary log viewer that pipes any command outpu
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

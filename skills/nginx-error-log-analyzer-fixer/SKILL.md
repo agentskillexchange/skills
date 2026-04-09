@@ -1,14 +1,14 @@
 ---
 title: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-slug: "nginx-error-log-analyzer-fixer"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
 category:
   - "Runbooks & Diagnostics"
 framework:
   - "Claude Agents"
 ---
+
 # Nginx Error Log Analyzer and Fixer
 
 Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation.
@@ -17,11 +17,11 @@ Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Us
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

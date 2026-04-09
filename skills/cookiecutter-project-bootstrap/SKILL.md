@@ -1,14 +1,14 @@
 ---
 title: "Cookiecutter Project Bootstrap"
 description: "Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine."
-slug: "cookiecutter-project-bootstrap"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
 category:
   - "Templates & Workflows"
 framework:
   - "MCP"
 ---
+
 # Cookiecutter Project Bootstrap
 
 Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine.
@@ -17,11 +17,11 @@ Bootstraps new projects from Cookiecutter templates with variable substitution a
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

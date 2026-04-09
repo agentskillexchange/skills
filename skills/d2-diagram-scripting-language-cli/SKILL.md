@@ -1,8 +1,7 @@
 ---
 title: "D2 Modern Diagram Scripting Language and CLI"
 description: "D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into SVG, PNG, and PDF outputs with automatic layout, multiple themes, and support for sequence diagrams, class diagrams, and network topologies."
-slug: "d2-diagram-scripting-language-cli"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/terrastruct/d2"
 category:
   - "Developer Tools"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "terrastruct/d2"
   github_stars: 23316
 ---
+
 # D2 Modern Diagram Scripting Language and CLI
 
 D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into SVG, PNG, and PDF outputs with automatic layout, multiple themes, and support for sequence diagrams, class diagrams, and network topologies.
@@ -20,11 +20,11 @@ D2 is a modern diagram scripting language that turns text into diagrams. It comp
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

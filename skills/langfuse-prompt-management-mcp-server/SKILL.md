@@ -1,8 +1,7 @@
 ---
 title: "Langfuse Prompt Management MCP Server"
 description: "Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It is useful for teams that keep prompts in Langfuse and want assistants to consume production prompt definitions instead of copying templates by hand."
-slug: "langfuse-prompt-management-mcp-server"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/langfuse/mcp-server-langfuse"
 category:
   - "Templates & Workflows"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "langfuse/mcp-server-langfuse"
   github_stars: 159
 ---
+
 # Langfuse Prompt Management MCP Server
 
 Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It is useful for teams that keep prompts in Langfuse and want assistants to consume production prompt definitions instead of copying templates by hand.
@@ -20,11 +20,11 @@ Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt li
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

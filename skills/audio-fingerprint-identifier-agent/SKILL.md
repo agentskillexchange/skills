@@ -1,14 +1,14 @@
 ---
 title: "Audio Fingerprint Identifier"
 description: "Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases."
-slug: "audio-fingerprint-identifier-agent"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
 category:
   - "Media & Transcription"
 framework:
   - "OpenClaw"
 ---
+
 # Audio Fingerprint Identifier
 
 Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases.
@@ -17,11 +17,11 @@ Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API r
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

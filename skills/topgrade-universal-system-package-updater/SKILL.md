@@ -1,8 +1,7 @@
 ---
 title: "Topgrade Universal System Package Updater"
 description: "Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more."
-slug: "topgrade-universal-system-package-updater"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/topgrade-rs/topgrade"
 category:
   - "Developer Tools"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "topgrade-rs/topgrade"
   github_stars: 3619
 ---
+
 # Topgrade Universal System Package Updater
 
 Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more.
@@ -20,11 +20,11 @@ Topgrade is a CLI tool written in Rust that detects all package managers and upd
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

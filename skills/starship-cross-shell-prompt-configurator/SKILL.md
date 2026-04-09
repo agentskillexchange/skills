@@ -1,8 +1,7 @@
 ---
 title: "Starship Cross-Shell Prompt Configurator"
 description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell, Ion, Elvish, Tcsh, Nushell, and Xonsh."
-slug: "starship-cross-shell-prompt-configurator"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/starship/starship"
 category:
   - "Developer Tools"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "starship/starship"
   github_stars: 55675
 ---
+
 # Starship Cross-Shell Prompt Configurator
 
 The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell, Ion, Elvish, Tcsh, Nushell, and Xonsh.
@@ -20,11 +20,11 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell. Sta
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

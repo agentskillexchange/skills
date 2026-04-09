@@ -1,8 +1,7 @@
 ---
 title: "pnpm Fast Disk-Efficient Package Manager"
 description: "pnpm is a fast, disk space efficient package manager for Node.js that uses a content-addressable storage and hard links to deduplicate dependencies. With over 33,000 GitHub stars and adoption by Microsoft, Vue, and other major organizations, pnpm provides strict dependency isolation and monorepo workspace support."
-slug: "pnpm-fast-disk-efficient-package-manager"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/pnpm/pnpm"
 category:
   - "Developer Tools"
@@ -14,6 +13,7 @@ tool_ecosystem:
   npm_package: "pnpm"
   npm_weekly_downloads: 59943100
 ---
+
 # pnpm Fast Disk-Efficient Package Manager
 
 pnpm is a fast, disk space efficient package manager for Node.js that uses a content-addressable storage and hard links to deduplicate dependencies. With over 33,000 GitHub stars and adoption by Microsoft, Vue, and other major organizations, pnpm provides strict dependency isolation and monorepo workspace support.
@@ -22,11 +22,11 @@ pnpm is a fast, disk space efficient package manager for Node.js that uses a con
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

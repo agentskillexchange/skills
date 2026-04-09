@@ -1,14 +1,14 @@
 ---
 title: "HashiCorp Vault Secrets Rotation Agent"
 description: "Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies."
-slug: "hashicorp-vault-secrets-rotation-agent-2"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
 category:
   - "Security & Verification"
 framework:
   - "MCP"
 ---
+
 # HashiCorp Vault Secrets Rotation Agent
 
 Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database credential leases, PKI certificate renewal, and AWS STS token generation with TTL policies.
@@ -17,11 +17,11 @@ Automates secret rotation in HashiCorp Vault using the Vault API and dynamic sec
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

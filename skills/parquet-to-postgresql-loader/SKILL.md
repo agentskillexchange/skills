@@ -1,14 +1,14 @@
 ---
 title: "Parquet to PostgreSQL Loader"
 description: "Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental upserts with conflict resolution."
-slug: "parquet-to-postgresql-loader"
-verification: "listed"
+verification: listed
 source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "Claude Agents"
 ---
+
 # Parquet to PostgreSQL Loader
 
 Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles schema mapping, partitioned datasets, and incremental upserts with conflict resolution.
@@ -17,11 +17,11 @@ Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

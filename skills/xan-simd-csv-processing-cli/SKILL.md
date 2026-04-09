@@ -1,8 +1,7 @@
 ---
 title: "xan SIMD-Powered CSV Processing and Analysis CLI"
 description: "xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation, sorting, joining, and visualization of CSV data, with its own expression language for complex transformations and support for adjacent data formats."
-slug: "xan-simd-csv-processing-cli"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/medialab/xan"
 category:
   - "Data Extraction & Transformation"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "medialab/xan"
   github_stars: 3882
 ---
+
 # xan SIMD-Powered CSV Processing and Analysis CLI
 
 xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser. It offers filtering, slicing, aggregation, sorting, joining, and visualization of CSV data, with its own expression language for complex transformations and support for adjacent data formats.
@@ -20,11 +20,11 @@ xan is a high-performance command-line tool for processing CSV files, written in
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

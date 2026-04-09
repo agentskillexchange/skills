@@ -1,8 +1,7 @@
 ---
 title: "Vosk Offline Speech Recognition Toolkit"
 description: "Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies."
-slug: "vosk-offline-speech-recognition-toolkit"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/alphacep/vosk-api"
 category:
   - "Media & Transcription"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "alphacep/vosk-api"
   github_stars: 14474
 ---
+
 # Vosk Offline Speech Recognition Toolkit
 
 Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies.
@@ -20,11 +20,11 @@ Perform offline speech recognition across 20+ languages with Vosk. Provides comp
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

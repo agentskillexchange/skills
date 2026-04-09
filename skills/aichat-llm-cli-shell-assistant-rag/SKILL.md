@@ -1,8 +1,7 @@
 ---
 title: "AIChat All-in-One LLM CLI with Shell Assistant and RAG"
 description: "AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a single binary. It connects to 20+ LLM providers including OpenAI, Claude, Gemini, and Ollama."
-slug: "aichat-llm-cli-shell-assistant-rag"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sigoden/aichat"
 category:
   - "Developer Tools"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "sigoden/aichat"
   github_stars: 9754
 ---
+
 # AIChat All-in-One LLM CLI with Shell Assistant and RAG
 
 AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a single binary. It connects to 20+ LLM providers including OpenAI, Claude, Gemini, and Ollama.
@@ -20,11 +20,11 @@ AIChat is a comprehensive LLM command-line tool written in Rust that combines ch
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

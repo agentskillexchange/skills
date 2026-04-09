@@ -1,8 +1,7 @@
 ---
 title: "Repomix Codebase Context Packer for LLMs"
 description: "Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format."
-slug: "repomix-codebase-context-packer-llm"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/yamadashy/repomix"
 category:
   - "Developer Tools"
@@ -14,6 +13,7 @@ tool_ecosystem:
   npm_package: "repomix"
   npm_weekly_downloads: 53411
 ---
+
 # Repomix Codebase Context Packer for LLMs
 
 Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format.
@@ -22,11 +22,11 @@ Repomix packs an entire code repository into a single AI-friendly file optimized
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

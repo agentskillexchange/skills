@@ -1,8 +1,7 @@
 ---
 title: "Query Monitor WordPress Developer Tools Panel"
 description: "Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme."
-slug: "query-monitor-wordpress-developer-tools-panel"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/johnbillion/query-monitor"
 category:
   - "WordPress & CMS"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "johnbillion/query-monitor"
   github_stars: 1743
 ---
+
 # Query Monitor WordPress Developer Tools Panel
 
 Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme.
@@ -20,11 +20,11 @@ Query Monitor is the developer tools panel for WordPress and WooCommerce. It ena
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

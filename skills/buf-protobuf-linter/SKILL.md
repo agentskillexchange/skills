@@ -1,14 +1,14 @@
 ---
 title: "Buf Protobuf Linter"
 description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
-slug: "buf-protobuf-linter"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
 category:
   - "Library & API Reference"
 framework:
   - "Claude Code"
 ---
+
 # Buf Protobuf Linter
 
 Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration.
@@ -17,11 +17,11 @@ Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC s
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

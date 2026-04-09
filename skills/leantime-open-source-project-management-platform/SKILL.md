@@ -1,14 +1,17 @@
 ---
 title: "Leantime Open Source Goals-Focused Project Management Platform"
 description: "Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind."
-slug: "leantime-open-source-project-management-platform"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Leantime/leantime"
 category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "leantime/leantime"
+  github_stars: 9460
 ---
+
 # Leantime Open Source Goals-Focused Project Management Platform
 
 Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built with ADHD, autism, and dyslexia accessibility in mind.
@@ -17,11 +20,11 @@ Leantime is an open-source project management system designed for non-project ma
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

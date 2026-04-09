@@ -1,14 +1,14 @@
 ---
 title: "Jenkins Shared Library Auditor"
 description: "Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries."
-slug: "jenkins-shared-library-auditor-agent"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Cursor"
 ---
+
 # Jenkins Shared Library Auditor
 
 Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries.
@@ -17,11 +17,11 @@ Audits Jenkins shared libraries for security vulnerabilities using the Jenkins S
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

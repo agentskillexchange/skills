@@ -1,8 +1,7 @@
 ---
 title: "Instructor Structured Data Extraction from LLMs"
 description: "Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers including OpenAI, Anthropic, and Google."
-slug: "instructor-structured-data-extraction-llms"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/567-labs/instructor"
 category:
   - "Data Extraction & Transformation"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "567-labs/instructor"
   github_stars: 12666
 ---
+
 # Instructor Structured Data Extraction from LLMs
 
 Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or Zod schemas (TypeScript) instead of raw text, supporting 15+ providers including OpenAI, Anthropic, and Google.
@@ -20,11 +20,11 @@ Instructor is a multi-language library for extracting structured, validated data
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

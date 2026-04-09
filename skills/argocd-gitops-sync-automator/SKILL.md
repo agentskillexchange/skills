@@ -1,8 +1,7 @@
 ---
 title: "ArgoCD GitOps Sync Automator"
 description: "Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments."
-slug: "argocd-gitops-sync-automator"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/argoproj/argo-cd"
 category:
   - "CI/CD Integrations"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22518
 ---
+
 # ArgoCD GitOps Sync Automator
 
 Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments.
@@ -20,11 +20,11 @@ Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

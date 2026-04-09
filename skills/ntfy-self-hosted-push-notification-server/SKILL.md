@@ -1,8 +1,7 @@
 ---
 title: "ntfy Self-Hosted Push Notification Server"
 description: "ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices."
-slug: "ntfy-self-hosted-push-notification-server"
-verification: "listed"
+verification: listed
 source: "https://github.com/binwiederhier/ntfy"
 category:
   - "Integrations & Connectors"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "binwiederhier/ntfy"
   github_stars: 29493
 ---
+
 # ntfy Self-Hosted Push Notification Server
 
 ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices.
@@ -20,11 +20,11 @@ ntfy is an open-source HTTP-based pub-sub notification service that lets you sen
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

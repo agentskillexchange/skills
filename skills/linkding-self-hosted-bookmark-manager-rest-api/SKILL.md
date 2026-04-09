@@ -1,8 +1,7 @@
 ---
 title: "linkding Self-Hosted Bookmark Manager with REST API"
 description: "linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python."
-slug: "linkding-self-hosted-bookmark-manager-rest-api"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sissbruecker/linkding"
 category:
   - "Research & Scraping"
@@ -12,6 +11,7 @@ tool_ecosystem:
   github_repo: "sissbruecker/linkding"
   github_stars: 10379
 ---
+
 # linkding Self-Hosted Bookmark Manager with REST API
 
 linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python.
@@ -20,11 +20,11 @@ linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, 
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

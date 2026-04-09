@@ -1,8 +1,7 @@
 ---
 title: "JSDoc JavaScript API Documentation Generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
-slug: "jsdoc-javascript-api-documentation-generator"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/jsdoc/jsdoc"
 category:
   - "Library & API Reference"
@@ -14,6 +13,7 @@ tool_ecosystem:
   npm_package: "jsdoc"
   npm_weekly_downloads: 2663272
 ---
+
 # JSDoc JavaScript API Documentation Generator
 
 JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem.
@@ -22,11 +22,11 @@ JSDoc is the standard API documentation generator for JavaScript. It parses spec
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

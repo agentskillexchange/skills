@@ -1,14 +1,14 @@
 ---
 title: "DALL-E Prompt Chain Generator"
 description: "Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting."
-slug: "dalle-prompt-chain-generator"
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dalle-prompt-chain-generator/"
 category:
   - "Image & Creative Automation"
 framework:
   - "ChatGPT Agents"
 ---
+
 # DALL-E Prompt Chain Generator
 
 Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters. Chains edits via the images/edits endpoint with mask-based inpainting.
@@ -17,11 +17,11 @@ Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with s
 
 Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Add as a local skill folder
-3. Install from a Git repository
-4. Install via package manager if supported
-5. Copy the skill into your OpenClaw skills directory
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
