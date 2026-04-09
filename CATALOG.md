@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1804 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-09 03:38 UTC
+> **1807 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-09 05:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (245 skills)
+### 🛠️ Developer Tools (246 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -187,6 +187,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 842 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 385 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
+| [Amplication Open Source Backend Generation Platform](skills/amplication-open-source-backend-generation-platform/) | Amplication is an open source developer platform for generating production-ready backend services and scaffolding… | Published | — | — |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](skills/appsmith-open-source-internal-tools-admin-panel-builder/) | Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases… | Security Reviewed | — | — |
 | [Baserow Open Source No-Code Database and Automation Platform](skills/baserow-open-source-no-code-database-automation-platform/) | Baserow is an open-source no-code platform for databases, automations, internal apps, and API-first workflows. It is… | Published | — | — |
@@ -1045,7 +1046,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (96 skills)
+### ✅ Code Quality & Review (97 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1106,6 +1107,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
 | [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | — | — |
 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Keploy API Test Generation and Regression Testing Platform](skills/keploy-api-test-generation-regression-testing-platform/) | Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This… | Published | — | — |
 | [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | — | — |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | — | — |
@@ -1149,7 +1151,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (96 skills)
+### 📅 Calendar, Email & Productivity (97 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1194,6 +1196,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 518 | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](skills/activitywatch-automated-time-tracker/) | ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser… | Security Reviewed | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
+| [AFFiNE Knowledge Base and Collaborative Workspace Platform](skills/affine-knowledge-base-collaborative-workspace-platform/) | AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This… | Published | — | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
@@ -1369,9 +1372,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](skills/photon-osint-web-crawler/) | Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social… | Security Reviewed | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](skills/instaloader-instagram-content-metadata-downloader/) | Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights,… | Security Reviewed | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
+| [Official Firecrawl MCP Server](skills/official-firecrawl-mcp-server/) | Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP… | Security Reviewed | 6k | — |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](skills/recon-ng-web-reconnaissance-framework/) | Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open… | Security Reviewed | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](skills/pagefind-static-low-bandwidth-search-engine/) | Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring… | Security Reviewed | 5.1k | 464.7k/wk |
+| [Bright Data Web MCP Live Web Access and Scraping Tools](skills/bright-data-web-mcp-live-web-access-scraping-tools/) | Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access… | Security Reviewed | 3.2k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](skills/shot-scraper-automated-website-screenshot-scraping-cli/) | shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing… | Security Reviewed | 2.3k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | 1.6k | 47.9k/wk |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](skills/agentql-natural-language-web-query-sdk-extraction-automation/) | AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of… | Security Reviewed | 1.3k | 953/wk |
@@ -1386,7 +1391,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Apify Actor Web Intelligence Agent](skills/apify-actor-web-intelligence-agent/) | Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset… | Security Reviewed | — | — |
 | [Apify Web Scraper Orchestrator](skills/apify-web-scraper-orchestrator-3/) | Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset… | Security Reviewed | — | — |
 | [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
-| [Bright Data Web MCP Live Web Access and Scraping Tools](skills/bright-data-web-mcp-live-web-access-scraping-tools/) | Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access… | Security Reviewed | — | — |
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
 | [Censys Attack Surface Monitor](skills/censys-attack-surface-monitor/) | Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks… | Security Reviewed | — | — |
 | [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Security Reviewed | — | — |
@@ -1407,7 +1411,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
 | [Linkwarden Collaborative Bookmark Archive and Preservation Platform](skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research… | Published | — | — |
 | [Newspaper4k Python Article Extraction and NLP Library](skills/newspaper4k-python-article-extraction-nlp/) | Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles,… | Security Reviewed | — | — |
-| [Official Firecrawl MCP Server](skills/official-firecrawl-mcp-server/) | Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Security Reviewed | — | — |
 | [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Security Reviewed | — | — |
 | [Playwright Network Interceptor](skills/playwright-network-interceptor/) | Intercepts and analyzes network traffic using Playwright route handlers for API response capture and modification.… | Security Reviewed | — | — |
@@ -1483,12 +1486,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [wp-browser WordPress Integration Testing with Codeception](skills/wp-browser-wordpress-integration-testing-codeception/) | wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports… | Security Reviewed | 634 | — |
 | [Contentful Management API and JavaScript SDK](skills/contentful-management-api-and-javascript-sdk/) | Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets,… | Security Reviewed | 286 | 643.1k/wk |
 | [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | 137 | — |
+| [Automattic WordPress Remote MCP](skills/automattic-wordpress-remote-mcp/) | Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application… | Security Reviewed | 131 | — |
 | [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Security Reviewed | — | 46.8k/wk |
 | [ACF Custom Fields REST Exposer](skills/acf-custom-fields-rest-exposer/) | Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value.… | Security Reviewed | — | — |
 | [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | — | — |
 | [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | — | — |
 | [AI Engine WordPress MCP Server and AI Automation](skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while… | Security Reviewed | — | — |
-| [Automattic WordPress Remote MCP](skills/automattic-wordpress-remote-mcp/) | Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application… | Security Reviewed | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](skills/contact-form-7-wordpress-form-builder-mail-integration/) | Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active… | Security Reviewed | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](skills/directus-sql-native-headless-cms-internal-app-platform/) | Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary… | Security Reviewed | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](skills/elementor-website-builder-wordpress-visual-page-editor/) | Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than… | Security Reviewed | — | — |

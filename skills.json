@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1804,
+  "total": 1807,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "keploy-api-test-generation-regression-testing-platform",
+      "name": "Keploy API Test Generation and Regression Testing Platform",
+      "description": "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "amplication-open-source-backend-generation-platform",
+      "name": "Amplication Open Source Backend Generation Platform",
+      "description": "Amplication is an open source developer platform for generating production-ready backend services and scaffolding from a visual workflow. This skill fits agents that need…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "affine-knowledge-base-collaborative-workspace-platform",
+      "name": "AFFiNE Knowledge Base and Collaborative Workspace Platform",
+      "description": "AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This skill is useful when an agent needs…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "puppeteer-browser-automation-library",
       "name": "Puppeteer Browser Automation Library",
@@ -614,7 +650,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3234
+      }
     },
     {
       "slug": "chrome-mcp-server-extension-based-browser-automation-ai-agents",
@@ -794,7 +833,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5985
+      }
     },
     {
       "slug": "browserbase-mcp-server",
@@ -818,7 +860,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 131
+      }
     },
     {
       "slug": "microsoft-playwright-mcp",
