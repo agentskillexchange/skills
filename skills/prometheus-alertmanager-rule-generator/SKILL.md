@@ -1,28 +1,17 @@
 ---
-title: Prometheus AlertManager Rule Generator
-description: The Prometheus AlertManager Rule Generator converts natural language
-  alert descriptions into production-ready PromQL alerting rules and AlertManager
-  routing configurations. It uses the Prometheus HTTP API to validate queries against
-  live metric endpoints, ensuring rules match actual metric names and label sets.
-  The skill generates YAML rule groups compatible with Prometheus Operator PrometheusRule
-  CRDs and standalone rule_files configurations. It supports complex PromQL functions
-  including rate(), histogram_quantile(), predict_linear(), and absent(). AlertManager
-  routing trees are generated with proper grouping, inhibition rules, and receiver
-  configurations for Slack, PagerDuty, Opsgenie, and email. The skill includes a dry-run
-  mode that evaluates rules against the last 24 hours of data to estimate alert frequency,
-  preventing noisy alerting. It also handles recording rules for expensive queries
-  that need pre-computation.
+title: "Prometheus AlertManager Rule Generator"
+description: "Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation."
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
 
 # Prometheus AlertManager Rule Generator
 
-The Prometheus AlertManager Rule Generator converts natural language alert descriptions into production-ready PromQL alerting rules and AlertManager routing configurations. It uses the Prometheus HTTP API to validate queries against live metric endpoints, ensuring rules match actual metric names and label sets. The skill generates YAML rule groups compatible with Prometheus Operator PrometheusRule CRDs and standalone rule_files configurations. It supports complex PromQL functions including rate(), histogram_quantile(), predict_linear(), and absent(). AlertManager routing trees are generated with proper grouping, inhibition rules, and receiver configurations for Slack, PagerDuty, Opsgenie, and email. The skill includes a dry-run mode that evaluates rules against the last 24 hours of data to estimate alert frequency, preventing noisy alerting. It also handles recording rules for expensive queries that need pre-computation.
+Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation.
 
 ## Installation
 

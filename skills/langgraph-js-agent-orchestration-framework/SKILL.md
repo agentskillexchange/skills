@@ -1,17 +1,17 @@
 ---
-title: LangGraph.js Agent Orchestration Framework
-description: "LangGraph.js is LangChain’s JavaScript framework for building resilient language agents as graphs. The upstream documentation describes it as a low-level orchestration layer for controllable agents, with support for long-term memory, human-in-the-loop approvals, and token-by-token streaming."
+title: "LangGraph.js Agent Orchestration Framework"
+description: "A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points."
 verification: listed
-source: https://github.com/langchain-ai/langgraphjs
+source: "https://github.com/langchain-ai/langgraphjs"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
 
 # LangGraph.js Agent Orchestration Framework
 
-LangGraph.js is LangChain’s JavaScript framework for building resilient language agents as graphs. The upstream documentation describes it as a low-level orchestration layer for controllable agents, with support for long-term memory, human-in-the-loop approvals, and token-by-token streaming.
+A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points.
 
 ## Installation
 
