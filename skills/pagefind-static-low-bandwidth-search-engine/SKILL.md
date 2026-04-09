@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5094
   npm_package: "pagefind"
   npm_weekly_downloads: 464708
+  license: "MIT"
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine

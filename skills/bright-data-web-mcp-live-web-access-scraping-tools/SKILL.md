@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "browserbase/mcp-server-browserbase"
   github_stars: 3234
-  npm_package: "@browserbasehq/mcp"
 ---
 
 # Bright Data Web MCP Live Web Access and Scraping Tools

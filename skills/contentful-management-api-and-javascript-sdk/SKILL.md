@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 286
   npm_package: "contentful-management"
   npm_weekly_downloads: 655148
+  license: "MIT"
 ---
 
 # Contentful Management API and JavaScript SDK

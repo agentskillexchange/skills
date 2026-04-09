@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "facebookresearch/demucs"
   github_stars: 9943
+  license: "MIT"
 ---
 
 # Demucs Music Source Separation for Vocal and Stem Extraction

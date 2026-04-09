@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
+  license: "MIT"
 ---
 
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing

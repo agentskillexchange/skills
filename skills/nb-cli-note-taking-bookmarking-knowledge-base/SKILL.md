@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088
+  license: "AGPL-3.0"
 ---
 
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application

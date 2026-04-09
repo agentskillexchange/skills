@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "go-vikunja/vikunja"
   github_stars: 3768
+  license: "AGPL-3.0"
 ---
 
 # Vikunja Self-Hosted Task Management and Project Organization Platform

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "alphacep/vosk-api"
   github_stars: 14474
+  license: "Apache-2.0"
 ---
 
 # Vosk Offline Speech Recognition Toolkit

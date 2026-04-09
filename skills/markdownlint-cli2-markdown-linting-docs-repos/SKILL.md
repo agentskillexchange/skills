@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 740
   npm_package: "markdownlint-cli2"
   npm_weekly_downloads: 515847
+  license: "MIT"
 ---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos

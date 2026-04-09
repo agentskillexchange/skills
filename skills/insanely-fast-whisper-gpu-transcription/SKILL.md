@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "vaibhavs10/insanely-fast-whisper"
   github_stars: 12204
+  license: "Apache-2.0"
 ---
 
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI

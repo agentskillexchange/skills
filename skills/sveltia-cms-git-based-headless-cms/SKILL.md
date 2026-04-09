@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 2245
   npm_package: "@sveltia/cms"
   npm_weekly_downloads: 2404
+  license: "MIT"
 ---
 
 # Sveltia CMS Git-Based Headless Content Management System

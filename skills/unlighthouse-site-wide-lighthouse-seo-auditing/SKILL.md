@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 4469
   npm_package: "unlighthouse"
   npm_weekly_downloads: 15979
+  license: "MIT"
 ---
 
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing

@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 3857
   npm_package: "dprint"
   npm_weekly_downloads: 156508
+  license: "MIT"
 ---
 
 # dprint Pluggable High-Performance Code Formatting Platform

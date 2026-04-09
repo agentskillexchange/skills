@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5065
   npm_package: "write-good"
   npm_weekly_downloads: 48408
+  license: "MIT"
 ---
 
 # write-good English Prose Linting for Technical Content

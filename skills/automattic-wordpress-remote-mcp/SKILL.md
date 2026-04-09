@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "Automattic/mcp-wordpress-remote"
   github_stars: 131
-  npm_package: "@automattic/mcp-wordpress-remote"
 ---
 
 # Automattic WordPress Remote MCP

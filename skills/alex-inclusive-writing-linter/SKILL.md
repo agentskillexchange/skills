@@ -12,6 +12,7 @@ tool_ecosystem:
   github_stars: 5096
   npm_package: "alex"
   npm_weekly_downloads: 30845
+  license: "MIT"
 ---
 
 # alex Inclusive Writing Linter

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "pydantic/logfire"
   github_stars: 4154
+  license: "MIT"
 ---
 
 # Logfire Python Observability SDK for LLM and Agent Tracing

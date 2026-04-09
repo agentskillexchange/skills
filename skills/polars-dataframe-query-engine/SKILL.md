@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "pola-rs/polars"
   github_stars: 37924
+  license: "MIT"
 ---
 
 # Polars Blazing-Fast DataFrame Query Engine

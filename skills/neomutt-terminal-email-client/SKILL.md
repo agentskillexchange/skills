@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "neomutt/neomutt"
   github_stars: 3685
+  license: "GPL-2.0"
 ---
 
 # NeoMutt Feature-Rich Terminal Email Client
