@@ -1,13 +1,16 @@
 ---
-title: "DALL-E Variation Generator"
-description: "Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
+title: DALL-E Variation Generator
+description: Generates image variations and edits using OpenAI’s DALL-E 3 API with
+  mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic
+  prompt refinement loops.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dalle-variation-generator/"
+source: https://agentskillexchange.com/skills/dalle-variation-generator/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
+
 
 # DALL-E Variation Generator
 

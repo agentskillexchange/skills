@@ -1,13 +1,16 @@
 ---
-title: "Semgrep Rule Engine"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection."
+title: Semgrep Rule Engine
+description: Executes Semgrep static analysis using the semgrep CLI with custom YAML
+  rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside
+  exclusions for precise vulnerability detection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-rule-engine/"
+source: https://agentskillexchange.com/skills/semgrep-rule-engine/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
+
 
 # Semgrep Rule Engine
 

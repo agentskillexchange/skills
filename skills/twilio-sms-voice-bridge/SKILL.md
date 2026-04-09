@@ -1,13 +1,17 @@
 ---
-title: "Twilio SMS & Voice Bridge"
-description: "Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using TwiML VoiceResponse, and processes delivery webhooks for message status tracking and conversation threading."
+title: Twilio SMS & Voice Bridge
+description: Connects to Twilio REST API via the twilio-node SDK for programmable
+  messaging and voice. Sends SMS with client.messages.create(), builds IVR flows using
+  TwiML VoiceResponse, and processes delivery webhooks for message status tracking
+  and conversation threading.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/twilio-sms-voice-bridge/"
+source: https://agentskillexchange.com/skills/twilio-sms-voice-bridge/
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # Twilio SMS & Voice Bridge
 

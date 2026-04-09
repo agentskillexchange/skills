@@ -1,13 +1,17 @@
 ---
-title: "pdfplumber Python PDF Text and Table Extraction Library"
-description: "pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and curves — with visual debugging support. Built on pdfminer.six, it excels at structured table extraction from machine-generated PDFs and includes both a Python API and CLI."
+title: pdfplumber Python PDF Text and Table Extraction Library
+description: pdfplumber is a Python library for extracting detailed information from
+  PDFs — text, tables, lines, rectangles, and curves — with visual debugging support.
+  Built on pdfminer.six, it excels at structured table extraction from machine-generated
+  PDFs and includes both a Python API and CLI.
 verification: security_reviewed
-source: "https://github.com/jsvine/pdfplumber"
+source: https://github.com/jsvine/pdfplumber
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
+
 
 # pdfplumber Python PDF Text and Table Extraction Library
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/pdfplumber-python-pdf-text-table-extraction/)
+- [GitHub](https://github.com/jsvine/pdfplumber)

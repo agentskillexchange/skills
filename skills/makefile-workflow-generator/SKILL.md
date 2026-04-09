@@ -1,13 +1,16 @@
 ---
-title: "Makefile Workflow Generator"
-description: "Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets."
+title: Makefile Workflow Generator
+description: Generates project Makefiles with standard targets using GNU Make syntax,
+  autodeps pattern rules, and integration with package managers (npm scripts, Poetry
+  tasks, Cargo commands). Produces .PHONY declarations and help targets.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
+source: https://agentskillexchange.com/skills/makefile-workflow-generator/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Makefile Workflow Generator
 

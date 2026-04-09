@@ -1,13 +1,16 @@
 ---
-title: "FFmpeg Video Processing Pipeline"
-description: "Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive bitrate packaging. Supports NVIDIA NVENC hardware acceleration and HDR tone mapping."
+title: FFmpeg Video Processing Pipeline
+description: Builds complex FFmpeg filtergraph chains for batch video transcoding,
+  thumbnail sprite generation, and HLS adaptive bitrate packaging. Supports NVIDIA
+  NVENC hardware acceleration and HDR tone mapping.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/"
+source: https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "MCP"
+- MCP
 ---
+
 
 # FFmpeg Video Processing Pipeline
 

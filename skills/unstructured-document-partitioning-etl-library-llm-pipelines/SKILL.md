@@ -1,16 +1,17 @@
 ---
-title: "Unstructured Document Partitioning and ETL Library for LLM Pipelines"
-description: "Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and other unstructured inputs into structured elements and metadata. It is commonly used as a preprocessing layer for RAG, search, extraction, and downstream AI pipelines."
+title: Unstructured Document Partitioning and ETL Library for LLM Pipelines
+description: Unstructured is an open-source library for ingesting and partitioning
+  PDFs, HTML, Office documents, emails, and other unstructured inputs into structured
+  elements and metadata. It is commonly used as a preprocessing layer for RAG, search,
+  extraction, and downstream AI pipelines.
 verification: security_reviewed
-source: "https://github.com/Unstructured-IO/unstructured"
+source: https://github.com/Unstructured-IO/unstructured
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "unstructured-io/unstructured"
-  github_stars: 14390
+- Multi-Framework
 ---
+
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines
 
@@ -28,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/unstructured-document-partitioning-etl-library-llm-pipelines/)
+- [GitHub](https://github.com/Unstructured-IO/unstructured)

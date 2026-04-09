@@ -1,13 +1,16 @@
 ---
-title: "NPM Package Auditor"
-description: "Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX expression parser."
+title: NPM Package Auditor
+description: Audits NPM packages using the NPM Registry API with dependency tree resolution
+  and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and
+  checks license compliance against SPDX expression parser.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
+source: https://agentskillexchange.com/skills/npm-package-auditor-registry-api/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 ---
+
 
 # NPM Package Auditor
 

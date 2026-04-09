@@ -1,13 +1,16 @@
 ---
-title: "SSL Certificate Chain Validator"
-description: "Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status."
+title: SSL Certificate Chain Validator
+description: Performs deep TLS certificate chain validation using OpenSSL and Certificate
+  Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP
+  responder status.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/"
+source: https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Codex"
+- Codex
 ---
+
 
 # SSL Certificate Chain Validator
 

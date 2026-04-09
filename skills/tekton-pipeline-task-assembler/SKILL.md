@@ -1,13 +1,16 @@
 ---
-title: "Tekton Pipeline Task Assembler"
-description: "Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps."
+title: Tekton Pipeline Task Assembler
+description: Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions
+  using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace
+  bindings, and result propagation across task steps.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/"
+source: https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Tekton Pipeline Task Assembler
 

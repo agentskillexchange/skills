@@ -1,13 +1,16 @@
 ---
-title: "Todoist GTD Workflow Engine"
-description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
+title: Todoist GTD Workflow Engine
+description: Implements Getting Things Done methodology on Todoist using the Sync
+  API v9. Automates weekly reviews, context tagging, and project decomposition into
+  next actions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
+source: https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "MCP"
+- MCP
 ---
+
 
 # Todoist GTD Workflow Engine
 

@@ -1,16 +1,19 @@
 ---
-title: "wp-env Zero-Config WordPress Development Environment"
-description: "The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for developing and testing plugins and themes. A single command sets up WordPress with a test site, database, and PHP environment."
+title: wp-env Zero-Config WordPress Development Environment
+description: The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based
+  local WordPress environment for developing and testing plugins and themes. A single
+  command sets up WordPress with a test site, database, and PHP environment.
 verification: security_reviewed
-source: "https://www.npmjs.com/package/@wordpress/env"
+source: https://www.npmjs.com/package/@wordpress/env
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  npm_package: "@wordpress/env"
+  npm_package: '@wordpress/env'
   npm_weekly_downloads: 46753
 ---
+
 
 # wp-env Zero-Config WordPress Development Environment
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wp-env-wordpress-dev-environment/)
+- [npm](https://www.npmjs.com/package/@wordpress/env)

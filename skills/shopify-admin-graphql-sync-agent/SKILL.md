@@ -1,18 +1,22 @@
 ---
-title: "Shopify Admin GraphQL Sync Agent"
-description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
+title: Shopify Admin GraphQL Sync Agent
+description: Coordinates Shopify data syncs with the Admin GraphQL API, including
+  `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful
+  for product, inventory, and order pipelines that need higher throughput than ad
+  hoc REST polling.
 verification: security_reviewed
-source: "https://github.com/Shopify/shopify-api-js"
+source: https://github.com/Shopify/shopify-api-js
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "Shopify/shopify-api-js"
+  github_repo: Shopify/shopify-api-js
   github_stars: 959
-  npm_package: "@shopify/shopify-api"
+  npm_package: '@shopify/shopify-api'
   npm_weekly_downloads: 311088
 ---
+
 
 # Shopify Admin GraphQL Sync Agent
 
@@ -30,4 +34,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/shopify-admin-graphql-sync-agent/)
+- [GitHub](https://github.com/Shopify/shopify-api-js)

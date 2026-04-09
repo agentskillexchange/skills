@@ -1,13 +1,16 @@
 ---
-title: "PostgreSQL Slow Query Runbook"
-description: "Diagnoses PostgreSQL slow queries using pg_stat_statements extension, EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis. Identifies missing indexes, sequential scan bottlenecks, and lock contention issues."
+title: PostgreSQL Slow Query Runbook
+description: Diagnoses PostgreSQL slow queries using pg_stat_statements extension,
+  EXPLAIN ANALYZE output parsing, and pg_stat_user_indexes for index usage analysis.
+  Identifies missing indexes, sequential scan bottlenecks, and lock contention issues.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/"
+source: https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # PostgreSQL Slow Query Runbook
 

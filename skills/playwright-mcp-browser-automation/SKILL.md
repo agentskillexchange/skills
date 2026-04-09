@@ -1,21 +1,22 @@
 ---
-title: "Playwright MCP Browser Automation"
-description: "Official Playwright-powered browser control for agent workflows."
+title: Playwright MCP Browser Automation
+description: Official Playwright-powered browser control for agent workflows.
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright-mcp"
+source: https://github.com/microsoft/playwright-mcp
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+- Claude Code
+- Cursor
+- MCP
+- OpenClaw
 tool_ecosystem:
-  github_repo: "microsoft/playwright-mcp"
+  github_repo: microsoft/playwright-mcp
   github_stars: 30509
-  npm_package: "@playwright/mcp"
+  npm_package: '@playwright/mcp'
   npm_weekly_downloads: 3140002
 ---
+
 
 # Playwright MCP Browser Automation
 
@@ -33,4 +34,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/playwright-mcp-browser-automation/)
+- [GitHub](https://github.com/microsoft/playwright-mcp)

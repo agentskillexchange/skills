@@ -1,13 +1,16 @@
 ---
-title: "Systemd Service Debugger"
-description: "Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and generates fix recommendations."
+title: Systemd Service Debugger
+description: Debugs failed systemd services using journalctl, systemctl, and the systemd
+  D-Bus API. Analyzes unit dependencies, ExecStart failures, resource limits, and
+  generates fix recommendations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/systemd-service-debugger/"
+source: https://agentskillexchange.com/skills/systemd-service-debugger/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # Systemd Service Debugger
 

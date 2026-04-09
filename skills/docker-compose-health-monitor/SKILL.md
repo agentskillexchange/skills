@@ -1,13 +1,16 @@
 ---
-title: "Docker Compose Health Monitor"
-description: "Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint."
+title: Docker Compose Health Monitor
+description: Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json)
+  and docker-compose ps parsing. Tracks container restart counts via the RestartCount
+  field and logs analysis through the /containers/{id}/logs endpoint.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-compose-health-monitor/"
+source: https://agentskillexchange.com/skills/docker-compose-health-monitor/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "MCP"
+- MCP
 ---
+
 
 # Docker Compose Health Monitor
 

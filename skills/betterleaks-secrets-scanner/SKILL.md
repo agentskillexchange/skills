@@ -1,16 +1,20 @@
 ---
-title: "Betterleaks Next-Generation Secrets Scanner"
-description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
+title: Betterleaks Next-Generation Secrets Scanner
+description: A fast, configurable secrets scanner built by the creator of Gitleaks
+  and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and
+  tokens in git repositories, directories, and stdin with CEL-based validation and
+  parallelized scanning.
 verification: security_reviewed
-source: "https://github.com/betterleaks/betterleaks"
+source: https://github.com/betterleaks/betterleaks
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "betterleaks/betterleaks"
+  github_repo: betterleaks/betterleaks
   github_stars: 712
 ---
+
 
 # Betterleaks Next-Generation Secrets Scanner
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/betterleaks-secrets-scanner/)
+- [GitHub](https://github.com/betterleaks/betterleaks)

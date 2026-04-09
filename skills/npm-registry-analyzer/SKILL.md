@@ -1,13 +1,16 @@
 ---
-title: "npm Registry Analyzer"
-description: "Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and download trends. Uses npm-audit for security vulnerability detection against the GitHub Advisory Database."
+title: npm Registry Analyzer
+description: Queries the npm registry API and npms.io scoring endpoint to evaluate
+  package quality, maintenance scores, and download trends. Uses npm-audit for security
+  vulnerability detection against the GitHub Advisory Database.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/npm-registry-analyzer/"
+source: https://agentskillexchange.com/skills/npm-registry-analyzer/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "MCP"
+- MCP
 ---
+
 
 # npm Registry Analyzer
 

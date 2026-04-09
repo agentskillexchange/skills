@@ -1,13 +1,17 @@
 ---
-title: "SearXNG Privacy-First Metasearch Engine and Search API"
-description: "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need self-hosted search, configurable engines, and a documented admin surface for search aggregation and result control."
+title: SearXNG Privacy-First Metasearch Engine and Search API
+description: SearXNG is an open-source metasearch engine that aggregates results from
+  multiple search providers without tracking users. It fits research and scraping
+  workflows that need self-hosted search, configurable engines, and a documented admin
+  surface for search aggregation and result control.
 verification: security_reviewed
-source: "https://github.com/searxng/searxng"
+source: https://github.com/searxng/searxng
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # SearXNG Privacy-First Metasearch Engine and Search API
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/searxng-privacy-first-metasearch-engine-search-api/)
+- [GitHub](https://github.com/searxng/searxng)

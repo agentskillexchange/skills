@@ -1,13 +1,16 @@
 ---
-title: "Supabase CLI for Local Development and Database Migrations"
-description: "Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream command-line tool for developers who need to work against Supabase from the terminal and CI."
+title: Supabase CLI for Local Development and Database Migrations
+description: Supabase CLI manages local Supabase projects, database migrations, types,
+  and edge functions. It is the upstream command-line tool for developers who need
+  to work against Supabase from the terminal and CI.
 verification: security_reviewed
-source: "https://github.com/supabase/cli"
+source: https://github.com/supabase/cli
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Supabase CLI for Local Development and Database Migrations
 
@@ -25,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/supabase-cli-local-development-database-migrations/)
+- [GitHub](https://github.com/supabase/cli)

@@ -1,16 +1,19 @@
 ---
-title: "Restic Fast Encrypted Backup Program"
-description: "Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other storage backends. Written in Go with 32k+ GitHub stars, it features deduplication, encryption, and snapshot-based incremental backups."
+title: Restic Fast Encrypted Backup Program
+description: Restic is a fast, secure, and efficient backup program supporting local,
+  SFTP, S3, Azure, GCS, and many other storage backends. Written in Go with 32k+ GitHub
+  stars, it features deduplication, encryption, and snapshot-based incremental backups.
 verification: security_reviewed
-source: "https://github.com/restic/restic"
+source: https://github.com/restic/restic
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "restic/restic"
+  github_repo: restic/restic
   github_stars: 32908
 ---
+
 
 # Restic Fast Encrypted Backup Program
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/restic-encrypted-backup-tool/)
+- [GitHub](https://github.com/restic/restic)

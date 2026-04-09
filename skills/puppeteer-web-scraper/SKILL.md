@@ -1,13 +1,16 @@
 ---
-title: "Puppeteer Web Scraper"
-description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
+title: Puppeteer Web Scraper
+description: Headless Chrome scraping via Puppeteer with automatic cookie handling,
+  JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll
+  and lazy-loaded content.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
+source: https://agentskillexchange.com/skills/puppeteer-web-scraper/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
+
 
 # Puppeteer Web Scraper
 

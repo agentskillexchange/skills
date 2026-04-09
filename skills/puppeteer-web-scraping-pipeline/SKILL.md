@@ -1,13 +1,16 @@
 ---
-title: "Puppeteer Web Scraping Pipeline"
-description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
+title: Puppeteer Web Scraping Pipeline
+description: Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector,
+  and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot
+  detection with stealth plugin.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
+source: https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Puppeteer Web Scraping Pipeline
 

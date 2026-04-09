@@ -1,13 +1,17 @@
 ---
-title: "Stagehand Browser Agent SDK"
-description: "Stagehand is Browserbase’s open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows."
+title: Stagehand Browser Agent SDK
+description: Stagehand is Browserbase’s open source SDK for browser agents, combining
+  code-first control with natural language actions. It is aimed at reliable production
+  browser automation, with TypeScript integrations, docs, and npm distribution for
+  agent workflows.
 verification: security_reviewed
-source: "https://github.com/browserbase/stagehand"
+source: https://github.com/browserbase/stagehand
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Stagehand Browser Agent SDK
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/stagehand-browser-agent-sdk/)
+- [GitHub](https://github.com/browserbase/stagehand)

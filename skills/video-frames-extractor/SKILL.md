@@ -1,16 +1,17 @@
 ---
-title: "Video Frames Extractor"
-description: "Extract frames and short clips from videos."
+title: Video Frames Extractor
+description: Extract frames and short clips from videos.
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
+source: https://github.com/FFmpeg/FFmpeg
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 58637
 ---
+
 
 # Video Frames Extractor
 
@@ -28,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/video-frames-extractor/)
+- [GitHub](https://github.com/FFmpeg/FFmpeg)

@@ -1,13 +1,16 @@
 ---
-title: "Datadog Anomaly Detector"
-description: "Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API."
+title: Datadog Anomaly Detector
+description: Leverages the Datadog API v2 metrics and events endpoints to detect anomalous
+  patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations
+  via OpsGenie REST API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+source: https://agentskillexchange.com/skills/datadog-anomaly-detector/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Datadog Anomaly Detector
 

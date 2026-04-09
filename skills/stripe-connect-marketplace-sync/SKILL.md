@@ -1,13 +1,16 @@
 ---
-title: "Stripe Connect Marketplace Sync"
-description: "Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK."
+title: Stripe Connect Marketplace Sync
+description: Synchronize marketplace transactions using the Stripe Connect API with
+  automatic payout splitting, transfer reversals, and account onboarding via Stripe.js
+  and the stripe-node SDK.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
+source: https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Stripe Connect Marketplace Sync
 

@@ -1,16 +1,17 @@
 ---
-title: "Surya Document OCR with Layout Analysis and Table Recognition"
-description: "Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout analysis, reading order detection, table recognition, and LaTeX OCR. It benchmarks favorably against cloud OCR services on a wide range of document types."
+title: Surya Document OCR with Layout Analysis and Table Recognition
+description: Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages,
+  line-level text detection, layout analysis, reading order detection, table recognition,
+  and LaTeX OCR. It benchmarks favorably against cloud OCR services on a wide range
+  of document types.
 verification: security_reviewed
-source: "https://github.com/VikParuchuri/surya"
+source: https://github.com/VikParuchuri/surya
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Custom Agents"
-tool_ecosystem:
-  github_repo: "vikparuchuri/surya"
-  github_stars: 19530
+- Custom Agents
 ---
+
 
 # Surya Document OCR with Layout Analysis and Table Recognition
 
@@ -28,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/surya-document-ocr-layout-analysis-table-recognition/)
+- [GitHub](https://github.com/VikParuchuri/surya)

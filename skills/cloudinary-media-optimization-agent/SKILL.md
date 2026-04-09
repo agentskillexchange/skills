@@ -1,13 +1,16 @@
 ---
-title: "Cloudinary Media Optimization Agent"
-description: "Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection."
+title: Cloudinary Media Optimization Agent
+description: Automates image and video optimization workflows via the Cloudinary Upload
+  and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent
+  cropping with gravity detection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/"
+source: https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
+
 
 # Cloudinary Media Optimization Agent
 

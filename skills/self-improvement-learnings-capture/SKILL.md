@@ -1,13 +1,15 @@
 ---
-title: "Self-Improvement / Learnings Capture"
-description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
+title: Self-Improvement / Learnings Capture
+description: Capture failures, corrections, and repeatable lessons so important operational
+  knowledge persists across sessions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
+source: https://agentskillexchange.com/skills/self-improvement-learnings-capture/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # Self-Improvement / Learnings Capture
 

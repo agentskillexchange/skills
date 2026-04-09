@@ -1,13 +1,16 @@
 ---
-title: "Notion Task Sync Bridge"
-description: "Bidirectionally syncs tasks between Notion databases and external project management tools using the Notion API v2022-06-28. Handles property mapping, status updates, and relation fields."
+title: Notion Task Sync Bridge
+description: Bidirectionally syncs tasks between Notion databases and external project
+  management tools using the Notion API v2022-06-28. Handles property mapping, status
+  updates, and relation fields.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
+source: https://agentskillexchange.com/skills/notion-task-sync-bridge/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Cursor"
+- Cursor
 ---
+
 
 # Notion Task Sync Bridge
 

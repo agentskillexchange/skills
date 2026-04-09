@@ -1,16 +1,20 @@
 ---
-title: "Atlassian MCP Server for Jira and Confluence"
-description: "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP-compatible client."
+title: Atlassian MCP Server for Jira and Confluence
+description: mcp-atlassian is a Model Context Protocol server that connects AI assistants
+  to Atlassian Jira and Confluence. It enables searching and managing Jira issues,
+  reading and editing Confluence pages, and performing project management tasks through
+  natural language via any MCP-compatible client.
 verification: security_reviewed
-source: "https://github.com/sooperset/mcp-atlassian"
+source: https://github.com/sooperset/mcp-atlassian
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "sooperset/mcp-atlassian"
+  github_repo: sooperset/mcp-atlassian
   github_stars: 4785
 ---
+
 
 # Atlassian MCP Server for Jira and Confluence
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/atlassian-mcp-server-jira-confluence/)
+- [GitHub](https://github.com/sooperset/mcp-atlassian)

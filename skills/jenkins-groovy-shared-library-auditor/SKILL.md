@@ -1,13 +1,16 @@
 ---
-title: "Jenkins Groovy Shared Library Auditor"
-description: "Audits Jenkins shared library Groovy scripts for security anti-patterns using the Script Security Plugin API. Detects unapproved method signatures, sandbox escapes, and credential leakage in pipeline code."
+title: Jenkins Groovy Shared Library Auditor
+description: Audits Jenkins shared library Groovy scripts for security anti-patterns
+  using the Script Security Plugin API. Detects unapproved method signatures, sandbox
+  escapes, and credential leakage in pipeline code.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/"
+source: https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # Jenkins Groovy Shared Library Auditor
 

@@ -1,16 +1,20 @@
 ---
-title: "Plandex AI Coding Agent for Large Projects"
-description: "Plandex is an open-source terminal-based AI coding agent designed for large projects and complex tasks. It handles up to 2M tokens of context, uses a diff sandbox for safe changes, and supports multi-model workflows across Anthropic, OpenAI, and Google providers."
+title: Plandex AI Coding Agent for Large Projects
+description: Plandex is an open-source terminal-based AI coding agent designed for
+  large projects and complex tasks. It handles up to 2M tokens of context, uses a
+  diff sandbox for safe changes, and supports multi-model workflows across Anthropic,
+  OpenAI, and Google providers.
 verification: security_reviewed
-source: "https://github.com/plandex-ai/plandex"
+source: https://github.com/plandex-ai/plandex
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "plandex-ai/plandex"
+  github_repo: plandex-ai/plandex
   github_stars: 15183
 ---
+
 
 # Plandex AI Coding Agent for Large Projects
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/plandex-ai-coding-agent-large-projects/)
+- [GitHub](https://github.com/plandex-ai/plandex)

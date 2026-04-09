@@ -1,13 +1,17 @@
 ---
-title: "ACF to Gutenberg Block Migrator"
-description: "Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and @wordpress/scripts build pipeline. Maps ACF repeaters, groups, and flexible content to InnerBlocks and block attributes with server-side rendering via acf_register_block_type()."
+title: ACF to Gutenberg Block Migrator
+description: Converts Advanced Custom Fields field groups into native Gutenberg blocks
+  using the ACF Block API v2 and @wordpress/scripts build pipeline. Maps ACF repeaters,
+  groups, and flexible content to InnerBlocks and block attributes with server-side
+  rendering via acf_register_block_type().
 verification: security_reviewed
-source: "https://www.advancedcustomfields.com/"
+source: https://www.advancedcustomfields.com/
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Codex"
+- Codex
 ---
+
 
 # ACF to Gutenberg Block Migrator
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/acf-to-gutenberg-block-migrator/)
+- [Source](https://www.advancedcustomfields.com/)

@@ -1,13 +1,16 @@
 ---
-title: "Docker Compose Stack Analyzer"
-description: "Analyzes Docker Compose configurations for security, networking, and resource optimization using the Docker Engine API and Compose specification parser. Detects misconfigurations and dependency issues."
+title: Docker Compose Stack Analyzer
+description: Analyzes Docker Compose configurations for security, networking, and
+  resource optimization using the Docker Engine API and Compose specification parser.
+  Detects misconfigurations and dependency issues.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
+source: https://agentskillexchange.com/skills/docker-compose-stack-analyzer/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Docker Compose Stack Analyzer
 

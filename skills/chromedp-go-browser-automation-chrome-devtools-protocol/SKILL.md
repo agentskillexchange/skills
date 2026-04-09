@@ -1,16 +1,19 @@
 ---
-title: "chromedp Go Browser Automation with Chrome DevTools Protocol"
-description: "This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM queries, screenshots, PDF capture, network-aware waits, and structured extraction through the Chrome DevTools Protocol."
+title: chromedp Go Browser Automation with Chrome DevTools Protocol
+description: This skill turns chromedp into a repeatable browser automation workflow
+  for Go teams. It covers navigation, DOM queries, screenshots, PDF capture, network-aware
+  waits, and structured extraction through the Chrome DevTools Protocol.
 verification: security_reviewed
-source: "https://github.com/chromedp/chromedp"
+source: https://github.com/chromedp/chromedp
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "chromedp/chromedp"
+  github_repo: chromedp/chromedp
   github_stars: 12900
 ---
+
 
 # chromedp Go Browser Automation with Chrome DevTools Protocol
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/chromedp-go-browser-automation-chrome-devtools-protocol/)
+- [GitHub](https://github.com/chromedp/chromedp)

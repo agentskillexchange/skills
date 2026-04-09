@@ -1,16 +1,20 @@
 ---
-title: "Crawlee Web Crawling and Scraping Library by Apify"
-description: "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and JSDOM without rebuilding the whole pipeline."
+title: Crawlee Web Crawling and Scraping Library by Apify
+description: Crawlee is Apify’s open source crawling and scraping framework for Node.js.
+  It unifies HTTP scraping and browser automation, adds queues, storage, retries,
+  proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and
+  JSDOM without rebuilding the whole pipeline.
 verification: security_reviewed
-source: "https://github.com/apify/crawlee"
+source: https://github.com/apify/crawlee
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "apify/crawlee"
+  github_repo: apify/crawlee
   github_stars: 22677
 ---
+
 
 # Crawlee Web Crawling and Scraping Library by Apify
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/crawlee-web-crawling-and-scraping-library-by-apify/)
+- [GitHub](https://github.com/apify/crawlee)

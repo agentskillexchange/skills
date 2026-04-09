@@ -1,13 +1,17 @@
 ---
-title: "Lightning CSS High-Performance CSS Parser Transformer and Minifier"
-description: "Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS syntax for target browsers, and integrate fast CSS processing into build or refactor workflows."
+title: Lightning CSS High-Performance CSS Parser Transformer and Minifier
+description: Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier
+  from the Parcel team. This skill is for agents that need to optimize stylesheets,
+  lower modern CSS syntax for target browsers, and integrate fast CSS processing into
+  build or refactor workflows.
 verification: security_reviewed
-source: "https://github.com/parcel-bundler/lightningcss"
+source: https://github.com/parcel-bundler/lightningcss
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/lightning-css-high-performance-css-parser-transformer-and-minifier/)
+- [GitHub](https://github.com/parcel-bundler/lightningcss)

@@ -1,16 +1,19 @@
 ---
-title: "Appwrite Open-Source Backend Platform"
-description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
+title: Appwrite Open-Source Backend Platform
+description: Appwrite is an open-source backend platform for web, mobile, and AI apps.
+  This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions,
+  Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
 verification: security_reviewed
-source: "https://github.com/appwrite/appwrite"
+source: https://github.com/appwrite/appwrite
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "appwrite/appwrite"
+  github_repo: appwrite/appwrite
   github_stars: 55594
 ---
+
 
 # Appwrite Open-Source Backend Platform
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-platform/)
+- [GitHub](https://github.com/appwrite/appwrite)

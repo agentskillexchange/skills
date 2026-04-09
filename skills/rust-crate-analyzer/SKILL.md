@@ -1,13 +1,16 @@
 ---
-title: "Rust Crate Analyzer"
-description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
+title: Rust Crate Analyzer
+description: Fetches crate metadata from the crates.io API and docs.rs API for Rust
+  package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory
+  DB, and MSRV compatibility checking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
+source: https://agentskillexchange.com/skills/rust-crate-analyzer/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Codex"
+- Codex
 ---
+
 
 # Rust Crate Analyzer
 

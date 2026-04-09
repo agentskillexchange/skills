@@ -1,18 +1,22 @@
 ---
-title: "Contentful Management API and JavaScript SDK"
-description: "Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets, content models, and environments in a headless CMS workflow. This skill gives an agent a concrete path for operating Contentful programmatically rather than treating it like a generic CMS."
+title: Contentful Management API and JavaScript SDK
+description: Use the Contentful Management API and JavaScript SDK to create, update,
+  validate, and publish entries, assets, content models, and environments in a headless
+  CMS workflow. This skill gives an agent a concrete path for operating Contentful
+  programmatically rather than treating it like a generic CMS.
 verification: security_reviewed
-source: "https://github.com/contentful/contentful-management.js"
+source: https://github.com/contentful/contentful-management.js
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "contentful/contentful-management.js"
+  github_repo: contentful/contentful-management.js
   github_stars: 286
-  npm_package: "contentful-management"
+  npm_package: contentful-management
   npm_weekly_downloads: 655148
 ---
+
 
 # Contentful Management API and JavaScript SDK
 
@@ -30,4 +34,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/contentful-management-api-and-javascript-sdk/)
+- [GitHub](https://github.com/contentful/contentful-management.js)

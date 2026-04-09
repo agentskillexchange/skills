@@ -1,13 +1,16 @@
 ---
-title: "Docker Build Cache Optimizer"
-description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
+title: Docker Build Cache Optimizer
+description: Optimizes Docker build performance using BuildKit cache mount analysis,
+  docker history layer inspection, and Dockerfile linting via hadolint. Reduces build
+  times by restructuring layer ordering and implementing multi-stage build patterns.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer/"
+source: https://agentskillexchange.com/skills/docker-build-cache-optimizer/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
+
 
 # Docker Build Cache Optimizer
 

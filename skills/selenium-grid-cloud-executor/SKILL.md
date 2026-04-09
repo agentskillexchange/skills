@@ -1,13 +1,16 @@
 ---
-title: "Selenium Grid Cloud Executor"
-description: "Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs with automatic capability negotiation."
+title: Selenium Grid Cloud Executor
+description: Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver
+  and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and
+  Sauce Labs with automatic capability negotiation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
+source: https://agentskillexchange.com/skills/selenium-grid-cloud-executor/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
 ---
+
 
 # Selenium Grid Cloud Executor
 

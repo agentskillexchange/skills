@@ -1,13 +1,16 @@
 ---
-title: "Codecov Coverage Tracker"
-description: "Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API."
+title: Codecov Coverage Tracker
+description: Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits
+  endpoint. Compares branch coverage against base, generates diff-coverage reports,
+  and flags untested code paths in PR comments via GitHub REST API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/"
+source: https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
+
 
 # Codecov Coverage Tracker
 

@@ -1,16 +1,20 @@
 ---
-title: "faster-whisper High-Performance Speech Transcription Engine"
-description: "faster-whisper is a reimplementation of OpenAI’s Whisper model using CTranslate2 that delivers up to 4x faster transcription with lower memory usage. It supports CPU and GPU inference with 8-bit quantization, batch processing, word-level timestamps, and VAD filtering for accurate speech-to-text conversion."
+title: faster-whisper High-Performance Speech Transcription Engine
+description: faster-whisper is a reimplementation of OpenAI’s Whisper model using
+  CTranslate2 that delivers up to 4x faster transcription with lower memory usage.
+  It supports CPU and GPU inference with 8-bit quantization, batch processing, word-level
+  timestamps, and VAD filtering for accurate speech-to-text conversion.
 verification: security_reviewed
-source: "https://github.com/SYSTRAN/faster-whisper"
+source: https://github.com/SYSTRAN/faster-whisper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "SYSTRAN/faster-whisper"
+  github_repo: SYSTRAN/faster-whisper
   github_stars: 21865
 ---
+
 
 # faster-whisper High-Performance Speech Transcription Engine
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/faster-whisper-high-performance-speech-transcription/)
+- [GitHub](https://github.com/SYSTRAN/faster-whisper)

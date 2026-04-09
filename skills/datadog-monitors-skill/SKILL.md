@@ -1,13 +1,16 @@
 ---
-title: "Datadog Monitors Skill"
-description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
+title: Datadog Monitors Skill
+description: Manages Datadog monitors and dashboards via the Datadog API v2. Lists
+  triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports
+  composite monitors and SLO tracking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
+source: https://agentskillexchange.com/skills/datadog-monitors-skill/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Codex"
+- Codex
 ---
+
 
 # Datadog Monitors Skill
 

@@ -1,16 +1,17 @@
 ---
-title: "Infisical Open-Source Secret Management Platform"
-description: "Infisical is an open-source platform for managing application secrets, environment variables, and certificates across teams and infrastructure. This skill enables agents to sync secrets, rotate credentials, and manage PKI using the Infisical CLI and API."
+title: Infisical Open-Source Secret Management Platform
+description: Infisical is an open-source platform for managing application secrets,
+  environment variables, and certificates across teams and infrastructure. This skill
+  enables agents to sync secrets, rotate credentials, and manage PKI using the Infisical
+  CLI and API.
 verification: security_reviewed
-source: "https://github.com/Infisical/infisical"
+source: https://github.com/Infisical/infisical
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Custom Agents"
-tool_ecosystem:
-  github_repo: "infisical/infisical"
-  github_stars: 25635
+- Custom Agents
 ---
+
 
 # Infisical Open-Source Secret Management Platform
 
@@ -28,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/infisical-secret-management-platform/)
+- [GitHub](https://github.com/Infisical/infisical)

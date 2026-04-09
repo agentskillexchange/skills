@@ -1,13 +1,16 @@
 ---
-title: "Trivy Security Scanner for Containers and IaC"
-description: "Trivy is Aqua Security’s scanner for vulnerabilities, misconfigurations, secrets, SBOMs, and license issues. It fits security review, container hygiene, and infrastructure-as-code checks in one CLI."
+title: Trivy Security Scanner for Containers and IaC
+description: Trivy is Aqua Security’s scanner for vulnerabilities, misconfigurations,
+  secrets, SBOMs, and license issues. It fits security review, container hygiene,
+  and infrastructure-as-code checks in one CLI.
 verification: security_reviewed
-source: "https://github.com/aquasecurity/trivy"
+source: https://github.com/aquasecurity/trivy
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Trivy Security Scanner for Containers and IaC
 
@@ -25,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/trivy-security-scanner-containers-iac/)
+- [GitHub](https://github.com/aquasecurity/trivy)

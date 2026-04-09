@@ -1,16 +1,19 @@
 ---
-title: "gitu Magit-Inspired Terminal Git Interface"
-description: "A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven staging, committing, rebasing, stashing, and branch management with a discoverable which-key style help menu."
+title: gitu Magit-Inspired Terminal Git Interface
+description: A fast terminal user interface for Git inspired by Emacs Magit, written
+  in Rust. gitu provides keyboard-driven staging, committing, rebasing, stashing,
+  and branch management with a discoverable which-key style help menu.
 verification: security_reviewed
-source: "https://github.com/altsem/gitu"
+source: https://github.com/altsem/gitu
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "altsem/gitu"
+  github_repo: altsem/gitu
   github_stars: 2664
 ---
+
 
 # gitu Magit-Inspired Terminal Git Interface
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gitu-magit-inspired-terminal-git-interface/)
+- [GitHub](https://github.com/altsem/gitu)

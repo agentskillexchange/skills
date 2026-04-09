@@ -1,16 +1,20 @@
 ---
-title: "Decap CMS Git-Based Content Management System for Static Sites"
-description: "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and lets teams edit structured content in repositories without building a custom editorial interface from scratch."
+title: Decap CMS Git-Based Content Management System for Static Sites
+description: Decap CMS is a Git-based content management system for static site generators.
+  It provides an admin UI at /admin, authenticates against Git-backed backends, and
+  lets teams edit structured content in repositories without building a custom editorial
+  interface from scratch.
 verification: security_reviewed
-source: "https://github.com/decaporg/decap-cms"
+source: https://github.com/decaporg/decap-cms
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "decaporg/decap-cms"
+  github_repo: decaporg/decap-cms
   github_stars: 19011
 ---
+
 
 # Decap CMS Git-Based Content Management System for Static Sites
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/decap-cms-git-based-content-management-system-for-static-sites/)
+- [GitHub](https://github.com/decaporg/decap-cms)

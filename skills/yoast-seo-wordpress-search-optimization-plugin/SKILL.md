@@ -1,13 +1,17 @@
 ---
-title: "Yoast SEO WordPress Search Optimization Plugin"
-description: "Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output, readability checks, and search appearance settings from inside wp-admin. It fits content teams and site operators who need repeatable on-page SEO controls without custom code for each site."
+title: Yoast SEO WordPress Search Optimization Plugin
+description: Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to
+  manage metadata, XML sitemaps, schema output, readability checks, and search appearance
+  settings from inside wp-admin. It fits content teams and site operators who need
+  repeatable on-page SEO controls without custom code for each site.
 verification: listed
-source: "https://github.com/Yoast/wordpress-seo"
+source: https://github.com/Yoast/wordpress-seo
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Yoast SEO WordPress Search Optimization Plugin
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/yoast-seo-wordpress-search-optimization-plugin/)
+- [GitHub](https://github.com/Yoast/wordpress-seo)

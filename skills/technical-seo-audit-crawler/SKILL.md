@@ -1,13 +1,16 @@
 ---
-title: "Technical SEO Audit Crawler"
-description: "Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains, hreflang conflicts, and XML sitemap validation."
+title: Technical SEO Audit Crawler
+description: Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse
+  CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains,
+  hreflang conflicts, and XML sitemap validation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
+source: https://agentskillexchange.com/skills/technical-seo-audit-crawler/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # Technical SEO Audit Crawler
 

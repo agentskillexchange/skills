@@ -1,16 +1,19 @@
 ---
-title: "Vikunja Self-Hosted Task Management and Project Organization Platform"
-description: "Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV sync for organizing personal and team projects with full data ownership."
+title: Vikunja Self-Hosted Task Management and Project Organization Platform
+description: Vikunja is an open-source, self-hosted task management application written
+  in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and
+  CalDAV sync for organizing personal and team projects with full data ownership.
 verification: security_reviewed
-source: "https://github.com/go-vikunja/vikunja"
+source: https://github.com/go-vikunja/vikunja
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "go-vikunja/vikunja"
+  github_repo: go-vikunja/vikunja
   github_stars: 3768
 ---
+
 
 # Vikunja Self-Hosted Task Management and Project Organization Platform
 
@@ -28,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/vikunja-self-hosted-task-management/)
+- [GitHub](https://github.com/go-vikunja/vikunja)

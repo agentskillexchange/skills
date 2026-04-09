@@ -1,13 +1,17 @@
 ---
-title: "Gmail API Thread Label Triage"
-description: "Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents can classify and prioritize whole conversations instead of isolated emails. Useful for support, recruiting, or founder inboxes where thread context matters more than single-message scanning."
+title: Gmail API Thread Label Triage
+description: Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`,
+  and `users.labels` methods so agents can classify and prioritize whole conversations
+  instead of isolated emails. Useful for support, recruiting, or founder inboxes where
+  thread context matters more than single-message scanning.
 verification: security_reviewed
-source: "https://developers.google.com/gmail/api"
+source: https://developers.google.com/gmail/api
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Gmail API Thread Label Triage
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/gmail-api-thread-label-triage/)
+- [Source](https://developers.google.com/gmail/api)

@@ -1,13 +1,16 @@
 ---
-title: "ESLint Rule Composer"
-description: "Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis."
+title: ESLint Rule Composer
+description: Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer
+  patterns. Generates rule implementations with auto-fix suggestions based on estree
+  node types and scope analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-composer/"
+source: https://agentskillexchange.com/skills/eslint-rule-composer/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
+
 
 # ESLint Rule Composer
 

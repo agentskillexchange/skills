@@ -1,13 +1,16 @@
 ---
-title: "Kubernetes Pod Crash Diagnostician"
-description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries."
+title: Kubernetes Pod Crash Diagnostician
+description: Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource
+  quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with
+  container memory profiles from Prometheus queries.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/"
+source: https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Claude Code"
+- Claude Code
 ---
+
 
 # Kubernetes Pod Crash Diagnostician
 

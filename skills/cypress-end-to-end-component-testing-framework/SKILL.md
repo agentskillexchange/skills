@@ -1,13 +1,17 @@
 ---
-title: "Cypress End-to-End and Component Testing Framework"
-description: "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines."
+title: Cypress End-to-End and Component Testing Framework
+description: Cypress is an open-source browser testing framework for end-to-end, component,
+  and accessibility testing in modern web apps. It gives agents and developers a reliable
+  way to run local browser tests, debug failures with rich traces, and plug test execution
+  into CI pipelines.
 verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
+source: https://github.com/cypress-io/cypress
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Cypress End-to-End and Component Testing Framework
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cypress-end-to-end-component-testing-framework/)
+- [GitHub](https://github.com/cypress-io/cypress)

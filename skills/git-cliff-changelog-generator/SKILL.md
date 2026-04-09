@@ -1,16 +1,20 @@
 ---
-title: "git-cliff Customizable Changelog Generator for Git Repositories"
-description: "git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a TOML configuration file, with integrations for GitHub Actions, Docker, and CI/CD pipelines."
+title: git-cliff Customizable Changelog Generator for Git Repositories
+description: git-cliff generates changelog files from Git history using conventional
+  commits and regex-powered custom parsers. Written in Rust, it provides highly customizable
+  templates via a TOML configuration file, with integrations for GitHub Actions, Docker,
+  and CI/CD pipelines.
 verification: security_reviewed
-source: "https://github.com/orhun/git-cliff"
+source: https://github.com/orhun/git-cliff
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "orhun/git-cliff"
+  github_repo: orhun/git-cliff
   github_stars: 11678
 ---
+
 
 # git-cliff Customizable Changelog Generator for Git Repositories
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/git-cliff-changelog-generator/)
+- [GitHub](https://github.com/orhun/git-cliff)

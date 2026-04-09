@@ -1,16 +1,20 @@
 ---
-title: "Cloudflare MCP Servers for Workers, Security, and Observability"
-description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
+title: Cloudflare MCP Servers for Workers, Security, and Observability
+description: Official Cloudflare MCP servers that enable AI assistants to manage Workers
+  applications, debug logs, analyze Radar traffic data, configure security settings,
+  and interact with the full Cloudflare platform through natural language via the
+  Model Context Protocol.
 verification: security_reviewed
-source: "https://github.com/cloudflare/mcp-server-cloudflare"
+source: https://github.com/cloudflare/mcp-server-cloudflare
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "cloudflare/mcp-server-cloudflare"
+  github_repo: cloudflare/mcp-server-cloudflare
   github_stars: 3579
 ---
+
 
 # Cloudflare MCP Servers for Workers, Security, and Observability
 
@@ -28,4 +32,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-security-observability/)
+- [GitHub](https://github.com/cloudflare/mcp-server-cloudflare)

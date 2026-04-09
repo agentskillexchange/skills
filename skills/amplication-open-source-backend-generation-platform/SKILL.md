@@ -1,13 +1,17 @@
 ---
-title: "Amplication Open Source Backend Generation Platform"
-description: "Amplication is an open source developer platform for generating production-ready backend services and scaffolding from a visual workflow. This skill fits agents that need to help with service generation, codebase setup, schema-driven backend work, or self-hosted Amplication environments."
+title: Amplication Open Source Backend Generation Platform
+description: Amplication is an open source developer platform for generating production-ready
+  backend services and scaffolding from a visual workflow. This skill fits agents
+  that need to help with service generation, codebase setup, schema-driven backend
+  work, or self-hosted Amplication environments.
 verification: security_reviewed
-source: "https://github.com/amplication/amplication"
+source: https://github.com/amplication/amplication
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Amplication Open Source Backend Generation Platform
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/amplication-open-source-backend-generation-platform/)
+- [GitHub](https://github.com/amplication/amplication)

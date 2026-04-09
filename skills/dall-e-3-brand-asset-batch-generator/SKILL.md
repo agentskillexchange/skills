@@ -1,13 +1,16 @@
 ---
-title: "DALL-E 3 Brand Asset Batch Generator"
-description: "Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent brand identity across icons, banners, and social media templates."
+title: DALL-E 3 Brand Asset Batch Generator
+description: Batch-generates brand assets using the OpenAI Images API with DALL-E
+  3. Manages prompt engineering for consistent brand identity across icons, banners,
+  and social media templates.
 verification: security_reviewed
-source: "https://platform.openai.com/docs/guides/images"
+source: https://platform.openai.com/docs/guides/images
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
+
 
 # DALL-E 3 Brand Asset Batch Generator
 
@@ -25,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/dall-e-3-brand-asset-batch-generator/)
+- [Source](https://platform.openai.com/docs/guides/images)

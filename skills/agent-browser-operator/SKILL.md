@@ -1,17 +1,19 @@
 ---
-title: "Agent Browser Operator"
-description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
+title: Agent Browser Operator
+description: Interactive browser skill for logged-in flows, dynamic pages, and session-aware
+  site operations.
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
+source: https://github.com/microsoft/playwright
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Custom Agents"
-  - "OpenClaw"
+- Custom Agents
+- OpenClaw
 tool_ecosystem:
-  github_repo: "microsoft/playwright"
+  github_repo: microsoft/playwright
   github_stars: 85658
 ---
+
 
 # Agent Browser Operator
 
@@ -29,4 +31,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/agent-browser-operator/)
+- [GitHub](https://github.com/microsoft/playwright)

@@ -1,13 +1,16 @@
 ---
-title: "Jenkins Shared Library Builder"
-description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness."
+title: Jenkins Shared Library Builder
+description: Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit
+  framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static
+  analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
+source: https://agentskillexchange.com/skills/jenkins-shared-library-builder/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
+
 
 # Jenkins Shared Library Builder
 

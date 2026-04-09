@@ -1,13 +1,16 @@
 ---
-title: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
-description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
+title: NocoBase Extensible AI-Powered No-Code and Low-Code Platform
+description: NocoBase is the most extensible open-source no-code/low-code platform
+  for building business applications. It features a data model-driven architecture,
+  AI employee integration, plugin system, and WYSIWYG interface builder.
 verification: security_reviewed
-source: "https://github.com/nocobase/nocobase"
+source: https://github.com/nocobase/nocobase
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
 
@@ -25,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/nocobase-extensible-no-code-low-code-platform/)
+- [GitHub](https://github.com/nocobase/nocobase)

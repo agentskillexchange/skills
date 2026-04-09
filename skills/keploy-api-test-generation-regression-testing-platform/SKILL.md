@@ -1,13 +1,17 @@
 ---
-title: "Keploy API Test Generation and Regression Testing Platform"
-description: "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects."
+title: Keploy API Test Generation and Regression Testing Platform
+description: Keploy is an open source platform for generating API tests from real
+  traffic and improving regression coverage. This skill helps agents work with test
+  generation, API replay, coverage expansion, and validation workflows around Keploy
+  projects.
 verification: security_reviewed
-source: "https://github.com/keploy/keploy"
+source: https://github.com/keploy/keploy
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
+
 
 # Keploy API Test Generation and Regression Testing Platform
 
@@ -25,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/keploy-api-test-generation-regression-testing-platform/)
+- [GitHub](https://github.com/keploy/keploy)

@@ -1,13 +1,16 @@
 ---
-title: "Salesforce Bulk API Data Loader"
-description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
+title: Salesforce Bulk API Data Loader
+description: Performs high-volume data operations using the Salesforce Bulk API 2.0.
+  Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status
+  via getJobInfo() for millions of records.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
+source: https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 ---
+
 
 # Salesforce Bulk API Data Loader
 

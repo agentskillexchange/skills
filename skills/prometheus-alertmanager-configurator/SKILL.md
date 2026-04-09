@@ -1,13 +1,16 @@
 ---
-title: "Prometheus AlertManager Configurator"
-description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization."
+title: Prometheus AlertManager Configurator
+description: Generates Prometheus AlertManager configurations with routing trees,
+  inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs.
+  Supports template-based notification customization.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/"
+source: https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
+
 
 # Prometheus AlertManager Configurator
 

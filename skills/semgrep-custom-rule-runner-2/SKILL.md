@@ -1,13 +1,16 @@
 ---
-title: "Semgrep Custom Rule Runner"
-description: "Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep –config and –pattern flags with metavariable constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases."
+title: Semgrep Custom Rule Runner
+description: Executes Semgrep OSS with custom YAML rule files for project-specific
+  static analysis patterns. Supports semgrep –config and –pattern flags with metavariable
+  constraints for detecting anti-patterns in Python, JavaScript, Go, and Java codebases.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
+source: https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
+
 
 # Semgrep Custom Rule Runner
 

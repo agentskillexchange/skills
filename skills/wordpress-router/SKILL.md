@@ -1,16 +1,17 @@
 ---
-title: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast."
+title: WordPress Router
+description: Route WordPress tasks to the right workflow fast.
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+source: https://github.com/WordPress/WordPress
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21002
 ---
+
 
 # WordPress Router
 
@@ -28,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-router/)
+- [GitHub](https://github.com/WordPress/WordPress)
