@@ -1,12 +1,9 @@
 ---
-title: Sharp Image CDN Optimizer
-description: On-the-fly image optimization using Sharp (libvips Node.js bindings)
-  with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP
-  transcoding, and blur placeholder (LQIP) creation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/
+title: "Sharp Image CDN Optimizer"
+description: "On-the-fly image optimization using Sharp (libvips Node.js bindings) with CDN-aware caching headers. Supports responsive srcset generation, AVIF/WebP transcoding, and blur placeholder (LQIP) creation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
 category:
-- Image & Creative Automation
 framework:
 - Custom Agents
 ---

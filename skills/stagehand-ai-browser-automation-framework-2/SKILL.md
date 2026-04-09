@@ -1,13 +1,9 @@
 ---
-title: Stagehand AI Browser Automation Framework
-description: Build browser automations with Stagehand, Browserbase’s AI browser automation
-  framework. It combines natural-language actions with code-level control so agents
-  can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style
-  workflows.
-verification: security_reviewed
-source: https://github.com/browserbase/stagehand
+title: "Stagehand AI Browser Automation Framework"
+description: "Build browser automations with Stagehand, Browserbase’s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows."
+verification: "security_reviewed"
+source: "https://github.com/browserbase/stagehand"
 category:
-- Browser Automation
 framework:
 - Multi-Framework
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/browserbase/stagehand)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/stagehand-ai-browser-automation-framework-2/)

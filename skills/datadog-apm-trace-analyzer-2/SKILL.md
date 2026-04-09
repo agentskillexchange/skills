@@ -1,12 +1,9 @@
 ---
-title: Datadog APM Trace Analyzer
-description: Queries Datadog APM trace data via the Datadog Tracing API v2 to identify
-  latency bottlenecks and error hotspots. Generates flame graph summaries and service
-  dependency impact reports.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/
+title: "Datadog APM Trace Analyzer"
+description: "Queries Datadog APM trace data via the Datadog Tracing API v2 to identify latency bottlenecks and error hotspots. Generates flame graph summaries and service dependency impact reports."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
 category:
-- Monitoring & Alerts
 framework:
 - Claude Agents
 ---

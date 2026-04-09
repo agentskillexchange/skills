@@ -1,12 +1,9 @@
 ---
-title: Selenium Grid Auto-Scaling Orchestrator
-description: Orchestrates Selenium Grid 4 node scaling based on test queue depth using
-  the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and
-  Edge nodes with health monitoring.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/
+title: "Selenium Grid Auto-Scaling Orchestrator"
+description: "Orchestrates Selenium Grid 4 node scaling based on test queue depth using the Grid GraphQL API. Manages Docker container lifecycle for Chrome, Firefox, and Edge nodes with health monitoring."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/"
 category:
-- Browser Automation
 framework:
 - OpenClaw
 ---

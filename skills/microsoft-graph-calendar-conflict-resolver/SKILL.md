@@ -1,13 +1,9 @@
 ---
-title: Microsoft Graph Calendar Conflict Resolver
-description: Resolves scheduling collisions with Microsoft Graph Calendar endpoints
-  like `/me/events`, `/calendarView`, and `findMeetingTimes`. Useful for agents that
-  need to compare attendees, constraints, and availability before proposing a meeting
-  move.
-verification: security_reviewed
-source: https://learn.microsoft.com/en-us/graph/
+title: "Microsoft Graph Calendar Conflict Resolver"
+description: "Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and `findMeetingTimes`. Useful for agents that need to compare attendees, constraints, and availability before proposing a meeting move."
+verification: "security_reviewed"
+source: "https://learn.microsoft.com/en-us/graph/"
 category:
-- Calendar, Email & Productivity
 framework:
 - Claude Agents
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [Source](https://learn.microsoft.com/en-us/graph/)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/microsoft-graph-calendar-conflict-resolver/)

@@ -1,16 +1,13 @@
 ---
-title: MinIO High-Performance S3-Compatible Object Storage Server
-description: MinIO is a high-performance, S3-compatible object storage server. It
-  can run standalone or distributed, providing enterprise-grade storage with a familiar
-  AWS S3 API for seamless integration with existing tools and SDKs.
-verification: security_reviewed
-source: https://github.com/minio/minio
+title: "MinIO High-Performance S3-Compatible Object Storage Server"
+description: "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs."
+verification: "security_reviewed"
+source: "https://github.com/minio/minio"
 category:
-- Integrations & Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: minio/minio
+  github_repo: "minio/minio"
   github_stars: 60611
 ---
 
@@ -31,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/minio/minio)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/minio-s3-compatible-object-storage/)

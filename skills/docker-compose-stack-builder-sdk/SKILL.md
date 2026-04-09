@@ -1,12 +1,9 @@
 ---
-title: Docker Compose Stack Builder
-description: Builds multi-service Docker Compose stacks using Docker Engine SDK for
-  Python with automatic health check configuration and network isolation. Validates
-  compose files against the Compose Specification v2.x and generates .env templates.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/
+title: "Docker Compose Stack Builder"
+description: "Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check configuration and network isolation. Validates compose files against the Compose Specification v2.x and generates .env templates."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/docker-compose-stack-builder-sdk/"
 category:
-- Developer Tools
 framework:
 - Gemini
 ---

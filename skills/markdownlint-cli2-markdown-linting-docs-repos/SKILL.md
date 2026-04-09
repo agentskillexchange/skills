@@ -1,16 +1,11 @@
 ---
-title: markdownlint-cli2 Markdown Linting for Docs and Repos
-description: This skill uses markdownlint-cli2 to enforce consistent Markdown quality
-  across docs, READMEs, and content repositories. It is built for local authoring,
-  pull-request checks, and CI enforcement with rule-based output.
-verification: security_reviewed
-source: https://github.com/DavidAnson/markdownlint-cli2
+title: "markdownlint-cli2 Markdown Linting for Docs and Repos"
+description: "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output."
+verification: "security_reviewed"
+source: "https://github.com/DavidAnson/markdownlint-cli2"
 category:
-- Content Writing & SEO
 framework:
 - Multi-Framework
-tool_ecosystem:
-  npm_package: markdownlint-cli2
 ---
 
 
@@ -30,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/DavidAnson/markdownlint-cli2)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/)

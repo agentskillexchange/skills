@@ -1,12 +1,9 @@
 ---
-title: Docker Image Layer Size Analyzer
-description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and
-  dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests
-  multi-stage build optimizations.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/
+title: "Docker Image Layer Size Analyzer"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Identifies bloated layers, wasted space from deleted files, and suggests multi-stage build optimizations."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
 category:
-- CI/CD Integrations
 framework:
 - Gemini
 ---

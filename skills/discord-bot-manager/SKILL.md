@@ -1,14 +1,9 @@
 ---
-title: Discord Bot Manager
-description: Discord Bot Manager is built around Discord bot and moderation platform.
-  The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub
-  stars). It gives an agent a more technical and reliable way to work with the tool
-  than a thin one-line wrapper, using stable interfaces like gateway events, slash
-  commands, REST API, webhooks, intents, role actions […]
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/discord-bot-manager/
+title: "Discord Bot Manager"
+description: "Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like gateway events, slash commands, REST API, webhooks, intents, role actions […]"
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/discord-bot-manager/"
 category:
-- Calendar, Email & Productivity
 framework:
 - Custom Agents
 ---

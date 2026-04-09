@@ -1,12 +1,9 @@
 ---
-title: OWASP ZAP Security Scanner Agent
-description: Automates OWASP ZAP active and passive scanning against web applications,
-  parsing alerts into structured vulnerability reports. Integrates with the ZAP API
-  daemon to manage contexts, spider targets, and export SARIF-formatted findings.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/
+title: "OWASP ZAP Security Scanner Agent"
+description: "Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured vulnerability reports. Integrates with the ZAP API daemon to manage contexts, spider targets, and export SARIF-formatted findings."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
 category:
-- Security & Verification
 framework:
 - OpenClaw
 ---

@@ -1,13 +1,9 @@
 ---
-title: Moonshine Voice On-Device Speech Recognition and Voice Commands
-description: Moonshine Voice is a fast on-device speech recognition library for interactive
-  voice applications. This skill helps agents install the Python package, load supported
-  language models, transcribe live microphone input, and wire transcript events into
-  local voice-command workflows.
-verification: security_reviewed
-source: https://github.com/moonshine-ai/moonshine
+title: "Moonshine Voice On-Device Speech Recognition and Voice Commands"
+description: "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows."
+verification: "security_reviewed"
+source: "https://github.com/moonshine-ai/moonshine"
 category:
-- Media & Transcription
 framework:
 - Multi-Framework
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/moonshine-ai/moonshine)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/)

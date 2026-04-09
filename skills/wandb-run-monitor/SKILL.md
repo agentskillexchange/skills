@@ -1,13 +1,9 @@
 ---
-title: Weights & Biases Run Monitor
-description: Uses the W&B Python SDK and Public API to stream live training metrics,
-  system stats, and gradients from active runs. Alerts on metric regressions by querying
-  run history via wandb.Api().runs() and posts summaries to Slack. Supports artifact
-  versioning and lineage tracking.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/wandb-run-monitor/
+title: "Weights & Biases Run Monitor"
+description: "Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active runs. Alerts on metric regressions by querying run history via wandb.Api().runs() and posts summaries to Slack. Supports artifact versioning and lineage tracking."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/wandb-run-monitor/"
 category:
-- Data Extraction & Transformation
 framework:
 - Claude Code
 ---

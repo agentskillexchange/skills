@@ -1,12 +1,9 @@
 ---
-title: OCRmyPDF Searchable PDF OCR Pipeline
-description: OCRmyPDF is an open source tool that adds a searchable OCR text layer
-  to scanned PDFs. It is useful when an agent needs to turn image-based documents
-  into text-searchable files without rebuilding a full document pipeline.
-verification: security_reviewed
-source: https://github.com/ocrmypdf/OCRmyPDF
+title: "OCRmyPDF Searchable PDF OCR Pipeline"
+description: "OCRmyPDF is an open source tool that adds a searchable OCR text layer to scanned PDFs. It is useful when an agent needs to turn image-based documents into text-searchable files without rebuilding a full document pipeline."
+verification: "security_reviewed"
+source: "https://github.com/ocrmypdf/OCRmyPDF"
 category:
-- Media & Transcription
 framework:
 - Multi-Framework
 ---
@@ -28,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/ocrmypdf/OCRmyPDF)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/ocrmypdf-searchable-pdf-ocr-pipeline/)

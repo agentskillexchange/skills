@@ -1,12 +1,9 @@
 ---
-title: CircleCI Pipeline Optimizer
-description: Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to
-  analyze build performance. Identifies slow jobs via timing data, recommends Docker
-  layer caching, and generates optimized .circleci/config.yml with parallelism settings.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/circleci-pipeline-optimizer/
+title: "CircleCI Pipeline Optimizer"
+description: "Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
 category:
-- CI/CD Integrations
 framework:
 - ChatGPT Agents
 ---

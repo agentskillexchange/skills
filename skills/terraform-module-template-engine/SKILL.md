@@ -1,12 +1,9 @@
 ---
-title: Terraform Module Template Engine
-description: Scaffolds production-ready Terraform modules using HCL templates with
-  automated variable documentation via terraform-docs. Includes Terratest boilerplate
-  and GitHub Actions CI workflow generation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/terraform-module-template-engine/
+title: "Terraform Module Template Engine"
+description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
 category:
-- Templates & Workflows
 framework:
 - Gemini
 ---

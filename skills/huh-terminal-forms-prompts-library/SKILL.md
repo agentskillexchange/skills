@@ -1,13 +1,9 @@
 ---
-title: Huh Interactive Terminal Forms and Prompts Library for Go
-description: Huh by Charmbracelet is a Go library for building interactive forms and
-  prompts in the terminal. It supports input fields, selects, multi-selects, text
-  areas, and confirmations with built-in validation, theming, and accessibility support
-  for screen readers.
-verification: security_reviewed
-source: https://github.com/charmbracelet/huh
+title: "Huh Interactive Terminal Forms and Prompts Library for Go"
+description: "Huh by Charmbracelet is a Go library for building interactive forms and prompts in the terminal. It supports input fields, selects, multi-selects, text areas, and confirmations with built-in validation, theming, and accessibility support for screen readers."
+verification: "security_reviewed"
+source: "https://github.com/charmbracelet/huh"
 category:
-- Developer Tools
 framework:
 - Multi-Framework
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/charmbracelet/huh)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/huh-terminal-forms-prompts-library/)

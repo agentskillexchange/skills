@@ -1,18 +1,15 @@
 ---
-title: dbmate Lightweight Database Migration CLI
-description: dbmate is a standalone, framework-agnostic database migration tool that
-  uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery,
-  and Spanner, and works with any programming language or framework.
-verification: security_reviewed
-source: https://github.com/amacneil/dbmate
+title: "dbmate Lightweight Database Migration CLI"
+description: "dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery, and Spanner, and works with any programming language or framework."
+verification: "security_reviewed"
+source: "https://github.com/amacneil/dbmate"
 category:
-- Developer Tools
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: amacneil/dbmate
+  github_repo: "amacneil/dbmate"
   github_stars: 6801
-  npm_package: dbmate
+  npm_package: "dbmate"
   npm_weekly_downloads: 83734
 ---
 
@@ -33,4 +30,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/amacneil/dbmate)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dbmate-lightweight-database-migration-cli/)

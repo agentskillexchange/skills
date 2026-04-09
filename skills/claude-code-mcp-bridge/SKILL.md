@@ -1,16 +1,14 @@
 ---
-title: Claude Code MCP Bridge
-description: Run Claude Code as a one-shot MCP tool so other agents and editors can
-  delegate coding tasks to it. An agent-in-agent orchestration bridge.
-verification: security_reviewed
-source: https://github.com/steipete/claude-code-mcp
+title: "Claude Code MCP Bridge"
+description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
+verification: "security_reviewed"
+source: "https://github.com/steipete/claude-code-mcp"
 category:
-- Developer Tools
 framework:
 - Claude Code
 - MCP
 tool_ecosystem:
-  github_repo: steipete/claude-code-mcp
+  github_repo: "steipete/claude-code-mcp"
   github_stars: 1225
 ---
 
@@ -31,4 +29,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/steipete/claude-code-mcp)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/claude-code-mcp-bridge/)

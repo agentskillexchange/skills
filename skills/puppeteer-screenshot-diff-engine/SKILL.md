@@ -1,12 +1,9 @@
 ---
-title: Puppeteer Screenshot Diff Engine
-description: Visual regression testing using Puppeteer page.screenshot() with pixelmatch
-  comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport
-  emulation and network throttling.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/
+title: "Puppeteer Screenshot Diff Engine"
+description: "Visual regression testing using Puppeteer page.screenshot() with pixelmatch comparison. Leverages CDP sessions via page.createCDPSession() for precise viewport emulation and network throttling."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
 category:
-- Browser Automation
 framework:
 - Claude Code
 ---

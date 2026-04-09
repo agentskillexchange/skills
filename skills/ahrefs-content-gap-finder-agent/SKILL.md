@@ -1,12 +1,9 @@
 ---
-title: Ahrefs Content Gap Finder
-description: Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords
-  endpoint. Compares competitor keyword profiles and surfaces untapped opportunities
-  with volume, KD, and SERP feature data.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/
+title: "Ahrefs Content Gap Finder"
+description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor keyword profiles and surfaces untapped opportunities with volume, KD, and SERP feature data."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/"
 category:
-- Content Writing & SEO
 framework:
 - OpenClaw
 ---

@@ -1,12 +1,9 @@
 ---
-title: Terraform Plan Validator
-description: Parses terraform plan JSON output via the Terraform CLI (terraform show
-  -json) to validate infrastructure changes before apply. Detects destructive operations,
-  cost estimate impacts via Infracost API, and drift from desired state.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/terraform-plan-validator/
+title: "Terraform Plan Validator"
+description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/terraform-plan-validator/"
 category:
-- CI/CD Integrations
 framework:
 - MCP
 ---

@@ -1,16 +1,13 @@
 ---
-title: Traefik Cloud-Native Application Proxy and Reverse Proxy
-description: Traefik is a modern cloud-native reverse proxy and load balancer that
-  automatically discovers services and configures routing. It integrates natively
-  with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS.
-verification: security_reviewed
-source: https://github.com/traefik/traefik
+title: "Traefik Cloud-Native Application Proxy and Reverse Proxy"
+description: "Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS."
+verification: "security_reviewed"
+source: "https://github.com/traefik/traefik"
 category:
-- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: traefik/traefik
+  github_repo: "traefik/traefik"
   github_stars: 62473
 ---
 
@@ -31,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/traefik/traefik)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/traefik-cloud-native-reverse-proxy/)

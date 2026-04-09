@@ -1,13 +1,9 @@
 ---
-title: Jenkins Build Log Analyzer
-description: Parses Jenkins build console logs via the Jenkins Remote Access API to
-  extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics
-  and the Jenkins Test Results API to correlate failures with specific changes. Outputs
-  a triage report ranked by recurrence frequency.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/jenkins-build-log-analyzer/
+title: "Jenkins Build Log Analyzer"
+description: "Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics and the Jenkins Test Results API to correlate failures with specific changes. Outputs a triage report ranked by recurrence frequency."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/jenkins-build-log-analyzer/"
 category:
-- Runbooks & Diagnostics
 framework:
 - ChatGPT Agents
 ---

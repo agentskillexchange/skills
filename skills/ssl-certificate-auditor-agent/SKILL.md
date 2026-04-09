@@ -1,12 +1,9 @@
 ---
-title: SSL Certificate Auditor
-description: Audits TLS/SSL configurations using sslyze Python library and SSL Labs
-  API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status
-  with Certificate Transparency log verification.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/
+title: "SSL Certificate Auditor"
+description: "Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
 category:
-- Security & Verification
 framework:
 - OpenClaw
 ---

@@ -1,12 +1,9 @@
 ---
-title: Apache Tika Document Parser
-description: Extracts structured text, metadata, and embedded objects from PDFs, Office
-  documents, and 1000+ file formats using the Apache Tika REST API. Outputs clean
-  Markdown or JSON with XMP metadata preservation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/apache-tika-document-parser/
+title: "Apache Tika Document Parser"
+description: "Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using the Apache Tika REST API. Outputs clean Markdown or JSON with XMP metadata preservation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/apache-tika-document-parser/"
 category:
-- Data Extraction & Transformation
 framework:
 - Gemini
 ---

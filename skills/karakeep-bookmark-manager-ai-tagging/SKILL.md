@@ -1,17 +1,13 @@
 ---
-title: Karakeep Self-Hosted Bookmark Manager with AI Tagging
-description: Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app
-  with 24K+ GitHub stars that provides AI-powered automatic tagging, full-text search,
-  link archiving, and a REST API. It supports bookmarking links, notes, images, and
-  PDFs with OCR extraction and RSS feed auto-hoarding.
-verification: security_reviewed
-source: https://github.com/karakeep-app/karakeep
+title: "Karakeep Self-Hosted Bookmark Manager with AI Tagging"
+description: "Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered automatic tagging, full-text search, link archiving, and a REST API. It supports bookmarking links, notes, images, and PDFs with OCR extraction and RSS feed auto-hoarding."
+verification: "security_reviewed"
+source: "https://github.com/karakeep-app/karakeep"
 category:
-- Research & Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: karakeep-app/karakeep
+  github_repo: "karakeep-app/karakeep"
   github_stars: 24456
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/karakeep-app/karakeep)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/karakeep-bookmark-manager-ai-tagging/)

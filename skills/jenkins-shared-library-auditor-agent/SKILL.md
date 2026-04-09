@@ -1,12 +1,9 @@
 ---
-title: Jenkins Shared Library Auditor
-description: Audits Jenkins shared libraries for security vulnerabilities using the
-  Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls,
-  credential leaks, and sandbox escapes in pipeline libraries.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/
+title: "Jenkins Shared Library Auditor"
+description: "Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/"
 category:
-- CI/CD Integrations
 framework:
 - Cursor
 ---

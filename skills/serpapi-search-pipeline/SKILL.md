@@ -1,12 +1,9 @@
 ---
-title: SerpAPI Search Pipeline
-description: Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo)
-  with structured JSON extraction. Supports pagination, location targeting, and result
-  deduplication using MinHash LSH.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/serpapi-search-pipeline/
+title: "SerpAPI Search Pipeline"
+description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
 category:
-- Research & Scraping
 framework:
 - OpenClaw
 ---

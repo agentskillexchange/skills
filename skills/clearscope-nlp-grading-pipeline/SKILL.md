@@ -1,12 +1,9 @@
 ---
-title: Clearscope NLP Grading Pipeline
-description: Connects to Clearscope API to generate content grades based on NLP term
-  frequency analysis. Automates keyword research via Clearscope Research Reports endpoint
-  and outputs structured optimization recommendations with TF-IDF scoring.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/
+title: "Clearscope NLP Grading Pipeline"
+description: "Connects to Clearscope API to generate content grades based on NLP term frequency analysis. Automates keyword research via Clearscope Research Reports endpoint and outputs structured optimization recommendations with TF-IDF scoring."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 category:
-- Content Writing & SEO
 framework:
 - Claude Code
 ---

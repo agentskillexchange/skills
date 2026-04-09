@@ -1,13 +1,9 @@
 ---
-title: Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS
-description: Dokku is a self-hosted Platform-as-a-Service built on Docker that provides
-  Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub
-  stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt,
-  and a rich plugin ecosystem for databases, caching, and storage.
-verification: security_reviewed
-source: https://github.com/dokku/dokku
+title: "Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS"
+description: "Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt, and a rich plugin ecosystem for databases, caching, and storage."
+verification: "security_reviewed"
+source: "https://github.com/dokku/dokku"
 category:
-- Developer Tools
 framework:
 - Custom Agents
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/dokku/dokku)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dokku-docker-paas/)

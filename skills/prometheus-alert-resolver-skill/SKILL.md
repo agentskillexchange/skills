@@ -1,13 +1,9 @@
 ---
-title: Prometheus Alert Resolver
-description: Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range
-  endpoints for metric time series analysis. Executes playbook steps for common alerts
-  like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences
-  alerts via Alertmanager /api/v2/silences.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/
+title: "Prometheus Alert Resolver"
+description: "Resolves Prometheus alerts by querying the /api/v1/alerts and /api/v1/query_range endpoints for metric time series analysis. Executes playbook steps for common alerts like HighCPUUsage and DiskSpaceLow, validates PromQL recording rules, and silences alerts via Alertmanager /api/v2/silences."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/"
 category:
-- Runbooks & Diagnostics
 framework:
 - Gemini
 ---

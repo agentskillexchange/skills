@@ -1,13 +1,9 @@
 ---
-title: Appwrite Open Source Backend as a Service Platform
-description: Appwrite is an open-source, self-hosted backend platform that provides
-  authentication, databases, storage, functions, messaging, and realtime APIs out
-  of the box. It serves as a privacy-first alternative to Firebase and Supabase, packaged
-  as Docker microservices for full data ownership.
-verification: security_reviewed
-source: https://github.com/appwrite/appwrite
+title: "Appwrite Open Source Backend as a Service Platform"
+description: "Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage, functions, messaging, and realtime APIs out of the box. It serves as a privacy-first alternative to Firebase and Supabase, packaged as Docker microservices for full data ownership."
+verification: "security_reviewed"
+source: "https://github.com/appwrite/appwrite"
 category:
-- Integrations & Connectors
 framework:
 - Multi-Framework
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/appwrite/appwrite)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/appwrite-open-source-backend-as-a-service-platform/)

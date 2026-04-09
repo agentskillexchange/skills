@@ -1,12 +1,9 @@
 ---
-title: LLDB Debug Session Automator
-description: Automates LLDB debugging sessions with scripted breakpoint management
-  and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget,
-  SBProcess) for programmatic debug control.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/lldb-debug-session-automator/
+title: "LLDB Debug Session Automator"
+description: "Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget, SBProcess) for programmatic debug control."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
 category:
-- Developer Tools
 framework:
 - Custom Agents
 ---

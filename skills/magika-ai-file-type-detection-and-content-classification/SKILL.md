@@ -1,17 +1,13 @@
 ---
-title: Magika AI File Type Detection and Content Classification
-description: Magika is Google’s AI-powered file type detector for fast, content-based
-  identification of binary and text files. It is useful when an agent needs safer
-  routing, validation, triage, or downstream policy decisions based on the real file
-  contents instead of just filenames or MIME headers.
-verification: security_reviewed
-source: https://github.com/google/magika
+title: "Magika AI File Type Detection and Content Classification"
+description: "Magika is Google’s AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers."
+verification: "security_reviewed"
+source: "https://github.com/google/magika"
 category:
-- Security & Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: google/magika
+  github_repo: "google/magika"
   github_stars: 10197
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/google/magika)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/magika-ai-file-type-detection-and-content-classification/)

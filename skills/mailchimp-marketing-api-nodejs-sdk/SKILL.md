@@ -1,12 +1,9 @@
 ---
-title: Mailchimp Marketing API Node.js SDK
-description: Connects agents to Mailchimp’s official Marketing API through the official
-  Node.js client library. Useful for audience sync, tagging, campaign orchestration,
-  automation triggers, webhooks, and batch operations at marketing scale.
-verification: security_reviewed
-source: https://github.com/mailchimp/mailchimp-marketing-node
+title: "Mailchimp Marketing API Node.js SDK"
+description: "Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale."
+verification: "security_reviewed"
+source: "https://github.com/mailchimp/mailchimp-marketing-node"
 category:
-- Calendar, Email & Productivity
 framework:
 - Multi-Framework
 ---
@@ -28,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/mailchimp/mailchimp-marketing-node)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mailchimp-marketing-api-nodejs-sdk/)

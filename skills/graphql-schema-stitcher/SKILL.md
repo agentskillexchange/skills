@@ -1,12 +1,9 @@
 ---
-title: GraphQL Schema Stitcher
-description: Merges multiple GraphQL schemas into a unified federated gateway using
-  Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas
-  with rover graph check.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/graphql-schema-stitcher/
+title: "GraphQL Schema Stitcher"
+description: "Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools stitchSchemas. Validates composed schemas with rover graph check."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/graphql-schema-stitcher/"
 category:
-- Library & API Reference
 framework:
 - MCP
 ---

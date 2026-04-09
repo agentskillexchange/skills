@@ -1,12 +1,9 @@
 ---
-title: Terraform State Forensics Tool
-description: Analyzes Terraform state files and plan outputs to detect drift, orphaned
-  resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for
-  security scanning, and Infracost API for cost impact analysis.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/terraform-state-forensics-tool/
+title: "Terraform State Forensics Tool"
+description: "Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
 category:
-- Runbooks & Diagnostics
 framework:
 - Cursor
 ---

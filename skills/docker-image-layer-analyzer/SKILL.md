@@ -1,12 +1,9 @@
 ---
-title: Docker Image Layer Analyzer
-description: Analyzes Docker image layers using the Docker Registry HTTP API v2 and
-  dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage
-  build optimizations.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/docker-image-layer-analyzer/
+title: "Docker Image Layer Analyzer"
+description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
 category:
-- Library & API Reference
 framework:
 - Claude Code
 ---

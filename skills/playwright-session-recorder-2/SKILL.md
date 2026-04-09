@@ -1,12 +1,9 @@
 ---
-title: Playwright Session Recorder
-description: Records browser sessions using Playwright codegen and exports replayable
-  test scripts. Captures network HAR files alongside DOM snapshots for full session
-  fidelity.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/playwright-session-recorder-2/
+title: "Playwright Session Recorder"
+description: "Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/playwright-session-recorder-2/"
 category:
-- Browser Automation
 framework:
 - Claude Code
 ---

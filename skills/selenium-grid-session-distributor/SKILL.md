@@ -1,13 +1,9 @@
 ---
-title: Selenium Grid Session Distributor
-description: Manages browser session allocation across Selenium Grid 4 nodes using
-  the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted
-  round-robin distribution with health-check-based failover for Chrome, Firefox, and
-  Edge instances.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/selenium-grid-session-distributor/
+title: "Selenium Grid Session Distributor"
+description: "Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
 category:
-- Browser Automation
 framework:
 - Cursor
 ---

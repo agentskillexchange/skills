@@ -1,13 +1,9 @@
 ---
-title: Dozzle Real-Time Docker Container Log Viewer
-description: Dozzle is a lightweight, web-based real-time log viewer for Docker containers.
-  It supports Docker standalone, Swarm mode, and Kubernetes, provides fuzzy search,
-  regex and SQL log queries, multi-host agent mode, and split-screen log viewing —
-  all in a 7 MB container.
-verification: security_reviewed
-source: https://github.com/amir20/dozzle
+title: "Dozzle Real-Time Docker Container Log Viewer"
+description: "Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm mode, and Kubernetes, provides fuzzy search, regex and SQL log queries, multi-host agent mode, and split-screen log viewing — all in a 7 MB container."
+verification: "security_reviewed"
+source: "https://github.com/amir20/dozzle"
 category:
-- Monitoring & Alerts
 framework:
 - Multi-Framework
 ---
@@ -29,4 +25,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/amir20/dozzle)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/dozzle-docker-log-viewer/)

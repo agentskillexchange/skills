@@ -1,12 +1,9 @@
 ---
-title: Cypress E2E API Intercept Skill
-description: Creates end-to-end tests with Cypress cy.intercept() for API mocking
-  and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole()
-  and findByText() for accessible element selection.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/
+title: "Cypress E2E API Intercept Skill"
+description: "Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
 category:
-- Browser Automation
 framework:
 - Codex
 ---

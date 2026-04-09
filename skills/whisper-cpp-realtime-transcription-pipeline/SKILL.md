@@ -1,12 +1,9 @@
 ---
-title: Whisper.cpp Real-Time Transcription Pipeline
-description: Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time
-  speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts
-  simultaneously.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/
+title: "Whisper.cpp Real-Time Transcription Pipeline"
+description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
 category:
-- Media & Transcription
 framework:
 - Claude Code
 ---

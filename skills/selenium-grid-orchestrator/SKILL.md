@@ -1,11 +1,9 @@
 ---
-title: Selenium Grid Orchestrator
-description: Manages Selenium Grid 4 hub and node registration for cross-browser parallel
-  testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/selenium-grid-orchestrator/
+title: "Selenium Grid Orchestrator"
+description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
 category:
-- Browser Automation
 framework:
 - OpenClaw
 ---

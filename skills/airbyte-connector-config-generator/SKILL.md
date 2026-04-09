@@ -1,12 +1,9 @@
 ---
-title: Airbyte Connector Config Generator
-description: Generates Airbyte source and destination connector configurations using
-  the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates
-  connection specs against the Airbyte Protocol.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/airbyte-connector-config-generator/
+title: "Airbyte Connector Config Generator"
+description: "Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and /v1/destinations/create endpoints. Validates connection specs against the Airbyte Protocol."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
 category:
-- Data Extraction & Transformation
 framework:
 - Cursor
 ---

@@ -1,13 +1,9 @@
 ---
-title: Terraform Plan & Apply Automation
-description: Runs terraform plan against changed modules, posts a structured diff
-  as a PR comment via GitHub API, and gates terraform apply on reviewer approval.
-  Supports S3 and GCS remote state backends with automatic workspace detection. Integrates
-  with AWS STS and GCP Workload Identity for short-lived credential injection.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/terraform-plan-apply-automation/
+title: "Terraform Plan & Apply Automation"
+description: "Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/terraform-plan-apply-automation/"
 category:
-- CI/CD Integrations
 framework:
 - OpenClaw
 ---

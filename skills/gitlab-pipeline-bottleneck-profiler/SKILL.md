@@ -1,12 +1,9 @@
 ---
-title: GitLab Pipeline Bottleneck Profiler
-description: Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API
-  and Job Artifacts API. Identifies stage bottlenecks and generates flame-graph visualizations
-  of job dependencies.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/
+title: "GitLab Pipeline Bottleneck Profiler"
+description: "Profiles GitLab CI/CD pipeline execution using the GitLab Pipelines API and Job Artifacts API. Identifies stage bottlenecks and generates flame-graph visualizations of job dependencies."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/"
 category:
-- CI/CD Integrations
 framework:
 - Claude Agents
 ---

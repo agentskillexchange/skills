@@ -1,13 +1,9 @@
 ---
-title: GitHub Actions OIDC Token Validator
-description: Validates GitHub Actions OIDC tokens for secure, secretless deployments.
-  Uses the GitHub Actions id-token API and the jose JWT library to verify audience,
-  issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and
-  GCP Workload Identity Federation for cloud access.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/github-actions-oidc-token-validator/
+title: "GitHub Actions OIDC Token Validator"
+description: "Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/github-actions-oidc-token-validator/"
 category:
-- CI/CD Integrations
 framework:
 - Claude Code
 ---

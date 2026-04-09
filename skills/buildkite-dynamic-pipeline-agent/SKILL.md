@@ -1,12 +1,9 @@
 ---
-title: Buildkite Dynamic Pipeline Agent
-description: Creates Buildkite pipelines dynamically using the Buildkite REST API
-  and pipeline upload commands. Manages agent targeting with queue tags and implements
-  automatic retry strategies for flaky tests.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/
+title: "Buildkite Dynamic Pipeline Agent"
+description: "Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-agent/"
 category:
-- CI/CD Integrations
 framework:
 - Cursor
 ---

@@ -1,17 +1,13 @@
 ---
-title: Beets Music Library Manager and Tagger
-description: Manage and tag music libraries with beets, the Python-based CLI tool
-  that auto-tags audio files using MusicBrainz metadata. Import, organize, deduplicate,
-  and query your music collection with a powerful plugin system and flexible query
-  language.
-verification: security_reviewed
-source: https://github.com/beetbox/beets
+title: "Beets Music Library Manager and Tagger"
+description: "Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz metadata. Import, organize, deduplicate, and query your music collection with a powerful plugin system and flexible query language."
+verification: "security_reviewed"
+source: "https://github.com/beetbox/beets"
 category:
-- Media & Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: beetbox/beets
+  github_repo: "beetbox/beets"
   github_stars: 14901
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/beetbox/beets)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/beets-music-library-manager-tagger/)

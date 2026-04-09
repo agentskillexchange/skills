@@ -1,12 +1,9 @@
 ---
-title: Selenium Grid Session Manager
-description: Manages distributed browser sessions on Selenium Grid 4 via the GraphQL
-  API and /status endpoint. Handles node scaling, session queuing, and capability
-  matching for parallel test execution.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/selenium-grid-session-manager/
+title: "Selenium Grid Session Manager"
+description: "Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node scaling, session queuing, and capability matching for parallel test execution."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/selenium-grid-session-manager/"
 category:
-- Browser Automation
 framework:
 - Gemini
 ---

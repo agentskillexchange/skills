@@ -1,12 +1,9 @@
 ---
-title: Audio Fingerprint Identifier
-description: Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam
-  API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio
-  against fingerprint databases.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/
+title: "Audio Fingerprint Identifier"
+description: "Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring. Matches music, speech, and ambient audio against fingerprint databases."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
 category:
-- Media & Transcription
 framework:
 - OpenClaw
 ---

@@ -1,13 +1,9 @@
 ---
-title: Internal Link Graph Optimizer
-description: Analyzes internal linking structure by crawling sitemaps with Screaming
-  Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms,
-  and identifying orphan pages. Recommends contextual link insertions using BM25 text
-  matching against existing content inventory.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/internal-link-graph-optimizer/
+title: "Internal Link Graph Optimizer"
+description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
 category:
-- Content Writing & SEO
 framework:
 - Cursor
 ---

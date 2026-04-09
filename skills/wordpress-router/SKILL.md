@@ -1,14 +1,13 @@
 ---
-title: WordPress Router
-description: Route WordPress tasks to the right workflow fast.
-verification: security_reviewed
-source: https://github.com/WordPress/WordPress
+title: "WordPress Router"
+description: "Route WordPress tasks to the right workflow fast.\n\nCore Capabilities\n\nManage WordPress sites using WP-CLI and the WordPress REST API\n\nAutomate plugin, theme, and core update workflows\n\nHandle content op"
+verification: "security_reviewed"
+source: "https://github.com/WordPress/WordPress"
 category:
-- WordPress & CMS
 framework:
 - OpenClaw
 tool_ecosystem:
-  github_repo: WordPress/WordPress
+  github_repo: "WordPress/WordPress"
   github_stars: 21002
 ---
 
@@ -16,6 +15,14 @@ tool_ecosystem:
 # WordPress Router
 
 Route WordPress tasks to the right workflow fast.
+
+Core Capabilities
+
+Manage WordPress sites using WP-CLI and the WordPress REST API
+
+Automate plugin, theme, and core update workflows
+
+Handle content op
 
 ## Installation
 
@@ -29,4 +36,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/WordPress/WordPress)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wordpress-router/)

@@ -1,12 +1,9 @@
 ---
-title: TypeScript AST Refactor
-description: Performs automated TypeScript refactoring using ts-morph and the TypeScript
-  Compiler API. Handles rename operations, extract-function, and dead code elimination
-  across large codebases.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/
+title: "TypeScript AST Refactor"
+description: "Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations, extract-function, and dead code elimination across large codebases."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/typescript-ast-refactor-ts-morph/"
 category:
-- Developer Tools
 framework:
 - Cursor
 ---

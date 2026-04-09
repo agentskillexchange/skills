@@ -1,12 +1,9 @@
 ---
-title: Semgrep Code Pattern Scanner
-description: Runs Semgrep against a codebase using official or custom rule registries
-  and outputs a grouped report of security anti-patterns, deprecated API usage, and
-  policy violations. Supports 30+ languages and produces SARIF output.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/
+title: "Semgrep Code Pattern Scanner"
+description: "Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy violations. Supports 30+ languages and produces SARIF output."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
 category:
-- Code Quality & Review
 framework:
 - Codex
 ---

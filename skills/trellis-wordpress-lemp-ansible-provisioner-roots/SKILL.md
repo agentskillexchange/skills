@@ -1,17 +1,13 @@
 ---
-title: Trellis WordPress LEMP Stack Provisioner by Roots
-description: Trellis is a collection of Ansible playbooks for provisioning and deploying
-  WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL,
-  fail2ban, and zero-downtime deploys across development, staging, and production
-  environments.
-verification: security_reviewed
-source: https://github.com/roots/trellis
+title: "Trellis WordPress LEMP Stack Provisioner by Roots"
+description: "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments."
+verification: "security_reviewed"
+source: "https://github.com/roots/trellis"
 category:
-- WordPress & CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: roots/trellis
+  github_repo: "roots/trellis"
   github_stars: 2560
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/roots/trellis)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/trellis-wordpress-lemp-ansible-provisioner-roots/)

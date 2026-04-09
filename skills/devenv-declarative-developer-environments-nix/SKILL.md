@@ -1,17 +1,13 @@
 ---
-title: devenv Declarative Developer Environments with Nix
-description: A fast, declarative, and reproducible developer environment tool built
-  on Nix. devenv lets teams define project dependencies, services, scripts, and language
-  toolchains in a single configuration file, ensuring consistent environments across
-  machines.
-verification: security_reviewed
-source: https://github.com/cachix/devenv
+title: "devenv Declarative Developer Environments with Nix"
+description: "A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines."
+verification: "security_reviewed"
+source: "https://github.com/cachix/devenv"
 category:
-- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: cachix/devenv
+  github_repo: "cachix/devenv"
   github_stars: 6614
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/cachix/devenv)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/)

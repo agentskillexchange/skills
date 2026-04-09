@@ -1,12 +1,9 @@
 ---
-title: Playwright Network HAR Recorder
-description: Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR
-  API for deterministic test environments. Supports selective recording, response
-  modification, and API mock generation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/playwright-network-har-recorder/
+title: "Playwright Network HAR Recorder"
+description: "Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
 category:
-- Browser Automation
 framework:
 - Codex
 ---

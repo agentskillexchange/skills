@@ -1,12 +1,9 @@
 ---
-title: OWASP ZAP API Fuzzer
-description: Automates REST API security testing using the OWASP ZAP Python SDK. Runs
-  active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured
-  vulnerability reports.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/
+title: "OWASP ZAP API Fuzzer"
+description: "Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/"
 category:
-- Security & Verification
 framework:
 - OpenClaw
 ---

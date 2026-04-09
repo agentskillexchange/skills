@@ -1,12 +1,9 @@
 ---
-title: GitLab Pipeline DAG Optimizer
-description: Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to
-  detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates
-  with gitlab-runner exec and the Merge Request Approvals API for automated gate checks.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/
+title: "GitLab Pipeline DAG Optimizer"
+description: "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec and the Merge Request Approvals API for automated gate checks."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
 category:
-- CI/CD Integrations
 framework:
 - OpenClaw
 ---

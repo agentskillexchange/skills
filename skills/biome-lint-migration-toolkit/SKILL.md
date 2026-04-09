@@ -1,16 +1,13 @@
 ---
-title: Biome Lint Migration Toolkit
-description: Automates migration from ESLint and Prettier to Biome (formerly Rome)
-  by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents,
-  and running biome check –apply for bulk reformatting.
-verification: security_reviewed
-source: https://github.com/biomejs/biome
+title: "Biome Lint Migration Toolkit"
+description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting."
+verification: "security_reviewed"
+source: "https://github.com/biomejs/biome"
 category:
-- Developer Tools
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: biomejs/biome
+  github_repo: "biomejs/biome"
   github_stars: 24293
 ---
 
@@ -31,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/biomejs/biome)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/biome-lint-migration-toolkit/)

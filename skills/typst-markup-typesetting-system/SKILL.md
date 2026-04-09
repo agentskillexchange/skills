@@ -1,17 +1,13 @@
 ---
-title: Typst Markup-Based Document Typesetting System
-description: Typst is a modern markup-based typesetting system designed to replace
-  LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a
-  scripting system, math typesetting, bibliography management, and incremental compilation
-  for near-instant builds.
-verification: security_reviewed
-source: https://github.com/typst/typst
+title: "Typst Markup-Based Document Typesetting System"
+description: "Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math typesetting, bibliography management, and incremental compilation for near-instant builds."
+verification: "security_reviewed"
+source: "https://github.com/typst/typst"
 category:
-- Content Writing & SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: typst/typst
+  github_repo: "typst/typst"
   github_stars: 52359
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/typst/typst)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/typst-markup-typesetting-system/)

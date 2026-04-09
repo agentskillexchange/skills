@@ -1,12 +1,9 @@
 ---
-title: Swagger Codegen Template Customizer
-description: Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates
-  for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch),
-  and Python (httpx) output targets.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/swagger-codegen-template-customizer/
+title: "Swagger Codegen Template Customizer"
+description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 category:
-- Library & API Reference
 framework:
 - ChatGPT Agents
 ---

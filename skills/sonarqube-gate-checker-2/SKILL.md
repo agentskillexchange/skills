@@ -1,12 +1,9 @@
 ---
-title: SonarQube Gate Checker
-description: Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate
-  quality gate conditions before merge. Reports code smells, coverage thresholds,
-  and duplications against configurable SonarQube quality profiles.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/sonarqube-gate-checker-2/
+title: "SonarQube Gate Checker"
+description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
 category:
-- Templates & Workflows
 framework:
 - Claude Code
 ---

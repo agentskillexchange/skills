@@ -1,12 +1,9 @@
 ---
-title: ImageMagick Batch Converter CLI
-description: Automates bulk image conversion using ImageMagick’s convert and mogrify
-  commands with geometry expressions. Supports -density, -colorspace, and -profile
-  flags for print-quality output.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/
+title: "ImageMagick Batch Converter CLI"
+description: "Automates bulk image conversion using ImageMagick’s convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/"
 category:
-- Image & Creative Automation
 framework:
 - OpenClaw
 ---

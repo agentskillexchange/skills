@@ -1,12 +1,9 @@
 ---
-title: ImageMagick Batch Processor
-description: Batch image processing using ImageMagick’s convert and mogrify commands
-  with support for resize, crop, watermark, and format conversion. Integrates with
-  libvips for high-performance thumbnail generation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/imagemagick-batch-processor/
+title: "ImageMagick Batch Processor"
+description: "Batch image processing using ImageMagick’s convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/imagemagick-batch-processor/"
 category:
-- Image & Creative Automation
 framework:
 - MCP
 ---

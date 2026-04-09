@@ -1,12 +1,9 @@
 ---
-title: Tekton Pipeline Template Generator
-description: Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for
-  reusable task resolution. Leverages tkn CLI for local testing and integrates with
-  Sigstore cosign for supply chain artifact signing and SLSA provenance attestation.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/tekton-pipeline-template-generator/
+title: "Tekton Pipeline Template Generator"
+description: "Scaffolds Tekton Pipeline and Task CRDs using the Tekton Hub API for reusable task resolution. Leverages tkn CLI for local testing and integrates with Sigstore cosign for supply chain artifact signing and SLSA provenance attestation."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
 category:
-- CI/CD Integrations
 framework:
 - MCP
 ---

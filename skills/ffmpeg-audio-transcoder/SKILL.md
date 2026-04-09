@@ -1,12 +1,9 @@
 ---
-title: FFmpeg Audio Transcoder
-description: Transcodes and processes audio files using the FFmpeg CLI and libavcodec
-  library. Supports batch format conversion, loudness normalization via EBU R128,
-  and metadata extraction with ffprobe.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/
+title: "FFmpeg Audio Transcoder"
+description: "Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
 category:
-- Media & Transcription
 framework:
 - Cursor
 ---

@@ -1,12 +1,9 @@
 ---
-title: Parquet Column Mapper
-description: Reads and transforms Apache Parquet file metadata and column statistics
-  using PyArrow and the Parquet Thrift specification. Maps column types across Delta
-  Lake, Iceberg, and Hudi table formats.
-verification: listed
-source: https://agentskillexchange.com/skills/parquet-column-mapper/
+title: "Parquet Column Mapper"
+description: "Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg, and Hudi table formats."
+verification: "listed"
+source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
 category:
-- Data Extraction & Transformation
 framework:
 - MCP
 ---

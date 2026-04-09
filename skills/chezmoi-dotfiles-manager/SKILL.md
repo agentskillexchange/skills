@@ -1,17 +1,13 @@
 ---
-title: chezmoi Cross-Machine Dotfiles Manager
-description: chezmoi manages dotfiles across multiple machines securely using a Git-backed
-  source-of-truth model with templates, encryption, and cross-platform support. Written
-  in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and
-  one-command bootstrap.
-verification: security_reviewed
-source: https://github.com/twpayne/chezmoi
+title: "chezmoi Cross-Machine Dotfiles Manager"
+description: "chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates, encryption, and cross-platform support. Written in Go with 18k+ GitHub stars, it handles machine-specific configs, secrets, and one-command bootstrap."
+verification: "security_reviewed"
+source: "https://github.com/twpayne/chezmoi"
 category:
-- Developer Tools
 framework:
 - OpenClaw
 tool_ecosystem:
-  github_repo: twpayne/chezmoi
+  github_repo: "twpayne/chezmoi"
   github_stars: 18876
 ---
 
@@ -32,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/twpayne/chezmoi)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/chezmoi-dotfiles-manager/)

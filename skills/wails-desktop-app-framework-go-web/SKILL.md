@@ -1,16 +1,13 @@
 ---
-title: Wails Desktop Application Framework for Go and Web Technologies
-description: Wails is an open source framework for building desktop applications using
-  Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the
-  frontend. It compiles to a single native binary with no embedded browser overhead.
-verification: security_reviewed
-source: https://github.com/wailsapp/wails
+title: "Wails Desktop Application Framework for Go and Web Technologies"
+description: "Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the frontend. It compiles to a single native binary with no embedded browser overhead."
+verification: "security_reviewed"
+source: "https://github.com/wailsapp/wails"
 category:
-- Developer Tools
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: wailsapp/wails
+  github_repo: "wailsapp/wails"
   github_stars: 33630
 ---
 
@@ -31,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/wailsapp/wails)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wails-desktop-app-framework-go-web/)

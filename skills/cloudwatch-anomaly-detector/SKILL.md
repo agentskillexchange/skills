@@ -1,12 +1,9 @@
 ---
-title: CloudWatch Anomaly Detector
-description: Creates and manages CloudWatch Anomaly Detection bands using AWS SDK
-  PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach
-  learned baselines with configurable sensitivity.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/
+title: "CloudWatch Anomaly Detector"
+description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/"
 category:
-- Monitoring & Alerts
 framework:
 - Gemini
 ---

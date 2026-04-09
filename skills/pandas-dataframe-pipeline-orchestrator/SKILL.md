@@ -1,12 +1,9 @@
 ---
-title: Pandas DataFrame Pipeline Orchestrator
-description: Chains pandas DataFrame transformations into reproducible pipelines using
-  pipe() method composition. Handles missing data imputation with fillna() strategies,
-  type coercion with astype(), and memory optimization via category dtypes.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/
+title: "Pandas DataFrame Pipeline Orchestrator"
+description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/"
 category:
-- Data Extraction & Transformation
 framework:
 - ChatGPT Agents
 ---

@@ -1,12 +1,9 @@
 ---
-title: Whisper.cpp Local Transcription Engine
-description: Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized
-  weights for CPU-efficient transcription. Supports beam search decoding, VAD-based
-  segmentation, and SRT/VTT subtitle output formats.
-verification: security_reviewed
-source: https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/
+title: "Whisper.cpp Local Transcription Engine"
+description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription. Supports beam search decoding, VAD-based segmentation, and SRT/VTT subtitle output formats."
+verification: "security_reviewed"
+source: "https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/"
 category:
-- Media & Transcription
 framework:
 - Claude Code
 ---

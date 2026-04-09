@@ -1,14 +1,13 @@
 ---
-title: OpenAI Whisper Transcription
-description: Local speech-to-text transcription without relying on an API.
-verification: security_reviewed
-source: https://github.com/openai/whisper
+title: "OpenAI Whisper Transcription"
+description: "Local speech-to-text transcription without relying on an API."
+verification: "security_reviewed"
+source: "https://github.com/openai/whisper"
 category:
-- Media & Transcription
 framework:
 - OpenClaw
 tool_ecosystem:
-  github_repo: openai/whisper
+  github_repo: "openai/whisper"
   github_stars: 97226
 ---
 
@@ -29,4 +28,4 @@ Choose the method that fits your setup:
 
 ## Source
 
-- [GitHub](https://github.com/openai/whisper)
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-whisper-transcription/)
