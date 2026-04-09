@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1829 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 19:42 UTC
+> **1832 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 21:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -813,7 +813,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (111 skills)
+### 📊 Monitoring & Alerts (113 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -853,6 +853,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [AWS CloudWatch Insights Query Builder](skills/aws-cloudwatch-insights-query-builder/) | Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs,… | Security Reviewed | — | — |
 | [Chartbrew Open Source Reporting Platform for API and Database Dashboards](skills/chartbrew-open-source-reporting-dashboard-platform/) | Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL… | Security Reviewed | — | — |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It… | Security Reviewed | — | — |
+| [Checkmate Open Source Uptime and Infrastructure Monitoring](skills/checkmate-open-source-uptime-infrastructure-monitoring/) | An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response… | Published | — | — |
 | [Cloudflare Analytics Health Monitor](skills/cloudflare-analytics-health-monitor/) | Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates,… | Security Reviewed | — | — |
 | [CloudWatch Anomaly Detector](skills/cloudwatch-anomaly-detector/) | Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs.… | Security Reviewed | — | — |
 | [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | — | — |
@@ -926,6 +927,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Security Reviewed | — | — |
 | [Sentry Error Intelligence](skills/sentry-error-intelligence/) | Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and… | Security Reviewed | — | — |
 | [StatsD Metrics Aggregation Pipeline](skills/statsd-metrics-aggregation-pipeline/) | Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite… | Security Reviewed | — | — |
+| [Upptime GitHub Actions Uptime Monitor and Status Page](skills/upptime-github-actions-uptime-monitor-status-page/) | An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions,… | Published | — | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a… | Security Reviewed | — | — |
 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to… | Security Reviewed | — | — |
 | [Uptime Robot Multi-Check Coordinator](skills/uptime-robot-multi-check-coordinator/) | Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert… | Security Reviewed | — | — |
@@ -1265,7 +1267,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (89 skills)
+### 📰 WordPress & CMS (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1331,6 +1333,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [HeadstartWP Headless WordPress and Next.js Framework](skills/headstartwp-headless-wordpress-nextjs-framework/) | HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a… | Security Reviewed | — | — |
 | [Hygraph Management SDK for Schema Migration Automation](skills/hygraph-management-sdk-schema-migration-automation/) | A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema… | Published | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](skills/keystonejs-headless-cms-graphql-react-admin/) | KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates a GraphQL API and React-based… | Security Reviewed | — | — |
+| [MCP WordPress Server by docdyhr](skills/mcp-wordpress-server-docdyhr/) | An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through… | Published | — | — |
 | [Prismic Headless CMS Content API Client](skills/prismic-headless-cms-content-api-client/) | Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the… | Security Reviewed | — | — |
 | [Statamic Laravel Git-Powered CMS](skills/statamic-laravel-git-powered-cms/) | Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while… | Security Reviewed | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](skills/strapi-open-source-headless-cms-custom-content-apis/) | Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST… | Security Reviewed | — | — |

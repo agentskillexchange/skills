@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C829-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C832-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C791-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,829 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,832 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -72,11 +72,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 132 | ETL pipelines, parsing, format conversion |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 123 | Vulnerability scanning, auth setup, compliance |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 114 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 111 | Metrics, alerting rules, observability |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 113 | Metrics, alerting rules, observability |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 109 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 103 | Email automation, calendar management, task coordination |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 97 | Linting, code review, test generators, coverage |
-| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 89 | Theme/plugin dev, WP-CLI automation, CMS management |
+| 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 90 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 87 | Web scraping, UI testing, headless browser control |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 86 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 86 | Web research, content discovery, data collection |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,829 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,832 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,791 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

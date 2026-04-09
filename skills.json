@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1829,
+  "total": 1832,
   "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "mcp-wordpress-server-docdyhr",
+      "name": "MCP WordPress Server by docdyhr",
+      "description": "An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "checkmate-open-source-uptime-infrastructure-monitoring",
+      "name": "Checkmate Open Source Uptime and Infrastructure Monitoring",
+      "description": "An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response times, and infrastructure visibility. It fits agent workflows…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "upptime-github-actions-uptime-monitor-status-page",
+      "name": "Upptime GitHub Actions Uptime Monitor and Status Page",
+      "description": "An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions, Issues, and Pages. It is…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations-2",
       "name": "Mailgun JavaScript SDK for Email Delivery and Domain Operations",

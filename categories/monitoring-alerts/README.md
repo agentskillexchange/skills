@@ -70,6 +70,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Chartbrew Open Source Reporting Platform for API and Database Dashboards](../../skills/chartbrew-open-source-reporting-dashboard-platform/) | — | — |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | — | — |
+| [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
@@ -143,6 +144,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | — | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
+| [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | — | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | — | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | — | — |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | — | — |

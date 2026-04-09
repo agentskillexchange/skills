@@ -99,6 +99,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | — | — |
 | [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
+| [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
 | [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
