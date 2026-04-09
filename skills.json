@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1801,
-  "generated": "2026-04-08",
+  "total": 1804,
+  "generated": "2026-04-09",
   "skills": [
+    {
+      "slug": "puppeteer-browser-automation-library",
+      "name": "Puppeteer Browser Automation Library",
+      "description": "A practical guide to Puppeteer for browser automation, scraping, and testing. It tracks the official install flow, the Chrome/Firefox control API, and the docs…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "langgraph-js-agent-orchestration-framework",
+      "name": "LangGraph.js Agent Orchestration Framework",
+      "description": "A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "openai-agents-sdk-javascript-workflow-toolkit",
+      "name": "OpenAI Agents SDK JavaScript Workflow Toolkit",
+      "description": "A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools, handoffs, tracing, and the practical install path.",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "temporal-cli-workflow-server-control",
       "name": "Temporal CLI Workflow and Server Control",

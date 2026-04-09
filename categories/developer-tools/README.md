@@ -243,6 +243,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
+| [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | — | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | — | — |

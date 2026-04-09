@@ -1,0 +1,28 @@
+---
+title: OpenAI Agents SDK JavaScript Workflow Toolkit
+description: "The OpenAI Agents SDK for JavaScript, published as @openai/agents, is a lightweight framework for building multi-agent workflows and voice agents. The upstream repository documents core concepts such as agents, tools, guardrails, handoffs, sessions, tracing, and human-in-the-loop control."
+verification: listed
+source: https://github.com/openai/openai-agents-js
+category:
+- Library & API Reference
+framework:
+- Multi-Framework
+---
+
+# OpenAI Agents SDK JavaScript Workflow Toolkit
+
+The OpenAI Agents SDK for JavaScript, published as @openai/agents, is a lightweight framework for building multi-agent workflows and voice agents. The upstream repository documents core concepts such as agents, tools, guardrails, handoffs, sessions, tracing, and human-in-the-loop control.
+
+## Installation
+
+Choose the method that fits your setup:
+
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/openai-agents-sdk-javascript-workflow-toolkit/)

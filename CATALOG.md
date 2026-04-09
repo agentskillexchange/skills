@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1801 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-08 23:37 UTC
+> **1804 published skills** across **17 categories** · 1765 security reviewed · Updated 2026-04-09 03:38 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (244 skills)
+### 🛠️ Developer Tools (245 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -217,6 +217,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Security Reviewed | — | — |
 | [Kubernetes Pod Crash Diagnostics](skills/kubernetes-pod-crash-diagnostics-3/) | Runs kubectl describe pod, kubectl logs --previous, and kubectl get events to diagnose CrashLoopBackOff and… | Security Reviewed | — | — |
 | [LangChain MCP Server](skills/langchain-mcp-server/) | LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is… | Security Reviewed | — | — |
+| [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | — | — |
 | [Linear Issue Manager](skills/linear-issue-manager/) | Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](skills/lipgloss-terminal-styling-library/) | Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+… | Security Reviewed | — | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](skills/llamafile-single-file-llm-runner-mozilla/) | llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows,… | Security Reviewed | — | — |
@@ -927,7 +928,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (108 skills)
+### 📚 Library & API Reference (109 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -990,6 +991,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [npm Registry Analyzer](skills/npm-registry-analyzer/) | Queries the npm registry API and npms.io scoring endpoint to evaluate package quality, maintenance scores, and… | Security Reviewed | — | — |
 | [npm Registry Explorer](skills/npm-registry-explorer/) | Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring.… | Security Reviewed | — | — |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and… | Security Reviewed | — | — |
+| [OpenAI Agents SDK JavaScript Workflow Toolkit](skills/openai-agents-sdk-javascript-workflow-toolkit/) | A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools,… | Published | — | — |
 | [OpenAPI SDK Generator Pipeline](skills/openapi-sdk-generator-pipeline/) | Generates typed client SDKs from OpenAPI 3.x specifications using openapi-generator-cli. Produces TypeScript,… | Security Reviewed | — | — |
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Security Reviewed | — | — |
 | [OpenAPI Spec Compliance Checker](skills/openapi-spec-compliance-checker/) | Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks… | Security Reviewed | — | — |
@@ -1529,7 +1531,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Yoast SEO WordPress Search Optimization Plugin](skills/yoast-seo-wordpress-search-optimization-plugin/) | Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output,… | Published | — | — |
 
 
-### 🌐 Browser Automation (82 skills)
+### 🌐 Browser Automation (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1589,6 +1591,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Playwright Session Recorder](skills/playwright-session-recorder-2/) | Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files… | Security Reviewed | — | — |
 | [Playwright Visual Regression Suite](skills/playwright-visual-regression-suite/) | Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with… | Security Reviewed | — | — |
 | [Playwright Visual Regression Tester](skills/playwright-visual-regression-tester-3/) | Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library.… | Security Reviewed | — | — |
+| [Puppeteer Browser Automation Library](skills/puppeteer-browser-automation-library/) | A practical guide to Puppeteer for browser automation, scraping, and testing. It tracks the official install flow,… | Published | — | — |
 | [Puppeteer Cookie Consent Automator](skills/puppeteer-cookie-consent-automator/) | Automatically detects and handles cookie consent banners across websites using Puppeteer CDP protocol and a trained… | Security Reviewed | — | — |
 | [Puppeteer Cookie Consent Handler](skills/puppeteer-cookie-consent-handler-3/) | Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP… | Security Reviewed | — | — |
 | [Puppeteer Multi-Tab Session Manager](skills/puppeteer-multi-tab-session-manager/) | Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools… | Security Reviewed | — | — |
