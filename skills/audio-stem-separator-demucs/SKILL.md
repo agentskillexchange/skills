@@ -1,30 +1,30 @@
 ---
 title: "Audio Stem Separator with Demucs"
-description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
+description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
+slug: "audio-stem-separator-demucs"
 verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507
 ---
-
 # Audio Stem Separator with Demucs
 
-Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
+Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
+slug: "dbt-model-dependency-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # dbt Model Dependency Analyzer
 
 Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.
@@ -17,11 +17,11 @@ Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

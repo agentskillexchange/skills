@@ -1,17 +1,17 @@
 ---
 title: "ripgrep Recursive Regex Search Tool"
 description: "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default."
+slug: "ripgrep-recursive-regex-search-tool"
 verification: "security_reviewed"
 source: "https://github.com/BurntSushi/ripgrep"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "BurntSushi/ripgrep"
   github_stars: 61743
 ---
-
 # ripgrep Recursive Regex Search Tool
 
 ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default.
@@ -20,11 +20,11 @@ ripgrep (rg) is a line-oriented search tool that recursively searches directorie
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

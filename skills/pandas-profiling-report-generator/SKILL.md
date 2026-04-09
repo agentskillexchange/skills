@@ -1,14 +1,14 @@
 ---
 title: "Pandas Profiling Report Generator"
 description: "Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries."
+slug: "pandas-profiling-report-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Codex
+  - "Codex"
 ---
-
 # Pandas Profiling Report Generator
 
 Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries.
@@ -17,11 +17,11 @@ Generates comprehensive data quality reports using ydata-profiling (formerly pan
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

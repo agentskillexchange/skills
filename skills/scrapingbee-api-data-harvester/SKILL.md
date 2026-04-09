@@ -1,14 +1,14 @@
 ---
 title: "ScrapingBee API Data Harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
+slug: "scrapingbee-api-data-harvester"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # ScrapingBee API Data Harvester
 
 Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving.
@@ -17,11 +17,11 @@ Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SER
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,18 +1,18 @@
 ---
 title: "Docker Compose Service Graph Visualizer"
 description: "Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status."
+slug: "docker-compose-service-graph-visualizer"
 verification: "security_reviewed"
 source: "https://github.com/docker/compose"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
-- Multi-Framework
+  - "Claude Code"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docker/compose"
   github_stars: 37227
 ---
-
 # Docker Compose Service Graph Visualizer
 
 Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status.
@@ -21,11 +21,11 @@ Parses docker-compose.yml files using PyYAML and generates interactive dependenc
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

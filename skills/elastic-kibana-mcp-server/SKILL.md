@@ -1,30 +1,30 @@
 ---
 title: "Elastic / Kibana MCP Server"
-description: "Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]"
+description: "Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health [&hellip;]"
+slug: "elastic-kibana-mcp-server"
 verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- MCP
+  - "MCP"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76475
 ---
-
 # Elastic / Kibana MCP Server
 
-Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]
+Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health [&hellip;]
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

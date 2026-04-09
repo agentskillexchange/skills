@@ -1,17 +1,17 @@
 ---
 title: "xsv High-Performance CSV Toolkit"
 description: "xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching, sampling, and statistics operations on CSV files with exceptional speed and memory efficiency."
+slug: "xsv-high-performance-csv-toolkit"
 verification: "security_reviewed"
 source: "https://github.com/BurntSushi/xsv"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "BurntSushi/xsv"
   github_stars: 10758
 ---
-
 # xsv High-Performance CSV Toolkit
 
 xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching, sampling, and statistics operations on CSV files with exceptional speed and memory efficiency.
@@ -20,11 +20,11 @@ xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntS
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

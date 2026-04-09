@@ -1,18 +1,17 @@
 ---
 title: "Grafana Alloy OpenTelemetry Collector Distribution"
 description: "Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and manage observability data collection using Alloy."
+slug: "grafana-alloy-opentelemetry-collector"
 verification: "security_reviewed"
 source: "https://github.com/grafana/alloy"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026
-  license: "Apache-2.0"
 ---
-
 # Grafana Alloy OpenTelemetry Collector Distribution
 
 Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and manage observability data collection using Alloy.
@@ -21,11 +20,11 @@ Grafana Alloy is an open-source OpenTelemetry Collector distribution with progra
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

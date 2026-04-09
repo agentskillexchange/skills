@@ -1,14 +1,14 @@
 ---
 title: "Metabase Dashboard Snapshot & Alerting"
 description: "Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments."
+slug: "metabase-dashboard-snapshot-alerting-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
-
 # Metabase Dashboard Snapshot & Alerting
 
 Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments.
@@ -17,11 +17,11 @@ Uses the Metabase REST API to export question results as CSV and render dashboar
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

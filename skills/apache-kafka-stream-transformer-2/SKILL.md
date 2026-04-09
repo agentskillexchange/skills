@@ -1,14 +1,14 @@
 ---
 title: "Apache Kafka Stream Transformer"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
+slug: "apache-kafka-stream-transformer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Cursor
+  - "Cursor"
 ---
-
 # Apache Kafka Stream Transformer
 
 Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations.
@@ -17,11 +17,11 @@ Processes real-time event streams using KafkaJS consumer groups and transforms m
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

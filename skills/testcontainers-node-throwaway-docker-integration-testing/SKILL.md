@@ -1,17 +1,17 @@
 ---
 title: "Testcontainers Node Throwaway Docker Integration Testing Library"
 description: "Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration testing. It automates container lifecycle management during test runs, ensuring clean and reproducible test environments."
+slug: "testcontainers-node-throwaway-docker-integration-testing"
 verification: "listed"
 source: "https://github.com/testcontainers/testcontainers-node"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "testcontainers/testcontainers-node"
   github_stars: 2508
 ---
-
 # Testcontainers Node Throwaway Docker Integration Testing Library
 
 Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration testing. It automates container lifecycle management during test runs, ensuring clean and reproducible test environments.
@@ -20,11 +20,11 @@ Testcontainers for Node.js is a library that provides lightweight, throwaway ins
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

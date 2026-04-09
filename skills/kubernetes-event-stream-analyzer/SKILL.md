@@ -1,15 +1,15 @@
 ---
 title: "Kubernetes Event Stream Analyzer"
 description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
+slug: "kubernetes-event-stream-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Gemini
-- Multi-Framework
+  - "Gemini"
+  - "Multi-Framework"
 ---
-
 # Kubernetes Event Stream Analyzer
 
 Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
@@ -18,11 +18,11 @@ Watches Kubernetes event streams via the Watch API and correlates pod lifecycle 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

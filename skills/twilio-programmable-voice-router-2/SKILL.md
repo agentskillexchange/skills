@@ -1,27 +1,27 @@
 ---
 title: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource."
+description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource."
+slug: "twilio-programmable-voice-router-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
 category:
-- Integrations &amp; Connectors
+  - "Integrations & Connectors"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
-
 # Twilio Programmable Voice Router
 
-Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and  verbs, and manages call recordings via the Recordings REST resource.
+Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource.
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

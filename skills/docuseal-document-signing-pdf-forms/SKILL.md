@@ -1,17 +1,17 @@
 ---
 title: "DocuSeal Open Source Document Signing and PDF Form Platform"
 description: "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular."
+slug: "docuseal-document-signing-pdf-forms"
 verification: "security_reviewed"
 source: "https://github.com/docusealco/docuseal"
 category:
-- Templates &amp; Workflows
+  - "Templates & Workflows"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
   github_stars: 11695
 ---
-
 # DocuSeal Open Source Document Signing and PDF Form Platform
 
 DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular.
@@ -20,11 +20,11 @@ DocuSeal is an open-source DocuSign alternative for creating, filling, and signi
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

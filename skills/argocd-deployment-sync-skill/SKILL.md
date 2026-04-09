@@ -1,14 +1,14 @@
 ---
 title: "ArgoCD Deployment Sync Skill"
 description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads."
+slug: "argocd-deployment-sync-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-deployment-sync-skill/"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
-
 # ArgoCD Deployment Sync Skill
 
 Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads.
@@ -17,11 +17,11 @@ Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers appl
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

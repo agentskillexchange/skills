@@ -1,17 +1,17 @@
 ---
 title: "fd Fast File Finder CLI"
 description: "A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and glob support, colorized output, parallel execution, and automatic .gitignore awareness."
+slug: "fd-fast-file-finder-cli"
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/fd"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "sharkdp/fd"
   github_stars: 42280
 ---
-
 # fd Fast File Finder CLI
 
 A fast and user-friendly alternative to the find command, written in Rust. fd provides intuitive syntax, regex and glob support, colorized output, parallel execution, and automatic .gitignore awareness.
@@ -20,11 +20,11 @@ A fast and user-friendly alternative to the find command, written in Rust. fd pr
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

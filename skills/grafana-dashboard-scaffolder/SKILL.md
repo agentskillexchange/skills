@@ -1,14 +1,14 @@
 ---
 title: "Grafana Dashboard Scaffolder"
 description: "Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics."
+slug: "grafana-dashboard-scaffolder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Cursor
+  - "Cursor"
 ---
-
 # Grafana Dashboard Scaffolder
 
 Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics.
@@ -17,11 +17,11 @@ Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db e
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

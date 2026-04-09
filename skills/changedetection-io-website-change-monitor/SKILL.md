@@ -1,17 +1,17 @@
 ---
 title: "changedetection.io Self-Hosted Website Change Monitoring Platform"
 description: "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels."
+slug: "changedetection-io-website-change-monitor"
 verification: "security_reviewed"
 source: "https://github.com/dgtlmoon/changedetection.io"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dgtlmoon/changedetection.io"
   github_stars: 30867
 ---
-
 # changedetection.io Self-Hosted Website Change Monitoring Platform
 
 changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels.
@@ -20,11 +20,11 @@ changedetection.io is an open-source, self-hosted tool for monitoring websites f
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

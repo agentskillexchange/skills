@@ -1,19 +1,19 @@
 ---
 title: "tldraw Infinite Canvas Whiteboard SDK for React"
 description: "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of the box, with full extensibility for custom shapes, tools, and UI components."
+slug: "tldraw-infinite-canvas-whiteboard-sdk"
 verification: "security_reviewed"
 source: "https://github.com/tldraw/tldraw"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tldraw/tldraw"
   github_stars: 46154
   npm_package: "tldraw"
   npm_weekly_downloads: 156588
 ---
-
 # tldraw Infinite Canvas Whiteboard SDK for React
 
 tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of the box, with full extensibility for custom shapes, tools, and UI components.
@@ -22,11 +22,11 @@ tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "Nginx Error Log Runbook Agent"
 description: "Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus REST API /api/8/http/upstreams endpoint. Resolves 502 Bad Gateway, SSL handshake failures, and upstream timeout issues."
+slug: "nginx-error-log-runbook-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/"
 category:
-- Runbooks &amp; Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
-
 # Nginx Error Log Runbook Agent
 
 Automates Nginx error diagnosis using nginx -T configuration dump, error.log pattern matching, and the Nginx Plus REST API /api/8/http/upstreams endpoint. Resolves 502 Bad Gateway, SSL handshake failures, and upstream timeout issues.
@@ -17,11 +17,11 @@ Automates Nginx error diagnosis using nginx -T configuration dump, error.log pat
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

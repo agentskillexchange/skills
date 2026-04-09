@@ -1,17 +1,17 @@
 ---
 title: "Pixi Cross-Platform Package Manager Built on Conda"
 description: "A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with a Cargo-like developer experience for Python, C++, R, and more."
+slug: "pixi-cross-platform-package-manager-conda-rust"
 verification: "security_reviewed"
 source: "https://github.com/prefix-dev/pixi"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prefix-dev/pixi"
   github_stars: 6724
 ---
-
 # Pixi Cross-Platform Package Manager Built on Conda
 
 A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with a Cargo-like developer experience for Python, C++, R, and more.
@@ -20,11 +20,11 @@ A blazing-fast, cross-platform package manager and workflow tool written in Rust
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

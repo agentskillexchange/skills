@@ -1,14 +1,14 @@
 ---
 title: "Podcast RSS Feed Builder"
 description: "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen."
+slug: "podcast-rss-feed-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
-
 # Podcast RSS Feed Builder
 
 Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen.
@@ -17,11 +17,11 @@ Generates and validates podcast RSS feeds compliant with the Apple Podcasts and 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

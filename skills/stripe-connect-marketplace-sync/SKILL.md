@@ -1,14 +1,14 @@
 ---
 title: "Stripe Connect Marketplace Sync"
 description: "Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK."
+slug: "stripe-connect-marketplace-sync"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
 category:
-- Integrations &amp; Connectors
+  - "Integrations & Connectors"
 framework:
-- Gemini
+  - "Gemini"
 ---
-
 # Stripe Connect Marketplace Sync
 
 Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK.
@@ -17,11 +17,11 @@ Synchronize marketplace transactions using the Stripe Connect API with automatic
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

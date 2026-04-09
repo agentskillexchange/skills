@@ -1,14 +1,14 @@
 ---
 title: "Paperless-ngx Document OCR and Archive Management System"
 description: "Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging, storage, and retrieval for teams that need structured access to documents."
+slug: "paperless-ngx-document-ocr-archive-management-system"
 verification: "security_reviewed"
 source: "https://github.com/paperless-ngx/paperless-ngx"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # Paperless-ngx Document OCR and Archive Management System
 
 Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging, storage, and retrieval for teams that need structured access to documents.
@@ -17,11 +17,11 @@ Paperless-ngx is an open source document management system that turns scanned or
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

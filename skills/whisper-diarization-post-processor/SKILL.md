@@ -1,14 +1,14 @@
 ---
 title: "Whisper Diarization Post-Processor"
 description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
+slug: "whisper-diarization-post-processor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # Whisper Diarization Post-Processor
 
 Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation.
@@ -17,11 +17,11 @@ Enhances OpenAI Whisper transcription output with speaker diarization using pyan
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

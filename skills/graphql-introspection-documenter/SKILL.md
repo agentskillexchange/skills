@@ -1,14 +1,14 @@
 ---
 title: "GraphQL Introspection Documenter"
 description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
+slug: "graphql-introspection-documenter"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"
 category:
-- Library &amp; API Reference
+  - "Library & API Reference"
 framework:
-- Claude Agents
+  - "Claude Agents"
 ---
-
 # GraphQL Introspection Documenter
 
 Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions.
@@ -17,11 +17,11 @@ Introspects GraphQL endpoints using the __schema query and generates structured 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

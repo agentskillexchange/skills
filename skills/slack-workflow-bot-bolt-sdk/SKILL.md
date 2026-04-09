@@ -1,14 +1,14 @@
 ---
 title: "Slack Workflow Bot"
 description: "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations."
+slug: "slack-workflow-bot-bolt-sdk"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/"
 category:
-- Calendar, Email &amp; Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Slack Workflow Bot
 
 Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations.
@@ -17,11 +17,11 @@ Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block K
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

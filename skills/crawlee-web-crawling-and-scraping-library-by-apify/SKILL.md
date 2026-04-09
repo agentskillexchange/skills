@@ -1,17 +1,17 @@
 ---
 title: "Crawlee Web Crawling and Scraping Library by Apify"
 description: "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and JSDOM without rebuilding the whole pipeline."
+slug: "crawlee-web-crawling-and-scraping-library-by-apify"
 verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22677
 ---
-
 # Crawlee Web Crawling and Scraping Library by Apify
 
 Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and JSDOM without rebuilding the whole pipeline.
@@ -20,11 +20,11 @@ Crawlee is Apify’s open source crawling and scraping framework for Node.js. It
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

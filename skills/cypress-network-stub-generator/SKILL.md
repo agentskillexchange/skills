@@ -1,14 +1,14 @@
 ---
 title: "Cypress Network Stub Generator"
 description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
+slug: "cypress-network-stub-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- Codex
+  - "Codex"
 ---
-
 # Cypress Network Stub Generator
 
 Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows.
@@ -17,11 +17,11 @@ Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tes
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

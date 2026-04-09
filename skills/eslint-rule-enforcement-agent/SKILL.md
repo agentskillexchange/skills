@@ -1,14 +1,14 @@
 ---
 title: "ESLint Rule Enforcement Agent"
 description: "Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases."
+slug: "eslint-rule-enforcement-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # ESLint Rule Enforcement Agent
 
 Automates ESLint configuration and rule enforcement using the ESLint Node.js API and @typescript-eslint/parser. Generates fix suggestions and auto-corrects violations across JavaScript and TypeScript codebases.
@@ -17,11 +17,11 @@ Automates ESLint configuration and rule enforcement using the ESLint Node.js API
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

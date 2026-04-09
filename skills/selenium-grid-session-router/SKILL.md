@@ -1,14 +1,14 @@
 ---
 title: "Selenium Grid Session Router"
 description: "Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution."
+slug: "selenium-grid-session-router"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
 category:
-- Browser Automation
+  - "Browser Automation"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
-
 # Selenium Grid Session Router
 
 Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution.
@@ -17,11 +17,11 @@ Routes browser automation sessions across Selenium Grid 4 nodes using the /statu
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "Package Vulnerability Scanner"
 description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format."
+slug: "package-vuln-scanner-osv-api"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Codex
+  - "Codex"
 ---
-
 # Package Vulnerability Scanner
 
 Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format.
@@ -17,11 +17,11 @@ Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

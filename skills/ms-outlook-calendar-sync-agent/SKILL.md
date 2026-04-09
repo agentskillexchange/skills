@@ -1,14 +1,14 @@
 ---
 title: "Microsoft Outlook Calendar Sync Agent"
 description: "Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental sync, manages recurrence patterns, and resolves timezone conflicts."
+slug: "ms-outlook-calendar-sync-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/"
 category:
-- Calendar, Email &amp; Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # Microsoft Outlook Calendar Sync Agent
 
 Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental sync, manages recurrence patterns, and resolves timezone conflicts.
@@ -17,11 +17,11 @@ Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/c
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

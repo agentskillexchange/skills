@@ -1,14 +1,14 @@
 ---
 title: "Content Cannibalization Detector"
 description: "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports."
+slug: "content-cannibalization-detector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-cannibalization-detector/"
 category:
-- Content Writing &amp; SEO
+  - "Content Writing & SEO"
 framework:
-- Gemini
+  - "Gemini"
 ---
-
 # Content Cannibalization Detector
 
 Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports.
@@ -17,11 +17,11 @@ Identifies keyword cannibalization across site pages by analyzing Google Search 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

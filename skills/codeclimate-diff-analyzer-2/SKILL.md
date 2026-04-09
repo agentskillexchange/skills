@@ -1,14 +1,14 @@
 ---
 title: "CodeClimate Diff Analyzer"
 description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
+slug: "codeclimate-diff-analyzer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # CodeClimate Diff Analyzer
 
 Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file.
@@ -17,11 +17,11 @@ Runs CodeClimate analysis on pull request diffs using the CLI engine and reports
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

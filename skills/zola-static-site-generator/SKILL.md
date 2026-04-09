@@ -1,18 +1,17 @@
 ---
 title: "Zola Fast Static Site Generator in a Single Binary"
 description: "Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing, image processing, and multilingual support. No dependencies required."
+slug: "zola-static-site-generator"
 verification: "security_reviewed"
 source: "https://github.com/getzola/zola"
 category:
-- Content Writing &amp; SEO
+  - "Content Writing & SEO"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getzola/zola"
   github_stars: 16799
-  license: "EUPL-1.2"
 ---
-
 # Zola Fast Static Site Generator in a Single Binary
 
 Zola is a fast static site generator written in Rust that ships as a single binary with built-in Sass compilation, syntax highlighting, search indexing, image processing, and multilingual support. No dependencies required.
@@ -21,11 +20,11 @@ Zola is a fast static site generator written in Rust that ships as a single bina
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

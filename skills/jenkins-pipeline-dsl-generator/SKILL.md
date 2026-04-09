@@ -1,14 +1,14 @@
 ---
 title: "Jenkins Pipeline DSL Generator"
 description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
+slug: "jenkins-pipeline-dsl-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # Jenkins Pipeline DSL Generator
 
 Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding.
@@ -17,11 +17,11 @@ Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST A
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

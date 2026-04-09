@@ -1,18 +1,14 @@
 ---
 title: "audioFlux Audio and Music Analysis Feature Extraction Library"
 description: "audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of time-frequency transforms and hundreds of feature combinations for classification, separation, MIR, and ASR tasks."
+slug: "audioflux-audio-music-analysis-feature-extraction-library"
 verification: "security_reviewed"
 source: "https://github.com/libAudioFlux/audioFlux"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
-tool_ecosystem:
-  github_repo: "libaudioflux/audioflux"
-  github_stars: 3290
-  license: "MIT"
+  - "Multi-Framework"
 ---
-
 # audioFlux Audio and Music Analysis Feature Extraction Library
 
 audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of time-frequency transforms and hundreds of feature combinations for classification, separation, MIR, and ASR tasks.
@@ -21,11 +17,11 @@ audioFlux is a deep learning tool library for audio and music analysis and featu
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

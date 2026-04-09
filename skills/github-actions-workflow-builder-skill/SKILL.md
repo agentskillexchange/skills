@@ -1,14 +1,14 @@
 ---
 title: "GitHub Actions Workflow Builder"
 description: "Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions."
+slug: "github-actions-workflow-builder-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Cursor
+  - "Cursor"
 ---
-
 # GitHub Actions Workflow Builder
 
 Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions.
@@ -17,11 +17,11 @@ Generates and validates GitHub Actions YAML workflows using the actions/toolkit 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

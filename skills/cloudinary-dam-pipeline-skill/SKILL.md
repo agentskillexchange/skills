@@ -1,14 +1,14 @@
 ---
 title: "Cloudinary DAM Pipeline"
 description: "Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation."
+slug: "cloudinary-dam-pipeline-skill"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
 category:
-- Image &amp; Creative Automation
+  - "Image & Creative Automation"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
-
 # Cloudinary DAM Pipeline
 
 Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation.
@@ -17,11 +17,11 @@ Manage digital assets through the Cloudinary Upload, Admin, and Transformation A
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "pyannote.audio Neural Speaker Diarization Toolkit"
 description: "pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding."
+slug: "pyannote-audio-speaker-diarization-toolkit"
 verification: "security_reviewed"
 source: "https://github.com/pyannote/pyannote-audio"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # pyannote.audio Neural Speaker Diarization Toolkit
 
 pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding.
@@ -17,11 +17,11 @@ pyannote.audio is an open-source Python toolkit for speaker diarization built on
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

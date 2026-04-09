@@ -1,17 +1,17 @@
 ---
 title: "WhisperX Speech Recognition with Word-Level Timestamps and Diarization"
 description: "WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It produces accurate per-word timestamps and speaker labels from audio files."
+slug: "whisperx-speech-recognition-timestamps-diarization"
 verification: "security_reviewed"
 source: "https://github.com/m-bain/whisperX"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "m-bain/whisperX"
   github_stars: 21036
 ---
-
 # WhisperX Speech Recognition with Word-Level Timestamps and Diarization
 
 WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It produces accurate per-word timestamps and speaker labels from audio files.
@@ -20,11 +20,11 @@ WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcri
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

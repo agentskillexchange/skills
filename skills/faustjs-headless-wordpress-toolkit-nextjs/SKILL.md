@@ -1,17 +1,17 @@
 ---
 title: "Faust.js Headless WordPress Toolkit for Next.js"
 description: "Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via WPGraphQL, authentication, content previews, and server-side rendering, providing a production-ready bridge between WordPress as a CMS and React-based frontends."
+slug: "faustjs-headless-wordpress-toolkit-nextjs"
 verification: "security_reviewed"
 source: "https://github.com/wpengine/faustjs"
 category:
-- WordPress &amp; CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wpengine/faustjs"
   github_stars: 1568
 ---
-
 # Faust.js Headless WordPress Toolkit for Next.js
 
 Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via WPGraphQL, authentication, content previews, and server-side rendering, providing a production-ready bridge between WordPress as a CMS and React-based frontends.
@@ -20,11 +20,11 @@ Faust.js by WP Engine is a JavaScript framework and WordPress plugin that stream
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

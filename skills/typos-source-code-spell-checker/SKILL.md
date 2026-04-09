@@ -1,17 +1,17 @@
 ---
 title: "typos Source Code Spell Checker"
 description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
+slug: "typos-source-code-spell-checker"
 verification: "security_reviewed"
 source: "https://github.com/crate-ci/typos"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "crate-ci/typos"
   github_stars: 3864
 ---
-
 # typos Source Code Spell Checker
 
 A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows.
@@ -20,11 +20,11 @@ A blazing-fast source code spell checker written in Rust that finds and corrects
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

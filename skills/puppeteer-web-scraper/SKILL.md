@@ -1,14 +1,14 @@
 ---
 title: "Puppeteer Web Scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
+slug: "puppeteer-web-scraper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Cursor
+  - "Cursor"
 ---
-
 # Puppeteer Web Scraper
 
 Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content.
@@ -17,11 +17,11 @@ Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScrip
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

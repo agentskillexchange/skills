@@ -1,14 +1,14 @@
 ---
 title: "AsyncAPI Event Catalog Builder"
 description: "Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ."
+slug: "asyncapi-event-catalog-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
 category:
-- Library &amp; API Reference
+  - "Library & API Reference"
 framework:
-- Gemini
+  - "Gemini"
 ---
-
 # AsyncAPI Event Catalog Builder
 
 Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js library to extract channels, message schemas, and server bindings for Kafka and RabbitMQ.
@@ -17,11 +17,11 @@ Generates event-driven architecture documentation from AsyncAPI 3.0 specificatio
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

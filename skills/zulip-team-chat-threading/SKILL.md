@@ -1,14 +1,14 @@
 ---
 title: "Zulip Open Source Team Chat Platform with Topic-Based Threading"
 description: "Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of email and chat. It offers a comprehensive REST API, webhook integrations, and bot framework for building automated workflows."
+slug: "zulip-team-chat-threading"
 verification: "security_reviewed"
 source: "https://github.com/zulip/zulip"
 category:
-- Integrations &amp; Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # Zulip Open Source Team Chat Platform with Topic-Based Threading
 
 Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of email and chat. It offers a comprehensive REST API, webhook integrations, and bot framework for building automated workflows.
@@ -17,11 +17,11 @@ Zulip is an open-source organized team chat application with unique topic-based 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

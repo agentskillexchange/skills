@@ -1,14 +1,14 @@
 ---
 title: "Prometheus Alert Rule Builder"
 description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
+slug: "prometheus-alert-rule-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Prometheus Alert Rule Builder
 
 Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations.
@@ -17,11 +17,11 @@ Creates and validates Prometheus alerting rules using PromQL expressions and the
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

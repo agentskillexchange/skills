@@ -1,14 +1,14 @@
 ---
 title: "faster-whisper High-Performance Speech Transcription Library"
 description: "faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows."
+slug: "faster-whisper-high-performance-speech-transcription-library"
 verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # faster-whisper High-Performance Speech Transcription Library
 
 faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows.
@@ -17,11 +17,11 @@ faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whispe
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

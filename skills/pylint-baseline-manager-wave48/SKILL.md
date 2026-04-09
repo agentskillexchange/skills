@@ -1,27 +1,27 @@
 ---
 title: "Pylint Baseline Manager"
-description: "Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+description: "Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+slug: "pylint-baseline-manager-wave48"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # Pylint Baseline Manager
 
-Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
+Manages Pylint baseline files for gradual code quality improvement using pylint &#8211;output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
 
 ## Installation
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "OpenProject Open Source Project Management Platform"
 description: "OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real OpenProject platform, docs, and deployment model for teams that want structured project operations on their own infrastructure."
+slug: "openproject-open-source-project-management-platform"
 verification: "listed"
 source: "https://github.com/opf/openproject"
 category:
-- Calendar, Email &amp; Productivity
+  - "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # OpenProject Open Source Project Management Platform
 
 OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real OpenProject platform, docs, and deployment model for teams that want structured project operations on their own infrastructure.
@@ -17,11 +17,11 @@ OpenProject is a mature open source project management platform for work package
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

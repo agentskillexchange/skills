@@ -1,17 +1,17 @@
 ---
 title: "Firecrawl Markdown Capture Pipeline"
 description: "Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready source material."
+slug: "firecrawl-markdown-capture-pipeline"
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Codex
+  - "Codex"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630
 ---
-
 # Firecrawl Markdown Capture Pipeline
 
 Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready source material.
@@ -20,11 +20,11 @@ Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

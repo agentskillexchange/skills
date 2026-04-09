@@ -1,18 +1,17 @@
 ---
 title: "Upscayl Open Source AI Image Upscaler"
 description: "Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution images, supporting batch processing, custom models, and multiple output formats."
+slug: "upscayl-open-source-ai-image-upscaler"
 verification: "security_reviewed"
 source: "https://github.com/upscayl/upscayl"
 category:
-- Image &amp; Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "upscayl/upscayl"
   github_stars: 44297
-  license: "AGPL-3.0"
 ---
-
 # Upscayl Open Source AI Image Upscaler
 
 Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution images, supporting batch processing, custom models, and multiple output formats.
@@ -21,11 +20,11 @@ Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. 
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 title: "CircleCI Orb Pipeline Debugger"
 description: "Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems."
+slug: "circleci-orb-pipeline-debugger"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-debugger/"
 category:
-- CI/CD Integrations
+  - "CI/CD Integrations"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # CircleCI Orb Pipeline Debugger
 
 Diagnoses CircleCI orb configuration errors and pipeline failures using the CircleCI v2 API. Parses orb YAML schemas, detects version pinning issues, and suggests fixes for executor and job dependency problems.
@@ -17,11 +17,11 @@ Diagnoses CircleCI orb configuration errors and pipeline failures using the Circ
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

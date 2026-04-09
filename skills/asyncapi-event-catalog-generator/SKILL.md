@@ -1,14 +1,14 @@
 ---
 title: "AsyncAPI Event Catalog Generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
+slug: "asyncapi-event-catalog-generator"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
 category:
-- Library &amp; API Reference
+  - "Library & API Reference"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # AsyncAPI Event Catalog Generator
 
 Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates.
@@ -17,11 +17,11 @@ Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture cat
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

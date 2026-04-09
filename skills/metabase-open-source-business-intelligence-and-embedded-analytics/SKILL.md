@@ -1,14 +1,14 @@
 ---
 title: "Metabase Open Source Business Intelligence and Embedded Analytics"
 description: "Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends."
+slug: "metabase-open-source-business-intelligence-and-embedded-analytics"
 verification: "security_reviewed"
 source: "https://github.com/metabase/metabase"
 category:
-- Data Extraction &amp; Transformation
+  - "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 ---
-
 # Metabase Open Source Business Intelligence and Embedded Analytics
 
 Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends.
@@ -17,11 +17,11 @@ Metabase is an open source business intelligence platform for querying data, bui
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

@@ -1,17 +1,17 @@
 ---
 title: "Umami Privacy-Focused Web Analytics Platform"
 description: "Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data without cookies and is fully GDPR compliant."
+slug: "umami-privacy-focused-web-analytics"
 verification: "security_reviewed"
 source: "https://github.com/umami-software/umami"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "umami-software/umami"
   github_stars: 35941
 ---
-
 # Umami Privacy-Focused Web Analytics Platform
 
 Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data without cookies and is fully GDPR compliant.
@@ -20,11 +20,11 @@ Umami is a modern, privacy-focused, open-source web analytics platform and a sel
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

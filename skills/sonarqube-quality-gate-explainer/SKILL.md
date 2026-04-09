@@ -1,14 +1,14 @@
 ---
 title: "SonarQube Quality Gate Explainer"
 description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
+slug: "sonarqube-quality-gate-explainer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- Claude Code
+  - "Claude Code"
 ---
-
 # SonarQube Quality Gate Explainer
 
 Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only.
@@ -17,11 +17,11 @@ Fetches the latest SonarQube project analysis result, explains why the Quality G
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

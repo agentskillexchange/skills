@@ -1,14 +1,14 @@
 ---
 title: "ComfyUI Workflow Executor"
 description: "Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint."
+slug: "comfyui-workflow-executor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
 category:
-- Image &amp; Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Codex
+  - "Codex"
 ---
-
 # ComfyUI Workflow Executor
 
 Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint.
@@ -17,11 +17,11 @@ Executes ComfyUI image generation workflows via the /prompt REST API endpoint wi
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

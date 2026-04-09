@@ -1,14 +1,14 @@
 ---
 title: "Gutenberg Custom Block Builder"
 description: "Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support."
+slug: "gutenberg-custom-block-builder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
 category:
-- WordPress &amp; CMS
+  - "WordPress & CMS"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
-
 # Gutenberg Custom Block Builder
 
 Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and the Block API registerBlockType(). Generates edit/save components with InspectorControls, RichText, and InnerBlocks support.
@@ -17,11 +17,11 @@ Scaffolds and builds custom Gutenberg blocks using @wordpress/create-block and t
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

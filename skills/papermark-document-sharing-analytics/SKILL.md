@@ -1,17 +1,17 @@
 ---
 title: "Papermark Open Source Document Sharing Platform with Analytics"
 description: "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL."
+slug: "papermark-document-sharing-analytics"
 verification: "security_reviewed"
 source: "https://github.com/mfts/papermark"
 category:
-- Integrations &amp; Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mfts/papermark"
   github_stars: 8152
 ---
-
 # Papermark Open Source Document Sharing Platform with Analytics
 
 Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with Next.js and PostgreSQL.
@@ -20,11 +20,11 @@ Papermark is an open-source alternative to DocSend for secure document sharing w
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

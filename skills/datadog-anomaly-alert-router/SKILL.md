@@ -1,14 +1,14 @@
 ---
 title: "Datadog Anomaly Alert Router"
 description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
+slug: "datadog-anomaly-alert-router"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Datadog Anomaly Alert Router
 
 Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
@@ -17,11 +17,11 @@ Routes Datadog anomaly detection alerts to appropriate response channels using t
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

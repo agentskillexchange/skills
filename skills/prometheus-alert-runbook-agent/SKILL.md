@@ -1,14 +1,14 @@
 ---
 title: "Prometheus Alert Runbook Agent"
 description: "Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps."
+slug: "prometheus-alert-runbook-agent"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/"
 category:
-- Runbooks &amp; Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Gemini
+  - "Gemini"
 ---
-
 # Prometheus Alert Runbook Agent
 
 Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps.
@@ -17,11 +17,11 @@ Automates incident response for Prometheus alerts using PromQL queries, Alertman
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

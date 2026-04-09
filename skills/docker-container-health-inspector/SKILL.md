@@ -1,14 +1,14 @@
 ---
 title: "Docker Container Health Inspector"
 description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
+slug: "docker-container-health-inspector"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
 category:
-- Runbooks &amp; Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Docker Container Health Inspector
 
 Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
@@ -17,11 +17,11 @@ Inspects Docker container health using the Docker Engine API v1.45 /containers/{
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

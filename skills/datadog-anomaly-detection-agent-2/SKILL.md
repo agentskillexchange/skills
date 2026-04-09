@@ -1,14 +1,14 @@
 ---
 title: "Datadog Anomaly Detection Agent"
 description: "Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing."
+slug: "datadog-anomaly-detection-agent-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- OpenClaw
+  - "OpenClaw"
 ---
-
 # Datadog Anomaly Detection Agent
 
 Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing.
@@ -17,11 +17,11 @@ Monitors Datadog metric streams using the Datadog API v2 and applies ML-based an
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

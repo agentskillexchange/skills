@@ -1,18 +1,17 @@
 ---
 title: "shot-scraper Automated Website Screenshot and Scraping CLI"
 description: "shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring."
+slug: "shot-scraper-automated-website-screenshot-scraping-cli"
 verification: "security_reviewed"
 source: "https://github.com/simonw/shot-scraper"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "simonw/shot-scraper"
   github_stars: 2311
-  license: "Apache-2.0"
 ---
-
 # shot-scraper Automated Website Screenshot and Scraping CLI
 
 shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring.
@@ -21,11 +20,11 @@ shot-scraper is a Python CLI tool by Simon Willison for taking automated screens
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

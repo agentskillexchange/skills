@@ -1,18 +1,17 @@
 ---
 title: "Ghostty Fast Native Terminal Emulator with GPU Acceleration"
 description: "Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience on macOS and Linux while supporting modern terminal protocols including Kitty graphics and synchronized rendering."
+slug: "ghostty-fast-native-terminal-emulator-gpu-acceleration"
 verification: "security_reviewed"
 source: "https://github.com/ghostty-org/ghostty"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ghostty-org/ghostty"
   github_stars: 49204
-  license: "MIT"
 ---
-
 # Ghostty Fast Native Terminal Emulator with GPU Acceleration
 
 Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses platform-native UI and GPU acceleration. Created by Mitchell Hashimoto, it provides a native experience on macOS and Linux while supporting modern terminal protocols including Kitty graphics and synchronized rendering.
@@ -21,11 +20,11 @@ Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses plat
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

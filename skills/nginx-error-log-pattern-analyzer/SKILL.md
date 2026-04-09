@@ -1,14 +1,14 @@
 ---
 title: "Nginx Error Log Pattern Analyzer"
 description: "Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures."
+slug: "nginx-error-log-pattern-analyzer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
 category:
-- Runbooks &amp; Diagnostics
+  - "Runbooks & Diagnostics"
 framework:
-- Gemini
+  - "Gemini"
 ---
-
 # Nginx Error Log Pattern Analyzer
 
 Parses Nginx error logs using configurable regex patterns and the GoAccess real-time log analyzer API. Clusters recurring 502/504 errors and correlates with upstream health check failures.
@@ -17,11 +17,11 @@ Parses Nginx error logs using configurable regex patterns and the GoAccess real-
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

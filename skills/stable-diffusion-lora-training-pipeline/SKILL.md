@@ -1,14 +1,14 @@
 ---
 title: "Stable Diffusion LoRA Training Pipeline"
 description: "Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding."
+slug: "stable-diffusion-lora-training-pipeline"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/"
 category:
-- Image &amp; Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # Stable Diffusion LoRA Training Pipeline
 
 Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding.
@@ -17,11 +17,11 @@ Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers librar
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

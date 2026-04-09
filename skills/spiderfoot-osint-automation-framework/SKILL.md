@@ -1,17 +1,17 @@
 ---
 title: "SpiderFoot Open Source Intelligence Automation Framework"
 description: "SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping."
+slug: "spiderfoot-osint-automation-framework"
 verification: "security_reviewed"
 source: "https://github.com/smicallef/spiderfoot"
 category:
-- Research &amp; Scraping
+  - "Research & Scraping"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "smicallef/spiderfoot"
   github_stars: 17241
 ---
-
 # SpiderFoot Open Source Intelligence Automation Framework
 
 SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping.
@@ -20,11 +20,11 @@ SpiderFoot is an open-source OSINT automation tool that queries over 200 data so
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

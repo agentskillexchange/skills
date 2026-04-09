@@ -1,18 +1,17 @@
 ---
 title: "WriteFreely Federated Markdown Publishing Platform with ActivityPub"
 description: "WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community building, multi-blog support from a single account, and OAuth 2.0 integration for onboarding users from existing platforms."
+slug: "writefreely-federated-markdown-publishing-platform"
 verification: "security_reviewed"
 source: "https://github.com/writefreely/writefreely"
 category:
-- Content Writing &amp; SEO
+  - "Content Writing & SEO"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "writefreely/writefreely"
   github_stars: 5117
-  license: "AGPL-3.0"
 ---
-
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub
 
 WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community building, multi-blog support from a single account, and OAuth 2.0 integration for onboarding users from existing platforms.
@@ -21,11 +20,11 @@ WriteFreely is a clean, minimalist self-hosted publishing platform built in Go f
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

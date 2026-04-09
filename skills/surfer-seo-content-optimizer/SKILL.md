@@ -1,14 +1,14 @@
 ---
 title: "Surfer SEO Content Optimizer"
 description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
+slug: "surfer-seo-content-optimizer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer/"
 category:
-- Content Writing &amp; SEO
+  - "Content Writing & SEO"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
-
 # Surfer SEO Content Optimizer
 
 Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations.
@@ -17,11 +17,11 @@ Analyzes top SERP competitors using DataForSEO API and generates content optimiz
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

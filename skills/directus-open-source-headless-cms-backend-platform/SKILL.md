@@ -1,19 +1,19 @@
 ---
 title: "Directus Open-Source Headless CMS and Backend Platform"
 description: "Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions."
+slug: "directus-open-source-headless-cms-backend-platform"
 verification: "security_reviewed"
 source: "https://github.com/directus/directus"
 category:
-- WordPress &amp; CMS
+  - "WordPress & CMS"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "directus/directus"
   github_stars: 34621
   npm_package: "directus"
   npm_weekly_downloads: 20061
 ---
-
 # Directus Open-Source Headless CMS and Backend Platform
 
 Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions.
@@ -22,11 +22,11 @@ Directus is an open-source headless CMS that wraps any SQL database with instant
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

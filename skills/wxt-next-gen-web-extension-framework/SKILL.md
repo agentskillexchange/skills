@@ -1,17 +1,17 @@
 ---
 title: "WXT Next-Generation Web Extension Framework for Browser Extensions"
 description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
+slug: "wxt-next-gen-web-extension-framework"
 verification: "security_reviewed"
 source: "https://github.com/wxt-dev/wxt"
 category:
-- Developer Tools
+  - "Developer Tools"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9534
 ---
-
 # WXT Next-Generation Web Extension Framework for Browser Extensions
 
 WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing.
@@ -20,11 +20,11 @@ WXT is an open-source, next-generation framework for building browser extensions
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

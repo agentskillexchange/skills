@@ -1,14 +1,14 @@
 ---
 title: "Codecov Coverage Diff Analyzer"
 description: "Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions."
+slug: "codecov-coverage-diff-analyzer-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
 category:
-- Code Quality &amp; Review
+  - "Code Quality & Review"
 framework:
-- ChatGPT Agents
+  - "ChatGPT Agents"
 ---
-
 # Codecov Coverage Diff Analyzer
 
 Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Identifies untested code paths and generates coverage improvement suggestions.
@@ -17,11 +17,11 @@ Analyzes code coverage diffs on pull requests using the Codecov API v2 /repos/{o
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

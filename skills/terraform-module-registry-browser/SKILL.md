@@ -1,14 +1,14 @@
 ---
 title: "Terraform Module Registry Browser"
 description: "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements."
+slug: "terraform-module-registry-browser"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
 category:
-- Templates &amp; Workflows
+  - "Templates & Workflows"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.
@@ -17,11 +17,11 @@ Searches and evaluates Terraform modules from the HashiCorp Registry API and pri
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

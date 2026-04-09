@@ -1,14 +1,14 @@
 ---
 title: "FFmpeg Audio Transcoder"
 description: "Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe."
+slug: "ffmpeg-audio-transcoder"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
 category:
-- Media &amp; Transcription
+  - "Media & Transcription"
 framework:
-- Cursor
+  - "Cursor"
 ---
-
 # FFmpeg Audio Transcoder
 
 Transcodes and processes audio files using the FFmpeg CLI and libavcodec library. Supports batch format conversion, loudness normalization via EBU R128, and metadata extraction with ffprobe.
@@ -17,11 +17,11 @@ Transcodes and processes audio files using the FFmpeg CLI and libavcodec library
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

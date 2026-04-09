@@ -1,14 +1,14 @@
 ---
 title: "Ansible Playbook Linter"
 description: "Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency, variable naming, and handler usage with custom rule profiles."
+slug: "ansible-playbook-linter-2"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-linter-2/"
 category:
-- Templates &amp; Workflows
+  - "Templates & Workflows"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # Ansible Playbook Linter
 
 Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency, variable naming, and handler usage with custom rule profiles.
@@ -17,11 +17,11 @@ Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enfo
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

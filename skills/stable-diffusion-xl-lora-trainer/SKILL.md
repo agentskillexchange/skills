@@ -1,14 +1,14 @@
 ---
 title: "Stable Diffusion XL LoRA Trainer"
 description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation."
+slug: "stable-diffusion-xl-lora-trainer"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
 category:
-- Image &amp; Creative Automation
+  - "Image & Creative Automation"
 framework:
-- Custom Agents
+  - "Custom Agents"
 ---
-
 # Stable Diffusion XL LoRA Trainer
 
 Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging for custom image generation.
@@ -17,11 +17,11 @@ Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers libr
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 

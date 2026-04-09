@@ -1,14 +1,14 @@
 ---
 title: "Python Package Dependency Graph Mapper"
 description: "Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks."
+slug: "python-package-dependency-graph-mapper"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
 category:
-- Library &amp; API Reference
+  - "Library & API Reference"
 framework:
-- MCP
+  - "MCP"
 ---
-
 # Python Package Dependency Graph Mapper
 
 Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks.
@@ -17,11 +17,11 @@ Builds dependency graphs for Python packages using the PyPI JSON API and pipdept
 
 Choose the method that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Install from Agent Skill Exchange
+2. Add as a local skill folder
+3. Install from a Git repository
+4. Install via package manager if supported
+5. Copy the skill into your OpenClaw skills directory
 
 ## Source
 
