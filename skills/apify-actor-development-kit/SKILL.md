@@ -1,44 +1,29 @@
 ---
-title: "Apify Actor Development Kit"
+name: "Apify Actor Development Kit"
 description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
-slug: "apify-actor-development-kit"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Code"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
-listed: true
 ---
 
 # Apify Actor Development Kit
 
-Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling.
+The Apify Actor Development Kit creates scalable web scraping actors using the Apify SDK and Crawlee library. It generates Actor configurations with proper Dockerfile, INPUT_SCHEMA.json, and .actor/actor.json manifests for deployment to the Apify Cloud platform.
+The agent leverages Crawlee crawlers including PlaywrightCrawler for JavaScript-heavy sites, CheerioCrawler for lightweight HTML parsing, and HttpCrawler for API endpoint scraping. It configures RequestQueue for URL frontier management with maxRequestsPerCrawl limits and request uniqueness via uniqueKey hashing.
+Advanced features include Apify Proxy integration with automatic session rotation using ProxyConfiguration with groups and countryCode targeting. The agent sets up Dataset.pushData for structured output storage, KeyValueStore for state persistence across migrations, and implements AutoscaledPool configuration for dynamic concurrency adjustment based on system resources. It also generates Actor input schemas with validation constraints and default values for the Apify Console UI.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install apify-actor-development-kit
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,44 +1,37 @@
 ---
-title: "Garden Kubernetes Development and Testing Automation Platform"
+name: "Garden Kubernetes Development and Testing Automation Platform"
 description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
-slug: "garden-kubernetes-dev-testing-automation"
+verification: security_reviewed
+source: "https://github.com/garden-io/garden"
 category:
   - "CI/CD Integrations"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/garden-io/garden"
-listed: true
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform
 
-Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages.
+Garden is an open-source DevOps automation platform by Garden.io designed to streamline Kubernetes application development and testing. Licensed under MPL-2.0 and written primarily in TypeScript, Garden provides a declarative configuration framework that codifies complete stack descriptions, enabling reproducible and portable workflows across developer machines and CI environments.
+Core Capabilities
+Garden allows teams to spin up production-like environments for development, testing, and CI on demand using a single garden.yml configuration format. The tool builds a directed acyclic graph (DAG) of build and deploy dependencies, automatically executing independent steps in parallel while caching results for future reuse. This graph-based approach means only the minimum required steps execute when changes are detected, based on individual file hashes.
+Configuration and Workflow
+Garden configurations define four core action types: Build, Deploy, Test, and Run. These are composed using simple YAML with explicit dependency declarations. A typical workflow includes container builds, Helm chart deployments, Kubernetes manifest applications, and integration test execution. The garden deploy command handles the full build-deploy cycle, while garden test runs the test suite, and garden dev starts an interactive development console.
+Sync Mode and Live Reloading
+Garden includes a sync mode (garden deploy --sync) that live-reloads changes to running services, providing fast feedback during development without requiring full rebuild cycles. This makes the inner development loop nearly as fast as local development while running against real Kubernetes infrastructure.
+Plugin Ecosystem
+Garden is pluggable with action execution depending on configured plugins. The Kubernetes plugin handles container builds and Kubernetes deployments. The Terraform plugin manages infrastructure provisioning alongside application deployment. The Pulumi plugin provides an alternative infrastructure-as-code integration. This plugin architecture means Garden can orchestrate heterogeneous stacks spanning containers, serverless functions, and infrastructure resources.
+Agent Integration
+AI agents can leverage Garden's CLI to automate environment provisioning for testing, spin up preview environments from pull requests (garden deploy --env preview), run integration test suites against isolated environments, and manage the full lifecycle of Kubernetes-based applications. The declarative YAML configuration makes it straightforward for agents to generate and modify Garden configs programmatically, while the smart caching ensures agents don't waste time on redundant builds.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install garden-kubernetes-dev-testing-automation
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,47 +1,46 @@
 ---
-title: "LosslessCut FFmpeg-Powered Media Editor"
+name: "LosslessCut FFmpeg-Powered Media Editor"
 description: "Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time."
-slug: "losslesscut-ffmpeg-powered-media-editor"
+verification: security_reviewed
+source: "https://github.com/mifi/lossless-cut"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/mifi/lossless-cut"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480
-listed: true
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor
 
-Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time.
+What is LosslessCut?
+LosslessCut is an open-source cross-platform application for extremely fast, lossless operations on video, audio, subtitle, and other media files. Built as a GUI frontend for FFmpeg, it performs direct data copy (remux) operations that trim, cut, merge, and rearrange media segments without re-encoding — preserving the original codec quality while completing in seconds what traditional video editors take minutes or hours to process.
+How This Skill Works
+This skill enables agents to automate media editing workflows using LosslessCut's capabilities. The tool accepts virtually any media format that FFmpeg supports (MP4, MKV, MOV, AVI, WebM, MP3, FLAC, WAV, and hundreds more) and performs lossless operations by copying codec data directly without decoding and re-encoding. Agents can define cut points, segment boundaries, and merge operations either through the GUI or by importing/exporting segment data as CSV or JSON for batch processing.
+Key Capabilities
+
+Lossless cutting: Trim and split video/audio files at precise timestamps without quality loss. Smart cut mode enables frame-accurate cutting by re-encoding only the frames at cut boundaries while copying the rest losslessly.
+Segment management: Cut out unwanted sections (commercials, dead air), rearrange segment order, and export individual segments or merged output. Import/export segment lists as CSV for batch automation.
+Multi-track editing: Add, remove, replace, or re-order individual tracks (video, audio, subtitle, attachment) from media files. Combine tracks from multiple source files into a single output.
+Format remuxing: Convert container formats (MP4 to MKV, MOV to MP4, etc.) instantly without transcoding the underlying streams. Fix broken or incomplete media files by remuxing.
+Frame extraction: Export full-resolution snapshots as JPEG or PNG at any point in the video. Batch export every Nth frame, one per second, or based on scene change detection for thumbnail generation.
+Metadata editing: View and edit file-level metadata, per-track metadata, chapter markers, and track disposition flags. Inspect detailed codec and format information via embedded MediaInfo.
+
+Integration Points
+LosslessCut is built on Electron and uses FFmpeg for all media operations. It supports CLI invocation for headless batch processing scenarios. Segment lists can be imported/exported as CSV, enabling programmatic generation of edit decision lists from external analysis tools. The application reads any format FFmpeg supports and writes to major container formats including MP4 (H.264/H.265), MKV, MOV, WebM, and audio containers like MP3, M4A, FLAC, and OGG. It runs on Windows, macOS, and Linux.
+Source
+GitHub: mifi/lossless-cut (39.4K+ stars, GPL-2.0 license)
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install losslesscut-ffmpeg-powered-media-editor
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

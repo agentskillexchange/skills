@@ -1,44 +1,29 @@
 ---
-title: "PagerDuty Incident Runbook Automator"
+name: "PagerDuty Incident Runbook Automator"
 description: "Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity."
-slug: "pagerduty-incident-runbook-automator"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
-listed: true
 ---
 
 # PagerDuty Incident Runbook Automator
 
-Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity.
+The PagerDuty Incident Runbook Automator skill integrates with the PagerDuty Events API v2 (events.pagerduty.com/v2/enqueue) and REST API (api.pagerduty.com) to automate incident response workflows. It creates incidents via the Events API with routing_key, event_action (trigger, acknowledge, resolve), and severity levels (critical, error, warning, info).
+The skill manages incident lifecycle through REST API endpoints: POST /incidents for manual creation, PUT /incidents/{id} for status updates and reassignment, POST /incidents/{id}/notes for timeline annotations, and GET /incidents/{id}/log_entries for audit trail retrieval. It configures escalation policies using /escalation_policies with multi-level escalation rules and timeout-based progression.
+Key capabilities include automated runbook execution triggered by webhook events (incident.trigger, incident.acknowledge), integration with monitoring tools via Events API v2 change events and alert grouping (time-based, intelligent, content-based), service dependency mapping through /service_dependencies for impact analysis, and response play automation with /response_plays for coordinated team mobilization. The automator also supports maintenance window management, on-call schedule rotation queries via /oncalls, and status page integration for external communication during incidents.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install pagerduty-incident-runbook-automator
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

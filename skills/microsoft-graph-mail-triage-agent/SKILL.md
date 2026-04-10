@@ -1,44 +1,28 @@
 ---
-title: "Microsoft Graph Mail Triage Agent"
+name: "Microsoft Graph Mail Triage Agent"
 description: "Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API."
-slug: "microsoft-graph-mail-triage-agent"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Gemini"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
-listed: true
 ---
 
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install microsoft-graph-mail-triage-agent
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,47 +1,32 @@
 ---
-title: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
+name: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
 description: "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers."
-slug: "maildev-smtp-testing-server-and-web-interface-for-development-email-workflows"
+verification: security_reviewed
+source: "https://github.com/maildev/maildev"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/maildev/maildev"
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5863
-listed: true
 ---
 
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows
 
-MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers.
+MailDev is an open source SMTP testing server designed for development environments where teams need to inspect generated email safely before anything reaches a real inbox. Instead of pointing an application at a live SMTP provider while building password resets, invitations, order confirmations, or system alerts, developers can point it at MailDev and review the captured messages in a local web interface. That makes it a practical fit for agents, internal tools, or CI setups that need repeatable email verification.
+The project combines several jobs-to-be-done in one package: capture outgoing mail on a local SMTP port, display the rendered HTML and plain-text bodies in a browser, expose message data through an API, and optionally relay selected messages upstream when needed. The README also documents Docker usage, attachment viewing, resizable previews for responsive testing, and command-line configuration for SMTP and web interface ports. Because it runs on Node.js and keeps the setup lightweight, it is easy to drop into app development workflows.
+MailDev integrates well with common application stacks because it behaves like a normal SMTP target. The upstream docs include examples for Node.js applications and reference configurations for frameworks such as Django, Rails, Drupal, and Spring Boot. For teams building agent-driven QA or development assistants, MailDev is especially useful as a safe mail sink that lets an automated workflow validate subject lines, body content, links, and headers without touching production delivery infrastructure.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install maildev-smtp-testing-server-and-web-interface-for-development-email-workflows
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

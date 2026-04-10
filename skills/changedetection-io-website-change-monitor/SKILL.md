@@ -1,47 +1,42 @@
 ---
-title: "changedetection.io Self-Hosted Website Change Monitoring Platform"
+name: "changedetection.io Self-Hosted Website Change Monitoring Platform"
 description: "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels."
-slug: "changedetection-io-website-change-monitor"
+verification: security_reviewed
+source: "https://github.com/dgtlmoon/changedetection.io"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/dgtlmoon/changedetection.io"
 tool_ecosystem:
   github_repo: "dgtlmoon/changedetection.io"
   github_stars: 30867
-listed: true
 ---
 
 # changedetection.io Self-Hosted Website Change Monitoring Platform
 
-changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels.
+changedetection.io is a powerful open-source website change detection and monitoring platform written in Python. With over 30,000 GitHub stars and active development, it has become the leading self-hosted solution for tracking changes across web pages.
+Core Capabilities
+The tool crawls specified URLs on a configurable schedule and compares page content against previous snapshots to detect changes. It supports both simple text-based diffing and advanced visual comparison through its Playwright-powered browser content fetcher. Users can define CSS selectors, XPath expressions, or JSONPath filters to target specific sections of a page, ensuring precise monitoring without noise from irrelevant layout changes.
+Browser Automation and Interaction
+changedetection.io includes a Browser Steps feature that allows users to define pre-fetch interactions such as logging into authenticated pages, clicking cookie consent banners, filling form fields, navigating paginated content, and adding items to shopping carts before capturing the monitored content. This makes it suitable for monitoring behind-login dashboards, dynamic single-page applications, and JavaScript-rendered content.
+Price and Restock Monitoring
+A dedicated price and restock detection mode parses HTML meta-data and structured data from product pages to extract pricing information. Agents can track product price history, set threshold alerts for price drops, and receive restock notifications when out-of-stock items become available again.
+Notification Integrations
+The platform integrates with over 90 notification channels via the Apprise library, including Discord, Slack, Telegram, Microsoft Teams, Pushover, Ntfy, email (SMTP), generic webhooks, and many more. Notifications include the diff of what changed, making it easy to triage updates without visiting the monitored page.
+Agent Integration
+For AI agent workflows, changedetection.io exposes a REST API that allows programmatic management of watches, retrieval of change history, and triggering of on-demand checks. Agents can create monitoring jobs, poll for changes, and parse structured diff output to drive downstream automation such as competitive intelligence gathering, content compliance auditing, or dynamic pricing responses.
+Deployment
+The recommended deployment method is Docker, with a single command to get started. The platform stores data in a local datastore volume and runs a lightweight web UI for configuration and review. It can also be deployed alongside a Playwright fetcher container for full browser rendering support.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install changedetection-io-website-change-monitor
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

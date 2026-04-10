@@ -1,47 +1,38 @@
 ---
-title: "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS"
+name: "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS"
 description: "Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub."
-slug: "sage-wordpress-starter-theme-laravel-blade"
+verification: security_reviewed
+source: "https://github.com/roots/sage"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/roots/sage"
 tool_ecosystem:
   github_repo: "roots/sage"
   github_stars: 13199
-listed: true
 ---
 
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
 
-Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub.
+Sage is the flagship WordPress starter theme from Roots, providing a modern development experience built on Laravel Blade components, Vite for asset compilation, and Tailwind CSS for styling. With over 13,000 GitHub stars and active development since 2011, Sage is one of the most established and widely-used WordPress theme frameworks in the ecosystem.
+Architecture
+Sage uses Acorn to integrate Laravel's service container, Blade templating engine, and other Laravel features directly into WordPress. Theme templates are written as Blade components with clean PHP syntax, replacing WordPress's traditional template hierarchy with organized, component-based views. Sage 11 supports the block editor out of the box and includes Tailwind CSS configuration pre-wired into the Vite build pipeline.
+Development Workflow
+The front-end build system uses Vite for instant hot module replacement during development and optimized production builds. Tailwind CSS is configured by default with WordPress-specific utilities. The theme follows a structured directory layout separating views (Blade templates), assets (CSS/JS), and application logic (composers, providers). Sage also includes support for view composers — classes that pass data to specific Blade views.
+Agent Integration
+AI coding agents can scaffold new Sage themes using composer create-project roots/sage, then modify Blade templates, Tailwind configuration, and theme logic programmatically. Agents can generate new Blade components, edit view composers to inject data, customize the Tailwind config, and run npm run build to compile assets. The clean separation of concerns in Sage makes it straightforward for agents to locate and modify specific parts of a theme without side effects.
+Installation
+Create a new Sage project with Composer: composer create-project roots/sage your-theme-name. Install front-end dependencies with npm install, then run npm run dev for development or npm run build for production. Requires PHP 8.2+, Composer, and Node.js. Full documentation is at roots.io/sage/docs.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install sage-wordpress-starter-theme-laravel-blade
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

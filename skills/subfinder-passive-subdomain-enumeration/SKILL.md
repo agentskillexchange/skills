@@ -1,47 +1,39 @@
 ---
-title: "Subfinder Fast Passive Subdomain Enumeration Tool"
+name: "Subfinder Fast Passive Subdomain Enumeration Tool"
 description: "Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using curated online sources. Optimized for speed and stealth, it integrates cleanly into security reconnaissance pipelines via stdin/stdout support."
-slug: "subfinder-passive-subdomain-enumeration"
+verification: security_reviewed
+source: "https://github.com/projectdiscovery/subfinder"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/projectdiscovery/subfinder"
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332
-listed: true
 ---
 
 # Subfinder Fast Passive Subdomain Enumeration Tool
 
-Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using curated online sources. Optimized for speed and stealth, it integrates cleanly into security reconnaissance pipelines via stdin/stdout support.
+What is Subfinder?
+Subfinder is a subdomain enumeration tool built by ProjectDiscovery that discovers valid subdomains for target domains using passive online sources. Unlike active enumeration tools that send requests to the target, Subfinder queries third-party data sources, making it fast and stealthy. Written in Go, it is designed to do one thing well: passive subdomain discovery.
+How It Works
+Install Subfinder via Go (go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest), Homebrew, Docker, or download pre-built binaries from GitHub releases. Run subfinder -d example.com to enumerate subdomains for a domain. Results come from curated passive sources including certificate transparency logs, search engine caches, DNS datasets, and security intelligence APIs. Configure API keys for premium sources like Shodan, SecurityTrails, and Censys in the provider config file to expand coverage.
+Key Features
+Subfinder includes fast DNS resolution with wildcard elimination to filter out false positives. It supports multiple output formats including plaintext, JSONL with source attribution, and directory-based output for batch processing. The tool handles rate limiting per provider, recursive subdomain discovery through capable sources, and proxy support for network-restricted environments. STDIN/STDOUT support enables piping results directly into other tools like httpx, nuclei, or nmap.
+Configuration
+Provider API keys are stored in a YAML config file at the standard config directory. Each source can be individually enabled or disabled, and rate limits can be tuned per provider. You can specify custom DNS resolvers, exclude specific sources, or run with only select sources for targeted enumeration.
+Integration Points
+Subfinder fits into security reconnaissance pipelines alongside other ProjectDiscovery tools. Pipe discovered subdomains to httpx for HTTP probing, to nuclei for vulnerability scanning, or to naabu for port scanning. The JSONL output mode preserves source metadata, enabling analysis of which data sources produce the most results for a given target. The Go library API allows embedding Subfinder directly into custom security tooling.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install subfinder-passive-subdomain-enumeration
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

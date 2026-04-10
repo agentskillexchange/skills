@@ -1,49 +1,38 @@
 ---
-title: "alex Inclusive Writing Linter"
+name: "alex Inclusive Writing Linter"
 description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
-slug: "alex-inclusive-writing-linter"
+verification: security_reviewed
+source: "https://github.com/get-alex/alex"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/get-alex/alex"
 tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
-  npm_package: "alex"
+  ase_npm_package: "alex"
   npm_weekly_downloads: 30585
-listed: true
 ---
 
 # alex Inclusive Writing Linter
 
-Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives.
+alex is a command-line tool and Node.js library that helps you find and fix insensitive, inconsiderate writing. Whether you are reviewing your own documentation or auditing contributed content, alex flags language that could be gender-biased, polarizing, race-related, or otherwise exclusionary, and suggests inclusive replacements.
+Built on the retext natural language processing ecosystem, alex parses Markdown and plain text into a syntax tree and applies two core rule sets: retext-equality (which detects potentially insensitive phrasing) and retext-profanities (which catches inappropriate language). The output includes file location, the problematic term, and suggested alternatives with clear reasoning.
+Installation is straightforward via npm: npm install alex --save-dev. The CLI accepts file paths or globs (alex *.md) and exits with a non-zero code when issues are found, making it suitable for CI gating. Configuration uses .alexrc files or package.json entries to whitelist known terms, set severity levels, and toggle specific rules.
+For AI agent workflows, alex serves as a post-generation quality gate. Content produced by language models can inadvertently include biased or exclusionary terms. Running alex as a subprocess against generated blog posts, documentation, README files, or marketing copy catches these issues before they reach publication. The structured JSON output (alex --reporter json) is easy to parse programmatically for automated correction pipelines.
+alex integrates with popular development tools: VS Code extensions, GitHub Actions workflows, pre-commit hooks, and text editor plugins. It supports both CommonMark Markdown and plain text input, with the Markdown parser correctly ignoring code blocks and HTML tags to reduce false positives.
+The project has been widely adopted in open-source communities for enforcing inclusive language standards in documentation. It is MIT licensed with over 5,000 GitHub stars and an active community of contributors.
+Source: github.com/get-alex/alex | Website: alexjs.com
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install alex-inclusive-writing-linter
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

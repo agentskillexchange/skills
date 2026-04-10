@@ -1,47 +1,41 @@
 ---
-title: "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool"
+name: "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool"
 description: "Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable threshold — no password required."
-slug: "horcrux-shamir-secret-file-splitter"
+verification: security_reviewed
+source: "https://github.com/jesseduffield/horcrux"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/jesseduffield/horcrux"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
   github_stars: 5039
-listed: true
 ---
 
 # Horcrux Shamir Secret Sharing File Encryption and Splitting Tool
 
-Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable threshold — no password required.
+Overview
+Horcrux is a command-line tool by Jesse Duffield (creator of Lazygit and Lazydocker) that splits files into encrypted fragments using Shamir's Secret Sharing Scheme. Instead of protecting a file with a single password you might forget, you split it into N pieces and define a threshold of how many pieces are needed to reconstruct the original. For example, split a file into 5 horcruxes where any 3 can reconstruct it.
+How It Works
+Horcrux generates a random encryption key using Go's crypto/rand, encrypts the file with that key, then uses Hashicorp Vault's Shamir implementation to split the key into N shares with a configurable threshold. Each horcrux file contains one key share plus the encrypted data. To reconstruct, you only need the threshold number of horcruxes in the same directory and run horcrux bind.
+Commands
+The tool has two primary commands. horcrux split diary.txt prompts for the total number of horcruxes and the threshold needed for reconstruction, then creates numbered files like diary_1_of_5.horcrux. horcrux bind scans the current directory for horcrux files and reconstructs the original if enough shares are present.
+Use Cases
+Horcrux is ideal for encrypting sensitive files like diaries, private keys, or credentials where you want distributed trust — no single location compromise reveals the data. It works well for transmitting files across multiple channels to reduce interception risk. Security teams can use it to split backup encryption keys across team members or physical locations.
+Installation
+Install via Homebrew: brew install jesseduffield/horcrux/horcrux. Via Scoop on Windows: scoop bucket add extras; scoop install horcrux. Binary releases are available on GitHub for Linux, macOS, and Windows. The tool is written in Go and ships as a single binary with no dependencies.
+Agent Integration
+Agents managing secrets, backup keys, or sensitive documents can use horcrux to implement distributed trust patterns. An agent can split a critical credential into shares distributed across different storage backends, ensuring no single compromise exposes the secret. The CLI interface is straightforward for automated workflows.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install horcrux-shamir-secret-file-splitter
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

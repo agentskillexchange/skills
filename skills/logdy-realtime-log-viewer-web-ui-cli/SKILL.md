@@ -1,44 +1,35 @@
 ---
-title: "Logdy Real-Time Log Viewer with Web UI and CLI"
+name: "Logdy Real-Time Log Viewer with Web UI and CLI"
 description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
-slug: "logdy-realtime-log-viewer-web-ui-cli"
+verification: security_reviewed
+source: "https://github.com/logdyhq/logdy-core"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/logdyhq/logdy-core"
-listed: true
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI
 
-Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs.
+Logdy is a lightweight, single-binary log viewer written in Go that transforms any terminal log output into a structured, filterable web interface. It works like a visual layer on top of grep, awk, or tail, providing real-time log parsing and exploration through an embedded browser UI without requiring any external dependencies or deployment infrastructure.
+How It Works
+Logdy sits between your log source and the browser. Pipe any command output into Logdy (tail -f app.log | logdy) and it starts a local web server at port 8080. The embedded UI renders incoming log lines in real time with syntax highlighting, filtering, and search capabilities. It also supports reading files directly with logdy follow app.log --full-read, accepting data over sockets, and receiving logs via its REST API.
+Custom Parsers and Columns
+Logdy includes a built-in TypeScript editor where you can define custom parsers to extract structured fields from unstructured log lines. Parsed fields become sortable, filterable table columns in the UI. This makes it possible to turn JSON logs, Apache access logs, or any structured text into a queryable table without any configuration files or schema definitions.
+Go Library Integration
+Beyond the CLI, Logdy can be embedded directly into Go applications as a library. Import github.com/logdyhq/logdy-core/logdy, initialize with a config, and call logdyLogger.Log() to send structured log entries to the web UI from within your application code. This provides a zero-setup debugging dashboard for Go services during development.
+Agent Integration Points
+Agents can use Logdy to monitor application logs during deployment verification, debug failing services by piping their output through Logdy for structured analysis, or embed it into diagnostic runbooks that need interactive log exploration. The single-binary distribution (available via curl installer, Homebrew, or direct download) makes it easy to provision on any target machine. The CLI flags support headless operation with JSON output for programmatic log processing pipelines.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install logdy-realtime-log-viewer-web-ui-cli
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

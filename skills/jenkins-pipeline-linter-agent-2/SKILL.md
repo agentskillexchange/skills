@@ -1,44 +1,27 @@
 ---
-title: "Jenkins Pipeline Linter Agent"
+name: "Jenkins Pipeline Linter Agent"
 description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
-slug: "jenkins-pipeline-linter-agent-2"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
 category:
   - "CI/CD Integrations"
 framework:
   - "OpenClaw"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-agent-2/"
-listed: true
 ---
 
 # Jenkins Pipeline Linter Agent
 
-Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation.
+The Jenkins Pipeline Linter Agent leverages the Jenkins Pipeline Linter REST API endpoint (/pipeline-model-converter/validate) to validate Jenkinsfile syntax before code is committed. Built on the jenkins-client npm SDK, this skill authenticates against your Jenkins instance using API tokens or SSO credentials, then submits pipeline definitions for server-side syntax checking. It supports both declarative and scripted pipeline formats, parsing validation responses to surface specific line-number errors and warnings. The agent can be integrated into pre-commit hooks or CI gate steps to prevent broken pipelines from reaching the build queue. It caches authentication tokens for session reuse and supports Jenkins instances behind reverse proxies. Configuration accepts multiple Jenkins controller URLs for organizations running distributed Jenkins setups across environments.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install jenkins-pipeline-linter-agent-2
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

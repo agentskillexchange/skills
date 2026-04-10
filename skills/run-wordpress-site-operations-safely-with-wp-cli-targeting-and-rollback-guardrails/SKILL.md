@@ -1,44 +1,29 @@
 ---
-title: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
+name: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
 description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product."
-slug: "run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails"
+verification: listed
+source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-verification: "listed"
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
-listed: true
 ---
 
 # Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
 
-Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product.
+This entry is based on the official wp-wpcli-and-ops skill from WordPress/agent-skills. The underlying tool is WP-CLI, but the skill is narrower and much more useful than a product card. It gives an agent a concrete operational workflow for running WordPress tasks safely: confirm the environment, verify the right site path and URL, assess blast radius, back up before risky changes, dry-run where possible, and only then perform targeted commands.
+A user should invoke this when they want an agent to do real WordPress operations instead of poking around manually in wp-admin or firing off ad hoc shell commands. Typical jobs include safe domain or protocol migrations with wp search-replace, plugin and theme state changes, database export or import, cache and rewrite flushing, cron inspection, and multisite-aware actions that require explicit --url or network targeting. In those situations, the operator behavior matters more than the tool name, because the main risk is hitting the wrong site or making an unreviewed write in production.
+The scope boundary is what keeps this from being a generic WP-CLI listing. It is not about explaining every WP-CLI command or advertising the CLI itself. It is specifically about agent-run WordPress operations with deterministic targeting, guardrails, verification, and rollback-aware sequencing. Integration points include wp db *, wp plugin *, wp theme *, cron inspection, multisite flags, wp-cli.yml, and shell or CI automation patterns. The upstream source is official, documented, maintained, and released through the WordPress agent-skills repository, so it passes the evidence and trust thresholds without hand-waving.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

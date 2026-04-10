@@ -1,44 +1,29 @@
 ---
-title: "LangGraph.js Agent Orchestration Framework"
+name: "LangGraph.js Agent Orchestration Framework"
 description: "A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points."
-slug: "langgraph-js-agent-orchestration-framework"
+verification: security_reviewed
+source: "https://github.com/langchain-ai/langgraphjs"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/langchain-ai/langgraphjs"
-listed: true
 ---
 
 # LangGraph.js Agent Orchestration Framework
 
-A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on controllable agents, persistence, streaming, and deployment entry points.
+LangGraph.js is LangChain’s JavaScript framework for building resilient language agents as graphs. The upstream documentation describes it as a low-level orchestration layer for controllable agents, with support for long-term memory, human-in-the-loop approvals, and token-by-token streaming.
+The repo documents a standard install path, npm install @langchain/langgraph @langchain/core, and points readers to the LangGraph docs, API reference, tutorials, and starter templates. It is designed for developers who need predictable branching, checkpointing, and modular agent composition rather than a single opaque prompt loop.
+Use this skill for multi-step assistant flows, reusable graph nodes, and production agent systems that need explicit state management. Source: https://github.com/langchain-ai/langgraphjs
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install langgraph-js-agent-orchestration-framework
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

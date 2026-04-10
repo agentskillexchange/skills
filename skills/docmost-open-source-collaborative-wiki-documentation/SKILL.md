@@ -1,47 +1,54 @@
 ---
-title: "Docmost Open Source Collaborative Wiki and Documentation Platform"
+name: "Docmost Open Source Collaborative Wiki and Documentation Platform"
 description: "Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested pages, diagrams, spaces, and granular permissions management."
-slug: "docmost-open-source-collaborative-wiki-documentation"
+verification: security_reviewed
+source: "https://github.com/docmost/docmost"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/docmost/docmost"
 tool_ecosystem:
   github_repo: "docmost/docmost"
   github_stars: 19723
-listed: true
 ---
 
 # Docmost Open Source Collaborative Wiki and Documentation Platform
 
-Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested pages, diagrams, spaces, and granular permissions management.
+Overview
+Docmost is an open-source collaborative wiki and documentation software designed as a self-hosted alternative to Confluence and Notion. Built with TypeScript using NestJS on the backend and React on the frontend, it provides real-time collaborative editing, nested page hierarchies, and team-based workspaces. With nearly 20,000 GitHub stars and active development, Docmost has emerged as one of the most capable open-source documentation platforms available.
+Core Capabilities
+Docmost provides a rich collaborative editing experience built on the ProseMirror editor framework. Multiple users can edit the same document simultaneously with real-time cursor tracking and change synchronization. The platform organizes content into Spaces (similar to Confluence spaces or Notion workspaces), each with their own permission settings, page hierarchies, and member access controls.
+Diagram and Embed Support
+The editor natively supports three diagramming tools: Draw.io for general-purpose diagrams, Excalidraw for hand-drawn-style sketches, and Mermaid for code-based diagrams including flowcharts, sequence diagrams, and Gantt charts. Docmost also supports embedding content from external services including Airtable, Loom, Miro, and other platforms that provide embed URLs.
+Agent Integration Points
+AI agents can interact with Docmost through its REST API to create, read, update, and manage documentation programmatically. This enables workflows where coding agents automatically generate or update technical documentation as code changes, maintain runbooks and operational guides, and organize knowledge base content. Agents can create pages within specific spaces, manage page hierarchies, and attach files to documentation.
+Key Features
+
+Real-time collaborative editing with multi-user support
+Spaces for organizing content into team workspaces
+Nested page hierarchies for structured documentation
+Built-in diagrams: Draw.io, Excalidraw, and Mermaid
+Granular permissions and group-based access control
+Full-text search across all content
+Page history and version tracking
+File attachment support
+Comment threads on documents
+Internationalization with 10+ language translations
+
+Deployment
+Docmost is deployed via Docker Compose. It requires PostgreSQL for data storage and Redis for caching and real-time features. A typical deployment runs with three containers: the Docmost application, PostgreSQL, and Redis.
+docker compose up -d
+The application is accessible on port 3000 by default. For production use, a reverse proxy with SSL termination (such as Caddy or Nginx) is recommended.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install docmost-open-source-collaborative-wiki-documentation
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

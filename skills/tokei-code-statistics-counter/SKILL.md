@@ -1,47 +1,33 @@
 ---
-title: "tokei Code Statistics Counter"
+name: "tokei Code Statistics Counter"
 description: "Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition."
-slug: "tokei-code-statistics-counter"
+verification: security_reviewed
+source: "https://github.com/XAMPPRocky/tokei"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
-verification: "security_reviewed"
-source: "https://github.com/XAMPPRocky/tokei"
 tool_ecosystem:
   github_repo: "XAMPPRocky/tokei"
   github_stars: 14169
-listed: true
 ---
 
 # tokei Code Statistics Counter
 
-Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition.
+tokei is a high-performance command-line program written in Rust that calculates code statistics for a project. It counts the number of files, total lines, code lines, comment lines, and blank lines grouped by programming language. tokei recognizes over 200 programming languages and can process large codebases in seconds, making it one of the fastest code counting tools available.
+The tokei Code Statistics Counter skill provides agents with codebase analysis capabilities for understanding project composition, tracking code growth, and generating reports. Running tokei ./src produces a breakdown showing each language detected in the directory tree with file counts and line statistics. The tool accurately distinguishes between code, comments, and blank lines using language-specific parsing rules rather than simple heuristics, handling nested comments, multi-line strings, and language-specific syntax correctly.
+tokei outputs data in multiple structured formats including JSON, YAML, and CBOR (via -o json), enabling programmatic consumption by other tools and pipelines. This makes it straightforward to integrate tokei results into CI pipelines for tracking code metrics over time, generating project documentation, or feeding into dashboards. The tool supports filtering by language type (-t rust,python), sorting by various columns (files, lines, code, comments), and processing multiple directories or files in a single invocation.
+Results can be saved and loaded from previous runs (-i flag), enabling diff-based analysis to see how code statistics change between commits or releases. tokei respects .gitignore files and supports custom exclusion patterns. Installation is available via cargo (cargo install tokei), Homebrew, Chocolatey, apt, and most other package managers. The tool is distributed under a permissive license, has over 14,000 GitHub stars, and millions of downloads across package managers. It provides a reliable, fast foundation for any codebase health or composition analysis task.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install tokei-code-statistics-counter
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

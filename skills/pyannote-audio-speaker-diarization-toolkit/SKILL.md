@@ -1,44 +1,39 @@
 ---
-title: "pyannote.audio Neural Speaker Diarization Toolkit"
+name: "pyannote.audio Neural Speaker Diarization Toolkit"
 description: "pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding."
-slug: "pyannote-audio-speaker-diarization-toolkit"
+verification: security_reviewed
+source: "https://github.com/pyannote/pyannote-audio"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/pyannote/pyannote-audio"
-listed: true
 ---
 
 # pyannote.audio Neural Speaker Diarization Toolkit
 
-pyannote.audio is an open-source Python toolkit for speaker diarization built on PyTorch. It provides state-of-the-art pretrained models and pipelines for speech activity detection, speaker segmentation, overlapped speech detection, and speaker embedding.
+pyannote.audio is a leading open-source toolkit for speaker diarization written in Python and built on the PyTorch machine learning framework. Developed and maintained by Hervé Bredin and the pyannote team, it provides state-of-the-art pretrained models and pipelines that can identify who speaks when in an audio recording. The library supports both local inference via community models and premium cloud-based diarization through the pyannoteAI service.
+Speaker Diarization Pipeline
+The core use case is speaker diarization — automatically segmenting audio into speaker turns. Using Pipeline.from_pretrained("pyannote/speaker-diarization-community-1"), you load the latest community pipeline that runs entirely locally. The pipeline accepts audio files and returns timestamped speaker labels, enabling transcription services to attribute text to specific speakers. GPU acceleration is supported via CUDA for real-time processing.
+Neural Building Blocks
+Beyond the end-to-end pipeline, pyannote.audio exposes individual neural building blocks: voice activity detection (VAD), speaker change detection, overlapped speech detection, and speaker embedding extraction. These components can be used independently or composed into custom pipelines. Each model is available as a pretrained checkpoint on Hugging Face Hub.
+Training and Fine-tuning
+The toolkit supports multi-GPU training via pytorch-lightning, allowing you to fine-tune models on your own data for domain-specific performance improvements. This is critical for specialized domains like medical consultations, call center analytics, or meeting transcription where acoustic conditions differ from training data.
+Benchmark Performance
+pyannote.audio achieves competitive diarization error rates across standard benchmarks including AMI, DIHARD 3, VoxConverse, CALLHOME, and AISHELL-4. The community-1 pipeline consistently outperforms the legacy 3.1 pipeline, with the premium precision-2 service achieving the best results.
+Installation and Dependencies
+Install with pip install pyannote.audio or uv add pyannote.audio. The library requires ffmpeg for audio decoding via torchcodec. Access to pretrained models requires accepting user conditions on Hugging Face and providing an access token. The package is available on PyPI and supports Python 3.8+.
+Agent Integration
+For AI agents processing audio content — podcast transcription, meeting notes, interview analysis — pyannote.audio provides the speaker attribution layer. Combined with Whisper or other speech-to-text engines, it enables labeled transcripts that identify each speaker, making downstream summarization and analysis significantly more useful.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install pyannote-audio-speaker-diarization-toolkit
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

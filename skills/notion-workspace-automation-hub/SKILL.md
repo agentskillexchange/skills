@@ -1,44 +1,30 @@
 ---
-title: "Notion Workspace Automation Hub"
+name: "Notion Workspace Automation Hub"
 description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
-slug: "notion-workspace-automation-hub"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
-listed: true
 ---
 
 # Notion Workspace Automation Hub
 
-Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance.
+The Notion Workspace Automation Hub provides comprehensive workspace management through the Notion API (2022-06-28 version). It handles database operations, page lifecycle management, and cross-database relation maintenance for complex workspace architectures.
+Database automation includes creating filtered views via the Query Database endpoint with compound filters and sorts, bulk property updates using batch operations, rollup recalculation triggers, and automatic status transitions based on date properties (moving tasks to &#8220;Overdue&#8221; when due dates pass).
+Sprint board management automates sprint creation with templated databases, story point aggregation via rollup properties, velocity calculations from historical sprint data, and burndown chart data generation exported to inline databases. Meeting notes automation creates pages from templates with attendee lookup via the Users API, agenda items pulled from linked databases, and post-meeting action item extraction.
+Knowledge base maintenance includes duplicate detection using title similarity matching, orphan page identification (pages with no backlinks), stale content flagging based on last-edited timestamps, and automatic table of contents generation using the Block API to analyze heading structure. Webhook integration via Notion's new webhook system triggers workflows on page property changes.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install notion-workspace-automation-hub
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

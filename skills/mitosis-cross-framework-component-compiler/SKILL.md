@@ -1,47 +1,46 @@
 ---
-title: "Mitosis Cross-Framework Component Compiler by Builder.io"
+name: "Mitosis Cross-Framework Component Compiler by Builder.io"
 description: "Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more. Built by Builder.io, it enables maintaining a single component codebase across all major frontend frameworks."
-slug: "mitosis-cross-framework-component-compiler"
+verification: security_reviewed
+source: "https://github.com/BuilderIO/mitosis"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "security_reviewed"
-source: "https://github.com/BuilderIO/mitosis"
 tool_ecosystem:
   github_repo: "BuilderIO/mitosis"
   github_stars: 13808
-listed: true
 ---
 
 # Mitosis Cross-Framework Component Compiler by Builder.io
 
-Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more. Built by Builder.io, it enables maintaining a single component codebase across all major frontend frameworks.
+Mitosis is a cross-framework component compiler developed by Builder.io that solves one of the most persistent problems in frontend development: writing and maintaining components across multiple JavaScript frameworks. With Mitosis, developers write components once using a JSX-based syntax and compile the output to native framework code for React, Vue, Angular, Svelte, Solid, Qwik, Alpine.js, Liquid (Shopify), and more.
+How It Works
+Mitosis uses its own component format (a subset of JSX) as a universal intermediate representation. The compiler parses this format and generates idiomatic code for each target framework. Unlike web components, the output is native framework code — no runtime wrapper, no shadow DOM overhead, no interoperability issues.
+Key Features
+
+Write once, compile everywhere: A single component definition compiles to React, Vue 2/3, Angular, Svelte, Solid, Qwik, Alpine.js, Lit, Stencil, React Native, and Swift.
+Figma integration: Import designs from Figma and generate framework-specific components directly.
+Design system consistency: Maintain a unified design system that compiles to every framework your organization uses.
+CLI and API: Use npm create @builder.io/mitosis@latest to scaffold a new project, or use the compiler API programmatically.
+Interactive playground: Test component compilation in real-time at mitosis.builder.io/playground.
+
+Agent Integration
+AI agents can use Mitosis to generate cross-framework component libraries from a single specification. An agent can write the Mitosis JSX format and produce output for any target framework, making it valuable for design system automation, multi-framework codebases, and Figma-to-code pipelines. The npm package @builder.io/mitosis provides the CLI and compiler API.
+Installation
+npm create @builder.io/mitosis@latest
+Or add the compiler to an existing project:
+npm install @builder.io/mitosis
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install mitosis-cross-framework-component-compiler
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,44 +1,36 @@
 ---
-title: "fonttools Python Font Manipulation and Subsetting Library"
+name: "fonttools Python Font Manipulation and Subsetting Library"
 description: "fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and WOFF2 formats. It includes the TTX tool for converting fonts to and from XML, a font subsetting utility for reducing font file sizes, and APIs for inspecting, modifying, and generating font files programmatically."
-slug: "fonttools-python-font-manipulation-subsetting"
+verification: security_reviewed
+source: "https://github.com/fonttools/fonttools"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/fonttools/fonttools"
-listed: true
 ---
 
 # fonttools Python Font Manipulation and Subsetting Library
 
-fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and WOFF2 formats. It includes the TTX tool for converting fonts to and from XML, a font subsetting utility for reducing font file sizes, and APIs for inspecting, modifying, and generating font files programmatically.
+Overview
+fonttools is the standard Python library for working with font files. Originally created by Just van Rossum, it has become the foundational tool used across the font development ecosystem. The library supports TrueType, OpenType, AFM, Type 1, WOFF, and WOFF2 formats, and is licensed under the MIT license.
+Core Tools
+The package includes several key utilities. TTX converts binary font files to a human-readable XML format (also called TTX) and back, enabling inspection and manual editing of font tables. pyftsubset creates font subsets by selecting specific glyphs, reducing file size for web deployment. It can output in TrueType, WOFF, or WOFF2 formats, making it essential for web font optimization. pyftmerge merges multiple font files into one.
+Font Subsetting for Web
+The subsetting tool is particularly valuable for web development. Running fonttools subset font.ttf --text="Hello World" --flavor=woff2 produces a minimal WOFF2 file containing only the glyphs needed. This dramatically reduces font file sizes — a full font might be 200KB+ while a subset for a specific language or character set can be under 20KB. The tool handles complex font features like ligatures, kerning tables, and OpenType layout features during subsetting.
+Python API
+The programmatic API via from fontTools.ttLib import TTFont provides full access to font internals. Developers can read and modify any font table, add or remove glyphs, adjust metrics, generate variations for variable fonts, and compile modified fonts back to binary. The library integrates with fontTools.varLib for variable font operations and fontTools.designspaceLib for design space documents.
+Installation
+Install via pip install fonttools. Optional extras include fonttools[woff] for WOFF/WOFF2 support (adds brotli and zopfli), fonttools[lxml] for faster XML processing, fonttools[unicode] for latest Unicode data, and fonttools[ufo] for UFO font source support. Requires Python 3.10+.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install fonttools-python-font-manipulation-subsetting
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

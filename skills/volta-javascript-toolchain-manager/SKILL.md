@@ -1,47 +1,33 @@
 ---
-title: "Volta JavaScript Toolchain Version Manager"
+name: "Volta JavaScript Toolchain Version Manager"
 description: "Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions."
-slug: "volta-javascript-toolchain-manager"
+verification: security_reviewed
+source: "https://github.com/volta-cli/volta"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/volta-cli/volta"
 tool_ecosystem:
   github_repo: "volta-cli/volta"
   github_stars: 12888
-listed: true
 ---
 
 # Volta JavaScript Toolchain Version Manager
 
-Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions.
+Volta is a JavaScript toolchain manager that handles installing and switching between versions of Node.js, npm, yarn, and other JavaScript command-line tools. Written in Rust, it provides near-instant version switching with no noticeable delay when moving between projects that require different Node versions. Unlike nvm or fnm, Volta pins tool versions at the project level in package.json rather than relying on shell-level version files.
+The core design principle is predictability. When a project specifies its toolchain requirements through Volta, every developer and CI system that runs the project automatically gets exactly the right versions. Running volta pin node@18 writes the version constraint into package.json, and from that point forward, any terminal session inside that project directory uses the pinned Node version. There are no shims to manage, no .nvmrc files to remember, and no manual switching commands needed.
+Volta also manages global tool installations without the conflicts that typically arise from version mismatches. Tools installed globally through Volta get their own isolated Node version, so upgrading your project Node version does not break your globally installed tools. This eliminates the common frustration of having to reinstall global packages after Node upgrades.
+Installation is a one-line operation on macOS and Linux via the official installer script, or through Chocolatey and Scoop on Windows. Volta integrates transparently with existing workflows — it intercepts calls to node, npm, and yarn using lightweight platform-specific shims that resolve the correct version before forwarding the command. The project is open source, actively maintained, and has been adopted by teams at LinkedIn (where it originated), Netlify, and other organizations that need consistent JavaScript tooling across large teams.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install volta-javascript-toolchain-manager
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

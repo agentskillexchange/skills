@@ -1,47 +1,49 @@
 ---
-title: "linkding Self-Hosted Bookmark Manager with REST API"
+name: "linkding Self-Hosted Bookmark Manager with REST API"
 description: "linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python."
-slug: "linkding-self-hosted-bookmark-manager-rest-api"
+verification: security_reviewed
+source: "https://github.com/sissbruecker/linkding"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/sissbruecker/linkding"
 tool_ecosystem:
   github_repo: "sissbruecker/linkding"
   github_stars: 10379
-listed: true
 ---
 
 # linkding Self-Hosted Bookmark Manager with REST API
 
-linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic metadata extraction, web archiving, browser extensions, and SSO support. It runs in Docker and is built with Django and Python.
+linkding is a self-hosted bookmark manager designed to be minimal, fast, and easy to deploy using Docker. Created by Sascha Sissbruecker, it provides a clean web interface for managing bookmarks along with a comprehensive REST API that makes it ideal for integration with AI agents and automation workflows.
+Core Features
+
+Clean, readable UI with tag-based organization and full-text search
+Bulk editing, Markdown notes attached to bookmarks, and read-it-later functionality
+Automatic metadata extraction: titles, descriptions, and favicons from bookmarked URLs
+Web archiving via local HTML snapshots or Internet Archive integration
+Bookmark sharing between users or with guest access
+Import and export in Netscape HTML format for migration
+Progressive Web App (PWA) support for mobile usage
+Browser extensions for Firefox and Chrome plus a bookmarklet
+SSO support via OIDC or authentication proxies
+
+REST API
+The REST API is a key differentiator for agent integration. It provides full CRUD operations on bookmarks and tags, search and filtering capabilities, and bulk operations. Agents can use the API to save research links, organize bookmarks by project, search saved resources, and build knowledge bases from curated link collections.
+Agent Integration
+For AI agents, linkding serves as a persistent bookmark and research link store. Agents can save URLs discovered during research, tag them for later retrieval, add notes with context about why a link was saved, and search the bookmark database for relevant resources. The REST API with token authentication makes programmatic access straightforward.
+Deployment
+linkding runs as a Docker container with SQLite as the default database (PostgreSQL also supported). The application is built with Django and requires minimal resources. A community ecosystem includes mobile apps, additional browser extensions, and CLI tools like linkding-cli built on the aiolinkding Python library.
+The project is MIT-licensed with over 10,300 GitHub stars. Full documentation is available at linkding.link. Deploy with docker pull sissbruecker/linkding and configure via environment variables.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install linkding-self-hosted-bookmark-manager-rest-api
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,44 +1,29 @@
 ---
-title: "GitHub Actions Workflow Optimizer"
+name: "GitHub Actions Workflow Optimizer"
 description: "Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance."
-slug: "github-actions-workflow-optimizer"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
 category:
   - "CI/CD Integrations"
 framework:
   - "OpenClaw"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
-listed: true
 ---
 
 # GitHub Actions Workflow Optimizer
 
-Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance.
+The GitHub Actions Workflow Optimizer agent analyzes your CI/CD workflows defined in GitHub Actions YAML files to identify performance bottlenecks and optimization opportunities. It leverages the GitHub Actions REST API to fetch workflow run history, job durations, and cache hit rates, providing actionable recommendations to reduce build times and CI minutes consumption.
+Key capabilities include detecting redundant checkout steps across jobs, recommending optimal cache key strategies using actions/cache v4, identifying opportunities to parallelize independent jobs with matrix strategies, and suggesting conditional step execution with if expressions. The agent analyzes your workflow against GitHub's runner specifications to recommend appropriate runner sizes and operating systems.
+It also monitors GitHub Actions usage quotas via the billing API, alerting when spending approaches limits. The optimizer generates before/after comparisons showing estimated time and cost savings, and can automatically create pull requests with optimized workflow files using the GitHub Contents API.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install github-actions-workflow-optimizer
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

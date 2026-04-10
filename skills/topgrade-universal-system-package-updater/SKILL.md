@@ -1,47 +1,38 @@
 ---
-title: "Topgrade Universal System Package Updater"
+name: "Topgrade Universal System Package Updater"
 description: "Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more."
-slug: "topgrade-universal-system-package-updater"
+verification: security_reviewed
+source: "https://github.com/topgrade-rs/topgrade"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-verification: "security_reviewed"
-source: "https://github.com/topgrade-rs/topgrade"
 tool_ecosystem:
   github_repo: "topgrade-rs/topgrade"
   github_stars: 3619
-listed: true
 ---
 
 # Topgrade Universal System Package Updater
 
-Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more.
+What is Topgrade?
+Topgrade is an open-source command-line utility that upgrades everything on your system with a single command. Written in Rust by the topgrade-rs community (a continuation of the original project by r-darwish), it has over 3,500 GitHub stars, is licensed under GPL-3.0, and provides pre-built binaries for Linux, macOS, Windows, and FreeBSD. It is installable via Homebrew, Cargo, AUR, Nix, Winget, Scoop, and Chocolatey.
+How It Works
+When you run topgrade, it automatically detects which tools and package managers are installed on your system, then runs the appropriate update commands for each one. There is no manual configuration required for detection — if a package manager is present, Topgrade will find it and update through it. Supported sources include system package managers (apt, dnf, pacman, zypper, apk), language-specific managers (npm, pip, cargo, gem, go, composer, mix), application stores (Homebrew, Flatpak, Snap, Winget, Scoop, Chocolatey, MacPorts), container tools (Docker, Podman), editor plugins (Vim, Neovim, VS Code extensions), shell frameworks (Oh My Zsh, Fisher, antidote), firmware updates (fwupd), and many more — over 60 sources in total.
+Configuration is done through a TOML file (~/.config/topgrade/topgrade.toml) where you can disable specific steps, add custom pre/post commands, set execution order, and configure behavior per package manager. The --dry-run flag previews what would be updated without making changes. The --cleanup flag runs post-update cleanup (cache clearing, autoremove) where supported.
+What It Produces
+Topgrade outputs a step-by-step log showing which package managers were detected, what updates were found, and whether each step succeeded or failed. At the end, it displays a summary table of all steps with their status. Failed steps can be retried. The tool respects sudo prompts and handles password requirements across different package managers.
+Use Cases
+Topgrade is ideal for developers and system administrators who maintain systems with multiple package managers and want to keep everything current without remembering individual update commands. It is especially useful for AI agents performing system maintenance, health checks, or environment setup tasks. When paired with cron or systemd timers, it provides automated system-wide updates with a single entry point.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install topgrade-universal-system-package-updater
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

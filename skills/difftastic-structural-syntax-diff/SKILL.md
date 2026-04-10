@@ -1,47 +1,34 @@
 ---
-title: "Difftastic Structural Syntax-Aware Diff Tool"
+name: "Difftastic Structural Syntax-Aware Diff Tool"
 description: "Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it understands 30+ programming languages and integrates directly with Git and Mercurial."
-slug: "difftastic-structural-syntax-diff"
+verification: security_reviewed
+source: "https://github.com/Wilfred/difftastic"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "OpenClaw"
-verification: "security_reviewed"
-source: "https://github.com/Wilfred/difftastic"
 tool_ecosystem:
   github_repo: "Wilfred/difftastic"
   github_stars: 24900
-listed: true
 ---
 
 # Difftastic Structural Syntax-Aware Diff Tool
 
-Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text. Written in Rust with 24k+ GitHub stars, it understands 30+ programming languages and integrates directly with Git and Mercurial.
+Difftastic is a structural diff tool that compares files based on their syntax trees rather than treating them as sequences of lines. With over 24,000 stars on GitHub and an MIT license, it solves a fundamental problem with traditional diff tools: they cannot distinguish meaningful code changes from formatting noise.
+When you rename a variable, reformat code, or move expressions to new lines, a traditional line-based diff shows every touched line as changed. Difftastic parses both file versions into abstract syntax trees using tree-sitter grammars and then computes the minimal structural difference using a graph-based algorithm inspired by Dijkstra shortest-path search. The result highlights exactly which syntax nodes changed, added, or removed, in full context.
+Difftastic supports over 30 programming languages out of the box, including Python, JavaScript, TypeScript, Rust, Go, C, C++, Java, Ruby, Haskell, HTML, CSS, JSON, YAML, and many more. For unrecognized file types, it falls back to a word-highlighted line diff that still provides more useful output than standard diff.
+Integration with Git is straightforward: set GIT_EXTERNAL_DIFF=difft or configure diff.external in your gitconfig, and every git diff, git log -p, and git show command uses structural diffing. Difftastic also works with Mercurial and can be integrated with editors like Emacs via the difftastic.el package.
+For AI agents performing code review, refactoring analysis, or change impact assessment, difftastic provides dramatically more accurate change descriptions than line-based diffs. An agent can use it to understand exactly which expressions, statements, or blocks were modified, making automated code review and change summarization far more reliable. The tool is available via cargo install difftastic, Homebrew, and most Linux package managers.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install difftastic-structural-syntax-diff
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

@@ -1,44 +1,27 @@
 ---
-title: "Pandas DataFrame Schema Validator"
+name: "Pandas DataFrame Schema Validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
-slug: "pandas-dataframe-schema-validator"
+verification: security_reviewed
+source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "OpenClaw"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
-listed: true
 ---
 
 # Pandas DataFrame Schema Validator
 
-Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check.
+The Pandas DataFrame Schema Validator enforces data quality rules on Pandas DataFrames using the pandera schema validation library. It defines validation schemas using pa.DataFrameSchema with column-level type enforcement, nullable constraints, and value range specifications via pandera.Column definitions. The validator supports custom check functions using pandera.Check with lambda expressions, regex patterns, and statistical validations for distribution testing. It integrates with the pandas.api.types module to validate dtype compatibility across DataFrame operations. Schema inference is available using pandera.infer_schema() to generate baseline schemas from sample data, which can then be customized and tightened. The skill validates multi-index DataFrames, handles categorical dtype enforcement, and supports hypothesis testing checks using pandera.Hypothesis for statistical property validation. Error reporting generates detailed failure summaries with row indices, failing values, and schema violation categories.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install pandas-dataframe-schema-validator
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 

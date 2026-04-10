@@ -1,47 +1,39 @@
 ---
-title: "Gitoxide Pure Rust Git Implementation and Library"
+name: "Gitoxide Pure Rust Git Implementation and Library"
 description: "A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building Git-powered applications and CLI tools for repository operations. Prioritizes correctness, performance, and memory safety."
-slug: "gitoxide-pure-rust-git-implementation"
+verification: security_reviewed
+source: "https://github.com/GitoxideLabs/gitoxide"
 category:
   - "Developer Tools"
 framework:
   - "Cursor"
-verification: "security_reviewed"
-source: "https://github.com/GitoxideLabs/gitoxide"
 tool_ecosystem:
   github_repo: "GitoxideLabs/gitoxide"
   github_stars: 11102
-listed: true
 ---
 
 # Gitoxide Pure Rust Git Implementation and Library
 
-A complete, idiomatic Git implementation written in pure Rust, providing both a library (gix crate) for building Git-powered applications and CLI tools for repository operations. Prioritizes correctness, performance, and memory safety.
+Gitoxide is a ground-up reimplementation of Git in pure Rust, designed for building future-proof applications that need programmatic Git access. With over 11,000 GitHub stars and active development, it serves as both a high-performance Rust library and a set of command-line tools.
+How It Works
+The project is organized as a collection of Rust crates under the gix namespace. The main entry point is the gix crate, which provides high-level APIs for clone, fetch, push, status, diff, merge, commit, rebase, reset, and blame operations. Lower-level plumbing crates like gix-config, gix-ref, gix-object, and gix-pack handle specific Git internals, allowing fine-grained control when needed.
+Two CLI binaries are provided: gix for low-level plumbing operations useful in automation and testing, and ein for higher-level workflow-enhancing tools. These serve primarily as development aids for testing the library API against real repositories.
+Key Capabilities
+Gitoxide supports clone, fetch, and push operations with full protocol support. The status implementation handles working directory state, index comparisons, and untracked file detection. Blob and tree diffs, merge operations for blobs, trees, and commits, and commit-graph traversal are all implemented. Worktree checkout and streaming, pathspecs, revspecs, .gitignore, and .gitattributes handling round out the feature set.
+Integration Points
+As a Cargo dependency, any Rust application can use gix for Git operations without shelling out to the git binary or depending on libgit2. The Jujutsu version control system and GitButler virtual branch client both use gitoxide as their Git backend. The library follows semver and a documented stability guide with tiered crate maturity levels. Installation is via cargo install gitoxide or through system package managers.
+Output
+Library functions return typed Rust structs representing Git objects, references, diffs, and operation results. The CLI tools output text-based representations of repository state, commit logs, and operation outcomes suitable for terminal display and scripting.
 
 ## Installation
 
-### Method 1: OpenClaw Control UI
-1. Open OpenClaw Control UI.
-2. Search for this skill by name or slug.
-3. Review the skill details and install it.
+You can install this skill using one of these methods:
 
-### Method 2: OpenClaw Chat
-1. Ask OpenClaw to install this skill from Agent Skill Exchange.
-2. Confirm the install when prompted.
-
-### Method 3: ClawHub CLI
-```bash
-clawhub install gitoxide-pure-rust-git-implementation
-```
-
-### Method 4: Manual download
-1. Download or clone the skill files.
-2. Place them in your local skills directory.
-3. Reload OpenClaw or your agent runtime.
-
-### Method 5: From source
-1. Open the upstream source linked below.
-2. Follow the project setup instructions there.
+1. Install from the Agent Skill Exchange UI
+2. Clone or download this repository and copy the skill folder into your skills directory
+3. Install with the relevant package manager if the upstream project provides one
+4. Add it manually to your local OpenClaw skill collection
+5. Use the upstream project install flow documented by the publisher
 
 ## Source
 
