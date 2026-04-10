@@ -9,13 +9,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | ⭐ 24.9k |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⭐ 20.5k |
+| [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | ⭐ 19.9k |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⭐ 18.4k |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⭐ 17.8k |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | ⭐ 14.7k |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
-| [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | ⭐ 13.2k |
 
 ---
 
@@ -39,6 +39,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4M/wk |
+| [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 19.9k | — |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 504.9k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 12.7M/wk |

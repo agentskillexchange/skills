@@ -74,6 +74,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | — | — |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | — | — |
+| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |

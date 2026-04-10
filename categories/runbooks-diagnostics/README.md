@@ -8,6 +8,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 |---|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | ⭐ 121.4k |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
+| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 60 |
 
 ---
 
@@ -17,6 +18,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 |---|---:|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
+| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 60 | — |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | — | — |
 | [Ansible Playbook Diagnostics Runner](../../skills/ansible-playbook-diagnostics-runner/) | — | — |
 | [Ansible Playbook Dry Run Validator](../../skills/ansible-playbook-dry-run-validator/) | — | — |
@@ -59,6 +61,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
+| [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Jenkins Build Log Analyzer](../../skills/jenkins-build-log-analyzer/) | — | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | — | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | — | — |

@@ -13,9 +13,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.8k |
+| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | ⭐ 6.7k |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | ⭐ 4.7k |
-| [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | ⭐ 1.1k |
-| [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | ⭐ 564 |
+| [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | ⭐ 1.1k |
 
 ---
 
@@ -38,7 +38,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.5k/wk |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
+| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
+| [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |

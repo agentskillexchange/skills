@@ -58,6 +58,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.1k | — |
@@ -71,6 +72,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |

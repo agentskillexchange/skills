@@ -80,6 +80,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 338 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 658.8k/wk |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
+| [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 197 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | 2.5k/wk |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |
@@ -89,8 +90,11 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
 | [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | — | — |
+| [Build and debug custom WordPress REST API endpoints with schema and permission guardrails](../../skills/build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails/) | — | — |
+| [Build and debug interactive WordPress frontends with data-wp directives](../../skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/) | — | — |
 | [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
+| [Diagnose WordPress repo structure and route follow-up work safely](../../skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/) | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](../../skills/elementor-website-builder-wordpress-visual-page-editor/) | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | — | — |
@@ -105,6 +109,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
 | [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
+| [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](../../skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |

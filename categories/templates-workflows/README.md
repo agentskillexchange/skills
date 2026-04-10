@@ -46,6 +46,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.3M/wk |
+| [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
+| [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 343.3k/wk |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |

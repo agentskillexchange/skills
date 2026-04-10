@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1847 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-10 07:44 UTC
+> **1863 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-10 19:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (249 skills)
+### 🛠️ Developer Tools (250 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -181,6 +181,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 97.9k/wk |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | 2.5k | — |
+| [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Published | 2.3k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | 1.3k | — |
@@ -265,7 +266,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (149 skills)
+### 🔧 CI/CD Integrations (151 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -278,7 +279,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Dagger Programmable CI/CD Automation Engine](skills/dagger-programmable-cicd-automation-engine/) | Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell… | Security Reviewed | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](skills/caprover-self-hosted-paas-app-deployment/) | CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications… | Security Reviewed | 14.9k | 8.5k/wk |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](skills/woodpecker-ci-self-hosted-continuous-integration/) | Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs… | Security Reviewed | 6.8k | — |
+| [Generate release PRs and changelog updates from Conventional Commits](skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps,… | Published | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
+| [Gate pull requests on OpenAPI breaking changes](skills/gate-pull-requests-on-openapi-breaking-changes/) | Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to… | Published | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It… | Security Reviewed | 1.1k | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
 | [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller.… | Security Reviewed | — | — |
@@ -563,7 +566,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (123 skills)
+### 🔒 Security & Verification (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -596,6 +599,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [dotenvx Secure Environment Variable Manager and Encryptor](skills/dotenvx-secure-env-variable-manager/) | dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted… | Published | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](skills/unkey-api-key-management-rate-limiting/) | Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a… | Security Reviewed | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
+| [Generate adversarial API test cases from an OpenAPI or GraphQL schema](skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of… | Published | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.1k | — |
@@ -609,6 +613,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Heisenberg Supply Chain Health Checker](skills/heisenberg-supply-chain-health-checker/) | An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and… | Security Reviewed | 123 | — |
 | [Sentry for AI](skills/sentry-for-ai/) | Observability and debugging support for AI-assisted application workflows. | Security Reviewed | 105 | — |
 | [HashiCorp Vault MCP Server](skills/hashicorp-vault-mcp-server/) | The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV… | Security Reviewed | 42 | — |
+| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Published | — | — |
 | [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps… | Security Reviewed | — | — |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](skills/cariddi-domain-crawler-endpoint-secret-scanner/) | Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints,… | Security Reviewed | — | — |
@@ -694,7 +699,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (116 skills)
+### 📋 Runbooks & Diagnostics (118 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -702,6 +707,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 |---|---|---|---:|---:|
 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why… | Security Reviewed | 121.4k | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
+| [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Published | 60 | — |
 | [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible… | Security Reviewed | — | — |
 | [Ansible Playbook Diagnostics Runner](skills/ansible-playbook-diagnostics-runner/) | Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin,… | Security Reviewed | — | — |
 | [Ansible Playbook Dry Run Validator](skills/ansible-playbook-dry-run-validator/) | Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates… | Security Reviewed | — | — |
@@ -744,6 +750,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API.… | Security Reviewed | — | — |
 | [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for… | Security Reviewed | — | — |
 | [Incident Timeline Builder](skills/incident-timeline-builder/) | Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives.… | Security Reviewed | — | — |
+| [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Published | — | — |
 | [Jenkins Build Log Analyzer](skills/jenkins-build-log-analyzer/) | Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and… | Security Reviewed | — | — |
 | [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log… | Security Reviewed | — | — |
 | [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events,… | Security Reviewed | — | — |
@@ -1058,7 +1065,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (103 skills)
+### 📅 Calendar, Email & Productivity (104 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1107,6 +1114,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](skills/affine-knowledge-base-collaborative-workspace-platform/) | AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This… | Security Reviewed | — | — |
 | [AppFlowy Open Source Collaborative Workspace](skills/appflowy-open-source-collaborative-workspace/) | AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly… | Security Reviewed | — | — |
+| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of… | Published | — | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
@@ -1169,7 +1177,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (101 skills)
+### ✅ Code Quality & Review (102 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1178,6 +1186,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | 39.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text.… | Security Reviewed | 24.9k | — |
 | [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust,… | Security Reviewed | 20.5k | 4M/wk |
+| [Regression-test prompts, agents, and RAG outputs before shipping changes](skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a… | Published | 19.9k | — |
 | [commitlint Conventional Commit Message Linter](skills/commitlint-conventional-commit-message-linter/) | commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured… | Security Reviewed | 18.4k | 504.9k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](skills/ty-python-type-checker/) | ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and… | Security Reviewed | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](skills/msw-api-mocking-skill-frontend-integration-tests/) | Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior… | Security Reviewed | 17.8k | 12.7M/wk |
@@ -1278,7 +1287,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 📰 WordPress & CMS (90 skills)
+### 📰 WordPress & CMS (95 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=WordPress%20%26%20CMS&sort=downloads)
 
@@ -1324,6 +1333,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Webflow Data API JavaScript SDK](skills/webflow-data-api-javascript-sdk/) | Automates site, CMS, and publishing workflows with Webflow’s official JavaScript SDK for the Webflow Data API.… | Security Reviewed | 338 | — |
 | [Contentful Management API and JavaScript SDK](skills/contentful-management-api-and-javascript-sdk/) | Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets,… | Security Reviewed | 286 | 658.8k/wk |
 | [HeadstartWP Headless WordPress and Next.js Framework](skills/headstartwp-headless-wordpress-nextjs-framework/) | HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a… | Security Reviewed | 198 | — |
+| [Develop and harden WordPress plugins with lifecycle and security guardrails](skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | Use Automattic's official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a… | Published | 197 | — |
 | [Storyblok Management API and JavaScript Client](skills/storyblok-management-api-and-javascript-client/) | Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial… | Security Reviewed | 137 | — |
 | [Automattic WordPress Remote MCP](skills/automattic-wordpress-remote-mcp/) | Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application… | Security Reviewed | 131 | 2.5k/wk |
 | [AI Engine WordPress MCP Server and AI Automation](skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while… | Security Reviewed | 37 | — |
@@ -1333,8 +1343,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [ACF to Gutenberg Block Migrator](skills/acf-to-gutenberg-block-migrator/) | Converts Advanced Custom Fields field groups into native Gutenberg blocks using the ACF Block API v2 and… | Security Reviewed | — | — |
 | [Advanced Custom Fields REST Schema Mapper](skills/advanced-custom-fields-rest-schema-mapper/) | Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and… | Security Reviewed | — | — |
 | [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless… | Security Reviewed | — | — |
+| [Build and debug custom WordPress REST API endpoints with schema and permission guardrails](skills/build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails/) | Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST… | Published | — | — |
+| [Build and debug interactive WordPress frontends with data-wp directives](skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/) | This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to… | Published | — | — |
 | [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs,… | Security Reviewed | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](skills/contact-form-7-wordpress-form-builder-mail-integration/) | Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active… | Security Reviewed | — | — |
+| [Diagnose WordPress repo structure and route follow-up work safely](skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/) | This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent… | Published | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](skills/directus-sql-native-headless-cms-internal-app-platform/) | Directus turns a SQL database into a headless CMS, admin app, and instant API layer without forcing a proprietary… | Security Reviewed | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](skills/elementor-website-builder-wordpress-visual-page-editor/) | Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than… | Security Reviewed | — | — |
 | [EmDash Full-Stack TypeScript CMS by Cloudflare](skills/emdash-full-stack-typescript-cms-cloudflare/) | EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor… | Security Reviewed | — | — |
@@ -1349,6 +1362,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](skills/keystonejs-headless-cms-graphql-react-admin/) | KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates a GraphQL API and React-based… | Security Reviewed | — | — |
 | [MCP WordPress Server by docdyhr](skills/mcp-wordpress-server-docdyhr/) | An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through… | Security Reviewed | — | — |
 | [Prismic Headless CMS Content API Client](skills/prismic-headless-cms-content-api-client/) | Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the… | Security Reviewed | — | — |
+| [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like… | Published | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](skills/strapi-open-source-headless-cms-custom-content-apis/) | Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST… | Security Reviewed | — | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](skills/wagtail-django-cms-structured-content-editorial-workflows/) | Wagtail is an open source CMS built on Django for teams that need structured content, flexible page models, and a… | Security Reviewed | — | — |
 | [WooCommerce Order Sync Agent](skills/woocommerce-order-sync-agent/) | Synchronizes WooCommerce orders with external ERPs using the WooCommerce REST API v3 and wp_schedule_event. Handles… | Security Reviewed | — | — |
@@ -1838,7 +1852,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (74 skills)
+### 📄 Templates & Workflows (76 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1858,6 +1872,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | 16.1k | — |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.3M/wk |
+| [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Published | 6.4k | — |
+| [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Published | 4.3k | — |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 343.3k/wk |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |

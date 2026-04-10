@@ -1,8 +1,227 @@
 {
   "version": "2.0",
-  "total": 1847,
+  "total": 1863,
   "generated": "2026-04-10",
   "skills": [
+    {
+      "slug": "parameterize-and-execute-notebooks-as-repeatable-runs",
+      "name": "Parameterize and execute notebooks as repeatable runs",
+      "description": "Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive document. The skill injects…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6427
+      }
+    },
+    {
+      "slug": "gate-pull-requests-on-openapi-breaking-changes",
+      "name": "Gate pull requests on OpenAPI breaking changes",
+      "description": "Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to merge. The…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1145
+      }
+    },
+    {
+      "slug": "generate-adversarial-api-test-cases-from-openapi-or-graphql-schema",
+      "name": "Generate adversarial API test cases from an OpenAPI or GraphQL schema",
+      "description": "Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of hand-writing examples. The skill exercises…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3211
+      }
+    },
+    {
+      "slug": "run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails",
+      "name": "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails",
+      "description": "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting.…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails",
+      "name": "Build and debug custom WordPress REST API endpoints with schema and permission guardrails",
+      "description": "Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST routes without skipping schema, auth, or permission_callback details.…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails",
+      "name": "Develop and harden WordPress plugins with lifecycle and security guardrails",
+      "description": "Use Automattic's official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling,…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 197
+      }
+    },
+    {
+      "slug": "improve-qdrant-vector-search-relevance-and-retrieval-quality",
+      "name": "Improve Qdrant vector search relevance and retrieval quality",
+      "description": "Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 60
+      }
+    },
+    {
+      "slug": "build-scroll-linked-animations-with-gsap-scrolltrigger",
+      "name": "Build scroll-linked animations with GSAP ScrollTrigger",
+      "description": "Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2277
+      }
+    },
+    {
+      "slug": "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes",
+      "name": "Regression-test prompts, agents, and RAG outputs before shipping changes",
+      "description": "Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 19875
+      }
+    },
+    {
+      "slug": "generate-release-prs-and-changelog-updates-from-conventional-commits",
+      "name": "Generate release PRs and changelog updates from Conventional Commits",
+      "description": "Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps, and changelog updates before a human reviews and…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6694
+      }
+    },
+    {
+      "slug": "automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows",
+      "name": "Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows",
+      "description": "Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit workflow…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4279
+      }
+    },
+    {
+      "slug": "build-and-debug-interactive-wordpress-frontends-with-data-wp-directives",
+      "name": "Build and debug interactive WordPress frontends with data-wp directives",
+      "description": "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "investigate-backend-only-wordpress-performance-bottlenecks",
+      "name": "Investigate backend-only WordPress performance bottlenecks",
+      "description": "This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on browser clicks. Use it when the job is…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "diagnose-wordpress-repo-structure-and-route-follow-up-work-safely",
+      "name": "Diagnose WordPress repo structure and route follow-up work safely",
+      "description": "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "check-current-weather-and-short-forecasts-for-planning",
+      "name": "Check current weather and short forecasts for planning",
+      "description": "This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of sending a user to a weather…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "audit-openclaw-host-security-posture-and-hardening-gaps",
+      "name": "Audit OpenClaw host security posture and hardening gaps",
+      "description": "This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "diagnose-openclaw-node-pairing-and-route-failures",
       "name": "Diagnose OpenClaw node pairing and route failures",
