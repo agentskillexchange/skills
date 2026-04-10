@@ -1,14 +1,13 @@
 ---
-title: "Pandas Profiling Report Generator"
-slug: "pandas-profiling-report-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
+title: Pandas Profiling Report Generator
+slug: pandas-profiling-report-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/pandas-profiling-report-generator/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Pandas Profiling Report Generator
 
 Generates comprehensive data quality reports using ydata-profiling (formerly pandas-profiling) with correlation analysis, missing value patterns, and cardinality detection. Exports interactive HTML dashboards and JSON summaries.

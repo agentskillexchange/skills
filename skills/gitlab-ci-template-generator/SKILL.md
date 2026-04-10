@@ -1,14 +1,13 @@
 ---
-title: "GitLab CI Template Generator"
-slug: "gitlab-ci-template-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/gitlab-ci-template-generator/"
+title: GitLab CI Template Generator
+slug: gitlab-ci-template-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/gitlab-ci-template-generator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # GitLab CI Template Generator
 
 Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs.

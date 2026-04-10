@@ -1,14 +1,13 @@
 ---
-title: "React Email Component Library for Building Email Templates"
-slug: "react-email-component-library-email-templates"
-verification: "security_reviewed"
-source: "https://github.com/resend/react-email"
+title: React Email Component Library for Building Email Templates
+slug: react-email-component-library-email-templates
+verification: security_reviewed
+source: https://github.com/resend/react-email
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # React Email Component Library for Building Email Templates
 
 React Email is an open source component library for building responsive, cross-client email templates using React and TypeScript. It handles Gmail, Outlook, and Apple Mail inconsistencies, supports dark mode, and renders to standard HTML for use with any email provider.

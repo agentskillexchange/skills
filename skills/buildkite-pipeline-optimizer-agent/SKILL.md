@@ -1,14 +1,13 @@
 ---
-title: "Buildkite Pipeline Optimizer"
-slug: "buildkite-pipeline-optimizer-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/"
+title: Buildkite Pipeline Optimizer
+slug: buildkite-pipeline-optimizer-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Buildkite Pipeline Optimizer
 
 Analyzes Buildkite pipeline YAML and optimizes parallelism using the Buildkite REST API v2 and GraphQL API. Reduces build times by identifying bottleneck steps and suggesting agent queue rebalancing.

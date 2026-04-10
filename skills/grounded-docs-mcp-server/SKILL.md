@@ -1,17 +1,16 @@
 ---
-title: "Grounded Docs MCP Server"
-slug: "grounded-docs-mcp-server"
-verification: "security_reviewed"
-source: "https://github.com/arabold/docs-mcp-server"
+title: Grounded Docs MCP Server
+slug: grounded-docs-mcp-server
+verification: security_reviewed
+source: https://github.com/arabold/docs-mcp-server
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "arabold/docs-mcp-server"
+  github_repo: arabold/docs-mcp-server
   github_stars: 1209
 ---
-
 # Grounded Docs MCP Server
 
 Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources like websites, GitHub, npm, PyPI, and local files. It helps agents fetch current docs, search them semantically, and reduce hallucinations when working against real libraries and APIs.

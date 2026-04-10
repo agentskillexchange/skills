@@ -1,14 +1,13 @@
 ---
-title: "Jenkins Pipeline Monitor"
-slug: "jenkins-pipeline-monitor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
+title: Jenkins Pipeline Monitor
+slug: jenkins-pipeline-monitor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/jenkins-pipeline-monitor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Jenkins Pipeline Monitor
 
 Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing.

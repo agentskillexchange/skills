@@ -1,14 +1,13 @@
 ---
-title: "GStreamer Live Stream Transcoder"
-slug: "gstreamer-live-stream-transcoder"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/"
+title: GStreamer Live Stream Transcoder
+slug: gstreamer-live-stream-transcoder
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # GStreamer Live Stream Transcoder
 
 Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports adaptive bitrate HLS/DASH output via GStreamer’s hlssink2 and dashsink elements.

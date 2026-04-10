@@ -1,14 +1,13 @@
 ---
-title: "Container Runtime Security Monitor"
-slug: "container-runtime-security-monitor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/container-runtime-security-monitor/"
+title: Container Runtime Security Monitor
+slug: container-runtime-security-monitor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/container-runtime-security-monitor/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Container Runtime Security Monitor
 
 Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time.

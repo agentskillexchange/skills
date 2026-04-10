@@ -1,14 +1,13 @@
 ---
-title: "Sharp Image Pipeline Processor"
-slug: "sharp-image-pipeline-processor-2"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
+title: Sharp Image Pipeline Processor
+slug: sharp-image-pipeline-processor-2
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Sharp Image Pipeline Processor
 
 Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing.

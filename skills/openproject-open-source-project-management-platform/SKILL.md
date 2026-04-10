@@ -1,14 +1,13 @@
 ---
-title: "OpenProject Open Source Project Management Platform"
-slug: "openproject-open-source-project-management-platform"
-verification: "listed"
-source: "https://github.com/opf/openproject"
+title: OpenProject Open Source Project Management Platform
+slug: openproject-open-source-project-management-platform
+verification: listed
+source: https://github.com/opf/openproject
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # OpenProject Open Source Project Management Platform
 
 OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real OpenProject platform, docs, and deployment model for teams that want structured project operations on their own infrastructure.

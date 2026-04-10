@@ -1,14 +1,13 @@
 ---
-title: "Yeoman Generator Builder"
-slug: "yeoman-generator-builder"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
+title: Yeoman Generator Builder
+slug: yeoman-generator-builder
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/yeoman-generator-builder/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Yeoman Generator Builder
 
 Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows.

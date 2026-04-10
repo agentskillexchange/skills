@@ -1,14 +1,13 @@
 ---
-title: "Grafana Dashboard Generator"
-slug: "grafana-dashboard-generator-3"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/grafana-dashboard-generator-3/"
+title: Grafana Dashboard Generator
+slug: grafana-dashboard-generator-3
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/grafana-dashboard-generator-3/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Grafana Dashboard Generator
 
 Programmatically generates Grafana dashboards from service definitions using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels for RED metrics, SLO tracking, and infrastructure views.

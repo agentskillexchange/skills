@@ -1,14 +1,13 @@
 ---
-title: "Protocol Buffers Documentation Compiler"
-slug: "protobuf-documentation-compiler"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
+title: Protocol Buffers Documentation Compiler
+slug: protobuf-documentation-compiler
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/protobuf-documentation-compiler/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Protocol Buffers Documentation Compiler
 
 Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates proto style with buf lint and produces gRPC service client stubs for multiple languages.

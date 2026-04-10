@@ -1,14 +1,13 @@
 ---
-title: "Apify Actor Runner"
-slug: "apify-actor-runner"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/apify-actor-runner/"
+title: Apify Actor Runner
+slug: apify-actor-runner
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/apify-actor-runner/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Apify Actor Runner
 
 Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.

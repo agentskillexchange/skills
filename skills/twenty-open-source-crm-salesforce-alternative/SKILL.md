@@ -1,17 +1,16 @@
 ---
-title: "Twenty Open Source CRM Platform and Salesforce Alternative"
-slug: "twenty-open-source-crm-salesforce-alternative"
-verification: "security_reviewed"
-source: "https://github.com/twentyhq/twenty"
+title: Twenty Open Source CRM Platform and Salesforce Alternative
+slug: twenty-open-source-crm-salesforce-alternative
+verification: security_reviewed
+source: https://github.com/twentyhq/twenty
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "twentyhq/twenty"
+  github_repo: twentyhq/twenty
   github_stars: 43525
 ---
-
 # Twenty Open Source CRM Platform and Salesforce Alternative
 
 Twenty is a modern open-source CRM built to replace Salesforce, with customizable objects, workflow automation, email and calendar integration, and a GraphQL API. It offers kanban, table, and calendar views with fine-grained permission controls and self-hosting support.

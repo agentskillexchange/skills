@@ -1,14 +1,13 @@
 ---
-title: "Remotion React Video Generation and Rendering Framework"
-slug: "remotion-react-video-generation-rendering-framework"
-verification: "security_reviewed"
-source: "https://github.com/remotion-dev/remotion"
+title: Remotion React Video Generation and Rendering Framework
+slug: remotion-react-video-generation-rendering-framework
+verification: security_reviewed
+source: https://github.com/remotion-dev/remotion
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Remotion React Video Generation and Rendering Framework
 
 Remotion is a framework for making videos programmatically with React. It lets agents and developers generate branded videos, social clips, explainers, and template-based renders using code, reusable components, and a documented rendering toolchain.

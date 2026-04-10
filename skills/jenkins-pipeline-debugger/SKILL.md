@@ -1,14 +1,13 @@
 ---
-title: "Jenkins Pipeline Debugger"
-slug: "jenkins-pipeline-debugger"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
+title: Jenkins Pipeline Debugger
+slug: jenkins-pipeline-debugger
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/jenkins-pipeline-debugger/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Jenkins Pipeline Debugger
 
 Connects to Jenkins via the Jenkins REST API and Blue Ocean API to debug Declarative and Scripted pipelines. Retrieves stage logs, replays failed builds, and traces Groovy CPS execution state.

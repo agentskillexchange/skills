@@ -1,17 +1,17 @@
 ---
-title: "MarkItDown Document-to-Markdown Converter by Microsoft"
-slug: "markitdown-document-to-markdown-converter-microsoft"
-verification: "security_reviewed"
-source: "https://github.com/microsoft/markitdown"
+title: MarkItDown Document-to-Markdown Converter by Microsoft
+slug: markitdown-document-to-markdown-converter-microsoft
+verification: security_reviewed
+source: https://github.com/microsoft/markitdown
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "microsoft/markitdown"
+  github_repo: microsoft/markitdown
   github_stars: 93207
+  license: MIT
 ---
-
 # MarkItDown Document-to-Markdown Converter by Microsoft
 
 MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, and other files into Markdown for LLM consumption. It preserves headings, lists, tables, and links while producing token-efficient output optimized for text analysis pipelines.

@@ -1,17 +1,16 @@
 ---
-title: "gron Greppable JSON Flattener"
-slug: "gron-greppable-json-flattener"
-verification: "security_reviewed"
-source: "https://github.com/tomnomnom/gron"
+title: gron Greppable JSON Flattener
+slug: gron-greppable-json-flattener
+verification: security_reviewed
+source: https://github.com/tomnomnom/gron
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "tomnomnom/gron"
+  github_repo: tomnomnom/gron
   github_stars: 14413
 ---
-
 # gron Greppable JSON Flattener
 
 gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON.

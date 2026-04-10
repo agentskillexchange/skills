@@ -1,14 +1,13 @@
 ---
-title: "CircleCI Orb Builder"
-slug: "circleci-orb-builder"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/circleci-orb-builder/"
+title: CircleCI Orb Builder
+slug: circleci-orb-builder
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/circleci-orb-builder/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # CircleCI Orb Builder
 
 Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning via the CircleCI CLI.

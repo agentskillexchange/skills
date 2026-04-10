@@ -1,17 +1,16 @@
 ---
-title: "WordPress Content Publisher"
-slug: "wordpress-content-publisher"
-verification: "security_reviewed"
-source: "https://github.com/WordPress/WordPress"
+title: WordPress Content Publisher
+slug: wordpress-content-publisher
+verification: security_reviewed
+source: https://github.com/WordPress/WordPress
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21011
 ---
-
 # WordPress Content Publisher
 
 Structured publishing workflow for WordPress drafts, metadata, and content operations.

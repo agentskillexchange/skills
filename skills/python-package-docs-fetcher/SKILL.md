@@ -1,14 +1,13 @@
 ---
-title: "Python Package Docs Fetcher"
-slug: "python-package-docs-fetcher"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/python-package-docs-fetcher/"
+title: Python Package Docs Fetcher
+slug: python-package-docs-fetcher
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/python-package-docs-fetcher/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Python Package Docs Fetcher
 
 Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module parsing and pydoc introspection to extract function signatures, docstrings, and type hints for offline reference.

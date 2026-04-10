@@ -1,19 +1,18 @@
 ---
-title: "Astro Content-Driven Web Framework"
-slug: "astro-content-driven-web-framework"
-verification: "security_reviewed"
-source: "https://github.com/withastro/astro"
+title: Astro Content-Driven Web Framework
+slug: astro-content-driven-web-framework
+verification: security_reviewed
+source: https://github.com/withastro/astro
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "withastro/astro"
+  github_repo: withastro/astro
   github_stars: 57979
-  npm_package: "astro"
+  npm_package: astro
   npm_weekly_downloads: 1864911
 ---
-
 # Astro Content-Driven Web Framework
 
 Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid), and provides islands architecture for optimal performance.

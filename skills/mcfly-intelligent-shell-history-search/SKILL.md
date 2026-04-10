@@ -1,17 +1,17 @@
 ---
-title: "mcfly Intelligent Shell History Search with Neural Network"
-slug: "mcfly-intelligent-shell-history-search"
-verification: "security_reviewed"
-source: "https://github.com/cantino/mcfly"
+title: mcfly Intelligent Shell History Search with Neural Network
+slug: mcfly-intelligent-shell-history-search
+verification: security_reviewed
+source: https://github.com/cantino/mcfly
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "cantino/mcfly"
+  github_repo: cantino/mcfly
   github_stars: 7657
+  license: MIT
 ---
-
 # mcfly Intelligent Shell History Search with Neural Network
 
 mcfly is a Rust-based shell history search tool that uses a small neural network to prioritize commands based on context. It replaces Ctrl+R with an intelligent full-screen search interface that considers your current directory, recent commands, and command exit status.

@@ -1,14 +1,13 @@
 ---
-title: "Sentry Error Intelligence"
-slug: "sentry-error-intelligence"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
+title: Sentry Error Intelligence
+slug: sentry-error-intelligence
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/sentry-error-intelligence/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Sentry Error Intelligence
 
 Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration.

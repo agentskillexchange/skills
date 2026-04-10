@@ -1,14 +1,13 @@
 ---
-title: "Shodan Network Reconnaissance Agent"
-slug: "shodan-network-reconnaissance-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/"
+title: Shodan Network Reconnaissance Agent
+slug: shodan-network-reconnaissance-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Shodan Network Reconnaissance Agent
 
 Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories with risk scores for security teams.

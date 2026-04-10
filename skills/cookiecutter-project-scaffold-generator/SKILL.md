@@ -1,14 +1,13 @@
 ---
-title: "Cookiecutter Project Scaffold Generator"
-slug: "cookiecutter-project-scaffold-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/"
+title: Cookiecutter Project Scaffold Generator
+slug: cookiecutter-project-scaffold-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Cookiecutter Project Scaffold Generator
 
 Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.

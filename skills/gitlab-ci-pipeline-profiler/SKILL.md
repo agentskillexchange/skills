@@ -1,14 +1,13 @@
 ---
-title: "GitLab CI Pipeline Profiler"
-slug: "gitlab-ci-pipeline-profiler"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/"
+title: GitLab CI Pipeline Profiler
+slug: gitlab-ci-pipeline-profiler
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # GitLab CI Pipeline Profiler
 
 Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history.

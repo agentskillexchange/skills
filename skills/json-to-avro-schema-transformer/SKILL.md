@@ -1,14 +1,13 @@
 ---
-title: "JSON-to-Avro Schema Transformer"
-slug: "json-to-avro-schema-transformer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
+title: JSON-to-Avro Schema Transformer
+slug: json-to-avro-schema-transformer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/json-to-avro-schema-transformer/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # JSON-to-Avro Schema Transformer
 
 Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API.

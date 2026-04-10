@@ -1,17 +1,18 @@
 ---
-title: "Sentry for AI"
-slug: "sentry-for-ai"
-verification: "security_reviewed"
-source: "https://github.com/getsentry/sentry-for-ai"
+title: Sentry for AI
+slug: sentry-for-ai
+verification: security_reviewed
+source: https://github.com/getsentry/sentry-for-ai
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Claude Code"
+- Claude Code
+- Cursor
+- Custom Agents
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
+  github_repo: getsentry/sentry-for-ai
   github_stars: 105
 ---
-
 # Sentry for AI
 
 Observability and debugging support for AI-assisted application workflows.

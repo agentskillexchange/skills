@@ -1,14 +1,13 @@
 ---
-title: "Playwright Multi-Browser Test Suite"
-slug: "playwright-multi-browser-test-suite"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/"
+title: Playwright Multi-Browser Test Suite
+slug: playwright-multi-browser-test-suite
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/playwright-multi-browser-test-suite/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Playwright Multi-Browser Test Suite
 
 Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking.

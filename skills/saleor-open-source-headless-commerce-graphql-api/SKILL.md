@@ -1,14 +1,13 @@
 ---
-title: "Saleor Open Source Headless Commerce Platform with GraphQL API"
-slug: "saleor-open-source-headless-commerce-graphql-api"
-verification: "security_reviewed"
-source: "https://github.com/saleor/saleor"
+title: Saleor Open Source Headless Commerce Platform with GraphQL API
+slug: saleor-open-source-headless-commerce-graphql-api
+verification: security_reviewed
+source: https://github.com/saleor/saleor
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Saleor Open Source Headless Commerce Platform with GraphQL API
 
 Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API for building custom storefronts, managing products, processing orders, and orchestrating commerce across web, mobile, and agentic channels.

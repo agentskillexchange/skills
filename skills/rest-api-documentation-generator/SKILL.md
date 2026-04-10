@@ -1,14 +1,13 @@
 ---
-title: "REST API Documentation Generator"
-slug: "rest-api-documentation-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"
+title: REST API Documentation Generator
+slug: rest-api-documentation-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/rest-api-documentation-generator/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # REST API Documentation Generator
 
 Generates interactive API documentation from code annotations using swagger-jsdoc for Express.js routes and the Redoc (@redocly/cli) renderer. Supports OpenAPI 3.1 output with JSON Schema $ref resolution via @apidevtools/json-schema-ref-parser.

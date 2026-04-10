@@ -1,14 +1,13 @@
 ---
-title: "Surfer SEO SERP Analyzer"
-slug: "surfer-seo-serp-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
+title: Surfer SEO SERP Analyzer
+slug: surfer-seo-serp-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Surfer SEO SERP Analyzer
 
 Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure patterns, and NLP entity recommendations. Generates content briefs with target keyword clusters from Surfer Audit endpoints.

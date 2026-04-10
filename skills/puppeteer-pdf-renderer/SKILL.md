@@ -1,14 +1,13 @@
 ---
-title: "Puppeteer PDF Renderer"
-slug: "puppeteer-pdf-renderer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
+title: Puppeteer PDF Renderer
+slug: puppeteer-pdf-renderer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/puppeteer-pdf-renderer/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Puppeteer PDF Renderer
 
 Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.

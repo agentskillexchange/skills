@@ -1,14 +1,13 @@
 ---
-title: "Kubernetes Diagnostics Agent"
-slug: "kubernetes-diagnostics-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/"
+title: Kubernetes Diagnostics Agent
+slug: kubernetes-diagnostics-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Kubernetes Diagnostics Agent
 
 Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource pressure via the Metrics Server API and kube-state-metrics.

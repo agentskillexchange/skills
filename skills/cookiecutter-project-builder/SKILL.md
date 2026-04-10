@@ -1,14 +1,13 @@
 ---
-title: "Cookiecutter Project Builder"
-slug: "cookiecutter-project-builder"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
+title: Cookiecutter Project Builder
+slug: cookiecutter-project-builder
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cookiecutter-project-builder/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Cookiecutter Project Builder
 
 Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.

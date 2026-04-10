@@ -1,14 +1,13 @@
 ---
-title: "dbt Data Transformation Orchestrator"
-slug: "dbt-data-transformation-orchestrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
+title: dbt Data Transformation Orchestrator
+slug: dbt-data-transformation-orchestrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # dbt Data Transformation Orchestrator
 
 Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration.

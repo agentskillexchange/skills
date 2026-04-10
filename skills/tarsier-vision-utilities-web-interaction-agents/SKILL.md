@@ -1,14 +1,13 @@
 ---
-title: "Tarsier Vision Utilities for Web Interaction Agents"
-slug: "tarsier-vision-utilities-web-interaction-agents"
-verification: "security_reviewed"
-source: "https://github.com/reworkd/tarsier"
+title: Tarsier Vision Utilities for Web Interaction Agents
+slug: tarsier-vision-utilities-web-interaction-agents
+verification: security_reviewed
+source: https://github.com/reworkd/tarsier
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Tarsier Vision Utilities for Web Interaction Agents
 
 Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually tags interactable elements on web pages with bracketed IDs, enabling LLMs to take actions like CLICK [23], and includes an OCR algorithm that converts page screenshots into whitespace-structured text representations that even text-only LLMs can understand.

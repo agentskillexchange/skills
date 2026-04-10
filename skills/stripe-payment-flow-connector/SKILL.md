@@ -1,14 +1,13 @@
 ---
-title: "Stripe Payment Flow Connector"
-slug: "stripe-payment-flow-connector"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/stripe-payment-flow-connector/"
+title: Stripe Payment Flow Connector
+slug: stripe-payment-flow-connector
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/stripe-payment-flow-connector/
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Stripe Payment Flow Connector
 
 Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent.

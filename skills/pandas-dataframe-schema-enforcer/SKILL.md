@@ -1,14 +1,13 @@
 ---
-title: "Pandas DataFrame Schema Enforcer"
-slug: "pandas-dataframe-schema-enforcer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/"
+title: Pandas DataFrame Schema Enforcer
+slug: pandas-dataframe-schema-enforcer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Pandas DataFrame Schema Enforcer
 
 Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and custom check constraints. Auto-generates Pandera schema code from sample DataFrames.

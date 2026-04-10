@@ -1,14 +1,13 @@
 ---
-title: "Scrapy Spider Generator"
-slug: "scrapy-spider-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/scrapy-spider-generator/"
+title: Scrapy Spider Generator
+slug: scrapy-spider-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/scrapy-spider-generator/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Scrapy Spider Generator
 
 Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling.

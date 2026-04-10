@@ -1,14 +1,13 @@
 ---
-title: "Stripe API Reference Navigator"
-slug: "stripe-api-reference-navigator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/stripe-api-reference-navigator/"
+title: Stripe API Reference Navigator
+slug: stripe-api-reference-navigator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/stripe-api-reference-navigator/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Stripe API Reference Navigator
 
 Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation.

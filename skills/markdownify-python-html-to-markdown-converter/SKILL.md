@@ -1,17 +1,16 @@
 ---
-title: "markdownify Python HTML to Markdown Conversion Library"
-slug: "markdownify-python-html-to-markdown-converter"
-verification: "security_reviewed"
-source: "https://github.com/matthewwithanm/python-markdownify"
+title: markdownify Python HTML to Markdown Conversion Library
+slug: markdownify-python-html-to-markdown-converter
+verification: security_reviewed
+source: https://github.com/matthewwithanm/python-markdownify
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "matthewwithanm/python-markdownify"
+  github_repo: matthewwithanm/python-markdownify
   github_stars: 2134
 ---
-
 # markdownify Python HTML to Markdown Conversion Library
 
 markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines.

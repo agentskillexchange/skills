@@ -1,14 +1,13 @@
 ---
-title: "GraphQL Schema Documentation Builder"
-slug: "graphql-schema-documentation-builder"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
+title: GraphQL Schema Documentation Builder
+slug: graphql-schema-documentation-builder
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/graphql-schema-documentation-builder/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # GraphQL Schema Documentation Builder
 
 Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files.

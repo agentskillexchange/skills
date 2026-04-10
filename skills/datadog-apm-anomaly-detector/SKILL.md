@@ -1,14 +1,13 @@
 ---
-title: "Datadog APM Anomaly Detector"
-slug: "datadog-apm-anomaly-detector"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
+title: Datadog APM Anomaly Detector
+slug: datadog-apm-anomaly-detector
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Datadog APM Anomaly Detector
 
 Detects performance anomalies in Datadog APM traces using the Datadog API v2 metrics endpoint. Applies DBSCAN clustering on latency distributions to identify outlier service behaviors.

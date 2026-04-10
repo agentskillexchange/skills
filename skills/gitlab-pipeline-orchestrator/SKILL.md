@@ -1,14 +1,13 @@
 ---
-title: "GitLab Pipeline Orchestrator"
-slug: "gitlab-pipeline-orchestrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/"
+title: GitLab Pipeline Orchestrator
+slug: gitlab-pipeline-orchestrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # GitLab Pipeline Orchestrator
 
 Automates GitLab CI/CD pipeline creation using the GitLab Pipelines API and .gitlab-ci.yml DSL. Manages multi-stage builds with artifact caching via the GitLab Artifacts API and triggers downstream pipelines through bridge jobs.

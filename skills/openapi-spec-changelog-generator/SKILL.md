@@ -1,14 +1,13 @@
 ---
-title: "OpenAPI Spec Changelog Generator"
-slug: "openapi-spec-changelog-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/"
+title: OpenAPI Spec Changelog Generator
+slug: openapi-spec-changelog-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/openapi-spec-changelog-generator/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # OpenAPI Spec Changelog Generator
 
 Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints, and schema modifications. Outputs structured changelogs in Markdown or JSON.

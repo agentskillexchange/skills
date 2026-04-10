@@ -1,14 +1,13 @@
 ---
-title: "Prisma Schema Migrator"
-slug: "prisma-schema-migrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
+title: Prisma Schema Migrator
+slug: prisma-schema-migrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/prisma-schema-migrator/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Prisma Schema Migrator
 
 Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull.

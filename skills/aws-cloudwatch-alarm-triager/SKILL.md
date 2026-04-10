@@ -1,14 +1,13 @@
 ---
-title: "AWS CloudWatch Alarm Triager"
-slug: "aws-cloudwatch-alarm-triager"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/"
+title: AWS CloudWatch Alarm Triager
+slug: aws-cloudwatch-alarm-triager
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # AWS CloudWatch Alarm Triager
 
 Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts.

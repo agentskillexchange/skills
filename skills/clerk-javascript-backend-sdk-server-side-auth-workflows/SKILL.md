@@ -1,14 +1,13 @@
 ---
-title: "Clerk JavaScript Backend SDK for Server-Side Auth Workflows"
-slug: "clerk-javascript-backend-sdk-server-side-auth-workflows"
-verification: "security_reviewed"
-source: "https://github.com/clerk/javascript"
+title: Clerk JavaScript Backend SDK for Server-Side Auth Workflows
+slug: clerk-javascript-backend-sdk-server-side-auth-workflows
+verification: security_reviewed
+source: https://github.com/clerk/javascript
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows
 
 Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful for verifying sessions, fetching users, issuing invitations, and integrating Clerk into custom backend or edge workflows.

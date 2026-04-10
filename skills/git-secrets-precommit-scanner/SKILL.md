@@ -1,14 +1,13 @@
 ---
-title: "Git Secrets Pre-Commit Scanner"
-slug: "git-secrets-precommit-scanner"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
+title: Git Secrets Pre-Commit Scanner
+slug: git-secrets-precommit-scanner
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/git-secrets-precommit-scanner/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Git Secrets Pre-Commit Scanner
 
 Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking.

@@ -1,19 +1,18 @@
 ---
-title: "Plop.js Code Generator Orchestrator"
-slug: "plopjs-code-generator-orchestrator"
-verification: "security_reviewed"
-source: "https://github.com/plopjs/plop"
+title: Plop.js Code Generator Orchestrator
+slug: plopjs-code-generator-orchestrator
+verification: security_reviewed
+source: https://github.com/plopjs/plop
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "plopjs/plop"
+  github_repo: plopjs/plop
   github_stars: 7636
-  npm_package: "plop"
+  npm_package: plop
   npm_weekly_downloads: 1346790
 ---
-
 # Plop.js Code Generator Orchestrator
 
 Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts.

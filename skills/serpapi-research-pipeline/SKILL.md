@@ -1,14 +1,13 @@
 ---
-title: "SerpAPI Research Pipeline"
-slug: "serpapi-research-pipeline"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
+title: SerpAPI Research Pipeline
+slug: serpapi-research-pipeline
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/serpapi-research-pipeline/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Codex"
+- Codex
 ---
-
 # SerpAPI Research Pipeline
 
 Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in SQLite with full-text search.

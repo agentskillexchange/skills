@@ -1,17 +1,16 @@
 ---
-title: "Sentry Issue Spike Detection Agent"
-slug: "sentry-issue-spike-detection-agent"
-verification: "security_reviewed"
-source: "https://github.com/getsentry/sentry"
+title: Sentry Issue Spike Detection Agent
+slug: sentry-issue-spike-detection-agent
+verification: security_reviewed
+source: https://github.com/getsentry/sentry
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Claude Agents"
+- Claude Agents
 tool_ecosystem:
-  github_repo: "getsentry/sentry"
+  github_repo: getsentry/sentry
   github_stars: 43486
 ---
-
 # Sentry Issue Spike Detection Agent
 
 Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels.

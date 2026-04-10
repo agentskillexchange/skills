@@ -1,14 +1,13 @@
 ---
-title: "Cookiecutter Project Scaffolder"
-slug: "cookiecutter-project-scaffolder-3"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/"
+title: Cookiecutter Project Scaffolder
+slug: cookiecutter-project-scaffolder-3
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Cookiecutter Project Scaffolder
 
 Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation with JSON Schema.

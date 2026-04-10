@@ -1,17 +1,16 @@
 ---
-title: "Katana Next-Generation Web Crawling and Spidering Framework"
-slug: "katana-web-crawling-spidering-framework"
-verification: "security_reviewed"
-source: "https://github.com/projectdiscovery/katana"
+title: Katana Next-Generation Web Crawling and Spidering Framework
+slug: katana-web-crawling-spidering-framework
+verification: security_reviewed
+source: https://github.com/projectdiscovery/katana
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "projectdiscovery/katana"
+  github_repo: projectdiscovery/katana
   github_stars: 16388
 ---
-
 # Katana Next-Generation Web Crawling and Spidering Framework
 
 Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports standard and headless browser modes, JavaScript parsing, automatic form filling, and structured output for feeding into security and data pipelines.

@@ -1,17 +1,17 @@
 ---
-title: "Liquidsoap Audio and Video Streaming Language"
-slug: "liquidsoap-audio-video-streaming-language"
-verification: "security_reviewed"
-source: "https://github.com/savonet/liquidsoap"
+title: Liquidsoap Audio and Video Streaming Language
+slug: liquidsoap-audio-video-streaming-language
+verification: security_reviewed
+source: https://github.com/savonet/liquidsoap
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "savonet/liquidsoap"
+  github_repo: savonet/liquidsoap
   github_stars: 1638
+  license: GPL-2.0
 ---
-
 # Liquidsoap Audio and Video Streaming Language
 
 Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model.

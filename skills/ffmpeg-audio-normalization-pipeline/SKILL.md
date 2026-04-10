@@ -1,14 +1,13 @@
 ---
-title: "FFmpeg Audio Normalization Pipeline"
-slug: "ffmpeg-audio-normalization-pipeline"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/"
+title: FFmpeg Audio Normalization Pipeline
+slug: ffmpeg-audio-normalization-pipeline
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # FFmpeg Audio Normalization Pipeline
 
 Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis. Measures integrated LUFS, true peak, and loudness range via ffmpeg -af loudnorm=print_format=json.

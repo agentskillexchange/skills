@@ -1,19 +1,19 @@
 ---
-title: "Crawlee Web Crawling and Browser Automation Library"
-slug: "crawlee-web-crawling-browser-automation-library"
-verification: "security_reviewed"
-source: "https://github.com/apify/crawlee"
+title: Crawlee Web Crawling and Browser Automation Library
+slug: crawlee-web-crawling-browser-automation-library
+verification: security_reviewed
+source: https://github.com/apify/crawlee
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "apify/crawlee"
+  github_repo: apify/crawlee
   github_stars: 22591
-  npm_package: "crawlee"
+  npm_package: crawlee
   npm_weekly_downloads: 74337
+  license: Apache-2.0
 ---
-
 # Crawlee Web Crawling and Browser Automation Library
 
 Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library. Useful for request queue management, Playwright or Puppeteer crawling, structured dataset export, and resilient scraping across large sets of pages.

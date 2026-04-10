@@ -1,17 +1,16 @@
 ---
-title: "sqruff High-Performance SQL Linter and Formatter"
-slug: "sqruff-sql-linter-formatter"
-verification: "security_reviewed"
-source: "https://github.com/quarylabs/sqruff"
+title: sqruff High-Performance SQL Linter and Formatter
+slug: sqruff-sql-linter-formatter
+verification: security_reviewed
+source: https://github.com/quarylabs/sqruff
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "quarylabs/sqruff"
+  github_repo: quarylabs/sqruff
   github_stars: 1268
 ---
-
 # sqruff High-Performance SQL Linter and Formatter
 
 A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and automated formatting with significantly faster execution than Python-based alternatives, plus a browser playground for quick experimentation.

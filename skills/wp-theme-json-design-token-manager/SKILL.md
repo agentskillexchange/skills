@@ -1,14 +1,13 @@
 ---
-title: "WordPress Theme.json Design Token Manager"
-slug: "wp-theme-json-design-token-manager"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/"
+title: WordPress Theme.json Design Token Manager
+slug: wp-theme-json-design-token-manager
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # WordPress Theme.json Design Token Manager
 
 Manages WordPress theme.json design tokens including color palettes, typography presets, and spacing scales. Uses the WP_Theme_JSON_Resolver class and wp_get_global_settings() for dynamic token resolution.

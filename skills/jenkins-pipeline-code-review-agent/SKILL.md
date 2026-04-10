@@ -1,14 +1,13 @@
 ---
-title: "Jenkins Pipeline Code Review Agent"
-slug: "jenkins-pipeline-code-review-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
+title: Jenkins Pipeline Code Review Agent
+slug: jenkins-pipeline-code-review-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Jenkins Pipeline Code Review Agent
 
 Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules.

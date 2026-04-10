@@ -1,14 +1,13 @@
 ---
-title: "FFmpeg Thumbnail Grid Generator"
-slug: "ffmpeg-thumbnail-grid-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/"
+title: FFmpeg Thumbnail Grid Generator
+slug: ffmpeg-thumbnail-grid-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # FFmpeg Thumbnail Grid Generator
 
 Generates contact-sheet-style thumbnail grids from video files using FFmpeg tile filter and libvips. Supports customizable grid dimensions, timestamp overlays, and batch processing across directories.

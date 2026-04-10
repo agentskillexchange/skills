@@ -1,14 +1,13 @@
 ---
-title: "Pylint Baseline Manager"
-slug: "pylint-baseline-manager-wave48"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/"
+title: Pylint Baseline Manager
+slug: pylint-baseline-manager-wave48
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Pylint Baseline Manager
 
 Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.

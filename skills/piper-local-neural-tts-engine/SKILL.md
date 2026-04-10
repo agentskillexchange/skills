@@ -1,17 +1,17 @@
 ---
-title: "Piper Local Neural Text-to-Speech Engine"
-slug: "piper-local-neural-tts-engine"
-verification: "security_reviewed"
-source: "https://github.com/rhasspy/piper"
+title: Piper Local Neural Text-to-Speech Engine
+slug: piper-local-neural-tts-engine
+verification: security_reviewed
+source: https://github.com/rhasspy/piper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "rhasspy/piper"
+  github_repo: rhasspy/piper
   github_stars: 10741
+  license: MIT
 ---
-
 # Piper Local Neural Text-to-Speech Engine
 
 Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi.

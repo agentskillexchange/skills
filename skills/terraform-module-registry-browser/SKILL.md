@@ -1,14 +1,13 @@
 ---
-title: "Terraform Module Registry Browser"
-slug: "terraform-module-registry-browser"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
+title: Terraform Module Registry Browser
+slug: terraform-module-registry-browser
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/terraform-module-registry-browser/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Terraform Module Registry Browser
 
 Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider requirements.

@@ -1,14 +1,13 @@
 ---
-title: "Selenium Grid Parallel Executor"
-slug: "selenium-grid-parallel-executor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
+title: Selenium Grid Parallel Executor
+slug: selenium-grid-parallel-executor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/selenium-grid-parallel-executor/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Selenium Grid Parallel Executor
 
 Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports.

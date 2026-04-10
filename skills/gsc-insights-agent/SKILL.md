@@ -1,14 +1,13 @@
 ---
-title: "Google Search Console Insights Agent"
-slug: "gsc-insights-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
+title: Google Search Console Insights Agent
+slug: gsc-insights-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/gsc-insights-agent/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Google Search Console Insights Agent
 
 Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country.

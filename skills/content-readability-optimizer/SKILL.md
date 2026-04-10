@@ -1,14 +1,13 @@
 ---
-title: "Content Readability Optimizer"
-slug: "content-readability-optimizer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/content-readability-optimizer/"
+title: Content Readability Optimizer
+slug: content-readability-optimizer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/content-readability-optimizer/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Content Readability Optimizer
 
 Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions.

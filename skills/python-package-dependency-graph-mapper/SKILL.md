@@ -1,14 +1,13 @@
 ---
-title: "Python Package Dependency Graph Mapper"
-slug: "python-package-dependency-graph-mapper"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
+title: Python Package Dependency Graph Mapper
+slug: python-package-dependency-graph-mapper
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Python Package Dependency Graph Mapper
 
 Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive dependency chains and identifies version conflict risks.

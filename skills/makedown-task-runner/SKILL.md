@@ -1,14 +1,13 @@
 ---
-title: "Makedown Task Runner"
-slug: "makedown-task-runner"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/makedown-task-runner/"
+title: Makedown Task Runner
+slug: makedown-task-runner
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/makedown-task-runner/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Makedown Task Runner
 
 Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks.

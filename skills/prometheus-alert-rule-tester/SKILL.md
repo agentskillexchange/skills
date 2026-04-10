@@ -1,14 +1,13 @@
 ---
-title: "Prometheus Alert Rule Tester"
-slug: "prometheus-alert-rule-tester"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
+title: Prometheus Alert Rule Tester
+slug: prometheus-alert-rule-tester
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/prometheus-alert-rule-tester/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Prometheus Alert Rule Tester
 
 Tests Prometheus alerting rules against historical metrics using promtool and the Prometheus HTTP API query_range endpoint. Validates PromQL expressions, simulates alert firing, and checks routing configurations.

@@ -1,17 +1,17 @@
 ---
-title: "Pedalboard Python Audio Effects Library by Spotify"
-slug: "pedalboard-spotify-audio-effects-python"
-verification: "security_reviewed"
-source: "https://github.com/spotify/pedalboard"
+title: Pedalboard Python Audio Effects Library by Spotify
+slug: pedalboard-spotify-audio-effects-python
+verification: security_reviewed
+source: https://github.com/spotify/pedalboard
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "spotify/pedalboard"
+  github_repo: spotify/pedalboard
   github_stars: 6041
+  license: GPL-3.0
 ---
-
 # Pedalboard Python Audio Effects Library by Spotify
 
 Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance.

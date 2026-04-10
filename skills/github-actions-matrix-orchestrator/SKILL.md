@@ -1,14 +1,13 @@
 ---
-title: "GitHub Actions Matrix Orchestrator"
-slug: "github-actions-matrix-orchestrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/"
+title: GitHub Actions Matrix Orchestrator
+slug: github-actions-matrix-orchestrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # GitHub Actions Matrix Orchestrator
 
 Dynamically generates GitHub Actions matrix strategies using the GitHub REST API and workflow dispatch events. Supports conditional job inclusion via the actions/github-script action and OIDC token federation for cross-account AWS deployments.

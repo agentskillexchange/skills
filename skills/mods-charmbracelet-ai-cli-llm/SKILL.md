@@ -1,17 +1,16 @@
 ---
-title: "Mods AI-Powered Command-Line LLM Interface by Charmbracelet"
-slug: "mods-charmbracelet-ai-cli-llm"
-verification: "security_reviewed"
-source: "https://github.com/charmbracelet/mods"
+title: Mods AI-Powered Command-Line LLM Interface by Charmbracelet
+slug: mods-charmbracelet-ai-cli-llm
+verification: security_reviewed
+source: https://github.com/charmbracelet/mods
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "charmbracelet/mods"
+  github_repo: charmbracelet/mods
   github_stars: 4517
 ---
-
 # Mods AI-Powered Command-Line LLM Interface by Charmbracelet
 
 Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text processing, code review, commit message generation, and data transformation from the terminal with support for OpenAI, Anthropic, and local models.

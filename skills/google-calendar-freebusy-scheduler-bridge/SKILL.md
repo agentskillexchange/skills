@@ -1,14 +1,13 @@
 ---
-title: "Google Calendar FreeBusy Scheduler Bridge"
-slug: "google-calendar-freebusy-scheduler-bridge"
-verification: "security_reviewed"
-source: "https://developers.google.com/calendar/api"
+title: Google Calendar FreeBusy Scheduler Bridge
+slug: google-calendar-freebusy-scheduler-bridge
+verification: security_reviewed
+source: https://developers.google.com/calendar/api
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Google Calendar FreeBusy Scheduler Bridge
 
 Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events.

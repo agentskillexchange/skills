@@ -1,14 +1,13 @@
 ---
-title: "Semgrep Security Scanner"
-slug: "semgrep-security-scanner-2"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/semgrep-security-scanner-2/"
+title: Semgrep Security Scanner
+slug: semgrep-security-scanner-2
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/semgrep-security-scanner-2/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Semgrep Security Scanner
 
 Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration.

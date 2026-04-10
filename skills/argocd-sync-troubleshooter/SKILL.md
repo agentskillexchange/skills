@@ -1,14 +1,13 @@
 ---
-title: "ArgoCD Sync Troubleshooter"
-slug: "argocd-sync-troubleshooter"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/argocd-sync-troubleshooter/"
+title: ArgoCD Sync Troubleshooter
+slug: argocd-sync-troubleshooter
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/argocd-sync-troubleshooter/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # ArgoCD Sync Troubleshooter
 
 Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures.

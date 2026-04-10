@@ -1,14 +1,13 @@
 ---
-title: "PostgreSQL Diagnostic Runbook"
-slug: "postgresql-diagnostic-runbook"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/"
+title: PostgreSQL Diagnostic Runbook
+slug: postgresql-diagnostic-runbook
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # PostgreSQL Diagnostic Runbook
 
 Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer. Identifies slow queries, lock contention, and bloat via pgstattuple extension.

@@ -1,14 +1,19 @@
 ---
-title: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
-slug: "seleniumbase-python-browser-automation-stealth-testing-framework"
-verification: "security_reviewed"
-source: "https://github.com/seleniumbase/SeleniumBase"
+title: SeleniumBase Python Browser Automation and Stealth Testing Framework
+slug: seleniumbase-python-browser-automation-stealth-testing-framework
+verification: security_reviewed
+source: https://github.com/seleniumbase/SeleniumBase
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  github_repo: seleniumbase/seleniumbase
+  github_stars: 12560
+  npm_package: seleniumbase
+  npm_weekly_downloads: 18
+  license: MIT
 ---
-
 # SeleniumBase Python Browser Automation and Stealth Testing Framework
 
 SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware CDP and UC modes on top of Selenium workflows.

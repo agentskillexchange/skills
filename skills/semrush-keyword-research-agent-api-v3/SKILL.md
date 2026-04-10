@@ -1,14 +1,13 @@
 ---
-title: "SEMrush Keyword Research Agent"
-slug: "semrush-keyword-research-agent-api-v3"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
+title: SEMrush Keyword Research Agent
+slug: semrush-keyword-research-agent-api-v3
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # SEMrush Keyword Research Agent
 
 Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature detection. Integrates with Google Search Console API for click-through rate analysis and content gap identification.

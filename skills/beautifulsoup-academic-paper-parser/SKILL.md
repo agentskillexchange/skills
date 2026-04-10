@@ -1,14 +1,13 @@
 ---
-title: "Beautiful Soup Academic Paper Parser"
-slug: "beautifulsoup-academic-paper-parser"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/"
+title: Beautiful Soup Academic Paper Parser
+slug: beautifulsoup-academic-paper-parser
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Beautiful Soup Academic Paper Parser
 
 Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML.

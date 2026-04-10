@@ -1,14 +1,13 @@
 ---
-title: "SonarQube Analysis Agent"
-slug: "sonarqube-analysis-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
+title: SonarQube Analysis Agent
+slug: sonarqube-analysis-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/sonarqube-analysis-agent/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # SonarQube Analysis Agent
 
 Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication.

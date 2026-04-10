@@ -1,14 +1,13 @@
 ---
-title: "Jenkins Pipeline Linter Pro"
-slug: "jenkins-pipeline-linter-pro"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/"
+title: Jenkins Pipeline Linter Pro
+slug: jenkins-pipeline-linter-pro
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Jenkins Pipeline Linter Pro
 
 Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks.

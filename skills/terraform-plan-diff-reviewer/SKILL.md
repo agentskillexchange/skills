@@ -1,14 +1,13 @@
 ---
-title: "Terraform Plan Diff Reviewer"
-slug: "terraform-plan-diff-reviewer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/"
+title: Terraform Plan Diff Reviewer
+slug: terraform-plan-diff-reviewer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Terraform Plan Diff Reviewer
 
 Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison.

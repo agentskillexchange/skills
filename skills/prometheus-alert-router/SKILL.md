@@ -1,14 +1,13 @@
 ---
-title: "Prometheus Alert Router"
-slug: "prometheus-alert-router"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/prometheus-alert-router/"
+title: Prometheus Alert Router
+slug: prometheus-alert-router
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/prometheus-alert-router/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Prometheus Alert Router
 
 Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with PagerDuty, Opsgenie, and Slack webhook APIs for multi-channel incident routing.

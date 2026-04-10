@@ -1,14 +1,13 @@
 ---
-title: "faster-whisper High-Performance Speech Transcription Library"
-slug: "faster-whisper-high-performance-speech-transcription-library"
-verification: "security_reviewed"
-source: "https://github.com/SYSTRAN/faster-whisper"
+title: faster-whisper High-Performance Speech Transcription Library
+slug: faster-whisper-high-performance-speech-transcription-library
+verification: security_reviewed
+source: https://github.com/SYSTRAN/faster-whisper
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # faster-whisper High-Performance Speech Transcription Library
 
 faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows.

@@ -1,14 +1,13 @@
 ---
-title: "Dolby.io Media Enhancer"
-slug: "dolby-io-media-enhancer-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
+title: Dolby.io Media Enhancer
+slug: dolby-io-media-enhancer-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Dolby.io Media Enhancer
 
 Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint.

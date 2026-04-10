@@ -1,14 +1,13 @@
 ---
-title: "Schema.org Structured Data Injector"
-slug: "schema-org-structured-data-injector"
-verification: "security_reviewed"
-source: "https://schema.org/"
+title: Schema.org Structured Data Injector
+slug: schema-org-structured-data-injector
+verification: security_reviewed
+source: https://schema.org/
 category:
-  - "Content Writing & SEO"
+- Content Writing & SEO
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Schema.org Structured Data Injector
 
 Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google’s Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator.

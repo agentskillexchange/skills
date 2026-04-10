@@ -1,14 +1,13 @@
 ---
-title: "Cosign Artifact Signature Verifier"
-slug: "cosign-artifact-signature-verifier"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
+title: Cosign Artifact Signature Verifier
+slug: cosign-artifact-signature-verifier
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Cosign Artifact Signature Verifier
 
 Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego.

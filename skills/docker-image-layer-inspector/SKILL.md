@@ -1,14 +1,13 @@
 ---
-title: "Docker Image Layer Inspector"
-slug: "docker-image-layer-inspector"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/docker-image-layer-inspector/"
+title: Docker Image Layer Inspector
+slug: docker-image-layer-inspector
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/docker-image-layer-inspector/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Docker Image Layer Inspector
 
 Analyzes Docker image layers using the Docker Registry HTTP API v2 and Dive CLI. Identifies wasted space, duplicate files, and optimizes Dockerfile instructions for smaller builds.

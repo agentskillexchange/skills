@@ -1,14 +1,13 @@
 ---
-title: "CircleCI Workflow Cost Auditor"
-slug: "circleci-workflow-cost-auditor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/"
+title: CircleCI Workflow Cost Auditor
+slug: circleci-workflow-cost-auditor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # CircleCI Workflow Cost Auditor
 
 Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using historical CPU/memory utilization from the pipeline telemetry endpoint. Produces a cost breakdown by project, branch, and executor type.

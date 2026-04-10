@@ -1,14 +1,13 @@
 ---
-title: "Salesforce CRM Sync Agent"
-slug: "salesforce-crm-sync-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/salesforce-crm-sync-agent/"
+title: Salesforce CRM Sync Agent
+slug: salesforce-crm-sync-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/salesforce-crm-sync-agent/
 category:
-  - "Integrations & Connectors"
+- Integrations & Connectors
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Salesforce CRM Sync Agent
 
 Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via connection.query(), bulk upserts through connection.sobject().upsertBulk(), and subscribes to Platform Events using connection.streaming.topic() for real-time data sync.

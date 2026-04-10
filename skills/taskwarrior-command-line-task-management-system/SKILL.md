@@ -1,14 +1,17 @@
 ---
-title: "Taskwarrior Command-Line Task Management System"
-slug: "taskwarrior-command-line-task-management-system"
-verification: "security_reviewed"
-source: "https://github.com/GothenburgBitFactory/taskwarrior"
+title: Taskwarrior Command-Line Task Management System
+slug: taskwarrior-command-line-task-management-system
+verification: security_reviewed
+source: https://github.com/GothenburgBitFactory/taskwarrior
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  github_repo: gothenburgbitfactory/taskwarrior
+  github_stars: 5685
+  license: MIT
 ---
-
 # Taskwarrior Command-Line Task Management System
 
 Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions, and TUI clients.

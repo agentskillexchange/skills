@@ -1,14 +1,13 @@
 ---
-title: "Selenium Grid Session Router"
-slug: "selenium-grid-session-router"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
+title: Selenium Grid Session Router
+slug: selenium-grid-session-router
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/selenium-grid-session-router/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Selenium Grid Session Router
 
 Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures RemoteWebDriver with DesiredCapabilities for cross-browser parallel execution.

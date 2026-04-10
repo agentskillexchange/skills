@@ -1,14 +1,13 @@
 ---
-title: "PuppeteerSharp Web Scraping Pipeline"
-slug: "puppeteersharp-web-scraping-pipeline"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
+title: PuppeteerSharp Web Scraping Pipeline
+slug: puppeteersharp-web-scraping-pipeline
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # PuppeteerSharp Web Scraping Pipeline
 
 Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization.

@@ -1,14 +1,13 @@
 ---
-title: "AWS CloudWatch Alarm Runbook"
-slug: "aws-cloudwatch-alarm-runbook-wave48"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/"
+title: AWS CloudWatch Alarm Runbook
+slug: aws-cloudwatch-alarm-runbook-wave48
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # AWS CloudWatch Alarm Runbook
 
 Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm states to diagnostic procedures and remediation actions.

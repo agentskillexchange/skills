@@ -1,17 +1,16 @@
 ---
-title: "Orama Embeddable Search Engine and RAG Pipeline for JavaScript"
-slug: "orama-embeddable-search-engine-rag-pipeline"
-verification: "security_reviewed"
-source: "https://github.com/oramasearch/orama"
+title: Orama Embeddable Search Engine and RAG Pipeline for JavaScript
+slug: orama-embeddable-search-engine-rag-pipeline
+verification: security_reviewed
+source: https://github.com/oramasearch/orama
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "oramasearch/orama"
+  github_repo: oramasearch/orama
   github_stars: 10286
 ---
-
 # Orama Embeddable Search Engine and RAG Pipeline for JavaScript
 
 Orama is a full-text, vector, and hybrid search engine that runs in the browser, on a server, or at the edge in under 2KB. It provides built-in RAG pipeline support, typo tolerance, faceted search, and language-agnostic stemming — all without external dependencies.

@@ -1,14 +1,13 @@
 ---
-title: "OWASP ZAP Automated Scan Orchestrator"
-slug: "owasp-zap-automated-scan-orchestrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
+title: OWASP ZAP Automated Scan Orchestrator
+slug: owasp-zap-automated-scan-orchestrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # OWASP ZAP Automated Scan Orchestrator
 
 Runs OWASP ZAP active and passive scans against target URLs using the ZAP Docker API. Parses JSON reports to flag XSS, SQLi, and CSRF vulnerabilities with severity scoring.

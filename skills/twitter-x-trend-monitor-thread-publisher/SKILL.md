@@ -1,14 +1,13 @@
 ---
-title: "Twitter/X Trend Monitor & Thread Publisher"
-slug: "twitter-x-trend-monitor-thread-publisher"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/"
+title: Twitter/X Trend Monitor & Thread Publisher
+slug: twitter-x-trend-monitor-thread-publisher
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/
 category:
-  - "Templates & Workflows"
+- Templates & Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Twitter/X Trend Monitor & Thread Publisher
 
 Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits.

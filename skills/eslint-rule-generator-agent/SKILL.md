@@ -1,14 +1,13 @@
 ---
-title: "ESLint Rule Generator Agent"
-slug: "eslint-rule-generator-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/eslint-rule-generator-agent/"
+title: ESLint Rule Generator Agent
+slug: eslint-rule-generator-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/eslint-rule-generator-agent/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ESLint Rule Generator Agent
 
 Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors. Integrates with typescript-eslint parser for TypeScript-aware linting.

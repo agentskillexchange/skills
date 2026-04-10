@@ -1,14 +1,13 @@
 ---
-title: "Semgrep Custom Pattern Library"
-slug: "semgrep-custom-pattern-library"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
+title: Semgrep Custom Pattern Library
+slug: semgrep-custom-pattern-library
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/semgrep-custom-pattern-library/
 category:
-  - "Code Quality & Review"
+- Code Quality & Review
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Semgrep Custom Pattern Library
 
 Builds custom Semgrep rules using the semgrep YAML rule syntax with metavariable-pattern, pattern-either, and taint-mode analysis. Generates rule packs for OWASP Top 10 detection across Python, JavaScript, and Go codebases.

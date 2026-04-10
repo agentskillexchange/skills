@@ -1,14 +1,13 @@
 ---
-title: "Python Dependency Graph Resolver"
-slug: "python-dependency-graph-resolver"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
+title: Python Dependency Graph Resolver
+slug: python-dependency-graph-resolver
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/python-dependency-graph-resolver/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Python Dependency Graph Resolver
 
 Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies.

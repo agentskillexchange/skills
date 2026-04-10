@@ -1,14 +1,17 @@
 ---
-title: "ElasticPress WordPress Elasticsearch Integration Plugin by 10up"
-slug: "elasticpress-wordpress-elasticsearch-integration-10up"
-verification: "security_reviewed"
-source: "https://github.com/10up/ElasticPress"
+title: ElasticPress WordPress Elasticsearch Integration Plugin by 10up
+slug: elasticpress-wordpress-elasticsearch-integration-10up
+verification: security_reviewed
+source: https://github.com/10up/ElasticPress
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  github_repo: 10up/elasticpress
+  github_stars: 1297
+  license: GPL-2.0
 ---
-
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up
 
 ElasticPress supercharges WordPress search and queries by integrating Elasticsearch, enabling fast content relevancy analysis, faceted search, WooCommerce product filtering, and autosuggest across large content libraries.

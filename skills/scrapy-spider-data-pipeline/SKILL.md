@@ -1,14 +1,13 @@
 ---
-title: "Scrapy Spider Data Pipeline"
-slug: "scrapy-spider-data-pipeline"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
+title: Scrapy Spider Data Pipeline
+slug: scrapy-spider-data-pipeline
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Scrapy Spider Data Pipeline
 
 Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch.

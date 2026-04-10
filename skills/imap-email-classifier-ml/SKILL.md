@@ -1,14 +1,13 @@
 ---
-title: "IMAP Email Classifier"
-slug: "imap-email-classifier-ml"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/imap-email-classifier-ml/"
+title: IMAP Email Classifier
+slug: imap-email-classifier-ml
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/imap-email-classifier-ml/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # IMAP Email Classifier
 
 Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction.

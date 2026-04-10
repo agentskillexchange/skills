@@ -1,14 +1,13 @@
 ---
-title: "WP Abilities API"
-slug: "wp-abilities-api"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/wp-abilities-api/"
+title: WP Abilities API
+slug: wp-abilities-api
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/wp-abilities-api/
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # WP Abilities API
 
 Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API.

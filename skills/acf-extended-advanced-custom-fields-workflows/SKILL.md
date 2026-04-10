@@ -1,14 +1,13 @@
 ---
-title: "ACF Extended for Advanced Custom Fields Workflows"
-slug: "acf-extended-advanced-custom-fields-workflows"
-verification: "listed"
-source: "https://github.com/acf-extended/ACF-Extended"
+title: ACF Extended for Advanced Custom Fields Workflows
+slug: acf-extended-advanced-custom-fields-workflows
+verification: listed
+source: https://github.com/acf-extended/ACF-Extended
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # ACF Extended for Advanced Custom Fields Workflows
 
 An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options pages, and developer tooling. It is a practical fit for agents working inside complex WordPress content models and custom field workflows.

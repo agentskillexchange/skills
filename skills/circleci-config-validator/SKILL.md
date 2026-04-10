@@ -1,14 +1,13 @@
 ---
-title: "CircleCI Config Validator"
-slug: "circleci-config-validator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/circleci-config-validator/"
+title: CircleCI Config Validator
+slug: circleci-config-validator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/circleci-config-validator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # CircleCI Config Validator
 
 Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class allocation.

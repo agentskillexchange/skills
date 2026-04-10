@@ -1,14 +1,13 @@
 ---
-title: "NPM Package Changelog Analyzer"
-slug: "npm-package-changelog-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
+title: NPM Package Changelog Analyzer
+slug: npm-package-changelog-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/npm-package-changelog-analyzer/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # NPM Package Changelog Analyzer
 
 Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects breaking changes, security patches, and dependency conflicts across package upgrade paths.

@@ -1,14 +1,13 @@
 ---
-title: "Slack Workflow Builder Agent"
-slug: "slack-workflow-builder-agent"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
+title: Slack Workflow Builder Agent
+slug: slack-workflow-builder-agent
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/slack-workflow-builder-agent/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email & Productivity
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Slack Workflow Builder Agent
 
 Creates and manages Slack workflows using @slack/bolt and @slack/web-api. Builds interactive modals with Block Kit, handles slash commands, and orchestrates multi-step approval flows via Slack Events API.

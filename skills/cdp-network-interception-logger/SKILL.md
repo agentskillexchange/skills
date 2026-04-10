@@ -1,14 +1,13 @@
 ---
-title: "CDP Network Interception Logger"
-slug: "cdp-network-interception-logger"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
+title: CDP Network Interception Logger
+slug: cdp-network-interception-logger
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cdp-network-interception-logger/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
 ---
-
 # CDP Network Interception Logger
 
 Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify HTTP traffic during browser automation. Exports HAR files compatible with Charles Proxy and supports request/response body modification.

@@ -1,14 +1,13 @@
 ---
-title: "Cloudinary DAM Pipeline"
-slug: "cloudinary-dam-pipeline-skill"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
+title: Cloudinary DAM Pipeline
+slug: cloudinary-dam-pipeline-skill
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/
 category:
-  - "Image & Creative Automation"
+- Image & Creative Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Cloudinary DAM Pipeline
 
 Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation.

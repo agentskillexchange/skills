@@ -1,14 +1,13 @@
 ---
-title: "Bazel Build Graph Analyzer"
-slug: "bazel-build-graph-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
+title: Bazel Build Graph Analyzer
+slug: bazel-build-graph-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/bazel-build-graph-analyzer/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Bazel Build Graph Analyzer
 
 Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query Language (BQL), Action Graph API, and Build Event Protocol (BEP) for deep build analysis.

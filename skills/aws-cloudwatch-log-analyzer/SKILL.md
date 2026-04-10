@@ -1,14 +1,13 @@
 ---
-title: "AWS CloudWatch Log Analyzer"
-slug: "aws-cloudwatch-log-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/"
+title: AWS CloudWatch Log Analyzer
+slug: aws-cloudwatch-log-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # AWS CloudWatch Log Analyzer
 
 Analyzes AWS CloudWatch Logs using the CloudWatch Logs API and Logs Insights query syntax. Identifies error patterns, calculates error rates, and generates metric filters from log data.

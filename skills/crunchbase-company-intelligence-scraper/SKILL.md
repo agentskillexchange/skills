@@ -1,14 +1,13 @@
 ---
-title: "Crunchbase Company Intelligence Scraper"
-slug: "crunchbase-company-intelligence-scraper"
-verification: "security_reviewed"
-source: "https://data.crunchbase.com/docs"
+title: Crunchbase Company Intelligence Scraper
+slug: crunchbase-company-intelligence-scraper
+verification: security_reviewed
+source: https://data.crunchbase.com/docs
 category:
-  - "Research & Scraping"
+- Research & Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Crunchbase Company Intelligence Scraper
 
 Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations.

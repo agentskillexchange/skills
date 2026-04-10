@@ -1,14 +1,13 @@
 ---
-title: "CircleCI Orb Linter"
-slug: "circleci-orb-linter"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/circleci-orb-linter/"
+title: CircleCI Orb Linter
+slug: circleci-orb-linter
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/circleci-orb-linter/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # CircleCI Orb Linter
 
 Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images, inefficient caching strategies, and security anti-patterns.

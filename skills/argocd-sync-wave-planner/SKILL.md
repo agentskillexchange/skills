@@ -1,14 +1,13 @@
 ---
-title: "ArgoCD Sync Wave Planner"
-slug: "argocd-sync-wave-planner"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
+title: ArgoCD Sync Wave Planner
+slug: argocd-sync-wave-planner
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/argocd-sync-wave-planner/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Codex"
+- Codex
 ---
-
 # ArgoCD Sync Wave Planner
 
 Manages ArgoCD Application sync waves and hooks through the ArgoCD REST API and Kubernetes custom resources. Uses kubectl diff and Helm template rendering to validate manifests before triggering progressive rollouts via Argo Rollouts.

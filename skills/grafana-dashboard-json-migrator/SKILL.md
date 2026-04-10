@@ -1,14 +1,13 @@
 ---
-title: "Grafana Dashboard JSON Migrator"
-slug: "grafana-dashboard-json-migrator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
+title: Grafana Dashboard JSON Migrator
+slug: grafana-dashboard-json-migrator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Grafana Dashboard JSON Migrator
 
 Migrates Grafana dashboards between instances using the Grafana HTTP API. Transforms datasource UIDs, folder structures, and alert rule references for cross-environment promotion.

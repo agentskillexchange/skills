@@ -1,17 +1,16 @@
 ---
-title: "Checkly Browser Check Failure Notifier"
-slug: "checkly-browser-check-failure-notifier"
-verification: "security_reviewed"
-source: "https://github.com/checkly/checkly-cli"
+title: Checkly Browser Check Failure Notifier
+slug: checkly-browser-check-failure-notifier
+verification: security_reviewed
+source: https://github.com/checkly/checkly-cli
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "checkly/checkly-cli"
+  github_repo: checkly/checkly-cli
   github_stars: 92
 ---
-
 # Checkly Browser Check Failure Notifier
 
 Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures. Extracts failure screenshots, trace URLs, and degraded check results.

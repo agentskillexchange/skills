@@ -1,14 +1,13 @@
 ---
-title: "Dokploy Self-Hosted Application Deployment Platform"
-slug: "dokploy-self-hosted-application-deployment-platform"
-verification: "listed"
-source: "https://github.com/Dokploy/dokploy"
+title: Dokploy Self-Hosted Application Deployment Platform
+slug: dokploy-self-hosted-application-deployment-platform
+verification: listed
+source: https://github.com/Dokploy/dokploy
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Dokploy Self-Hosted Application Deployment Platform
 
 Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify. This skill is useful when agents need to stand up services, manage compose stacks, provision databases, and reason about Traefik-backed deployment workflows from real Dokploy docs and project conventions.

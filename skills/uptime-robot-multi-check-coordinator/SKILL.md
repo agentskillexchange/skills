@@ -1,14 +1,13 @@
 ---
-title: "Uptime Robot Multi-Check Coordinator"
-slug: "uptime-robot-multi-check-coordinator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
+title: Uptime Robot Multi-Check Coordinator
+slug: uptime-robot-multi-check-coordinator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Uptime Robot Multi-Check Coordinator
 
 Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization.

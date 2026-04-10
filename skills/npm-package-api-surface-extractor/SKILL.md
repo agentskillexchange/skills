@@ -1,14 +1,13 @@
 ---
-title: "NPM Package API Surface Extractor"
-slug: "npm-package-api-surface-extractor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
+title: NPM Package API Surface Extractor
+slug: npm-package-api-surface-extractor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/npm-package-api-surface-extractor/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # NPM Package API Surface Extractor
 
 Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups.

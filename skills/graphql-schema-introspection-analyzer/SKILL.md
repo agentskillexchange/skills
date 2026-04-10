@@ -1,14 +1,13 @@
 ---
-title: "GraphQL Schema Introspection Analyzer"
-slug: "graphql-schema-introspection-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
+title: GraphQL Schema Introspection Analyzer
+slug: graphql-schema-introspection-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "MCP"
+- MCP
 ---
-
 # GraphQL Schema Introspection Analyzer
 
 Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations.

@@ -1,14 +1,13 @@
 ---
-title: "Regex Pattern Test Suite Generator"
-slug: "regex-pattern-test-suite-generator"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
+title: Regex Pattern Test Suite Generator
+slug: regex-pattern-test-suite-generator
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Regex Pattern Test Suite Generator
 
 Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks.

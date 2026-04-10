@@ -1,14 +1,13 @@
 ---
-title: "Jenkins Pipeline Failure Analyzer"
-slug: "jenkins-pipeline-failure-analyzer"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/"
+title: Jenkins Pipeline Failure Analyzer
+slug: jenkins-pipeline-failure-analyzer
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Jenkins Pipeline Failure Analyzer
 
 Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification.

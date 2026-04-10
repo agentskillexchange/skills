@@ -1,17 +1,17 @@
 ---
-title: "Hugo Fast Static Site Generator and CMS Framework"
-slug: "hugo-static-site-generator-cms-framework"
-verification: "security_reviewed"
-source: "https://github.com/gohugoio/hugo"
+title: Hugo Fast Static Site Generator and CMS Framework
+slug: hugo-static-site-generator-cms-framework
+verification: security_reviewed
+source: https://github.com/gohugoio/hugo
 category:
-  - "WordPress & CMS"
+- WordPress & CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "gohugoio/hugo"
+  github_repo: gohugoio/hugo
   github_stars: 87352
+  license: Apache-2.0
 ---
-
 # Hugo Fast Static Site Generator and CMS Framework
 
 Hugo is the fastest static site generator written in Go, rendering complete websites in seconds. It offers advanced templating, multilingual support, powerful taxonomy systems, and fast asset pipelines for images, JavaScript, Sass, and Tailwind CSS.

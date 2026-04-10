@@ -1,17 +1,16 @@
 ---
-title: "Grafana Dashboard as Code Generator"
-slug: "grafana-dashboard-as-code-generator"
-verification: "security_reviewed"
-source: "https://github.com/grafana/grafonnet"
+title: Grafana Dashboard as Code Generator
+slug: grafana-dashboard-as-code-generator
+verification: security_reviewed
+source: https://github.com/grafana/grafonnet
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Cursor"
+- Cursor
 tool_ecosystem:
-  github_repo: "grafana/grafonnet"
+  github_repo: grafana/grafonnet
   github_stars: 528
 ---
-
 # Grafana Dashboard as Code Generator
 
 Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit. Supports multi-datasource panels with Prometheus, Loki, and Tempo queries.

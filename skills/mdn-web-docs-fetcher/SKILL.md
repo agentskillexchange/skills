@@ -1,14 +1,13 @@
 ---
-title: "MDN Web Docs Fetcher"
-slug: "mdn-web-docs-fetcher"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
+title: MDN Web Docs Fetcher
+slug: mdn-web-docs-fetcher
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/mdn-web-docs-fetcher/
 category:
-  - "Library & API Reference"
+- Library & API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # MDN Web Docs Fetcher
 
 Queries the MDN Web Docs content API (Yari) and the MDN search index to retrieve browser compatibility data, Web API references, and CSS property documentation. Uses BCD (browser-compat-data) npm package for offline lookups.

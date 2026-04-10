@@ -1,14 +1,13 @@
 ---
-title: "Upptime GitHub Actions Uptime Monitor and Status Page"
-slug: "upptime-github-actions-uptime-monitor-status-page"
-verification: "listed"
-source: "https://github.com/upptime/upptime"
+title: Upptime GitHub Actions Uptime Monitor and Status Page
+slug: upptime-github-actions-uptime-monitor-status-page
+verification: listed
+source: https://github.com/upptime/upptime
 category:
-  - "Monitoring & Alerts"
+- Monitoring & Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Upptime GitHub Actions Uptime Monitor and Status Page
 
 An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions, Issues, and Pages. It is a strong fit when an agent needs lightweight endpoint monitoring, incident issue tracking, and a public or internal status site without maintaining a separate monitoring server.

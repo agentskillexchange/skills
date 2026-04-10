@@ -1,14 +1,13 @@
 ---
-title: "Snyk Open Source Dependency Auditor"
-slug: "snyk-open-source-dependency-auditor"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
+title: Snyk Open Source Dependency Auditor
+slug: snyk-open-source-dependency-auditor
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/
 category:
-  - "Security & Verification"
+- Security & Verification
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Snyk Open Source Dependency Auditor
 
 Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch recommendations.

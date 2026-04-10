@@ -1,17 +1,16 @@
 ---
-title: "xsv High-Performance CSV Toolkit"
-slug: "xsv-high-performance-csv-toolkit"
-verification: "security_reviewed"
-source: "https://github.com/BurntSushi/xsv"
+title: xsv High-Performance CSV Toolkit
+slug: xsv-high-performance-csv-toolkit
+verification: security_reviewed
+source: https://github.com/BurntSushi/xsv
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction & Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "BurntSushi/xsv"
+  github_repo: BurntSushi/xsv
   github_stars: 10758
 ---
-
 # xsv High-Performance CSV Toolkit
 
 xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing, slicing, analyzing, splitting, joining, searching, sampling, and statistics operations on CSV files with exceptional speed and memory efficiency.

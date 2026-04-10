@@ -1,14 +1,13 @@
 ---
-title: "Terraform State Drift Detector"
-slug: "terraform-state-drift-detector"
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
+title: Terraform State Drift Detector
+slug: terraform-state-drift-detector
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/terraform-state-drift-detector/
 category:
-  - "Runbooks & Diagnostics"
+- Runbooks & Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Terraform State Drift Detector
 
 Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.

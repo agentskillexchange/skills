@@ -1,14 +1,13 @@
 ---
-title: "OpenAI Whisper API Transcription"
-slug: "openai-whisper-api-transcription"
-verification: "security_reviewed"
-source: "https://developers.openai.com/api/docs/guides/speech-to-text"
+title: OpenAI Whisper API Transcription
+slug: openai-whisper-api-transcription
+verification: security_reviewed
+source: https://developers.openai.com/api/docs/guides/speech-to-text
 category:
-  - "Media & Transcription"
+- Media & Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # OpenAI Whisper API Transcription
 
 API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
