@@ -65,6 +65,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Pop Terminal Email Sender and TUI by Charmbracelet](../../skills/pop-terminal-email-sender-charmbracelet/) | 2.8k | — |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 2k | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
+| [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 552 | — |

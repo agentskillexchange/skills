@@ -61,6 +61,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | 11.2k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 186.9k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.5M/wk |
+| [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | — |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 58k/wk |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |

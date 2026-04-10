@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1863 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-10 19:41 UTC
+> **1866 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-10 21:42 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1065,7 +1065,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (104 skills)
+### 📅 Calendar, Email & Productivity (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1105,6 +1105,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Pop Terminal Email Sender and TUI by Charmbracelet](skills/pop-terminal-email-sender-charmbracelet/) | Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports… | Security Reviewed | 2.8k | — |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](skills/google-workspace-mcp-server-gmail-calendar-drive/) | The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive,… | Security Reviewed | 2k | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](skills/vdirsyncer-caldav-carddav-sync/) | vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local… | Security Reviewed | 1.8k | — |
+| [Extract structured data and attachments from raw email with MailParser](skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text,… | Published | 1.7k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 552 | — |
@@ -1177,7 +1178,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (102 skills)
+### ✅ Code Quality & Review (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1202,6 +1203,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 152.8k/wk |
 | [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | 3.4k | — |
+| [Render git diffs as shareable HTML review reports with Diff2Html](skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or… | Published | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
@@ -1390,7 +1392,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Yoast SEO WordPress Search Optimization Plugin](skills/yoast-seo-wordpress-search-optimization-plugin/) | Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output,… | Published | — | — |
 
 
-### 🌐 Browser Automation (88 skills)
+### 🌐 Browser Automation (89 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -1417,6 +1419,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents.… | Security Reviewed | 11.2k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver… | Published | 9.9k | 186.9k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 9.8k | 2.5M/wk |
+| [Capture responsive website screenshots for visual QA with Pageres](skills/capture-responsive-website-screenshots-pageres/) | Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design… | Published | 9.7k | — |
 | [Docker Selenium Grid for Scalable Browser Automation](skills/docker-selenium-grid-for-scalable-browser-automation/) | docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed… | Security Reviewed | 8.6k | — |
 | [BackstopJS Visual Regression Testing Automation](skills/backstopjs-visual-regression-testing-automation/) | BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual… | Security Reviewed | 7.1k | 58k/wk |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](skills/rod-go-cdp-browser-automation/) | Rod is a high-level Go library built directly on the Chrome DevTools Protocol for web automation and scraping. It… | Security Reviewed | 6.8k | — |

@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1863,
+  "total": 1866,
   "generated": "2026-04-10",
   "skills": [
+    {
+      "slug": "render-git-diffs-as-shareable-html-review-reports-diff2html",
+      "name": "Render git diffs as shareable HTML review reports with Diff2Html",
+      "description": "Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3337
+      }
+    },
+    {
+      "slug": "extract-structured-data-and-attachments-from-raw-email-mailparser",
+      "name": "Extract structured data and attachments from raw email with MailParser",
+      "description": "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1665
+      }
+    },
+    {
+      "slug": "capture-responsive-website-screenshots-pageres",
+      "name": "Capture responsive website screenshots for visual QA with Pageres",
+      "description": "Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design review, release checks, or documentation snapshots.…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9741
+      }
+    },
     {
       "slug": "parameterize-and-execute-notebooks-as-repeatable-runs",
       "name": "Parameterize and execute notebooks as repeatable runs",
