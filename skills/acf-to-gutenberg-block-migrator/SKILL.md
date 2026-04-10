@@ -4,6 +4,8 @@ description: "Converts Advanced Custom Fields field groups into native Gutenberg
 slug: "acf-to-gutenberg-block-migrator"
 category:
   - "WordPress &amp; CMS"
+framework:
+  - "Codex"
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/"
 ---
@@ -36,6 +38,10 @@ clawhub install acf-to-gutenberg-block-migrator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+ACF to Gutenberg Block Migrator bridges the gap between ACF-dependent themes and the native block editor by converting ACF field groups into proper Gutenberg blocks. It reads ACF field group JSON exports, analyzes field types, and generates block.json registrations with matching attributes and server-side render callbacks.
+For simple fields like text, image, and select, it maps directly to block attributes with corresponding BlockControls components. ACF repeater fields convert to InnerBlocks with allowedBlocks restrictions, preserving the repeatable data structure. Flexible content layouts become block variations registered through registerBlockVariation().
+The migration generates PHP render templates using acf_register_block_type() with render_callback functions that pull data via get_field(). The @wordpress/scripts build pipeline handles JSX compilation, and the output includes both the editor-side JavaScript components and server-side PHP rendering. Existing ACF data in post_meta is preserved and readable by the new blocks through backward-compatible get_field() calls.
 
 ## Source
 

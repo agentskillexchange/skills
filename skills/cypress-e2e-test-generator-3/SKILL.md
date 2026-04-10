@@ -4,6 +4,8 @@ description: "Generates Cypress end-to-end test suites from user flow recordings
 slug: "cypress-e2e-test-generator-3"
 category:
   - "Browser Automation"
+framework:
+  - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
 ---
@@ -36,6 +38,8 @@ clawhub install cypress-e2e-test-generator-3
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Automated end-to-end test generation agent for Cypress testing framework. Records user interaction flows and converts them into maintainable Cypress test specifications. Uses the Cypress Real Events plugin for accurate mouse and keyboard event simulation. Generates network request fixtures automatically using cy.intercept() to capture and replay API responses. Implements the Page Object Model pattern for generated tests with automatic selector optimization favoring data-testid attributes over fragile CSS selectors. Supports custom command generation for repeated interaction patterns. Integrates with Cypress Dashboard for test analytics, parallelization, and flaky test management. Includes visual testing via the cypress-image-snapshot plugin. Generates TypeScript test files with full type definitions for custom commands and fixtures.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "Automates diagnosis of CrashLoopBackOff pods using kubectl command
 slug: "kubernetes-pod-crashloop-runbook"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
 ---
@@ -36,6 +38,8 @@ clawhub install kubernetes-pod-crashloop-runbook
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill queries the Kubernetes API server (typically at /api/v1 and /apis/apps/v1) using a kubeconfig or in-cluster service account token. When a pod enters CrashLoopBackOff, the skill fetches the last 100 lines of container logs via the pods/log subresource, retrieves pod events from the Events API, and checks resource quota limits in the namespace. It distinguishes between OOMKilled (memory limit exceeded), probe failures (liveness/readiness misconfiguration), and missing dependencies (ConfigMap or Secret not found). The skill cross-references the pod spec against the namespace ResourceQuota and LimitRange objects. A step-by-step Markdown runbook is generated with specific kubectl commands to apply, including suggested resource limit adjustments and probe timeout fixes. Compatible with Kubernetes 1.25+.
 
 ## Source
 

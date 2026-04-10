@@ -4,6 +4,8 @@ description: "Validates GitHub Actions workflow YAML files against the Actions s
 slug: "github-actions-pipeline-validator"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 ---
@@ -36,6 +38,8 @@ clawhub install github-actions-pipeline-validator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The GitHub Actions Pipeline Validator skill provides comprehensive CI/CD pipeline validation for GitHub Actions workflows. It parses workflow YAML files against the official GitHub Actions schema specification, identifying syntax errors, deprecated action references, and misconfigured triggers. The validator checks all uses directives against the GitHub Marketplace API to verify action version compatibility and flag deprecated versions. It integrates with the dorny/paths-filter API to validate path-based trigger configurations and uses the actions/checkout and actions/setup-node SDKs to verify proper setup step ordering. Security scanning identifies exposed secrets, missing environment variable declarations, and overly permissive GITHUB_TOKEN permissions. The skill generates detailed reports with suggested fixes, including automatic version pinning recommendations and workflow optimization tips for reducing build times.
 
 ## Source
 

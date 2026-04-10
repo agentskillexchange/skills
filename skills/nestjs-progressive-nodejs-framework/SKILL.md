@@ -4,6 +4,8 @@ description: "NestJS is a progressive Node.js framework built with TypeScript, i
 slug: "nestjs-progressive-nodejs-framework"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:

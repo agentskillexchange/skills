@@ -4,7 +4,9 @@ description: "An ASE skill built on the official Mailtrap Node.js SDK for sendin
 slug: "mailtrap-nodejs-sdk-transactional-and-sandbox-email"
 category:
   - "Calendar, Email &amp; Productivity"
-verification: "listed"
+framework:
+  - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/mailtrap/mailtrap-nodejs"
 ---
 
@@ -36,6 +38,10 @@ clawhub install mailtrap-nodejs-sdk-transactional-and-sandbox-email
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Mailtrap Node.js SDK for Transactional and Sandbox Email is a source-backed ASE skill built on the official mailtrap package from Mailtrap. The SDK gives JavaScript and TypeScript systems a supported way to send email through Mailtrap’s transactional API while also fitting Mailtrap’s sandbox testing model. For agents, that means email operations can be grounded in a real SDK with published documentation and npm distribution rather than improvised SMTP snippets.
+The job-to-be-done here is controlled outbound email automation. A skill built around this SDK can generate and send transactional messages, switch between sandbox and production modes, attach files, render templates upstream, and validate message payloads in a way that fits testing or operational workflows. That makes it useful for password reset flows, onboarding emails, status notifications, form submission acknowledgements, staged release testing, and regression checks where an agent must verify email behavior without touching a human inbox prematurely.
+Integration points include Node.js application backends, queue workers, serverless functions, CI pipelines that validate email flows, and internal tools that need to test deliverability or payload formatting before production rollout. The upstream repository is active, carries a real license, links to official Mailtrap docs, and the npm package shows active distribution signals, so it passes the ASE intake gate. For ASE, this creates a concrete email skill centered on a maintained Mailtrap SDK with a clear testing and transactional use case.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "shadcn/ui is a collection of accessible UI components built with R
 slug: "shadcn-ui-react-component-collection"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/shadcn-ui/ui"
 tool_ecosystem:

@@ -4,6 +4,8 @@ description: "GitHub Copilot is an AI pair programmer providing real-time code s
 slug: "github-copilot-ai-code-assistant"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/"
 ---

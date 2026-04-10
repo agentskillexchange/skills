@@ -1,21 +1,23 @@
 ---
 title: "Datadog MCP Server"
-description: "Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context [&hellip;]"
+description: "Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context […]"
 slug: "datadog-mcp-server"
 category:
   - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 tool_ecosystem:
   github_repo: "DataDog/dd-trace-js"
   github_stars: 790
   npm_package: "dd-trace"
-  npm_weekly_downloads: 5559687
+  npm_weekly_downloads: 5609555
 ---
 
 # Datadog MCP Server
 
-Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context [&hellip;]
+Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context […]
 
 ## Installation
 
@@ -41,6 +43,14 @@ clawhub install datadog-mcp-server
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like metrics API, monitors, logs, dashboards, traces, incidents and preserving the operational context that matters for real tasks.
+In practice, the skill gives an agent a stable interface to datadog so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The implementation typically relies on metrics API, monitors, logs, dashboards, traces, incidents, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
+- Accesses metrics API, monitors, logs, dashboards, traces, incidents instead of scraping a UI, which makes runs easier to audit and retry.
+- Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
+- Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
+- Fits into broader integration points such as incident response, APM, alerting, and operational dashboards.
+Because this is exposed as an MCP skill, the tool surface is designed for agent-safe, structured calls instead of free-form shell usage. That means models can inspect schemas, call a narrow set of operations, and keep context across a longer workflow without re-implementing credentials or connection logic on every step. Key integration points include incident response, APM, alerting, and operational dashboards. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
 
 ## Source
 

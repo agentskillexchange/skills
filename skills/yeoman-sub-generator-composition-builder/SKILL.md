@@ -4,6 +4,8 @@ description: "Orchestrates Yeoman generator composition by chaining sub-generato
 slug: "yeoman-sub-generator-composition-builder"
 category:
   - "Templates &amp; Workflows"
+framework:
+  - "Codex"
 verification: "security_reviewed"
 source: "https://github.com/yeoman/yo"
 tool_ecosystem:
@@ -41,6 +43,8 @@ clawhub install yeoman-sub-generator-composition-builder
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Yeoman Sub-Generator Composition Builder automates complex project generation workflows by orchestrating multiple Yeoman sub-generators through the yeoman-environment API. It uses the composeWith() method to chain generators in dependency order, managing the Yeoman run loop priority queue to ensure initializing, prompting, configuring, writing, and install phases execute correctly across composed generators. The skill resolves generator dependencies from the npm registry, checking for locally installed generators via yo –generators and installing missing ones on demand. It handles cross-generator conflict resolution using the Yeoman conflicter with configurable merge strategies for shared files like package.json and tsconfig.json. The skill supports both local generators in the generators/ directory and published npm generator packages prefixed with generator-. It can replay stored answers from .yo-rc.json for reproducible scaffolding and manages the Yeoman storage API for persisting configuration across sub-generator boundaries.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "The Azure CLI provides cross-platform command-line access to Micro
 slug: "azure-cli-microsoft-cloud"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:

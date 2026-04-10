@@ -4,6 +4,8 @@ description: "Parses and navigates OpenAPI 3.1 specifications using swagger-pars
 slug: "openapi-spec-navigator"
 category:
   - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 ---
@@ -36,6 +38,10 @@ clawhub install openapi-spec-navigator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The OpenAPI Spec Navigator skill provides intelligent traversal and analysis of OpenAPI 3.1 specification documents. It uses swagger-parser for spec validation and dereferencing, @apidevtools/json-schema-ref-parser for resolving complex $ref chains including circular references, and generates comprehensive endpoint documentation from path items and operation objects.
+The skill extracts complete endpoint signatures including HTTP methods, path parameters with style/explode serialization rules, query parameter schemas with allowReserved handling, and request body content type negotiation. It resolves discriminator-based polymorphic schemas with oneOf/anyOf compositions and generates TypeScript type definitions using json-schema-to-typescript.
+Advanced capabilities include security scheme analysis for OAuth2 flows (authorizationCode, clientCredentials, implicit), API key placement detection (header, query, cookie), and server variable template resolution. The skill generates client stubs compatible with axios and node-fetch, handles pagination patterns (cursor, offset, keyset) from x-pagination extensions, and produces Postman collection exports via openapi-to-postmanv2 for interactive testing.
 
 ## Source
 

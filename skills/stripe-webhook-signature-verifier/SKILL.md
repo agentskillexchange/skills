@@ -4,6 +4,8 @@ description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK
 slug: "stripe-webhook-signature-verifier"
 category:
   - "Security &amp; Verification"
+framework:
+  - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
 ---
@@ -36,6 +38,8 @@ clawhub install stripe-webhook-signature-verifier
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill implements secure Stripe webhook signature verification using the Stripe.js SDK and the stripe.webhooks.constructEvent method. It extracts the raw request body before any JSON parsing to preserve byte accuracy, then validates the Stripe-Signature header timestamp and HMAC-SHA256 signature against the endpoint secret. The skill enforces a configurable tolerance window (default 300 seconds) to prevent replay attacks. Failed verifications are logged to Datadog via the Datadog Logs API using the POST /api/v2/logs endpoint with structured metadata including event type, timestamp, and remote IP. Successful verifications emit metrics to Datadog StatsD for dashboard monitoring. The skill supports both synchronous Express middleware and async Lambda function handlers for AWS API Gateway, with examples for Fastify and Hono frameworks. It also includes integration with Clerk webhooks and Paddle billing events using the same signature pattern.
 
 ## Source
 

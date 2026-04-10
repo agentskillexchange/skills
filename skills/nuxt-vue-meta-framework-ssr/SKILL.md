@@ -4,6 +4,8 @@ description: "Nuxt is a Vue.js meta-framework providing server-side rendering, s
 slug: "nuxt-vue-meta-framework-ssr"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/nuxt/nuxt"
 tool_ecosystem:

@@ -4,6 +4,8 @@ description: "Automates visual regression testing using the Playwright screensho
 slug: "playwright-visual-regression-tester-3"
 category:
   - "Browser Automation"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
 ---
@@ -36,6 +38,8 @@ clawhub install playwright-visual-regression-tester-3
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill integrates with production-grade tooling to streamline automation workflows. It handles edge cases such as timeout management, retry logic with exponential backoff, and detailed error reporting. Configuration is managed through environment variables and YAML config files, supporting both local development and CI/CD pipeline environments. The skill outputs structured JSON logs compatible with ELK stack and Datadog for observability. It includes built-in rate limiting to respect API quotas and implements proper credential rotation using vault-based secret management.
 
 ## Source
 

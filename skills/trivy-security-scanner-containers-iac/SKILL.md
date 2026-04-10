@@ -4,6 +4,8 @@ description: "Trivy is Aqua Security’s scanner for vulnerabilities, misconfigu
 slug: "trivy-security-scanner-containers-iac"
 category:
   - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/trivy"
 ---
@@ -36,6 +38,8 @@ clawhub install trivy-security-scanner-containers-iac
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Trivy is a real open source security scanner from Aqua Security, built for fast checks across containers, filesystems, Git repositories, virtual machines, and Kubernetes. It looks for known CVEs, IaC misconfigurations, sensitive information, and software licenses, which makes it useful anywhere a workflow needs a quick security gate.nnUse this skill when an agent needs to inspect images before deployment, scan source trees for exposed secrets, or validate Terraform and Kubernetes manifests. Trivy ships with multiple install paths, including Homebrew, Docker, and direct release binaries, so it fits both local developer loops and CI pipelines. Its README also documents ecosystem integrations such as GitHub Actions and a Kubernetes operator, which makes it easy to plug into automated checks.nnFor ASE, Trivy maps cleanly to security verification work: container hardening, policy checks, and release-time auditing. The upstream project is actively maintained, has releases, and is backed by Aqua Security. Use it when the task is to surface concrete security findings, not to do general-purpose code review.
 
 ## Source
 

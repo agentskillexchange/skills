@@ -4,6 +4,8 @@ description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkin
 slug: "jenkins-pipeline-log-parser"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
 ---
@@ -36,6 +38,11 @@ clawhub install jenkins-pipeline-log-parser
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Jenkins Pipeline Log Parser skill automates the analysis of Jenkins CI/CD build failures and performance patterns. It connects to Jenkins instances via the REST API and Blue Ocean API for enhanced pipeline visualization data.
+The skill retrieves build logs and parses them to identify specific stage failures, extracting error messages and stack traces from pipeline step outputs. It uses the Jenkins JUnit plugin API to parse test result XML files, detecting flaky tests through statistical analysis of pass/fail patterns across recent builds.
+Failure trend analysis tracks recurring error patterns across builds, identifying infrastructure-related failures versus code-related failures. The skill correlates build failures with node allocation data to detect agent-specific issues like disk space exhaustion or network connectivity problems.
+Reports include build duration trend analysis, queue wait time metrics, and parallel stage execution efficiency measurements. The skill supports Declarative and Scripted pipeline formats, multibranch pipelines, and shared library debugging with source-mapped error locations.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "Generates Terraform module scaffolds with variables.tf, outputs.tf
 slug: "terraform-module-boilerplate-assembler"
 category:
   - "Templates &amp; Workflows"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
@@ -39,6 +41,8 @@ clawhub install terraform-module-boilerplate-assembler
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Terraform Module Boilerplate Assembler generates production-ready Terraform module scaffolds from high-level specifications. Given a target cloud provider and resource type, it queries the Terraform Registry API at registry.terraform.io to fetch provider schemas and resource documentation, then generates a complete module structure including main.tf, variables.tf, outputs.tf, versions.tf, and a README.md following HashiCorp’s standard module structure guidelines. Variable definitions are generated with appropriate types, descriptions, default values, and validation blocks inferred from the provider schema. The skill creates example/ directories with sample tfvars files and a working root module that references the generated child module. It adds pre-commit hooks configuration for terraform fmt, terraform validate, and tflint integration. Backend configuration templates are generated for popular backends including S3, GCS, and Azure Blob Storage with appropriate state locking configuration. The skill also generates GitHub Actions or GitLab CI pipeline templates for terraform plan and apply stages.
 
 ## Source
 

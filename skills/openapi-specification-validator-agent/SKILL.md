@@ -4,13 +4,15 @@ description: "Validates and lints OpenAPI 3.x specifications using swagger-parse
 slug: "openapi-specification-validator-agent"
 category:
   - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-parser"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194
   npm_package: "@apidevtools/swagger-parser"
-  npm_weekly_downloads: 3733509
+  npm_weekly_downloads: 3732285
 ---
 
 # OpenAPI Specification Validator
@@ -41,6 +43,8 @@ clawhub install openapi-specification-validator-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The OpenAPI Specification Validator performs comprehensive validation of OpenAPI 3.0 and 3.1 documents using swagger-parser for structural validation and @stoplight/spectral for style and convention enforcement. It applies custom Spectral rulesets that enforce organizational API standards including naming conventions, pagination patterns, and error response schemas. The skill uses openapi-typescript to generate TypeScript type definitions from validated specs, ensuring frontend-backend type safety. It integrates oasdiff for detecting breaking changes between API versions, generating detailed compatibility reports that highlight removed endpoints, changed parameter types, and modified response schemas. The tool also leverages redocly/openapi-cli for spec bundling, splitting multi-file specs, and generating interactive API documentation. It supports validation of x-extension fields for custom metadata and ensures proper security scheme definitions across OAuth2, API key, and JWT bearer authentication patterns.
 
 ## Source
 

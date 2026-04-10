@@ -4,6 +4,8 @@ description: "Parses Nginx error logs using configurable regex patterns and the 
 slug: "nginx-error-log-pattern-analyzer"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
 ---
@@ -36,6 +38,8 @@ clawhub install nginx-error-log-pattern-analyzer
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Nginx Error Log Pattern Analyzer processes Nginx error log files using configurable regex patterns to extract structured data from error entries. It integrates with the GoAccess real-time web log analyzer API for live dashboard generation and historical trend analysis. The skill clusters recurring error patterns, with special focus on 502 Bad Gateway and 504 Gateway Timeout errors, correlating them with upstream server health check failures and connection timeouts. It parses upstream response times from access logs to identify degrading backend services before they trigger errors. The analyzer supports log rotation detection, compressed log file reading (.gz), and multi-server log aggregation via rsyslog or Filebeat inputs. Output includes frequency heatmaps by hour, top offending upstreams, client IP analysis for potential abuse patterns, and recommended Nginx configuration tuning parameters for proxy_read_timeout, proxy_connect_timeout, and keepalive settings.
 
 ## Source
 

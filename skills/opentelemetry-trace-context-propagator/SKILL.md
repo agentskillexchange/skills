@@ -4,6 +4,8 @@ description: "Implements W3C TraceContext and Baggage propagation using the Open
 slug: "opentelemetry-trace-context-propagator"
 category:
   - "Library &amp; API Reference"
+framework:
+  - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/"
 ---
@@ -36,6 +38,8 @@ clawhub install opentelemetry-trace-context-propagator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill provides a complete OpenTelemetry trace context propagation implementation using the @opentelemetry/api and @opentelemetry/sdk-trace-node packages. It configures the W3CTraceContextPropagator and W3CBaggagePropagator for injecting and extracting traceparent, tracestate, and baggage headers across HTTP requests via the @opentelemetry/instrumentation-http module. For gRPC services it uses the @opentelemetry/instrumentation-grpc interceptor. Message queue propagation covers AWS SQS message attributes and Kafka headers using the @opentelemetry/instrumentation-aws-sdk and kafkajs context injection. The skill configures OTLP exporters for Jaeger and Zipkin, with sampling strategies including parent-based and trace-id ratio samplers. Resource detectors for AWS ECS and GCP Cloud Run automatically populate service metadata. Includes setup for the OpenTelemetry Collector as an aggregation layer.
 
 ## Source
 

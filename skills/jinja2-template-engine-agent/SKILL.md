@@ -4,6 +4,8 @@ description: "Renders Jinja2 templates with variable injection, macro expansion,
 slug: "jinja2-template-engine-agent"
 category:
   - "Templates &amp; Workflows"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 ---
@@ -36,6 +38,11 @@ clawhub install jinja2-template-engine-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Jinja2 Template Engine skill provides automated template rendering using the Jinja2 templating language. It creates a sandboxed Environment with FileSystemLoader for template discovery and supports full template inheritance chains via extends and block directives.
+Core capabilities include variable injection from JSON/YAML data sources, macro expansion with parameterized includes, and custom filter registration using the Environment.filters API. The skill handles autoescaping for HTML output and supports Markup-safe string operations.
+Advanced features include async template rendering via Environment.enable_async(), template compilation to Python bytecode for performance, and internationalization support through the jinja2.ext.i18n extension with Babel message catalogs. Error handling provides detailed TemplateSyntaxError diagnostics with line numbers and source context.
+The skill can generate configuration files, email templates, documentation pages, and infrastructure-as-code manifests from parameterized templates.
 
 ## Source
 

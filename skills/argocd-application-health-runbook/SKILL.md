@@ -4,6 +4,8 @@ description: "Diagnoses ArgoCD application sync failures and degraded states usi
 slug: "argocd-application-health-runbook"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-health-runbook/"
 ---
@@ -36,6 +38,8 @@ clawhub install argocd-application-health-runbook
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This runbook skill connects to an ArgoCD instance via its REST API and argocd CLI to diagnose application health issues. It queries the /api/v1/applications/{name} endpoint for detailed sync status, resource health trees, and operation state. The skill interprets OutOfSync, Degraded, Unknown, and Missing conditions and provides step-by-step remediation guidance. For common failure modes like ImagePullBackOff, CrashLoopBackOff, and failed Helm hooks, it suggests specific kubectl and argocd commands. It also checks the ArgoCD application controller logs via the Kubernetes API for deeper diagnostics. Integration with PagerDuty incident notes and Slack runbook channels allows operators to share remediation context during on-call incidents. The skill supports multi-cluster ArgoCD setups and respects RBAC policies.
 
 ## Source
 

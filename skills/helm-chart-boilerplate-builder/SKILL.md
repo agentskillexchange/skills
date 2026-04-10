@@ -4,6 +4,8 @@ description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingr
 slug: "helm-chart-boilerplate-builder"
 category:
   - "Templates &amp; Workflows"
+framework:
+  - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
 ---
@@ -36,6 +38,8 @@ clawhub install helm-chart-boilerplate-builder
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill automates helm chart boilerplate builder operations for agent-driven workflows. It wraps the underlying API client libraries with sensible defaults for authentication, error handling, and pagination. Configuration is managed through environment variables and a local settings file, keeping credentials out of your codebase. The agent validates inputs against the provider’s API schema before making requests, catching configuration errors early. Includes retry logic with exponential backoff for transient failures and structured logging for audit trails. Works in both synchronous command mode and event-driven webhook mode for real-time integrations.
 
 ## Source
 

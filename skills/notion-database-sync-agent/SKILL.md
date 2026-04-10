@@ -4,6 +4,8 @@ description: "Syncs records between Notion databases and external sources using 
 slug: "notion-database-sync-agent"
 category:
   - "Calendar, Email &amp; Productivity"
+framework:
+  - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
 ---
@@ -36,6 +38,9 @@ clawhub install notion-database-sync-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill queries a Notion database, maps its properties to a target schema, and syncs new/updated records to or from an external system (CSV, Airtable, Google Sheets, or a custom API). Handles Notion property types: title, rich_text, number, select, multi_select, date, checkbox, url, email, relation. Supports bidirectional sync with conflict resolution strategies (last_write_wins or source_wins).
+Ideal for CRM backfill, project tracking exports, content pipeline management, and cross-tool data consistency. Not for Notion page content (only database properties). Not for databases with more than 100 relation properties — relation page traversal multiplies API calls significantly. Requires a Notion integration token with database read/write permissions and the integration connected to the target databases.
 
 ## Source
 

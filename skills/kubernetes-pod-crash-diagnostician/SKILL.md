@@ -4,6 +4,8 @@ description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, an
 slug: "kubernetes-pod-crash-diagnostician"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/"
 ---
@@ -36,6 +38,8 @@ clawhub install kubernetes-pod-crash-diagnostician
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Kubernetes Pod Crash Diagnostician skill provides automated root cause analysis for pod crash loops in Kubernetes clusters. It connects to the Kubernetes API server to fetch pod events, container statuses, and recent restart history. For OOMKilled containers, it queries Prometheus via PromQL to retrieve historical memory usage patterns and container_memory_working_set_bytes metrics, identifying whether the OOM was caused by a memory leak, insufficient limits, or spike load. For CrashLoopBackOff pods, it analyzes container logs from the previous terminated instance, checks init container completion status, and validates volume mount accessibility. The skill inspects resource quotas, limit ranges, and pod disruption budgets that may constrain scheduling. Generates diagnostic reports with recommended resource limit adjustments based on P95 memory and CPU usage. Supports ephemeral debug containers via kubectl debug for live investigation. Integrates with Grafana dashboards for visual correlation.
 
 ## Source
 

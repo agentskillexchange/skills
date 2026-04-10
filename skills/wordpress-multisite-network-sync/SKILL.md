@@ -4,6 +4,8 @@ description: "Synchronizes plugin settings and theme mods across a WordPress Mul
 slug: "wordpress-multisite-network-sync"
 category:
   - "WordPress &amp; CMS"
+framework:
+  - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-multisite-network-sync/"
 ---
@@ -36,6 +38,9 @@ clawhub install wordpress-multisite-network-sync
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill automates the tedious task of keeping multisite subsites in sync with a primary configuration. It iterates over all active subsites, compares settings for target plugins, and applies updates via switch_to_blog()/update_option() through WP-CLI or direct REST. Supports allowlist/denylist for which options to propagate and dry-run mode for preview. Generates a diff report before applying changes.
+Ideal for agency workflows managing 10+ subsites with shared plugin configurations, theme settings, or user role structures. Not for syncing post content between sites — use the WP Replicator pattern for content. Requires Super Admin credentials and WP Multisite configured with subdirectory or subdomain mode.
 
 ## Source
 

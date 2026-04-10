@@ -4,7 +4,9 @@ description: "GlitchTip is an open-source, Sentry-compatible error tracking plat
 slug: "glitchtip-open-source-error-tracking-platform"
 category:
   - "Monitoring &amp; Alerts"
-verification: "listed"
+framework:
+  - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://gitlab.com/glitchtip/glitchtip-backend"
 ---
 
@@ -36,6 +38,10 @@ clawhub install glitchtip-open-source-error-tracking-platform
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+GlitchTip is an open-source error tracking platform maintained by the GlitchTip project on GitLab. The backend README describes it as a Sentry API compatible service, which makes it attractive for teams that want to self-host error monitoring without adopting the full weight of modern Sentry. The project focuses on a smaller, more familiar Django-based codebase, privacy-respecting defaults, and a deployment model that can run in relatively modest environments.
+The concrete job-to-be-done is clear: capture application exceptions, group and inspect errors, and keep monitoring infrastructure simple enough for self-hosted use. Because it is API compatible with Sentry SDKs, agents can use GlitchTip in migration plans, deployment runbooks, or internal platform docs where teams need to preserve existing client instrumentation while changing the server-side destination. The upstream README also documents the local development flow using Docker and Docker Compose, with PostgreSQL as the primary database and Valkey as an optional performance dependency.
+That combination of official upstream docs, recent GitLab activity, tagged releases, and explicit operational guidance makes GlitchTip a credible ASE entry. This listing is especially useful for skills that help teams evaluate self-hosted monitoring stacks, wire Sentry-compatible SDKs to a real backend, or document container-based deployment and maintenance workflows.
 
 ## Source
 

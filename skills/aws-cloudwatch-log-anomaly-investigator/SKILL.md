@@ -4,6 +4,8 @@ description: "Investigates anomalous patterns in AWS CloudWatch Logs using the C
 slug: "aws-cloudwatch-log-anomaly-investigator"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-investigator/"
 ---
@@ -36,6 +38,11 @@ clawhub install aws-cloudwatch-log-anomaly-investigator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The AWS CloudWatch Log Anomaly Investigator skill automates root cause analysis for production incidents detected in AWS CloudWatch Logs. It uses the CloudWatch Logs Insights API to run targeted queries across log groups, identifying error rate spikes, latency outliers, and unusual log patterns.
+Leveraging CloudWatch Anomaly Detection, the skill establishes baseline metrics and alerts when log volumes or error rates deviate significantly from expected patterns. It automatically correlates anomalies with recent deployment events by querying the AWS CodeDeploy API for deployment timelines.
+The investigation workflow includes automatic extraction of stack traces, error codes, and request IDs from structured JSON logs. Using the AWS X-Ray API, the skill traces individual requests across microservices to pinpoint the failing component.
+Results are compiled into a structured incident report with timeline, probable root cause, affected services, and recommended remediation steps. The skill supports integration with PagerDuty and Opsgenie via their REST APIs for automated incident escalation.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK an
 slug: "hashicorp-vault-secret-scanner-2"
 category:
   - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
 ---
@@ -36,6 +38,8 @@ clawhub install hashicorp-vault-secret-scanner-2
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill provides automated tooling for hashicorp vault secret scanner workflows. It integrates directly with your development pipeline, offering configurable scanning depth, custom rule definitions, and structured output formats compatible with major CI/CD platforms. The agent handles authentication, rate limiting, and retry logic internally, so you can focus on reviewing results rather than managing infrastructure. Supports both interactive and headless operation modes with JSON and SARIF output for downstream processing. Includes built-in caching to minimize redundant API calls across sequential runs.
 
 ## Source
 

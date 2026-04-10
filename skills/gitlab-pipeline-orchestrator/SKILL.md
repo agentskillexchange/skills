@@ -4,6 +4,8 @@ description: "Automates GitLab CI/CD pipeline creation using the GitLab Pipeline
 slug: "gitlab-pipeline-orchestrator"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-orchestrator/"
 ---
@@ -36,6 +38,8 @@ clawhub install gitlab-pipeline-orchestrator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The GitLab Pipeline Orchestrator skill provides comprehensive automation for GitLab CI/CD workflows. It leverages the GitLab Pipelines API v4 to programmatically create, trigger, and monitor pipeline runs across multiple projects. The skill generates optimized .gitlab-ci.yml configurations with proper stage ordering, dependency management, and parallel job execution. It integrates with the GitLab Artifacts API to configure intelligent caching strategies that reduce build times by up to 60%. Bridge jobs enable cross-project pipeline triggering for monorepo and microservice architectures. The skill supports dynamic child pipelines using the trigger:include pattern, environment-specific deployments with manual approval gates, and auto-scaling runners configuration. It also handles merge request pipelines with detached mode, security scanning integration via GitLab SAST/DAST templates, and deployment freezes during critical periods.
 
 ## Source
 

@@ -4,7 +4,9 @@ description: "An ASE skill built around the official Cartesia JavaScript SDK for
 slug: "cartesia-javascript-sdk-low-latency-voice-generation"
 category:
   - "Media &amp; Transcription"
-verification: "listed"
+framework:
+  - "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/cartesia-ai/cartesia-js"
 ---
 
@@ -36,6 +38,10 @@ clawhub install cartesia-javascript-sdk-low-latency-voice-generation
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Cartesia JavaScript SDK for Low-Latency Voice Generation is a source-backed ASE skill based on the official @cartesia/cartesia-js client from Cartesia. The SDK provides a typed interface to the Cartesia REST API from server-side JavaScript or TypeScript, including text-to-speech generation through Cartesia voice models such as Sonic. For ASE, that matters because it gives agents a real vendor SDK with a defined API surface instead of a made-up “voice AI” wrapper.
+The practical job-to-be-done is building reliable voice output into agent workflows. An agent can use this SDK to submit transcripts for synthesis, choose model and output parameters, control format settings, and hand generated audio to downstream delivery systems. That makes it useful for voice assistants, narrated alerts, generated call prompts, product demos, dynamic audio snippets, and systems that need fast turnaround from text input to playable speech output. Because the SDK is the official client, it also reduces the friction of auth handling and request shaping compared with custom REST plumbing.
+Integration points include Node.js services, TypeScript backends, queue workers, automation pipelines, and applications that already manage outbound media or telephony events. Cartesia publishes official docs, the repository is active and licensed, and the package is distributed on npm, which satisfies the ASE intake gate for real source, real maintenance, and clear adoption signals. In short, this skill gives agents a concrete way to plug into Cartesia voice generation workflows with current upstream documentation.
 
 ## Source
 

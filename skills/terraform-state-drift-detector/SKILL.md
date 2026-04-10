@@ -4,6 +4,8 @@ description: "Detects infrastructure drift by running terraform plan -detailed-e
 slug: "terraform-state-drift-detector"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
 ---
@@ -36,6 +38,17 @@ clawhub install terraform-state-drift-detector
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+Terraform State Drift Detector identifies discrepancies between your Terraform state and actual cloud infrastructure to prevent configuration drift.
+How It Works
+The skill runs terraform plan -detailed-exitcode to detect changes, then parses the structured output via terraform show -json to categorize and prioritize drift by resource type, severity, and blast radius.
+Key Features
+- Drift categorization by resource type (compute, network, IAM, storage) with severity scoring
+- Blast radius analysis estimating the impact of reconciliation applies
+- Selective reconciliation plans using terraform apply -target for surgical fixes
+- Support for Terraform workspaces, remote backends (S3, GCS, Azure Blob), and Terraform Cloud
+Scheduling
+Designed for scheduled drift detection runs. Maintains a drift history log for trend analysis. Alerts on critical drift like IAM policy changes or security group modifications. Compatible with OpenTofu and Terragrunt configurations.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "Parses terraform plan JSON output to identify destructive changes,
 slug: "terraform-plan-diff-reviewer"
 category:
   - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/"
 ---
@@ -36,6 +38,8 @@ clawhub install terraform-plan-diff-reviewer
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Terraform Plan Diff Reviewer skill ingests terraform plan -json output and performs semantic analysis on proposed infrastructure changes. It categorizes each resource change by risk level, flagging destructive operations like database deletions, security group rule removals, and IAM policy modifications. The skill integrates with the Terraform Cloud API v2 to compare planned changes against the current workspace state and previous successful applies. It detects drift between the plan and actual cloud provider state using terraform show output. For AWS resources, it cross-references security group changes against known CIDR ranges and flags overly permissive ingress rules. The tool generates a human-readable diff summary with color-coded risk indicators, affected resource dependency graphs, and rollback plan suggestions. It supports HCL module analysis to trace changes back to their source module definitions.
 
 ## Source
 

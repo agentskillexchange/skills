@@ -4,6 +4,8 @@ description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply s
 slug: "gemini-image-style-transfer-agent"
 category:
   - "Image &amp; Creative Automation"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
 ---
@@ -36,6 +38,9 @@ clawhub install gemini-image-style-transfer-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill handles image style transfer using Gemini Imagen 3’s image editing capabilities. It takes an input image, encodes it as base64, constructs a style transfer prompt (e.g., ‘Convert to impressionist watercolor with soft edges and warm tones’), and calls the Gemini API with the image plus text prompt. Returns the styled image with metadata about generation parameters.
+Use for product photography transformation, creative content pipelines, social media asset generation, and art direction workflows. Not for photorealistic face editing or content that violates Google’s usage policies. Requires a valid GEMINI_API_KEY and images under 10MB. Style accuracy varies — iterate on prompts for best results.
 
 ## Source
 

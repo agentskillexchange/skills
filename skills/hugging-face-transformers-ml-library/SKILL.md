@@ -4,6 +4,8 @@ description: "Hugging Face Transformers provides 400,000+ pretrained models for 
 slug: "hugging-face-transformers-ml-library"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/huggingface/transformers"
 tool_ecosystem:

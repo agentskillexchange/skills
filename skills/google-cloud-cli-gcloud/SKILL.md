@@ -4,6 +4,8 @@ description: "The Google Cloud CLI provides command-line access to 200+ GCP serv
 slug: "google-cloud-cli-gcloud"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://cloud.google.com/sdk"
 ---

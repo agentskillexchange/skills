@@ -4,6 +4,8 @@ description: "Synchronizes WooCommerce orders with external ERPs using the WooCo
 slug: "woocommerce-order-sync-agent"
 category:
   - "WordPress &amp; CMS"
+framework:
+  - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
 ---
@@ -36,6 +38,8 @@ clawhub install woocommerce-order-sync-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill provides end-to-end order synchronization between WooCommerce and external ERP systems like SAP Business One, NetSuite, or Odoo. It leverages the WooCommerce REST API v3 endpoints for orders, products, and customers, using OAuth 1.0a authentication. The agent registers custom webhooks via wc_webhook_process_delivery for real-time order status changes (pending, processing, completed, refunded). Inventory levels are kept in sync using wc_update_product_stock() with configurable thresholds. The skill includes retry logic with exponential backoff for failed API calls, batch processing for bulk order exports using WP-CLI wc commands, and structured logging via WC_Logger. It also generates daily reconciliation reports comparing local order counts against ERP totals, flagging discrepancies for manual review. Supports multi-currency setups through WooCommerce Currency Switcher hooks.
 
 ## Source
 

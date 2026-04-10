@@ -4,6 +4,8 @@ description: "Analyzes NPM package changelogs and release notes using the NPM Re
 slug: "npm-package-changelog-analyzer"
 category:
   - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
 ---
@@ -36,6 +38,10 @@ clawhub install npm-package-changelog-analyzer
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The NPM Package Changelog Analyzer skill provides intelligent analysis of package update histories to assist with dependency management decisions. It queries the NPM Registry API to retrieve version metadata, dist-tags, and time-stamped release information for any published package.
+The skill cross-references changelog entries with the GitHub Releases API to correlate version bumps with pull request links, commit SHAs, and contributor information. It uses semver for semantic version range analysis and detects breaking changes by parsing conventional commit messages and BREAKING CHANGE footers.
+Advanced capabilities include transitive dependency conflict detection by building resolution trees similar to npm ls, security advisory correlation with the GitHub Advisory Database API and npm audit signatures, peer dependency compatibility validation, and license change detection across versions. The skill generates upgrade impact reports with risk scores and suggested update ordering for monorepo environments using Lerna or Turborepo.
 
 ## Source
 

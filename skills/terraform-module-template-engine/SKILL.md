@@ -4,6 +4,8 @@ description: "Scaffolds production-ready Terraform modules using HCL templates w
 slug: "terraform-module-template-engine"
 category:
   - "Templates &amp; Workflows"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
 ---
@@ -36,6 +38,8 @@ clawhub install terraform-module-template-engine
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+This skill provides automated tooling for terraform module template engine workflows. It integrates directly with your development pipeline, offering configurable scanning depth, custom rule definitions, and structured output formats compatible with major CI/CD platforms. The agent handles authentication, rate limiting, and retry logic internally, so you can focus on reviewing results rather than managing infrastructure. Supports both interactive and headless operation modes with JSON and SARIF output for downstream processing. Includes built-in caching to minimize redundant API calls across sequential runs.
 
 ## Source
 

@@ -4,6 +4,8 @@ description: "Vue.js is a progressive JavaScript framework for building user int
 slug: "vue-js-progressive-javascript-framework"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 verification: "listed"
 source: "https://github.com/vuejs/core"
 tool_ecosystem:

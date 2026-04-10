@@ -4,6 +4,8 @@ description: "Add sandboxed code execution to any MCP-compatible AI client. E2B 
 slug: "e2b-code-execution-mcp"
 category:
   - "Developer Tools"
+framework:
+  - "MCP"
 verification: "security_reviewed"
 source: "https://github.com/e2b-dev/mcp-server"
 tool_ecosystem:
@@ -39,6 +41,16 @@ clawhub install e2b-code-execution-mcp
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+E2B Code Execution MCP connects AI assistants to the E2B Sandbox platform through the Model Context Protocol. Each execution runs inside an ephemeral, fully isolated cloud environment with its own filesystem, network access, and package manager.
+Best for
+- Data analysis pipelines requiring safe code execution
+- Code generation testing in isolated sandboxes
+- Multi-step tool chains where untrusted code must not run on the host
+- Any MCP workflow needing Python, JavaScript, or shell execution
+Install notes
+Get an E2B API key at e2b.dev (free tier available). Install via npx @smithery/cli install e2b --client claude or configure the MCP server entry manually in your client config. Requires Node.js v18+ or Python 3.10+.
+Source: github.com/e2b-dev/mcp-server
 
 ## Source
 

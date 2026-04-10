@@ -4,6 +4,8 @@ description: "Measures the impact of enabling new ESLint rules across a codebase
 slug: "eslint-rule-impact-analyzer-2"
 category:
   - "Code Quality &amp; Review"
+framework:
+  - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/"
 ---
@@ -36,6 +38,8 @@ clawhub install eslint-rule-impact-analyzer-2
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The ESLint Rule Impact Analyzer skill helps teams adopt stricter linting rules incrementally by measuring the real impact before enabling them. Using the ESLint Node.js API programmatically, it runs candidate rules against the entire codebase without modifying configuration files. For each rule, it counts violations per file, calculates auto-fix coverage using the fix metadata, and estimates manual remediation effort based on violation complexity scoring. The skill generates interactive heatmaps showing violation density across directories, helping teams identify hotspots. Supports @typescript-eslint/parser rules, eslint-plugin-react, eslint-plugin-import, and custom rule packages. Can simulate enabling multiple rules simultaneously to detect interaction effects. Outputs prioritized adoption plans as markdown or Jira tickets with per-rule effort estimates. Integrates with SonarQube for combined static analysis reporting.
 
 ## Source
 

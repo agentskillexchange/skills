@@ -4,6 +4,8 @@ description: "Scans Docker and OCI container images for OS and application vulne
 slug: "snyk-container-image-analyzer"
 category:
   - "Security &amp; Verification"
+framework:
+  - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
 ---
@@ -36,6 +38,10 @@ clawhub install snyk-container-image-analyzer
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Snyk Container Image Analyzer performs comprehensive vulnerability assessment of container images throughout the CI/CD pipeline and runtime environments. It connects to the Snyk Container API to scan both OS-level packages (dpkg, rpm, apk) and application dependencies embedded within image layers.
+The analyzer pulls image manifests from any OCI-compliant registry including Docker Hub, Amazon ECR, Google Artifact Registry, and Azure Container Registry. Each layer is unpacked and analyzed against the Snyk vulnerability database, which aggregates data from NVD, distribution security advisories, and Snyk proprietary research.
+Findings include CVSS v3.1 scores, exploit maturity ratings, and specific remediation paths. For Dockerfile-based images, the skill generates actionable fix suggestions including base image upgrades, package pinning recommendations, and multi-stage build optimizations to reduce attack surface. Results integrate with GitHub Actions and GitLab CI via SARIF output, and support Snyk monitoring for continuous image tracking with Slack notifications when new vulnerabilities affect deployed images.
 
 ## Source
 

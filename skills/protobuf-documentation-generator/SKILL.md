@@ -4,6 +4,8 @@ description: "Generates API documentation from Protocol Buffer definitions using
 slug: "protobuf-documentation-generator"
 category:
   - "Library &amp; API Reference"
+framework:
+  - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
 ---
@@ -36,6 +38,8 @@ clawhub install protobuf-documentation-generator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
+
+The Protobuf Documentation Generator creates comprehensive API documentation from Protocol Buffer (.proto) definition files. It leverages protoc-gen-doc as the primary documentation compiler, generating Markdown, HTML, and DocJSON output formats with full cross-referencing between messages, enums, services, and RPC methods. The tool integrates with the buf build toolchain for dependency resolution, ensuring all imported proto files from buf.build BSR (Buf Schema Registry) are available during documentation generation. It extracts documentation from proto comments (both leading and trailing) and maps them to structured documentation pages. For gRPC services, it generates per-method documentation including request/response message schemas, streaming indicators, and example payloads in JSON format using protobuf-json-mapping. The generator supports custom documentation templates using Go text/template syntax for organization-specific formatting requirements. It validates proto files using buf lint before generation, ensuring consistent naming conventions and package structure. The output includes navigable table of contents, deprecation notices, and field-level documentation with type links.
 
 ## Source
 
