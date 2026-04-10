@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
+listed: true
 ---
 
 # Slack Workflow Automation Builder

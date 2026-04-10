@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-profiling-report-generator/"
+listed: true
 ---
 
 # Pandas Profiling Report Generator

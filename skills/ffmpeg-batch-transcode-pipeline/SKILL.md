@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
+listed: true
 ---
 
 # FFmpeg Batch Transcode Pipeline

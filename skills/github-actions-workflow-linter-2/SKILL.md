@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/"
+listed: true
 ---
 
 # GitHub Actions Workflow Linter

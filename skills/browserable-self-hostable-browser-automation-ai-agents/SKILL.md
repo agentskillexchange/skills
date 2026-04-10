@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 1177
   npm_package: "browserable"
   npm_weekly_downloads: 21
+listed: true
 ---
 
 # Browserable Self-Hostable Browser Automation for AI Agents

@@ -11,6 +11,7 @@ source: "https://github.com/nock/nock"
 tool_ecosystem:
   github_repo: "nock/nock"
   github_stars: 13101
+listed: true
 ---
 
 # Nock HTTP Server Mocking and Expectations Library for Node.js

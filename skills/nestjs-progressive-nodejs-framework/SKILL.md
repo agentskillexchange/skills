@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/nestjs/nest"
 tool_ecosystem:
   github_repo: "nestjs/nest"
   github_stars: 75073
+listed: true
 ---
 
 # NestJS — Progressive Node.js Framework for Server-Side Applications

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
+listed: true
 ---
 
 # Python Type Coverage Analyzer

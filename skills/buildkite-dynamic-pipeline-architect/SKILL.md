@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-dynamic-pipeline-architect/"
+listed: true
 ---
 
 # Buildkite Dynamic Pipeline Architect

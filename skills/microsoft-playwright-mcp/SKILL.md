@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
+listed: true
 ---
 
 # Microsoft Playwright MCP

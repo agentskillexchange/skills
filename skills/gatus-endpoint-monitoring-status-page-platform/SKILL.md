@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/TwiN/gatus"
+listed: true
 ---
 
 # Gatus Endpoint Monitoring and Status Page Platform

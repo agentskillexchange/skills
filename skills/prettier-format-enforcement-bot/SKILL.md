@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
+listed: true
 ---
 
 # Prettier Format Enforcement Bot

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/frontend-design-guidance-skill/"
+listed: true
 ---
 
 # Frontend Design Guidance Skill

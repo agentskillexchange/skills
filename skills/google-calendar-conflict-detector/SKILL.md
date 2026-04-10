@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-conflict-detector/"
+listed: true
 ---
 
 # Google Calendar Conflict Detector

@@ -12,6 +12,7 @@ source: "https://github.com/great-expectations/great_expectations"
 tool_ecosystem:
   github_repo: "great-expectations/great_expectations"
   github_stars: 11321
+listed: true
 ---
 
 # Great Expectations Data Validation Pipeline

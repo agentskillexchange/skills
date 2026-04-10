@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
+listed: true
 ---
 
 # Grafana Unified Alerting Manager

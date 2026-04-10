@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostic-suite/"
+listed: true
 ---
 
 # PostgreSQL Performance Diagnostic Suite

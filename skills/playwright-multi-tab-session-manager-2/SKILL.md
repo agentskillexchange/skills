@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/"
+listed: true
 ---
 
 # Playwright Multi-Tab Session Manager

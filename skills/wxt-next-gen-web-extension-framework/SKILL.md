@@ -11,6 +11,7 @@ source: "https://github.com/wxt-dev/wxt"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9534
+listed: true
 ---
 
 # WXT Next-Generation Web Extension Framework for Browser Extensions

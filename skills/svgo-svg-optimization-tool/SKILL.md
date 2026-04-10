@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 22412
   npm_package: "svgo"
   npm_weekly_downloads: 27092281
+listed: true
 ---
 
 # SVGO SVG Optimization Tool

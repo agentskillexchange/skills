@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
+listed: true
 ---
 
 # Terraform Module Template Generator

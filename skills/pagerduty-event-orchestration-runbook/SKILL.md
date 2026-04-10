@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://developer.pagerduty.com/"
+listed: true
 ---
 
 # PagerDuty Event Orchestration Runbook

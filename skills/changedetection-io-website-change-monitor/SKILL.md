@@ -11,6 +11,7 @@ source: "https://github.com/dgtlmoon/changedetection.io"
 tool_ecosystem:
   github_repo: "dgtlmoon/changedetection.io"
   github_stars: 30867
+listed: true
 ---
 
 # changedetection.io Self-Hosted Website Change Monitoring Platform

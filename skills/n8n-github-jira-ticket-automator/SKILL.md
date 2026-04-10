@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/"
+listed: true
 ---
 
 # n8n GitHub Issue-to-Jira Ticket Automator

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/wagtail/wagtail"
+listed: true
 ---
 
 # Wagtail Django CMS for Structured Content and Editorial Workflows

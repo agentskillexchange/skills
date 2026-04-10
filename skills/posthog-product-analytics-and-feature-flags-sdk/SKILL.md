@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/PostHog/posthog-js"
+listed: true
 ---
 
 # PostHog Product Analytics and Feature Flags SDK

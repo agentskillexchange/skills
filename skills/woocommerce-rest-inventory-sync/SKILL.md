@@ -11,6 +11,7 @@ source: "https://github.com/woocommerce/woocommerce"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10243
+listed: true
 ---
 
 # WooCommerce REST Inventory Sync

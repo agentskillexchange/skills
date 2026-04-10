@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/mods"
 tool_ecosystem:
   github_repo: "charmbracelet/mods"
   github_stars: 4517
+listed: true
 ---
 
 # Mods AI-Powered Command-Line LLM Interface by Charmbracelet

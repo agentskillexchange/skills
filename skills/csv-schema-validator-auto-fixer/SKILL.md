@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/"
+listed: true
 ---
 
 # CSV Schema Validator & Auto-Fixer

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
+listed: true
 ---
 
 # CircleCI Orb Auditor

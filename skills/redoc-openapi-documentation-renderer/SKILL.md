@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 25596
   npm_package: "redoc"
   npm_weekly_downloads: 1275803
+listed: true
 ---
 
 # Redoc OpenAPI Documentation Renderer

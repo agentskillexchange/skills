@@ -11,6 +11,7 @@ source: "https://github.com/languagetool-org/languagetool"
 tool_ecosystem:
   github_repo: "languagetool-org/languagetool"
   github_stars: 14238
+listed: true
 ---
 
 # LanguageTool Grammar and Style Checker

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/"
+listed: true
 ---
 
 # Linear Issue Triage & Sprint Planner

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mdn-web-docs-fetcher/"
+listed: true
 ---
 
 # MDN Web Docs Fetcher

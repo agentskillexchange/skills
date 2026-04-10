@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://ghost.org/docs/admin-api/"
+listed: true
 ---
 
 # Ghost Admin API Headless Publishing and CMS Automation

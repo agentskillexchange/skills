@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/"
+listed: true
 ---
 
 # Grafana Dashboard JSON Migrator

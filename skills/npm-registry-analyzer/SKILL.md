@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-registry-analyzer/"
+listed: true
 ---
 
 # npm Registry Analyzer

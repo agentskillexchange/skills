@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-manager/"
+listed: true
 ---
 
 # ArgoCD GitOps Sync Manager

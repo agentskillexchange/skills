@@ -11,6 +11,7 @@ source: "https://github.com/jesseduffield/lazydocker"
 tool_ecosystem:
   github_repo: "jesseduffield/lazydocker"
   github_stars: 50476
+listed: true
 ---
 
 # LazyDocker Terminal UI for Docker Management

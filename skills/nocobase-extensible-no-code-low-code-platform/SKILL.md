@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nocobase/nocobase"
+listed: true
 ---
 
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform

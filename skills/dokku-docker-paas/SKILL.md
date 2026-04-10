@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/dokku/dokku"
+listed: true
 ---
 
 # Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS

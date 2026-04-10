@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-airflow-mcp/"
+listed: true
 ---
 
 # Apache Airflow MCP

@@ -11,6 +11,7 @@ source: "https://github.com/prompt-security/clawsec"
 tool_ecosystem:
   github_repo: "prompt-security/clawsec"
   github_stars: 887
+listed: true
 ---
 
 # OpenClaw Security Suite (ClawSec)

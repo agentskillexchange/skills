@@ -11,6 +11,7 @@ source: "https://github.com/opencode-ai/opencode"
 tool_ecosystem:
   github_repo: "opencode-ai/opencode"
   github_stars: 11729
+listed: true
 ---
 
 # OpenCode Multi-Model AI Coding Agent CLI

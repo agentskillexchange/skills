@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/"
+listed: true
 ---
 
 # SonarQube Quality Gate Checker

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/"
+listed: true
 ---
 
 # Datadog Monitor Configuration Agent

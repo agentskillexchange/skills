@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://wordpress.org/plugins/contact-form-7/"
+listed: true
 ---
 
 # Contact Form 7 WordPress Form Builder and Mail Integration

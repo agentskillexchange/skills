@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
+listed: true
 ---
 
 # Terraform Cloud Run Inspector

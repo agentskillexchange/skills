@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zod-schema-generator/"
+listed: true
 ---
 
 # Zod Schema Generator

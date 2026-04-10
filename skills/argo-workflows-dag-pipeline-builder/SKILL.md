@@ -11,6 +11,7 @@ source: "https://github.com/argoproj/argo-workflows"
 tool_ecosystem:
   github_repo: "argoproj/argo-workflows"
   github_stars: 16600
+listed: true
 ---
 
 # Argo Workflows DAG Pipeline Builder

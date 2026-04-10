@@ -11,6 +11,7 @@ source: "https://github.com/sharkdp/pastel"
 tool_ecosystem:
   github_repo: "sharkdp/pastel"
   github_stars: 6301
+listed: true
 ---
 
 # pastel Command-Line Color Generation Analysis and Manipulation Tool

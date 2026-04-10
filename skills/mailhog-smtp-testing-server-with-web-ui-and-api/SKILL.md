@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/mailhog/MailHog"
+listed: true
 ---
 
 # MailHog SMTP Testing Server with Web UI and API

@@ -11,6 +11,7 @@ source: "https://github.com/datalab-to/marker"
 tool_ecosystem:
   github_repo: "datalab-to/marker"
   github_stars: 33237
+listed: true
 ---
 
 # Marker PDF-to-Markdown Converter

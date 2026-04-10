@@ -11,6 +11,7 @@ source: "https://github.com/ollama/ollama"
 tool_ecosystem:
   github_repo: "ollama/ollama"
   github_stars: 167878
+listed: true
 ---
 
 # Ollama Local LLM Runner and Model Server

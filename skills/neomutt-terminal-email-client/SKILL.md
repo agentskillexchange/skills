@@ -11,6 +11,7 @@ source: "https://github.com/neomutt/neomutt"
 tool_ecosystem:
   github_repo: "neomutt/neomutt"
   github_stars: 3685
+listed: true
 ---
 
 # NeoMutt Feature-Rich Terminal Email Client

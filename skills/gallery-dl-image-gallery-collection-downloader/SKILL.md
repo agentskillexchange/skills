@@ -11,6 +11,7 @@ source: "https://github.com/mikf/gallery-dl"
 tool_ecosystem:
   github_repo: "mikf/gallery-dl"
   github_stars: 17470
+listed: true
 ---
 
 # gallery-dl Image Gallery and Collection Downloader

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/seleniumbase/SeleniumBase"
+listed: true
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework

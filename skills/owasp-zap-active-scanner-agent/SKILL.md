@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/"
+listed: true
 ---
 
 # OWASP ZAP Active Scanner Agent

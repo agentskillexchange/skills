@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pylint-code-review-assistant/"
+listed: true
 ---
 
 # Pylint Code Review Assistant

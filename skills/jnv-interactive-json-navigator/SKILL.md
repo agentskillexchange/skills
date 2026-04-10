@@ -11,6 +11,7 @@ source: "https://github.com/ynqa/jnv"
 tool_ecosystem:
   github_repo: "ynqa/jnv"
   github_stars: 5979
+listed: true
 ---
 
 # jnv Interactive JSON Navigator and jq Filter Editor

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
+listed: true
 ---
 
 # Buf Protobuf Linter

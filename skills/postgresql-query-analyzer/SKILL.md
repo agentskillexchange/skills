@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-analyzer/"
+listed: true
 ---
 
 # PostgreSQL Query Analyzer

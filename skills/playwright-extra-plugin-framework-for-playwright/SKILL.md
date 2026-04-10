@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/playwright-extra"
+listed: true
 ---
 
 # playwright-extra Plugin Framework for Playwright

@@ -11,6 +11,7 @@ source: "https://github.com/sxyazi/yazi"
 tool_ecosystem:
   github_repo: "sxyazi/yazi"
   github_stars: 35770
+listed: true
 ---
 
 # Yazi Async Terminal File Manager

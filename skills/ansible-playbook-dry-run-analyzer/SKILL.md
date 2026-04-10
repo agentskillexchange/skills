@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/"
+listed: true
 ---
 
 # Ansible Playbook Dry-Run Analyzer

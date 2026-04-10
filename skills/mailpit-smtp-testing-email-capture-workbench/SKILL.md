@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://mailpit.axllent.org/"
+listed: true
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench

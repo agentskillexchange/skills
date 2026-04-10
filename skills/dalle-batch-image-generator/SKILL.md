@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
+listed: true
 ---
 
 # DALL-E Batch Image Generator

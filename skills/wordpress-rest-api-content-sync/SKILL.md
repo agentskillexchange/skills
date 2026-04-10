@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
+listed: true
 ---
 
 # WordPress REST API Content Sync

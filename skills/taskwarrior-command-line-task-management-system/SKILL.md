@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
+listed: true
 ---
 
 # Taskwarrior Command-Line Task Management System

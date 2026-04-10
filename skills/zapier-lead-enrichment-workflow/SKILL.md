@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/"
+listed: true
 ---
 
 # Zapier Multi-Step Lead Enrichment Workflow

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/"
+listed: true
 ---
 
 # Apache Avro Schema Evolution Agent

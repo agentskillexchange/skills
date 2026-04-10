@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
+listed: true
 ---
 
 # Cypress E2E API Intercept Skill

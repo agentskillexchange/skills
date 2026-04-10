@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-documentation-generator/"
+listed: true
 ---
 
 # REST API Documentation Generator

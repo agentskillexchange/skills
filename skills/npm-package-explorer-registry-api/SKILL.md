@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
+listed: true
 ---
 
 # NPM Package Explorer

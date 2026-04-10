@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/redis-mcp-server/"
+listed: true
 ---
 
 # Redis MCP Server

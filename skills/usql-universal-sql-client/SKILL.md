@@ -11,6 +11,7 @@ source: "https://github.com/xo/usql"
 tool_ecosystem:
   github_repo: "xo/usql"
   github_stars: 9901
+listed: true
 ---
 
 # usql Universal Command-Line SQL Client for Multiple Databases

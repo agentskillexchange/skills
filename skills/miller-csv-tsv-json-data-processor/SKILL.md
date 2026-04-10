@@ -11,6 +11,7 @@ source: "https://github.com/johnkerl/miller"
 tool_ecosystem:
   github_repo: "johnkerl/miller"
   github_stars: 9814
+listed: true
 ---
 
 # Miller CSV TSV JSON Data Processor

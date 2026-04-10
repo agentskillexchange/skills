@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-generator/"
+listed: true
 ---
 
 # Protobuf Documentation Generator

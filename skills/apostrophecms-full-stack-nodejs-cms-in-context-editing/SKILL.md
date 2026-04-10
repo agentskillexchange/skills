@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/apostrophecms/apostrophe"
+listed: true
 ---
 
 # ApostropheCMS Full-Stack Node.js CMS with In-Context Editing

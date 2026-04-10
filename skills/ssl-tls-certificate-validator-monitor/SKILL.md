@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-tls-certificate-validator-monitor/"
+listed: true
 ---
 
 # SSL/TLS Certificate Validator and Monitor

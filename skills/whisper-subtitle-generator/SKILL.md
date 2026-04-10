@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
+listed: true
 ---
 
 # Whisper Subtitle Generator

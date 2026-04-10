@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://learn.microsoft.com/en-us/graph/"
+listed: true
 ---
 
 # Microsoft Graph Calendar Conflict Resolver

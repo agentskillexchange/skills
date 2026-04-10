@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/webpack-bundle-analyzer-agent/"
+listed: true
 ---
 
 # Webpack Bundle Analyzer Agent

@@ -12,6 +12,7 @@ tool_ecosystem:
   github_repo: "clerk/javascript"
   github_stars: 1688
   npm_package: "@clerk/javascript"
+listed: true
 ---
 
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows

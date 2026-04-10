@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostician/"
+listed: true
 ---
 
 # Kubernetes Pod Crash Diagnostician

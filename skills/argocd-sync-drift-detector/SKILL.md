@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-drift-detector/"
+listed: true
 ---
 
 # ArgoCD Sync Drift Detector

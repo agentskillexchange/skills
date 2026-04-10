@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/images"
+listed: true
 ---
 
 # DALL-E 3 Brand Asset Batch Generator

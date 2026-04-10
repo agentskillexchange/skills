@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 34621
   npm_package: "directus"
   npm_weekly_downloads: 20061
+listed: true
 ---
 
 # Directus Open-Source Headless CMS and Backend Platform

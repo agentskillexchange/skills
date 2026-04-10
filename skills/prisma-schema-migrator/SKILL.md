@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
+listed: true
 ---
 
 # Prisma Schema Migrator

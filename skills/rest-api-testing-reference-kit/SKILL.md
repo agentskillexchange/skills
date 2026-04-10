@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
+listed: true
 ---
 
 # REST API Testing Reference Kit

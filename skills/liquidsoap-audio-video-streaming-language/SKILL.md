@@ -11,6 +11,7 @@ source: "https://github.com/savonet/liquidsoap"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
   github_stars: 1638
+listed: true
 ---
 
 # Liquidsoap Audio and Video Streaming Language

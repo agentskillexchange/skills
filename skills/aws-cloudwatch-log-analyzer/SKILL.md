@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/"
+listed: true
 ---
 
 # AWS CloudWatch Log Analyzer

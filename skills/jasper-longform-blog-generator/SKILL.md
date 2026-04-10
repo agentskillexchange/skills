@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
+listed: true
 ---
 
 # Jasper AI Long-Form Blog Post Generator

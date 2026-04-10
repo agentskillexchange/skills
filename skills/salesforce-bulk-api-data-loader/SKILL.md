@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
+listed: true
 ---
 
 # Salesforce Bulk API Data Loader

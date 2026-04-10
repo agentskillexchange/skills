@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitors-skill/"
+listed: true
 ---
 
 # Datadog Monitors Skill

@@ -11,6 +11,7 @@ source: "https://github.com/firecrawl/firecrawl"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl"
   github_stars: 102630
+listed: true
 ---
 
 # Firecrawl Markdown Capture Pipeline

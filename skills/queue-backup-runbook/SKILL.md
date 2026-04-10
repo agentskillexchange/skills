@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
+listed: true
 ---
 
 # Queue Backup Runbook

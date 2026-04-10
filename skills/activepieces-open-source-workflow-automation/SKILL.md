@@ -11,6 +11,7 @@ source: "https://github.com/activepieces/activepieces"
 tool_ecosystem:
   github_repo: "activepieces/activepieces"
   github_stars: 21510
+listed: true
 ---
 
 # Activepieces Open Source Workflow Automation

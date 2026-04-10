@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/"
+listed: true
 ---
 
 # SonarQube Code Quality Scanner

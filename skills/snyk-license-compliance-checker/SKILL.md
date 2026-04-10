@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-license-compliance-checker/"
+listed: true
 ---
 
 # Snyk License Compliance Checker

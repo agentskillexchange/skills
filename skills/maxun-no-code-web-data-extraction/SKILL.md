@@ -11,6 +11,7 @@ source: "https://github.com/getmaxun/maxun"
 tool_ecosystem:
   github_repo: "getmaxun/maxun"
   github_stars: 15319
+listed: true
 ---
 
 # Maxun No-Code Web Data Extraction Platform

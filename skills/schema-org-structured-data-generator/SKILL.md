@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-org-structured-data-generator/"
+listed: true
 ---
 
 # Schema.org Structured Data Generator

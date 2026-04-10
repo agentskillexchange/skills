@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
+listed: true
 ---
 
 # Scrapy Distributed Crawler Framework

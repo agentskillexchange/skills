@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-sync-manager-2/"
+listed: true
 ---
 
 # ArgoCD Application Sync Manager

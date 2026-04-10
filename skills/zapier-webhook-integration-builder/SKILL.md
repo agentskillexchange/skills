@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/zapier-webhook-integration-builder/"
+listed: true
 ---
 
 # Zapier Webhook Integration Builder

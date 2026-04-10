@@ -11,6 +11,7 @@ source: "https://github.com/FiloSottile/age"
 tool_ecosystem:
   github_repo: "FiloSottile/age"
   github_stars: 21824
+listed: true
 ---
 
 # age Modern File Encryption Tool

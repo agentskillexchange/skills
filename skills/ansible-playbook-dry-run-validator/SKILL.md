@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
+listed: true
 ---
 
 # Ansible Playbook Dry Run Validator

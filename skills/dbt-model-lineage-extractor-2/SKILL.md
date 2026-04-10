@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/"
+listed: true
 ---
 
 # dbt Model Lineage Extractor

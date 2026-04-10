@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/miniflux/v2"
+listed: true
 ---
 
 # Miniflux Self-Hosted RSS Feed Reader and Automation API

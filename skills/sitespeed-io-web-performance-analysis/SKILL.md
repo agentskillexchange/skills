@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 4972
   npm_package: "sitespeed.io"
   npm_weekly_downloads: 4605
+listed: true
 ---
 
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-api-surface-extractor/"
+listed: true
 ---
 
 # NPM Package API Surface Extractor

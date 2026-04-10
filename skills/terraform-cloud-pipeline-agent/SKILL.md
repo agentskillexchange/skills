@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-pipeline-agent/"
+listed: true
 ---
 
 # Terraform Cloud Pipeline Agent

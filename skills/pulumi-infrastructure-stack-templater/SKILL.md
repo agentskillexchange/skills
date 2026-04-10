@@ -11,6 +11,7 @@ source: "https://github.com/pulumi/pulumi"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 24984
+listed: true
 ---
 
 # Pulumi Infrastructure Stack Templater

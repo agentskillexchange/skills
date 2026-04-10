@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jinja2-infrastructure-template-engine/"
+listed: true
 ---
 
 # Jinja2 Infrastructure Template Engine

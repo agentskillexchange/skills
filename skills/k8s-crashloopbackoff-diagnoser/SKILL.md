@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/"
+listed: true
 ---
 
 # Kubernetes CrashLoopBackOff Diagnoser

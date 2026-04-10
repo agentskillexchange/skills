@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/highlight/highlight"
+listed: true
 ---
 
 # Highlight.io Open Source Full-Stack Monitoring Platform

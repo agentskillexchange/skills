@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
+listed: true
 ---
 
 # Todoist GTD Workflow Automator

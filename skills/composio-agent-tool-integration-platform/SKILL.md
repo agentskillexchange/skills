@@ -11,6 +11,7 @@ source: "https://github.com/ComposioHQ/composio"
 tool_ecosystem:
   github_repo: "ComposioHQ/composio"
   github_stars: 27601
+listed: true
 ---
 
 # Composio Agent Tool Integration Platform

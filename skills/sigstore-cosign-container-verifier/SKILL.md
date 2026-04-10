@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
+listed: true
 ---
 
 # Sigstore Cosign Container Verifier

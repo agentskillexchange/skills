@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/storybook-component-tester/"
+listed: true
 ---
 
 # Storybook Component Tester

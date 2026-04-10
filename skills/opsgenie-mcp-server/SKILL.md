@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 24
   npm_package: "opsgenie-sdk"
   npm_weekly_downloads: 7891
+listed: true
 ---
 
 # OpsGenie MCP Server

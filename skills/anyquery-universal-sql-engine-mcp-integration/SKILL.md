@@ -11,6 +11,7 @@ source: "https://github.com/julien040/anyquery"
 tool_ecosystem:
   github_repo: "julien040/anyquery"
   github_stars: 1655
+listed: true
 ---
 
 # Anyquery Universal SQL Engine with MCP Integration

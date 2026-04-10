@@ -11,6 +11,7 @@ source: "https://github.com/certbot/certbot"
 tool_ecosystem:
   github_repo: "certbot/certbot"
   github_stars: 32972
+listed: true
 ---
 
 # WP Multisite Domain Mapping Agent

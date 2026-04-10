@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-integration-2/"
+listed: true
 ---
 
 # GitLab CI Integration

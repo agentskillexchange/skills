@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
+listed: true
 ---
 
 # SonarQube Gate Checker

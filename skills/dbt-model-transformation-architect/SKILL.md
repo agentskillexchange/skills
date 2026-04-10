@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-transformation-architect/"
+listed: true
 ---
 
 # dbt Model Transformation Architect

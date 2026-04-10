@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-pipeline/"
+listed: true
 ---
 
 # SerpAPI Search Pipeline

@@ -11,6 +11,7 @@ source: "https://github.com/go-task/task"
 tool_ecosystem:
   github_repo: "go-task/task"
   github_stars: 15242
+listed: true
 ---
 
 # Task Taskfile Build Automation Runner

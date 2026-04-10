@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/gotify/server"
+listed: true
 ---
 
 # Gotify Self-Hosted Push Notification Server and API

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Infisical/infisical"
+listed: true
 ---
 
 # Infisical Open-Source Secret Management Platform

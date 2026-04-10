@@ -11,6 +11,7 @@ source: "https://github.com/scrapy/scrapy"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61252
+listed: true
 ---
 
 # Scrapy Python Web Crawling and Structured Data Extraction Framework

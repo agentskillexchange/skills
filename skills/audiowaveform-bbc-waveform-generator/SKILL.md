@@ -11,6 +11,7 @@ source: "https://github.com/bbc/audiowaveform"
 tool_ecosystem:
   github_repo: "bbc/audiowaveform"
   github_stars: 2130
+listed: true
 ---
 
 # audiowaveform Audio Waveform Data Generator and Image Renderer

@@ -11,6 +11,7 @@ source: "https://github.com/xataio/pgroll"
 tool_ecosystem:
   github_repo: "xataio/pgroll"
   github_stars: 6408
+listed: true
 ---
 
 # pgroll PostgreSQL Zero-Downtime Schema Migration

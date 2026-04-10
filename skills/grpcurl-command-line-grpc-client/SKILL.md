@@ -11,6 +11,7 @@ source: "https://github.com/fullstorydev/grpcurl"
 tool_ecosystem:
   github_repo: "fullstorydev/grpcurl"
   github_stars: 12548
+listed: true
 ---
 
 # grpcurl Command-Line gRPC Client

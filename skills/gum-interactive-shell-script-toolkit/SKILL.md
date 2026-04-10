@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/gum"
 tool_ecosystem:
   github_repo: "charmbracelet/gum"
   github_stars: 23196
+listed: true
 ---
 
 # Gum Interactive Shell Script Toolkit

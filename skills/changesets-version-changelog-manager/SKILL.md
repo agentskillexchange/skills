@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 11620
   npm_package: "@changesets/cli"
   npm_weekly_downloads: 2332817
+listed: true
 ---
 
 # Changesets Version and Changelog Manager

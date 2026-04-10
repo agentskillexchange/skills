@@ -11,6 +11,7 @@ source: "https://github.com/laramies/theHarvester"
 tool_ecosystem:
   github_repo: "laramies/theHarvester"
   github_stars: 15942
+listed: true
 ---
 
 # theHarvester OSINT Email and Subdomain Intelligence Gatherer

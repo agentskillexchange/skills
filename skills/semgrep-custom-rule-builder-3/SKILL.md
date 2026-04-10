@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/"
+listed: true
 ---
 
 # Semgrep Custom Rule Builder

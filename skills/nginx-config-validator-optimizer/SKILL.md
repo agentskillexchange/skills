@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-config-validator-optimizer/"
+listed: true
 ---
 
 # Nginx Config Validator and Optimizer

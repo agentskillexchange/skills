@@ -11,6 +11,7 @@ source: "https://github.com/open-policy-agent/conftest"
 tool_ecosystem:
   github_repo: "open-policy-agent/conftest"
   github_stars: 3151
+listed: true
 ---
 
 # Conftest Structured Configuration Policy Testing with OPA Rego

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://platform.openai.com/docs/api-reference"
+listed: true
 ---
 
 # AI Meta Description Generator

@@ -11,6 +11,7 @@ source: "https://github.com/mautic/mautic"
 tool_ecosystem:
   github_repo: "mautic/mautic"
   github_stars: 9387
+listed: true
 ---
 
 # Mautic Open Source Marketing Automation Platform

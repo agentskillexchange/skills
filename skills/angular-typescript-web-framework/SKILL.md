@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/angular/angular"
 tool_ecosystem:
   github_repo: "angular/angular"
   github_stars: 100106
+listed: true
 ---
 
 # Angular — TypeScript Web Application Framework by Google

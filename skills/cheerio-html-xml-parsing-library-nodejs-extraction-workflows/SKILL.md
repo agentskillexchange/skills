@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/cheeriojs/cheerio"
+listed: true
 ---
 
 # Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows

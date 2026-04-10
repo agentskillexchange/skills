@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bazel-build-graph-analyzer/"
+listed: true
 ---
 
 # Bazel Build Graph Analyzer

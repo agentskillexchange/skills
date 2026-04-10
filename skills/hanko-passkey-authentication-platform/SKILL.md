@@ -11,6 +11,7 @@ source: "https://github.com/teamhanko/hanko"
 tool_ecosystem:
   github_repo: "teamhanko/hanko"
   github_stars: 8893
+listed: true
 ---
 
 # Hanko Open Source Passkey Authentication and User Management

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-task-generator/"
+listed: true
 ---
 
 # Tekton Pipeline Task Generator

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-design-token-extractor-3/"
+listed: true
 ---
 
 # Figma Design Token Extractor

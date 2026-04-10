@@ -11,6 +11,7 @@ source: "https://github.com/adnanh/webhook"
 tool_ecosystem:
   github_repo: "adnanh/webhook"
   github_stars: 11718
+listed: true
 ---
 
 # Webhook Lightweight HTTP Endpoint Server for Shell Command Execution

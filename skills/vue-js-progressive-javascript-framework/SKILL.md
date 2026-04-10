@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/vuejs/core"
 tool_ecosystem:
   github_repo: "vuejs/core"
   github_stars: 53379
+listed: true
 ---
 
 # Vue.js — Progressive JavaScript Framework for Building UIs

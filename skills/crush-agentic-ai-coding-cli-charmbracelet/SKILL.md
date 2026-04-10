@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/crush"
 tool_ecosystem:
   github_repo: "charmbracelet/crush"
   github_stars: 22213
+listed: true
 ---
 
 # Crush Agentic AI Coding CLI by Charmbracelet

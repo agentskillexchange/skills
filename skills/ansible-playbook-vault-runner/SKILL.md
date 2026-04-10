@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-vault-runner/"
+listed: true
 ---
 
 # Ansible Playbook Runner with Vault Secrets

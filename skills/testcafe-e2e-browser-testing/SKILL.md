@@ -6,8 +6,9 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/DevExpress/testcafe"
+listed: true
 ---
 
 # TestCafe Zero-Config End-to-End Browser Testing Framework

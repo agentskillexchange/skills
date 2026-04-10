@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-optimizer/"
+listed: true
 ---
 
 # GitLab CI/CD Pipeline Optimizer

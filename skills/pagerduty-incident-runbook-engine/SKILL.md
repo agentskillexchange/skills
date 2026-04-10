@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/"
+listed: true
 ---
 
 # PagerDuty Incident Runbook Engine

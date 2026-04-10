@@ -11,6 +11,7 @@ source: "https://github.com/junegunn/fzf"
 tool_ecosystem:
   github_repo: "junegunn/fzf"
   github_stars: 79165
+listed: true
 ---
 
 # fzf Command-Line Fuzzy Finder

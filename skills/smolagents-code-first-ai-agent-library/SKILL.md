@@ -11,6 +11,7 @@ source: "https://github.com/huggingface/smolagents"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355
+listed: true
 ---
 
 # smolagents Code-First AI Agent Library

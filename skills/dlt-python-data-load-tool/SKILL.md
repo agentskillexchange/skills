@@ -11,6 +11,7 @@ source: "https://github.com/dlt-hub/dlt"
 tool_ecosystem:
   github_repo: "dlt-hub/dlt"
   github_stars: 5161
+listed: true
 ---
 
 # dlt Python Data Load Tool

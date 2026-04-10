@@ -11,6 +11,7 @@ source: "https://github.com/Budibase/budibase"
 tool_ecosystem:
   github_repo: "Budibase/budibase"
   github_stars: 27811
+listed: true
 ---
 
 # Budibase Open Source Low-Code Operations App Platform

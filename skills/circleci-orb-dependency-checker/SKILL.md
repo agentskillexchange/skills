@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-checker/"
+listed: true
 ---
 
 # CircleCI Orb Dependency Checker

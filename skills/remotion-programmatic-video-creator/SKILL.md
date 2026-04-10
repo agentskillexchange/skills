@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 41477
   npm_package: "remotion"
   npm_weekly_downloads: 492157
+listed: true
 ---
 
 # Remotion Programmatic Video Creator

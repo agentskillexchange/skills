@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/strapi/strapi"
+listed: true
 ---
 
 # Strapi Open Source Headless CMS for Custom Content APIs

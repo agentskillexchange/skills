@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/"
+listed: true
 ---
 
 # HashiCorp Vault Secrets Rotation Agent

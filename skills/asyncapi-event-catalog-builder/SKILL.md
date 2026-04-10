@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/"
+listed: true
 ---
 
 # AsyncAPI Event Catalog Builder

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
+listed: true
 ---
 
 # Prometheus Alert Rule Builder

@@ -11,6 +11,7 @@ source: "https://github.com/electric-sql/pglite"
 tool_ecosystem:
   github_repo: "electric-sql/pglite"
   github_stars: 14984
+listed: true
 ---
 
 # PGlite Embeddable WASM Postgres for Browser and Node.js

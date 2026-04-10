@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/electric-sql/electric"
+listed: true
 ---
 
 # ElectricSQL Real-Time Postgres Sync Engine

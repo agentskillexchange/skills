@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/discord-moderation-ai-classification/"
+listed: true
 ---
 
 # Discord Moderation Bot with AI Classification

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-image-layer-size-analyzer/"
+listed: true
 ---
 
 # Docker Image Layer Size Analyzer

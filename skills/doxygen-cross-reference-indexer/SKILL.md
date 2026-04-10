@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/"
+listed: true
 ---
 
 # Doxygen Cross-Reference Indexer

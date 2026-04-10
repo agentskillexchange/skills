@@ -11,6 +11,7 @@ source: "https://github.com/epi052/feroxbuster"
 tool_ecosystem:
   github_repo: "epi052/feroxbuster"
   github_stars: 7645
+listed: true
 ---
 
 # Feroxbuster Fast Recursive Content Discovery Tool in Rust

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
+listed: true
 ---
 
 # WPGraphQL Smart Cache for Headless WordPress

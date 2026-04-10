@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/toeverything/AFFiNE"
+listed: true
 ---
 
 # AFFiNE Knowledge Base and Collaborative Workspace Platform

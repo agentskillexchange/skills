@@ -11,6 +11,7 @@ source: "https://github.com/brave/brave-search-mcp-server"
 tool_ecosystem:
   github_repo: "brave/brave-search-mcp-server"
   github_stars: 854
+listed: true
 ---
 
 # Brave Search MCP Server for AI Web Search

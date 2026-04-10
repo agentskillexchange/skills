@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/"
+listed: true
 ---
 
 # Microsoft Graph Email Triage Assistant

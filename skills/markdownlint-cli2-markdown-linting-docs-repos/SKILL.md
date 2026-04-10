@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/DavidAnson/markdownlint-cli2"
+listed: true
 ---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos

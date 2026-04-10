@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
+listed: true
 ---
 
 # GraphQL Schema Introspection Mapper

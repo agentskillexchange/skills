@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/"
+listed: true
 ---
 
 # GitLab CI Pipeline Debugger

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/technical-seo-audit-crawler/"
+listed: true
 ---
 
 # Technical SEO Audit Crawler

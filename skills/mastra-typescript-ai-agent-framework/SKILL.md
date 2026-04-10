@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 22557
   npm_package: "mastra"
   npm_weekly_downloads: 230286
+listed: true
 ---
 
 # Mastra TypeScript AI Agent Framework

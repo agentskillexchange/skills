@@ -11,6 +11,7 @@ source: "https://github.com/remotion-dev/remotion"
 tool_ecosystem:
   github_repo: "remotion-dev/remotion"
   github_stars: 42485
+listed: true
 ---
 
 # Remotion React Video Generation and Rendering Framework

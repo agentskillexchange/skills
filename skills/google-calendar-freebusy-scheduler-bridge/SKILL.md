@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://developers.google.com/calendar/api"
+listed: true
 ---
 
 # Google Calendar FreeBusy Scheduler Bridge

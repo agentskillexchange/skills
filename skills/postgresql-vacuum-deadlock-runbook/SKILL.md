@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/"
+listed: true
 ---
 
 # PostgreSQL Vacuum Deadlock Runbook

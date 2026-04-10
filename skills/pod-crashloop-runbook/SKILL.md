@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pod-crashloop-runbook/"
+listed: true
 ---
 
 # Pod CrashLoop Runbook

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-builder-skill/"
+listed: true
 ---
 
 # GitHub Actions Workflow Builder

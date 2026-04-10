@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/"
+listed: true
 ---
 
 # Pulumi Drift Detector & Reconciler

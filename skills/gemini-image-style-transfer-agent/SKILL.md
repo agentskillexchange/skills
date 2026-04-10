@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
+listed: true
 ---
 
 # Gemini Image Style Transfer Agent

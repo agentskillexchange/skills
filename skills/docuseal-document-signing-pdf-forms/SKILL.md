@@ -11,6 +11,7 @@ source: "https://github.com/docusealco/docuseal"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
   github_stars: 11695
+listed: true
 ---
 
 # DocuSeal Open Source Document Signing and PDF Form Platform

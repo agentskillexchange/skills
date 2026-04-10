@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/"
+listed: true
 ---
 
 # PagerDuty On-Call Escalation Checker

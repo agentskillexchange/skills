@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-linter/"
+listed: true
 ---
 
 # Argo Workflows Linter

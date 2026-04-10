@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-multi-tab-session-manager/"
+listed: true
 ---
 
 # Puppeteer Multi-Tab Session Manager

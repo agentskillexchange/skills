@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
+listed: true
 ---
 
 # ArgoCD Sync Wave Orchestrator

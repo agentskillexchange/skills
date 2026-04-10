@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 983
   npm_package: "mongodb-mcp-server"
   npm_weekly_downloads: 33039
+listed: true
 ---
 
 # MongoDB MCP Server for Database and Atlas Management

@@ -11,6 +11,7 @@ source: "https://github.com/get-convex/convex-backend"
 tool_ecosystem:
   github_repo: "get-convex/convex-backend"
   github_stars: 11179
+listed: true
 ---
 
 # Convex Open Source Reactive Database and Backend Platform

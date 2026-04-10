@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/libAudioFlux/audioFlux"
+listed: true
 ---
 
 # audioFlux Audio and Music Analysis Feature Extraction Library

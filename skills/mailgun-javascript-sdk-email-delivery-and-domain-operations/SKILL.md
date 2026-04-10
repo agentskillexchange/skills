@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/mailgun/mailgun.js"
+listed: true
 ---
 
 # Mailgun JavaScript SDK for Email Delivery and Domain Operations

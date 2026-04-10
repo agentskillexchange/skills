@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
+listed: true
 ---
 
 # GitLab CI Template Library

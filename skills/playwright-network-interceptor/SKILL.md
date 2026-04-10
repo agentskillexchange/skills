@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
+listed: true
 ---
 
 # Playwright Network Interceptor

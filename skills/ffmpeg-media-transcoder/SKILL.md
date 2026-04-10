@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-media-transcoder/"
+listed: true
 ---
 
 # FFmpeg Media Transcoder

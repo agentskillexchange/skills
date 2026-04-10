@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/"
+listed: true
 ---
 
 # Systemd Service Recovery Playbook

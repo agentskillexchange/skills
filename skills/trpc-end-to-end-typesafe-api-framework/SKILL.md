@@ -11,6 +11,7 @@ source: "https://github.com/trpc/trpc"
 tool_ecosystem:
   github_repo: "trpc/trpc"
   github_stars: 39862
+listed: true
 ---
 
 # tRPC End-to-End Typesafe API Framework

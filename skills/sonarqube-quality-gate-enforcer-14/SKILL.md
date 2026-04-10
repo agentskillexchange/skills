@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/"
+listed: true
 ---
 
 # SonarQube Quality Gate Enforcer

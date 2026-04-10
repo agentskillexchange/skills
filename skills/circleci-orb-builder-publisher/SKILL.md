@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-builder-publisher/"
+listed: true
 ---
 
 # CircleCI Orb Builder and Publisher

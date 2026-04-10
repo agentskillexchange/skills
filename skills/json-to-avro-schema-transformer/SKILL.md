@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
+listed: true
 ---
 
 # JSON-to-Avro Schema Transformer

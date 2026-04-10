@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/requarks/wiki"
+listed: true
 ---
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js

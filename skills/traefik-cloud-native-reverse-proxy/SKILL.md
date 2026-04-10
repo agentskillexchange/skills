@@ -11,6 +11,7 @@ source: "https://github.com/traefik/traefik"
 tool_ecosystem:
   github_repo: "traefik/traefik"
   github_stars: 62473
+listed: true
 ---
 
 # Traefik Cloud-Native Application Proxy and Reverse Proxy

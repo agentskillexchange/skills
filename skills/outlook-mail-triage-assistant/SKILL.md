@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/outlook-mail-triage-assistant/"
+listed: true
 ---
 
 # Outlook Mail Triage Assistant

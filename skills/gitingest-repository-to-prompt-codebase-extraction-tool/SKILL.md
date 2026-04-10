@@ -11,6 +11,7 @@ source: "https://github.com/coderamp-labs/gitingest"
 tool_ecosystem:
   github_repo: "coderamp-labs/gitingest"
   github_stars: 14266
+listed: true
 ---
 
 # Gitingest Repository-to-Prompt Codebase Extraction Tool

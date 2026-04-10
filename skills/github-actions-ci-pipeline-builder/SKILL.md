@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/"
+listed: true
 ---
 
 # GitHub Actions CI Pipeline Builder

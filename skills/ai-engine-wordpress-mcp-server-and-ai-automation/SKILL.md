@@ -11,6 +11,7 @@ source: "https://github.com/jordymeow/ai-engine"
 tool_ecosystem:
   github_repo: "jordymeow/ai-engine"
   github_stars: 37
+listed: true
 ---
 
 # AI Engine WordPress MCP Server and AI Automation

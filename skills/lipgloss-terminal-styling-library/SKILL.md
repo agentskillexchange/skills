@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/lipgloss"
+listed: true
 ---
 
 # Lip Gloss CSS-Like Terminal Styling Library for Go

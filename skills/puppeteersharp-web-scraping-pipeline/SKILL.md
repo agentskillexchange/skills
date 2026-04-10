@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/"
+listed: true
 ---
 
 # PuppeteerSharp Web Scraping Pipeline

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postman-collection-runner/"
+listed: true
 ---
 
 # Postman Collection Runner

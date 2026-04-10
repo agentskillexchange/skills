@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/SigNoz/signoz"
+listed: true
 ---
 
 # SigNoz Open-Source Observability Platform

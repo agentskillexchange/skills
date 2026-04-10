@@ -11,6 +11,7 @@ source: "https://github.com/exa-labs/exa-js"
 tool_ecosystem:
   github_repo: "exa-labs/exa-js"
   github_stars: 125
+listed: true
 ---
 
 # Exa JS Web Search SDK for AI Applications

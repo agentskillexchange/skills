@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/appsmithorg/appsmith"
+listed: true
 ---
 
 # Appsmith Open Source Internal Tools and Admin Panel Builder

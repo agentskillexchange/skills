@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/daijro/camoufox"
+listed: true
 ---
 
 # Camoufox Open Source Anti-Detect Browser for Python Automation

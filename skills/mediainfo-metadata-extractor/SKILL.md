@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mediainfo-metadata-extractor/"
+listed: true
 ---
 
 # MediaInfo Metadata Extractor

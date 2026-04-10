@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/"
+listed: true
 ---
 
 # Sharp Image CDN Optimizer

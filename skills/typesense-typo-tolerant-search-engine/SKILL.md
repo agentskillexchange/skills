@@ -11,6 +11,7 @@ source: "https://github.com/typesense/typesense"
 tool_ecosystem:
   github_repo: "typesense/typesense"
   github_stars: 25500
+listed: true
 ---
 
 # Typesense Typo-Tolerant Search Engine

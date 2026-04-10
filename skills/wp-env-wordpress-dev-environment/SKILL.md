@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/@wordpress/env"
+listed: true
 ---
 
 # wp-env Zero-Config WordPress Development Environment

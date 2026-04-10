@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
+listed: true
 ---
 
 # Swagger OpenAPI Schema Validator

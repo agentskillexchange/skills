@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/"
+listed: true
 ---
 
 # Grafana Dashboard JSON Assembler

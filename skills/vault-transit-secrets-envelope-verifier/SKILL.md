@@ -11,6 +11,7 @@ source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
   github_stars: 35321
+listed: true
 ---
 
 # Vault Transit Secrets Envelope Verifier

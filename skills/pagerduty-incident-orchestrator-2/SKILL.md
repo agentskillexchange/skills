@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
+listed: true
 ---
 
 # PagerDuty Incident Orchestrator

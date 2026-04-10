@@ -11,6 +11,7 @@ source: "https://github.com/TomWright/dasel"
 tool_ecosystem:
   github_repo: "TomWright/dasel"
   github_stars: 7892
+listed: true
 ---
 
 # Dasel Multi-Format Data Selector and Modifier

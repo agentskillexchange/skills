@@ -11,6 +11,7 @@ source: "https://github.com/open-webui/open-webui"
 tool_ecosystem:
   github_repo: "open-webui/open-webui"
   github_stars: 130412
+listed: true
 ---
 
 # Open WebUI Self-Hosted AI Interface for LLMs

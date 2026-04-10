@@ -11,6 +11,7 @@ source: "https://github.com/chartdb/chartdb"
 tool_ecosystem:
   github_repo: "chartdb/chartdb"
   github_stars: 21734
+listed: true
 ---
 
 # ChartDB Database Schema Visualization and Diagram Editor

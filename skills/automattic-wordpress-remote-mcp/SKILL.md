@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 131
   npm_package: "@automattic/mcp-wordpress-remote"
   npm_weekly_downloads: 2521
+listed: true
 ---
 
 # Automattic WordPress Remote MCP

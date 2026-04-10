@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
+listed: true
 ---
 
 # Twilio Programmable Voice Router

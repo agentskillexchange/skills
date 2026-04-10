@@ -11,6 +11,7 @@ source: "https://github.com/insanum/gcalcli"
 tool_ecosystem:
   github_repo: "insanum/gcalcli"
   github_stars: 3678
+listed: true
 ---
 
 # gcalcli Google Calendar Command Line Interface

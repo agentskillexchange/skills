@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
+listed: true
 ---
 
 # Notion AI Document Summarizer & Action Item Extractor

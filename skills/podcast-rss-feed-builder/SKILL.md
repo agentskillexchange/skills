@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
+listed: true
 ---
 
 # Podcast RSS Feed Builder

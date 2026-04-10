@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/"
+listed: true
 ---
 
 # ElevenLabs Voice Cloning Agent

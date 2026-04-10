@@ -11,6 +11,7 @@ source: "https://github.com/towfiqi/serpbear"
 tool_ecosystem:
   github_repo: "towfiqi/serpbear"
   github_stars: 1890
+listed: true
 ---
 
 # SerpBear Self-Hosted Search Engine Rank Tracking App

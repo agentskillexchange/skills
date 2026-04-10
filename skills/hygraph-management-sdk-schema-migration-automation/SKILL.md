@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/hygraph/management-sdk"
+listed: true
 ---
 
 # Hygraph Management SDK for Schema Migration Automation

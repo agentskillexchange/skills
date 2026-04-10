@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
+listed: true
 ---
 
 # Nginx Error Log Parser

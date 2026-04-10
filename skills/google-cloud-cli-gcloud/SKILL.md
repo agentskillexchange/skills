@@ -6,8 +6,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://cloud.google.com/sdk"
+listed: true
 ---
 
 # Google Cloud CLI (gcloud) — Command-Line Interface for GCP

@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/pop"
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
   github_stars: 2809
+listed: true
 ---
 
 # Pop Terminal Email Sender and TUI by Charmbracelet

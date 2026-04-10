@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/"
+listed: true
 ---
 
 # Cloudinary Asset Optimization Agent

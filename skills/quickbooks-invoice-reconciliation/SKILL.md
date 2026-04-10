@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/"
+listed: true
 ---
 
 # QuickBooks Online Invoice Reconciliation Agent

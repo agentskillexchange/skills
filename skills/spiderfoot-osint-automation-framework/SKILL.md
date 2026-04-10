@@ -11,6 +11,7 @@ source: "https://github.com/smicallef/spiderfoot"
 tool_ecosystem:
   github_repo: "smicallef/spiderfoot"
   github_stars: 17241
+listed: true
 ---
 
 # SpiderFoot Open Source Intelligence Automation Framework

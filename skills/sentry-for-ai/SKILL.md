@@ -13,6 +13,7 @@ source: "https://github.com/getsentry/sentry-for-ai"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
   github_stars: 105
+listed: true
 ---
 
 # Sentry for AI

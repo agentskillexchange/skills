@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api"
+listed: true
 ---
 
 # Gmail API Thread Label Triage

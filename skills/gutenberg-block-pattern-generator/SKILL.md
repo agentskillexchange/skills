@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/"
+listed: true
 ---
 
 # Gutenberg Block Pattern Generator

@@ -11,6 +11,7 @@ source: "https://github.com/astral-sh/uv"
 tool_ecosystem:
   github_repo: "astral-sh/uv"
   github_stars: 82442
+listed: true
 ---
 
 # uv Ultra-Fast Python Package and Project Manager

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-cli-site-migration-automator/"
+listed: true
 ---
 
 # WP-CLI Site Migration Automator

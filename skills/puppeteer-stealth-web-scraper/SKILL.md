@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/"
+listed: true
 ---
 
 # Puppeteer Stealth Web Scraper

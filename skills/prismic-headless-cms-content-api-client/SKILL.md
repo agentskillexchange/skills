@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/prismicio/prismic-client"
+listed: true
 ---
 
 # Prismic Headless CMS Content API Client

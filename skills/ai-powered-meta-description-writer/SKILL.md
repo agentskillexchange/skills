@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-powered-meta-description-writer/"
+listed: true
 ---
 
 # AI-Powered Meta Description Writer

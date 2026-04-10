@@ -11,6 +11,7 @@ source: "https://github.com/backstage/backstage"
 tool_ecosystem:
   github_repo: "backstage/backstage"
   github_stars: 33052
+listed: true
 ---
 
 # Backstage Software Template Composer

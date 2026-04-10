@@ -11,6 +11,7 @@ source: "https://github.com/gristlabs/grist-core"
 tool_ecosystem:
   github_repo: "gristlabs/grist-core"
   github_stars: 10827
+listed: true
 ---
 
 # Grist Self-Hosted Relational Spreadsheet and Database Platform

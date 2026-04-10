@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-custom-block-builder/"
+listed: true
 ---
 
 # Gutenberg Custom Block Builder

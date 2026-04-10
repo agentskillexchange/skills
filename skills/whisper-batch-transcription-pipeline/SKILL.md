@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/"
+listed: true
 ---
 
 # OpenAI Whisper Batch Transcription Pipeline

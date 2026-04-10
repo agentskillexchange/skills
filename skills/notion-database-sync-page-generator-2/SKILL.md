@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/"
+listed: true
 ---
 
 # Notion Database Sync & Page Generator

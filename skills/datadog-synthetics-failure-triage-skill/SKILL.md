@@ -11,6 +11,7 @@ source: "https://github.com/DataDog/datadog-api-client-python"
 tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-python"
   github_stars: 158
+listed: true
 ---
 
 # Datadog Synthetics Failure Triage Skill

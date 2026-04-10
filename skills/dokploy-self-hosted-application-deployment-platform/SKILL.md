@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Dokploy/dokploy"
+listed: true
 ---
 
 # Dokploy Self-Hosted Application Deployment Platform

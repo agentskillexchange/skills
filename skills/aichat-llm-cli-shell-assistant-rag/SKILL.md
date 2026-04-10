@@ -11,6 +11,7 @@ source: "https://github.com/sigoden/aichat"
 tool_ecosystem:
   github_repo: "sigoden/aichat"
   github_stars: 9754
+listed: true
 ---
 
 # AIChat All-in-One LLM CLI with Shell Assistant and RAG

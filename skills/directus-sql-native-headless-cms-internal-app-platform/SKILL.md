@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/directus/directus"
+listed: true
 ---
 
 # Directus SQL-Native Headless CMS and Internal App Platform

@@ -12,6 +12,7 @@ source: "https://github.com/dagster-io/dagster"
 tool_ecosystem:
   github_repo: "dagster-io/dagster"
   github_stars: 15257
+listed: true
 ---
 
 # Dagster Data Pipeline Orchestrator

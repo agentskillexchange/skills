@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
+listed: true
 ---
 
 # Ruff Linter Configuration Architect

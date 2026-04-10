@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/"
+listed: true
 ---
 
 # Surfer SEO Content Optimizer Integration

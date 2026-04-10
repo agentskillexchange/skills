@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/otel-collector-pipeline-designer/"
+listed: true
 ---
 
 # OpenTelemetry Collector Pipeline Designer

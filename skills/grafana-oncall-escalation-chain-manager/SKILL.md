@@ -11,6 +11,7 @@ source: "https://github.com/grafana/oncall"
 tool_ecosystem:
   github_repo: "grafana/oncall"
   github_stars: 3880
+listed: true
 ---
 
 # Grafana OnCall Escalation Chain Manager

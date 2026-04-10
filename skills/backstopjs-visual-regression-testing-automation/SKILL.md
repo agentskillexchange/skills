@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 7116
   npm_package: "backstopjs"
   npm_weekly_downloads: 57990
+listed: true
 ---
 
 # BackstopJS Visual Regression Testing Automation

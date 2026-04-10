@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-linter-docs-generator/"
+listed: true
 ---
 
 # OpenAPI Spec Linter & Docs Generator

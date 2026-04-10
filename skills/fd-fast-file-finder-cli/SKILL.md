@@ -11,6 +11,7 @@ source: "https://github.com/sharkdp/fd"
 tool_ecosystem:
   github_repo: "sharkdp/fd"
   github_stars: 42280
+listed: true
 ---
 
 # fd Fast File Finder CLI

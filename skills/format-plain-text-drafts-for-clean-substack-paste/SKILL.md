@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter"
+listed: true
 ---
 
 # Format plain-text drafts for clean Substack paste

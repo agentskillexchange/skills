@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://pubmed.ncbi.nlm.nih.gov/"
+listed: true
 ---
 
 # PubMed Literature Mining Agent

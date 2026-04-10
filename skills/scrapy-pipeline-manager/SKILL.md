@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-manager/"
+listed: true
 ---
 
 # Scrapy Pipeline Manager

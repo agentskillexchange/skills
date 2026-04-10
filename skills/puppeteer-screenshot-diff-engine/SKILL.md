@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-screenshot-diff-engine/"
+listed: true
 ---
 
 # Puppeteer Screenshot Diff Engine

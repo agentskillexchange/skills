@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
+listed: true
 ---
 
 # AWS CloudWatch Insights Query Builder

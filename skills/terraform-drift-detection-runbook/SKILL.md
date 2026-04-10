@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-drift-detection-runbook/"
+listed: true
 ---
 
 # Terraform Drift Detection Runbook

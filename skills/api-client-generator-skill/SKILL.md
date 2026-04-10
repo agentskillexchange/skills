@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/api-client-generator-skill/"
+listed: true
 ---
 
 # API Client Generator Skill

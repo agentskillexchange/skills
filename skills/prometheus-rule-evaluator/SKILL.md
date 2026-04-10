@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
+listed: true
 ---
 
 # Prometheus Rule Evaluator

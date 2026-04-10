@@ -11,6 +11,7 @@ source: "https://github.com/roots/bedrock"
 tool_ecosystem:
   github_repo: "roots/bedrock"
   github_stars: 6498
+listed: true
 ---
 
 # Bedrock Modern WordPress Project Boilerplate by Roots

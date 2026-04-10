@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
+listed: true
 ---
 
 # Ahrefs Backlink Content Planner

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/solidtime-io/solidtime"
+listed: true
 ---
 
 # solidtime Modern Open Source Time Tracking for Freelancers and Agencies

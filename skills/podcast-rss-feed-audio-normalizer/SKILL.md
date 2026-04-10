@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-audio-normalizer/"
+listed: true
 ---
 
 # Podcast RSS Feed Audio Normalizer

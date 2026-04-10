@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/jsvine/pdfplumber"
+listed: true
 ---
 
 # pdfplumber Python PDF Text and Table Extraction Library

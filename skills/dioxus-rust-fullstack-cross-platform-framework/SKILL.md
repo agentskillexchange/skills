@@ -11,6 +11,7 @@ source: "https://github.com/DioxusLabs/dioxus"
 tool_ecosystem:
   github_repo: "DioxusLabs/dioxus"
   github_stars: 35577
+listed: true
 ---
 
 # Dioxus Rust Fullstack Cross-Platform Application Framework

@@ -11,6 +11,7 @@ source: "https://github.com/zapier/zapier-platform"
 tool_ecosystem:
   github_repo: "zapier/zapier-platform"
   github_stars: 484
+listed: true
 ---
 
 # Zapier Webhooks by Zapier Router

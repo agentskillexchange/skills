@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
+listed: true
 ---
 
 # Dockerfile Security Hardening Advisor

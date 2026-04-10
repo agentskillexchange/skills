@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
+listed: true
 ---
 
 # OAuth2 Flow Debugger

@@ -11,6 +11,7 @@ source: "https://github.com/thumbor/thumbor"
 tool_ecosystem:
   github_repo: "thumbor/thumbor"
   github_stars: 10470
+listed: true
 ---
 
 # Thumbor Smart Image Processing Service

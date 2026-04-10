@@ -11,6 +11,7 @@ source: "https://github.com/usebruno/bruno"
 tool_ecosystem:
   github_repo: "usebruno/bruno"
   github_stars: 42477
+listed: true
 ---
 
 # Bruno Git-Native API Client for Testing and Exploration

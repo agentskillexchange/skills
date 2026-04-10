@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-template-generator/"
+listed: true
 ---
 
 # Tekton Pipeline Template Generator

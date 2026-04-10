@@ -11,6 +11,7 @@ source: "https://github.com/block/goose"
 tool_ecosystem:
   github_repo: "block/goose"
   github_stars: 33898
+listed: true
 ---
 
 # Goose Extensible AI Coding Agent by Block

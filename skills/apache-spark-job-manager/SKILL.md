@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
+listed: true
 ---
 
 # Apache Spark Job Manager

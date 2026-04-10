@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/obsidian-vault-manager/"
+listed: true
 ---
 
 # Obsidian Vault Manager

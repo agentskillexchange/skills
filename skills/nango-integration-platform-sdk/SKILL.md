@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/NangoHQ/nango"
+listed: true
 ---
 
 # Nango Integration Platform SDK

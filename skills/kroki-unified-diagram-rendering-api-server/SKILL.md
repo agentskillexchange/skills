@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/yuzutech/kroki"
+listed: true
 ---
 
 # Kroki Unified Diagram Rendering API and Server

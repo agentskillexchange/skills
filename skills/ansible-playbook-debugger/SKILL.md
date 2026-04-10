@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-debugger/"
+listed: true
 ---
 
 # Ansible Playbook Debugger

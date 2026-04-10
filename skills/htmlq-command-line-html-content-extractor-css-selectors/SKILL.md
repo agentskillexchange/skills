@@ -11,6 +11,7 @@ source: "https://github.com/mgdm/htmlq"
 tool_ecosystem:
   github_repo: "mgdm/htmlq"
   github_stars: 7514
+listed: true
 ---
 
 # htmlq Command-Line HTML Content Extractor with CSS Selectors

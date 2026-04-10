@@ -12,6 +12,7 @@ source: "https://github.com/duckdb/duckdb"
 tool_ecosystem:
   github_repo: "duckdb/duckdb"
   github_stars: 37119
+listed: true
 ---
 
 # DuckDB SQL Analytics Agent

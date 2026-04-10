@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-data-federation-agent/"
+listed: true
 ---
 
 # GraphQL Data Federation Agent

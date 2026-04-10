@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semrush-content-optimizer-agent/"
+listed: true
 ---
 
 # SEMrush Content Optimizer Agent

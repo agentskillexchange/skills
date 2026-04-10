@@ -11,6 +11,7 @@ source: "https://github.com/yt-dlp/yt-dlp"
 tool_ecosystem:
   github_repo: "yt-dlp/yt-dlp"
   github_stars: 154307
+listed: true
 ---
 
 # yt-dlp Feature-Rich Audio and Video Downloader CLI

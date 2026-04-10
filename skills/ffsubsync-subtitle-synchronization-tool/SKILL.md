@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/smacke/ffsubsync"
+listed: true
 ---
 
 # ffsubsync Subtitle Synchronization Tool

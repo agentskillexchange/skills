@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 1468
   npm_package: "documind"
   npm_weekly_downloads: 3
+listed: true
 ---
 
 # Documind AI-Powered Structured Data Extraction from Documents

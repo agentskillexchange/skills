@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/"
+listed: true
 ---
 
 # Datadog APM Trace Analyzer

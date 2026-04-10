@@ -11,6 +11,7 @@ source: "https://github.com/formbricks/formbricks"
 tool_ecosystem:
   github_repo: "formbricks/formbricks"
   github_stars: 12043
+listed: true
 ---
 
 # Formbricks Open-Source Survey Platform

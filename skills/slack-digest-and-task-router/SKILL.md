@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-digest-and-task-router/"
+listed: true
 ---
 
 # Slack Digest and Task Router

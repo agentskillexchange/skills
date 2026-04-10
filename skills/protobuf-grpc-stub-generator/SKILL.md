@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/"
+listed: true
 ---
 
 # Protobuf & gRPC Stub Generator

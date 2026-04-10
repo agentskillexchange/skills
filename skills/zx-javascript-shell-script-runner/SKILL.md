@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 45324
   npm_package: "zx"
   npm_weekly_downloads: 1467127
+listed: true
 ---
 
 # zx JavaScript Shell Script Runner

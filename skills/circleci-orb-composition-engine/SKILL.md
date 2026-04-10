@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-composition-engine/"
+listed: true
 ---
 
 # CircleCI Orb Composition Engine

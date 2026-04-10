@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/weaviate-mcp-server/"
+listed: true
 ---
 
 # Weaviate MCP Server

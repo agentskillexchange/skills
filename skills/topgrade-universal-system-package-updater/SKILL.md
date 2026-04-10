@@ -11,6 +11,7 @@ source: "https://github.com/topgrade-rs/topgrade"
 tool_ecosystem:
   github_repo: "topgrade-rs/topgrade"
   github_stars: 3619
+listed: true
 ---
 
 # Topgrade Universal System Package Updater

@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 7003
   npm_package: "nango"
   npm_weekly_downloads: 14801
+listed: true
 ---
 
 # Nango Open Source API Integration Platform

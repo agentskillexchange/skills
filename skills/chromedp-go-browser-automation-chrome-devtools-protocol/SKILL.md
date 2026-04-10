@@ -11,6 +11,7 @@ source: "https://github.com/chromedp/chromedp"
 tool_ecosystem:
   github_repo: "chromedp/chromedp"
   github_stars: 12900
+listed: true
 ---
 
 # chromedp Go Browser Automation with Chrome DevTools Protocol

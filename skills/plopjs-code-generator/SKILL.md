@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
+listed: true
 ---
 
 # Plop.js Code Generator

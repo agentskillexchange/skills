@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
+listed: true
 ---
 
 # AWS CloudTrail Log Normalizer

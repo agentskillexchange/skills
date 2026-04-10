@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/"
+listed: true
 ---
 
 # PostgreSQL Slow Query Runbook

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/VikParuchuri/surya"
+listed: true
 ---
 
 # Surya Document OCR with Layout Analysis and Table Recognition

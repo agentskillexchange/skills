@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-generator-skill/"
+listed: true
 ---
 
 # Docker Compose Generator Skill

@@ -11,6 +11,7 @@ source: "https://github.com/espeak-ng/espeak-ng"
 tool_ecosystem:
   github_repo: "espeak-ng/espeak-ng"
   github_stars: 6311
+listed: true
 ---
 
 # eSpeak NG Multilingual Speech Synthesizer

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/"
+listed: true
 ---
 
 # Anthropic SDK Token Usage Logger

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/reworkd/tarsier"
+listed: true
 ---
 
 # Tarsier Vision Utilities for Web Interaction Agents

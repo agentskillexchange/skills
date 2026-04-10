@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-generator/"
+listed: true
 ---
 
 # GitLab CI Pipeline Generator

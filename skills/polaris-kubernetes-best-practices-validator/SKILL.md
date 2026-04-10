@@ -11,6 +11,7 @@ source: "https://github.com/FairwindsOps/polaris"
 tool_ecosystem:
   github_repo: "FairwindsOps/polaris"
   github_stars: 3355
+listed: true
 ---
 
 # Polaris Kubernetes Best Practices Validator

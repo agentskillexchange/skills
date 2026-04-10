@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Kozea/Radicale"
+listed: true
 ---
 
 # Radicale Self-Hosted CalDAV and CardDAV Server

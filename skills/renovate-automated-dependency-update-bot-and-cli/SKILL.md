@@ -11,6 +11,7 @@ source: "https://github.com/renovatebot/renovate"
 tool_ecosystem:
   github_repo: "renovatebot/renovate"
   github_stars: 21253
+listed: true
 ---
 
 # Renovate Automated Dependency Update Bot and CLI

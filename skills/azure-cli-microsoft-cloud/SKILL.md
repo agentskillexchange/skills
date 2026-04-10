@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
   github_repo: "Azure/azure-cli"
   github_stars: 4500
+listed: true
 ---
 
 # Azure CLI — Command-Line Interface for Microsoft Azure

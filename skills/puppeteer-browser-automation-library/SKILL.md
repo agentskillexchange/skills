@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
+listed: true
 ---
 
 # Puppeteer Browser Automation Library

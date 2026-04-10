@@ -11,6 +11,7 @@ source: "https://github.com/google/magika"
 tool_ecosystem:
   github_repo: "google/magika"
   github_stars: 10199
+listed: true
 ---
 
 # Magika AI File Type Detection and Content Classification

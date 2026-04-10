@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/webhook-debugger/"
+listed: true
 ---
 
 # Webhook Debugger

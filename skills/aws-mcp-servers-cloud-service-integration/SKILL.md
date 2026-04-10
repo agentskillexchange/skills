@@ -11,6 +11,7 @@ source: "https://github.com/awslabs/mcp"
 tool_ecosystem:
   github_repo: "awslabs/mcp"
   github_stars: 8645
+listed: true
 ---
 
 # AWS MCP Servers for Cloud Service Integration

@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 4418
   npm_package: "pa11y"
   npm_weekly_downloads: 204792
+listed: true
 ---
 
 # Pa11y Accessibility Testing CLI and CI

@@ -11,6 +11,7 @@ source: "https://github.com/every-app/open-seo"
 tool_ecosystem:
   github_repo: "every-app/open-seo"
   github_stars: 783
+listed: true
 ---
 
 # OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
+listed: true
 ---
 
 # ElevenLabs Voiceover Generator for Long-Form Content

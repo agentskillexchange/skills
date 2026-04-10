@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
+listed: true
 ---
 
 # Clearscope NLP Grading Pipeline

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
+listed: true
 ---
 
 # Crunchbase Company Intelligence Scraper

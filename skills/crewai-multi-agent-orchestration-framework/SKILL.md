@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/crewAIInc/crewAI"
+listed: true
 ---
 
 # CrewAI Multi-Agent Orchestration Framework

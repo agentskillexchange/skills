@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 1194
   npm_package: "@apidevtools/swagger-parser"
   npm_weekly_downloads: 3732285
+listed: true
 ---
 
 # OpenAPI Specification Validator

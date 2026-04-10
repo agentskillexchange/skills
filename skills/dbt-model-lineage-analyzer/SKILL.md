@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
+listed: true
 ---
 
 # dbt Model Lineage Analyzer

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-provider-schema-explorer/"
+listed: true
 ---
 
 # Terraform Provider Schema Explorer

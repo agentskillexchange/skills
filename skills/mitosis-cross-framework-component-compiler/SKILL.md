@@ -11,6 +11,7 @@ source: "https://github.com/BuilderIO/mitosis"
 tool_ecosystem:
   github_repo: "BuilderIO/mitosis"
   github_stars: 13808
+listed: true
 ---
 
 # Mitosis Cross-Framework Component Compiler by Builder.io

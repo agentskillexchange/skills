@@ -11,6 +11,7 @@ source: "https://github.com/libvips/libvips"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
+listed: true
 ---
 
 # libvips High-Performance Image Processing Library and CLI

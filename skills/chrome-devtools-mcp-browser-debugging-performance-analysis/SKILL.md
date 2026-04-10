@@ -11,6 +11,7 @@ source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 tool_ecosystem:
   github_repo: "ChromeDevTools/chrome-devtools-mcp"
   github_stars: 33906
+listed: true
 ---
 
 # Chrome DevTools MCP Browser Debugging and Performance Analysis

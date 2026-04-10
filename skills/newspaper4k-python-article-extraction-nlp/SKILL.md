@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/AndyTheFactory/newspaper4k"
+listed: true
 ---
 
 # Newspaper4k Python Article Extraction and NLP Library

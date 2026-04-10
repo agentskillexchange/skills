@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redocly-cli"
+listed: true
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator

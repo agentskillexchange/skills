@@ -11,6 +11,7 @@ source: "https://github.com/upstash/context7"
 tool_ecosystem:
   github_repo: "upstash/context7"
   github_stars: 51326
+listed: true
 ---
 
 # Context7 MCP Documentation Server for LLM Code Editors

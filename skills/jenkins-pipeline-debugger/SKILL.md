@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-debugger/"
+listed: true
 ---
 
 # Jenkins Pipeline Debugger

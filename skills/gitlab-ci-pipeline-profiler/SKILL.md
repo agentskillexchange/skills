@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/"
+listed: true
 ---
 
 # GitLab CI Pipeline Profiler

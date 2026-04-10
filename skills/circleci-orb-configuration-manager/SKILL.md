@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-configuration-manager/"
+listed: true
 ---
 
 # CircleCI Orb Configuration Manager

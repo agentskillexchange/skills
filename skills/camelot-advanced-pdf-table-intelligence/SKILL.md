@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-advanced-pdf-table-intelligence/"
+listed: true
 ---
 
 # Camelot Advanced PDF Table Intelligence

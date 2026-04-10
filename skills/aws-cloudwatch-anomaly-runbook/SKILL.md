@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-runbook/"
+listed: true
 ---
 
 # AWS CloudWatch Anomaly Runbook

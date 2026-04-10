@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
+listed: true
 ---
 
 # AWS CloudWatch Composite Alarm Builder

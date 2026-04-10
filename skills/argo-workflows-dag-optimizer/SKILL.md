@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
+listed: true
 ---
 
 # Argo Workflows DAG Optimizer

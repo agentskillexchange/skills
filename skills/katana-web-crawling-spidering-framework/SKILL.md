@@ -11,6 +11,7 @@ source: "https://github.com/projectdiscovery/katana"
 tool_ecosystem:
   github_repo: "projectdiscovery/katana"
   github_stars: 16388
+listed: true
 ---
 
 # Katana Next-Generation Web Crawling and Spidering Framework

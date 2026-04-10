@@ -11,6 +11,7 @@ source: "https://github.com/soxoj/maigret"
 tool_ecosystem:
   github_repo: "soxoj/maigret"
   github_stars: 19325
+listed: true
 ---
 
 # Maigret OSINT Username Profiler Across 3000+ Sites

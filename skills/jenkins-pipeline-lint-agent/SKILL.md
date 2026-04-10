@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-lint-agent/"
+listed: true
 ---
 
 # Jenkins Pipeline Lint Agent

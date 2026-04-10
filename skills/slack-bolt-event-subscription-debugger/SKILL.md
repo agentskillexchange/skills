@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 2898
   npm_package: "@slack/bolt"
   npm_weekly_downloads: 1953184
+listed: true
 ---
 
 # Slack Bolt Event Subscription Debugger

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
+listed: true
 ---
 
 # OpenAPI Spec Compliance Checker

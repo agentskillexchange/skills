@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-builder/"
+listed: true
 ---
 
 # Slack Workflow Bot Builder

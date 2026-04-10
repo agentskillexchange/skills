@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-scanner/"
+listed: true
 ---
 
 # npm Dependency Audit Scanner

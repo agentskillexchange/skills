@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
+listed: true
 ---
 
 # Photoshop Batch Action Automator

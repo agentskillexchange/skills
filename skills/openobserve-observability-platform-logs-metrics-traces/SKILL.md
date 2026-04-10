@@ -11,6 +11,7 @@ source: "https://github.com/openobserve/openobserve"
 tool_ecosystem:
   github_repo: "openobserve/openobserve"
   github_stars: 18477
+listed: true
 ---
 
 # OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces

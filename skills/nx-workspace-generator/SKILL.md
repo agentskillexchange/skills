@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
+listed: true
 ---
 
 # Nx Workspace Generator

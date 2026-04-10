@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-api-reference-navigator/"
+listed: true
 ---
 
 # Stripe API Reference Navigator

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-product-price-tracker/"
+listed: true
 ---
 
 # Cheerio Product Price Tracker

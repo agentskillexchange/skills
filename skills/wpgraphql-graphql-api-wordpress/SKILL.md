@@ -11,6 +11,7 @@ source: "https://github.com/wp-graphql/wp-graphql"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3777
+listed: true
 ---
 
 # WPGraphQL GraphQL API for WordPress

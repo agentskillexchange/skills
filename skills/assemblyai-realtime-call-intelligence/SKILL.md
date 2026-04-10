@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/"
+listed: true
 ---
 
 # AssemblyAI Real-Time Call Intelligence

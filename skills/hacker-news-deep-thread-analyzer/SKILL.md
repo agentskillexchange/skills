@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/"
+listed: true
 ---
 
 # Hacker News Deep Thread Analyzer

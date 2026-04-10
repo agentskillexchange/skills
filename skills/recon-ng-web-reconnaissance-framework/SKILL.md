@@ -11,6 +11,7 @@ source: "https://github.com/lanmaster53/recon-ng"
 tool_ecosystem:
   github_repo: "lanmaster53/recon-ng"
   github_stars: 5499
+listed: true
 ---
 
 # Recon-ng Modular Web Reconnaissance Framework for OSINT

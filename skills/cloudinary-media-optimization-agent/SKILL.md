@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/"
+listed: true
 ---
 
 # Cloudinary Media Optimization Agent

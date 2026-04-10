@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/linkwarden/linkwarden"
+listed: true
 ---
 
 # Linkwarden Collaborative Bookmark Archive and Preservation Platform

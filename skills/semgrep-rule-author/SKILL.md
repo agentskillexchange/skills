@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-rule-author/"
+listed: true
 ---
 
 # Semgrep Rule Author

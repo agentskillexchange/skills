@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"
+listed: true
 ---
 
 # SEO Keyword Research Automator

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/"
+listed: true
 ---
 
 # Apache Kafka Consumer Lag Runbook

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/@wordpress/scripts"
+listed: true
 ---
 
 # WordPress Scripts Build and Block Toolchain

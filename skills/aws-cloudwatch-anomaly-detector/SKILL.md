@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/"
+listed: true
 ---
 
 # AWS CloudWatch Anomaly Detector

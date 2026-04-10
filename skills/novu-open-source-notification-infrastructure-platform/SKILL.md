@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 38747
   npm_package: "novu"
   npm_weekly_downloads: 5849
+listed: true
 ---
 
 # Novu Open-Source Notification Infrastructure Platform

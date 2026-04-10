@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ghostfolio/ghostfolio"
+listed: true
 ---
 
 # Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform

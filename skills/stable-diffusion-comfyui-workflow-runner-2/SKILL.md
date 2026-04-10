@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/"
+listed: true
 ---
 
 # Stable Diffusion ComfyUI Workflow Runner

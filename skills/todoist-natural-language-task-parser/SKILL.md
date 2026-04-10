@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-natural-language-task-parser/"
+listed: true
 ---
 
 # Todoist Natural Language Task Parser

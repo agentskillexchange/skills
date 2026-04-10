@@ -11,6 +11,7 @@ source: "https://github.com/google/langextract"
 tool_ecosystem:
   github_repo: "google/langextract"
   github_stars: 35042
+listed: true
 ---
 
 # LangExtract LLM-Powered Structured Text Extraction

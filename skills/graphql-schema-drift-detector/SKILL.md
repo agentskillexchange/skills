@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-drift-detector/"
+listed: true
 ---
 
 # GraphQL Schema Drift Detector

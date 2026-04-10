@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/"
+listed: true
 ---
 
 # FFmpeg Clip Extractor

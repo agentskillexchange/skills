@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
+listed: true
 ---
 
 # HashiCorp Vault Secret Scanner

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
+listed: true
 ---
 
 # OAuth2 Token Introspection Agent

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
+listed: true
 ---
 
 # Crawl4AI LLM-Friendly Web Crawler

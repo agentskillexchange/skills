@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/"
+listed: true
 ---
 
 # Surfer SEO SERP Analyzer

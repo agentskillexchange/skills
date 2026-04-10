@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-accessibility-audit-runner/"
+listed: true
 ---
 
 # Playwright Accessibility Audit Runner

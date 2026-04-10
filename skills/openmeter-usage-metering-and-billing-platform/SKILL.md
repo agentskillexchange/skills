@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/openmeterio/openmeter"
+listed: true
 ---
 
 # OpenMeter Usage Metering and Billing Platform

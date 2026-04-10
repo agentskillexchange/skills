@@ -6,8 +6,9 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Agents"
-verification: "listed"
+verification: "published"
 source: "https://agentskillexchange.com/skills/parquet-to-postgresql-loader/"
+listed: true
 ---
 
 # Parquet to PostgreSQL Loader

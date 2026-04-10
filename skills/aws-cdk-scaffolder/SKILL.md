@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cdk-scaffolder/"
+listed: true
 ---
 
 # AWS CDK Scaffolder

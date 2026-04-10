@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/"
+listed: true
 ---
 
 # RunPod Serverless GPU Inference

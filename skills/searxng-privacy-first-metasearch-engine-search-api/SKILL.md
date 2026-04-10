@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/searxng/searxng"
+listed: true
 ---
 
 # SearXNG Privacy-First Metasearch Engine and Search API

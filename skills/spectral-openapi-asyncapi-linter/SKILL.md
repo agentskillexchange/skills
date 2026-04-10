@@ -11,6 +11,7 @@ source: "https://github.com/stoplightio/spectral"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3057
+listed: true
 ---
 
 # Spectral OpenAPI and AsyncAPI Linter

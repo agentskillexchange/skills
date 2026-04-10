@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/"
+listed: true
 ---
 
 # Parquet Column Pruning Optimizer

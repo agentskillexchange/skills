@@ -11,6 +11,7 @@ source: "https://github.com/SeleniumHQ/docker-selenium"
 tool_ecosystem:
   github_repo: "SeleniumHQ/docker-selenium"
   github_stars: 8619
+listed: true
 ---
 
 # Docker Selenium Grid for Scalable Browser Automation

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/resend/resend-node"
+listed: true
 ---
 
 # Resend Developer Email API and Node.js SDK

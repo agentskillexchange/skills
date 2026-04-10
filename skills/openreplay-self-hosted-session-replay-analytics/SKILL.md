@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/openreplay/openreplay"
+listed: true
 ---
 
 # OpenReplay Self-Hosted Session Replay and Product Analytics Platform

@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/"
+listed: true
 ---
 
 # DALL-E 3 Batch Asset Generator

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://wordpress.org/plugins/elementor/"
+listed: true
 ---
 
 # Elementor Website Builder WordPress Visual Page Editor

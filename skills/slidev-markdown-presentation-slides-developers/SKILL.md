@@ -11,6 +11,7 @@ source: "https://github.com/slidevjs/slidev"
 tool_ecosystem:
   github_repo: "slidevjs/slidev"
   github_stars: 45362
+listed: true
 ---
 
 # Slidev Markdown Presentation Slides for Developers

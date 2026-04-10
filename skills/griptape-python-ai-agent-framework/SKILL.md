@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/griptape-ai/griptape"
+listed: true
 ---
 
 # Griptape Modular Python AI Agent and Workflow Framework

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
+listed: true
 ---
 
 # Timewarrior Command-Line Time Tracking and Reporting

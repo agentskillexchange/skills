@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
+listed: true
 ---
 
 # GraphQL Schema Registry Agent

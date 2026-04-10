@@ -11,6 +11,7 @@ source: "https://github.com/prometheus/alertmanager"
 tool_ecosystem:
   github_repo: "prometheus/alertmanager"
   github_stars: 8403
+listed: true
 ---
 
 # Prometheus Alertmanager Rule Auditor

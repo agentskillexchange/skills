@@ -11,6 +11,7 @@ source: "https://github.com/FiloSottile/mkcert"
 tool_ecosystem:
   github_repo: "FiloSottile/mkcert"
   github_stars: 58399
+listed: true
 ---
 
 # mkcert Zero-Config Local Development TLS Certificate Generator

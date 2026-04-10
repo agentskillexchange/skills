@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-auditor-registry-api/"
+listed: true
 ---
 
 # NPM Package Auditor

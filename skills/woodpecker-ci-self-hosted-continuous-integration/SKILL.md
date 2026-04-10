@@ -11,6 +11,7 @@ source: "https://github.com/woodpecker-ci/woodpecker"
 tool_ecosystem:
   github_repo: "woodpecker-ci/woodpecker"
   github_stars: 6760
+listed: true
 ---
 
 # Woodpecker CI Self-Hosted Continuous Integration Engine

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/huh"
+listed: true
 ---
 
 # Huh Interactive Terminal Forms and Prompts Library for Go

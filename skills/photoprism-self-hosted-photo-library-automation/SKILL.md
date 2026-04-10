@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/photoprism/photoprism"
+listed: true
 ---
 
 # PhotoPrism Self-Hosted Photo Library Automation

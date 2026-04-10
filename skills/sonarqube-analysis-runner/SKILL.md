@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-runner/"
+listed: true
 ---
 
 # SonarQube Analysis Runner

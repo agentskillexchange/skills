@@ -11,6 +11,7 @@ source: "https://github.com/goreleaser/goreleaser"
 tool_ecosystem:
   github_repo: "goreleaser/goreleaser"
   github_stars: 15686
+listed: true
 ---
 
 # GoReleaser Cross-Platform Release Automation

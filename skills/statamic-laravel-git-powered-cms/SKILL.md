@@ -11,6 +11,7 @@ source: "https://github.com/statamic/cms"
 tool_ecosystem:
   github_repo: "statamic/cms"
   github_stars: 4777
+listed: true
 ---
 
 # Statamic Laravel Git-Powered CMS

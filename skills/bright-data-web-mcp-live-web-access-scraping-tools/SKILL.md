@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 3238
   npm_package: "@browserbasehq/mcp"
   npm_weekly_downloads: 1222
+listed: true
 ---
 
 # Bright Data Web MCP Live Web Access and Scraping Tools

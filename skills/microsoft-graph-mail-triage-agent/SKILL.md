@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
+listed: true
 ---
 
 # Microsoft Graph Mail Triage Agent

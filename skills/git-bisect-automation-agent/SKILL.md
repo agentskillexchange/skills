@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-bisect-automation-agent/"
+listed: true
 ---
 
 # Git Bisect Automation Agent

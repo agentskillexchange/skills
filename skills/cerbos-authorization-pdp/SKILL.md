@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/cerbos/cerbos"
+listed: true
 ---
 
 # Cerbos Open Source Authorization Policy Decision Point

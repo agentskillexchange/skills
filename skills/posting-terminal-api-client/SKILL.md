@@ -11,6 +11,7 @@ source: "https://github.com/darrenburns/posting"
 tool_ecosystem:
   github_repo: "darrenburns/posting"
   github_stars: 11673
+listed: true
 ---
 
 # Posting Terminal API Client

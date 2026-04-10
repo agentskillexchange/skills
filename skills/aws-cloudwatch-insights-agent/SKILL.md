@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/"
+listed: true
 ---
 
 # AWS CloudWatch Insights Agent

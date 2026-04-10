@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-openapi-validator/"
+listed: true
 ---
 
 # Swagger / OpenAPI Validator

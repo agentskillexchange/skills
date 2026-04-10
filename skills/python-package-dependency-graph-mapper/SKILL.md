@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-dependency-graph-mapper/"
+listed: true
 ---
 
 # Python Package Dependency Graph Mapper

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/"
+listed: true
 ---
 
 # YouTube Chapters Generator with Whisper

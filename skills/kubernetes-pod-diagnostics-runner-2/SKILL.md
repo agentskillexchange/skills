@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/"
+listed: true
 ---
 
 # Kubernetes Pod Diagnostics Runner

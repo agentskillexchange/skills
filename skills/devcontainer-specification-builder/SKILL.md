@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
+listed: true
 ---
 
 # Devcontainer Specification Builder

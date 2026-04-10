@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-agent-fleet-scaler/"
+listed: true
 ---
 
 # Buildkite Agent Fleet Scaler

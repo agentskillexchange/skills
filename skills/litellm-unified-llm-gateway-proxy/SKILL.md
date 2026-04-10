@@ -11,6 +11,7 @@ source: "https://github.com/BerriAI/litellm"
 tool_ecosystem:
   github_repo: "BerriAI/litellm"
   github_stars: 41815
+listed: true
 ---
 
 # LiteLLM Unified LLM Gateway and Proxy Server

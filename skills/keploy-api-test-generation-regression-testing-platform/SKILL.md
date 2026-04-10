@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/keploy/keploy"
+listed: true
 ---
 
 # Keploy API Test Generation and Regression Testing Platform

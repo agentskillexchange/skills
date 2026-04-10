@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/"
+listed: true
 ---
 
 # Pexels API Stock Photo Curator

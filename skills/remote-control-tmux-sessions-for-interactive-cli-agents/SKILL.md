@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
+listed: true
 ---
 
 # Remote-control tmux sessions for interactive CLI agents

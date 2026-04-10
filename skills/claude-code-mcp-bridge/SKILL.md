@@ -12,6 +12,7 @@ source: "https://github.com/steipete/claude-code-mcp"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1225
+listed: true
 ---
 
 # Claude Code MCP Bridge

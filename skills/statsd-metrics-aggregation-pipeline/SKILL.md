@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
+listed: true
 ---
 
 # StatsD Metrics Aggregation Pipeline

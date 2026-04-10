@@ -12,6 +12,7 @@ source: "https://github.com/docker/compose"
 tool_ecosystem:
   github_repo: "docker/compose"
   github_stars: 37227
+listed: true
 ---
 
 # Docker Compose Service Graph Visualizer

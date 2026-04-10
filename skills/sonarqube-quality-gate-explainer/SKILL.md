@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
+listed: true
 ---
 
 # SonarQube Quality Gate Explainer

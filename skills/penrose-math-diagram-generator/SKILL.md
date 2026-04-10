@@ -11,6 +11,7 @@ source: "https://github.com/penrose/penrose"
 tool_ecosystem:
   github_repo: "penrose/penrose"
   github_stars: 7933
+listed: true
 ---
 
 # Penrose Mathematical Diagram Generator from Plain Text Notation

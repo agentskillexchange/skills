@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-matching-analyzer/"
+listed: true
 ---
 
 # Semgrep Pattern Matching Analyzer

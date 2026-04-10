@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-template-generator/"
+listed: true
 ---
 
 # Cookiecutter Template Generator

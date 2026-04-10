@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/"
+listed: true
 ---
 
 # Parquet Schema Extractor for S3

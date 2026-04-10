@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"
+listed: true
 ---
 
 # MailDev SMTP Capture and Email Testing Server

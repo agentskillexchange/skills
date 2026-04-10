@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Keats/tera"
+listed: true
 ---
 
 # Tera Jinja2-Inspired Template Engine for Rust

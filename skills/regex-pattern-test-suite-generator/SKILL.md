@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/regex-pattern-test-suite-generator/"
+listed: true
 ---
 
 # Regex Pattern Test Suite Generator

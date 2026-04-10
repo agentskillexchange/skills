@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-registry-browser/"
+listed: true
 ---
 
 # Terraform Module Registry Browser

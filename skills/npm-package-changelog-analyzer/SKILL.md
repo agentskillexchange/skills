@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-changelog-analyzer/"
+listed: true
 ---
 
 # NPM Package Changelog Analyzer

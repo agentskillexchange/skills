@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mongodb-mcp-server/"
+listed: true
 ---
 
 # MongoDB MCP Server

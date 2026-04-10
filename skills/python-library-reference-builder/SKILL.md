@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-library-reference-builder/"
+listed: true
 ---
 
 # Python Library Reference Builder

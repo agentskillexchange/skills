@@ -11,6 +11,7 @@ source: "https://github.com/vercel/satori"
 tool_ecosystem:
   github_repo: "vercel/satori"
   github_stars: 13234
+listed: true
 ---
 
 # Satori HTML and CSS to SVG Image Generator by Vercel

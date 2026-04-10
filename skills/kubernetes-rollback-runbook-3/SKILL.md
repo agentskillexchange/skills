@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/"
+listed: true
 ---
 
 # Kubernetes Rollback Runbook

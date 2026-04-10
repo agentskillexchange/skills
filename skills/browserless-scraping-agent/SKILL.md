@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
+listed: true
 ---
 
 # Browserless Scraping Agent

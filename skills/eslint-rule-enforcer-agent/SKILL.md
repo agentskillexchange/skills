@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/"
+listed: true
 ---
 
 # ESLint Rule Enforcer Agent

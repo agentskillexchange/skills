@@ -11,6 +11,7 @@ source: "https://github.com/atlassian/atlassian-mcp-server"
 tool_ecosystem:
   github_repo: "atlassian/atlassian-mcp-server"
   github_stars: 552
+listed: true
 ---
 
 # Atlassian Rovo MCP Server

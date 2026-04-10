@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
+listed: true
 ---
 
 # Internal Link Graph Optimizer

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-content-optimizer-yoast-rest/"
+listed: true
 ---
 
 # WordPress Content Optimizer

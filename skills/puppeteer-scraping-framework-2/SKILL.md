@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/"
+listed: true
 ---
 
 # Puppeteer Scraping Framework

@@ -11,6 +11,7 @@ source: "https://github.com/rhasspy/piper"
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741
+listed: true
 ---
 
 # Piper Local Neural Text-to-Speech Engine

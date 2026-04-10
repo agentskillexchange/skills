@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
+listed: true
 ---
 
 # Notion Task Board Automation

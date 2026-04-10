@@ -11,6 +11,7 @@ source: "https://github.com/airbytehq/airbyte"
 tool_ecosystem:
   github_repo: "airbytehq/airbyte"
   github_stars: 20996
+listed: true
 ---
 
 # Airbyte Open Source Data Integration Platform

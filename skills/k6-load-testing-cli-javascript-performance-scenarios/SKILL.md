@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/grafana/k6"
+listed: true
 ---
 
 # k6 Load Testing CLI for JavaScript Performance Scenarios

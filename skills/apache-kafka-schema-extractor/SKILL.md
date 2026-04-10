@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
+listed: true
 ---
 
 # Apache Kafka Schema Extractor

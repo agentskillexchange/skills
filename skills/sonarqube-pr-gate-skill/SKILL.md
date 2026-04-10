@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/"
+listed: true
 ---
 
 # SonarQube PR Gate

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
+listed: true
 ---
 
 # Cypress Network Stub Generator

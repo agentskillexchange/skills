@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/chatwoot/chatwoot"
+listed: true
 ---
 
 # Chatwoot Open Source Customer Engagement and Omnichannel Support Platform

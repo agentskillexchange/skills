@@ -11,6 +11,7 @@ source: "https://github.com/wader/fq"
 tool_ecosystem:
   github_repo: "wader/fq"
   github_stars: 10468
+listed: true
 ---
 
 # fq Binary Format Inspector and jq for Media Files

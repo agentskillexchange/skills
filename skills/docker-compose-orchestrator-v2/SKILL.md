@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
+listed: true
 ---
 
 # Docker Compose Orchestrator

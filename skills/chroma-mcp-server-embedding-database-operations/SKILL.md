@@ -11,6 +11,7 @@ source: "https://github.com/chroma-core/chroma-mcp"
 tool_ecosystem:
   github_repo: "chroma-core/chroma-mcp"
   github_stars: 527
+listed: true
 ---
 
 # Chroma MCP Server for Embedding Database Operations

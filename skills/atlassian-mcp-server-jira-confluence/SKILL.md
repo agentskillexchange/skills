@@ -11,6 +11,7 @@ source: "https://github.com/sooperset/mcp-atlassian"
 tool_ecosystem:
   github_repo: "sooperset/mcp-atlassian"
   github_stars: 4785
+listed: true
 ---
 
 # Atlassian MCP Server for Jira and Confluence

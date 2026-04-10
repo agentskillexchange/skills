@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-visual-regression-runner/"
+listed: true
 ---
 
 # Cypress Visual Regression Runner

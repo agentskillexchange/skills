@@ -11,6 +11,7 @@ source: "https://github.com/LinkupPlatform/linkup-js-sdk"
 tool_ecosystem:
   github_repo: "LinkupPlatform/linkup-js-sdk"
   github_stars: 4
+listed: true
 ---
 
 # Linkup JS SDK for Sourced Web Search and Fetch

@@ -11,6 +11,7 @@ source: "https://github.com/jenkinsci/jenkins"
 tool_ecosystem:
   github_repo: "jenkinsci/jenkins"
   github_stars: 25178
+listed: true
 ---
 
 # Jenkins MCP Server

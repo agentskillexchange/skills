@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/"
+listed: true
 ---
 
 # Kubernetes Crashloop Diagnostic Runbook

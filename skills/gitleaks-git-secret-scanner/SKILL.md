@@ -11,6 +11,7 @@ source: "https://github.com/gitleaks/gitleaks"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731
+listed: true
 ---
 
 # Gitleaks Git Repository Secret Scanner

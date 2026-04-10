@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-timeline-builder/"
+listed: true
 ---
 
 # Incident Timeline Builder

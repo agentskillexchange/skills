@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/"
+listed: true
 ---
 
 # OWASP ZAP Security Audit Skill

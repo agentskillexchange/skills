@@ -11,6 +11,7 @@ source: "https://github.com/openai/openai-agents-python"
 tool_ecosystem:
   github_repo: "openai/openai-agents-python"
   github_stars: 20576
+listed: true
 ---
 
 # OpenAI Agents SDK Multi-Agent Workflow Framework for Python

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
+listed: true
 ---
 
 # ArgoCD Application Deployer

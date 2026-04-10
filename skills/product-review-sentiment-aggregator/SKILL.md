@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
+listed: true
 ---
 
 # Product Review Sentiment Aggregator

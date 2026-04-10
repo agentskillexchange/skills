@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/docling-project/docling"
+listed: true
 ---
 
 # Docling Document Parsing and Conversion

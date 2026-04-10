@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-test-generator/"
+listed: true
 ---
 
 # Cypress Component Test Generator

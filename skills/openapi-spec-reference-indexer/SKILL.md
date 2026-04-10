@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-reference-indexer/"
+listed: true
 ---
 
 # OpenAPI Spec Reference Indexer

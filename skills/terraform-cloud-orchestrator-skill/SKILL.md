@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-cloud-orchestrator-skill/"
+listed: true
 ---
 
 # Terraform Cloud Orchestrator

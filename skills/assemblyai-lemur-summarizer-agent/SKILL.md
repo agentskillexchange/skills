@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/"
+listed: true
 ---
 
 # AssemblyAI LeMUR Summarizer

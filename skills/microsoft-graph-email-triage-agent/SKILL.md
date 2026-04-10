@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-triage-agent/"
+listed: true
 ---
 
 # Microsoft Graph Email Triage Agent

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-templater/"
+listed: true
 ---
 
 # Helm Chart Templater

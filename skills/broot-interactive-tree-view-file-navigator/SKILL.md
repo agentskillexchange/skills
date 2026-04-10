@@ -11,6 +11,7 @@ source: "https://github.com/Canop/broot"
 tool_ecosystem:
   github_repo: "Canop/broot"
   github_stars: 12549
+listed: true
 ---
 
 # broot Interactive Tree-View File Navigator

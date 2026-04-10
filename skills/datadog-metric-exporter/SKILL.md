@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
+listed: true
 ---
 
 # Datadog Metric Exporter

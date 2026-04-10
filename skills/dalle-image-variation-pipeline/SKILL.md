@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-image-variation-pipeline/"
+listed: true
 ---
 
 # DALL-E Image Variation Pipeline

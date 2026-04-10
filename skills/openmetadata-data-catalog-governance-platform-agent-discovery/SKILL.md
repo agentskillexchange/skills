@@ -11,6 +11,7 @@ source: "https://github.com/open-metadata/OpenMetadata"
 tool_ecosystem:
   github_repo: "open-metadata/OpenMetadata"
   github_stars: 9965
+listed: true
 ---
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery

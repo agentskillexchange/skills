@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/"
+listed: true
 ---
 
 # Stripe Revenue Reconciliation Agent

@@ -6,8 +6,9 @@ category:
   - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/Yoast/wordpress-seo"
+listed: true
 ---
 
 # Yoast SEO WordPress Search Optimization Plugin

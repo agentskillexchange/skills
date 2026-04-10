@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer/"
+listed: true
 ---
 
 # Nginx Error Log Analyzer

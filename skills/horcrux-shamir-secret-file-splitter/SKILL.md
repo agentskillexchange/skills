@@ -11,6 +11,7 @@ source: "https://github.com/jesseduffield/horcrux"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
   github_stars: 5039
+listed: true
 ---
 
 # Horcrux Shamir Secret Sharing File Encryption and Splitting Tool

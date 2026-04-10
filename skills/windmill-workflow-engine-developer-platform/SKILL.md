@@ -11,6 +11,7 @@ source: "https://github.com/windmill-labs/windmill"
 tool_ecosystem:
   github_repo: "windmill-labs/windmill"
   github_stars: 16115
+listed: true
 ---
 
 # Windmill Open-Source Workflow Engine and Developer Platform

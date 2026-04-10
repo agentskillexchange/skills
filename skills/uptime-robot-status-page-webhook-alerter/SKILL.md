@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://uptimerobot.com/api/"
+listed: true
 ---
 
 # Uptime Robot Status Page Webhook Alerter

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
+listed: true
 ---
 
 # OpenAPI Spec Validator

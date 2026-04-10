@@ -12,6 +12,7 @@ tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
   npm_package: "@checkly/cli-monorepo"
+listed: true
 ---
 
 # Checkly CLI Monitoring as Code for API and Browser Checks

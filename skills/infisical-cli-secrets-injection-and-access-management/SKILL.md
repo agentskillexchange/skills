@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Infisical/cli"
+listed: true
 ---
 
 # Infisical CLI Secrets Injection and Access Management

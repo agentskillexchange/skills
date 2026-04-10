@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-test-harness/"
+listed: true
 ---
 
 # Docker Compose Test Harness

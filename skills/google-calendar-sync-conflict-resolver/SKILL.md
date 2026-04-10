@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
+listed: true
 ---
 
 # Google Calendar Sync & Conflict Resolver

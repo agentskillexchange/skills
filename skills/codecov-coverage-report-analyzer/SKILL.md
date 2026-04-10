@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/"
+listed: true
 ---
 
 # Codecov Coverage Report Analyzer

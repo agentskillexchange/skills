@@ -11,6 +11,7 @@ source: "https://github.com/starship/starship"
 tool_ecosystem:
   github_repo: "starship/starship"
   github_stars: 55675
+listed: true
 ---
 
 # Starship Cross-Shell Prompt Configurator

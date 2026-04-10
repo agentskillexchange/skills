@@ -11,6 +11,7 @@ source: "https://github.com/rive-app/rive-react"
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111
+listed: true
 ---
 
 # Rive Runtime Animation Controller

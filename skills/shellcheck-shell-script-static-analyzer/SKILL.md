@@ -11,6 +11,7 @@ source: "https://github.com/koalaman/shellcheck"
 tool_ecosystem:
   github_repo: "koalaman/shellcheck"
   github_stars: 39204
+listed: true
 ---
 
 # ShellCheck Shell Script Static Analyzer

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/"
+listed: true
 ---
 
 # Semgrep Code Pattern Scanner

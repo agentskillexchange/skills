@@ -11,6 +11,7 @@ source: "https://github.com/speechbrain/speechbrain"
 tool_ecosystem:
   github_repo: "speechbrain/speechbrain"
   github_stars: 11388
+listed: true
 ---
 
 # SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit

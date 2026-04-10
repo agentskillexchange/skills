@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
+listed: true
 ---
 
 # WordPress Gutenberg Block Scaffolder

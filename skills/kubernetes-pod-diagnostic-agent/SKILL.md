@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/"
+listed: true
 ---
 
 # Kubernetes Pod Diagnostic Agent

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
+listed: true
 ---
 
 # MDN Web API Reference Fetcher

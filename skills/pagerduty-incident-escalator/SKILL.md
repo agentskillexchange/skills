@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-escalator/"
+listed: true
 ---
 
 # PagerDuty Incident Escalator

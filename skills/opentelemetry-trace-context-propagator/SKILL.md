@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/"
+listed: true
 ---
 
 # OpenTelemetry Trace Context Propagator

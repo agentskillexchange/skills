@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
+listed: true
 ---
 
 # Snowflake Query Profiler

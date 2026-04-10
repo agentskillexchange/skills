@@ -11,6 +11,7 @@ source: "https://github.com/twentyhq/twenty"
 tool_ecosystem:
   github_repo: "twentyhq/twenty"
   github_stars: 43525
+listed: true
 ---
 
 # Twenty Open Source CRM Platform and Salesforce Alternative

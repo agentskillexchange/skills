@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
+listed: true
 ---
 
 # Grafana Loki Log Correlation Agent

@@ -11,6 +11,7 @@ source: "https://github.com/remsky/Kokoro-FastAPI"
 tool_ecosystem:
   github_repo: "remsky/Kokoro-FastAPI"
   github_stars: 4671
+listed: true
 ---
 
 # Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server

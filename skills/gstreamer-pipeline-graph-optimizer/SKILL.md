@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://gstreamer.freedesktop.org/"
+listed: true
 ---
 
 # GStreamer Pipeline Graph Optimizer

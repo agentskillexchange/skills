@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-auto-scaling-orchestrator/"
+listed: true
 ---
 
 # Selenium Grid Auto-Scaling Orchestrator

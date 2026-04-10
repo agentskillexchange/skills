@@ -11,6 +11,7 @@ source: "https://github.com/apify/crawlee"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22677
+listed: true
 ---
 
 # Crawlee Web Crawling and Scraping Library by Apify

@@ -11,6 +11,7 @@ source: "https://github.com/markuplint/markuplint"
 tool_ecosystem:
   github_repo: "markuplint/markuplint"
   github_stars: 600
+listed: true
 ---
 
 # markuplint HTML Linter for All Markup Developers

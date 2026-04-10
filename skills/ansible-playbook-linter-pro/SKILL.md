@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-linter-pro/"
+listed: true
 ---
 
 # Ansible Playbook Linter Pro

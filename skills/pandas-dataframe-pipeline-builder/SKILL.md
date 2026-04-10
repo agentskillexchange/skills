@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
+listed: true
 ---
 
 # Pandas DataFrame Pipeline Builder

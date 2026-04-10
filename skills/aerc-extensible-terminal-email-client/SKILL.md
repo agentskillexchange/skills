@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://git.sr.ht/~rjarry/aerc"
+listed: true
 ---
 
 # aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch

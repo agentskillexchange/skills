@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/vuejs/vitepress"
+listed: true
 ---
 
 # VitePress Documentation Site Generator

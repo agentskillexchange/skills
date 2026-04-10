@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
+listed: true
 ---
 
 # Kubernetes Event Stream Analyzer

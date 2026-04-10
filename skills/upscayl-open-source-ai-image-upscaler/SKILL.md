@@ -11,6 +11,7 @@ source: "https://github.com/upscayl/upscayl"
 tool_ecosystem:
   github_repo: "upscayl/upscayl"
   github_stars: 44297
+listed: true
 ---
 
 # Upscayl Open Source AI Image Upscaler

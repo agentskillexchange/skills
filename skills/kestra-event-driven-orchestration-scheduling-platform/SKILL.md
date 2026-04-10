@@ -11,6 +11,7 @@ source: "https://github.com/kestra-io/kestra"
 tool_ecosystem:
   github_repo: "kestra-io/kestra"
   github_stars: 26671
+listed: true
 ---
 
 # Kestra Event-Driven Orchestration and Scheduling Platform

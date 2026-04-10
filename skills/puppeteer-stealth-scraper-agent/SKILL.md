@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
+listed: true
 ---
 
 # Puppeteer Stealth Scraper

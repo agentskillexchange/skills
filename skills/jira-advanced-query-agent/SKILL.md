@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jira-advanced-query-agent/"
+listed: true
 ---
 
 # Jira Advanced Query Agent

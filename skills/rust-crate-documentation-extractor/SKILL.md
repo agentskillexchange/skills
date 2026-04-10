@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-extractor/"
+listed: true
 ---
 
 # Rust Crate Documentation Extractor

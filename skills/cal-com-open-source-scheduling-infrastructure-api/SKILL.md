@@ -11,6 +11,7 @@ source: "https://github.com/calcom/cal.com"
 tool_ecosystem:
   github_repo: "calcom/cal.com"
   github_stars: 40908
+listed: true
 ---
 
 # Cal.com Open Source Scheduling Infrastructure and API

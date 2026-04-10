@@ -11,6 +11,7 @@ source: "https://github.com/turbot/steampipe"
 tool_ecosystem:
   github_repo: "turbot/steampipe"
   github_stars: 7745
+listed: true
 ---
 
 # Steampipe Zero-ETL SQL Cloud API Query Engine

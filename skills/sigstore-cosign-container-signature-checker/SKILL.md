@@ -11,6 +11,7 @@ source: "https://github.com/sigstore/cosign"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5776
+listed: true
 ---
 
 # Sigstore Cosign Container Signature Checker

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/edoardottt/cariddi"
+listed: true
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner

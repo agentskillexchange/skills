@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ruff-linter-formatter-agent/"
+listed: true
 ---
 
 # Ruff Linter and Formatter

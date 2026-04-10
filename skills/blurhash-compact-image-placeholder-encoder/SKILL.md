@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 16958
   npm_package: "blurhash"
   npm_weekly_downloads: 800290
+listed: true
 ---
 
 # BlurHash Compact Image Placeholder Encoder

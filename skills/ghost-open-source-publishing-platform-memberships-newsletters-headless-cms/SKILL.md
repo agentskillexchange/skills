@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/TryGhost/Ghost"
+listed: true
 ---
 
 # Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Zulko/moviepy"
+listed: true
 ---
 
 # MoviePy Python Video Editing Library

@@ -11,6 +11,7 @@ source: "https://github.com/inngest/inngest"
 tool_ecosystem:
   github_repo: "inngest/inngest"
   github_stars: 5151
+listed: true
 ---
 
 # Inngest Event-Driven Durable Workflow Orchestration Platform

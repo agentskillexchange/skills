@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 20468
   npm_package: "oxlint"
   npm_weekly_downloads: 3983578
+listed: true
 ---
 
 # Oxlint High-Performance JavaScript Linter

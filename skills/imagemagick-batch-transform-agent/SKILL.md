@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
+listed: true
 ---
 
 # ImageMagick Batch Transform Agent

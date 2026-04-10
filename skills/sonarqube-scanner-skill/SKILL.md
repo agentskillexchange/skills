@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-scanner-skill/"
+listed: true
 ---
 
 # SonarQube Scanner Skill

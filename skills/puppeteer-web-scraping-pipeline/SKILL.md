@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
+listed: true
 ---
 
 # Puppeteer Web Scraping Pipeline

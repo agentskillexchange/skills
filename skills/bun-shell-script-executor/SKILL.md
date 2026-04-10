@@ -11,6 +11,7 @@ source: "https://github.com/oven-sh/bun"
 tool_ecosystem:
   github_repo: "oven-sh/bun"
   github_stars: 88912
+listed: true
 ---
 
 # Bun Shell Script Executor

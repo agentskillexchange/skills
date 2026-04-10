@@ -11,6 +11,7 @@ source: "https://github.com/simonw/llm"
 tool_ecosystem:
   github_repo: "simonw/llm"
   github_stars: 11508
+listed: true
 ---
 
 # LLM Command-Line Interface for Large Language Models

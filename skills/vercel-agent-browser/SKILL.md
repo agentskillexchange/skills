@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/vercel-labs/agent-browser"
+listed: true
 ---
 
 # Vercel Agent Browser

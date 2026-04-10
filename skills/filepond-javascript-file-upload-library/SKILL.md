@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/pqina/filepond"
+listed: true
 ---
 
 # FilePond Flexible JavaScript File Upload Library

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
+listed: true
 ---
 
 # OpenTelemetry Trace Analyzer

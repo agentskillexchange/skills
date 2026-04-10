@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snowflake-mcp/"
+listed: true
 ---
 
 # Snowflake MCP

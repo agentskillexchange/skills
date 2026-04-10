@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/emdash-cms/emdash"
+listed: true
 ---
 
 # EmDash Full-Stack TypeScript CMS by Cloudflare

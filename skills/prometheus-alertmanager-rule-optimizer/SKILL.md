@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/"
+listed: true
 ---
 
 # Prometheus AlertManager Rule Optimizer

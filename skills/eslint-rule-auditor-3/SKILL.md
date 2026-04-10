@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
+listed: true
 ---
 
 # ESLint Rule Auditor

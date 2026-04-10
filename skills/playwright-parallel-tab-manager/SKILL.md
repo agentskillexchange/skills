@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
+listed: true
 ---
 
 # Playwright Parallel Tab Manager

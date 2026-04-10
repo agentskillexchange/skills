@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
+listed: true
 ---
 
 # NPM Package Audit & License Checker

@@ -11,6 +11,7 @@ source: "https://github.com/webflow/js-webflow-api"
 tool_ecosystem:
   github_repo: "webflow/js-webflow-api"
   github_stars: 338
+listed: true
 ---
 
 # Webflow Data API JavaScript SDK

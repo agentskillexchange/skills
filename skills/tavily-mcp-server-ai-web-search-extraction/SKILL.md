@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 1615
   npm_package: "tavily-mcp"
   npm_weekly_downloads: 47930
+listed: true
 ---
 
 # Tavily MCP Server for AI-Powered Web Search and Extraction

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-multi-browser-test-generator/"
+listed: true
 ---
 
 # Playwright Multi-Browser Test Generator

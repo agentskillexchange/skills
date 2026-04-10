@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/new-relic-nrql-query-agent/"
+listed: true
 ---
 
 # New Relic NRQL Query Agent

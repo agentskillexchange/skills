@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/"
+listed: true
 ---
 
 # Kubernetes Pod Diagnostic Runbook

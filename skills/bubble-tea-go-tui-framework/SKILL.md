@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/bubbletea"
 tool_ecosystem:
   github_repo: "charmbracelet/bubbletea"
   github_stars: 41168
+listed: true
 ---
 
 # Bubble Tea Go TUI Framework by Charmbracelet

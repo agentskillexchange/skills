@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/trivy"
+listed: true
 ---
 
 # Trivy Security Scanner for Containers and IaC

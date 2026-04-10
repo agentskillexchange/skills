@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 7894
   npm_package: "lefthook"
   npm_weekly_downloads: 1455939
+listed: true
 ---
 
 # Lefthook Git Hooks Manager

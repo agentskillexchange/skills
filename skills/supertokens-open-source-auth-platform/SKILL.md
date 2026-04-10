@@ -11,6 +11,7 @@ source: "https://github.com/supertokens/supertokens-core"
 tool_ecosystem:
   github_repo: "supertokens/supertokens-core"
   github_stars: 15002
+listed: true
 ---
 
 # SuperTokens Open Source Authentication Platform and Auth0 Alternative

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-document-extractor/"
+listed: true
 ---
 
 # Apache Tika Document Extractor

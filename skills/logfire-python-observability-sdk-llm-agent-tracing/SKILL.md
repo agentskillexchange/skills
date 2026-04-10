@@ -11,6 +11,7 @@ source: "https://github.com/pydantic/logfire"
 tool_ecosystem:
   github_repo: "pydantic/logfire"
   github_stars: 4156
+listed: true
 ---
 
 # Logfire Python Observability SDK for LLM and Agent Tracing

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-changelog-generator/"
+listed: true
 ---
 
 # OpenAPI Spec Changelog Generator

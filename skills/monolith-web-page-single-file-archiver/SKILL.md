@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Y2Z/monolith"
+listed: true
 ---
 
 # Monolith Web Page Archiver and Single-File Bundler

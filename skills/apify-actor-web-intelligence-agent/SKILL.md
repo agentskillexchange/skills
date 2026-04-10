@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/"
+listed: true
 ---
 
 # Apify Actor Web Intelligence Agent

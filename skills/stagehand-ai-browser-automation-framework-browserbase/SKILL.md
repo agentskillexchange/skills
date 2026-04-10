@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
+listed: true
 ---
 
 # Stagehand AI Browser Automation Framework by Browserbase

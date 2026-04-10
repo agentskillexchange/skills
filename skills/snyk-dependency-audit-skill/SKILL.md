@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
+listed: true
 ---
 
 # Snyk Dependency Audit Skill

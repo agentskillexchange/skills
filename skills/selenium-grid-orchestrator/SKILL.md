@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
+listed: true
 ---
 
 # Selenium Grid Orchestrator

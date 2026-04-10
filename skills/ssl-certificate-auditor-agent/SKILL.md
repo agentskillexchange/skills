@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-auditor-agent/"
+listed: true
 ---
 
 # SSL Certificate Auditor

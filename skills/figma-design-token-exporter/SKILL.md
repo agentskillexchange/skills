@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-design-token-exporter/"
+listed: true
 ---
 
 # Figma Design Token Exporter

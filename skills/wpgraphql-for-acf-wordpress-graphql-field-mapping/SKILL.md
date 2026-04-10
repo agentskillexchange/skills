@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wpgraphql-acf"
+listed: true
 ---
 
 # WPGraphQL for ACF WordPress GraphQL Field Mapping

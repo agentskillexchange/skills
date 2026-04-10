@@ -11,6 +11,7 @@ source: "https://github.com/TabbyML/tabby"
 tool_ecosystem:
   github_repo: "TabbyML/tabby"
   github_stars: 33305
+listed: true
 ---
 
 # Tabby Self-Hosted AI Coding Assistant and Copilot Alternative

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
+listed: true
 ---
 
 # Python Package API Surface Mapper

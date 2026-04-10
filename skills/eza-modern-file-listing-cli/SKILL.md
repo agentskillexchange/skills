@@ -11,6 +11,7 @@ source: "https://github.com/eza-community/eza"
 tool_ecosystem:
   github_repo: "eza-community/eza"
   github_stars: 20929
+listed: true
 ---
 
 # eza Modern File Listing CLI

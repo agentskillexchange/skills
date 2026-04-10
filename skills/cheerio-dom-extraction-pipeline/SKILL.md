@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"
+listed: true
 ---
 
 # Cheerio DOM Extraction Pipeline

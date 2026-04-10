@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/"
+listed: true
 ---
 
 # Jenkins Pipeline Linter Pro

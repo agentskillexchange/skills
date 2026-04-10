@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alerting-rules/"
+listed: true
 ---
 
 # Prometheus Alerting Rules

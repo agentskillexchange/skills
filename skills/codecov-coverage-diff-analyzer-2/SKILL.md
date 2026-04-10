@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/"
+listed: true
 ---
 
 # Codecov Coverage Diff Analyzer

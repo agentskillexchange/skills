@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/"
+listed: true
 ---
 
 # Docker Compose Service Blueprint Creator

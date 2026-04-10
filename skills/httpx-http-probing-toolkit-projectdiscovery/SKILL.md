@@ -11,6 +11,7 @@ source: "https://github.com/projectdiscovery/httpx"
 tool_ecosystem:
   github_repo: "projectdiscovery/httpx"
   github_stars: 9759
+listed: true
 ---
 
 # httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-agent/"
+listed: true
 ---
 
 # Codecov Coverage Tracker Agent

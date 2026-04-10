@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
+listed: true
 ---
 
 # GraphQL Schema Documentation Builder

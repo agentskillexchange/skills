@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/appwrite/appwrite"
+listed: true
 ---
 
 # Appwrite Open Source Backend as a Service Platform

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
+listed: true
 ---
 
 # Prometheus AlertManager Router

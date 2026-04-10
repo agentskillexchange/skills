@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-analyzer/"
+listed: true
 ---
 
 # Rust Crate Analyzer

@@ -11,6 +11,7 @@ source: "https://github.com/docling-project/docling"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 56871
+listed: true
 ---
 
 # Docling AI Document Intelligence Pipeline

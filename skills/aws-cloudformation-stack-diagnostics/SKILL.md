@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
+listed: true
 ---
 
 # AWS CloudFormation Stack Diagnostics

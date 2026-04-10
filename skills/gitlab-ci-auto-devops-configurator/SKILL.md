@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
+listed: true
 ---
 
 # GitLab CI Auto DevOps Configurator

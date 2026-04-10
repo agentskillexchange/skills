@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"
+listed: true
 ---
 
 # Slack Channel Summarizer

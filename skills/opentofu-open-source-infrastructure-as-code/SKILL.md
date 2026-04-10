@@ -11,6 +11,7 @@ source: "https://github.com/opentofu/opentofu"
 tool_ecosystem:
   github_repo: "opentofu/opentofu"
   github_stars: 28244
+listed: true
 ---
 
 # OpenTofu Open Source Infrastructure as Code Tool

@@ -11,6 +11,7 @@ source: "https://github.com/Effect-TS/effect"
 tool_ecosystem:
   github_repo: "Effect-TS/effect"
   github_stars: 13778
+listed: true
 ---
 
 # Effect TypeScript Standard Library for Production Applications

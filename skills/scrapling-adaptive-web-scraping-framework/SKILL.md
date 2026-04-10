@@ -11,6 +11,7 @@ source: "https://github.com/D4Vinci/Scrapling"
 tool_ecosystem:
   github_repo: "D4Vinci/Scrapling"
   github_stars: 34148
+listed: true
 ---
 
 # Scrapling Adaptive Web Scraping Framework

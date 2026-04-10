@@ -11,6 +11,7 @@ source: "https://github.com/logto-io/logto"
 tool_ecosystem:
   github_repo: "logto-io/logto"
   github_stars: 11862
+listed: true
 ---
 
 # Logto Open Source Authentication and Authorization Infrastructure

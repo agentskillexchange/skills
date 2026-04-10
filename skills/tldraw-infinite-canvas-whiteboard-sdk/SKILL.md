@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 46154
   npm_package: "tldraw"
   npm_weekly_downloads: 156977
+listed: true
 ---
 
 # tldraw Infinite Canvas Whiteboard SDK for React

@@ -11,6 +11,7 @@ source: "https://github.com/better-auth/better-auth"
 tool_ecosystem:
   github_repo: "better-auth/better-auth"
   github_stars: 27725
+listed: true
 ---
 
 # Better Auth Authentication Framework for TypeScript Applications

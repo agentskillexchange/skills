@@ -11,6 +11,7 @@ source: "https://github.com/casdoor/casdoor"
 tool_ecosystem:
   github_repo: "casdoor/casdoor"
   github_stars: 13316
+listed: true
 ---
 
 # Casdoor Open Source Identity and Access Management Platform

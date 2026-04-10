@@ -11,6 +11,7 @@ source: "https://github.com/tealdeer-rs/tealdeer"
 tool_ecosystem:
   github_repo: "tealdeer-rs/tealdeer"
   github_stars: 6109
+listed: true
 ---
 
 # Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages

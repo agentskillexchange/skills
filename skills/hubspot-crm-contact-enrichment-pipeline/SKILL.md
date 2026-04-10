@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hubspot-crm-contact-enrichment-pipeline/"
+listed: true
 ---
 
 # HubSpot CRM Contact Enrichment Pipeline

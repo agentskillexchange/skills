@@ -11,6 +11,7 @@ source: "https://github.com/stalwartlabs/stalwart"
 tool_ecosystem:
   github_repo: "stalwartlabs/stalwart"
   github_stars: 12164
+listed: true
 ---
 
 # Stalwart All-in-One Mail and Collaboration Server

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-camel-route-data-mapper/"
+listed: true
 ---
 
 # Apache Camel Route Data Mapper

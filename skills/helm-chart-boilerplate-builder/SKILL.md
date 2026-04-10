@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
+listed: true
 ---
 
 # Helm Chart Boilerplate Builder

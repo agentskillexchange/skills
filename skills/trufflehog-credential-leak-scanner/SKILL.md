@@ -11,6 +11,7 @@ source: "https://github.com/trufflesecurity/trufflehog"
 tool_ecosystem:
   github_repo: "trufflesecurity/trufflehog"
   github_stars: 25299
+listed: true
 ---
 
 # TruffleHog Credential Leak Scanner

@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
+listed: true
 ---
 
 # Stripe Webhook Signature Verifier

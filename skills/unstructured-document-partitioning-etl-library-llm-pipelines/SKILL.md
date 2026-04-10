@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Unstructured-IO/unstructured"
+listed: true
 ---
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines

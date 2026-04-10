@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-analyzer/"
+listed: true
 ---
 
 # GraphQL Schema Analyzer

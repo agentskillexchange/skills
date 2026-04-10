@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/adobe-photoshop-api-batch-processor/"
+listed: true
 ---
 
 # Adobe Photoshop API Batch Processor

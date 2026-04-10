@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/"
+listed: true
 ---
 
 # Apache Tika Content Extraction Hub

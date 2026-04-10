@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-mapper/"
+listed: true
 ---
 
 # dbt Model Lineage Mapper

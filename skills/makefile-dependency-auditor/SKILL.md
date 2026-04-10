@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-dependency-auditor/"
+listed: true
 ---
 
 # Makefile Dependency Auditor

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/"
+listed: true
 ---
 
 # Mustache Template Renderer

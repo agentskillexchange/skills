@@ -11,6 +11,7 @@ source: "https://github.com/zed-industries/zed"
 tool_ecosystem:
   github_repo: "zed-industries/zed"
   github_stars: 78608
+listed: true
 ---
 
 # Zed High-Performance Multiplayer Code Editor

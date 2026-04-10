@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-test-orchestrator-2/"
+listed: true
 ---
 
 # Selenium Grid Test Orchestrator

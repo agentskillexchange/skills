@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-orchestrator-3/"
+listed: true
 ---
 
 # Jenkins Pipeline Orchestrator

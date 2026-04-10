@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-cloud-executor/"
+listed: true
 ---
 
 # Selenium Grid Cloud Executor

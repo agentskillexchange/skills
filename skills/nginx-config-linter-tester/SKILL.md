@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-config-linter-tester/"
+listed: true
 ---
 
 # Nginx Config Linter and Tester

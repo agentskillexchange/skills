@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/swc-project/swc"
+listed: true
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript

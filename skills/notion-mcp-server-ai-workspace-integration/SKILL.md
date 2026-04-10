@@ -11,6 +11,7 @@ source: "https://github.com/makenotion/notion-mcp-server"
 tool_ecosystem:
   github_repo: "makenotion/notion-mcp-server"
   github_stars: 4141
+listed: true
 ---
 
 # Notion MCP Server for AI Workspace Integration

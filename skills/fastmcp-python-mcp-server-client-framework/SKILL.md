@@ -11,6 +11,7 @@ source: "https://github.com/PrefectHQ/fastmcp"
 tool_ecosystem:
   github_repo: "PrefectHQ/fastmcp"
   github_stars: 24192
+listed: true
 ---
 
 # FastMCP Python MCP Server and Client Framework

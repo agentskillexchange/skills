@@ -11,6 +11,7 @@ source: "https://github.com/parcel-bundler/lightningcss"
 tool_ecosystem:
   github_repo: "parcel-bundler/lightningcss"
   github_stars: 7500
+listed: true
 ---
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier

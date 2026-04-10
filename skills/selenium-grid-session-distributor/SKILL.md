@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-distributor/"
+listed: true
 ---
 
 # Selenium Grid Session Distributor

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/acf-extended/ACF-Extended"
+listed: true
 ---
 
 # ACF Extended for Advanced Custom Fields Workflows

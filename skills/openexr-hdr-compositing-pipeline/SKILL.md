@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openexr-hdr-compositing-pipeline/"
+listed: true
 ---
 
 # OpenEXR HDR Compositing Pipeline

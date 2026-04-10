@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-aggregation-agent/"
+listed: true
 ---
 
 # Grafana Loki Log Aggregation Agent

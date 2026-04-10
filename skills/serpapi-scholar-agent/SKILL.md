@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
+listed: true
 ---
 
 # SerpAPI Scholar Agent

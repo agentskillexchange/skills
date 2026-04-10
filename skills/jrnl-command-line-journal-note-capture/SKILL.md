@@ -11,6 +11,7 @@ source: "https://github.com/jrnl-org/jrnl"
 tool_ecosystem:
   github_repo: "jrnl-org/jrnl"
   github_stars: 7195
+listed: true
 ---
 
 # jrnl Command-Line Journal and Note Capture Tool

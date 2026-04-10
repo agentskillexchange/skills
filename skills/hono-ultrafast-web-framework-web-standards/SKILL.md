@@ -11,6 +11,7 @@ source: "https://github.com/honojs/hono"
 tool_ecosystem:
   github_repo: "honojs/hono"
   github_stars: 29789
+listed: true
 ---
 
 # Hono Ultrafast Web Framework Built on Web Standards

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/temporalio/cli"
+listed: true
 ---
 
 # Temporal CLI Workflow and Server Control

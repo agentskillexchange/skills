@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/airbyte-connector-config-generator/"
+listed: true
 ---
 
 # Airbyte Connector Config Generator

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-router/"
+listed: true
 ---
 
 # Selenium Grid Session Router

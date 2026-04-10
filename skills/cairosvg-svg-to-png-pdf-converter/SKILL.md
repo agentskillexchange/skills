@@ -11,6 +11,7 @@ source: "https://github.com/Kozea/CairoSVG"
 tool_ecosystem:
   github_repo: "Kozea/CairoSVG"
   github_stars: 917
+listed: true
 ---
 
 # CairoSVG SVG to PNG PDF and PostScript Converter

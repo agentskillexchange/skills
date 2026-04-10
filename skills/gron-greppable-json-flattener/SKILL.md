@@ -11,6 +11,7 @@ source: "https://github.com/tomnomnom/gron"
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
   github_stars: 14413
+listed: true
 ---
 
 # gron Greppable JSON Flattener

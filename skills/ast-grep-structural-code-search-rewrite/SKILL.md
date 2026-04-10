@@ -11,6 +11,7 @@ source: "https://github.com/ast-grep/ast-grep"
 tool_ecosystem:
   github_repo: "ast-grep/ast-grep"
   github_stars: 13245
+listed: true
 ---
 
 # ast-grep Structural Code Search and Rewrite

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/gotenberg/gotenberg"
+listed: true
 ---
 
 # Gotenberg Document-to-PDF Conversion API

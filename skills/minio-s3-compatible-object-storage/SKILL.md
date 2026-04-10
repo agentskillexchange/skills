@@ -11,6 +11,7 @@ source: "https://github.com/minio/minio"
 tool_ecosystem:
   github_repo: "minio/minio"
   github_stars: 60611
+listed: true
 ---
 
 # MinIO High-Performance S3-Compatible Object Storage Server

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
+listed: true
 ---
 
 # ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines

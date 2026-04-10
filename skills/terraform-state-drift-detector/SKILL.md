@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-drift-detector/"
+listed: true
 ---
 
 # Terraform State Drift Detector

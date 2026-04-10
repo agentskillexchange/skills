@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
+listed: true
 ---
 
 # Deepgram Real-Time Transcription Connector

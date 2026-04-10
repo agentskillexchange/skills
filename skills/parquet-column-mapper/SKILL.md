@@ -6,8 +6,9 @@ category:
   - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
-verification: "listed"
+verification: "published"
 source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
+listed: true
 ---
 
 # Parquet Column Mapper

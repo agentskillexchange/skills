@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-verification: "listed"
+verification: "published"
 source: "https://github.com/jdx/mise"
 tool_ecosystem:
   github_repo: "jdx/mise"
   github_stars: 26298
+listed: true
 ---
 
 # Mise Dev Tool Version Manager

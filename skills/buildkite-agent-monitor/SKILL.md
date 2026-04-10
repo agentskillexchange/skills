@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-agent-monitor/"
+listed: true
 ---
 
 # Buildkite Agent Monitor

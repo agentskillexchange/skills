@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/"
+listed: true
 ---
 
 # Nx Workspace Generator Toolkit

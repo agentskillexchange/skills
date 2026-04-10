@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-scanner/"
+listed: true
 ---
 
 # OWASP ZAP Scanner

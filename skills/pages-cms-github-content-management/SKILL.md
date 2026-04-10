@@ -11,6 +11,7 @@ source: "https://github.com/pagescms/pagescms"
 tool_ecosystem:
   github_repo: "pagescms/pagescms"
   github_stars: 3542
+listed: true
 ---
 
 # Pages CMS Open Source Content Management for GitHub Repositories

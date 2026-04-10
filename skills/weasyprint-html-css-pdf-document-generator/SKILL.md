@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
+listed: true
 ---
 
 # WeasyPrint HTML and CSS to PDF Document Generator

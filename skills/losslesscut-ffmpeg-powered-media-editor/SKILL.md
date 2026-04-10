@@ -11,6 +11,7 @@ source: "https://github.com/mifi/lossless-cut"
 tool_ecosystem:
   github_repo: "mifi/lossless-cut"
   github_stars: 39480
+listed: true
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor

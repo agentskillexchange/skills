@@ -11,6 +11,7 @@ source: "https://github.com/roots/sage"
 tool_ecosystem:
   github_repo: "roots/sage"
   github_stars: 13199
+listed: true
 ---
 
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS

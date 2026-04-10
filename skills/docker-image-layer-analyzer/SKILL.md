@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-image-layer-analyzer/"
+listed: true
 ---
 
 # Docker Image Layer Analyzer

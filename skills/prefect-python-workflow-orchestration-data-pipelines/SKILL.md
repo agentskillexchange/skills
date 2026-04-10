@@ -11,6 +11,7 @@ source: "https://github.com/PrefectHQ/prefect"
 tool_ecosystem:
   github_repo: "PrefectHQ/prefect"
   github_stars: 22094
+listed: true
 ---
 
 # Prefect Python Workflow Orchestration Framework for Data Pipelines

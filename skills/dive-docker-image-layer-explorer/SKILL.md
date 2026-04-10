@@ -11,6 +11,7 @@ source: "https://github.com/wagoodman/dive"
 tool_ecosystem:
   github_repo: "wagoodman/dive"
   github_stars: 53711
+listed: true
 ---
 
 # Dive Docker Image Layer Explorer and Size Optimizer

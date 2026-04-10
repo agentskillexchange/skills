@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-alert-router/"
+listed: true
 ---
 
 # Grafana Alert Router

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-oidc-token-verifier/"
+listed: true
 ---
 
 # GitHub Actions OIDC Token Verifier

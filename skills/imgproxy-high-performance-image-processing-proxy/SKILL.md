@@ -11,6 +11,7 @@ source: "https://github.com/imgproxy/imgproxy"
 tool_ecosystem:
   github_repo: "imgproxy/imgproxy"
   github_stars: 10554
+listed: true
 ---
 
 # imgproxy High-Performance Image Processing Proxy

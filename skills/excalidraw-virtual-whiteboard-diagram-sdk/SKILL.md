@@ -11,6 +11,7 @@ source: "https://github.com/excalidraw/excalidraw"
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886
+listed: true
 ---
 
 # Excalidraw Virtual Whiteboard and Diagram SDK

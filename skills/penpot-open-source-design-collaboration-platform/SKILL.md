@@ -11,6 +11,7 @@ source: "https://github.com/penpot/penpot"
 tool_ecosystem:
   github_repo: "penpot/penpot"
   github_stars: 45272
+listed: true
 ---
 
 # Penpot Open-Source Design Collaboration Platform

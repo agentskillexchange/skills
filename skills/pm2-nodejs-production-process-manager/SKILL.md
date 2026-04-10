@@ -11,6 +11,7 @@ source: "https://github.com/Unitech/pm2"
 tool_ecosystem:
   github_repo: "Unitech/pm2"
   github_stars: 43034
+listed: true
 ---
 
 # PM2 Node.js Production Process Manager with Load Balancing

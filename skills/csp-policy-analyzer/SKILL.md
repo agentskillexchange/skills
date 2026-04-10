@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/csp-policy-analyzer/"
+listed: true
 ---
 
 # CSP Policy Analyzer

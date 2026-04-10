@@ -11,6 +11,7 @@ source: "https://github.com/theJayTea/WritingTools"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186
+listed: true
 ---
 
 # WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS

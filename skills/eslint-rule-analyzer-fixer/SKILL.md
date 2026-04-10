@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
+listed: true
 ---
 
 # ESLint Rule Analyzer and Fixer

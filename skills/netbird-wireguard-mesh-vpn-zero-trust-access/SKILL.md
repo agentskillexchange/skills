@@ -11,6 +11,7 @@ source: "https://github.com/netbirdio/netbird"
 tool_ecosystem:
   github_repo: "netbirdio/netbird"
   github_stars: 24034
+listed: true
 ---
 
 # NetBird WireGuard Mesh VPN with Zero Trust Access Controls

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-cloud-mcp/"
+listed: true
 ---
 
 # dbt Cloud MCP

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
+listed: true
 ---
 
 # CodeClimate Diff Analyzer

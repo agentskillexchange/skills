@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-mcp-server/"
+listed: true
 ---
 
 # Docker MCP Server

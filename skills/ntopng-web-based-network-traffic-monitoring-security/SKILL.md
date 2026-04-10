@@ -11,6 +11,7 @@ source: "https://github.com/ntop/ntopng"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
   github_stars: 7702
+listed: true
 ---
 
 # ntopng Web-Based Network Traffic Monitoring and Security Analysis

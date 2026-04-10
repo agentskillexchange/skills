@@ -11,6 +11,7 @@ source: "https://github.com/getsops/sops"
 tool_ecosystem:
   github_repo: "getsops/sops"
   github_stars: 21312
+listed: true
 ---
 
 # SOPS Encrypted Secrets Editor and Manager

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/"
+listed: true
 ---
 
 # Kubernetes Pod Crashloop Runbook

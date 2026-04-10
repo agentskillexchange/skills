@@ -11,6 +11,7 @@ source: "https://github.com/makeplane/plane"
 tool_ecosystem:
   github_repo: "makeplane/plane"
   github_stars: 47388
+listed: true
 ---
 
 # Plane Open Source Project Management Platform

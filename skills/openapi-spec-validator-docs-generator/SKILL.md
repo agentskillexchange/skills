@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/"
+listed: true
 ---
 
 # OpenAPI Spec Validator & Docs Generator

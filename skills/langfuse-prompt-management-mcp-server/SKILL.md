@@ -11,6 +11,7 @@ source: "https://github.com/langfuse/mcp-server-langfuse"
 tool_ecosystem:
   github_repo: "langfuse/mcp-server-langfuse"
   github_stars: 159
+listed: true
 ---
 
 # Langfuse Prompt Management MCP Server

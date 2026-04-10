@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 8385
   npm_package: "typedoc"
   npm_weekly_downloads: 3703073
+listed: true
 ---
 
 # TypeDoc TypeScript API Documentation Generator

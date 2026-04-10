@@ -11,6 +11,7 @@ source: "https://github.com/cachix/devenv"
 tool_ecosystem:
   github_repo: "cachix/devenv"
   github_stars: 6614
+listed: true
 ---
 
 # devenv Declarative Developer Environments with Nix

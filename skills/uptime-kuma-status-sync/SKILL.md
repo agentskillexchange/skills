@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
+listed: true
 ---
 
 # Uptime Kuma Status Sync

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
+listed: true
 ---
 
 # GitHub Actions Pipeline Validator

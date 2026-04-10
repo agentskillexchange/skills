@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-configurator/"
+listed: true
 ---
 
 # ESLint Rule Configurator

@@ -11,6 +11,7 @@ source: "https://github.com/pola-rs/polars"
 tool_ecosystem:
   github_repo: "pola-rs/polars"
   github_stars: 37924
+listed: true
 ---
 
 # Polars Blazing-Fast DataFrame Query Engine

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-response-schema-validator/"
+listed: true
 ---
 
 # REST API Response Schema Validator

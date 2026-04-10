@@ -11,6 +11,7 @@ source: "https://github.com/simonw/shot-scraper"
 tool_ecosystem:
   github_repo: "simonw/shot-scraper"
   github_stars: 2311
+listed: true
 ---
 
 # shot-scraper Automated Website Screenshot and Scraping CLI

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
+listed: true
 ---
 
 # CircleCI Orb Dependency Scanner

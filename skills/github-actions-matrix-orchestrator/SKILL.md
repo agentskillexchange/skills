@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-orchestrator/"
+listed: true
 ---
 
 # GitHub Actions Matrix Orchestrator

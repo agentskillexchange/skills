@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/muxinc/mux-node-sdk"
+listed: true
 ---
 
 # Mux Node SDK for Video and Streaming API Workflows

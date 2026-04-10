@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/"
+listed: true
 ---
 
 # AWS CloudWatch Alarm Triage

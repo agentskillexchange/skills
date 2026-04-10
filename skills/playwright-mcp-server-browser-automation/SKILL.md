@@ -11,6 +11,7 @@ source: "https://github.com/microsoft/playwright-mcp"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30110
+listed: true
 ---
 
 # Playwright MCP Server for Browser Automation

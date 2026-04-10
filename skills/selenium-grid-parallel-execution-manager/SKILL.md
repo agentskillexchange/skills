@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-execution-manager/"
+listed: true
 ---
 
 # Selenium Grid Parallel Execution Manager

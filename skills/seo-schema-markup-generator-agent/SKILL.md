@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/"
+listed: true
 ---
 
 # SEO Schema Markup Generator

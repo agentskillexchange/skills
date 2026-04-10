@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/"
+listed: true
 ---
 
 # Stripe Revenue Analytics Dashboard Builder

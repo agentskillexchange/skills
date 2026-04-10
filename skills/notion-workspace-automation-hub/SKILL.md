@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
+listed: true
 ---
 
 # Notion Workspace Automation Hub

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-ai-workspace/"
+listed: true
 ---
 
 # Notion AI Workspace

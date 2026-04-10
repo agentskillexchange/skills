@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-check-runbook/"
+listed: true
 ---
 
 # Docker Container Health Check Runbook

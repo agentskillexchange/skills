@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/package-vuln-scanner-osv-api/"
+listed: true
 ---
 
 # Package Vulnerability Scanner

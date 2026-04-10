@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
+listed: true
 ---
 
 # Censys Attack Surface Monitor

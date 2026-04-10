@@ -11,6 +11,7 @@ source: "https://github.com/writefreely/writefreely"
 tool_ecosystem:
   github_repo: "writefreely/writefreely"
   github_stars: 5117
+listed: true
 ---
 
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub

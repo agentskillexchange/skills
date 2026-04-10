@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-agent/"
+listed: true
 ---
 
 # Terraform Plan Reviewer Agent

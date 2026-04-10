@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
+listed: true
 ---
 
 # Headless CMS GraphQL Connector

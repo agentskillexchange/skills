@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cron-job-manager/"
+listed: true
 ---
 
 # Cron Job Manager

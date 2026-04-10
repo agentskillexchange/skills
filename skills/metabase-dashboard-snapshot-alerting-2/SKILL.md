@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
+listed: true
 ---
 
 # Metabase Dashboard Snapshot & Alerting

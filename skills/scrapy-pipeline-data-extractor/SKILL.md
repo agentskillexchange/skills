@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
+listed: true
 ---
 
 # Scrapy Pipeline Data Extractor

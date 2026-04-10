@@ -11,6 +11,7 @@ source: "https://github.com/plandex-ai/plandex"
 tool_ecosystem:
   github_repo: "plandex-ai/plandex"
   github_stars: 15183
+listed: true
 ---
 
 # Plandex AI Coding Agent for Large Projects

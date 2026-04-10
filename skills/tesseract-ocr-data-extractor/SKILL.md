@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-data-extractor/"
+listed: true
 ---
 
 # Tesseract OCR Data Extractor

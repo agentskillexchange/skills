@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
+listed: true
 ---
 
 # SonarQube Analysis Agent

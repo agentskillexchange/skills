@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://developers.notion.com/"
+listed: true
 ---
 
 # Notion Workspace Sync Engine

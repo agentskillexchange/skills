@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapycloud-job-manager/"
+listed: true
 ---
 
 # ScrapyCloud Job Manager

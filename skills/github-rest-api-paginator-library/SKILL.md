@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-rest-api-paginator-library/"
+listed: true
 ---
 
 # GitHub REST API Paginator Library

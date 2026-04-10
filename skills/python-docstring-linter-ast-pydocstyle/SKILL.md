@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/"
+listed: true
 ---
 
 # Python Docstring Linter

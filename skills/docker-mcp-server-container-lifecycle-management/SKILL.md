@@ -11,6 +11,7 @@ source: "https://github.com/ckreiling/mcp-server-docker"
 tool_ecosystem:
   github_repo: "ckreiling/mcp-server-docker"
   github_stars: 695
+listed: true
 ---
 
 # Docker MCP Server for Container Lifecycle Management

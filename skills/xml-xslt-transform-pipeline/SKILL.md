@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/"
+listed: true
 ---
 
 # XML XSLT Transform Pipeline

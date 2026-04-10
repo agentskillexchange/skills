@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://developers.cloudflare.com/analytics/"
+listed: true
 ---
 
 # Cloudflare Analytics Health Monitor

@@ -11,6 +11,7 @@ source: "https://github.com/twpayne/chezmoi"
 tool_ecosystem:
   github_repo: "twpayne/chezmoi"
   github_stars: 18876
+listed: true
 ---
 
 # chezmoi Cross-Machine Dotfiles Manager

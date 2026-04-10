@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
+listed: true
 ---
 
 # Salesforce Bulk API Sync Agent

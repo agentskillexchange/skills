@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-session-manager/"
+listed: true
 ---
 
 # Selenium Grid Session Manager

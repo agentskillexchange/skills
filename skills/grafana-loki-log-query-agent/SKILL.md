@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-query-agent/"
+listed: true
 ---
 
 # Grafana Loki Log Query Agent

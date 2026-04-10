@@ -11,6 +11,7 @@ source: "https://github.com/langflow-ai/langflow"
 tool_ecosystem:
   github_repo: "langflow-ai/langflow"
   github_stars: 146756
+listed: true
 ---
 
 # Langflow Visual AI Agent and Workflow Builder

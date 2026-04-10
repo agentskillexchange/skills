@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-reference/"
+listed: true
 ---
 
 # NPM Package Audit Reference

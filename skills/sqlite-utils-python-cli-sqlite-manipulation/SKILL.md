@@ -11,6 +11,7 @@ source: "https://github.com/simonw/sqlite-utils"
 tool_ecosystem:
   github_repo: "simonw/sqlite-utils"
   github_stars: 2026
+listed: true
 ---
 
 # sqlite-utils Python CLI for SQLite Database Manipulation

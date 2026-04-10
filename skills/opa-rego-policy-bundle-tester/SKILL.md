@@ -11,6 +11,7 @@ source: "https://github.com/open-policy-agent/opa"
 tool_ecosystem:
   github_repo: "open-policy-agent/opa"
   github_stars: 11534
+listed: true
 ---
 
 # OPA Rego Policy Bundle Tester

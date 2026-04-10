@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/"
+listed: true
 ---
 
 # Swagger Codegen API Client Builder

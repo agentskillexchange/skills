@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/"
+listed: true
 ---
 
 # PHPStan Static Analyzer Agent

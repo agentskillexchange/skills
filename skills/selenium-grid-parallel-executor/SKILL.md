@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-executor/"
+listed: true
 ---
 
 # Selenium Grid Parallel Executor

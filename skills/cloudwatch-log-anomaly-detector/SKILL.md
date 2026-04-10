@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-log-anomaly-detector/"
+listed: true
 ---
 
 # CloudWatch Log Anomaly Detector

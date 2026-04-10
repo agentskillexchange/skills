@@ -11,6 +11,7 @@ source: "https://github.com/quarylabs/sqruff"
 tool_ecosystem:
   github_repo: "quarylabs/sqruff"
   github_stars: 1268
+listed: true
 ---
 
 # sqruff High-Performance SQL Linter and Formatter

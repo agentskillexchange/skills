@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/"
+listed: true
 ---
 
 # Twitter/X Trend Monitor & Thread Publisher

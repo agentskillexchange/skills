@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-config-validator/"
+listed: true
 ---
 
 # CircleCI Config Validator

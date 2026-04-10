@@ -11,6 +11,7 @@ source: "https://github.com/nerding-io/n8n-nodes-mcp"
 tool_ecosystem:
   github_repo: "nerding-io/n8n-nodes-mcp"
   github_stars: 3003
+listed: true
 ---
 
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows

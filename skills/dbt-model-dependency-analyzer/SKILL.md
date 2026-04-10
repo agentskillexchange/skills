@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
+listed: true
 ---
 
 # dbt Model Dependency Analyzer

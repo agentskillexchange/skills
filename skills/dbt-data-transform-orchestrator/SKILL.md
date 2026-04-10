@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/"
+listed: true
 ---
 
 # dbt Data Transform Orchestrator

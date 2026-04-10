@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
+listed: true
 ---
 
 # Midjourney Prompt Optimizer

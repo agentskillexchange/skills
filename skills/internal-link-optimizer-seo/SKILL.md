@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-optimizer-seo/"
+listed: true
 ---
 
 # Internal Link Optimizer

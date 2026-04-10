@@ -11,6 +11,7 @@ source: "https://github.com/wpmetabox/meta-box"
 tool_ecosystem:
   github_repo: "wpmetabox/meta-box"
   github_stars: 1237
+listed: true
 ---
 
 # Meta Box WordPress Custom Fields and Meta Boxes Framework

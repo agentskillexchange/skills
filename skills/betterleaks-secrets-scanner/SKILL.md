@@ -11,6 +11,7 @@ source: "https://github.com/betterleaks/betterleaks"
 tool_ecosystem:
   github_repo: "betterleaks/betterleaks"
   github_stars: 712
+listed: true
 ---
 
 # Betterleaks Next-Generation Secrets Scanner

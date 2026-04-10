@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/"
+listed: true
 ---
 
 # Yeoman Enterprise Generator Suite

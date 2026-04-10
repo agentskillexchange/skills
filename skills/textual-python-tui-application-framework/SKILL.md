@@ -11,6 +11,7 @@ source: "https://github.com/Textualize/textual"
 tool_ecosystem:
   github_repo: "Textualize/textual"
   github_stars: 35301
+listed: true
 ---
 
 # Textual Python TUI Application Framework by Textualize

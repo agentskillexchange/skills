@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-bottleneck-profiler/"
+listed: true
 ---
 
 # GitLab Pipeline Bottleneck Profiler

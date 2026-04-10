@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
+listed: true
 ---
 
 # REST API Test Suite Generator

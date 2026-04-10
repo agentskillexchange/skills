@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-executor/"
+listed: true
 ---
 
 # AWS Systems Manager Runbook

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
+listed: true
 ---
 
 # GitHub Actions Workflow Optimizer

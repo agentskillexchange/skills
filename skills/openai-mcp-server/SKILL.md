@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openai-mcp-server/"
+listed: true
 ---
 
 # OpenAI MCP Server

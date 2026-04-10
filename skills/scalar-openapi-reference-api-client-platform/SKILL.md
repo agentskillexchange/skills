@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/scalar/scalar"
+listed: true
 ---
 
 # Scalar OpenAPI Reference and API Client Platform

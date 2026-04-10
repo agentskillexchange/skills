@@ -6,11 +6,12 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/binwiederhier/ntfy"
 tool_ecosystem:
   github_repo: "binwiederhier/ntfy"
   github_stars: 29493
+listed: true
 ---
 
 # ntfy Self-Hosted Push Notification Server

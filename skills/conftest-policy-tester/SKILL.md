@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/conftest-policy-tester/"
+listed: true
 ---
 
 # Conftest Policy Tester

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
+listed: true
 ---
 
 # TLS Certificate Chain Analyzer

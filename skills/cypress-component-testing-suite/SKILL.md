@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-suite/"
+listed: true
 ---
 
 # Cypress Component Testing Suite

@@ -11,6 +11,7 @@ source: "https://github.com/containers/podman"
 tool_ecosystem:
   github_repo: "containers/podman"
   github_stars: 31227
+listed: true
 ---
 
 # Podman Daemonless Container Management Engine

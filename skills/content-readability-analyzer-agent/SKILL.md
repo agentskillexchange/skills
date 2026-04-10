@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-readability-analyzer-agent/"
+listed: true
 ---
 
 # Content Readability Analyzer

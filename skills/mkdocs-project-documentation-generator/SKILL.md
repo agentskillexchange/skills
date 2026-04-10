@@ -11,6 +11,7 @@ source: "https://github.com/mkdocs/mkdocs"
 tool_ecosystem:
   github_repo: "mkdocs/mkdocs"
   github_stars: 21931
+listed: true
 ---
 
 # MkDocs Project Documentation Generator

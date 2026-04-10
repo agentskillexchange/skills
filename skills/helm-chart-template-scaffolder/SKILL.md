@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-template-scaffolder/"
+listed: true
 ---
 
 # Helm Chart Template Scaffolder

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-manager-skill/"
+listed: true
 ---
 
 # ArgoCD Sync Manager

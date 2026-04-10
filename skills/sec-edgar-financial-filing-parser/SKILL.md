@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://www.sec.gov/edgar/searchedgar/companysearch"
+listed: true
 ---
 
 # SEC EDGAR Financial Filing Parser

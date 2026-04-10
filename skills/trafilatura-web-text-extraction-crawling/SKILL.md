@@ -11,6 +11,7 @@ source: "https://github.com/adbar/trafilatura"
 tool_ecosystem:
   github_repo: "adbar/trafilatura"
   github_stars: 5638
+listed: true
 ---
 
 # Trafilatura Web Text Extraction and Crawling Toolkit

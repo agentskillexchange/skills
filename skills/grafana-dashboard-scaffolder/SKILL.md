@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/"
+listed: true
 ---
 
 # Grafana Dashboard Scaffolder

@@ -11,6 +11,7 @@ source: "https://github.com/cookiecutter/cookiecutter"
 tool_ecosystem:
   github_repo: "cookiecutter/cookiecutter"
   github_stars: 24786
+listed: true
 ---
 
 # Cookiecutter Project Template Scaffolder

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-generator/"
+listed: true
 ---
 
 # Jenkins Pipeline Generator

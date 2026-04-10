@@ -11,6 +11,7 @@ source: "https://github.com/denisidoro/navi"
 tool_ecosystem:
   github_repo: "denisidoro/navi"
   github_stars: 16941
+listed: true
 ---
 
 # navi Interactive CLI Cheatsheet Tool

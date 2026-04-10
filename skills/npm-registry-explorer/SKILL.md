@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
+listed: true
 ---
 
 # npm Registry Explorer

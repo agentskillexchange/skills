@@ -11,6 +11,7 @@ source: "https://github.com/hookdeck/hookdeck-cli"
 tool_ecosystem:
   github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353
+listed: true
 ---
 
 # Hookdeck CLI for Webhook Development and Event Debugging

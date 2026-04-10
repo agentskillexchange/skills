@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+listed: true
 ---
 
 # Datadog Anomaly Detector

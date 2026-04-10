@@ -11,6 +11,7 @@ source: "https://github.com/caddyserver/caddy"
 tool_ecosystem:
   github_repo: "caddyserver/caddy"
   github_stars: 71224
+listed: true
 ---
 
 # Caddy Automatic HTTPS Web Server and Reverse Proxy

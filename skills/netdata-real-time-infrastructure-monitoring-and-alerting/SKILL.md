@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/netdata/netdata"
+listed: true
 ---
 
 # Netdata Real-Time Infrastructure Monitoring and Alerting

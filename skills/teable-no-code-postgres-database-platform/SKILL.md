@@ -11,6 +11,7 @@ source: "https://github.com/teableio/teable"
 tool_ecosystem:
   github_repo: "teableio/teable"
   github_stars: 21084
+listed: true
 ---
 
 # Teable No-Code Postgres Database Platform and Airtable Alternative

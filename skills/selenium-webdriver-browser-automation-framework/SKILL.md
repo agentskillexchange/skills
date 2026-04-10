@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
+listed: true
 ---
 
 # Selenium WebDriver Browser Automation Framework

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
+listed: true
 ---
 
 # Bubble.io Stripe Subscription Portal Builder

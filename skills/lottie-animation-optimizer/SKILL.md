@@ -11,6 +11,7 @@ source: "https://github.com/airbnb/lottie-web"
 tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31794
+listed: true
 ---
 
 # Lottie Animation Optimizer

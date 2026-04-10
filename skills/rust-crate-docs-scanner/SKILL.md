@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-docs-scanner/"
+listed: true
 ---
 
 # Rust Crate Docs Scanner

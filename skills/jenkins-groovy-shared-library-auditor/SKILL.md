@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-groovy-shared-library-auditor/"
+listed: true
 ---
 
 # Jenkins Groovy Shared Library Auditor

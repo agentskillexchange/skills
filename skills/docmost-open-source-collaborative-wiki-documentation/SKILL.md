@@ -11,6 +11,7 @@ source: "https://github.com/docmost/docmost"
 tool_ecosystem:
   github_repo: "docmost/docmost"
   github_stars: 19723
+listed: true
 ---
 
 # Docmost Open Source Collaborative Wiki and Documentation Platform

@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
+listed: true
 ---
 
 # SEC EDGAR Filing Scraper & Analyzer

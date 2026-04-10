@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/"
+listed: true
 ---
 
 # Checkov Infrastructure Policy Scanner

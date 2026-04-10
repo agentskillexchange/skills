@@ -11,6 +11,7 @@ source: "https://github.com/openai/whisper"
 tool_ecosystem:
   github_repo: "openai/whisper"
   github_stars: 97226
+listed: true
 ---
 
 # OpenAI Whisper Transcription

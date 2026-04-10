@@ -11,6 +11,7 @@ source: "https://github.com/mltframework/mlt"
 tool_ecosystem:
   github_repo: "mltframework/mlt"
   github_stars: 1745
+listed: true
 ---
 
 # MLT Multimedia Framework for Video Editing and Processing

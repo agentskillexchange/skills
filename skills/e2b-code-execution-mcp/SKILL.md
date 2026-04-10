@@ -11,6 +11,7 @@ source: "https://github.com/e2b-dev/mcp-server"
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 386
+listed: true
 ---
 
 # E2B Code Execution MCP

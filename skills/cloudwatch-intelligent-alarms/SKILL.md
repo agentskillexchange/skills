@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
+listed: true
 ---
 
 # CloudWatch Intelligent Alarms

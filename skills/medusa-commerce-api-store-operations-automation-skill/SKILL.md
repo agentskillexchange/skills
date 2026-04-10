@@ -11,6 +11,7 @@ source: "https://github.com/medusajs/medusa"
 tool_ecosystem:
   github_repo: "medusajs/medusa"
   github_stars: 32614
+listed: true
 ---
 
 # Medusa Commerce API and Store Operations Automation Skill

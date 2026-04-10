@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-deployer/"
+listed: true
 ---
 
 # Argo Workflows Deployer

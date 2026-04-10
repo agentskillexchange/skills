@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-sync-bridge/"
+listed: true
 ---
 
 # Notion Task Sync Bridge

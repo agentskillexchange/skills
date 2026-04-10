@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/"
+listed: true
 ---
 
 # Semgrep Custom Pattern Builder

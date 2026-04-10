@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/"
+listed: true
 ---
 
 # Kubernetes Runbook Executor

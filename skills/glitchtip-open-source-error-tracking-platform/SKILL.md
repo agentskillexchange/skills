@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://gitlab.com/glitchtip/glitchtip-backend"
+listed: true
 ---
 
 # GlitchTip Open-Source Error Tracking Platform

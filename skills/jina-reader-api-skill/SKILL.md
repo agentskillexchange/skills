@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
+listed: true
 ---
 
 # Jina Reader API Skill

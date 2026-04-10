@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
+listed: true
 ---
 
 # GitLab CI Pipeline Dependency Tracer

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/HKUDS/LightRAG"
+listed: true
 ---
 
 # LightRAG Graph-Based Retrieval-Augmented Generation Framework

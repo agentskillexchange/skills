@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
+listed: true
 ---
 
 # Whisper.cpp Real-Time Transcription Pipeline

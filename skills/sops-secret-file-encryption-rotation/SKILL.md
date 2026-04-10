@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/getsops/sops"
+listed: true
 ---
 
 # SOPS Secret File Encryption and Rotation

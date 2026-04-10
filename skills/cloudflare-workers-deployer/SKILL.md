@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudflare-workers-deployer/"
+listed: true
 ---
 
 # Cloudflare Workers Deployer

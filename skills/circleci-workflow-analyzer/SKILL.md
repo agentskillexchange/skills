@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-workflow-analyzer/"
+listed: true
 ---
 
 # CircleCI Workflow Analyzer

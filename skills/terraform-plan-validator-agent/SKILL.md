@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
+listed: true
 ---
 
 # Terraform Plan Validator Agent

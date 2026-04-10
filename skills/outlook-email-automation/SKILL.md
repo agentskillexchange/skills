@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/outlook-email-automation/"
+listed: true
 ---
 
 # Outlook Email Automation

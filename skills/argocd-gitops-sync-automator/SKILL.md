@@ -11,6 +11,7 @@ source: "https://github.com/argoproj/argo-cd"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22518
+listed: true
 ---
 
 # ArgoCD GitOps Sync Automator

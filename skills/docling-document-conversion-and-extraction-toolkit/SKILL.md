@@ -11,6 +11,7 @@ source: "https://github.com/docling-project/docling"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 57465
+listed: true
 ---
 
 # Docling Document Conversion and Extraction Toolkit

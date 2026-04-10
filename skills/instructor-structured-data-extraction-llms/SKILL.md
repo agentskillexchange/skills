@@ -11,6 +11,7 @@ source: "https://github.com/567-labs/instructor"
 tool_ecosystem:
   github_repo: "567-labs/instructor"
   github_stars: 12666
+listed: true
 ---
 
 # Instructor Structured Data Extraction from LLMs

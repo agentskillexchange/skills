@@ -11,6 +11,7 @@ source: "https://github.com/unclecode/crawl4ai"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
   github_stars: 63685
+listed: true
 ---
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/"
+listed: true
 ---
 
 # Datadog APM Trace Query Agent

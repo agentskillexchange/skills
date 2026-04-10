@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/"
+listed: true
 ---
 
 # PostgreSQL Health Diagnostics Agent

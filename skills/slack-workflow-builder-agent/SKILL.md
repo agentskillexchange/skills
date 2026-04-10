@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-builder-agent/"
+listed: true
 ---
 
 # Slack Workflow Builder Agent

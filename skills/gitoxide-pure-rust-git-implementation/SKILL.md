@@ -11,6 +11,7 @@ source: "https://github.com/GitoxideLabs/gitoxide"
 tool_ecosystem:
   github_repo: "GitoxideLabs/gitoxide"
   github_stars: 11102
+listed: true
 ---
 
 # Gitoxide Pure Rust Git Implementation and Library

@@ -11,6 +11,7 @@ source: "https://github.com/Flagsmith/flagsmith"
 tool_ecosystem:
   github_repo: "Flagsmith/flagsmith"
   github_stars: 6290
+listed: true
 ---
 
 # Flagsmith Open Source Feature Flag and Remote Config Platform

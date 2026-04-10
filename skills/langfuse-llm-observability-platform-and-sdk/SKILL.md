@@ -11,6 +11,7 @@ source: "https://github.com/langfuse/langfuse"
 tool_ecosystem:
   github_repo: "langfuse/langfuse"
   github_stars: 24091
+listed: true
 ---
 
 # Langfuse LLM Observability Platform and SDK

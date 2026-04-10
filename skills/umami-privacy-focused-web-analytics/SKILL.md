@@ -11,6 +11,7 @@ source: "https://github.com/umami-software/umami"
 tool_ecosystem:
   github_repo: "umami-software/umami"
   github_stars: 35941
+listed: true
 ---
 
 # Umami Privacy-Focused Web Analytics Platform

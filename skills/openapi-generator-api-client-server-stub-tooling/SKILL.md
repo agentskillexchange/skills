@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/OpenAPITools/openapi-generator"
+listed: true
 ---
 
 # OpenAPI Generator API Client and Server Stub Tooling

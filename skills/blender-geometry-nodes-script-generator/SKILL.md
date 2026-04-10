@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://www.blender.org/"
+listed: true
 ---
 
 # Blender Geometry Nodes Script Generator

@@ -11,6 +11,7 @@ source: "https://github.com/adefossez/demucs"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507
+listed: true
 ---
 
 # Audio Stem Separator with Demucs

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/cartesia-ai/cartesia-js"
+listed: true
 ---
 
 # Cartesia JavaScript SDK for Low-Latency Voice Generation

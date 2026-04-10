@@ -11,6 +11,7 @@ source: "https://github.com/gohugoio/hugo"
 tool_ecosystem:
   github_repo: "gohugoio/hugo"
   github_stars: 87352
+listed: true
 ---
 
 # Hugo Fast Static Site Generator and CMS Framework

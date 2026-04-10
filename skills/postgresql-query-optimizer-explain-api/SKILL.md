@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-optimizer-explain-api/"
+listed: true
 ---
 
 # PostgreSQL Query Optimizer Agent

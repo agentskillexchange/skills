@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/twitchtv/twirp"
+listed: true
 ---
 
 # Twirp Go RPC Framework and Code Generator

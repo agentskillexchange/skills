@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
+listed: true
 ---
 
 # Git Secret Scanner with Gitleaks

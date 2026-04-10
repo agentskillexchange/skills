@@ -11,6 +11,7 @@ source: "https://github.com/actions/setup-node"
 tool_ecosystem:
   github_repo: "actions/setup-node"
   github_stars: 4738
+listed: true
 ---
 
 # GitHub Actions Matrix Strategy Builder

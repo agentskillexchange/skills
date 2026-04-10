@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/"
+listed: true
 ---
 
 # Nginx Error Log Pattern Analyzer

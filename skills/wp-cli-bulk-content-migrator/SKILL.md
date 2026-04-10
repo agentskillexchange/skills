@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/"
+listed: true
 ---
 
 # WP-CLI Bulk Content Migrator

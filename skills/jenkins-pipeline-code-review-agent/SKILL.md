@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
+listed: true
 ---
 
 # Jenkins Pipeline Code Review Agent

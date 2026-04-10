@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-tester/"
+listed: true
 ---
 
 # OWASP ZAP API Security Tester

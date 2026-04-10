@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-template-generator/"
+listed: true
 ---
 
 # Grafana Dashboard Template Generator

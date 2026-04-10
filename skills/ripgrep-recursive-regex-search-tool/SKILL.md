@@ -11,6 +11,7 @@ source: "https://github.com/BurntSushi/ripgrep"
 tool_ecosystem:
   github_repo: "BurntSushi/ripgrep"
   github_stars: 61743
+listed: true
 ---
 
 # ripgrep Recursive Regex Search Tool

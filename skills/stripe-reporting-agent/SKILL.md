@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-reporting-agent/"
+listed: true
 ---
 
 # Stripe Reporting Agent

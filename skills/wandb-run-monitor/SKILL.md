@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wandb-run-monitor/"
+listed: true
 ---
 
 # Weights & Biases Run Monitor

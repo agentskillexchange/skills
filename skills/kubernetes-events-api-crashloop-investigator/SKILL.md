@@ -11,6 +11,7 @@ source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121439
+listed: true
 ---
 
 # Kubernetes Events API CrashLoop Investigator

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-audit-dependency-report-generator/"
+listed: true
 ---
 
 # npm Audit Dependency Report Generator

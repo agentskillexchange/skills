@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/"
+listed: true
 ---
 
 # Stable Diffusion ControlNet Compositor

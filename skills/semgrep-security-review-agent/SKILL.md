@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
+listed: true
 ---
 
 # Semgrep Security Review Agent

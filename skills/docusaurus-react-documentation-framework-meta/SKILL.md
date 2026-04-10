@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 64315
   npm_package: "docusaurus"
   npm_weekly_downloads: 21265
+listed: true
 ---
 
 # Docusaurus React Documentation Framework by Meta

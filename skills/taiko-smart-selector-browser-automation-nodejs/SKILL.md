@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/getgauge/taiko"
+listed: true
 ---
 
 # Taiko Smart-Selector Browser Automation for Node.js

@@ -11,6 +11,7 @@ source: "https://github.com/aws/aws-sdk-js-v3"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3604
+listed: true
 ---
 
 # AWS S3 MCP Server

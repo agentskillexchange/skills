@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-generator-3/"
+listed: true
 ---
 
 # GitHub Actions Workflow Generator

@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-analyzer/"
+listed: true
 ---
 
 # NPM Package Analyzer

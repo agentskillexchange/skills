@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
+listed: true
 ---
 
 # Semgrep Pattern Scanner

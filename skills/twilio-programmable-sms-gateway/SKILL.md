@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/"
+listed: true
 ---
 
 # Twilio Programmable SMS Gateway

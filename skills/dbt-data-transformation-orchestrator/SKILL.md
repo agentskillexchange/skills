@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-data-transformation-orchestrator/"
+listed: true
 ---
 
 # dbt Data Transformation Orchestrator

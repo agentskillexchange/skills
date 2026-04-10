@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
+listed: true
 ---
 
 # Prometheus Alert Runbook Linker

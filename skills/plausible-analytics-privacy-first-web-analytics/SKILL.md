@@ -11,6 +11,7 @@ source: "https://github.com/plausible/analytics"
 tool_ecosystem:
   github_repo: "plausible/analytics"
   github_stars: 24495
+listed: true
 ---
 
 # Plausible Analytics Privacy-First Web Analytics Platform

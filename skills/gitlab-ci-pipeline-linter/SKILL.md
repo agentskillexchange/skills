@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/"
+listed: true
 ---
 
 # GitLab CI Pipeline Linter

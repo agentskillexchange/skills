@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
+listed: true
 ---
 
 # Playwright E2E Test Generator

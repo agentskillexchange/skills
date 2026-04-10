@@ -11,6 +11,7 @@ source: "https://github.com/lfos/calcurse"
 tool_ecosystem:
   github_repo: "lfos/calcurse"
   github_stars: 1235
+listed: true
 ---
 
 # calcurse Text-Based Calendar and Scheduling Application

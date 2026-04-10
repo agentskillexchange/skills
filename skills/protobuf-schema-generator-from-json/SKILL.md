@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/"
+listed: true
 ---
 
 # Protocol Buffer Schema Generator

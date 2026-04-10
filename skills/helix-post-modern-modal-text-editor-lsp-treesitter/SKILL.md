@@ -11,6 +11,7 @@ source: "https://github.com/helix-editor/helix"
 tool_ecosystem:
   github_repo: "helix-editor/helix"
   github_stars: 43690
+listed: true
 ---
 
 # Helix Post-Modern Modal Text Editor with LSP and Tree-sitter

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
+listed: true
 ---
 
 # Git Secrets Pre-Commit Scanner

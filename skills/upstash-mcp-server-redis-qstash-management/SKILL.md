@@ -11,6 +11,7 @@ source: "https://github.com/upstash/mcp-server"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52
+listed: true
 ---
 
 # Upstash MCP Server for Redis and QStash Management

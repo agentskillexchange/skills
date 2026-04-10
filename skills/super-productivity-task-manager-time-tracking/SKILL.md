@@ -11,6 +11,7 @@ source: "https://github.com/super-productivity/super-productivity"
 tool_ecosystem:
   github_repo: "super-productivity/super-productivity"
   github_stars: 18281
+listed: true
 ---
 
 # Super Productivity Open Source Task Manager with Time Tracking

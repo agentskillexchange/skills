@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
+listed: true
 ---
 
 # Browser Use Web Agent Automation

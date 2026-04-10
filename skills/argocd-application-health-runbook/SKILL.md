@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-application-health-runbook/"
+listed: true
 ---
 
 # ArgoCD Application Health Runbook

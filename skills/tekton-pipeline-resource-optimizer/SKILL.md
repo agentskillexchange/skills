@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
+listed: true
 ---
 
 # Tekton Pipeline Resource Optimizer

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
+listed: true
 ---
 
 # Terraform State Surgery Kit

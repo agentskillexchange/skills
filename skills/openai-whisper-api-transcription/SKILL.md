@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://developers.openai.com/api/docs/guides/speech-to-text"
+listed: true
 ---
 
 # OpenAI Whisper API Transcription

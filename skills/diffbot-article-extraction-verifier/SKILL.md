@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://www.diffbot.com/dev/docs/"
+listed: true
 ---
 
 # Diffbot Article Extraction Verifier

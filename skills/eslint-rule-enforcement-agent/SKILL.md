@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcement-agent/"
+listed: true
 ---
 
 # ESLint Rule Enforcement Agent

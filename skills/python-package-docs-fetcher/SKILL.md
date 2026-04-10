@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-package-docs-fetcher/"
+listed: true
 ---
 
 # Python Package Docs Fetcher

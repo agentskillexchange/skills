@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/AppFlowy-IO/AppFlowy"
+listed: true
 ---
 
 # AppFlowy Open Source Collaborative Workspace

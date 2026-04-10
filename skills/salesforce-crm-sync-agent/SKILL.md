@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/salesforce-crm-sync-agent/"
+listed: true
 ---
 
 # Salesforce CRM Sync Agent

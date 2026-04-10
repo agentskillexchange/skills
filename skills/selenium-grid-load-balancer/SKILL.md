@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-load-balancer/"
+listed: true
 ---
 
 # Selenium Grid Load Balancer

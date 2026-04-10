@@ -11,6 +11,7 @@ source: "https://github.com/FFmpeg/FFmpeg"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548
+listed: true
 ---
 
 # Video Subtitle Translator Agent

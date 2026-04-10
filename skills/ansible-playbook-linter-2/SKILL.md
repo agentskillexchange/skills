@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-linter-2/"
+listed: true
 ---
 
 # Ansible Playbook Linter

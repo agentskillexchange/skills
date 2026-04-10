@@ -11,6 +11,7 @@ source: "https://github.com/estruyf/vscode-front-matter"
 tool_ecosystem:
   github_repo: "estruyf/vscode-front-matter"
   github_stars: 2482
+listed: true
 ---
 
 # Front Matter CMS Visual Studio Code Headless CMS

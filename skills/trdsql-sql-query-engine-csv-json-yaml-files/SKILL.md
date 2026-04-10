@@ -11,6 +11,7 @@ source: "https://github.com/noborus/trdsql"
 tool_ecosystem:
   github_repo: "noborus/trdsql"
   github_stars: 2154
+listed: true
 ---
 
 # trdsql SQL Query Engine for CSV JSON and YAML Files

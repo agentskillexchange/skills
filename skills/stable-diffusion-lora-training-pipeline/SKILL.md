@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/"
+listed: true
 ---
 
 # Stable Diffusion LoRA Training Pipeline

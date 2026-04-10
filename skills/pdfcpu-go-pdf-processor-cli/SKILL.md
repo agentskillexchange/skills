@@ -11,6 +11,7 @@ source: "https://github.com/pdfcpu/pdfcpu"
 tool_ecosystem:
   github_repo: "pdfcpu/pdfcpu"
   github_stars: 8550
+listed: true
 ---
 
 # pdfcpu Go PDF Processor and Manipulation CLI

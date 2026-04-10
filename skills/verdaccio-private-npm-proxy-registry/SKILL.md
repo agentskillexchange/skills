@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/verdaccio/verdaccio"
+listed: true
 ---
 
 # Verdaccio Lightweight Private npm Proxy Registry

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/"
+listed: true
 ---
 
 # Cookiecutter Project Scaffold Generator

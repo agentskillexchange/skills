@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
+listed: true
 ---
 
 # Protocol Buffers Documentation Compiler

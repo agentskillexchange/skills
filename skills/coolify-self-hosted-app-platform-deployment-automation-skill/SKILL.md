@@ -11,6 +11,7 @@ source: "https://github.com/coollabsio/coolify"
 tool_ecosystem:
   github_repo: "coollabsio/coolify"
   github_stars: 52773
+listed: true
 ---
 
 # Coolify Self-Hosted App Platform and Deployment Automation Skill

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/keyword-cluster-generator-agent/"
+listed: true
 ---
 
 # Keyword Cluster Generator

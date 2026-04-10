@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 7331
   npm_package: "sqlite-vec"
   npm_weekly_downloads: 1425917
+listed: true
 ---
 
 # sqlite-vec Vector Search Extension for SQLite

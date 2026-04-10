@@ -11,6 +11,7 @@ source: "https://github.com/appwrite/appwrite"
 tool_ecosystem:
   github_repo: "appwrite/appwrite"
   github_stars: 55653
+listed: true
 ---
 
 # Appwrite Open-Source Backend Platform

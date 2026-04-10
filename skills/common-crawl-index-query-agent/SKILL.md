@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
+listed: true
 ---
 
 # Common Crawl Index Query Agent

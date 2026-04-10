@@ -11,6 +11,7 @@ source: "https://github.com/goldfire/howler.js"
 tool_ecosystem:
   github_repo: "goldfire/howler.js"
   github_stars: 25240
+listed: true
 ---
 
 # Howler.js Cross-Browser JavaScript Audio Library

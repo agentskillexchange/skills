@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
+listed: true
 ---
 
 # Terraform State Diagnostics

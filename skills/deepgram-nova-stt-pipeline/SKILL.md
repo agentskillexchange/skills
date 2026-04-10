@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
+listed: true
 ---
 
 # Deepgram Nova STT Pipeline

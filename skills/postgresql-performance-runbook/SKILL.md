@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-performance-runbook/"
+listed: true
 ---
 
 # PostgreSQL Performance Runbook

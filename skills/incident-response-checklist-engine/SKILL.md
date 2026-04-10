@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-checklist-engine/"
+listed: true
 ---
 
 # Incident Response Checklist Engine

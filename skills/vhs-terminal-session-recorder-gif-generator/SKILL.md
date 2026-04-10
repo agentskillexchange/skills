@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/vhs"
 tool_ecosystem:
   github_repo: "charmbracelet/vhs"
   github_stars: 19204
+listed: true
 ---
 
 # VHS Terminal Session Recorder and GIF Generator

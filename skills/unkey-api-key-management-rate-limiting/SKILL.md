@@ -11,6 +11,7 @@ source: "https://github.com/unkeyed/unkey"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
   github_stars: 5224
+listed: true
 ---
 
 # Unkey Open Source API Key Management and Rate Limiting Platform

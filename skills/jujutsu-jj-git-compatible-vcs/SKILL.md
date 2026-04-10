@@ -11,6 +11,7 @@ source: "https://github.com/jj-vcs/jj"
 tool_ecosystem:
   github_repo: "jj-vcs/jj"
   github_stars: 27472
+listed: true
 ---
 
 # Jujutsu Git-Compatible Version Control System

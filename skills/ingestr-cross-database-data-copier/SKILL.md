@@ -13,6 +13,7 @@ source: "https://github.com/bruin-data/ingestr"
 tool_ecosystem:
   github_repo: "bruin-data/ingestr"
   github_stars: 3442
+listed: true
 ---
 
 # Ingestr Cross-Database Data Copier

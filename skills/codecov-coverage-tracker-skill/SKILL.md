@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/"
+listed: true
 ---
 
 # Codecov Coverage Tracker

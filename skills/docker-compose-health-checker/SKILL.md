@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-health-checker/"
+listed: true
 ---
 
 # Docker Compose Health Checker

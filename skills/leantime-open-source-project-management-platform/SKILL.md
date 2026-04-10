@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Leantime/leantime"
+listed: true
 ---
 
 # Leantime Open Source Goals-Focused Project Management Platform

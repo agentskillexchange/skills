@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-monitor/"
+listed: true
 ---
 
 # Jenkins Pipeline Monitor

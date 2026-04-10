@@ -11,6 +11,7 @@ source: "https://github.com/typst/typst"
 tool_ecosystem:
   github_repo: "typst/typst"
   github_stars: 52359
+listed: true
 ---
 
 # Typst Markup-Based Document Typesetting System

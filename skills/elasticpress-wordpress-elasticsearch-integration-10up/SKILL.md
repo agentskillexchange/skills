@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/10up/ElasticPress"
+listed: true
 ---
 
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up

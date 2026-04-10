@@ -11,6 +11,7 @@ source: "https://github.com/wireservice/csvkit"
 tool_ecosystem:
   github_repo: "wireservice/csvkit"
   github_stars: 6363
+listed: true
 ---
 
 # csvkit Python CSV Utility Suite

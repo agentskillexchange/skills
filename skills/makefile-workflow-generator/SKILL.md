@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makefile-workflow-generator/"
+listed: true
 ---
 
 # Makefile Workflow Generator

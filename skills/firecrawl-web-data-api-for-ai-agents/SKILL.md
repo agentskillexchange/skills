@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl"
+listed: true
 ---
 
 # Firecrawl Web Data API for AI Agents

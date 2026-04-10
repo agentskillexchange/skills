@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/"
+listed: true
 ---
 
 # WooCommerce Webhook Orchestrator

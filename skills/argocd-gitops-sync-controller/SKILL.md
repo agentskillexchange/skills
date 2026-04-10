@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-gitops-sync-controller/"
+listed: true
 ---
 
 # ArgoCD GitOps Sync Controller

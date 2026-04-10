@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/netlify-site-manager/"
+listed: true
 ---
 
 # Netlify Site Manager

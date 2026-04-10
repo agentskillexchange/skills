@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/"
+listed: true
 ---
 
 # AsyncAPI Event Catalog Generator

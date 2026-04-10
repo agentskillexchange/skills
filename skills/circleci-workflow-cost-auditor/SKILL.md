@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/"
+listed: true
 ---
 
 # CircleCI Workflow Cost Auditor

@@ -11,6 +11,7 @@ source: "https://github.com/ActiveCampaign/postmark.js"
 tool_ecosystem:
   github_repo: "ActiveCampaign/postmark.js"
   github_stars: 357
+listed: true
 ---
 
 # Postmark.js Email Delivery API for Transactional Messaging

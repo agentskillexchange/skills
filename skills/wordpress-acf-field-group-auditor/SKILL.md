@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-acf-field-group-auditor/"
+listed: true
 ---
 
 # WordPress ACF Field Group Auditor

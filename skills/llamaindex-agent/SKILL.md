@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/llamaindex-agent/"
+listed: true
 ---
 
 # LlamaIndex Agent

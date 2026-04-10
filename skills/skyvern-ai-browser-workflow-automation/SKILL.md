@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Skyvern-AI/skyvern"
+listed: true
 ---
 
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision

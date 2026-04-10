@@ -11,6 +11,7 @@ source: "https://github.com/alphacep/vosk-api"
 tool_ecosystem:
   github_repo: "alphacep/vosk-api"
   github_stars: 14474
+listed: true
 ---
 
 # Vosk Offline Speech Recognition Toolkit

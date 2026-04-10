@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-pipeline-processor-2/"
+listed: true
 ---
 
 # Sharp Image Pipeline Processor

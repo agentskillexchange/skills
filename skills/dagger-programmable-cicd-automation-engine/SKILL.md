@@ -11,6 +11,7 @@ source: "https://github.com/dagger/dagger"
 tool_ecosystem:
   github_repo: "dagger/dagger"
   github_stars: 15582
+listed: true
 ---
 
 # Dagger Programmable CI/CD Automation Engine

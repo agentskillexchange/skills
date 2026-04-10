@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/wish"
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
   github_stars: 5110
+listed: true
 ---
 
 # Wish SSH Application Framework by Charmbracelet

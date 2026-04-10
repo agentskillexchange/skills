@@ -11,6 +11,7 @@ source: "https://github.com/johnbillion/query-monitor"
 tool_ecosystem:
   github_repo: "johnbillion/query-monitor"
   github_stars: 1743
+listed: true
 ---
 
 # Query Monitor WordPress Developer Tools Panel

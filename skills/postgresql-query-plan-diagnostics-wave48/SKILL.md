@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
+listed: true
 ---
 
 # PostgreSQL Query Plan Diagnostics

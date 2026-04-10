@@ -11,6 +11,7 @@ source: "https://github.com/oramasearch/orama"
 tool_ecosystem:
   github_repo: "oramasearch/orama"
   github_stars: 10286
+listed: true
 ---
 
 # Orama Embeddable Search Engine and RAG Pipeline for JavaScript

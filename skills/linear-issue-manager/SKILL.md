@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/linear-issue-manager/"
+listed: true
 ---
 
 # Linear Issue Manager

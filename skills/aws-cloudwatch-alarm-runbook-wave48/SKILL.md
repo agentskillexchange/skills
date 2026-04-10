@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/"
+listed: true
 ---
 
 # AWS CloudWatch Alarm Runbook

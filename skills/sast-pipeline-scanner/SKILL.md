@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
+listed: true
 ---
 
 # SAST Pipeline Scanner

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Chocobozzz/PeerTube"
+listed: true
 ---
 
 # PeerTube Video Publishing and Moderation API

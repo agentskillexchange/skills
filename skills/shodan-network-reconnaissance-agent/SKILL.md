@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/"
+listed: true
 ---
 
 # Shodan Network Reconnaissance Agent

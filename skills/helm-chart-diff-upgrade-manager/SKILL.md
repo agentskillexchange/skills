@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/"
+listed: true
 ---
 
 # Helm Chart Diff & Upgrade Manager

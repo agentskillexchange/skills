@@ -11,6 +11,7 @@ source: "https://github.com/sendgrid/sendgrid-nodejs"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3053
+listed: true
 ---
 
 # SendGrid MCP Server

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
+listed: true
 ---
 
 # Notion Database Sync Agent

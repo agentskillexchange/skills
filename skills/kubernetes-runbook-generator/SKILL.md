@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-generator/"
+listed: true
 ---
 
 # Kubernetes Runbook Generator

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mysql-query-agent/"
+listed: true
 ---
 
 # MySQL Query Agent

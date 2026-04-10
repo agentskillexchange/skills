@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-schema-registry-manager/"
+listed: true
 ---
 
 # Protobuf Schema Registry Manager

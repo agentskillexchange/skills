@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/mailtrap/mailtrap-nodejs"
+listed: true
 ---
 
 # Mailtrap Node.js SDK for Transactional and Sandbox Email

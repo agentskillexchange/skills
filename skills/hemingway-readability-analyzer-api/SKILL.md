@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
+listed: true
 ---
 
 # Hemingway Readability Analyzer API

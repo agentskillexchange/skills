@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-extractor/"
+listed: true
 ---
 
 # Apache Kafka Schema Registry Extractor

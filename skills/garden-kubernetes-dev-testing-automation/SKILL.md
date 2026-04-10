@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/garden-io/garden"
+listed: true
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform

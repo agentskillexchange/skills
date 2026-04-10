@@ -11,6 +11,7 @@ source: "https://github.com/benbjohnson/litestream"
 tool_ecosystem:
   github_repo: "benbjohnson/litestream"
   github_stars: 13400
+listed: true
 ---
 
 # Litestream SQLite Streaming Replication

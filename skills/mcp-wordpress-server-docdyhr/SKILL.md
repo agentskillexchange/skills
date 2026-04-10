@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://github.com/docdyhr/mcp-wordpress"
+listed: true
 ---
 
 # MCP WordPress Server by docdyhr

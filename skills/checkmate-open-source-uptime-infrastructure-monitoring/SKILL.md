@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/bluewave-labs/Checkmate"
+listed: true
 ---
 
 # Checkmate Open Source Uptime and Infrastructure Monitoring

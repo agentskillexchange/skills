@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-image-layer-inspector/"
+listed: true
 ---
 
 # Docker Image Layer Inspector

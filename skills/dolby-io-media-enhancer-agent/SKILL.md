@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/"
+listed: true
 ---
 
 # Dolby.io Media Enhancer

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/HandBrake/HandBrake"
+listed: true
 ---
 
 # HandBrake Open-Source Video Transcoder

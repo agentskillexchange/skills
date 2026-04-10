@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-apm-anomaly-detector/"
+listed: true
 ---
 
 # Datadog APM Anomaly Detector

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"
+listed: true
 ---
 
 # Datadog Monitor Sync

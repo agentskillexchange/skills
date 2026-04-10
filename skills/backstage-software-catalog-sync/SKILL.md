@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/backstage-software-catalog-sync/"
+listed: true
 ---
 
 # Backstage Software Catalog Sync

@@ -11,6 +11,7 @@ source: "https://github.com/open-cli-tools/concurrently"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
   github_stars: 7727
+listed: true
 ---
 
 # Concurrently Parallel Command Runner for npm Scripts

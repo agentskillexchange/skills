@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-conflict-resolver/"
+listed: true
 ---
 
 # Prettier Config Conflict Resolver

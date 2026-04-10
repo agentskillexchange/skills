@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/nylas/nylas-python"
+listed: true
 ---
 
 # Nylas Platform SDK for Unified Email Calendar and Contacts API

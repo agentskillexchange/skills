@@ -11,6 +11,7 @@ source: "https://github.com/pimalaya/himalaya"
 tool_ecosystem:
   github_repo: "pimalaya/himalaya"
   github_stars: 5825
+listed: true
 ---
 
 # Himalaya CLI Email Client for IMAP SMTP and Notmuch

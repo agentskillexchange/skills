@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-custom-rule-generator/"
+listed: true
 ---
 
 # ESLint Custom Rule Generator

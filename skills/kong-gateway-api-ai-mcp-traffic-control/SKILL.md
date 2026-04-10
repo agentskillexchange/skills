@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Kong/kong"
+listed: true
 ---
 
 # Kong Gateway API AI and MCP Traffic Control

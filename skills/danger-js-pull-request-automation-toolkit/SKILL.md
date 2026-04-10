@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/danger/danger-js"
+listed: true
 ---
 
 # Danger JS Pull Request Automation Toolkit

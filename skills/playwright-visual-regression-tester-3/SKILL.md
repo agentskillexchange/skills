@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
+listed: true
 ---
 
 # Playwright Visual Regression Tester

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
+listed: true
 ---
 
 # Formbricks Open Source Survey and Experience Management Platform

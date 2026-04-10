@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-processor/"
+listed: true
 ---
 
 # Apache Kafka Stream Processor

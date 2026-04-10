@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ai-content-readability-optimizer/"
+listed: true
 ---
 
 # AI Content Readability Optimizer

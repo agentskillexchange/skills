@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 20376
   npm_package: "fx"
   npm_weekly_downloads: 190694
+listed: true
 ---
 
 # fx Terminal JSON Viewer and Processor

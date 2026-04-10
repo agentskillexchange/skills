@@ -11,6 +11,7 @@ source: "https://github.com/dbt-labs/dbt-mcp"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-mcp"
   github_stars: 526
+listed: true
 ---
 
 # dbt MCP Server for Data Pipeline Context

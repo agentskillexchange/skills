@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://api.slack.com/"
+listed: true
 ---
 
 # Slack Status API PTO Sync Assistant

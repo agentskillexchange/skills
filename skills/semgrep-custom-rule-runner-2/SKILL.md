@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/"
+listed: true
 ---
 
 # Semgrep Custom Rule Runner

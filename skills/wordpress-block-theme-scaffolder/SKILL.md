@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://developer.wordpress.org/block-editor/"
+listed: true
 ---
 
 # WordPress Block Theme Scaffolder

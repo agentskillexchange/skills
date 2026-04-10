@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-research-pipeline/"
+listed: true
 ---
 
 # SerpAPI Research Pipeline

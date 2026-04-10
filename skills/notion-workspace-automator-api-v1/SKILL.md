@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/"
+listed: true
 ---
 
 # Notion Workspace Automator

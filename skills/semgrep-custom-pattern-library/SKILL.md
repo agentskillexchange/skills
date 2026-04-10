@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-library/"
+listed: true
 ---
 
 # Semgrep Custom Pattern Library

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
+listed: true
 ---
 
 # Audio Fingerprint Identifier

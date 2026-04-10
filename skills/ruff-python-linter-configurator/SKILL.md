@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
+listed: true
 ---
 
 # Ruff Python Linter Configurator

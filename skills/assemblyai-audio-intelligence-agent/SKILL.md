@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-audio-intelligence-agent/"
+listed: true
 ---
 
 # AssemblyAI Audio Intelligence Agent

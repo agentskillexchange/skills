@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 3857
   npm_package: "dprint"
   npm_weekly_downloads: 152825
+listed: true
 ---
 
 # dprint Pluggable High-Performance Code Formatting Platform

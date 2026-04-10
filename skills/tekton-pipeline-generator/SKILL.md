@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
+listed: true
 ---
 
 # Tekton Pipeline Generator

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
+listed: true
 ---
 
 # Prometheus Alert Rule Tester

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nightwatchjs/nightwatch"
+listed: true
 ---
 
 # Nightwatch.js Integrated Browser and Mobile Testing Framework

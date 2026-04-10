@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-session-recorder-2/"
+listed: true
 ---
 
 # Playwright Session Recorder

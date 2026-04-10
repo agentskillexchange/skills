@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/"
+listed: true
 ---
 
 # Kubernetes Pod Crash Investigator

@@ -6,11 +6,12 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/testcontainers/testcontainers-node"
 tool_ecosystem:
   github_repo: "testcontainers/testcontainers-node"
   github_stars: 2508
+listed: true
 ---
 
 # Testcontainers Node Throwaway Docker Integration Testing Library

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
+listed: true
 ---
 
 # Yeoman Generator Builder

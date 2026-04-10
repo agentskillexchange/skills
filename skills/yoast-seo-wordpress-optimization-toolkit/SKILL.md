@@ -11,6 +11,7 @@ source: "https://github.com/Yoast/wordpress-seo"
 tool_ecosystem:
   github_repo: "Yoast/wordpress-seo"
   github_stars: 1926
+listed: true
 ---
 
 # Yoast SEO WordPress Optimization Toolkit

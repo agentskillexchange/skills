@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/baserow/baserow"
+listed: true
 ---
 
 # Baserow Open Source No-Code Database and Automation Platform

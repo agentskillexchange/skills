@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
+listed: true
 ---
 
 # Stable Diffusion ControlNet Pipeline

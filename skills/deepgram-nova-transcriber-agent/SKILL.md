@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/"
+listed: true
 ---
 
 # Deepgram Nova Transcriber

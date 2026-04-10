@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-connect-integration/"
+listed: true
 ---
 
 # Stripe Connect Integration

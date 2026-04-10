@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-custom-rule-builder/"
+listed: true
 ---
 
 # ESLint Custom Rule Builder

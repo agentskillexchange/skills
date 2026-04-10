@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
+listed: true
 ---
 
 # Puppeteer PDF Renderer

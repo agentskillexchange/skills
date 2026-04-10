@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 61
   npm_package: "@browserbasehq/sdk"
   npm_weekly_downloads: 778552
+listed: true
 ---
 
 # Browserbase Session Automation API and SDK

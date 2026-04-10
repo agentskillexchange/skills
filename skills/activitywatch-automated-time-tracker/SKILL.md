@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ActivityWatch/activitywatch"
+listed: true
 ---
 
 # ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer

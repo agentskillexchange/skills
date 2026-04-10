@@ -11,6 +11,7 @@ source: "https://github.com/hpjansson/chafa"
 tool_ecosystem:
   github_repo: "hpjansson/chafa"
   github_stars: 4542
+listed: true
 ---
 
 # Chafa Terminal Image and Graphics Renderer

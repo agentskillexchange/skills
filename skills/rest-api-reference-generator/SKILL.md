@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
+listed: true
 ---
 
 # REST API Reference Generator

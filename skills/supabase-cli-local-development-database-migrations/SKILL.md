@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/supabase/cli"
+listed: true
 ---
 
 # Supabase CLI for Local Development and Database Migrations

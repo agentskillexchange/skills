@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-drift-detector-2/"
+listed: true
 ---
 
 # Terraform Drift Detector

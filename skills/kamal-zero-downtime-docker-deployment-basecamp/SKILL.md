@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/basecamp/kamal"
+listed: true
 ---
 
 # Kamal Zero-Downtime Docker Deployment Tool by Basecamp

@@ -11,6 +11,7 @@ source: "https://github.com/grafana/alloy"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026
+listed: true
 ---
 
 # Grafana Alloy OpenTelemetry Collector Distribution

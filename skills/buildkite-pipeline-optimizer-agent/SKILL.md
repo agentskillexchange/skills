@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-optimizer-agent/"
+listed: true
 ---
 
 # Buildkite Pipeline Optimizer

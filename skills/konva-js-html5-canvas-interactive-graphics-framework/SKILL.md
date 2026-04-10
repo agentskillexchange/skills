@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/konvajs/konva"
+listed: true
 ---
 
 # Konva.js HTML5 Canvas Interactive Graphics Framework

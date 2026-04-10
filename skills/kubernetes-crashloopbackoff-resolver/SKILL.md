@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
+listed: true
 ---
 
 # Kubernetes CrashLoopBackOff Resolver

@@ -11,6 +11,7 @@ source: "https://github.com/openinterpreter/open-interpreter"
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934
+listed: true
 ---
 
 # Open Interpreter Natural Language Computer Interface

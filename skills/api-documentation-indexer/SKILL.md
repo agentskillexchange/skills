@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/api-documentation-indexer/"
+listed: true
 ---
 
 # API Documentation Indexer

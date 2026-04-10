@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/go-gitea/gitea"
+listed: true
 ---
 
 # Gitea Repository & Pull Request Automation

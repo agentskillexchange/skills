@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
+listed: true
 ---
 
 # GitHub Actions Matrix Builder

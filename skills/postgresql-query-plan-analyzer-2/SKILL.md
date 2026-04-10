@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/"
+listed: true
 ---
 
 # PostgreSQL Query Plan Analyzer

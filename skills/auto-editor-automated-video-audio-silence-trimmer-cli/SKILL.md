@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/WyattBlue/auto-editor"
+listed: true
 ---
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI

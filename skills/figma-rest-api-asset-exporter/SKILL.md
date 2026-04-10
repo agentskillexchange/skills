@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/"
+listed: true
 ---
 
 # Figma REST API Asset Exporter

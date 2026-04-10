@@ -6,8 +6,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/"
+listed: true
 ---
 
 # GitHub Copilot — AI-Powered Code Completion and Chat Assistant

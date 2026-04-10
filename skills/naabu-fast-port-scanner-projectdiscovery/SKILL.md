@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/projectdiscovery/naabu"
+listed: true
 ---
 
 # Naabu Fast Port Scanner by ProjectDiscovery

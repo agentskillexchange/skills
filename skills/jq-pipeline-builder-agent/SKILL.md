@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
+listed: true
 ---
 
 # jq Pipeline Builder Agent

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-bisect-automator/"
+listed: true
 ---
 
 # Git Bisect Automator

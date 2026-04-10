@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/"
+listed: true
 ---
 
 # FFmpeg Thumbnail Mosaic Generator

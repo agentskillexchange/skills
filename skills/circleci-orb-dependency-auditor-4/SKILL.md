@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
+listed: true
 ---
 
 # CircleCI Orb Dependency Auditor

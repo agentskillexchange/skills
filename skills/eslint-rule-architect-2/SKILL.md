@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-architect-2/"
+listed: true
 ---
 
 # ESLint Rule Architect

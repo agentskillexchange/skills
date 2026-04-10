@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-auto-fix-agent/"
+listed: true
 ---
 
 # ESLint Auto-Fix Agent

@@ -11,6 +11,7 @@ source: "https://github.com/usememos/memos"
 tool_ecosystem:
   github_repo: "usememos/memos"
   github_stars: 58453
+listed: true
 ---
 
 # Memos Self-Hosted Note Capture and Knowledge API

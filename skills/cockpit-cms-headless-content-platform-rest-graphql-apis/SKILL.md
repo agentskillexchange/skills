@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Cockpit-HQ/Cockpit"
+listed: true
 ---
 
 # Cockpit CMS Headless Content Platform with REST and GraphQL APIs

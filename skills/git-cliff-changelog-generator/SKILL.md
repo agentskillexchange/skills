@@ -11,6 +11,7 @@ source: "https://github.com/orhun/git-cliff"
 tool_ecosystem:
   github_repo: "orhun/git-cliff"
   github_stars: 11678
+listed: true
 ---
 
 # git-cliff Customizable Changelog Generator for Git Repositories

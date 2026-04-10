@@ -11,6 +11,7 @@ source: "https://github.com/taskforcesh/bullmq"
 tool_ecosystem:
   github_repo: "taskforcesh/bullmq"
   github_stars: 8694
+listed: true
 ---
 
 # BullMQ Redis-Based Message Queue and Job Processor for Node.js

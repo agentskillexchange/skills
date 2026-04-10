@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
+listed: true
 ---
 
 # Docker Container Health Inspector

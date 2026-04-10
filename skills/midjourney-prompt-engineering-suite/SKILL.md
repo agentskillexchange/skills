@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
+listed: true
 ---
 
 # Midjourney Prompt Engineering Suite

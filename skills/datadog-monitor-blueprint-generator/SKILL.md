@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/"
+listed: true
 ---
 
 # Datadog Monitor Blueprint Generator

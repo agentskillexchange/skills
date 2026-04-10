@@ -11,6 +11,7 @@ source: "https://github.com/sherlock-project/sherlock"
 tool_ecosystem:
   github_repo: "sherlock-project/sherlock"
   github_stars: 76214
+listed: true
 ---
 
 # Sherlock Social Media Username Hunter Across 400+ Networks

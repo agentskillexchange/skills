@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/beekeeper-studio/beekeeper-studio"
+listed: true
 ---
 
 # Beekeeper Studio Cross-Platform SQL Editor and Database Manager

@@ -11,6 +11,7 @@ source: "https://github.com/sqlc-dev/sqlc"
 tool_ecosystem:
   github_repo: "sqlc-dev/sqlc"
   github_stars: 17275
+listed: true
 ---
 
 # sqlc Type-Safe SQL Code Generator

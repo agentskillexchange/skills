@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
+listed: true
 ---
 
 # Scrapy Spider Architect

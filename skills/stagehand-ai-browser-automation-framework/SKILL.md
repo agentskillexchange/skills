@@ -11,6 +11,7 @@ source: "https://github.com/browserbase/stagehand"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 21782
+listed: true
 ---
 
 # Stagehand AI Browser Automation Framework

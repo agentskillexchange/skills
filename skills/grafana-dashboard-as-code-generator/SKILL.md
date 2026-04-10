@@ -11,6 +11,7 @@ source: "https://github.com/grafana/grafonnet"
 tool_ecosystem:
   github_repo: "grafana/grafonnet"
   github_stars: 528
+listed: true
 ---
 
 # Grafana Dashboard as Code Generator

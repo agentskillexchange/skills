@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 7636
   npm_package: "plop"
   npm_weekly_downloads: 1346790
+listed: true
 ---
 
 # Plop.js Code Generator Orchestrator

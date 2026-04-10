@@ -11,6 +11,7 @@ source: "https://github.com/bootandy/dust"
 tool_ecosystem:
   github_repo: "bootandy/dust"
   github_stars: 11500
+listed: true
 ---
 
 # dust Intuitive Disk Usage Analyzer CLI

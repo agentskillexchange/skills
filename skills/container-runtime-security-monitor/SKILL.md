@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/container-runtime-security-monitor/"
+listed: true
 ---
 
 # Container Runtime Security Monitor

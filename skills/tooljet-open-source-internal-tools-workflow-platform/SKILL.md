@@ -11,6 +11,7 @@ source: "https://github.com/ToolJet/ToolJet"
 tool_ecosystem:
   github_repo: "ToolJet/ToolJet"
   github_stars: 37716
+listed: true
 ---
 
 # ToolJet Open Source Internal Tools and Workflow Platform

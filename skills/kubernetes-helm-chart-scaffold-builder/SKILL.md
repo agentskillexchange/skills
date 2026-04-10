@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/"
+listed: true
 ---
 
 # Kubernetes Helm Chart Scaffold Builder

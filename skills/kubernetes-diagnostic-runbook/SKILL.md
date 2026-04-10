@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/"
+listed: true
 ---
 
 # Kubernetes Diagnostic Runbook

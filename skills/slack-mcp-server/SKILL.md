@@ -14,6 +14,7 @@ source: "https://github.com/modelcontextprotocol/servers"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
   github_stars: 83288
+listed: true
 ---
 
 # Slack MCP Server

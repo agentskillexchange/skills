@@ -11,6 +11,7 @@ source: "https://github.com/slsa-framework/slsa-verifier"
 tool_ecosystem:
   github_repo: "slsa-framework/slsa-verifier"
   github_stars: 318
+listed: true
 ---
 
 # SLSA Verifier Build Provenance Checker

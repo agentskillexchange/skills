@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-runner/"
+listed: true
 ---
 
 # Apify Actor Runner

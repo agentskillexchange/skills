@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/database-migration-validator/"
+listed: true
 ---
 
 # Database Migration Validator

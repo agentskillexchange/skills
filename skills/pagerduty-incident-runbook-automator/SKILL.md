@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
+listed: true
 ---
 
 # PagerDuty Incident Runbook Automator

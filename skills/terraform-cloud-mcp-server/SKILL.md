@@ -11,6 +11,7 @@ source: "https://github.com/hashicorp/terraform"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48080
+listed: true
 ---
 
 # Terraform Cloud MCP Server

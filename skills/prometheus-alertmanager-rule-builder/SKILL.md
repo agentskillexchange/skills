@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-builder/"
+listed: true
 ---
 
 # Prometheus AlertManager Rule Builder

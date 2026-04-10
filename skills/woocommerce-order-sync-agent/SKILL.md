@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-order-sync-agent/"
+listed: true
 ---
 
 # WooCommerce Order Sync Agent

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"
+listed: true
 ---
 
 # NPM Package Audit Analyzer

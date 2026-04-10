@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-cache-optimizer-agent/"
+listed: true
 ---
 
 # GitLab CI Cache Optimizer

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/"
+listed: true
 ---
 
 # Beautiful Soup Academic Paper Parser

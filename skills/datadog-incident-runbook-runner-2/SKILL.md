@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
+listed: true
 ---
 
 # Datadog Incident Runbook Runner

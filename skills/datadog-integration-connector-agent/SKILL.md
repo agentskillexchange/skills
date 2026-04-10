@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
+listed: true
 ---
 
 # Datadog Integration Connector

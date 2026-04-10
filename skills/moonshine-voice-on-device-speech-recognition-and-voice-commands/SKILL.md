@@ -11,6 +11,7 @@ source: "https://github.com/moonshine-ai/moonshine"
 tool_ecosystem:
   github_repo: "moonshine-ai/moonshine"
   github_stars: 7663
+listed: true
 ---
 
 # Moonshine Voice On-Device Speech Recognition and Voice Commands

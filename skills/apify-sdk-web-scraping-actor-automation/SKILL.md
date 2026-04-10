@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
+listed: true
 ---
 
 # Apify SDK for Web Scraping and Actor Automation

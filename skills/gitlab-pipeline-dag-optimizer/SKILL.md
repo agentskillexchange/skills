@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-dag-optimizer/"
+listed: true
 ---
 
 # GitLab Pipeline DAG Optimizer

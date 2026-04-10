@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
+listed: true
 ---
 
 # GitLab CI Merge Train Optimizer

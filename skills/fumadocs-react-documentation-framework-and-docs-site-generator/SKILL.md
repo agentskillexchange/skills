@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/fuma-nama/fumadocs"
+listed: true
 ---
 
 # Fumadocs React Documentation Framework and Docs Site Generator

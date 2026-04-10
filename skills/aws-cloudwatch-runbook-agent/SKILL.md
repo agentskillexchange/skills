@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/"
+listed: true
 ---
 
 # AWS CloudWatch Runbook Agent

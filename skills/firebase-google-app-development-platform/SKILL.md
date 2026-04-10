@@ -6,11 +6,12 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/firebase/firebase-js-sdk"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
   github_stars: 5100
+listed: true
 ---
 
 # Firebase — Google Application Development Platform

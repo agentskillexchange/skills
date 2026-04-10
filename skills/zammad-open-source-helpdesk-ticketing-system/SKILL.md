@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/zammad/zammad"
+listed: true
 ---
 
 # Zammad Open Source Web-Based Helpdesk and Ticketing System

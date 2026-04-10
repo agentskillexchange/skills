@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-incident-runbook/"
+listed: true
 ---
 
 # Kubernetes Incident Runbook

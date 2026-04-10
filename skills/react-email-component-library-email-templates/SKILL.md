@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/resend/react-email"
+listed: true
 ---
 
 # React Email Component Library for Building Email Templates

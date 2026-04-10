@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/lldb-debug-session-automator/"
+listed: true
 ---
 
 # LLDB Debug Session Automator

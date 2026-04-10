@@ -11,6 +11,7 @@ source: "https://github.com/healthchecks/healthchecks"
 tool_ecosystem:
   github_repo: "healthchecks/healthchecks"
   github_stars: 9967
+listed: true
 ---
 
 # Healthchecks.io Cron Job Monitoring and Alerting Platform

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
+listed: true
 ---
 
 # FFmpeg Batch Transcoder

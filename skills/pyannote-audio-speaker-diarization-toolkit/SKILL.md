@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/pyannote/pyannote-audio"
+listed: true
 ---
 
 # pyannote.audio Neural Speaker Diarization Toolkit

@@ -11,6 +11,7 @@ source: "https://github.com/tesseract-ocr/tesseract"
 tool_ecosystem:
   github_repo: "tesseract-ocr/tesseract"
   github_stars: 73399
+listed: true
 ---
 
 # Tesseract OCR Engine for Image-to-Text Workflows

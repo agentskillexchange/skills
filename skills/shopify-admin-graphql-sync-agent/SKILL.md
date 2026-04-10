@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 959
   npm_package: "@shopify/shopify-api"
   npm_weekly_downloads: 311088
+listed: true
 ---
 
 # Shopify Admin GraphQL Sync Agent

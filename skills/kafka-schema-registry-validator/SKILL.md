@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
+listed: true
 ---
 
 # Apache Kafka Schema Registry Validator

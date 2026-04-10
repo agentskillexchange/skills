@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/"
+listed: true
 ---
 
 # Rust Crate Documentation Indexer

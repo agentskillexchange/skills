@@ -11,6 +11,7 @@ source: "https://github.com/jenkinsci/pipeline-model-definition-plugin"
 tool_ecosystem:
   github_repo: "jenkinsci/pipeline-model-definition-plugin"
   github_stars: 564
+listed: true
 ---
 
 # Jenkins Declarative Pipeline Generator

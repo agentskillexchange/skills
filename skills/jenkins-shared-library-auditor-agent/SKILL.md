@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/"
+listed: true
 ---
 
 # Jenkins Shared Library Auditor

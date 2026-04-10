@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-security-scanner-agent/"
+listed: true
 ---
 
 # OWASP ZAP Security Scanner Agent

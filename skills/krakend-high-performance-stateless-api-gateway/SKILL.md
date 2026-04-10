@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/krakend/krakend-ce"
+listed: true
 ---
 
 # KrakenD High-Performance Stateless API Gateway

@@ -11,6 +11,7 @@ source: "https://github.com/opendatalab/MinerU"
 tool_ecosystem:
   github_repo: "opendatalab/MinerU"
   github_stars: 57814
+listed: true
 ---
 
 # MinerU PDF-to-Markdown Document Parser

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-planner/"
+listed: true
 ---
 
 # ArgoCD Sync Wave Planner

@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/"
+listed: true
 ---
 
 # Semgrep SAST Scanner

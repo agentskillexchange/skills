@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
+listed: true
 ---
 
 # SEO Meta Tag Optimizer

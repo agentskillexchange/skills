@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-standup-automator/"
+listed: true
 ---
 
 # Slack Standup Automator

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/"
+listed: true
 ---
 
 # AWS IAM Privilege Escalation Audit

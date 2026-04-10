@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/"
+listed: true
 ---
 
 # FFmpeg Thumbnail Grid Generator

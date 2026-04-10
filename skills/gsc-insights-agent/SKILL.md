@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gsc-insights-agent/"
+listed: true
 ---
 
 # Google Search Console Insights Agent

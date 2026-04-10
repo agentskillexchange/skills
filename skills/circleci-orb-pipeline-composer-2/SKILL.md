@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/"
+listed: true
 ---
 
 # CircleCI Orb Pipeline Composer

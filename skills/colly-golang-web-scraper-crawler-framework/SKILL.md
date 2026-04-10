@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/gocolly/colly"
+listed: true
 ---
 
 # Colly Golang Web Scraper and Crawler Framework

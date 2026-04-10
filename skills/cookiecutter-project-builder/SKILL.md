@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-builder/"
+listed: true
 ---
 
 # Cookiecutter Project Builder

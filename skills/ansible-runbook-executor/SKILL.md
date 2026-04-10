@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
+listed: true
 ---
 
 # Ansible Runbook Executor

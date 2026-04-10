@@ -11,6 +11,7 @@ source: "https://github.com/cronitorio/cronitor-cli"
 tool_ecosystem:
   github_repo: "cronitorio/cronitor-cli"
   github_stars: 396
+listed: true
 ---
 
 # Cronitor CLI for Cron Monitoring and Job Telemetry

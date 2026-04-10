@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/"
+listed: true
 ---
 
 # OWASP ZAP API Security Auditor

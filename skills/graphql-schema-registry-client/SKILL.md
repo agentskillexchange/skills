@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-client/"
+listed: true
 ---
 
 # GraphQL Schema Registry Client

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
+listed: true
 ---
 
 # Browser Session Replay Analyzer

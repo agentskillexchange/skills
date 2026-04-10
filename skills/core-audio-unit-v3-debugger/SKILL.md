@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/"
+listed: true
 ---
 
 # Core Audio Unit v3 Debugger

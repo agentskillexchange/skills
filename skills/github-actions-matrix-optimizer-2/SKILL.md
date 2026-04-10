@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-matrix-optimizer-2/"
+listed: true
 ---
 
 # GitHub Actions Matrix Optimizer

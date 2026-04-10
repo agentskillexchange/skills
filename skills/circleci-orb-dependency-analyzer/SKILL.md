@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/"
+listed: true
 ---
 
 # CircleCI Orb Dependency Analyzer

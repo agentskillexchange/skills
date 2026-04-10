@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
+listed: true
 ---
 
 # Pandas DataFrame Schema Validator

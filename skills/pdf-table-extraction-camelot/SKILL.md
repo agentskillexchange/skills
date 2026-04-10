@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pdf-table-extraction-camelot/"
+listed: true
 ---
 
 # PDF Table Extraction with Camelot

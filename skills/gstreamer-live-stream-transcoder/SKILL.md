@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/"
+listed: true
 ---
 
 # GStreamer Live Stream Transcoder

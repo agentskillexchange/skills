@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
+listed: true
 ---
 
 # Terraform Plan Analyzer

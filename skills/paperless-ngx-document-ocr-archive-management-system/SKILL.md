@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/paperless-ngx/paperless-ngx"
+listed: true
 ---
 
 # Paperless-ngx Document OCR and Archive Management System

@@ -11,6 +11,7 @@ source: "https://github.com/astral-sh/ty"
 tool_ecosystem:
   github_repo: "astral-sh/ty"
   github_stars: 18132
+listed: true
 ---
 
 # ty Ultra-Fast Python Type Checker and Language Server

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-video-processing-pipeline/"
+listed: true
 ---
 
 # FFmpeg Video Processing Pipeline

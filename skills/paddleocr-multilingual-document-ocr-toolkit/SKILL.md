@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/PaddlePaddle/PaddleOCR"
+listed: true
 ---
 
 # PaddleOCR Multilingual Document OCR and Structured Data Toolkit

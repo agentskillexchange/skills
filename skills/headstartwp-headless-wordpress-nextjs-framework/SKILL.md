@@ -11,6 +11,7 @@ source: "https://github.com/10up/headstartwp"
 tool_ecosystem:
   github_repo: "10up/headstartwp"
   github_stars: 198
+listed: true
 ---
 
 # HeadstartWP Headless WordPress and Next.js Framework

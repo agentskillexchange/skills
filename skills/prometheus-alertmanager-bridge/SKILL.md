@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/"
+listed: true
 ---
 
 # Prometheus AlertManager Bridge

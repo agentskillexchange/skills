@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-generator/"
+listed: true
 ---
 
 # WordPress Gutenberg Block Generator

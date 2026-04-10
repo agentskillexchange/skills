@@ -11,6 +11,7 @@ source: "https://github.com/Orange-OpenSource/hurl"
 tool_ecosystem:
   github_repo: "Orange-OpenSource/hurl"
   github_stars: 18696
+listed: true
 ---
 
 # Hurl Declarative HTTP Request Runner and Tester

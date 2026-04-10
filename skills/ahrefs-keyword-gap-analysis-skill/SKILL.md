@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/"
+listed: true
 ---
 
 # Ahrefs Keyword Gap Analysis Skill

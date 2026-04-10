@@ -11,6 +11,7 @@ source: "https://github.com/caronc/apprise"
 tool_ecosystem:
   github_repo: "caronc/apprise"
   github_stars: 16227
+listed: true
 ---
 
 # Apprise Universal Push Notification Library and CLI

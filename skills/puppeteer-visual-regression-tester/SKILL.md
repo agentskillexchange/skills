@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
+listed: true
 ---
 
 # Puppeteer Visual Regression Tester

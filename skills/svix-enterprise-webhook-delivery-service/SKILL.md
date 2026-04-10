@@ -11,6 +11,7 @@ source: "https://github.com/svix/svix-webhooks"
 tool_ecosystem:
   github_repo: "svix/svix-webhooks"
   github_stars: 3152
+listed: true
 ---
 
 # Svix Enterprise Webhook Delivery Service

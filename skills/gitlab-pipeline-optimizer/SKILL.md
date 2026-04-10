@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/"
+listed: true
 ---
 
 # GitLab Pipeline Optimizer

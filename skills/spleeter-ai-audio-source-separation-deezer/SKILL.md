@@ -11,6 +11,7 @@ source: "https://github.com/deezer/spleeter"
 tool_ecosystem:
   github_repo: "deezer/spleeter"
   github_stars: 28130
+listed: true
 ---
 
 # Spleeter AI Audio Source Separation by Deezer

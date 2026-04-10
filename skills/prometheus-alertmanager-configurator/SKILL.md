@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/"
+listed: true
 ---
 
 # Prometheus AlertManager Configurator

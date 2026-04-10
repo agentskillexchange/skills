@@ -11,6 +11,7 @@ source: "https://github.com/dathere/qsv"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3569
+listed: true
 ---
 
 # qsv Blazing-Fast CSV Data Wrangling Toolkit

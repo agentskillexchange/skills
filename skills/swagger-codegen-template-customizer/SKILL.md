@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
+listed: true
 ---
 
 # Swagger Codegen Template Customizer

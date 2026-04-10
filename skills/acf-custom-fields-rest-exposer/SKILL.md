@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/"
+listed: true
 ---
 
 # ACF Custom Fields REST Exposer

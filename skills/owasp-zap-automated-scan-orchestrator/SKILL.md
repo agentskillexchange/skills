@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-automated-scan-orchestrator/"
+listed: true
 ---
 
 # OWASP ZAP Automated Scan Orchestrator

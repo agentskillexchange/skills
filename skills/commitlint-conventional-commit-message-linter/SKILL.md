@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 18425
   npm_package: "commitlint"
   npm_weekly_downloads: 504923
+listed: true
 ---
 
 # commitlint Conventional Commit Message Linter

@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloud-cost-analysis/"
+listed: true
 ---
 
 # Cloud Cost Analysis

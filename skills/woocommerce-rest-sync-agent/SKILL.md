@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-rest-sync-agent/"
+listed: true
 ---
 
 # WooCommerce REST Sync Agent

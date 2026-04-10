@@ -11,6 +11,7 @@ source: "https://github.com/go-vikunja/vikunja"
 tool_ecosystem:
   github_repo: "go-vikunja/vikunja"
   github_stars: 3768
+listed: true
 ---
 
 # Vikunja Self-Hosted Task Management and Project Organization Platform

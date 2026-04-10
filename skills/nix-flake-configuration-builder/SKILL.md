@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
+listed: true
 ---
 
 # Nix Flake Configuration Builder

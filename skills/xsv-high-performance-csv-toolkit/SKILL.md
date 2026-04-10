@@ -11,6 +11,7 @@ source: "https://github.com/BurntSushi/xsv"
 tool_ecosystem:
   github_repo: "BurntSushi/xsv"
   github_stars: 10758
+listed: true
 ---
 
 # xsv High-Performance CSV Toolkit

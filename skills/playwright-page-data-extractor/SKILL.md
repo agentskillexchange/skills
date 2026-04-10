@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
+listed: true
 ---
 
 # Playwright Page Data Extractor

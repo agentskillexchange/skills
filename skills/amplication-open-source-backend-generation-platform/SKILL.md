@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/amplication/amplication"
+listed: true
 ---
 
 # Amplication Open Source Backend Generation Platform

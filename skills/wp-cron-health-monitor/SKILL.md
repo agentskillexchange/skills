@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-cron-health-monitor/"
+listed: true
 ---
 
 # WP Cron Health Monitor

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vscode-extension-debugger-dap-protocol/"
+listed: true
 ---
 
 # VS Code Extension Debugger

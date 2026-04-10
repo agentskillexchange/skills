@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/soft-serve"
 tool_ecosystem:
   github_repo: "charmbracelet/soft-serve"
   github_stars: 6756
+listed: true
 ---
 
 # Soft Serve Self-Hosted Git Server with SSH TUI

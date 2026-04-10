@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-registry/"
+listed: true
 ---
 
 # Terraform Module Registry

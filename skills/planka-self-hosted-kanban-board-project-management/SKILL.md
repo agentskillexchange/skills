@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/plankanban/planka"
+listed: true
 ---
 
 # Planka Self-Hosted Kanban Board for Project Management

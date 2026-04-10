@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 5580
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1102538
+listed: true
 ---
 
 # Notion MCP Server

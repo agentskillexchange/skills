@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/"
+listed: true
 ---
 
 # Cookiecutter Project Bootstrapper

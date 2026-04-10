@@ -11,6 +11,7 @@ source: "https://github.com/GrapesJS/grapesjs"
 tool_ecosystem:
   github_repo: "GrapesJS/grapesjs"
   github_stars: 25682
+listed: true
 ---
 
 # GrapesJS Open Source Web Builder and Template Design Framework

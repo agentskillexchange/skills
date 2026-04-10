@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/freeze"
 tool_ecosystem:
   github_repo: "charmbracelet/freeze"
   github_stars: 4409
+listed: true
 ---
 
 # Freeze Code and Terminal Screenshot Generator

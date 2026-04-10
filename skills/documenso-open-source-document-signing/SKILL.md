@@ -11,6 +11,7 @@ source: "https://github.com/documenso/documenso"
 tool_ecosystem:
   github_repo: "documenso/documenso"
   github_stars: 12587
+listed: true
 ---
 
 # Documenso Open Source Document Signing Platform

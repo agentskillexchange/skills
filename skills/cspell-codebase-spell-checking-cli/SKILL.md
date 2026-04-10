@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/streetsidesoftware/cspell"
+listed: true
 ---
 
 # CSpell Codebase Spell Checking CLI

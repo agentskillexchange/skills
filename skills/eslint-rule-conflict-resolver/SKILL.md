@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/"
+listed: true
 ---
 
 # ESLint Rule Conflict Resolver

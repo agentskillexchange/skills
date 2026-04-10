@@ -11,6 +11,7 @@ source: "https://github.com/biomejs/biome"
 tool_ecosystem:
   github_repo: "biomejs/biome"
   github_stars: 24293
+listed: true
 ---
 
 # Biome Lint Migration Toolkit

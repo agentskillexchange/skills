@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-diff-complexity-analyzer/"
+listed: true
 ---
 
 # Git Diff Complexity Analyzer

@@ -11,6 +11,7 @@ source: "https://github.com/decaporg/decap-cms"
 tool_ecosystem:
   github_repo: "decaporg/decap-cms"
   github_stars: 19011
+listed: true
 ---
 
 # Decap CMS Git-Based Content Management System for Static Sites

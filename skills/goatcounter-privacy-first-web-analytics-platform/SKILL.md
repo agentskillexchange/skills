@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/arp242/goatcounter"
+listed: true
 ---
 
 # GoatCounter Privacy-First Web Analytics Platform

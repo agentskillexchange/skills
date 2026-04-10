@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
+listed: true
 ---
 
 # Todoist Project Automator

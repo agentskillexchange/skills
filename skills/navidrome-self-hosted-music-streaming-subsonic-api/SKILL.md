@@ -11,6 +11,7 @@ source: "https://github.com/navidrome/navidrome"
 tool_ecosystem:
   github_repo: "navidrome/navidrome"
   github_stars: 20161
+listed: true
 ---
 
 # Navidrome Self-Hosted Music Streaming Server and Subsonic API

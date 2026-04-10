@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/"
+listed: true
 ---
 
 # Stripe Connect Marketplace Sync

@@ -11,6 +11,7 @@ source: "https://github.com/freeCodeCamp/devdocs"
 tool_ecosystem:
   github_repo: "freeCodeCamp/devdocs"
   github_stars: 38655
+listed: true
 ---
 
 # DevDocs Unified API Documentation Browser

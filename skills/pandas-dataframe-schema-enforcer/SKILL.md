@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-enforcer/"
+listed: true
 ---
 
 # Pandas DataFrame Schema Enforcer

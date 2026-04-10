@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-as-code-builder/"
+listed: true
 ---
 
 # Grafana Dashboard as Code Builder

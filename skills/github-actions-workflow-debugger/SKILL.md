@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
+listed: true
 ---
 
 # GitHub Actions Workflow Debugger

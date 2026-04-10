@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-triage/"
+listed: true
 ---
 
 # Slack Channel Summarizer & Triage Bot

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser/"
+listed: true
 ---
 
 # Apache Tika Document Parser

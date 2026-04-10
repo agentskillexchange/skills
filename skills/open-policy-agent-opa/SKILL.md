@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/open-policy-agent-opa/"
+listed: true
 ---
 
 # Open Policy Agent (OPA)

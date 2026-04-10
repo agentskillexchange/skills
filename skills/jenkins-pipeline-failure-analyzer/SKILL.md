@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-failure-analyzer/"
+listed: true
 ---
 
 # Jenkins Pipeline Failure Analyzer

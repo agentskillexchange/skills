@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
+listed: true
 ---
 
 # Jenkins Shared Library Builder

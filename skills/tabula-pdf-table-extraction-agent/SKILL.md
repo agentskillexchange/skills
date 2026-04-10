@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/"
+listed: true
 ---
 
 # Tabula PDF Table Extraction Agent

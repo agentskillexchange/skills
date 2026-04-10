@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/"
+listed: true
 ---
 
 # Academic Paper Citation Network Mapper

@@ -11,6 +11,7 @@ source: "https://github.com/metatool-ai/metamcp"
 tool_ecosystem:
   github_repo: "metatool-ai/metamcp"
   github_stars: 2175
+listed: true
 ---
 
 # MetaMCP Unified MCP Server Aggregator and Gateway

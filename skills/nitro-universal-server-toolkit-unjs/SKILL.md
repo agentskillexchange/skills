@@ -11,6 +11,7 @@ source: "https://github.com/nitrojs/nitro"
 tool_ecosystem:
   github_repo: "nitrojs/nitro"
   github_stars: 10640
+listed: true
 ---
 
 # Nitro Next-Generation Universal Server Toolkit by UnJS

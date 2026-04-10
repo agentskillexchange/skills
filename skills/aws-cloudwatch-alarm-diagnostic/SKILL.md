@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
+listed: true
 ---
 
 # AWS CloudWatch Alarm Diagnostic

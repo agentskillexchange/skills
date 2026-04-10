@@ -11,6 +11,7 @@ source: "https://github.com/charmbracelet/glow"
 tool_ecosystem:
   github_repo: "charmbracelet/glow"
   github_stars: 24096
+listed: true
 ---
 
 # Glow Terminal Markdown Renderer

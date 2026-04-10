@@ -11,6 +11,7 @@ source: "https://github.com/wailsapp/wails"
 tool_ecosystem:
   github_repo: "wailsapp/wails"
   github_stars: 33630
+listed: true
 ---
 
 # Wails Desktop Application Framework for Go and Web Technologies

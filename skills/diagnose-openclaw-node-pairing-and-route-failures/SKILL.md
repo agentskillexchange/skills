@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/openclaw/openclaw/tree/main/skills/node-connect"
+listed: true
 ---
 
 # Diagnose OpenClaw node pairing and route failures

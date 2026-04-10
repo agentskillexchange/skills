@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
+listed: true
 ---
 
 # TLS Certificate Chain Validator

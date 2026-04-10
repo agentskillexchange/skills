@@ -11,6 +11,7 @@ source: "https://github.com/grafana/k6"
 tool_ecosystem:
   github_repo: "grafana/k6"
   github_stars: 30253
+listed: true
 ---
 
 # k6 Load Testing and Performance Benchmarking Tool

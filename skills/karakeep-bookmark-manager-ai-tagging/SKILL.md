@@ -11,6 +11,7 @@ source: "https://github.com/karakeep-app/karakeep"
 tool_ecosystem:
   github_repo: "karakeep-app/karakeep"
   github_stars: 24456
+listed: true
 ---
 
 # Karakeep Self-Hosted Bookmark Manager with AI Tagging

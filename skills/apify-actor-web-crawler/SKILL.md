@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
+listed: true
 ---
 
 # Apify Actor Web Crawler

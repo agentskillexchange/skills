@@ -11,6 +11,7 @@ source: "https://github.com/crystaldba/postgres-mcp"
 tool_ecosystem:
   github_repo: "crystaldba/postgres-mcp"
   github_stars: 2499
+listed: true
 ---
 
 # Postgres MCP Pro

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/chartbrew/chartbrew"
+listed: true
 ---
 
 # Chartbrew Open Source Reporting Platform for API and Database Dashboards

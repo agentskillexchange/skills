@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-content-cluster-generator/"
+listed: true
 ---
 
 # SEO Content Cluster Generator

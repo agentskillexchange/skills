@@ -11,6 +11,7 @@ source: "https://github.com/m-bain/whisperX"
 tool_ecosystem:
   github_repo: "m-bain/whisperX"
   github_stars: 21036
+listed: true
 ---
 
 # WhisperX Speech Recognition with Word-Level Timestamps and Diarization

@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
+listed: true
 ---
 
 # Kubernetes Pod Crash Loop Analyzer

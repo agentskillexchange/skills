@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-forensics-tool/"
+listed: true
 ---
 
 # Terraform State Forensics Tool

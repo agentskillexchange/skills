@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/"
+listed: true
 ---
 
 # Jenkins Pipeline Shared Library Linter

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/supabase-mcp-server/"
+listed: true
 ---
 
 # Supabase MCP Server

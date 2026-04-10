@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
+listed: true
 ---
 
 # Datadog Anomaly Detection Agent

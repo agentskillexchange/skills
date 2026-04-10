@@ -11,6 +11,7 @@ source: "https://github.com/ggml-org/whisper.cpp"
 tool_ecosystem:
   github_repo: "ggml-org/whisper.cpp"
   github_stars: 48315
+listed: true
 ---
 
 # whisper.cpp High-Performance C/C++ Speech Recognition Engine

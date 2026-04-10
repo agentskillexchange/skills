@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
+listed: true
 ---
 
 # Trivy Container Scanner

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Vaibhavs10/insanely-fast-whisper"
+listed: true
 ---
 
 # Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI

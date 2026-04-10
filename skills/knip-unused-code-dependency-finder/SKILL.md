@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 10806
   npm_package: "knip"
   npm_weekly_downloads: 5097667
+listed: true
 ---
 
 # Knip Unused Code and Dependency Finder

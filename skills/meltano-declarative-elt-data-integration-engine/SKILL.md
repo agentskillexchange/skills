@@ -11,6 +11,7 @@ source: "https://github.com/meltano/meltano"
 tool_ecosystem:
   github_repo: "meltano/meltano"
   github_stars: 2403
+listed: true
 ---
 
 # Meltano Declarative ELT Data Integration Engine

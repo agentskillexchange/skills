@@ -11,6 +11,7 @@ source: "https://github.com/redpanda-data/connect"
 tool_ecosystem:
   github_repo: "redpanda-data/connect"
   github_stars: 8618
+listed: true
 ---
 
 # Redpanda Connect Declarative Stream Processor

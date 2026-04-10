@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
+listed: true
 ---
 
 # Selenium Grid Parallel Test Runner

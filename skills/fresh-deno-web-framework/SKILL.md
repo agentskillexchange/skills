@@ -11,6 +11,7 @@ source: "https://github.com/denoland/fresh"
 tool_ecosystem:
   github_repo: "denoland/fresh"
   github_stars: 13711
+listed: true
 ---
 
 # Fresh Next-Generation Web Framework for Deno

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gutenberg-block-scaffolder-agent/"
+listed: true
 ---
 
 # Gutenberg Block Scaffolder

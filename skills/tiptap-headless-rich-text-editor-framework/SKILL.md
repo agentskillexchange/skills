@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 35948
   npm_package: "tiptap"
   npm_weekly_downloads: 39977
+listed: true
 ---
 
 # Tiptap Headless Rich Text Editor Framework for Web Applications

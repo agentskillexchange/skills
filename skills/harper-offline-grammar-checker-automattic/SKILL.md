@@ -11,6 +11,7 @@ source: "https://github.com/Automattic/harper"
 tool_ecosystem:
   github_repo: "Automattic/harper"
   github_stars: 10182
+listed: true
 ---
 
 # Harper Offline Privacy-First Grammar Checker by Automattic

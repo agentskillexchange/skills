@@ -11,6 +11,7 @@ source: "https://github.com/Bearer/bearer"
 tool_ecosystem:
   github_repo: "Bearer/bearer"
   github_stars: 2610
+listed: true
 ---
 
 # Bearer CLI SAST Code Security and Privacy Scanner

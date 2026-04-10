@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-changelog-tracker/"
+listed: true
 ---
 
 # REST API Changelog Tracker

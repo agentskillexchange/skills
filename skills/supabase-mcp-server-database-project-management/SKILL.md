@@ -11,6 +11,7 @@ source: "https://github.com/supabase-community/supabase-mcp"
 tool_ecosystem:
   github_repo: "supabase-community/supabase-mcp"
   github_stars: 2572
+listed: true
 ---
 
 # Supabase MCP Server for Database and Project Management

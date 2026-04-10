@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/"
+listed: true
 ---
 
 # Prometheus Alert Rule Synthesizer

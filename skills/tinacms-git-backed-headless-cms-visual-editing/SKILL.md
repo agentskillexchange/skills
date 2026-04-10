@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 13245
   npm_package: "tinacms"
   npm_weekly_downloads: 94278
+listed: true
 ---
 
 # TinaCMS Git-Backed Headless CMS with Visual Editing

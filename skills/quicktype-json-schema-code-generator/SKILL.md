@@ -11,6 +11,7 @@ source: "https://github.com/glideapps/quicktype"
 tool_ecosystem:
   github_repo: "glideapps/quicktype"
   github_stars: 13690
+listed: true
 ---
 
 # quicktype JSON Schema to Typed Code Generator

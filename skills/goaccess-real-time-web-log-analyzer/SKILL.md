@@ -11,6 +11,7 @@ source: "https://github.com/allinurl/goaccess"
 tool_ecosystem:
   github_repo: "allinurl/goaccess"
   github_stars: 20377
+listed: true
 ---
 
 # GoAccess Real-Time Web Log Analyzer and Terminal Dashboard

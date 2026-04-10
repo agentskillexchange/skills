@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/mapbox/pixelmatch"
+listed: true
 ---
 
 # Pixelmatch Pixel-Level Image Comparison Library by Mapbox

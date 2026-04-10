@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/"
+listed: true
 ---
 
 # GPG Encryption and Key Management Agent

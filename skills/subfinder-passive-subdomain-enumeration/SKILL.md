@@ -11,6 +11,7 @@ source: "https://github.com/projectdiscovery/subfinder"
 tool_ecosystem:
   github_repo: "projectdiscovery/subfinder"
   github_stars: 13332
+listed: true
 ---
 
 # Subfinder Fast Passive Subdomain Enumeration Tool

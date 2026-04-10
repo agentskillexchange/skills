@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
+listed: true
 ---
 
 # Uptime Robot Multi-Check Coordinator

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-workspace-agent/"
+listed: true
 ---
 
 # Notion Workspace Agent

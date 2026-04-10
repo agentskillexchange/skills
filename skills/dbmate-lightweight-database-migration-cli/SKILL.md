@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 6801
   npm_package: "dbmate"
   npm_weekly_downloads: 83834
+listed: true
 ---
 
 # dbmate Lightweight Database Migration CLI

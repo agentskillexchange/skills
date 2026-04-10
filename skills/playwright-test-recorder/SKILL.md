@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-test-recorder/"
+listed: true
 ---
 
 # Playwright Test Recorder

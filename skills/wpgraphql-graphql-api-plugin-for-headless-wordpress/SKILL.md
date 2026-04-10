@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
+listed: true
 ---
 
 # WPGraphQL GraphQL API Plugin for Headless WordPress

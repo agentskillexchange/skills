@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 1164
   npm_package: "schema-dts"
   npm_weekly_downloads: 1410881
+listed: true
 ---
 
 # schema-dts TypeScript Types for Schema.org Structured Data

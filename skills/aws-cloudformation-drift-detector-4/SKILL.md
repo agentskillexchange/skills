@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
+listed: true
 ---
 
 # AWS CloudFormation Drift Detector

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/github-discussions-community-digest/"
+listed: true
 ---
 
 # GitHub Discussions Community Digest

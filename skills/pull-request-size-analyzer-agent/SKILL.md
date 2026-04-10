@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pull-request-size-analyzer-agent/"
+listed: true
 ---
 
 # Pull Request Size Analyzer

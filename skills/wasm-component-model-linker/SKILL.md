@@ -11,6 +11,7 @@ source: "https://github.com/WebAssembly/component-model"
 tool_ecosystem:
   github_repo: "WebAssembly/component-model"
   github_stars: 1294
+listed: true
 ---
 
 # WASM Component Model Linker

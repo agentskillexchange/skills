@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/"
+listed: true
 ---
 
 # Google Search Console Performance Analyzer

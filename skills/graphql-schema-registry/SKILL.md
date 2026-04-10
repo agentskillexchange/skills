@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-registry/"
+listed: true
 ---
 
 # GraphQL Schema Registry

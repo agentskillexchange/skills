@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
+listed: true
 ---
 
 # Sigstore Cosign Verifier

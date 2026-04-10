@@ -11,6 +11,7 @@ source: "https://github.com/medialab/xan"
 tool_ecosystem:
   github_repo: "medialab/xan"
   github_stars: 3882
+listed: true
 ---
 
 # xan SIMD-Powered CSV Processing and Analysis CLI

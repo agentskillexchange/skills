@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/video-subtitle-auto-translator-agent/"
+listed: true
 ---
 
 # Video Subtitle Auto-Translator

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
+listed: true
 ---
 
 # NPM Audit Deep Scanner

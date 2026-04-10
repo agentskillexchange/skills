@@ -11,6 +11,7 @@ source: "https://github.com/pimutils/vdirsyncer"
 tool_ecosystem:
   github_repo: "pimutils/vdirsyncer"
   github_stars: 1804
+listed: true
 ---
 
 # vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer

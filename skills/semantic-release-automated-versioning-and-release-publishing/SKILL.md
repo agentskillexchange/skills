@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/semantic-release/semantic-release"
+listed: true
 ---
 
 # semantic-release Automated Versioning and Release Publishing

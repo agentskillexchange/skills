@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
+listed: true
 ---
 
 # Vault Secrets Rotation Orchestrator

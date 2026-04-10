@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-composer-7/"
+listed: true
 ---
 
 # CircleCI Orb Composer

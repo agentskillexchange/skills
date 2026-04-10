@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
+listed: true
 ---
 
 # Jenkins Pipeline Health Monitor

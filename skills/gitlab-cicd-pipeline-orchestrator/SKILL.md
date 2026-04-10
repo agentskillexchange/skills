@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-cicd-pipeline-orchestrator/"
+listed: true
 ---
 
 # GitLab CI/CD Pipeline Orchestrator

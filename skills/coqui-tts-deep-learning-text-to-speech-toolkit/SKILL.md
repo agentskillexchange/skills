@@ -11,6 +11,7 @@ source: "https://github.com/coqui-ai/TTS"
 tool_ecosystem:
   github_repo: "coqui-ai/TTS"
   github_stars: 44959
+listed: true
 ---
 
 # Coqui TTS Deep Learning Text-to-Speech Toolkit

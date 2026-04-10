@@ -11,6 +11,7 @@ source: "https://github.com/go-shiori/shiori"
 tool_ecosystem:
   github_repo: "go-shiori/shiori"
   github_stars: 11399
+listed: true
 ---
 
 # Shiori Self-Hosted Bookmark Manager with CLI and Web Interface

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/dequelabs/axe-core"
+listed: true
 ---
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing

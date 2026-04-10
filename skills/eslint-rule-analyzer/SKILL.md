@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer/"
+listed: true
 ---
 
 # ESLint Rule Analyzer

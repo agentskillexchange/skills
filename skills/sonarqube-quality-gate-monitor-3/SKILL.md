@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
+listed: true
 ---
 
 # SonarQube Quality Gate Monitor

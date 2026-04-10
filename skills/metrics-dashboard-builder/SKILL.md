@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/metrics-dashboard-builder/"
+listed: true
 ---
 
 # Metrics Dashboard Builder

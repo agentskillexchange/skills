@@ -11,6 +11,7 @@ source: "https://github.com/elastic/elasticsearch"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
   github_stars: 76475
+listed: true
 ---
 
 # Elastic / Kibana MCP Server

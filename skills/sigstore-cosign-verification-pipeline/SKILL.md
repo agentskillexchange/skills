@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/"
+listed: true
 ---
 
 # Sigstore Cosign Verification Pipeline

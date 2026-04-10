@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-test-report-to-slack/"
+listed: true
 ---
 
 # Playwright Test Report to Slack

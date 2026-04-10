@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/rust-lang/mdBook"
+listed: true
 ---
 
 # mdBook Markdown Book Generator by Rust Project

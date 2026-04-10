@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/"
+listed: true
 ---
 
 # Dolby Atmos ADM-BWF Metadata Extractor

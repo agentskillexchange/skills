@@ -11,6 +11,7 @@ source: "https://github.com/Unstructured-IO/unstructured"
 tool_ecosystem:
   github_repo: "Unstructured-IO/unstructured"
   github_stars: 14426
+listed: true
 ---
 
 # Unstructured Document ETL for LLM Pipelines

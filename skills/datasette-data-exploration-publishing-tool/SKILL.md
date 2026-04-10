@@ -11,6 +11,7 @@ source: "https://github.com/simonw/datasette"
 tool_ecosystem:
   github_repo: "simonw/datasette"
   github_stars: 10894
+listed: true
 ---
 
 # Datasette Data Exploration and Publishing Tool

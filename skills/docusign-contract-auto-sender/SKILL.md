@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
+listed: true
 ---
 
 # DocuSign Contract Auto-Sender with Conditional Logic

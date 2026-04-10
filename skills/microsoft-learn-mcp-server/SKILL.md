@@ -11,6 +11,7 @@ source: "https://github.com/MicrosoftDocs/mcp"
 tool_ecosystem:
   github_repo: "MicrosoftDocs/mcp"
   github_stars: 1533
+listed: true
 ---
 
 # Microsoft Learn MCP Server

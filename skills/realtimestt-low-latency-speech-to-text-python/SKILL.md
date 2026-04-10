@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/KoljaB/RealtimeSTT"
+listed: true
 ---
 
 # RealtimeSTT Low-Latency Speech-to-Text Python Library

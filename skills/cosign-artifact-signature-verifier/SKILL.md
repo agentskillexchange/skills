@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/"
+listed: true
 ---
 
 # Cosign Artifact Signature Verifier

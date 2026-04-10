@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/markdown-to-amp-article-converter/"
+listed: true
 ---
 
 # Markdown-to-AMP Article Converter

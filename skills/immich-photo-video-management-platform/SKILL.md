@@ -11,6 +11,7 @@ source: "https://github.com/immich-app/immich"
 tool_ecosystem:
   github_repo: "immich-app/immich"
   github_stars: 96205
+listed: true
 ---
 
 # Immich Self-Hosted Photo and Video Management Platform

@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/"
+listed: true
 ---
 
 # Stable Diffusion Prompt Optimizer

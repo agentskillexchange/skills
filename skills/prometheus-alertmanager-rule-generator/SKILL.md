@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/"
+listed: true
 ---
 
 # Prometheus AlertManager Rule Generator

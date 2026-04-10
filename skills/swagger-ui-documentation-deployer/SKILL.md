@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/"
+listed: true
 ---
 
 # Swagger UI Documentation Deployer

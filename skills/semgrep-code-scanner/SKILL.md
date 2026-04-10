@@ -11,6 +11,7 @@ source: "https://github.com/semgrep/semgrep"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14731
+listed: true
 ---
 
 # Semgrep Code Scanner

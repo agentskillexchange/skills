@@ -11,6 +11,7 @@ source: "https://github.com/retextjs/retext"
 tool_ecosystem:
   github_repo: "retextjs/retext"
   github_stars: 2433
+listed: true
 ---
 
 # retext Natural Language Processor with Unified Plugin Ecosystem

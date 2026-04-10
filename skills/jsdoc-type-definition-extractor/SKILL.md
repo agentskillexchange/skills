@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"
+listed: true
 ---
 
 # JSDoc Type Definition Extractor

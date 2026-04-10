@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
+listed: true
 ---
 
 # Tesseract OCR Document Extractor

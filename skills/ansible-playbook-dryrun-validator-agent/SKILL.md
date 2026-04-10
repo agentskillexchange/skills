@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
+listed: true
 ---
 
 # Ansible Playbook Dry-Run Validator

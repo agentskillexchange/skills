@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/"
+listed: true
 ---
 
 # Kubernetes Troubleshoot Analyzer

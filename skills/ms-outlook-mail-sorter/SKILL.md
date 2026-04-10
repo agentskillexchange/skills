@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ms-outlook-mail-sorter/"
+listed: true
 ---
 
 # Microsoft Outlook Mail Sorter

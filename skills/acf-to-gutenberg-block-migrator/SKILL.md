@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/"
+listed: true
 ---
 
 # ACF to Gutenberg Block Migrator

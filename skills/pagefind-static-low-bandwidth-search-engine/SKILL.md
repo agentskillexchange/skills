@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Pagefind/pagefind"
+listed: true
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine

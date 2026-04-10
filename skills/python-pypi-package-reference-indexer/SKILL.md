@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
+listed: true
 ---
 
 # Python PyPI Package Reference Indexer

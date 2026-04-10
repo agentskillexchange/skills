@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
+listed: true
 ---
 
 # Prometheus AlertManager Rules Engine

@@ -11,6 +11,7 @@ source: "https://github.com/muesli/duf"
 tool_ecosystem:
   github_repo: "muesli/duf"
   github_stars: 14916
+listed: true
 ---
 
 # duf Modern Disk Usage and Free Utility

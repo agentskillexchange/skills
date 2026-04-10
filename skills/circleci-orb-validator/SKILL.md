@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-validator/"
+listed: true
 ---
 
 # CircleCI Orb Validator

@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 14318
   npm_package: "trigger.dev"
   npm_weekly_downloads: 201540
+listed: true
 ---
 
 # Trigger.dev TypeScript Background Jobs Platform

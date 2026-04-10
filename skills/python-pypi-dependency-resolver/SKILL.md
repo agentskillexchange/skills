@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-dependency-resolver/"
+listed: true
 ---
 
 # Python PyPI Dependency Resolver

@@ -11,6 +11,7 @@ source: "https://github.com/altsem/gitu"
 tool_ecosystem:
   github_repo: "altsem/gitu"
   github_stars: 2664
+listed: true
 ---
 
 # gitu Magit-Inspired Terminal Git Interface

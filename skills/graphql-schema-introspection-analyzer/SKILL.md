@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-introspection-analyzer/"
+listed: true
 ---
 
 # GraphQL Schema Introspection Analyzer

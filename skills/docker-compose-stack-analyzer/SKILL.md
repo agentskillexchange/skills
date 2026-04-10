@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-stack-analyzer/"
+listed: true
 ---
 
 # Docker Compose Stack Analyzer

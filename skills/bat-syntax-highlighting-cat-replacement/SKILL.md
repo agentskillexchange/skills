@@ -11,6 +11,7 @@ source: "https://github.com/sharkdp/bat"
 tool_ecosystem:
   github_repo: "sharkdp/bat"
   github_stars: 57909
+listed: true
 ---
 
 # bat Syntax-Highlighting Cat Replacement

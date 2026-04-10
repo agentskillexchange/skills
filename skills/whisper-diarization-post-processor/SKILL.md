@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"
+listed: true
 ---
 
 # Whisper Diarization Post-Processor

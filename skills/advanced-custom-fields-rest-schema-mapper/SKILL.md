@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/"
+listed: true
 ---
 
 # Advanced Custom Fields REST Schema Mapper

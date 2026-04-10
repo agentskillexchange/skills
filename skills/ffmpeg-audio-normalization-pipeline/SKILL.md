@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/"
+listed: true
 ---
 
 # FFmpeg Audio Normalization Pipeline

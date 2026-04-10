@@ -11,6 +11,7 @@ source: "https://github.com/ocrmypdf/OCRmyPDF"
 tool_ecosystem:
   github_repo: "ocrmypdf/OCRmyPDF"
   github_stars: 33173
+listed: true
 ---
 
 # OCRmyPDF Searchable PDF OCR Pipeline

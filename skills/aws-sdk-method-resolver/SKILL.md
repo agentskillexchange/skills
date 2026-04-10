@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-sdk-method-resolver/"
+listed: true
 ---
 
 # AWS SDK Method Resolver

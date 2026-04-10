@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nodemailer/nodemailer"
+listed: true
 ---
 
 # Nodemailer Node.js Email Sending Library with SMTP and Transport Support

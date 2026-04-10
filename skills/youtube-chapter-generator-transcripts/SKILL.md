@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/"
+listed: true
 ---
 
 # YouTube Chapter Generator from Transcripts

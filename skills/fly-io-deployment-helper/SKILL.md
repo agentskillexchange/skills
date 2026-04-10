@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
+listed: true
 ---
 
 # Fly.io Deployment Helper

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/opf/openproject"
+listed: true
 ---
 
 # OpenProject Open Source Project Management Platform

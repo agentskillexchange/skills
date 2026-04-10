@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-cookie-consent-handler-3/"
+listed: true
 ---
 
 # Puppeteer Cookie Consent Handler

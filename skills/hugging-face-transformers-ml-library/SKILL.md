@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/huggingface/transformers"
 tool_ecosystem:
   github_repo: "huggingface/transformers"
   github_stars: 159014
+listed: true
 ---
 
 # Hugging Face Transformers — Machine Learning Model Library

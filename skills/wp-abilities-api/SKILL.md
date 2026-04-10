@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-abilities-api/"
+listed: true
 ---
 
 # WP Abilities API

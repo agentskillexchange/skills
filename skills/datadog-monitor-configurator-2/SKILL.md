@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
+listed: true
 ---
 
 # Datadog Monitor Configurator

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/amir20/dozzle"
+listed: true
 ---
 
 # Dozzle Real-Time Docker Container Log Viewer

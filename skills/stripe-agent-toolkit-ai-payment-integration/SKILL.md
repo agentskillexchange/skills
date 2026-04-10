@@ -11,6 +11,7 @@ source: "https://github.com/stripe/ai"
 tool_ecosystem:
   github_repo: "stripe/ai"
   github_stars: 1422
+listed: true
 ---
 
 # Stripe Agent Toolkit for AI Payment Integration

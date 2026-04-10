@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
+listed: true
 ---
 
 # Apify Actor Development Kit

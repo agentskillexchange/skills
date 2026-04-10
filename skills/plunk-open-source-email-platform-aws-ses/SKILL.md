@@ -11,6 +11,7 @@ source: "https://github.com/useplunk/plunk"
 tool_ecosystem:
   github_repo: "useplunk/plunk"
   github_stars: 4955
+listed: true
 ---
 
 # Plunk Open Source Transactional Email Platform on AWS SES

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/quickwit-oss/quickwit"
+listed: true
 ---
 
 # Quickwit Cloud-Native Search Engine for Observability Logs and Traces

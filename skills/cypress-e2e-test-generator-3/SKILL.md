@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-test-generator-3/"
+listed: true
 ---
 
 # Cypress E2E Test Generator

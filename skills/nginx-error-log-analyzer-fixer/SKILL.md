@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
+listed: true
 ---
 
 # Nginx Error Log Analyzer and Fixer

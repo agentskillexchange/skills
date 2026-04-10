@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/ultrafunkamsterdam/nodriver"
+listed: true
 ---
 
 # Nodriver Async Undetected Chrome Browser Automation for Python

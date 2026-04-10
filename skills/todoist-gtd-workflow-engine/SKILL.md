@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
+listed: true
 ---
 
 # Todoist GTD Workflow Engine

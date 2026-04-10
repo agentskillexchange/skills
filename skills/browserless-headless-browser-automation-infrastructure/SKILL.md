@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/browserless/browserless"
+listed: true
 ---
 
 # Browserless Headless Browser Automation Infrastructure

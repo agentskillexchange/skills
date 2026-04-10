@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/loki-log-query-agent/"
+listed: true
 ---
 
 # Loki Log Query Agent

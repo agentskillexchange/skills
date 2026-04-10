@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/"
+listed: true
 ---
 
 # NPM Package Supply Chain Auditor

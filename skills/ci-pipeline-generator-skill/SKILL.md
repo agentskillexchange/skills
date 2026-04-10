@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ci-pipeline-generator-skill/"
+listed: true
 ---
 
 # CI Pipeline Generator Skill

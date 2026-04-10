@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
+listed: true
 ---
 
 # ESLint Auto-Fix Orchestrator

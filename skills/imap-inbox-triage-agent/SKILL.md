@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
+listed: true
 ---
 
 # IMAP Inbox Triage Agent

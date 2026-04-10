@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
+listed: true
 ---
 
 # PyPI Package Inspector

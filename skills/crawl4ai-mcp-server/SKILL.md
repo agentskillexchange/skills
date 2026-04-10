@@ -11,6 +11,7 @@ source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
 tool_ecosystem:
   github_repo: "sadiuysal/crawl4ai-mcp-server"
   github_stars: 72
+listed: true
 ---
 
 # Crawl4AI MCP Server

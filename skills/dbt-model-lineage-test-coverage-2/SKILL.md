@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
+listed: true
 ---
 
 # dbt Model Lineage & Test Coverage Checker

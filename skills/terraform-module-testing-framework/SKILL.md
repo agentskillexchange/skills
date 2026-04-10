@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
+listed: true
 ---
 
 # Terraform Module Testing Framework

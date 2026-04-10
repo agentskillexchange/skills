@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stripe-payment-flow-connector/"
+listed: true
 ---
 
 # Stripe Payment Flow Connector

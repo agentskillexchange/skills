@@ -11,6 +11,7 @@ source: "https://github.com/containers/skopeo"
 tool_ecosystem:
   github_repo: "containers/skopeo"
   github_stars: 10665
+listed: true
 ---
 
 # Skopeo Container Image Registry Operations CLI

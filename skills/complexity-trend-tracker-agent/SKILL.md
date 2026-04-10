@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
+listed: true
 ---
 
 # Complexity Trend Tracker

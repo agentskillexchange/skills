@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/"
+listed: true
 ---
 
 # dbt Model Dependency Resolver

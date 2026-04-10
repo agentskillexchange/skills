@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/harness/harness"
+listed: true
 ---
 
 # Harness Open Source Self-Hosted Git and CI/CD Development Platform

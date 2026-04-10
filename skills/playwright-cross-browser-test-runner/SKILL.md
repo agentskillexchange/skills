@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-cross-browser-test-runner/"
+listed: true
 ---
 
 # Playwright Cross-Browser Test Runner

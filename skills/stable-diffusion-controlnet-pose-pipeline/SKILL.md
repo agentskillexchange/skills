@@ -11,6 +11,7 @@ source: "https://github.com/lllyasviel/ControlNet"
 tool_ecosystem:
   github_repo: "lllyasviel/ControlNet"
   github_stars: 33793
+listed: true
 ---
 
 # Stable Diffusion ControlNet Pose Pipeline

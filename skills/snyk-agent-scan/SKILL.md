@@ -11,6 +11,7 @@ source: "https://github.com/snyk/agent-scan"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
   github_stars: 2083
+listed: true
 ---
 
 # Snyk Agent Scan

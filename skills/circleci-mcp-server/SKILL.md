@@ -11,6 +11,7 @@ source: "https://github.com/circleci/circleci-docs"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 842
+listed: true
 ---
 
 # CircleCI MCP Server

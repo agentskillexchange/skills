@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-3/"
+listed: true
 ---
 
 # Kubernetes Pod Crash Diagnostics

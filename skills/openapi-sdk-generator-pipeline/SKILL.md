@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/"
+listed: true
 ---
 
 # OpenAPI SDK Generator Pipeline

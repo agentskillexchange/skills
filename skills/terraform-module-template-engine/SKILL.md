@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
+listed: true
 ---
 
 # Terraform Module Template Engine

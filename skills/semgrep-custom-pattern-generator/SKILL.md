@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-generator/"
+listed: true
 ---
 
 # Semgrep Custom Pattern Generator

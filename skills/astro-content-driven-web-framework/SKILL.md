@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 57979
   npm_package: "astro"
   npm_weekly_downloads: 1890419
+listed: true
 ---
 
 # Astro Content-Driven Web Framework

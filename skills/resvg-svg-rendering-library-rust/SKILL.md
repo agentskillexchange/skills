@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/linebender/resvg"
+listed: true
 ---
 
 # resvg High-Performance SVG Rendering Library in Rust

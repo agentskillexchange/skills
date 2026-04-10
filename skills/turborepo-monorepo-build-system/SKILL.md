@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 30114
   npm_package: "turbo"
   npm_weekly_downloads: 11046834
+listed: true
 ---
 
 # Turborepo Monorepo Build System

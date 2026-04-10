@@ -12,6 +12,7 @@ tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10791
   npm_package: "openai"
+listed: true
 ---
 
 # OpenAI Image Gen

@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/"
+listed: true
 ---
 
 # Reddit Subreddit Sentiment Tracker

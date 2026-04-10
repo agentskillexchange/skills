@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-brief-architect-agent/"
+listed: true
 ---
 
 # Content Brief Architect

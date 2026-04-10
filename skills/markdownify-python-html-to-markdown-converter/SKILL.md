@@ -11,6 +11,7 @@ source: "https://github.com/matthewwithanm/python-markdownify"
 tool_ecosystem:
   github_repo: "matthewwithanm/python-markdownify"
   github_stars: 2134
+listed: true
 ---
 
 # markdownify Python HTML to Markdown Conversion Library

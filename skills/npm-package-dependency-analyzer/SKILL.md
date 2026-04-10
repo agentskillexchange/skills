@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-dependency-analyzer/"
+listed: true
 ---
 
 # NPM Package Dependency Analyzer

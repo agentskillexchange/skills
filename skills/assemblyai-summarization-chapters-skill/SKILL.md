@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/"
+listed: true
 ---
 
 # AssemblyAI Summarization & Chapters Skill

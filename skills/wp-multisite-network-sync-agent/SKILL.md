@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/"
+listed: true
 ---
 
 # WP Multisite Network Sync Agent

@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
+listed: true
 ---
 
 # SendGrid Transactional Email Builder

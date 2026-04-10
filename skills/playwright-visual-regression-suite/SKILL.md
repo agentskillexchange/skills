@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-suite/"
+listed: true
 ---
 
 # Playwright Visual Regression Suite

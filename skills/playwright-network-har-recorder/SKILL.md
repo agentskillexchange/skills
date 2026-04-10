@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-har-recorder/"
+listed: true
 ---
 
 # Playwright Network HAR Recorder

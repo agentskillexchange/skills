@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cdp-network-interception-logger/"
+listed: true
 ---
 
 # CDP Network Interception Logger

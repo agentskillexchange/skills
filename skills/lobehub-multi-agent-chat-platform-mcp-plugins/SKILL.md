@@ -11,6 +11,7 @@ source: "https://github.com/lobehub/lobehub"
 tool_ecosystem:
   github_repo: "lobehub/lobehub"
   github_stars: 74891
+listed: true
 ---
 
 # LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem

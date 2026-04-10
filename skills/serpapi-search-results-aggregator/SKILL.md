@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
+listed: true
 ---
 
 # SerpAPI Search Results Aggregator

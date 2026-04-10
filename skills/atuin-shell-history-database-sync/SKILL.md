@@ -11,6 +11,7 @@ source: "https://github.com/atuinsh/atuin"
 tool_ecosystem:
   github_repo: "atuinsh/atuin"
   github_stars: 28925
+listed: true
 ---
 
 # Atuin Shell History Database and Sync

@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
+listed: true
 ---
 
 # CircleCI Pipeline Optimizer

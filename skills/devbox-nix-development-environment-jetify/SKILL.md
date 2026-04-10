@@ -11,6 +11,7 @@ source: "https://github.com/jetify-com/devbox"
 tool_ecosystem:
   github_repo: "jetify-com/devbox"
   github_stars: 11448
+listed: true
 ---
 
 # Devbox Instant Nix-Powered Development Environment Manager by Jetify

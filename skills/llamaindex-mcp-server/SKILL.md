@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/llamaindex-mcp-server/"
+listed: true
 ---
 
 # LlamaIndex MCP Server

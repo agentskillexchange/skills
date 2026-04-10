@@ -11,6 +11,7 @@ source: "https://github.com/apache/superset"
 tool_ecosystem:
   github_repo: "apache/superset"
   github_stars: 72324
+listed: true
 ---
 
 # Apache Superset Dashboard and SQL Exploration Skill

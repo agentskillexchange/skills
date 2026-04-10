@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
+listed: true
 ---
 
 # ComfyUI Workflow Executor

@@ -11,6 +11,7 @@ source: "https://github.com/lightpanda-io/browser"
 tool_ecosystem:
   github_repo: "lightpanda-io/browser"
   github_stars: 26505
+listed: true
 ---
 
 # Lightpanda Headless Browser for AI Automation

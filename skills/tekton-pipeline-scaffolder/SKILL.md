@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-scaffolder/"
+listed: true
 ---
 
 # Tekton Pipeline Scaffolder

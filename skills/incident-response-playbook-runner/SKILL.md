@@ -9,6 +9,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/incident-response-playbook-runner/"
+listed: true
 ---
 
 # Incident Response Playbook Runner

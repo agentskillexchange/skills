@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-docstring-extractor/"
+listed: true
 ---
 
 # Python Docstring Extractor

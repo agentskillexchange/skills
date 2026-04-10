@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
+listed: true
 ---
 
 # Gmail Thread Summarizer and Action Extractor

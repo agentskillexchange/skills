@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-dependency-graph-resolver/"
+listed: true
 ---
 
 # Python Dependency Graph Resolver

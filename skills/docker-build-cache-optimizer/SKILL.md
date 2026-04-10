@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer/"
+listed: true
 ---
 
 # Docker Build Cache Optimizer

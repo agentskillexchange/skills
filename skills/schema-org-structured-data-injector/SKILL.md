@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://schema.org/"
+listed: true
 ---
 
 # Schema.org Structured Data Injector

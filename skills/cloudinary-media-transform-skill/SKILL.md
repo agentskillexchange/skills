@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-media-transform-skill/"
+listed: true
 ---
 
 # Cloudinary Media Transform Skill

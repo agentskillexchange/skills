@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/svg-animation-builder/"
+listed: true
 ---
 
 # SVG Animation Builder

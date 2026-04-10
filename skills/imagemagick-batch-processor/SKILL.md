@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/imagemagick-batch-processor/"
+listed: true
 ---
 
 # ImageMagick Batch Processor

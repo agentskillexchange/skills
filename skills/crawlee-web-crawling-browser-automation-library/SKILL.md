@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 22591
   npm_package: "crawlee"
   npm_weekly_downloads: 72475
+listed: true
 ---
 
 # Crawlee Web Crawling and Browser Automation Library

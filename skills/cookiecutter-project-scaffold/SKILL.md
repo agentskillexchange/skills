@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold/"
+listed: true
 ---
 
 # Cookiecutter Project Scaffold

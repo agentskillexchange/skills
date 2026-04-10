@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
+listed: true
 ---
 
 # Plaid Financial Data Connector

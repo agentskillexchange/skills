@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 5657
   npm_package: "orval"
   npm_weekly_downloads: 1025981
+listed: true
 ---
 
 # Orval OpenAPI Client Regeneration Skill for Typed SDKs

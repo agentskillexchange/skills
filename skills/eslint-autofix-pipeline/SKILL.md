@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
+listed: true
 ---
 
 # ESLint Auto-Fix Pipeline

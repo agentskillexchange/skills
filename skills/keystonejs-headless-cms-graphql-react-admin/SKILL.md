@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/keystonejs/keystone"
+listed: true
 ---
 
 # KeystoneJS Headless CMS with GraphQL API and React Admin UI

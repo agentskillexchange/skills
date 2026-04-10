@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
+listed: true
 ---
 
 # Podcast Transcription Pipeline

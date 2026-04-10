@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
+listed: true
 ---
 
 # Codecov Coverage Analyzer

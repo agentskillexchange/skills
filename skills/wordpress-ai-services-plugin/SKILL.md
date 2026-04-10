@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/felixarntz/ai-services"
+listed: true
 ---
 
 # WordPress AI Services Plugin

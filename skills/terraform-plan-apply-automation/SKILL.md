@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-apply-automation/"
+listed: true
 ---
 
 # Terraform Plan & Apply Automation

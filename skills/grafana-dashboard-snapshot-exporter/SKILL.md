@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/"
+listed: true
 ---
 
 # Grafana Dashboard Snapshot Exporter

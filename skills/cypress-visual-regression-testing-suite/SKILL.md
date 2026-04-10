@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-visual-regression-testing-suite/"
+listed: true
 ---
 
 # Cypress Visual Regression Testing Suite

@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 6041
   npm_package: "sanity"
   npm_weekly_downloads: 404832
+listed: true
 ---
 
 # Sanity Structured Content Studio and Content Lake

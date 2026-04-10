@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/zulip/zulip"
+listed: true
 ---
 
 # Zulip Open Source Team Chat Platform with Topic-Based Threading

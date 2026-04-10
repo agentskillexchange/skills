@@ -11,6 +11,7 @@ source: "https://github.com/pemistahl/grex"
 tool_ecosystem:
   github_repo: "pemistahl/grex"
   github_stars: 8079
+listed: true
 ---
 
 # grex Regular Expression Generator from Test Cases

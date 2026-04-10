@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/"
+listed: true
 ---
 
 # Yeoman Workflow Orchestrator

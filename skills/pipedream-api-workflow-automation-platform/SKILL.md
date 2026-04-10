@@ -11,6 +11,7 @@ source: "https://github.com/PipedreamHQ/pipedream"
 tool_ecosystem:
   github_repo: "PipedreamHQ/pipedream"
   github_stars: 11224
+listed: true
 ---
 
 # Pipedream API Workflow Automation Platform

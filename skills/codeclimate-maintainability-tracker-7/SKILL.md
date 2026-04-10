@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/"
+listed: true
 ---
 
 # CodeClimate Maintainability Tracker

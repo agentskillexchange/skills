@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
+listed: true
 ---
 
 # Cheerio DOM Scraping Toolkit

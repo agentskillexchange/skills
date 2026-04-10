@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/logdyhq/logdy-core"
+listed: true
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI

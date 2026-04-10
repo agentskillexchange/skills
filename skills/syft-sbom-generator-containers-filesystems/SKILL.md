@@ -11,6 +11,7 @@ source: "https://github.com/anchore/syft"
 tool_ecosystem:
   github_repo: "anchore/syft"
   github_stars: 8628
+listed: true
 ---
 
 # Syft SBOM Generator for Containers and Filesystems

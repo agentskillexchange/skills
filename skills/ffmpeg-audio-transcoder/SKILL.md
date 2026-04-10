@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/"
+listed: true
 ---
 
 # FFmpeg Audio Transcoder

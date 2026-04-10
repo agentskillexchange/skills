@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/"
+listed: true
 ---
 
 # GitLab CI Pipeline Validator

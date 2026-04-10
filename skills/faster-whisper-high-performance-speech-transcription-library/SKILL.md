@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
+listed: true
 ---
 
 # faster-whisper High-Performance Speech Transcription Library

@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/"
+listed: true
 ---
 
 # SEMrush Keyword Research Agent

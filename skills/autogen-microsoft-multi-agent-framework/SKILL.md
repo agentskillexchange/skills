@@ -6,11 +6,12 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/microsoft/autogen"
 tool_ecosystem:
   github_repo: "microsoft/autogen"
   github_stars: 56777
+listed: true
 ---
 
 # AutoGen — Microsoft Multi-Agent Conversation Framework

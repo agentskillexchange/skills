@@ -11,6 +11,7 @@ source: "https://github.com/mitmproxy/mitmproxy"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
+listed: true
 ---
 
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing

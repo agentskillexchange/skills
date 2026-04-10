@@ -11,6 +11,7 @@ source: "https://github.com/Foundry376/Mailspring"
 tool_ecosystem:
   github_repo: "Foundry376/Mailspring"
   github_stars: 17366
+listed: true
 ---
 
 # Mailspring Open Source Email Client with Plugin Architecture

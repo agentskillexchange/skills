@@ -11,6 +11,7 @@ source: "https://github.com/nektos/act"
 tool_ecosystem:
   github_repo: "nektos/act"
   github_stars: 69661
+listed: true
 ---
 
 # act Local GitHub Actions Runner

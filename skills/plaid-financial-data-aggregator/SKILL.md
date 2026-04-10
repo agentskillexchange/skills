@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-aggregator/"
+listed: true
 ---
 
 # Plaid Financial Data Aggregator & Budget Classifier

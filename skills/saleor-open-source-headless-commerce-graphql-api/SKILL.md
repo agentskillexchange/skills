@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/saleor/saleor"
+listed: true
 ---
 
 # Saleor Open Source Headless Commerce Platform with GraphQL API

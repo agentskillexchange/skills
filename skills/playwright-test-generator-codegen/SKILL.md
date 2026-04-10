@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
+listed: true
 ---
 
 # Playwright Test Generator with Codegen

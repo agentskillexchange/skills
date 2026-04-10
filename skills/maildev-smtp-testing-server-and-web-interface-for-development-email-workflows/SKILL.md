@@ -11,6 +11,7 @@ source: "https://github.com/maildev/maildev"
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5863
+listed: true
 ---
 
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows

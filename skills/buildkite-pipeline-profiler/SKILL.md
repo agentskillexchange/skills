@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
+listed: true
 ---
 
 # Buildkite Pipeline Profiler

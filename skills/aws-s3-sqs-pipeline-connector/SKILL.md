@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/"
+listed: true
 ---
 
 # AWS S3 & SQS Pipeline Connector

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/biomejs/biome"
+listed: true
 ---
 
 # Biome High-Performance JavaScript TypeScript Formatter and Linter

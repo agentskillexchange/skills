@@ -11,6 +11,7 @@ source: "https://github.com/sharkdp/hyperfine"
 tool_ecosystem:
   github_repo: "sharkdp/hyperfine"
   github_stars: 27797
+listed: true
 ---
 
 # Hyperfine Command-Line Benchmarking Tool

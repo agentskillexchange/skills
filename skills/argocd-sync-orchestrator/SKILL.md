@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-sync-orchestrator/"
+listed: true
 ---
 
 # ArgoCD Sync Orchestrator

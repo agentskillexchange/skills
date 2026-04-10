@@ -11,6 +11,7 @@ source: "https://github.com/knadh/listmonk"
 tool_ecosystem:
   github_repo: "knadh/listmonk"
   github_stars: 19404
+listed: true
 ---
 
 # Listmonk Self-Hosted Newsletter and Mailing List Manager

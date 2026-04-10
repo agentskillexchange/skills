@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
+listed: true
 ---
 
 # Stable Diffusion XL Pipeline

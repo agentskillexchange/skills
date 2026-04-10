@@ -11,6 +11,7 @@ source: "https://github.com/dalance/procs"
 tool_ecosystem:
   github_repo: "dalance/procs"
   github_stars: 5994
+listed: true
 ---
 
 # procs Modern Process Viewer CLI

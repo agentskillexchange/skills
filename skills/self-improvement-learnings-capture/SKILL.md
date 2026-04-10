@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
+listed: true
 ---
 
 # Self-Improvement / Learnings Capture

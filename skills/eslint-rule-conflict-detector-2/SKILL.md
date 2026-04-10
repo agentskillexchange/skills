@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/"
+listed: true
 ---
 
 # ESLint Rule Conflict Detector

@@ -11,6 +11,7 @@ source: "https://github.com/s0md3v/Photon"
 tool_ecosystem:
   github_repo: "s0md3v/Photon"
   github_stars: 12795
+listed: true
 ---
 
 # Photon High-Speed OSINT Web Crawler and Data Extractor

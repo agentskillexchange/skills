@@ -6,11 +6,12 @@ category:
   - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-verification: "listed"
+verification: "published"
 source: "https://github.com/dotenvx/dotenvx"
 tool_ecosystem:
   github_repo: "dotenvx/dotenvx"
   github_stars: 5309
+listed: true
 ---
 
 # dotenvx Secure Environment Variable Manager and Encryptor

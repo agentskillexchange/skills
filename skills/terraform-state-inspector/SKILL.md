@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-inspector/"
+listed: true
 ---
 
 # Terraform State Inspector

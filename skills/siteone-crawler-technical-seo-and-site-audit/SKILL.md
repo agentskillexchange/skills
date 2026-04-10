@@ -11,6 +11,7 @@ source: "https://github.com/janreges/siteone-crawler"
 tool_ecosystem:
   github_repo: "janreges/siteone-crawler"
   github_stars: 708
+listed: true
 ---
 
 # SiteOne Crawler Technical SEO and Site Audit

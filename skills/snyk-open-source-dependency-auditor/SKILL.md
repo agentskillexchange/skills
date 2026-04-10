@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/snyk-open-source-dependency-auditor/"
+listed: true
 ---
 
 # Snyk Open Source Dependency Auditor

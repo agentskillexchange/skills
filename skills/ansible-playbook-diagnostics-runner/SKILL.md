@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
+listed: true
 ---
 
 # Ansible Playbook Diagnostics Runner

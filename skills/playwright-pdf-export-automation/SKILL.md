@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-pdf-export-automation/"
+listed: true
 ---
 
 # Playwright PDF Export Automation

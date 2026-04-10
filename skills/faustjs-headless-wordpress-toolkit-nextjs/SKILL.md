@@ -11,6 +11,7 @@ source: "https://github.com/wpengine/faustjs"
 tool_ecosystem:
   github_repo: "wpengine/faustjs"
   github_stars: 1568
+listed: true
 ---
 
 # Faust.js Headless WordPress Toolkit for Next.js

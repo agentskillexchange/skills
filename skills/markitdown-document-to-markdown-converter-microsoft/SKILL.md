@@ -11,6 +11,7 @@ source: "https://github.com/microsoft/markitdown"
 tool_ecosystem:
   github_repo: "microsoft/markitdown"
   github_stars: 93207
+listed: true
 ---
 
 # MarkItDown Document-to-Markdown Converter by Microsoft

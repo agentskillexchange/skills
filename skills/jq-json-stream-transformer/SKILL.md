@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jq-json-stream-transformer/"
+listed: true
 ---
 
 # jq JSON Stream Transformer

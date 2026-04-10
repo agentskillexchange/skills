@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/outline/outline"
+listed: true
 ---
 
 # Outline Open Source Team Knowledge Base and Wiki Platform

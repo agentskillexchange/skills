@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://wordpress.org/plugins/seo-by-rank-math/"
+listed: true
 ---
 
 # Rank Math SEO Plugin for WordPress Search Optimization

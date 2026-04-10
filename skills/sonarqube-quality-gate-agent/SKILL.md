@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
+listed: true
 ---
 
 # SonarQube Quality Gate Agent

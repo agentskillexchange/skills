@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/camelot-pdf-stream-parser/"
+listed: true
 ---
 
 # Camelot PDF Stream Parser

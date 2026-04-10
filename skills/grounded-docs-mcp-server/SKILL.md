@@ -11,6 +11,7 @@ source: "https://github.com/arabold/docs-mcp-server"
 tool_ecosystem:
   github_repo: "arabold/docs-mcp-server"
   github_stars: 1209
+listed: true
 ---
 
 # Grounded Docs MCP Server

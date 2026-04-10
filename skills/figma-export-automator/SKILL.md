@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-export-automator/"
+listed: true
 ---
 
 # Figma Export Automator

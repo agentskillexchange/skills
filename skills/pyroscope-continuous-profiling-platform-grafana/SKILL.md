@@ -11,6 +11,7 @@ source: "https://github.com/grafana/pyroscope"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
   github_stars: 11341
+listed: true
 ---
 
 # Pyroscope Continuous Profiling Platform by Grafana

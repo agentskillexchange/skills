@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/"
+listed: true
 ---
 
 # ESLint Rule Violation Summarizer

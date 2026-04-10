@@ -11,6 +11,7 @@ source: "https://github.com/getsentry/sentry"
 tool_ecosystem:
   github_repo: "getsentry/sentry"
   github_stars: 43486
+listed: true
 ---
 
 # Sentry Issue Spike Detection Agent

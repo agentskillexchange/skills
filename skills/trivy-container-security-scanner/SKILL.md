@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
+listed: true
 ---
 
 # Trivy Container Security Scanner

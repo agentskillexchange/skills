@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/jina-ai/reader"
+listed: true
 ---
 
 # Jina Reader URL-to-Markdown Converter and Web Search API

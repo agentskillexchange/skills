@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cloudinary-dam-pipeline-skill/"
+listed: true
 ---
 
 # Cloudinary DAM Pipeline

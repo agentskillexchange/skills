@@ -11,6 +11,7 @@ source: "https://github.com/hoppscotch/hoppscotch"
 tool_ecosystem:
   github_repo: "hoppscotch/hoppscotch"
   github_stars: 78738
+listed: true
 ---
 
 # Hoppscotch Open Source API Development Ecosystem

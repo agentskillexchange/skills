@@ -11,6 +11,7 @@ source: "https://github.com/temporalio/temporal"
 tool_ecosystem:
   github_repo: "temporalio/temporal"
   github_stars: 19402
+listed: true
 ---
 
 # Temporal Durable Execution Workflow Orchestration Platform

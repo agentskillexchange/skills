@@ -11,6 +11,7 @@ source: "https://github.com/serpapi/google-search-results-python"
 tool_ecosystem:
   github_repo: "serpapi/google-search-results-python"
   github_stars: 734
+listed: true
 ---
 
 # SerpAPI Answer Box Extractor

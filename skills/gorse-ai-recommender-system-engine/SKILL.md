@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/gorse-io/gorse"
+listed: true
 ---
 
 # Gorse AI-Powered Open Source Recommender System Engine

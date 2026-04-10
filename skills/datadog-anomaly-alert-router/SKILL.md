@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
+listed: true
 ---
 
 # Datadog Anomaly Alert Router

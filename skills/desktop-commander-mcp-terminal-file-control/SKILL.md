@@ -11,6 +11,7 @@ source: "https://github.com/wonderwhy-er/DesktopCommanderMCP"
 tool_ecosystem:
   github_repo: "wonderwhy-er/DesktopCommanderMCP"
   github_stars: 5826
+listed: true
 ---
 
 # Desktop Commander MCP Server for Terminal and File Control

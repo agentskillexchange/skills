@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/fonttools/fonttools"
+listed: true
 ---
 
 # fonttools Python Font Manipulation and Subsetting Library

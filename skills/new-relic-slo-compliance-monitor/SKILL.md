@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/new-relic-slo-compliance-monitor/"
+listed: true
 ---
 
 # New Relic SLO Compliance Monitor

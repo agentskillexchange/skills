@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
+listed: true
 ---
 
 # Prometheus Alert Tuner

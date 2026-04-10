@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
+listed: true
 ---
 
 # Nginx Error Log Classifier

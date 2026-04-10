@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
+listed: true
 ---
 
 # Sentry Error Triage Assistant

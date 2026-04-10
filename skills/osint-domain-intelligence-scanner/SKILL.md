@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/osint-domain-intelligence-scanner/"
+listed: true
 ---
 
 # OSINT Domain Intelligence Scanner

@@ -11,6 +11,7 @@ source: "https://github.com/Aider-AI/aider"
 tool_ecosystem:
   github_repo: "Aider-AI/aider"
   github_stars: 42670
+listed: true
 ---
 
 # Aider AI Pair Programming CLI Agent

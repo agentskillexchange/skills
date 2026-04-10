@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/"
+listed: true
 ---
 
 # Deepgram Podcast Chapter Generator

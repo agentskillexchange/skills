@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
+listed: true
 ---
 
 # Microsoft Graph Email Digest Builder

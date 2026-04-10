@@ -9,6 +9,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
+listed: true
 ---
 
 # Falco Runtime Security Monitor

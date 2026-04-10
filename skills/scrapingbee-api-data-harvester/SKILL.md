@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/"
+listed: true
 ---
 
 # ScrapingBee API Data Harvester

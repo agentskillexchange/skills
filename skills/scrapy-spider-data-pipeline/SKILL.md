@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
+listed: true
 ---
 
 # Scrapy Spider Data Pipeline

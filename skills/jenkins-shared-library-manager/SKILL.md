@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-manager/"
+listed: true
 ---
 
 # Jenkins Shared Library Manager

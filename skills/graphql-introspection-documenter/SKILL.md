@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"
+listed: true
 ---
 
 # GraphQL Introspection Documenter

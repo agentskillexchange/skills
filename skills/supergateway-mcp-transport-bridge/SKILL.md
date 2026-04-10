@@ -13,6 +13,7 @@ tool_ecosystem:
   github_stars: 2538
   npm_package: "supergateway"
   npm_weekly_downloads: 97912
+listed: true
 ---
 
 # Supergateway MCP Transport Bridge

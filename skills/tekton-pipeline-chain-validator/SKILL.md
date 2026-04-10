@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-chain-validator/"
+listed: true
 ---
 
 # Tekton Pipeline Chain Validator

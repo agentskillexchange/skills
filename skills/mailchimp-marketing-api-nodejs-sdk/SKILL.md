@@ -11,6 +11,7 @@ source: "https://github.com/mailchimp/mailchimp-marketing-node"
 tool_ecosystem:
   github_repo: "mailchimp/mailchimp-marketing-node"
   github_stars: 165
+listed: true
 ---
 
 # Mailchimp Marketing API Node.js SDK

@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/rehypejs/rehype"
+listed: true
 ---
 
 # rehype Plugin-Based HTML Processor by the Unified Collective

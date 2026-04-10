@@ -11,6 +11,7 @@ source: "https://github.com/checkly/checkly-cli"
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
+listed: true
 ---
 
 # Checkly Browser Check Failure Notifier

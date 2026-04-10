@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
+listed: true
 ---
 
 # Vite Plugin Hot Module Analyzer

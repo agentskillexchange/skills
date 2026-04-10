@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/"
+listed: true
 ---
 
 # Selenium Grid Multi-Browser Test Runner

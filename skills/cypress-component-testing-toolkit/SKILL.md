@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
+listed: true
 ---
 
 # Cypress Component Testing Toolkit

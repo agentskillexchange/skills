@@ -11,6 +11,7 @@ source: "https://github.com/louislam/dockge"
 tool_ecosystem:
   github_repo: "louislam/dockge"
   github_stars: 22685
+listed: true
 ---
 
 # Dockge Self-Hosted Docker Compose Stack Manager

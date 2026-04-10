@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/railway-app-deployer/"
+listed: true
 ---
 
 # Railway App Deployer

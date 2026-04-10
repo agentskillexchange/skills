@@ -11,6 +11,7 @@ source: "https://github.com/googleworkspace/cli"
 tool_ecosystem:
   github_repo: "googleworkspace/cli"
   github_stars: 24106
+listed: true
 ---
 
 # Google Workspace CLI (gws)

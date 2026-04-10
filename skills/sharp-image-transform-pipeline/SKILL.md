@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sharp-image-transform-pipeline/"
+listed: true
 ---
 
 # Sharp Image Transform Pipeline

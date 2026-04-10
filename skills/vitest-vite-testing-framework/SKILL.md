@@ -11,6 +11,7 @@ source: "https://github.com/vitest-dev/vitest"
 tool_ecosystem:
   github_repo: "vitest-dev/vitest"
   github_stars: 16296
+listed: true
 ---
 
 # Vitest Next-Generation Vite-Powered Testing Framework

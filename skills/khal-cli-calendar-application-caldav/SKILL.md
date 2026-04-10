@@ -11,6 +11,7 @@ source: "https://github.com/pimutils/khal"
 tool_ecosystem:
   github_repo: "pimutils/khal"
   github_stars: 2971
+listed: true
 ---
 
 # khal Standards-Based CLI Calendar Application

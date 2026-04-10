@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/tekton-pipeline-debugger/"
+listed: true
 ---
 
 # Tekton Pipeline Debugger

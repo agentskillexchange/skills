@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
+listed: true
 ---
 
 # Apache Kafka Stream Transformer

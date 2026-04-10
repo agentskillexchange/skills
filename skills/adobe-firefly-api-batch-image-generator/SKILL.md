@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/"
+listed: true
 ---
 
 # Adobe Firefly API Batch Image Generator

@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordOps/WordOps"
+listed: true
 ---
 
 # WordOps High-Performance WordPress Server Stack Manager

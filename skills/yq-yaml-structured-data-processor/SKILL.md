@@ -11,6 +11,7 @@ source: "https://github.com/mikefarah/yq"
 tool_ecosystem:
   github_repo: "mikefarah/yq"
   github_stars: 15143
+listed: true
 ---
 
 # yq YAML and Structured Data Processor

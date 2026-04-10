@@ -8,6 +8,7 @@ framework:
   - "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-sync-agent-2/"
+listed: true
 ---
 
 # Google Calendar Sync Agent

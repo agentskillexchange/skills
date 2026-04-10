@@ -8,6 +8,7 @@ framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/systems-manager/"
+listed: true
 ---
 
 # AWS Systems Manager Automation Incident Guide

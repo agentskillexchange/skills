@@ -11,6 +11,7 @@ source: "https://github.com/hasura/graphql-engine"
 tool_ecosystem:
   github_repo: "hasura/graphql-engine"
   github_stars: 31934
+listed: true
 ---
 
 # Hasura GraphQL Engine for Instant API and Database Automation

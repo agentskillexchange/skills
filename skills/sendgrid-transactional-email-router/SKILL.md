@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
+listed: true
 ---
 
 # SendGrid Transactional Email Router

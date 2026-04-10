@@ -11,6 +11,7 @@ source: "https://github.com/mockoon/mockoon"
 tool_ecosystem:
   github_repo: "mockoon/mockoon"
   github_stars: 8196
+listed: true
 ---
 
 # Mockoon Local Mock API Server and CLI for API Development

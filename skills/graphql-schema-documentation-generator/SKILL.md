@@ -8,6 +8,7 @@ framework:
   - "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
+listed: true
 ---
 
 # GraphQL Schema Documentation Generator

@@ -11,6 +11,7 @@ source: "https://github.com/livekit/livekit"
 tool_ecosystem:
   github_repo: "livekit/livekit"
   github_stars: 17975
+listed: true
 ---
 
 # LiveKit Real-Time Video Audio and Data Server with WebRTC

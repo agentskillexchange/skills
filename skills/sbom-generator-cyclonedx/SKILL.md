@@ -8,6 +8,7 @@ framework:
   - "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sbom-generator-cyclonedx/"
+listed: true
 ---
 
 # SBOM Generator with CycloneDX

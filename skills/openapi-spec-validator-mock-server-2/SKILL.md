@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/"
+listed: true
 ---
 
 # OpenAPI Spec Validator & Mock Server

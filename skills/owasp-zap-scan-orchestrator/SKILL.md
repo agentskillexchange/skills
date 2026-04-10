@@ -8,6 +8,7 @@ framework:
   - "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/owasp-zap-scan-orchestrator/"
+listed: true
 ---
 
 # OWASP ZAP Scan Orchestrator

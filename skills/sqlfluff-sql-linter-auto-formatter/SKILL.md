@@ -13,6 +13,7 @@ source: "https://github.com/sqlfluff/sqlfluff"
 tool_ecosystem:
   github_repo: "sqlfluff/sqlfluff"
   github_stars: 9635
+listed: true
 ---
 
 # SQLFluff SQL Linter and Auto-Formatter

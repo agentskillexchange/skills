@@ -11,6 +11,7 @@ source: "https://github.com/advplyr/audiobookshelf"
 tool_ecosystem:
   github_repo: "advplyr/audiobookshelf"
   github_stars: 12295
+listed: true
 ---
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API

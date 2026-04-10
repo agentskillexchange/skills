@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
+listed: true
 ---
 
 # Playwright Extra Browser Automation Plugins

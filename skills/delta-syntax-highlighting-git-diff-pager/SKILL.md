@@ -11,6 +11,7 @@ source: "https://github.com/dandavison/delta"
 tool_ecosystem:
   github_repo: "dandavison/delta"
   github_stars: 29842
+listed: true
 ---
 
 # delta Syntax-Highlighting Git Diff Pager

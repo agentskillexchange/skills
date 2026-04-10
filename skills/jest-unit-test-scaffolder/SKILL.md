@@ -8,6 +8,7 @@ framework:
   - "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jest-unit-test-scaffolder/"
+listed: true
 ---
 
 # Jest Unit Test Scaffolder

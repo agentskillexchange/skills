@@ -11,6 +11,7 @@ source: "https://github.com/grafana/grafana"
 tool_ecosystem:
   github_repo: "grafana/grafana"
   github_stars: 73081
+listed: true
 ---
 
 # Prometheus / Grafana MCP Server

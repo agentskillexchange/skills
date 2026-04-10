@@ -8,6 +8,7 @@ framework:
   - "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prettier-config-harmonizer-2/"
+listed: true
 ---
 
 # Prettier Config Harmonizer

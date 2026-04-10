@@ -8,6 +8,7 @@ framework:
   - "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argocd-deployment-sync-skill/"
+listed: true
 ---
 
 # ArgoCD Deployment Sync Skill

@@ -11,6 +11,7 @@ source: "https://github.com/httpie/cli"
 tool_ecosystem:
   github_repo: "httpie/cli"
   github_stars: 37814
+listed: true
 ---
 
 # HTTPie CLI API Testing and Debugging Client

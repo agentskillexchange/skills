@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-cpp-local-transcription-engine/"
+listed: true
 ---
 
 # Whisper.cpp Local Transcription Engine

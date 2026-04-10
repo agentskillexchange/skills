@@ -8,6 +8,7 @@ framework:
   - "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/octokit/octokit.js"
+listed: true
 ---
 
 # Octokit JavaScript GitHub SDK for REST GraphQL and App Automation

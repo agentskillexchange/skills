@@ -11,6 +11,7 @@ source: "https://github.com/tolgee/tolgee-platform"
 tool_ecosystem:
   github_repo: "tolgee/tolgee-platform"
   github_stars: 3875
+listed: true
 ---
 
 # Tolgee Open Source Localization and i18n Platform

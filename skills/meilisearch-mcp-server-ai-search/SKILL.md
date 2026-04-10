@@ -11,6 +11,7 @@ source: "https://github.com/meilisearch/meilisearch-mcp"
 tool_ecosystem:
   github_repo: "meilisearch/meilisearch-mcp"
   github_stars: 181
+listed: true
 ---
 
 # Meilisearch MCP Server for AI-Powered Search Integration

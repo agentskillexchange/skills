@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
+listed: true
 ---
 
 # GraphQL Schema Stitching & Federation Agent

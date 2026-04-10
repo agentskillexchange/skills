@@ -11,6 +11,7 @@ source: "https://github.com/vllm-project/vllm"
 tool_ecosystem:
   github_repo: "vllm-project/vllm"
   github_stars: 75090
+listed: true
 ---
 
 # vLLM High-Throughput LLM Serving Engine with PagedAttention

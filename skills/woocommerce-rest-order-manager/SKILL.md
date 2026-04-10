@@ -8,6 +8,7 @@ framework:
   - "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-rest-order-manager/"
+listed: true
 ---
 
 # WooCommerce REST Order Manager

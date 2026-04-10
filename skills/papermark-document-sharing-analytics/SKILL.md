@@ -11,6 +11,7 @@ source: "https://github.com/mfts/papermark"
 tool_ecosystem:
   github_repo: "mfts/papermark"
   github_stars: 8152
+listed: true
 ---
 
 # Papermark Open Source Document Sharing Platform with Analytics

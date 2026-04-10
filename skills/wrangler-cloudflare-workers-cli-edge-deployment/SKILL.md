@@ -11,6 +11,7 @@ source: "https://github.com/cloudflare/workers-sdk"
 tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
   github_stars: 3951
+listed: true
 ---
 
 # Wrangler Cloudflare Workers CLI for Edge Deployment
