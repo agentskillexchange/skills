@@ -1,8 +1,92 @@
 {
   "version": "2.0",
-  "total": 1841,
+  "total": 1847,
   "generated": "2026-04-10",
   "skills": [
+    {
+      "slug": "diagnose-openclaw-node-pairing-and-route-failures",
+      "name": "Diagnose OpenClaw node pairing and route failures",
+      "description": "Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to connect over LAN, Tailscale, or…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "remote-control-tmux-sessions-for-interactive-cli-agents",
+      "name": "Remote-control tmux sessions for interactive CLI agents",
+      "description": "Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you need for interactive CLIs that…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "format-plain-text-drafts-for-clean-substack-paste",
+      "name": "Format plain-text drafts for clean Substack paste",
+      "description": "Transforms raw draft text into paste-ready Substack HTML so an agent can preserve headings, emphasis, lists, and spacing without hand-formatting every paragraph. Use it…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "publint-package-export-validation-skill-npm-release-checks",
+      "name": "publint Package Export Validation Skill for npm Release Checks",
+      "description": "Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and explain exactly what will…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1252,
+        "npm_weekly_downloads": 551109
+      }
+    },
+    {
+      "slug": "msw-api-mocking-skill-frontend-integration-tests",
+      "name": "MSW API Mocking Skill for Frontend and Integration Tests",
+      "description": "Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests,…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17806,
+        "npm_weekly_downloads": 12741702
+      }
+    },
+    {
+      "slug": "orval-openapi-client-regeneration-skill-typed-sdks",
+      "name": "Orval OpenAPI Client Regeneration Skill for Typed SDKs",
+      "description": "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5657,
+        "npm_weekly_downloads": 1025981
+      }
+    },
     {
       "slug": "openmeter-usage-metering-and-billing-platform",
       "name": "OpenMeter Usage Metering and Billing Platform",
@@ -733,7 +817,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14423
+      }
     },
     {
       "slug": "stagehand-browser-agent-sdk",
@@ -745,7 +832,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21945
+      }
     },
     {
       "slug": "browser-use-agentic-browser-control",
@@ -757,7 +847,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 86847
+      }
     },
     {
       "slug": "tesseract-ocr-engine-for-image-to-text-workflows",
@@ -769,7 +862,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 73398
+      }
     },
     {
       "slug": "docling-document-parsing-and-conversion-toolkit",
@@ -781,7 +877,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 57445
+      }
     },
     {
       "slug": "crawlee-web-crawling-and-scraping-sdk",
@@ -793,7 +892,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22700
+      }
     },
     {
       "slug": "crawl4ai-open-source-web-crawling-and-markdown-extraction",
@@ -805,7 +907,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 63670
+      }
     },
     {
       "slug": "docling-document-conversion-and-extraction-toolkit",
@@ -817,7 +922,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 57445
+      }
     },
     {
       "slug": "wp-cli-wordpress-command-line-interface",
@@ -829,7 +937,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5055
+      }
     },
     {
       "slug": "metabase-open-source-business-intelligence-and-embedded-analytics",
@@ -841,7 +952,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 46809
+      }
     },
     {
       "slug": "checkly-cli-monitoring-as-code-for-api-and-browser-checks",
@@ -853,7 +967,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 92
+      }
     },
     {
       "slug": "uptime-kuma-self-hosted-uptime-monitoring-platform",
@@ -865,7 +982,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 85052
+      }
     },
     {
       "slug": "agentql-natural-language-web-query-sdk-extraction-automation",
@@ -926,7 +1046,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1688
+      }
     },
     {
       "slug": "workos-authkit-nextjs-authentication-toolkit",
@@ -938,7 +1061,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 145
+      }
     },
     {
       "slug": "better-auth-authentication-framework-typescript-applications",
@@ -950,7 +1076,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 27721
+      }
     },
     {
       "slug": "langsmith-sdk-for-llm-tracing-and-evaluation",
@@ -962,7 +1091,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 840
+      }
     },
     {
       "slug": "pipedream-api-workflow-automation-platform",
@@ -974,7 +1106,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11225
+      }
     },
     {
       "slug": "ocrmypdf-searchable-pdf-ocr-pipeline",
@@ -986,7 +1121,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33173
+      }
     },
     {
       "slug": "renovate-automated-dependency-update-bot-and-cli",
@@ -998,7 +1136,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21253
+      }
     },
     {
       "slug": "lightning-css-high-performance-css-parser-transformer-and-minifier",
@@ -1010,7 +1151,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7501
+      }
     },
     {
       "slug": "postmarkjs-email-delivery-api-transactional-messaging",
@@ -1022,7 +1166,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 357
+      }
     },
     {
       "slug": "cronitor-cli-cron-monitoring-job-telemetry",
@@ -1034,7 +1181,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 396
+      }
     },
     {
       "slug": "hookdeck-cli-webhook-development-event-debugging",
@@ -1046,7 +1196,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 353
+      }
     },
     {
       "slug": "bright-data-web-mcp-live-web-access-scraping-tools",
@@ -1073,7 +1226,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11153
+      }
     },
     {
       "slug": "chrome-devtools-mcp-browser-debugging-performance-analysis",
@@ -1085,7 +1241,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33876
+      }
     },
     {
       "slug": "mailchimp-marketing-api-nodejs-sdk",
@@ -1097,7 +1256,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 165
+      }
     },
     {
       "slug": "webflow-data-api-javascript-sdk",
@@ -1109,7 +1271,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 338
+      }
     },
     {
       "slug": "statamic-laravel-git-powered-cms",
@@ -1121,7 +1286,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4777
+      }
     },
     {
       "slug": "linkup-js-sdk-sourced-web-search-fetch",
@@ -1133,7 +1301,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4
+      }
     },
     {
       "slug": "exa-js-web-search-sdk-ai-applications",
@@ -1145,7 +1316,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 125
+      }
     },
     {
       "slug": "headstartwp-headless-wordpress-nextjs-framework",
@@ -1157,7 +1331,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 198
+      }
     },
     {
       "slug": "remotion-react-video-generation-rendering-framework",
@@ -1169,7 +1346,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 42468
+      }
     },
     {
       "slug": "scrapy-python-web-crawling-structured-data-extraction-framework",
@@ -1181,7 +1361,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 61251
+      }
     },
     {
       "slug": "cypress-end-to-end-component-testing-framework",
@@ -1193,7 +1376,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 49607
+      }
     },
     {
       "slug": "ai-engine-wordpress-mcp-server-and-ai-automation",
@@ -1205,7 +1391,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 37
+      }
     },
     {
       "slug": "moonshine-voice-on-device-speech-recognition-and-voice-commands",
@@ -1217,7 +1406,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7663
+      }
     },
     {
       "slug": "netdata-real-time-infrastructure-monitoring-and-alerting",

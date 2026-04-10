@@ -68,6 +68,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 552 | — |
+| [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
+| [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | — | — |
@@ -84,7 +86,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
-| [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | — | — |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | — | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | — | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | — | — |
@@ -116,7 +117,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | — | — |
-| [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | — | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |

@@ -11,11 +11,11 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.2k |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | ⭐ 45.2k |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | ⭐ 44.3k |
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⭐ 42.5k |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | ⭐ 33.8k |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⭐ 31.8k |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 22.4k |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | ⭐ 22.4k |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⭐ 17k |
 
 ---
 
@@ -37,6 +37,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | 45.2k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.2k | — |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.5k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 27.1M/wk |
@@ -94,7 +95,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | — | — |
-| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | — | — |
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |

@@ -6,6 +6,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
+| [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.1k |
@@ -15,7 +16,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | ⭐ 20.4k |
-| [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | ⭐ 18.5k |
 
 ---
 
@@ -36,6 +36,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.1k | — |
@@ -56,12 +57,15 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
+| [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 840 | — |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.6M/wk |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 626 | 41.7k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.3M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
+| [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 396 | — |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
+| [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | — |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 206.8k/wk |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 7.9k/wk |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | — | — |
@@ -69,13 +73,11 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Chartbrew Open Source Reporting Platform for API and Database Dashboards](../../skills/chartbrew-open-source-reporting-dashboard-platform/) | — | — |
-| [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | — | — |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | — | — |
-| [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | — | — |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | — | — |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | — | — |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | — | — |
@@ -113,7 +115,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
-| [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | — | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | — | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
@@ -147,7 +148,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | — | — |
-| [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | — | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | — | — |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | — | — |
 | [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | — | — |

@@ -73,6 +73,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | — | — |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | — | — |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | — | — |
+| [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | — | — |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |

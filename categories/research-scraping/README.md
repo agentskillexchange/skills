@@ -8,14 +8,14 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⭐ 102.6k |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | ⭐ 76.2k |
+| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | ⭐ 63.7k |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⭐ 63.1k |
+| [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | ⭐ 61.3k |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⭐ 34.1k |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⭐ 30.9k |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | ⭐ 24.5k |
+| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⭐ 22.7k |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | ⭐ 22.7k |
-| [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⭐ 22.6k |
-| [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | ⭐ 19.3k |
-| [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | ⭐ 17.2k |
 
 ---
 
@@ -37,10 +37,13 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|---:|
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | — |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | 76.2k | — |
+| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | 63.7k | — |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | 63.1k | — |
+| [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | 61.3k | — |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
+| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.7k | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 74.3k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
@@ -63,6 +66,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
+| [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 125 | — |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | — | — |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | — | — |
@@ -78,13 +82,10 @@ Web research, data collection, content aggregation, and information gathering.
 | [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
 | [Crawl4AI LLM-Friendly Web Crawler](../../skills/crawl4ai-llm-friendly-web-crawler/) | — | — |
-| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | — | — |
 | [Crawlee Smart Crawler Agent](../../skills/crawlee-smart-crawler-agent/) | — | — |
-| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
-| [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | — | — |
 | [Firecrawl Web Data API for AI Agents](../../skills/firecrawl-web-data-api-for-ai-agents/) | — | — |
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | — | — |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
@@ -107,7 +108,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | — | — |
 | [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | — | — |
 | [Scrapy Pipeline Manager](../../skills/scrapy-pipeline-manager/) | — | — |
-| [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | — | — |
 | [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | — | — |
 | [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | — | — |
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | — | — |

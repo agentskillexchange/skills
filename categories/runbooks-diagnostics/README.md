@@ -49,6 +49,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | — | — |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | — | — |
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | — | — |
 | [Docker Compose Health Checker](../../skills/docker-compose-health-checker/) | — | — |
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor/) | — | — |
 | [Docker Container Health Check Runbook](../../skills/docker-container-health-check-runbook/) | — | — |
@@ -118,6 +119,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | — | — |
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | — | — |
 | [Queue Backup Runbook](../../skills/queue-backup-runbook/) | — | — |
+| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | — | — |
 | [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | — | — |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |

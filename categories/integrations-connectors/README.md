@@ -56,6 +56,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Formbricks Open-Source Survey Platform](../../skills/formbricks-open-source-survey-platform/) | 12k | — |
 | [Logto Open Source Authentication and Authorization Infrastructure](../../skills/logto-open-source-auth-infrastructure/) | 11.9k | — |
 | [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](../../skills/webhook-http-endpoint-server-shell-commands/) | 11.7k | — |
+| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | 11.2k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 14.8k/wk |
@@ -86,6 +87,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | 829.4k/wk |
+| [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | — | — |
@@ -97,13 +99,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | — | — |
 | [Gitea Repository &#038; Pull Request Automation](../../skills/gitea-repository-pull-request-automation/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
-| [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
-| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | — | — |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | — | — |

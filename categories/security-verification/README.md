@@ -8,6 +8,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⭐ 27.7k |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | ⭐ 27.7k |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | ⭐ 25.7k |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | ⭐ 25.6k |
@@ -15,7 +16,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | ⭐ 21.8k |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | ⭐ 21.3k |
-| [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | ⭐ 15k |
 
 ---
 
@@ -25,6 +25,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.7k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
@@ -53,21 +54,21 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
+| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 887 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 145 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
-| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
-| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
@@ -144,7 +145,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
-| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
 
 ---

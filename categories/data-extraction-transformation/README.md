@@ -12,10 +12,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
+| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | ⭐ 57.4k |
+| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | ⭐ 57.4k |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⭐ 56.9k |
-| [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | ⭐ 37.9k |
-| [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | ⭐ 37.1k |
-| [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | ⭐ 35k |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⭐ 46.8k |
 
 ---
 
@@ -38,7 +38,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
+| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | 57.4k | — |
+| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.4k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
@@ -51,6 +54,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.3k | — |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 15.1k | — |
+| [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | 14.4k | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | 14.4k | — |
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](../../skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | 14.3k | — |
@@ -116,9 +120,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | — | — |
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | — | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | — | — |
-| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | — | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | — | — |
-| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | — | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | — | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |
@@ -129,7 +131,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | — | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | — | — |
 | [Pandas DataFrame Schema Enforcer](../../skills/pandas-dataframe-schema-enforcer/) | — | — |
@@ -159,7 +160,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | — | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
-| [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | — | — |
 | [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | — | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |

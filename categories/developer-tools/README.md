@@ -193,6 +193,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | 6.1k | — |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | — |
+| [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1M/wk |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |

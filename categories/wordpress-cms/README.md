@@ -56,8 +56,10 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | 9.5k | — |
 | [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | 6.5k | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 403.2k/wk |
+| [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | 5.1k | — |
 | [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
+| [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | 4.8k | — |
 | [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | 3.8k | — |
 | [WPGraphQL GraphQL API for WordPress](../../skills/wpgraphql-graphql-api-wordpress/) | 3.8k | — |
 | [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | 3.5k | — |
@@ -74,15 +76,17 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Meta Box WordPress Custom Fields and Meta Boxes Framework](../../skills/meta-box-wordpress-custom-fields-framework/) | 1.2k | — |
 | [WordPress MCP Adapter Model Context Protocol Bridge](../../skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | 792 | — |
 | [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | 634 | — |
+| [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 338 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 655.1k/wk |
+| [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | — |
+| [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.8k/wk |
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
 | [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | — | — |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
-| [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | — | — |
 | [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | — | — |
 | [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
@@ -96,15 +100,12 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | — | — |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
-| [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | — | — |
 | [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
 | [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
-| [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | — | — |
-| [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
@@ -124,7 +125,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
-| [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | — | — |
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | — | — |
 | [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | — | — |
 | [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | — | — |

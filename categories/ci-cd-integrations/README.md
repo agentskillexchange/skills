@@ -8,6 +8,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
+| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⭐ 21.3k |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
@@ -32,6 +33,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
+| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.8k/wk |
@@ -156,7 +158,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
-| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | — | — |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | — | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | — | — |

@@ -44,9 +44,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 9.8k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
+| [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 3.7M/wk |
+| [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
@@ -73,8 +75,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
-| [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | — | — |
-| [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |

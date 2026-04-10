@@ -10,12 +10,12 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
+| [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | ⭐ 73.4k |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 58.6k |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 58.5k |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.3k |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 45k |
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⭐ 41.5k |
 
 ---
 
@@ -35,6 +35,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 97.2k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
+| [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | 58.6k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
@@ -42,6 +43,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 492.2k/wk |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
+| [OCRmyPDF Searchable PDF OCR Pipeline](../../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | 33.2k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
 | [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | 24.1k | — |
@@ -61,6 +63,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 9.6k | — |
 | [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | 8.6k | — |
 | [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | 8.3k | — |
+| [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | 7.7k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | 6k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
@@ -96,9 +99,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
-| [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | — | — |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | — | — |
-| [OCRmyPDF Searchable PDF OCR Pipeline](../../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | — | — |
@@ -106,7 +107,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
 | [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | — | — |
-| [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
