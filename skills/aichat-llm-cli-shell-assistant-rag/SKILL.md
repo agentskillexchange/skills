@@ -1,17 +1,19 @@
 ---
-name: "AIChat All-in-One LLM CLI with Shell Assistant and RAG"
-description: "AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider support into a single binary. It connects to 20+ LLM providers including OpenAI, Claude, Gemini, and Ollama."
+name: AIChat All-in-One LLM CLI with Shell Assistant and RAG
+description: AIChat is a comprehensive LLM command-line tool written in Rust that
+  combines chat-REPL, shell command generation, RAG, AI tools, and multi-provider
+  support into a single binary. It connects to 20+ LLM providers including OpenAI,
+  Claude, Gemini, and Ollama.
 verification: security_reviewed
-source: "https://github.com/sigoden/aichat"
+source: https://github.com/sigoden/aichat
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "sigoden/aichat"
+  github_repo: sigoden/aichat
   github_stars: 9754
 ---
-
 # AIChat All-in-One LLM CLI with Shell Assistant and RAG
 
 AIChat is an all-in-one LLM CLI tool built in Rust by sigoden, with nearly 10,000 GitHub stars. It provides shell assistance, an interactive chat REPL, retrieval-augmented generation (RAG), AI tool calling, and agent capabilities through a fast, single-binary application that integrates with over 20 LLM providers.

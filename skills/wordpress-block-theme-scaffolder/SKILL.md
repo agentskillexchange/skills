@@ -1,14 +1,16 @@
 ---
-name: "WordPress Block Theme Scaffolder"
-description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
+name: WordPress Block Theme Scaffolder
+description: Generates complete WordPress block theme structures using theme.json
+  v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready
+  themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets
+  integration.
 verification: security_reviewed
-source: "https://developer.wordpress.org/block-editor/"
+source: https://developer.wordpress.org/block-editor/
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # WordPress Block Theme Scaffolder
 
 WordPress Block Theme Scaffolder automates the creation of Full Site Editing themes by generating the complete directory structure: templates, parts, patterns, and a fully configured theme.json v3 manifest. It produces valid theme.json with typography, color palette, spacing, and layout settings following WordPress core specifications.

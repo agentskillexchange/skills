@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Pipeline DSL Generator"
-description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
+name: Jenkins Pipeline DSL Generator
+description: Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins
+  REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages,
+  shared libraries, and credential binding.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/"
+source: https://agentskillexchange.com/skills/jenkins-pipeline-dsl-generator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Jenkins Pipeline DSL Generator
 
 The Jenkins Pipeline DSL Generator skill automates the creation of Jenkins pipeline configurations in both Declarative and Scripted Pipeline syntax. It communicates with Jenkins instances via the Jenkins REST API to discover available plugins, credentials, and agent labels.

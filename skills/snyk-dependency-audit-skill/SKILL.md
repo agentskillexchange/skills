@@ -1,14 +1,15 @@
 ---
-name: "Snyk Dependency Audit Skill"
-description: "Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format."
+name: Snyk Dependency Audit Skill
+description: Uses the Snyk CLI and REST API v1 to scan package manifests for known
+  CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM
+  documents in CycloneDX format.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/snyk-dependency-audit-skill/"
+source: https://agentskillexchange.com/skills/snyk-dependency-audit-skill/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Snyk Dependency Audit Skill
 
 The Snyk Dependency Audit Skill automates software composition analysis by integrating the Snyk CLI (snyk test, snyk monitor) with AI agent pipelines. It parses package-lock.json, requirements.txt, go.sum, and Gemfile.lock to identify transitive dependency chains with known vulnerabilities.

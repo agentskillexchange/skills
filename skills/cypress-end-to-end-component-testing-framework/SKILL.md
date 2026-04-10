@@ -1,17 +1,19 @@
 ---
-name: "Cypress End-to-End and Component Testing Framework"
-description: "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines."
+name: Cypress End-to-End and Component Testing Framework
+description: Cypress is an open-source browser testing framework for end-to-end, component,
+  and accessibility testing in modern web apps. It gives agents and developers a reliable
+  way to run local browser tests, debug failures with rich traces, and plug test execution
+  into CI pipelines.
 verification: security_reviewed
-source: "https://github.com/cypress-io/cypress"
+source: https://github.com/cypress-io/cypress
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "cypress-io/cypress"
+  github_repo: cypress-io/cypress
   github_stars: 49607
 ---
-
 # Cypress End-to-End and Component Testing Framework
 
 Cypress is a browser testing framework from the Cypress team that helps developers and agents test anything that runs in a browser. The project’s official GitHub repository shows active maintenance, a large contributor base, and tens of thousands of stars, while the npm package remains actively released. In practice, Cypress is useful when a skill needs to validate user flows, check regressions after code changes, or run repeatable browser-based quality gates before deployment.

@@ -1,14 +1,16 @@
 ---
-name: "OpenProject Open Source Project Management Platform"
-description: "OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real OpenProject platform, docs, and deployment model for teams that want structured project operations on their own infrastructure."
+name: OpenProject Open Source Project Management Platform
+description: OpenProject is a mature open source project management platform for work
+  packages, roadmaps, timelines, and collaborative planning. This skill helps agents
+  use the real OpenProject platform, docs, and deployment model for teams that want
+  structured project operations on their own infrastructure.
 verification: security_reviewed
-source: "https://github.com/opf/openproject"
+source: https://github.com/opf/openproject
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # OpenProject Open Source Project Management Platform
 
 OpenProject is an established open source project management platform built for teams that need issue tracking, work packages, timelines, agile planning, roadmaps, and collaborative delivery in one place. The upstream project is maintained at github.com/opf/openproject, and official installation and operations documentation is published at openproject.org/docs. That makes it a strong candidate for ASE because agents can anchor their work in a real codebase and a real operating manual instead of describing generic PM ideas.

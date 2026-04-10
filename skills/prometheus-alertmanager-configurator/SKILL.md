@@ -1,14 +1,15 @@
 ---
-name: "Prometheus AlertManager Configurator"
-description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization."
+name: Prometheus AlertManager Configurator
+description: Generates Prometheus AlertManager configurations with routing trees,
+  inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs.
+  Supports template-based notification customization.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/"
+source: https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Prometheus AlertManager Configurator
 
 The Prometheus AlertManager Configurator skill automates the creation of AlertManager configuration files with sophisticated routing and notification setups. It generates routing trees with match and match_re label-based routing, group_by configurations for alert aggregation, and group_wait/group_interval/repeat_interval tuning for notification frequency control.

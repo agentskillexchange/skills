@@ -1,14 +1,15 @@
 ---
-name: "Stable Diffusion ControlNet Compositor"
-description: "Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny, Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports and A1111 API batch processing."
+name: Stable Diffusion ControlNet Compositor
+description: Orchestrates Stable Diffusion XL with ControlNet preprocessors (Canny,
+  Depth, OpenPose) for guided image generation. Manages ComfyUI workflow JSON exports
+  and A1111 API batch processing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/"
+source: https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Stable Diffusion ControlNet Compositor
 
 The Stable Diffusion ControlNet Compositor automates guided image generation using SDXL and ControlNet adapters through both the Automatic1111 REST API and ComfyUI workflow engine. It manages multi-ControlNet conditioning by stacking Canny edge detection, MiDaS depth estimation, and OpenPose skeleton extraction for precise compositional control.

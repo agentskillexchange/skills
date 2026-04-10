@@ -1,20 +1,19 @@
 ---
-name: "Slack MCP Server"
-description: "Agent access to Slack conversations and workspace workflows."
+name: Slack MCP Server
+description: Agent access to Slack conversations and workspace workflows.
 verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
+source: https://github.com/modelcontextprotocol/servers
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+- Claude Code
+- Cursor
+- MCP
+- OpenClaw
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 83288
 ---
-
 # Slack MCP Server
 
 Slack MCP Server is built around Slack messaging and workspace APIs. The underlying ecosystem is represented by slackapi/bolt-js (2,900+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like conversations.history, chat.postMessage, users.info, block kit, files and preserving the operational context that matters for real tasks.

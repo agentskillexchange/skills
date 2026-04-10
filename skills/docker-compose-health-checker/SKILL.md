@@ -1,14 +1,15 @@
 ---
-name: "Docker Compose Health Checker"
-description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
+name: Docker Compose Health Checker
+description: Validates docker-compose.yml files against the Compose Specification,
+  checks image vulnerability status via Docker Scout API, and verifies healthcheck
+  configurations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docker-compose-health-checker/"
+source: https://agentskillexchange.com/skills/docker-compose-health-checker/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Docker Compose Health Checker
 
 The Docker Compose Health Checker agent validates Docker Compose configurations for correctness, security, and operational readiness. It parses docker-compose.yml files against the official Compose Specification to detect configuration errors before deployment.

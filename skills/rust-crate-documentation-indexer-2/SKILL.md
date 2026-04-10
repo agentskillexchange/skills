@@ -1,14 +1,15 @@
 ---
-name: "Rust Crate Documentation Indexer"
-description: "Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations for searchable API reference."
+name: Rust Crate Documentation Indexer
+description: Indexes Rust crate documentation from docs.rs using rustdoc JSON output
+  and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations
+  for searchable API reference.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/"
+source: https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Rust Crate Documentation Indexer
 
 The Rust Crate Documentation Indexer skill creates searchable API reference indices from Rust crate documentation. It processes rustdoc JSON output format (-output-format json) for structured documentation extraction, uses cargo-doc for local documentation generation, and queries the docs.rs API for published crate documentation retrieval.

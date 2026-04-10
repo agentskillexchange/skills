@@ -1,14 +1,16 @@
 ---
-name: "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing"
-description: "ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless flexibility for developers. It is a strong fit when teams want live-page editing, MongoDB-backed content models, and a documented REST API for custom frontends."
+name: ApostropheCMS Full-Stack Node.js CMS with In-Context Editing
+description: ApostropheCMS is a full-stack Node.js CMS that combines in-context editing
+  for content teams with headless flexibility for developers. It is a strong fit when
+  teams want live-page editing, MongoDB-backed content models, and a documented REST
+  API for custom frontends.
 verification: security_reviewed
-source: "https://github.com/apostrophecms/apostrophe"
+source: https://github.com/apostrophecms/apostrophe
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # ApostropheCMS Full-Stack Node.js CMS with In-Context Editing
 
 ApostropheCMS is an open source content management framework maintained by the ApostropheCMS organization. Its distinctive angle is in-context editing: content teams can edit directly on live pages while developers still get a modern JavaScript stack and optional headless delivery. That combination gives it a different job-to-be-done than a basic API-first CMS. It is meant for teams that want editorial speed without abandoning custom frontend work.

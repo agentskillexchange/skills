@@ -1,17 +1,20 @@
 ---
-name: "Vale Prose Linter for Technical Documentation"
-description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
+name: Vale Prose Linter for Technical Documentation
+description: Vale is an open-source, markup-aware prose linter that enforces editorial
+  style guides on technical documentation. This skill enables agents to run Vale against
+  Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology
+  issues.
 verification: security_reviewed
-source: "https://github.com/vale-cli/vale"
+source: https://github.com/vale-cli/vale
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "vale-cli/vale"
+  github_repo: vale-cli/vale
   github_stars: 5316
+  license: MIT
 ---
-
 # Vale Prose Linter for Technical Documentation
 
 Vale is a command-line prose linter written in Go that brings code-style linting to written content. Unlike generic grammar checkers, Vale understands markup formats like Markdown, AsciiDoc, reStructuredText, HTML, and XML, allowing it to intelligently skip code blocks, front matter, and syntax elements while checking only the prose sections of documents.

@@ -1,14 +1,15 @@
 ---
-name: "GitLab CI Pipeline Validator"
-description: "Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit."
+name: GitLab CI Pipeline Validator
+description: Validates .gitlab-ci.yml files against GitLab CI/CD schema using the
+  gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths,
+  and misconfigured rules before commit.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/"
+source: https://agentskillexchange.com/skills/gitlab-ci-pipeline-validator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # GitLab CI Pipeline Validator
 
 The GitLab CI Pipeline Validator skill provides comprehensive validation of .gitlab-ci.yml configuration files before they reach your CI/CD pipeline. It leverages the GitLab CI Lint API (/api/v4/ci/lint) to perform server-side validation, catching syntax errors, undefined stage references, and circular dependencies that would otherwise cause pipeline failures.

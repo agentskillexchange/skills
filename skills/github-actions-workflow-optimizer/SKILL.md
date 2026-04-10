@@ -1,14 +1,15 @@
 ---
-name: "GitHub Actions Workflow Optimizer"
-description: "Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache toolkit to benchmark and improve pipeline performance."
+name: GitHub Actions Workflow Optimizer
+description: Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize
+  caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and
+  actions/cache toolkit to benchmark and improve pipeline performance.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-workflow-optimizer/"
+source: https://agentskillexchange.com/skills/github-actions-workflow-optimizer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # GitHub Actions Workflow Optimizer
 
 The GitHub Actions Workflow Optimizer agent analyzes your CI/CD workflows defined in GitHub Actions YAML files to identify performance bottlenecks and optimization opportunities. It leverages the GitHub Actions REST API to fetch workflow run history, job durations, and cache hit rates, providing actionable recommendations to reduce build times and CI minutes consumption.

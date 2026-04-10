@@ -1,14 +1,15 @@
 ---
-name: "GitHub Actions Matrix Builder"
-description: "Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets, and dependency variations from repository configuration files."
+name: GitHub Actions Matrix Builder
+description: Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub
+  REST API and YAML AST parsing via js-yaml. Automatically detects language versions,
+  OS targets, and dependency variations from repository configuration files.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-matrix-builder-13/"
+source: https://agentskillexchange.com/skills/github-actions-matrix-builder-13/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # GitHub Actions Matrix Builder
 
 The GitHub Actions Matrix Builder skill automates the creation of complex CI/CD matrix configurations for GitHub Actions workflows. It leverages the GitHub REST API to analyze repository structure, detecting package.json, setup.py, Gemfile, and other dependency manifests to determine which language versions and operating systems should be included in the test matrix.

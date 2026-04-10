@@ -1,17 +1,19 @@
 ---
-name: "franc Natural Language Detection Library and CLI"
-description: "franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and returns ISO 639-3 codes, making it the most comprehensive open-source language detection tool available for Node.js."
+name: franc Natural Language Detection Library and CLI
+description: franc is a JavaScript library and CLI tool for detecting the language
+  of text. It supports up to 419 languages and returns ISO 639-3 codes, making it
+  the most comprehensive open-source language detection tool available for Node.js.
 verification: security_reviewed
-source: "https://github.com/wooorm/franc"
+source: https://github.com/wooorm/franc
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "wooorm/franc"
+  github_repo: wooorm/franc
   github_stars: 4386
+  license: MIT
 ---
-
 # franc Natural Language Detection Library and CLI
 
 franc is an open-source natural language detection library for JavaScript, available as both an npm package and a CLI tool. It analyzes text input and returns the most likely language as an ISO 639-3 three-letter code. franc supports more languages than any comparable library, with packages available for 82, 187, or all 419 detectable languages depending on the precision needed.

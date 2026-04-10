@@ -1,14 +1,15 @@
 ---
-name: "AWS CloudFormation Drift Detector"
-description: "Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance."
+name: AWS CloudFormation Drift Detector
+description: Monitors AWS CloudFormation stacks for configuration drift using the
+  AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation
+  templates and integrates with AWS Config rules for continuous compliance.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/"
+source: https://agentskillexchange.com/skills/aws-cloudformation-drift-detector-4/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # AWS CloudFormation Drift Detector
 
 The AWS CloudFormation Drift Detector automates infrastructure compliance monitoring by continuously checking CloudFormation stacks for configuration drift. It uses the AWS SDK CloudFormation client to call DetectStackDrift, polls drift detection status, and retrieves detailed results via DescribeStackResourceDrifts for each stack resource.

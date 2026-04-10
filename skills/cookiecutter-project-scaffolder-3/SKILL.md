@@ -1,14 +1,15 @@
 ---
-name: "Cookiecutter Project Scaffolder"
-description: "Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation with JSON Schema."
+name: Cookiecutter Project Scaffolder
+description: Scaffolds project templates using the Cookiecutter engine with Jinja2
+  templating and pre/post generation hooks. Supports conditional file inclusion, directory
+  renaming, and cookiecutter.json variable validation with JSON Schema.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/"
+source: https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Cookiecutter Project Scaffolder
 
 The Cookiecutter Project Scaffolder skill automates project template generation using the Cookiecutter engine with its Jinja2 templating system. It creates and manages template repositories with cookiecutter.json configuration files that define project variables, defaults, and choice prompts.

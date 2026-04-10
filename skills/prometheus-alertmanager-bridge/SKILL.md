@@ -1,14 +1,15 @@
 ---
-name: "Prometheus AlertManager Bridge"
-description: "Connects to Prometheus AlertManager API to query active alerts, silences, and alert groups. Parses PromQL alert rules and suggests runbook actions. Integrates with PagerDuty escalation policies."
+name: Prometheus AlertManager Bridge
+description: Connects to Prometheus AlertManager API to query active alerts, silences,
+  and alert groups. Parses PromQL alert rules and suggests runbook actions. Integrates
+  with PagerDuty escalation policies.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/"
+source: https://agentskillexchange.com/skills/prometheus-alertmanager-bridge/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Prometheus AlertManager Bridge
 
 The Prometheus AlertManager Bridge skill gives Claude direct access to your Prometheus AlertManager instance through its REST API (v2). It queries active alerts, manages silences, and retrieves alert group information for incident triage workflows.

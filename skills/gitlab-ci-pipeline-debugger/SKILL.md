@@ -1,14 +1,15 @@
 ---
-name: "GitLab CI Pipeline Debugger"
-description: "Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes."
+name: GitLab CI Pipeline Debugger
+description: Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching
+  job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency
+  issues, and suggests targeted fixes.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/"
+source: https://agentskillexchange.com/skills/gitlab-ci-pipeline-debugger/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # GitLab CI Pipeline Debugger
 
 The GitLab CI Pipeline Debugger agent provides intelligent troubleshooting for failed GitLab CI/CD pipelines. It connects to your GitLab instance via the REST API v4, fetching pipeline details, job logs, and runner configurations to diagnose build failures quickly and accurately.

@@ -1,17 +1,19 @@
 ---
-name: "n8n-nodes-mcp Community Node for Model Context Protocol Workflows"
-description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package, configuring MCP transports inside n8n, and using the node in automation workflows that need external tools and structured context exchange."
+name: n8n-nodes-mcp Community Node for Model Context Protocol Workflows
+description: n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n
+  instances connect to Model Context Protocol servers. This skill covers installing
+  the package, configuring MCP transports inside n8n, and using the node in automation
+  workflows that need external tools and structured context exchange.
 verification: security_reviewed
-source: "https://github.com/nerding-io/n8n-nodes-mcp"
+source: https://github.com/nerding-io/n8n-nodes-mcp
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "nerding-io/n8n-nodes-mcp"
+  github_repo: nerding-io/n8n-nodes-mcp
   github_stars: 3003
 ---
-
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows
 
 n8n-nodes-mcp is a community package published to npm and maintained by nerding.io. It extends self-hosted n8n with nodes for connecting to Model Context Protocol servers, making it useful for automations that need to call MCP tools from inside a workflow graph. The project has an active GitHub repository, a public npm package, and clear relevance for users combining workflow automation with MCP-compatible services.

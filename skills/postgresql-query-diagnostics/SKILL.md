@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Query Diagnostics"
-description: "Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and pg_stat_user_tables for index recommendation."
+name: PostgreSQL Query Diagnostics
+description: Diagnoses slow PostgreSQL queries using pg_stat_statements, pg_stat_activity,
+  and EXPLAIN ANALYZE output parsing. Integrates with the pgBadger log analyzer and
+  pg_stat_user_tables for index recommendation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-query-diagnostics/"
+source: https://agentskillexchange.com/skills/postgresql-query-diagnostics/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # PostgreSQL Query Diagnostics
 
 The PostgreSQL Query Diagnostics skill automates database performance troubleshooting by querying PostgreSQL system catalogs and statistics views. It leverages pg_stat_statements to identify the most resource-intensive queries by total execution time, calls, and block I/O, and cross-references with pg_stat_activity to detect long-running or blocked sessions.

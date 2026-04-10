@@ -1,14 +1,15 @@
 ---
-name: "SendGrid Transactional Email Builder"
-description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
+name: SendGrid Transactional Email Builder
+description: Constructs and sends transactional emails using the SendGrid v3 Mail
+  Send API. Builds dynamic templates with Handlebars substitutions, manages suppression
+  groups, and tracks delivery via Event Webhook parsing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/"
+source: https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 ---
-
 # SendGrid Transactional Email Builder
 
 The SendGrid Transactional Email Builder creates and manages transactional email workflows using SendGrid's v3 Mail Send API. It constructs emails with dynamic template data using Handlebars syntax for personalization, handles recipient management, and provides delivery tracking.

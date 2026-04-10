@@ -1,17 +1,20 @@
 ---
-name: "Dagger Programmable CI/CD Automation Engine"
-description: "Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell scripts and proprietary YAML with real code using SDKs in Go, Python, TypeScript, and 5 other languages, with built-in caching and OpenTelemetry tracing."
+name: Dagger Programmable CI/CD Automation Engine
+description: Dagger is an open-source automation engine for building, testing, and
+  shipping any codebase. It replaces shell scripts and proprietary YAML with real
+  code using SDKs in Go, Python, TypeScript, and 5 other languages, with built-in
+  caching and OpenTelemetry tracing.
 verification: security_reviewed
-source: "https://github.com/dagger/dagger"
+source: https://github.com/dagger/dagger
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dagger/dagger"
+  github_repo: dagger/dagger
   github_stars: 15582
+  license: Apache-2.0
 ---
-
 # Dagger Programmable CI/CD Automation Engine
 
 Dagger is a modern, open-source platform for automating software delivery pipelines. Created by Solomon Hykes (the creator of Docker), Dagger replaces fragile shell scripts and vendor-specific CI/CD YAML with real, type-safe code that runs identically on your laptop, in your CI server, or directly in the cloud.

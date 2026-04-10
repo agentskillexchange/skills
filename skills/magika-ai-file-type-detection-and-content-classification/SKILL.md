@@ -1,17 +1,20 @@
 ---
-name: "Magika AI File Type Detection and Content Classification"
-description: "Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers."
+name: Magika AI File Type Detection and Content Classification
+description: Magika is Google&#8217;s AI-powered file type detector for fast, content-based
+  identification of binary and text files. It is useful when an agent needs safer
+  routing, validation, triage, or downstream policy decisions based on the real file
+  contents instead of just filenames or MIME headers.
 verification: security_reviewed
-source: "https://github.com/google/magika"
+source: https://github.com/google/magika
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "google/magika"
+  github_repo: google/magika
   github_stars: 10199
+  license: Apache-2.0
 ---
-
 # Magika AI File Type Detection and Content Classification
 
 Magika is an open-source file identification system from Google that uses a compact machine learning model to classify files from their actual contents. Instead of trusting extensions or weak MIME guesses, Magika analyzes the bytes in a file and predicts a concrete content type, with configurable confidence thresholds and fallbacks for uncertain cases. The project ships with a command-line interface, a Python package, JavaScript support, and a documented website that explains core concepts and operating modes.

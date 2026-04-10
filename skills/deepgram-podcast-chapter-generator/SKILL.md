@@ -1,14 +1,16 @@
 ---
-name: "Deepgram Podcast Chapter Generator"
-description: "Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize features, then clusters returned timestamps into logical chapters using a sliding-window topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry."
+name: Deepgram Podcast Chapter Generator
+description: Submits podcast MP3 URLs to Deepgram Nova-2 with paragraph and summarize
+  features, then clusters returned timestamps into logical chapters using a sliding-window
+  topic boundary algorithm. Outputs YouTube-compatible chapter timestamps and an RSS-ready
+  podcast:chapters JSON feed. Optionally posts chapters as a Notion database entry.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/"
+source: https://agentskillexchange.com/skills/deepgram-podcast-chapter-generator/
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Deepgram Podcast Chapter Generator
 
 Deepgram Podcast Chapter Generator is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational context that matters for real tasks.

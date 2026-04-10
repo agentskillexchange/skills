@@ -1,14 +1,16 @@
 ---
-name: "Scalar OpenAPI Reference and API Client Platform"
-description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
+name: Scalar OpenAPI Reference and API Client Platform
+description: Scalar is an open-source API platform for publishing modern OpenAPI references
+  and testing endpoints with a built-in API client. It fits agent workflows that need
+  readable API docs, interactive request testing, and framework-friendly integrations
+  across many stacks.
 verification: security_reviewed
-source: "https://github.com/scalar/scalar"
+source: https://github.com/scalar/scalar
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Scalar OpenAPI Reference and API Client Platform
 
 Scalar is an open-source API platform built around OpenAPI and Swagger documents. It gives teams a modern API reference UI, an offline-first API client, and a registry-style workflow for managing machine-readable specs. For agent builders and developers, the main job-to-be-done is straightforward: turn an OpenAPI document into a reference that humans can read, explore, and test without sending people into a cluttered legacy docs interface.

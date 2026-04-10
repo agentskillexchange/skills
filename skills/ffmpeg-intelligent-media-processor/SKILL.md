@@ -1,14 +1,15 @@
 ---
-name: "FFmpeg Intelligent Media Processor"
-description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
+name: FFmpeg Intelligent Media Processor
+description: Orchestrates complex video and audio processing pipelines using FFmpeg
+  and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail
+  generation, HLS packaging, and loudness normalization per EBU R128.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/"
+source: https://agentskillexchange.com/skills/ffmpeg-intelligent-media-processor/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # FFmpeg Intelligent Media Processor
 
 FFmpeg Intelligent Media Processor is built around FFmpeg media processing toolkit. The underlying ecosystem is represented by FFmpeg/FFmpeg (58,257+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ffmpeg filters, ffprobe metadata, codecs, transcodes, frame extraction, packaging and preserving the operational context that matters for real tasks.

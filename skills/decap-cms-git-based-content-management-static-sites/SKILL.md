@@ -1,19 +1,21 @@
 ---
-name: "Decap CMS Git-Based Content Management for Static Sites"
-description: "An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for static site generators. Provides a visual editing interface backed by Git commits, enabling content workflows for Hugo, Jekyll, Gatsby, Next.js, and other Jamstack frameworks."
+name: Decap CMS Git-Based Content Management for Static Sites
+description: An agent skill built on Decap CMS (formerly Netlify CMS), the open-source
+  Git-based content management system for static site generators. Provides a visual
+  editing interface backed by Git commits, enabling content workflows for Hugo, Jekyll,
+  Gatsby, Next.js, and other Jamstack frameworks.
 verification: security_reviewed
-source: "https://github.com/decaporg/decap-cms"
+source: https://github.com/decaporg/decap-cms
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "decaporg/decap-cms"
+  github_repo: decaporg/decap-cms
   github_stars: 18998
-  ase_npm_package: "decap-cms"
+  ase_npm_package: decap-cms
   npm_weekly_downloads: 1853
 ---
-
 # Decap CMS Git-Based Content Management for Static Sites
 
 Decap CMS is an open-source content management system that stores content as files in a Git repository rather than a traditional database. Originally created as Netlify CMS, it was rebranded to Decap CMS to reflect its vendor-neutral nature. This skill enables agents to manage content creation, editing, and publishing workflows through Decap CMS's API and configuration system.

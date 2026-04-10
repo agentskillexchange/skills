@@ -1,14 +1,16 @@
 ---
-name: "Metabase Dashboard Snapshot & Alerting"
-description: "Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments."
+name: Metabase Dashboard Snapshot &amp; Alerting
+description: Uses the Metabase REST API to export question results as CSV and render
+  dashboard PNGs on schedule. Compares key metrics against user-defined thresholds
+  and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance
+  Metabase deployments.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
+source: https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Metabase Dashboard Snapshot & Alerting
 
 Metabase Dashboard Snapshot & Alerting is built around PagerDuty incident response platform. The underlying ecosystem is represented by PagerDuty/pdjs (69+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like incidents, escalation policies, schedules, services, responders, analytics and preserving the operational context that matters for real tasks.

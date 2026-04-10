@@ -1,14 +1,15 @@
 ---
-name: "Ruff Linter Configuration Architect"
-description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
+name: Ruff Linter Configuration Architect
+description: Configures and optimizes Ruff Python linter settings using the ruff CLI
+  and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations
+  with automatic rule mapping.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
+source: https://agentskillexchange.com/skills/ruff-linter-configuration-architect/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Ruff Linter Configuration Architect
 
 The Ruff Linter Configuration Architect automates the setup and optimization of Ruff — the high-performance Python linter and formatter written in Rust. It uses the ruff CLI for analysis and generates comprehensive pyproject.toml configurations.

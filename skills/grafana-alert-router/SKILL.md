@@ -1,14 +1,15 @@
 ---
-name: "Grafana Alert Router"
-description: "Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie channels based on label matching rules. Supports alert grouping and silence management via the Grafana Alerting API."
+name: Grafana Alert Router
+description: Routes Grafana alerting webhook payloads to Slack, PagerDuty, and OpsGenie
+  channels based on label matching rules. Supports alert grouping and silence management
+  via the Grafana Alerting API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/grafana-alert-router/"
+source: https://agentskillexchange.com/skills/grafana-alert-router/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Grafana Alert Router
 
 The Grafana Alert Router skill processes incoming webhook payloads from Grafana Unified Alerting and routes them to the appropriate notification channels based on configurable label matchers. It integrates with Slack (via Block Kit API), PagerDuty (Events API v2), and OpsGenie (Alert API).

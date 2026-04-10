@@ -1,17 +1,18 @@
 ---
-name: "LangSmith SDK for LLM Tracing and Evaluation"
-description: "LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an agent team needs structured observability around prompts, chains, tool calls, datasets, and eval runs across multiple frameworks."
+name: LangSmith SDK for LLM Tracing and Evaluation
+description: LangSmith provides tracing, evaluation, and debugging workflows for LLM
+  applications. This skill is useful when an agent team needs structured observability
+  around prompts, chains, tool calls, datasets, and eval runs across multiple frameworks.
 verification: security_reviewed
-source: "https://github.com/langchain-ai/langsmith-sdk"
+source: https://github.com/langchain-ai/langsmith-sdk
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "langchain-ai/langsmith-sdk"
+  github_repo: langchain-ai/langsmith-sdk
   github_stars: 841
 ---
-
 # LangSmith SDK for LLM Tracing and Evaluation
 
 LangSmith is an observability and evaluation platform for LLM applications, and the official SDK gives developers a concrete way to trace runs, inspect tool usage, manage datasets, and execute evaluations. For ASE, this maps cleanly to a monitoring and diagnostics skill: an agent can help teams instrument their app, connect traces from prompt or tool pipelines, and analyze failure cases with something more systematic than raw logs.

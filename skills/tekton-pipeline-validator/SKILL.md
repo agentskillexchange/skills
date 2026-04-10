@@ -1,14 +1,15 @@
 ---
-name: "Tekton Pipeline Validator"
-description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types."
+name: Tekton Pipeline Validator
+description: Validates Tekton Pipeline YAML manifests against the Tekton Pipelines
+  API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations
+  before deployment. Supports PipelineRun, TaskRun, and Trigger resource types.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-validator/"
+source: https://agentskillexchange.com/skills/tekton-pipeline-validator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Tekton Pipeline Validator
 
 The Tekton Pipeline Validator skill provides comprehensive validation for Tekton CI/CD pipeline definitions before they reach your Kubernetes cluster. It leverages the tkn CLI tool and the Tekton Pipelines admission webhook API to perform deep structural validation on PipelineRun, TaskRun, TriggerTemplate, and TriggerBinding resources.

@@ -1,17 +1,20 @@
 ---
-name: "PocketBase Open Source Realtime Backend in a Single Binary"
-description: "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API."
+name: PocketBase Open Source Realtime Backend in a Single Binary
+description: PocketBase is an open-source Go backend that ships as a single portable
+  executable. It includes an embedded SQLite database with realtime subscriptions,
+  built-in file and user management, a convenient admin dashboard UI, and a simple
+  REST-ish API.
 verification: security_reviewed
-source: "https://github.com/pocketbase/pocketbase"
+source: https://github.com/pocketbase/pocketbase
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "pocketbase/pocketbase"
+  github_repo: pocketbase/pocketbase
   github_stars: 57251
+  license: MIT
 ---
-
 # PocketBase Open Source Realtime Backend in a Single Binary
 
 PocketBase is an open-source backend framework written in Go that packages everything needed for a backend into a single portable executable. It provides an embedded SQLite database with realtime subscriptions, built-in file storage and user management, an admin dashboard UI, and a REST API — all without external dependencies. This makes it ideal for prototyping, small-to-medium applications, and scenarios where deployment simplicity is paramount.

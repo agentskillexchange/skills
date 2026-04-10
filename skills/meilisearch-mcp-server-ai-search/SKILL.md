@@ -1,17 +1,18 @@
 ---
-name: "Meilisearch MCP Server for AI-Powered Search Integration"
-description: "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation."
+name: Meilisearch MCP Server for AI-Powered Search Integration
+description: Official Model Context Protocol server that connects LLMs to Meilisearch
+  for lightning-fast search, index management, and document operations via natural
+  language. Enables AI agents to manage search infrastructure through conversation.
 verification: security_reviewed
-source: "https://github.com/meilisearch/meilisearch-mcp"
+source: https://github.com/meilisearch/meilisearch-mcp
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "meilisearch/meilisearch-mcp"
+  github_repo: meilisearch/meilisearch-mcp
   github_stars: 181
 ---
-
 # Meilisearch MCP Server for AI-Powered Search Integration
 
 The Meilisearch MCP Server is the official Model Context Protocol server published by the Meilisearch team that enables any MCP-compatible client — including Claude, OpenAI agents, and other LLM interfaces — to interact directly with Meilisearch search instances. Built in Python and available on PyPI as meilisearch-mcp, it uses stdio transport to expose the full Meilisearch API surface through natural language conversation.

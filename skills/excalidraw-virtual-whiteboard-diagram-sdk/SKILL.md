@@ -1,17 +1,20 @@
 ---
-name: "Excalidraw Virtual Whiteboard and Diagram SDK"
-description: "Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an infinite canvas, real-time collaboration, end-to-end encryption, and a React component library for embedding in custom applications."
+name: Excalidraw Virtual Whiteboard and Diagram SDK
+description: Excalidraw is an open-source virtual whiteboard for creating hand-drawn
+  style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an
+  infinite canvas, real-time collaboration, end-to-end encryption, and a React component
+  library for embedding in custom applications.
 verification: security_reviewed
-source: "https://github.com/excalidraw/excalidraw"
+source: https://github.com/excalidraw/excalidraw
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "excalidraw/excalidraw"
+  github_repo: excalidraw/excalidraw
   github_stars: 119886
+  license: MIT
 ---
-
 # Excalidraw Virtual Whiteboard and Diagram SDK
 
 Excalidraw is a free and open-source diagramming tool that produces drawings with a distinctive hand-drawn aesthetic. Unlike pixel-perfect diagramming tools, Excalidraw intentionally renders shapes with a sketchy, organic feel that makes diagrams feel approachable and easy to iterate on. The project has become one of the most popular open-source drawing tools with over 103,000 GitHub stars and adoption by companies including Google Cloud, Meta, Notion, and Replit.

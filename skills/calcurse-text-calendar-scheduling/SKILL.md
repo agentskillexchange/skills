@@ -1,17 +1,19 @@
 ---
-name: "calcurse Text-Based Calendar and Scheduling Application"
-description: "calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events, appointments, and everyday tasks with a curses-based TUI, configurable notifications, and CalDAV synchronization support."
+name: calcurse Text-Based Calendar and Scheduling Application
+description: calcurse is a text-based calendar and scheduling application for the
+  command line. It helps keep track of events, appointments, and everyday tasks with
+  a curses-based TUI, configurable notifications, and CalDAV synchronization support.
 verification: security_reviewed
-source: "https://github.com/lfos/calcurse"
+source: https://github.com/lfos/calcurse
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "lfos/calcurse"
+  github_repo: lfos/calcurse
   github_stars: 1235
+  license: BSD-2-Clause
 ---
-
 # calcurse Text-Based Calendar and Scheduling Application
 
 calcurse is a calendar and scheduling application that runs entirely in the terminal. Created in 2004 by Frederic Culot and maintained since 2011 by Lukas Fleischer, it provides a full-featured personal information manager through an ncurses-based text user interface.

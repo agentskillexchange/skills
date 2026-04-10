@@ -1,14 +1,15 @@
 ---
-name: "Sigstore Cosign Verifier"
-description: "Automates container image signature verification using Cosign CLI and the Rekor transparency log API. Validates SLSA provenance attestations and checks Fulcio certificate chains for keyless signing."
+name: Sigstore Cosign Verifier
+description: Automates container image signature verification using Cosign CLI and
+  the Rekor transparency log API. Validates SLSA provenance attestations and checks
+  Fulcio certificate chains for keyless signing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/"
+source: https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Sigstore Cosign Verifier
 
 The Sigstore Cosign Verifier skill brings supply chain security verification into AI agent workflows. It wraps the Cosign CLI to verify container image signatures against the Sigstore public-good infrastructure, supporting both key-based and keyless (Fulcio/OIDC) verification modes.

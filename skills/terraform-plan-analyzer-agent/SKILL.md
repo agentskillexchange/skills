@@ -1,14 +1,15 @@
 ---
-name: "Terraform Plan Analyzer"
-description: "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy violations against Open Policy Agent (OPA) rules."
+name: Terraform Plan Analyzer
+description: Analyzes Terraform plan output using the terraform show -json command
+  and HCL2 parser library. Detects destructive changes, cost implications via Infracost
+  API, and policy violations against Open Policy Agent (OPA) rules.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/"
+source: https://agentskillexchange.com/skills/terraform-plan-analyzer-agent/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Terraform Plan Analyzer
 
 The Terraform Plan Analyzer Agent processes Terraform execution plans to identify risks before infrastructure changes are applied. It uses the terraform show -json command to parse plan files into structured JSON, then analyzes resource changes across create, update, and destroy operations.

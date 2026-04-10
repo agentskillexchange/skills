@@ -1,17 +1,20 @@
 ---
-name: "Bedrock Modern WordPress Project Boilerplate by Roots"
-description: "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from application code for cleaner version control and deployment."
+name: Bedrock Modern WordPress Project Boilerplate by Roots
+description: Bedrock is a WordPress boilerplate with Composer-based dependency management,
+  environment-specific configuration via .env files, and an improved folder structure.
+  It separates WordPress core from application code for cleaner version control and
+  deployment.
 verification: security_reviewed
-source: "https://github.com/roots/bedrock"
+source: https://github.com/roots/bedrock
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "roots/bedrock"
+  github_repo: roots/bedrock
   github_stars: 6498
+  license: MIT
 ---
-
 # Bedrock Modern WordPress Project Boilerplate by Roots
 
 Bedrock is an open-source WordPress project boilerplate created by the Roots team that modernizes how WordPress sites are structured and managed. Instead of the traditional WordPress directory layout, Bedrock reorganizes the project into a Composer-managed structure where WordPress core, plugins, and themes are treated as dependencies rather than committed code.

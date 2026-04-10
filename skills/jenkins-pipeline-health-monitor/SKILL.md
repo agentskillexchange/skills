@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Pipeline Health Monitor"
-description: "Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance."
+name: Jenkins Pipeline Health Monitor
+description: Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean
+  API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings
+  for proactive CI maintenance.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
+source: https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Jenkins Pipeline Health Monitor
 
 The Jenkins Pipeline Health Monitor agent provides continuous health monitoring for Jenkins CI/CD environments. It connects to Jenkins using the REST API and Blue Ocean REST API to track pipeline performance, detect degradation patterns, and provide proactive maintenance alerts.

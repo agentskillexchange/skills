@@ -1,14 +1,15 @@
 ---
-name: "GitLab CI Merge Train Optimizer"
-description: "Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains). Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based job dependencies for parallel execution."
+name: GitLab CI Merge Train Optimizer
+description: Optimizes GitLab CI/CD merge trains via the GitLab REST API v4 (/api/v4/projects/{id}/merge_trains).
+  Analyzes pipeline durations, identifies bottleneck stages, and recommends DAG-based
+  job dependencies for parallel execution.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/"
+source: https://agentskillexchange.com/skills/gitlab-ci-merge-train-optimizer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Codex"
+- Codex
 ---
-
 # GitLab CI Merge Train Optimizer
 
 The GitLab CI Merge Train Optimizer agent connects to GitLab via the REST API v4 (/api/v4/projects/{id}/merge_trains, /api/v4/projects/{id}/pipelines) to analyze and optimize merge train performance. It retrieves merge train history, pipeline durations, and individual job timing data to identify throughput bottlenecks.

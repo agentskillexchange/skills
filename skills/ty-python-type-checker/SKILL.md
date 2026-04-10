@@ -1,17 +1,19 @@
 ---
-name: "ty Ultra-Fast Python Type Checker and Language Server"
-description: "ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and uv. It delivers 10-100x faster type checking than mypy or Pyright with comprehensive diagnostics, incremental analysis, and first-class editor integrations."
+name: ty Ultra-Fast Python Type Checker and Language Server
+description: ty is an extremely fast Python type checker and language server written
+  in Rust by Astral, the creators of Ruff and uv. It delivers 10-100x faster type
+  checking than mypy or Pyright with comprehensive diagnostics, incremental analysis,
+  and first-class editor integrations.
 verification: security_reviewed
-source: "https://github.com/astral-sh/ty"
+source: https://github.com/astral-sh/ty
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "astral-sh/ty"
+  github_repo: astral-sh/ty
   github_stars: 18132
 ---
-
 # ty Ultra-Fast Python Type Checker and Language Server
 
 ty is an extremely fast Python type checker and language server built by Astral (the team behind Ruff and uv), written entirely in Rust for maximum performance. It provides Python developers with type checking that runs 10 to 100 times faster than established tools like mypy and Pyright, making it practical to run type checks continuously during development without disrupting workflow.

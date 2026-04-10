@@ -1,14 +1,15 @@
 ---
-name: "Puppeteer Scraping Framework"
-description: "Headless Chrome scraping using Puppeteer with stealth plugin, request interception via page.setRequestInterception(), and automatic CAPTCHA detection. Supports CDP sessions for advanced protocol access."
+name: Puppeteer Scraping Framework
+description: Headless Chrome scraping using Puppeteer with stealth plugin, request
+  interception via page.setRequestInterception(), and automatic CAPTCHA detection.
+  Supports CDP sessions for advanced protocol access.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/"
+source: https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Puppeteer Scraping Framework
 
 The Puppeteer Scraping Framework skill provides advanced web scraping capabilities using Puppeteer with headless Chrome. It integrates puppeteer-extra with the stealth plugin to avoid bot detection by patching navigator.webdriver, chrome.runtime, and other fingerprinting vectors.

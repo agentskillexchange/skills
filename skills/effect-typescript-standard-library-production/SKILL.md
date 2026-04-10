@@ -1,17 +1,19 @@
 ---
-name: "Effect TypeScript Standard Library for Production Applications"
-description: "Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual packages with one cohesive, type-safe framework for building production-grade applications."
+name: Effect TypeScript Standard Library for Production Applications
+description: Effect is a comprehensive TypeScript standard library that provides structured
+  concurrency, typed errors, dependency injection, schema validation, and observability
+  — replacing dozens of individual packages with one cohesive, type-safe framework
+  for building production-grade applications.
 verification: security_reviewed
-source: "https://github.com/Effect-TS/effect"
+source: https://github.com/Effect-TS/effect
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "Effect-TS/effect"
+  github_repo: Effect-TS/effect
   github_stars: 13778
 ---
-
 # Effect TypeScript Standard Library for Production Applications
 
 Effect is an open-source TypeScript library that serves as a batteries-included standard library for building production applications. Created by the Effect-TS organization and licensed under MIT, it brings ideas from functional programming languages like Scala (ZIO) and Haskell to the TypeScript ecosystem, providing structured concurrency, typed error handling, dependency injection, schema validation, HTTP clients and servers, CLI argument parsing, and OpenTelemetry observability — all in a single, composable package.

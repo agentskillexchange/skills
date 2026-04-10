@@ -1,18 +1,18 @@
 ---
-name: "Claude Code MCP Bridge"
-description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
+name: Claude Code MCP Bridge
+description: Run Claude Code as a one-shot MCP tool so other agents and editors can
+  delegate coding tasks to it. An agent-in-agent orchestration bridge.
 verification: security_reviewed
-source: "https://github.com/steipete/claude-code-mcp"
+source: https://github.com/steipete/claude-code-mcp
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
-  - "MCP"
+- Claude Code
+- MCP
 tool_ecosystem:
-  github_repo: "steipete/claude-code-mcp"
+  github_repo: steipete/claude-code-mcp
   github_stars: 1225
 ---
-
 # Claude Code MCP Bridge
 
 Claude Code MCP Bridge exposes Claude Code as a single MCP tool. When an MCP client calls it with a prompt, the server runs Claude Code in one-shot mode, letting it execute file reads and writes, git operations, terminal commands, and multi-step refactoring.

@@ -1,14 +1,15 @@
 ---
-name: "Twilio Programmable Voice Router"
-description: "Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , , and verbs, and manages call recordings via the Recordings REST resource."
+name: Twilio Programmable Voice Router
+description: Builds intelligent voice routing flows using the Twilio Programmable
+  Voice API. Generates TwiML responses with , , and verbs, and manages call recordings
+  via the Recordings REST resource.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/"
+source: https://agentskillexchange.com/skills/twilio-programmable-voice-router-2/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Twilio Programmable Voice Router
 
 The Twilio Programmable Voice Router creates sophisticated call handling workflows using Twilio's Programmable Voice API. It generates dynamic TwiML documents that chain  for DTMF/speech input,  for call forwarding with SIP and Client endpoints, and  for queue-based routing.

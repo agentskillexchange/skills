@@ -1,14 +1,16 @@
 ---
-name: "llamafile Single-File LLM Distribution and Runner by Mozilla"
-description: "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights, server, and runtime into one file."
+name: llamafile Single-File LLM Distribution and Runner by Mozilla
+description: llamafile by Mozilla bundles open-source LLMs into a single portable
+  executable that runs locally on macOS, Windows, Linux, and BSD with zero installation.
+  It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights,
+  server, and runtime into one file.
 verification: security_reviewed
-source: "https://github.com/mozilla-ai/llamafile"
+source: https://github.com/mozilla-ai/llamafile
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # llamafile Single-File LLM Distribution and Runner by Mozilla
 
 llamafile is a Mozilla Builders project that makes open-source large language models radically accessible by packaging them as single-file executables. Built on top of llama.cpp and Cosmopolitan Libc, llamafile combines model weights, an inference engine, and an HTTP server into one portable binary that runs natively on six operating systems — macOS, Windows, Linux, FreeBSD, OpenBSD, and NetBSD — without any installation, package managers, or Python environments.

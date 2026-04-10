@@ -1,14 +1,15 @@
 ---
-name: "Yeoman Generator Builder"
-description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
+name: Yeoman Generator Builder
+description: Creates custom Yeoman generators using the yeoman-generator API and yo
+  CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting
+  composability via this.composeWith() for multi-generator workflows.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yeoman-generator-builder/"
+source: https://agentskillexchange.com/skills/yeoman-generator-builder/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Yeoman Generator Builder
 
 The Yeoman Generator Builder skill helps create custom project scaffolding generators using the Yeoman ecosystem. It leverages the yeoman-generator base class to define generators with proper lifecycle phases: initializing, prompting, configuring, writing, conflicts, install, and end.

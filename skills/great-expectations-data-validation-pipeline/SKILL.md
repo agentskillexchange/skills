@@ -1,18 +1,19 @@
 ---
-name: "Great Expectations Data Validation Pipeline"
-description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
+name: Great Expectations Data Validation Pipeline
+description: Validate data quality using the Great Expectations Python library. Define
+  expectations as unit tests for your data, run validation suites, and generate human-readable
+  data quality reports.
 verification: security_reviewed
-source: "https://github.com/great-expectations/great_expectations"
+source: https://github.com/great-expectations/great_expectations
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+- Claude Code
+- OpenClaw
 tool_ecosystem:
-  github_repo: "great-expectations/great_expectations"
+  github_repo: great-expectations/great_expectations
   github_stars: 11321
 ---
-
 # Great Expectations Data Validation Pipeline
 
 The Great Expectations Data Validation Pipeline skill uses Great Expectations (GX), the open-source Python framework with over 11,000 GitHub stars, to bring rigorous data quality testing to AI agent workflows. Great Expectations lets you define &#8220;expectations&#8221; — declarative assertions about what your data should look like — and then validate real data against those expectations.

@@ -1,19 +1,21 @@
 ---
-name: "write-good English Prose Linting for Technical Content"
-description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
+name: write-good English Prose Linting for Technical Content
+description: This skill uses write-good to flag vague, wordy, or hard-to-read English
+  prose in documentation and content drafts. It is useful when a team wants lightweight
+  style feedback inside editors, scripts, or CI checks.
 verification: security_reviewed
-source: "https://github.com/btford/write-good"
+source: https://github.com/btford/write-good
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "btford/write-good"
+  github_repo: btford/write-good
   github_stars: 5065
-  ase_npm_package: "write-good"
+  ase_npm_package: write-good
   npm_weekly_downloads: 49520
+  license: MIT
 ---
-
 # write-good English Prose Linting for Technical Content
 
 write-good is a JavaScript linter for English prose that highlights patterns associated with weak or cluttered writing. This skill packages write-good into a documentation and content-review workflow for technical teams that want faster feedback on docs, READMEs, blog drafts, release notes, onboarding guides, and support content. Rather than replacing editorial judgment, the tool acts as an automated first pass that points out weasel words, passive constructions, repeated lexical patterns, too-wordy phrases, and readability issues before human review begins.

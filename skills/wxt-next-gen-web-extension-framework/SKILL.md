@@ -1,17 +1,18 @@
 ---
-name: "WXT Next-Generation Web Extension Framework for Browser Extensions"
-description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
+name: WXT Next-Generation Web Extension Framework for Browser Extensions
+description: WXT is an open-source, next-generation framework for building browser
+  extensions. It supports all browsers, both Manifest V2 and V3, and provides dev
+  mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing.
 verification: security_reviewed
-source: "https://github.com/wxt-dev/wxt"
+source: https://github.com/wxt-dev/wxt
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "wxt-dev/wxt"
+  github_repo: wxt-dev/wxt
   github_stars: 9534
 ---
-
 # WXT Next-Generation Web Extension Framework for Browser Extensions
 
 WXT is a modern framework for building web browser extensions, created by Aaron Klinker (@aklinker1). It dramatically simplifies the extension development experience with features borrowed from modern web frameworks while handling the complexities of cross-browser extension APIs.

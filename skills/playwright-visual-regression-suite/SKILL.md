@@ -1,14 +1,15 @@
 ---
-name: "Playwright Visual Regression Suite"
-description: "Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
+name: Playwright Visual Regression Suite
+description: Automated visual regression testing using Playwright&#8217;s screenshot
+  comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions.
+  Supports cross-browser testing on Chromium, Firefox, and WebKit.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-visual-regression-suite/"
+source: https://agentskillexchange.com/skills/playwright-visual-regression-suite/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Playwright Visual Regression Suite
 
 The Playwright Visual Regression Suite automates UI consistency checks using Playwright's built-in screenshot comparison capabilities. It leverages page.screenshot() with configurable options including fullPage captures, element-level screenshots via locator.screenshot(), and clip regions for specific viewport areas.

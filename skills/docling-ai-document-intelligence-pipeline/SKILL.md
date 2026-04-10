@@ -1,17 +1,19 @@
 ---
-name: "Docling AI Document Intelligence Pipeline"
-description: "Docling is an IBM-backed open-source toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen AI workflows. It features advanced PDF layout understanding, OCR, table extraction, and integrations with LangChain, LlamaIndex, and CrewAI."
+name: Docling AI Document Intelligence Pipeline
+description: Docling is an IBM-backed open-source toolkit that converts PDF, DOCX,
+  PPTX, XLSX, HTML, images, audio, and LaTeX files into structured formats for gen
+  AI workflows. It features advanced PDF layout understanding, OCR, table extraction,
+  and integrations with LangChain, LlamaIndex, and CrewAI.
 verification: security_reviewed
-source: "https://github.com/docling-project/docling"
+source: https://github.com/docling-project/docling
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "docling-project/docling"
+  github_repo: docling-project/docling
   github_stars: 56871
 ---
-
 # Docling AI Document Intelligence Pipeline
 
 Docling is an open-source document processing toolkit originally developed by IBM Research and now maintained under the docling-project organization on GitHub. It converts a wide range of document formats — PDF, DOCX, PPTX, XLSX, HTML, images (PNG, TIFF, JPEG), LaTeX, WAV, MP3, WebVTT, and plain text — into a unified DoclingDocument representation that can be exported as Markdown, HTML, JSON, or DocTags.

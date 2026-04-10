@@ -1,17 +1,19 @@
 ---
-name: "SerpBear Self-Hosted Search Engine Rank Tracking App"
-description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
+name: SerpBear Self-Hosted Search Engine Rank Tracking App
+description: SerpBear is an open-source, self-hosted search engine position tracking
+  application. It lets you monitor unlimited keyword rankings in Google with email
+  notifications, a built-in SERP API, Google Search Console integration, and keyword
+  research via Google Ads.
 verification: security_reviewed
-source: "https://github.com/towfiqi/serpbear"
+source: https://github.com/towfiqi/serpbear
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "towfiqi/serpbear"
+  github_repo: towfiqi/serpbear
   github_stars: 1890
 ---
-
 # SerpBear Self-Hosted Search Engine Rank Tracking App
 
 SerpBear is an open-source search engine position rank tracking application built with Next.js and SQLite. It provides a complete self-hosted alternative to expensive commercial SERP tracking services like Ahrefs, SEMrush, or SE Ranking, giving SEO professionals and website owners full control over their keyword monitoring data.

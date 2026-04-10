@@ -1,17 +1,20 @@
 ---
-name: "WP-CLI Command-Line Interface for WordPress"
-description: "Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin."
+name: WP-CLI Command-Line Interface for WordPress
+description: Builds repeatable WordPress maintenance and content workflows around
+  WP-CLI, the official command-line interface for WordPress. Useful for plugin management,
+  database tasks, user administration, search-replace operations, and scripted publishing
+  without living inside wp-admin.
 verification: security_reviewed
-source: "https://github.com/wp-cli/wp-cli"
+source: https://github.com/wp-cli/wp-cli
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
+  github_repo: wp-cli/wp-cli
   github_stars: 5044
+  license: MIT
 ---
-
 # WP-CLI Command-Line Interface for WordPress
 
 WP-CLI Command-Line Interface for WordPress is a practical skill for people who need to operate WordPress sites faster and more consistently than the admin dashboard allows. It is anchored to the real WP-CLI project and its command surface, including commands such as wp plugin list, wp post list, wp option get, wp user create, wp search-replace, wp cron event run, and wp db export. That makes it valuable for administrators, maintainers, and agents that need to inspect or change site state from a shell, over SSH, or inside a deployment pipeline.

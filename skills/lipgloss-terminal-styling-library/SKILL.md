@@ -1,14 +1,16 @@
 ---
-name: "Lip Gloss CSS-Like Terminal Styling Library for Go"
-description: "Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color handling, borders, padding, tables, and layout primitives for building polished terminal applications."
+name: Lip Gloss CSS-Like Terminal Styling Library for Go
+description: Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative
+  styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color
+  handling, borders, padding, tables, and layout primitives for building polished
+  terminal applications.
 verification: security_reviewed
-source: "https://github.com/charmbracelet/lipgloss"
+source: https://github.com/charmbracelet/lipgloss
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Lip Gloss CSS-Like Terminal Styling Library for Go
 
 Lip Gloss is an open-source Go library by Charmbracelet that brings CSS-like declarative styling to terminal user interfaces. With over 11,000 stars on GitHub, it has become the de facto standard for styled terminal rendering in the Go ecosystem.

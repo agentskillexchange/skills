@@ -1,14 +1,15 @@
 ---
-name: "GitLab CI Template Library"
-description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables."
+name: GitLab CI Template Library
+description: Creates reusable GitLab CI/CD template libraries using include:template
+  and extends keywords. Manages pipeline configurations with rules:changes path filtering,
+  needs DAG dependencies, and Auto DevOps customization via CI/CD variables.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
+source: https://agentskillexchange.com/skills/gitlab-ci-template-library/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "MCP"
+- MCP
 ---
-
 # GitLab CI Template Library
 
 The GitLab CI Template Library skill creates and manages reusable CI/CD template collections for GitLab pipelines. It generates .gitlab-ci.yml configurations using the include:template directive for referencing shared templates and the extends keyword for job inheritance patterns.

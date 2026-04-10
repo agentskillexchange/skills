@@ -1,14 +1,16 @@
 ---
-name: "GitHub Discussions Community Digest"
-description: "Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically labels stale discussions as needs-triage via the GitHub REST API. Digest content is also mirrored as a pinned post to a linked Discord channel."
+name: GitHub Discussions Community Digest
+description: Queries GitHub GraphQL API for new and unanswered Discussions, ranks
+  them by reaction count and recency, and drafts a weekly digest via SendGrid. Automatically
+  labels stale discussions as needs-triage via the GitHub REST API. Digest content
+  is also mirrored as a pinned post to a linked Discord channel.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-discussions-community-digest/"
+source: https://agentskillexchange.com/skills/github-discussions-community-digest/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 ---
-
 # GitHub Discussions Community Digest
 
 GitHub Discussions Community Digest is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the operational context that matters for real tasks.

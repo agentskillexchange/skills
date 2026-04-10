@@ -1,17 +1,19 @@
 ---
-name: "Steel Browser Open Source API for AI Agent Web Automation"
-description: "Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and applications. It handles session management, proxy rotation, anti-detection, and Chrome extension loading so developers can focus on their AI application logic."
+name: Steel Browser Open Source API for AI Agent Web Automation
+description: Steel Browser is an open-source browser API that provides a batteries-included
+  browser sandbox for AI agents and applications. It handles session management, proxy
+  rotation, anti-detection, and Chrome extension loading so developers can focus on
+  their AI application logic.
 verification: security_reviewed
-source: "https://github.com/steel-dev/steel-browser"
+source: https://github.com/steel-dev/steel-browser
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "steel-dev/steel-browser"
+  github_repo: steel-dev/steel-browser
   github_stars: 6768
 ---
-
 # Steel Browser Open Source API for AI Agent Web Automation
 
 Steel Browser is an open-source browser API built specifically for AI agents and web automation applications. Developed by Steel.dev, it wraps Puppeteer and the Chrome DevTools Protocol into a managed service that handles the infrastructure complexity of browser automation — session management, proxy chains, cookie persistence, anti-detection, and resource cleanup.

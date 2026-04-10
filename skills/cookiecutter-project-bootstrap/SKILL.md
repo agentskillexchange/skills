@@ -1,14 +1,15 @@
 ---
-name: "Cookiecutter Project Bootstrap"
-description: "Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine."
+name: Cookiecutter Project Bootstrap
+description: Bootstraps new projects from Cookiecutter templates with variable substitution
+  and post-generation hooks. Supports remote template repositories via the cookiecutter
+  CLI and Jinja2 rendering engine.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/"
+source: https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Cookiecutter Project Bootstrap
 
 The Cookiecutter Project Bootstrap skill automates new project creation using Cookiecutter templates. It processes cookiecutter.json configuration files for variable prompting and uses the Jinja2 rendering engine for template file generation with variable substitution.

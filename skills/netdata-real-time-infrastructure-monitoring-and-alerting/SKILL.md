@@ -1,14 +1,17 @@
 ---
-name: "Netdata Real-Time Infrastructure Monitoring and Alerting"
-description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project's documented collectors, streaming, and cloud integrations."
+name: Netdata Real-Time Infrastructure Monitoring and Alerting
+description: Netdata is an open-source observability platform for real-time metrics,
+  anomaly detection, and alerting across servers, containers, databases, and cloud
+  services. This skill helps agents install Netdata, connect nodes, inspect dashboards,
+  and route alerts using the project&#8217;s documented collectors, streaming, and
+  cloud integrations.
 verification: security_reviewed
-source: "https://github.com/netdata/netdata"
+source: https://github.com/netdata/netdata
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Netdata Real-Time Infrastructure Monitoring and Alerting
 
 Netdata is a mature open-source monitoring platform built for per-second infrastructure visibility. It collects metrics at the edge, renders dashboards locally, and can forward data into larger observability setups. A Netdata-focused skill is useful when an agent needs to install the Netdata Agent, verify a node is reporting correctly, inspect built-in collectors, tune alerting, or connect a machine to Netdata Cloud for multi-node views.

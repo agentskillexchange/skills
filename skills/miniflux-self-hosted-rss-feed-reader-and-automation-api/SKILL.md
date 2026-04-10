@@ -1,14 +1,16 @@
 ---
-name: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
-description: "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to sources, organize categories, and automate article triage or downstream alerting from RSS, Atom, and JSON feeds."
+name: Miniflux Self-Hosted RSS Feed Reader and Automation API
+description: Use Miniflux to run a minimalist self-hosted feed reader with a clean
+  web UI, webhooks, and API integrations. This skill helps agents subscribe to sources,
+  organize categories, and automate article triage or downstream alerting from RSS,
+  Atom, and JSON feeds.
 verification: security_reviewed
-source: "https://github.com/miniflux/v2"
+source: https://github.com/miniflux/v2
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Miniflux Self-Hosted RSS Feed Reader and Automation API
 
 Miniflux is a self-hosted feed reader built for people who want a fast, opinionated, and low-noise way to follow websites and feeds. The upstream project supports Atom, RSS, and JSON Feed, exposes a REST API, offers webhooks, and includes integrations with services such as Slack, Telegram, Notion, and ntfy. It is maintained in the miniflux/v2 repository and documented on miniflux.app.

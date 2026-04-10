@@ -1,14 +1,15 @@
 ---
-name: "NPM Package Dependency Auditor"
-description: "Deep-audits npm package dependency trees using the npm Registry API and Socket.dev security intelligence. Identifies supply chain risks, typosquatting, and license incompatibilities across transitive dependencies."
+name: NPM Package Dependency Auditor
+description: Deep-audits npm package dependency trees using the npm Registry API and
+  Socket.dev security intelligence. Identifies supply chain risks, typosquatting,
+  and license incompatibilities across transitive dependencies.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/npm-package-dependency-auditor/"
+source: https://agentskillexchange.com/skills/npm-package-dependency-auditor/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "MCP"
+- MCP
 ---
-
 # NPM Package Dependency Auditor
 
 The NPM Package Dependency Auditor performs thorough supply chain security analysis of Node.js projects by querying the npm Registry API for package metadata and cross-referencing with Socket.dev's security intelligence platform. It goes beyond standard npm audit by examining the full transitive dependency graph for supply chain attack indicators.

@@ -1,14 +1,15 @@
 ---
-name: "PagerDuty Incident Runbook Engine"
-description: "Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic data collection during incidents."
+name: PagerDuty Incident Runbook Engine
+description: Generates automated incident response runbooks triggered by PagerDuty
+  webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch
+  for diagnostic data collection during incidents.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/"
+source: https://agentskillexchange.com/skills/pagerduty-incident-runbook-engine/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # PagerDuty Incident Runbook Engine
 
 The PagerDuty Incident Runbook Engine creates automated diagnostic workflows triggered by PagerDuty incident events. It processes PagerDuty webhook payloads via the Events API v2, extracts alert metadata, and executes diagnostic runbook steps based on the triggering service and severity level.

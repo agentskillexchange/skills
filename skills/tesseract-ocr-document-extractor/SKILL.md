@@ -1,14 +1,15 @@
 ---
-name: "Tesseract OCR Document Extractor"
-description: "Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data. Supports table detection via OpenCV contour analysis and PDF/A output generation."
+name: Tesseract OCR Document Extractor
+description: Extracts structured text from scanned documents and images using Tesseract
+  OCR with custom LSTM training data. Supports table detection via OpenCV contour
+  analysis and PDF/A output generation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/"
+source: https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Tesseract OCR Document Extractor
 
 The Tesseract OCR Document Extractor processes scanned documents, photographs of text, and faxed PDFs using the Tesseract 5.x LSTM engine with configurable page segmentation modes (PSM). It applies OpenCV preprocessing including adaptive thresholding, deskewing, and noise reduction to maximize recognition accuracy on low-quality inputs.

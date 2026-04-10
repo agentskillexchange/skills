@@ -1,14 +1,15 @@
 ---
-name: "Systemd Service Diagnostics"
-description: "Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes unit file configurations with systemd-analyze verify and detects dependency ordering issues via systemd-analyze dot."
+name: Systemd Service Diagnostics
+description: Diagnoses systemd service failures using journalctl structured JSON output
+  and systemctl show properties. Analyzes unit file configurations with systemd-analyze
+  verify and detects dependency ordering issues via systemd-analyze dot.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/systemd-service-diagnostics/"
+source: https://agentskillexchange.com/skills/systemd-service-diagnostics/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Systemd Service Diagnostics
 
 The Systemd Service Diagnostics skill provides comprehensive troubleshooting for Linux systemd service management. It queries service status using systemctl show with machine-readable property output, then correlates failures with structured log data from journalctl -output=json.

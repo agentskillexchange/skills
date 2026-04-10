@@ -1,17 +1,20 @@
 ---
-name: "Subfinder Fast Passive Subdomain Enumeration Tool"
-description: "Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using curated online sources. Optimized for speed and stealth, it integrates cleanly into security reconnaissance pipelines via stdin/stdout support."
+name: Subfinder Fast Passive Subdomain Enumeration Tool
+description: Subfinder is a passive subdomain discovery tool by ProjectDiscovery that
+  finds valid subdomains for websites using curated online sources. Optimized for
+  speed and stealth, it integrates cleanly into security reconnaissance pipelines
+  via stdin/stdout support.
 verification: security_reviewed
-source: "https://github.com/projectdiscovery/subfinder"
+source: https://github.com/projectdiscovery/subfinder
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "projectdiscovery/subfinder"
+  github_repo: projectdiscovery/subfinder
   github_stars: 13332
+  license: MIT
 ---
-
 # Subfinder Fast Passive Subdomain Enumeration Tool
 
 What is Subfinder?

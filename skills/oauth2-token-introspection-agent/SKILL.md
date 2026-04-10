@@ -1,14 +1,15 @@
 ---
-name: "OAuth2 Token Introspection Agent"
-description: "Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token introspection APIs to verify token claims, scopes, and expiration in real time."
+name: OAuth2 Token Introspection Agent
+description: Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates
+  with Keycloak, Auth0, and Okta token introspection APIs to verify token claims,
+  scopes, and expiration in real time.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/oauth2-token-introspection-agent/"
+source: https://agentskillexchange.com/skills/oauth2-token-introspection-agent/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # OAuth2 Token Introspection Agent
 
 OAuth2 Token Introspection Agent is built around OAuth2 and identity platform integrations. The underlying ecosystem is represented by auth0/node-auth0 (676+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like OIDC flows, token introspection, JWKS, RBAC claims, refresh tokens and preserving the operational context that matters for real tasks.

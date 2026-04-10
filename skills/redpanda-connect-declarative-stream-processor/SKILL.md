@@ -1,17 +1,19 @@
 ---
-name: "Redpanda Connect Declarative Stream Processor"
-description: "Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks through declarative YAML pipelines. It supports hundreds of connectors and a built-in mapping language called Bloblang for data transformation."
+name: Redpanda Connect Declarative Stream Processor
+description: Redpanda Connect (formerly Benthos) is a high-performance stream processor
+  that connects data sources and sinks through declarative YAML pipelines. It supports
+  hundreds of connectors and a built-in mapping language called Bloblang for data
+  transformation.
 verification: security_reviewed
-source: "https://github.com/redpanda-data/connect"
+source: https://github.com/redpanda-data/connect
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "redpanda-data/connect"
+  github_repo: redpanda-data/connect
   github_stars: 8618
 ---
-
 # Redpanda Connect Declarative Stream Processor
 
 Redpanda Connect, formerly known as Benthos, is an open-source stream processor written in Go. It connects input sources to output sinks through declarative YAML configuration files, with a pipeline stage for transformations, enrichments, and filtering. The tool handles at-least-once delivery guarantees without requiring disk-persisted state, making deployment and scaling straightforward.

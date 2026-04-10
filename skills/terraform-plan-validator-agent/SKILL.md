@@ -1,14 +1,15 @@
 ---
-name: "Terraform Plan Validator Agent"
-description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
+name: Terraform Plan Validator Agent
+description: Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects
+  infrastructure misconfigurations, cost anomalies, and compliance violations before
+  apply.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-validator-agent/"
+source: https://agentskillexchange.com/skills/terraform-plan-validator-agent/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Terraform Plan Validator Agent
 
 The Terraform Plan Validator Agent runs terraform plan with JSON output (-out=plan.bin, terraform show -json plan.bin) and pipes results through tfsec and Checkov for security and compliance validation. It catches misconfigurations before infrastructure changes are applied.

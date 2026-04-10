@@ -1,17 +1,18 @@
 ---
-name: "Skyvern AI Browser Workflow Automation with LLMs and Computer Vision"
-description: "Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that interacts with websites visually rather than via DOM selectors, making automations resistant to layout changes and capable of operating on never-before-seen websites."
+name: Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
+description: Skyvern automates browser-based workflows using LLMs and computer vision.
+  It provides a Playwright-compatible SDK that interacts with websites visually rather
+  than via DOM selectors, making automations resistant to layout changes and capable
+  of operating on never-before-seen websites.
 verification: security_reviewed
-source: "https://github.com/Skyvern-AI/skyvern"
+source: https://github.com/Skyvern-AI/skyvern
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "skyvern-ai/skyvern"
-  github_stars: 20997
+  license: AGPL-3.0
 ---
-
 # Skyvern AI Browser Workflow Automation with LLMs and Computer Vision
 
 Skyvern is an open-source AI browser automation platform that uses large language models and computer vision to automate web workflows. Unlike traditional browser automation that relies on CSS selectors and XPaths, Skyvern visually interprets web pages to understand and interact with UI elements, making it robust against website layout changes.

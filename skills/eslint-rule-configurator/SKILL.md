@@ -1,14 +1,15 @@
 ---
-name: "ESLint Rule Configurator"
-description: "Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis."
+name: ESLint Rule Configurator
+description: Generates optimized ESLint flat config files using @eslint/js, typescript-eslint,
+  and eslint-plugin-import. Provides project-specific rule recommendations based on
+  codebase analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-configurator/"
+source: https://agentskillexchange.com/skills/eslint-rule-configurator/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # ESLint Rule Configurator
 
 The ESLint Rule Configurator agent generates optimized ESLint configurations tailored to your specific project structure and coding patterns. It analyzes your codebase to recommend appropriate rules from @eslint/js, typescript-eslint, eslint-plugin-import, and other popular plugins.

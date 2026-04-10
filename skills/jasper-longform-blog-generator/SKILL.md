@@ -1,14 +1,16 @@
 ---
-name: "Jasper AI Long-Form Blog Post Generator"
-description: "Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
+name: Jasper AI Long-Form Blog Post Generator
+description: Connects to Jasper&#8217;s /v1/content/generate REST endpoint to produce
+  SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone,
+  keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes
+  drafts to WordPress via the WP REST API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
+source: https://agentskillexchange.com/skills/jasper-longform-blog-generator/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Jasper AI Long-Form Blog Post Generator
 
 Jasper AI Long-Form Blog Post Generator is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.

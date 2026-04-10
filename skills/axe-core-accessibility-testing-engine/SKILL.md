@@ -1,14 +1,16 @@
 ---
-name: "axe-core Accessibility Testing Engine for Automated Web UI Auditing"
-description: "axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0, 2.1, and 2.2 violations in web interfaces. It integrates into any existing test framework — Playwright, Cypress, Selenium, Jest — to catch accessibility issues during development rather than after deployment."
+name: axe-core Accessibility Testing Engine for Automated Web UI Auditing
+description: axe-core is the industry-standard accessibility testing engine by Deque
+  Systems that automatically detects WCAG 2.0, 2.1, and 2.2 violations in web interfaces.
+  It integrates into any existing test framework — Playwright, Cypress, Selenium,
+  Jest — to catch accessibility issues during development rather than after deployment.
 verification: security_reviewed
-source: "https://github.com/dequelabs/axe-core"
+source: https://github.com/dequelabs/axe-core
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing
 
 axe-core is an open-source accessibility testing engine maintained by Deque Systems that powers automated WCAG compliance checking across web applications. With nearly 7,000 GitHub stars and millions of weekly npm downloads, it is the most widely adopted accessibility testing library in the JavaScript ecosystem.

@@ -1,14 +1,16 @@
 ---
-name: "Chatwoot Open Source Customer Engagement and Omnichannel Support Platform"
-description: "Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media, and messaging channel support in a unified agent dashboard. It serves as an alternative to Intercom, Zendesk, and Freshdesk with full API access for automation."
+name: Chatwoot Open Source Customer Engagement and Omnichannel Support Platform
+description: Chatwoot is a self-hosted, open-source customer engagement platform that
+  provides live chat, email, social media, and messaging channel support in a unified
+  agent dashboard. It serves as an alternative to Intercom, Zendesk, and Freshdesk
+  with full API access for automation.
 verification: security_reviewed
-source: "https://github.com/chatwoot/chatwoot"
+source: https://github.com/chatwoot/chatwoot
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Chatwoot Open Source Customer Engagement and Omnichannel Support Platform
 
 Chatwoot is an open-source customer engagement platform built with Ruby on Rails and Vue.js that unifies conversations from live chat, email, Facebook, Twitter, WhatsApp, Telegram, Line, SMS, and API channels into a single agent dashboard. With over 28,000 GitHub stars and active development, it has become the leading open-source alternative to proprietary helpdesk platforms like Intercom, Zendesk, and Freshdesk.

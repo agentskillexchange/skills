@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Composer"
-description: "Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb Registry."
+name: CircleCI Orb Composer
+description: Composes and validates CircleCI Orbs using the circleci/circleci-cli
+  and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with
+  conventional-changelog, and publishing to the CircleCI Orb Registry.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-composer-7/"
+source: https://agentskillexchange.com/skills/circleci-orb-composer-7/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # CircleCI Orb Composer
 
 The CircleCI Orb Composer skill streamlines the creation, validation, and publishing of CircleCI Orbs — reusable configuration packages for CircleCI pipelines. It uses the circleci/circleci-cli to validate orb source YAML and the circleci/orb-tools-orb to automate the full orb development lifecycle.

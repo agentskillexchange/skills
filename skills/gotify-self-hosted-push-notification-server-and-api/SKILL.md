@@ -1,14 +1,16 @@
 ---
-name: "Gotify Self-Hosted Push Notification Server and API"
-description: "Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send alerts, manage applications, and connect monitored events to a private notification channel instead of relying on third-party push vendors."
+name: Gotify Self-Hosted Push Notification Server and API
+description: Run self-hosted push notifications with Gotify, including a REST API,
+  WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send
+  alerts, manage applications, and connect monitored events to a private notification
+  channel instead of relying on third-party push vendors.
 verification: security_reviewed
-source: "https://github.com/gotify/server"
+source: https://github.com/gotify/server
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Gotify Self-Hosted Push Notification Server and API
 
 Gotify is an open-source push notification server for teams that want a simple, self-hosted way to send and receive messages in real time. The upstream gotify/server project exposes a REST API for publishing notifications, a WebSocket stream for receiving them, a web UI for managing users and applications, and documented plugin support. Official documentation covers installation, configuration, API usage, and development setup.

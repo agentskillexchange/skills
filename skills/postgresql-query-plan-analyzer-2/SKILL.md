@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Query Plan Analyzer"
-description: "Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested loop joins, and sort spills. Integrates with pg_stat_statements for identifying top resource-consuming queries."
+name: PostgreSQL Query Plan Analyzer
+description: Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses
+  the plan tree for sequential scans, nested loop joins, and sort spills. Integrates
+  with pg_stat_statements for identifying top resource-consuming queries.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/"
+source: https://agentskillexchange.com/skills/postgresql-query-plan-analyzer-2/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 ---
-
 # PostgreSQL Query Plan Analyzer
 
 PostgreSQL Query Plan Analyzer is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.

@@ -1,19 +1,17 @@
 ---
-name: "markdownlint-cli2 Markdown Linting for Docs and Repos"
-description: "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output."
+name: markdownlint-cli2 Markdown Linting for Docs and Repos
+description: This skill uses markdownlint-cli2 to enforce consistent Markdown quality
+  across docs, READMEs, and content repositories. It is built for local authoring,
+  pull-request checks, and CI enforcement with rule-based output.
 verification: security_reviewed
-source: "https://github.com/DavidAnson/markdownlint-cli2"
+source: https://github.com/DavidAnson/markdownlint-cli2
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "davidanson/markdownlint-cli2"
-  github_stars: 740
-  ase_npm_package: "markdownlint-cli2"
-  npm_weekly_downloads: 522496
+  license: MIT
 ---
-
 # markdownlint-cli2 Markdown Linting for Docs and Repos
 
 markdownlint-cli2 is a fast command-line interface for linting Markdown and CommonMark files with the markdownlint rule engine. This skill turns the tool into a practical documentation quality gate for teams that manage READMEs, docs sites, knowledge bases, onboarding guides, changelogs, or content-heavy repositories. It focuses on repeatable rule enforcement: scan targeted globs, apply shared configuration, report rule IDs and line numbers, and fail CI when formatting or structure drifts away from the project standard.

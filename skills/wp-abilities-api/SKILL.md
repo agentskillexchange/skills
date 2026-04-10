@@ -1,14 +1,14 @@
 ---
-name: "WP Abilities API"
-description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
+name: WP Abilities API
+description: Specialized support for defining, exposing, and debugging WordPress abilities
+  through the Abilities API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wp-abilities-api/"
+source: https://agentskillexchange.com/skills/wp-abilities-api/
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # WP Abilities API
 
 WP Abilities API is a specialist skill for WordPress builders working with wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, and @wordpress/abilities. It focuses on one narrow job: helping teams define abilities cleanly and expose them to clients without falling back to generic WordPress advice.

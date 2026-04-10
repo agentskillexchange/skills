@@ -1,17 +1,18 @@
 ---
-name: "Video Frames Extractor"
-description: "Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont"
+name: Video Frames Extractor
+description: Extract frames and short clips from videos. Core Capabilities Process
+  audio and video files using ffmpeg for transcription and analysis Extract text,
+  timestamps, and speaker metadata from media cont
 verification: security_reviewed
-source: "https://github.com/FFmpeg/FFmpeg"
+source: https://github.com/FFmpeg/FFmpeg
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "FFmpeg/FFmpeg"
+  github_repo: FFmpeg/FFmpeg
   github_stars: 58637
 ---
-
 # Video Frames Extractor
 
 Video Frames Extractor is built around FFmpeg media processing toolkit. The underlying ecosystem is represented by FFmpeg/FFmpeg (58,257+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ffmpeg filters, ffprobe metadata, codecs, transcodes, frame extraction, packaging and preserving the operational context that matters for real tasks.

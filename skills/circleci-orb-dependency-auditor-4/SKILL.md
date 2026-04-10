@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Dependency Auditor"
-description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor images via Trivy scanning."
+name: CircleCI Orb Dependency Auditor
+description: Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry.
+  Detects outdated orb versions, deprecated commands, and known CVEs in orb executor
+  images via Trivy scanning.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
+source: https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "MCP"
+- MCP
 ---
-
 # CircleCI Orb Dependency Auditor
 
 The CircleCI Orb Dependency Auditor skill performs comprehensive security and version auditing of CircleCI orb dependencies in .circleci/config.yml files. It queries the CircleCI v2 API (/api/v2/orb) and the public orb registry to compare pinned versions against latest releases.

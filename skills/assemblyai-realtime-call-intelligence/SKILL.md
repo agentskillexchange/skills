@@ -1,14 +1,17 @@
 ---
-name: "AssemblyAI Real-Time Call Intelligence"
-description: "Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs."
+name: AssemblyAI Real-Time Call Intelligence
+description: Streams audio from Twilio Media Streams over WebSocket to AssemblyAI
+  real-time transcription, extracting speaker-diarized transcripts with word-level
+  timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR
+  on completed call segments. Results are pushed to HubSpot or Salesforce contact
+  records via their REST APIs.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/"
+source: https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # AssemblyAI Real-Time Call Intelligence
 
 AssemblyAI Real-Time Call Intelligence is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational context that matters for real tasks.

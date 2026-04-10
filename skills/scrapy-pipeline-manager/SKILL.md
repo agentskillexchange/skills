@@ -1,14 +1,15 @@
 ---
-name: "Scrapy Pipeline Manager"
-description: "Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware configuration."
+name: Scrapy Pipeline Manager
+description: Manages Scrapy spider deployments via Scrapyd API with custom item pipelines
+  for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware
+  configuration.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapy-pipeline-manager/"
+source: https://agentskillexchange.com/skills/scrapy-pipeline-manager/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Scrapy Pipeline Manager
 
 The Scrapy Pipeline Manager skill orchestrates Scrapy spider deployments through the Scrapyd HTTP API. It handles egg packaging, project deployment, spider scheduling, and log retrieval across multiple Scrapyd nodes for distributed crawling.

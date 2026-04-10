@@ -1,14 +1,15 @@
 ---
-name: "Snyk Container Image Analyzer"
-description: "Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API. Cross-references findings against the Snyk vulnerability database with CVSS scoring and provides Dockerfile remediation suggestions."
+name: Snyk Container Image Analyzer
+description: Scans Docker and OCI container images for OS and application vulnerabilities
+  using Snyk Container API. Cross-references findings against the Snyk vulnerability
+  database with CVSS scoring and provides Dockerfile remediation suggestions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/snyk-container-image-analyzer/"
+source: https://agentskillexchange.com/skills/snyk-container-image-analyzer/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Snyk Container Image Analyzer
 
 The Snyk Container Image Analyzer performs comprehensive vulnerability assessment of container images throughout the CI/CD pipeline and runtime environments. It connects to the Snyk Container API to scan both OS-level packages (dpkg, rpm, apk) and application dependencies embedded within image layers.

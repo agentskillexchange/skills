@@ -1,14 +1,15 @@
 ---
-name: "Apify Actor Development Kit"
-description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
+name: Apify Actor Development Kit
+description: Builds Apify Actors for scalable cloud scraping with automatic proxy
+  management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue)
+  and Crawlee library for robust crawling.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
+source: https://agentskillexchange.com/skills/apify-actor-development-kit/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Apify Actor Development Kit
 
 The Apify Actor Development Kit creates scalable web scraping actors using the Apify SDK and Crawlee library. It generates Actor configurations with proper Dockerfile, INPUT_SCHEMA.json, and .actor/actor.json manifests for deployment to the Apify Cloud platform.

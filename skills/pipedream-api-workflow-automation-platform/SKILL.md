@@ -1,17 +1,19 @@
 ---
-name: "Pipedream API Workflow Automation Platform"
-description: "Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted workflows. It fits ASE as a source-backed integration skill for agents that need to trigger apps, transform events, and chain API actions across services."
+name: Pipedream API Workflow Automation Platform
+description: Pipedream is a developer-focused workflow platform for connecting APIs
+  and running automation logic in hosted workflows. It fits ASE as a source-backed
+  integration skill for agents that need to trigger apps, transform events, and chain
+  API actions across services.
 verification: security_reviewed
-source: "https://github.com/PipedreamHQ/pipedream"
+source: https://github.com/PipedreamHQ/pipedream
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "PipedreamHQ/pipedream"
+  github_repo: PipedreamHQ/pipedream
   github_stars: 11224
 ---
-
 # Pipedream API Workflow Automation Platform
 
 Pipedream is a workflow automation platform designed around API integrations, event-driven triggers, and code-first orchestration. For agent use cases, it offers a concrete job to be done: connect external SaaS systems, receive events from webhooks or apps, run custom logic in Node.js, Python, Go, or Bash, and send structured outputs to other services. That makes it a strong candidate for integration-heavy skills where an agent needs a dependable bridge between data sources, internal tools, and downstream actions.

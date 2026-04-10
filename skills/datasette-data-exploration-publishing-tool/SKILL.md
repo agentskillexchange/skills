@@ -1,17 +1,19 @@
 ---
-name: "Datasette Data Exploration and Publishing Tool"
-description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
+name: Datasette Data Exploration and Publishing Tool
+description: Datasette is an open-source Python tool for exploring and publishing
+  data. It turns any SQLite database into an interactive web interface with a JSON
+  API, enabling data journalists, researchers, and developers to share datasets without
+  writing application code.
 verification: security_reviewed
-source: "https://github.com/simonw/datasette"
+source: https://github.com/simonw/datasette
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "simonw/datasette"
+  github_repo: simonw/datasette
   github_stars: 10894
 ---
-
 # Datasette Data Exploration and Publishing Tool
 
 Datasette is an open-source multi-tool created by Simon Willison for exploring and publishing data. It takes one or more SQLite database files and instantly serves them as an interactive website with a full JSON API. The tool is aimed at data journalists, researchers, archivists, and anyone who needs to make data accessible and queryable without building custom applications.

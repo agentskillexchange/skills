@@ -1,17 +1,19 @@
 ---
-name: "Webflow Data API JavaScript SDK"
-description: "Automates site, CMS, and publishing workflows with Webflow’s official JavaScript SDK for the Webflow Data API. Useful for agents that need to list sites, publish changes, manage CMS data, and authenticate with workspace tokens, site tokens, or OAuth."
+name: Webflow Data API JavaScript SDK
+description: Automates site, CMS, and publishing workflows with Webflow’s official
+  JavaScript SDK for the Webflow Data API. Useful for agents that need to list sites,
+  publish changes, manage CMS data, and authenticate with workspace tokens, site tokens,
+  or OAuth.
 verification: security_reviewed
-source: "https://github.com/webflow/js-webflow-api"
+source: https://github.com/webflow/js-webflow-api
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "webflow/js-webflow-api"
+  github_repo: webflow/js-webflow-api
   github_stars: 338
 ---
-
 # Webflow Data API JavaScript SDK
 
 Webflow Data API JavaScript SDK is built around Webflow’s official js-webflow-api repository and the companion Webflow Data API documentation. The upstream SDK exposes typed request builders and a JavaScript client for Webflow’s REST API, covering workflows such as listing sites, reading site metadata, publishing sites, handling custom domains, and authenticating with workspace tokens, site tokens, or OAuth. That makes it a strong tool-anchored skill for agents that need to operate Webflow programmatically instead of clicking through the dashboard.

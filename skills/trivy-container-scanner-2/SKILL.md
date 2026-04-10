@@ -1,14 +1,15 @@
 ---
-name: "Trivy Container Scanner"
-description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
+name: Trivy Container Scanner
+description: Wraps the Trivy CLI for comprehensive container image vulnerability scanning.
+  Outputs results in SARIF format for GitHub Code Scanning API integration and generates
+  OCI artifact attestations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"
+source: https://agentskillexchange.com/skills/trivy-container-scanner-2/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Trivy Container Scanner
 
 The Trivy Container Scanner skill integrates Aqua Security Trivy into CI/CD and agent-driven security workflows. It executes trivy image scans against OCI-compliant container registries, analyzing OS packages (Alpine, Debian, Ubuntu, RHEL) and application dependencies (npm, pip, gem, go modules) in a single pass.

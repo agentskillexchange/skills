@@ -1,14 +1,15 @@
 ---
-name: "Scrapy Pipeline Data Extractor"
-description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
+name: Scrapy Pipeline Data Extractor
+description: Builds production Scrapy spiders with custom Item Pipelines for data
+  cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping
+  and ItemLoader with MapCompose processors for field normalization.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
+source: https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Scrapy Pipeline Data Extractor
 
 This skill creates production-ready web scraping pipelines using the Scrapy framework. It builds spiders with proper crawl scoping using scrapy.linkextractors.LinkExtractor with allow/deny regex patterns, and handles pagination through CrawlSpider rules or manual next-page following.

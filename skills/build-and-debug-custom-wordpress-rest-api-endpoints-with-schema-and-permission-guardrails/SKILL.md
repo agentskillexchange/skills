@@ -1,14 +1,18 @@
 ---
-name: "Build and debug custom WordPress REST API endpoints with schema and permission guardrails"
-description: "Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST routes without skipping schema, auth, or permission_callback details. This is for agent-led endpoint work in plugins, themes, or core-adjacent codebases, not for browsing the WordPress REST API as a product catalog."
+name: Build and debug custom WordPress REST API endpoints with schema and permission
+  guardrails
+description: Uses the WordPress wp-rest-api skill to help an agent design, register,
+  validate, and troubleshoot custom REST routes without skipping schema, auth, or
+  permission_callback details. This is for agent-led endpoint work in plugins, themes,
+  or core-adjacent codebases, not for browsing the WordPress REST API as a product
+  catalog.
 verification: listed
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api"
+source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Build and debug custom WordPress REST API endpoints with schema and permission guardrails
 
 This entry is built from the official wp-rest-api skill in the WordPress/agent-skills repository. The underlying tool is not a generic SDK listing. It is a bounded agent workflow for building, extending, and debugging WordPress REST API routes in real codebases. The agent’s job here is concrete: locate existing REST usage, choose the right route strategy, register endpoints safely, define schemas and argument validation, wire up permission_callback, expose fields or meta when needed, and verify that the route behaves correctly under WordPress auth rules.

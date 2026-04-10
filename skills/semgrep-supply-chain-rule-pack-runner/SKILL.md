@@ -1,17 +1,19 @@
 ---
-name: "Semgrep Supply Chain Rule Pack Runner"
-description: "Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to surface risky patterns early. Useful when agents need to summarize security results in repo terms developers can act on immediately."
+name: Semgrep Supply Chain Rule Pack Runner
+description: Runs Semgrep code and supply-chain checks with `semgrep scan`, registry
+  rule packs, and dependency-aware findings to surface risky patterns early. Useful
+  when agents need to summarize security results in repo terms developers can act
+  on immediately.
 verification: security_reviewed
-source: "https://github.com/semgrep/semgrep"
+source: https://github.com/semgrep/semgrep
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 tool_ecosystem:
-  github_repo: "semgrep/semgrep"
+  github_repo: semgrep/semgrep
   github_stars: 14632
 ---
-
 # Semgrep Supply Chain Rule Pack Runner
 
 Semgrep Supply Chain Rule Pack Runner is intended for repositories that want fast, explainable security feedback without forcing every developer to become an AppSec specialist. It works with semgrep scan, Semgrep registry rule packs, and dependency-aware findings to identify risky code patterns and supply-chain issues in a way that is closer to developer workflows than a traditional audit memo. That makes it useful in pull-request review, repo health checks, and pre-release validation.

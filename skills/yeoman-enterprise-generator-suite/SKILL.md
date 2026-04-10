@@ -1,14 +1,16 @@
 ---
-name: "Yeoman Enterprise Generator Suite"
-description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
+name: Yeoman Enterprise Generator Suite
+description: Manages Yeoman generators for enterprise application scaffolding with
+  custom sub-generators. Handles Angular module generation via generator-angular,
+  Express API scaffolding, and composite generators with shared prompting and conflict
+  resolution.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/"
+source: https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Yeoman Enterprise Generator Suite
 
 The Yeoman Enterprise Generator Suite provides standardized application scaffolding across engineering teams using the Yeoman generator ecosystem. It manages custom generators built on the yeoman-generator base class with composable sub-generators for modular project assembly.

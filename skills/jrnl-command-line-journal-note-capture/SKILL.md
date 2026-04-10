@@ -1,17 +1,20 @@
 ---
-name: "jrnl Command-Line Journal and Note Capture Tool"
-description: "jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It stores entries as human-readable plain text with optional AES encryption, supports natural-language timestamps, and integrates with external editors and cloud sync services."
+name: jrnl Command-Line Journal and Note Capture Tool
+description: jrnl is a command-line journal application that lets you capture thoughts
+  and notes without leaving the terminal. It stores entries as human-readable plain
+  text with optional AES encryption, supports natural-language timestamps, and integrates
+  with external editors and cloud sync services.
 verification: security_reviewed
-source: "https://github.com/jrnl-org/jrnl"
+source: https://github.com/jrnl-org/jrnl
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "jrnl-org/jrnl"
+  github_repo: jrnl-org/jrnl
   github_stars: 7195
+  license: GPL-3.0
 ---
-
 # jrnl Command-Line Journal and Note Capture Tool
 
 jrnl is a lightweight command-line journal application designed for capturing thoughts, daily logs, and notes directly from the terminal. Built in Python and available on PyPI, jrnl uses a natural-language interface that parses timestamps and structures entries automatically. Typing jrnl yesterday: Had a great meeting. Discussed the project roadmap. creates a timestamped entry with title and body parsed from the sentence structure.

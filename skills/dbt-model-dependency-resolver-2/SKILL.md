@@ -1,15 +1,16 @@
 ---
-name: "dbt Model Dependency Resolver"
-description: "Analyzes dbt project DAGs to identify circular references, orphaned models, and suboptimal materialization strategies. Uses dbt-core manifest.json parsing with Jinja template resolution for accurate lineage tracking."
+name: dbt Model Dependency Resolver
+description: Analyzes dbt project DAGs to identify circular references, orphaned models,
+  and suboptimal materialization strategies. Uses dbt-core manifest.json parsing with
+  Jinja template resolution for accurate lineage tracking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/"
+source: https://agentskillexchange.com/skills/dbt-model-dependency-resolver-2/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
-  - "Multi-Framework"
+- Claude Code
+- Multi-Framework
 ---
-
 # dbt Model Dependency Resolver
 
 The dbt Model Dependency Resolver skill provides deep analysis of dbt project directed acyclic graphs (DAGs) by parsing manifest.json artifacts and resolving Jinja template references across models, sources, and exposures. It identifies circular dependencies, orphaned models without downstream consumers, and models with excessive fan-out that impact warehouse compute costs.

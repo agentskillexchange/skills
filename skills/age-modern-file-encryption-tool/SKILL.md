@@ -1,17 +1,18 @@
 ---
-name: "age Modern File Encryption Tool"
-description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows."
+name: age Modern File Encryption Tool
+description: Encrypt and decrypt files with age (FiloSottile/age), a simple, modern
+  encryption tool with small explicit keys, post-quantum support, no config options,
+  and UNIX-style composability. A practical replacement for GPG in most workflows.
 verification: security_reviewed
-source: "https://github.com/FiloSottile/age"
+source: https://github.com/FiloSottile/age
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "FiloSottile/age"
+  github_repo: FiloSottile/age
   github_stars: 21824
 ---
-
 # age Modern File Encryption Tool
 
 age is a simple, modern, and secure file encryption tool created by Filippo Valsorda. It provides a clean alternative to GPG for file encryption with a design philosophy centered on simplicity — small explicit keys, no configuration options, and composability with standard UNIX pipes. The project has over 21,000 GitHub stars and is packaged in every major Linux distribution, Homebrew, and Windows package managers.

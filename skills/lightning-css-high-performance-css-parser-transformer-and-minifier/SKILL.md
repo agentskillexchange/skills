@@ -1,17 +1,19 @@
 ---
-name: "Lightning CSS High-Performance CSS Parser Transformer and Minifier"
-description: "Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS syntax for target browsers, and integrate fast CSS processing into build or refactor workflows."
+name: Lightning CSS High-Performance CSS Parser Transformer and Minifier
+description: Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier
+  from the Parcel team. This skill is for agents that need to optimize stylesheets,
+  lower modern CSS syntax for target browsers, and integrate fast CSS processing into
+  build or refactor workflows.
 verification: security_reviewed
-source: "https://github.com/parcel-bundler/lightningcss"
+source: https://github.com/parcel-bundler/lightningcss
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "parcel-bundler/lightningcss"
+  github_repo: parcel-bundler/lightningcss
   github_stars: 7500
 ---
-
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier
 
 Lightning CSS is an open source CSS engine from the Parcel project that gives agents a fast, source-backed way to parse, transform, prefix, and minify stylesheets. It is written in Rust and published as the lightningcss npm package, with a standalone CLI, a JavaScript API, and Rust library support. The project is designed for build tooling and automation scenarios where an agent needs to make CSS changes safely and then produce browser-compatible output without chaining multiple separate tools.

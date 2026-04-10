@@ -1,17 +1,18 @@
 ---
-name: "Better Auth Authentication Framework for TypeScript Applications"
-description: "Better Auth is an open source authentication framework for TypeScript apps. It gives agents a concrete way to wire sign-in, sessions, passkeys, OAuth providers, and plugins into modern web stacks with real package and docs support."
+name: Better Auth Authentication Framework for TypeScript Applications
+description: Better Auth is an open source authentication framework for TypeScript
+  apps. It gives agents a concrete way to wire sign-in, sessions, passkeys, OAuth
+  providers, and plugins into modern web stacks with real package and docs support.
 verification: security_reviewed
-source: "https://github.com/better-auth/better-auth"
+source: https://github.com/better-auth/better-auth
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "better-auth/better-auth"
+  github_repo: better-auth/better-auth
   github_stars: 27725
 ---
-
 # Better Auth Authentication Framework for TypeScript Applications
 
 Better Auth is a real open source authentication framework built for TypeScript applications. The upstream project lives at GitHub under better-auth/better-auth, ships the better-auth npm package, and documents the core setup flow on the official Better Auth docs site. That makes it a strong fit for ASE because an agent can reference one package name, one upstream repository, and one documentation surface instead of inventing ad hoc auth glue.

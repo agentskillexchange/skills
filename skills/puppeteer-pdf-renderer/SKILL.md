@@ -1,14 +1,14 @@
 ---
-name: "Puppeteer PDF Renderer"
-description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
+name: Puppeteer PDF Renderer
+description: Generates pixel-perfect PDFs from web pages using Puppeteer with custom
+  headers, footers, and page breaks. Supports authenticated pages via cookie injection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-pdf-renderer/"
+source: https://agentskillexchange.com/skills/puppeteer-pdf-renderer/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Puppeteer PDF Renderer
 
 The Puppeteer PDF Renderer skill converts live web pages into high-fidelity PDF documents using the Puppeteer headless Chrome API. It handles complex CSS layouts including flexbox, grid, and print media queries to produce pixel-perfect output.

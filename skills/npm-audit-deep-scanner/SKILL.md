@@ -1,14 +1,15 @@
 ---
-name: "NPM Audit Deep Scanner"
-description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
+name: NPM Audit Deep Scanner
+description: Extends npm audit with deep transitive dependency analysis using the
+  npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against
+  the OSV.dev vulnerability database.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/npm-audit-deep-scanner/"
+source: https://agentskillexchange.com/skills/npm-audit-deep-scanner/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # NPM Audit Deep Scanner
 
 The NPM Audit Deep Scanner skill provides comprehensive JavaScript supply chain security analysis beyond standard npm audit capabilities. It queries the npm Registry API (registry.npmjs.org) to resolve complete dependency trees, identifying phantom dependencies and version conflicts invisible to standard tooling.

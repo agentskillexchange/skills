@@ -1,17 +1,19 @@
 ---
-name: "Teable No-Code Postgres Database Platform and Airtable Alternative"
-description: "Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access."
+name: Teable No-Code Postgres Database Platform and Airtable Alternative
+description: Teable is an open source no-code database platform built on PostgreSQL
+  that uses a spreadsheet-like interface for creating powerful database applications.
+  It supports real-time collaboration, scales to millions of rows, and provides a
+  REST API for programmatic access.
 verification: security_reviewed
-source: "https://github.com/teableio/teable"
+source: https://github.com/teableio/teable
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "teableio/teable"
+  github_repo: teableio/teable
   github_stars: 21084
 ---
-
 # Teable No-Code Postgres Database Platform and Airtable Alternative
 
 Teable is an open source, high-performance no-code database platform that combines the familiarity of a spreadsheet interface with the power of PostgreSQL underneath. Positioned as a next-generation Airtable alternative, Teable enables teams to build database applications without writing code while maintaining the full capabilities of a relational database.

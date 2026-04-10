@@ -1,17 +1,19 @@
 ---
-name: "Just Command Runner"
-description: "Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands. It uses a justfile syntax inspired by Make but focused on running commands rather than building targets, with support for parameters, dependencies, and multi-language recipes."
+name: Just Command Runner
+description: Just is a command runner written in Rust that provides a convenient way
+  to save and run project-specific commands. It uses a justfile syntax inspired by
+  Make but focused on running commands rather than building targets, with support
+  for parameters, dependencies, and multi-language recipes.
 verification: security_reviewed
-source: "https://github.com/casey/just"
+source: https://github.com/casey/just
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "casey/just"
+  github_repo: casey/just
   github_stars: 32526
 ---
-
 # Just Command Runner
 
 Just is a command runner written in Rust by Casey Rodarmor. It provides a convenient way to save and run project-specific commands using a justfile, similar to Make but focused purely on running commands rather than building targets. Just uses a syntax inspired by make but removes the quirks: no need for .PHONY targets, tab-vs-spaces issues, or dealing with build graph semantics when all you want is to run scripts.

@@ -1,14 +1,15 @@
 ---
-name: "Datadog Anomaly Detector"
-description: "Leverages the Datadog API v2 metrics and events endpoints to detect anomalous patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations via OpsGenie REST API."
+name: Datadog Anomaly Detector
+description: Leverages the Datadog API v2 metrics and events endpoints to detect anomalous
+  patterns. Uses the Datadog Monitors API to create dynamic thresholds and sends escalations
+  via OpsGenie REST API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-anomaly-detector/"
+source: https://agentskillexchange.com/skills/datadog-anomaly-detector/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Datadog Anomaly Detector
 
 The Datadog Anomaly Detector skill enables AI agents to perform proactive infrastructure monitoring by interfacing with the Datadog API v2. It queries the /api/v2/query/timeseries endpoint to pull metric data across configurable time windows, supporting all Datadog metric types including count, rate, gauge, and distribution.

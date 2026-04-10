@@ -1,14 +1,15 @@
 ---
-name: "OpenAPI Spec Compliance Checker"
-description: "Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser and Spectral linter rules. Checks response schemas, parameter types, authentication requirements, and generates compliance reports."
+name: OpenAPI Spec Compliance Checker
+description: Validates REST APIs against their OpenAPI 3.x specifications using swagger-parser
+  and Spectral linter rules. Checks response schemas, parameter types, authentication
+  requirements, and generates compliance reports.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openapi-spec-compliance-checker/"
+source: https://agentskillexchange.com/skills/openapi-spec-compliance-checker/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # OpenAPI Spec Compliance Checker
 
 The OpenAPI Spec Compliance Checker skill validates live REST API endpoints against their OpenAPI 3.0 and 3.1 specifications. It uses the swagger-parser library to resolve and dereference OpenAPI documents including remote $ref references, then applies Spectral custom rulesets for style and consistency checks.

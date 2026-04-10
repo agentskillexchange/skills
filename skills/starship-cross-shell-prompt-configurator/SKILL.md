@@ -1,17 +1,18 @@
 ---
-name: "Starship Cross-Shell Prompt Configurator"
-description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell, Ion, Elvish, Tcsh, Nushell, and Xonsh."
+name: Starship Cross-Shell Prompt Configurator
+description: The minimal, blazing-fast, and infinitely customizable prompt for any
+  shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell,
+  Ion, Elvish, Tcsh, Nushell, and Xonsh.
 verification: security_reviewed
-source: "https://github.com/starship/starship"
+source: https://github.com/starship/starship
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "starship/starship"
+  github_repo: starship/starship
   github_stars: 55675
 ---
-
 # Starship Cross-Shell Prompt Configurator
 
 Starship is a cross-shell prompt written in Rust that provides a fast, customizable, and informative command-line prompt experience. With over 55,000 GitHub stars, it is one of the most popular developer tools in the terminal ecosystem. Starship works identically across bash, zsh, fish, PowerShell, Ion, Elvish, Tcsh, Nushell, and Xonsh, making it a universal solution for prompt configuration regardless of shell preference.

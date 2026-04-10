@@ -1,14 +1,15 @@
 ---
-name: "Datadog Monitor Blueprint Generator"
-description: "Creates Datadog monitor definitions using the Datadog API v2 with metric, log, APM trace, and composite monitor types. Generates Terraform datadog_monitor resources with threshold and anomaly detection."
+name: Datadog Monitor Blueprint Generator
+description: Creates Datadog monitor definitions using the Datadog API v2 with metric,
+  log, APM trace, and composite monitor types. Generates Terraform datadog_monitor
+  resources with threshold and anomaly detection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/"
+source: https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Datadog Monitor Blueprint Generator
 
 The Datadog Monitor Blueprint Generator skill produces comprehensive Datadog monitoring configurations through the Datadog API v2 and Terraform provider. It creates metric monitors with threshold, anomaly (using AGILE, ROBUST, or BASIC algorithms), outlier, and forecast detection methods, log monitors with facet-based query filters and multi-alert group-by dimensions, and APM trace analytics monitors for service latency P99 tracking.

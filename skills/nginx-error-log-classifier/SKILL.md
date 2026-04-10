@@ -1,14 +1,15 @@
 ---
-name: "Nginx Error Log Classifier"
-description: "Classifies and prioritizes Nginx error log entries using pattern matching against known error signatures and the GoAccess real-time log analyzer. Maps upstream timeout patterns to specific backend service degradation."
+name: Nginx Error Log Classifier
+description: Classifies and prioritizes Nginx error log entries using pattern matching
+  against known error signatures and the GoAccess real-time log analyzer. Maps upstream
+  timeout patterns to specific backend service degradation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-error-log-classifier/"
+source: https://agentskillexchange.com/skills/nginx-error-log-classifier/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Nginx Error Log Classifier
 
 The Nginx Error Log Classifier skill processes Nginx error logs to identify, classify, and prioritize issues affecting web application delivery. It parses error.log entries using regex patterns matched against a curated database of known Nginx error signatures, categorizing them into upstream failures, SSL/TLS errors, configuration issues, and resource exhaustion events.

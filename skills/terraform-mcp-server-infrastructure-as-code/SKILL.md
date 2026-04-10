@@ -1,17 +1,19 @@
 ---
-name: "Terraform MCP Server for Infrastructure as Code"
-description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
+name: Terraform MCP Server for Infrastructure as Code
+description: The official HashiCorp Terraform MCP server integrates with the Terraform
+  Registry and HCP Terraform, enabling AI agents to browse providers, discover modules,
+  manage workspaces, and validate infrastructure configurations through the Model
+  Context Protocol.
 verification: security_reviewed
-source: "https://github.com/hashicorp/terraform-mcp-server"
+source: https://github.com/hashicorp/terraform-mcp-server
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "hashicorp/terraform-mcp-server"
+  github_repo: hashicorp/terraform-mcp-server
   github_stars: 1298
 ---
-
 # Terraform MCP Server for Infrastructure as Code
 
 The Terraform MCP Server is an official Model Context Protocol server built by HashiCorp that provides seamless integration with the Terraform ecosystem. It enables AI agents to interact with Terraform Registry APIs, HCP Terraform, and Terraform Enterprise through structured MCP tool calls, making it a key enabler for infrastructure-as-code automation with AI assistants.

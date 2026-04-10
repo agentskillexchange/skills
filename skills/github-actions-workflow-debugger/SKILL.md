@@ -1,14 +1,15 @@
 ---
-name: "GitHub Actions Workflow Debugger"
-description: "Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests fixes for runner environment issues."
+name: GitHub Actions Workflow Debugger
+description: Diagnoses failing GitHub Actions workflows using the GitHub REST API
+  v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML
+  syntax errors, and suggests fixes for runner environment issues.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/github-actions-workflow-debugger/"
+source: https://agentskillexchange.com/skills/github-actions-workflow-debugger/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # GitHub Actions Workflow Debugger
 
 The GitHub Actions Workflow Debugger automates the diagnosis of failing CI/CD workflows using the GitHub REST API v3. It queries the /repos/{owner}/{repo}/actions/runs endpoint to identify failed runs, then drills into individual jobs via /actions/jobs/{job_id}/logs to extract step-level error output.

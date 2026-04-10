@@ -1,14 +1,15 @@
 ---
-name: "Snowflake Query Optimizer Agent"
-description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE. Identifies expensive scans, recommends clustering keys, and monitors warehouse credit consumption via WAREHOUSE_METERING_HISTORY."
+name: Snowflake Query Optimizer Agent
+description: Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY
+  and ACCESS_HISTORY views in ACCOUNT_USAGE. Identifies expensive scans, recommends
+  clustering keys, and monitors warehouse credit consumption via WAREHOUSE_METERING_HISTORY.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/"
+source: https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Snowflake Query Optimizer Agent
 
 The Snowflake Query Optimizer Agent analyzes SQL performance using Snowflake's ACCOUNT_USAGE schema views. It queries QUERY_HISTORY for execution metrics including bytes scanned, compilation time, queuing time, and spill-to-disk indicators to identify optimization candidates.

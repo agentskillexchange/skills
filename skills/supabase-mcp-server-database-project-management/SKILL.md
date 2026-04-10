@@ -1,17 +1,19 @@
 ---
-name: "Supabase MCP Server for Database and Project Management"
-description: "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries, and project configuration through the Model Context Protocol."
+name: Supabase MCP Server for Database and Project Management
+description: An official MCP server that connects Supabase projects to AI assistants
+  like Claude, Cursor, and Windsurf. Enables natural-language database management,
+  table operations, SQL queries, and project configuration through the Model Context
+  Protocol.
 verification: security_reviewed
-source: "https://github.com/supabase-community/supabase-mcp"
+source: https://github.com/supabase-community/supabase-mcp
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "supabase-community/supabase-mcp"
+  github_repo: supabase-community/supabase-mcp
   github_stars: 2572
 ---
-
 # Supabase MCP Server for Database and Project Management
 
 The Supabase MCP Server is an official Model Context Protocol integration built by the Supabase community that connects your Supabase projects directly to AI assistants. Available at github.com/supabase-community/supabase-mcp, this server bridges the gap between natural language AI interactions and Supabase's powerful backend-as-a-service platform.

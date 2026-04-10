@@ -1,17 +1,18 @@
 ---
-name: "Yazi Async Terminal File Manager"
-description: "Yazi is a blazing-fast terminal file manager written in Rust with async I/O, image previews, Vim keybindings, and a Lua plugin system. It integrates with ripgrep, fd, fzf, and zoxide for a seamless developer workflow in the terminal."
+name: Yazi Async Terminal File Manager
+description: Yazi is a blazing-fast terminal file manager written in Rust with async
+  I/O, image previews, Vim keybindings, and a Lua plugin system. It integrates with
+  ripgrep, fd, fzf, and zoxide for a seamless developer workflow in the terminal.
 verification: security_reviewed
-source: "https://github.com/sxyazi/yazi"
+source: https://github.com/sxyazi/yazi
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "sxyazi/yazi"
+  github_repo: sxyazi/yazi
   github_stars: 35770
 ---
-
 # Yazi Async Terminal File Manager
 
 Yazi is a terminal file manager built in Rust that leverages non-blocking async I/O to deliver unmatched speed when browsing, previewing, and managing files. With over 35,000 GitHub stars, it has become one of the most popular terminal-based file management tools in the modern developer ecosystem.

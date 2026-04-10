@@ -1,14 +1,15 @@
 ---
-name: "ESLint Rule Analyzer"
-description: "Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config system. Detects rule conflicts, unused rules, and generates project-specific rule recommendations from eslint-plugin-unicorn and typescript-eslint."
+name: ESLint Rule Analyzer
+description: Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile)
+  and flat config system. Detects rule conflicts, unused rules, and generates project-specific
+  rule recommendations from eslint-plugin-unicorn and typescript-eslint.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-analyzer/"
+source: https://agentskillexchange.com/skills/eslint-rule-analyzer/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ESLint Rule Analyzer
 
 The ESLint Rule Analyzer skill provides deep analysis of ESLint configurations to optimize code quality rule sets. It uses the ESLint Node.js API, specifically the ESLint class constructor and calculateConfigForFile method, to resolve the effective configuration for any file path including flat config (eslint.config.js) and legacy .eslintrc formats.

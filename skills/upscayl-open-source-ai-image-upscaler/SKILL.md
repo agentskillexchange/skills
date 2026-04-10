@@ -1,17 +1,19 @@
 ---
-name: "Upscayl Open Source AI Image Upscaler"
-description: "Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution images, supporting batch processing, custom models, and multiple output formats."
+name: Upscayl Open Source AI Image Upscaler
+description: Upscayl is a free, open-source AI image upscaler for Linux, macOS, and
+  Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution
+  images, supporting batch processing, custom models, and multiple output formats.
 verification: security_reviewed
-source: "https://github.com/upscayl/upscayl"
+source: https://github.com/upscayl/upscayl
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "upscayl/upscayl"
+  github_repo: upscayl/upscayl
   github_stars: 44297
+  license: AGPL-3.0
 ---
-
 # Upscayl Open Source AI Image Upscaler
 
 Upscayl is a cross-platform desktop application that upscales images using AI-powered super-resolution models. Built with Electron and backed by a Real-ESRGAN engine using Vulkan GPU acceleration, Upscayl enhances low-resolution images by intelligently predicting and reconstructing fine details that were not present in the original.

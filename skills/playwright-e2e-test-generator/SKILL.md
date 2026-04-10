@@ -1,14 +1,15 @@
 ---
-name: "Playwright E2E Test Generator"
-description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
+name: Playwright E2E Test Generator
+description: Generates Playwright test suites from natural language descriptions using
+  the Playwright Test API. Supports cross-browser testing with Chromium, Firefox,
+  and WebKit via BrowserContext fixtures.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-e2e-test-generator/"
+source: https://agentskillexchange.com/skills/playwright-e2e-test-generator/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Playwright E2E Test Generator
 
 This skill generates complete Playwright end-to-end test suites from natural language test case descriptions. It leverages the Playwright Test runner with built-in fixtures for BrowserContext, Page, and custom test isolation.

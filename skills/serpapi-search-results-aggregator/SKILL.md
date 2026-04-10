@@ -1,14 +1,15 @@
 ---
-name: "SerpAPI Search Results Aggregator"
-description: "Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis."
+name: SerpAPI Search Results Aggregator
+description: Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect
+  SERP features, Knowledge Graph data, and organic results. Supports People Also Ask
+  extraction and trend analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/serpapi-search-results-aggregator/"
+source: https://agentskillexchange.com/skills/serpapi-search-results-aggregator/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # SerpAPI Search Results Aggregator
 
 The SerpAPI Search Results Aggregator skill interfaces with the SerpAPI service to programmatically collect search engine results from Google, Bing, DuckDuckGo, Yahoo, and Baidu. It extracts structured data including organic results, featured snippets, knowledge panels, People Also Ask boxes, and local pack listings.

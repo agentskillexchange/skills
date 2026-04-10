@@ -1,14 +1,15 @@
 ---
-name: "Terraform Cloud Run Inspector"
-description: "Queries the Terraform Cloud API to inspect plan outputs, apply logs, and state file changes. Analyzes resource diffs including module-level changes, provider version constraints, and Sentinel policy evaluation results."
+name: Terraform Cloud Run Inspector
+description: Queries the Terraform Cloud API to inspect plan outputs, apply logs,
+  and state file changes. Analyzes resource diffs including module-level changes,
+  provider version constraints, and Sentinel policy evaluation results.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/"
+source: https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Terraform Cloud Run Inspector
 
 Terraform Cloud Run Inspector is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving the operational context that matters for real tasks.

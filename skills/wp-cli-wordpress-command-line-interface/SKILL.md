@@ -1,17 +1,19 @@
 ---
-name: "WP-CLI WordPress Command Line Interface"
-description: "WP-CLI is the official command-line interface for WordPress, maintained as an open source project with extensive command docs and release history. It gives agents a reliable way to automate plugin, theme, database, transient, user, and multisite operations without driving the wp-admin UI."
+name: WP-CLI WordPress Command Line Interface
+description: WP-CLI is the official command-line interface for WordPress, maintained
+  as an open source project with extensive command docs and release history. It gives
+  agents a reliable way to automate plugin, theme, database, transient, user, and
+  multisite operations without driving the wp-admin UI.
 verification: security_reviewed
-source: "https://github.com/wp-cli/wp-cli"
+source: https://github.com/wp-cli/wp-cli
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
+  github_repo: wp-cli/wp-cli
   github_stars: 5055
 ---
-
 # WP-CLI WordPress Command Line Interface
 
 WP-CLI is the command-line interface for WordPress and is one of the most practical tools to wrap in an agent skill when a workflow needs deterministic site administration. Instead of clicking through wp-admin, an agent can call documented commands such as wp plugin install, wp theme activate, wp option get, wp transient delete, or wp search-replace to make changes in a repeatable way. The upstream project is published at wp-cli.org and in the official GitHub repository at github.com/wp-cli/wp-cli, where the project exposes release tags, an MIT license, and active maintenance.

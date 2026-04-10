@@ -1,14 +1,16 @@
 ---
-name: "Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS"
-description: "Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and API-first content delivery in one self-hostable stack."
+name: Ghost Open Source Publishing Platform for Memberships Newsletters and Headless
+  CMS
+description: Ghost is an open-source publishing platform built for modern blogs, newsletters,
+  memberships, and headless CMS use cases. It combines editorial workflows, subscription
+  management, and API-first content delivery in one self-hostable stack.
 verification: security_reviewed
-source: "https://github.com/TryGhost/Ghost"
+source: https://github.com/TryGhost/Ghost
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS
 
 Ghost is the open-source publishing platform maintained by TryGhost, designed for teams that want more than a basic blog engine. It supports long-form publishing, newsletters, paid memberships, and subscription flows in the same product, which makes it useful for media sites, independent publications, product marketing teams, and creator-led businesses. Because Ghost exposes both Content and Admin APIs, an agent can work against the same system that editors use, instead of stitching together a CMS, an email platform, and a paywall service.

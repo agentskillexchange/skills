@@ -1,19 +1,20 @@
 ---
-name: "Strapi Open Source Headless CMS with REST and GraphQL APIs"
-description: "Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL APIs from content types, provides a customizable admin panel, and supports roles, i18n, and plugin extensions."
+name: Strapi Open Source Headless CMS with REST and GraphQL APIs
+description: Strapi is the leading open-source headless CMS built with Node.js and
+  TypeScript. It auto-generates REST and GraphQL APIs from content types, provides
+  a customizable admin panel, and supports roles, i18n, and plugin extensions.
 verification: security_reviewed
-source: "https://github.com/strapi/strapi"
+source: https://github.com/strapi/strapi
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "strapi/strapi"
+  github_repo: strapi/strapi
   github_stars: 71740
-  ase_npm_package: "@strapi/strapi"
+  ase_npm_package: '@strapi/strapi'
   npm_weekly_downloads: 147371
 ---
-
 # Strapi Open Source Headless CMS with REST and GraphQL APIs
 
 Strapi is an open-source, self-hosted headless content management system written in JavaScript and TypeScript. With nearly 70,000 GitHub stars and over 20 million npm downloads, it is the most widely adopted open-source headless CMS. Strapi auto-generates both REST and GraphQL APIs from user-defined content types, eliminating the need for manual endpoint coding.

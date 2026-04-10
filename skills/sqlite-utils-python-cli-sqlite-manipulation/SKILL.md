@@ -1,17 +1,19 @@
 ---
-name: "sqlite-utils Python CLI for SQLite Database Manipulation"
-description: "sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you pipe JSON, CSV, or TSV data directly into SQLite, run in-memory SQL queries against files, configure full-text search, and perform schema transformations — all from the command line."
+name: sqlite-utils Python CLI for SQLite Database Manipulation
+description: sqlite-utils is a Python CLI utility and library by Simon Willison for
+  manipulating SQLite databases. It lets you pipe JSON, CSV, or TSV data directly
+  into SQLite, run in-memory SQL queries against files, configure full-text search,
+  and perform schema transformations — all from the command line.
 verification: security_reviewed
-source: "https://github.com/simonw/sqlite-utils"
+source: https://github.com/simonw/sqlite-utils
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "simonw/sqlite-utils"
+  github_repo: simonw/sqlite-utils
   github_stars: 2026
 ---
-
 # sqlite-utils Python CLI for SQLite Database Manipulation
 
 sqlite-utils is a Python command-line tool and library created by Simon Willison (creator of Datasette and Django co-creator) for working with SQLite databases. Available at github.com/simonw/sqlite-utils with extensive documentation at sqlite-utils.datasette.io, it has become a standard tool in the data engineering and analysis toolkit.

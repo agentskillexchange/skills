@@ -1,14 +1,19 @@
 ---
-name: "Parameterize and execute notebooks as repeatable runs"
-description: "Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive document. The skill injects parameters, runs the notebook end to end, and preserves the executed output as an artifact for review or handoff."
+name: Parameterize and execute notebooks as repeatable runs
+description: Use Papermill when an agent needs to treat a Jupyter notebook like a
+  reusable job instead of a one-off interactive document. The skill injects parameters,
+  runs the notebook end to end, and preserves the executed output as an artifact for
+  review or handoff.
 verification: listed
-source: "https://github.com/nteract/papermill"
+source: https://github.com/nteract/papermill
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  github_repo: nteract/papermill
+  github_stars: 6427
 ---
-
 # Parameterize and execute notebooks as repeatable runs
 
 This skill uses Papermill, the notebook execution tool from the nteract ecosystem, to turn a parameterized Jupyter notebook into a repeatable workflow step. An agent invokes it when a notebook already contains the right logic, but the work now needs to run with different inputs, on a schedule, or inside a larger automation chain without manual editing.

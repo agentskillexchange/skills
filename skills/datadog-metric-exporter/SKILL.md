@@ -1,14 +1,15 @@
 ---
-name: "Datadog Metric Exporter"
-description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
+name: Datadog Metric Exporter
+description: Exports custom metrics and traces to Datadog using the DogStatsD protocol
+  and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO
+  tracking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-metric-exporter/"
+source: https://agentskillexchange.com/skills/datadog-metric-exporter/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Datadog Metric Exporter
 
 The Datadog Metric Exporter skill sends custom application metrics to Datadog through both the DogStatsD UDP protocol for high-frequency data and the Datadog API v2 REST endpoints for batch submissions. It supports all metric types: count, rate, gauge, histogram, and distribution.

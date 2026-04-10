@@ -1,17 +1,20 @@
 ---
-name: "proselint Prose Linting and Style Checker CLI"
-description: "proselint is a Python CLI tool that lints English prose for style and usage issues. It aggregates writing advice from renowned authors and editors including Bryan Garner, David Foster Wallace, and Strunk & White into automated checks that scan text files and flag problems."
+name: proselint Prose Linting and Style Checker CLI
+description: proselint is a Python CLI tool that lints English prose for style and
+  usage issues. It aggregates writing advice from renowned authors and editors including
+  Bryan Garner, David Foster Wallace, and Strunk &#038; White into automated checks
+  that scan text files and flag problems.
 verification: security_reviewed
-source: "https://github.com/amperser/proselint"
+source: https://github.com/amperser/proselint
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "amperser/proselint"
+  github_repo: amperser/proselint
   github_stars: 4515
+  license: BSD-3-Clause
 ---
-
 # proselint Prose Linting and Style Checker CLI
 
 proselint is an open-source command-line linter for English prose, created by Amperser Labs. It scans text files and detects writing issues by encoding advice from the world's greatest writers and style guides into automated checks. The tool draws on expertise from Bryan Garner, David Foster Wallace, Chuck Palahniuk, Steve Pinker, Mary Norris, Mark Twain, Elmore Leonard, George Orwell, Matthew Butterick, William Strunk, and E.B. White, among others.

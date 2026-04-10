@@ -1,14 +1,15 @@
 ---
-name: "Scrapy Spider Architect"
-description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
+name: Scrapy Spider Architect
+description: Generates Scrapy spider classes with CSS/XPath selectors, item pipelines,
+  and middleware configurations for structured web scraping. Includes Scrapy-Splash
+  integration for JavaScript-rendered content.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapy-spider-architect/"
+source: https://agentskillexchange.com/skills/scrapy-spider-architect/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Scrapy Spider Architect
 
 The Scrapy Spider Architect skill generates production-ready Scrapy spider classes for structured web data extraction. It creates CrawlSpider and Spider subclasses with optimized CSS and XPath selectors, configuring request callbacks, pagination handling, and link extraction rules.

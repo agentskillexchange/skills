@@ -1,17 +1,18 @@
 ---
-name: "MailHog SMTP Testing Server with Web UI and API"
-description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
+name: MailHog SMTP Testing Server with Web UI and API
+description: Uses MailHog to capture outbound email in development and test environments
+  through a local SMTP server, browser UI, and JSON API. It is a practical fit for
+  debugging transactional mail, verifying templates, and testing delivery behavior
+  without sending messages to real recipients.
 verification: security_reviewed
-source: "https://github.com/mailhog/MailHog"
+source: https://github.com/mailhog/MailHog
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mailhog/mailhog"
-  github_stars: 15892
+  license: MIT
 ---
-
 # MailHog SMTP Testing Server with Web UI and API
 
 MailHog SMTP Testing Server with Web UI and API is anchored to the real MailHog project at mailhog/MailHog. MailHog is an email testing tool for developers that provides a local SMTP endpoint, a browser-accessible UI, and an HTTP API for listing and retrieving captured messages. The upstream README documents multiple install paths, including Homebrew, Docker, and Go-based installs, and explains its default ports, release workflow, and API-oriented usage.

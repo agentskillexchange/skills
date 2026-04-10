@@ -1,17 +1,19 @@
 ---
-name: "Posting Terminal API Client"
-description: "A modern, open-source HTTP client built as a terminal UI application. Posting provides a Postman-like experience entirely in the terminal, with keyboard-centric workflows, environment variables, syntax highlighting, and YAML-based request storage for version control."
+name: Posting Terminal API Client
+description: A modern, open-source HTTP client built as a terminal UI application.
+  Posting provides a Postman-like experience entirely in the terminal, with keyboard-centric
+  workflows, environment variables, syntax highlighting, and YAML-based request storage
+  for version control.
 verification: security_reviewed
-source: "https://github.com/darrenburns/posting"
+source: https://github.com/darrenburns/posting
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "darrenburns/posting"
+  github_repo: darrenburns/posting
   github_stars: 11673
 ---
-
 # Posting Terminal API Client
 
 Posting is an open-source terminal-based HTTP client created by Darren Burns, built with the Textual framework for Python. With over 11,000 GitHub stars and an Apache 2.0 license, it fills a gap for developers who want Postman-class API development and testing capabilities without leaving the command line.

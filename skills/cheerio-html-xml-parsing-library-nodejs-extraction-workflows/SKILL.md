@@ -1,14 +1,16 @@
 ---
-name: "Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows"
-description: "Cheerio is a long-running Node.js library for parsing and manipulating HTML and XML with a jQuery-like API. It is widely used in scraping, extraction, and content transformation pipelines where developers need fast server-side DOM traversal without a browser runtime."
+name: Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows
+description: Cheerio is a long-running Node.js library for parsing and manipulating
+  HTML and XML with a jQuery-like API. It is widely used in scraping, extraction,
+  and content transformation pipelines where developers need fast server-side DOM
+  traversal without a browser runtime.
 verification: security_reviewed
-source: "https://github.com/cheeriojs/cheerio"
+source: https://github.com/cheeriojs/cheerio
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows
 
 Cheerio is one of the most established HTML parsing libraries in the Node.js ecosystem. It provides a fast, lightweight API for loading HTML or XML, selecting elements with jQuery-style selectors, and transforming the resulting document tree in server-side code. For many extraction and cleanup tasks, it gives developers the DOM-style ergonomics they want without the overhead of launching a headless browser.

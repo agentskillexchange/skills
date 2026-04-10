@@ -1,14 +1,14 @@
 ---
-name: "Ruff Python Linter Configurator"
-description: "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution."
+name: Ruff Python Linter Configurator
+description: Generates optimized Ruff configuration from existing Flake8, isort, and
+  Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ruff-python-linter-configurator/"
+source: https://agentskillexchange.com/skills/ruff-python-linter-configurator/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Ruff Python Linter Configurator
 
 The Ruff Python Linter Configurator skill automates migration from legacy Python linting toolchains (Flake8, isort, Black, pylint, pycodestyle) to the Ruff linter by analyzing existing configuration files and generating equivalent ruff.toml or pyproject.toml [tool.ruff] sections.

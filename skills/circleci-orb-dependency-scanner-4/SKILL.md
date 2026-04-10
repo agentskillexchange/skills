@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Dependency Scanner"
-description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
+name: CircleCI Orb Dependency Scanner
+description: Scans CircleCI config.yml for outdated orb versions using the CircleCI
+  Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability
+  database lookups.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/"
+source: https://agentskillexchange.com/skills/circleci-orb-dependency-scanner-4/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # CircleCI Orb Dependency Scanner
 
 The CircleCI Orb Dependency Scanner skill provides automated security and freshness auditing for CircleCI pipeline configurations. It parses your config.yml to extract all orb references and queries the CircleCI Orbs Registry API to check for newer versions and deprecation notices.

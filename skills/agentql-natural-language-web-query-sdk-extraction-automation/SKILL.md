@@ -1,19 +1,22 @@
 ---
-name: "AgentQL Natural Language Web Query SDK for Extraction and Automation"
-description: "AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs integrate with Playwright and let agents target data and interface elements without depending on brittle CSS selectors alone."
+name: AgentQL Natural Language Web Query SDK for Extraction and Automation
+description: AgentQL is TinyFish&#8217;s web automation and extraction toolkit that
+  layers a natural-language query system on top of live sites. Its Python and JavaScript
+  SDKs integrate with Playwright and let agents target data and interface elements
+  without depending on brittle CSS selectors alone.
 verification: security_reviewed
-source: "https://github.com/tinyfish-io/agentql"
+source: https://github.com/tinyfish-io/agentql
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "tinyfish-io/agentql"
+  github_repo: tinyfish-io/agentql
   github_stars: 1311
-  ase_npm_package: "agentql"
+  ase_npm_package: agentql
   npm_weekly_downloads: 952
+  license: MIT
 ---
-
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 
 AgentQL is a web extraction and automation toolkit from TinyFish that adds a natural-language query layer on top of live browser sessions. The official repository describes it as a suite that includes Python and JavaScript SDKs, a REST API, a browser debugger, and integrations with tools such as Playwright. Instead of forcing developers to handcraft and maintain a pile of selectors, AgentQL lets them define structured outputs and target elements using higher-level queries tied to the meaning of the page.

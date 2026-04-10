@@ -1,17 +1,19 @@
 ---
-name: "Zed High-Performance Multiplayer Code Editor"
-description: "Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It features native AI integration, real-time collaboration, and GPU-accelerated rendering for an exceptionally fast editing experience across macOS, Linux, and Windows."
+name: Zed High-Performance Multiplayer Code Editor
+description: Zed is a high-performance, multiplayer code editor built in Rust by the
+  creators of Atom and Tree-sitter. It features native AI integration, real-time collaboration,
+  and GPU-accelerated rendering for an exceptionally fast editing experience across
+  macOS, Linux, and Windows.
 verification: security_reviewed
-source: "https://github.com/zed-industries/zed"
+source: https://github.com/zed-industries/zed
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "zed-industries/zed"
+  github_repo: zed-industries/zed
   github_stars: 78608
 ---
-
 # Zed High-Performance Multiplayer Code Editor
 
 Zed is a next-generation code editor built from the ground up in Rust by Zed Industries, the team behind the Atom editor and Tree-sitter parsing library. It combines the speed of native applications with modern collaboration and AI-assisted coding features, making it one of the fastest-growing developer tools in the open-source ecosystem.

@@ -1,17 +1,19 @@
 ---
-name: "act Local GitHub Actions Runner"
-description: "act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. With 57,000+ stars on GitHub, it is the standard tool for local Actions development and testing."
+name: act Local GitHub Actions Runner
+description: act is an open-source CLI tool that runs GitHub Actions workflows locally
+  using Docker, enabling fast feedback on workflow changes without pushing to GitHub.
+  With 57,000+ stars on GitHub, it is the standard tool for local Actions development
+  and testing.
 verification: security_reviewed
-source: "https://github.com/nektos/act"
+source: https://github.com/nektos/act
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "nektos/act"
+  github_repo: nektos/act
   github_stars: 69661
 ---
-
 # act Local GitHub Actions Runner
 
 act is an open-source command-line tool that executes GitHub Actions workflows on your local machine, available at github.com/nektos/act with over 57,000 GitHub stars. Its tagline is &#8220;Think globally, act locally&#8221; — it reads your .github/workflows/ directory, resolves the dependency graph between jobs and steps, and runs each action in Docker containers that replicate the GitHub-hosted runner environment.

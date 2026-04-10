@@ -1,14 +1,14 @@
 ---
-name: "Self-Improvement / Learnings Capture"
-description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
+name: Self-Improvement / Learnings Capture
+description: Capture failures, corrections, and repeatable lessons so important operational
+  knowledge persists across sessions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/self-improvement-learnings-capture/"
+source: https://agentskillexchange.com/skills/self-improvement-learnings-capture/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Self-Improvement / Learnings Capture
 
 Self-Improvement / Learnings Capture is a workflow skill for turning one-off errors and corrections into durable operating knowledge. Instead of losing lessons between sessions, it helps store them in structured markdown files and promote recurring patterns into workspace guidance.

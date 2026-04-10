@@ -1,17 +1,19 @@
 ---
-name: "Inngest Event-Driven Durable Workflow Orchestration Platform"
-description: "Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable event-driven workflows triggered by events, cron schedules, or webhooks, with built-in retries, concurrency control, and flow control."
+name: Inngest Event-Driven Durable Workflow Orchestration Platform
+description: Inngest is an open-source workflow orchestration platform that replaces
+  queues, state management, and scheduling with durable step functions. It enables
+  developers to write reliable event-driven workflows triggered by events, cron schedules,
+  or webhooks, with built-in retries, concurrency control, and flow control.
 verification: security_reviewed
-source: "https://github.com/inngest/inngest"
+source: https://github.com/inngest/inngest
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "inngest/inngest"
+  github_repo: inngest/inngest
   github_stars: 5151
 ---
-
 # Inngest Event-Driven Durable Workflow Orchestration Platform
 
 Inngest is an open-source event-driven workflow orchestration platform that enables developers to write reliable, durable step functions without managing queue infrastructure. Created by Inngest Inc., the platform handles event routing, state management, retries, scheduling, and concurrency control so developers can focus on business logic.

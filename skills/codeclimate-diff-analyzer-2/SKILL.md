@@ -1,14 +1,15 @@
 ---
-name: "CodeClimate Diff Analyzer"
-description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
+name: CodeClimate Diff Analyzer
+description: Runs CodeClimate analysis on pull request diffs using the CLI engine
+  and reports new issues inline. Calculates maintainability impact scores per changed
+  file.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/"
+source: https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # CodeClimate Diff Analyzer
 
 The CodeClimate Diff Analyzer skill runs targeted code quality analysis on pull request changesets using the CodeClimate CLI engine in diff mode. Instead of analyzing the entire codebase, it focuses on changed files to provide fast, relevant feedback on new code quality issues.

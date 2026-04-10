@@ -1,17 +1,18 @@
 ---
-name: "GoReleaser Cross-Platform Release Automation"
-description: "Automate software releases with GoReleaser — build cross-platform binaries, create Docker images, generate changelogs, and publish to GitHub/GitLab/Gitea in a single command. Works for Go projects and beyond."
+name: GoReleaser Cross-Platform Release Automation
+description: Automate software releases with GoReleaser — build cross-platform binaries,
+  create Docker images, generate changelogs, and publish to GitHub/GitLab/Gitea in
+  a single command. Works for Go projects and beyond.
 verification: security_reviewed
-source: "https://github.com/goreleaser/goreleaser"
+source: https://github.com/goreleaser/goreleaser
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "goreleaser/goreleaser"
+  github_repo: goreleaser/goreleaser
   github_stars: 15686
 ---
-
 # GoReleaser Cross-Platform Release Automation
 
 GoReleaser is a release automation tool originally built for Go projects that now supports any language through its nix and build customization features. With over 15,000 GitHub stars and active daily development, it handles the entire release pipeline: compiling binaries for multiple OS/architecture combinations, packaging them as archives, building Docker images, generating changelogs from git history, signing artifacts, and publishing to GitHub Releases, GitLab, Gitea, Homebrew taps, Scoop buckets, Snapcraft, and package registries.

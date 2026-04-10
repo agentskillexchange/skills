@@ -1,17 +1,19 @@
 ---
-name: "Heisenberg Supply Chain Health Checker"
-description: "An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios."
+name: Heisenberg Supply Chain Health Checker
+description: An open-source software supply chain health check tool that analyzes
+  dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates
+  health scores, detects risky packages, and produces CSV reports for individual dependencies
+  or entire GitHub organization portfolios.
 verification: security_reviewed
-source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
+source: https://github.com/AppOmni-Labs/heisenberg-ssc-health-check
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
+  github_repo: AppOmni-Labs/heisenberg-ssc-health-check
   github_stars: 123
 ---
-
 # Heisenberg Supply Chain Health Checker
 
 Heisenberg is an open-source supply chain security tool developed by AppOmni Labs that analyzes software dependencies to identify vulnerabilities and health risks. Licensed under MIT and actively maintained on GitHub, it bridges the gap between generating Software Bills of Materials (SBOMs) and actually acting on them by scoring package health and flagging risky dependencies before they reach production.

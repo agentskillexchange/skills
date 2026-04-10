@@ -1,14 +1,16 @@
 ---
-name: "Diffbot Article Extraction Verifier"
-description: "Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful for verifying whether an extraction pipeline is capturing real editorial structure instead of noisy page chrome."
+name: Diffbot Article Extraction Verifier
+description: Validates article extraction quality using the Diffbot Article API and
+  Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful
+  for verifying whether an extraction pipeline is capturing real editorial structure
+  instead of noisy page chrome.
 verification: security_reviewed
-source: "https://www.diffbot.com/dev/docs/"
+source: https://www.diffbot.com/dev/docs/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Diffbot Article Extraction Verifier
 
 Diffbot Article Extraction Verifier is for workflows that depend on machine-readable article data and need confidence that extraction quality is actually good. The skill uses the Diffbot Article API and Analyze API to inspect fields such as title, author, date, text, tags, and page type classification. Rather than assuming a response is correct because the request succeeded, it evaluates whether the extracted content looks like a real article or a thin mixture of headers, nav labels, and unrelated sidebar text.

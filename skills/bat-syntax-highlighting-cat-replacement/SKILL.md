@@ -1,17 +1,19 @@
 ---
-name: "bat Syntax-Highlighting Cat Replacement"
-description: "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files."
+name: bat Syntax-Highlighting Cat Replacement
+description: bat is a cat(1) clone written in Rust that adds syntax highlighting for
+  over 200 languages, Git integration showing file modifications, automatic paging,
+  and line numbering. It serves as a drop-in replacement for cat with enhanced readability
+  for code and configuration files.
 verification: security_reviewed
-source: "https://github.com/sharkdp/bat"
+source: https://github.com/sharkdp/bat
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "sharkdp/bat"
+  github_repo: sharkdp/bat
   github_stars: 57909
 ---
-
 # bat Syntax-Highlighting Cat Replacement
 
 bat is a command-line file viewer created by David Peter (sharkdp) and written in Rust. It reads files and prints their contents to the terminal with syntax highlighting, line numbers, Git change markers, and automatic paging. When piped to another command or redirected to a file, bat falls back to plain text output identical to cat, making it safe to use as an alias.

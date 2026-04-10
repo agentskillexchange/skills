@@ -1,14 +1,15 @@
 ---
-name: "ArgoCD Application Sync Monitor"
-description: "Monitors ArgoCD application sync status via the ArgoCD REST API and argocd CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed sync operations with detailed resource diff analysis using argocd app diff."
+name: ArgoCD Application Sync Monitor
+description: Monitors ArgoCD application sync status via the ArgoCD REST API and argocd
+  CLI. Detects OutOfSync conditions, tracks sync wave progress, and alerts on failed
+  sync operations with detailed resource diff analysis using argocd app diff.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-application-sync-monitor/"
+source: https://agentskillexchange.com/skills/argocd-application-sync-monitor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ArgoCD Application Sync Monitor
 
 The ArgoCD Application Sync Monitor skill provides continuous monitoring of GitOps application deployments managed by ArgoCD. It connects to the ArgoCD server via its REST API to query application sync status, health state, and resource details across multiple clusters.

@@ -1,14 +1,16 @@
 ---
-name: "Nylas Platform SDK for Unified Email Calendar and Contacts API"
-description: "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs."
+name: Nylas Platform SDK for Unified Email Calendar and Contacts API
+description: Nylas provides REST APIs and SDKs for Python and Node.js that offer unified
+  access to email, calendar, and contacts across all major providers including Gmail,
+  Outlook, and Exchange. Build email and scheduling integrations without managing
+  individual provider APIs.
 verification: security_reviewed
-source: "https://github.com/nylas/nylas-python"
+source: https://github.com/nylas/nylas-python
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Nylas Platform SDK for Unified Email Calendar and Contacts API
 
 The Nylas platform provides a single set of REST APIs that abstract away the complexity of connecting to email, calendar, and contacts providers. Instead of building and maintaining separate integrations for Gmail, Microsoft Outlook, Exchange, Yahoo, and IMAP providers, developers use the Nylas SDK to interact with a unified API that handles provider-specific differences behind the scenes.

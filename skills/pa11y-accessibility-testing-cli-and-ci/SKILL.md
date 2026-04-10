@@ -1,19 +1,21 @@
 ---
-name: "Pa11y Accessibility Testing CLI and CI"
-description: "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This skill uses Pa11y to turn page-level accessibility checks into actionable reports with issue counts, selectors, and remediation context."
+name: Pa11y Accessibility Testing CLI and CI
+description: Pa11y is a real open-source accessibility testing tool that lets agents
+  audit pages for WCAG issues from the command line or in CI. This skill uses Pa11y
+  to turn page-level accessibility checks into actionable reports with issue counts,
+  selectors, and remediation context.
 verification: security_reviewed
-source: "https://github.com/pa11y/pa11y"
+source: https://github.com/pa11y/pa11y
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "pa11y/pa11y"
+  github_repo: pa11y/pa11y
   github_stars: 4418
-  ase_npm_package: "pa11y"
+  ase_npm_package: pa11y
   npm_weekly_downloads: 204792
 ---
-
 # Pa11y Accessibility Testing CLI and CI
 
 Pa11y is an automated accessibility testing tool for websites and web applications, delivered as both a CLI and a JavaScript package. A skill built around Pa11y helps an agent run accessibility scans against one page, a route list, or a sitemap and then convert the results into a remediation plan. The concrete job-to-be-done is to detect accessibility issues early: missing labels, color contrast problems, semantic markup gaps, ARIA misuse, focus issues, and other WCAG-related violations that block users and create QA debt.

@@ -1,17 +1,19 @@
 ---
-name: "Healthchecks.io Cron Job Monitoring and Alerting Platform"
-description: "Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a dashboard, API, and notification integrations for tracking recurring jobs without building their own heartbeat system."
+name: Healthchecks.io Cron Job Monitoring and Alerting Platform
+description: Healthchecks.io is an open-source cron and background task monitoring
+  platform that alerts when scheduled jobs fail to ping on time. It gives teams a
+  dashboard, API, and notification integrations for tracking recurring jobs without
+  building their own heartbeat system.
 verification: security_reviewed
-source: "https://github.com/healthchecks/healthchecks"
+source: https://github.com/healthchecks/healthchecks
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "healthchecks/healthchecks"
+  github_repo: healthchecks/healthchecks
   github_stars: 9967
 ---
-
 # Healthchecks.io Cron Job Monitoring and Alerting Platform
 
 Healthchecks.io is an open-source monitoring platform built for one very specific job: making sure cron jobs, scheduled scripts, and background workers actually run when they are supposed to. Instead of instrumenting a full metrics stack just to watch a few periodic tasks, you configure each job to send a ping by HTTP request or email message. If the ping does not arrive within the expected period and grace window, Healthchecks.io marks the check as late and sends alerts.

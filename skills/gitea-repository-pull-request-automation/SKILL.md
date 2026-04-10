@@ -1,14 +1,16 @@
 ---
-name: "Gitea Repository & Pull Request Automation"
-description: "Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software teams that want GitHub-like automation without leaving their own infrastructure."
+name: Gitea Repository &#038; Pull Request Automation
+description: Automates repository administration, pull request workflows, issue triage,
+  and release operations against Gitea using its REST API and webhook system. Useful
+  for self-hosted software teams that want GitHub-like automation without leaving
+  their own infrastructure.
 verification: security_reviewed
-source: "https://github.com/go-gitea/gitea"
+source: https://github.com/go-gitea/gitea
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Gitea Repository & Pull Request Automation
 
 Gitea Repository & Pull Request Automation is a tool-anchored skill built around Gitea, the self-hosted Git service maintained by the go-gitea organization. It is designed for agents that need to work against a private forge instead of GitHub: creating repositories, opening or reviewing pull requests, syncing labels and milestones, managing releases, and responding to webhooks from internal development systems. Because Gitea exposes a documented REST API for repositories, issues, pull requests, branches, tags, packages, users, and organizations, it gives agents a concrete surface area for repeatable automation rather than vague UI scripting.

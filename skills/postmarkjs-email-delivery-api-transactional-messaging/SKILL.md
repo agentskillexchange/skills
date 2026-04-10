@@ -1,17 +1,19 @@
 ---
-name: "Postmark.js Email Delivery API for Transactional Messaging"
-description: "postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and message streams from code. It is a strong fit for skills that automate outbound notifications, email workflows, and delivery-aware application integrations."
+name: Postmark.js Email Delivery API for Transactional Messaging
+description: postmark.js is the official Node.js library for the Postmark API, used
+  to send transactional email, templates, and message streams from code. It is a strong
+  fit for skills that automate outbound notifications, email workflows, and delivery-aware
+  application integrations.
 verification: security_reviewed
-source: "https://github.com/ActiveCampaign/postmark.js"
+source: https://github.com/ActiveCampaign/postmark.js
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "ActiveCampaign/postmark.js"
+  github_repo: ActiveCampaign/postmark.js
   github_stars: 357
 ---
-
 # Postmark.js Email Delivery API for Transactional Messaging
 
 postmark.js is the official Node.js client library for the Postmark API. The upstream project is maintained in the ActiveCampaign/postmark.js GitHub repository, published as the postmark npm package, and documented through the Postmark developer docs. It provides a typed, programmatic way to send transactional email, work with templates, manage message streams, and integrate Postmark delivery features into application code.

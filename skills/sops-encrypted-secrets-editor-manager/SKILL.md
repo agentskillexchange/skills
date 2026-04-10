@@ -1,17 +1,20 @@
 ---
-name: "SOPS Encrypted Secrets Editor and Manager"
-description: "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories."
+name: SOPS Encrypted Secrets Editor and Manager
+description: SOPS (Secrets OPerationS) is an editor of encrypted files that supports
+  YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure
+  Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing
+  secrets in version-controlled repositories.
 verification: security_reviewed
-source: "https://github.com/getsops/sops"
+source: https://github.com/getsops/sops
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "getsops/sops"
+  github_repo: getsops/sops
   github_stars: 21312
+  license: MPL-2.0
 ---
-
 # SOPS Encrypted Secrets Editor and Manager
 
 SOPS is a battle-tested open-source tool for encrypting and decrypting structured data files while keeping them version-control friendly. Unlike full-file encryption that produces opaque binary blobs, SOPS encrypts only the values in your YAML, JSON, ENV, INI, or binary files while leaving the keys visible. This means you can review diffs, merge changes, and audit secrets in Git without ever exposing sensitive data in plaintext.

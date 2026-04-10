@@ -1,17 +1,18 @@
 ---
-name: "yq YAML and Structured Data Processor"
-description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats."
+name: yq YAML and Structured Data Processor
+description: Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties
+  files from the command line using yq. Supports jq-like expressions for reading,
+  updating, and converting between formats.
 verification: security_reviewed
-source: "https://github.com/mikefarah/yq"
+source: https://github.com/mikefarah/yq
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "mikefarah/yq"
+  github_repo: mikefarah/yq
   github_stars: 15143
 ---
-
 # yq YAML and Structured Data Processor
 
 The yq YAML and Structured Data Processor skill uses mikefarah/yq, a portable command-line tool that applies jq-like expression syntax to YAML, JSON, XML, CSV, TOML, INI, HCL, and properties files. With over 15,000 GitHub stars and millions of downloads, yq is the go-to tool for configuration file manipulation in DevOps and infrastructure automation workflows.

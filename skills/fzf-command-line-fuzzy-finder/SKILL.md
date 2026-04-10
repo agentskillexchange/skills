@@ -1,17 +1,19 @@
 ---
-name: "fzf Command-Line Fuzzy Finder"
-description: "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes, git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted characters and typos."
+name: fzf Command-Line Fuzzy Finder
+description: fzf is a general-purpose command-line fuzzy finder written in Go. It
+  works as an interactive filter for any list — files, command history, processes,
+  git branches, bookmarks — using a fuzzy matching algorithm that tolerates omitted
+  characters and typos.
 verification: security_reviewed
-source: "https://github.com/junegunn/fzf"
+source: https://github.com/junegunn/fzf
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "junegunn/fzf"
+  github_repo: junegunn/fzf
   github_stars: 79165
 ---
-
 # fzf Command-Line Fuzzy Finder
 
 fzf is an interactive Unix filter program created by Junegunn Choi and written in Go. Given any list piped to its stdin, fzf presents a full-screen or inline finder interface where the user types a query and sees matching results ranked by relevance in real time. The fuzzy matching algorithm handles character transpositions and omissions, making it fast to locate items without typing exact strings.

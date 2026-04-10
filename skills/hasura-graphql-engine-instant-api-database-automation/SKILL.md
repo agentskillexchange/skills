@@ -1,17 +1,19 @@
 ---
-name: "Hasura GraphQL Engine for Instant API and Database Automation"
-description: "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is useful when an agent needs to inspect schemas, expose structured data safely, or automate backend workflows without hand-writing resolvers."
+name: Hasura GraphQL Engine for Instant API and Database Automation
+description: Hasura turns Postgres and other supported data sources into a production-ready
+  GraphQL API with realtime subscriptions, event triggers, and role-based permissions.
+  This skill is useful when an agent needs to inspect schemas, expose structured data
+  safely, or automate backend workflows without hand-writing resolvers.
 verification: security_reviewed
-source: "https://github.com/hasura/graphql-engine"
+source: https://github.com/hasura/graphql-engine
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hasura/graphql-engine"
+  github_repo: hasura/graphql-engine
   github_stars: 31934
 ---
-
 # Hasura GraphQL Engine for Instant API and Database Automation
 
 Hasura GraphQL Engine is a mature open-source backend platform that generates GraphQL APIs directly from your database and layers on permissions, metadata, event triggers, and webhook automation. For agent workflows, that makes it a strong fit when you want an assistant to reason over a structured schema, inspect tables, generate queries, or wire a database into a larger automation pipeline without first building a custom API service. Instead of spending time on resolver code, the agent can work with a consistent GraphQL surface that reflects your underlying models.

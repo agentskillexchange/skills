@@ -1,14 +1,19 @@
 ---
-name: "Generate adversarial API test cases from an OpenAPI or GraphQL schema"
-description: "Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of hand-writing examples. The skill exercises live endpoints or app hooks, explores unexpected combinations, and reports failures that ordinary happy-path tests miss."
+name: Generate adversarial API test cases from an OpenAPI or GraphQL schema
+description: Use Schemathesis when an agent needs to turn an API schema into broad
+  negative and edge-case coverage instead of hand-writing examples. The skill exercises
+  live endpoints or app hooks, explores unexpected combinations, and reports failures
+  that ordinary happy-path tests miss.
 verification: listed
-source: "https://github.com/schemathesis/schemathesis"
+source: https://github.com/schemathesis/schemathesis
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  github_repo: schemathesis/schemathesis
+  github_stars: 3211
 ---
-
 # Generate adversarial API test cases from an OpenAPI or GraphQL schema
 
 This skill uses Schemathesis, the open source property-based API testing tool for OpenAPI and GraphQL services, to generate high-variance test traffic from a machine-readable schema. An agent invokes it when the goal is not just to call an API, but to actively probe it for crashes, invariant violations, schema mismatches, flaky validation, and 5xx responses that appear only under unusual inputs.

@@ -1,14 +1,16 @@
 ---
-name: "Build and debug interactive WordPress frontends with data-wp directives"
-description: "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when a block, theme, or plugin needs directive-driven interactivity rather than ad hoc frontend glue."
+name: Build and debug interactive WordPress frontends with data-wp directives
+description: This skill helps an agent create or troubleshoot WordPress Interactivity
+  API behavior, from store wiring to server-rendered state and hydration checks. Use
+  it when a block, theme, or plugin needs directive-driven interactivity rather than
+  ad hoc frontend glue.
 verification: listed
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api"
+source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Build and debug interactive WordPress frontends with data-wp directives
 
 This entry is based on the wp-interactivity-api skill from the official WordPress/agent-skills repository. The agent behavior is precise: detect existing Interactivity API usage, identify stores and directives, align server-rendered state with client hydration, and debug why interactive markup is inert or inconsistent. That is a concrete job-to-be-done, not a generic description of a frontend API.

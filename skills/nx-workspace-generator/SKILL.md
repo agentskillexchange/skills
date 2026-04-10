@@ -1,14 +1,15 @@
 ---
-name: "Nx Workspace Generator"
-description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
+name: Nx Workspace Generator
+description: Creates and manages Nx monorepo workspace generators using @nx/devkit
+  and the Nx plugin API. Generates libraries, applications, and custom executors with
+  automatic dependency graph updates via nx graph.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nx-workspace-generator/"
+source: https://agentskillexchange.com/skills/nx-workspace-generator/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Nx Workspace Generator
 
 The Nx Workspace Generator skill manages monorepo scaffolding and code generation through the Nx build system. It uses @nx/devkit to create custom workspace generators that produce libraries, applications, and shared utilities following monorepo best practices.

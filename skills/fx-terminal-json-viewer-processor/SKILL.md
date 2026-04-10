@@ -1,19 +1,21 @@
 ---
-name: "fx Terminal JSON Viewer and Processor"
-description: "fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and transforming JSON, YAML, and TOML data. Built in Go with support for JavaScript/Python expressions, it replaces piping through jq for quick data exploration."
+name: fx Terminal JSON Viewer and Processor
+description: fx is a terminal-based JSON viewer and processor that provides an interactive
+  TUI for navigating, filtering, and transforming JSON, YAML, and TOML data. Built
+  in Go with support for JavaScript/Python expressions, it replaces piping through
+  jq for quick data exploration.
 verification: security_reviewed
-source: "https://github.com/antonmedv/fx"
+source: https://github.com/antonmedv/fx
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "antonmedv/fx"
+  github_repo: antonmedv/fx
   github_stars: 20376
-  ase_npm_package: "fx"
+  ase_npm_package: fx
   npm_weekly_downloads: 190694
 ---
-
 # fx Terminal JSON Viewer and Processor
 
 fx is a terminal JSON viewer and processor created by Anton Medvedev. Written in Go, it provides both a rich text-based user interface (TUI) for interactively browsing structured data and a command-line processing mode for scripted transformations. It supports JSON, YAML, and TOML formats out of the box.

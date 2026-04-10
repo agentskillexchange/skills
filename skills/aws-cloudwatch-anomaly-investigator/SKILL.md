@@ -1,14 +1,15 @@
 ---
-name: "AWS CloudWatch Anomaly Investigator"
-description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
+name: AWS CloudWatch Anomaly Investigator
+description: Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData
+  and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment
+  events from CodeDeploy.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/"
+source: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # AWS CloudWatch Anomaly Investigator
 
 The AWS CloudWatch Anomaly Investigator skill automates incident investigation by correlating CloudWatch metric anomalies with log entries and deployment events. It uses the AWS SDK v3 CloudWatch.getMetricData API to pull metric timeseries with anomaly band data from CloudWatch Anomaly Detection.

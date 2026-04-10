@@ -1,14 +1,15 @@
 ---
-name: "Rust Crates.io Explorer"
-description: "Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing."
+name: Rust Crates.io Explorer
+description: Searches the crates.io REST API for Rust crate metadata, version diffs,
+  and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval
+  and lib.rs category browsing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
+source: https://agentskillexchange.com/skills/rust-crates-io-explorer/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Rust Crates.io Explorer
 
 The Rust Crates.io Explorer skill enables fast discovery and analysis of Rust crates through the crates.io REST API. It retrieves crate metadata including version histories, feature flags, dependency requirements, and owner information.

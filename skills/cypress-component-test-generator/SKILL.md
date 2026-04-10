@@ -1,14 +1,14 @@
 ---
-name: "Cypress Component Test Generator"
-description: "Auto-generates Cypress component tests from React and Vue source files using AST parsing. Produces mount, interaction, and accessibility test cases."
+name: Cypress Component Test Generator
+description: Auto-generates Cypress component tests from React and Vue source files
+  using AST parsing. Produces mount, interaction, and accessibility test cases.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-component-test-generator/"
+source: https://agentskillexchange.com/skills/cypress-component-test-generator/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Cypress Component Test Generator
 
 The Cypress Component Test Generator skill analyzes React and Vue component source files using Babel AST parsing to automatically generate comprehensive Cypress component test suites. It identifies props interfaces, event handlers, conditional renders, and slot content to produce meaningful test coverage.

@@ -1,14 +1,16 @@
 ---
-name: "dbt Model Lineage & Test Coverage Checker"
-description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status."
+name: dbt Model Lineage &amp; Test Coverage Checker
+description: Parses dbt project artifacts (manifest.json and catalog.json) to build
+  a lineage graph and identify models with no tests, stale documentation, or missing
+  uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results
+  and annotates each model with pass/fail status.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
+source: https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # dbt Model Lineage & Test Coverage Checker
 
 dbt Model Lineage & Test Coverage Checker is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context that matters for real tasks.

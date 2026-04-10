@@ -1,14 +1,15 @@
 ---
-name: "Incident Timeline Builder"
-description: "Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives. Correlates alerts with deployment events for root cause analysis."
+name: Incident Timeline Builder
+description: Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors
+  API, and Slack message archives. Correlates alerts with deployment events for root
+  cause analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/incident-timeline-builder/"
+source: https://agentskillexchange.com/skills/incident-timeline-builder/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Incident Timeline Builder
 
 The Incident Timeline Builder skill automates the construction of detailed incident timelines by aggregating data from multiple operational tools. It queries the PagerDuty Events API v2 for alert triggers, acknowledgments, and escalations, the Datadog Monitors API for metric anomalies and threshold breaches, and Slack message archives for human communication context.

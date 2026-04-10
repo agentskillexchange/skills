@@ -1,14 +1,15 @@
 ---
-name: "Mustache Template Renderer"
-description: "Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration."
+name: Mustache Template Renderer
+description: Renders Mustache logic-less templates with partials resolution and lambda
+  support. Uses the mustache.js library for client and server-side rendering with
+  custom delimiter configuration.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/mustache-template-renderer-agent/"
+source: https://agentskillexchange.com/skills/mustache-template-renderer-agent/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Mustache Template Renderer
 
 The Mustache Template Renderer skill provides automated rendering of Mustache logic-less templates using the mustache.js library. It supports the full Mustache specification including variables, sections, inverted sections, partials, and comments with proper HTML entity escaping.

@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Performance Diagnostics"
-description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
+name: PostgreSQL Performance Diagnostics
+description: Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables,
+  and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes
+  and detects lock contention through pg_locks and pg_stat_activity.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-performance-diagnostics/"
+source: https://agentskillexchange.com/skills/postgresql-performance-diagnostics/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 ---
-
 # PostgreSQL Performance Diagnostics
 
 The PostgreSQL Performance Diagnostics skill provides comprehensive database performance analysis by querying PostgreSQL system catalogs and statistics views. It connects via psycopg2 or asyncpg to collect metrics from pg_stat_statements for identifying slow queries, high-frequency queries, and queries with poor hit ratios.

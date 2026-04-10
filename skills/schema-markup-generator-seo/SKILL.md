@@ -1,14 +1,15 @@
 ---
-name: "Schema Markup Generator for SEO"
-description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
+name: Schema Markup Generator for SEO
+description: Generates JSON-LD structured data using schema-dts TypeScript definitions
+  and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo,
+  and LocalBusiness schema types.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
+source: https://agentskillexchange.com/skills/schema-markup-generator-seo/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Schema Markup Generator for SEO
 
 The Schema Markup Generator automates JSON-LD structured data creation using schema-dts TypeScript definitions for type-safe schema authoring. It generates valid Schema.org markup that passes Google Rich Results Test validation for enhanced search engine visibility.

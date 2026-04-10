@@ -1,14 +1,16 @@
 ---
-name: "Stripe Revenue Analytics Dashboard Builder"
-description: "Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using a cron-triggered Lambda function."
+name: Stripe Revenue Analytics Dashboard Builder
+description: Pulls MRR, churn, and LTV metrics from the Stripe Data API using the
+  stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated metrics
+  are pushed to a Metabase dashboard via the Metabase API and refreshed nightly using
+  a cron-triggered Lambda function.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/"
+source: https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Stripe Revenue Analytics Dashboard Builder
 
 Stripe Revenue Analytics Dashboard Builder is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational context that matters for real tasks.

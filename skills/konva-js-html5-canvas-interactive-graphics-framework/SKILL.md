@@ -1,14 +1,17 @@
 ---
-name: "Konva.js HTML5 Canvas Interactive Graphics Framework"
-description: "Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance animations, transitions, node nesting, layering, filtering, caching, and event handling for desktop and mobile applications. With over 14,000 GitHub stars, it provides an interactive object model on top of the HTML5 Canvas element with bindings for React and Vue."
+name: Konva.js HTML5 Canvas Interactive Graphics Framework
+description: Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance
+  animations, transitions, node nesting, layering, filtering, caching, and event handling
+  for desktop and mobile applications. With over 14,000 GitHub stars, it provides
+  an interactive object model on top of the HTML5 Canvas element with bindings for
+  React and Vue.
 verification: security_reviewed
-source: "https://github.com/konvajs/konva"
+source: https://github.com/konvajs/konva
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Konva.js HTML5 Canvas Interactive Graphics Framework
 
 Konva.js is a mature, widely-adopted HTML5 Canvas JavaScript framework that extends the native 2D canvas context by providing an interactive, structured object model for building rich graphical applications. Originally forked from KineticJS, Konva has evolved into the leading open-source canvas abstraction layer with over 14,000 GitHub stars and consistent weekly npm downloads.

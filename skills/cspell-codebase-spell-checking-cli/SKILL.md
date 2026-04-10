@@ -1,14 +1,16 @@
 ---
-name: "CSpell Codebase Spell Checking CLI"
-description: "CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and ignore mechanisms that work well in real repositories. It helps agents and teams catch noisy typos before they land in code review, docs, or CI output."
+name: CSpell Codebase Spell Checking CLI
+description: CSpell is a spell checker built for source code, configuration files,
+  and documentation, with dictionaries and ignore mechanisms that work well in real
+  repositories. It helps agents and teams catch noisy typos before they land in code
+  review, docs, or CI output.
 verification: security_reviewed
-source: "https://github.com/streetsidesoftware/cspell"
+source: https://github.com/streetsidesoftware/cspell
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # CSpell Codebase Spell Checking CLI
 
 CSpell is an open source spell checking tool from Street Side Software that is designed specifically for code. Unlike generic spell checkers, it is tuned for identifiers, mixed technical vocabulary, filenames, and repository-specific word lists, which makes it useful for engineering teams that want typo detection without constant false positives. The project is available through an official GitHub repository, a maintained npm package, and project documentation on cspell.org.

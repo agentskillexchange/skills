@@ -1,17 +1,19 @@
 ---
-name: "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server"
-description: "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible speech endpoints. It supports local TTS serving, multi-language synthesis, web UI access, and timestamped audio generation workflows."
+name: Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server
+description: Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M
+  text-to-speech model with OpenAI-compatible speech endpoints. It supports local
+  TTS serving, multi-language synthesis, web UI access, and timestamped audio generation
+  workflows.
 verification: security_reviewed
-source: "https://github.com/remsky/Kokoro-FastAPI"
+source: https://github.com/remsky/Kokoro-FastAPI
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "remsky/Kokoro-FastAPI"
+  github_repo: remsky/Kokoro-FastAPI
   github_stars: 4671
 ---
-
 # Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server
 
 Kokoro-FastAPI is a self-hostable text-to-speech server built around the Kokoro-82M model and exposed through a FastAPI application. The upstream project packages the model behind an OpenAI-compatible speech endpoint, making it much easier to drop into existing agent and automation systems that already know how to call speech APIs. The project README highlights multi-language support, CPU and NVIDIA GPU inference modes, a local web UI, debug endpoints, phoneme-aware generation, voice mixing, and per-word timestamped caption output.

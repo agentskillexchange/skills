@@ -1,17 +1,18 @@
 ---
-name: "Langflow Visual AI Agent and Workflow Builder"
-description: "Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs, vector stores, and observability services without starting from scratch."
+name: Langflow Visual AI Agent and Workflow Builder
+description: Langflow is an open-source visual builder for AI agents and workflows.
+  It lets teams design flows graphically, expose them as APIs or MCP tools, and connect
+  major LLMs, vector stores, and observability services without starting from scratch.
 verification: security_reviewed
-source: "https://github.com/langflow-ai/langflow"
+source: https://github.com/langflow-ai/langflow
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "langflow-ai/langflow"
+  github_repo: langflow-ai/langflow
   github_stars: 146756
 ---
-
 # Langflow Visual AI Agent and Workflow Builder
 
 Langflow is an open-source platform from the Langflow team for building and deploying AI-powered agents and workflows with a visual interface. It combines a drag-and-drop flow builder with a Python-first backend, so an agent can prototype chains, retrieval flows, and multi-step automations visually, then inspect and customize the underlying components when deeper control is needed. The upstream project explicitly supports major LLM providers, vector databases, built-in API endpoints, and MCP server deployment, which makes it a strong fit for teams that want one workflow definition to power both internal tools and downstream integrations.

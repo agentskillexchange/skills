@@ -1,14 +1,15 @@
 ---
-name: "Tekton Pipeline Generator"
-description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
+name: Tekton Pipeline Generator
+description: Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and
+  kubectl. Generates PipelineRun manifests with workspace bindings, result propagation,
+  and sidecar configurations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-generator/"
+source: https://agentskillexchange.com/skills/tekton-pipeline-generator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Tekton Pipeline Generator
 
 The Tekton Pipeline Generator skill automates the creation of cloud-native CI/CD pipelines using the Tekton Pipelines framework on Kubernetes. It queries the Tekton Hub API to discover reusable tasks for common operations like git-clone, buildah image builds, and vulnerability scanning.

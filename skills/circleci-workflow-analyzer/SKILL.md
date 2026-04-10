@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Workflow Analyzer"
-description: "Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage."
+name: CircleCI Workflow Analyzer
+description: Analyzes and optimizes CircleCI workflows using the CircleCI v2 API.
+  Identifies bottlenecks in job dependency graphs, suggests parallelism improvements,
+  and monitors pipeline credit usage.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-workflow-analyzer/"
+source: https://agentskillexchange.com/skills/circleci-workflow-analyzer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # CircleCI Workflow Analyzer
 
 The CircleCI Workflow Analyzer skill connects to the CircleCI v2 REST API to provide deep insights into your continuous integration pipelines. It fetches workflow run data, job timing metrics, and resource utilization to identify performance bottlenecks and optimization opportunities.

@@ -1,14 +1,16 @@
 ---
-name: "Schema.org Structured Data Injector"
-description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google's Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
+name: Schema.org Structured Data Injector
+description: Generates and validates JSON-LD structured data markup for articles,
+  products, FAQs, and HowTo content types following Schema.org specifications. Integrates
+  with Google&#8217;s Rich Results Test API and validates against the Schema.org vocabulary
+  using the sdtt validator.
 verification: security_reviewed
-source: "https://schema.org/"
+source: https://schema.org/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Schema.org Structured Data Injector
 
 Schema.org Structured Data Injector automates the creation and validation of JSON-LD markup for improved search engine visibility. It analyzes page content to determine the appropriate Schema.org type — Article, Product, FAQPage, HowTo, Recipe, or LocalBusiness — and generates compliant JSON-LD blocks with proper @context and @type declarations.

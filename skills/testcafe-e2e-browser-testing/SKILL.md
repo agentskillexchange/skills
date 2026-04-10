@@ -1,19 +1,18 @@
 ---
-name: "TestCafe Zero-Config End-to-End Browser Testing Framework"
-description: "TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver installation. It supports all major browsers, automatic waiting, live mode for rapid development, and both JavaScript and TypeScript test authoring."
+name: TestCafe Zero-Config End-to-End Browser Testing Framework
+description: TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress
+  that requires no WebDriver installation. It supports all major browsers, automatic
+  waiting, live mode for rapid development, and both JavaScript and TypeScript test
+  authoring.
 verification: listed
-source: "https://github.com/DevExpress/testcafe"
+source: https://github.com/DevExpress/testcafe
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "devexpress/testcafe"
-  github_stars: 9915
-  ase_npm_package: "testcafe"
-  npm_weekly_downloads: 186887
+  license: MIT
 ---
-
 # TestCafe Zero-Config End-to-End Browser Testing Framework
 
 TestCafe is a free, open-source end-to-end web testing framework built on Node.js by DevExpress. Unlike Selenium-based tools, TestCafe does not rely on WebDriver — it injects test scripts directly into the browser via a URL-rewriting proxy, eliminating complex driver setup and version compatibility issues.

@@ -1,14 +1,16 @@
 ---
-name: "Microsoft Playwright MCP"
-description: "Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents structured page access instead of screenshot-only workflows. It is a strong fit when you want dependable navigation, form filling, DOM inspection, and test-like automation inside an MCP-compatible client."
+name: Microsoft Playwright MCP
+description: Microsoft Playwright MCP exposes Playwright browser automation through
+  the Model Context Protocol, giving agents structured page access instead of screenshot-only
+  workflows. It is a strong fit when you want dependable navigation, form filling,
+  DOM inspection, and test-like automation inside an MCP-compatible client.
 verification: security_reviewed
-source: "https://github.com/microsoft/playwright-mcp"
+source: https://github.com/microsoft/playwright-mcp
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Microsoft Playwright MCP
 
 Microsoft Playwright MCP is the official Playwright MCP server from Microsoft. It wraps the Playwright browser automation stack behind the Model Context Protocol so an agent can open pages, inspect structured accessibility snapshots, click elements, fill forms, and move through multi-step web tasks without relying on raw screenshots alone. That makes it useful for coding assistants, support agents, QA helpers, and internal automation workflows where repeatability matters more than visual guesswork.

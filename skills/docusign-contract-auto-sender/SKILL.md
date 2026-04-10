@@ -1,14 +1,16 @@
 ---
-name: "DocuSign Contract Auto-Sender with Conditional Logic"
-description: "Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing rules based on contract value thresholds. Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope status updates are tracked via DocuSign Connect webhooks."
+name: DocuSign Contract Auto-Sender with Conditional Logic
+description: Uses the DocuSign eSignature REST API SDK to programmatically create
+  envelope definitions with conditional routing rules based on contract value thresholds.
+  Signers are resolved from a Salesforce SOQL query via the JSForce SDK, and envelope
+  status updates are tracked via DocuSign Connect webhooks.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/docusign-contract-auto-sender/"
+source: https://agentskillexchange.com/skills/docusign-contract-auto-sender/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # DocuSign Contract Auto-Sender with Conditional Logic
 
 DocuSign Contract Auto-Sender with Conditional Logic is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational context that matters for real tasks.

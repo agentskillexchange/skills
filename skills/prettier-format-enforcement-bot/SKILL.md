@@ -1,14 +1,15 @@
 ---
-name: "Prettier Format Enforcement Bot"
-description: "Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with .prettierrc configuration management."
+name: Prettier Format Enforcement Bot
+description: Enforces code formatting standards using the Prettier API (prettier.format(),
+  prettier.check()) and prettier-plugin-organize-imports. Supports 20+ languages with
+  .prettierrc configuration management.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prettier-format-enforcement-bot/"
+source: https://agentskillexchange.com/skills/prettier-format-enforcement-bot/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Prettier Format Enforcement Bot
 
 The Prettier Format Enforcement Bot skill uses the Prettier Node.js API (prettier.format(), prettier.check(), prettier.resolveConfig()) and CLI (npx prettier -check, npx prettier -write) to enforce consistent code formatting across projects. It supports JavaScript, TypeScript, CSS, SCSS, HTML, JSON, YAML, Markdown, GraphQL, and 10+ additional languages through parser plugins.

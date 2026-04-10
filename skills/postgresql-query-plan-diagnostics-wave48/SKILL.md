@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Query Plan Diagnostics"
-description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
+name: PostgreSQL Query Plan Diagnostics
+description: Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS,
+  FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans,
+  nested loop inefficiencies, and index recommendations for slow queries.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
+source: https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # PostgreSQL Query Plan Diagnostics
 
 The PostgreSQL Query Plan Diagnostics skill provides deep analysis of PostgreSQL query execution plans to identify performance bottlenecks. It uses EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) to capture actual execution statistics and parses the resulting plan tree to highlight problematic nodes.

@@ -1,17 +1,19 @@
 ---
-name: "FastMCP Python MCP Server and Client Framework"
-description: "FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It provides automatic schema generation, transport negotiation, and protocol lifecycle management, letting developers wrap Python functions into MCP-compliant tools with minimal boilerplate."
+name: FastMCP Python MCP Server and Client Framework
+description: FastMCP is the standard Python framework for building Model Context Protocol
+  servers, clients, and applications. It provides automatic schema generation, transport
+  negotiation, and protocol lifecycle management, letting developers wrap Python functions
+  into MCP-compliant tools with minimal boilerplate.
 verification: security_reviewed
-source: "https://github.com/PrefectHQ/fastmcp"
+source: https://github.com/PrefectHQ/fastmcp
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "PrefectHQ/fastmcp"
+  github_repo: PrefectHQ/fastmcp
   github_stars: 24192
 ---
-
 # FastMCP Python MCP Server and Client Framework
 
 FastMCP is the standard framework for building and consuming Model Context Protocol (MCP) applications in Python. Created by Prefect and now downloaded over a million times per day, FastMCP has become the dominant way to build MCP servers across all programming languages — some version of FastMCP powers roughly 70% of MCP servers in production.

@@ -1,14 +1,15 @@
 ---
-name: "Notion Workspace Automation Hub"
-description: "Orchestrates Notion workspace workflows using Notion API v2 with database queries, page creation, and relation property management. Automates sprint boards, meeting notes, and knowledge base maintenance."
+name: Notion Workspace Automation Hub
+description: Orchestrates Notion workspace workflows using Notion API v2 with database
+  queries, page creation, and relation property management. Automates sprint boards,
+  meeting notes, and knowledge base maintenance.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-workspace-automation-hub/"
+source: https://agentskillexchange.com/skills/notion-workspace-automation-hub/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Notion Workspace Automation Hub
 
 The Notion Workspace Automation Hub provides comprehensive workspace management through the Notion API (2022-06-28 version). It handles database operations, page lifecycle management, and cross-database relation maintenance for complex workspace architectures.

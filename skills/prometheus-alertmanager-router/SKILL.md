@@ -1,14 +1,15 @@
 ---
-name: "Prometheus AlertManager Router"
-description: "Configures and manages Prometheus AlertManager routing trees and silences via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configuration with inhibition rules."
+name: Prometheus AlertManager Router
+description: Configures and manages Prometheus AlertManager routing trees and silences
+  via the AlertManager HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver
+  configuration with inhibition rules.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alertmanager-router/"
+source: https://agentskillexchange.com/skills/prometheus-alertmanager-router/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Prometheus AlertManager Router
 
 The Prometheus AlertManager Router skill provides intelligent alert routing and management through the AlertManager HTTP API. It enables agents to programmatically create, modify, and debug complex routing trees that determine how alerts flow from Prometheus to notification receivers like PagerDuty, OpsGenie, Slack, and email.

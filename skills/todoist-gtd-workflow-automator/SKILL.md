@@ -1,14 +1,15 @@
 ---
-name: "Todoist GTD Workflow Automator"
-description: "Implements Getting Things Done methodology on Todoist using the Todoist Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action extraction with natural language parsing."
+name: Todoist GTD Workflow Automator
+description: Implements Getting Things Done methodology on Todoist using the Todoist
+  Sync API v9. Automates inbox processing, context labeling, weekly reviews, and project-to-next-action
+  extraction with natural language parsing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/"
+source: https://agentskillexchange.com/skills/todoist-gtd-workflow-automator/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Todoist GTD Workflow Automator
 
 The Todoist GTD Workflow Automator brings David Allen's Getting Things Done methodology to life within Todoist using the Todoist Sync API v9 and REST API v2. It automates the core GTD workflows that are tedious to maintain manually: inbox capture and processing, context-based labeling, horizon-of-focus project reviews, and next-action identification.

@@ -1,14 +1,15 @@
 ---
-name: "Git Bisect Automation Agent"
-description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments."
+name: Git Bisect Automation Agent
+description: Automates git bisect workflows to find regression-introducing commits
+  using custom test scripts and the git bisect run interface. Supports containerized
+  test execution via Docker to ensure reproducible bisect environments.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/git-bisect-automation-agent/"
+source: https://agentskillexchange.com/skills/git-bisect-automation-agent/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Git Bisect Automation Agent
 
 The Git Bisect Automation Agent skill automates the process of finding regression-introducing commits using git bisect with intelligent test script generation. It analyzes the reported regression symptoms to construct targeted test commands, then executes git bisect run with proper exit code handling (125 for skip, 1-127 for bad, 0 for good).

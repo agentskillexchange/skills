@@ -1,14 +1,15 @@
 ---
-name: "SerpAPI Scholar Agent"
-description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
+name: SerpAPI Scholar Agent
+description: Automates academic research using the SerpAPI Google Scholar endpoint.
+  Extracts citation graphs, h-index data, and co-author networks for literature reviews.
+  Supports BibTeX export and cross-references with Semantic Scholar API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
+source: https://agentskillexchange.com/skills/serpapi-scholar-agent/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # SerpAPI Scholar Agent
 
 The SerpAPI Scholar Agent skill enables Claude to conduct systematic academic research by querying Google Scholar through the SerpAPI REST interface. It retrieves paper metadata, citation counts, author profiles, and related works for any given topic or researcher.

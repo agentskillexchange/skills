@@ -1,14 +1,15 @@
 ---
-name: "Deepgram Nova STT Pipeline"
-description: "Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization, punctuation, and language detection via the Deepgram Python SDK for podcast and meeting transcription workflows."
+name: Deepgram Nova STT Pipeline
+description: Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket
+  connections. Supports diarization, punctuation, and language detection via the Deepgram
+  Python SDK for podcast and meeting transcription workflows.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/"
+source: https://agentskillexchange.com/skills/deepgram-nova-stt-pipeline/
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Deepgram Nova STT Pipeline
 
 Automate speech-to-text transcription using the Deepgram Nova-2 model via their streaming WebSocket API. This skill connects to the Deepgram Python SDK (deepgram-sdk) to process audio files and live audio streams into accurate text transcripts.

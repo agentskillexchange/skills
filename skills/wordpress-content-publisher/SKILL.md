@@ -1,17 +1,17 @@
 ---
-name: "WordPress Content Publisher"
-description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+name: WordPress Content Publisher
+description: Structured publishing workflow for WordPress drafts, metadata, and content
+  operations.
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+source: https://github.com/WordPress/WordPress
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21011
 ---
-
 # WordPress Content Publisher
 
 WordPress Content Publisher is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.

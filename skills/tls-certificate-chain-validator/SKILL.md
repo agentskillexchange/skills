@@ -1,14 +1,15 @@
 ---
-name: "TLS Certificate Chain Validator"
-description: "Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates with Let's Encrypt ACME protocol for automated certificate renewal alerts and CT log monitoring via crt.sh API."
+name: TLS Certificate Chain Validator
+description: Validates TLS/SSL certificate chains using OpenSSL x509 verification
+  and checks OCSP stapling status. Integrates with Let&#8217;s Encrypt ACME protocol
+  for automated certificate renewal alerts and CT log monitoring via crt.sh API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tls-certificate-chain-validator/"
+source: https://agentskillexchange.com/skills/tls-certificate-chain-validator/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # TLS Certificate Chain Validator
 
 The TLS Certificate Chain Validator skill provides comprehensive SSL/TLS certificate inspection and validation for agent workflows. It leverages OpenSSL's x509 command-line tools to parse certificate chains, verify intermediate CA trust paths, and detect expiring certificates before they cause outages.

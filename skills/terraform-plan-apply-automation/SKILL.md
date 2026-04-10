@@ -1,14 +1,16 @@
 ---
-name: "Terraform Plan & Apply Automation"
-description: "Runs terraform plan against changed modules, posts a structured diff as a PR comment via GitHub API, and gates terraform apply on reviewer approval. Supports S3 and GCS remote state backends with automatic workspace detection. Integrates with AWS STS and GCP Workload Identity for short-lived credential injection."
+name: Terraform Plan &amp; Apply Automation
+description: Runs terraform plan against changed modules, posts a structured diff
+  as a PR comment via GitHub API, and gates terraform apply on reviewer approval.
+  Supports S3 and GCS remote state backends with automatic workspace detection. Integrates
+  with AWS STS and GCP Workload Identity for short-lived credential injection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-plan-apply-automation/"
+source: https://agentskillexchange.com/skills/terraform-plan-apply-automation/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Terraform Plan & Apply Automation
 
 Terraform Plan & Apply Automation is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like plans, applies, state, workspaces, providers, Sentinel, cloud runs and preserving the operational context that matters for real tasks.

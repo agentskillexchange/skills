@@ -1,17 +1,19 @@
 ---
-name: "Budibase Open Source Low-Code Operations App Platform"
-description: "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted deployment options."
+name: Budibase Open Source Low-Code Operations App Platform
+description: Budibase is an open-source low-code platform for internal apps, forms,
+  portals, and approvals. It gives agents a practical way to stand up operational
+  tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted
+  deployment options.
 verification: security_reviewed
-source: "https://github.com/Budibase/budibase"
+source: https://github.com/Budibase/budibase
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "Budibase/budibase"
+  github_repo: Budibase/budibase
   github_stars: 27811
 ---
-
 # Budibase Open Source Low-Code Operations App Platform
 
 Budibase is an open-source low-code platform maintained by the Budibase team for building internal tools, approval flows, forms, and business applications. The upstream project focuses on operational software rather than generic website building, which makes it useful when an agent needs to help a team ship dashboards, CRUD apps, or process-driven interfaces quickly. Budibase can pull from multiple data sources, including PostgreSQL, MySQL, MariaDB, MongoDB, REST APIs, Airtable, S3, and more, so it can sit in front of the systems companies already use instead of forcing a greenfield stack.

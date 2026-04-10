@@ -1,14 +1,16 @@
 ---
-name: "AWS IAM Privilege Escalation Audit"
-description: "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&CK TA0004 with remediation steps and least-privilege replacement policy JSON."
+name: AWS IAM Privilege Escalation Audit
+description: Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles,
+  policies, and users, then flags permission combinations that could allow privilege
+  escalation to AdministratorAccess. Outputs findings mapped to MITRE ATT&amp;CK TA0004
+  with remediation steps and least-privilege replacement policy JSON.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/"
+source: https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # AWS IAM Privilege Escalation Audit
 
 AWS IAM Privilege Escalation Audit is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and preserving the operational context that matters for real tasks.

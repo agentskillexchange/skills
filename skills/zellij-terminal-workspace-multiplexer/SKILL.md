@@ -1,17 +1,18 @@
 ---
-name: "Zellij Terminal Workspace and Multiplexer"
-description: "Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a built-in web client. A modern replacement for tmux and screen."
+name: Zellij Terminal Workspace and Multiplexer
+description: Zellij is a Rust-powered terminal workspace and multiplexer with floating
+  panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a
+  built-in web client. A modern replacement for tmux and screen.
 verification: security_reviewed
-source: "https://github.com/zellij-org/zellij"
+source: https://github.com/zellij-org/zellij
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "zellij-org/zellij"
+  github_repo: zellij-org/zellij
   github_stars: 30894
 ---
-
 # Zellij Terminal Workspace and Multiplexer
 
 Zellij is a terminal workspace written in Rust that serves as a modern replacement for traditional terminal multiplexers like tmux and screen. With over 30,000 GitHub stars, it has emerged as one of the most actively developed terminal tools, built around the philosophy that simplicity and power can coexist.

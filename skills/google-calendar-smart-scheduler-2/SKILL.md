@@ -1,14 +1,15 @@
 ---
-name: "Google Calendar Smart Scheduler"
-description: "Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy queries. Applies time-zone-aware slot finding, focus time protection, and travel buffer calculations via Google Maps Distance Matrix API."
+name: Google Calendar Smart Scheduler
+description: Optimizes meeting scheduling using the Google Calendar API v3 and FreeBusy
+  queries. Applies time-zone-aware slot finding, focus time protection, and travel
+  buffer calculations via Google Maps Distance Matrix API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/"
+source: https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Google Calendar Smart Scheduler
 
 The Google Calendar Smart Scheduler automates meeting coordination by leveraging the Google Calendar API v3 for availability analysis and intelligent slot selection. It queries FreeBusy endpoints across multiple calendars and attendees to identify optimal meeting windows that respect everyone's constraints and preferences.

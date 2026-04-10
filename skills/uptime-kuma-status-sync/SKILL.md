@@ -1,14 +1,15 @@
 ---
-name: "Uptime Kuma Status Sync"
-description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
+name: Uptime Kuma Status Sync
+description: Interfaces with the Uptime Kuma Socket.IO API to monitor service health
+  checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers
+  incident workflows in Rootly.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/uptime-kuma-status-sync/"
+source: https://agentskillexchange.com/skills/uptime-kuma-status-sync/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Uptime Kuma Status Sync
 
 The Uptime Kuma Status Sync skill bridges self-hosted uptime monitoring with enterprise incident management platforms. It connects to Uptime Kuma via its Socket.IO-based API, subscribing to real-time heartbeat events and monitor status changes across HTTP, TCP, DNS, and Docker monitors.

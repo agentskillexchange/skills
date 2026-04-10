@@ -1,14 +1,16 @@
 ---
-name: "Notion to PDF Knowledge Exporter"
-description: "Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images and preserves heading hierarchy. Generates per-section embeddings with OpenAI text-embedding-3-small for RAG ingestion."
+name: Notion to PDF Knowledge Exporter
+description: Queries Notion databases and pages via the Notion API v1, then renders
+  content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images
+  and preserves heading hierarchy. Generates per-section embeddings with OpenAI text-embedding-3-small
+  for RAG ingestion.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/"
+source: https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Notion to PDF Knowledge Exporter
 
 Notion to PDF Knowledge Exporter is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational context that matters for real tasks.

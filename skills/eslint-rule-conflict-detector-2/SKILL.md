@@ -1,14 +1,15 @@
 ---
-name: "ESLint Rule Conflict Detector"
-description: "Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config."
+name: ESLint Rule Conflict Detector
+description: Analyzes .eslintrc configurations and extended rulesets using the ESLint
+  Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier,
+  TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/"
+source: https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Codex"
+- Codex
 ---
-
 # ESLint Rule Conflict Detector
 
 The ESLint Rule Conflict Detector skill resolves the common pain point of conflicting ESLint rules across multiple configuration presets by performing deep analysis of rule inheritance chains. It uses the ESLint Node.js API to load and resolve the complete effective configuration, and the eslint-config-inspector to visualize rule precedence.

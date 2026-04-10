@@ -1,14 +1,15 @@
 ---
-name: "Puppeteer Visual Regression Tester"
-description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
+name: Puppeteer Visual Regression Tester
+description: Automates visual regression testing using Puppeteer page.screenshot()
+  with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes
+  and generates HTML diff reports with highlighted change regions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
+source: https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Puppeteer Visual Regression Tester
 
 Puppeteer Visual Regression Tester is built around Puppeteer Chrome automation library. The underlying ecosystem is represented by puppeteer/puppeteer (93,912+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like page.screenshot, tracing, DevTools protocol, PDF, viewport control and preserving the operational context that matters for real tasks.

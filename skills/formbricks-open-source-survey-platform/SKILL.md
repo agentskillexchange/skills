@@ -1,17 +1,19 @@
 ---
-name: "Formbricks Open-Source Survey Platform"
-description: "Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks product model for feedback collection, survey delivery, self-hosting, and analysis workflows."
+name: Formbricks Open-Source Survey Platform
+description: Formbricks is an open-source survey and experience-management platform
+  with link, website, email, and in-app surveys. This skill helps agents work with
+  the real Formbricks product model for feedback collection, survey delivery, self-hosting,
+  and analysis workflows.
 verification: security_reviewed
-source: "https://github.com/formbricks/formbricks"
+source: https://github.com/formbricks/formbricks
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "formbricks/formbricks"
+  github_repo: formbricks/formbricks
   github_stars: 12043
 ---
-
 # Formbricks Open-Source Survey Platform
 
 Formbricks is a real open-source survey platform maintained by the Formbricks organization. The upstream repository at formbricks/formbricks shows strong adoption, public release activity, and recent maintenance, which clears ASE’s provenance gate. The product is positioned as an open-source alternative to enterprise experience-management tooling, but the practical value for agents is more specific: it gives them a real system for collecting structured feedback through link surveys, website surveys, email surveys, and in-app prompts.

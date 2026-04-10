@@ -1,17 +1,18 @@
 ---
-name: "Goose Extensible AI Coding Agent by Block"
-description: "An open-source, extensible AI agent from Block (formerly Square) that goes beyond code suggestions to install packages, execute commands, edit files, and run tests. Supports any LLM and extends via MCP servers for tool integration."
+name: Goose Extensible AI Coding Agent by Block
+description: An open-source, extensible AI agent from Block (formerly Square) that
+  goes beyond code suggestions to install packages, execute commands, edit files,
+  and run tests. Supports any LLM and extends via MCP servers for tool integration.
 verification: security_reviewed
-source: "https://github.com/block/goose"
+source: https://github.com/block/goose
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "block/goose"
+  github_repo: block/goose
   github_stars: 33898
 ---
-
 # Goose Extensible AI Coding Agent by Block
 
 Goose is an open-source AI coding agent developed by Block (the company behind Square, Cash App, and Bitkey). With over 33,000 GitHub stars, it has become one of the most popular terminal-based coding agents. Unlike simpler code completion tools, Goose can take autonomous actions: installing dependencies, running commands, editing multiple files, and executing test suites.

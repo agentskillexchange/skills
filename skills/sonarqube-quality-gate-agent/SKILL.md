@@ -1,14 +1,15 @@
 ---
-name: "SonarQube Quality Gate Agent"
-description: "Monitors SonarQube quality gate status via the SonarQube Web API and enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul, and lcov formats for multi-language projects."
+name: SonarQube Quality Gate Agent
+description: Monitors SonarQube quality gate status via the SonarQube Web API and
+  enforces code quality thresholds. Parses coverage reports from JaCoCo, Istanbul,
+  and lcov formats for multi-language projects.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/"
+source: https://agentskillexchange.com/skills/sonarqube-quality-gate-agent/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # SonarQube Quality Gate Agent
 
 The SonarQube Quality Gate Agent skill integrates with SonarQube and SonarCloud instances via the SonarQube Web API to monitor and enforce code quality standards across pull requests and branches. It retrieves quality gate results, coverage metrics, and issue breakdowns for automated decision-making in CI/CD pipelines.

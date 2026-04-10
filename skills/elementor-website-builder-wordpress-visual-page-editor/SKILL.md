@@ -1,14 +1,16 @@
 ---
-name: "Elementor Website Builder WordPress Visual Page Editor"
-description: "Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill is for agents that need to work with Elementor-powered pages, templates, sections, and widgets without treating the site like a generic WordPress install."
+name: Elementor Website Builder WordPress Visual Page Editor
+description: Elementor is the visual drag-and-drop website builder plugin for WordPress
+  maintained by Elementor, with more than 10 million active installs on WordPress.org.
+  This skill is for agents that need to work with Elementor-powered pages, templates,
+  sections, and widgets without treating the site like a generic WordPress install.
 verification: security_reviewed
-source: "https://wordpress.org/plugins/elementor/"
+source: https://wordpress.org/plugins/elementor/
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Elementor Website Builder WordPress Visual Page Editor
 
 Elementor Website Builder is the WordPress visual builder plugin from Elementor that lets teams design landing pages, marketing pages, theme templates, popups, and reusable sections through a widget-based editor. The upstream plugin is distributed on WordPress.org and the official Elementor site, requires WordPress 6.6+, requires PHP 7.4+, and was updated on 2026-03-30 according to the live plugin directory metadata. With more than 10 million active installs, it easily clears the adoption gate for ASE intake.

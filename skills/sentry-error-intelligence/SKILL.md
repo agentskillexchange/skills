@@ -1,14 +1,15 @@
 ---
-name: "Sentry Error Intelligence"
-description: "Connects to the Sentry API v0 to analyze error trends, group similar stack traces using fingerprinting rules, and auto-assigns issues to code owners via GitHub CODEOWNERS integration."
+name: Sentry Error Intelligence
+description: Connects to the Sentry API v0 to analyze error trends, group similar
+  stack traces using fingerprinting rules, and auto-assigns issues to code owners
+  via GitHub CODEOWNERS integration.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
+source: https://agentskillexchange.com/skills/sentry-error-intelligence/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Sentry Error Intelligence
 
 The Sentry Error Intelligence skill transforms raw error data into actionable insights for AI agent workflows. It connects to the Sentry API v0, querying /api/0/organizations/{org}/issues/ with Sentry Query Language (SQL) filters to identify trending errors, regressions, and new issue spikes across projects.

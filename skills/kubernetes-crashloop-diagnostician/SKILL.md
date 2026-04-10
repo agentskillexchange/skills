@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes CrashLoop Diagnostician"
-description: "Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl debug. Analyzes container exit codes, OOMKill events, and liveness probe failures with automated remediation suggestions."
+name: Kubernetes CrashLoop Diagnostician
+description: Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and
+  kubectl debug. Analyzes container exit codes, OOMKill events, and liveness probe
+  failures with automated remediation suggestions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostician/"
+source: https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostician/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Kubernetes CrashLoop Diagnostician
 
 The Kubernetes CrashLoop Diagnostician skill provides systematic troubleshooting for pods stuck in CrashLoopBackOff state. It uses the Kubernetes API (via client-go patterns) to gather comprehensive diagnostic data about failing containers, their events, and resource consumption.

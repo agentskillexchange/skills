@@ -1,14 +1,15 @@
 ---
-name: "Slack Standup Summarizer"
-description: "Collects daily standup updates from Slack channels using the Web API and generates team summaries with blockers highlighted. Posts formatted digests via Incoming Webhooks."
+name: Slack Standup Summarizer
+description: Collects daily standup updates from Slack channels using the Web API
+  and generates team summaries with blockers highlighted. Posts formatted digests
+  via Incoming Webhooks.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/slack-standup-summarizer/"
+source: https://agentskillexchange.com/skills/slack-standup-summarizer/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Slack Standup Summarizer
 
 The Slack Standup Summarizer skill monitors designated Slack channels for daily standup messages using the conversations.history Web API endpoint. It identifies standup entries by timestamp windows, thread patterns, or bot-prompted responses and extracts structured data from free-form updates.

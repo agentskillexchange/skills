@@ -1,14 +1,15 @@
 ---
-name: "Cheerio DOM Scraping Toolkit"
-description: "Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
+name: Cheerio DOM Scraping Toolkit
+description: Parses static HTML using Cheerio&#8217;s jQuery-like API for fast server-side
+  DOM traversal and data extraction. Generates extraction patterns with CSS selectors
+  optimized for resilience to layout changes.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
+source: https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Cheerio DOM Scraping Toolkit
 
 The Cheerio DOM Scraping Toolkit skill uses Cheerio, the fast and lightweight jQuery-like library for server-side HTML parsing and manipulation. Unlike browser-based scraping, Cheerio operates on raw HTML strings without a DOM environment, making it significantly faster for static page extraction tasks.

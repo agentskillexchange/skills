@@ -1,14 +1,16 @@
 ---
-name: "Stripe Revenue Reconciliation Agent"
-description: "Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures. Flags mismatches, duplicate charges, and unmatched refunds, outputting a CSV report with Stripe object IDs."
+name: Stripe Revenue Reconciliation Agent
+description: Uses the Stripe API to pull charge, refund, dispute, and payout records
+  within a configurable date window and reconciles them against expected revenue figures.
+  Flags mismatches, duplicate charges, and unmatched refunds, outputting a CSV report
+  with Stripe object IDs.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/"
+source: https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Stripe Revenue Reconciliation Agent
 
 Stripe Revenue Reconciliation Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational context that matters for real tasks.

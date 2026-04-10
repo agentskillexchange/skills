@@ -1,14 +1,15 @@
 ---
-name: "DALL-E Variations Pipeline"
-description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
+name: DALL-E Variations Pipeline
+description: Generates image variations and edits using the OpenAI Images API (DALL-E
+  3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based
+  inpainting, and outputs multiple sizes with quality presets.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/dalle-variations-pipeline/"
+source: https://agentskillexchange.com/skills/dalle-variations-pipeline/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # DALL-E Variations Pipeline
 
 The DALL-E Variations Pipeline skill orchestrates image generation and editing workflows through the OpenAI Images API, supporting both DALL-E 3 for generation and gpt-image-1 for advanced editing and variation tasks.

@@ -1,17 +1,18 @@
 ---
-name: "pdfcpu Go PDF Processor and Manipulation CLI"
-description: "pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a complete PDF manipulation toolkit without external dependencies."
+name: pdfcpu Go PDF Processor and Manipulation CLI
+description: pdfcpu is a Go-based PDF processing library and CLI tool that handles
+  validation, optimization, merging, splitting, watermarking, encryption, and form
+  filling. It provides a complete PDF manipulation toolkit without external dependencies.
 verification: security_reviewed
-source: "https://github.com/pdfcpu/pdfcpu"
+source: https://github.com/pdfcpu/pdfcpu
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "pdfcpu/pdfcpu"
+  github_repo: pdfcpu/pdfcpu
   github_stars: 8550
 ---
-
 # pdfcpu Go PDF Processor and Manipulation CLI
 
 pdfcpu is a comprehensive PDF processing library written in Go that provides both a command-line interface and a Go API for manipulating PDF files. It supports PDF specification versions up to 2.0 and handles the full range of PDF operations that developers and document automation workflows require.

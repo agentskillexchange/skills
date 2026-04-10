@@ -1,14 +1,15 @@
 ---
-name: "Prometheus Alert Tuner"
-description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
+name: Prometheus Alert Tuner
+description: Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL
+  query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds
+  via histogram_quantile, and configuring inhibition rules.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-tuner/"
+source: https://agentskillexchange.com/skills/prometheus-alert-tuner/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Prometheus Alert Tuner
 
 The Prometheus Alert Tuner skill optimizes your Prometheus alerting rules to reduce false positives and alert fatigue while maintaining coverage for real incidents. It uses the Prometheus HTTP API (/api/v1/query, /api/v1/query_range, /api/v1/rules) to analyze current alerting behavior.

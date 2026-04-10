@@ -1,17 +1,20 @@
 ---
-name: "Open Interpreter Natural Language Computer Interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis."
+name: Open Interpreter Natural Language Computer Interface
+description: Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell,
+  and more) through a ChatGPT-like terminal interface. It provides a natural-language
+  interface to your computer&#8217;s general-purpose capabilities including file manipulation,
+  browser control, and data analysis.
 verification: security_reviewed
-source: "https://github.com/openinterpreter/open-interpreter"
+source: https://github.com/openinterpreter/open-interpreter
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "openinterpreter/open-interpreter"
+  github_repo: openinterpreter/open-interpreter
   github_stars: 62934
+  license: AGPL-3.0
 ---
-
 # Open Interpreter Natural Language Computer Interface
 
 Open Interpreter is an open-source project that lets large language models run code on your local machine. Created as an open alternative to OpenAI's Code Interpreter, it removes the restrictions of the hosted service — no internet access limits, no file size caps, no timeout constraints, and no package restrictions. You get the power of GPT-4 Code Interpreter combined with the flexibility of your local development environment.

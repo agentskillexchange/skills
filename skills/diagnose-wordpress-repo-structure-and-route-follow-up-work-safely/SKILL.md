@@ -1,14 +1,16 @@
 ---
-name: "Diagnose WordPress repo structure and route follow-up work safely"
-description: "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace."
+name: Diagnose WordPress repo structure and route follow-up work safely
+description: This skill inspects a WordPress codebase, identifies what kind of project
+  it is, and returns the signals an agent needs before touching files or running tools.
+  Use it when you need a deterministic first pass instead of guessing whether a repo
+  is a plugin, block theme, site, core checkout, or mixed workspace.
 verification: listed
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
+source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Diagnose WordPress repo structure and route follow-up work safely
 
 This entry is based on the wp-project-triage skill from the official WordPress/agent-skills repository. The agent behavior is narrow and practical: inspect a WordPress repository, classify what kind of codebase it is, surface tooling and version hints, and produce a structured report that tells the next skill what guardrails to follow. That makes it useful before editing code, running tests, or invoking more specialized WordPress workflows.

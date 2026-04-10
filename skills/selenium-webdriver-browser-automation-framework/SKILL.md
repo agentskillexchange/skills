@@ -1,14 +1,16 @@
 ---
-name: "Selenium WebDriver Browser Automation Framework"
-description: "Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive Chrome, Firefox, Safari, and Edge across multiple languages and execution environments."
+name: Selenium WebDriver Browser Automation Framework
+description: Selenium is the long-running open source browser automation framework
+  behind the W3C WebDriver standard. It gives agents and developers a stable way to
+  drive Chrome, Firefox, Safari, and Edge across multiple languages and execution
+  environments.
 verification: security_reviewed
-source: "https://github.com/SeleniumHQ/selenium"
+source: https://github.com/SeleniumHQ/selenium
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Selenium WebDriver Browser Automation Framework
 
 Selenium is one of the foundational browser automation projects on the web, and it remains a practical skill for agents that need reliable, standards-based control over real browsers. The project is maintained by SeleniumHQ and implements the W3C WebDriver specification, which means the same automation concepts translate across Chrome, Firefox, Edge, Safari, and remote Selenium Grid deployments. That matters when an agent workflow needs to run outside a single vendor ecosystem or when teams already have test infrastructure built around WebDriver.

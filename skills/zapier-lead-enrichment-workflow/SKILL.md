@@ -1,14 +1,16 @@
 ---
-name: "Zapier Multi-Step Lead Enrichment Workflow"
-description: "Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment API. Enriched data is written back to HubSpot and simultaneously posted to Slack via the Web API chat.postMessage endpoint."
+name: Zapier Multi-Step Lead Enrichment Workflow
+description: Builds a Zapier automation using the Zapier NLA API to trigger on new
+  HubSpot form submissions and enrich contact records via the Clearbit Enrichment
+  API. Enriched data is written back to HubSpot and simultaneously posted to Slack
+  via the Web API chat.postMessage endpoint.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/"
+source: https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Zapier Multi-Step Lead Enrichment Workflow
 
 Zapier Multi-Step Lead Enrichment Workflow is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like contacts, companies, deals, forms, workflows, search API, associations and preserving the operational context that matters for real tasks.

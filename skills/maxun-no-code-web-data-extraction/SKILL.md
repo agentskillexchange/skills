@@ -1,17 +1,20 @@
 ---
-name: "Maxun No-Code Web Data Extraction Platform"
-description: "Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It supports extraction via recorder mode and LLM-powered natural language mode, plus crawling, scraping, and search capabilities. With 15,000+ GitHub stars and both SDK and CLI interfaces, it handles everything from simple page scrapes to complex automated workflows."
+name: Maxun No-Code Web Data Extraction Platform
+description: Maxun is an open-source no-code web data platform for turning any website
+  into structured, reliable data. It supports extraction via recorder mode and LLM-powered
+  natural language mode, plus crawling, scraping, and search capabilities. With 15,000+
+  GitHub stars and both SDK and CLI interfaces, it handles everything from simple
+  page scrapes to complex automated workflows.
 verification: security_reviewed
-source: "https://github.com/getmaxun/maxun"
+source: https://github.com/getmaxun/maxun
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "getmaxun/maxun"
+  github_repo: getmaxun/maxun
   github_stars: 15319
 ---
-
 # Maxun No-Code Web Data Extraction Platform
 
 Maxun is an open-source no-code platform for web scraping, crawling, search, and AI-powered data extraction. It lets users turn websites into structured APIs and datasets without writing code, using either a visual recorder that captures browser interactions or an LLM-powered extraction mode where you describe what you want in natural language.

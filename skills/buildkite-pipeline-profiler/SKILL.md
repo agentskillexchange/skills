@@ -1,14 +1,15 @@
 ---
-name: "Buildkite Pipeline Profiler"
-description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
+name: Buildkite Pipeline Profiler
+description: Profiles Buildkite pipeline performance using the Buildkite REST API
+  and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload
+  bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/buildkite-pipeline-profiler/"
+source: https://agentskillexchange.com/skills/buildkite-pipeline-profiler/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Buildkite Pipeline Profiler
 
 The Buildkite Pipeline Profiler skill analyzes CI/CD pipeline performance on the Buildkite platform to identify and eliminate bottlenecks. It queries the Buildkite REST API v2 (/organizations/{org}/pipelines/{pipeline}/builds) and GraphQL API for detailed build step timing data, agent assignment latency, and artifact transfer metrics.

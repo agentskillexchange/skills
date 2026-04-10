@@ -1,17 +1,20 @@
 ---
-name: "Pages CMS Open Source Content Management for GitHub Repositories"
-description: "Pages CMS is an open-source content management system built on top of GitHub. It provides a visual editing interface for managing content in Git repositories, purpose-built for static sites and content-driven apps using Jekyll, Hugo, Next.js, Astro, and similar frameworks."
+name: Pages CMS Open Source Content Management for GitHub Repositories
+description: Pages CMS is an open-source content management system built on top of
+  GitHub. It provides a visual editing interface for managing content in Git repositories,
+  purpose-built for static sites and content-driven apps using Jekyll, Hugo, Next.js,
+  Astro, and similar frameworks.
 verification: security_reviewed
-source: "https://github.com/pagescms/pagescms"
+source: https://github.com/pagescms/pagescms
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "pagescms/pagescms"
+  github_repo: pagescms/pagescms
   github_stars: 3542
+  license: MIT
 ---
-
 # Pages CMS Open Source Content Management for GitHub Repositories
 
 Pages CMS is an open-source content management system that uses GitHub repositories as its content backend. It provides a clean, visual interface for editing Markdown, YAML, and JSON files stored in Git, making it ideal for static site generators and Jamstack applications. The project eliminates the need for databases, separate servers, or complex deployment pipelines.

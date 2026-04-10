@@ -1,17 +1,19 @@
 ---
-name: "typos Source Code Spell Checker"
-description: "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor workflows."
+name: typos Source Code Spell Checker
+description: A blazing-fast source code spell checker written in Rust that finds and
+  corrects typos across entire codebases. Designed to run on monorepos with minimal
+  false positives, typos integrates into CI/CD pipelines, pre-commit hooks, and editor
+  workflows.
 verification: security_reviewed
-source: "https://github.com/crate-ci/typos"
+source: https://github.com/crate-ci/typos
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "crate-ci/typos"
+  github_repo: crate-ci/typos
   github_stars: 3864
 ---
-
 # typos Source Code Spell Checker
 
 typos is an open-source CLI tool from the crate-ci project that scans source code, filenames, and documentation for spelling mistakes. Written in Rust, it prioritizes speed and accuracy, making it practical to run on monorepos with millions of lines of code without slowing down developer workflows.

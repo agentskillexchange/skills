@@ -1,19 +1,21 @@
 ---
-name: "n8n Workflow Webhook Bridge"
-description: "Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware."
+name: n8n Workflow Webhook Bridge
+description: Builds integration handoffs around n8n primitives like the Webhook node,
+  HTTP Request node, and execution data inspection. Great for connecting event sources,
+  transforming payloads, and making low-code workflows behave more like reliable integration
+  middleware.
 verification: security_reviewed
-source: "https://github.com/n8n-io/n8n"
+source: https://github.com/n8n-io/n8n
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "n8n-io/n8n"
+  github_repo: n8n-io/n8n
   github_stars: 182065
-  ase_npm_package: "n8n"
+  ase_npm_package: n8n
   npm_weekly_downloads: 75947
 ---
-
 # n8n Workflow Webhook Bridge
 
 n8n Workflow Webhook Bridge is built for teams that use n8n as an orchestration layer and need webhook-based automations to be easier to reason about. The skill leans on real n8n building blocks such as the Webhook node, HTTP Request node, Set node, IF node, Wait node, and execution data inspection to create predictable handoffs between systems. Instead of wiring a quick proof of concept that becomes impossible to debug later, it encourages stable input handling and explicit transformation steps.

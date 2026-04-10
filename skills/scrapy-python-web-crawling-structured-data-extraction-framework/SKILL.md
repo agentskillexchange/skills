@@ -1,17 +1,19 @@
 ---
-name: "Scrapy Python Web Crawling and Structured Data Extraction Framework"
-description: "Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable scraping, asynchronous crawling, feed exports, and extensible pipelines for transforming or storing collected data."
+name: Scrapy Python Web Crawling and Structured Data Extraction Framework
+description: Scrapy is a high-level Python framework for web crawling and structured
+  data extraction. It is a strong fit for agent workflows that need repeatable scraping,
+  asynchronous crawling, feed exports, and extensible pipelines for transforming or
+  storing collected data.
 verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
+source: https://github.com/scrapy/scrapy
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: scrapy/scrapy
   github_stars: 61252
 ---
-
 # Scrapy Python Web Crawling and Structured Data Extraction Framework
 
 Scrapy is a mature open-source Python framework for crawling websites and extracting structured data. The upstream repository and documentation show a long-running project with active maintenance, strong community adoption, and clear guidance for production usage. It is especially useful for agents that need to collect listings, monitor changes across many pages, enrich datasets, or build repeatable research workflows without relying on brittle one-off scripts.

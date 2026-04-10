@@ -1,14 +1,15 @@
 ---
-name: "Ansible Playbook Diagnostics Runner"
-description: "Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts."
+name: Ansible Playbook Diagnostics Runner
+description: Runs Ansible diagnostic playbooks using ansible-runner and the Ansible
+  Collections ecosystem (ansible.builtin, community.general). Captures system health,
+  service status, and log analysis across inventory hosts.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
+source: https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Ansible Playbook Diagnostics Runner
 
 The Ansible Playbook Diagnostics Runner skill executes diagnostic playbooks using ansible-runner (ansible_runner.run()) and the Ansible automation framework. It leverages modules from ansible.builtin (command, shell, copy, template, service, systemd) and community.general (ufw, nmcli, sysctl, modprobe) collections to perform comprehensive system diagnostics.

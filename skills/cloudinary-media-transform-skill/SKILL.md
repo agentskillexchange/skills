@@ -1,14 +1,15 @@
 ---
-name: "Cloudinary Media Transform Skill"
-description: "Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations, generates responsive breakpoints, and optimizes delivery with f_auto and q_auto parameters."
+name: Cloudinary Media Transform Skill
+description: Manages image and video assets through the Cloudinary Upload and Admin
+  APIs. Applies on-the-fly transformations, generates responsive breakpoints, and
+  optimizes delivery with f_auto and q_auto parameters.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cloudinary-media-transform-skill/"
+source: https://agentskillexchange.com/skills/cloudinary-media-transform-skill/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Cloudinary Media Transform Skill
 
 The Cloudinary Media Transform Skill connects Claude to Cloudinary's cloud-based media management platform through its Upload API and Admin API. It handles the full lifecycle of visual assets from upload through transformation to delivery optimization.

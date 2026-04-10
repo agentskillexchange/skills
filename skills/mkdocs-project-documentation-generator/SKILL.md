@@ -1,17 +1,20 @@
 ---
-name: "MkDocs Project Documentation Generator"
-description: "MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from Markdown files. Configured with a single YAML file, it transforms documentation source files into professional, navigable websites with built-in themes and plugin support."
+name: MkDocs Project Documentation Generator
+description: MkDocs is a fast, simple, and elegant static site generator designed
+  for building project documentation from Markdown files. Configured with a single
+  YAML file, it transforms documentation source files into professional, navigable
+  websites with built-in themes and plugin support.
 verification: security_reviewed
-source: "https://github.com/mkdocs/mkdocs"
+source: https://github.com/mkdocs/mkdocs
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mkdocs/mkdocs"
+  github_repo: mkdocs/mkdocs
   github_stars: 21931
+  license: BSD-2-Clause
 ---
-
 # MkDocs Project Documentation Generator
 
 MkDocs is a Python-based static site generator purpose-built for project documentation. It takes Markdown source files and a single mkdocs.yml configuration file, producing a polished static HTML site that can be hosted on GitHub Pages, Amazon S3, Netlify, or any static file server.

@@ -1,14 +1,15 @@
 ---
-name: "Python Package API Surface Mapper"
-description: "Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy stubs."
+name: Python Package API Surface Mapper
+description: Maps the public API surface of Python packages using ast module parsing
+  and importlib introspection. Generates comprehensive reference docs with type annotations
+  from mypy stubs.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/python-package-api-surface-mapper/"
+source: https://agentskillexchange.com/skills/python-package-api-surface-mapper/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Python Package API Surface Mapper
 
 The Python Package API Surface Mapper skill analyzes Python packages to produce complete public API documentation. It uses Python ast module to parse source files and extract function signatures, class hierarchies, and module-level constants without executing the code.

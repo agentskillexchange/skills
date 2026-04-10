@@ -1,14 +1,15 @@
 ---
-name: "Nginx Error Pattern Analyzer"
-description: "Analyzes Nginx error logs using GoAccess and custom regex parsers to identify recurring 502/503 patterns. Correlates upstream timeout errors with backend service health via Prometheus PromQL queries."
+name: Nginx Error Pattern Analyzer
+description: Analyzes Nginx error logs using GoAccess and custom regex parsers to
+  identify recurring 502/503 patterns. Correlates upstream timeout errors with backend
+  service health via Prometheus PromQL queries.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/"
+source: https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Nginx Error Pattern Analyzer
 
 The Nginx Error Pattern Analyzer processes Nginx error and access logs to identify recurring failure patterns and their root causes. It combines GoAccess for real-time log parsing with custom regex-based pattern matching to categorize errors by type, frequency, and impact.

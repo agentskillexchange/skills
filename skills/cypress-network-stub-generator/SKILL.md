@@ -1,14 +1,15 @@
 ---
-name: "Cypress Network Stub Generator"
-description: "Generates cy.intercept() stubs from recorded HAR files for deterministic E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin testing workflows."
+name: Cypress Network Stub Generator
+description: Generates cy.intercept() stubs from recorded HAR files for deterministic
+  E2E tests. Uses cy.session() for authentication caching and cy.origin() for cross-origin
+  testing workflows.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cypress-network-stub-generator/"
+source: https://agentskillexchange.com/skills/cypress-network-stub-generator/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Cypress Network Stub Generator
 
 The Cypress Network Stub Generator converts HAR (HTTP Archive) files into deterministic cy.intercept() route handlers for Cypress E2E tests. It parses HAR entries to create matching routeHandlers with appropriate status codes, headers, and response bodies for each API endpoint.

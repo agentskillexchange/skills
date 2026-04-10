@@ -1,17 +1,19 @@
 ---
-name: "tRPC End-to-End Typesafe API Framework"
-description: "tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime bloat. The client infers server types directly, providing autocompletion for inputs, outputs, and errors. It supports request batching, subscriptions, and adapters for Next.js, Express, Fastify, and many other frameworks."
+name: tRPC End-to-End Typesafe API Framework
+description: tRPC enables developers to build fully typesafe APIs in TypeScript without
+  schemas, code generation, or runtime bloat. The client infers server types directly,
+  providing autocompletion for inputs, outputs, and errors. It supports request batching,
+  subscriptions, and adapters for Next.js, Express, Fastify, and many other frameworks.
 verification: security_reviewed
-source: "https://github.com/trpc/trpc"
+source: https://github.com/trpc/trpc
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "trpc/trpc"
+  github_repo: trpc/trpc
   github_stars: 39862
 ---
-
 # tRPC End-to-End Typesafe API Framework
 
 tRPC is a TypeScript RPC framework that eliminates the gap between server and client type definitions. Instead of defining API schemas in OpenAPI, GraphQL SDL, or Protocol Buffers and then generating client code, tRPC lets the client import the server's type definitions directly. When a server-side procedure changes its input or output shape, TypeScript immediately flags type errors on the client before the code even runs.

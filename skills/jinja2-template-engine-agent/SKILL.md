@@ -1,14 +1,15 @@
 ---
-name: "Jinja2 Template Engine"
-description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
+name: Jinja2 Template Engine
+description: Renders Jinja2 templates with variable injection, macro expansion, and
+  template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution
+  and custom filter registration.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
+source: https://agentskillexchange.com/skills/jinja2-template-engine-agent/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Jinja2 Template Engine
 
 The Jinja2 Template Engine skill provides automated template rendering using the Jinja2 templating language. It creates a sandboxed Environment with FileSystemLoader for template discovery and supports full template inheritance chains via extends and block directives.

@@ -1,17 +1,19 @@
 ---
-name: "Moonshine Voice On-Device Speech Recognition and Voice Commands"
-description: "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows."
+name: Moonshine Voice On-Device Speech Recognition and Voice Commands
+description: Moonshine Voice is a fast on-device speech recognition library for interactive
+  voice applications. This skill helps agents install the Python package, load supported
+  language models, transcribe live microphone input, and wire transcript events into
+  local voice-command workflows.
 verification: security_reviewed
-source: "https://github.com/moonshine-ai/moonshine"
+source: https://github.com/moonshine-ai/moonshine
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "moonshine-ai/moonshine"
+  github_repo: moonshine-ai/moonshine
   github_stars: 7663
 ---
-
 # Moonshine Voice On-Device Speech Recognition and Voice Commands
 
 Moonshine Voice is the Python package behind the Moonshine project for fast, accurate, on-device automatic speech recognition. It is aimed at interactive voice applications rather than hosted transcription APIs, which makes it especially useful for privacy-sensitive, low-latency, or edge-device workflows. An ASE skill for Moonshine Voice gives agents a concrete way to set up local transcription, stream audio into a transcriber, and build voice-command interfaces without shipping raw audio to a cloud service.

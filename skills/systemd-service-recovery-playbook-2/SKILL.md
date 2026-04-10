@@ -1,14 +1,15 @@
 ---
-name: "Systemd Service Recovery Playbook"
-description: "Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus org.freedesktop.systemd1 interface. Analyzes exit codes, dependency chains via list-dependencies, and resource limits from cgroup controllers."
+name: Systemd Service Recovery Playbook
+description: Diagnoses and recovers failed systemd services using journalctl, systemctl
+  status, and D-Bus org.freedesktop.systemd1 interface. Analyzes exit codes, dependency
+  chains via list-dependencies, and resource limits from cgroup controllers.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/"
+source: https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Systemd Service Recovery Playbook
 
 The Systemd Service Recovery Playbook skill automates diagnosis and recovery of failed Linux services managed by systemd. It uses systemctl, journalctl, and the systemd D-Bus API (org.freedesktop.systemd1) for comprehensive service analysis.

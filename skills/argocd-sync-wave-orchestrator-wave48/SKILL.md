@@ -1,14 +1,15 @@
 ---
-name: "ArgoCD Sync Wave Orchestrator"
-description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
+name: ArgoCD Sync Wave Orchestrator
+description: Manages ArgoCD application sync waves and hooks using the ArgoCD API
+  and argocd CLI. Coordinates multi-application deployment ordering with sync-wave
+  annotations, health checks, and progressive rollout gates.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
+source: https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "MCP"
+- MCP
 ---
-
 # ArgoCD Sync Wave Orchestrator
 
 The ArgoCD Sync Wave Orchestrator skill manages complex multi-application deployment sequences in ArgoCD-managed Kubernetes environments. It uses the ArgoCD REST API and argocd CLI to configure sync waves, define resource hooks, and coordinate deployment ordering across dependent applications.

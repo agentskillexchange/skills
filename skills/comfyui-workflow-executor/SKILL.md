@@ -1,14 +1,16 @@
 ---
-name: "ComfyUI Workflow Executor"
-description: "Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint."
+name: ComfyUI Workflow Executor
+description: Executes ComfyUI image generation workflows via the /prompt REST API
+  endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler
+  scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval
+  from the /view endpoint.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/comfyui-workflow-executor/"
+source: https://agentskillexchange.com/skills/comfyui-workflow-executor/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Codex"
+- Codex
 ---
-
 # ComfyUI Workflow Executor
 
 Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint.

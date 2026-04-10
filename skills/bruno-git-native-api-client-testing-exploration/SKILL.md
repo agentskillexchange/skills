@@ -1,17 +1,18 @@
 ---
-name: "Bruno Git-Native API Client for Testing and Exploration"
-description: "Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly alternative to Postman and Insomnia with no cloud sync and no account required."
+name: Bruno Git-Native API Client for Testing and Exploration
+description: Bruno is an open-source, offline-first API client that stores collections
+  as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly
+  alternative to Postman and Insomnia with no cloud sync and no account required.
 verification: security_reviewed
-source: "https://github.com/usebruno/bruno"
+source: https://github.com/usebruno/bruno
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "usebruno/bruno"
+  github_repo: usebruno/bruno
   github_stars: 42477
 ---
-
 # Bruno Git-Native API Client for Testing and Exploration
 
 Bruno is an open-source API client that takes a fundamentally different approach to API collection management compared to Postman or Insomnia. Instead of storing API requests in proprietary cloud formats, Bruno saves everything as plain-text .bru files directly on the developer's filesystem. With over 40,000 GitHub stars and growing, it has become one of the most popular API testing tools in the open-source ecosystem.

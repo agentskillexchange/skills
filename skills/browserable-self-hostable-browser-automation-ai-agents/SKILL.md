@@ -1,19 +1,22 @@
 ---
-name: "Browserable Self-Hostable Browser Automation for AI Agents"
-description: "Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling, extraction, and browser-based task execution with local control instead of a hosted black box."
+name: Browserable Self-Hostable Browser Automation for AI Agents
+description: Browserable is an open-source, self-hostable browser automation library
+  built for AI agents. This skill turns Browserable into a repeatable workflow for
+  navigation, form filling, extraction, and browser-based task execution with local
+  control instead of a hosted black box.
 verification: security_reviewed
-source: "https://github.com/browserable/browserable"
+source: https://github.com/browserable/browserable
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "browserable/browserable"
+  github_repo: browserable/browserable
   github_stars: 1177
-  ase_npm_package: "browserable"
+  ase_npm_package: browserable
   npm_weekly_downloads: 21
+  license: MIT
 ---
-
 # Browserable Self-Hostable Browser Automation for AI Agents
 
 Browserable is an open-source and self-hostable browser automation library designed specifically for AI agents. This skill uses Browserable as the execution layer for browser-driven jobs such as opening authenticated web apps, filling forms, clicking controls, extracting structured data, and replaying deterministic multi-step flows. Instead of describing browser work in vague terms, the skill maps the task into Browserable concepts like sessions, actions, page state, selectors, and extraction results so the agent can reliably move from intent to execution.

@@ -1,14 +1,15 @@
 ---
-name: "Jina Reader API Skill"
-description: "Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling with depth control. Returns structured LLM-ready text."
+name: Jina Reader API Skill
+description: Extracts clean markdown content from any URL using the Jina Reader API
+  (r.jina.ai). Handles JavaScript-rendered pages, PDF extraction, and multi-page crawling
+  with depth control. Returns structured LLM-ready text.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jina-reader-api-skill/"
+source: https://agentskillexchange.com/skills/jina-reader-api-skill/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Jina Reader API Skill
 
 The Jina Reader API Skill provides Claude with reliable web content extraction through Jina's hosted reader service at r.jina.ai. Unlike simple HTTP fetches, Jina Reader renders JavaScript, strips navigation chrome, and returns clean markdown suitable for LLM consumption.

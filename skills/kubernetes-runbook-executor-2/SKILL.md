@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Runbook Executor"
-description: "Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API."
+name: Kubernetes Runbook Executor
+description: Executes diagnostic runbooks against Kubernetes clusters using the official
+  kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz
+  and /readyz endpoints and analyzes events with the CoreV1 Events API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/"
+source: https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Kubernetes Runbook Executor
 
 The Kubernetes Runbook Executor skill provides automated diagnostic procedures for Kubernetes cluster troubleshooting. Built on the official kubernetes/client-go SDK, it connects to clusters via kubeconfig and executes structured diagnostic sequences across namespaces and resource types.

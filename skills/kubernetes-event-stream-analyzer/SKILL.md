@@ -1,15 +1,16 @@
 ---
-name: "Kubernetes Event Stream Analyzer"
-description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
+name: Kubernetes Event Stream Analyzer
+description: Watches Kubernetes event streams via the Watch API and correlates pod
+  lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff
+  patterns and OOMKilled signals for automated triage.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/"
+source: https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Gemini"
-  - "Multi-Framework"
+- Gemini
+- Multi-Framework
 ---
-
 # Kubernetes Event Stream Analyzer
 
 The Kubernetes Event Stream Analyzer skill provides real-time monitoring and intelligent triage of Kubernetes cluster events through the Watch API. It maintains a persistent watch connection to the Events API, capturing pod scheduling decisions, container state transitions, volume mount failures, and node condition changes as they occur.

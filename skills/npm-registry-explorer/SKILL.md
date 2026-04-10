@@ -1,14 +1,15 @@
 ---
-name: "npm Registry Explorer"
-description: "Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated packages, and checks bundle sizes via Bundlephobia API."
+name: npm Registry Explorer
+description: Queries the npm registry API and npms.io search API for package discovery,
+  dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated
+  packages, and checks bundle sizes via Bundlephobia API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
+source: https://agentskillexchange.com/skills/npm-registry-explorer/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # npm Registry Explorer
 
 The npm Registry Explorer skill provides deep Node.js package intelligence by combining data from the npm Registry API, npms.io analyzer API, and Bundlephobia API. It fetches package manifests from registry.npmjs.org, resolves semver version ranges using the node-semver algorithm, and presents comprehensive package profiles.

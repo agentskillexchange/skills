@@ -1,17 +1,19 @@
 ---
-name: "Mautic Open Source Marketing Automation Platform"
-description: "Mautic is the world's largest open-source marketing automation platform with 7.9K+ GitHub stars. It provides email campaign management, lead scoring, contact segmentation, landing pages, and multi-channel marketing automation with a full REST API for programmatic control."
+name: Mautic Open Source Marketing Automation Platform
+description: Mautic is the world&#8217;s largest open-source marketing automation
+  platform with 7.9K+ GitHub stars. It provides email campaign management, lead scoring,
+  contact segmentation, landing pages, and multi-channel marketing automation with
+  a full REST API for programmatic control.
 verification: security_reviewed
-source: "https://github.com/mautic/mautic"
+source: https://github.com/mautic/mautic
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mautic/mautic"
+  github_repo: mautic/mautic
   github_stars: 9387
 ---
-
 # Mautic Open Source Marketing Automation Platform
 
 Mautic is a comprehensive open-source marketing automation platform that empowers businesses to manage email campaigns, track contacts, score leads, and automate multi-channel marketing workflows. With over 7,900 GitHub stars and an active community, it is the most widely adopted open-source alternative to commercial platforms like HubSpot and Marketo.

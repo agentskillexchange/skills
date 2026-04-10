@@ -1,14 +1,15 @@
 ---
-name: "ESLint Custom Rule Generator"
-description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules with meta schemas, fixers, and comprehensive test suites."
+name: ESLint Custom Rule Generator
+description: Generates custom ESLint rules from natural language descriptions using
+  the ESLint RuleTester API and AST Explorer patterns. Produces complete rule modules
+  with meta schemas, fixers, and comprehensive test suites.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-custom-rule-generator/"
+source: https://agentskillexchange.com/skills/eslint-custom-rule-generator/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ESLint Custom Rule Generator
 
 The ESLint Custom Rule Generator skill creates production-ready ESLint rules from natural language descriptions of coding patterns to enforce or forbid. It generates complete rule modules compatible with ESLint v8 and v9 flat config, including meta.schema for rule options, meta.messages for configurable error messages, and auto-fix functions using the ESLint Fixer API.

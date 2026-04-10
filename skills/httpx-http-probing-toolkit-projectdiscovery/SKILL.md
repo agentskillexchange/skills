@@ -1,17 +1,19 @@
 ---
-name: "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery"
-description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata, fingerprints technologies, and outputs structured results for security reconnaissance and monitoring pipelines."
+name: httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery
+description: httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running
+  probes against lists of hosts. It detects live web servers, extracts response metadata,
+  fingerprints technologies, and outputs structured results for security reconnaissance
+  and monitoring pipelines.
 verification: security_reviewed
-source: "https://github.com/projectdiscovery/httpx"
+source: https://github.com/projectdiscovery/httpx
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "projectdiscovery/httpx"
+  github_repo: projectdiscovery/httpx
   github_stars: 9759
 ---
-
 # httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery
 
 httpx is a fast and multi-purpose HTTP toolkit developed by ProjectDiscovery that allows running multiple probes against lists of hosts using a retryable HTTP client library. With nearly 10,000 GitHub stars, it is a cornerstone tool in security reconnaissance workflows, used to quickly identify live web servers, extract response metadata, and fingerprint web technologies at scale.

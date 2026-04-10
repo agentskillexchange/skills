@@ -1,14 +1,15 @@
 ---
-name: "Tekton Pipeline Resource Optimizer"
-description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
+name: Tekton Pipeline Resource Optimizer
+description: Analyzes Tekton Pipeline and Task resource definitions using the Tekton
+  Results API. Recommends CPU/memory request adjustments based on historical TaskRun
+  metrics from Prometheus.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
+source: https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Tekton Pipeline Resource Optimizer
 
 The Tekton Pipeline Resource Optimizer skill analyzes your Tekton CI/CD pipeline configurations to identify resource waste and optimization opportunities. It queries the Tekton Results API to fetch historical TaskRun and PipelineRun execution data, then correlates with Prometheus metrics for actual CPU and memory consumption during builds.

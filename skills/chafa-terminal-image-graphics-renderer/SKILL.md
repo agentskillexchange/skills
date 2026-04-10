@@ -1,17 +1,19 @@
 ---
-name: "Chafa Terminal Image and Graphics Renderer"
-description: "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments."
+name: Chafa Terminal Image and Graphics Renderer
+description: Chafa converts images, animated GIFs, and video frames into ANSI/Unicode
+  character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display
+  in any terminal. It supports a wide range of image formats and output modes, making
+  it the go-to tool for rendering rich visual content in CLI environments.
 verification: security_reviewed
-source: "https://github.com/hpjansson/chafa"
+source: https://github.com/hpjansson/chafa
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "hpjansson/chafa"
+  github_repo: hpjansson/chafa
   github_stars: 4542
 ---
-
 # Chafa Terminal Image and Graphics Renderer
 
 Chafa is a versatile command-line utility and C library that converts image data—including animated GIFs, SVGs, and video frames—into graphics formats suitable for terminal display. Created by Hans Petter Jansson, Chafa supports multiple terminal graphics protocols including Sixel, Kitty graphics protocol, and iTerm2 inline images, as well as classic ANSI/Unicode character art.

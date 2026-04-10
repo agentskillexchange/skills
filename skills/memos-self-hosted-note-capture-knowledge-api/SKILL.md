@@ -1,17 +1,18 @@
 ---
-name: "Memos Self-Hosted Note Capture and Knowledge API"
-description: "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos programmatically for knowledge management and quick capture workflows."
+name: Memos Self-Hosted Note Capture and Knowledge API
+description: Enable AI agents to interact with Memos, an open-source self-hosted note-taking
+  tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve memos
+  programmatically for knowledge management and quick capture workflows.
 verification: security_reviewed
-source: "https://github.com/usememos/memos"
+source: https://github.com/usememos/memos
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "usememos/memos"
+  github_repo: usememos/memos
   github_stars: 58453
 ---
-
 # Memos Self-Hosted Note Capture and Knowledge API
 
 Memos is an open-source, self-hosted note-taking tool built for instant capture. With over 58,000 GitHub stars and an MIT license, it has become one of the most popular lightweight knowledge management platforms. Its timeline-first UI and rich API surface make it an ideal backend for AI agent knowledge workflows.

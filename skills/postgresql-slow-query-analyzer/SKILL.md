@@ -1,14 +1,16 @@
 ---
-name: "PostgreSQL Slow Query Analyzer"
-description: "Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase."
+name: PostgreSQL Slow Query Analyzer
+description: Queries pg_stat_statements and pg_stat_activity to surface the top slow
+  queries by total execution time, mean latency, and call frequency. Runs EXPLAIN
+  ANALYZE on worst offenders and suggests index additions, rewrite candidates, or
+  vacuum triggers. Works on RDS and Supabase.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/"
+source: https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 ---
-
 # PostgreSQL Slow Query Analyzer
 
 PostgreSQL Slow Query Analyzer is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.

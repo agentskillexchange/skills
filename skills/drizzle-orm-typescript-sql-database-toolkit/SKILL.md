@@ -1,19 +1,23 @@
 ---
-name: "Drizzle ORM TypeScript SQL Database Toolkit"
-description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema declarations, relational and SQL-like query builders, and automatic migration generation. At only 7.4kb minified and gzipped with zero dependencies, it supports PostgreSQL, MySQL, and SQLite including serverless databases like Neon, Turso, and Cloudflare D1."
+name: Drizzle ORM TypeScript SQL Database Toolkit
+description: Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL
+  schema declarations, relational and SQL-like query builders, and automatic migration
+  generation. At only 7.4kb minified and gzipped with zero dependencies, it supports
+  PostgreSQL, MySQL, and SQLite including serverless databases like Neon, Turso, and
+  Cloudflare D1.
 verification: security_reviewed
-source: "https://github.com/drizzle-team/drizzle-orm"
+source: https://github.com/drizzle-team/drizzle-orm
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "drizzle-team/drizzle-orm"
+  github_repo: drizzle-team/drizzle-orm
   github_stars: 33566
-  ase_npm_package: "drizzle-orm"
+  ase_npm_package: drizzle-orm
   npm_weekly_downloads: 6668107
+  license: Apache-2.0
 ---
-
 # Drizzle ORM TypeScript SQL Database Toolkit
 
 Drizzle ORM is a modern TypeScript ORM built around the principle that an ORM should be a thin, typed layer on top of SQL rather than an abstraction that hides it. Developers declare their database schemas using TypeScript code, and Drizzle provides full type inference across queries, inserts, updates, and joins. The result is compile-time safety for database operations without the overhead of code generation steps or runtime schema validation.

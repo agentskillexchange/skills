@@ -1,14 +1,15 @@
 ---
-name: "Browser Use Web Agent Automation"
-description: "browser-use is an open-source Python framework for letting AI agents interact with websites through a real browser. It supports local execution, optional cloud browsers, custom tools, and a CLI for persistent browser sessions."
+name: Browser Use Web Agent Automation
+description: browser-use is an open-source Python framework for letting AI agents
+  interact with websites through a real browser. It supports local execution, optional
+  cloud browsers, custom tools, and a CLI for persistent browser sessions.
 verification: security_reviewed
-source: "https://github.com/browser-use/browser-use"
+source: https://github.com/browser-use/browser-use
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Browser Use Web Agent Automation
 
 browser-use is an open-source Python project focused on making websites accessible to AI agents. The upstream repository describes it as a way to automate tasks online with ease, and its examples show agents clicking, typing, navigating, and extracting data through a browser runtime rather than through static HTML scraping alone. That makes it a strong fit for workflows where the site depends on JavaScript, authenticated sessions, or multi-step UI interactions.

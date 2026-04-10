@@ -1,14 +1,16 @@
 ---
-name: "Hugging Face Model Deployer"
-description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
+name: Hugging Face Model Deployer
+description: Deploys models from Hugging Face Hub to Inference Endpoints using the
+  huggingface_hub client and REST API. Monitors endpoint health and autoscaling status
+  and streams logs to the terminal. Supports private repos with HF_TOKEN and custom
+  Docker containers.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
+source: https://agentskillexchange.com/skills/huggingface-model-deployer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Hugging Face Model Deployer
 
 Hugging Face Model Deployer is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the operational context that matters for real tasks.

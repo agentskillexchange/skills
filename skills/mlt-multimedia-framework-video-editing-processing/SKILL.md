@@ -1,17 +1,20 @@
 ---
-name: "MLT Multimedia Framework for Video Editing and Processing"
-description: "MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt command-line tool for non-linear video editing, transitions, effects, and rendering. MLT powers Shotcut, Kdenlive, and other video editors."
+name: MLT Multimedia Framework for Video Editing and Processing
+description: MLT is an open-source LGPL multimedia framework designed for video editing.
+  It provides a toolkit and the melt command-line tool for non-linear video editing,
+  transitions, effects, and rendering. MLT powers Shotcut, Kdenlive, and other video
+  editors.
 verification: security_reviewed
-source: "https://github.com/mltframework/mlt"
+source: https://github.com/mltframework/mlt
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mltframework/mlt"
+  github_repo: mltframework/mlt
   github_stars: 1745
+  license: LGPL-2.1
 ---
-
 # MLT Multimedia Framework for Video Editing and Processing
 
 MLT (Media Lovin Toolkit) is an open-source multimedia framework specifically designed for non-linear video editing. Maintained by the MLT Framework organization, it provides a C API and a command-line tool called melt for composing, editing, and rendering video and audio content.

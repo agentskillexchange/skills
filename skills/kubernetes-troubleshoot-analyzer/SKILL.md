@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Troubleshoot Analyzer"
-description: "Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures."
+name: Kubernetes Troubleshoot Analyzer
+description: Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal
+  UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation
+  steps for common pod scheduling, networking, and storage failures.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/"
+source: https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Kubernetes Troubleshoot Analyzer
 
 The Kubernetes Troubleshoot Analyzer performs comprehensive cluster diagnostics using multiple data sources and analysis frameworks. It leverages kubectl commands for real-time cluster state inspection, parsing pod events, node conditions, and resource quota utilization to identify root causes of deployment failures.

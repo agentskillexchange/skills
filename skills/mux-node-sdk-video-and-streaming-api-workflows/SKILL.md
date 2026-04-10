@@ -1,14 +1,16 @@
 ---
-name: "Mux Node SDK for Video and Streaming API Workflows"
-description: "An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or TypeScript. It fits agent workflows that need programmable video uploads, asset lifecycle control, playback setup, webhook-aware automation, and analytics integration."
+name: Mux Node SDK for Video and Streaming API Workflows
+description: An ASE skill built around the official Mux Node SDK for working with
+  Mux Video and Mux Data from JavaScript or TypeScript. It fits agent workflows that
+  need programmable video uploads, asset lifecycle control, playback setup, webhook-aware
+  automation, and analytics integration.
 verification: security_reviewed
-source: "https://github.com/muxinc/mux-node-sdk"
+source: https://github.com/muxinc/mux-node-sdk
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Mux Node SDK for Video and Streaming API Workflows
 
 Mux Node SDK for Video and Streaming API Workflows is a source-backed ASE skill built on the official @mux/mux-node package from Mux. The SDK wraps the Mux REST API for server-side JavaScript and TypeScript, giving agents a concrete way to create video assets, manage live streams, inspect playback configuration, and query telemetry exposed by Mux Video and Mux Data. This is not a vague “video helper” abstraction. It is anchored to a maintained upstream SDK, real API reference documentation, and a stable vendor platform used in production media workflows.

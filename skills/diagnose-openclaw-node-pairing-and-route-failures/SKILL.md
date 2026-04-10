@@ -1,14 +1,16 @@
 ---
-name: "Diagnose OpenClaw node pairing and route failures"
-description: "Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to connect over LAN, Tailscale, or a public URL. Use it when a node setup is broken and you need diagnosis, not when you simply want to list devices or advertise OpenClaw itself."
+name: Diagnose OpenClaw node pairing and route failures
+description: Guides an agent through the exact route, pairing, and auth checks needed
+  when an OpenClaw companion node fails to connect over LAN, Tailscale, or a public
+  URL. Use it when a node setup is broken and you need diagnosis, not when you simply
+  want to list devices or advertise OpenClaw itself.
 verification: security_reviewed
-source: "https://github.com/openclaw/openclaw/tree/main/skills/node-connect"
+source: https://github.com/openclaw/openclaw/tree/main/skills/node-connect
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Diagnose OpenClaw node pairing and route failures
 
 This entry uses the node-connect skill from the openclaw/openclaw repository. The agent behavior is diagnostic and narrow: determine the intended topology, inspect the gateway route OpenClaw is actually advertising, compare that route to the failure mode, and recommend one concrete fix path for pairing or authorization problems. It is a troubleshooting runbook, not a platform listing.

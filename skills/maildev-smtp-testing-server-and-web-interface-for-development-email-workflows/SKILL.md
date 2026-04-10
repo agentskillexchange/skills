@@ -1,17 +1,19 @@
 ---
-name: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
-description: "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers."
+name: MailDev SMTP Testing Server and Web Interface for Development Email Workflows
+description: MailDev is a local SMTP server with a browser UI for viewing test emails
+  during development. It catches outgoing mail, exposes a REST API, supports attachments
+  and relay options, and helps teams test email flows without sending real messages
+  to customers.
 verification: security_reviewed
-source: "https://github.com/maildev/maildev"
+source: https://github.com/maildev/maildev
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "maildev/maildev"
+  github_repo: maildev/maildev
   github_stars: 5863
 ---
-
 # MailDev SMTP Testing Server and Web Interface for Development Email Workflows
 
 MailDev is an open source SMTP testing server designed for development environments where teams need to inspect generated email safely before anything reaches a real inbox. Instead of pointing an application at a live SMTP provider while building password resets, invitations, order confirmations, or system alerts, developers can point it at MailDev and review the captured messages in a local web interface. That makes it a practical fit for agents, internal tools, or CI setups that need repeatable email verification.

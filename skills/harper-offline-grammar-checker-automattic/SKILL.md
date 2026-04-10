@@ -1,17 +1,19 @@
 ---
-name: "Harper Offline Privacy-First Grammar Checker by Automattic"
-description: "Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms response times, supports LSP for editor integration, compiles to WebAssembly for browser use, and provides grammar, spelling, and style checking without sending text to external servers."
+name: Harper Offline Privacy-First Grammar Checker by Automattic
+description: Harper is an offline, privacy-first grammar checker written in Rust by
+  Automattic. It runs locally with sub-10ms response times, supports LSP for editor
+  integration, compiles to WebAssembly for browser use, and provides grammar, spelling,
+  and style checking without sending text to external servers.
 verification: security_reviewed
-source: "https://github.com/Automattic/harper"
+source: https://github.com/Automattic/harper
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "Automattic/harper"
+  github_repo: Automattic/harper
   github_stars: 10182
 ---
-
 # Harper Offline Privacy-First Grammar Checker by Automattic
 
 Harper is an open-source grammar checker built in Rust by Automattic (the company behind WordPress.com). It runs entirely offline on the user's device, providing grammar, spelling, and style suggestions in under 10 milliseconds — no network requests, no cloud processing, no privacy concerns about text leaving the machine.

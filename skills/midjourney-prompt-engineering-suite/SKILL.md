@@ -1,14 +1,15 @@
 ---
-name: "Midjourney Prompt Engineering Suite"
-description: "Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect ratios, stylize values, and chaos settings. Includes A/B testing workflows via Replicate prediction API."
+name: Midjourney Prompt Engineering Suite
+description: Generates and optimizes Midjourney prompts using the Midjourney API with
+  automatic parameter tuning for aspect ratios, stylize values, and chaos settings.
+  Includes A/B testing workflows via Replicate prediction API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/"
+source: https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # Midjourney Prompt Engineering Suite
 
 The Midjourney Prompt Engineering Suite provides intelligent prompt construction and optimization for Midjourney image generation. It analyzes input descriptions and automatically selects optimal parameters including aspect ratio, stylize value, chaos level, and quality settings based on the intended output use case.

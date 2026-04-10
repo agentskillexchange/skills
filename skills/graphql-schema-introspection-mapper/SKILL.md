@@ -1,15 +1,16 @@
 ---
-name: "GraphQL Schema Introspection Mapper"
-description: "Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and schema diff reports between versions."
+name: GraphQL Schema Introspection Mapper
+description: Introspects GraphQL APIs via the __schema query and maps type relationships,
+  deprecated fields, and circular references. Generates SDL exports, TypeScript types
+  via graphql-codegen, and schema diff reports between versions.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/"
+source: https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Cursor"
-  - "Multi-Framework"
+- Cursor
+- Multi-Framework
 ---
-
 # GraphQL Schema Introspection Mapper
 
 The GraphQL Schema Introspection Mapper skill provides comprehensive GraphQL API analysis through schema introspection and code generation. It executes the standard __schema introspection query to discover all types, fields, arguments, directives, and their relationships, building a complete type graph of the API surface.

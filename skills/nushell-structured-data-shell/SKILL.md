@@ -1,19 +1,21 @@
 ---
-name: "Nushell Structured Data Shell"
-description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
+name: Nushell Structured Data Shell
+description: A modern shell that treats all input as structured data rather than plain
+  text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite,
+  and Excel, with typed pipelines that enable safe filtering, sorting, and transformation
+  without string parsing.
 verification: security_reviewed
-source: "https://github.com/nushell/nushell"
+source: https://github.com/nushell/nushell
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "nushell/nushell"
+  github_repo: nushell/nushell
   github_stars: 38872
-  ase_npm_package: "nushell"
+  ase_npm_package: nushell
   npm_weekly_downloads: 4961
 ---
-
 # Nushell Structured Data Shell
 
 Nushell is an open-source, cross-platform shell written in Rust, created by Jonathan Turner and maintained by a large contributor community. With over 38,000 GitHub stars, an MIT license, and regular releases through version 0.110, it represents a fundamental rethink of what a command-line shell can do by making structured data a first-class concept throughout the pipeline.

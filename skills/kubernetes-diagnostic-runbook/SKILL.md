@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Diagnostic Runbook"
-description: "Executes diagnostic workflows against Kubernetes clusters using kubectl and the Kubernetes Python client (kubernetes.client). Checks pod health, resource quotas, event logs, and node conditions for rapid incident triage."
+name: Kubernetes Diagnostic Runbook
+description: Executes diagnostic workflows against Kubernetes clusters using kubectl
+  and the Kubernetes Python client (kubernetes.client). Checks pod health, resource
+  quotas, event logs, and node conditions for rapid incident triage.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/"
+source: https://agentskillexchange.com/skills/kubernetes-diagnostic-runbook/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Kubernetes Diagnostic Runbook
 
 The Kubernetes Diagnostic Runbook agent connects to Kubernetes clusters using kubeconfig files or in-cluster service account tokens via the official Kubernetes Python client (kubernetes.client.CoreV1Api, AppsV1Api). It executes structured diagnostic workflows for rapid incident triage and root cause analysis.

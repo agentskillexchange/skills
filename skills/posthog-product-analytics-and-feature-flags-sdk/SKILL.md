@@ -1,19 +1,16 @@
 ---
-name: "PostHog Product Analytics and Feature Flags SDK"
-description: "Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation data into agent or application workflows. This skill gives an agent a concrete implementation path for instrumentation, event tracking, and flag-driven behavior using the real PostHog SDK."
+name: PostHog Product Analytics and Feature Flags SDK
+description: Use PostHog to capture product analytics events, identify users, evaluate
+  feature flags, and route experimentation data into agent or application workflows.
+  This skill gives an agent a concrete implementation path for instrumentation, event
+  tracking, and flag-driven behavior using the real PostHog SDK.
 verification: security_reviewed
-source: "https://github.com/PostHog/posthog-js"
+source: https://github.com/PostHog/posthog-js
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "posthog/posthog-js"
-  github_stars: 531
-  ase_npm_package: "posthog-js"
-  npm_weekly_downloads: 4321251
+- Multi-Framework
 ---
-
 # PostHog Product Analytics and Feature Flags SDK
 
 PostHog is a product analytics and feature flag platform that many engineering teams use for event capture, user identification, experiments, and progressive rollout. A skill based on PostHog and its SDK is useful when the job-to-be-done is operational telemetry: instrumenting events, evaluating feature flags, understanding usage patterns, or shipping controlled behavior changes into an agentic or web application workflow.

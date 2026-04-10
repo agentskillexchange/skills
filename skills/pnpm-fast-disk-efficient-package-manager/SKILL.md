@@ -1,19 +1,22 @@
 ---
-name: "pnpm Fast Disk-Efficient Package Manager"
-description: "pnpm is a fast, disk space efficient package manager for Node.js that uses a content-addressable storage and hard links to deduplicate dependencies. With over 33,000 GitHub stars and adoption by Microsoft, Vue, and other major organizations, pnpm provides strict dependency isolation and monorepo workspace support."
+name: pnpm Fast Disk-Efficient Package Manager
+description: pnpm is a fast, disk space efficient package manager for Node.js that
+  uses a content-addressable storage and hard links to deduplicate dependencies. With
+  over 33,000 GitHub stars and adoption by Microsoft, Vue, and other major organizations,
+  pnpm provides strict dependency isolation and monorepo workspace support.
 verification: security_reviewed
-source: "https://github.com/pnpm/pnpm"
+source: https://github.com/pnpm/pnpm
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "pnpm/pnpm"
+  github_repo: pnpm/pnpm
   github_stars: 34426
-  ase_npm_package: "pnpm"
+  ase_npm_package: pnpm
   npm_weekly_downloads: 59943100
+  license: MIT
 ---
-
 # pnpm Fast Disk-Efficient Package Manager
 
 pnpm is a fast, disk space efficient package manager that addresses fundamental problems with how npm and Yarn manage the node_modules directory. Instead of duplicating package files across every project, pnpm uses a global content-addressable storage and creates hard links from each project's node_modules to that single store. This means if you have 100 projects using lodash, only one copy exists on disk.

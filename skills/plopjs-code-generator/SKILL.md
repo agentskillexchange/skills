@@ -1,14 +1,15 @@
 ---
-name: "Plop.js Code Generator"
-description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation."
+name: Plop.js Code Generator
+description: Creates Plop.js generators with Handlebars templates and custom action
+  types for scaffolding React components, API routes, and test files. Uses inquirer
+  prompts with validation and the addMany action for batch file generation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/plopjs-code-generator/"
+source: https://agentskillexchange.com/skills/plopjs-code-generator/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Plop.js Code Generator
 
 The Plop.js Code Generator skill builds custom code scaffolding pipelines using Plop.js with Handlebars template syntax. It creates plopfile.js configurations that define generators with interactive inquirer prompts, template actions, and custom action handlers.

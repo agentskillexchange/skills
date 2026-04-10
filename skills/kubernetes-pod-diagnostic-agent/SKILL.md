@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Pod Diagnostic Agent"
-description: "Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources."
+name: Kubernetes Pod Diagnostic Agent
+description: Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API
+  server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states
+  by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/"
+source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Codex"
+- Codex
 ---
-
 # Kubernetes Pod Diagnostic Agent
 
 The Kubernetes Pod Diagnostic Agent skill provides automated troubleshooting for failing Kubernetes workloads. It interfaces with the Kubernetes API server through kubectl commands and direct REST API calls to /api/v1 and /apis/apps/v1 endpoints to diagnose common pod failure patterns.

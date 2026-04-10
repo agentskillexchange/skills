@@ -1,14 +1,15 @@
 ---
-name: "SAST Pipeline Scanner"
-description: "Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced Security for findings management."
+name: SAST Pipeline Scanner
+description: Runs static application security testing using Semgrep rules and CodeQL
+  queries against pull request diffs. Supports SARIF output format and integrates
+  with GitHub Advanced Security for findings management.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sast-pipeline-scanner/"
+source: https://agentskillexchange.com/skills/sast-pipeline-scanner/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # SAST Pipeline Scanner
 
 The SAST Pipeline Scanner skill integrates static application security testing directly into your CI/CD pipeline through agent automation. It orchestrates Semgrep's pattern-matching engine with custom rule sets targeting OWASP Top 10 vulnerabilities, and leverages CodeQL's semantic code analysis for deeper taint-tracking across function boundaries.

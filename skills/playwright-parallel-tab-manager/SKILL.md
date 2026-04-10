@@ -1,14 +1,15 @@
 ---
-name: "Playwright Parallel Tab Manager"
-description: "Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports."
+name: Playwright Parallel Tab Manager
+description: Manages concurrent Playwright browser contexts with tab pooling and automatic
+  resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch()
+  for parallel test execution across multiple viewports.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
+source: https://agentskillexchange.com/skills/playwright-parallel-tab-manager/
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Playwright Parallel Tab Manager
 
 Playwright Parallel Tab Manager is built around Playwright browser automation framework. The underlying ecosystem is represented by microsoft/playwright (84,874+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like browser contexts, locators, page actions, tracing, screenshots, test runner and preserving the operational context that matters for real tasks.

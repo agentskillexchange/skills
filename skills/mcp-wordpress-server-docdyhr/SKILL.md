@@ -1,14 +1,16 @@
 ---
-name: "MCP WordPress Server by docdyhr"
-description: "An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through the Model Context Protocol. It is useful when an agent needs natural-language control over posts, pages, taxonomies, media, users, plugins, and multisite WordPress operations via a real MCP server."
+name: MCP WordPress Server by docdyhr
+description: An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server
+  that exposes site management tools through the Model Context Protocol. It is useful
+  when an agent needs natural-language control over posts, pages, taxonomies, media,
+  users, plugins, and multisite WordPress operations via a real MCP server.
 verification: security_reviewed
-source: "https://github.com/docdyhr/mcp-wordpress"
+source: https://github.com/docdyhr/mcp-wordpress
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "MCP"
+- MCP
 ---
-
 # MCP WordPress Server by docdyhr
 
 MCP WordPress Server by docdyhr is a source-backed ASE skill for WordPress management through the Model Context Protocol. The upstream project is docdyhr/mcp-wordpress, an actively maintained TypeScript MCP server with an npm package, tagged releases, and a detailed README. Its purpose is straightforward: expose WordPress content and administrative actions as MCP tools so an MCP-compatible client can manage a site through structured tool calls instead of manual wp-admin navigation.

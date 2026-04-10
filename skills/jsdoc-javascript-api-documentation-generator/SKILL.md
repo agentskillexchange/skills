@@ -1,19 +1,22 @@
 ---
-name: "JSDoc JavaScript API Documentation Generator"
-description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
+name: JSDoc JavaScript API Documentation Generator
+description: JSDoc is the standard API documentation generator for JavaScript. It
+  parses specially-formatted comments in JavaScript source code to produce HTML documentation
+  pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely
+  adopted JavaScript documentation tool and the foundation of the JSDoc comment standard
+  used across the entire JS ecosystem.
 verification: security_reviewed
-source: "https://github.com/jsdoc/jsdoc"
+source: https://github.com/jsdoc/jsdoc
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "jsdoc/jsdoc"
+  github_repo: jsdoc/jsdoc
   github_stars: 15426
-  ase_npm_package: "jsdoc"
+  ase_npm_package: jsdoc
   npm_weekly_downloads: 2663272
 ---
-
 # JSDoc JavaScript API Documentation Generator
 
 JSDoc is the canonical API documentation generator for JavaScript projects. It reads structured comment annotations (the JSDoc comment format using /** ... */ blocks with @param, @returns, @typedef, and other tags) from JavaScript source files and generates navigable HTML documentation sites. The JSDoc comment format has become a de facto standard, supported by IDEs like VS Code for inline type hints and by TypeScript for type checking JavaScript files via JSDoc annotations.

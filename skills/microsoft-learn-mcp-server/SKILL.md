@@ -1,17 +1,19 @@
 ---
-name: "Microsoft Learn MCP Server"
-description: "Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and code samples through a hosted MCP endpoint. It is built to reduce hallucinations around Azure, .NET, Microsoft 365, and other Microsoft platforms by grounding answers in first-party docs."
+name: Microsoft Learn MCP Server
+description: Microsoft Learn MCP Server gives agents and IDE assistants direct access
+  to official Microsoft documentation and code samples through a hosted MCP endpoint.
+  It is built to reduce hallucinations around Azure, .NET, Microsoft 365, and other
+  Microsoft platforms by grounding answers in first-party docs.
 verification: security_reviewed
-source: "https://github.com/MicrosoftDocs/mcp"
+source: https://github.com/MicrosoftDocs/mcp
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "MicrosoftDocs/mcp"
+  github_repo: MicrosoftDocs/mcp
   github_stars: 1533
 ---
-
 # Microsoft Learn MCP Server
 
 Microsoft Learn MCP Server is Microsoft&apos;s official MCP service for retrieving trusted documentation and code samples from Microsoft Learn. The upstream repository describes it as a free, no-auth way to connect MCP-capable assistants to real Microsoft documentation instead of relying on stale training data or random web results. Its core job-to-be-done is to help agents answer technical Microsoft questions with current, first-party material.

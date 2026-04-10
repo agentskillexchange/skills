@@ -1,14 +1,17 @@
 ---
-name: "Discord Moderation Bot with AI Classification"
-description: "Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior. Issues timeouts via the Discord REST API and logs incidents to a Supabase Postgres table for moderator review. Rule sets are stored in Supabase and hot-reloaded without restart."
+name: Discord Moderation Bot with AI Classification
+description: Listens to Discord gateway events, passing flagged messages to the OpenAI
+  Moderation API and a custom classifier to detect spam and coordinated inauthentic
+  behavior. Issues timeouts via the Discord REST API and logs incidents to a Supabase
+  Postgres table for moderator review. Rule sets are stored in Supabase and hot-reloaded
+  without restart.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/discord-moderation-ai-classification/"
+source: https://agentskillexchange.com/skills/discord-moderation-ai-classification/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Discord Moderation Bot with AI Classification
 
 Discord Moderation Bot with AI Classification is built around Discord bot and moderation platform. The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like gateway events, slash commands, REST API, webhooks, intents, role actions and preserving the operational context that matters for real tasks.

@@ -1,14 +1,15 @@
 ---
-name: "Terraform State Surgery Kit"
-description: "Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API. Handles state imports, resource moves, and taint operations with automatic backup and rollback."
+name: Terraform State Surgery Kit
+description: Performs safe Terraform state operations using the terraform CLI state
+  subcommands and the Terraform Cloud API. Handles state imports, resource moves,
+  and taint operations with automatic backup and rollback.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-state-surgery-kit/"
+source: https://agentskillexchange.com/skills/terraform-state-surgery-kit/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Terraform State Surgery Kit
 
 The Terraform State Surgery Kit skill provides safe, guided state manipulation operations for Terraform-managed infrastructure. It wraps terraform state subcommands (mv, rm, import, pull, push) with safety checks, automatic backups, and rollback capabilities.

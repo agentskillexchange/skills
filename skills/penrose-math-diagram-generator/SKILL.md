@@ -1,17 +1,19 @@
 ---
-name: "Penrose Mathematical Diagram Generator from Plain Text Notation"
-description: "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply style rules to generate publication-quality SVG visualizations automatically."
+name: Penrose Mathematical Diagram Generator from Plain Text Notation
+description: Penrose is an open-source platform that creates beautiful mathematical
+  and scientific diagrams from plain text notation. Define domain concepts, write
+  substance programs, and apply style rules to generate publication-quality SVG visualizations
+  automatically.
 verification: security_reviewed
-source: "https://github.com/penrose/penrose"
+source: https://github.com/penrose/penrose
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "penrose/penrose"
+  github_repo: penrose/penrose
   github_stars: 7933
 ---
-
 # Penrose Mathematical Diagram Generator from Plain Text Notation
 
 Penrose is an open-source diagramming platform developed at Carnegie Mellon University that lets users create beautiful, mathematically precise diagrams by typing plain text notation. Instead of manually positioning shapes and lines in a visual editor, you describe what you want to visualize and Penrose figures out how to lay it out. The system uses optimization-based layout algorithms to produce publication-quality SVG output suitable for research papers, textbooks, and educational materials.

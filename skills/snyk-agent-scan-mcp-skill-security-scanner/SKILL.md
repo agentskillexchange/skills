@@ -1,17 +1,19 @@
 ---
-name: "Snyk Agent Scan MCP and Skill Security Scanner"
-description: "Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent harnesses for security vulnerabilities like prompt injections, tool poisoning, tool shadowing, and malware payloads. It supports Claude Code, Cursor, Windsurf, Gemini CLI, VS Code, and more."
+name: Snyk Agent Scan MCP and Skill Security Scanner
+description: Snyk Agent Scan automatically discovers and scans AI agent components
+  including MCP servers, agent skills, and agent harnesses for security vulnerabilities
+  like prompt injections, tool poisoning, tool shadowing, and malware payloads. It
+  supports Claude Code, Cursor, Windsurf, Gemini CLI, VS Code, and more.
 verification: security_reviewed
-source: "https://github.com/snyk/agent-scan"
+source: https://github.com/snyk/agent-scan
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "snyk/agent-scan"
+  github_repo: snyk/agent-scan
   github_stars: 2039
 ---
-
 # Snyk Agent Scan MCP and Skill Security Scanner
 
 Snyk Agent Scan (formerly mcp-scan by Invariant Labs, now maintained by Snyk) is a security scanner purpose-built for the AI agent ecosystem. It auto-discovers agent configurations on a machine and scans MCP servers, agent skills, and harnesses for over 15 distinct security risk categories including prompt injection, tool poisoning, tool shadowing, toxic flows, malware payloads hidden in natural language, credential handling issues, and hardcoded secrets.

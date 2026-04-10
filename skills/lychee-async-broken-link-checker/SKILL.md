@@ -1,17 +1,20 @@
 ---
-name: "lychee Async Broken Link Checker for Websites and Documentation"
-description: "lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more. It supports HTTP/HTTPS, file links, and mail address validation with configurable concurrency and output formats."
+name: lychee Async Broken Link Checker for Websites and Documentation
+description: lychee is a fast, async, stream-based link checker written in Rust that
+  finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites
+  and more. It supports HTTP/HTTPS, file links, and mail address validation with configurable
+  concurrency and output formats.
 verification: security_reviewed
-source: "https://github.com/lycheeverse/lychee"
+source: https://github.com/lycheeverse/lychee
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "lycheeverse/lychee"
+  github_repo: lycheeverse/lychee
   github_stars: 3463
+  license: Apache-2.0
 ---
-
 # lychee Async Broken Link Checker for Websites and Documentation
 
 lychee is a command-line link checker written in Rust that scans websites, documentation files, and codebases for broken hyperlinks and invalid email addresses. It operates asynchronously with configurable concurrency, making it dramatically faster than traditional link checkers when validating large documentation sets or crawling multi-page websites.

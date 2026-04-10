@@ -1,14 +1,16 @@
 ---
-name: "Helm Chart Diff & Upgrade Manager"
-description: "Uses helm-diff to compute a human-readable diff between deployed and candidate chart versions before upgrade. Automatically bumps image tags by querying the OCI registry, then executes helm upgrade -atomic with configurable rollback timeouts. Sends upgrade status to PagerDuty or Datadog."
+name: Helm Chart Diff &amp; Upgrade Manager
+description: Uses helm-diff to compute a human-readable diff between deployed and
+  candidate chart versions before upgrade. Automatically bumps image tags by querying
+  the OCI registry, then executes helm upgrade &#8211;atomic with configurable rollback
+  timeouts. Sends upgrade status to PagerDuty or Datadog.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/"
+source: https://agentskillexchange.com/skills/helm-chart-diff-upgrade-manager/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Helm Chart Diff & Upgrade Manager
 
 Helm Chart Diff & Upgrade Manager is built around Helm package manager for Kubernetes. The underlying ecosystem is represented by helm/helm (29,603+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charts, values.yaml, releases, helm diff, upgrade, rollback, OCI registries and preserving the operational context that matters for real tasks.

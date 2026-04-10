@@ -1,17 +1,19 @@
 ---
-name: "retext Natural Language Processor with Unified Plugin Ecosystem"
-description: "retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script text into an AST (nlcst), enabling programmatic text analysis and transformation through a rich plugin ecosystem for spell checking, readability analysis, typography fixes, and content quality enforcement."
+name: retext Natural Language Processor with Unified Plugin Ecosystem
+description: retext is a natural language processor powered by plugins, part of the
+  unified.js collective. It parses Latin-script text into an AST (nlcst), enabling
+  programmatic text analysis and transformation through a rich plugin ecosystem for
+  spell checking, readability analysis, typography fixes, and content quality enforcement.
 verification: security_reviewed
-source: "https://github.com/retextjs/retext"
+source: https://github.com/retextjs/retext
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "retextjs/retext"
+  github_repo: retextjs/retext
   github_stars: 2433
 ---
-
 # retext Natural Language Processor with Unified Plugin Ecosystem
 
 retext is a natural language processing framework that operates on a concrete syntax tree (CST) representation of text, built as part of the unified.js collective — the same ecosystem that powers remark (Markdown), rehype (HTML), and other content processing tools. It parses Latin-script natural language into nlcst (Natural Language Concrete Syntax Tree) nodes, then applies a pipeline of plugins to analyze or transform the text.

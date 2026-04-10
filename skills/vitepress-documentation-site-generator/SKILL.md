@@ -1,14 +1,16 @@
 ---
-name: "VitePress Documentation Site Generator"
-description: "VitePress is a Vite and Vue powered static site generator focused on documentation, knowledge bases, and project sites. It gives agents a reliable way to scaffold, structure, and maintain docs sites with fast local previews and Markdown-first authoring."
+name: VitePress Documentation Site Generator
+description: VitePress is a Vite and Vue powered static site generator focused on
+  documentation, knowledge bases, and project sites. It gives agents a reliable way
+  to scaffold, structure, and maintain docs sites with fast local previews and Markdown-first
+  authoring.
 verification: security_reviewed
-source: "https://github.com/vuejs/vitepress"
+source: https://github.com/vuejs/vitepress
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # VitePress Documentation Site Generator
 
 VitePress is the official documentation site generator built by the Vue ecosystem for teams that want fast, Markdown-first documentation sites. It combines Vite for development and build speed with Vue-powered theming and interactivity, making it a strong choice for product docs, internal knowledge bases, API references, and technical handbooks. The project is backed by an official GitHub repository, a published npm package, and first-party documentation at vitepress.dev.

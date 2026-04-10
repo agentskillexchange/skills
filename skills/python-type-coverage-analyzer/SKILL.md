@@ -1,14 +1,15 @@
 ---
-name: "Python Type Coverage Analyzer"
-description: "Measures and improves Python type annotation coverage using mypy -html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
+name: Python Type Coverage Analyzer
+description: Measures and improves Python type annotation coverage using mypy &#8211;html-report
+  and pyright type completeness scoring. Identifies untyped function signatures, missing
+  return types, and Any-typed parameters across codebases.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/python-type-coverage-analyzer/"
+source: https://agentskillexchange.com/skills/python-type-coverage-analyzer/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Python Type Coverage Analyzer
 
 The Python Type Coverage Analyzer skill assesses and improves type annotation completeness across Python codebases. It runs mypy with -html-report and -txt-report to generate coverage metrics, then processes pyright output in JSON mode to compute type completeness scores per module and identify specific locations where type information is missing.

@@ -1,19 +1,21 @@
 ---
-name: "Uptime Kuma Self-Hosted Uptime Monitoring Platform"
-description: "Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a concrete way to create, update, and review monitors, incidents, notifications, and public status pages from a self-hosted monitoring stack."
+name: Uptime Kuma Self-Hosted Uptime Monitoring Platform
+description: Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS,
+  Docker, and keyword checks. It gives agents a concrete way to create, update, and
+  review monitors, incidents, notifications, and public status pages from a self-hosted
+  monitoring stack.
 verification: security_reviewed
-source: "https://github.com/louislam/uptime-kuma"
+source: https://github.com/louislam/uptime-kuma
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "louislam/uptime-kuma"
+  github_repo: louislam/uptime-kuma
   github_stars: 85056
-  ase_npm_package: "uptime-kuma"
+  ase_npm_package: uptime-kuma
   npm_weekly_downloads: 85
 ---
-
 # Uptime Kuma Self-Hosted Uptime Monitoring Platform
 
 Uptime Kuma is a self-hosted monitoring platform maintained by louislam and published as the louislam/uptime-kuma project on GitHub. It is built for teams that want a lightweight but capable uptime tool they can run themselves instead of outsourcing checks and status pages to a hosted SaaS. The project supports HTTP and HTTPS checks, TCP port checks, ping, DNS monitoring, Docker container health monitoring, keyword validation, certificate expiration alerts, and public status pages. For an agent workflow, that gives a clear job-to-be-done: create monitors, validate whether a service is reachable, inspect recent incidents, confirm whether latency or certificate state changed, and route alerts into the rest of an operations stack.

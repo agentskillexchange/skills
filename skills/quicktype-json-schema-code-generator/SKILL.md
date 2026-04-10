@@ -1,17 +1,19 @@
 ---
-name: "quicktype JSON Schema to Typed Code Generator"
-description: "Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns sample data into production-ready type definitions for Swift, C#, Go, Python, Rust, Java, Kotlin, and more."
+name: quicktype JSON Schema to Typed Code Generator
+description: Generate strongly-typed models and serializers from JSON, JSON Schema,
+  TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns sample
+  data into production-ready type definitions for Swift, C#, Go, Python, Rust, Java,
+  Kotlin, and more.
 verification: security_reviewed
-source: "https://github.com/glideapps/quicktype"
+source: https://github.com/glideapps/quicktype
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "glideapps/quicktype"
+  github_repo: glideapps/quicktype
   github_stars: 13690
 ---
-
 # quicktype JSON Schema to Typed Code Generator
 
 quicktype is an open-source tool by Glide that generates strongly-typed data models and serialization code from JSON samples, JSON Schema definitions, TypeScript interfaces, and GraphQL queries. It supports over 20 target languages including Swift, C#, Go, Python, Rust, Java, Kotlin, Dart, TypeScript, C++, Ruby, Scala, Haskell, PHP, Elm, and Objective-C.

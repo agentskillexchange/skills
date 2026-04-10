@@ -1,17 +1,19 @@
 ---
-name: "libSQL Edge-Ready SQLite Fork by Turso"
-description: "libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents to work with libSQL for edge computing, serverless, and embedded database workloads."
+name: libSQL Edge-Ready SQLite Fork by Turso
+description: libSQL is an open-source, open-contribution fork of SQLite by Turso that
+  adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents
+  to work with libSQL for edge computing, serverless, and embedded database workloads.
 verification: security_reviewed
-source: "https://github.com/tursodatabase/libsql"
+source: https://github.com/tursodatabase/libsql
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "tursodatabase/libsql"
+  github_repo: tursodatabase/libsql
   github_stars: 16551
+  license: MIT
 ---
-
 # libSQL Edge-Ready SQLite Fork by Turso
 
 libSQL is an open-source fork of SQLite created and maintained by Turso that extends SQLite's capabilities for modern application architectures. While preserving full SQLite compatibility, libSQL adds embedded replicas that sync from a remote primary, a server mode (libsql-server) that exposes SQLite over HTTP and WebSocket protocols similar to PostgreSQL or MySQL, and WebAssembly-based user-defined functions for running custom logic inside the database engine.

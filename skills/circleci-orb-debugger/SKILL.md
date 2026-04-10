@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Debugger"
-description: "Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures."
+name: CircleCI Orb Debugger
+description: Diagnoses and fixes CircleCI orb configuration errors using the CircleCI
+  v2 API and circleci config validate CLI. Parses orb source YAML against the orb
+  development kit schema for type mismatches and parameter validation failures.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-debugger/"
+source: https://agentskillexchange.com/skills/circleci-orb-debugger/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # CircleCI Orb Debugger
 
 The CircleCI Orb Debugger skill provides comprehensive diagnostics for CircleCI orb authoring and consumption issues. It connects to the CircleCI v2 API to fetch orb source definitions, inspect published versions, and validate configuration files against the orb schema specification.

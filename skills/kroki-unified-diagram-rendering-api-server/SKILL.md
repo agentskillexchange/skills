@@ -1,14 +1,15 @@
 ---
-name: "Kroki Unified Diagram Rendering API and Server"
-description: "Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25 diagram libraries including PlantUML, Mermaid, GraphViz, D2, Excalidraw, and more through a single self-hostable service."
+name: Kroki Unified Diagram Rendering API and Server
+description: Kroki provides a unified HTTP API that converts textual diagram descriptions
+  into images. It supports over 25 diagram libraries including PlantUML, Mermaid,
+  GraphViz, D2, Excalidraw, and more through a single self-hostable service.
 verification: security_reviewed
-source: "https://github.com/yuzutech/kroki"
+source: https://github.com/yuzutech/kroki
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Kroki Unified Diagram Rendering API and Server
 
 Kroki is an open-source diagram rendering service that provides a single unified API for converting text-based diagram descriptions into SVG, PNG, and PDF images. Instead of installing and configuring each diagramming tool individually, Kroki acts as a gateway that routes requests to the appropriate rendering engine behind a consistent HTTP interface.

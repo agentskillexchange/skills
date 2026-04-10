@@ -1,14 +1,15 @@
 ---
-name: "Apache Kafka Schema Registry Extractor"
-description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects."
+name: Apache Kafka Schema Registry Extractor
+description: Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry
+  using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract
+  documentation from registered subjects.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kafka-schema-registry-extractor/"
+source: https://agentskillexchange.com/skills/kafka-schema-registry-extractor/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Apache Kafka Schema Registry Extractor
 
 The Apache Kafka Schema Registry Extractor skill connects to Confluent Schema Registry instances via the REST API (/subjects, /schemas/ids) to catalog, extract, and transform all registered Avro, Protobuf, and JSON Schema definitions. It provides a comprehensive view of your event-driven architecture's data contracts.

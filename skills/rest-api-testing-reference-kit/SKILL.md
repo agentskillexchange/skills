@@ -1,14 +1,15 @@
 ---
-name: "REST API Testing Reference Kit"
-description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
+name: REST API Testing Reference Kit
+description: Comprehensive REST API testing reference using Postman Collection SDK
+  v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with
+  Ajv, response time benchmarking, and contract testing patterns.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rest-api-testing-reference-kit/"
+source: https://agentskillexchange.com/skills/rest-api-testing-reference-kit/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # REST API Testing Reference Kit
 
 The REST API Testing Reference Kit provides structured testing patterns and reusable test suites for REST API validation. Built on Postman Collection SDK v2.1 format with Newman CLI execution, it offers a comprehensive library of test patterns organized by HTTP method, authentication type, and response format.

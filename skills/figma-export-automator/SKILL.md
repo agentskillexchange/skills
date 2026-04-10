@@ -1,14 +1,15 @@
 ---
-name: "Figma Export Automator"
-description: "Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors, typography, spacing), and renders frames as SVG/PNG. Generates CSS custom properties from styles."
+name: Figma Export Automator
+description: Exports assets from Figma files using the Figma REST API v1. Extracts
+  component sets, design tokens (colors, typography, spacing), and renders frames
+  as SVG/PNG. Generates CSS custom properties from styles.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/figma-export-automator/"
+source: https://agentskillexchange.com/skills/figma-export-automator/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Figma Export Automator
 
 The Figma Export Automator skill connects Claude to Figma's REST API v1 for extracting design assets and tokens from Figma files programmatically. It reads file structures, component hierarchies, and style definitions without requiring the Figma desktop app.

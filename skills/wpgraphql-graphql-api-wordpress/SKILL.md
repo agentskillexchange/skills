@@ -1,17 +1,20 @@
 ---
-name: "WPGraphQL GraphQL API for WordPress"
-description: "Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom fields through typed GraphQL operations instead of ad hoc REST fetches."
+name: WPGraphQL GraphQL API for WordPress
+description: Builds headless WordPress workflows around WPGraphQL, the open-source
+  GraphQL API plugin for WordPress. Useful for querying posts, custom post types,
+  menus, taxonomies, and custom fields through typed GraphQL operations instead of
+  ad hoc REST fetches.
 verification: security_reviewed
-source: "https://github.com/wp-graphql/wp-graphql"
+source: https://github.com/wp-graphql/wp-graphql
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "wp-graphql/wp-graphql"
+  github_repo: wp-graphql/wp-graphql
   github_stars: 3777
+  license: GPL-3.0
 ---
-
 # WPGraphQL GraphQL API for WordPress
 
 WPGraphQL GraphQL API for WordPress is for headless and composable WordPress projects that want a typed query layer instead of a loose collection of REST endpoints. The skill is grounded in the real WPGraphQL plugin and its documented APIs, including schema objects, connections, resolvers, custom post type exposure, menu queries, and extension hooks such as register_graphql_field and register_graphql_object_type. It is especially useful when a frontend built in Next.js, Remix, Astro, or another JavaScript framework needs stable field selection and predictable relationships.

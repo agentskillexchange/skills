@@ -1,14 +1,15 @@
 ---
-name: "PagerDuty Incident Runbook Automator"
-description: "Automates incident response runbooks using the PagerDuty Events API v2 and REST API. Manages incident creation, escalation policies, and automated diagnostics triggered by alert severity."
+name: PagerDuty Incident Runbook Automator
+description: Automates incident response runbooks using the PagerDuty Events API v2
+  and REST API. Manages incident creation, escalation policies, and automated diagnostics
+  triggered by alert severity.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/"
+source: https://agentskillexchange.com/skills/pagerduty-incident-runbook-automator/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # PagerDuty Incident Runbook Automator
 
 The PagerDuty Incident Runbook Automator skill integrates with the PagerDuty Events API v2 (events.pagerduty.com/v2/enqueue) and REST API (api.pagerduty.com) to automate incident response workflows. It creates incidents via the Events API with routing_key, event_action (trigger, acknowledge, resolve), and severity levels (critical, error, warning, info).

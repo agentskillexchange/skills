@@ -1,14 +1,15 @@
 ---
-name: "Stable Diffusion ControlNet Pipeline"
-description: "Automates image generation workflows using Stability AI ControlNet API with depth maps, edge detection, and pose estimation. Integrates with Hugging Face diffusers library for model management and CLIP interrogator for prompt refinement."
+name: Stable Diffusion ControlNet Pipeline
+description: Automates image generation workflows using Stability AI ControlNet API
+  with depth maps, edge detection, and pose estimation. Integrates with Hugging Face
+  diffusers library for model management and CLIP interrogator for prompt refinement.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/"
+source: https://agentskillexchange.com/skills/stable-diffusion-controlnet-pipeline/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Stable Diffusion ControlNet Pipeline
 
 The Stable Diffusion ControlNet Pipeline skill provides a comprehensive image generation framework that leverages ControlNet conditioning models through the Stability AI API. It supports multiple control modes including depth mapping via MiDaS, edge detection through Canny filters, and OpenPose skeleton estimation for precise human figure guidance.

@@ -1,17 +1,19 @@
 ---
-name: "Thumbor Smart Image Processing Service"
-description: "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent face and feature detection. Enables automated image optimization pipelines for web applications and content delivery workflows."
+name: Thumbor Smart Image Processing Service
+description: An agent skill that leverages Thumbor, the open-source smart image processing
+  service by Globo.com, to perform on-demand image cropping, resizing, and filtering
+  with intelligent face and feature detection. Enables automated image optimization
+  pipelines for web applications and content delivery workflows.
 verification: security_reviewed
-source: "https://github.com/thumbor/thumbor"
+source: https://github.com/thumbor/thumbor
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "thumbor/thumbor"
+  github_repo: thumbor/thumbor
   github_stars: 10470
 ---
-
 # Thumbor Smart Image Processing Service
 
 Thumbor is an open-source smart imaging service created by Globo.com that provides on-demand crop, resizing, and flipping of images through a URL-based API. This skill integrates Thumbor into agent workflows, enabling automated image transformation pipelines without manual intervention.

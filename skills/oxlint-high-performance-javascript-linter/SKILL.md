@@ -1,19 +1,20 @@
 ---
-name: "Oxlint High-Performance JavaScript Linter"
-description: "Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust, Oxlint is 50-100x faster than ESLint and used by Shopify, ByteDance, and Preact."
+name: Oxlint High-Performance JavaScript Linter
+description: Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases
+  at extreme speed. Written in Rust, Oxlint is 50-100x faster than ESLint and used
+  by Shopify, ByteDance, and Preact.
 verification: security_reviewed
-source: "https://github.com/oxc-project/oxc"
+source: https://github.com/oxc-project/oxc
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "oxc-project/oxc"
+  github_repo: oxc-project/oxc
   github_stars: 20468
-  ase_npm_package: "oxlint"
+  ase_npm_package: oxlint
   npm_weekly_downloads: 3983578
 ---
-
 # Oxlint High-Performance JavaScript Linter
 
 Overview

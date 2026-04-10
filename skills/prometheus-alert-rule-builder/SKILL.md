@@ -1,14 +1,15 @@
 ---
-name: "Prometheus Alert Rule Builder"
-description: "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver integrations."
+name: Prometheus Alert Rule Builder
+description: Creates and validates Prometheus alerting rules using PromQL expressions
+  and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty,
+  Slack, and OpsGenie receiver integrations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/prometheus-alert-rule-builder/"
+source: https://agentskillexchange.com/skills/prometheus-alert-rule-builder/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Prometheus Alert Rule Builder
 
 The Prometheus Alert Rule Builder skill automates the creation and management of Prometheus alerting rules and Alertmanager configurations. It generates valid PromQL expressions for common monitoring patterns and validates them against running Prometheus instances via the HTTP API.

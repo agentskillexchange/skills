@@ -1,14 +1,15 @@
 ---
-name: "StatsD Metrics Aggregation Pipeline"
-description: "Configures StatsD metric collection with custom aggregation rules and flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog DogStatsD endpoints with tag-based dimensional routing."
+name: StatsD Metrics Aggregation Pipeline
+description: Configures StatsD metric collection with custom aggregation rules and
+  flush intervals. Routes metrics to Graphite Carbon, InfluxDB Line Protocol, or Datadog
+  DogStatsD endpoints with tag-based dimensional routing.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/"
+source: https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # StatsD Metrics Aggregation Pipeline
 
 The StatsD Metrics Aggregation Pipeline skill manages application metrics collection and routing through StatsD-compatible metric pipelines. It configures metric type handling for counters, gauges, timers, histograms, and sets with customizable aggregation rules including percentile calculations, moving averages, and rate conversions.

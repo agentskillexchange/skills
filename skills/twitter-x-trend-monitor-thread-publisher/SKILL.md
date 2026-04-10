@@ -1,14 +1,16 @@
 ---
-name: "Twitter/X Trend Monitor & Thread Publisher"
-description: "Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits."
+name: Twitter/X Trend Monitor &amp; Thread Publisher
+description: Polls the X API v2 trending topics endpoint every 15 minutes and compares
+  against a keyword watchlist stored in Redis. When a trend matches, fetches top tweets
+  by engagement and drafts a summarizing thread via OpenAI Chat Completions. Publishes
+  the thread via X API v2 with reply chaining, respecting OAuth 2.0 PKCE rate limits.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/"
+source: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Twitter/X Trend Monitor & Thread Publisher
 
 Twitter/X Trend Monitor & Thread Publisher is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like keys, hashes, TTLs, streams, pub/sub, sorted sets, locks and preserving the operational context that matters for real tasks.

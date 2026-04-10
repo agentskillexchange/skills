@@ -1,17 +1,19 @@
 ---
-name: "WhisperX Speech Recognition with Word-Level Timestamps and Diarization"
-description: "WhisperX extends OpenAI Whisper with batched inference for 70x realtime transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice activity detection, and speaker diarization. It produces accurate per-word timestamps and speaker labels from audio files."
+name: WhisperX Speech Recognition with Word-Level Timestamps and Diarization
+description: WhisperX extends OpenAI Whisper with batched inference for 70x realtime
+  transcription, phoneme-based word-level timestamp alignment via wav2vec2, voice
+  activity detection, and speaker diarization. It produces accurate per-word timestamps
+  and speaker labels from audio files.
 verification: security_reviewed
-source: "https://github.com/m-bain/whisperX"
+source: https://github.com/m-bain/whisperX
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "m-bain/whisperX"
+  github_repo: m-bain/whisperX
   github_stars: 21036
 ---
-
 # WhisperX Speech Recognition with Word-Level Timestamps and Diarization
 
 WhisperX is an automatic speech recognition system that builds on OpenAI Whisper to deliver word-level timestamps and speaker diarization capabilities. While standard Whisper produces utterance-level timestamps that can be off by several seconds, WhisperX refines these using forced alignment with phoneme-based ASR models like wav2vec 2.0, producing accurate per-word timing.

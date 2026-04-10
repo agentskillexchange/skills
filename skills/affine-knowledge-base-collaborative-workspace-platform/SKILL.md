@@ -1,14 +1,16 @@
 ---
-name: "AFFiNE Knowledge Base and Collaborative Workspace Platform"
-description: "AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This skill is useful when an agent needs to structure notes, maintain linked knowledge, or automate content workflows around AFFiNE workspaces and self-hosted deployments."
+name: AFFiNE Knowledge Base and Collaborative Workspace Platform
+description: AFFiNE is an open source workspace that combines docs, whiteboards, and
+  lightweight databases in one product. This skill is useful when an agent needs to
+  structure notes, maintain linked knowledge, or automate content workflows around
+  AFFiNE workspaces and self-hosted deployments.
 verification: security_reviewed
-source: "https://github.com/toeverything/AFFiNE"
+source: https://github.com/toeverything/AFFiNE
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # AFFiNE Knowledge Base and Collaborative Workspace Platform
 
 AFFiNE is an open source workspace platform from toeverything that blends document editing, whiteboards, databases, and knowledge management into a single collaborative environment. It is positioned as an all-in-one alternative for teams that want a flexible space for notes, project planning, and structured knowledge without stitching together separate tools for writing, visual thinking, and lightweight data organization.

@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Shared Library Builder"
-description: "Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness."
+name: Jenkins Shared Library Builder
+description: Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit
+  framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static
+  analysis and tests pipeline steps with JenkinsRule from jenkins-test-harness.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-shared-library-builder/"
+source: https://agentskillexchange.com/skills/jenkins-shared-library-builder/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Jenkins Shared Library Builder
 
 The Jenkins Shared Library Builder skill automates the creation, testing, and deployment of Jenkins Shared Libraries — reusable Groovy code packages that standardize CI/CD pipeline definitions across an organization. It scaffolds the standard directory structure (vars/, src/, resources/) and generates both declarative and scripted pipeline step implementations.

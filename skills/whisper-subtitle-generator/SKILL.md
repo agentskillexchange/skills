@@ -1,14 +1,15 @@
 ---
-name: "Whisper Subtitle Generator"
-description: "Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote."
+name: Whisper Subtitle Generator
+description: Generates accurate subtitles and captions using OpenAI Whisper API with
+  word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line
+  length and speaker diarization via pyannote.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/whisper-subtitle-generator/"
+source: https://agentskillexchange.com/skills/whisper-subtitle-generator/
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Whisper Subtitle Generator
 
 The Whisper Subtitle Generator skill combines OpenAI Whisper speech recognition with professional subtitle formatting to produce broadcast-ready caption files. It supports both the Whisper API and local whisper.cpp inference for flexible deployment options.

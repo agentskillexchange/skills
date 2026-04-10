@@ -1,18 +1,19 @@
 ---
-name: "Dagster Data Pipeline Orchestrator"
-description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
+name: Dagster Data Pipeline Orchestrator
+description: Orchestrate data pipelines using Dagster, the cloud-native data orchestration
+  platform. Define data assets as Python functions with automatic lineage tracking,
+  scheduling, and observability.
 verification: security_reviewed
-source: "https://github.com/dagster-io/dagster"
+source: https://github.com/dagster-io/dagster
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+- Claude Code
+- OpenClaw
 tool_ecosystem:
-  github_repo: "dagster-io/dagster"
+  github_repo: dagster-io/dagster
   github_stars: 15257
 ---
-
 # Dagster Data Pipeline Orchestrator
 
 The Dagster Data Pipeline Orchestrator skill integrates Dagster, the open-source data orchestration platform with over 15,000 GitHub stars, into AI agent workflows for building, scheduling, and monitoring data pipelines. Dagster uses a declarative, asset-based programming model where data assets (tables, models, reports) are defined as Python functions with explicit dependencies.

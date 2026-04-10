@@ -1,14 +1,15 @@
 ---
-name: "Jina Reader URL-to-Markdown Converter and Web Search API"
-description: "Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that returns web search results in clean markdown format for RAG and agent workflows."
+name: Jina Reader URL-to-Markdown Converter and Web Search API
+description: Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/
+  to any web address. It also provides a search endpoint at https://s.jina.ai/ that
+  returns web search results in clean markdown format for RAG and agent workflows.
 verification: security_reviewed
-source: "https://github.com/jina-ai/reader"
+source: https://github.com/jina-ai/reader
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Jina Reader URL-to-Markdown Converter and Web Search API
 
 Jina Reader is an open-source tool and free hosted API by Jina AI that converts any web page into clean, LLM-friendly markdown content. By simply prepending https://r.jina.ai/ to any URL, you get a markdown version of that page optimized for language model consumption. The project also includes a search endpoint at https://s.jina.ai/ that performs web searches and returns results in markdown format.

@@ -1,17 +1,19 @@
 ---
-name: "HTTPie CLI API Testing and Debugging Client"
-description: "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax with formatted and colorized terminal output, built-in JSON support, and session persistence."
+name: HTTPie CLI API Testing and Debugging Client
+description: HTTPie is a modern, user-friendly command-line HTTP client designed for
+  testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive
+  syntax with formatted and colorized terminal output, built-in JSON support, and
+  session persistence.
 verification: security_reviewed
-source: "https://github.com/httpie/cli"
+source: https://github.com/httpie/cli
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "httpie/cli"
+  github_repo: httpie/cli
   github_stars: 37814
 ---
-
 # HTTPie CLI API Testing and Debugging Client
 
 HTTPie (pronounced aitch-tee-tee-pie) is a command-line HTTP client built for developers who spend time working with APIs and web services. Available on PyPI as the httpie package with over 34,000 GitHub stars, it has become one of the most widely-used alternatives to curl for API interaction.

@@ -1,17 +1,19 @@
 ---
-name: "imgproxy High-Performance Image Processing Proxy"
-description: "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations. Designed for production CDN pipelines and automated media workflows."
+name: imgproxy High-Performance Image Processing Proxy
+description: An agent skill built on imgproxy, the high-performance Go-based image
+  processing server, enabling on-the-fly image resizing, cropping, format conversion,
+  and optimization through URL-based transformations. Designed for production CDN
+  pipelines and automated media workflows.
 verification: security_reviewed
-source: "https://github.com/imgproxy/imgproxy"
+source: https://github.com/imgproxy/imgproxy
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "imgproxy/imgproxy"
+  github_repo: imgproxy/imgproxy
   github_stars: 10554
 ---
-
 # imgproxy High-Performance Image Processing Proxy
 
 imgproxy is a standalone, high-performance image processing server written in Go that uses libvips under the hood for fast, memory-efficient image operations. This skill enables agents to generate optimized image variants through URL-based processing directives without touching the original source files.

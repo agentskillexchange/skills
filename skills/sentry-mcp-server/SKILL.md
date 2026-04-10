@@ -1,19 +1,21 @@
 ---
-name: "Sentry MCP Server"
-description: "Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
+name: Sentry MCP Server
+description: Sentry&#8217;s official MCP server connects your error monitoring stack
+  to any MCP client. Search issues, analyze stack traces, investigate performance
+  bottlenecks, and get AI-powered root cause analysis — all without leaving your editor
+  or agent session.
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry-mcp"
+source: https://github.com/getsentry/sentry-mcp
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "getsentry/sentry-mcp"
+  github_repo: getsentry/sentry-mcp
   github_stars: 626
-  ase_npm_package: "@sentry/mcp-server"
+  ase_npm_package: '@sentry/mcp-server'
   npm_weekly_downloads: 41729
 ---
-
 # Sentry MCP Server
 
 The Sentry MCP Server is maintained by Sentry and designed for human-in-the-loop coding agents. It acts as middleware to the Sentry API, optimized for development workflows and debugging use cases.

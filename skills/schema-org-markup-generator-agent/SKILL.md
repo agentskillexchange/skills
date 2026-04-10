@@ -1,14 +1,15 @@
 ---
-name: "Schema.org Markup Generator"
-description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
+name: Schema.org Markup Generator
+description: Generates structured data markup using Schema.org vocabulary in JSON-LD
+  format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with
+  Google Rich Results Test API validation.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/schema-org-markup-generator-agent/"
+source: https://agentskillexchange.com/skills/schema-org-markup-generator-agent/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Schema.org Markup Generator
 
 Schema.org Markup Generator creates valid JSON-LD structured data for web pages following the Schema.org vocabulary specification. It analyzes page content and generates appropriate markup for types including Article, Product, FAQPage, HowTo, LocalBusiness, BreadcrumbList, and VideoObject.

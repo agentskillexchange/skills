@@ -1,17 +1,19 @@
 ---
-name: "Exa JS Web Search SDK for AI Applications"
-description: "exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand."
+name: Exa JS Web Search SDK for AI Applications
+description: exa-js is the official JavaScript SDK for Exa, a web search API built
+  for AI workflows. It gives agents a concrete way to search the web, retrieve page
+  contents, and generate sourced answers from code instead of stitching raw HTTP calls
+  by hand.
 verification: security_reviewed
-source: "https://github.com/exa-labs/exa-js"
+source: https://github.com/exa-labs/exa-js
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "exa-labs/exa-js"
+  github_repo: exa-labs/exa-js
   github_stars: 125
 ---
-
 # Exa JS Web Search SDK for AI Applications
 
 exa-js is the official JavaScript SDK for Exa, published by exa-labs and documented at docs.exa.ai. The package is designed for Node.js and browser-based applications that need structured web search capabilities for AI systems. Upstream examples show it handling standard search, streamed search, deep search variants, URL content extraction, and answer generation with citations.

@@ -1,14 +1,15 @@
 ---
-name: "CloudWatch Intelligent Alarms"
-description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers."
+name: CloudWatch Intelligent Alarms
+description: Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered
+  anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge
+  for automated remediation triggers.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
+source: https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # CloudWatch Intelligent Alarms
 
 The CloudWatch Intelligent Alarms skill enables AI agents to deploy sophisticated monitoring strategies on AWS infrastructure using the boto3 CloudWatch client. It creates and manages metric alarms, composite alarms, and anomaly detection bands through the put_metric_alarm and put_composite_alarm API calls.

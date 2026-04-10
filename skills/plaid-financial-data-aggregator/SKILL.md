@@ -1,14 +1,16 @@
 ---
-name: "Plaid Financial Data Aggregator & Budget Classifier"
-description: "Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy."
+name: Plaid Financial Data Aggregator &amp; Budget Classifier
+description: Integrates with the Plaid Transactions API using the plaid Python SDK
+  to pull 90 days of transaction history across linked bank accounts. Transactions
+  are classified into budget categories using a fine-tuned classifier via the OpenAI
+  Chat Completions API and stored in PostgreSQL using SQLAlchemy.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/plaid-financial-data-aggregator/"
+source: https://agentskillexchange.com/skills/plaid-financial-data-aggregator/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Plaid Financial Data Aggregator & Budget Classifier
 
 Plaid Financial Data Aggregator & Budget Classifier is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.

@@ -1,14 +1,15 @@
 ---
-name: "Scrapy Spider Data Pipeline"
-description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
+name: Scrapy Spider Data Pipeline
+description: Builds and manages Scrapy web scraping spiders with custom item pipelines.
+  Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies,
+  and export to MongoDB or Elasticsearch.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/"
+source: https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Scrapy Spider Data Pipeline
 
 The Scrapy Spider Data Pipeline creates and manages web scraping workflows using the Scrapy framework with advanced middleware and pipeline configurations. It generates spider classes with CSS and XPath selectors, configures request scheduling, and manages data export pipelines.

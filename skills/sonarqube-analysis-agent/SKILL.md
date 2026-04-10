@@ -1,14 +1,15 @@
 ---
-name: "SonarQube Analysis Agent"
-description: "Integrates with the SonarQube REST API to run static code analysis scans, retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise SonarQube instances via token-based authentication."
+name: SonarQube Analysis Agent
+description: Integrates with the SonarQube REST API to run static code analysis scans,
+  retrieve quality gate results, and flag code smells. Supports SonarCloud and on-premise
+  SonarQube instances via token-based authentication.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-analysis-agent/"
+source: https://agentskillexchange.com/skills/sonarqube-analysis-agent/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # SonarQube Analysis Agent
 
 The SonarQube Analysis Agent connects to your SonarQube or SonarCloud instance via the official REST API (api/qualitygates, api/issues, api/measures) to automate static code analysis workflows. It authenticates using project-scoped tokens and retrieves detailed quality gate status, code smell counts, vulnerability reports, and technical debt estimates.

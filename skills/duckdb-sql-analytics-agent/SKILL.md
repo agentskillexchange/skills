@@ -1,18 +1,19 @@
 ---
-name: "DuckDB SQL Analytics Agent"
-description: "Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables fast OLAP-style analysis without a server, directly from flat files on disk."
+name: DuckDB SQL Analytics Agent
+description: Run analytical SQL queries on local files (CSV, Parquet, JSON) using
+  the DuckDB in-process database engine. Enables fast OLAP-style analysis without
+  a server, directly from flat files on disk.
 verification: security_reviewed
-source: "https://github.com/duckdb/duckdb"
+source: https://github.com/duckdb/duckdb
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
-  - "OpenClaw"
+- Claude Code
+- OpenClaw
 tool_ecosystem:
-  github_repo: "duckdb/duckdb"
+  github_repo: duckdb/duckdb
   github_stars: 37119
 ---
-
 # DuckDB SQL Analytics Agent
 
 The DuckDB SQL Analytics Agent leverages DuckDB, the high-performance in-process analytical database system with over 36,000 GitHub stars. DuckDB is designed to execute complex analytical SQL queries extremely fast, operating entirely within the host process without requiring a separate database server.

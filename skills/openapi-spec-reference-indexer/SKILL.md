@@ -1,14 +1,15 @@
 ---
-name: "OpenAPI Spec Reference Indexer"
-description: "Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata."
+name: OpenAPI Spec Reference Indexer
+description: Indexes and cross-references OpenAPI 3.x specifications using swagger-parser
+  and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication
+  flow mapping, and SDK generation metadata.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/openapi-spec-reference-indexer/"
+source: https://agentskillexchange.com/skills/openapi-spec-reference-indexer/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "MCP"
+- MCP
 ---
-
 # OpenAPI Spec Reference Indexer
 
 The OpenAPI Spec Reference Indexer skill processes OpenAPI 3.0 and 3.1 specification files to create comprehensive, searchable API reference indexes. It uses swagger-parser for spec validation and $ref resolution, and Redocly CLI for linting against configurable rulesets.

@@ -1,14 +1,14 @@
 ---
-name: "SonarQube Quality Gate Monitor"
-description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
+name: SonarQube Quality Gate Monitor
+description: Monitors SonarQube project quality gates via the Web API and blocks CI
+  deployments when thresholds fail. Tracks technical debt trends across releases.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/"
+source: https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # SonarQube Quality Gate Monitor
 
 The SonarQube Quality Gate Monitor skill integrates with the SonarQube Web API to enforce code quality standards in CI/CD pipelines. It polls analysis task status via api/ce/task and evaluates quality gate conditions through api/qualitygates/project_status endpoints.

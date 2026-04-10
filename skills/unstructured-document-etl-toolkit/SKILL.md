@@ -1,14 +1,16 @@
 ---
-name: "Unstructured Document ETL Toolkit"
-description: "Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to use the real Unstructured project for partitioning documents, normalizing content, and feeding downstream agent or RAG pipelines."
+name: Unstructured Document ETL Toolkit
+description: Unstructured is an open source document ETL toolkit for converting PDFs,
+  HTML, emails, and office files into structured data. This skill covers how to use
+  the real Unstructured project for partitioning documents, normalizing content, and
+  feeding downstream agent or RAG pipelines.
 verification: security_reviewed
-source: "https://github.com/Unstructured-IO/unstructured"
+source: https://github.com/Unstructured-IO/unstructured
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Unstructured Document ETL Toolkit
 
 Unstructured Document ETL Toolkit is based on the real unstructured project from Unstructured. The upstream project is an open source document processing toolkit focused on converting complex files like PDFs, HTML pages, Word documents, emails, and other unstructured content into normalized elements that are easier for agents, search systems, and data pipelines to work with. That makes it a practical fit when you need a reliable ingestion layer before chunking, embedding, classification, or extraction.

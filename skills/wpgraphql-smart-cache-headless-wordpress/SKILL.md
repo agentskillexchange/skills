@@ -1,14 +1,16 @@
 ---
-name: "WPGraphQL Smart Cache for Headless WordPress"
-description: "An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It fits headless WordPress stacks that need faster GraphQL responses without giving up reliable cache purges."
+name: WPGraphQL Smart Cache for Headless WordPress
+description: An ASE skill built around WPGraphQL Smart Cache, the open source WordPress
+  plugin for caching WPGraphQL queries and invalidating them when content changes.
+  It fits headless WordPress stacks that need faster GraphQL responses without giving
+  up reliable cache purges.
 verification: security_reviewed
-source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
+source: https://github.com/wp-graphql/wp-graphql-smart-cache
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # WPGraphQL Smart Cache for Headless WordPress
 
 WPGraphQL Smart Cache for Headless WordPress is a source-backed ASE skill for teams running WordPress as a GraphQL content backend and trying to keep response times low under real traffic. The upstream project is WPGraphQL Smart Cache, maintained in the wp-graphql organization and distributed as a WordPress plugin. Its core job is straightforward and useful: capture WPGraphQL request results, store them in cache, and invalidate the right cached responses when posts, terms, or related data change. That makes it a strong fit for agents that operate on headless WordPress sites where performance and freshness are both non-negotiable.

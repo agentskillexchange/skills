@@ -1,17 +1,19 @@
 ---
-name: "Sherlock Social Media Username Hunter Across 400+ Networks"
-description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
+name: Sherlock Social Media Username Hunter Across 400+ Networks
+description: Sherlock hunts down social media accounts by username across more than
+  400 social networks. It is the go-to OSINT CLI tool for verifying online identities,
+  finding connected accounts, and building digital footprints from a single username
+  string.
 verification: security_reviewed
-source: "https://github.com/sherlock-project/sherlock"
+source: https://github.com/sherlock-project/sherlock
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "sherlock-project/sherlock"
+  github_repo: sherlock-project/sherlock
   github_stars: 76214
 ---
-
 # Sherlock Social Media Username Hunter Across 400+ Networks
 
 Sherlock is an open-source OSINT (Open Source Intelligence) command-line tool that searches for a given username across more than 400 social networks and websites simultaneously. Developed and maintained by the Sherlock Project community, it has become one of the most widely used username enumeration tools in the security research and digital investigation space.

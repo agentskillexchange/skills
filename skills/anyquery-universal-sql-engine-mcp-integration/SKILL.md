@@ -1,17 +1,19 @@
 ---
-name: "Anyquery Universal SQL Engine with MCP Integration"
-description: "Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub, Notion, Chrome, and Apple Notes. Built on SQLite with MCP server support for connecting AI agents to structured data across services."
+name: Anyquery Universal SQL Engine with MCP Integration
+description: Anyquery is a SQL query engine that lets you run SQL against 40+ apps,
+  files, and databases including GitHub, Notion, Chrome, and Apple Notes. Built on
+  SQLite with MCP server support for connecting AI agents to structured data across
+  services.
 verification: security_reviewed
-source: "https://github.com/julien040/anyquery"
+source: https://github.com/julien040/anyquery
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "julien040/anyquery"
+  github_repo: julien040/anyquery
   github_stars: 1655
 ---
-
 # Anyquery Universal SQL Engine with MCP Integration
 
 Anyquery is an open-source SQL query engine created by Julien Partenay that extends SQLite to query virtually any data source through a plugin system. With over 1,600 GitHub stars and active development including regular releases, it supports querying files (CSV, JSON, Parquet), databases (PostgreSQL, MySQL), and applications (GitHub, Notion, Chrome bookmarks, Todoist, Apple Notes, and 40+ more) using standard SQL syntax.

@@ -1,19 +1,22 @@
 ---
-name: "Browserbase Session Automation API and SDK"
-description: "Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill packages the Browserbase API and SDK into a concrete workflow for running, monitoring, and extracting results from cloud browser sessions."
+name: Browserbase Session Automation API and SDK
+description: Use Browserbase when an agent needs hosted browser sessions, remote automation,
+  session recording, and scalable browser infrastructure without managing Chromium
+  fleets directly. This skill packages the Browserbase API and SDK into a concrete
+  workflow for running, monitoring, and extracting results from cloud browser sessions.
 verification: security_reviewed
-source: "https://github.com/browserbase/sdk-node"
+source: https://github.com/browserbase/sdk-node
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "browserbase/sdk-node"
+  github_repo: browserbase/sdk-node
   github_stars: 61
-  ase_npm_package: "@browserbasehq/sdk"
+  ase_npm_package: '@browserbasehq/sdk'
   npm_weekly_downloads: 778552
+  license: Apache-2.0
 ---
-
 # Browserbase Session Automation API and SDK
 
 Browserbase provides a hosted browser automation platform for teams that want real browser control without maintaining their own Playwright or Chromium infrastructure. A skill built around the Browserbase Session Automation API and SDK is well suited to tasks such as remote web testing, browser-backed data extraction, authenticated workflow execution, and queued automation jobs that need session IDs, logs, or recordings.

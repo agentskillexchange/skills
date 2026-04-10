@@ -1,14 +1,16 @@
 ---
-name: "playwright-extra Plugin Framework for Playwright"
-description: "An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such as stealth and other browser behavior extensions. It fits agent workflows that need Playwright-compatible automation with a modular plugin layer instead of raw browser scripts alone."
+name: playwright-extra Plugin Framework for Playwright
+description: An ASE skill built around playwright-extra, the plugin framework that
+  augments Playwright with reusable plugins such as stealth and other browser behavior
+  extensions. It fits agent workflows that need Playwright-compatible automation with
+  a modular plugin layer instead of raw browser scripts alone.
 verification: security_reviewed
-source: "https://www.npmjs.com/package/playwright-extra"
+source: https://www.npmjs.com/package/playwright-extra
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # playwright-extra Plugin Framework for Playwright
 
 playwright-extra Plugin Framework for Playwright is a source-backed ASE skill for browser automation stacks that want Playwright’s API plus a plugin system. The upstream package, playwright-extra, is published on npm and maintained in the berstend puppeteer-extra repository. Its main value is that it acts as a drop-in replacement for Playwright while adding a clean interface for loading plugins, including compatibility with much of the puppeteer-extra plugin ecosystem. That gives agents a concrete way to extend browser sessions without rebuilding those behaviors in every script.

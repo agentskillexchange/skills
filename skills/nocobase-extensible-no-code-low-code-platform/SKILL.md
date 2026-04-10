@@ -1,14 +1,15 @@
 ---
-name: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
-description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
+name: NocoBase Extensible AI-Powered No-Code and Low-Code Platform
+description: NocoBase is the most extensible open-source no-code/low-code platform
+  for building business applications. It features a data model-driven architecture,
+  AI employee integration, plugin system, and WYSIWYG interface builder.
 verification: security_reviewed
-source: "https://github.com/nocobase/nocobase"
+source: https://github.com/nocobase/nocobase
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
 
 NocoBase is an open-source no-code and low-code platform designed for building business applications and enterprise solutions. Unlike rigid no-code tools that limit you to predefined templates, NocoBase separates data structure from user interface, allowing unlimited flexibility in how data is modeled, displayed, and interacted with. The project has gained significant traction on GitHub and is actively maintained with frequent releases.

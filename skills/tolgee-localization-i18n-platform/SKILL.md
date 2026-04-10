@@ -1,17 +1,19 @@
 ---
-name: "Tolgee Open Source Localization and i18n Platform"
-description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
+name: Tolgee Open Source Localization and i18n Platform
+description: Tolgee is an open-source localization platform that lets developers and
+  translators manage translations through in-context editing, machine translation
+  integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP
+  server support for AI coding assistants.
 verification: security_reviewed
-source: "https://github.com/tolgee/tolgee-platform"
+source: https://github.com/tolgee/tolgee-platform
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "tolgee/tolgee-platform"
+  github_repo: tolgee/tolgee-platform
   github_stars: 3875
 ---
-
 # Tolgee Open Source Localization and i18n Platform
 
 Tolgee is a developer-friendly, open-source localization platform that replaces the tedious process of managing .json, .po, and other translation files with an integrated, visual workflow. It supports in-context translation editing directly within your running application, machine translation via DeepL, Google Translate, and AWS Translate, and provides SDKs for all major JavaScript frameworks.

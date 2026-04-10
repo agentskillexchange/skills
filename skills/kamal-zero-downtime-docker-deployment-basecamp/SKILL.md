@@ -1,14 +1,16 @@
 ---
-name: "Kamal Zero-Downtime Docker Deployment Tool by Basecamp"
-description: "Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero downtime using Docker and SSH. It uses kamal-proxy for seamless container switching and works across multiple servers simultaneously."
+name: Kamal Zero-Downtime Docker Deployment Tool by Basecamp
+description: Kamal is an open-source deployment tool by Basecamp that deploys containerized
+  web applications anywhere — from bare metal to cloud VMs — with zero downtime using
+  Docker and SSH. It uses kamal-proxy for seamless container switching and works across
+  multiple servers simultaneously.
 verification: security_reviewed
-source: "https://github.com/basecamp/kamal"
+source: https://github.com/basecamp/kamal
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Kamal Zero-Downtime Docker Deployment Tool by Basecamp
 
 Kamal is a deployment tool created by Basecamp (formerly known as MRSK) that enables zero-downtime deployments of containerized web applications to any server accessible via SSH. Originally built for Ruby on Rails applications, Kamal works with any web application that can be containerized with Docker, making it a versatile deployment solution for teams of all sizes.

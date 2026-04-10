@@ -1,14 +1,15 @@
 ---
-name: "GitLab CI Auto DevOps Configurator"
-description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments."
+name: GitLab CI Auto DevOps Configurator
+description: Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps
+  templates, includes, and the GitLab Container Registry. Manages multi-project pipelines
+  and environment-specific deployments.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/"
+source: https://agentskillexchange.com/skills/gitlab-ci-auto-devops-configurator/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # GitLab CI Auto DevOps Configurator
 
 The GitLab CI Auto DevOps Configurator skill generates .gitlab-ci.yml configurations using GitLab CI/CD syntax including stages, jobs, rules, artifacts, and cache directives. It leverages Auto DevOps templates (include: template: Auto-DevOps.gitlab-ci.yml) and GitLab-maintained CI templates for common languages and frameworks.

@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Diagnostic Analyzer"
-description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
+name: PostgreSQL Diagnostic Analyzer
+description: Runs diagnostic queries against PostgreSQL using pg_stat_statements,
+  pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention,
+  and bloat using pgstattuple and pg_repack extension analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/"
+source: https://agentskillexchange.com/skills/postgresql-diagnostic-analyzer/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # PostgreSQL Diagnostic Analyzer
 
 PostgreSQL Diagnostic Analyzer is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.

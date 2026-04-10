@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Pipeline Linter & Fixer"
-description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives."
+name: Jenkins Pipeline Linter &#038; Fixer
+description: Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline
+  Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax
+  issues and stages missing agent directives.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
+source: https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Jenkins Pipeline Linter & Fixer
 
 The Jenkins Pipeline Linter & Fixer skill provides automated validation and correction of Jenkinsfile declarative pipeline syntax. It submits pipeline code to the Jenkins Pipeline Linter API at /pipeline-model-converter/validate to catch structural errors before committing.

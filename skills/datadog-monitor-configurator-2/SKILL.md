@@ -1,14 +1,15 @@
 ---
-name: "Datadog Monitor Configurator"
-description: "Manages Datadog monitors and dashboards via the Datadog REST API v2. Creates metric, log, and APM monitors with composite conditions and configures notification routing through @-mention integrations."
+name: Datadog Monitor Configurator
+description: Manages Datadog monitors and dashboards via the Datadog REST API v2.
+  Creates metric, log, and APM monitors with composite conditions and configures notification
+  routing through @-mention integrations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-monitor-configurator-2/"
+source: https://agentskillexchange.com/skills/datadog-monitor-configurator-2/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Datadog Monitor Configurator
 
 The Datadog Monitor Configurator skill provides programmatic management of Datadog monitoring infrastructure through the Datadog REST API v1 and v2. It creates, updates, and organizes monitors, dashboards, and SLOs without requiring manual configuration through the Datadog UI.

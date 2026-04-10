@@ -1,14 +1,15 @@
 ---
-name: "Terraform Drift Detection Runbook"
-description: "Detects infrastructure drift using terraform plan -detailed-exitcode and the Terraform Cloud API. Compares state files against live resources across AWS, GCP, and Azure providers."
+name: Terraform Drift Detection Runbook
+description: Detects infrastructure drift using terraform plan -detailed-exitcode
+  and the Terraform Cloud API. Compares state files against live resources across
+  AWS, GCP, and Azure providers.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/terraform-drift-detection-runbook/"
+source: https://agentskillexchange.com/skills/terraform-drift-detection-runbook/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Terraform Drift Detection Runbook
 
 The Terraform Drift Detection Runbook skill uses terraform plan -detailed-exitcode to detect infrastructure drift between Terraform state files and actual cloud resources. It integrates with the Terraform Cloud API (app.terraform.io/api/v2) for workspace management and the AWS, GCP, and Azure provider APIs for resource verification.

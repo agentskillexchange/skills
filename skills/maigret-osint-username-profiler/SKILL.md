@@ -1,17 +1,19 @@
 ---
-name: "Maigret OSINT Username Profiler Across 3000+ Sites"
-description: "Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages. A powerful Sherlock fork with recursive search, profile parsing, and structured report output."
+name: Maigret OSINT Username Profiler Across 3000+ Sites
+description: Maigret collects a dossier on a person by username only, checking for
+  accounts on over 3000 sites and gathering available information from web pages.
+  A powerful Sherlock fork with recursive search, profile parsing, and structured
+  report output.
 verification: security_reviewed
-source: "https://github.com/soxoj/maigret"
+source: https://github.com/soxoj/maigret
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "soxoj/maigret"
+  github_repo: soxoj/maigret
   github_stars: 19325
 ---
-
 # Maigret OSINT Username Profiler Across 3000+ Sites
 
 Maigret is an advanced open-source OSINT tool that builds a comprehensive dossier on a person by searching for their username across more than 3000 websites and social networks. Created by soxoj and named after the fictional French detective Jules Maigret, it is a feature-rich fork of the Sherlock project that goes well beyond simple username enumeration.

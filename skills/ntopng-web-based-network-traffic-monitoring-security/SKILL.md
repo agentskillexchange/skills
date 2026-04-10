@@ -1,17 +1,19 @@
 ---
-name: "ntopng Web-Based Network Traffic Monitoring and Security Analysis"
-description: "ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows, bandwidth usage, and security threats. With 7.7k+ GitHub stars and decades of development since the original ntop in 1998, it is a proven enterprise-grade network analysis platform."
+name: ntopng Web-Based Network Traffic Monitoring and Security Analysis
+description: ntopng is a web-based network traffic monitoring application that provides
+  real-time visibility into network flows, bandwidth usage, and security threats.
+  With 7.7k+ GitHub stars and decades of development since the original ntop in 1998,
+  it is a proven enterprise-grade network analysis platform.
 verification: security_reviewed
-source: "https://github.com/ntop/ntopng"
+source: https://github.com/ntop/ntopng
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "ntop/ntopng"
+  github_repo: ntop/ntopng
   github_stars: 7702
 ---
-
 # ntopng Web-Based Network Traffic Monitoring and Security Analysis
 
 Overview

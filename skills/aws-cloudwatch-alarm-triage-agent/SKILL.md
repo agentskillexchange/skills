@@ -1,14 +1,15 @@
 ---
-name: "AWS CloudWatch Alarm Triage Agent"
-description: "Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API, GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause correlation. Prioritizes alerts by blast radius and provides remediation playbooks."
+name: AWS CloudWatch Alarm Triage Agent
+description: Triages AWS CloudWatch alarms using the CloudWatch DescribeAlarms API,
+  GetMetricData for historical analysis, and CloudTrail LookupEvents for root cause
+  correlation. Prioritizes alerts by blast radius and provides remediation playbooks.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/"
+source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # AWS CloudWatch Alarm Triage Agent
 
 The AWS CloudWatch Alarm Triage Agent automates incident response for CloudWatch alarm notifications. It uses the DescribeAlarms API to retrieve alarm configuration details including metric name, namespace, threshold, comparison operator, and evaluation periods, then queries GetMetricData to pull historical metric values for trend analysis.

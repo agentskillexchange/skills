@@ -1,17 +1,18 @@
 ---
-name: "dust Intuitive Disk Usage Analyzer CLI"
-description: "A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the most disk space using colored proportional bars and smart recursive depth."
+name: dust Intuitive Disk Usage Analyzer CLI
+description: A more intuitive version of the du command, written in Rust. dust instantly
+  visualizes which directories consume the most disk space using colored proportional
+  bars and smart recursive depth.
 verification: security_reviewed
-source: "https://github.com/bootandy/dust"
+source: https://github.com/bootandy/dust
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "bootandy/dust"
+  github_repo: bootandy/dust
   github_stars: 11500
 ---
-
 # dust Intuitive Disk Usage Analyzer CLI
 
 dust (du + rust) is a disk usage visualization tool created by Andy Boot that provides an instant, intuitive overview of which directories and files are consuming the most space. Published as du-dust on crates.io with over 11,000 GitHub stars, dust replaces the traditional du command with output that humans and agents can interpret at a glance, without needing to pipe through sort or head.

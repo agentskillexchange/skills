@@ -1,15 +1,16 @@
 ---
-name: "Devcontainer Specification Builder"
-description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
+name: Devcontainer Specification Builder
+description: Generates dev container specifications with feature composition and lifecycle
+  hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer
+  CLI for container-based development environments.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/devcontainer-specification-builder/"
+source: https://agentskillexchange.com/skills/devcontainer-specification-builder/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Agents"
-  - "Multi-Framework"
+- Claude Agents
+- Multi-Framework
 ---
-
 # Devcontainer Specification Builder
 
 The Devcontainer Specification Builder creates comprehensive .devcontainer/devcontainer.json configurations following the official Dev Container Specification. It composes development environments using OCI-compliant Dev Container Features from ghcr.io registries and custom feature repositories.

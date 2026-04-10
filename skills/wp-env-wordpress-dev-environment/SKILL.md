@@ -1,17 +1,18 @@
 ---
-name: "wp-env Zero-Config WordPress Development Environment"
-description: "The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for developing and testing plugins and themes. A single command sets up WordPress with a test site, database, and PHP environment."
+name: wp-env Zero-Config WordPress Development Environment
+description: The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based
+  local WordPress environment for developing and testing plugins and themes. A single
+  command sets up WordPress with a test site, database, and PHP environment.
 verification: security_reviewed
-source: "https://www.npmjs.com/package/@wordpress/env"
+source: https://www.npmjs.com/package/@wordpress/env
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  ase_npm_package: "@wordpress/env"
+  ase_npm_package: '@wordpress/env'
   npm_weekly_downloads: 46753
 ---
-
 # wp-env Zero-Config WordPress Development Environment
 
 The @wordpress/env npm package, commonly known as wp-env, is the official WordPress development environment tool maintained as part of the Gutenberg project. It uses Docker to create isolated WordPress instances configured specifically for plugin and theme development, with zero manual configuration required.

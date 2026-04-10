@@ -1,17 +1,19 @@
 ---
-name: "LangExtract LLM-Powered Structured Text Extraction"
-description: "LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs with precise source grounding. With 35,000+ GitHub stars, it handles everything from clinical notes to literary analysis, producing verified extraction results with exact source text mappings and interactive visualizations."
+name: LangExtract LLM-Powered Structured Text Extraction
+description: LangExtract by Google is a Python library for extracting structured information
+  from unstructured text using LLMs with precise source grounding. With 35,000+ GitHub
+  stars, it handles everything from clinical notes to literary analysis, producing
+  verified extraction results with exact source text mappings and interactive visualizations.
 verification: security_reviewed
-source: "https://github.com/google/langextract"
+source: https://github.com/google/langextract
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "google/langextract"
+  github_repo: google/langextract
   github_stars: 35042
 ---
-
 # LangExtract LLM-Powered Structured Text Extraction
 
 LangExtract is a Python library developed by Google for extracting structured information from unstructured text documents using large language models. It processes materials such as clinical notes, reports, legal documents, or literary texts, identifying and organizing key details while ensuring every extracted fact traces back to its exact location in the source text.

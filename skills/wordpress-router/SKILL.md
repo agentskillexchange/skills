@@ -1,17 +1,18 @@
 ---
-name: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op"
+name: WordPress Router
+description: Route WordPress tasks to the right workflow fast. Core Capabilities Manage
+  WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme,
+  and core update workflows Handle content op
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+source: https://github.com/WordPress/WordPress
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21002
 ---
-
 # WordPress Router
 
 WordPress Router is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.

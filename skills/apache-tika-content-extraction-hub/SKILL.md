@@ -1,14 +1,15 @@
 ---
-name: "Apache Tika Content Extraction Hub"
-description: "Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email archives, and embedded document extraction with MIME type detection."
+name: Apache Tika Content Extraction Hub
+description: Extracts text and metadata from 1400+ file formats via Apache Tika Server
+  REST API. Handles PDF, DOCX, PPTX, email archives, and embedded document extraction
+  with MIME type detection.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/"
+source: https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Apache Tika Content Extraction Hub
 
 The Apache Tika Content Extraction Hub provides universal document parsing through the Apache Tika Server REST API. It extracts text, metadata, and structure from over 1400 file formats including PDF, Microsoft Office (DOCX, XLSX, PPTX), email archives (MBOX, PST), and multimedia files.

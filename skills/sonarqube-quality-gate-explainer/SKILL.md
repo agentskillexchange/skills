@@ -1,14 +1,16 @@
 ---
-name: "SonarQube Quality Gate Explainer"
-description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
+name: SonarQube Quality Gate Explainer
+description: Fetches the latest SonarQube project analysis result, explains why the
+  Quality Gate failed in plain English, and links to specific issues. Covers coverage
+  drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud.
+  Diagnostic only.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/"
+source: https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # SonarQube Quality Gate Explainer
 
 SonarQube Quality Gate Explainer is built around SonarQube code quality platform. The underlying ecosystem is represented by SonarSource/sonarqube (10,357+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like quality gates, issues API, measures, coverage, hotspots, branches and preserving the operational context that matters for real tasks.

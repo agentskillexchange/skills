@@ -1,14 +1,15 @@
 ---
-name: "Puppeteer Web Scraper"
-description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
+name: Puppeteer Web Scraper
+description: Headless Chrome scraping via Puppeteer with automatic cookie handling,
+  JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll
+  and lazy-loaded content.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/puppeteer-web-scraper/"
+source: https://agentskillexchange.com/skills/puppeteer-web-scraper/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Puppeteer Web Scraper
 
 This skill leverages Puppeteer to launch headless Chromium instances for scraping JavaScript-heavy websites that traditional HTTP clients cannot parse. It manages browser contexts, handles cookie consent dialogs, and waits for dynamic content to fully render.

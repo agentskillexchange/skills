@@ -1,14 +1,16 @@
 ---
-name: "PostgreSQL Performance Runbook"
-description: "Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics."
+name: PostgreSQL Performance Runbook
+description: Executes diagnostic queries against PostgreSQL using pg_stat_statements,
+  pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention,
+  bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer
+  statistics.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-performance-runbook/"
+source: https://agentskillexchange.com/skills/postgresql-performance-runbook/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Codex"
+- Codex
 ---
-
 # PostgreSQL Performance Runbook
 
 The PostgreSQL Performance Runbook skill automates database performance diagnostics by querying PostgreSQL system catalog views and extensions. It connects via libpq and runs a structured diagnostic sequence.

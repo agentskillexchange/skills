@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Configuration Manager"
-description: "Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml."
+name: CircleCI Orb Configuration Manager
+description: Manages CircleCI pipeline configurations using orbs like circleci/node,
+  circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism,
+  and resource class selection via .circleci/config.yml.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-configuration-manager/"
+source: https://agentskillexchange.com/skills/circleci-orb-configuration-manager/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "ChatGPT Agents"
+- ChatGPT Agents
 ---
-
 # CircleCI Orb Configuration Manager
 
 The CircleCI Orb Configuration Manager skill generates and maintains .circleci/config.yml files using the CircleCI 2.1 configuration specification. It integrates certified orbs including circleci/node@5, circleci/docker@2, circleci/aws-s3@4, circleci/slack@4, and circleci/browser-tools@1 to streamline pipeline setup.

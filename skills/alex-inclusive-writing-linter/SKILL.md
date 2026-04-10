@@ -1,19 +1,21 @@
 ---
-name: "alex Inclusive Writing Linter"
-description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
+name: alex Inclusive Writing Linter
+description: Catch insensitive, inconsiderate writing with alex. This CLI tool and
+  Node.js library scans Markdown and plain text for gender-biased, polarizing, or
+  exclusionary language and suggests inclusive alternatives.
 verification: security_reviewed
-source: "https://github.com/get-alex/alex"
+source: https://github.com/get-alex/alex
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "get-alex/alex"
+  github_repo: get-alex/alex
   github_stars: 5096
-  ase_npm_package: "alex"
+  ase_npm_package: alex
   npm_weekly_downloads: 30585
+  license: MIT
 ---
-
 # alex Inclusive Writing Linter
 
 alex is a command-line tool and Node.js library that helps you find and fix insensitive, inconsiderate writing. Whether you are reviewing your own documentation or auditing contributed content, alex flags language that could be gender-biased, polarizing, race-related, or otherwise exclusionary, and suggests inclusive replacements.

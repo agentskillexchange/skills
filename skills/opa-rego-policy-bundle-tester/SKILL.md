@@ -1,17 +1,18 @@
 ---
-name: "OPA Rego Policy Bundle Tester"
-description: "Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to explain which Rego rules allow or deny a request before policy changes go live."
+name: OPA Rego Policy Bundle Tester
+description: Tests authorization and policy bundles with the Open Policy Agent `/v1/data`
+  and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to
+  explain which Rego rules allow or deny a request before policy changes go live.
 verification: security_reviewed
-source: "https://github.com/open-policy-agent/opa"
+source: https://github.com/open-policy-agent/opa
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "open-policy-agent/opa"
+  github_repo: open-policy-agent/opa
   github_stars: 11534
 ---
-
 # OPA Rego Policy Bundle Tester
 
 OPA Rego Policy Bundle Tester is built for teams that want policy review to be concrete, reproducible, and tied to real evaluation outputs. It uses Open Policy Agent APIs such as /v1/data and /v1/compile, along with the logic behind opa test, to inspect how a request would be evaluated against a bundle of Rego rules. That makes it useful for authorization checks, deployment guardrails, and environment policy changes where a vague “policy failed” message is not enough.

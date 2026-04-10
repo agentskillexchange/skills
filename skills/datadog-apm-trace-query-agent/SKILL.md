@@ -1,14 +1,15 @@
 ---
-name: "Datadog APM Trace Query Agent"
-description: "Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags."
+name: Datadog APM Trace Query Agent
+description: Queries distributed traces from Datadog APM using the Trace Search API
+  with faceted filtering. Analyzes p99 latency breakdowns across service spans and
+  identifies slow database queries via db.statement tags.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/"
+source: https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "MCP"
+- MCP
 ---
-
 # Datadog APM Trace Query Agent
 
 The Datadog APM Trace Query Agent skill enables intelligent analysis of distributed traces collected by Datadog's APM platform. Using the Trace Search API, it performs faceted queries across trace data filtered by service name, operation, resource, duration percentiles, and custom span tags to identify performance bottlenecks.

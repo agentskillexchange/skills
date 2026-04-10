@@ -1,14 +1,15 @@
 ---
-name: "Harness Open Source Self-Hosted Git and CI/CD Development Platform"
-description: "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary."
+name: Harness Open Source Self-Hosted Git and CI/CD Development Platform
+description: Harness Open Source (formerly Gitness) is an end-to-end developer platform
+  that integrates Git repository hosting, CI/CD pipelines, hosted development environments,
+  and artifact registries in a single self-hosted binary.
 verification: security_reviewed
-source: "https://github.com/harness/harness"
+source: https://github.com/harness/harness
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Harness Open Source Self-Hosted Git and CI/CD Development Platform
 
 Harness Open Source, originally launched as Gitness, is an open-source developer platform built by Harness that combines source code management, CI/CD pipelines, hosted development environments (Gitspaces), and artifact registries into one self-hosted solution. It represents the next generation of Drone CI, expanding from continuous integration into a full development lifecycle platform.

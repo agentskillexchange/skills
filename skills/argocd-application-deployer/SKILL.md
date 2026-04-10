@@ -1,14 +1,15 @@
 ---
-name: "ArgoCD Application Deployer"
-description: "Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates."
+name: ArgoCD Application Deployer
+description: Manages ArgoCD application deployments via the ArgoCD REST API and argocd
+  CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application
+  sets with generator templates.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
+source: https://agentskillexchange.com/skills/argocd-application-deployer/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ArgoCD Application Deployer
 
 The ArgoCD Application Deployer skill automates Kubernetes GitOps deployments through the ArgoCD REST API and argocd CLI tooling. It manages Application and ApplicationSet custom resources for declarative, Git-driven continuous deployment across single and multi-cluster environments.

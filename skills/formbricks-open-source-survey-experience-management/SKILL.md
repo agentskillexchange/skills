@@ -1,14 +1,15 @@
 ---
-name: "Formbricks Open Source Survey and Experience Management Platform"
-description: "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer insights at every point of their journey."
+name: Formbricks Open Source Survey and Experience Management Platform
+description: Formbricks is an open source survey platform and privacy-first experience
+  management solution. Create in-app, website, link, and email surveys to gather user
+  and customer insights at every point of their journey.
 verification: security_reviewed
-source: "https://github.com/formbricks/formbricks"
+source: https://github.com/formbricks/formbricks
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Formbricks Open Source Survey and Experience Management Platform
 
 Formbricks is the open source alternative to Qualtrics and Typeform, providing a full-featured survey and experience management platform that you can self-host for complete data ownership. Built with TypeScript, Next.js, React, and TailwindCSS, Formbricks lets teams create conversion-optimized surveys using a no-code editor with multiple question types.

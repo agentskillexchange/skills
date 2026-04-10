@@ -1,17 +1,19 @@
 ---
-name: "Neon MCP Server for Serverless Postgres Management"
-description: "The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the Model Context Protocol. Create projects, run queries, manage branches, and perform database migrations conversationally."
+name: Neon MCP Server for Serverless Postgres Management
+description: The Neon MCP Server enables AI agents to manage serverless PostgreSQL
+  databases through natural language via the Model Context Protocol. Create projects,
+  run queries, manage branches, and perform database migrations conversationally.
 verification: security_reviewed
-source: "https://github.com/neondatabase/mcp-server-neon"
+source: https://github.com/neondatabase/mcp-server-neon
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "neondatabase/mcp-server-neon"
+  github_repo: neondatabase/mcp-server-neon
   github_stars: 567
+  license: MIT
 ---
-
 # Neon MCP Server for Serverless Postgres Management
 
 The Neon MCP Server is an official Model Context Protocol server built by the Neon team that bridges natural language requests to the Neon serverless PostgreSQL API. It allows AI agents in Claude Code, Cursor, VS Code, and any MCP-compatible client to create databases, run SQL queries, manage branches, and perform schema migrations through conversational commands instead of direct API calls or SQL scripts.

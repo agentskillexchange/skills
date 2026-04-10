@@ -1,14 +1,17 @@
 ---
-name: "ElevenLabs Voiceover Generator for Long-Form Content"
-description: "Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned."
+name: ElevenLabs Voiceover Generator for Long-Form Content
+description: Splits blog posts or scripts into optimal chunks under ElevenLabs character
+  limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3
+  segments together with pydub. Supports custom voice cloning via stored Voice IDs
+  with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare
+  R2 and a signed URL is returned.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/"
+source: https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # ElevenLabs Voiceover Generator for Long-Form Content
 
 ElevenLabs Voiceover Generator for Long-Form Content is built around Cloudflare developer platform. The underlying ecosystem is represented by cloudflare/cloudflare-go (1,946+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Workers API, R2, KV, DNS, Pages, Zero Trust, signed URLs and preserving the operational context that matters for real tasks.

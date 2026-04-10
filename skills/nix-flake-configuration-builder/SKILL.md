@@ -1,14 +1,15 @@
 ---
-name: "Nix Flake Configuration Builder"
-description: "Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils for cross-platform builds."
+name: Nix Flake Configuration Builder
+description: Generates reproducible Nix flake configurations with devShell environments
+  and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils
+  for cross-platform builds.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/nix-flake-configuration-builder/"
+source: https://agentskillexchange.com/skills/nix-flake-configuration-builder/
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Nix Flake Configuration Builder
 
 The Nix Flake Configuration Builder creates fully reproducible development environments and package definitions using the Nix Flakes system. It generates flake.nix files with properly structured inputs, outputs, and overlay definitions using the nixpkgs.lib utility functions.

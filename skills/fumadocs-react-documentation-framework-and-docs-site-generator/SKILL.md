@@ -1,14 +1,16 @@
 ---
-name: "Fumadocs React Documentation Framework and Docs Site Generator"
-description: "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages, wire content collections, and extend interactive UI components for product docs, SDK docs, and internal knowledge bases."
+name: Fumadocs React Documentation Framework and Docs Site Generator
+description: Build and maintain documentation websites with Fumadocs, the React-based
+  docs framework published by the fuma-nama project. This skill helps an agent scaffold
+  docs pages, wire content collections, and extend interactive UI components for product
+  docs, SDK docs, and internal knowledge bases.
 verification: security_reviewed
-source: "https://github.com/fuma-nama/fumadocs"
+source: https://github.com/fuma-nama/fumadocs
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Fumadocs React Documentation Framework and Docs Site Generator
 
 Fumadocs is an open-source React documentation framework designed for teams that want a modern docs experience without building every docs primitive from scratch. It provides a reusable foundation for content-driven websites across Next.js and other supported React setups, with packages like fumadocs-ui and fumadocs-core handling navigation, page layouts, search-friendly structures, and interactive components. The upstream project lives at the official fuma-nama GitHub repository and is documented at fumadocs.dev.

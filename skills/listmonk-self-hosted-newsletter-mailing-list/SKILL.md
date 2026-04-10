@@ -1,17 +1,18 @@
 ---
-name: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
-description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
+name: Listmonk Self-Hosted Newsletter and Mailing List Manager
+description: High-performance, self-hosted newsletter and mailing list manager packed
+  into a single binary. Manages millions of subscribers with templated campaigns,
+  analytics, and a REST API for programmatic email automation.
 verification: security_reviewed
-source: "https://github.com/knadh/listmonk"
+source: https://github.com/knadh/listmonk
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "knadh/listmonk"
+  github_repo: knadh/listmonk
   github_stars: 19404
 ---
-
 # Listmonk Self-Hosted Newsletter and Mailing List Manager
 
 Listmonk is a standalone, self-hosted newsletter and mailing list manager built in Go, delivered as a single binary with a PostgreSQL backend. Published under the AGPL-3.0 license with 15,000+ GitHub stars, it provides a fast, feature-rich alternative to Mailchimp, ConvertKit, and other commercial email marketing platforms — with complete data ownership and no per-subscriber pricing.

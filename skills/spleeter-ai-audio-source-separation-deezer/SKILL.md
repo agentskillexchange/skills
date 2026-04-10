@@ -1,17 +1,19 @@
 ---
-name: "Spleeter AI Audio Source Separation by Deezer"
-description: "Spleeter is Deezer's open-source audio source separation library with pretrained models. It can split audio into 2, 4, or 5 stems (vocals, drums, bass, piano, accompaniment) and runs 100x faster than real-time on GPU, making it ideal for music production, remix, and audio analysis workflows."
+name: Spleeter AI Audio Source Separation by Deezer
+description: Spleeter is Deezer&#8217;s open-source audio source separation library
+  with pretrained models. It can split audio into 2, 4, or 5 stems (vocals, drums,
+  bass, piano, accompaniment) and runs 100x faster than real-time on GPU, making it
+  ideal for music production, remix, and audio analysis workflows.
 verification: security_reviewed
-source: "https://github.com/deezer/spleeter"
+source: https://github.com/deezer/spleeter
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "deezer/spleeter"
+  github_repo: deezer/spleeter
   github_stars: 28130
 ---
-
 # Spleeter AI Audio Source Separation by Deezer
 
 Spleeter is an open-source audio source separation library developed by Deezer Research. Written in Python and built on TensorFlow, it provides pretrained models that can split any audio file into individual stems — isolating vocals from instruments, or separating drums, bass, piano, and other elements from a mixed track.

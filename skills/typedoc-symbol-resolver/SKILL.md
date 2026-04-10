@@ -1,14 +1,15 @@
 ---
-name: "TypeDoc Symbol Resolver"
-description: "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging support and module augmentation tracking."
+name: TypeDoc Symbol Resolver
+description: Resolves TypeScript symbols and generates API documentation using the
+  TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference
+  pages with declaration merging support and module augmentation tracking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/typedoc-symbol-resolver/"
+source: https://agentskillexchange.com/skills/typedoc-symbol-resolver/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # TypeDoc Symbol Resolver
 
 The TypeDoc Symbol Resolver skill leverages the TypeDoc compiler API and ts-morph library to produce comprehensive TypeScript API reference documentation. It processes tsconfig.json project configurations to resolve all exported symbols, type aliases, interfaces, and class hierarchies.

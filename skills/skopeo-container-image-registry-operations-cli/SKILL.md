@@ -1,17 +1,18 @@
 ---
-name: "Skopeo Container Image Registry Operations CLI"
-description: "Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync container images across registries, supporting OCI and Docker v2 formats with rootless operation."
+name: Skopeo Container Image Registry Operations CLI
+description: Skopeo is a command-line tool for working with container images and registries
+  without requiring a running daemon. It can inspect, copy, delete, and sync container
+  images across registries, supporting OCI and Docker v2 formats with rootless operation.
 verification: security_reviewed
-source: "https://github.com/containers/skopeo"
+source: https://github.com/containers/skopeo
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "containers/skopeo"
+  github_repo: containers/skopeo
   github_stars: 10665
 ---
-
 # Skopeo Container Image Registry Operations CLI
 
 Overview

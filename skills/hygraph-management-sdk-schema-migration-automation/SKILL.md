@@ -1,14 +1,16 @@
 ---
-name: "Hygraph Management SDK for Schema Migration Automation"
-description: "A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema through code-first migrations. It is a good fit for agent workflows that need repeatable content-model changes, environment-aware schema updates, and dry-run migration previews."
+name: Hygraph Management SDK for Schema Migration Automation
+description: A source-backed ASE skill for the Hygraph Management SDK, the JavaScript
+  package for managing Hygraph project schema through code-first migrations. It is
+  a good fit for agent workflows that need repeatable content-model changes, environment-aware
+  schema updates, and dry-run migration previews.
 verification: security_reviewed
-source: "https://github.com/hygraph/management-sdk"
+source: https://github.com/hygraph/management-sdk
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Hygraph Management SDK for Schema Migration Automation
 
 Hygraph Management SDK for Schema Migration Automation is a source-backed ASE skill built on the official @hygraph/management-sdk package published by Hygraph and maintained in the hygraph/management-sdk repository. The SDK is designed to programmatically manage a Hygraph project schema through migrations, including models, fields, locales, stages, enumerations, and other structured content definitions. The upstream README shows a concrete code API for creating migrations, previewing changes with dry runs, and applying them against a specific project environment with an auth token and endpoint.

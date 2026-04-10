@@ -1,14 +1,15 @@
 ---
-name: "REST API Test Suite Generator"
-description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
+name: REST API Test Suite Generator
+description: Generates comprehensive API test suites from OpenAPI specs using Postman
+  Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific
+  variables, auth flows, and assertion chains.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rest-api-test-suite-generator/"
+source: https://agentskillexchange.com/skills/rest-api-test-suite-generator/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # REST API Test Suite Generator
 
 The REST API Test Suite Generator skill automates the creation of API test suites from OpenAPI specification files. It uses the Postman Collection SDK v4 to programmatically build collection items with request definitions, test scripts, and pre-request authentication flows.

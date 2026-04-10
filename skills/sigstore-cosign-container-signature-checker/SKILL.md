@@ -1,17 +1,18 @@
 ---
-name: "Sigstore Cosign Container Signature Checker"
-description: "Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline."
+name: Sigstore Cosign Container Signature Checker
+description: Checks container trust with `cosign verify`, Rekor transparency log lookups,
+  and OCI image reference inspection. Useful for agents that need to confirm whether
+  an image was actually signed and recorded before it reaches a deployment pipeline.
 verification: security_reviewed
-source: "https://github.com/sigstore/cosign"
+source: https://github.com/sigstore/cosign
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "sigstore/cosign"
+  github_repo: sigstore/cosign
   github_stars: 5776
 ---
-
 # Sigstore Cosign Container Signature Checker
 
 Sigstore Cosign Container Signature Checker gives agents a practical way to validate software supply chain claims instead of repeating them. It centers on real Cosign verification behavior, Rekor transparency log lookups, and OCI image reference handling to determine whether a container image has a valid signature trail. That is valuable in CI, release review, and cluster admission workflows where teams want to know if an image was signed, by whom, and whether the verification path matches policy.

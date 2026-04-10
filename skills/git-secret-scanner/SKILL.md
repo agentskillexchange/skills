@@ -1,14 +1,16 @@
 ---
-name: "Git Secret Scanner"
-description: "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens, and credentials across full commit history using git log -all -p analysis."
+name: Git Secret Scanner
+description: Detects leaked secrets in Git repositories using pattern-based scanning
+  with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed
+  API keys, tokens, and credentials across full commit history using git log &#8211;all
+  -p analysis.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/git-secret-scanner/"
+source: https://agentskillexchange.com/skills/git-secret-scanner/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Git Secret Scanner
 
 The Git Secret Scanner skill identifies leaked credentials, API keys, tokens, and other secrets across Git repository history using multi-layered detection approaches. It combines pattern-based scanning inspired by Gitleaks rule definitions with entropy analysis to catch both known secret formats and high-entropy strings that may represent credentials.

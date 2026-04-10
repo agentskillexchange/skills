@@ -1,14 +1,15 @@
 ---
-name: "REST API Changelog Tracker"
-description: "Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint deprecation headers. Stores version history in SQLite via better-sqlite3."
+name: REST API Changelog Tracker
+description: Tracks breaking changes across REST API versions by diffing OpenAPI specs
+  with oasdiff and monitoring endpoint deprecation headers. Stores version history
+  in SQLite via better-sqlite3.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/rest-api-changelog-tracker/"
+source: https://agentskillexchange.com/skills/rest-api-changelog-tracker/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # REST API Changelog Tracker
 
 The REST API Changelog Tracker skill monitors REST APIs for breaking and non-breaking changes across versions. It uses oasdiff to perform structural comparison of OpenAPI specification files, detecting added, removed, and modified endpoints, parameters, and response schemas.

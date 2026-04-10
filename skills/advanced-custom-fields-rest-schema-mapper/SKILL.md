@@ -1,14 +1,16 @@
 ---
-name: "Advanced Custom Fields REST Schema Mapper"
-description: "Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely."
+name: Advanced Custom Fields REST Schema Mapper
+description: Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`,
+  `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads
+  than the default ACF exposure and want WordPress clients to consume structured field
+  data safely.
 verification: security_reviewed
-source: "https://www.advancedcustomfields.com/resources/"
+source: https://www.advancedcustomfields.com/resources/
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Advanced Custom Fields REST Schema Mapper
 
 Advanced Custom Fields REST Schema Mapper focuses on the awkward middle ground between flexible editorial schemas and stable application APIs. Many WordPress installs use ACF to model rich data, but client applications still need predictable payloads. This skill works with functions such as acf_add_local_field_group, get_field_objects, get_field, and WordPress REST hooks like register_rest_field to reshape field output into consistent objects that are easier to consume from web apps and automations.

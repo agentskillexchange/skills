@@ -1,14 +1,15 @@
 ---
-name: "SAST Rule Compiler for Semgrep"
-description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
+name: SAST Rule Compiler for Semgrep
+description: Compiles and validates custom Semgrep SAST rules using the semgrep-core
+  engine. Tests pattern matching against sample codebases and generates rule performance
+  benchmarks with p/ci rulesets.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/"
+source: https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Codex"
+- Codex
 ---
-
 # SAST Rule Compiler for Semgrep
 
 The SAST Rule Compiler for Semgrep skill streamlines the creation and validation of custom Static Application Security Testing rules for the Semgrep engine. It provides an interactive workflow for writing pattern, pattern-either, pattern-not, and taint-mode rules with immediate feedback against test codebases.

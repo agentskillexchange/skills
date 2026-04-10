@@ -1,14 +1,17 @@
 ---
-name: "Mailpit SMTP Testing and Email Capture Workbench"
-description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
+name: Mailpit SMTP Testing and Email Capture Workbench
+description: This skill uses Mailpit as a safe SMTP sink for development, QA, and
+  automated test runs. It helps teams capture, inspect, search, and validate transactional
+  email without sending anything to real inboxes.
 verification: security_reviewed
-source: "https://mailpit.axllent.org/"
+source: https://mailpit.axllent.org/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
+tool_ecosystem:
+  license: MIT
 ---
-
 # Mailpit SMTP Testing and Email Capture Workbench
 
 Mailpit is an email and SMTP testing tool that runs as a local or hosted mail sink, captures messages sent by an application, and exposes them through a web UI and API. This skill turns Mailpit into a repeatable workflow for debugging outbound email, validating templates, testing attachments, and verifying transactional flows such as password resets, order confirmations, magic links, and notifications. Instead of pointing an app at a real mail relay during development, the skill configures the app to send SMTP traffic to Mailpit and then inspects the captured results safely.

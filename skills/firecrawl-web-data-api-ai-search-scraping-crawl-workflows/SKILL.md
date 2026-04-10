@@ -1,14 +1,16 @@
 ---
-name: "Firecrawl Web Data API for AI Search Scraping and Crawl Workflows"
-description: "Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data."
+name: Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
+description: Firecrawl is an open source web data platform for search, scraping, crawling,
+  and browser-like page interaction. It gives agents LLM-ready markdown, structured
+  JSON, screenshots, and agent-oriented endpoints for turning live websites into usable
+  data.
 verification: security_reviewed
-source: "https://github.com/firecrawl/firecrawl"
+source: https://github.com/firecrawl/firecrawl
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
 
 Firecrawl is an open source web data API built for AI applications that need dependable access to live websites. The project offers a unified surface for search, scrape, crawl, map, and browser interaction workflows, which makes it useful for agent systems that need more than a one-off HTML fetch. Rather than forcing developers to stitch together headless browsers, proxy layers, site maps, and post-processing code, Firecrawl packages those concerns into a service and SDKs designed for AI use cases.

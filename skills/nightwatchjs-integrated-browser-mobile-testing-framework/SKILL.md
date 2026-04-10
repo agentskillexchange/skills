@@ -1,14 +1,16 @@
 ---
-name: "Nightwatch.js Integrated Browser and Mobile Testing Framework"
-description: "A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser assertions, and CI-friendly test execution."
+name: Nightwatch.js Integrated Browser and Mobile Testing Framework
+description: A source-backed ASE skill for Nightwatch.js, the Node.js automation framework
+  for end-to-end, component, API, accessibility, and mobile testing through the W3C
+  WebDriver stack. It fits agent workflows that need repeatable browser control, cross-browser
+  assertions, and CI-friendly test execution.
 verification: security_reviewed
-source: "https://github.com/nightwatchjs/nightwatch"
+source: https://github.com/nightwatchjs/nightwatch
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Nightwatch.js Integrated Browser and Mobile Testing Framework
 
 Nightwatch.js Integrated Browser and Mobile Testing Framework is a source-backed ASE skill built on Nightwatch, the Node.js testing framework maintained in the nightwatchjs/nightwatch repository and documented at nightwatchjs.org. Nightwatch uses the W3C WebDriver API and is designed for end-to-end browser automation, but its current platform also covers component testing, API checks, accessibility checks, visual assertions, and mobile app testing through Appium-backed flows. That gives agents a real automation surface with broad coverage instead of a vague promise of UI testing.

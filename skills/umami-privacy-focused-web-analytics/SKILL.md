@@ -1,17 +1,18 @@
 ---
-name: "Umami Privacy-Focused Web Analytics Platform"
-description: "Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data without cookies and is fully GDPR compliant."
+name: Umami Privacy-Focused Web Analytics Platform
+description: Umami is a modern, privacy-focused, open-source web analytics platform
+  and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It
+  collects website traffic data without cookies and is fully GDPR compliant.
 verification: security_reviewed
-source: "https://github.com/umami-software/umami"
+source: https://github.com/umami-software/umami
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "umami-software/umami"
+  github_repo: umami-software/umami
   github_stars: 35941
 ---
-
 # Umami Privacy-Focused Web Analytics Platform
 
 Umami is a modern, open-source web analytics platform that provides a privacy-focused alternative to Google Analytics. With over 35,000 GitHub stars and an active development community, it is one of the most popular self-hosted analytics solutions available. Umami does not use cookies, does not track users across websites, and is fully compliant with GDPR, CCPA, and PECR privacy regulations.

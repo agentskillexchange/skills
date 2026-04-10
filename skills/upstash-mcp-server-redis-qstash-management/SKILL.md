@@ -1,17 +1,19 @@
 ---
-name: "Upstash MCP Server for Redis and QStash Management"
-description: "An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector stores through natural language. Supports database creation, key operations, backups, and throughput analytics via the Model Context Protocol."
+name: Upstash MCP Server for Redis and QStash Management
+description: An official MCP server from Upstash that lets AI agents manage Redis
+  databases, QStash message queues, and Vector stores through natural language. Supports
+  database creation, key operations, backups, and throughput analytics via the Model
+  Context Protocol.
 verification: security_reviewed
-source: "https://github.com/upstash/mcp-server"
+source: https://github.com/upstash/mcp-server
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "upstash/mcp-server"
+  github_repo: upstash/mcp-server
   github_stars: 52
 ---
-
 # Upstash MCP Server for Redis and QStash Management
 
 The Upstash MCP Server is an official Model Context Protocol integration that connects AI assistants to the Upstash serverless data platform. Available at github.com/upstash/mcp-server and published as the npm package @upstash/mcp-server, this server enables natural-language management of Upstash Redis databases, QStash message queues, and Vector stores.

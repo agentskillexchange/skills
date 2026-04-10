@@ -1,14 +1,15 @@
 ---
-name: "IMAP Inbox Triage Agent"
-description: "Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook, and Fastmail."
+name: IMAP Inbox Triage Agent
+description: Connects to IMAP email servers to classify, prioritize, and auto-label
+  incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook,
+  and Fastmail.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/imap-inbox-triage-agent/"
+source: https://agentskillexchange.com/skills/imap-inbox-triage-agent/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Codex"
+- Codex
 ---
-
 # IMAP Inbox Triage Agent
 
 The IMAP Inbox Triage Agent skill establishes secure IMAP connections to email providers including Gmail, Outlook 365, and Fastmail to perform intelligent inbox management. It fetches message headers and bodies using IMAP FETCH commands with envelope parsing for efficient bandwidth usage.

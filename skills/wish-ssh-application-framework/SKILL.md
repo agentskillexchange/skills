@@ -1,17 +1,18 @@
 ---
-name: "Wish SSH Application Framework by Charmbracelet"
-description: "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos, and custom protocols over SSH without touching openssh-server."
+name: Wish SSH Application Framework by Charmbracelet
+description: Wish is a Go library for building SSH-accessible applications with sensible
+  defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git
+  repos, and custom protocols over SSH without touching openssh-server.
 verification: security_reviewed
-source: "https://github.com/charmbracelet/wish"
+source: https://github.com/charmbracelet/wish
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "charmbracelet/wish"
+  github_repo: charmbracelet/wish
   github_stars: 5110
 ---
-
 # Wish SSH Application Framework by Charmbracelet
 
 Wish is an open-source Go library by Charmbracelet that makes building SSH-accessible applications straightforward. Built on top of gliderlabs/ssh, Wish provides a middleware-based architecture where developers compose handlers for authentication, terminal sessions, Git operations, logging, and custom protocols into a complete SSH server.

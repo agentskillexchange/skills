@@ -1,14 +1,15 @@
 ---
-name: "AWS CloudTrail Log Normalizer"
-description: "Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&CK technique IDs using the MITRE ATT&CK STIX API."
+name: AWS CloudTrail Log Normalizer
+description: Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity
+  Schema Framework) format. Maps eventSource/eventName pairs to MITRE ATT&#038;CK
+  technique IDs using the MITRE ATT&#038;CK STIX API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/"
+source: https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # AWS CloudTrail Log Normalizer
 
 The AWS CloudTrail Log Normalizer skill transforms raw CloudTrail JSON events into the standardized Open Cybersecurity Schema Framework (OCSF) format for cross-platform security analytics. It maps AWS-specific event structures to OCSF activity classes including Authentication, API Activity, and Account Change events.

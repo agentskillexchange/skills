@@ -1,17 +1,18 @@
 ---
-name: "ShellCheck Shell Script Static Analyzer"
-description: "Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix suggestions."
+name: ShellCheck Shell Script Static Analyzer
+description: Run static analysis on bash and shell scripts using ShellCheck to detect
+  syntax errors, semantic pitfalls, and portability issues. Produces machine-readable
+  diagnostics with fix suggestions.
 verification: security_reviewed
-source: "https://github.com/koalaman/shellcheck"
+source: https://github.com/koalaman/shellcheck
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "koalaman/shellcheck"
+  github_repo: koalaman/shellcheck
   github_stars: 39204
 ---
-
 # ShellCheck Shell Script Static Analyzer
 
 The ShellCheck Shell Script Static Analyzer skill integrates ShellCheck, a widely-adopted static analysis tool for sh, bash, dash, and ksh scripts. With over 37,000 GitHub stars and integration into dozens of CI platforms and editors, ShellCheck is the standard tool for catching bugs in shell code before they reach production.

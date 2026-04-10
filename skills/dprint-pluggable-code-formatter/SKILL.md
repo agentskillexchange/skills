@@ -1,19 +1,22 @@
 ---
-name: "dprint Pluggable High-Performance Code Formatting Platform"
-description: "dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture for maximum speed."
+name: dprint Pluggable High-Performance Code Formatting Platform
+description: dprint is a pluggable and configurable code formatting platform written
+  in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML,
+  CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture
+  for maximum speed.
 verification: security_reviewed
-source: "https://github.com/dprint/dprint"
+source: https://github.com/dprint/dprint
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "dprint/dprint"
+  github_repo: dprint/dprint
   github_stars: 3857
-  ase_npm_package: "dprint"
+  ase_npm_package: dprint
   npm_weekly_downloads: 152825
+  license: MIT
 ---
-
 # dprint Pluggable High-Performance Code Formatting Platform
 
 dprint is a code formatting platform that takes a fundamentally different approach from tools like Prettier: instead of one monolithic formatter, it uses a plugin architecture where each language formatter runs as a WebAssembly module. This design delivers extreme performance (10-30x faster than Prettier) while supporting a wide range of languages through community plugins.

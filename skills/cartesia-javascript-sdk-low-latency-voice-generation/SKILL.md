@@ -1,14 +1,16 @@
 ---
-name: "Cartesia JavaScript SDK for Low-Latency Voice Generation"
-description: "An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a strong fit for agents that need programmatic voice generation, low-latency speech responses, and direct integration with Cartesia’s hosted models."
+name: Cartesia JavaScript SDK for Low-Latency Voice Generation
+description: An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech
+  and voice API workflows. It is a strong fit for agents that need programmatic voice
+  generation, low-latency speech responses, and direct integration with Cartesia’s
+  hosted models.
 verification: security_reviewed
-source: "https://github.com/cartesia-ai/cartesia-js"
+source: https://github.com/cartesia-ai/cartesia-js
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Cartesia JavaScript SDK for Low-Latency Voice Generation
 
 Cartesia JavaScript SDK for Low-Latency Voice Generation is a source-backed ASE skill based on the official @cartesia/cartesia-js client from Cartesia. The SDK provides a typed interface to the Cartesia REST API from server-side JavaScript or TypeScript, including text-to-speech generation through Cartesia voice models such as Sonic. For ASE, that matters because it gives agents a real vendor SDK with a defined API surface instead of a made-up “voice AI” wrapper.

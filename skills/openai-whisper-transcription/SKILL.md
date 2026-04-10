@@ -1,17 +1,16 @@
 ---
-name: "OpenAI Whisper Transcription"
-description: "Local speech-to-text transcription without relying on an API."
+name: OpenAI Whisper Transcription
+description: Local speech-to-text transcription without relying on an API.
 verification: security_reviewed
-source: "https://github.com/openai/whisper"
+source: https://github.com/openai/whisper
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "openai/whisper"
+  github_repo: openai/whisper
   github_stars: 97226
 ---
-
 # OpenAI Whisper Transcription
 
 OpenAI Whisper Transcription is built around OpenAI Whisper speech recognition model. The underlying ecosystem is represented by openai/whisper (96,530+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like local transcription, language detection, timestamps, subtitle formats, model sizes and preserving the operational context that matters for real tasks.

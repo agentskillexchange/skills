@@ -1,14 +1,16 @@
 ---
-name: "Logdy Real-Time Log Viewer with Web UI and CLI"
-description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
+name: Logdy Real-Time Log Viewer with Web UI and CLI
+description: Logdy is a zero-dependency single-binary log viewer that pipes any command
+  output into an interactive browser-based UI. It supports custom TypeScript parsers,
+  column definitions, filtering, and works with stdin, files, sockets, and REST API
+  inputs.
 verification: security_reviewed
-source: "https://github.com/logdyhq/logdy-core"
+source: https://github.com/logdyhq/logdy-core
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Logdy Real-Time Log Viewer with Web UI and CLI
 
 Logdy is a lightweight, single-binary log viewer written in Go that transforms any terminal log output into a structured, filterable web interface. It works like a visual layer on top of grep, awk, or tail, providing real-time log parsing and exploration through an embedded browser UI without requiring any external dependencies or deployment infrastructure.

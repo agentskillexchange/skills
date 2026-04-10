@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Pod Crash Analyzer"
-description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically."
+name: Kubernetes Pod Crash Analyzer
+description: Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl
+  and the Kubernetes API. Correlates container logs, event streams, and resource metrics
+  from metrics-server to diagnose root causes automatically.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
+source: https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Kubernetes Pod Crash Analyzer
 
 The Kubernetes Pod Crash Analyzer skill automates the diagnosis of pod failures in Kubernetes clusters. It uses the Kubernetes API (via kubectl or direct REST calls) to gather pod status, container states, event streams, and resource utilization data from metrics-server to build a comprehensive failure timeline.

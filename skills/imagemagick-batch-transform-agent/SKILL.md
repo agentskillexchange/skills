@@ -1,14 +1,15 @@
 ---
-name: "ImageMagick Batch Transform Agent"
-description: "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS integration."
+name: ImageMagick Batch Transform Agent
+description: Automates ImageMagick convert and mogrify operations for bulk image processing
+  including responsive srcset generation, WebP/AVIF conversion, and ICC color profile
+  management with Little CMS integration.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/"
+source: https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # ImageMagick Batch Transform Agent
 
 The ImageMagick Batch Transform Agent orchestrates complex image manipulation workflows using ImageMagick 7 command-line tools (magick convert, mogrify, composite). It generates responsive image srcsets with configurable breakpoints, outputting WebP, AVIF, and JPEG fallbacks with optimal quality settings determined by SSIM perceptual analysis.

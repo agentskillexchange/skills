@@ -1,14 +1,16 @@
 ---
-name: "Infisical CLI Secrets Injection and Access Management"
-description: "Infisical CLI retrieves, injects, and manages secrets across local development, CI/CD, staging, and production environments. It is useful when agent workflows need a structured way to pull environment variables and secret material without hardcoding credentials into scripts."
+name: Infisical CLI Secrets Injection and Access Management
+description: Infisical CLI retrieves, injects, and manages secrets across local development,
+  CI/CD, staging, and production environments. It is useful when agent workflows need
+  a structured way to pull environment variables and secret material without hardcoding
+  credentials into scripts.
 verification: security_reviewed
-source: "https://github.com/Infisical/cli"
+source: https://github.com/Infisical/cli
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Infisical CLI Secrets Injection and Access Management
 
 Infisical CLI is the command-line interface for Infisical, a secrets management platform used to retrieve, export, modify, and inject secrets into processes as environment variables. The CLI is aimed at real operational environments rather than toy demos, and the upstream documentation explicitly positions it for local development, CI/CD, staging, and production usage.

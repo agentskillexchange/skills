@@ -1,17 +1,19 @@
 ---
-name: "Betterleaks Next-Generation Secrets Scanner"
-description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
+name: Betterleaks Next-Generation Secrets Scanner
+description: A fast, configurable secrets scanner built by the creator of Gitleaks
+  and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and
+  tokens in git repositories, directories, and stdin with CEL-based validation and
+  parallelized scanning.
 verification: security_reviewed
-source: "https://github.com/betterleaks/betterleaks"
+source: https://github.com/betterleaks/betterleaks
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "betterleaks/betterleaks"
+  github_repo: betterleaks/betterleaks
   github_stars: 712
 ---
-
 # Betterleaks Next-Generation Secrets Scanner
 
 Betterleaks is an open-source secrets detection tool that scans git repositories, directories, and standard input for leaked credentials including passwords, API keys, tokens, and other sensitive data. Built by Zach Rice, the original creator of Gitleaks (26 million+ downloads), Betterleaks represents the next generation of the tool with significant improvements in speed, configurability, and detection accuracy.

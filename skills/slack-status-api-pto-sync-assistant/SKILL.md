@@ -1,14 +1,16 @@
 ---
-name: "Slack Status API PTO Sync Assistant"
-description: "Syncs away-state updates through Slack users.profile APIs, status fields, and directory lookups so agents can keep status text aligned with calendar-based time off. Useful for teams that want cleaner presence signals without manually editing every Slack profile."
+name: Slack Status API PTO Sync Assistant
+description: Syncs away-state updates through Slack users.profile APIs, status fields,
+  and directory lookups so agents can keep status text aligned with calendar-based
+  time off. Useful for teams that want cleaner presence signals without manually editing
+  every Slack profile.
 verification: security_reviewed
-source: "https://api.slack.com/"
+source: https://api.slack.com/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Slack Status API PTO Sync Assistant
 
 Slack Status API PTO Sync Assistant is for organizations that rely on Slack presence as a lightweight operating signal and want agents to keep it accurate during vacations, holidays, and planned absences. It uses Slack profile and users endpoints, including status text and expiration fields, to update presence information in a way that matches team availability. That is especially useful when calendar systems already know who is out but Slack status remains stale and teammates end up pinging the wrong people.

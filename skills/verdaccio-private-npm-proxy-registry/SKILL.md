@@ -1,14 +1,16 @@
 ---
-name: "Verdaccio Lightweight Private npm Proxy Registry"
-description: "Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts private packages. It supports npm, yarn, and pnpm with authentication, access control, and plugin extensibility for managing internal JavaScript packages."
+name: Verdaccio Lightweight Private npm Proxy Registry
+description: Verdaccio is a lightweight, zero-config private npm proxy registry that
+  caches packages from npmjs.org and hosts private packages. It supports npm, yarn,
+  and pnpm with authentication, access control, and plugin extensibility for managing
+  internal JavaScript packages.
 verification: security_reviewed
-source: "https://github.com/verdaccio/verdaccio"
+source: https://github.com/verdaccio/verdaccio
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Verdaccio Lightweight Private npm Proxy Registry
 
 Verdaccio is an open-source, lightweight private npm registry proxy built with Node.js and TypeScript. With over 17,500 GitHub stars and 1,400+ forks, it is the most popular self-hosted npm registry solution. It acts as a caching proxy for the public npm registry while simultaneously hosting private packages, making it essential for teams managing internal JavaScript packages alongside public dependencies.

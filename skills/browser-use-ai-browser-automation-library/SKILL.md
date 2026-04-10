@@ -1,17 +1,20 @@
 ---
-name: "Browser Use AI Browser Automation Library"
-description: "Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites, filling forms, extracting structured page data, and running agentic browser workflows with screenshots and stateful sessions."
+name: Browser Use AI Browser Automation Library
+description: Automates browser tasks with Browser Use, the open-source library that
+  connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites,
+  filling forms, extracting structured page data, and running agentic browser workflows
+  with screenshots and stateful sessions.
 verification: security_reviewed
-source: "https://github.com/browser-use/browser-use"
+source: https://github.com/browser-use/browser-use
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "browser-use/browser-use"
+  github_repo: browser-use/browser-use
   github_stars: 85193
+  license: MIT
 ---
-
 # Browser Use AI Browser Automation Library
 
 Browser Use AI Browser Automation Library is aimed at teams building browser-capable agents that need more than a raw Playwright script. The skill is anchored to the real browser-use project, which combines large language model planning with browser control primitives such as navigation, DOM inspection, clicking, typing, and page-state reasoning. That makes it a good fit for tasks like guided form submission, site monitoring, lead capture, competitive research, and agent-run quality assurance on authenticated web apps.

@@ -1,14 +1,16 @@
 ---
-name: "Gorse AI-Powered Open Source Recommender System Engine"
-description: "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard for recommendation pipeline editing, system monitoring, and data management."
+name: Gorse AI-Powered Open Source Recommender System Engine
+description: Gorse is an AI-powered open-source recommender system written in Go that
+  generates personalized recommendations via collaborative filtering, item-to-item
+  similarity, and LLM-based ranking. It provides RESTful APIs and a GUI dashboard
+  for recommendation pipeline editing, system monitoring, and data management.
 verification: security_reviewed
-source: "https://github.com/gorse-io/gorse"
+source: https://github.com/gorse-io/gorse
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Gorse AI-Powered Open Source Recommender System Engine
 
 Gorse is an AI-powered open-source recommender system engine written in Go, designed to be quickly integrated into a wide variety of online services. By importing items, users, and interaction data into Gorse, the system automatically trains models to generate recommendations for each user through multiple recommendation strategies.

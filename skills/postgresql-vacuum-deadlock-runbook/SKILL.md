@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Vacuum Deadlock Runbook"
-description: "Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension and generates remediation SQL for long-running transaction conflicts."
+name: PostgreSQL Vacuum Deadlock Runbook
+description: Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables,
+  pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension
+  and generates remediation SQL for long-running transaction conflicts.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/"
+source: https://agentskillexchange.com/skills/postgresql-vacuum-deadlock-runbook/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # PostgreSQL Vacuum Deadlock Runbook
 
 Overview

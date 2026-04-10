@@ -1,14 +1,16 @@
 ---
-name: "Kong Gateway API AI and MCP Traffic Control"
-description: "Kong Gateway is an open-source API gateway that handles routing, authentication, load balancing, observability, and newer AI and MCP traffic patterns. It fits teams that need one control layer in front of services, model providers, or mixed API estates."
+name: Kong Gateway API AI and MCP Traffic Control
+description: Kong Gateway is an open-source API gateway that handles routing, authentication,
+  load balancing, observability, and newer AI and MCP traffic patterns. It fits teams
+  that need one control layer in front of services, model providers, or mixed API
+  estates.
 verification: security_reviewed
-source: "https://github.com/Kong/kong"
+source: https://github.com/Kong/kong
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Kong Gateway API AI and MCP Traffic Control
 
 Kong Gateway is an open-source gateway for API, AI, and MCP traffic. Its practical job-to-be-done is to sit in front of services and centralize the hard parts: routing, authentication, authorization, rate limiting, load balancing, health checking, request and response transformation, and operational visibility. Instead of rebuilding those controls inside every service, teams can standardize them at the gateway layer and manage policies from one place.

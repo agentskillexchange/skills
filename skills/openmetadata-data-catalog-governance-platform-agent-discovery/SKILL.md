@@ -1,17 +1,19 @@
 ---
-name: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
-description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
+name: OpenMetadata Data Catalog and Governance Platform for Agent Discovery
+description: OpenMetadata provides a central metadata layer for data discovery, lineage,
+  quality, ownership, and governance. This skill helps agents answer questions about
+  tables, dashboards, pipelines, and data health from one searchable control plane
+  instead of jumping between isolated tools.
 verification: security_reviewed
-source: "https://github.com/open-metadata/OpenMetadata"
+source: https://github.com/open-metadata/OpenMetadata
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "open-metadata/OpenMetadata"
+  github_repo: open-metadata/OpenMetadata
   github_stars: 9965
 ---
-
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery
 
 OpenMetadata is an open-source metadata platform designed to index and organize the assets that matter in modern data stacks: databases, tables, dashboards, pipelines, tests, ownership information, and lineage. For agent workflows, that is a strong foundation because the agent can use one system to answer questions like “where does this metric come from?”, “who owns this pipeline?”, or “what downstream dashboards will break if this table changes?” without stitching together custom logic across multiple tools. The job to be done is discovery and governance, not just storage.

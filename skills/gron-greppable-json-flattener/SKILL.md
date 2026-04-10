@@ -1,17 +1,18 @@
 ---
-name: "gron Greppable JSON Flattener"
-description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
+name: gron Greppable JSON Flattener
+description: gron transforms JSON into discrete assignment statements, making it possible
+  to grep through complex JSON structures using standard Unix tools. It reverses the
+  process with ungron, turning filtered assignments back into valid JSON.
 verification: security_reviewed
-source: "https://github.com/tomnomnom/gron"
+source: https://github.com/tomnomnom/gron
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "tomnomnom/gron"
+  github_repo: tomnomnom/gron
   github_stars: 14413
 ---
-
 # gron Greppable JSON Flattener
 
 gron is a command-line tool by Tom Hudson that flattens JSON into discrete assignment statements, turning nested data into a greppable format. Instead of learning a dedicated query language, developers can use familiar Unix tools like grep, sed, and awk to search and filter JSON data. The tool supports reading from files, URLs, and standard input.

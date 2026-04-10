@@ -1,19 +1,21 @@
 ---
-name: "publint Package Export Validation Skill for npm Release Checks"
-description: "Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and explain exactly what will fail for consumers. It is a pre-publish validation workflow centered on publint, not a generic listing for the tool itself."
+name: publint Package Export Validation Skill for npm Release Checks
+description: Use this skill when an agent needs to lint a package before publish,
+  catch broken exports or manifest issues, and explain exactly what will fail for
+  consumers. It is a pre-publish validation workflow centered on publint, not a generic
+  listing for the tool itself.
 verification: security_reviewed
-source: "https://github.com/publint/publint"
+source: https://github.com/publint/publint
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "publint/publint"
+  github_repo: publint/publint
   github_stars: 1252
-  ase_npm_package: "publint"
+  ase_npm_package: publint
   npm_weekly_downloads: 551109
 ---
-
 # publint Package Export Validation Skill for npm Release Checks
 
 This skill teaches an agent how to use publint as a release gate for JavaScript and TypeScript packages. The concrete job is to inspect a package before publish, run publint against the built output, interpret warnings around exports, conditions, module formats, and entry points, and then suggest the smallest safe fix in package.json or build configuration. That is valuable when a package “works on my machine” but breaks for consumers because the published exports map, types entry, or dual ESM and CommonJS setup is wrong.

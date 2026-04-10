@@ -1,14 +1,16 @@
 ---
-name: "Content Cannibalization Detector"
-description: "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports."
+name: Content Cannibalization Detector
+description: Identifies keyword cannibalization across site pages by analyzing Google
+  Search Console Performance API data, extracting query-page pairings, and detecting
+  overlap using TF-IDF cosine similarity scoring. Generates merge recommendations
+  and 301 redirect maps via Screaming Frog exports.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/content-cannibalization-detector/"
+source: https://agentskillexchange.com/skills/content-cannibalization-detector/
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Content Cannibalization Detector
 
 Content Cannibalization Detector finds pages competing for the same search queries by cross-referencing Google Search Console Performance API data with on-page content analysis. It pulls query-level impressions and clicks per URL through the searchAnalytics.query method, grouping results by query to identify URLs sharing keyword targeting.

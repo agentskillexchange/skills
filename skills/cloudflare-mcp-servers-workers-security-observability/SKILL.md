@@ -1,17 +1,19 @@
 ---
-name: "Cloudflare MCP Servers for Workers, Security, and Observability"
-description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
+name: Cloudflare MCP Servers for Workers, Security, and Observability
+description: Official Cloudflare MCP servers that enable AI assistants to manage Workers
+  applications, debug logs, analyze Radar traffic data, configure security settings,
+  and interact with the full Cloudflare platform through natural language via the
+  Model Context Protocol.
 verification: security_reviewed
-source: "https://github.com/cloudflare/mcp-server-cloudflare"
+source: https://github.com/cloudflare/mcp-server-cloudflare
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "cloudflare/mcp-server-cloudflare"
+  github_repo: cloudflare/mcp-server-cloudflare
   github_stars: 3579
 ---
-
 # Cloudflare MCP Servers for Workers, Security, and Observability
 
 The Cloudflare MCP Servers are a collection of official Model Context Protocol integrations maintained by Cloudflare at github.com/cloudflare/mcp-server-cloudflare. Rather than a single monolithic server, Cloudflare provides specialized MCP servers for different service domains: Workers Bindings for application development, Observability for debugging, Radar for traffic intelligence, Documentation for reference lookups, and several more.

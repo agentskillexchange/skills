@@ -1,17 +1,18 @@
 ---
-name: "Redocly CLI OpenAPI Linter and Documentation Generator"
-description: "Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API descriptions. It supports OpenAPI 3.2, 3.1, 3.0, Swagger 2.0, AsyncAPI 3.0, and Arazzo 1.0 with customizable rulesets for API governance."
+name: Redocly CLI OpenAPI Linter and Documentation Generator
+description: Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles,
+  and generates documentation from API descriptions. It supports OpenAPI 3.2, 3.1,
+  3.0, Swagger 2.0, AsyncAPI 3.0, and Arazzo 1.0 with customizable rulesets for API
+  governance.
 verification: security_reviewed
-source: "https://github.com/Redocly/redocly-cli"
+source: https://github.com/Redocly/redocly-cli
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "redocly/redocly-cli"
-  github_stars: 1422
+  license: MIT
 ---
-
 # Redocly CLI OpenAPI Linter and Documentation Generator
 
 Redocly CLI is a comprehensive command-line tool for working with API descriptions throughout the API lifecycle. Built by Redocly, the company behind the popular Redoc documentation renderer (24k+ GitHub stars), the CLI handles linting, validation, bundling, and documentation generation for OpenAPI and AsyncAPI specifications.

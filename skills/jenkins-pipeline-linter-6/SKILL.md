@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Pipeline Linter"
-description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
+name: Jenkins Pipeline Linter
+description: Validates Jenkinsfile declarative and scripted pipelines using the Jenkins
+  Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint
+  for Groovy static analysis with CodeNarc rulesets.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/"
+source: https://agentskillexchange.com/skills/jenkins-pipeline-linter-6/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Custom Agents"
+- Custom Agents
 ---
-
 # Jenkins Pipeline Linter
 
 The Jenkins Pipeline Linter skill validates Jenkins pipeline definitions before they reach the CI server, catching syntax errors, anti-patterns, and security issues early in the development process. It uses two complementary validation approaches for comprehensive coverage.

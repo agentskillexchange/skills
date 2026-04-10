@@ -1,14 +1,15 @@
 ---
-name: "SonarQube Gate Checker"
-description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
+name: SonarQube Gate Checker
+description: Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate
+  quality gate conditions before merge. Reports code smells, coverage thresholds,
+  and duplications against configurable SonarQube quality profiles.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sonarqube-gate-checker-2/"
+source: https://agentskillexchange.com/skills/sonarqube-gate-checker-2/
 category:
-  - "Templates &amp; Workflows"
+- Templates &amp; Workflows
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # SonarQube Gate Checker
 
 SonarQube Gate Checker is built around SonarQube code quality platform. The underlying ecosystem is represented by SonarSource/sonarqube (10,357+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like quality gates, issues API, measures, coverage, hotspots, branches and preserving the operational context that matters for real tasks.

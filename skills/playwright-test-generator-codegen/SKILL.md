@@ -1,14 +1,16 @@
 ---
-name: "Playwright Test Generator with Codegen"
-description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
+name: Playwright Test Generator with Codegen
+description: Records and generates end-to-end test scripts using Playwright Codegen
+  with multi-browser targeting. Produces TypeScript test files compatible with Playwright
+  Test runner, handles visual regression via playwright-visual-regression plugin,
+  and integrates with Allure reporting.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-test-generator-codegen/"
+source: https://agentskillexchange.com/skills/playwright-test-generator-codegen/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Playwright Test Generator with Codegen
 
 The Playwright Test Generator leverages Playwright Codegen to record user interactions and produce maintainable end-to-end test scripts. Recording sessions capture clicks, form fills, navigation, and assertions across Chromium, Firefox, and WebKit browsers simultaneously through Playwright multi-browser architecture.

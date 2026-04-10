@@ -1,14 +1,16 @@
 ---
-name: "Microsoft Graph Mail Triage Agent"
-description: "Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API."
+name: Microsoft Graph Mail Triage Agent
+description: Triages Outlook emails using the Microsoft Graph API /me/messages endpoint
+  with $filter OData queries and inferenceClassification. Applies category labels,
+  moves messages to focused/other folders, and creates Planner tasks from flagged
+  items via the Tasks API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/"
+source: https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Microsoft Graph Mail Triage Agent
 
 Triages Outlook emails using the Microsoft Graph API /me/messages endpoint with $filter OData queries and inferenceClassification. Applies category labels, moves messages to focused/other folders, and creates Planner tasks from flagged items via the Tasks API.

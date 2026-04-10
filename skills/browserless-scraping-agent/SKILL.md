@@ -1,14 +1,15 @@
 ---
-name: "Browserless Scraping Agent"
-description: "Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits."
+name: Browserless Scraping Agent
+description: Drives headless Chrome via the Browserless.io API for scraping dynamic
+  SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages
+  session tokens and concurrent connection limits.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/browserless-scraping-agent/"
+source: https://agentskillexchange.com/skills/browserless-scraping-agent/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # Browserless Scraping Agent
 
 The Browserless Scraping Agent skill enables Claude to scrape JavaScript-heavy single-page applications using Browserless.io's hosted Chrome infrastructure. It communicates through the Browserless REST API, using endpoints like /content for rendered HTML, /screenshot for visual captures, and /pdf for document generation.

@@ -1,14 +1,14 @@
 ---
-name: "ESLint Custom Rule Builder"
-description: "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations."
+name: ESLint Custom Rule Builder
+description: Scaffolds and tests custom ESLint rules using the RuleTester API and
+  AST Explorer patterns. Generates rule documentation with fixable autofix implementations.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-custom-rule-builder/"
+source: https://agentskillexchange.com/skills/eslint-custom-rule-builder/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # ESLint Custom Rule Builder
 
 The ESLint Custom Rule Builder skill generates production-ready custom ESLint rules from natural language descriptions of code patterns to detect or enforce. It uses the ESLint RuleTester API for comprehensive test generation and the espree parser for AST node targeting.

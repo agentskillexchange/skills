@@ -1,19 +1,21 @@
 ---
-name: "BackstopJS Visual Regression Testing Automation"
-description: "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on the real BackstopJS project and turns browser-based layout comparison into a structured QA workflow for web teams."
+name: BackstopJS Visual Regression Testing Automation
+description: BackstopJS gives agents a repeatable way to capture reference screenshots,
+  compare UI states, and flag visual regressions before changes ship. This skill centers
+  on the real BackstopJS project and turns browser-based layout comparison into a
+  structured QA workflow for web teams.
 verification: security_reviewed
-source: "https://github.com/garris/BackstopJS"
+source: https://github.com/garris/BackstopJS
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "garris/BackstopJS"
+  github_repo: garris/BackstopJS
   github_stars: 7116
-  ase_npm_package: "backstopjs"
+  ase_npm_package: backstopjs
   npm_weekly_downloads: 57990
 ---
-
 # BackstopJS Visual Regression Testing Automation
 
 BackstopJS is an open-source visual regression testing framework used to compare screenshots of web pages over time. A skill built around BackstopJS helps an agent generate scenario definitions, run browser captures with Playwright or Puppeteer under the hood, and interpret the HTML and image-diff reports that BackstopJS produces. The core job-to-be-done is straightforward: catch unintended UI changes such as spacing drift, broken responsive layouts, missing components, CSS regressions, or theme changes that only show up in rendered output.

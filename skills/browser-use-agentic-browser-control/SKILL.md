@@ -1,17 +1,19 @@
 ---
-name: "Browser Use Agentic Browser Control"
-description: "Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a Python SDK, browser orchestration, and model integrations so agents can navigate, extract data, and complete workflows in real browsers."
+name: Browser Use Agentic Browser Control
+description: Browser Use is an open source browser automation framework for AI agents
+  that turns websites into controllable interfaces for multi-step tasks. It combines
+  a Python SDK, browser orchestration, and model integrations so agents can navigate,
+  extract data, and complete workflows in real browsers.
 verification: security_reviewed
-source: "https://github.com/browser-use/browser-use"
+source: https://github.com/browser-use/browser-use
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "browser-use/browser-use"
+  github_repo: browser-use/browser-use
   github_stars: 86890
 ---
-
 # Browser Use Agentic Browser Control
 
 Browser Use is the open source browser-use framework from the browser-use organization. It is built for teams that need an agent to operate a real browser instead of calling a narrow API. The project exposes a Python package, browser session management, and model integrations so an agent can open pages, inspect content, click through flows, extract structured data, and carry out multi-step tasks across dynamic websites.

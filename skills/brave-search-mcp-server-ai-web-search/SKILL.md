@@ -1,17 +1,19 @@
 ---
-name: "Brave Search MCP Server for AI Web Search"
-description: "The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web search, local business search, image search, video search, news search, and AI-powered summarization capabilities through the Model Context Protocol."
+name: Brave Search MCP Server for AI Web Search
+description: The official Brave Search MCP server integrates the Brave Search API
+  with AI assistants, providing comprehensive web search, local business search, image
+  search, video search, news search, and AI-powered summarization capabilities through
+  the Model Context Protocol.
 verification: security_reviewed
-source: "https://github.com/brave/brave-search-mcp-server"
+source: https://github.com/brave/brave-search-mcp-server
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "brave/brave-search-mcp-server"
+  github_repo: brave/brave-search-mcp-server
   github_stars: 854
 ---
-
 # Brave Search MCP Server for AI Web Search
 
 The Brave Search MCP Server is the official Model Context Protocol integration for the Brave Search API, maintained by Brave Software. It provides AI assistants and coding agents with comprehensive search capabilities including web search, local business discovery, image search, video search, news search, and AI-powered answer summarization — all through standard MCP tool calls.

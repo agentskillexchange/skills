@@ -1,17 +1,20 @@
 ---
-name: "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing"
-description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line, and web-based interfaces for intercepting, inspecting, modifying, and replaying web traffic."
+name: mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
+description: mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy
+  for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3,
+  and WebSockets, offering console, command-line, and web-based interfaces for intercepting,
+  inspecting, modifying, and replaying web traffic.
 verification: security_reviewed
-source: "https://github.com/mitmproxy/mitmproxy"
+source: https://github.com/mitmproxy/mitmproxy
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "mitmproxy/mitmproxy"
+  github_repo: mitmproxy/mitmproxy
   github_stars: 42881
+  license: MIT
 ---
-
 # mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing
 
 mitmproxy is a free, open-source interactive HTTPS proxy that serves as a swiss-army knife for debugging, testing, privacy measurements, and penetration testing. It can intercept, inspect, modify, and replay web traffic including HTTP/1, HTTP/2, HTTP/3, WebSockets, and any other SSL/TLS-protected protocol. The project has been actively developed for over a decade and is one of the most widely-used tools in web security and development.

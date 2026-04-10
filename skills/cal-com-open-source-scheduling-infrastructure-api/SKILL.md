@@ -1,17 +1,19 @@
 ---
-name: "Cal.com Open Source Scheduling Infrastructure and API"
-description: "Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com's comprehensive REST API."
+name: Cal.com Open Source Scheduling Infrastructure and API
+description: Integrate Cal.com&#8217;s open-source scheduling platform into AI agent
+  workflows. Agents can programmatically create event types, check availability, book
+  meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive
+  REST API.
 verification: security_reviewed
-source: "https://github.com/calcom/cal.com"
+source: https://github.com/calcom/cal.com
 category:
-  - "Calendar, Email &amp; Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "calcom/cal.com"
+  github_repo: calcom/cal.com
   github_stars: 40908
 ---
-
 # Cal.com Open Source Scheduling Infrastructure and API
 
 Cal.com is the leading open-source alternative to Calendly, providing scheduling infrastructure for individuals, businesses, and developers building scheduling platforms. With over 40,000 GitHub stars and an active contributor community, Cal.com offers a fully self-hostable, API-first scheduling engine that AI agents can integrate with directly.

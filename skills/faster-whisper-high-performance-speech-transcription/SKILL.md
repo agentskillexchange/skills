@@ -1,17 +1,20 @@
 ---
-name: "faster-whisper High-Performance Speech Transcription Engine"
-description: "faster-whisper is a reimplementation of OpenAI's Whisper model using CTranslate2 that delivers up to 4x faster transcription with lower memory usage. It supports CPU and GPU inference with 8-bit quantization, batch processing, word-level timestamps, and VAD filtering for accurate speech-to-text conversion."
+name: faster-whisper High-Performance Speech Transcription Engine
+description: faster-whisper is a reimplementation of OpenAI&#8217;s Whisper model
+  using CTranslate2 that delivers up to 4x faster transcription with lower memory
+  usage. It supports CPU and GPU inference with 8-bit quantization, batch processing,
+  word-level timestamps, and VAD filtering for accurate speech-to-text conversion.
 verification: security_reviewed
-source: "https://github.com/SYSTRAN/faster-whisper"
+source: https://github.com/SYSTRAN/faster-whisper
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "SYSTRAN/faster-whisper"
+  github_repo: SYSTRAN/faster-whisper
   github_stars: 21865
+  license: MIT
 ---
-
 # faster-whisper High-Performance Speech Transcription Engine
 
 faster-whisper is a Python library that reimplements OpenAI's Whisper automatic speech recognition model using the CTranslate2 inference engine. Built by SYSTRAN, it achieves up to 4 times faster transcription than the original openai/whisper implementation while consuming significantly less memory, making it practical for both development workstations and production GPU servers.

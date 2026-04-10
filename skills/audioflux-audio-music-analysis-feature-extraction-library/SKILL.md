@@ -1,17 +1,17 @@
 ---
-name: "audioFlux Audio and Music Analysis Feature Extraction Library"
-description: "audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of time-frequency transforms and hundreds of feature combinations for classification, separation, MIR, and ASR tasks."
+name: audioFlux Audio and Music Analysis Feature Extraction Library
+description: audioFlux is a deep learning tool library for audio and music analysis
+  and feature extraction, supporting dozens of time-frequency transforms and hundreds
+  of feature combinations for classification, separation, MIR, and ASR tasks.
 verification: security_reviewed
-source: "https://github.com/libAudioFlux/audioFlux"
+source: https://github.com/libAudioFlux/audioFlux
 category:
-  - "Media &amp; Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "libaudioflux/audioflux"
-  github_stars: 3290
+  license: MIT
 ---
-
 # audioFlux Audio and Music Analysis Feature Extraction Library
 
 audioFlux is a high-performance library for audio and music analysis, designed as a feature extraction pipeline for deep learning workflows. Written in C with Python bindings (available on PyPI), it provides dozens of time-frequency analysis transformation methods and hundreds of corresponding time-domain and frequency-domain feature combinations.

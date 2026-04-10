@@ -1,17 +1,19 @@
 ---
-name: "LanguageTool Grammar and Style Checker"
-description: "Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can run as a local Java server or via its public API, providing detailed error reports with correction suggestions for any text content."
+name: LanguageTool Grammar and Style Checker
+description: Check grammar, style, and spelling across 25+ languages with LanguageTool.
+  This open-source proofreading engine can run as a local Java server or via its public
+  API, providing detailed error reports with correction suggestions for any text content.
 verification: security_reviewed
-source: "https://github.com/languagetool-org/languagetool"
+source: https://github.com/languagetool-org/languagetool
 category:
-  - "Content Writing &amp; SEO"
+- Content Writing &amp; SEO
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "languagetool-org/languagetool"
+  github_repo: languagetool-org/languagetool
   github_stars: 14238
+  license: LGPL-2.1
 ---
-
 # LanguageTool Grammar and Style Checker
 
 LanguageTool is an open-source grammar, style, and spell-checking engine that supports over 25 languages including English, German, French, Spanish, Portuguese, Dutch, Polish, and Russian. Written in Java, it can run as a standalone server, be embedded as a library, or accessed through its public REST API at api.languagetool.org.

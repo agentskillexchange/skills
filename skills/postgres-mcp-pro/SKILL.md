@@ -1,17 +1,18 @@
 ---
-name: "Postgres MCP Pro"
-description: "Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL execution, it provides index tuning recommendations, query plan analysis, database health monitoring, and schema intelligence."
+name: Postgres MCP Pro
+description: Query, analyze, and tune PostgreSQL databases through your AI agent with
+  safe access controls. Beyond basic SQL execution, it provides index tuning recommendations,
+  query plan analysis, database health monitoring, and schema intelligence.
 verification: security_reviewed
-source: "https://github.com/crystaldba/postgres-mcp"
+source: https://github.com/crystaldba/postgres-mcp
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "crystaldba/postgres-mcp"
+  github_repo: crystaldba/postgres-mcp
   github_stars: 2499
 ---
-
 # Postgres MCP Pro
 
 Postgres MCP Pro is an open-source MCP server by Crystal DBA that goes beyond wrapping a database connection. It provides deep database intelligence including index tuning, EXPLAIN plan analysis, health diagnostics, and configurable access controls.

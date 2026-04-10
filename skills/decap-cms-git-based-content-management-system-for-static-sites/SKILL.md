@@ -1,17 +1,19 @@
 ---
-name: "Decap CMS Git-Based Content Management System for Static Sites"
-description: "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and lets teams edit structured content in repositories without building a custom editorial interface from scratch."
+name: Decap CMS Git-Based Content Management System for Static Sites
+description: Decap CMS is a Git-based content management system for static site generators.
+  It provides an admin UI at /admin, authenticates against Git-backed backends, and
+  lets teams edit structured content in repositories without building a custom editorial
+  interface from scratch.
 verification: security_reviewed
-source: "https://github.com/decaporg/decap-cms"
+source: https://github.com/decaporg/decap-cms
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "decaporg/decap-cms"
+  github_repo: decaporg/decap-cms
   github_stars: 19011
 ---
-
 # Decap CMS Git-Based Content Management System for Static Sites
 
 Decap CMS is an open source Git-based content management system built for static site generators and repository-driven publishing workflows. Formerly known as Netlify CMS, the project gives teams a browser-based editorial interface that sits at the /admin route of a site and writes content back to a Git repository. That makes it useful when the job is not “run a traditional database-backed CMS,” but “let editors manage structured content in a repo-backed website without asking them to work directly in Markdown and YAML.”

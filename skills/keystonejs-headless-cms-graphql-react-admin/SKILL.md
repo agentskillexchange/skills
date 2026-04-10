@@ -1,14 +1,16 @@
 ---
-name: "KeystoneJS Headless CMS with GraphQL API and React Admin UI"
-description: "KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates a GraphQL API and React-based Admin UI from your schema definition. Built by Thinkmill, it supports PostgreSQL and SQLite, custom access control, hooks, virtual fields, and document-based rich text editing."
+name: KeystoneJS Headless CMS with GraphQL API and React Admin UI
+description: KeystoneJS is a powerful open-source headless CMS for Node.js that auto-generates
+  a GraphQL API and React-based Admin UI from your schema definition. Built by Thinkmill,
+  it supports PostgreSQL and SQLite, custom access control, hooks, virtual fields,
+  and document-based rich text editing.
 verification: security_reviewed
-source: "https://github.com/keystonejs/keystone"
+source: https://github.com/keystonejs/keystone
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # KeystoneJS Headless CMS with GraphQL API and React Admin UI
 
 KeystoneJS is a programmable headless CMS and application framework for Node.js. You define your data schema in code, and Keystone generates a complete GraphQL API and a polished React-based Admin UI automatically. Published under the @keystone-6/* namespace on npm, it is maintained by Thinkmill and has over 9,000 GitHub stars.

@@ -1,14 +1,16 @@
 ---
-name: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
-description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product."
+name: Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
+description: Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware
+  WP-CLI work like search-replace, plugin or theme operations, cron inspection, and
+  multisite-safe targeting. It is an operational runbook for guarded WordPress changes,
+  not a plain entry for the WP-CLI product.
 verification: listed
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
+source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
 
 This entry is based on the official wp-wpcli-and-ops skill from WordPress/agent-skills. The underlying tool is WP-CLI, but the skill is narrower and much more useful than a product card. It gives an agent a concrete operational workflow for running WordPress tasks safely: confirm the environment, verify the right site path and URL, assess blast radius, back up before risky changes, dry-run where possible, and only then perform targeted commands.

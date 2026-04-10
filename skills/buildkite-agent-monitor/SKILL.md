@@ -1,14 +1,15 @@
 ---
-name: "Buildkite Agent Monitor"
-description: "Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL API. Tracks agent connectivity, queue depth, job wait times, and dispatches Slack alerts for stalled or disconnected agents."
+name: Buildkite Agent Monitor
+description: Monitors Buildkite agent pools via the Buildkite REST API v3 and GraphQL
+  API. Tracks agent connectivity, queue depth, job wait times, and dispatches Slack
+  alerts for stalled or disconnected agents.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/buildkite-agent-monitor/"
+source: https://agentskillexchange.com/skills/buildkite-agent-monitor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Buildkite Agent Monitor
 
 The Buildkite Agent Monitor skill provides real-time visibility into your Buildkite CI infrastructure by querying the Buildkite REST API v3 and GraphQL API endpoints. It tracks agent pool health including connectivity status, queue depth trends, and job wait time percentiles.

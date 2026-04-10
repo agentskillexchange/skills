@@ -1,14 +1,16 @@
 ---
-name: "GlitchTip Open-Source Error Tracking Platform"
-description: "GlitchTip is an open-source, Sentry-compatible error tracking platform built for self-hosted exception monitoring and alerting. It is a strong fit when you want production error visibility with API compatibility, lighter infrastructure, and clear deployment docs."
+name: GlitchTip Open-Source Error Tracking Platform
+description: GlitchTip is an open-source, Sentry-compatible error tracking platform
+  built for self-hosted exception monitoring and alerting. It is a strong fit when
+  you want production error visibility with API compatibility, lighter infrastructure,
+  and clear deployment docs.
 verification: security_reviewed
-source: "https://gitlab.com/glitchtip/glitchtip-backend"
+source: https://gitlab.com/glitchtip/glitchtip-backend
 category:
-  - "Monitoring &amp; Alerts"
+- Monitoring &amp; Alerts
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # GlitchTip Open-Source Error Tracking Platform
 
 GlitchTip is an open-source error tracking platform maintained by the GlitchTip project on GitLab. The backend README describes it as a Sentry API compatible service, which makes it attractive for teams that want to self-host error monitoring without adopting the full weight of modern Sentry. The project focuses on a smaller, more familiar Django-based codebase, privacy-respecting defaults, and a deployment model that can run in relatively modest environments.

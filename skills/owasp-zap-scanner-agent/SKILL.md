@@ -1,14 +1,15 @@
 ---
-name: "OWASP ZAP Scanner Agent"
-description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
+name: OWASP ZAP Scanner Agent
+description: Integrates the OWASP ZAP API to run automated DAST scans against web
+  applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates
+  remediation tickets via Jira REST API.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/owasp-zap-scanner-agent/"
+source: https://agentskillexchange.com/skills/owasp-zap-scanner-agent/
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # OWASP ZAP Scanner Agent
 
 The OWASP ZAP Scanner Agent provides a fully automated dynamic application security testing (DAST) pipeline for AI agent workflows. It connects to the OWASP ZAP daemon via its REST API on port 8080, configuring spider and active scan policies programmatically.

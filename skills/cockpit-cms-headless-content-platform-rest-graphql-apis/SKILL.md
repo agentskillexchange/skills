@@ -1,14 +1,16 @@
 ---
-name: "Cockpit CMS Headless Content Platform with REST and GraphQL APIs"
-description: "Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy stack. It supports websites, apps, and multi-language content workflows with either SQLite or MongoDB backends."
+name: Cockpit CMS Headless Content Platform with REST and GraphQL APIs
+description: Cockpit CMS is a lightweight headless content platform for teams that
+  want flexible models, REST and GraphQL APIs, and self-hosted deployment without
+  a heavy stack. It supports websites, apps, and multi-language content workflows
+  with either SQLite or MongoDB backends.
 verification: security_reviewed
-source: "https://github.com/Cockpit-HQ/Cockpit"
+source: https://github.com/Cockpit-HQ/Cockpit
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Cockpit CMS Headless Content Platform with REST and GraphQL APIs
 
 Cockpit CMS is a self-hosted headless content platform maintained by Cockpit-HQ. The project focuses on a practical setup for structured content, API delivery, and lightweight administration rather than an all-in-one page-builder model. That makes it appealing when a team wants a content backend for a custom frontend, mobile app, dashboard, or multi-channel publishing workflow.

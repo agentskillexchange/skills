@@ -1,14 +1,16 @@
 ---
-name: "Sentry Error Triage Assistant"
-description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
+name: Sentry Error Triage Assistant
+description: Triages application errors using the Sentry Web API (/api/0/issues/)
+  and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry
+  fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/
+  endpoint.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/sentry-error-triage-assistant/"
+source: https://agentskillexchange.com/skills/sentry-error-triage-assistant/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Sentry Error Triage Assistant
 
 The Sentry Error Triage Assistant skill automates the analysis and prioritization of application errors captured by Sentry. It queries the Sentry Web API endpoint /api/0/issues/ to retrieve issue details including event counts, user impact metrics, first and last seen timestamps, and assigned ownership based on CODEOWNERS integration.

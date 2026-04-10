@@ -1,17 +1,18 @@
 ---
-name: "Docker MCP Server for Container Lifecycle Management"
-description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
+name: Docker MCP Server for Container Lifecycle Management
+description: An MCP server that enables AI agents to manage Docker containers, images,
+  volumes, and networks through natural language. Supports local and remote Docker
+  engines for container lifecycle operations via the Model Context Protocol.
 verification: security_reviewed
-source: "https://github.com/ckreiling/mcp-server-docker"
+source: https://github.com/ckreiling/mcp-server-docker
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "ckreiling/mcp-server-docker"
+  github_repo: ckreiling/mcp-server-docker
   github_stars: 695
 ---
-
 # Docker MCP Server for Container Lifecycle Management
 
 The Docker MCP Server (mcp-server-docker) bridges AI agents and Docker container management through the Model Context Protocol. It exposes Docker operations as MCP tools that language models can call, enabling natural language control over container infrastructure. The project has nearly 700 GitHub stars and active community development.

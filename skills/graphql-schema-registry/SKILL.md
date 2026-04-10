@@ -1,14 +1,15 @@
 ---
-name: "GraphQL Schema Registry"
-description: "Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via @graphql-eslint/eslint-plugin."
+name: GraphQL Schema Registry
+description: Manages GraphQL schema evolution using graphql-inspector for breaking
+  change detection and Apollo Rover CLI for schema composition. Validates schemas
+  against custom ESLint rules via @graphql-eslint/eslint-plugin.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/graphql-schema-registry/"
+source: https://agentskillexchange.com/skills/graphql-schema-registry/
 category:
-  - "Library &amp; API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # GraphQL Schema Registry
 
 The GraphQL Schema Registry skill provides schema lifecycle management for GraphQL APIs, handling validation, evolution tracking, and federated composition. It uses graphql-inspector to compare schema versions and detect breaking changes including removed fields, changed argument types, and modified enum values.

@@ -1,14 +1,16 @@
 ---
-name: "Vercel Agent Browser"
-description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
+name: Vercel Agent Browser
+description: Vercel Agent Browser is a browser automation CLI built specifically for
+  AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility
+  snapshots, click elements, fill forms, capture screenshots, and manage browser state
+  from the command line.
 verification: security_reviewed
-source: "https://github.com/vercel-labs/agent-browser"
+source: https://github.com/vercel-labs/agent-browser
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Vercel Agent Browser
 
 Vercel Agent Browser is a browser automation CLI from Vercel Labs designed for AI-agent workflows rather than traditional end-to-end testing alone. The project centers on a command-line interface called agent-browser that can open websites, generate accessibility-tree snapshots, locate interactive elements semantically, click or type into controls, capture screenshots and PDFs, inspect network activity, and manage cookies, tabs, storage, and dialogs. That makes it a strong fit for skills that need to drive real websites from an agent runtime without forcing the user to wire up a custom Playwright layer.

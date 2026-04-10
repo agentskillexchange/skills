@@ -1,14 +1,15 @@
 ---
-name: "Jenkins Pipeline Log Parser"
-description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights."
+name: Jenkins Pipeline Log Parser
+description: Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST
+  API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit
+  XML parsing, and generates failure trend reports with node allocation insights.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/"
+source: https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Jenkins Pipeline Log Parser
 
 The Jenkins Pipeline Log Parser skill automates the analysis of Jenkins CI/CD build failures and performance patterns. It connects to Jenkins instances via the REST API and Blue Ocean API for enhanced pipeline visualization data.

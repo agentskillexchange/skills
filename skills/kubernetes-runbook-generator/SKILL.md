@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Runbook Generator"
-description: "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes."
+name: Kubernetes Runbook Generator
+description: Auto-generates operational runbooks from Kubernetes cluster state using
+  kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for
+  common pod failure modes.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-runbook-generator/"
+source: https://agentskillexchange.com/skills/kubernetes-runbook-generator/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Kubernetes Runbook Generator
 
 The Kubernetes Runbook Generator skill automatically creates operational runbooks by analyzing your Kubernetes cluster configuration and historical incident data. It connects via the Kubernetes API server using kubeconfig credentials to inspect deployments, services, and pod specifications.

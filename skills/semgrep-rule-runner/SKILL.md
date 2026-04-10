@@ -1,14 +1,16 @@
 ---
-name: "Semgrep Rule Runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports -config auto for community rules, parses JSON output via -json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
+name: Semgrep Rule Runner
+description: Executes Semgrep static analysis using the semgrep CLI with custom YAML
+  rule packs. Supports &#8211;config auto for community rules, parses JSON output
+  via &#8211;json flag, and integrates with Semgrep App API for centralized findings
+  management and triage workflows.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
+source: https://agentskillexchange.com/skills/semgrep-rule-runner/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # Semgrep Rule Runner
 
 The Semgrep Rule Runner provides advanced static analysis capabilities using the Semgrep open-source engine. It supports both local rule definitions in YAML format and the Semgrep Registry for community-maintained rule packs covering OWASP Top 10, CWE categories, and framework-specific patterns.

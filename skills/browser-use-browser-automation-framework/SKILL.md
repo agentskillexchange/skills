@@ -1,17 +1,20 @@
 ---
-name: "browser-use Browser Automation Framework"
-description: "Use browser-use to turn natural-language web tasks into repeatable browser automation backed by Playwright and agent loops. This skill helps an agent open sites, inspect page state, click, type, extract data, and recover from common UI changes with a real automation framework instead of brittle one-off scripts."
+name: browser-use Browser Automation Framework
+description: Use browser-use to turn natural-language web tasks into repeatable browser
+  automation backed by Playwright and agent loops. This skill helps an agent open
+  sites, inspect page state, click, type, extract data, and recover from common UI
+  changes with a real automation framework instead of brittle one-off scripts.
 verification: security_reviewed
-source: "https://github.com/browser-use/browser-use"
+source: https://github.com/browser-use/browser-use
 category:
-  - "Browser Automation"
+- Browser Automation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "browser-use/browser-use"
+  github_repo: browser-use/browser-use
   github_stars: 85193
+  license: MIT
 ---
-
 # browser-use Browser Automation Framework
 
 The browser-use project is an open source browser automation framework built for AI agents that need to operate real websites instead of just reading static HTML. A skill centered on browser-use is useful when the job-to-be-done is “go do this in a browser and bring back a structured result” — things like form submission, lead capture, page QA, authenticated data collection, invoice download, or multi-step research.

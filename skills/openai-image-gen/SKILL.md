@@ -1,17 +1,18 @@
 ---
-name: "OpenAI Image Gen"
-description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
+name: OpenAI Image Gen
+description: Batch-generate images through the OpenAI Images API with a prompt sampler
+  and gallery output.
 verification: security_reviewed
-source: "https://github.com/openai/openai-node"
+source: https://github.com/openai/openai-node
 category:
-  - "Image &amp; Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10791
+  ase_npm_package: openai
 ---
-
 # OpenAI Image Gen
 
 OpenAI Image Gen is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chat completions, embeddings, image generation, assistants, responses, tool calling and preserving the operational context that matters for real tasks.

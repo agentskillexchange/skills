@@ -1,17 +1,19 @@
 ---
-name: "Pixi Cross-Platform Package Manager Built on Conda"
-description: "A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with a Cargo-like developer experience for Python, C++, R, and more."
+name: Pixi Cross-Platform Package Manager Built on Conda
+description: A blazing-fast, cross-platform package manager and workflow tool written
+  in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language
+  dependency management with a Cargo-like developer experience for Python, C++, R,
+  and more.
 verification: security_reviewed
-source: "https://github.com/prefix-dev/pixi"
+source: https://github.com/prefix-dev/pixi
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "prefix-dev/pixi"
+  github_repo: prefix-dev/pixi
   github_stars: 6724
 ---
-
 # Pixi Cross-Platform Package Manager Built on Conda
 
 Pixi is a modern package manager from prefix.dev, written entirely in Rust, that brings the reproducibility of the Conda ecosystem together with the ergonomics of tools like Cargo and npm. It manages project dependencies, virtual environments, and task execution across Python, C++, R, CUDA, and other languages through a single pixi.toml configuration file.

@@ -1,14 +1,15 @@
 ---
-name: "PostgreSQL Query Plan Explainer"
-description: "Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations via HypoPG, and buffer cache hit ratios."
+name: PostgreSQL Query Plan Explainer
+description: Interprets PostgreSQL EXPLAIN ANALYZE output using pg_stat_statements
+  and auto_explain module data. Identifies sequential scan bottlenecks, index recommendations
+  via HypoPG, and buffer cache hit ratios.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/postgresql-query-plan-explainer/"
+source: https://agentskillexchange.com/skills/postgresql-query-plan-explainer/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "Gemini"
+- Gemini
 ---
-
 # PostgreSQL Query Plan Explainer
 
 PostgreSQL Query Plan Explainer is built around PostgreSQL relational database. It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL, pg_stat_statements, EXPLAIN ANALYZE, locks, indexes, extensions and preserving the operational context that matters for real tasks.

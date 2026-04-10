@@ -1,17 +1,18 @@
 ---
-name: "Activepieces Open Source Workflow Automation"
-description: "Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a visual builder for creating automated workflows and exposes all its connectors as MCP servers for AI agent use."
+name: Activepieces Open Source Workflow Automation
+description: Activepieces is an open-source, self-hostable workflow automation platform
+  with 200+ integrations. It provides a visual builder for creating automated workflows
+  and exposes all its connectors as MCP servers for AI agent use.
 verification: security_reviewed
-source: "https://github.com/activepieces/activepieces"
+source: https://github.com/activepieces/activepieces
 category:
-  - "Integrations &amp; Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "activepieces/activepieces"
+  github_repo: activepieces/activepieces
   github_stars: 21510
 ---
-
 # Activepieces Open Source Workflow Automation
 
 Activepieces is an open-source workflow automation platform that serves as a self-hostable alternative to Zapier and Make. With over 21,000 GitHub stars and an active TypeScript codebase, Activepieces combines a visual no-code builder with a type-safe pieces framework that makes it equally accessible to non-technical users and developers. The platform supports 200+ pre-built integrations (called &#8220;pieces&#8221;) covering services like Google Sheets, Slack, OpenAI, Discord, GitHub, Notion, Stripe, and many more.

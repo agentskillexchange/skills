@@ -1,14 +1,15 @@
 ---
-name: "Kubernetes Pod Diagnostics Runbook"
-description: "Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and resource quotas systematically."
+name: Kubernetes Pod Diagnostics Runbook
+description: Automates Kubernetes troubleshooting using kubectl and the Kubernetes
+  Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states.
+  Collects pod logs, events, node conditions, and resource quotas systematically.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/"
+source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/
 category:
-  - "Runbooks &amp; Diagnostics"
+- Runbooks &amp; Diagnostics
 framework:
-  - "OpenClaw"
+- OpenClaw
 ---
-
 # Kubernetes Pod Diagnostics Runbook
 
 The Kubernetes Pod Diagnostics Runbook provides systematic troubleshooting procedures for common pod failure states in Kubernetes clusters. It uses the official Kubernetes Python client (kubernetes-client/python) to query cluster state programmatically, collecting pod descriptions, container logs, node conditions, and resource quota utilization in a structured diagnostic report.

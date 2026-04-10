@@ -1,20 +1,19 @@
 ---
-name: "SQLite MCP Server"
-description: "Lightweight local database access for agent tasks."
+name: SQLite MCP Server
+description: Lightweight local database access for agent tasks.
 verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
+source: https://github.com/modelcontextprotocol/servers
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+- Claude Code
+- Cursor
+- MCP
+- OpenClaw
 tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
+  github_repo: modelcontextprotocol/servers
   github_stars: 83288
 ---
-
 # SQLite MCP Server
 
 SQLite MCP Server is built around SQLite embedded database. The underlying ecosystem is represented by WiseLibs/better-sqlite3 (7,041+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like local .db files, SQL queries, schema inspection, FTS, WAL, query plans and preserving the operational context that matters for real tasks.

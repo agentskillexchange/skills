@@ -1,14 +1,16 @@
 ---
-name: "Crawl4AI LLM-Friendly Web Crawler"
-description: "Run web crawling and scraping workflows with Crawl4AI, an open-source crawler built to produce LLM-ready markdown and structured extraction output. It supports async crawling, browser automation hooks, deep crawls, CLI usage, and Python-based data pipelines."
+name: Crawl4AI LLM-Friendly Web Crawler
+description: Run web crawling and scraping workflows with Crawl4AI, an open-source
+  crawler built to produce LLM-ready markdown and structured extraction output. It
+  supports async crawling, browser automation hooks, deep crawls, CLI usage, and Python-based
+  data pipelines.
 verification: security_reviewed
-source: "https://github.com/unclecode/crawl4ai"
+source: https://github.com/unclecode/crawl4ai
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 ---
-
 # Crawl4AI LLM-Friendly Web Crawler
 
 Crawl4AI is an open-source web crawler and scraper designed around LLM-friendly outputs. Instead of leaving an agent with raw HTML and cleanup work, Crawl4AI focuses on clean markdown, structured extraction, browser-backed crawling, caching, deep crawl strategies, and CLI or Python workflows that fit research pipelines, RAG ingestion, and autonomous data collection. A Crawl4AI skill is a solid match when an agent needs to crawl documentation sites, collect page-level content, extract structured fields, or build repeatable content-ingestion jobs using a real crawler project with a visible release history and active maintenance.

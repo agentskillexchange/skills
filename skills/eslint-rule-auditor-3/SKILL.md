@@ -1,14 +1,15 @@
 ---
-name: "ESLint Rule Auditor"
-description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
+name: ESLint Rule Auditor
+description: Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat
+  config APIs. Detects conflicting rules, deprecated configs, and generates migration
+  paths from eslintrc to eslint.config.js flat config format.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"
+source: https://agentskillexchange.com/skills/eslint-rule-auditor-3/
 category:
-  - "Code Quality &amp; Review"
+- Code Quality &amp; Review
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # ESLint Rule Auditor
 
 The ESLint Rule Auditor skill performs comprehensive analysis of ESLint configurations across JavaScript and TypeScript projects. It parses both legacy eslintrc and modern flat config formats using @eslint/eslintrc and @eslint/js APIs to build a complete picture of active rules, overrides, and plugin interactions.

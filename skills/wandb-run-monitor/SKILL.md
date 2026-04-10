@@ -1,14 +1,16 @@
 ---
-name: "Weights & Biases Run Monitor"
-description: "Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active runs. Alerts on metric regressions by querying run history via wandb.Api().runs() and posts summaries to Slack. Supports artifact versioning and lineage tracking."
+name: Weights &amp; Biases Run Monitor
+description: Uses the W&amp;B Python SDK and Public API to stream live training metrics,
+  system stats, and gradients from active runs. Alerts on metric regressions by querying
+  run history via wandb.Api().runs() and posts summaries to Slack. Supports artifact
+  versioning and lineage tracking.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/wandb-run-monitor/"
+source: https://agentskillexchange.com/skills/wandb-run-monitor/
 category:
-  - "Data Extraction &amp; Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Weights & Biases Run Monitor
 
 Weights & Biases Run Monitor is built around Slack messaging and workspace APIs. The underlying ecosystem is represented by slackapi/bolt-js (2,900+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like conversations.history, chat.postMessage, users.info, block kit, files and preserving the operational context that matters for real tasks.

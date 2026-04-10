@@ -1,14 +1,15 @@
 ---
-name: "Playwright Page Data Extractor"
-description: "Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
+name: Playwright Page Data Extractor
+description: Uses Microsoft Playwright&#8217;s Node.js API to navigate dynamic web
+  applications, intercept network requests, and extract structured data from React/Vue/Angular
+  SPAs with automatic wait strategies.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
+source: https://agentskillexchange.com/skills/playwright-page-data-extractor/
 category:
-  - "Research &amp; Scraping"
+- Research &amp; Scraping
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # Playwright Page Data Extractor
 
 The Playwright Page Data Extractor skill leverages Microsoft Playwright for reliable data extraction from modern JavaScript-heavy web applications. It handles React, Vue, and Angular single-page applications that render content client-side, using Playwright's auto-waiting mechanisms to ensure content is fully loaded before extraction.

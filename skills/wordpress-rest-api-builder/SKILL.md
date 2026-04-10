@@ -1,17 +1,16 @@
 ---
-name: "WordPress REST API Builder"
-description: "Build and debug WordPress REST endpoints with a specialized skill."
+name: WordPress REST API Builder
+description: Build and debug WordPress REST endpoints with a specialized skill.
 verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+source: https://github.com/WordPress/WordPress
 category:
-  - "WordPress &amp; CMS"
+- WordPress &amp; CMS
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: WordPress/WordPress
   github_stars: 21002
 ---
-
 # WordPress REST API Builder
 
 WordPress REST API Builder is built around WordPress CMS and REST API ecosystem. The underlying ecosystem is represented by WordPress/WordPress (20,973+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like posts, pages, taxonomies, media, custom fields, auth, plugin hooks and preserving the operational context that matters for real tasks.

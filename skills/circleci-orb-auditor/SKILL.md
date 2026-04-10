@@ -1,14 +1,15 @@
 ---
-name: "CircleCI Orb Auditor"
-description: "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry."
+name: CircleCI Orb Auditor
+description: Audits CircleCI orb versions and configurations using the CircleCI v2
+  API. Flags deprecated orbs, provides pinning recommendations, and checks security
+  advisories from the orb registry.
 verification: security_reviewed
-source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
+source: https://agentskillexchange.com/skills/circleci-orb-auditor/
 category:
-  - "CI/CD Integrations"
+- CI/CD Integrations
 framework:
-  - "Cursor"
+- Cursor
 ---
-
 # CircleCI Orb Auditor
 
 The CircleCI Orb Auditor agent performs comprehensive audits of CircleCI orb usage across your organization's projects. Using the CircleCI v2 API, it scans all .circleci/config.yml files to inventory orb dependencies and validate them against the CircleCI Orb Registry.

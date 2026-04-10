@@ -1,19 +1,18 @@
 ---
-name: "Sentry for AI"
-description: "Observability and debugging support for AI-assisted application workflows."
+name: Sentry for AI
+description: Observability and debugging support for AI-assisted application workflows.
 verification: security_reviewed
-source: "https://github.com/getsentry/sentry-for-ai"
+source: https://github.com/getsentry/sentry-for-ai
 category:
-  - "Security &amp; Verification"
+- Security &amp; Verification
 framework:
-  - "Claude Code"
-  - "Cursor"
-  - "Custom Agents"
+- Claude Code
+- Cursor
+- Custom Agents
 tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
+  github_repo: getsentry/sentry-for-ai
   github_stars: 105
 ---
-
 # Sentry for AI
 
 Sentry for AI is built around Sentry error tracking and performance monitoring. The underlying ecosystem is represented by getsentry/sentry (43,434+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like issues, events, releases, stack traces, traces, performance spans and preserving the operational context that matters for real tasks.

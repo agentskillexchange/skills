@@ -1,19 +1,21 @@
 ---
-name: "Repomix Codebase Context Packer for LLMs"
-description: "Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format."
+name: Repomix Codebase Context Packer for LLMs
+description: Repomix packs an entire code repository into a single AI-friendly file
+  optimized for LLM consumption. It provides token counting, security scanning via
+  Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or
+  plain text format.
 verification: security_reviewed
-source: "https://github.com/yamadashy/repomix"
+source: https://github.com/yamadashy/repomix
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "yamadashy/repomix"
+  github_repo: yamadashy/repomix
   github_stars: 22816
-  ase_npm_package: "repomix"
+  ase_npm_package: repomix
   npm_weekly_downloads: 53411
 ---
-
 # Repomix Codebase Context Packer for LLMs
 
 Repomix is an open-source TypeScript CLI tool that packs an entire code repository into a single file formatted specifically for consumption by Large Language Models. With over 22,000 GitHub stars and active development, it has become the go-to tool for developers who need to feed codebases to Claude, ChatGPT, Gemini, DeepSeek, and other AI assistants.
