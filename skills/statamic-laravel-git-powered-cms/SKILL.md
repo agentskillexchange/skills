@@ -6,6 +6,9 @@ category:
   - "WordPress &amp; CMS"
 verification: "security_reviewed"
 source: "https://github.com/statamic/cms"
+tool_ecosystem:
+  github_repo: "statamic/cms"
+  github_stars: 4777
 ---
 
 # Statamic Laravel Git-Powered CMS

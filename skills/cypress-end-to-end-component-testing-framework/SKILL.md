@@ -6,6 +6,9 @@ category:
   - "Browser Automation"
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
+tool_ecosystem:
+  github_repo: "cypress-io/cypress"
+  github_stars: 49607
 ---
 
 # Cypress End-to-End and Component Testing Framework

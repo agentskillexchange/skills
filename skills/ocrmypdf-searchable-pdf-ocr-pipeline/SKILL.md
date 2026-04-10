@@ -6,6 +6,9 @@ category:
   - "Media &amp; Transcription"
 verification: "security_reviewed"
 source: "https://github.com/ocrmypdf/OCRmyPDF"
+tool_ecosystem:
+  github_repo: "ocrmypdf/OCRmyPDF"
+  github_stars: 33173
 ---
 
 # OCRmyPDF Searchable PDF OCR Pipeline

@@ -6,6 +6,9 @@ category:
   - "Library &amp; API Reference"
 verification: "security_reviewed"
 source: "https://github.com/parcel-bundler/lightningcss"
+tool_ecosystem:
+  github_repo: "parcel-bundler/lightningcss"
+  github_stars: 7501
 ---
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier

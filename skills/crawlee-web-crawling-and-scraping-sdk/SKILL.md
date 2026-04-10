@@ -6,6 +6,9 @@ category:
   - "Research &amp; Scraping"
 verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
+tool_ecosystem:
+  github_repo: "apify/crawlee"
+  github_stars: 22700
 ---
 
 # Crawlee Web Crawling and Scraping SDK

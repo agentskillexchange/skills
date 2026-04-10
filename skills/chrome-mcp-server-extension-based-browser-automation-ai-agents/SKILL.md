@@ -6,6 +6,9 @@ category:
   - "Browser Automation"
 verification: "security_reviewed"
 source: "https://github.com/hangwin/mcp-chrome"
+tool_ecosystem:
+  github_repo: "hangwin/mcp-chrome"
+  github_stars: 11153
 ---
 
 # Chrome MCP Server Extension-Based Browser Automation for AI Agents

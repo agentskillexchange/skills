@@ -6,6 +6,9 @@ category:
   - "Security &amp; Verification"
 verification: "security_reviewed"
 source: "https://github.com/better-auth/better-auth"
+tool_ecosystem:
+  github_repo: "better-auth/better-auth"
+  github_stars: 27721
 ---
 
 # Better Auth Authentication Framework for TypeScript Applications

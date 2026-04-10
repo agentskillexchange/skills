@@ -6,6 +6,9 @@ category:
   - "Integrations &amp; Connectors"
 verification: "security_reviewed"
 source: "https://github.com/PipedreamHQ/pipedream"
+tool_ecosystem:
+  github_repo: "PipedreamHQ/pipedream"
+  github_stars: 11225
 ---
 
 # Pipedream API Workflow Automation Platform

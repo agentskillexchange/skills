@@ -6,6 +6,9 @@ category:
   - "Media &amp; Transcription"
 verification: "security_reviewed"
 source: "https://github.com/tesseract-ocr/tesseract"
+tool_ecosystem:
+  github_repo: "tesseract-ocr/tesseract"
+  github_stars: 73398
 ---
 
 # Tesseract OCR Engine for Image-to-Text Workflows

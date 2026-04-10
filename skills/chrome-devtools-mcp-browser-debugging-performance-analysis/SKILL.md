@@ -6,6 +6,9 @@ category:
   - "Browser Automation"
 verification: "security_reviewed"
 source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+tool_ecosystem:
+  github_repo: "ChromeDevTools/chrome-devtools-mcp"
+  github_stars: 33876
 ---
 
 # Chrome DevTools MCP Browser Debugging and Performance Analysis

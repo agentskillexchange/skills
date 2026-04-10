@@ -6,6 +6,9 @@ category:
   - "Research &amp; Scraping"
 verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
+tool_ecosystem:
+  github_repo: "unclecode/crawl4ai"
+  github_stars: 63670
 ---
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction

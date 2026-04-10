@@ -6,6 +6,9 @@ category:
   - "CI/CD Integrations"
 verification: "security_reviewed"
 source: "https://github.com/renovatebot/renovate"
+tool_ecosystem:
+  github_repo: "renovatebot/renovate"
+  github_stars: 21253
 ---
 
 # Renovate Automated Dependency Update Bot and CLI

@@ -6,6 +6,9 @@ category:
   - "Media &amp; Transcription"
 verification: "security_reviewed"
 source: "https://github.com/moonshine-ai/moonshine"
+tool_ecosystem:
+  github_repo: "moonshine-ai/moonshine"
+  github_stars: 7663
 ---
 
 # Moonshine Voice On-Device Speech Recognition and Voice Commands

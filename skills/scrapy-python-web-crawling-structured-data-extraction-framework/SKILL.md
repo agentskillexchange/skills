@@ -6,6 +6,9 @@ category:
   - "Research &amp; Scraping"
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+tool_ecosystem:
+  github_repo: "scrapy/scrapy"
+  github_stars: 61251
 ---
 
 # Scrapy Python Web Crawling and Structured Data Extraction Framework

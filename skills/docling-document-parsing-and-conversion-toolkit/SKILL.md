@@ -6,6 +6,9 @@ category:
   - "Data Extraction &amp; Transformation"
 verification: "security_reviewed"
 source: "https://github.com/docling-project/docling"
+tool_ecosystem:
+  github_repo: "docling-project/docling"
+  github_stars: 57445
 ---
 
 # Docling Document Parsing and Conversion Toolkit

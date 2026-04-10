@@ -6,6 +6,9 @@ category:
   - "Security &amp; Verification"
 verification: "security_reviewed"
 source: "https://github.com/clerk/javascript"
+tool_ecosystem:
+  github_repo: "clerk/javascript"
+  github_stars: 1688
 ---
 
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows

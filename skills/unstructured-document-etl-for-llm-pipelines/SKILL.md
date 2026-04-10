@@ -6,6 +6,9 @@ category:
   - "Data Extraction &amp; Transformation"
 verification: "security_reviewed"
 source: "https://github.com/Unstructured-IO/unstructured"
+tool_ecosystem:
+  github_repo: "Unstructured-IO/unstructured"
+  github_stars: 14423
 ---
 
 # Unstructured Document ETL for LLM Pipelines

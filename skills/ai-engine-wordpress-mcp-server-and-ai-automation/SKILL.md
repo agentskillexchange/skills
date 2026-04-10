@@ -6,6 +6,9 @@ category:
   - "WordPress &amp; CMS"
 verification: "security_reviewed"
 source: "https://github.com/jordymeow/ai-engine"
+tool_ecosystem:
+  github_repo: "jordymeow/ai-engine"
+  github_stars: 37
 ---
 
 # AI Engine WordPress MCP Server and AI Automation

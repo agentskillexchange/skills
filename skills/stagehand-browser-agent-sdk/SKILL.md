@@ -6,6 +6,9 @@ category:
   - "Browser Automation"
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
+tool_ecosystem:
+  github_repo: "browserbase/stagehand"
+  github_stars: 21945
 ---
 
 # Stagehand Browser Agent SDK

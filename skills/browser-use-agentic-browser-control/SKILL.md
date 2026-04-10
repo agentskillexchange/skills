@@ -6,6 +6,9 @@ category:
   - "Browser Automation"
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
+tool_ecosystem:
+  github_repo: "browser-use/browser-use"
+  github_stars: 86847
 ---
 
 # Browser Use Agentic Browser Control

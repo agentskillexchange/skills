@@ -6,6 +6,9 @@ category:
   - "Data Extraction &amp; Transformation"
 verification: "security_reviewed"
 source: "https://github.com/metabase/metabase"
+tool_ecosystem:
+  github_repo: "metabase/metabase"
+  github_stars: 46809
 ---
 
 # Metabase Open Source Business Intelligence and Embedded Analytics

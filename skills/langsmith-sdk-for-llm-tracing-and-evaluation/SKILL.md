@@ -6,6 +6,9 @@ category:
   - "Monitoring &amp; Alerts"
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langsmith-sdk"
+tool_ecosystem:
+  github_repo: "langchain-ai/langsmith-sdk"
+  github_stars: 840
 ---
 
 # LangSmith SDK for LLM Tracing and Evaluation

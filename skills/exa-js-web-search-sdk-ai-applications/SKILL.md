@@ -6,6 +6,9 @@ category:
   - "Research &amp; Scraping"
 verification: "security_reviewed"
 source: "https://github.com/exa-labs/exa-js"
+tool_ecosystem:
+  github_repo: "exa-labs/exa-js"
+  github_stars: 125
 ---
 
 # Exa JS Web Search SDK for AI Applications

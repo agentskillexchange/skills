@@ -6,6 +6,9 @@ category:
   - "Security &amp; Verification"
 verification: "security_reviewed"
 source: "https://github.com/workos/authkit-nextjs"
+tool_ecosystem:
+  github_repo: "workos/authkit-nextjs"
+  github_stars: 145
 ---
 
 # WorkOS AuthKit Next.js Authentication Toolkit

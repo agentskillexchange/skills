@@ -6,6 +6,9 @@ category:
   - "Image &amp; Creative Automation"
 verification: "security_reviewed"
 source: "https://github.com/remotion-dev/remotion"
+tool_ecosystem:
+  github_repo: "remotion-dev/remotion"
+  github_stars: 42468
 ---
 
 # Remotion React Video Generation and Rendering Framework

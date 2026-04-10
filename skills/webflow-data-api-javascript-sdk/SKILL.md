@@ -6,6 +6,9 @@ category:
   - "WordPress &amp; CMS"
 verification: "security_reviewed"
 source: "https://github.com/webflow/js-webflow-api"
+tool_ecosystem:
+  github_repo: "webflow/js-webflow-api"
+  github_stars: 338
 ---
 
 # Webflow Data API JavaScript SDK
