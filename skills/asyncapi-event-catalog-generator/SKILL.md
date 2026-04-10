@@ -3,7 +3,7 @@ title: "AsyncAPI Event Catalog Generator"
 description: "Parses AsyncAPI 2.x/3.x specifications to generate event-driven architecture catalogs using the AsyncAPI Generator. Produces channel documentation, message schema validators, and EventBridge rule templates."
 slug: "asyncapi-event-catalog-generator"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 verification: "security_reviewed"
@@ -39,8 +39,6 @@ clawhub install asyncapi-event-catalog-generator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
-
-The AsyncAPI Event Catalog Generator skill processes AsyncAPI specification documents to create comprehensive event-driven architecture documentation and tooling. It parses AsyncAPI 2.6 and 3.0 specs using the asyncapi-parser library, extracting channel definitions, message schemas, and server bindings for Kafka, RabbitMQ, and MQTT protocols. The skill generates event catalog pages using the asyncapi-generator with html-template and markdown-template outputs, producing navigable documentation of all published and subscribed channels. It creates JSON Schema validators for each message payload using ajv with format validation and custom keywords, generates AWS EventBridge rule templates from channel filter patterns, and produces CloudEvents envelope wrappers for standardized event metadata. The generator also creates TypeScript interfaces for message types, produces channel topology diagrams in Mermaid format, and validates spec completeness against organizational standards for required fields like contact info and message examples.
 
 ## Source
 

@@ -40,10 +40,6 @@ clawhub install langgraph-js-agent-orchestration-framework
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
 
-LangGraph.js is LangChain’s JavaScript framework for building resilient language agents as graphs. The upstream documentation describes it as a low-level orchestration layer for controllable agents, with support for long-term memory, human-in-the-loop approvals, and token-by-token streaming.
-The repo documents a standard install path, npm install @langchain/langgraph @langchain/core, and points readers to the LangGraph docs, API reference, tutorials, and starter templates. It is designed for developers who need predictable branching, checkpointing, and modular agent composition rather than a single opaque prompt loop.
-Use this skill for multi-step assistant flows, reusable graph nodes, and production agent systems that need explicit state management. Source: https://github.com/langchain-ai/langgraphjs
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/langgraph-js-agent-orchestration-framework/)

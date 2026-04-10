@@ -3,7 +3,7 @@ title: "Sharp Image Transform Pipeline"
 description: "Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management."
 slug: "sharp-image-transform-pipeline"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 verification: "security_reviewed"
@@ -39,8 +39,6 @@ clawhub install sharp-image-transform-pipeline
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
-
-This skill provides comprehensive automation for its target domain with production-ready error handling and logging. It implements retry mechanisms with configurable backoff strategies, validates all inputs against JSON Schema definitions, and produces structured output compatible with downstream processing pipelines. Authentication is handled through OAuth 2.0 flows or API key rotation with secure storage in environment variables or secret managers like HashiCorp Vault. The skill supports dry-run mode for safe testing, emits OpenTelemetry traces for distributed debugging, and includes comprehensive unit test coverage with mock fixtures for offline development.
 
 ## Source
 

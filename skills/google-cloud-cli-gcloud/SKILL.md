@@ -6,7 +6,7 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "published"
+verification: "listed"
 source: "https://cloud.google.com/sdk"
 listed: true
 ---

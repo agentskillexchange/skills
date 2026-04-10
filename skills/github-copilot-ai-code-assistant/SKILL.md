@@ -6,7 +6,7 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "published"
+verification: "listed"
 source: "https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/"
 listed: true
 ---

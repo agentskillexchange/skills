@@ -3,7 +3,7 @@ title: "Shopify Admin GraphQL Sync Agent"
 description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
 slug: "shopify-admin-graphql-sync-agent"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "ChatGPT Agents"
 verification: "security_reviewed"
@@ -44,10 +44,6 @@ clawhub install shopify-admin-graphql-sync-agent
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
-
-Shopify Admin GraphQL Sync Agent is intended for integration workflows that need to move beyond manual REST polling and into more scalable, event-aware synchronization. It uses real Shopify Admin GraphQL patterns such as bulkOperationRunQuery, connection-based pagination for products and orders, and webhook-triggered delta processing to keep local systems aligned with Shopify without repeatedly fetching the same records. That makes it a strong fit for catalog mirrors, fulfillment systems, and analytics pipelines.
-The skill is especially valuable when a store has enough products or order volume that naive pagination becomes expensive and slow. By combining bulk queries for baseline syncs with webhook-assisted updates for ongoing changes, it becomes easier to manage throughput and freshness together. The workflow can also clarify how to use global IDs, filter scopes, and updated timestamps so sync logic remains deterministic.
-Use this skill when integrating Shopify with external systems that need reliable product, order, or inventory state and when GraphQL offers a cleaner long-term path than isolated REST endpoints.
 
 ## Source
 

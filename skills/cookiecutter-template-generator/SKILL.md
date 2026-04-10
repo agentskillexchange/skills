@@ -3,7 +3,7 @@ title: "Cookiecutter Template Generator"
 description: "Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub template repository API."
 slug: "cookiecutter-template-generator"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 verification: "security_reviewed"
@@ -39,10 +39,6 @@ clawhub install cookiecutter-template-generator
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
-
-The Cookiecutter Template Generator skill automates project scaffolding using the Cookiecutter CLI and Jinja2 template engine. It creates production-ready project structures from configurable templates, handling variable substitution, conditional file generation, and directory structure customization.
-The skill supports pulling templates from GitHub repositories, local directories, and custom registries. It manages cookiecutter.json configurations with typed prompts, default values, and choice variables. Post-generation hooks execute Python or shell scripts for tasks like git initialization, virtual environment setup, and dependency installation.
-Advanced features include template composition from multiple sources, conditional directory inclusion based on user choices, and automatic integration with CI/CD configuration generation. The skill can also create new Cookiecutter templates from existing projects, extracting patterns and generating Jinja2 variables for reusable scaffolding.
 
 ## Source
 

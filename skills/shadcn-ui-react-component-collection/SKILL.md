@@ -6,7 +6,7 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "published"
+verification: "listed"
 source: "https://github.com/shadcn-ui/ui"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"

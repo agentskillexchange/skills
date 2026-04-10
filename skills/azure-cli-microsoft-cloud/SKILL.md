@@ -6,7 +6,7 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-verification: "published"
+verification: "listed"
 source: "https://github.com/Azure/azure-cli"
 tool_ecosystem:
   github_repo: "Azure/azure-cli"

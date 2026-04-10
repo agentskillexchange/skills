@@ -40,8 +40,6 @@ clawhub install git-branch-analyzer-libgit2
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
 
-Git Branch Analyzer leverages libgit2 native bindings to perform deep repository analysis without spawning shell processes. It maps branch topology, identifies stale feature branches older than configurable thresholds, and detects potential merge conflicts by analyzing three-way merge bases. The tool integrates with the GitHub GraphQL API to correlate local branches with open pull requests, flagging orphaned branches that have already been merged remotely. It supports monorepo setups by analyzing subtree splits and sparse-checkout boundaries. Output includes structured JSON reports compatible with CI/CD dashboards, with optional Mermaid diagram generation for visual branch graphs. Configuration supports .gitbranchanalyzer.yml files for per-repository rules including protected branch patterns and auto-cleanup policies.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/git-branch-analyzer-libgit2/)

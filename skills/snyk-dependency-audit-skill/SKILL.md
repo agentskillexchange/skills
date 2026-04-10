@@ -3,7 +3,7 @@ title: "Snyk Dependency Audit Skill"
 description: "Uses the Snyk CLI and REST API v1 to scan package manifests for known CVEs. Cross-references findings with the GitHub Advisory Database and produces SBOM documents in CycloneDX format."
 slug: "snyk-dependency-audit-skill"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 verification: "security_reviewed"
@@ -39,10 +39,6 @@ clawhub install snyk-dependency-audit-skill
 ### Method 5: From source
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
-
-The Snyk Dependency Audit Skill automates software composition analysis by integrating the Snyk CLI (snyk test, snyk monitor) with AI agent pipelines. It parses package-lock.json, requirements.txt, go.sum, and Gemfile.lock to identify transitive dependency chains with known vulnerabilities.
-Each finding is enriched with exploit maturity data from the Snyk Vulnerability Database API and cross-referenced against the GitHub Advisory Database (GHSA) via the GraphQL API. The skill calculates effective EPSS scores to prioritize remediation efforts based on real-world exploitation probability.
-Output includes CycloneDX 1.5 SBOM documents and VEX (Vulnerability Exploitability eXchange) statements. The skill supports automated PR generation using the Snyk Fix API, proposing minimal version bumps that resolve vulnerabilities without breaking semver constraints. Integration with Slack Incoming Webhooks provides team notifications for newly disclosed zero-day vulnerabilities affecting monitored repositories.
 
 ## Source
 

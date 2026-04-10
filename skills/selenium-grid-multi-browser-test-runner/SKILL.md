@@ -40,8 +40,6 @@ clawhub install selenium-grid-multi-browser-test-runner
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
 
-This skill manages parallel cross-browser test execution using Selenium Grid 4 with the WebDriver protocol. It connects to a Selenium Hub via webdriver.Remote() with configurable hub URL and DesiredCapabilities for each target browser (Chrome, Firefox, Edge). The skill constructs a browser matrix from configuration, spawning concurrent sessions using asyncio.gather() for Python or Promise.all() for Node.js implementations. Each session uses the standard WebDriver API: driver.get() for navigation, driver.find_element(By.CSS_SELECTOR) for element location, element.click() and element.send_keys() for interaction. It implements the Page Object Model pattern for maintainable test organization. Screenshots on failure use driver.save_screenshot() with timestamped filenames. The skill handles session lifecycle management including implicit/explicit waits via WebDriverWait with expected_conditions, and proper cleanup with driver.quit() in finally blocks. Test results aggregate across all browser nodes into a unified HTML report using the Allure framework integration. Supports custom Chrome options via ChromeOptions.add_argument() for headless mode, proxy settings, and window sizing.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/selenium-grid-multi-browser-test-runner/)

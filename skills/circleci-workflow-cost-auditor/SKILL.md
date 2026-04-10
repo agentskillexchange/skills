@@ -40,8 +40,6 @@ clawhub install circleci-workflow-cost-auditor
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
 
-This skill authenticates with the CircleCI API v2 (circleci.com/api/v2) using a personal API token and fetches workflow run metrics via the Insights endpoint. It correlates job names, executor resource classes, and durations to compute estimated spend using CircleCI published credit rates. Machine, Docker, and Windows executors are all analyzed separately. The skill queries the pipeline parameters API to identify branches with unusually high trigger frequency and flags them for throttling. A full cost-by-project breakdown is generated in Markdown and optionally exported as a CSV artifact via the CircleCI Artifacts API. Supports org-level audit across multiple projects using the CircleCI organization pipeline list endpoint.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/)

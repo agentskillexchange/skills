@@ -40,10 +40,6 @@ clawhub install argocd-sync-orchestrator
 1. Open the upstream source linked below.
 2. Follow the project setup instructions there.
 
-The ArgoCD Sync Orchestrator skill automates GitOps deployment workflows through the Argo CD platform. It uses the argocd CLI and REST API (v1alpha1) to manage application synchronization, health monitoring, and rollback operations.
-The skill implements progressive delivery patterns by integrating with Argo Rollouts for canary and blue-green deployment strategies. It monitors Kubernetes readiness and liveness probes to verify deployment health before promoting new versions.
-Key capabilities include multi-cluster sync coordination, automatic drift detection and remediation, and integration with notification services like Slack and PagerDuty for deployment status updates. The skill supports Kustomize and Helm chart rendering, manages application sets for multi-tenant environments, and handles sync waves and hooks for complex deployment ordering.
-
 ## Source
 
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/argocd-sync-orchestrator/)
