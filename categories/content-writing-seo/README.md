@@ -98,6 +98,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
+| [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | — | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | — | — |
 
 ---

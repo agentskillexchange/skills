@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1835 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-09 23:43 UTC
+> **1838 published skills** across **17 categories** · 1791 security reviewed · Updated 2026-04-10 01:42 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1163,7 +1163,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (97 skills)
+### ✅ Code Quality & Review (99 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1200,6 +1200,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Codecov Coverage Tracker](skills/codecov-coverage-tracker-skill/) | Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch… | Security Reviewed | — | — |
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
 | [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | — | — |
+| [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Published | — | — |
+| [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Published | — | — |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | — | — |
 | [ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/) | Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js… | Security Reviewed | — | — |
 | [ESLint Auto-Fix Orchestrator](skills/eslint-autofix-orchestrator/) | Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule… | Security Reviewed | — | — |
@@ -1910,7 +1912,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (62 skills)
+### ✍️ Content Writing & SEO (63 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1977,6 +1979,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Security Reviewed | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Security Reviewed | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Security Reviewed | — | — |
+| [VitePress Documentation Site Generator](skills/vitepress-documentation-site-generator/) | VitePress is a Vite and Vue powered static site generator focused on documentation, knowledge bases, and project… | Published | — | — |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Security Reviewed | — | — |
 
 

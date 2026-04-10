@@ -65,6 +65,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
+| [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | — | — |
+| [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | — | — |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | — | — |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | — | — |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | — | — |
