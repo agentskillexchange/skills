@@ -92,6 +92,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | — | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | — | — |
+| [GlitchTip Open-Source Error Tracking Platform](../../skills/glitchtip-open-source-error-tracking-platform/) | — | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | — | — |
 | [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
@@ -143,6 +144,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | — | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | — | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | — | — |
+| [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | — | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | — | — |

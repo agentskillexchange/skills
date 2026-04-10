@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1838,
+  "total": 1841,
   "generated": "2026-04-10",
   "skills": [
+    {
+      "slug": "openmeter-usage-metering-and-billing-platform",
+      "name": "OpenMeter Usage Metering and Billing Platform",
+      "description": "OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you need to track API or AI usage…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "glitchtip-open-source-error-tracking-platform",
+      "name": "GlitchTip Open-Source Error Tracking Platform",
+      "description": "GlitchTip is an open-source, Sentry-compatible error tracking platform built for self-hosted exception monitoring and alerting. It is a strong fit when you want production…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "signoz-open-source-observability-platform",
+      "name": "SigNoz Open-Source Observability Platform",
+      "description": "SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one place. It is a practical fit when you…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "vitepress-documentation-site-generator",
       "name": "VitePress Documentation Site Generator",

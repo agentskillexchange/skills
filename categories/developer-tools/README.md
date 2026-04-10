@@ -265,6 +265,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
 | [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
+| [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | — | — |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | — | — |
