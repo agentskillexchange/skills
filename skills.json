@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1866,
+  "total": 1869,
   "generated": "2026-04-10",
   "skills": [
+    {
+      "slug": "extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser",
+      "name": "Extract translation keys from code and maintain locale catalogs with i18next-parser",
+      "description": "Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files as part of localization maintenance. This…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 556
+      }
+    },
+    {
+      "slug": "repair-malformed-json-before-parsing-downstream-automations-jsonrepair",
+      "name": "Repair malformed JSON before parsing downstream automations with jsonrepair",
+      "description": "Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as trailing commas, missing quotes, or concatenated…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2296
+      }
+    },
+    {
+      "slug": "convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth",
+      "name": "Convert DOCX documents into clean HTML for publishing workflows with Mammoth",
+      "description": "Use Mammoth when an agent needs to turn a .docx file into simple HTML that preserves semantic structure instead of Word-specific styling. This is…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6163
+      }
+    },
     {
       "slug": "render-git-diffs-as-shareable-html-review-reports-diff2html",
       "name": "Render git diffs as shareable HTML review reports with Diff2Html",
