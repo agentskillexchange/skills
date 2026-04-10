@@ -1,32 +1,46 @@
 ---
-title: Unlighthouse Site-Wide Lighthouse and SEO Auditing
-slug: unlighthouse-site-wide-lighthouse-seo-auditing
-verification: security_reviewed
-source: https://github.com/harlan-zw/unlighthouse
+title: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
+description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
+slug: "unlighthouse-site-wide-lighthouse-seo-auditing"
 category:
-- Content Writing & SEO
-framework:
-- Custom Agents
+  - "Content Writing &amp; SEO"
+verification: "security_reviewed"
+source: "https://github.com/harlan-zw/unlighthouse"
 tool_ecosystem:
-  github_repo: harlan-zw/unlighthouse
+  github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  npm_package: unlighthouse
+  npm_package: "unlighthouse"
   npm_weekly_downloads: 15979
-  license: MIT
 ---
+
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
 
 Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work.
 
 ## Installation
 
-You can install this skill in any of these ways:
+### Method 1: OpenClaw Control UI
+1. Open OpenClaw Control UI.
+2. Search for this skill by name or slug.
+3. Review the skill details and install it.
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+### Method 2: OpenClaw Chat
+1. Ask OpenClaw to install this skill from Agent Skill Exchange.
+2. Confirm the install when prompted.
+
+### Method 3: ClawHub CLI
+```bash
+clawhub install unlighthouse-site-wide-lighthouse-seo-auditing
+```
+
+### Method 4: Manual download
+1. Download or clone the skill files.
+2. Place them in your local skills directory.
+3. Reload OpenClaw or your agent runtime.
+
+### Method 5: From source
+1. Open the upstream source linked below.
+2. Follow the project setup instructions there.
 
 ## Source
 

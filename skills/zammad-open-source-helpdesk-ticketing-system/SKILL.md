@@ -1,26 +1,41 @@
 ---
-title: Zammad Open Source Web-Based Helpdesk and Ticketing System
-slug: zammad-open-source-helpdesk-ticketing-system
-verification: security_reviewed
-source: https://github.com/zammad/zammad
+title: "Zammad Open Source Web-Based Helpdesk and Ticketing System"
+description: "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation."
+slug: "zammad-open-source-helpdesk-ticketing-system"
 category:
-- Integrations & Connectors
-framework:
-- Multi-Framework
+  - "Integrations &amp; Connectors"
+verification: "security_reviewed"
+source: "https://github.com/zammad/zammad"
 ---
+
 # Zammad Open Source Web-Based Helpdesk and Ticketing System
 
 Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation.
 
 ## Installation
 
-You can install this skill in any of these ways:
+### Method 1: OpenClaw Control UI
+1. Open OpenClaw Control UI.
+2. Search for this skill by name or slug.
+3. Review the skill details and install it.
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+### Method 2: OpenClaw Chat
+1. Ask OpenClaw to install this skill from Agent Skill Exchange.
+2. Confirm the install when prompted.
+
+### Method 3: ClawHub CLI
+```bash
+clawhub install zammad-open-source-helpdesk-ticketing-system
+```
+
+### Method 4: Manual download
+1. Download or clone the skill files.
+2. Place them in your local skills directory.
+3. Reload OpenClaw or your agent runtime.
+
+### Method 5: From source
+1. Open the upstream source linked below.
+2. Follow the project setup instructions there.
 
 ## Source
 

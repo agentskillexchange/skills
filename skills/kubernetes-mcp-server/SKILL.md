@@ -1,29 +1,44 @@
 ---
-title: Kubernetes MCP Server
-slug: kubernetes-mcp-server
-verification: security_reviewed
-source: https://github.com/kubernetes/kubernetes
+title: "Kubernetes MCP Server"
+description: "Kubernetes MCP Server is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]"
+slug: "kubernetes-mcp-server"
 category:
-- Developer Tools
-framework:
-- MCP
+  - "Developer Tools"
+verification: "security_reviewed"
+source: "https://github.com/kubernetes/kubernetes"
 tool_ecosystem:
-  github_repo: kubernetes/kubernetes
+  github_repo: "kubernetes/kubernetes"
   github_stars: 121613
 ---
+
 # Kubernetes MCP Server
 
-Kubernetes MCP Server is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
+Kubernetes MCP Server is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the [&hellip;]
 
 ## Installation
 
-You can install this skill in any of these ways:
+### Method 1: OpenClaw Control UI
+1. Open OpenClaw Control UI.
+2. Search for this skill by name or slug.
+3. Review the skill details and install it.
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+### Method 2: OpenClaw Chat
+1. Ask OpenClaw to install this skill from Agent Skill Exchange.
+2. Confirm the install when prompted.
+
+### Method 3: ClawHub CLI
+```bash
+clawhub install kubernetes-mcp-server
+```
+
+### Method 4: Manual download
+1. Download or clone the skill files.
+2. Place them in your local skills directory.
+3. Reload OpenClaw or your agent runtime.
+
+### Method 5: From source
+1. Open the upstream source linked below.
+2. Follow the project setup instructions there.
 
 ## Source
 

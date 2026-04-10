@@ -1,29 +1,44 @@
 ---
-title: Prometheus / Grafana MCP Server
-slug: prometheus-grafana-mcp-server
-verification: security_reviewed
-source: https://github.com/grafana/grafana
+title: "Prometheus / Grafana MCP Server"
+description: "Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images [&hellip;]"
+slug: "prometheus-grafana-mcp-server"
 category:
-- Monitoring & Alerts
-framework:
-- MCP
+  - "Monitoring &amp; Alerts"
+verification: "security_reviewed"
+source: "https://github.com/grafana/grafana"
 tool_ecosystem:
-  github_repo: grafana/grafana
+  github_repo: "grafana/grafana"
   github_stars: 73081
 ---
+
 # Prometheus / Grafana MCP Server
 
-Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images […]
+Prometheus / Grafana MCP Server is built around Grafana visualization and alerting platform. The underlying ecosystem is represented by grafana/grafana (72,784+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like dashboards API, panels, Loki/Prometheus datasources, alerting, rendered images [&hellip;]
 
 ## Installation
 
-You can install this skill in any of these ways:
+### Method 1: OpenClaw Control UI
+1. Open OpenClaw Control UI.
+2. Search for this skill by name or slug.
+3. Review the skill details and install it.
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+### Method 2: OpenClaw Chat
+1. Ask OpenClaw to install this skill from Agent Skill Exchange.
+2. Confirm the install when prompted.
+
+### Method 3: ClawHub CLI
+```bash
+clawhub install prometheus-grafana-mcp-server
+```
+
+### Method 4: Manual download
+1. Download or clone the skill files.
+2. Place them in your local skills directory.
+3. Reload OpenClaw or your agent runtime.
+
+### Method 5: From source
+1. Open the upstream source linked below.
+2. Follow the project setup instructions there.
 
 ## Source
 
