@@ -19,6 +19,14 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 ---
 
+## 📦 Top Downloaded
+
+| Skill | Downloads |
+|---|---:|
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 206.8k/wk |
+
+---
+
 ## Full Skill List
 
 | Skill | Stars | Downloads |
@@ -59,7 +67,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
-| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 145 | — |
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 145 | 206.8k/wk |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |

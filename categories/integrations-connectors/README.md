@@ -10,7 +10,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⭐ 62.6k |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | ⭐ 60.6k |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | ⭐ 56.4k |
-| [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | ⭐ 55.6k |
+| [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | ⭐ 55.7k |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | ⭐ 41.8k |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⭐ 38.7k |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | ⭐ 32.6k |
@@ -24,13 +24,13 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Downloads |
 |---|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 526/wk |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 486/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 5.8k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 14.8k/wk |
 | [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 8.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 2M/wk |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | ⬇ 3.4M/wk |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⬇ 838.5k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | ⬇ 839k/wk |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | ⬇ 33k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | ⬇ 311.1k/wk |
 
@@ -41,12 +41,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 526/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 486/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
-| [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | 55.6k | — |
+| [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | 55.7k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.2k/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 5.8k/wk |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | — |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
@@ -76,7 +76,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 3.4M/wk |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 838.5k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 839k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 33k/wk |

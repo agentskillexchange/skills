@@ -14,7 +14,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | ⭐ 13.8k |
-| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | ⭐ 9.8k |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | ⭐ 10k |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⭐ 8.4k |
 
 ---
@@ -42,7 +42,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
-| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 9.8k | — |
+| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |

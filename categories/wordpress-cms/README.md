@@ -24,13 +24,14 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | Skill | Downloads |
 |---|---:|
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | ⬇ 147.4k/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⬇ 313.1k/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | ⬇ 306.5k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⬇ 20.1k/wk |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⬇ 1.9k/wk |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 90.3k/wk |
-| [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | ⬇ 403.2k/wk |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | ⬇ 94.3k/wk |
+| [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | ⬇ 404.8k/wk |
 | [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | ⬇ 2.4k/wk |
-| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | ⬇ 655.1k/wk |
+| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | ⬇ 658.8k/wk |
+| [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | ⬇ 2.5k/wk |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | ⬇ 46.8k/wk |
 
 ---
@@ -41,7 +42,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 |---|---:|---:|
 | [Hugo Fast Static Site Generator and CMS Framework](../../skills/hugo-static-site-generator-cms-framework/) | 87.4k | — |
 | [Strapi Open Source Headless CMS with REST and GraphQL APIs](../../skills/strapi-headless-cms-rest-graphql/) | 71.7k | 147.4k/wk |
-| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 41.6k | 313.1k/wk |
+| [Payload CMS Next.js-Native Headless CMS and Application Framework](../../skills/payload-cms-nextjs-headless-framework/) | 41.6k | 306.5k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 20.1k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
@@ -49,13 +50,13 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Router](../../skills/wordpress-router/) | 21k | — |
 | [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 1.9k/wk |
-| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 90.3k/wk |
+| [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 94.3k/wk |
 | [Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS](../../skills/sage-wordpress-starter-theme-laravel-blade/) | 13.2k | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | 10.2k | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | 10.2k | — |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | 9.5k | — |
 | [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | 6.5k | — |
-| [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 403.2k/wk |
+| [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 404.8k/wk |
 | [WP-CLI WordPress Command Line Interface](../../skills/wp-cli-wordpress-command-line-interface/) | 5.1k | — |
 | [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
@@ -77,10 +78,10 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress MCP Adapter Model Context Protocol Bridge](../../skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | 792 | — |
 | [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | 634 | — |
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 338 | — |
-| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 655.1k/wk |
+| [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 658.8k/wk |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
-| [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | — |
+| [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | 2.5k/wk |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.8k/wk |
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
