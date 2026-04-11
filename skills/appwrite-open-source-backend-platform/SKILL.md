@@ -1,30 +1,30 @@
 ---
-title: Appwrite Open-Source Backend Platform
-description: Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
-slug: appwrite-open-source-backend-platform
+title: "Appwrite Open-Source Backend Platform"
+description: "Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow."
 verification: security_reviewed
-source: https://github.com/appwrite/appwrite
+source: "https://github.com/appwrite/appwrite"
 category:
-- Integrations &amp; Connectors
+  - "Integrations & Connectors"
 framework:
-- Multi-Framework
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: appwrite/appwrite
+  github_repo: "appwrite/appwrite"
   github_stars: 55653
 ---
+
 # Appwrite Open-Source Backend Platform
 
 Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
 
 ## Installation
 
-You can install this skill in any of these ways:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

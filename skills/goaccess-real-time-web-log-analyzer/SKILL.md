@@ -1,30 +1,30 @@
 ---
-title: GoAccess Real-Time Web Log Analyzer and Terminal Dashboard
-description: GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3, and other log formats with minimal configuration, providing instant traffic insights for system administrators and DevOps engineers.
-slug: goaccess-real-time-web-log-analyzer
+title: "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard"
+description: "GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3, and other log formats with minimal configuration, providing instant traffic insights for system administrators and DevOps engineers."
 verification: security_reviewed
-source: https://github.com/allinurl/goaccess
+source: "https://github.com/allinurl/goaccess"
 category:
-- Monitoring &amp; Alerts
+  - "Monitoring & Alerts"
 framework:
-- Custom Agents
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: allinurl/goaccess
+  github_repo: "allinurl/goaccess"
   github_stars: 20377
 ---
+
 # GoAccess Real-Time Web Log Analyzer and Terminal Dashboard
 
 GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3, and other log formats with minimal configuration, providing instant traffic insights for system administrators and DevOps engineers.
 
 ## Installation
 
-You can install this skill in any of these ways:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
