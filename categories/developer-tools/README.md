@@ -74,6 +74,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.8k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
+| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.5k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 157k/wk |
@@ -171,6 +172,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
+| [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.4k | — |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.8k | — |
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | — |
@@ -213,6 +215,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
+| [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 906 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
@@ -252,7 +255,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | — | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | — | — |
-| [LlamaIndex Agent](../../skills/llamaindex-agent/) | — | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
@@ -276,7 +278,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | — | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
-| [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | — | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |

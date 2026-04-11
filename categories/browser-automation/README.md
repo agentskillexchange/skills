@@ -62,11 +62,13 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 186.9k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.5M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | — |
+| [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.6k | — |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 58k/wk |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
 | [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | 6.8k | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 204.8k/wk |
+| [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.3k | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 778.6k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |

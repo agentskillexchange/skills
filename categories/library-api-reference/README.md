@@ -45,6 +45,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 3.7M/wk |
@@ -105,7 +106,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | — | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | — | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |

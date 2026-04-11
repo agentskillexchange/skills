@@ -6,6 +6,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars |
 |---|---:|
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | ⭐ 24.9k |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⭐ 20.5k |
@@ -14,8 +16,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⭐ 17.8k |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | ⭐ 14.7k |
-| [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | ⭐ 14.2k |
 
 ---
 
@@ -36,6 +36,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4M/wk |
@@ -46,6 +48,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
+| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.7k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
@@ -99,14 +102,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | — | — |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
-| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | — | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
-| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
@@ -138,7 +139,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | — | — |
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | — | — |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | — | — |
-| [Storybook Component Tester](../../skills/storybook-component-tester/) | — | — |
 
 ---
 

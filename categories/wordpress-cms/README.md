@@ -80,6 +80,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 338 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 658.8k/wk |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
+| [WP Abilities API](../../skills/wp-abilities-api/) | 198 | — |
 | [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 197 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | 2.5k/wk |
@@ -126,7 +127,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | — | — |
 | [WordPress Scripts Build and Block Toolchain](../../skills/wordpress-scripts-build-and-block-toolchain/) | — | — |
 | [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | — | — |
-| [WP Abilities API](../../skills/wp-abilities-api/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |

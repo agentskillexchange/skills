@@ -9,13 +9,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.3k |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.3k |
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
 | [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | ⭐ 57.5k |
 | [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | ⭐ 57.5k |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⭐ 56.9k |
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⭐ 46.8k |
 
 ---
 
@@ -36,6 +36,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.3k | — |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.3k | — |
+| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
@@ -43,10 +44,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.5k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 11/wk |
+| [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 45k | — |
+| [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
+| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.3k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 190.7k/wk |
@@ -91,16 +95,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
-| [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | — | — |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | — | — |
-| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | — | — |
 | [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | — | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | — | — |
-| [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | — | — |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |
@@ -123,7 +124,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | — | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | — | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | — | — |
-| [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | — | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | — | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C876-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C879-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C828-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,876 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,879 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -55,11 +55,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.4k | Media & Transcription |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
+| [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.7k | Code Quality & Review |
 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
 | [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | servers | 83.3k | Data Extraction & Transformation |
 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | uv | 82.4k | Developer Tools |
-| [ElasticSearch Cluster Vitals Agent](skills/elasticsearch-cluster-vitals-agent/) | elasticsearch | 76.5k | Monitoring & Alerts |
 
 ---
 
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 252 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 253 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 153 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 134 | ETL pipelines, parsing, format conversion |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 125 | Vulnerability scanning, auth setup, compliance |
@@ -77,7 +77,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 105 | Email automation, calendar management, task coordination |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 103 | Linting, code review, test generators, coverage |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 95 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 89 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 91 | Web scraping, UI testing, headless browser control |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 87 | Third-party API bridges, webhooks, service connectors |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 86 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 83 | Audio/video processing, speech-to-text |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,876 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,879 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,828 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

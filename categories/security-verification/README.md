@@ -42,10 +42,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
 | [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
+| [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
 | [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 12k | — |
+| [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | 11.6k | — |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
@@ -53,6 +55,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
+| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
@@ -77,7 +80,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
-| [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
@@ -108,7 +110,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
-| [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | — | — |
 | [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | — | — |
 | [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | — | — |
 | [OWASP ZAP API Security Auditor](../../skills/owasp-zap-api-security-auditor/) | — | — |
@@ -117,7 +118,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | — | — |
 | [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | — | — |
 | [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | — | — |
-| [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | — | — |
 | [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | — | — |
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | — | — |
 | [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | — | — |
