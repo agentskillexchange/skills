@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1872 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-11 01:39 UTC
+> **1876 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-11 03:41 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -268,7 +268,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (151 skills)
+### 🔧 CI/CD Integrations (153 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -286,6 +286,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Gate pull requests on OpenAPI breaking changes](skills/gate-pull-requests-on-openapi-breaking-changes/) | Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to… | Published | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It… | Security Reviewed | 1.1k | — |
 | [Jenkins Declarative Pipeline Generator](skills/jenkins-declarative-pipeline-generator-2/) | Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library… | Security Reviewed | 564 | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Published | 561 | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](skills/investigate-failing-github-actions-runs-with-ci-doctor/) | Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and… | Published | 561 | — |
 | [Argo Workflows Deployer](skills/argo-workflows-deployer/) | Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller.… | Security Reviewed | — | — |
 | [Argo Workflows Linter](skills/argo-workflows-linter/) | Lints and validates Argo Workflows templates using the argo CLI and Argo Server REST API. Detects DAG dependency… | Security Reviewed | — | — |
 | [ArgoCD Application Deployer](skills/argocd-application-deployer/) | Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies,… | Security Reviewed | — | — |
@@ -1772,6 +1774,93 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
+### 📄 Templates & Workflows (79 skills)
+
+Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
+
+| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
+|---|---|---|---:|---:|
+| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
+| [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Published | 114.7k | — |
+| [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Published | 114.7k | — |
+| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
+| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | 33.1k | — |
+| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | 28.5k | — |
+| [Kestra Event-Driven Orchestration and Scheduling Platform](skills/kestra-event-driven-orchestration-scheduling-platform/) | Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows… | Security Reviewed | 26.7k | — |
+| [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Security Reviewed | 25.7k | — |
+| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25k | — |
+| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | 24.8k | — |
+| [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
+| [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
+| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | 16.6k | — |
+| [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | 16.1k | — |
+| [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
+| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.3M/wk |
+| [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Published | 6.4k | — |
+| [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Published | 4.3k | — |
+| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 343.3k/wk |
+| [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Published | 556 | — |
+| [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
+| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |
+| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | — | — |
+| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | — | — |
+| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
+| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
+| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
+| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
+| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
+| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
+| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | — | — |
+| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
+| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
+| [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | — | — |
+| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | — | — |
+| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
+| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | — | — |
+| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | — | — |
+| [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | — | — |
+| [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
+| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
+| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
+| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
+| [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
+| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
+| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
+| [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | — | — |
+| [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
+| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json… | Security Reviewed | — | — |
+| [Packer Image Builder](skills/packer-image-builder/) | Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | — | — |
+| [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | — | — |
+| [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | — | — |
+| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
+| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep… | Security Reviewed | — | — |
+| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | — | — |
+| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs… | Security Reviewed | — | — |
+| [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
+| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | — | — |
+| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | — | — |
+| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via… | Security Reviewed | — | — |
+| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | — | — |
+| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | — | — |
+| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
+| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
+| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module… | Security Reviewed | — | — |
+| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
+| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
+| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
+
+
 ### 🎨 Image & Creative Automation (79 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
@@ -1857,91 +1946,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Stable Diffusion XL Pipeline](skills/stable-diffusion-xl-pipeline/) | Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style… | Security Reviewed | — | — |
 | [Stable Diffusion XL Pipeline Builder](skills/stable-diffusion-xl-pipeline-builder/) | Constructs and executes SDXL image generation pipelines using diffusers library and ComfyUI API. Supports LoRA… | Security Reviewed | — | — |
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
-
-
-### 📄 Templates & Workflows (77 skills)
-
-Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
-
-| Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
-|---|---|---|---:|---:|
-| [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
-| [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
-| [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | 33.1k | — |
-| [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | 28.5k | — |
-| [Kestra Event-Driven Orchestration and Scheduling Platform](skills/kestra-event-driven-orchestration-scheduling-platform/) | Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows… | Security Reviewed | 26.7k | — |
-| [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Security Reviewed | 25.7k | — |
-| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25k | — |
-| [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | 24.8k | — |
-| [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
-| [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
-| [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | 16.6k | — |
-| [Windmill Open-Source Workflow Engine and Developer Platform](skills/windmill-workflow-engine-developer-platform/) | Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to… | Security Reviewed | 16.1k | — |
-| [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
-| [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.3M/wk |
-| [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Published | 6.4k | — |
-| [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Published | 4.3k | — |
-| [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 343.3k/wk |
-| [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Published | 556 | — |
-| [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
-| [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |
-| [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | — | — |
-| [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | — | — |
-| [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
-| [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
-| [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
-| [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
-| [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
-| [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffold](skills/cookiecutter-project-scaffold/) | Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffold Generator](skills/cookiecutter-project-scaffold-generator/) | Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffolder](skills/cookiecutter-project-scaffolder-3/) | Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks.… | Security Reviewed | — | — |
-| [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | — | — |
-| [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
-| [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
-| [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
-| [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | — | — |
-| [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | — | — |
-| [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
-| [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | — | — |
-| [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | — | — |
-| [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | — | — |
-| [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
-| [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
-| [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
-| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
-| [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
-| [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
-| [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
-| [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | — | — |
-| [Nx Workspace Generator](skills/nx-workspace-generator/) | Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries,… | Security Reviewed | — | — |
-| [Nx Workspace Generator Toolkit](skills/nx-workspace-generator-toolkit/) | Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json… | Security Reviewed | — | — |
-| [Packer Image Builder](skills/packer-image-builder/) | Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | — | — |
-| [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | — | — |
-| [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | — | — |
-| [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | — | — |
-| [Semgrep Custom Rule Runner](skills/semgrep-custom-rule-runner-2/) | Executes Semgrep OSS with custom YAML rule files for project-specific static analysis patterns. Supports semgrep… | Security Reviewed | — | — |
-| [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | — | — |
-| [Swagger Codegen Orchestrator](skills/swagger-codegen-orchestrator/) | Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs… | Security Reviewed | — | — |
-| [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | — | — |
-| [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | — | — |
-| [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | — | — |
-| [Terraform Module Template Engine](skills/terraform-module-template-engine/) | Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via… | Security Reviewed | — | — |
-| [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | — | — |
-| [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | — | — |
-| [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | — | — |
-| [Vercel Deployment Agent](skills/vercel-deployment-agent/) | Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
-| [Yeoman Enterprise Generator Suite](skills/yeoman-enterprise-generator-suite/) | Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module… | Security Reviewed | — | — |
-| [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Security Reviewed | — | — |
-| [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Security Reviewed | — | — |
-| [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
 ### ✍️ Content Writing & SEO (65 skills)

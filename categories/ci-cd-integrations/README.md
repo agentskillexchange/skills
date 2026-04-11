@@ -43,6 +43,8 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 561 | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 561 | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
 | [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | — | — |

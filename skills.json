@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 1872,
+  "total": 1876,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "draft-internal-status-updates-and-incident-comms-2",
+      "name": "Draft internal status updates and incident comms",
+      "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 114695
+      }
+    },
+    {
+      "slug": "investigate-failing-github-actions-runs-with-ci-doctor-2",
+      "name": "Investigate failing GitHub Actions runs with CI Doctor",
+      "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 561
+      }
+    },
+    {
+      "slug": "draft-internal-status-updates-and-incident-comms",
+      "name": "Draft internal status updates and incident comms",
+      "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 114695
+      }
+    },
+    {
+      "slug": "investigate-failing-github-actions-runs-with-ci-doctor",
+      "name": "Investigate failing GitHub Actions runs with CI Doctor",
+      "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 561
+      }
+    },
     {
       "slug": "turn-github-issues-into-fix-prs",
       "name": "Turn GitHub Issues into Fix PRs",

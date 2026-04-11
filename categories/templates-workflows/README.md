@@ -7,6 +7,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 114.7k |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 114.7k |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | ⭐ 33.1k |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⭐ 28.5k |
@@ -14,8 +16,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⭐ 25.7k |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⭐ 25k |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | ⭐ 24.8k |
-| [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | ⭐ 22.1k |
-| [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | ⭐ 19.4k |
 
 ---
 
@@ -33,6 +33,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 114.7k | — |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 114.7k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
