@@ -284,6 +284,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
+| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |

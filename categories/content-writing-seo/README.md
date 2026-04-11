@@ -61,6 +61,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 522.5k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
+| [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 44 | — |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |

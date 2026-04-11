@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1869 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-10 23:42 UTC
+> **1872 published skills** across **17 categories** · 1828 security reviewed · Updated 2026-04-11 01:39 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (251 skills)
+### 🛠️ Developer Tools (252 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -258,6 +258,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Security Reviewed | — | — |
 | [Terraform Module Scaffolder](skills/terraform-module-scaffolder-hcl-sdk/) | Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction.… | Security Reviewed | — | — |
+| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Published | — | — |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Security Reviewed | — | — |
 | [Verdaccio Lightweight Private npm Proxy Registry](skills/verdaccio-private-npm-proxy-registry/) | Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts… | Security Reviewed | — | — |
 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws… | Security Reviewed | — | — |
@@ -1771,7 +1772,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (78 skills)
+### 🎨 Image & Creative Automation (79 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1797,6 +1798,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Chafa Terminal Image and Graphics Renderer](skills/chafa-terminal-image-graphics-renderer/) | Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics… | Security Reviewed | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](skills/mermaid-cli-diagram-as-code-renderer/) | Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram… | Security Reviewed | 4.3k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
+| [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Published | 1.2k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | 917 | — |
 | [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
@@ -1942,7 +1944,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (64 skills)
+### ✍️ Content Writing & SEO (65 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1972,6 +1974,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](skills/markdownlint-cli2-markdown-linting-docs-repos/) | This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content… | Security Reviewed | 740 | 522.5k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
+| [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Published | 44 | — |
 | [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls… | Security Reviewed | — | — |
 | [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor… | Security Reviewed | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords… | Security Reviewed | — | — |
