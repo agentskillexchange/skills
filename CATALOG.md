@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1885 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 11:42 UTC
+> **1888 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 15:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1073,7 +1073,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (106 skills)
+### ✅ Code Quality & Review (108 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1100,11 +1100,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 160.2k/wk |
+| [Prevent broken GitHub Actions workflows before CI runs with actionlint](skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The… | Published | 3.8k | — |
 | [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or… | Security Reviewed | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
+| [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Published | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](skills/publint-package-export-validation-skill-npm-release-checks/) | Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and… | Security Reviewed | 1.3k | 581.9k/wk |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Published | 1.2k | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Published | 910 | — |
@@ -1783,7 +1785,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (79 skills)
+### 📄 Templates & Workflows (80 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1813,6 +1815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 343.3k/wk |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Security Reviewed | 556 | — |
+| [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Published | 159 | — |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | — | — |
 | [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | — | — |

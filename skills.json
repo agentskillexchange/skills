@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1885,
+  "total": 1888,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6",
+      "name": "Convert browser HAR captures into reusable k6 load tests with har-to-k6",
+      "description": "Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of hand-writing one from…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 159
+      }
+    },
+    {
+      "slug": "review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit",
+      "name": "Review visual regression diffs and publish snapshot baselines in CI with reg-suit",
+      "description": "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1260
+      }
+    },
+    {
+      "slug": "prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint",
+      "name": "Prevent broken GitHub Actions workflows before CI runs with actionlint",
+      "description": "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions,…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3779
+      }
+    },
     {
       "slug": "record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py",
       "name": "Record and replay HTTP fixtures for deterministic Python tests with VCR.py",

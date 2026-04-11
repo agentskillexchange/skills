@@ -56,6 +56,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 343.3k/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
+| [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | — | — |
