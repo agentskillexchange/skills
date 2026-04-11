@@ -7,6 +7,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars |
 |---|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | ⭐ 121.4k |
+| [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | ⭐ 11.9k |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 60 |
 
@@ -17,6 +18,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | — |
+| [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 60 | — |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | — | — |

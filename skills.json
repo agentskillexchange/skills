@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 1883,
+  "total": 1885,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py",
+      "name": "Record and replay HTTP fixtures for deterministic Python tests with VCR.py",
+      "description": "Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2956
+      }
+    },
+    {
+      "slug": "simulate-network-failures-in-integration-tests-with-toxiproxy",
+      "name": "Simulate network failures in integration tests with Toxiproxy",
+      "description": "Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes into real service calls during development, CI, or…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11934
+      }
+    },
     {
       "slug": "broken-link-verification-static-sites-documentation",
       "name": "Broken Link Verification for Static Sites and Documentation",
