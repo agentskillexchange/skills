@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1891,
+  "total": 1894,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs",
+      "name": "Fix failing pull requests by analyzing CI errors and pushing targeted repairs",
+      "description": "Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "update-repository-docs-automatically-after-code-changes-and-open-review-prs",
+      "name": "Update repository docs automatically after code changes and open review PRs",
+      "description": "Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "co-author-structured-docs-with-staged-context-gathering-and-reader-testing",
+      "name": "Co-author structured docs with staged context gathering and reader testing",
+      "description": "Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness",
       "name": "Generate reproducible algorithmic art sketches with seeded p5.js randomness",

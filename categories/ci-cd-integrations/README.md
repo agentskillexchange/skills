@@ -184,6 +184,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | — | — |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | — | — |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | — | — |
+| [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | — | — |
 
 ---
 

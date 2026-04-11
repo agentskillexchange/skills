@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1891 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 17:25 UTC
+> **1894 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 19:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -269,7 +269,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (153 skills)
+### 🔧 CI/CD Integrations (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -428,6 +428,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Reviewer Agent](skills/terraform-plan-reviewer-agent/) | Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure… | Security Reviewed | — | — |
 | [Terraform Plan Validator](skills/terraform-plan-validator/) | Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes… | Security Reviewed | — | — |
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
+| [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Published | — | — |
 
 
 ### 🔄 Data Extraction & Transformation (136 skills)
@@ -707,7 +708,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (119 skills)
+### 📋 Runbooks & Diagnostics (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -755,6 +756,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Docker Container Health Check Runbook](skills/docker-container-health-check-runbook/) | Runs systematic health diagnostics on Docker containers using docker inspect, docker stats, and the Docker Engine… | Security Reviewed | — | — |
 | [Docker Container Health Inspector](skills/docker-container-health-inspector/) | Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats… | Security Reviewed | — | — |
 | [Dockerfile Security Hardening Advisor](skills/dockerfile-security-hardening-advisor/) | Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening… | Security Reviewed | — | — |
+| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Published | — | — |
 | [Incident Postmortem Generator](skills/incident-postmortem-generator/) | Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history,… | Security Reviewed | — | — |
 | [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API.… | Security Reviewed | — | — |
 | [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for… | Security Reviewed | — | — |
@@ -1786,7 +1788,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (81 skills)
+### 📄 Templates & Workflows (82 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1824,6 +1826,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | — | — |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
+| [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Published | — | — |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | — | — |
 | [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | — | — |
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | — | — |

@@ -59,6 +59,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Docker Container Health Check Runbook](../../skills/docker-container-health-check-runbook/) | — | — |
 | [Docker Container Health Inspector](../../skills/docker-container-health-inspector/) | — | — |
 | [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | — | — |
+| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | — | — |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | — | — |
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |

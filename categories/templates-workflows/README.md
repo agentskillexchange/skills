@@ -64,6 +64,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | — | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
+| [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | — | — |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | — | — |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | — | — |
