@@ -5,7 +5,7 @@ slug: stable-diffusion-xl-lora-trainer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Custom Agents
 ---

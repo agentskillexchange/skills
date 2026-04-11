@@ -9,7 +9,7 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Textualize/textual
+  github_repo: textualize/textual
   github_stars: 35301
 ---
 # Textual Python TUI Application Framework by Textualize

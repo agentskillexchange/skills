@@ -5,7 +5,7 @@ slug: tabula-pdf-table-extraction-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 ---

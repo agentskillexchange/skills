@@ -5,7 +5,7 @@ slug: strapi-open-source-headless-cms-custom-content-apis
 verification: security_reviewed
 source: https://github.com/strapi/strapi
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

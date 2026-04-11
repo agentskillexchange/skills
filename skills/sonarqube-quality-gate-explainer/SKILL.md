@@ -5,7 +5,7 @@ slug: sonarqube-quality-gate-explainer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Claude Code
 ---

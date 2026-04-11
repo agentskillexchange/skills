@@ -5,7 +5,7 @@ slug: todoist-project-automator-api-v2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/todoist-project-automator-api-v2/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Gemini
 ---

@@ -8,6 +8,9 @@ category:
 - Developer Tools
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: kevin1024/vcrpy
+  github_stars: 2956
 ---
 # Record and replay HTTP fixtures for deterministic Python tests with VCR.py
 

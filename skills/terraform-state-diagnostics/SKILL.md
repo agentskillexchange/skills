@@ -5,7 +5,7 @@ slug: terraform-state-diagnostics
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-state-diagnostics/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

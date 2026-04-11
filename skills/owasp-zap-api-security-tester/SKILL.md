@@ -5,7 +5,7 @@ slug: owasp-zap-api-security-tester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-api-security-tester/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Codex
 ---

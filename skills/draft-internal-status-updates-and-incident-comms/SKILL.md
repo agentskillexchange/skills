@@ -5,7 +5,7 @@ slug: draft-internal-status-updates-and-incident-comms
 verification: security_reviewed
 source: https://github.com/anthropics/skills/tree/main/skills/internal-comms
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Agents
 tool_ecosystem:

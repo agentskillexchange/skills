@@ -5,7 +5,7 @@ slug: dbt-model-lineage-test-coverage-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Cursor
 ---

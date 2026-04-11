@@ -5,7 +5,7 @@ slug: protobuf-schema-generator-from-json
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/protobuf-schema-generator-from-json/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Gemini
 ---

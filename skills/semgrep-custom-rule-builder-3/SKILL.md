@@ -5,7 +5,7 @@ slug: semgrep-custom-rule-builder-3
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - MCP
 ---

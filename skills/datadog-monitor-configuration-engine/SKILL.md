@@ -5,7 +5,7 @@ slug: datadog-monitor-configuration-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitor-configuration-engine/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - ChatGPT Agents
 ---

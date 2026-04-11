@@ -5,7 +5,7 @@ slug: graphql-schema-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-analyzer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - ChatGPT Agents
 ---

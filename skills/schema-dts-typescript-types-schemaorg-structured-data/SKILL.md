@@ -5,13 +5,13 @@ slug: schema-dts-typescript-types-schemaorg-structured-data
 verification: security_reviewed
 source: https://github.com/google/schema-dts
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: google/schema-dts
   github_stars: 1164
-  ase_npm_package: schema-dts
+  npm_package: schema-dts
   npm_weekly_downloads: 1502234
 ---
 # schema-dts TypeScript Types for Schema.org Structured Data

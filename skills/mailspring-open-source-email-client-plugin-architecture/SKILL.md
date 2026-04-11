@@ -5,11 +5,11 @@ slug: mailspring-open-source-email-client-plugin-architecture
 verification: security_reviewed
 source: https://github.com/Foundry376/Mailspring
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: Foundry376/Mailspring
+  github_repo: foundry376/mailspring
   github_stars: 17366
 ---
 # Mailspring Open Source Email Client with Plugin Architecture

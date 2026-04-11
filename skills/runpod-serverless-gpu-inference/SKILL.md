@@ -5,7 +5,7 @@ slug: runpod-serverless-gpu-inference
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Claude Agents
 ---

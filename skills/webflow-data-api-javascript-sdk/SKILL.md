@@ -5,7 +5,7 @@ slug: webflow-data-api-javascript-sdk
 verification: security_reviewed
 source: https://github.com/webflow/js-webflow-api
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

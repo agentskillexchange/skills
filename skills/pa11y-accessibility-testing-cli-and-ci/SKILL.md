@@ -11,7 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: pa11y/pa11y
   github_stars: 4418
-  ase_npm_package: pa11y
+  npm_package: pa11y
   npm_weekly_downloads: 221153
 ---
 # Pa11y Accessibility Testing CLI and CI

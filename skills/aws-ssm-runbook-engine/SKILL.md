@@ -5,7 +5,7 @@ slug: aws-ssm-runbook-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-ssm-runbook-engine/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

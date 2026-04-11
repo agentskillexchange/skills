@@ -5,7 +5,7 @@ slug: sast-rule-compiler-semgrep
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sast-rule-compiler-semgrep/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Codex
 ---

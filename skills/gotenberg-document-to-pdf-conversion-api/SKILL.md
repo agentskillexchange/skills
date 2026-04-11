@@ -5,7 +5,7 @@ slug: gotenberg-document-to-pdf-conversion-api
 verification: security_reviewed
 source: https://github.com/gotenberg/gotenberg
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 ---

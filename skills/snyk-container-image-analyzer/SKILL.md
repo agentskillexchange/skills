@@ -5,7 +5,7 @@ slug: snyk-container-image-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snyk-container-image-analyzer/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Agents
 ---

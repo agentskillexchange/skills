@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: chromedp/chromedp
   github_stars: 12900
+  license: "MIT"
 ---
 # chromedp Go Browser Automation with Chrome DevTools Protocol
 

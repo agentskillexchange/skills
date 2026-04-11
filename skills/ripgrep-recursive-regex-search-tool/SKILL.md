@@ -9,7 +9,7 @@ category:
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: BurntSushi/ripgrep
+  github_repo: burntsushi/ripgrep
   github_stars: 61743
 ---
 # ripgrep Recursive Regex Search Tool

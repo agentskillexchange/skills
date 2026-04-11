@@ -5,7 +5,7 @@ slug: cheerio-dom-scraping-toolkit
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Cursor
 ---

@@ -5,7 +5,7 @@ slug: livekit-realtime-webrtc-server
 verification: security_reviewed
 source: https://github.com/livekit/livekit
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

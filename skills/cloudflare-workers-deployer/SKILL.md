@@ -5,13 +5,12 @@ slug: cloudflare-workers-deployer
 verification: security_reviewed
 source: https://github.com/cloudflare/workers-sdk
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: cloudflare/workers-sdk
   github_stars: 3961
-  ase_npm_package: wrangler
 ---
 # Cloudflare Workers Deployer
 

@@ -5,7 +5,7 @@ slug: trdsql-sql-query-engine-csv-json-yaml-files
 verification: security_reviewed
 source: https://github.com/noborus/trdsql
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

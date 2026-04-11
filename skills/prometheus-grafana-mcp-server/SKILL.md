@@ -5,7 +5,7 @@ slug: prometheus-grafana-mcp-server
 verification: security_reviewed
 source: https://github.com/grafana/grafana
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 tool_ecosystem:

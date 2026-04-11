@@ -5,7 +5,7 @@ slug: stable-diffusion-xl-pipeline-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline-builder/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Cursor
 ---

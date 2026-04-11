@@ -5,7 +5,7 @@ slug: fly-io-deployment-helper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/fly-io-deployment-helper/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 ---

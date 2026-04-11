@@ -5,12 +5,13 @@ slug: apprise-universal-push-notification-library-cli
 verification: security_reviewed
 source: https://github.com/caronc/apprise
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: caronc/apprise
   github_stars: 16227
+  license: "BSD-2-Clause"
 ---
 # Apprise Universal Push Notification Library and CLI
 

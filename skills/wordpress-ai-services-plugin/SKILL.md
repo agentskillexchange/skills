@@ -5,7 +5,7 @@ slug: wordpress-ai-services-plugin
 verification: security_reviewed
 source: https://github.com/felixarntz/ai-services
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

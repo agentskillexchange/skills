@@ -5,7 +5,7 @@ slug: dbt-model-lineage-extractor-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-model-lineage-extractor-2/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Code
 ---

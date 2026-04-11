@@ -5,7 +5,7 @@ slug: terrascan-policy-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terrascan-policy-scanner/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 ---

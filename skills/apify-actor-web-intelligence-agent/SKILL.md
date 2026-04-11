@@ -5,7 +5,7 @@ slug: apify-actor-web-intelligence-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apify-actor-web-intelligence-agent/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Custom Agents
 ---

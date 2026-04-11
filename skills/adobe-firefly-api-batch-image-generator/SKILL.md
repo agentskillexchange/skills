@@ -5,7 +5,7 @@ slug: adobe-firefly-api-batch-image-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/adobe-firefly-api-batch-image-generator/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Cursor
 ---

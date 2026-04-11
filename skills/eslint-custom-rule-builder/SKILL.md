@@ -5,7 +5,7 @@ slug: eslint-custom-rule-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-custom-rule-builder/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Cursor
 ---

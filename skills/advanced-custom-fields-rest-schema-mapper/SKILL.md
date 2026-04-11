@@ -5,7 +5,7 @@ slug: advanced-custom-fields-rest-schema-mapper
 verification: security_reviewed
 source: https://www.advancedcustomfields.com/resources/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Cursor
 ---

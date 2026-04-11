@@ -5,12 +5,13 @@ slug: taskwarrior-command-line-task-management-system
 verification: security_reviewed
 source: https://github.com/GothenburgBitFactory/taskwarrior
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: gothenburgbitfactory/taskwarrior
   github_stars: 5685
+  license: "MIT"
 ---
 # Taskwarrior Command-Line Task Management System
 

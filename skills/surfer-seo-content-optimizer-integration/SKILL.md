@@ -5,7 +5,7 @@ slug: surfer-seo-content-optimizer-integration
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Cursor
 ---

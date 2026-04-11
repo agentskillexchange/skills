@@ -5,11 +5,11 @@ slug: polaris-kubernetes-best-practices-validator
 verification: security_reviewed
 source: https://github.com/FairwindsOps/polaris
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Codex
 tool_ecosystem:
-  github_repo: FairwindsOps/polaris
+  github_repo: fairwindsops/polaris
   github_stars: 3355
 ---
 # Polaris Kubernetes Best Practices Validator

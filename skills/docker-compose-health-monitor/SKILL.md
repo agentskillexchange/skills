@@ -5,7 +5,7 @@ slug: docker-compose-health-monitor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-compose-health-monitor/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - MCP
 ---

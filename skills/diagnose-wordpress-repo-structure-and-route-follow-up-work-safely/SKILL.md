@@ -5,7 +5,7 @@ slug: diagnose-wordpress-repo-structure-and-route-follow-up-work-safely
 verification: security_reviewed
 source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

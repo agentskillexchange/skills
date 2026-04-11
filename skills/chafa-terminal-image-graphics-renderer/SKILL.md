@@ -5,7 +5,7 @@ slug: chafa-terminal-image-graphics-renderer
 verification: security_reviewed
 source: https://github.com/hpjansson/chafa
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:

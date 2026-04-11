@@ -5,7 +5,7 @@ slug: dalle-variation-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dalle-variation-generator/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---

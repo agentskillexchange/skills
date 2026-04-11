@@ -5,7 +5,7 @@ slug: deepgram-realtime-transcription-connector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - MCP
 ---

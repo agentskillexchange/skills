@@ -5,7 +5,7 @@ slug: lottie-animation-optimizer
 verification: security_reviewed
 source: https://github.com/airbnb/lottie-web
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - ChatGPT Agents
 tool_ecosystem:

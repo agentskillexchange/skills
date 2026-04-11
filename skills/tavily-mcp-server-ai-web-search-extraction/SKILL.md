@@ -5,13 +5,13 @@ slug: tavily-mcp-server-ai-web-search-extraction
 verification: security_reviewed
 source: https://github.com/tavily-ai/tavily-mcp
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - MCP
 tool_ecosystem:
   github_repo: tavily-ai/tavily-mcp
   github_stars: 1615
-  ase_npm_package: tavily-mcp
+  npm_package: tavily-mcp
   npm_weekly_downloads: 47930
 ---
 # Tavily MCP Server for AI-Powered Web Search and Extraction

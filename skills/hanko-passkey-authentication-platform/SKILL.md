@@ -5,7 +5,7 @@ slug: hanko-passkey-authentication-platform
 verification: security_reviewed
 source: https://github.com/teamhanko/hanko
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: checkly-browser-check-failure-notifier
 verification: security_reviewed
 source: https://github.com/checkly/checkly-cli
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Claude Code
 tool_ecosystem:

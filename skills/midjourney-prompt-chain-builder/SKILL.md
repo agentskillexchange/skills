@@ -5,7 +5,7 @@ slug: midjourney-prompt-chain-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/midjourney-prompt-chain-builder/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Gemini
 ---

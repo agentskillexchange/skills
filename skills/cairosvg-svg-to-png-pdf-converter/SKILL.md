@@ -5,11 +5,11 @@ slug: cairosvg-svg-to-png-pdf-converter
 verification: security_reviewed
 source: https://github.com/Kozea/CairoSVG
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Kozea/CairoSVG
+  github_repo: kozea/cairosvg
   github_stars: 917
 ---
 # CairoSVG SVG to PNG PDF and PostScript Converter

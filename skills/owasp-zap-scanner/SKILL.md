@@ -5,7 +5,7 @@ slug: owasp-zap-scanner
 verification: security_reviewed
 source: https://github.com/zaproxy/zaproxy
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

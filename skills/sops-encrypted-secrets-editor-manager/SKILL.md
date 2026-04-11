@@ -5,12 +5,13 @@ slug: sops-encrypted-secrets-editor-manager
 verification: security_reviewed
 source: https://github.com/getsops/sops
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: getsops/sops
   github_stars: 21312
+  license: "MPL-2.0"
 ---
 # SOPS Encrypted Secrets Editor and Manager
 

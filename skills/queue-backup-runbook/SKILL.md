@@ -5,7 +5,7 @@ slug: queue-backup-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/queue-backup-runbook/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Custom Agents
 ---

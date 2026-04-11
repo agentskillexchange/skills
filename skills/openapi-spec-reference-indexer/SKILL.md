@@ -5,7 +5,7 @@ slug: openapi-spec-reference-indexer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-reference-indexer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

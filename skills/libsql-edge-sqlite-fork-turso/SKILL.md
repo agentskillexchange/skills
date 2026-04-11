@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: tursodatabase/libsql
   github_stars: 16551
+  license: "MIT"
 ---
 # libSQL Edge-Ready SQLite Fork by Turso
 

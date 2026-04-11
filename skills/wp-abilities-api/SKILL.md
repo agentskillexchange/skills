@@ -5,11 +5,11 @@ slug: wp-abilities-api
 verification: security_reviewed
 source: https://github.com/WordPress/abilities-api
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: WordPress/abilities-api
+  github_repo: wordpress/abilities-api
   github_stars: 198
 ---
 # WP Abilities API

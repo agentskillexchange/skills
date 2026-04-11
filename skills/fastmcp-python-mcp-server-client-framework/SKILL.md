@@ -9,7 +9,7 @@ category:
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: PrefectHQ/fastmcp
+  github_repo: prefecthq/fastmcp
   github_stars: 24192
 ---
 # FastMCP Python MCP Server and Client Framework

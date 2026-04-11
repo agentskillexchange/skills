@@ -5,7 +5,7 @@ slug: sentry-error-triage-assistant
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sentry-error-triage-assistant/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Claude Agents
 ---

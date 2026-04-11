@@ -5,7 +5,7 @@ slug: aws-cloudwatch-alarm-runbook-wave48
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-wave48/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Claude Agents
 ---

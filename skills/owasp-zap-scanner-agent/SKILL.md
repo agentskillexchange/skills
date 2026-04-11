@@ -5,7 +5,7 @@ slug: owasp-zap-scanner-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-scanner-agent/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: prometheus-alert-rule-tester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-rule-tester/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Claude Code
 ---

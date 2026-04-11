@@ -5,7 +5,7 @@ slug: plaid-financial-data-aggregator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/plaid-financial-data-aggregator/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Cursor
 ---

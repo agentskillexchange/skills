@@ -5,13 +5,13 @@ slug: sentry-mcp-server
 verification: security_reviewed
 source: https://github.com/getsentry/sentry-mcp
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
   github_repo: getsentry/sentry-mcp
   github_stars: 626
-  ase_npm_package: @sentry/mcp-server
+  npm_package: @sentry/mcp-server
   npm_weekly_downloads: 41729
 ---
 # Sentry MCP Server

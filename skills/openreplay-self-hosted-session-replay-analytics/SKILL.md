@@ -5,7 +5,7 @@ slug: openreplay-self-hosted-session-replay-analytics
 verification: security_reviewed
 source: https://github.com/openreplay/openreplay
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

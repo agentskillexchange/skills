@@ -5,7 +5,7 @@ slug: teable-no-code-postgres-database-platform
 verification: security_reviewed
 source: https://github.com/teableio/teable
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: openapi-spec-navigator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-navigator/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Cursor
 ---

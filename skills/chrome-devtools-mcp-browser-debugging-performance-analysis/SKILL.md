@@ -9,7 +9,7 @@ category:
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: ChromeDevTools/chrome-devtools-mcp
+  github_repo: chromedevtools/chrome-devtools-mcp
   github_stars: 34010
 ---
 # Chrome DevTools MCP Browser Debugging and Performance Analysis

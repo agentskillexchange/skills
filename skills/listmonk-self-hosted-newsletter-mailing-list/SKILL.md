@@ -5,7 +5,7 @@ slug: listmonk-self-hosted-newsletter-mailing-list
 verification: security_reviewed
 source: https://github.com/knadh/listmonk
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:

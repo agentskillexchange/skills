@@ -5,7 +5,7 @@ slug: assemblyai-realtime-call-intelligence
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Custom Agents
 ---

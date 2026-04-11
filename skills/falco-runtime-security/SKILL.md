@@ -5,7 +5,7 @@ slug: falco-runtime-security
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/falco-runtime-security/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 ---

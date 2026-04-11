@@ -5,7 +5,7 @@ slug: notion-ai-workspace
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-ai-workspace/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 ---

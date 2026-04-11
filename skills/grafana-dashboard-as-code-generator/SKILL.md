@@ -5,7 +5,7 @@ slug: grafana-dashboard-as-code-generator
 verification: security_reviewed
 source: https://github.com/grafana/grafonnet
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Cursor
 tool_ecosystem:

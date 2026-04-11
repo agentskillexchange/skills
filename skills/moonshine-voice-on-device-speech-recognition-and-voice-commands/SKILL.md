@@ -5,7 +5,7 @@ slug: moonshine-voice-on-device-speech-recognition-and-voice-commands
 verification: security_reviewed
 source: https://github.com/moonshine-ai/moonshine
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

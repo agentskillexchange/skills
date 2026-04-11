@@ -5,7 +5,7 @@ slug: serpapi-search-aggregator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/serpapi-search-aggregator/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - OpenClaw
 ---

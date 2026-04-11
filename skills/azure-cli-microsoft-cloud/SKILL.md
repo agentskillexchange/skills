@@ -9,7 +9,7 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Azure/azure-cli
+  github_repo: azure/azure-cli
   github_stars: 4502
 ---
 # Azure CLI — Command-Line Interface for Microsoft Azure

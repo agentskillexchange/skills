@@ -5,7 +5,7 @@ slug: sharp-image-transform-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sharp-image-transform-pipeline/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: saleor-open-source-headless-commerce-graphql-api
 verification: security_reviewed
 source: https://github.com/saleor/saleor
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 ---

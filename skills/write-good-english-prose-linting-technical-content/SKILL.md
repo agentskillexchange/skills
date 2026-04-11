@@ -5,14 +5,15 @@ slug: write-good-english-prose-linting-technical-content
 verification: security_reviewed
 source: https://github.com/btford/write-good
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: btford/write-good
   github_stars: 5065
-  ase_npm_package: write-good
+  npm_package: write-good
   npm_weekly_downloads: 49520
+  license: "MIT"
 ---
 # write-good English Prose Linting for Technical Content
 

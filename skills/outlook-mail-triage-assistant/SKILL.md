@@ -5,7 +5,7 @@ slug: outlook-mail-triage-assistant
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/outlook-mail-triage-assistant/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Claude Code
 ---

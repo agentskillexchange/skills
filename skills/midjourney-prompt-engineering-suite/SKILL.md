@@ -5,7 +5,7 @@ slug: midjourney-prompt-engineering-suite
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/midjourney-prompt-engineering-suite/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---

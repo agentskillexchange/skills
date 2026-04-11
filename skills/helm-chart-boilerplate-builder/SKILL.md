@@ -5,7 +5,7 @@ slug: helm-chart-boilerplate-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 ---

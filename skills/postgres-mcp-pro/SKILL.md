@@ -5,7 +5,7 @@ slug: postgres-mcp-pro
 verification: security_reviewed
 source: https://github.com/crystaldba/postgres-mcp
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

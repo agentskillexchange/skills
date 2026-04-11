@@ -5,13 +5,12 @@ slug: netlify-site-manager
 verification: security_reviewed
 source: https://github.com/netlify/cli
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: netlify/cli
   github_stars: 1841
-  ase_npm_package: netlify-cli
 ---
 # Netlify Site Manager
 

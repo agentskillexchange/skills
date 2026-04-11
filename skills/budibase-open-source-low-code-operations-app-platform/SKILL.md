@@ -9,7 +9,7 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Budibase/budibase
+  github_repo: budibase/budibase
   github_stars: 27811
 ---
 # Budibase Open Source Low-Code Operations App Platform

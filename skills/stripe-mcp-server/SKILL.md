@@ -5,13 +5,13 @@ slug: stripe-mcp-server
 verification: security_reviewed
 source: https://github.com/stripe/stripe-node
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: stripe/stripe-node
   github_stars: 4384
-  ase_npm_package: stripe
+  npm_package: stripe
   npm_weekly_downloads: 8612885
 ---
 # Stripe MCP Server

@@ -5,7 +5,7 @@ slug: shodan-network-reconnaissance-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Code
 ---

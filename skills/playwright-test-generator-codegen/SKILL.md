@@ -5,7 +5,7 @@ slug: playwright-test-generator-codegen
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/playwright-test-generator-codegen/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Cursor
 ---

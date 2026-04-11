@@ -5,7 +5,7 @@ slug: wordpress-scripts-build-and-block-toolchain
 verification: security_reviewed
 source: https://www.npmjs.com/package/@wordpress/scripts
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

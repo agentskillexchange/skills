@@ -5,7 +5,7 @@ slug: jaeger-trace-explorer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jaeger-trace-explorer/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

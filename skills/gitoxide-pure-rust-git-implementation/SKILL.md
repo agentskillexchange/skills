@@ -9,7 +9,7 @@ category:
 framework:
 - Cursor
 tool_ecosystem:
-  github_repo: GitoxideLabs/gitoxide
+  github_repo: gitoxidelabs/gitoxide
   github_stars: 11102
 ---
 # Gitoxide Pure Rust Git Implementation and Library

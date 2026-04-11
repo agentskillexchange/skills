@@ -5,12 +5,13 @@ slug: nb-cli-note-taking-bookmarking-knowledge-base
 verification: security_reviewed
 source: https://github.com/xwmx/nb
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: xwmx/nb
   github_stars: 8088
+  license: "AGPL-3.0"
 ---
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application
 

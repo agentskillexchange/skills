@@ -5,7 +5,7 @@ slug: betterleaks-secrets-scanner
 verification: security_reviewed
 source: https://github.com/betterleaks/betterleaks
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

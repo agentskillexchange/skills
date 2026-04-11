@@ -5,7 +5,7 @@ slug: yeoman-enterprise-generator-suite
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/yeoman-enterprise-generator-suite/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Code
 ---

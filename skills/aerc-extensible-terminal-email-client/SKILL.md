@@ -5,7 +5,7 @@ slug: aerc-extensible-terminal-email-client
 verification: security_reviewed
 source: https://git.sr.ht/~rjarry/aerc
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 ---

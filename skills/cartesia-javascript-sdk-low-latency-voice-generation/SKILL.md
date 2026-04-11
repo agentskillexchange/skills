@@ -5,7 +5,7 @@ slug: cartesia-javascript-sdk-low-latency-voice-generation
 verification: security_reviewed
 source: https://github.com/cartesia-ai/cartesia-js
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 ---

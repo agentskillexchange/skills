@@ -5,7 +5,7 @@ slug: pagerduty-on-call-escalation-checker-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Claude Code
 ---

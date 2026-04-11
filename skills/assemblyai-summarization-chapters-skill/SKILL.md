@@ -5,7 +5,7 @@ slug: assemblyai-summarization-chapters-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Claude Agents
 ---

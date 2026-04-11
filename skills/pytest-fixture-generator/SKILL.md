@@ -5,7 +5,7 @@ slug: pytest-fixture-generator
 verification: security_reviewed
 source: https://github.com/pytest-dev/pytest
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Custom Agents
 tool_ecosystem:

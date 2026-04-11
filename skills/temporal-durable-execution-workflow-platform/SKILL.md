@@ -5,7 +5,7 @@ slug: temporal-durable-execution-workflow-platform
 verification: security_reviewed
 source: https://github.com/temporalio/temporal
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

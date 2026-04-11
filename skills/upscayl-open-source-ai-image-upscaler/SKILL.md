@@ -5,12 +5,13 @@ slug: upscayl-open-source-ai-image-upscaler
 verification: security_reviewed
 source: https://github.com/upscayl/upscayl
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: upscayl/upscayl
   github_stars: 44297
+  license: "AGPL-3.0"
 ---
 # Upscayl Open Source AI Image Upscaler
 

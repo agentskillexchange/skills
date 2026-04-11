@@ -5,11 +5,11 @@ slug: flagsmith-feature-flag-remote-config
 verification: security_reviewed
 source: https://github.com/Flagsmith/flagsmith
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Flagsmith/flagsmith
+  github_repo: flagsmith/flagsmith
   github_stars: 6290
 ---
 # Flagsmith Open Source Feature Flag and Remote Config Platform

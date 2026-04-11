@@ -5,7 +5,7 @@ slug: grafana-loki-log-correlation-agent-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - ChatGPT Agents
 ---

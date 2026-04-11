@@ -5,9 +5,12 @@ slug: simulate-network-failures-in-integration-tests-with-toxiproxy
 verification: listed
 source: https://github.com/Shopify/toxiproxy
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: shopify/toxiproxy
+  github_stars: 11934
 ---
 # Simulate network failures in integration tests with Toxiproxy
 

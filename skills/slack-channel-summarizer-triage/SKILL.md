@@ -5,7 +5,7 @@ slug: slack-channel-summarizer-triage
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/slack-channel-summarizer-triage/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - OpenClaw
 ---

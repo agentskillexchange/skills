@@ -5,7 +5,7 @@ slug: jasper-longform-blog-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jasper-longform-blog-generator/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - OpenClaw
 ---

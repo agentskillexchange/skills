@@ -5,7 +5,7 @@ slug: sendgrid-transactional-email-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sendgrid-transactional-email-router/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Cursor
 ---

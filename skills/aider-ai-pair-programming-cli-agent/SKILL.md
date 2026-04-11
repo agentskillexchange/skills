@@ -9,7 +9,7 @@ category:
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: Aider-AI/aider
+  github_repo: aider-ai/aider
   github_stars: 42670
 ---
 # Aider AI Pair Programming CLI Agent

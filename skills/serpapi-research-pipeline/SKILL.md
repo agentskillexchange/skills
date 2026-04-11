@@ -5,7 +5,7 @@ slug: serpapi-research-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/serpapi-research-pipeline/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Codex
 ---

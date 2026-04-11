@@ -5,12 +5,13 @@ slug: zola-static-site-generator
 verification: security_reviewed
 source: https://github.com/getzola/zola
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: getzola/zola
   github_stars: 16799
+  license: "EUPL-1.2"
 ---
 # Zola Fast Static Site Generator in a Single Binary
 

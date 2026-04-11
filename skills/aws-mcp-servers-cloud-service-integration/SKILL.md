@@ -5,7 +5,7 @@ slug: aws-mcp-servers-cloud-service-integration
 verification: security_reviewed
 source: https://github.com/awslabs/mcp
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: cheerio-html-xml-parsing-library-nodejs-extraction-workflows
 verification: security_reviewed
 source: https://github.com/cheeriojs/cheerio
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 ---

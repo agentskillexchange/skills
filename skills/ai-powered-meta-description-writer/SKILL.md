@@ -5,7 +5,7 @@ slug: ai-powered-meta-description-writer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ai-powered-meta-description-writer/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Claude Code
 ---

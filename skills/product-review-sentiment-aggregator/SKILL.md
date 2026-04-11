@@ -5,7 +5,7 @@ slug: product-review-sentiment-aggregator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/product-review-sentiment-aggregator/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Agents
 ---

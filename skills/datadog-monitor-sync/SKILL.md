@@ -5,7 +5,7 @@ slug: datadog-monitor-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitor-sync/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Claude Code
 ---

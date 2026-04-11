@@ -5,7 +5,7 @@ slug: grafana-alert-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-alert-router/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

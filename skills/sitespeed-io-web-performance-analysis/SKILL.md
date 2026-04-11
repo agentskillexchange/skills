@@ -5,13 +5,13 @@ slug: sitespeed-io-web-performance-analysis
 verification: security_reviewed
 source: https://github.com/sitespeedio/sitespeed.io
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: sitespeedio/sitespeed.io
   github_stars: 4972
-  ase_npm_package: sitespeed.io
+  npm_package: sitespeed.io
   npm_weekly_downloads: 3753
 ---
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit

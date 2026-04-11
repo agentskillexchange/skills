@@ -5,7 +5,7 @@ slug: rust-crate-documentation-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/rust-crate-documentation-extractor/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Custom Agents
 ---

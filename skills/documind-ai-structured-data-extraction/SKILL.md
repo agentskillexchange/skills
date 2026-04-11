@@ -5,13 +5,13 @@ slug: documind-ai-structured-data-extraction
 verification: security_reviewed
 source: https://github.com/DocumindHQ/documind
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: DocumindHQ/documind
+  github_repo: documindhq/documind
   github_stars: 1468
-  ase_npm_package: documind
+  npm_package: documind
   npm_weekly_downloads: 3
 ---
 # Documind AI-Powered Structured Data Extraction from Documents

@@ -5,7 +5,7 @@ slug: k6-load-testing-cli-javascript-performance-scenarios
 verification: security_reviewed
 source: https://github.com/grafana/k6
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

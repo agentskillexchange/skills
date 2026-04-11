@@ -5,7 +5,7 @@ slug: kubernetes-pod-crash-loop-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Cursor
 ---

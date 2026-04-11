@@ -5,11 +5,11 @@ slug: postmarkjs-email-delivery-api-transactional-messaging
 verification: security_reviewed
 source: https://github.com/ActiveCampaign/postmark.js
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: ActiveCampaign/postmark.js
+  github_repo: activecampaign/postmark.js
   github_stars: 357
 ---
 # Postmark.js Email Delivery API for Transactional Messaging

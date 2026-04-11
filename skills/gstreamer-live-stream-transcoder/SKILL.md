@@ -5,7 +5,7 @@ slug: gstreamer-live-stream-transcoder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/gstreamer-live-stream-transcoder/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Gemini
 ---

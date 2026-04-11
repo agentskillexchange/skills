@@ -5,7 +5,7 @@ slug: scalar-openapi-reference-api-client-platform
 verification: security_reviewed
 source: https://github.com/scalar/scalar
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 ---

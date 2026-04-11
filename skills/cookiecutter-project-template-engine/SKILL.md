@@ -5,7 +5,7 @@ slug: cookiecutter-project-template-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-template-engine/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Agents
 ---

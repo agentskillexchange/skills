@@ -5,13 +5,13 @@ slug: pagerduty-mcp-server
 verification: security_reviewed
 source: https://github.com/PagerDuty/pdjs
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: PagerDuty/pdjs
+  github_repo: pagerduty/pdjs
   github_stars: 69
-  ase_npm_package: @pagerduty/pdjs
+  npm_package: @pagerduty/pdjs
   npm_weekly_downloads: 206762
 ---
 # PagerDuty MCP Server

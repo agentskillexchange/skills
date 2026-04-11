@@ -5,7 +5,7 @@ slug: npm-registry-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-registry-analyzer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

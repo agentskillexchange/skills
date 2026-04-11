@@ -5,7 +5,7 @@ slug: documenso-open-source-document-signing
 verification: security_reviewed
 source: https://github.com/documenso/documenso
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

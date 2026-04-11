@@ -5,7 +5,7 @@ slug: wagtail-django-cms-structured-content-editorial-workflows
 verification: security_reviewed
 source: https://github.com/wagtail/wagtail
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: owasp-zap-automated-pen-testing-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - ChatGPT Agents
 ---

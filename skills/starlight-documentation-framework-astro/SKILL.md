@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: withastro/starlight
   github_stars: 8213
+  license: "MIT"
 ---
 # Starlight Documentation Framework for Astro
 

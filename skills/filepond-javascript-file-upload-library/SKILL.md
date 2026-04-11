@@ -5,7 +5,7 @@ slug: filepond-javascript-file-upload-library
 verification: security_reviewed
 source: https://github.com/pqina/filepond
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 ---

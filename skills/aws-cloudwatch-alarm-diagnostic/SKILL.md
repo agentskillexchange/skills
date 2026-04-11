@@ -5,7 +5,7 @@ slug: aws-cloudwatch-alarm-diagnostic
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

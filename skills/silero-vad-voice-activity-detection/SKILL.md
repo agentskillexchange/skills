@@ -5,12 +5,13 @@ slug: silero-vad-voice-activity-detection
 verification: security_reviewed
 source: https://github.com/snakers4/silero-vad
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: snakers4/silero-vad
   github_stars: 8604
+  license: "MIT"
 ---
 # Silero VAD Pre-Trained Enterprise Voice Activity Detection
 

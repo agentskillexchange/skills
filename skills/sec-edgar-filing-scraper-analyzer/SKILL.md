@@ -5,7 +5,7 @@ slug: sec-edgar-filing-scraper-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Code
 - Multi-Framework

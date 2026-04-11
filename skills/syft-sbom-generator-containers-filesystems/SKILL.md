@@ -5,7 +5,7 @@ slug: syft-sbom-generator-containers-filesystems
 verification: security_reviewed
 source: https://github.com/anchore/syft
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

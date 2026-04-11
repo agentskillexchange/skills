@@ -5,7 +5,7 @@ slug: podcast-transcription-pipeline-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Codex
 ---

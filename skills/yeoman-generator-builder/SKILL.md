@@ -5,7 +5,7 @@ slug: yeoman-generator-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/yeoman-generator-builder/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - OpenClaw
 ---

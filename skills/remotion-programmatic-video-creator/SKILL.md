@@ -5,13 +5,13 @@ slug: remotion-programmatic-video-creator
 verification: security_reviewed
 source: https://github.com/remotion-dev/remotion
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: remotion-dev/remotion
   github_stars: 41477
-  ase_npm_package: remotion
+  npm_package: remotion
   npm_weekly_downloads: 492157
 ---
 # Remotion Programmatic Video Creator

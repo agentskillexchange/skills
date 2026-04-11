@@ -5,7 +5,7 @@ slug: puppeteer-scraping-framework-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/puppeteer-scraping-framework-2/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Code
 ---

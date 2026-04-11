@@ -5,7 +5,7 @@ slug: vault-secrets-rotator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/vault-secrets-rotator/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - MCP
 ---

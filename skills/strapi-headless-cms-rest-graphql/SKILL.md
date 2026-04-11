@@ -5,13 +5,13 @@ slug: strapi-headless-cms-rest-graphql
 verification: security_reviewed
 source: https://github.com/strapi/strapi
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: strapi/strapi
   github_stars: 71740
-  ase_npm_package: @strapi/strapi
+  npm_package: @strapi/strapi
   npm_weekly_downloads: 147371
 ---
 # Strapi Open Source Headless CMS with REST and GraphQL APIs

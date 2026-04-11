@@ -5,7 +5,7 @@ slug: audiobookshelf-self-hosted-audiobook-podcast-server-api
 verification: security_reviewed
 source: https://github.com/advplyr/audiobookshelf
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

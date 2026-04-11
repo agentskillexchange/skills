@@ -5,7 +5,7 @@ slug: highlight-io-full-stack-monitoring
 verification: security_reviewed
 source: https://github.com/highlight/highlight
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Custom Agents
 ---

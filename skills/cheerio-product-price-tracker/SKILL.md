@@ -5,7 +5,7 @@ slug: cheerio-product-price-tracker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cheerio-product-price-tracker/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Agents
 ---

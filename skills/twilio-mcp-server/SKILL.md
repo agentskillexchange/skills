@@ -5,13 +5,13 @@ slug: twilio-mcp-server
 verification: security_reviewed
 source: https://github.com/twilio/twilio-node
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: twilio/twilio-node
   github_stars: 1527
-  ase_npm_package: twilio
+  npm_package: twilio
   npm_weekly_downloads: 3377332
 ---
 # Twilio MCP Server

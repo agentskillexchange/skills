@@ -9,8 +9,9 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: SeleniumHQ/docker-selenium
+  github_repo: seleniumhq/docker-selenium
   github_stars: 8619
+  license: "Apache-2.0"
 ---
 # Docker Selenium Grid for Scalable Browser Automation
 

@@ -5,12 +5,13 @@ slug: polars-dataframe-query-engine
 verification: security_reviewed
 source: https://github.com/pola-rs/polars
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: pola-rs/polars
   github_stars: 37924
+  license: "MIT"
 ---
 # Polars Blazing-Fast DataFrame Query Engine
 

@@ -5,7 +5,7 @@ slug: acf-to-gutenberg-block-migrator
 verification: security_reviewed
 source: https://www.advancedcustomfields.com/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Codex
 ---

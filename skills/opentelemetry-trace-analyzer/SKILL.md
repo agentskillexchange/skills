@@ -5,7 +5,7 @@ slug: opentelemetry-trace-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Codex
 ---

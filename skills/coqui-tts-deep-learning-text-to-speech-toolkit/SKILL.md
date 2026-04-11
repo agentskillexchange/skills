@@ -5,11 +5,11 @@ slug: coqui-tts-deep-learning-text-to-speech-toolkit
 verification: security_reviewed
 source: https://github.com/coqui-ai/TTS
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: coqui-ai/TTS
+  github_repo: coqui-ai/tts
   github_stars: 44959
 ---
 # Coqui TTS Deep Learning Text-to-Speech Toolkit

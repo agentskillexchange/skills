@@ -5,7 +5,7 @@ slug: prometheus-alert-rule-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-rule-builder/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

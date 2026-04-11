@@ -9,7 +9,7 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: ToolJet/ToolJet
+  github_repo: tooljet/tooljet
   github_stars: 37721
 ---
 # ToolJet Open Source Internal Tools and Workflow Platform

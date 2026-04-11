@@ -5,7 +5,7 @@ slug: checkov-iac-scanner
 verification: security_reviewed
 source: https://github.com/bridgecrewio/checkov
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

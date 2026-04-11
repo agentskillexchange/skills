@@ -5,7 +5,7 @@ slug: todoist-natural-language-task-parser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/todoist-natural-language-task-parser/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - MCP
 ---

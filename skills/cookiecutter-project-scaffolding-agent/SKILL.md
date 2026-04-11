@@ -5,7 +5,7 @@ slug: cookiecutter-project-scaffolding-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-scaffolding-agent/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - ChatGPT Agents
 ---

@@ -5,13 +5,12 @@ slug: aws-cdk-scaffolder
 verification: security_reviewed
 source: https://github.com/aws/aws-cdk
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: aws/aws-cdk
   github_stars: 12734
-  ase_npm_package: aws-cdk
 ---
 # AWS CDK Scaffolder
 

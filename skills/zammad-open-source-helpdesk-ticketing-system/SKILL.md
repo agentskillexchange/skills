@@ -5,7 +5,7 @@ slug: zammad-open-source-helpdesk-ticketing-system
 verification: security_reviewed
 source: https://github.com/zammad/zammad
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 ---

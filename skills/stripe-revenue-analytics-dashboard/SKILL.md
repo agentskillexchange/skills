@@ -5,7 +5,7 @@ slug: stripe-revenue-analytics-dashboard
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 ---

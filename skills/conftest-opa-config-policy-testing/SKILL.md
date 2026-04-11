@@ -5,7 +5,7 @@ slug: conftest-opa-config-policy-testing
 verification: security_reviewed
 source: https://github.com/open-policy-agent/conftest
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:

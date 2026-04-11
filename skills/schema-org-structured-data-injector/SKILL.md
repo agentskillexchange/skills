@@ -5,7 +5,7 @@ slug: schema-org-structured-data-injector
 verification: security_reviewed
 source: https://schema.org/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - ChatGPT Agents
 ---

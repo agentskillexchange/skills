@@ -5,7 +5,7 @@ slug: marp-cli-markdown-presentation-converter
 verification: security_reviewed
 source: https://github.com/marp-team/marp-cli
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:

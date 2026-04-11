@@ -5,7 +5,7 @@ slug: imagemagick-batch-transform-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/imagemagick-batch-transform-agent/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Cursor
 ---

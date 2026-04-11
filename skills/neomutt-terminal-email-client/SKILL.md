@@ -5,12 +5,13 @@ slug: neomutt-terminal-email-client
 verification: security_reviewed
 source: https://github.com/neomutt/neomutt
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: neomutt/neomutt
   github_stars: 3685
+  license: "GPL-2.0"
 ---
 # NeoMutt Feature-Rich Terminal Email Client
 

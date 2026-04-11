@@ -5,7 +5,7 @@ slug: docker-build-cache-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-build-cache-optimizer/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Claude Code
 ---

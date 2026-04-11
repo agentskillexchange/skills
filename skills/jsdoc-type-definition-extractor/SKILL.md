@@ -5,7 +5,7 @@ slug: jsdoc-type-definition-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

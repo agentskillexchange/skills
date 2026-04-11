@@ -5,7 +5,7 @@ slug: dolby-atmos-adm-bwf-metadata-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Gemini
 ---

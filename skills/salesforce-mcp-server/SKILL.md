@@ -5,13 +5,13 @@ slug: salesforce-mcp-server
 verification: security_reviewed
 source: https://github.com/jsforce/jsforce
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: jsforce/jsforce
   github_stars: 1454
-  ase_npm_package: jsforce
+  npm_package: jsforce
   npm_weekly_downloads: 838988
 ---
 # Salesforce MCP Server

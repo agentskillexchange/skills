@@ -5,7 +5,7 @@ slug: crawl4ai-mcp-server
 verification: security_reviewed
 source: https://github.com/sadiuysal/crawl4ai-mcp-server
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

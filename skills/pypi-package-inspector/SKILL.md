@@ -5,7 +5,7 @@ slug: pypi-package-inspector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pypi-package-inspector/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Gemini
 ---

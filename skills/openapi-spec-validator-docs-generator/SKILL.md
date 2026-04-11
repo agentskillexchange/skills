@@ -5,7 +5,7 @@ slug: openapi-spec-validator-docs-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

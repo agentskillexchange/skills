@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: louislam/dockge
   github_stars: 22685
+  license: "MIT"
 ---
 # Dockge Self-Hosted Docker Compose Stack Manager
 

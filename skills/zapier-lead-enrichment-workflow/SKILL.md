@@ -5,7 +5,7 @@ slug: zapier-lead-enrichment-workflow
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/zapier-lead-enrichment-workflow/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 ---

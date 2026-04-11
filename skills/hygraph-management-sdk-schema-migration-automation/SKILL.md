@@ -5,7 +5,7 @@ slug: hygraph-management-sdk-schema-migration-automation
 verification: security_reviewed
 source: https://github.com/hygraph/management-sdk
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

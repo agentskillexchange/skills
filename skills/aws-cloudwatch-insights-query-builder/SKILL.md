@@ -5,7 +5,7 @@ slug: aws-cloudwatch-insights-query-builder
 verification: security_reviewed
 source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Codex
 - Multi-Framework

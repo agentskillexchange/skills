@@ -5,7 +5,7 @@ slug: keploy-api-test-generation-regression-testing-platform
 verification: security_reviewed
 source: https://github.com/keploy/keploy
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Multi-Framework
 ---

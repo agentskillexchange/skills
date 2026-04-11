@@ -5,13 +5,12 @@ slug: crawlee-web-crawling-and-scraping-sdk
 verification: security_reviewed
 source: https://github.com/apify/crawlee
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: apify/crawlee
   github_stars: 22714
-  ase_npm_package: @crawlee/root
 ---
 # Crawlee Web Crawling and Scraping SDK
 

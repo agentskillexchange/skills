@@ -5,7 +5,7 @@ slug: hashicorp-vault-mcp-server
 verification: security_reviewed
 source: https://github.com/hashicorp/vault-mcp-server
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - MCP
 tool_ecosystem:

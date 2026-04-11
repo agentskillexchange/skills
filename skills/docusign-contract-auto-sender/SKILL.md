@@ -5,7 +5,7 @@ slug: docusign-contract-auto-sender
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docusign-contract-auto-sender/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - ChatGPT Agents
 ---

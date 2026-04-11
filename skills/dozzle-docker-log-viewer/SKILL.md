@@ -5,7 +5,7 @@ slug: dozzle-docker-log-viewer
 verification: security_reviewed
 source: https://github.com/amir20/dozzle
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

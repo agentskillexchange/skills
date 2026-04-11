@@ -5,7 +5,7 @@ slug: ntopng-web-based-network-traffic-monitoring-security
 verification: security_reviewed
 source: https://github.com/ntop/ntopng
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: aws-systems-manager-automation-incident-guide
 verification: security_reviewed
 source: https://docs.aws.amazon.com/systems-manager/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

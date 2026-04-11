@@ -5,11 +5,11 @@ slug: keybert-keyword-extraction-bert
 verification: security_reviewed
 source: https://github.com/MaartenGr/KeyBERT
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: MaartenGr/KeyBERT
+  github_repo: maartengr/keybert
   github_stars: 4143
 ---
 # KeyBERT Minimal Keyword Extraction with BERT Embeddings

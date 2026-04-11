@@ -5,7 +5,7 @@ slug: prometheus-alert-resolver-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-resolver-skill/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

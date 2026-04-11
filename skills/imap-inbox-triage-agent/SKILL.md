@@ -5,7 +5,7 @@ slug: imap-inbox-triage-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/imap-inbox-triage-agent/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Codex
 ---

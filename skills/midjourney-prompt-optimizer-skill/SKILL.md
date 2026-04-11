@@ -5,7 +5,7 @@ slug: midjourney-prompt-optimizer-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Gemini
 ---

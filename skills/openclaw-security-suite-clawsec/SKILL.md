@@ -5,7 +5,7 @@ slug: openclaw-security-suite-clawsec
 verification: security_reviewed
 source: https://github.com/prompt-security/clawsec
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 tool_ecosystem:

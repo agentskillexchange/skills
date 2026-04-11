@@ -5,7 +5,7 @@ slug: jest-unit-test-scaffolder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jest-unit-test-scaffolder/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Custom Agents
 ---

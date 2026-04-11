@@ -5,7 +5,7 @@ slug: gsc-performance-analyzer-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/gsc-performance-analyzer-skill/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Custom Agents
 ---

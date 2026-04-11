@@ -5,7 +5,7 @@ slug: backstage-software-template-composer
 verification: security_reviewed
 source: https://github.com/backstage/backstage
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Codex
 tool_ecosystem:

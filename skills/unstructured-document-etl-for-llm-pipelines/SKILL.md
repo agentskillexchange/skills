@@ -5,11 +5,11 @@ slug: unstructured-document-etl-for-llm-pipelines
 verification: security_reviewed
 source: https://github.com/Unstructured-IO/unstructured
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Unstructured-IO/unstructured
+  github_repo: unstructured-io/unstructured
   github_stars: 14430
 ---
 # Unstructured Document ETL for LLM Pipelines

@@ -5,7 +5,7 @@ slug: supertokens-open-source-auth-platform
 verification: security_reviewed
 source: https://github.com/supertokens/supertokens-core
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:

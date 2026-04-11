@@ -5,7 +5,7 @@ slug: bubble-stripe-subscription-portal
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - OpenClaw
 ---

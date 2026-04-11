@@ -5,7 +5,7 @@ slug: elasticsearch-mcp
 verification: security_reviewed
 source: https://github.com/elastic/elasticsearch
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: hasura-graphql-engine-instant-api-database-automation
 verification: security_reviewed
 source: https://github.com/hasura/graphql-engine
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:

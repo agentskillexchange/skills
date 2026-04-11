@@ -5,7 +5,7 @@ slug: planka-self-hosted-kanban-board-project-management
 verification: security_reviewed
 source: https://github.com/plankanban/planka
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 ---

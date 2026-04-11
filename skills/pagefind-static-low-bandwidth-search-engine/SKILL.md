@@ -5,14 +5,15 @@ slug: pagefind-static-low-bandwidth-search-engine
 verification: security_reviewed
 source: https://github.com/Pagefind/pagefind
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: pagefind/pagefind
   github_stars: 5094
-  ase_npm_package: pagefind
+  npm_package: pagefind
   npm_weekly_downloads: 491115
+  license: "MIT"
 ---
 # Pagefind Static Low-Bandwidth Search Engine
 

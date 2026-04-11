@@ -5,7 +5,7 @@ slug: anthropic-sdk-token-usage-logger
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/anthropic-sdk-token-usage-logger/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Code
 ---

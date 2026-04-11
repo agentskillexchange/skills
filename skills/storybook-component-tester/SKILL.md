@@ -5,7 +5,7 @@ slug: storybook-component-tester
 verification: security_reviewed
 source: https://github.com/storybookjs/storybook
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Custom Agents
 tool_ecosystem:

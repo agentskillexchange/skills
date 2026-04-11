@@ -5,7 +5,7 @@ slug: sharp-image-pipeline-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sharp-image-pipeline-skill/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: ffmpeg-audio-normalization-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - OpenClaw
 ---

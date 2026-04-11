@@ -5,7 +5,7 @@ slug: konva-js-html5-canvas-interactive-graphics-framework
 verification: security_reviewed
 source: https://github.com/konvajs/konva
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 ---

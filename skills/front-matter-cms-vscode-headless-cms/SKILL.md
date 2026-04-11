@@ -5,7 +5,7 @@ slug: front-matter-cms-vscode-headless-cms
 verification: security_reviewed
 source: https://github.com/estruyf/vscode-front-matter
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

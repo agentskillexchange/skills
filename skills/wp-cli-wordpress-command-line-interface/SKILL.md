@@ -5,7 +5,7 @@ slug: wp-cli-wordpress-command-line-interface
 verification: security_reviewed
 source: https://github.com/wp-cli/wp-cli
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

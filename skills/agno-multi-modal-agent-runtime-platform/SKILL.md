@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: agno-agi/agno
   github_stars: 39050
+  license: "Apache-2.0"
 ---
 # Agno Multi-Modal Agent Runtime Platform
 

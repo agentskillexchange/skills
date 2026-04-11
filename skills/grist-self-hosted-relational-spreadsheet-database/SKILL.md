@@ -5,12 +5,13 @@ slug: grist-self-hosted-relational-spreadsheet-database
 verification: security_reviewed
 source: https://github.com/gristlabs/grist-core
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: gristlabs/grist-core
   github_stars: 10827
+  license: "Apache-2.0"
 ---
 # Grist Self-Hosted Relational Spreadsheet and Database Platform
 

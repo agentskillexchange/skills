@@ -5,12 +5,13 @@ slug: trellis-wordpress-lemp-ansible-provisioner-roots
 verification: security_reviewed
 source: https://github.com/roots/trellis
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: roots/trellis
   github_stars: 2560
+  license: "MIT"
 ---
 # Trellis WordPress LEMP Stack Provisioner by Roots
 

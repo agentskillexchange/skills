@@ -5,7 +5,7 @@ slug: extract-invoice-fields-from-vendor-pdfs-into-structured-records
 verification: security_reviewed
 source: https://github.com/invoice-x/invoice2data
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

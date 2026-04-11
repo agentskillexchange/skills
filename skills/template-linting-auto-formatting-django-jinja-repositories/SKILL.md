@@ -5,9 +5,12 @@ slug: template-linting-auto-formatting-django-jinja-repositories
 verification: listed
 source: https://github.com/djlint/djLint
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: djlint/djlint
+  github_stars: 910
 ---
 # Template Linting and Auto-Formatting for Django and Jinja Repositories
 

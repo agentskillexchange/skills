@@ -5,7 +5,7 @@ slug: cloudwatch-anomaly-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudwatch-anomaly-detector/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Gemini
 ---

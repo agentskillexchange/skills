@@ -5,7 +5,7 @@ slug: apache-airflow-mcp
 verification: security_reviewed
 source: https://github.com/apache/airflow
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

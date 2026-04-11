@@ -5,7 +5,7 @@ slug: woocommerce-webhook-delivery-inspector
 verification: security_reviewed
 source: https://github.com/woocommerce/woocommerce
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - ChatGPT Agents
 tool_ecosystem:

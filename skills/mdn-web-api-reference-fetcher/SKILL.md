@@ -5,7 +5,7 @@ slug: mdn-web-api-reference-fetcher
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Custom Agents
 ---

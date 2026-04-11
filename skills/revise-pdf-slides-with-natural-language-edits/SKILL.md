@@ -5,11 +5,11 @@ slug: revise-pdf-slides-with-natural-language-edits
 verification: security_reviewed
 source: https://github.com/gavrielc/Nano-PDF
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - OpenClaw
 tool_ecosystem:
-  github_repo: gavrielc/Nano-PDF
+  github_repo: gavrielc/nano-pdf
   github_stars: 1234
 ---
 # Revise PDF Slides with Natural-Language Edits

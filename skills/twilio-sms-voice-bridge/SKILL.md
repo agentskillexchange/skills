@@ -5,7 +5,7 @@ slug: twilio-sms-voice-bridge
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/twilio-sms-voice-bridge/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - OpenClaw
 ---

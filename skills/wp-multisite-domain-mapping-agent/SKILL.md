@@ -5,7 +5,7 @@ slug: wp-multisite-domain-mapping-agent
 verification: security_reviewed
 source: https://github.com/certbot/certbot
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: uptime-robot-multi-check-coordinator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - OpenClaw
 ---

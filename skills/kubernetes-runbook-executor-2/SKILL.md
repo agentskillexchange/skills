@@ -5,7 +5,7 @@ slug: kubernetes-runbook-executor-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

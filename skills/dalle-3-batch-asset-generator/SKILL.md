@@ -5,7 +5,7 @@ slug: dalle-3-batch-asset-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: new-relic-nrql-query-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/new-relic-nrql-query-agent/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Custom Agents
 ---

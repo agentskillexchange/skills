@@ -5,7 +5,7 @@ slug: kafka-schema-registry-validator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kafka-schema-registry-validator/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Agents
 ---

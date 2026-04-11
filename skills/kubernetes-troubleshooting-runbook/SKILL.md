@@ -5,7 +5,7 @@ slug: kubernetes-troubleshooting-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-troubleshooting-runbook/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Custom Agents
 ---

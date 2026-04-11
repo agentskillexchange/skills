@@ -5,7 +5,7 @@ slug: swagger-codegen-orchestrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/swagger-codegen-orchestrator/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: jina-reader-url-to-markdown-web-search
 verification: security_reviewed
 source: https://github.com/jina-ai/reader
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 ---

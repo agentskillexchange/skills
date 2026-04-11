@@ -5,7 +5,7 @@ slug: json-to-avro-schema-transformer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/json-to-avro-schema-transformer/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - OpenClaw
 ---

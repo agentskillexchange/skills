@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: puppeteer/puppeteer
   github_stars: 94016
+  license: "Apache-2.0"
 ---
 # Puppeteer Browser Automation Library for Chrome and Firefox
 

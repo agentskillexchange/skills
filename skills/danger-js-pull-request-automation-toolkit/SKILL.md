@@ -5,7 +5,7 @@ slug: danger-js-pull-request-automation-toolkit
 verification: security_reviewed
 source: https://github.com/danger/danger-js
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Multi-Framework
 ---

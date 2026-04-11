@@ -5,7 +5,7 @@ slug: whisper-cpp-speech-recognition-engine
 verification: security_reviewed
 source: https://github.com/ggml-org/whisper.cpp
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

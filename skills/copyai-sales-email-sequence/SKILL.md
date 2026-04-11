@@ -5,7 +5,7 @@ slug: copyai-sales-email-sequence
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/copyai-sales-email-sequence/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - ChatGPT Agents
 ---

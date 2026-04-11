@@ -5,7 +5,7 @@ slug: dbt-mcp-server-data-pipeline-context
 verification: security_reviewed
 source: https://github.com/dbt-labs/dbt-mcp
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

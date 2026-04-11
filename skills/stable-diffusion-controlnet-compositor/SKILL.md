@@ -5,7 +5,7 @@ slug: stable-diffusion-controlnet-compositor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stable-diffusion-controlnet-compositor/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Gemini
 ---

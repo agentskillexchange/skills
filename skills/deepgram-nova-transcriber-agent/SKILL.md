@@ -5,7 +5,7 @@ slug: deepgram-nova-transcriber-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/deepgram-nova-transcriber-agent/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - OpenClaw
 ---

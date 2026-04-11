@@ -5,7 +5,7 @@ slug: dalle-variations-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dalle-variations-pipeline/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---

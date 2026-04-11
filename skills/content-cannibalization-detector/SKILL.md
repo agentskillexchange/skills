@@ -5,7 +5,7 @@ slug: content-cannibalization-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/content-cannibalization-detector/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Gemini
 ---

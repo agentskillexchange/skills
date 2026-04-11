@@ -5,7 +5,7 @@ slug: gitea-repository-pull-request-automation
 verification: security_reviewed
 source: https://github.com/go-gitea/gitea
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 ---

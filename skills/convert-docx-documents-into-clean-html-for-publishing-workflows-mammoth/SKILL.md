@@ -5,9 +5,12 @@ slug: convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth
 verification: security_reviewed
 source: https://github.com/mwilliamson/mammoth.js
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: mwilliamson/mammoth.js
+  github_stars: 6163
 ---
 # Convert DOCX documents into clean HTML for publishing workflows with Mammoth
 

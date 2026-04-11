@@ -5,7 +5,7 @@ slug: navidrome-self-hosted-music-streaming-subsonic-api
 verification: security_reviewed
 source: https://github.com/navidrome/navidrome
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

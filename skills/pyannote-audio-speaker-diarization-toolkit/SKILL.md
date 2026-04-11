@@ -5,7 +5,7 @@ slug: pyannote-audio-speaker-diarization-toolkit
 verification: security_reviewed
 source: https://github.com/pyannote/pyannote-audio
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: upstash-mcp-server-redis-qstash-management
 verification: security_reviewed
 source: https://github.com/upstash/mcp-server
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: mux-node-sdk-video-and-streaming-api-workflows
 verification: security_reviewed
 source: https://github.com/muxinc/mux-node-sdk
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: apache-spark-job-manager
 verification: security_reviewed
 source: https://github.com/apache/spark
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

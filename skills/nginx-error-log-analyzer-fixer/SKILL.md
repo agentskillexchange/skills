@@ -5,7 +5,7 @@ slug: nginx-error-log-analyzer-fixer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Claude Agents
 ---

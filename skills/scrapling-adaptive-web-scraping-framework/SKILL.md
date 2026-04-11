@@ -5,11 +5,11 @@ slug: scrapling-adaptive-web-scraping-framework
 verification: security_reviewed
 source: https://github.com/D4Vinci/Scrapling
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: D4Vinci/Scrapling
+  github_repo: d4vinci/scrapling
   github_stars: 34148
 ---
 # Scrapling Adaptive Web Scraping Framework

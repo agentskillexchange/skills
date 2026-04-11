@@ -5,7 +5,7 @@ slug: prometheus-rule-evaluator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-rule-evaluator/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Claude Agents
 ---

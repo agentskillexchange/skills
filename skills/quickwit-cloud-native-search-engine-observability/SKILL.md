@@ -5,7 +5,7 @@ slug: quickwit-cloud-native-search-engine-observability
 verification: security_reviewed
 source: https://github.com/quickwit-oss/quickwit
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Custom Agents
 ---

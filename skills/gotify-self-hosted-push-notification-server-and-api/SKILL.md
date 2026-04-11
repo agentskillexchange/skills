@@ -5,7 +5,7 @@ slug: gotify-self-hosted-push-notification-server-and-api
 verification: security_reviewed
 source: https://github.com/gotify/server
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

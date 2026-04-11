@@ -5,7 +5,7 @@ slug: kubernetes-helm-chart-scaffold-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-helm-chart-scaffold-builder/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - MCP
 ---

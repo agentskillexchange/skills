@@ -5,7 +5,7 @@ slug: git-secrets-precommit-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/git-secrets-precommit-scanner/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 ---

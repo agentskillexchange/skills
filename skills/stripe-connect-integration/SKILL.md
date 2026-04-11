@@ -5,7 +5,7 @@ slug: stripe-connect-integration
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-connect-integration/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - ChatGPT Agents
 ---

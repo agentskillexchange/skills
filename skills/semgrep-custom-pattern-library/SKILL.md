@@ -5,7 +5,7 @@ slug: semgrep-custom-pattern-library
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-custom-pattern-library/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Claude Agents
 ---

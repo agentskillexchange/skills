@@ -5,7 +5,7 @@ slug: sendgrid-mcp-server
 verification: security_reviewed
 source: https://github.com/sendgrid/sendgrid-nodejs
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

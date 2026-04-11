@@ -5,7 +5,7 @@ slug: wpgraphql-for-acf-wordpress-graphql-field-mapping
 verification: security_reviewed
 source: https://github.com/wp-graphql/wpgraphql-acf
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

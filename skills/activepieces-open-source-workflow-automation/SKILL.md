@@ -5,7 +5,7 @@ slug: activepieces-open-source-workflow-automation
 verification: security_reviewed
 source: https://github.com/activepieces/activepieces
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

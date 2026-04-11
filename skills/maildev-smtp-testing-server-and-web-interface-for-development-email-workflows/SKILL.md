@@ -5,7 +5,7 @@ slug: maildev-smtp-testing-server-and-web-interface-for-development-email-workfl
 verification: security_reviewed
 source: https://github.com/maildev/maildev
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

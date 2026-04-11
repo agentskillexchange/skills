@@ -5,7 +5,7 @@ slug: recon-ng-web-reconnaissance-framework
 verification: security_reviewed
 source: https://github.com/lanmaster53/recon-ng
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:

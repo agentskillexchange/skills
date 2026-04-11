@@ -5,7 +5,7 @@ slug: crunchbase-company-intelligence-scraper
 verification: security_reviewed
 source: https://data.crunchbase.com/docs
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Custom Agents
 ---

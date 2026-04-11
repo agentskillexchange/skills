@@ -5,7 +5,7 @@ slug: wpgraphql-smart-cache-headless-wordpress
 verification: security_reviewed
 source: https://github.com/wp-graphql/wp-graphql-smart-cache
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

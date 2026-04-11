@@ -5,7 +5,7 @@ slug: aws-cloudwatch-runbook-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-runbook-agent/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

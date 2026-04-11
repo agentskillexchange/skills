@@ -5,7 +5,7 @@ slug: yeoman-scaffold-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/yeoman-scaffold-runner/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: assemblyai-lemur-summarizer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: elementor-website-builder-wordpress-visual-page-editor
 verification: security_reviewed
 source: https://wordpress.org/plugins/elementor/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

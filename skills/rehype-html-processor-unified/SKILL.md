@@ -5,7 +5,7 @@ slug: rehype-html-processor-unified
 verification: security_reviewed
 source: https://github.com/rehypejs/rehype
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: ai-meta-description-generator
 verification: security_reviewed
 source: https://platform.openai.com/docs/api-reference
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Claude Agents
 ---

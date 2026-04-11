@@ -5,7 +5,7 @@ slug: ffsubsync-subtitle-synchronization-tool
 verification: security_reviewed
 source: https://github.com/smacke/ffsubsync
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 ---

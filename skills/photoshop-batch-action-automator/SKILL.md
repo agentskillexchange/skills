@@ -5,7 +5,7 @@ slug: photoshop-batch-action-automator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/photoshop-batch-action-automator/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Custom Agents
 ---

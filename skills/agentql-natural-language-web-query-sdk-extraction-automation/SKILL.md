@@ -5,14 +5,15 @@ slug: agentql-natural-language-web-query-sdk-extraction-automation
 verification: security_reviewed
 source: https://github.com/tinyfish-io/agentql
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: tinyfish-io/agentql
   github_stars: 1311
-  ase_npm_package: agentql
+  npm_package: agentql
   npm_weekly_downloads: 909
+  license: "MIT"
 ---
 # AgentQL Natural Language Web Query SDK for Extraction and Automation
 

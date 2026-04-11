@@ -5,7 +5,7 @@ slug: keyword-cannibalization-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/keyword-cannibalization-detector/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Claude Code
 ---

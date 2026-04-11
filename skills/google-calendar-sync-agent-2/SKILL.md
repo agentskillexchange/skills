@@ -5,7 +5,7 @@ slug: google-calendar-sync-agent-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/google-calendar-sync-agent-2/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - OpenClaw
 ---

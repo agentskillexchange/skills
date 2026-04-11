@@ -5,7 +5,7 @@ slug: skopeo-container-image-registry-operations-cli
 verification: security_reviewed
 source: https://github.com/containers/skopeo
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

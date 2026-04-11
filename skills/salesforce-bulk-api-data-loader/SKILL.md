@@ -5,7 +5,7 @@ slug: salesforce-bulk-api-data-loader
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Code
 ---

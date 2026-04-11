@@ -5,11 +5,11 @@ slug: litellm-unified-llm-gateway-proxy
 verification: security_reviewed
 source: https://github.com/BerriAI/litellm
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: BerriAI/litellm
+  github_repo: berriai/litellm
   github_stars: 41815
 ---
 # LiteLLM Unified LLM Gateway and Proxy Server

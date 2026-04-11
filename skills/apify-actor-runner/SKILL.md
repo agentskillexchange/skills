@@ -5,7 +5,7 @@ slug: apify-actor-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apify-actor-runner/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Codex
 ---

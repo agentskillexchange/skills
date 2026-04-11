@@ -5,7 +5,7 @@ slug: diagnose-openclaw-node-pairing-and-route-failures
 verification: security_reviewed
 source: https://github.com/openclaw/openclaw/tree/main/skills/node-connect
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

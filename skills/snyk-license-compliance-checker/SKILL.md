@@ -5,7 +5,7 @@ slug: snyk-license-compliance-checker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snyk-license-compliance-checker/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Cursor
 ---

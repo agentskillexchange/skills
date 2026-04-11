@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: helix-editor/helix
   github_stars: 43690
+  license: "MPL-2.0"
 ---
 # Helix Post-Modern Modal Text Editor with LSP and Tree-sitter
 

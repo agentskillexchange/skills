@@ -5,7 +5,7 @@ slug: hashicorp-vault-secrets-rotation-agent-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/hashicorp-vault-secrets-rotation-agent-2/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - MCP
 ---

@@ -5,13 +5,12 @@ slug: postman-collection-runner
 verification: security_reviewed
 source: https://github.com/postmanlabs/newman
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: postmanlabs/newman
   github_stars: 7203
-  ase_npm_package: newman
 ---
 # Postman Collection Runner
 

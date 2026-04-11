@@ -5,11 +5,11 @@ slug: wp-env-wordpress-dev-environment
 verification: security_reviewed
 source: https://www.npmjs.com/package/@wordpress/env
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Claude Code
 tool_ecosystem:
-  ase_npm_package: @wordpress/env
+  npm_package: @wordpress/env
   npm_weekly_downloads: 46753
 ---
 # wp-env Zero-Config WordPress Development Environment

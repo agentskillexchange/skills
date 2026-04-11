@@ -5,11 +5,11 @@ slug: dasel-multi-format-data-selector-modifier
 verification: security_reviewed
 source: https://github.com/TomWright/dasel
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: TomWright/dasel
+  github_repo: tomwright/dasel
   github_stars: 7892
 ---
 # Dasel Multi-Format Data Selector and Modifier

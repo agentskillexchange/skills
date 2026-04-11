@@ -5,7 +5,7 @@ slug: protobuf-schema-registry-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/protobuf-schema-registry-manager/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Codex
 ---

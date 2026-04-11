@@ -5,7 +5,7 @@ slug: dotenvx-secure-env-variable-manager
 verification: listed
 source: https://github.com/dotenvx/dotenvx
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:

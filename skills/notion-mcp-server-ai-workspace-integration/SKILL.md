@@ -5,7 +5,7 @@ slug: notion-mcp-server-ai-workspace-integration
 verification: security_reviewed
 source: https://github.com/makenotion/notion-mcp-server
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

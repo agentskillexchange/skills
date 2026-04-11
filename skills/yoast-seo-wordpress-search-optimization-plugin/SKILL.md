@@ -5,7 +5,7 @@ slug: yoast-seo-wordpress-search-optimization-plugin
 verification: listed
 source: https://github.com/Yoast/wordpress-seo
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

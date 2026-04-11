@@ -5,7 +5,7 @@ slug: serpapi-search-intelligence-aggregator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Code
 ---

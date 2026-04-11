@@ -5,7 +5,7 @@ slug: microsoft-graph-email-triage-assistant
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/microsoft-graph-email-triage-assistant/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - OpenClaw
 ---

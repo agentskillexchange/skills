@@ -5,7 +5,7 @@ slug: semrush-keyword-research-agent-api-v3
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semrush-keyword-research-agent-api-v3/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Claude Code
 ---

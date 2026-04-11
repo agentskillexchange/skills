@@ -5,7 +5,7 @@ slug: audit-openclaw-host-security-posture-and-hardening-gaps
 verification: security_reviewed
 source: https://github.com/openclaw/openclaw/tree/main/skills/healthcheck
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 ---

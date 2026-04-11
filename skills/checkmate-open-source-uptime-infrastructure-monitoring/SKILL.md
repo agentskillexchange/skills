@@ -5,7 +5,7 @@ slug: checkmate-open-source-uptime-infrastructure-monitoring
 verification: security_reviewed
 source: https://github.com/bluewave-labs/Checkmate
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

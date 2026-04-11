@@ -5,7 +5,7 @@ slug: blender-geometry-nodes-script-generator
 verification: security_reviewed
 source: https://www.blender.org/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Custom Agents
 ---

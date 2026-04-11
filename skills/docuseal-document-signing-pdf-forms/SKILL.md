@@ -5,7 +5,7 @@ slug: docuseal-document-signing-pdf-forms
 verification: security_reviewed
 source: https://github.com/docusealco/docuseal
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:

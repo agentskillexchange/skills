@@ -5,7 +5,7 @@ slug: sqlfluff-sql-linter-auto-formatter
 verification: security_reviewed
 source: https://github.com/sqlfluff/sqlfluff
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Claude Code
 - Codex

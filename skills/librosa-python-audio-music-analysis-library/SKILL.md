@@ -5,12 +5,13 @@ slug: librosa-python-audio-music-analysis-library
 verification: security_reviewed
 source: https://github.com/librosa/librosa
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: librosa/librosa
   github_stars: 8294
+  license: "ISC"
 ---
 # librosa Python Audio and Music Analysis Library
 

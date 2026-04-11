@@ -5,7 +5,7 @@ slug: chatwoot-open-source-customer-engagement-omnichannel-support
 verification: security_reviewed
 source: https://github.com/chatwoot/chatwoot
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 ---

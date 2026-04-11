@@ -5,7 +5,7 @@ slug: playwright-network-interceptor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/playwright-network-interceptor/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Cursor
 ---

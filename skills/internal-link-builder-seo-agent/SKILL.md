@@ -5,7 +5,7 @@ slug: internal-link-builder-seo-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/internal-link-builder-seo-agent/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Claude Agents
 ---

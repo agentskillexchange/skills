@@ -5,7 +5,7 @@ slug: exa-js-web-search-sdk-ai-applications
 verification: security_reviewed
 source: https://github.com/exa-labs/exa-js
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:

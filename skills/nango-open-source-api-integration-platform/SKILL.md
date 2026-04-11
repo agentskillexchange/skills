@@ -5,13 +5,13 @@ slug: nango-open-source-api-integration-platform
 verification: security_reviewed
 source: https://github.com/NangoHQ/nango
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: NangoHQ/nango
+  github_repo: nangohq/nango
   github_stars: 7003
-  ase_npm_package: nango
+  npm_package: nango
   npm_weekly_downloads: 14801
 ---
 # Nango Open Source API Integration Platform

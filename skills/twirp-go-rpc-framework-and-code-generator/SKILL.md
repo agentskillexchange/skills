@@ -5,7 +5,7 @@ slug: twirp-go-rpc-framework-and-code-generator
 verification: security_reviewed
 source: https://github.com/twitchtv/twirp
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 ---

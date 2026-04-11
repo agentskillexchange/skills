@@ -9,7 +9,7 @@ category:
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: Orange-OpenSource/hurl
+  github_repo: orange-opensource/hurl
   github_stars: 18696
 ---
 # Hurl Declarative HTTP Request Runner and Tester

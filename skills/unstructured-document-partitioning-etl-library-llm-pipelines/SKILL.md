@@ -5,12 +5,13 @@ slug: unstructured-document-partitioning-etl-library-llm-pipelines
 verification: security_reviewed
 source: https://github.com/Unstructured-IO/unstructured
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: unstructured-io/unstructured
   github_stars: 14390
+  license: "Apache-2.0"
 ---
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines
 

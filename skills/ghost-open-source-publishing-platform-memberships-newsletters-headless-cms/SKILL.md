@@ -5,7 +5,7 @@ slug: ghost-open-source-publishing-platform-memberships-newsletters-headless-cms
 verification: security_reviewed
 source: https://github.com/TryGhost/Ghost
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

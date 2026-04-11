@@ -5,7 +5,7 @@ slug: stripe-connect-platform-bridge
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-connect-platform-bridge/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Claude Agents
 ---

@@ -5,12 +5,13 @@ slug: paddleocr-multilingual-document-ocr-toolkit
 verification: security_reviewed
 source: https://github.com/PaddlePaddle/PaddleOCR
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: paddlepaddle/paddleocr
   github_stars: 73714
+  license: "Apache-2.0"
 ---
 # PaddleOCR Multilingual Document OCR and Structured Data Toolkit
 

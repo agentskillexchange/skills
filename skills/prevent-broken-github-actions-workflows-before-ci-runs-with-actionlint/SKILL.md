@@ -5,9 +5,12 @@ slug: prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint
 verification: listed
 source: https://github.com/rhysd/actionlint
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: rhysd/actionlint
+  github_stars: 3779
 ---
 # Prevent broken GitHub Actions workflows before CI runs with actionlint
 

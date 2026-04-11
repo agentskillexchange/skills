@@ -5,7 +5,7 @@ slug: mailgun-javascript-sdk-email-delivery-and-domain-operations
 verification: security_reviewed
 source: https://github.com/mailgun/mailgun.js
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 ---

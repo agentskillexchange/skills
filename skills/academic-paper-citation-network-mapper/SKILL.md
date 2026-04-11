@@ -5,7 +5,7 @@ slug: academic-paper-citation-network-mapper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/academic-paper-citation-network-mapper/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - OpenClaw
 ---

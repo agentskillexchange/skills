@@ -5,7 +5,7 @@ slug: dbt-cloud-mcp
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-cloud-mcp/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 ---

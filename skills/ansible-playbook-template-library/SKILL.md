@@ -5,7 +5,7 @@ slug: ansible-playbook-template-library
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-template-library/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - ChatGPT Agents
 ---

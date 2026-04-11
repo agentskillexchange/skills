@@ -9,7 +9,7 @@ category:
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: wonderwhy-er/DesktopCommanderMCP
+  github_repo: wonderwhy-er/desktopcommandermcp
   github_stars: 5826
 ---
 # Desktop Commander MCP Server for Terminal and File Control

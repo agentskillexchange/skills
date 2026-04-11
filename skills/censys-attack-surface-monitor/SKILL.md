@@ -5,7 +5,7 @@ slug: censys-attack-surface-monitor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/censys-attack-surface-monitor/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Custom Agents
 ---

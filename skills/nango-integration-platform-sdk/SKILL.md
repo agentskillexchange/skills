@@ -5,7 +5,7 @@ slug: nango-integration-platform-sdk
 verification: security_reviewed
 source: https://github.com/NangoHQ/nango
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 ---

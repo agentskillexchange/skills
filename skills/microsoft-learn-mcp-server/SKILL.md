@@ -5,11 +5,11 @@ slug: microsoft-learn-mcp-server
 verification: security_reviewed
 source: https://github.com/MicrosoftDocs/mcp
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: MicrosoftDocs/mcp
+  github_repo: microsoftdocs/mcp
   github_stars: 1536
 ---
 # Microsoft Learn MCP Server

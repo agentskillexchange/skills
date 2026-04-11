@@ -5,7 +5,7 @@ slug: remote-control-tmux-sessions-for-interactive-cli-agents
 verification: security_reviewed
 source: https://github.com/openclaw/skills/tree/main/skills/steipete/tmux
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

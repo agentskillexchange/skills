@@ -5,7 +5,7 @@ slug: semgrep-sast-scanner-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-sast-scanner-skill/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - OpenClaw
 ---

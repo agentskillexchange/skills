@@ -5,7 +5,7 @@ slug: todoist-sync-api-task-orchestrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/todoist-sync-api-task-orchestrator/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Gemini
 ---

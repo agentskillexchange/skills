@@ -5,7 +5,7 @@ slug: api-documentation-indexer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/api-documentation-indexer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: snowflake-mcp
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snowflake-mcp/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - MCP
 ---

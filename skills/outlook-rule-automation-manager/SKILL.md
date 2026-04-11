@@ -5,7 +5,7 @@ slug: outlook-rule-automation-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/outlook-rule-automation-manager/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 ---

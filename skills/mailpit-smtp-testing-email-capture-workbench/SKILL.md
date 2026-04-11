@@ -5,7 +5,7 @@ slug: mailpit-smtp-testing-email-capture-workbench
 verification: security_reviewed
 source: https://mailpit.axllent.org/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 ---

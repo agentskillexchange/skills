@@ -5,7 +5,7 @@ slug: postgresql-health-diagnostics-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - MCP
 ---

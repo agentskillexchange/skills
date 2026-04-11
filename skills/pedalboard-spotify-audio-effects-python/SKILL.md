@@ -5,12 +5,13 @@ slug: pedalboard-spotify-audio-effects-python
 verification: security_reviewed
 source: https://github.com/spotify/pedalboard
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: spotify/pedalboard
   github_stars: 6041
+  license: "GPL-3.0"
 ---
 # Pedalboard Python Audio Effects Library by Spotify
 

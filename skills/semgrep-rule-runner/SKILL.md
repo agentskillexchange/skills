@@ -5,7 +5,7 @@ slug: semgrep-rule-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-rule-runner/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Gemini
 ---

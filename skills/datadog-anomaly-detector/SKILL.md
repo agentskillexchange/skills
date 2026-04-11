@@ -5,7 +5,7 @@ slug: datadog-anomaly-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-anomaly-detector/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Gemini
 ---

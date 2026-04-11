@@ -5,7 +5,7 @@ slug: falco-runtime-security-monitor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/falco-runtime-security-monitor/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 - OpenClaw

@@ -5,7 +5,7 @@ slug: semgrep-rule-author
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-rule-author/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - OpenClaw
 ---

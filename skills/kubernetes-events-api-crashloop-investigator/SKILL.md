@@ -5,7 +5,7 @@ slug: kubernetes-events-api-crashloop-investigator
 verification: security_reviewed
 source: https://github.com/kubernetes/kubernetes
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - MCP
 tool_ecosystem:

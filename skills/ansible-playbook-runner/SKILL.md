@@ -5,7 +5,7 @@ slug: ansible-playbook-runner
 verification: security_reviewed
 source: https://github.com/ansible/ansible
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: prometheus-promql-alert-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-promql-alert-builder/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

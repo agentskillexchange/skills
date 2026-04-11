@@ -11,8 +11,9 @@ framework:
 tool_ecosystem:
   github_repo: devexpress/testcafe
   github_stars: 9915
-  ase_npm_package: testcafe
+  npm_package: testcafe
   npm_weekly_downloads: 203242
+  license: "MIT"
 ---
 # TestCafe Zero-Config End-to-End Browser Testing Framework
 

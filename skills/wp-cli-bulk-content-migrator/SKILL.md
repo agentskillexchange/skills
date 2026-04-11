@@ -5,7 +5,7 @@ slug: wp-cli-bulk-content-migrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wp-cli-bulk-content-migrator/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - OpenClaw
 ---

@@ -5,11 +5,11 @@ slug: xsv-high-performance-csv-toolkit
 verification: security_reviewed
 source: https://github.com/BurntSushi/xsv
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: BurntSushi/xsv
+  github_repo: burntsushi/xsv
   github_stars: 10758
 ---
 # xsv High-Performance CSV Toolkit

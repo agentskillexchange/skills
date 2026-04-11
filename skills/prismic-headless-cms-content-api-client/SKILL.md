@@ -5,7 +5,7 @@ slug: prismic-headless-cms-content-api-client
 verification: security_reviewed
 source: https://github.com/prismicio/prismic-client
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

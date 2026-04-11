@@ -5,7 +5,7 @@ slug: podcast-rss-feed-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/podcast-rss-feed-builder/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Claude Agents
 ---

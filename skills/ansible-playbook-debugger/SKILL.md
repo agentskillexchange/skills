@@ -5,7 +5,7 @@ slug: ansible-playbook-debugger
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-debugger/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

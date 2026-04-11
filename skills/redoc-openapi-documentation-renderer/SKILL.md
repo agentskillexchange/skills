@@ -5,13 +5,13 @@ slug: redoc-openapi-documentation-renderer
 verification: security_reviewed
 source: https://github.com/Redocly/redoc
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: Redocly/redoc
+  github_repo: redocly/redoc
   github_stars: 25596
-  ase_npm_package: redoc
+  npm_package: redoc
   npm_weekly_downloads: 1275803
 ---
 # Redoc OpenAPI Documentation Renderer

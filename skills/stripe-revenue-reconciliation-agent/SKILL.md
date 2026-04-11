@@ -5,7 +5,7 @@ slug: stripe-revenue-reconciliation-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Codex
 ---

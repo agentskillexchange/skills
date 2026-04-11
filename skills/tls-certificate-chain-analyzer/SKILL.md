@@ -5,7 +5,7 @@ slug: tls-certificate-chain-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - MCP
 ---

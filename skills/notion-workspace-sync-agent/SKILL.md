@@ -5,7 +5,7 @@ slug: notion-workspace-sync-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-workspace-sync-agent/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 ---

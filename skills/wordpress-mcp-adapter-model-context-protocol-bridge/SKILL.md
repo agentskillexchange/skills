@@ -5,11 +5,11 @@ slug: wordpress-mcp-adapter-model-context-protocol-bridge
 verification: security_reviewed
 source: https://github.com/WordPress/mcp-adapter
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - MCP
 tool_ecosystem:
-  github_repo: WordPress/mcp-adapter
+  github_repo: wordpress/mcp-adapter
   github_stars: 792
 ---
 # WordPress MCP Adapter Model Context Protocol Bridge

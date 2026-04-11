@@ -5,7 +5,7 @@ slug: kubernetes-runbook-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-runbook-generator/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

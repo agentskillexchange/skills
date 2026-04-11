@@ -5,7 +5,7 @@ slug: docker-container-health-check-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-container-health-check-runbook/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Cursor
 ---

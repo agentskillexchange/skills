@@ -5,7 +5,7 @@ slug: dbt-model-transformation-architect
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-model-transformation-architect/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Agents
 ---

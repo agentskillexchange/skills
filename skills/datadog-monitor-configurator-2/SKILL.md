@@ -5,7 +5,7 @@ slug: datadog-monitor-configurator-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitor-configurator-2/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - OpenClaw
 ---

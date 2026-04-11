@@ -5,7 +5,7 @@ slug: apify-actor-web-crawler
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apify-actor-web-crawler/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Agents
 ---

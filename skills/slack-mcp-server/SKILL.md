@@ -5,7 +5,7 @@ slug: slack-mcp-server
 verification: security_reviewed
 source: https://github.com/modelcontextprotocol/servers
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Claude Code
 - Cursor

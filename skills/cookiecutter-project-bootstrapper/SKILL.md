@@ -5,7 +5,7 @@ slug: cookiecutter-project-bootstrapper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Gemini
 ---

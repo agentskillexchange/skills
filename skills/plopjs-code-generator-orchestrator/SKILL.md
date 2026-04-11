@@ -5,13 +5,13 @@ slug: plopjs-code-generator-orchestrator
 verification: security_reviewed
 source: https://github.com/plopjs/plop
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - ChatGPT Agents
 tool_ecosystem:
   github_repo: plopjs/plop
   github_stars: 7636
-  ase_npm_package: plop
+  npm_package: plop
   npm_weekly_downloads: 1346790
 ---
 # Plop.js Code Generator Orchestrator

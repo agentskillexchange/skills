@@ -5,7 +5,7 @@ slug: ms-outlook-mail-sorter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ms-outlook-mail-sorter/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Claude Code
 ---

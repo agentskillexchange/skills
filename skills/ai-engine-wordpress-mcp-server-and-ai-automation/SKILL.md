@@ -5,7 +5,7 @@ slug: ai-engine-wordpress-mcp-server-and-ai-automation
 verification: security_reviewed
 source: https://github.com/jordymeow/ai-engine
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - MCP
 tool_ecosystem:

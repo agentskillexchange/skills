@@ -5,7 +5,7 @@ slug: terraform-state-inspector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-state-inspector/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: firebase-google-app-development-platform
 verification: listed
 source: https://github.com/firebase/firebase-js-sdk
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

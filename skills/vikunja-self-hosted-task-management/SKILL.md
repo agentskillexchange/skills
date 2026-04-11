@@ -5,12 +5,13 @@ slug: vikunja-self-hosted-task-management
 verification: security_reviewed
 source: https://github.com/go-vikunja/vikunja
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: go-vikunja/vikunja
   github_stars: 3768
+  license: "AGPL-3.0"
 ---
 # Vikunja Self-Hosted Task Management and Project Organization Platform
 

@@ -5,7 +5,7 @@ slug: ffmpeg-clip-extractor-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-clip-extractor-agent/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Claude Code
 ---

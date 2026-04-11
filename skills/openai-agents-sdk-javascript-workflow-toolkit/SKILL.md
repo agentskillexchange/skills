@@ -5,7 +5,7 @@ slug: openai-agents-sdk-javascript-workflow-toolkit
 verification: security_reviewed
 source: https://github.com/openai/openai-agents-js
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 ---

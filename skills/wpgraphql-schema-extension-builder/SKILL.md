@@ -5,7 +5,7 @@ slug: wpgraphql-schema-extension-builder
 verification: security_reviewed
 source: https://github.com/wp-graphql/wp-graphql
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Claude Code
 tool_ecosystem:

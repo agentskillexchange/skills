@@ -5,7 +5,7 @@ slug: langsmith-sdk-for-llm-tracing-and-evaluation
 verification: security_reviewed
 source: https://github.com/langchain-ai/langsmith-sdk
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: youtube-chapter-generator-transcripts
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/youtube-chapter-generator-transcripts/
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - OpenClaw
 ---

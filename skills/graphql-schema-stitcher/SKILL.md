@@ -5,7 +5,7 @@ slug: graphql-schema-stitcher
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-stitcher/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

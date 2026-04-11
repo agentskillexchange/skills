@@ -5,7 +5,7 @@ slug: handbrake-open-source-video-transcoder
 verification: security_reviewed
 source: https://github.com/HandBrake/HandBrake
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:

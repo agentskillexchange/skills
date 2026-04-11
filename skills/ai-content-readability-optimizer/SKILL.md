@@ -5,7 +5,7 @@ slug: ai-content-readability-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ai-content-readability-optimizer/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Codex
 ---

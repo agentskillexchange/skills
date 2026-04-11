@@ -5,7 +5,7 @@ slug: cheerio-dom-extraction-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Codex
 ---

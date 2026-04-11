@@ -5,7 +5,7 @@ slug: browserless-scraping-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/browserless-scraping-agent/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Cursor
 ---

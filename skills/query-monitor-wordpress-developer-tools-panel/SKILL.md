@@ -5,12 +5,13 @@ slug: query-monitor-wordpress-developer-tools-panel
 verification: security_reviewed
 source: https://github.com/johnbillion/query-monitor
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: johnbillion/query-monitor
   github_stars: 1743
+  license: "GPL-2.0"
 ---
 # Query Monitor WordPress Developer Tools Panel
 

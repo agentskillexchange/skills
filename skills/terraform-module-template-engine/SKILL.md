@@ -5,7 +5,7 @@ slug: terraform-module-template-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-module-template-engine/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Gemini
 ---

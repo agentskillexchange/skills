@@ -5,7 +5,7 @@ slug: notion-to-pdf-knowledge-exporter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Codex
 ---

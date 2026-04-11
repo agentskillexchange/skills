@@ -5,13 +5,13 @@ slug: metabase-open-source-business-intelligence-and-embedded-analytics
 verification: security_reviewed
 source: https://github.com/metabase/metabase
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: metabase/metabase
   github_stars: 46821
-  ase_npm_package: metabase
+  npm_package: metabase
   npm_weekly_downloads: 9
 ---
 # Metabase Open Source Business Intelligence and Embedded Analytics

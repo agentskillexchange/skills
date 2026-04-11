@@ -5,7 +5,7 @@ slug: beautifulsoup-academic-paper-parser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/beautifulsoup-academic-paper-parser/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - MCP
 ---

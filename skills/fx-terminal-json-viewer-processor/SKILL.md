@@ -5,13 +5,13 @@ slug: fx-terminal-json-viewer-processor
 verification: security_reviewed
 source: https://github.com/antonmedv/fx
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: antonmedv/fx
   github_stars: 20376
-  ase_npm_package: fx
+  npm_package: fx
   npm_weekly_downloads: 190694
 ---
 # fx Terminal JSON Viewer and Processor

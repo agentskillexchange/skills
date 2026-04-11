@@ -5,7 +5,7 @@ slug: datadog-apm-trace-query-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

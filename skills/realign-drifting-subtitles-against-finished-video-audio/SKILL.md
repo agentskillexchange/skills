@@ -5,7 +5,7 @@ slug: realign-drifting-subtitles-against-finished-video-audio
 verification: security_reviewed
 source: https://github.com/baxtree/subaligner
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

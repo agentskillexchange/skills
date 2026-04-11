@@ -5,7 +5,7 @@ slug: investigate-backend-only-wordpress-performance-bottlenecks
 verification: security_reviewed
 source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-performance
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Multi-Framework
 ---

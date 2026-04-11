@@ -5,7 +5,7 @@ slug: gron-greppable-json-flattener
 verification: security_reviewed
 source: https://github.com/tomnomnom/gron
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

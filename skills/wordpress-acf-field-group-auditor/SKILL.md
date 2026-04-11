@@ -5,7 +5,7 @@ slug: wordpress-acf-field-group-auditor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wordpress-acf-field-group-auditor/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - OpenClaw
 ---

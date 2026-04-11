@@ -5,7 +5,7 @@ slug: sentry-for-ai
 verification: security_reviewed
 source: https://github.com/getsentry/sentry-for-ai
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Code
 - Cursor

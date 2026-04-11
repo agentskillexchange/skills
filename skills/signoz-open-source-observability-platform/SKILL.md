@@ -5,7 +5,7 @@ slug: signoz-open-source-observability-platform
 verification: security_reviewed
 source: https://github.com/SigNoz/signoz
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 ---

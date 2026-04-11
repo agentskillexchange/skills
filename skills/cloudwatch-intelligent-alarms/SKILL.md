@@ -5,7 +5,7 @@ slug: cloudwatch-intelligent-alarms
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - ChatGPT Agents
 ---

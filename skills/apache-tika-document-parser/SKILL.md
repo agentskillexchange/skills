@@ -5,7 +5,7 @@ slug: apache-tika-document-parser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-tika-document-parser/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Gemini
 ---

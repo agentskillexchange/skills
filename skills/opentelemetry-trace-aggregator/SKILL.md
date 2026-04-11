@@ -5,7 +5,7 @@ slug: opentelemetry-trace-aggregator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/opentelemetry-trace-aggregator/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - OpenClaw
 ---

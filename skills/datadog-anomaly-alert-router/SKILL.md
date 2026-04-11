@@ -5,7 +5,7 @@ slug: datadog-anomaly-alert-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-anomaly-alert-router/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

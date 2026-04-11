@@ -5,7 +5,7 @@ slug: github-rest-api-paginator-library
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/github-rest-api-paginator-library/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Codex
 ---

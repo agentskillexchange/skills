@@ -5,7 +5,7 @@ slug: better-auth-authentication-framework-typescript-applications
 verification: security_reviewed
 source: https://github.com/better-auth/better-auth
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:

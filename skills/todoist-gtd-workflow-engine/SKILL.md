@@ -5,7 +5,7 @@ slug: todoist-gtd-workflow-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - MCP
 ---

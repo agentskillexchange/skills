@@ -5,7 +5,7 @@ slug: stripe-api-reference-navigator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-api-reference-navigator/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - OpenClaw
 ---

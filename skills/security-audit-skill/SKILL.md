@@ -5,7 +5,7 @@ slug: security-audit-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/security-audit-skill/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: oauth2-flow-debugger
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/oauth2-flow-debugger/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: infisical-secret-management-platform
 verification: security_reviewed
 source: https://github.com/Infisical/infisical
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

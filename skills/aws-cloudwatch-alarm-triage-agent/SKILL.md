@@ -5,7 +5,7 @@ slug: aws-cloudwatch-alarm-triage-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-agent/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: audio-stem-separator-demucs
 verification: security_reviewed
 source: https://github.com/adefossez/demucs
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - MCP
 tool_ecosystem:

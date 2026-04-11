@@ -5,7 +5,7 @@ slug: oauth2-token-introspection-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/oauth2-token-introspection-agent/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 ---

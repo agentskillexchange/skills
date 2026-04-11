@@ -5,7 +5,7 @@ slug: docmost-open-source-collaborative-wiki-documentation
 verification: security_reviewed
 source: https://github.com/docmost/docmost
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:

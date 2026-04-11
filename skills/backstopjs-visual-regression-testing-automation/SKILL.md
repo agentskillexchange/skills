@@ -9,9 +9,9 @@ category:
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: garris/BackstopJS
+  github_repo: garris/backstopjs
   github_stars: 7116
-  ase_npm_package: backstopjs
+  npm_package: backstopjs
   npm_weekly_downloads: 59794
 ---
 # BackstopJS Visual Regression Testing Automation

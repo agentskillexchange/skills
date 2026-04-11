@@ -5,7 +5,7 @@ slug: cron-job-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cron-job-manager/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Code
 ---

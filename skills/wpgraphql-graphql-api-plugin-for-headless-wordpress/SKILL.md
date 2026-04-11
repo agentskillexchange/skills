@@ -5,7 +5,7 @@ slug: wpgraphql-graphql-api-plugin-for-headless-wordpress
 verification: security_reviewed
 source: https://github.com/wp-graphql/wp-graphql
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

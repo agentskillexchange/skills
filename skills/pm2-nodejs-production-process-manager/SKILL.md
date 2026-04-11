@@ -5,11 +5,11 @@ slug: pm2-nodejs-production-process-manager
 verification: security_reviewed
 source: https://github.com/Unitech/pm2
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: Unitech/pm2
+  github_repo: unitech/pm2
   github_stars: 43034
 ---
 # PM2 Node.js Production Process Manager with Load Balancing

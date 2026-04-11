@@ -5,12 +5,13 @@ slug: realtimestt-low-latency-speech-to-text-python
 verification: security_reviewed
 source: https://github.com/KoljaB/RealtimeSTT
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: koljab/realtimestt
   github_stars: 9615
+  license: "MIT"
 ---
 # RealtimeSTT Low-Latency Speech-to-Text Python Library
 

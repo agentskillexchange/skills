@@ -5,7 +5,7 @@ slug: owasp-zap-security-audit-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Code
 ---

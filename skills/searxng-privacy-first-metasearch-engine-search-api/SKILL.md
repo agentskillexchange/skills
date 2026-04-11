@@ -5,7 +5,7 @@ slug: searxng-privacy-first-metasearch-engine-search-api
 verification: security_reviewed
 source: https://github.com/searxng/searxng
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 ---

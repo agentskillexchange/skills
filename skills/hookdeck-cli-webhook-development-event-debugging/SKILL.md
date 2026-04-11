@@ -5,7 +5,7 @@ slug: hookdeck-cli-webhook-development-event-debugging
 verification: security_reviewed
 source: https://github.com/hookdeck/hookdeck-cli
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

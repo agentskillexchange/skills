@@ -5,7 +5,7 @@ slug: ansible-playbook-dry-run-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

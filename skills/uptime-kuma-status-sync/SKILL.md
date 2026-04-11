@@ -5,7 +5,7 @@ slug: uptime-kuma-status-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/uptime-kuma-status-sync/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Claude Agents
 ---

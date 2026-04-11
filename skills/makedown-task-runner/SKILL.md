@@ -5,7 +5,7 @@ slug: makedown-task-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/makedown-task-runner/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Code
 ---

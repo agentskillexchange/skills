@@ -5,7 +5,7 @@ slug: nginx-config-validator-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-config-validator-optimizer/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - MCP
 ---

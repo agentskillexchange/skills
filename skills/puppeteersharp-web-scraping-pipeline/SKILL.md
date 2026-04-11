@@ -5,7 +5,7 @@ slug: puppeteersharp-web-scraping-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/puppeteersharp-web-scraping-pipeline/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Claude Code
 ---

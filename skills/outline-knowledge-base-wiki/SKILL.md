@@ -5,7 +5,7 @@ slug: outline-knowledge-base-wiki
 verification: security_reviewed
 source: https://github.com/outline/outline
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 ---

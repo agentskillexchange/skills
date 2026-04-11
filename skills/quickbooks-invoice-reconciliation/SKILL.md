@@ -5,7 +5,7 @@ slug: quickbooks-invoice-reconciliation
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/quickbooks-invoice-reconciliation/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Claude Code
 ---

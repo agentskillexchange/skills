@@ -5,7 +5,7 @@ slug: remove-ai-writing-fingerprints-from-draft-copy
 verification: security_reviewed
 source: https://github.com/brandonwise/humanizer
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - OpenClaw
 tool_ecosystem:

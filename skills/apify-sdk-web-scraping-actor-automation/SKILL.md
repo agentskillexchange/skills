@@ -5,7 +5,7 @@ slug: apify-sdk-web-scraping-actor-automation
 verification: security_reviewed
 source: https://github.com/apify/apify-sdk-js
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 ---

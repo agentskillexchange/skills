@@ -5,7 +5,7 @@ slug: graphql-schema-drift-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-drift-detector/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

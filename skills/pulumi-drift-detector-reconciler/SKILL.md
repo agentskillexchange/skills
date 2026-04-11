@@ -5,7 +5,7 @@ slug: pulumi-drift-detector-reconciler
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Codex
 ---

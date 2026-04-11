@@ -5,11 +5,11 @@ slug: age-modern-file-encryption-tool
 verification: security_reviewed
 source: https://github.com/FiloSottile/age
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:
-  github_repo: FiloSottile/age
+  github_repo: filosottile/age
   github_stars: 21824
 ---
 # age Modern File Encryption Tool

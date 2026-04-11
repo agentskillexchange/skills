@@ -5,7 +5,7 @@ slug: cookiecutter-project-bootstrap
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-bootstrap/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - MCP
 ---

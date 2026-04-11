@@ -5,13 +5,13 @@ slug: blurhash-compact-image-placeholder-encoder
 verification: security_reviewed
 source: https://github.com/woltapp/blurhash
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: woltapp/blurhash
   github_stars: 16958
-  ase_npm_package: blurhash
+  npm_package: blurhash
   npm_weekly_downloads: 847217
 ---
 # BlurHash Compact Image Placeholder Encoder

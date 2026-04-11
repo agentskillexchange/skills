@@ -5,7 +5,7 @@ slug: trivy-security-scanner-containers-iac
 verification: security_reviewed
 source: https://github.com/aquasecurity/trivy
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 ---

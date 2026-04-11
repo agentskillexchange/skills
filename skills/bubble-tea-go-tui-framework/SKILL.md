@@ -5,12 +5,13 @@ slug: bubble-tea-go-tui-framework
 verification: security_reviewed
 source: https://github.com/charmbracelet/bubbletea
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: charmbracelet/bubbletea
   github_stars: 41168
+  license: "MIT"
 ---
 # Bubble Tea Go TUI Framework by Charmbracelet
 

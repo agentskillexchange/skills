@@ -5,7 +5,7 @@ slug: swagger-openapi-validator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/swagger-openapi-validator/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Code
 ---

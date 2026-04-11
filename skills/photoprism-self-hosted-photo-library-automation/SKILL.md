@@ -5,7 +5,7 @@ slug: photoprism-self-hosted-photo-library-automation
 verification: security_reviewed
 source: https://github.com/photoprism/photoprism
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 ---

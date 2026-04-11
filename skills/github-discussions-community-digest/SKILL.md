@@ -5,7 +5,7 @@ slug: github-discussions-community-digest
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/github-discussions-community-digest/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 ---

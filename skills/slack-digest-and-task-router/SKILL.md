@@ -5,7 +5,7 @@ slug: slack-digest-and-task-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/slack-digest-and-task-router/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - OpenClaw
 ---

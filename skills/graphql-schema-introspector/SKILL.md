@@ -5,7 +5,7 @@ slug: graphql-schema-introspector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-introspector/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - MCP
 ---

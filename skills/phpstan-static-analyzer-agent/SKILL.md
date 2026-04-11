@@ -5,7 +5,7 @@ slug: phpstan-static-analyzer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/phpstan-static-analyzer-agent/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - OpenClaw
 ---

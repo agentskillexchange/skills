@@ -5,7 +5,7 @@ slug: postgresql-query-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-query-analyzer/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

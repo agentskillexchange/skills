@@ -5,12 +5,13 @@ slug: ntfy-self-hosted-push-notification-server
 verification: listed
 source: https://github.com/binwiederhier/ntfy
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: binwiederhier/ntfy
   github_stars: 29493
+  license: "Apache-2.0"
 ---
 # ntfy Self-Hosted Push Notification Server
 

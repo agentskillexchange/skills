@@ -5,7 +5,7 @@ slug: papermark-document-sharing-analytics
 verification: security_reviewed
 source: https://github.com/mfts/papermark
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

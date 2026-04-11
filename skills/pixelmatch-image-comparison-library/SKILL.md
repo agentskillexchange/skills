@@ -5,7 +5,7 @@ slug: pixelmatch-image-comparison-library
 verification: security_reviewed
 source: https://github.com/mapbox/pixelmatch
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - Multi-Framework
 ---

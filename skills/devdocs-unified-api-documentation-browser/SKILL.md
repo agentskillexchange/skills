@@ -5,11 +5,11 @@ slug: devdocs-unified-api-documentation-browser
 verification: security_reviewed
 source: https://github.com/freeCodeCamp/devdocs
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:
-  github_repo: freeCodeCamp/devdocs
+  github_repo: freecodecamp/devdocs
   github_stars: 38655
 ---
 # DevDocs Unified API Documentation Browser

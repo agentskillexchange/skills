@@ -5,7 +5,7 @@ slug: nx-workspace-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nx-workspace-generator/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - Claude Code
 ---

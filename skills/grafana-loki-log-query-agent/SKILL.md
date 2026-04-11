@@ -5,7 +5,7 @@ slug: grafana-loki-log-query-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-loki-log-query-agent/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - MCP
 ---

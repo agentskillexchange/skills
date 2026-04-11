@@ -5,7 +5,7 @@ slug: ansible-playbook-diagnostics-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - Gemini
 ---

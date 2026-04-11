@@ -5,12 +5,13 @@ slug: horcrux-shamir-secret-file-splitter
 verification: security_reviewed
 source: https://github.com/jesseduffield/horcrux
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: jesseduffield/horcrux
   github_stars: 5041
+  license: "MIT"
 ---
 # Horcrux Shamir Secret Sharing File Encryption and Splitting Tool
 

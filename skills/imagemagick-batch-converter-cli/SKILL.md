@@ -5,7 +5,7 @@ slug: imagemagick-batch-converter-cli
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/imagemagick-batch-converter-cli/
 category:
-- Image &amp; Creative Automation
+- Image &amp;amp; Creative Automation
 framework:
 - OpenClaw
 ---

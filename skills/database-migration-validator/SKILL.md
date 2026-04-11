@@ -5,7 +5,7 @@ slug: database-migration-validator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/database-migration-validator/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - OpenClaw
 ---

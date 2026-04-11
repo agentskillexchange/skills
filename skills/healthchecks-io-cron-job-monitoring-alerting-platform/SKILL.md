@@ -5,7 +5,7 @@ slug: healthchecks-io-cron-job-monitoring-alerting-platform
 verification: security_reviewed
 source: https://github.com/healthchecks/healthchecks
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

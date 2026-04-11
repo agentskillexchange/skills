@@ -5,7 +5,7 @@ slug: pandas-dataframe-pipeline-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Cursor
 ---

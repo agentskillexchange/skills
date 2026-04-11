@@ -5,7 +5,7 @@ slug: sonarqube-quality-gate-monitor-3
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-quality-gate-monitor-3/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: tls-certificate-chain-validator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/tls-certificate-chain-validator/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - OpenClaw
 ---

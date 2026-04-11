@@ -5,7 +5,7 @@ slug: infisical-cli-secrets-injection-and-access-management
 verification: security_reviewed
 source: https://github.com/Infisical/cli
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 ---

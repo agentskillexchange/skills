@@ -5,7 +5,7 @@ slug: stripe-payments-connector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-payments-connector/
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - ChatGPT Agents
 ---

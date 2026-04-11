@@ -5,7 +5,7 @@ slug: sonarqube-quality-gate-enforcer-14
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - MCP
 ---

@@ -11,7 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: withastro/astro
   github_stars: 57979
-  ase_npm_package: astro
+  npm_package: astro
   npm_weekly_downloads: 1918129
 ---
 # Astro Content-Driven Web Framework

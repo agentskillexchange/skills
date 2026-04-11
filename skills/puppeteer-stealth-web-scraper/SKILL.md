@@ -5,7 +5,7 @@ slug: puppeteer-stealth-web-scraper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Cursor
 ---

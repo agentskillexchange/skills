@@ -5,7 +5,7 @@ slug: openapi-sdk-generator-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-sdk-generator-pipeline/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Custom Agents
 ---

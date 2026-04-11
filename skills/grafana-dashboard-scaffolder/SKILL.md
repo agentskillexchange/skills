@@ -5,7 +5,7 @@ slug: grafana-dashboard-scaffolder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Cursor
 ---

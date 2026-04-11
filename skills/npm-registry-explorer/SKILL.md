@@ -5,7 +5,7 @@ slug: npm-registry-explorer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-registry-explorer/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Agents
 ---

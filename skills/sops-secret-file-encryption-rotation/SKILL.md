@@ -5,7 +5,7 @@ slug: sops-secret-file-encryption-rotation
 verification: security_reviewed
 source: https://github.com/getsops/sops
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
 ---

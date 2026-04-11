@@ -5,7 +5,7 @@ slug: scrapegraphai-llm-web-scraping
 verification: security_reviewed
 source: https://github.com/ScrapeGraphAI/Scrapegraph-ai
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Custom Agents
 ---

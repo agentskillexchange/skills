@@ -5,7 +5,7 @@ slug: apache-superset-dashboard-sql-exploration-skill
 verification: security_reviewed
 source: https://github.com/apache/superset
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

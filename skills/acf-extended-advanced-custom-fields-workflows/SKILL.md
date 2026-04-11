@@ -5,7 +5,7 @@ slug: acf-extended-advanced-custom-fields-workflows
 verification: security_reviewed
 source: https://github.com/acf-extended/ACF-Extended
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 ---

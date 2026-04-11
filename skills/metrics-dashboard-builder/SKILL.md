@@ -5,7 +5,7 @@ slug: metrics-dashboard-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/metrics-dashboard-builder/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Claude Agents
 ---

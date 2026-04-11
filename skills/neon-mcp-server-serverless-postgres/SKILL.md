@@ -5,12 +5,13 @@ slug: neon-mcp-server-serverless-postgres
 verification: security_reviewed
 source: https://github.com/neondatabase/mcp-server-neon
 category:
-- Integrations &amp; Connectors
+- Integrations &amp;amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: neondatabase/mcp-server-neon
   github_stars: 567
+  license: "MIT"
 ---
 # Neon MCP Server for Serverless Postgres Management
 

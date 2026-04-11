@@ -5,7 +5,7 @@ slug: faustjs-headless-wordpress-toolkit-nextjs
 verification: security_reviewed
 source: https://github.com/wpengine/faustjs
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

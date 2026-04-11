@@ -5,13 +5,13 @@ slug: msw-api-mocking-skill-frontend-integration-tests
 verification: security_reviewed
 source: https://github.com/mswjs/msw
 category:
-- Code Quality &amp; Review
+- Code Quality &amp;amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: mswjs/msw
   github_stars: 17809
-  ase_npm_package: msw
+  npm_package: msw
   npm_weekly_downloads: 13943239
 ---
 # MSW API Mocking Skill for Frontend and Integration Tests

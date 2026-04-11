@@ -5,12 +5,13 @@ slug: languagetool-grammar-style-checker
 verification: security_reviewed
 source: https://github.com/languagetool-org/languagetool
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: languagetool-org/languagetool
   github_stars: 14238
+  license: "LGPL-2.1"
 ---
 # LanguageTool Grammar and Style Checker
 

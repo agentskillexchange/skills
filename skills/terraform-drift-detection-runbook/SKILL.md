@@ -5,7 +5,7 @@ slug: terraform-drift-detection-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-drift-detection-runbook/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks &amp;amp; Diagnostics
 framework:
 - MCP
 ---

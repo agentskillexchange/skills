@@ -5,7 +5,7 @@ slug: nodemailer-nodejs-email-sending-library
 verification: security_reviewed
 source: https://github.com/nodemailer/nodemailer
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 ---

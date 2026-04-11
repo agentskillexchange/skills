@@ -5,7 +5,7 @@ slug: twenty-open-source-crm-salesforce-alternative
 verification: security_reviewed
 source: https://github.com/twentyhq/twenty
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email &amp;amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

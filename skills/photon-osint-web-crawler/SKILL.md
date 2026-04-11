@@ -5,11 +5,11 @@ slug: photon-osint-web-crawler
 verification: security_reviewed
 source: https://github.com/s0md3v/Photon
 category:
-- Research &amp; Scraping
+- Research &amp;amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
-  github_repo: s0md3v/Photon
+  github_repo: s0md3v/photon
   github_stars: 12795
 ---
 # Photon High-Speed OSINT Web Crawler and Data Extractor

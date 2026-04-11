@@ -5,7 +5,7 @@ slug: terraform-module-scaffold-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-module-scaffold-generator/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - OpenClaw
 ---

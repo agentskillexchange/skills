@@ -5,7 +5,7 @@ slug: whishper-self-hosted-speech-to-text-audio-workflow-skill
 verification: security_reviewed
 source: https://github.com/pluja/whishper
 category:
-- Media &amp; Transcription
+- Media &amp;amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,9 +5,12 @@ slug: generate-adversarial-api-test-cases-from-openapi-or-graphql-schema
 verification: security_reviewed
 source: https://github.com/schemathesis/schemathesis
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Multi-Framework
+tool_ecosystem:
+  github_repo: schemathesis/schemathesis
+  github_stars: 3211
 ---
 # Generate adversarial API test cases from an OpenAPI or GraphQL schema
 

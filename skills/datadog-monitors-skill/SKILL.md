@@ -5,7 +5,7 @@ slug: datadog-monitors-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitors-skill/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Codex
 ---

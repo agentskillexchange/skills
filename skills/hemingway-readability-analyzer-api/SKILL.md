@@ -5,7 +5,7 @@ slug: hemingway-readability-analyzer-api
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/
 category:
-- Content Writing &amp; SEO
+- Content Writing &amp;amp; SEO
 framework:
 - Cursor
 ---

@@ -11,6 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: terrastruct/d2
   github_stars: 23316
+  license: "MPL-2.0"
 ---
 # D2 Modern Diagram Scripting Language and CLI
 

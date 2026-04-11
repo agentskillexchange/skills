@@ -5,7 +5,7 @@ slug: grafana-dashboard-json-assembler
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-dashboard-json-assembler/
 category:
-- Monitoring &amp; Alerts
+- Monitoring &amp;amp; Alerts
 framework:
 - Cursor
 ---

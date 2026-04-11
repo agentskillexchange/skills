@@ -5,7 +5,7 @@ slug: sigstore-cosign-verifier-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sigstore-cosign-verifier-2/
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Cursor
 ---

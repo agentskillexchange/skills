@@ -5,12 +5,13 @@ slug: xq-command-line-xml-html-beautifier-content-extractor
 verification: security_reviewed
 source: https://github.com/sibprogrammer/xq
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction &amp;amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: sibprogrammer/xq
   github_stars: 1100
+  license: "MIT"
 ---
 # xq Command-Line XML and HTML Beautifier and Content Extractor
 

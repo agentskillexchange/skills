@@ -5,7 +5,7 @@ slug: wp-multisite-network-sync-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wp-multisite-network-sync-agent/
 category:
-- WordPress &amp; CMS
+- WordPress &amp;amp; CMS
 framework:
 - OpenClaw
 ---

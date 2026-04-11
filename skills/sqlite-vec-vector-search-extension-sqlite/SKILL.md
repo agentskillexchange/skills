@@ -11,7 +11,7 @@ framework:
 tool_ecosystem:
   github_repo: asg017/sqlite-vec
   github_stars: 7331
-  ase_npm_package: sqlite-vec
+  npm_package: sqlite-vec
   npm_weekly_downloads: 1425917
 ---
 # sqlite-vec Vector Search Extension for SQLite

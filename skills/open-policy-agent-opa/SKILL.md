@@ -5,7 +5,7 @@ slug: open-policy-agent-opa
 verification: security_reviewed
 source: https://github.com/open-policy-agent/opa
 category:
-- Security &amp; Verification
+- Security &amp;amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:

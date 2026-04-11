@@ -5,7 +5,7 @@ slug: graphql-introspection-documenter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-introspection-documenter/
 category:
-- Library &amp; API Reference
+- Library &amp;amp; API Reference
 framework:
 - Claude Agents
 ---

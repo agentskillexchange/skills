@@ -5,7 +5,7 @@ slug: docker-compose-test-harness
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-compose-test-harness/
 category:
-- Templates &amp; Workflows
+- Templates &amp;amp; Workflows
 framework:
 - MCP
 ---
