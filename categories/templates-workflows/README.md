@@ -73,6 +73,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | — | — |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | — | — |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | — | — |
+| [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |
 | [Cron Job Manager](../../skills/cron-job-manager/) | — | — |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | — | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | — | — |

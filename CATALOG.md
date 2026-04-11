@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1888 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 15:21 UTC
+> **1891 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 17:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -430,7 +430,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (135 skills)
+### 🔄 Data Extraction & Transformation (136 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -515,6 +515,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains.… | Security Reviewed | — | — |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | Cheerio is a long-running Node.js library for parsing and manipulating HTML and XML with a jQuery-like API. It is… | Security Reviewed | — | — |
 | [ClickHouse Query Agent](skills/clickhouse-query-agent/) | ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is… | Security Reviewed | — | — |
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as… | Published | — | — |
 | [CSV Schema Validator & Auto-Fixer](skills/csv-schema-validator-auto-fixer/) | Validates CSV files against JSON Schema definitions using AJV and csv-parse. Automatically detects and repairs type… | Security Reviewed | — | — |
 | [dbt Cloud MCP](skills/dbt-cloud-mcp/) | dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [dbt Data Transform Orchestrator](skills/dbt-data-transform-orchestrator/) | Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs,… | Security Reviewed | — | — |
@@ -1785,7 +1786,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (80 skills)
+### 📄 Templates & Workflows (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1832,6 +1833,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Cookiecutter Project Scaffolding Agent](skills/cookiecutter-project-scaffolding-agent/) | Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2… | Security Reviewed | — | — |
 | [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | — | — |
 | [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | — | — |
+| [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Published | — | — |
 | [Cron Job Manager](skills/cron-job-manager/) | Cron Job Manager is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | — | — |
 | [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | — | — |
@@ -1873,7 +1875,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (79 skills)
+### 🎨 Image & Creative Automation (80 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1930,6 +1932,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
 | [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
 | [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
+| [Generate reproducible algorithmic art sketches with seeded p5.js randomness](skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art,… | Published | — | — |
 | [ImageMagick Batch Converter CLI](skills/imagemagick-batch-converter-cli/) | Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports… | Security Reviewed | — | — |
 | [ImageMagick Batch Processor](skills/imagemagick-batch-processor/) | Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark,… | Security Reviewed | — | — |
 | [ImageMagick Batch Transform Agent](skills/imagemagick-batch-transform-agent/) | Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset… | Security Reviewed | — | — |

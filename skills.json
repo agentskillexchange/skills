@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 1888,
+  "total": 1891,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness",
+      "name": "Generate reproducible algorithmic art sketches with seeded p5.js randomness",
+      "description": "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "create-and-repair-word-documents-with-layout-safe-docx-workflows",
+      "name": "Create and repair Word documents with layout-safe DOCX workflows",
+      "description": "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
+      "name": "Create, repair, and recalculate spreadsheet workbooks without breaking formulas",
+      "description": "Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as spreadsheet deliverables,…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6",
       "name": "Convert browser HAR captures into reusable k6 load tests with har-to-k6",

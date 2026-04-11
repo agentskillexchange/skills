@@ -112,6 +112,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | — | — |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | — | — |
 | [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | — | — |
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | — | — |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | — | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | — | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | — | — |
