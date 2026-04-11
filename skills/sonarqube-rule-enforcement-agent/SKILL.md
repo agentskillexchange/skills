@@ -1,12 +1,11 @@
 ---
 title: "SonarQube Rule Enforcement Agent"
+slug: "sonarqube-rule-enforcement-agent"
 description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds."
-verification: security_reviewed
+category: "Code Quality &amp; Review"
+framework: "Claude Code"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-rule-enforcement-agent/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Claude Code"
 ---
 
 # SonarQube Rule Enforcement Agent
@@ -15,13 +14,13 @@ Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

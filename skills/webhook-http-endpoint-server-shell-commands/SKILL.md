@@ -1,12 +1,11 @@
 ---
 title: "Webhook Lightweight HTTP Endpoint Server for Shell Command Execution"
+slug: "webhook-http-endpoint-server-shell-commands"
 description: "Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute shell commands. It supports JSON and YAML hook definitions with rule-based triggering, request payload parsing, and data passthrough to scripts via command-line arguments or environment variables."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/adnanh/webhook"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "adnanh/webhook"
   github_stars: 11718
@@ -19,13 +18,13 @@ Webhook is a lightweight, configurable tool written in Go that creates HTTP endp
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

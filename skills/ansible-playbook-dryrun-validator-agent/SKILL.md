@@ -1,12 +1,11 @@
 ---
 title: "Ansible Playbook Dry-Run Validator"
+slug: "ansible-playbook-dryrun-validator-agent"
 description: "Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs."
-verification: security_reviewed
+category: "Runbooks &amp; Diagnostics"
+framework: "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Cursor"
 ---
 
 # Ansible Playbook Dry-Run Validator
@@ -15,13 +14,13 @@ Validates Ansible playbooks in check mode using ansible-playbook –check –dif
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

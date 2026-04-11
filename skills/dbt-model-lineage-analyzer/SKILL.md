@@ -1,12 +1,11 @@
 ---
 title: "dbt Model Lineage Analyzer"
+slug: "dbt-model-lineage-analyzer"
 description: "Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the dbt Core manifest.json for model dependency analysis."
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Claude Agents"
 ---
 
 # dbt Model Lineage Analyzer
@@ -15,13 +14,13 @@ Parses dbt project manifests and catalog artifacts to build complete data lineag
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

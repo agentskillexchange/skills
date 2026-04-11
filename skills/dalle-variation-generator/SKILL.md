@@ -1,12 +1,11 @@
 ---
 title: "DALL-E Variation Generator"
+slug: "dalle-variation-generator"
 description: "Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "ChatGPT Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dalle-variation-generator/"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "ChatGPT Agents"
 ---
 
 # DALL-E Variation Generator
@@ -15,13 +14,13 @@ Generates image variations and edits using OpenAI’s DALL-E 3 API with mask-bas
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

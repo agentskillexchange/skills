@@ -1,12 +1,11 @@
 ---
 title: "Remove AI Writing Fingerprints from Draft Copy"
+slug: "remove-ai-writing-fingerprints-from-draft-copy"
 description: "Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that preserve the original point. This is for cleanup and editing passes, not for generating copy from scratch."
-verification: listed
+category: "Content Writing &amp; SEO"
+framework: "OpenClaw"
+verification: "security_reviewed"
 source: "https://github.com/brandonwise/humanizer"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "OpenClaw"
 tool_ecosystem:
   github_repo: "brandonwise/humanizer"
   github_stars: 44
@@ -18,13 +17,13 @@ Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, an
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

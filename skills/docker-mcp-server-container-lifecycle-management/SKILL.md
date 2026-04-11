@@ -1,12 +1,11 @@
 ---
 title: "Docker MCP Server for Container Lifecycle Management"
+slug: "docker-mcp-server-container-lifecycle-management"
 description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/ckreiling/mcp-server-docker"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "ckreiling/mcp-server-docker"
   github_stars: 695
@@ -18,13 +17,13 @@ An MCP server that enables AI agents to manage Docker containers, images, volume
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Upstash MCP Server for Redis and QStash Management"
+slug: "upstash-mcp-server-redis-qstash-management"
 description: "An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector stores through natural language. Supports database creation, key operations, backups, and throughput analytics via the Model Context Protocol."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/upstash/mcp-server"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52
@@ -18,13 +17,13 @@ An official MCP server from Upstash that lets AI agents manage Redis databases, 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

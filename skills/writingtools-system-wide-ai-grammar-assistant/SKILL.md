@@ -1,12 +1,11 @@
 ---
 title: "WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS"
+slug: "writingtools-system-wide-ai-grammar-assistant"
 description: "WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites text, summarizes content, and more using cloud or local LLMs."
-verification: security_reviewed
+category: "Content Writing &amp; SEO"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/theJayTea/WritingTools"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186
@@ -18,13 +17,13 @@ WritingTools is an open-source, Apple Intelligence-inspired writing assistant th
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

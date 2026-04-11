@@ -1,12 +1,11 @@
 ---
 title: "Advanced Custom Fields REST Schema Mapper"
+slug: "advanced-custom-fields-rest-schema-mapper"
 description: "Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely."
-verification: security_reviewed
+category: "WordPress &amp; CMS"
+framework: "Cursor"
+verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Cursor"
 ---
 
 # Advanced Custom Fields REST Schema Mapper
@@ -15,13 +14,13 @@ Maps ACF field groups into predictable REST responses using `acf_add_local_field
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

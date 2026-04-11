@@ -1,12 +1,11 @@
 ---
 title: "Sentry MCP Server"
+slug: "sentry-mcp-server"
 description: "Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
-verification: security_reviewed
+category: "Monitoring &amp; Alerts"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 626
@@ -20,13 +19,13 @@ Sentry’s official MCP server connects your error monitoring stack to any MCP c
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

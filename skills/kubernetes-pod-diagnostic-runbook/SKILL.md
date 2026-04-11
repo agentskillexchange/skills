@@ -1,12 +1,11 @@
 ---
 title: "Kubernetes Pod Diagnostic Runbook"
+slug: "kubernetes-pod-diagnostic-runbook"
 description: "Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API. Runs diagnostic sequences for CrashLoopBackOff, ImagePullBackOff, OOMKilled, and pending pod states."
-verification: security_reviewed
+category: "Runbooks &amp; Diagnostics"
+framework: "Codex"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Codex"
 ---
 
 # Kubernetes Pod Diagnostic Runbook
@@ -15,13 +14,13 @@ Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

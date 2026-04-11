@@ -1,30 +1,30 @@
 ---
 title: "Postman Collection Runner"
-description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]"
-verification: security_reviewed
+slug: "postman-collection-runner"
+description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational c"
+category: "Library &amp; API Reference"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/postmanlabs/newman"
-category:
-  - "Library & API Reference"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7203
+  npm_package: "newman"
 ---
 
 # Postman Collection Runner
 
-Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]
+Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational c
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

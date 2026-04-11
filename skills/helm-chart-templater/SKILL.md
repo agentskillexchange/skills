@@ -1,12 +1,11 @@
 ---
 title: "Helm Chart Templater"
+slug: "helm-chart-templater"
 description: "Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema generation via json-schema-generator and chart dependency resolution with helm dependency update."
-verification: security_reviewed
+category: "Templates &amp; Workflows"
+framework: "Gemini"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/helm-chart-templater/"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Gemini"
 ---
 
 # Helm Chart Templater
@@ -15,13 +14,13 @@ Generates and validates Kubernetes Helm charts using helm template and helm lint
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

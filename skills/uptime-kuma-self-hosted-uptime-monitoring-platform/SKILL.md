@@ -1,17 +1,16 @@
 ---
 title: "Uptime Kuma Self-Hosted Uptime Monitoring Platform"
+slug: "uptime-kuma-self-hosted-uptime-monitoring-platform"
 description: "Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a concrete way to create, update, and review monitors, incidents, notifications, and public status pages from a self-hosted monitoring stack."
-verification: security_reviewed
+category: "Monitoring &amp; Alerts"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/louislam/uptime-kuma"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "louislam/uptime-kuma"
-  github_stars: 85056
+  github_stars: 85100
   npm_package: "uptime-kuma"
-  npm_weekly_downloads: 85
+  npm_weekly_downloads: 95
 ---
 
 # Uptime Kuma Self-Hosted Uptime Monitoring Platform
@@ -20,13 +19,13 @@ Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, a
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

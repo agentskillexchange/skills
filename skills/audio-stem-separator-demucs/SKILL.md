@@ -1,12 +1,11 @@
 ---
 title: "Audio Stem Separator with Demucs"
+slug: "audio-stem-separator-demucs"
 description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
-verification: security_reviewed
+category: "Media &amp; Transcription"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
-category:
-  - "Media & Transcription"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "adefossez/demucs"
   github_stars: 2507
@@ -18,13 +17,13 @@ Separates audio tracks into individual stems (vocals, drums, bass, other) using 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

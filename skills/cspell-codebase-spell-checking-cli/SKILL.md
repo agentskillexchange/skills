@@ -1,12 +1,11 @@
 ---
 title: "CSpell Codebase Spell Checking CLI"
+slug: "cspell-codebase-spell-checking-cli"
 description: "CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and ignore mechanisms that work well in real repositories. It helps agents and teams catch noisy typos before they land in code review, docs, or CI output."
-verification: security_reviewed
+category: "Code Quality &amp; Review"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/streetsidesoftware/cspell"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
 ---
 
 # CSpell Codebase Spell Checking CLI
@@ -15,13 +14,13 @@ CSpell is a spell checker built for source code, configuration files, and docume
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "WooCommerce REST Inventory Sync"
+slug: "woocommerce-rest-inventory-sync"
 description: "Synchronizes WooCommerce product inventory across multiple channels using the WooCommerce REST API v3 and wp_update_post hooks. Handles stock level reconciliation, low-stock alerts via WP-CLI, and batch product updates through the /wc/v3/products/batch endpoint."
-verification: security_reviewed
+category: "WordPress &amp; CMS"
+framework: "OpenClaw"
+verification: "security_reviewed"
 source: "https://github.com/woocommerce/woocommerce"
-category:
-  - "WordPress & CMS"
-framework:
-  - "OpenClaw"
 tool_ecosystem:
   github_repo: "woocommerce/woocommerce"
   github_stars: 10243
@@ -18,13 +17,13 @@ Synchronizes WooCommerce product inventory across multiple channels using the Wo
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

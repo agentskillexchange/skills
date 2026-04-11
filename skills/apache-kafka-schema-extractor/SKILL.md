@@ -1,12 +1,11 @@
 ---
 title: "Apache Kafka Schema Extractor"
+slug: "apache-kafka-schema-extractor"
 description: "Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema Registry REST API."
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "Codex"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-schema-extractor/"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Codex"
 ---
 
 # Apache Kafka Schema Extractor
@@ -15,13 +14,13 @@ Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Conflue
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

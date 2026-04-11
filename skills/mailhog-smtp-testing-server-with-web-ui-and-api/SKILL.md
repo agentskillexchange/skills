@@ -1,16 +1,11 @@
 ---
 title: "MailHog SMTP Testing Server with Web UI and API"
+slug: "mailhog-smtp-testing-server-with-web-ui-and-api"
 description: "Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a practical fit for debugging transactional mail, verifying templates, and testing delivery behavior without sending messages to real recipients."
-verification: security_reviewed
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/mailhog/MailHog"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mailhog/mailhog"
-  github_stars: 15892
-  license: "MIT"
 ---
 
 # MailHog SMTP Testing Server with Web UI and API
@@ -19,13 +14,13 @@ Uses MailHog to capture outbound email in development and test environments thro
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

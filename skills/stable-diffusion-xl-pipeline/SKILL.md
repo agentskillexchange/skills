@@ -1,12 +1,11 @@
 ---
 title: "Stable Diffusion XL Pipeline"
+slug: "stable-diffusion-xl-pipeline"
 description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "Claude Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Claude Agents"
 ---
 
 # Stable Diffusion XL Pipeline
@@ -15,13 +14,13 @@ Orchestrates SDXL image generation via the Stability AI REST API with ControlNet
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Semgrep Security Review Agent"
+slug: "semgrep-security-review-agent"
 description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with custom rule YAML authoring."
-verification: security_reviewed
+category: "Code Quality &amp; Review"
+framework: "Claude Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Claude Agents"
 ---
 
 # Semgrep Security Review Agent
@@ -15,13 +14,13 @@ Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWA
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

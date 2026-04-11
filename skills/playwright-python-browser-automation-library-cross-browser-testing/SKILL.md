@@ -1,15 +1,14 @@
 ---
 title: "Playwright Python Browser Automation Library for Cross-Browser Testing"
+slug: "playwright-python-browser-automation-library-cross-browser-testing"
 description: "Playwright for Python is Microsoft’s cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments."
-verification: security_reviewed
+category: "Browser Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-python"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright-python"
-  github_stars: 14500
+  github_stars: 14504
   license: "Apache-2.0"
 ---
 
@@ -19,13 +18,13 @@ Playwright for Python is Microsoft’s cross-browser automation library for Chro
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

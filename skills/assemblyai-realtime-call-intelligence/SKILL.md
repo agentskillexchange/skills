@@ -1,12 +1,11 @@
 ---
 title: "AssemblyAI Real-Time Call Intelligence"
+slug: "assemblyai-realtime-call-intelligence"
 description: "Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting speaker-diarized transcripts with word-level timestamps. Triggers entity detection and sentiment analysis via AssemblyAI LeMUR on completed call segments. Results are pushed to HubSpot or Salesforce contact records via their REST APIs."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-realtime-call-intelligence/"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Custom Agents"
 ---
 
 # AssemblyAI Real-Time Call Intelligence
@@ -15,13 +14,13 @@ Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time t
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

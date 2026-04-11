@@ -1,12 +1,11 @@
 ---
 title: "aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch"
+slug: "aerc-extensible-terminal-email-client"
 description: "aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and Notmuch. It features Vim-like keybindings, email threading, HTML rendering, built-in patch management, and deep UNIX integration through pipes and commands."
-verification: security_reviewed
+category: "Calendar, Email &amp; Productivity"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://git.sr.ht/~rjarry/aerc"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Custom Agents"
 ---
 
 # aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch
@@ -15,13 +14,13 @@ aerc is a terminal-based email client written in Go with first-class support for
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

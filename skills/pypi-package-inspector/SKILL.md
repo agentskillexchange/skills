@@ -1,12 +1,11 @@
 ---
 title: "PyPI Package Inspector"
+slug: "pypi-package-inspector"
 description: "Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database."
-verification: security_reviewed
+category: "Library &amp; API Reference"
+framework: "Gemini"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pypi-package-inspector/"
-category:
-  - "Library & API Reference"
-framework:
-  - "Gemini"
 ---
 
 # PyPI Package Inspector
@@ -15,13 +14,13 @@ Queries the PyPI JSON API and the libraries.io API to analyze Python package met
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

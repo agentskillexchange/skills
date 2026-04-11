@@ -1,12 +1,11 @@
 ---
 title: "Cariddi Domain Crawler and Endpoint Secret Scanner"
+slug: "cariddi-domain-crawler-endpoint-secret-scanner"
 description: "Cariddi is a Go-based security tool that takes a list of domains, crawls their URLs, and scans for endpoints, secrets, API keys, file extensions, tokens, and errors. It supports configurable concurrency, depth limits, proxy routing, and multiple output formats."
-verification: security_reviewed
+category: "Security &amp; Verification"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/edoardottt/cariddi"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
 ---
 
 # Cariddi Domain Crawler and Endpoint Secret Scanner
@@ -15,13 +14,13 @@ Cariddi is a Go-based security tool that takes a list of domains, crawls their U
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

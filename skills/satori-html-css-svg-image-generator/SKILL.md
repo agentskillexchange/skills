@@ -1,15 +1,11 @@
 ---
 title: "Satori HTML and CSS to SVG Image Generator by Vercel"
+slug: "satori-html-css-svg-image-generator"
 description: "Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open Graph image generation for dynamic social cards, blog previews, and branded assets using a JSX-like API with full Flexbox layout support and custom font rendering."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/vercel/satori"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "vercel/satori"
-  github_stars: 13234
 ---
 
 # Satori HTML and CSS to SVG Image Generator by Vercel
@@ -18,13 +14,13 @@ Satori is a high-performance library by Vercel that converts HTML and CSS markup
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

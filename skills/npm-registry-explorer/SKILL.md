@@ -1,12 +1,11 @@
 ---
 title: "npm Registry Explorer"
+slug: "npm-registry-explorer"
 description: "Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated packages, and checks bundle sizes via Bundlephobia API."
-verification: security_reviewed
+category: "Library &amp; API Reference"
+framework: "Claude Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Agents"
 ---
 
 # npm Registry Explorer
@@ -15,13 +14,13 @@ Queries the npm registry API and npms.io search API for package discovery, depen
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

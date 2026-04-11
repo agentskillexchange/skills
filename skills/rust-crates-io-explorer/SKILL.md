@@ -1,12 +1,11 @@
 ---
 title: "Rust Crates.io Explorer"
+slug: "rust-crates-io-explorer"
 description: "Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing."
-verification: security_reviewed
+category: "Library &amp; API Reference"
+framework: "Claude Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Agents"
 ---
 
 # Rust Crates.io Explorer
@@ -15,13 +14,13 @@ Searches the crates.io REST API for Rust crate metadata, version diffs, and feat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

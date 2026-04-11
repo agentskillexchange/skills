@@ -1,12 +1,11 @@
 ---
 title: "Notion AI Document Summarizer & Action Item Extractor"
+slug: "notion-ai-doc-summarizer"
 description: "Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
-verification: security_reviewed
+category: "Calendar, Email &amp; Productivity"
+framework: "Claude Code"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Claude Code"
 ---
 
 # Notion AI Document Summarizer & Action Item Extractor
@@ -15,13 +14,13 @@ Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoint
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

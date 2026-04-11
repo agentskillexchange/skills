@@ -1,12 +1,11 @@
 ---
 title: "Terraform Plan Reviewer"
+slug: "terraform-plan-reviewer-4"
 description: "Parses Terraform plan JSON output from terraform show -json and the hashicorp/terraform-exec Go SDK. Identifies destructive changes, cost implications via Infracost API, and generates approval summaries."
-verification: security_reviewed
+category: "CI/CD Integrations"
+framework: "Claude Code"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-plan-reviewer-4/"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
 ---
 
 # Terraform Plan Reviewer
@@ -15,13 +14,13 @@ Parses Terraform plan JSON output from terraform show -json and the hashicorp/te
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

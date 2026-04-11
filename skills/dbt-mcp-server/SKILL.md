@@ -1,12 +1,11 @@
 ---
 title: "dbt MCP Server"
+slug: "dbt-mcp-server"
 description: "dbt MCP Server is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context […]"
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-mcp-server/"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
 ---
 
 # dbt MCP Server
@@ -15,13 +14,13 @@ dbt MCP Server is built around dbt transformation framework. The underlying ecos
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

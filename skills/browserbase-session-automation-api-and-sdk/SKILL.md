@@ -1,17 +1,16 @@
 ---
 title: "Browserbase Session Automation API and SDK"
+slug: "browserbase-session-automation-api-and-sdk"
 description: "Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable browser infrastructure without managing Chromium fleets directly. This skill packages the Browserbase API and SDK into a concrete workflow for running, monitoring, and extracting results from cloud browser sessions."
-verification: security_reviewed
+category: "Browser Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/browserbase/sdk-node"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/sdk-node"
   github_stars: 61
   npm_package: "@browserbasehq/sdk"
-  npm_weekly_downloads: 778552
+  npm_weekly_downloads: 818291
   license: "Apache-2.0"
 ---
 
@@ -21,13 +20,13 @@ Use Browserbase when an agent needs hosted browser sessions, remote automation, 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

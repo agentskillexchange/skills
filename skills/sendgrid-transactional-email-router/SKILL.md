@@ -1,12 +1,11 @@
 ---
 title: "SendGrid Transactional Email Router"
+slug: "sendgrid-transactional-email-router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Cursor"
 ---
 
 # SendGrid Transactional Email Router
@@ -15,13 +14,13 @@ Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

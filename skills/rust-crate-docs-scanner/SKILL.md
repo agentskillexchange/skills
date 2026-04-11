@@ -1,12 +1,11 @@
 ---
 title: "Rust Crate Docs Scanner"
+slug: "rust-crate-docs-scanner"
 description: "Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces including traits, impls, and derive macros with cross-crate dependency linking via docs.rs integration."
-verification: security_reviewed
+category: "Library &amp; API Reference"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-docs-scanner/"
-category:
-  - "Library & API Reference"
-framework:
-  - "Custom Agents"
 ---
 
 # Rust Crate Docs Scanner
@@ -15,13 +14,13 @@ Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

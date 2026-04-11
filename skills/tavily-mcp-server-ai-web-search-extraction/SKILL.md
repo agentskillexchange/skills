@@ -1,12 +1,11 @@
 ---
 title: "Tavily MCP Server for AI-Powered Web Search and Extraction"
+slug: "tavily-mcp-server-ai-web-search-extraction"
 description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption."
-verification: security_reviewed
+category: "Research &amp; Scraping"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/tavily-ai/tavily-mcp"
-category:
-  - "Research & Scraping"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "tavily-ai/tavily-mcp"
   github_stars: 1615
@@ -20,13 +19,13 @@ An official MCP server from Tavily that provides AI agents with real-time web se
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

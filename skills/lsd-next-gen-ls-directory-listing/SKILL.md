@@ -1,12 +1,11 @@
 ---
 title: "lsd Next-Generation ls Directory Listing Tool"
+slug: "lsd-next-gen-ls-directory-listing"
 description: "lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons via Nerd Fonts, tree view, and extensive formatting options while maintaining familiar ls command syntax."
-verification: security_reviewed
+category: "Developer Tools"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/lsd-rs/lsd"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "lsd-rs/lsd"
   github_stars: 15622
@@ -18,13 +17,13 @@ lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, ad
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

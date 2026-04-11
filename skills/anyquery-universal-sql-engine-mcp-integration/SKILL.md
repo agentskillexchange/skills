@@ -1,12 +1,11 @@
 ---
 title: "Anyquery Universal SQL Engine with MCP Integration"
+slug: "anyquery-universal-sql-engine-mcp-integration"
 description: "Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub, Notion, Chrome, and Apple Notes. Built on SQLite with MCP server support for connecting AI agents to structured data across services."
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "MCP"
+verification: "security_reviewed"
 source: "https://github.com/julien040/anyquery"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
 tool_ecosystem:
   github_repo: "julien040/anyquery"
   github_stars: 1655
@@ -18,13 +17,13 @@ Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, an
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

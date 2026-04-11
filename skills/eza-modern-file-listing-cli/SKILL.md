@@ -1,12 +1,11 @@
 ---
 title: "eza Modern File Listing CLI"
+slug: "eza-modern-file-listing-cli"
 description: "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary."
-verification: security_reviewed
+category: "Developer Tools"
+framework: "Claude Code"
+verification: "security_reviewed"
 source: "https://github.com/eza-community/eza"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
 tool_ecosystem:
   github_repo: "eza-community/eza"
   github_stars: 20929
@@ -18,13 +17,13 @@ A modern, maintained replacement for the ls command, written in Rust. eza provid
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

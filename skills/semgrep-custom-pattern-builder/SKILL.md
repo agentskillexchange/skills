@@ -1,12 +1,11 @@
 ---
 title: "Semgrep Custom Pattern Builder"
+slug: "semgrep-custom-pattern-builder"
 description: "Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations."
-verification: security_reviewed
+category: "Code Quality &amp; Review"
+framework: "Codex"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Codex"
 ---
 
 # Semgrep Custom Pattern Builder
@@ -15,13 +14,13 @@ Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Ge
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

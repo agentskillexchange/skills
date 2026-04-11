@@ -1,12 +1,11 @@
 ---
 title: "Vercel Agent Browser"
+slug: "vercel-agent-browser"
 description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
-verification: security_reviewed
+category: "Browser Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/vercel-labs/agent-browser"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 ---
 
 # Vercel Agent Browser
@@ -15,13 +14,13 @@ Vercel Agent Browser is a browser automation CLI built specifically for AI agent
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "DALL-E Prompt Engineering Kit"
+slug: "dall-e-prompt-engineering-kit"
 description: "Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "ChatGPT Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "ChatGPT Agents"
 ---
 
 # DALL-E Prompt Engineering Kit
@@ -15,13 +14,13 @@ Structured prompt generation for OpenAI’s DALL-E 3 API (images/generations end
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

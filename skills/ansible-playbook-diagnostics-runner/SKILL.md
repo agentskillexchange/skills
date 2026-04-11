@@ -1,12 +1,11 @@
 ---
 title: "Ansible Playbook Diagnostics Runner"
+slug: "ansible-playbook-diagnostics-runner"
 description: "Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts."
-verification: security_reviewed
+category: "Runbooks &amp; Diagnostics"
+framework: "Gemini"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Gemini"
 ---
 
 # Ansible Playbook Diagnostics Runner
@@ -15,13 +14,13 @@ Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collectio
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

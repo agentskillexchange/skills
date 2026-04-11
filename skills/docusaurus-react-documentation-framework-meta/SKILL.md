@@ -1,17 +1,16 @@
 ---
 title: "Docusaurus React Documentation Framework by Meta"
+slug: "docusaurus-react-documentation-framework-meta"
 description: "Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation websites, blogs, and marketing pages with Markdown content, versioning support, and a rich plugin ecosystem."
-verification: security_reviewed
+category: "Developer Tools"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/facebook/docusaurus"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/docusaurus"
   github_stars: 64315
   npm_package: "docusaurus"
-  npm_weekly_downloads: 21265
+  npm_weekly_downloads: 19313
   license: "MIT"
 ---
 
@@ -21,13 +20,13 @@ Docusaurus is an open-source static site generator built with React, developed a
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

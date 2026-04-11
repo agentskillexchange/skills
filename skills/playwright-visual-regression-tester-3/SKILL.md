@@ -1,12 +1,11 @@
 ---
 title: "Playwright Visual Regression Tester"
+slug: "playwright-visual-regression-tester-3"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
-verification: security_reviewed
+category: "Browser Automation"
+framework: "OpenClaw"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-visual-regression-tester-3/"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
 ---
 
 # Playwright Visual Regression Tester
@@ -15,13 +14,13 @@ Automates visual regression testing using the Playwright screenshot comparison A
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

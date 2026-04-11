@@ -1,16 +1,11 @@
 ---
 title: "LosslessCut FFmpeg-Powered Media Editor"
+slug: "losslesscut-ffmpeg-powered-media-editor"
 description: "Perform ultra-fast lossless trimming, cutting, and merging of video and audio files with LosslessCut. Built on FFmpeg, it handles direct data copy operations without re-encoding, preserving original quality while saving hours of processing time."
-verification: security_reviewed
+category: "Media &amp; Transcription"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/mifi/lossless-cut"
-category:
-  - "Media & Transcription"
-framework:
-  - "Custom Agents"
-tool_ecosystem:
-  github_repo: "mifi/lossless-cut"
-  github_stars: 39480
-  license: "GPL-2.0"
 ---
 
 # LosslessCut FFmpeg-Powered Media Editor
@@ -19,13 +14,13 @@ Perform ultra-fast lossless trimming, cutting, and merging of video and audio fi
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

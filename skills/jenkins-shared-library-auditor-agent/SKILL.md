@@ -1,12 +1,11 @@
 ---
 title: "Jenkins Shared Library Auditor"
+slug: "jenkins-shared-library-auditor-agent"
 description: "Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries."
-verification: security_reviewed
+category: "CI/CD Integrations"
+framework: "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-shared-library-auditor-agent/"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Cursor"
 ---
 
 # Jenkins Shared Library Auditor
@@ -15,13 +14,13 @@ Audits Jenkins shared libraries for security vulnerabilities using the Jenkins S
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

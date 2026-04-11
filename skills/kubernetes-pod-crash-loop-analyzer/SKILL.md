@@ -1,12 +1,11 @@
 ---
 title: "Kubernetes Pod Crash Loop Analyzer"
+slug: "kubernetes-pod-crash-loop-analyzer"
 description: "Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code analysis, and the Kubernetes Events API. Cross-references OOMKilled signals with Prometheus container_memory_rss metrics and cAdvisor stats for root cause identification."
-verification: security_reviewed
+category: "Runbooks &amp; Diagnostics"
+framework: "Cursor"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-loop-analyzer/"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Cursor"
 ---
 
 # Kubernetes Pod Crash Loop Analyzer
@@ -15,13 +14,13 @@ Diagnoses CrashLoopBackOff pods using kubectl describe, container exit code anal
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Plunk Open Source Transactional Email Platform on AWS SES"
+slug: "plunk-open-source-email-platform-aws-ses"
 description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
-verification: security_reviewed
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/useplunk/plunk"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "useplunk/plunk"
   github_stars: 4955
@@ -18,13 +17,13 @@ Plunk is an open-source email platform built on AWS SES for sending transactiona
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Maxun No-Code Web Data Extraction Platform"
+slug: "maxun-no-code-web-data-extraction"
 description: "Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It supports extraction via recorder mode and LLM-powered natural language mode, plus crawling, scraping, and search capabilities. With 15,000+ GitHub stars and both SDK and CLI interfaces, it handles everything from simple page scrapes to complex automated workflows."
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/getmaxun/maxun"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "getmaxun/maxun"
   github_stars: 15319
@@ -18,13 +17,13 @@ Maxun is an open-source no-code web data platform for turning any website into s
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Excalidraw Virtual Whiteboard and Diagram SDK"
+slug: "excalidraw-virtual-whiteboard-diagram-sdk"
 description: "Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. With 103k+ GitHub stars, it provides an infinite canvas, real-time collaboration, end-to-end encryption, and a React component library for embedding in custom applications."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "Multi-Framework"
+verification: "security_reviewed"
 source: "https://github.com/excalidraw/excalidraw"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886
@@ -19,13 +18,13 @@ Excalidraw is an open-source virtual whiteboard for creating hand-drawn style di
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,27 +1,26 @@
 ---
 title: "Fly.io Deployment Helper"
-description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
-verification: security_reviewed
+slug: "fly-io-deployment-helper"
+description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context"
+category: "Templates &amp; Workflows"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Custom Agents"
 ---
 
 # Fly.io Deployment Helper
 
-Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
+Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

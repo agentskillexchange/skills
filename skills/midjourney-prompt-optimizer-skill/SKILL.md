@@ -1,12 +1,11 @@
 ---
 title: "Midjourney Prompt Optimizer"
+slug: "midjourney-prompt-optimizer-skill"
 description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
-verification: security_reviewed
+category: "Image &amp; Creative Automation"
+framework: "Gemini"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Gemini"
 ---
 
 # Midjourney Prompt Optimizer
@@ -15,13 +14,13 @@ Analyze and optimize Midjourney prompts using parameter tuning for –ar, –sty
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

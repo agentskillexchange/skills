@@ -1,12 +1,11 @@
 ---
 title: "trdsql SQL Query Engine for CSV JSON and YAML Files"
+slug: "trdsql-sql-query-engine-csv-json-yaml-files"
 description: "trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports PostgreSQL and MySQL syntax, can join data across multiple files and databases, and outputs results in various formats including JSON, Markdown, and vertical display."
-verification: security_reviewed
+category: "Data Extraction &amp; Transformation"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/noborus/trdsql"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "noborus/trdsql"
   github_stars: 2154
@@ -18,13 +17,13 @@ trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

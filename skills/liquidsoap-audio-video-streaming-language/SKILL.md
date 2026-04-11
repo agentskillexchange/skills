@@ -1,12 +1,11 @@
 ---
 title: "Liquidsoap Audio and Video Streaming Language"
+slug: "liquidsoap-audio-video-streaming-language"
 description: "Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model."
-verification: security_reviewed
+category: "Media &amp; Transcription"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/savonet/liquidsoap"
-category:
-  - "Media & Transcription"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
   github_stars: 1638
@@ -19,13 +18,13 @@ Build audio and video streaming pipelines with Liquidsoap, a statically typed sc
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

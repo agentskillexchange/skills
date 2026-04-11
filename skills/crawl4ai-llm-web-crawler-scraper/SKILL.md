@@ -1,15 +1,11 @@
 ---
 title: "Crawl4AI LLM-Ready Web Crawler and Scraper"
+slug: "crawl4ai-llm-web-crawler-scraper"
 description: "Crawl4AI is an open-source web crawler that converts any website into clean, LLM-ready Markdown for RAG pipelines, AI agents, and data extraction workflows. With 50k+ GitHub stars and an async browser pool, it handles large-scale web extraction with anti-bot detection and deep crawl capabilities."
-verification: security_reviewed
+category: "Research &amp; Scraping"
+framework: "Custom Agents"
+verification: "security_reviewed"
 source: "https://github.com/unclecode/crawl4ai"
-category:
-  - "Research & Scraping"
-framework:
-  - "Custom Agents"
-tool_ecosystem:
-  github_repo: "unclecode/crawl4ai"
-  github_stars: 63132
 ---
 
 # Crawl4AI LLM-Ready Web Crawler and Scraper
@@ -18,13 +14,13 @@ Crawl4AI is an open-source web crawler that converts any website into clean, LLM
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Plaid Financial Data Connector"
+slug: "plaid-financial-data-connector"
 description: "Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API. Supports account balance polling, institution search, and webhook-driven sync."
-verification: security_reviewed
+category: "Integrations &amp; Connectors"
+framework: "Gemini"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/plaid-financial-data-connector/"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Gemini"
 ---
 
 # Plaid Financial Data Connector
@@ -15,13 +14,13 @@ Connects to bank accounts via Plaid Link SDK and retrieves transaction data usin
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 

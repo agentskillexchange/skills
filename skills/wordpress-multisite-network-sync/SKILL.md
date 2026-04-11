@@ -1,12 +1,11 @@
 ---
 title: "WordPress Multisite Network Sync"
+slug: "wordpress-multisite-network-sync"
 description: "Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites."
-verification: security_reviewed
+category: "WordPress &amp; CMS"
+framework: "Codex"
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/wordpress-multisite-network-sync/"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Codex"
 ---
 
 # WordPress Multisite Network Sync
@@ -15,13 +14,13 @@ Synchronizes plugin settings and theme mods across a WordPress Multisite network
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Clone or download this skill into your skills directory.
+2. Install it through your agent platform's skill manager if supported.
+3. Add it as a Git submodule or vendored folder in your repo.
+4. Copy the files into a local custom skills/workspace directory.
+5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
 
 ## Source
 
