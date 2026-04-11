@@ -7,10 +7,7 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
 tool_ecosystem:
-  github_repo: "gothenburgbitfactory/timewarrior"
-  github_stars: 1580
-  license: "MIT"
----
+  license: "MIT"---
 
 # Timewarrior Command-Line Time Tracking and Reporting
 

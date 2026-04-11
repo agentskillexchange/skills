@@ -7,12 +7,9 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Pagefind/pagefind"
 tool_ecosystem:
-  github_repo: "pagefind/pagefind"
-  github_stars: 5094
   npm_package: "pagefind"
   npm_weekly_downloads: 491115
-  license: "MIT"
----
+  license: "MIT"---
 
 # Pagefind Static Low-Bandwidth Search Engine
 

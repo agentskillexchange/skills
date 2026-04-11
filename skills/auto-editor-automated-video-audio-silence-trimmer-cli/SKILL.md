@@ -7,10 +7,7 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/WyattBlue/auto-editor"
 tool_ecosystem:
-  github_repo: "wyattblue/auto-editor"
-  github_stars: 4089
-  license: "Unlicense"
----
+  license: "Unlicense"---
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI
 

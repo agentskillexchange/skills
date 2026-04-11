@@ -7,10 +7,7 @@ framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordOps/WordOps"
 tool_ecosystem:
-  github_repo: "wordops/wordops"
-  github_stars: 1538
-  license: "MIT"
----
+  license: "MIT"---
 
 # WordOps High-Performance WordPress Server Stack Manager
 

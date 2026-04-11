@@ -7,12 +7,9 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/DavidAnson/markdownlint-cli2"
 tool_ecosystem:
-  github_repo: "davidanson/markdownlint-cli2"
-  github_stars: 740
   npm_package: "markdownlint-cli2"
   npm_weekly_downloads: 522496
-  license: "MIT"
----
+  license: "MIT"---
 
 # markdownlint-cli2 Markdown Linting for Docs and Repos
 

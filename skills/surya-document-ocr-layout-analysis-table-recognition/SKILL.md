@@ -7,10 +7,7 @@ framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/VikParuchuri/surya"
 tool_ecosystem:
-  github_repo: "vikparuchuri/surya"
-  github_stars: 19530
-  license: "GPL-3.0"
----
+  license: "GPL-3.0"---
 
 # Surya Document OCR with Layout Analysis and Table Recognition
 

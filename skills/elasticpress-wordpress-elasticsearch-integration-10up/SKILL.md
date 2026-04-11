@@ -7,10 +7,7 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/10up/ElasticPress"
 tool_ecosystem:
-  github_repo: "10up/elasticpress"
-  github_stars: 1297
-  license: "GPL-2.0"
----
+  license: "GPL-2.0"---
 
 # ElasticPress WordPress Elasticsearch Integration Plugin by 10up
 

@@ -7,10 +7,7 @@ framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
 tool_ecosystem:
-  github_repo: "gothenburgbitfactory/taskwarrior"
-  github_stars: 5685
-  license: "MIT"
----
+  license: "MIT"---
 
 # Taskwarrior Command-Line Task Management System
 
