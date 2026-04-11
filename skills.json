@@ -1,8 +1,50 @@
 {
   "version": "2.0",
-  "total": 1897,
+  "total": 1900,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository",
+      "name": "Audit and normalize SPDX license headers before releasing or open-sourcing a repository",
+      "description": "Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file. The agent checks compliance, adds or…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo",
+      "name": "Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo",
+      "description": "Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split.…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 12122
+      }
+    },
+    {
+      "slug": "validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge",
+      "name": "Validate CI and app config files against upstream JSON schemas before merge",
+      "description": "Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other schema-backed config files before they hit CI. The…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 312
+      }
+    },
     {
       "slug": "load-test-grpc-services-from-proto-files-and-reusable-request-fixtures",
       "name": "Load-test gRPC services from proto files and reusable request fixtures",
