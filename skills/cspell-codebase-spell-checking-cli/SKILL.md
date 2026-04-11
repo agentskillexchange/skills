@@ -4,7 +4,7 @@ description: "CSpell is a spell checker built for source code, configuration fil
 verification: "security_reviewed"
 source: "https://github.com/streetsidesoftware/cspell"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 ---

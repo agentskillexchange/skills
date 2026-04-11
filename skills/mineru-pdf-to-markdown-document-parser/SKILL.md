@@ -4,7 +4,7 @@ description: "Transforms complex PDFs into LLM-ready markdown and JSON using Min
 verification: "security_reviewed"
 source: "https://github.com/opendatalab/MinerU"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

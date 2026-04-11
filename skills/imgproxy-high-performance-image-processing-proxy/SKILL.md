@@ -4,7 +4,7 @@ description: "An agent skill built on imgproxy, the high-performance Go-based im
 verification: "security_reviewed"
 source: "https://github.com/imgproxy/imgproxy"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

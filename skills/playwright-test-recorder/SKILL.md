@@ -4,12 +4,13 @@ description: "Playwright Test Recorder is built around Playwright browser automa
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86048
+  npm_package: "playwright"
 ---
 
 # Playwright Test Recorder

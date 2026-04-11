@@ -4,7 +4,7 @@ description: "Constructs complex jq filter pipelines from natural language queri
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Gemini"
 ---

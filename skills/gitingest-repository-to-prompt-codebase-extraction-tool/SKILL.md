@@ -4,7 +4,7 @@ description: "Gitingest turns a Git repository into a prompt-friendly text bundl
 verification: "security_reviewed"
 source: "https://github.com/coderamp-labs/gitingest"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

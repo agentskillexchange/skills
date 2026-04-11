@@ -4,7 +4,7 @@ description: "Apache Kafka Stream Processor is built around Apache Kafka event s
 verification: "security_reviewed"
 source: "https://github.com/apache/kafka"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

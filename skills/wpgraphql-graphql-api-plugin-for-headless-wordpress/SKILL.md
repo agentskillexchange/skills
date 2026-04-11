@@ -4,7 +4,7 @@ description: "WPGraphQL is the core GraphQL API plugin for WordPress, giving dev
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

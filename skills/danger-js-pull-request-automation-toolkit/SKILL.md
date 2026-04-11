@@ -4,7 +4,7 @@ description: "Danger JS automates pull request review chores by running programm
 verification: "security_reviewed"
 source: "https://github.com/danger/danger-js"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 ---

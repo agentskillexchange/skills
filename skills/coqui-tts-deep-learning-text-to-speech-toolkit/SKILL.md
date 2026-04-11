@@ -4,7 +4,7 @@ description: "An agent skill built on Coqui TTS, the open-source deep learning t
 verification: "security_reviewed"
 source: "https://github.com/coqui-ai/TTS"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:

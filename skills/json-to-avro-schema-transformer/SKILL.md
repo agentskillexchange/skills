@@ -4,7 +4,7 @@ description: "Transforms JSON Schema definitions into Apache Avro schema format 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/json-to-avro-schema-transformer/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 ---

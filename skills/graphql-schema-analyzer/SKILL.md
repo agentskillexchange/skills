@@ -4,7 +4,7 @@ description: "Analyzes GraphQL schemas using graphql-js introspection and @graph
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-analyzer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "ChatGPT Agents"
 ---

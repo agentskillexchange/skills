@@ -4,7 +4,7 @@ description: "Compiles Protocol Buffer .proto files using protoc and generates A
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/protobuf-documentation-compiler/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Cursor"
 ---

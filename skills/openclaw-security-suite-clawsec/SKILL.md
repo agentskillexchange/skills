@@ -4,7 +4,7 @@ description: "Agent-layer security monitoring, drift detection, and integrity ve
 verification: "security_reviewed"
 source: "https://github.com/prompt-security/clawsec"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "OpenClaw"
 tool_ecosystem:

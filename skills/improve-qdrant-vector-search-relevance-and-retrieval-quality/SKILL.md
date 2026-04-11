@@ -4,7 +4,7 @@ description: "Use Qdrant’s official qdrant-search-quality skill when an agent 
 verification: "security_reviewed"
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
 ---

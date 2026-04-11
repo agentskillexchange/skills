@@ -4,12 +4,13 @@ description: "Crawlee is Apify’s open source web crawling and scraping library
 verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22714
+  npm_package: "@crawlee/root"
 ---
 
 # Crawlee Web Crawling and Scraping SDK

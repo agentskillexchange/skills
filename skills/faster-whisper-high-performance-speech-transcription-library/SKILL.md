@@ -4,7 +4,7 @@ description: "faster-whisper is SYSTRAN’s high-performance reimplementation of
 verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 ---

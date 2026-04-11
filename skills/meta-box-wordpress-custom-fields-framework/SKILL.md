@@ -4,7 +4,7 @@ description: "Meta Box is a professional WordPress framework for creating custom
 verification: "security_reviewed"
 source: "https://github.com/wpmetabox/meta-box"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

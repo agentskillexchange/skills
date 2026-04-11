@@ -4,7 +4,7 @@ description: "Runs ESLint with custom rulesets via the ESLint Node.js API and es
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "OpenClaw"
 ---

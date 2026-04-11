@@ -4,7 +4,7 @@ description: "gallery-dl is a command-line tool for downloading image galleries 
 verification: "security_reviewed"
 source: "https://github.com/mikf/gallery-dl"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

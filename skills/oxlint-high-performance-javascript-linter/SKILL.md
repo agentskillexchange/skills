@@ -4,7 +4,7 @@ description: "Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScrip
 verification: "security_reviewed"
 source: "https://github.com/oxc-project/oxc"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 tool_ecosystem:

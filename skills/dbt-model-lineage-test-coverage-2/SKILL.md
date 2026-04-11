@@ -4,7 +4,7 @@ description: "Parses dbt project artifacts (manifest.json and catalog.json) to b
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Cursor"
 ---

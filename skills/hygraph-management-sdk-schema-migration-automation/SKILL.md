@@ -4,7 +4,7 @@ description: "A source-backed ASE skill for the Hygraph Management SDK, the Java
 verification: "security_reviewed"
 source: "https://github.com/hygraph/management-sdk"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

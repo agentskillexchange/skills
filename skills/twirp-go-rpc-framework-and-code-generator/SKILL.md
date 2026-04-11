@@ -4,7 +4,7 @@ description: "Twirp is a protobuf-based RPC framework from Twitch that generates
 verification: "security_reviewed"
 source: "https://github.com/twitchtv/twirp"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---

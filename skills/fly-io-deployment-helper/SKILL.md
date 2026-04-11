@@ -4,7 +4,7 @@ description: "Fly.io Deployment Helper is built around GraphQL API ecosystem. Th
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/fly-io-deployment-helper/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 ---

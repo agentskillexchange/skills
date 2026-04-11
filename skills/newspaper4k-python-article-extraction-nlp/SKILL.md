@@ -4,7 +4,7 @@ description: "Newspaper4k is an actively maintained fork of the popular Newspape
 verification: "security_reviewed"
 source: "https://github.com/AndyTheFactory/newspaper4k"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 ---

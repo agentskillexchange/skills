@@ -4,7 +4,7 @@ description: "Generates JSON-LD structured data using schema-dts TypeScript defi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/schema-markup-generator-seo/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Codex"
 ---

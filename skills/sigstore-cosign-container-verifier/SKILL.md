@@ -4,7 +4,7 @@ description: "Verifies container image signatures and provenance using Sigstore 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 ---

@@ -4,7 +4,7 @@ description: "Use GitHub Agentic Workflows to let an agent triage issues, inspec
 verification: "security_reviewed"
 source: "https://github.com/github/gh-aw"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

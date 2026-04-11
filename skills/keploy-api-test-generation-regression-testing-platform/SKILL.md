@@ -4,7 +4,7 @@ description: "Keploy is an open source platform for generating API tests from re
 verification: "security_reviewed"
 source: "https://github.com/keploy/keploy"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 ---

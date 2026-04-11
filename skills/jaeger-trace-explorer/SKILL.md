@@ -4,7 +4,7 @@ description: "Jaeger Trace Explorer is built around Jaeger distributed tracing p
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jaeger-trace-explorer/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
 ---

@@ -4,7 +4,7 @@ description: "Analyzes Argo Workflows DAG templates to identify parallelization 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 ---

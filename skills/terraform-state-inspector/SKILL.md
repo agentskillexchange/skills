@@ -4,7 +4,7 @@ description: "Inspects and diagnoses Terraform state files using terraform CLI c
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-state-inspector/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
 ---

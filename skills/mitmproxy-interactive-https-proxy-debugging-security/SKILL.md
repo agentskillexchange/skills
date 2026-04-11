@@ -4,7 +4,7 @@ description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP pro
 verification: "security_reviewed"
 source: "https://github.com/mitmproxy/mitmproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

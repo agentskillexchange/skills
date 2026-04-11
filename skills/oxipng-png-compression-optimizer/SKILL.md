@@ -4,7 +4,7 @@ description: "Oxipng is a multithreaded lossless PNG and APNG compression optimi
 verification: "security_reviewed"
 source: "https://github.com/oxipng/oxipng"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

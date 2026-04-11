@@ -4,7 +4,7 @@ description: "SigNoz is an open-source observability platform built around OpenT
 verification: "security_reviewed"
 source: "https://github.com/SigNoz/signoz"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

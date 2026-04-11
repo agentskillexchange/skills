@@ -4,7 +4,7 @@ description: "Parses dbt manifest.json and catalog.json to extract full model li
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-mapper/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 ---

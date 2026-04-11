@@ -4,7 +4,7 @@ description: "Audits WordPress content drift by comparing live posts, revisions,
 verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "OpenClaw"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Infisical CLI retrieves, injects, and manages secrets across local
 verification: "security_reviewed"
 source: "https://github.com/Infisical/cli"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Separates audio tracks into individual stems (vocals, drums, bass,
 verification: "security_reviewed"
 source: "https://github.com/adefossez/demucs"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "MCP"
 tool_ecosystem:

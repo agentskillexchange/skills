@@ -4,7 +4,7 @@ description: "Federates data from multiple GraphQL and REST APIs using Apollo Fe
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-data-federation-agent/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 ---

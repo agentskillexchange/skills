@@ -4,7 +4,7 @@ description: "Tesseract OCR is a widely used open source optical character recog
 verification: "security_reviewed"
 source: "https://github.com/tesseract-ocr/tesseract"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

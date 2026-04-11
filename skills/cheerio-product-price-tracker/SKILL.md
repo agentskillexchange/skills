@@ -4,7 +4,7 @@ description: "Monitors e-commerce product prices using Cheerio.js for server-sid
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-product-price-tracker/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Agents"
 ---

@@ -4,7 +4,7 @@ description: "Extracts executable task definitions from Markdown files and runs 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/makedown-task-runner/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Claude Code"
 ---

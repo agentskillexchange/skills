@@ -4,7 +4,7 @@ description: "VitePress is a Vite and Vue powered static site generator focused 
 verification: "security_reviewed"
 source: "https://github.com/vuejs/vitepress"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 ---

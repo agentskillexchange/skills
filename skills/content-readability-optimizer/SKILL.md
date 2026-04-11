@@ -4,7 +4,7 @@ description: "Analyzes and optimizes content readability using textstat Python l
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/content-readability-optimizer/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "MCP"
 ---

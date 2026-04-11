@@ -4,7 +4,7 @@ description: "Executes structured Kubernetes rollback procedures using kubectl a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-rollback-runbook-3/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

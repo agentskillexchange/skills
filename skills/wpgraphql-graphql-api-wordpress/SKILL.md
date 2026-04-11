@@ -4,7 +4,7 @@ description: "Builds headless WordPress workflows around WPGraphQL, the open-sou
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

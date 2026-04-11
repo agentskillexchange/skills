@@ -4,7 +4,7 @@ description: "Creates Slack Workflow Builder automations using the Slack Web API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Claude Code"
 ---

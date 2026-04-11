@@ -4,7 +4,7 @@ description: "Faust.js by WP Engine is a JavaScript framework and WordPress plug
 verification: "security_reviewed"
 source: "https://github.com/wpengine/faustjs"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

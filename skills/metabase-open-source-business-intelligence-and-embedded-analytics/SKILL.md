@@ -4,7 +4,7 @@ description: "Metabase is an open source business intelligence platform for quer
 verification: "security_reviewed"
 source: "https://github.com/metabase/metabase"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

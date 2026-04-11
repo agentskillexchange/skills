@@ -4,7 +4,7 @@ description: "KeyBERT is a minimal and easy-to-use Python library that leverages
 verification: "security_reviewed"
 source: "https://github.com/MaartenGr/KeyBERT"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Custom Agents"
 tool_ecosystem:

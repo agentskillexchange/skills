@@ -4,7 +4,7 @@ description: "Yoast SEO is the long-running WordPress SEO plugin from Yoast, use
 verification: "listed"
 source: "https://github.com/Yoast/wordpress-seo"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Batch-generates brand assets using the OpenAI Images API with DALL
 verification: "security_reviewed"
 source: "https://platform.openai.com/docs/guides/images"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "OpenClaw"
 ---

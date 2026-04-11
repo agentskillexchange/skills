@@ -4,7 +4,7 @@ description: "Scan your AI agents, MCP servers, and skills for security vulnerab
 verification: "security_reviewed"
 source: "https://github.com/snyk/agent-scan"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

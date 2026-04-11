@@ -4,7 +4,7 @@ description: "Gotenberg is a Docker-based API for converting HTML, URLs, Markdow
 verification: "security_reviewed"
 source: "https://github.com/gotenberg/gotenberg"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---

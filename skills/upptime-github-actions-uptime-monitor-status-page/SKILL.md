@@ -4,7 +4,7 @@ description: "An ASE skill built around Upptime, the open source uptime monitor 
 verification: "security_reviewed"
 source: "https://github.com/upptime/upptime"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

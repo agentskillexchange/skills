@@ -4,12 +4,13 @@ description: "Postman Collection Runner is built around Postman API testing plat
 verification: "security_reviewed"
 source: "https://github.com/postmanlabs/newman"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7203
+  npm_package: "newman"
 ---
 
 # Postman Collection Runner

@@ -4,7 +4,7 @@ description: "Runs ESLint with the –fix flag across JavaScript and TypeScript 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Agents"
 ---

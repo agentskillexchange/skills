@@ -4,9 +4,12 @@ description: "Use Schemathesis when an agent needs to turn an API schema into br
 verification: "security_reviewed"
 source: "https://github.com/schemathesis/schemathesis"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "schemathesis/schemathesis"
+  github_stars: 3211
 ---
 
 # Generate adversarial API test cases from an OpenAPI or GraphQL schema

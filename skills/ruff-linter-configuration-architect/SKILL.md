@@ -4,7 +4,7 @@ description: "Configures and optimizes Ruff Python linter settings using the ruf
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ruff-linter-configuration-architect/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "ChatGPT Agents"
 ---

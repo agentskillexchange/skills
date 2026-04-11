@@ -4,7 +4,7 @@ description: "GraphQL Schema Explorer is built around GraphQL API ecosystem. The
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-explorer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 ---

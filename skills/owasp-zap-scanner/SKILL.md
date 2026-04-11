@@ -4,7 +4,7 @@ description: "OWASP ZAP Scanner is built around OWASP security tooling ecosystem
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

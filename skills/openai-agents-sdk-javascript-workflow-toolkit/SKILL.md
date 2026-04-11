@@ -4,7 +4,7 @@ description: "A source-backed guide to the OpenAI Agents SDK for JavaScript and 
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-agents-js"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---

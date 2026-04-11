@@ -4,7 +4,7 @@ description: "Creates and manages AWS CloudWatch composite alarms using the Clou
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 ---

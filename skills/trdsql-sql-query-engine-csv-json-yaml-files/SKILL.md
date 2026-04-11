@@ -4,7 +4,7 @@ description: "trdsql is a CLI tool that executes SQL queries directly on CSV, LT
 verification: "security_reviewed"
 source: "https://github.com/noborus/trdsql"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

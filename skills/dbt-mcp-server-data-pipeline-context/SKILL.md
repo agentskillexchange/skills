@@ -4,7 +4,7 @@ description: "The official dbt MCP Server by dbt Labs provides Model Context Pro
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-mcp"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

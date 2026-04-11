@@ -4,7 +4,7 @@ description: "An ASE skill built on the official Mailtrap Node.js SDK for sendin
 verification: "security_reviewed"
 source: "https://github.com/mailtrap/mailtrap-nodejs"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

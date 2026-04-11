@@ -4,7 +4,7 @@ description: "An ASE skill built around the official Cartesia JavaScript SDK for
 verification: "security_reviewed"
 source: "https://github.com/cartesia-ai/cartesia-js"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 ---

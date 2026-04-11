@@ -4,7 +4,7 @@ description: "Runs pulumi refresh on schedule to detect drift between live cloud
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Codex"
 ---

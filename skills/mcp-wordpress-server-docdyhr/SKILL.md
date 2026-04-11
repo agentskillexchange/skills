@@ -4,7 +4,7 @@ description: "An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP s
 verification: "security_reviewed"
 source: "https://github.com/docdyhr/mcp-wordpress"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "MCP"
 ---

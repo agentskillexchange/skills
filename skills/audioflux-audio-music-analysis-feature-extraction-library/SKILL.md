@@ -4,7 +4,7 @@ description: "audioFlux is a deep learning tool library for audio and music anal
 verification: "security_reviewed"
 source: "https://github.com/libAudioFlux/audioFlux"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

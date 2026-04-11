@@ -4,7 +4,7 @@ description: "Diagnoses Kafka consumer group lag using the Kafka AdminClient API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Cursor"
 ---

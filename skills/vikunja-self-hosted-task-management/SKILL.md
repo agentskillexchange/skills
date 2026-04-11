@@ -4,7 +4,7 @@ description: "Vikunja is an open-source, self-hosted task management application
 verification: "security_reviewed"
 source: "https://github.com/go-vikunja/vikunja"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Uses puppeteer-extra with stealth plugin to bypass bot detection f
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-web-scraper/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 ---

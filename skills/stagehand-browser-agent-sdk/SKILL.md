@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 21993
+  npm_package: "stagehand-workspace"
 ---
 
 # Stagehand Browser Agent SDK

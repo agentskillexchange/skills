@@ -4,7 +4,7 @@ description: "An ASE skill built around ACF Extended, the WordPress enhancement 
 verification: "security_reviewed"
 source: "https://github.com/acf-extended/ACF-Extended"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

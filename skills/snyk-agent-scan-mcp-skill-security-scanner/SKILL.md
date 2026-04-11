@@ -4,7 +4,7 @@ description: "Snyk Agent Scan automatically discovers and scans AI agent compone
 verification: "security_reviewed"
 source: "https://github.com/snyk/agent-scan"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "MCP"
 tool_ecosystem:

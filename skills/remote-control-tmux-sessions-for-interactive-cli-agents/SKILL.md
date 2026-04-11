@@ -4,7 +4,7 @@ description: "Lets an agent drive existing tmux sessions by sending keystrokes a
 verification: "security_reviewed"
 source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

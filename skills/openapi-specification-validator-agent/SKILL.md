@@ -4,7 +4,7 @@ description: "Validates and lints OpenAPI 3.x specifications using swagger-parse
 verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-parser"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Cursor"
 tool_ecosystem:

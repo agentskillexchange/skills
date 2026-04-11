@@ -4,7 +4,7 @@ description: "Automattic WordPress Remote MCP connects MCP clients to live WordP
 verification: "security_reviewed"
 source: "https://github.com/Automattic/mcp-wordpress-remote"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "MCP"
 tool_ecosystem:

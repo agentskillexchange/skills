@@ -4,7 +4,7 @@ description: "Pytest Fixture Generator is built around pytest Python testing fra
 verification: "security_reviewed"
 source: "https://github.com/pytest-dev/pytest"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

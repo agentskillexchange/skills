@@ -4,7 +4,7 @@ description: "Stripe MCP Server is built around Stripe payments platform. The un
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

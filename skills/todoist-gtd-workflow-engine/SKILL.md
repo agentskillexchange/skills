@@ -4,7 +4,7 @@ description: "Implements Getting Things Done methodology on Todoist using the Sy
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/todoist-gtd-workflow-engine/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "MCP"
 ---

@@ -4,7 +4,7 @@ description: "Kubernetes Troubleshooting Runbook is built around Kubernetes orch
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-troubleshooting-runbook/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
 ---

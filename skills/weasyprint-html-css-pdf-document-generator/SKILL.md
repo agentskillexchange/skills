@@ -4,7 +4,7 @@ description: "WeasyPrint is a Python library by Kozea/CourtBouillon that convert
 verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 ---

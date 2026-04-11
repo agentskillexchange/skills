@@ -4,7 +4,7 @@ description: "This skill helps an agent create or troubleshoot WordPress Interac
 verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

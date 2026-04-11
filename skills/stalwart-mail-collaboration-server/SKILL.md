@@ -4,7 +4,7 @@ description: "Stalwart is an open-source mail and collaboration server written i
 verification: "security_reviewed"
 source: "https://github.com/stalwartlabs/stalwart"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

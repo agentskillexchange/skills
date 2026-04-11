@@ -4,7 +4,7 @@ description: "Quickwit is a cloud-native search engine built in Rust for log man
 verification: "security_reviewed"
 source: "https://github.com/quickwit-oss/quickwit"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
 ---

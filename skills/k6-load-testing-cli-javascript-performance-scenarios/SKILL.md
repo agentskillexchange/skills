@@ -4,7 +4,7 @@ description: "k6 is a modern load testing tool for writing performance checks in
 verification: "security_reviewed"
 source: "https://github.com/grafana/k6"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

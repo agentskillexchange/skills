@@ -4,7 +4,7 @@ description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "ChatGPT Agents"
 ---

@@ -4,7 +4,7 @@ description: "Uses the WordPress wp-rest-api skill to help an agent design, regi
 verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

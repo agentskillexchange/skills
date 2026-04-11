@@ -4,7 +4,7 @@ description: "Pages CMS is an open-source content management system built on top
 verification: "security_reviewed"
 source: "https://github.com/pagescms/pagescms"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

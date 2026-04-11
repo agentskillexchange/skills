@@ -4,7 +4,7 @@ description: "AgentQL is TinyFish’s web automation and extraction toolkit that
 verification: "security_reviewed"
 source: "https://github.com/tinyfish-io/agentql"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Manages WooCommerce webhook lifecycles using the wc/v3/webhooks RE
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/woocommerce-webhook-orchestrator/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Cursor"
 ---

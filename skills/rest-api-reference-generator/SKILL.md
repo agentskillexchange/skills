@@ -4,7 +4,7 @@ description: "Generates interactive API reference documentation from OpenAPI 3.x
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 ---

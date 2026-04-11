@@ -4,7 +4,7 @@ description: "Diagnoses and recovers failed systemd services using journalctl, s
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/systemd-service-recovery-playbook-2/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "ChatGPT Agents"
 ---

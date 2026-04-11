@@ -4,7 +4,7 @@ description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js AP
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
 ---

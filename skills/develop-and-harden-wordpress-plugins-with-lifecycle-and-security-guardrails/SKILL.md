@@ -4,7 +4,7 @@ description: "Use Automattic’s official wp-plugin-development skill when an ag
 verification: "security_reviewed"
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

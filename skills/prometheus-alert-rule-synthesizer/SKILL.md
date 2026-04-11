@@ -4,7 +4,7 @@ description: "Uses the Prometheus HTTP API v1 and PromQL to auto-generate alerti
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
 ---

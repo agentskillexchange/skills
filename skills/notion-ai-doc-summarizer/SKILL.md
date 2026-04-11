@@ -4,7 +4,7 @@ description: "Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/chi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Claude Code"
 ---

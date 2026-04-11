@@ -4,7 +4,7 @@ description: "@wordpress/scripts packages the default WordPress JavaScript build
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/@wordpress/scripts"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

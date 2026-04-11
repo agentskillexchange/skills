@@ -4,7 +4,7 @@ description: "An ASE skill built around the official Mux Node SDK for working wi
 verification: "security_reviewed"
 source: "https://github.com/muxinc/mux-node-sdk"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Bidirectional calendar synchronization using Google Calendar API v
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Linkwarden is an open source bookmark and web archiving platform f
 verification: "security_reviewed"
 source: "https://github.com/linkwarden/linkwarden"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 ---

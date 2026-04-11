@@ -4,7 +4,7 @@ description: "Redpanda Connect (formerly Benthos) is a high-performance stream p
 verification: "security_reviewed"
 source: "https://github.com/redpanda-data/connect"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Audits npm dependencies using npm audit, license-checker-rspack, a
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-license-checker/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Code"
 ---

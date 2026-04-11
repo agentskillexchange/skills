@@ -4,7 +4,7 @@ description: "Exports assets from Figma files using the Figma REST API v1. Extra
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/figma-export-automator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Agents"
 ---

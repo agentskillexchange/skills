@@ -4,7 +4,7 @@ description: "Connects applications to Datadog monitoring using the Datadog API 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Gemini"
 ---

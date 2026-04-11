@@ -4,7 +4,7 @@ description: "Pagefind is a static search library written in Rust that indexes y
 verification: "security_reviewed"
 source: "https://github.com/Pagefind/pagefind"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Connects to the Sentry API v0 to analyze error trends, group simil
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sentry-error-intelligence/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Code"
 ---

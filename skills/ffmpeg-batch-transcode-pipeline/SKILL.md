@@ -4,7 +4,7 @@ description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accele
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
 ---

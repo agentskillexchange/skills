@@ -4,7 +4,7 @@ description: "Use promptfoo when an agent needs to evaluate prompt, agent, or RA
 verification: "security_reviewed"
 source: "https://github.com/promptfoo/promptfoo"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

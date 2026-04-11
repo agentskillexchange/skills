@@ -4,7 +4,7 @@ description: "Wagtail is an open source CMS built on Django for teams that need 
 verification: "security_reviewed"
 source: "https://github.com/wagtail/wagtail"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

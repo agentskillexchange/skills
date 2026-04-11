@@ -4,7 +4,7 @@ description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent throug
 verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

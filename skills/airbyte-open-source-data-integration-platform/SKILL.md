@@ -4,7 +4,7 @@ description: "Airbyte is the leading open-source data integration platform provi
 verification: "security_reviewed"
 source: "https://github.com/airbytehq/airbyte"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

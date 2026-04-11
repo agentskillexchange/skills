@@ -4,12 +4,13 @@ description: "AWS CDK Scaffolder is built around Amazon Web Services cloud APIs.
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-cdk"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12734
+  npm_package: "aws-cdk"
 ---
 
 # AWS CDK Scaffolder

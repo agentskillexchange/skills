@@ -4,7 +4,7 @@ description: "faster-whisper is a reimplementation of OpenAI’s Whisper model u
 verification: "security_reviewed"
 source: "https://github.com/SYSTRAN/faster-whisper"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

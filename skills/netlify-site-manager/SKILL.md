@@ -4,12 +4,13 @@ description: "Netlify Site Manager is built around Netlify deployment platform. 
 verification: "security_reviewed"
 source: "https://github.com/netlify/cli"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1841
+  npm_package: "netlify-cli"
 ---
 
 # Netlify Site Manager

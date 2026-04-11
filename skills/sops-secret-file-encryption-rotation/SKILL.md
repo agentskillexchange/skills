@@ -4,7 +4,7 @@ description: "SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with
 verification: "security_reviewed"
 source: "https://github.com/getsops/sops"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 ---

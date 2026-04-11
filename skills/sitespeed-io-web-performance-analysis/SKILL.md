@@ -4,7 +4,7 @@ description: "sitespeed.io is an open-source tool for comprehensive web performa
 verification: "security_reviewed"
 source: "https://github.com/sitespeedio/sitespeed.io"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

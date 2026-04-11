@@ -4,7 +4,7 @@ description: "MailDev is a local SMTP server with a web UI and REST API for capt
 verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

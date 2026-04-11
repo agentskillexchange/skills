@@ -4,7 +4,7 @@ description: "Cockpit CMS is a lightweight headless content platform for teams t
 verification: "security_reviewed"
 source: "https://github.com/Cockpit-HQ/Cockpit"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

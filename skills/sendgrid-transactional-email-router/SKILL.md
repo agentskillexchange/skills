@@ -4,7 +4,7 @@ description: "Manages transactional email delivery via SendGrid v3 Mail Send API
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Cursor"
 ---

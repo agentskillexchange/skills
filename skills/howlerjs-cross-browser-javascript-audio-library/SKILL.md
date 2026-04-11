@@ -4,7 +4,7 @@ description: "Howler.js is a JavaScript audio library for the modern web that de
 verification: "security_reviewed"
 source: "https://github.com/goldfire/howler.js"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

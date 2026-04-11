@@ -4,7 +4,7 @@ description: "Diagnoses PostgreSQL slow queries using pg_stat_statements extensi
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "OpenClaw"
 ---

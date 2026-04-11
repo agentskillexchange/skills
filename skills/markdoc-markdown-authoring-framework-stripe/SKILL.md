@@ -4,7 +4,7 @@ description: "Markdoc is a powerful Markdown-based authoring framework created b
 verification: "security_reviewed"
 source: "https://github.com/markdoc/markdoc"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,12 +4,13 @@ description: "Checkly CLI lets agents define, test, and deploy synthetic monitor
 verification: "security_reviewed"
 source: "https://github.com/checkly/checkly-cli"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
+  npm_package: "@checkly/cli-monorepo"
 ---
 
 # Checkly CLI Monitoring as Code for API and Browser Checks

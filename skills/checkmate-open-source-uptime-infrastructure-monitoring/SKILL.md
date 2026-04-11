@@ -4,7 +4,7 @@ description: "An ASE skill built on Checkmate, the open source self-hosted monit
 verification: "security_reviewed"
 source: "https://github.com/bluewave-labs/Checkmate"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

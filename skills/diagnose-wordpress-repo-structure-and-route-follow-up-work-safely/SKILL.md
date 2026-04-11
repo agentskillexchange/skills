@@ -4,7 +4,7 @@ description: "This skill inspects a WordPress codebase, identifies what kind of 
 verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 ---

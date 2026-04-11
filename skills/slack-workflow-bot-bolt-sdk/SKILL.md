@@ -4,7 +4,7 @@ description: "Builds interactive Slack workflows using the Bolt SDK for JavaScri
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "MCP"
 ---

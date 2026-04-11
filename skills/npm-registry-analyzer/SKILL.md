@@ -4,7 +4,7 @@ description: "Queries the npm registry API and npms.io scoring endpoint to evalu
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-registry-analyzer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "MCP"
 ---

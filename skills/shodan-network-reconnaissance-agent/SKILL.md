@@ -4,7 +4,7 @@ description: "Performs network reconnaissance using the Shodan REST API and Shod
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/shodan-network-reconnaissance-agent/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Claude Code"
 ---

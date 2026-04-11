@@ -4,7 +4,7 @@ description: "GlitchTip is an open-source, Sentry-compatible error tracking plat
 verification: "security_reviewed"
 source: "https://gitlab.com/glitchtip/glitchtip-backend"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

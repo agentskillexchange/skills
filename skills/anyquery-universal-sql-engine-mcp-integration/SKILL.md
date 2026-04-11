@@ -4,7 +4,7 @@ description: "Anyquery is a SQL query engine that lets you run SQL against 40+ a
 verification: "security_reviewed"
 source: "https://github.com/julien040/anyquery"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "MCP"
 tool_ecosystem:

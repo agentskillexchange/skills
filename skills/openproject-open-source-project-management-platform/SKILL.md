@@ -4,7 +4,7 @@ description: "OpenProject is a mature open source project management platform fo
 verification: "security_reviewed"
 source: "https://github.com/opf/openproject"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

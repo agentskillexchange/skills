@@ -4,7 +4,7 @@ description: "This skill lets an agent fetch current conditions and short foreca
 verification: "security_reviewed"
 source: "https://github.com/openclaw/openclaw/tree/main/skills/weather"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "OpenClaw"
 ---

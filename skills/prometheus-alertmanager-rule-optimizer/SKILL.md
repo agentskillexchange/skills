@@ -4,7 +4,7 @@ description: "Analyzes Prometheus alerting rules and AlertManager configuration 
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Claude Code"
 ---

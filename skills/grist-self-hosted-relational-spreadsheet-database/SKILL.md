@@ -4,7 +4,7 @@ description: "Grist is an open-source modern relational spreadsheet that combine
 verification: "security_reviewed"
 source: "https://github.com/gristlabs/grist-core"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

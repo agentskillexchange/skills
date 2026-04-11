@@ -4,7 +4,7 @@ description: "Queries the npm registry API and npms.io search API for package di
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Claude Agents"
 ---

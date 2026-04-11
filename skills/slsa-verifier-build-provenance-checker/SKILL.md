@@ -4,7 +4,7 @@ description: "SLSA Verifier is the official tool from the SLSA framework for ver
 verification: "security_reviewed"
 source: "https://github.com/slsa-framework/slsa-verifier"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Claude Code"
 tool_ecosystem:

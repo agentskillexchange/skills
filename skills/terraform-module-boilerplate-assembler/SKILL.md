@@ -4,7 +4,7 @@ description: "Generates Terraform module scaffolds with variables.tf, outputs.tf
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Gemini"
 tool_ecosystem:

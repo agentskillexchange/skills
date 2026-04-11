@@ -4,7 +4,7 @@ description: "Uses MailHog to capture outbound email in development and test env
 verification: "security_reviewed"
 source: "https://github.com/mailhog/MailHog"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

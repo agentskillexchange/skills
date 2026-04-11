@@ -4,7 +4,7 @@ description: "Identifies audio content using Chromaprint/AcoustID fingerprinting
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/audio-fingerprint-identifier-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "Generates and validates Prometheus alerting rules and AlertManager
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rules-engine/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
 ---

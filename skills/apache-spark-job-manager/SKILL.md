@@ -4,7 +4,7 @@ description: "Apache Spark Job Manager is built around Apache Spark distributed 
 verification: "security_reviewed"
 source: "https://github.com/apache/spark"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

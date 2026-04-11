@@ -4,7 +4,7 @@ description: "AppFlowy brings documents, projects, wikis, and AI-assisted collab
 verification: "security_reviewed"
 source: "https://github.com/AppFlowy-IO/AppFlowy"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

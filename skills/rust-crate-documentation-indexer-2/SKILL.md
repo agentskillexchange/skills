@@ -4,7 +4,7 @@ description: "Indexes Rust crate documentation from docs.rs using rustdoc JSON o
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Gemini"
 ---

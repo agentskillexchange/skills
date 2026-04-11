@@ -7,9 +7,6 @@ category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "pinchtab/pinchtab"
-  github_stars: 8645
 ---
 
 # Drive Chrome with stable accessibility refs for repeatable browser automation

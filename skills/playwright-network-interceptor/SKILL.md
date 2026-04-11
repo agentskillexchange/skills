@@ -4,7 +4,7 @@ description: "Intercepts and analyzes network traffic using Playwright route han
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-network-interceptor/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Cursor"
 ---

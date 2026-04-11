@@ -4,7 +4,7 @@ description: "Query Monitor is the developer tools panel for WordPress and WooCo
 verification: "security_reviewed"
 source: "https://github.com/johnbillion/query-monitor"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

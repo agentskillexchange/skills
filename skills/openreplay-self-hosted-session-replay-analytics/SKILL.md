@@ -4,7 +4,7 @@ description: "OpenReplay is an open-source session replay suite you can self-hos
 verification: "security_reviewed"
 source: "https://github.com/openreplay/openreplay"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
 ---

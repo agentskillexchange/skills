@@ -4,7 +4,7 @@ description: "Flagsmith is an open-source feature flagging and remote configurat
 verification: "security_reviewed"
 source: "https://github.com/Flagsmith/flagsmith"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

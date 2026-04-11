@@ -4,7 +4,7 @@ description: "Tests Prometheus alerting rules against historical metrics using p
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-rule-tester/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Claude Code"
 ---
