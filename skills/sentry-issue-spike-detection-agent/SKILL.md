@@ -1,12 +1,11 @@
 ---
-name: Sentry Issue Spike Detection Agent
-description: Analyzes Sentry project event streams via the Sentry Issues API to detect
-  sudden spikes in error frequency. Computes rolling baselines and triggers alerts
-  through configurable notification channels.
+title: Sentry Issue Spike Detection Agent
+description: Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels.
+slug: sentry-issue-spike-detection-agent
 verification: security_reviewed
 source: https://github.com/getsentry/sentry
 category:
-- Monitoring &amp; Alerts
+- Monitoring & Alerts
 framework:
 - Claude Agents
 tool_ecosystem:
@@ -15,17 +14,17 @@ tool_ecosystem:
 ---
 # Sentry Issue Spike Detection Agent
 
-The Sentry Issue Spike Detection Agent connects to your Sentry organization using the Sentry Web API and continuously monitors issue event frequency across projects. It fetches recent events via the /api/0/organizations/{org}/issues/ endpoint with statsperiod and query parameters, computing rolling averages and standard deviations over configurable windows. When event frequency exceeds the baseline by a configurable multiplier, the agent classifies it as a spike and generates a structured alert containing the issue title, stack trace summary, affected users count, and first/last seen timestamps. Alerts can be routed to Slack via the Slack Web API, email via SMTP, or custom webhooks. The agent also groups related spikes using Sentry's issue grouping metadata and suppresses duplicate notifications within a cooldown period. It supports Sentry DSN-based project filtering and can query the Sentry Releases API to correlate spikes with recent deployments.
+Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

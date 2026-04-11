@@ -1,30 +1,27 @@
 ---
-name: Complexity Trend Tracker
-description: Tracks cyclomatic and cognitive complexity trends using lizard CLI and
-  radon for Python analysis. Generates weekly complexity reports with git-integrated
-  change attribution per module.
+title: Complexity Trend Tracker
+description: Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module.
+slug: complexity-trend-tracker-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/complexity-trend-tracker-agent/
 category:
-- Code Quality &amp; Review
+- Code Quality & Review
 framework:
 - MCP
 ---
 # Complexity Trend Tracker
 
-The Complexity Trend Tracker monitors code complexity metrics over time to identify areas of increasing technical debt. It combines lizard (a language-agnostic complexity analyzer) with radon for Python-specific cognitive complexity scoring, running automated analysis on each commit or on a scheduled basis.
-The agent calculates cyclomatic complexity, cognitive complexity, lines of code, and parameter counts for every function and method in your codebase. It stores historical data and generates trend charts showing complexity growth per module, file, and team. Integration with git log data attributes complexity changes to specific authors and PRs.
-Weekly reports highlight the top complexity offenders, newly complex functions, and modules trending toward maintenance difficulty. The agent can set configurable thresholds that trigger alerts when functions exceed complexity limits, and it suggests refactoring strategies based on the specific complexity patterns detected. Supports C, C++, Java, Python, JavaScript, TypeScript, Go, Ruby, and Rust.
+Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

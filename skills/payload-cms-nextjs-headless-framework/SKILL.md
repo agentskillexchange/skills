@@ -1,13 +1,11 @@
 ---
-name: Payload CMS Next.js-Native Headless CMS and Application Framework
-description: Payload is an open-source, TypeScript-first headless CMS that installs
-  directly into a Next.js application. It provides a full admin panel, REST and GraphQL
-  APIs, access control, file uploads, and rich text editing with zero separate backend
-  required.
+title: Payload CMS Next.js-Native Headless CMS and Application Framework
+description: Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs, access control, file uploads, and rich text editing with zero separate backend required.
+slug: payload-cms-nextjs-headless-framework
 verification: security_reviewed
 source: https://github.com/payloadcms/payload
 category:
-- WordPress &amp; CMS
+- WordPress & CMS
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -19,21 +17,17 @@ tool_ecosystem:
 ---
 # Payload CMS Next.js-Native Headless CMS and Application Framework
 
-Payload CMS is an open-source headless content management system and application framework built on Next.js and TypeScript. With over 30,000 GitHub stars, it distinguishes itself as the first CMS that installs directly into an existing Next.js /app folder, sharing the same server process, database connection, and deployment pipeline as the frontend application.
-Payload auto-generates REST and GraphQL APIs, a full admin panel with live preview, and TypeScript types from collection and global configuration files. Collections define repeatable content types (blog posts, products, users), while Globals define singleton data (site settings, navigation). Each collection receives full CRUD endpoints with filtering, sorting, pagination, and depth-based population of relationships.
-A skill built around Payload enables agents to scaffold new CMS-backed applications, define content schemas programmatically, manage content entries and media, configure access control policies, and deploy fullstack applications. The create-payload-app CLI bootstraps projects with database adapter selection (MongoDB via Mongoose or PostgreSQL/SQLite via Drizzle ORM).
-Key features include: field-level access control with row and cell-level conditions, lexical rich text editor with custom blocks and inline elements, version history and draft/publish workflow, file uploads with image resizing and focal point cropping, authentication with email verification and password reset, and hooks (beforeChange, afterRead, etc.) for custom business logic at every lifecycle point.
-Integration points for agent workflows include: automating content model definition and migration, synchronizing content between environments, managing media libraries, implementing custom API endpoints via Next.js route handlers, configuring webhooks for content events, and deploying Payload applications to Vercel, AWS, or self-hosted infrastructure. The Local API provides direct server-side access without HTTP overhead for background jobs and data processing tasks.
+Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs, access control, file uploads, and rich text editing with zero separate backend required.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

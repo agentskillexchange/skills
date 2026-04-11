@@ -1,9 +1,7 @@
 ---
-name: Desktop Commander MCP Server for Terminal and File Control
-description: Desktop Commander is an MCP server that gives AI assistants terminal
-  command execution, file system search, diff-based file editing, and process management
-  capabilities. It extends Claude Desktop and other MCP clients with full local development
-  environment control.
+title: Desktop Commander MCP Server for Terminal and File Control
+description: Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It extends Claude Desktop and other MCP clients with full local development environment control.
+slug: desktop-commander-mcp-terminal-file-control
 verification: security_reviewed
 source: https://github.com/wonderwhy-er/DesktopCommanderMCP
 category:
@@ -16,20 +14,17 @@ tool_ecosystem:
 ---
 # Desktop Commander MCP Server for Terminal and File Control
 
-Desktop Commander MCP is an open-source Model Context Protocol server that transforms AI assistants into full development environment controllers. With over 5,700 GitHub stars and active development, it provides terminal command execution, file system operations, diff-based file editing, and process management through any MCP-compatible client — making it one of the most popular MCP servers in the ecosystem.
-The server's core capabilities span several categories. Terminal control enables executing long-running commands with output streaming, timeout management, and background execution support. Interactive process control lets agents work with SSH sessions, database shells, and development servers. File operations include search-and-replace editing using diff markers, reading and writing files, and directory navigation. The server also supports in-memory code execution for Python, Node.js, and R — running code snippets without saving files to disk.
-Desktop Commander includes native support for common file formats beyond plain text. It can read, write, edit, and search Excel files (.xlsx, .xls, .xlsm) without external tools, extract text from PDFs and create new PDFs from markdown, and handle Word documents (.docx) with surgical XML editing. Session management for long-running commands includes process output pagination with offset/length controls to prevent context window overflow.
-Installation is a single command: npx @wonderwhy-er/desktop-commander. The server is published on npm, licensed under MIT, and includes Remote MCP support for connecting from ChatGPT, Claude web, and other remote AI services via mcp.desktopcommander.app. A companion desktop application is available for macOS and Windows that provides a dedicated UI with visual file previews, custom MCP support, and multi-model compatibility including Claude, GPT-4.5, and Gemini 2.5.
+Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It extends Claude Desktop and other MCP clients with full local development environment control.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

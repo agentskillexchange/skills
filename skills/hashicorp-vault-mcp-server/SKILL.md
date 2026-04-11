@@ -1,12 +1,11 @@
 ---
-name: HashiCorp Vault MCP Server
-description: The official HashiCorp Vault MCP server lets AI assistants read, write,
-  list, and delete secrets in Vault&#8217;s KV engine through a safe, auditable MCP
-  interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
+title: HashiCorp Vault MCP Server
+description: The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
+slug: hashicorp-vault-mcp-server
 verification: security_reviewed
 source: https://github.com/hashicorp/vault-mcp-server
 category:
-- Security &amp; Verification
+- Security & Verification
 framework:
 - MCP
 tool_ecosystem:
@@ -15,36 +14,17 @@ tool_ecosystem:
 ---
 # HashiCorp Vault MCP Server
 
-The Vault MCP Server is maintained by HashiCorp (IBM) and provides full-featured MCP integration for Vault's secrets management capabilities.
-Best for
-
-Reading API keys and secrets during development without leaving the agent workflow
-Provisioning new secret paths and managing KV mounts
-Managing Vault policies through natural language
-DevOps teams integrating secrets management into AI-assisted infrastructure workflows
-
-Key capabilities
-
-Secret operations: Write, read, list, and delete secrets in KV mounts (v1 and v2)
-Mount management: Create new mounts, list available mounts, and delete mounts
-Policy management: Read and manage Vault policies
-Dual transport: Stdio mode for local and StreamableHTTP for remote integrations
-
-Security model
-Requires a valid Vault token with appropriate permissions. HTTP mode supports TLS and CORS restrictions. All actions are auditable through Vault's standard audit log. Intended for local development and controlled environments.
-Install notes
-Clone and build: git clone https://github.com/hashicorp/vault-mcp-server.git && make build. Or run via Docker. Set VAULT_ADDR and VAULT_TOKEN environment variables.
-Source: github.com/hashicorp/vault-mcp-server
+The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault’s KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

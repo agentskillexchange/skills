@@ -1,12 +1,11 @@
 ---
-name: Vikunja Self-Hosted Task Management and Project Organization Platform
-description: Vikunja is an open-source, self-hosted task management application written
-  in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and
-  CalDAV sync for organizing personal and team projects with full data ownership.
+title: Vikunja Self-Hosted Task Management and Project Organization Platform
+description: Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV sync for organizing personal and team projects with full data ownership.
+slug: vikunja-self-hosted-task-management
 verification: security_reviewed
 source: https://github.com/go-vikunja/vikunja
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email & Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -16,25 +15,17 @@ tool_ecosystem:
 ---
 # Vikunja Self-Hosted Task Management and Project Organization Platform
 
-Vikunja is an open-source task management application built with Go on the backend and Vue.js on the frontend. It provides a comprehensive set of features for organizing tasks, projects, and workflows while keeping all data under your control through self-hosting.
-Core Capabilities
-Vikunja supports multiple task organization views including traditional lists, kanban boards, and Gantt charts. Tasks can be organized into projects with labels, priorities, due dates, reminders, assignees, and sub-tasks. The application provides a REST API that enables integration with AI agents and automation tools for programmatic task management.
-Technical Architecture
-The backend is a single Go binary that bundles the API server, web frontend, and background workers. It supports SQLite, MySQL, and PostgreSQL as database backends. Authentication supports local accounts, OpenID Connect, and LDAP. The CalDAV interface allows synchronization with calendar applications like Thunderbird, GNOME Calendar, and iOS/macOS Reminders.
-Deployment and Integration
-Vikunja ships as a single Docker image (vikunja/vikunja) making deployment straightforward. The REST API at /api/v1 exposes all task, project, label, and user management operations. Webhooks can trigger external actions on task events. The application also supports file attachments, link sharing for collaboration, and task comments. A hosted version is available at vikunja.cloud for users who prefer not to self-host.
-Agent Integration Points
-The REST API enables AI agents to create tasks from natural language, query project status, update task progress, and manage team workflows programmatically. An MCP server (vikunja-mcp) is also available for direct integration with Claude Desktop, OpenCode, Cursor, and other MCP-compatible clients, enabling conversational task management through AI assistants.
+Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV sync for organizing personal and team projects with full data ownership.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

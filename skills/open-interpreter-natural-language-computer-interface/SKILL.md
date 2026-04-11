@@ -1,9 +1,7 @@
 ---
-name: Open Interpreter Natural Language Computer Interface
-description: Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell,
-  and more) through a ChatGPT-like terminal interface. It provides a natural-language
-  interface to your computer&#8217;s general-purpose capabilities including file manipulation,
-  browser control, and data analysis.
+title: Open Interpreter Natural Language Computer Interface
+description: Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
+slug: open-interpreter-natural-language-computer-interface
 verification: security_reviewed
 source: https://github.com/openinterpreter/open-interpreter
 category:
@@ -17,23 +15,17 @@ tool_ecosystem:
 ---
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter is an open-source project that lets large language models run code on your local machine. Created as an open alternative to OpenAI's Code Interpreter, it removes the restrictions of the hosted service — no internet access limits, no file size caps, no timeout constraints, and no package restrictions. You get the power of GPT-4 Code Interpreter combined with the flexibility of your local development environment.
-How It Works
-After installing via pip, you run the interpreter command to start a ChatGPT-like interface in your terminal. You can describe tasks in natural language, and the interpreter generates and executes code (Python, JavaScript, Shell, and more) to accomplish them. Before any code runs, you are asked to approve it, providing a safety checkpoint. The tool supports streaming output, conversation history, and can be used both interactively and programmatically via the Python API.
-Capabilities
-Open Interpreter can create and edit photos, videos, and PDFs; control a Chrome browser to perform research; plot, clean, and analyze large datasets; manage files and system operations; and handle virtually any task that can be accomplished through code. It uses LiteLLM under the hood, which means it supports OpenAI, Anthropic, local models via Ollama or LM Studio, and any OpenAI-compatible server endpoint.
-Agent Integration
-Open Interpreter can serve as a powerful execution layer for AI agents. An agent can delegate complex multi-step tasks to it — from data processing pipelines to file system operations to web automation. The Python API allows programmatic control with interpreter.chat() for single commands and streaming support for real-time output. It supports conversation memory and system message customization for specialized agent behaviors.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

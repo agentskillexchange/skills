@@ -1,12 +1,11 @@
 ---
-name: Rive Runtime Animation Controller
-description: Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced,
-  manages state machine inputs, and synchronizes animation states with application
-  data via the Rive WASM runtime.
+title: Rive Runtime Animation Controller
+description: Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime.
+slug: rive-runtime-animation-controller
 verification: security_reviewed
 source: https://github.com/rive-app/rive-react
 category:
-- Image &amp; Creative Automation
+- Image & Creative Automation
 framework:
 - ChatGPT Agents
 tool_ecosystem:
@@ -15,17 +14,17 @@ tool_ecosystem:
 ---
 # Rive Runtime Animation Controller
 
-The Rive Runtime Animation Controller manages interactive vector animations using the @rive-app/canvas-advanced package and Rive's WASM runtime. It loads .riv files exported from the Rive editor, instantiates artboards, and drives state machine transitions by programmatically setting boolean, number, and trigger inputs via StateMachineInput objects. The agent handles multiple artboards within a single .riv file, synchronizes animation playback with application state (scroll position, user input, data changes), and manages the requestAnimationFrame render loop with proper cleanup. It supports Rive's text runs for dynamic text content, mesh deformations for character animation, and Rive events (RiveEvent) for bidirectional communication between animation and host application. For React integration, it generates components using @rive-app/react-canvas with useRive and useStateMachineInput hooks. Performance optimization includes offscreen canvas rendering with transferToImageBitmap and Web Worker-based animation updates. Handles fallback to Lottie export for browsers without WASM support.
+Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

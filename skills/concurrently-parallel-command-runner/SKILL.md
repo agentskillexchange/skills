@@ -1,8 +1,7 @@
 ---
-name: Concurrently Parallel Command Runner for npm Scripts
-description: Concurrently runs multiple commands in parallel with color-coded output,
-  prefix labels, and process lifecycle management. With 14M+ weekly npm downloads,
-  it is the standard tool for running dev servers, watchers, and build processes simultaneously.
+title: Concurrently Parallel Command Runner for npm Scripts
+description: Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard tool for running dev servers, watchers, and build processes simultaneously.
+slug: concurrently-parallel-command-runner
 verification: security_reviewed
 source: https://github.com/open-cli-tools/concurrently
 category:
@@ -15,29 +14,17 @@ tool_ecosystem:
 ---
 # Concurrently Parallel Command Runner for npm Scripts
 
-Concurrently is an npm package that runs multiple commands in parallel, replacing manual use of background processes and ampersand chaining in shell scripts. It provides color-coded, prefixed output so developers can distinguish which command produced which log line, and it manages process lifecycle including kill-on-failure and restart-on-exit behaviors.
-Why Concurrently Exists
-Modern development workflows typically require multiple long-running processes: a frontend dev server, a backend API server, a CSS watcher, a TypeScript compiler in watch mode, and perhaps a test runner. Running these with cmd1 & cmd2 & cmd3 loses output attribution, makes cleanup unreliable, and behaves inconsistently across operating systems. Concurrently solves all of these problems with a cross-platform implementation.
-Basic Usage
-The simplest invocation is concurrently "npm:watch-*" which runs all npm scripts matching the glob pattern. Named processes get automatic color-coded prefixes: concurrently -n server,client "npm run server" "npm run client". The --kill-others flag terminates all processes if any one exits, and --kill-others-on-fail does so only on non-zero exit codes.
-Advanced Features
-Concurrently supports process restart with --restart-tries and --restart-after, input passthrough to specific processes with --handle-input and --default-input-target, and custom success conditions with --success first|last|all|command-NAME. Prefix templates support timestamps, PID, process index, and command name.
-Programmatic API
-The package exports a concurrently() function for use in Node.js scripts and build tools. It returns a promise that resolves with an array of close events, enabling integration into custom orchestration logic. Options mirror the CLI flags.
-Integration with Package Managers
-Concurrently works with npm, yarn, pnpm, and bun scripts. The npm: prefix syntax lets you reference package.json scripts directly: concurrently "npm:lint" "npm:test" "npm:build". Glob patterns like npm:watch-* automatically expand to matching script names.
-Installation
-Install with npm install concurrently or npm install -g concurrently for global use. The package has zero runtime dependencies and works on Node.js 18+.
+Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard tool for running dev servers, watchers, and build processes simultaneously.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

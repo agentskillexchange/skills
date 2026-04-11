@@ -1,12 +1,11 @@
 ---
-name: Firebase — Google Application Development Platform
-description: Firebase is Google&#8217;s app development platform providing real-time
-  databases, authentication, cloud functions, hosting, storage, and analytics for
-  web, iOS, Android, and Flutter applications.
+title: Firebase — Google Application Development Platform
+description: Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
+slug: firebase-google-app-development-platform
 verification: listed
 source: https://github.com/firebase/firebase-js-sdk
 category:
-- Integrations &amp; Connectors
+- Integrations & Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -15,17 +14,17 @@ tool_ecosystem:
 ---
 # Firebase — Google Application Development Platform
 
-Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
+Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,30 +1,27 @@
 ---
-name: npm Dependency Audit Scanner
-description: Scans Node.js projects for vulnerable dependencies using npm audit and
-  the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability
-  Database API v2.0 and generates SBOM documents in CycloneDX format.
+title: npm Dependency Audit Scanner
+description: Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format.
+slug: npm-dependency-audit-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-dependency-audit-scanner/
 category:
-- Security &amp; Verification
+- Security & Verification
 framework:
 - Custom Agents
 ---
 # npm Dependency Audit Scanner
 
-The npm Dependency Audit Scanner skill performs comprehensive security analysis of Node.js project dependencies using multiple vulnerability databases and software composition analysis techniques. It runs npm audit -json for initial vulnerability detection and enriches findings with data from the OSV.dev API at https://api.osv.dev/v1/query.
-The skill resolves the complete dependency tree from package-lock.json and cross-references each package version against the NVD API v2.0 at https://services.nvd.nist.gov/rest/json/cves/2.0 for CVE details including CVSS v3.1 severity scores, exploit availability, and patch information. It also queries the GitHub Advisory Database via the GraphQL API for GitHub-specific security advisories.
-Capabilities include generating Software Bill of Materials (SBOM) in CycloneDX 1.5 JSON format, identifying transitive dependency vulnerabilities with full dependency chain paths, recommending minimal upgrade paths that fix vulnerabilities without breaking changes using semver analysis, detecting typosquatting packages by comparing against known package name patterns, and scanning for deprecated packages via the npm registry API. The skill produces prioritized remediation reports with fix commands (npm audit fix -force alternatives), CVSS-based severity ranking, and estimated remediation effort for each vulnerability.
+Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

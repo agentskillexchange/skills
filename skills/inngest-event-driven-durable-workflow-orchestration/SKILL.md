@@ -1,13 +1,11 @@
 ---
-name: Inngest Event-Driven Durable Workflow Orchestration Platform
-description: Inngest is an open-source workflow orchestration platform that replaces
-  queues, state management, and scheduling with durable step functions. It enables
-  developers to write reliable event-driven workflows triggered by events, cron schedules,
-  or webhooks, with built-in retries, concurrency control, and flow control.
+title: Inngest Event-Driven Durable Workflow Orchestration Platform
+description: Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable event-driven workflows triggered by events, cron schedules, or webhooks, with built-in retries, concurrency control, and flow control.
+slug: inngest-event-driven-durable-workflow-orchestration
 verification: security_reviewed
 source: https://github.com/inngest/inngest
 category:
-- Integrations &amp; Connectors
+- Integrations & Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -16,25 +14,17 @@ tool_ecosystem:
 ---
 # Inngest Event-Driven Durable Workflow Orchestration Platform
 
-Inngest is an open-source event-driven workflow orchestration platform that enables developers to write reliable, durable step functions without managing queue infrastructure. Created by Inngest Inc., the platform handles event routing, state management, retries, scheduling, and concurrency control so developers can focus on business logic.
-What Inngest Does
-Inngest functions are triggered by events (sent via SDK or webhook), cron schedules, or external webhook events. Each function is composed of steps—individually retryable units of work that can run for months and recover from failures automatically. Inngest invokes your functions securely via HTTPS, meaning your code runs on your own infrastructure while Inngest orchestrates the execution flow.
-Core Capabilities
-The platform provides SDKs for TypeScript/JavaScript, Python, Go, and Kotlin. Key features include flow control (concurrency limits per key, throttling, debouncing, rate limiting, priority queues), step-level retries with configurable backoff, step.waitForEvent for cross-function coordination, step.sleep for durable delays, and step.sendEvent for fan-out patterns. The Inngest Dev Server provides a complete local development experience with production parity, including an event browser, function timeline, and step inspector.
-Getting Started
-Install the SDK for your language: npm install inngest (TypeScript), pip install inngest (Python), or go get github.com/inngest/inngestgo (Go). Run the local dev server with npx inngest-cli@latest dev. For production, sync your functions with Inngest Cloud or self-host the open-source server. Documentation is at inngest.com/docs.
-Agent Use Cases
-Inngest is ideal for AI agent workflows that require durable execution—multi-step document processing, RAG pipeline orchestration, batch inference with rate limiting, webhook-triggered automation, and long-running AI tasks that need to survive failures. Agents can define complex workflows as step functions with automatic retries, coordinate between multiple services using events, and leverage concurrency controls to respect external API rate limits. The event-driven architecture naturally maps to agent-to-agent communication patterns.
+Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling with durable step functions. It enables developers to write reliable event-driven workflows triggered by events, cron schedules, or webhooks, with built-in retries, concurrency control, and flow control.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

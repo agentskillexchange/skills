@@ -1,37 +1,27 @@
 ---
-name: Ansible Playbook Runner with Vault Secrets
-description: Executes Ansible playbooks against dynamic inventories from AWS EC2 or
-  Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task
-  output in real time and posts a per-host pass/fail summary to Slack. Supports &#8211;check
-  mode for dry-run validation before live runs.
+title: Ansible Playbook Runner with Vault Secrets
+description: Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs.
+slug: ansible-playbook-vault-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-vault-runner/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks & Diagnostics
 framework:
 - Claude Code
 ---
 # Ansible Playbook Runner with Vault Secrets
 
-Ansible Playbook Runner with Vault Secrets is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational context that matters for real tasks.
-In practice, the skill gives an agent a stable interface to ansible so it can inspect state, run the right operation, and produce a result that fits into a larger engineering or operations pipeline. The original use case is clear: Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports -check mode for dry-run validation before live runs. The implementation typically relies on ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins, with configuration passed through environment variables, connection strings, service tokens, or workspace config depending on the upstream platform.
-
-Accesses ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins instead of scraping a UI, which makes runs easier to audit and retry.
-Supports structured inputs and outputs so another tool, agent, or CI step can consume the result.
-Can be wired into cron jobs, webhook handlers, MCP transports, or local CLI workflows depending on the skill format.
-Fits into broader integration points such as SSH-based infrastructure automation, config management, idempotent change execution.
-
- Key integration points include SSH-based infrastructure automation, config management, idempotent change execution. In a real environment that usually means passing credentials through env vars or app config, respecting rate limits and permission scopes, and returning structured artifacts that can be attached to tickets, pull requests, dashboards, or follow-up automations.
+Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

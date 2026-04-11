@@ -1,31 +1,27 @@
 ---
-name: Prettier Config Harmonizer
-description: Resolves Prettier formatting conflicts across monorepo packages using
-  the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs
-  with per-package overrides and EditorConfig synchronization.
+title: Prettier Config Harmonizer
+description: Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization.
+slug: prettier-config-harmonizer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prettier-config-harmonizer-2/
 category:
-- Code Quality &amp; Review
+- Code Quality & Review
 framework:
 - Cursor
 ---
 # Prettier Config Harmonizer
 
-The Prettier Config Harmonizer skill solves formatting inconsistencies in monorepo environments by analyzing and unifying Prettier configurations across packages. It uses the Prettier Node.js API (prettier.resolveConfig and prettier.getFileInfo) to scan each package for existing formatting preferences.
-The skill reads all configuration sources — .prettierrc, .prettierrc.json, .prettierrc.yaml, prettier.config.js, and package.json prettier fields — across your monorepo packages. It identifies conflicting settings like differing tabWidth, printWidth, trailingComma, or singleQuote values and proposes a unified base configuration with targeted overrides.
-Plugin compatibility is handled automatically. The skill detects usage of @prettier/plugin-xml, prettier-plugin-tailwindcss, prettier-plugin-organize-imports, and other community plugins, ensuring the generated config loads plugins in the correct order to avoid conflicts. It also generates .prettierignore files based on each package gitignore and build output directories.
-The unified configuration includes workspace-level overrides using the Prettier overrides array with glob patterns for different file types and package directories. An accompanying .editorconfig file is generated to keep IDE formatting in sync, and the skill validates the final config by running prettier -check against a sample of files from each package.
+Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml. Generates unified .prettierrc configs with per-package overrides and EditorConfig synchronization.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

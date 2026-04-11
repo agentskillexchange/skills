@@ -1,12 +1,11 @@
 ---
-name: Photon High-Speed OSINT Web Crawler and Data Extractor
-description: Photon is a blazing-fast Python web crawler purpose-built for OSINT operations.
-  It extracts URLs, emails, social media accounts, files, secret keys, JavaScript
-  endpoints, and subdomains from target websites with multithreaded efficiency.
+title: Photon High-Speed OSINT Web Crawler and Data Extractor
+description: Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social media accounts, files, secret keys, JavaScript endpoints, and subdomains from target websites with multithreaded efficiency.
+slug: photon-osint-web-crawler
 verification: security_reviewed
 source: https://github.com/s0md3v/Photon
 category:
-- Research &amp; Scraping
+- Research & Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -15,25 +14,17 @@ tool_ecosystem:
 ---
 # Photon High-Speed OSINT Web Crawler and Data Extractor
 
-Photon is an incredibly fast web crawler designed specifically for Open Source Intelligence (OSINT) gathering. Built in Python by s0md3v, it provides a comprehensive suite of data extraction capabilities that make it a go-to tool for security researchers, penetration testers, and intelligence analysts who need to quickly map and extract information from web targets.
-Core Capabilities
-Photon crawls target websites and automatically extracts multiple categories of intelligence data: in-scope and out-of-scope URLs, URLs with parameters (useful for identifying potential injection points), email addresses, social media account references, Amazon S3 bucket URLs, downloadable files (PDF, PNG, XML, etc.), secret keys including API keys and hashes, JavaScript files and the endpoints referenced within them, custom regex pattern matches, and subdomains with DNS-related data.
-Performance and Architecture
-The tool uses smart thread management and a refined crawling logic to deliver high throughput. It supports Docker deployment via a lightweight Python-Alpine image (approximately 103 MB). Photon can also leverage archive.org as a seed source via the --wayback flag, pulling historical URLs to expand coverage without additional active scanning. DNS data can be enriched through DNSDumpster integration.
-Agent Integration Patterns
-For AI agent workflows, Photon fits naturally as a reconnaissance step in security assessment pipelines. Agents can invoke Photon via CLI (python photon.py -u target.com), then parse the structured output directories or use the --export flag to get JSON-formatted results. The tool supports extensive configuration through command-line options: timeout control, request delays, URL exclusion via regex, cookie injection, custom headers, and thread count tuning. Results are organized into categorized output files, making downstream processing straightforward for automated analysis pipelines.
-Installation
-Install via git clone and pip: git clone https://github.com/s0md3v/Photon.git && cd Photon && pip install -r requirements.txt. Docker is also supported: docker build -t photon . && docker run -it photon -u target.com. The tool requires Python 3 and has minimal dependencies.
+Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. It extracts URLs, emails, social media accounts, files, secret keys, JavaScript endpoints, and subdomains from target websites with multithreaded efficiency.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

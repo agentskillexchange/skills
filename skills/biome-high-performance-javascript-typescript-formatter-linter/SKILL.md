@@ -1,45 +1,27 @@
 ---
-name: Biome High-Performance JavaScript TypeScript Formatter and Linter
-description: Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript,
-  JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool.
-  With 97% Prettier compatibility and over 450 lint rules, Biome replaces ESLint and
-  Prettier with dramatically faster execution.
+title: Biome High-Performance JavaScript TypeScript Formatter and Linter
+description: Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool. With 97% Prettier compatibility and over 450 lint rules, Biome replaces ESLint and Prettier with dramatically faster execution.
+slug: biome-high-performance-javascript-typescript-formatter-linter
 verification: security_reviewed
 source: https://github.com/biomejs/biome
 category:
-- Code Quality &amp; Review
+- Code Quality & Review
 framework:
 - Multi-Framework
 ---
 # Biome High-Performance JavaScript TypeScript Formatter and Linter
 
-Overview
-Biome is a performant toolchain for web projects that provides both a formatter and a linter. Written in Rust, Biome formats 1,000 files in approximately 50 milliseconds — compared to 1-2 seconds for the traditional Prettier plus ESLint combination. It achieves 97% compatibility with Prettier formatting output while offering over 450 lint rules sourced from ESLint, typescript-eslint, and other established tools.
-Key Features
-
-Unified Toolchain: Replaces both Prettier (formatting) and ESLint (linting) with a single binary, eliminating configuration conflicts between the two
-Language Support: JavaScript, TypeScript, JSX, TSX, JSON, CSS, and GraphQL formatting and linting
-Performance: Multi-threaded Rust implementation leverages all CPU cores. Formats and lints entire codebases in milliseconds rather than seconds
-LSP Integration: First-class Language Server Protocol support with editor extensions for VS Code, IntelliJ, Zed, and others
-Error Recovery: Parses and formats malformed code, making it useful during active development
-Zero Config: Works out of the box with sane defaults. No configuration file required for basic usage
-No Node.js Required: Can be installed and run without a Node.js runtime, though npm installation is supported
-
-Integration for AI Agents
-Agents can integrate Biome into their code quality workflows using the CLI. The biome check --write command runs both formatting and lint fixes in one pass. The biome ci command provides CI-suitable output with non-zero exit codes on violations. Biome outputs detailed, contextualized diagnostics that agents can parse for automated code review and repair.
-Installation
-npm install --save-dev --save-exact @biomejs/biome
-npx @biomejs/biome check --write
+Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool. With 97% Prettier compatibility and over 450 lint rules, Biome replaces ESLint and Prettier with dramatically faster execution.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

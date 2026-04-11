@@ -1,28 +1,27 @@
 ---
-name: AWS CloudWatch Alarm Triage
-description: Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms,
-  CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk.
-  Correlates alarm triggers with deployment events.
+title: AWS CloudWatch Alarm Triage
+description: Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events.
+slug: aws-cloudwatch-alarm-triage-5
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triage-5/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks & Diagnostics
 framework:
 - Gemini
 ---
 # AWS CloudWatch Alarm Triage
 
-The AWS CloudWatch Alarm Triage skill automates the investigation and correlation of CloudWatch alarm events. It uses boto3 CloudWatch.describe_alarms and describe_alarm_history to retrieve alarm state transitions, threshold configurations, and evaluation periods. CloudWatch Logs Insights queries are executed via logs.start_query to search for error patterns, exception stack traces, and anomalous log volumes around alarm trigger times. AWS X-Ray trace analysis through the aws-xray-sdk identifies latency bottlenecks, fault segments, and downstream service failures correlated with alarm events. The skill cross-references alarm timestamps with CodeDeploy deployment events via codedeploy.list_deployments to determine if recent deployments caused the issue. Additional correlations include ECS task state changes, Lambda cold start patterns, RDS performance insights metrics, and ALB target group health checks. The triage process generates a root cause probability matrix ranking potential causes by evidence strength. It supports custom metric alarms, composite alarms with AND/OR logic, and anomaly detection band alarms. Remediation suggestions include automatic scaling policy adjustments, Lambda concurrency reservation changes, and RDS parameter group modifications. The skill outputs structured incident reports suitable for PagerDuty or OpsGenie integration.
+Triages AWS CloudWatch alarms using boto3 CloudWatch.describe_alarms, CloudWatch Logs Insights queries, and AWS X-Ray trace analysis via the xray-sdk. Correlates alarm triggers with deployment events.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

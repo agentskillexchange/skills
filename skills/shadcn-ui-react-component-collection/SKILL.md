@@ -1,8 +1,7 @@
 ---
-name: shadcn/ui — Re-usable UI Component Collection for React
-description: shadcn/ui is a collection of accessible UI components built with Radix
-  UI and Tailwind CSS that you copy into your project for full customization. Includes
-  40+ components with variants, themes, and TypeScript support.
+title: shadcn/ui — Re-usable UI Component Collection for React
+description: shadcn/ui is a collection of accessible UI components built with Radix UI and Tailwind CSS that you copy into your project for full customization. Includes 40+ components with variants, themes, and TypeScript support.
+slug: shadcn-ui-react-component-collection
 verification: listed
 source: https://github.com/shadcn-ui/ui
 category:
@@ -19,13 +18,13 @@ shadcn/ui is a collection of accessible UI components built with Radix UI and Ta
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

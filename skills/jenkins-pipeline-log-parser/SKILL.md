@@ -1,8 +1,7 @@
 ---
-name: Jenkins Pipeline Log Parser
-description: Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST
-  API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit
-  XML parsing, and generates failure trend reports with node allocation insights.
+title: Jenkins Pipeline Log Parser
+description: Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
+slug: jenkins-pipeline-log-parser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jenkins-pipeline-log-parser/
 category:
@@ -12,20 +11,17 @@ framework:
 ---
 # Jenkins Pipeline Log Parser
 
-The Jenkins Pipeline Log Parser skill automates the analysis of Jenkins CI/CD build failures and performance patterns. It connects to Jenkins instances via the REST API and Blue Ocean API for enhanced pipeline visualization data.
-The skill retrieves build logs and parses them to identify specific stage failures, extracting error messages and stack traces from pipeline step outputs. It uses the Jenkins JUnit plugin API to parse test result XML files, detecting flaky tests through statistical analysis of pass/fail patterns across recent builds.
-Failure trend analysis tracks recurring error patterns across builds, identifying infrastructure-related failures versus code-related failures. The skill correlates build failures with node allocation data to detect agent-specific issues like disk space exhaustion or network connectivity problems.
-Reports include build duration trend analysis, queue wait time metrics, and parallel stage execution efficiency measurements. The skill supports Declarative and Scripted pipeline formats, multibranch pipelines, and shared library debugging with source-mapped error locations.
+Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

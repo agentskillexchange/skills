@@ -1,8 +1,7 @@
 ---
-name: Traefik Cloud-Native Application Proxy and Reverse Proxy
-description: Traefik is a modern cloud-native reverse proxy and load balancer that
-  automatically discovers services and configures routing. It integrates natively
-  with Docker, Kubernetes, and Let&#8217;s Encrypt for automatic HTTPS.
+title: Traefik Cloud-Native Application Proxy and Reverse Proxy
+description: Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS.
+slug: traefik-cloud-native-reverse-proxy
 verification: security_reviewed
 source: https://github.com/traefik/traefik
 category:
@@ -15,41 +14,17 @@ tool_ecosystem:
 ---
 # Traefik Cloud-Native Application Proxy and Reverse Proxy
 
-Overview
-Traefik (pronounced &#8220;traffic&#8221;) is an open-source edge router and reverse proxy designed for cloud-native environments. Unlike traditional reverse proxies that require manual configuration files, Traefik automatically discovers services from orchestrators like Docker, Kubernetes, Marathon, Consul, and etcd, then dynamically generates routing configuration. With over 62,000 GitHub stars, it is one of the most widely adopted infrastructure tools in the container ecosystem.
-Core Capabilities
-Traefik provides automatic service discovery by connecting to infrastructure components and reading their metadata to generate routing rules in real time. It handles automatic HTTPS certificate management via Let's Encrypt with ACME protocol support, including DNS challenge providers. The proxy supports HTTP/2, gRPC, WebSocket, and TCP/UDP routing. Built-in middleware provides functionality for rate limiting, circuit breaking, authentication, header manipulation, and request buffering.
-Agent Integration Points
-AI agents managing infrastructure can interact with Traefik through its REST API at /api to inspect routers, services, and middleware configurations. The traefik CLI provides commands for healthcheck and configuration validation. Agents deploying containerized applications can configure routing by adding Docker labels or Kubernetes IngressRoute CRDs, making Traefik a zero-touch routing layer for automated deployment workflows. The dashboard API provides JSON-formatted metrics and configuration data ideal for automated monitoring.
-Key Features
-
-Automatic service discovery from Docker, Kubernetes, Consul, etcd
-Let's Encrypt HTTPS with automatic certificate renewal
-HTTP/2, gRPC, WebSocket, TCP, and UDP routing
-Built-in middleware: rate limiting, circuit breakers, auth, headers
-Canary deployments and traffic mirroring
-Observability: Prometheus metrics, OpenTelemetry tracing, access logs
-Dashboard with real-time service and route visualization
-
-Installation
-# Docker
-docker run -d -p 80:80 -p 8080:8080 traefik:v3.6 --api.insecure=true --providers.docker
-
-# Binary
-wget https://github.com/traefik/traefik/releases/download/v3.6.12/traefik_v3.6.12_linux_amd64.tar.gz
-tar xzf traefik_v3.6.12_linux_amd64.tar.gz
-Configuration
-Traefik uses a two-level configuration system: static configuration (entrypoints, providers) defined in traefik.yml or CLI flags, and dynamic configuration (routers, services, middleware) discovered automatically from providers or defined in file providers. Configuration can also be set entirely through environment variables.
+Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let’s Encrypt for automatic HTTPS.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

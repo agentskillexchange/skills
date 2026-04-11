@@ -1,9 +1,7 @@
 ---
-name: Sonic Fast Lightweight Schema-Less Search Backend
-description: Sonic is a fast, lightweight, and schema-less search backend written
-  in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a
-  few megabytes of RAM, making it ideal for resource-constrained environments and
-  edge deployments.
+title: Sonic Fast Lightweight Schema-Less Search Backend
+description: Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a few megabytes of RAM, making it ideal for resource-constrained environments and edge deployments.
+slug: sonic-fast-lightweight-search-backend
 verification: security_reviewed
 source: https://github.com/valeriansaliou/sonic
 category:
@@ -17,25 +15,17 @@ tool_ecosystem:
 ---
 # Sonic Fast Lightweight Schema-Less Search Backend
 
-Sonic is a search backend server built in Rust by Valerian Saliou. It provides full-text search indexing and querying through its own lightweight protocol called Sonic Channel, designed for minimal resource consumption and simple integration. Unlike Elasticsearch, Sonic runs on just a few MBs of RAM, making it suitable for small servers, embedded systems, and environments where heavyweight Java-based search engines are impractical.
-Architecture
-Sonic operates through three channel modes: Search (querying the index), Ingest (pushing and popping data), and Control (administrative operations like flushing collections and buckets). The Sonic Channel protocol is text-based and straightforward to implement, with client libraries available for Node.js, Python, Go, Rust, PHP, Java, and Ruby.
-Key Features
-Sonic supports autocomplete suggestions, typo tolerance through phonetic matching, and locale-aware tokenization for multiple languages. Data is organized into collections and buckets for multi-tenant search architectures. The search index is backed by a RocksDB-based key-value store for durable, crash-safe storage. Configuration is managed through a single TOML file.
-Performance
-Benchmarks show Sonic can handle search queries in sub-millisecond time for indexes with millions of entries. Its memory footprint stays consistently low compared to Elasticsearch or Solr, typically using 10-30 MB of RAM for typical workloads. This makes it particularly attractive for self-hosted search on VPS instances, Raspberry Pi deployments, or microservice architectures.
-Agent Skill Applications
-AI agents can integrate Sonic as a fast local search backend for indexing and querying structured knowledge bases, conversation logs, or document collections. The simple protocol and multi-language client libraries make it easy to add search capabilities to agent workflows without the operational overhead of Elasticsearch. Agents building RAG (Retrieval-Augmented Generation) pipelines can use Sonic for lightweight keyword-based retrieval alongside vector search.
+Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a few megabytes of RAM, making it ideal for resource-constrained environments and edge deployments.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

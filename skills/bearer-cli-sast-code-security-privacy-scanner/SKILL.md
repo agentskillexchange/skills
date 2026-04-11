@@ -1,13 +1,11 @@
 ---
-name: Bearer CLI SAST Code Security and Privacy Scanner
-description: Bearer CLI is an open-source static application security testing (SAST)
-  tool that scans source code to identify, filter, and prioritize security vulnerabilities
-  and privacy risks. Covers OWASP Top 10 and CWE Top 25 with data flow analysis across
-  multiple languages.
+title: Bearer CLI SAST Code Security and Privacy Scanner
+description: Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy risks. Covers OWASP Top 10 and CWE Top 25 with data flow analysis across multiple languages.
+slug: bearer-cli-sast-code-security-privacy-scanner
 verification: security_reviewed
 source: https://github.com/Bearer/bearer
 category:
-- Security &amp; Verification
+- Security & Verification
 framework:
 - Claude Code
 tool_ecosystem:
@@ -16,20 +14,17 @@ tool_ecosystem:
 ---
 # Bearer CLI SAST Code Security and Privacy Scanner
 
-Bearer CLI is a free, open-source static application security testing tool developed by Cycode that scans source code and analyzes data flows to identify security vulnerabilities and privacy risks. Unlike generic scanners, Bearer tracks how sensitive data moves through an application, enabling it to detect issues that pattern-matching tools miss.
-The scanner covers the OWASP Top 10 and CWE Top 25 vulnerability categories with built-in rules for access control failures (path traversal, open redirects), cryptographic weaknesses, injection flaws (SQL injection, XSS, XPath), security misconfigurations, authentication failures, data integrity issues, SSRF, and more. All rules and their code patterns are documented and open source, allowing teams to audit exactly what the tool checks.
-Beyond security scanning, Bearer includes a privacy analysis capability that detects sensitive data flows including PII and PHI usage throughout the codebase. It identifies which components process sensitive data, including databases and third-party APIs like OpenAI and Sentry, producing reports suitable for Privacy Impact Assessments, Data Protection Impact Assessments, and GDPR compliance Records of Processing Activities.
-The CLI supports Go, Java, JavaScript, TypeScript, PHP, Python, and Ruby out of the box. Installation is available through Homebrew (bearer/tap/bearer), APT and RPM repositories, Docker images, and a curl-based install script. Scanning a project is as simple as running bearer scan ./my-project, which produces a detailed security report with findings, their locations in the codebase, and explanations of why each pattern is risky. Output formats include JSON, HTML, SARIF for CI integration, and a default human-readable report. The project lives at github.com/Bearer/bearer under the Elastic License 2.0, with an active community and regular releases.
+Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy risks. Covers OWASP Top 10 and CWE Top 25 with data flow analysis across multiple languages.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

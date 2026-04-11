@@ -1,8 +1,7 @@
 ---
-name: GitHub Actions CI Pipeline Builder
-description: Generates and manages GitHub Actions workflows using the Workflow YAML
-  syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite
-  actions.
+title: GitHub Actions CI Pipeline Builder
+description: Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
+slug: github-actions-ci-pipeline-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/github-actions-ci-pipeline-builder/
 category:
@@ -12,20 +11,17 @@ framework:
 ---
 # GitHub Actions CI Pipeline Builder
 
-The GitHub Actions CI Pipeline Builder creates, validates, and manages CI/CD workflows using GitHub Actions YAML syntax and the GitHub REST API (repos/{owner}/{repo}/actions/workflows, actions/runs). It generates production-ready workflow files with proper job dependencies, caching strategies, and artifact management.
-The agent supports advanced workflow features including matrix builds with dynamic includes/excludes, reusable workflows (workflow_call trigger), composite actions, and environment protection rules. It configures proper concurrency groups to prevent redundant runs and uses GitHub Packages for container registry integration.
-Caching is optimized through actions/cache with language-specific key strategies (pip, npm, cargo, gradle). The agent generates workflows for multi-platform testing (ubuntu, windows, macos), deployment gates with manual approval, and scheduled maintenance jobs.
-Security hardening includes OIDC token authentication for cloud deployments, pinned action versions with SHA hashes, and minimal GITHUB_TOKEN permissions via permissions key. The agent also configures CodeQL analysis workflows and dependency review enforcement.
+Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

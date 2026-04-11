@@ -1,9 +1,7 @@
 ---
-name: Soft Serve Self-Hosted Git Server with SSH TUI
-description: Soft Serve is a self-hostable Git server by Charmbracelet that provides
-  a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP,
-  and Git protocol, Git LFS, access control with SSH keys, and on-demand repository
-  creation.
+title: Soft Serve Self-Hosted Git Server with SSH TUI
+description: Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control with SSH keys, and on-demand repository creation.
+slug: soft-serve-self-hosted-git-server-ssh-tui
 verification: security_reviewed
 source: https://github.com/charmbracelet/soft-serve
 category:
@@ -17,21 +15,17 @@ tool_ecosystem:
 ---
 # Soft Serve Self-Hosted Git Server with SSH TUI
 
-Soft Serve is an open-source, self-hosted Git server built by the Charmbracelet team, known for their elegant terminal tools. It provides a complete Git hosting solution in a single binary, with a standout feature: a beautiful terminal user interface accessible directly over SSH.
-Users can browse repositories, view files with syntax highlighting and line numbers, explore commit history, and navigate directory trees — all through an SSH connection. The command ssh git.charm.sh demonstrates the experience on the project's public demo server. Repository browsing commands include repo tree, repo blob, and repo log.
-Soft Serve supports cloning repositories over SSH, HTTP, and the native Git protocol. It includes Git LFS support with both HTTP and SSH backends, making it suitable for projects with large binary files. Repositories can be created on demand simply by pushing to a new path.
-Access control is handled through SSH public keys. Repositories can be public or private, collaborators can be added via their SSH keys, and user access tokens provide API authentication. Anonymous access can be allowed or disallowed per configuration. An initial admin key is set via environment variable on first run.
-Installation is available via Homebrew, apt, yum, Nix, winget, Docker, and Go install. Configuration lives in a YAML file within the data directory. Systemd service units are included with the packaged distributions. The single-binary architecture makes deployment straightforward on any server.
+Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH. It supports cloning over SSH, HTTP, and Git protocol, Git LFS, access control with SSH keys, and on-demand repository creation.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,9 +1,7 @@
 ---
-name: Stagehand Browser Agent SDK
-description: Stagehand is Browserbase&#8217;s open source SDK for browser agents,
-  combining code-first control with natural language actions. It is aimed at reliable
-  production browser automation, with TypeScript integrations, docs, and npm distribution
-  for agent workflows.
+title: Stagehand Browser Agent SDK
+description: Stagehand is Browserbase’s open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows.
+slug: stagehand-browser-agent-sdk
 verification: security_reviewed
 source: https://github.com/browserbase/stagehand
 category:
@@ -17,19 +15,17 @@ tool_ecosystem:
 ---
 # Stagehand Browser Agent SDK
 
-Stagehand is the open source browser agent SDK maintained by Browserbase. The project is designed for developers who want a more reliable middle ground between fragile low-level browser scripts and fully opaque autonomous agents. In practice, Stagehand lets you combine normal code with targeted natural-language browser actions, which is useful when a workflow needs both deterministic steps and flexible page understanding.
-The upstream package is published on npm as @browserbasehq/stagehand, backed by a public GitHub repository, official documentation, MIT license, and active release history. Browserbase positions it as an SDK for browser agents, and its documentation includes installation paths, framework integrations, and examples for real automation projects. That gives ASE users a concrete tool rather than a vague pattern.
-This skill fits jobs like authenticated browsing flows, form completion, scraping with page interaction, and agent-led QA or operations tooling. It integrates with TypeScript and JavaScript application stacks, supports LLM provider configuration, and can be paired with Browserbase cloud sessions or local browser execution depending on the workflow. For users comparing browser agent foundations, Stagehand is especially relevant when maintainability and production-oriented control matter more than pure prompt-only automation.
+Stagehand is Browserbase’s open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

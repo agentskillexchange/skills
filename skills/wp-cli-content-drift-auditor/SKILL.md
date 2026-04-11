@@ -1,13 +1,11 @@
 ---
-name: WP-CLI Content Drift Auditor
-description: Audits WordPress content drift by comparing live posts, revisions, and
-  key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp
-  option get`. Useful for catching accidental edits, stale templates, and mismatches
-  between REST output and database state before they turn into site-wide regressions.
+title: WP-CLI Content Drift Auditor
+description: Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions.
+slug: wp-cli-content-drift-auditor
 verification: security_reviewed
 source: https://github.com/wp-cli/wp-cli
 category:
-- WordPress &amp; CMS
+- WordPress & CMS
 framework:
 - OpenClaw
 tool_ecosystem:
@@ -16,19 +14,17 @@ tool_ecosystem:
 ---
 # WP-CLI Content Drift Auditor
 
-WP-CLI Content Drift Auditor is a practical skill for teams that need to detect silent content changes across a WordPress site without building a full custom dashboard. It leans on WP-CLI primitives such as wp post list, wp post get, wp post meta get, wp option get, and wp db query to compare the current state of posts, pages, custom post types, and key site settings. That makes it useful when a page looks different in production, the excerpt no longer matches the hero copy, or a block template was adjusted by hand and no one recorded it.
-The skill also helps reconcile differences between rendered content and what clients see from /wp-json/wp/v2. It can sample post dates, slugs, statuses, excerpts, and modified timestamps, then highlight suspicious drift such as unexpectedly changed metadata, duplicate slugs, or updates that bypassed a normal release process. In editorial environments, that is often faster than digging through wp-admin screens one by one.
-Use this skill for incident triage, release validation, and ongoing integrity checks on content-heavy WordPress installs where small CMS edits can have outsized downstream effects.
+Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

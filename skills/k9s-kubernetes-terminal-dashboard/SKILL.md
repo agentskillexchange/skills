@@ -1,9 +1,7 @@
 ---
-name: K9s Kubernetes Terminal Dashboard
-description: K9s is a terminal-based UI for managing Kubernetes clusters, providing
-  real-time observation of resources, log tailing, pod shell access, and cluster navigation.
-  Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands
-  with an interactive interface.
+title: K9s Kubernetes Terminal Dashboard
+description: K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface.
+slug: k9s-kubernetes-terminal-dashboard
 verification: security_reviewed
 source: https://github.com/derailed/k9s
 category:
@@ -16,21 +14,17 @@ tool_ecosystem:
 ---
 # K9s Kubernetes Terminal Dashboard
 
-K9s is an open-source terminal user interface for Kubernetes, available at github.com/derailed/k9s with over 28,000 GitHub stars and an active release cadence. It provides a continuously-updated view of your Kubernetes cluster, letting operators navigate, observe, and manage workloads without memorizing kubectl command syntax.
-The tool watches Kubernetes resources in real time and presents them in navigable, filterable views. Developers can inspect pods, deployments, services, configmaps, secrets, and dozens of other resource types through a consistent keyboard-driven interface. Each resource view supports contextual actions: pods can be logged, shelled into, deleted, or described; deployments can be scaled or restarted; and custom resources are discovered and displayed automatically from the cluster API.
-K9s includes built-in log tailing with filtering and timestamps, making it straightforward to debug application issues without switching between multiple terminal windows. The tool supports multi-cluster and multi-namespace workflows through its context and namespace switching, and it can be customized with skins, hotkeys, aliases, and plugin commands defined in YAML configuration files.
-Installation covers all major platforms: Homebrew on macOS and Linux, snap and apt on Ubuntu, pacman on Arch, dnf on Fedora, winget/scoop/chocolatey on Windows, and Go install for building from source. Docker images are available for containerized usage, and it even has a Docker Desktop extension for managing the built-in Kubernetes server.
-For agent skills focused on Kubernetes operations, K9s serves as an interactive layer that can surface cluster state faster than raw kubectl queries. Agents working on deployment diagnostics, pod troubleshooting, or resource monitoring can leverage K9s to navigate cluster resources, tail logs across multiple pods, and execute targeted actions like restarts or shell access. Its Pulse view provides an at-a-glance cluster health summary that is useful for automated health assessment workflows.
+K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

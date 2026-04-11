@@ -1,48 +1,27 @@
 ---
-name: Highlight.io Open Source Full-Stack Monitoring Platform
-description: Highlight.io is an open-source full-stack monitoring platform combining
-  session replay, error monitoring, logging, and distributed tracing in a single cohesive
-  tool. Self-hostable via Docker, it provides complete application observability for
-  frontend and backend.
+title: Highlight.io Open Source Full-Stack Monitoring Platform
+description: Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend.
+slug: highlight-io-full-stack-monitoring
 verification: security_reviewed
 source: https://github.com/highlight/highlight
 category:
-- Monitoring &amp; Alerts
+- Monitoring & Alerts
 framework:
 - Custom Agents
 ---
 # Highlight.io Open Source Full-Stack Monitoring Platform
 
-Highlight.io is an open-source, full-stack monitoring platform that combines session replay, error monitoring, logging, and distributed tracing into a single unified tool. Unlike traditional monitoring solutions that require separate tools for each concern, Highlight.io provides cohesive observability across the entire application stack.
-What It Does
-Highlight.io captures everything needed to understand application behavior and debug issues: DOM-based session replay showing exact user interactions, error tracking with full stack traces, structured logging with search and filtering, and distributed traces connecting frontend actions to backend operations.
-Key Features
-Session Replay: High-fidelity DOM-based replay powered by rrweb captures every user interaction and DOM change. See exactly what users experienced, including network requests, console logs, and errors in context.
-Error Monitoring: Automatic error capture across frontend and backend with full stack traces, source map support, error grouping, and alert configuration. Errors are linked to the session where they occurred.
-Logging: Structured log ingestion with powerful search, filtering, and correlation. Logs are automatically connected to traces and sessions for complete context during debugging.
-Distributed Tracing: End-to-end request tracing from browser to backend services. Traces show the complete request lifecycle with timing breakdowns and error attribution.
-Self-Hosted Deployment: Deploy with a single Docker command for hobby instances, or use the enterprise deployment guide for production-scale installations. All data stays on your infrastructure.
-SDK Support
-Highlight.io provides SDKs for JavaScript/TypeScript (React, Next.js, Vue, Angular), Python (Django, Flask, FastAPI), Go (net/http, Gin, GORM), Ruby (Rails), Java (Spring Boot), and Rust. Each SDK integrates with popular frameworks and provides automatic instrumentation.
-How Agents Use It
-AI agents responsible for application monitoring and incident response can use Highlight.io to investigate production issues. An agent can query error data via the API, correlate errors with session replays to understand user impact, search logs for related events, and trace requests across services to identify root causes. For DevOps agents, Highlight.io provides the observability data needed for automated diagnostics and alerting workflows.
-Installation
-git clone --recurse-submodules https://github.com/highlight/highlight
-cd docker && ./run-hobby.sh
-For the hosted version, install the client SDK:
-npm install highlight.run
-Integration Points
-Highlight.io integrates with Slack, Discord, Linear, Jira, Clickup, Vercel, and other tools for alerting and workflow automation. It supports OpenTelemetry for trace and log ingestion, making it compatible with existing observability pipelines.
+Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging, and distributed tracing in a single cohesive tool. Self-hostable via Docker, it provides complete application observability for frontend and backend.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

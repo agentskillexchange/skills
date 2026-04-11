@@ -1,13 +1,11 @@
 ---
-name: Documind AI-Powered Structured Data Extraction from Documents
-description: Documind is an open-source Node.js tool that uses AI to extract structured
-  JSON data from PDFs and other documents. Define a custom schema for what you need,
-  and Documind returns clean, typed data — supporting OpenAI and local LLM backends
-  like Llama 3.2 Vision.
+title: Documind AI-Powered Structured Data Extraction from Documents
+description: Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision.
+slug: documind-ai-structured-data-extraction
 verification: security_reviewed
 source: https://github.com/DocumindHQ/documind
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction & Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -18,21 +16,17 @@ tool_ecosystem:
 ---
 # Documind AI-Powered Structured Data Extraction from Documents
 
-Documind is an open-source document processing tool that leverages AI vision models to extract structured data from unstructured documents. Maintained at github.com/DocumindHQ/documind, it bridges the gap between raw document content and the clean, typed JSON that applications actually need.
-The key innovation in Documind is schema-driven extraction. Instead of getting back a blob of text from a document, you define exactly what fields you want — account numbers, transaction dates, line items, totals — with their expected data types and descriptions. Documind then uses AI vision models to locate and extract those specific fields, returning structured JSON that matches your schema. This makes it practical for automating document workflows where you need specific data points, not just raw text.
-Under the hood, Documind converts documents to images using Ghostscript and GraphicsMagick, then sends them to an AI vision model for analysis. It supports OpenAI's GPT-4 Vision as well as local models through Llama 3.2 Vision integration, giving teams the option to keep sensitive documents on-premise. The tool also supports auto-generated schemas — point it at a document and it will infer what fields are available.
-Beyond JSON extraction, Documind can convert documents to Markdown format, which is useful for feeding document content into LLM pipelines. It includes template schemas for common document types like invoices, bank statements, and receipts, so you can start extracting data without writing custom schemas.
-A skill wrapping Documind gives an AI agent the ability to process incoming documents and extract exactly the data it needs. The agent could parse invoices for accounting workflows, extract form data for processing, or convert documents into structured formats for database ingestion. Install via npm install documind. The project requires Node.js 18+, Ghostscript, and GraphicsMagick as system dependencies. Documind is MIT-licensed with active development.
+Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

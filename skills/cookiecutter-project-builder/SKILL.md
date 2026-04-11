@@ -1,28 +1,27 @@
 ---
-name: Cookiecutter Project Builder
-description: Creates project scaffolds from Cookiecutter templates with interactive
-  variable resolution. Integrates with cruft for template drift detection and copier
-  for advanced multi-template composition.
+title: Cookiecutter Project Builder
+description: Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.
+slug: cookiecutter-project-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-builder/
 category:
-- Templates &amp; Workflows
+- Templates & Workflows
 framework:
 - Claude Code
 ---
 # Cookiecutter Project Builder
 
-The Cookiecutter Project Builder automates project scaffolding from community and custom Cookiecutter templates with intelligent variable resolution and post-generation hooks. It wraps the cookiecutter Python library to render Jinja2-templated project structures, supporting both local template directories and remote GitHub/GitLab repositories. For enterprise use, it integrates with cruft to detect template drift in previously generated projects, showing which files have diverged from the upstream template and offering selective update merging. The tool also supports copier as an alternative templating engine for advanced scenarios including multi-template composition, conditional file inclusion, and migration scripts between template versions. It pre-validates template variables against JSON Schema definitions in cookiecutter.json, providing autocomplete suggestions and type checking before generation begins. Post-generation hooks execute setup scripts for initializing git repositories, installing dependencies via pip/npm/cargo, creating virtual environments, and configuring pre-commit hooks. The builder maintains a local template registry for frequently used scaffolds with pinned versions and organization-specific variable defaults.
+Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

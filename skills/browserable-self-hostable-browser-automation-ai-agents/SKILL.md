@@ -1,9 +1,7 @@
 ---
-name: Browserable Self-Hostable Browser Automation for AI Agents
-description: Browserable is an open-source, self-hostable browser automation library
-  built for AI agents. This skill turns Browserable into a repeatable workflow for
-  navigation, form filling, extraction, and browser-based task execution with local
-  control instead of a hosted black box.
+title: Browserable Self-Hostable Browser Automation for AI Agents
+description: Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling, extraction, and browser-based task execution with local control instead of a hosted black box.
+slug: browserable-self-hostable-browser-automation-ai-agents
 verification: security_reviewed
 source: https://github.com/browserable/browserable
 category:
@@ -19,19 +17,17 @@ tool_ecosystem:
 ---
 # Browserable Self-Hostable Browser Automation for AI Agents
 
-Browserable is an open-source and self-hostable browser automation library designed specifically for AI agents. This skill uses Browserable as the execution layer for browser-driven jobs such as opening authenticated web apps, filling forms, clicking controls, extracting structured data, and replaying deterministic multi-step flows. Instead of describing browser work in vague terms, the skill maps the task into Browserable concepts like sessions, actions, page state, selectors, and extraction results so the agent can reliably move from intent to execution.
-In practice, the workflow starts by launching or connecting to a Browserable session, navigating to a target URL, and waiting for stable page state before performing actions. The skill can then drive search boxes, login forms, dropdowns, and buttons, or capture page content for downstream analysis. It is especially useful for authenticated dashboards, repetitive browser QA, operational back-office tasks, and data collection jobs where screenshots, DOM text, or extracted fields need to be returned in a structured result.
-The skill also helps agents reason about Browserable deployment choices. Because Browserable is self-hostable, it fits environments where teams want their own browser infrastructure, network policy, and audit trail. Integration points include agent runtimes that can call CLIs, HTTP endpoints, or task runners, plus pipelines that store output in JSON, CSV, databases, or ticketing systems. Technical terms that matter here include headless automation, browser sessions, selector targeting, action replay, extraction pipelines, and self-hosted browser infrastructure. By anchoring the workflow to Browserable rather than generic browser prompts, the skill makes browser automation more reproducible and easier to operate.
+Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling, extraction, and browser-based task execution with local control instead of a hosted black box.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

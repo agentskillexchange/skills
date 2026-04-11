@@ -1,30 +1,27 @@
 ---
-name: Ansible Playbook Dry-Run Validator
-description: Validates Ansible playbooks in check mode using ansible-playbook &#8211;check
-  &#8211;diff and the Ansible Python API. Detects idempotency issues, undefined variables,
-  and unreachable hosts before production runs.
+title: Ansible Playbook Dry-Run Validator
+description: Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
+slug: ansible-playbook-dryrun-validator-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks & Diagnostics
 framework:
 - Cursor
 ---
 # Ansible Playbook Dry-Run Validator
 
-The Ansible Playbook Dry-Run Validator ensures playbook safety by running comprehensive validation before production execution. It uses ansible-playbook with -check -diff flags for dry-run simulation and the Ansible Python API for programmatic playbook introspection and variable resolution.
-The agent performs multi-layer validation including syntax checking via ansible-playbook -syntax-check, variable resolution verification against inventory and group_vars, role dependency validation, and conditional logic analysis for when/failed_when clauses. It detects common issues like undefined variables that only surface in specific host groups, non-idempotent tasks that would change state on every run, and missing handler notifications.
-Advanced capabilities include generating change prediction reports showing exactly which hosts and tasks would be modified, validating Ansible Vault encrypted variables without decrypting them in logs, and testing playbook compatibility across multiple Ansible versions. The agent supports playbook collections, custom modules, and dynamic inventory sources including AWS EC2, Azure, and GCP inventory plugins.
+Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

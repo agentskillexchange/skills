@@ -1,8 +1,7 @@
 ---
-name: Jenkins Pipeline Generator
-description: Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline
-  Syntax reference and shared library patterns. Integrates with the Jenkins REST API
-  (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
+title: Jenkins Pipeline Generator
+description: Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
+slug: jenkins-pipeline-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jenkins-pipeline-generator/
 category:
@@ -12,20 +11,17 @@ framework:
 ---
 # Jenkins Pipeline Generator
 
-The Jenkins Pipeline Generator skill automates the creation of declarative and scripted Jenkins pipeline definitions following the official Pipeline Syntax reference. It generates Jenkinsfile content with proper stage definitions, parallel execution blocks, post-condition handlers, and agent specifications for both traditional and Kubernetes-based executors.
-This skill integrates with the Jenkins REST API (/api/json) to discover existing job configurations, installed plugins, and available build agents. It queries the Blue Ocean API endpoints for pipeline run visualization data and uses the Pipeline Model Definition API to validate generated pipeline syntax before deployment.
-Shared library integration is a core capability, generating vars/ scripts and src/ classes that follow Jenkins shared library conventions. The skill creates library configurations with proper @Library annotations and manages version pinning for reproducible builds across teams.
-Advanced features include generating multibranch pipeline configurations with custom branch discovery strategies, creating pipeline templates for common patterns like build-test-deploy with approval gates, and configuring credential bindings using the Jenkins Credentials API. The skill also generates proper Groovy sandbox-compatible code to avoid script approval requirements.
+Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,9 +1,7 @@
 ---
-name: Stagehand AI Browser Automation Framework
-description: Build browser automations with Stagehand, Browserbase&#8217;s AI browser
-  automation framework. It combines natural-language actions with code-level control
-  so agents can navigate sites, extract data, and turn brittle scripts into more resilient
-  Playwright-style workflows.
+title: Stagehand AI Browser Automation Framework
+description: Build browser automations with Stagehand, Browserbase’s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows.
+slug: stagehand-ai-browser-automation-framework-2
 verification: security_reviewed
 source: https://github.com/browserbase/stagehand
 category:
@@ -13,19 +11,17 @@ framework:
 ---
 # Stagehand AI Browser Automation Framework
 
-Stagehand is Browserbase’s AI browser automation framework for teams that want natural-language browser control without giving up code-level reliability. A Stagehand skill is useful when an agent needs to open websites, click through unfamiliar interfaces, extract structured data, or turn a prompt into a repeatable browser workflow. The upstream project exposes primitives such as act(), agent(), and extract(), letting a workflow mix natural-language navigation with typed extraction and ordinary browser automation code.
-In practice, this kind of skill fits tasks like login flows, dashboard QA, lead capture, form filling, scraping dynamic pages, and multi-step browser tasks where the DOM changes often. Stagehand is built to bridge the gap between pure code automation and autonomous agents: it can use AI when the page is unfamiliar, then fall back to deterministic browser control when the workflow stabilizes. The project’s own docs emphasize repeatable production automations, auto-caching, and self-healing behavior when web pages change.
-Integration points include Browserbase for remote browser sessions, LLM provider API keys for natural-language actions, and common TypeScript or Node.js application stacks. If you want an agent skill anchored to a real browser automation framework rather than a vague “web assistant,” Stagehand gives you a concrete, well-documented foundation with active maintenance, published releases, and a large developer user base.
+Build browser automations with Stagehand, Browserbase’s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

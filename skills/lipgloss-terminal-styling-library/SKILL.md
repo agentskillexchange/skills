@@ -1,9 +1,7 @@
 ---
-name: Lip Gloss CSS-Like Terminal Styling Library for Go
-description: Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative
-  styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color
-  handling, borders, padding, tables, and layout primitives for building polished
-  terminal applications.
+title: Lip Gloss CSS-Like Terminal Styling Library for Go
+description: Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color handling, borders, padding, tables, and layout primitives for building polished terminal applications.
+slug: lipgloss-terminal-styling-library
 verification: security_reviewed
 source: https://github.com/charmbracelet/lipgloss
 category:
@@ -13,31 +11,17 @@ framework:
 ---
 # Lip Gloss CSS-Like Terminal Styling Library for Go
 
-Lip Gloss is an open-source Go library by Charmbracelet that brings CSS-like declarative styling to terminal user interfaces. With over 11,000 stars on GitHub, it has become the de facto standard for styled terminal rendering in the Go ecosystem.
-What It Does
-Lip Gloss provides a fluent, chainable API for defining terminal styles. Developers familiar with CSS will find the approach intuitive — styles are defined with properties like Bold, Foreground, Background, Padding, Margin, and Width, then applied to text via a Render method. The library handles color profile detection automatically, downsampling Truecolor to 256-color or ANSI as needed.
-Key Features
-Declarative Styling: Define styles with a chainable API that mirrors CSS properties. Set colors, borders, padding, margins, alignment, and dimensions in a readable, composable way.
-Adaptive Color Support: Lip Gloss supports Truecolor (16 million colors), ANSI 256-color, ANSI 16-color, and 1-bit ASCII profiles. It automatically detects the terminal capabilities and downgrades colors gracefully.
-Color Utilities: Built-in functions for color manipulation — darken, lighten, complementary colors, alpha blending, and automatic light/dark variant selection at runtime.
-Layout Primitives: Includes table rendering, tree structures, list formatting, and a JoinHorizontal/JoinVertical system for composing complex multi-panel layouts.
-Bubble Tea Integration: Designed to work seamlessly with Bubble Tea (the Go TUI framework) while also functioning perfectly as a standalone library.
-How Agents Use It
-AI coding agents building Go CLI tools or TUI applications can use Lip Gloss to style output consistently. When generating terminal UIs, an agent can use the declarative API to create professional-looking output with proper alignment, coloring, and borders. The library is also essential for agents working with the broader Charmbracelet ecosystem (Bubble Tea, Huh, Gum) since Lip Gloss is the styling foundation they all share.
-Installation
-go get charm.land/lipgloss/v2
-Integration Points
-Lip Gloss integrates with Bubble Tea for interactive TUI apps, Glamour for markdown rendering, and the broader Go terminal ecosystem. It works with any Go program that writes to stdout or any io.Writer.
+Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color handling, borders, padding, tables, and layout primitives for building polished terminal applications.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

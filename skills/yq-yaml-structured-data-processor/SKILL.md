@@ -1,12 +1,11 @@
 ---
-name: yq YAML and Structured Data Processor
-description: Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties
-  files from the command line using yq. Supports jq-like expressions for reading,
-  updating, and converting between formats.
+title: yq YAML and Structured Data Processor
+description: Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats.
+slug: yq-yaml-structured-data-processor
 verification: security_reviewed
 source: https://github.com/mikefarah/yq
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction & Transformation
 framework:
 - Claude Code
 tool_ecosystem:
@@ -15,21 +14,17 @@ tool_ecosystem:
 ---
 # yq YAML and Structured Data Processor
 
-The yq YAML and Structured Data Processor skill uses mikefarah/yq, a portable command-line tool that applies jq-like expression syntax to YAML, JSON, XML, CSV, TOML, INI, HCL, and properties files. With over 15,000 GitHub stars and millions of downloads, yq is the go-to tool for configuration file manipulation in DevOps and infrastructure automation workflows.
-yq reads structured data, applies path expressions to select or modify nodes, and outputs the result. Reading a nested value is as simple as running yq '.a.b[0].c' file.yaml. In-place updates use the -i flag: yq -i '.image.tag = "v2.1.0"' deployment.yaml. Environment variable interpolation is built in via strenv(), which means the agent can template configuration files without external tools. Multiple updates chain naturally with the pipe operator.
-Format conversion is a core strength. Converting JSON to pretty-printed YAML is yq -Poy data.json. Converting YAML to JSON is yq -o json data.yaml. XML, CSV, and TOML conversions follow the same pattern. This makes yq essential for pipelines that consume data in one format and produce it in another—Kubernetes manifests to JSON for API calls, CSV exports to YAML for configuration management, or XML API responses to structured YAML for further processing.
-Advanced operations include merging multiple files with glob patterns, finding and updating items in arrays by field value, creating new documents from expressions, and evaluating multiple files simultaneously with the ea (evaluate all) command. The expression language supports conditionals, string functions, regex, recursive descent, and type coercion.
-yq is written in Go and ships as a single dependency-free binary for Linux, macOS, and Windows. It is available via Homebrew, snap, apt (via PPA), Docker, pip, and direct download. Licensed under MIT, it maintains an active release cadence with the latest version being v4.52.4. For any agent working with configuration files, Helm values, Kubernetes manifests, or data transformation pipelines, yq provides the foundation for precise, scriptable edits without manual file manipulation.
+Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

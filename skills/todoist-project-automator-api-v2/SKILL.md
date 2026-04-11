@@ -1,28 +1,27 @@
 ---
-name: Todoist Project Automator
-description: Automates Todoist project management using the Todoist REST API v2 and
-  Sync API. Creates task templates, manages recurring workflows, and syncs with external
-  project trackers.
+title: Todoist Project Automator
+description: Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers.
+slug: todoist-project-automator-api-v2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/todoist-project-automator-api-v2/
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email & Productivity
 framework:
 - Gemini
 ---
 # Todoist Project Automator
 
-Todoist Project Automator leverages both the Todoist REST API v2 and the Sync API for comprehensive task management automation. It creates project templates with pre-defined task hierarchies, labels, and due date patterns using natural language parsing. The Sync API enables batch operations for bulk task creation and modification with minimal API calls. The tool supports recurring workflow templates that automatically spawn task sequences when triggered by webhooks or calendar events. Integration with Jira and Linear APIs enables bidirectional sync of task status, keeping external project trackers aligned. It handles Todoist filter queries for generating progress reports and workload analysis across team members. Automatic priority adjustment based on due date proximity and dependency chains ensures critical path tasks surface appropriately. CSV and JSON export capabilities support external reporting dashboards.
+Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

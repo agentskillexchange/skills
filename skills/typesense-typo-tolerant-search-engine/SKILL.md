@@ -1,12 +1,11 @@
 ---
-name: Typesense Typo-Tolerant Search Engine
-description: Typesense is an open-source, typo-tolerant search engine built in C++
-  for building fast, relevant search experiences. It serves as a self-hostable alternative
-  to Algolia with support for vector search, geo-search, and faceted filtering.
+title: Typesense Typo-Tolerant Search Engine
+description: Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering.
+slug: typesense-typo-tolerant-search-engine
 verification: security_reviewed
 source: https://github.com/typesense/typesense
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction & Transformation
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -15,20 +14,17 @@ tool_ecosystem:
 ---
 # Typesense Typo-Tolerant Search Engine
 
-Typesense is a high-performance, open-source search engine designed from the ground up for speed and developer ergonomics. Written in C++ and distributed as a single binary and Docker image, Typesense delivers sub-50ms search latency even on datasets with tens of millions of documents. With over 25,000 GitHub stars and a GPL-3.0 license, it has become the leading open-source alternative to Algolia and a simpler alternative to Elasticsearch for teams that need fast, typo-tolerant search without operational complexity.
-The engine handles typographical errors gracefully out of the box — users can misspell words and still get relevant results without any special configuration. Beyond basic full-text search, Typesense supports faceted navigation with counts, geo-search with distance-based filtering and sorting, vector search for semantic and hybrid retrieval, synonyms, curation and pinning of results, and dynamic sorting. The query language supports filtering, grouping, and multi-field weighted search with fine-grained relevance tuning.
-Typesense exposes a RESTful JSON API with official client libraries for JavaScript/TypeScript, Python, Ruby, PHP, Java, Go, C#, Rust, Dart, and Swift. The InstantSearch.js adapter lets you use Algolia's popular InstantSearch UI components directly with a Typesense backend, making migration from Algolia straightforward. For high availability, Typesense supports Raft-based clustering with automatic leader election and data replication across nodes.
-For agent and automation workflows, Typesense provides a powerful indexing and retrieval layer. Agents can use the API to create collections with defined schemas, index documents in real time, and execute complex search queries programmatically. The vector search capability makes Typesense suitable as a lightweight vector store for RAG pipelines, combining keyword and semantic search in a single query. The Docker-based deployment and zero-configuration approach means agents can spin up search infrastructure as part of automated workflows without managing Elasticsearch clusters or paying for hosted search services.
+Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia with support for vector search, geo-search, and faceted filtering.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

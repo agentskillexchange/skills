@@ -1,8 +1,7 @@
 ---
-name: Mise Dev Tool Version Manager
-description: Use mise (mise-en-place) to manage development tool versions, environment
-  variables, and task running from a single configuration file. Replaces asdf, nvm,
-  pyenv, rbenv, and direnv in one tool.
+title: Mise Dev Tool Version Manager
+description: Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool.
+slug: mise-dev-tool-version-manager
 verification: listed
 source: https://github.com/jdx/mise
 category:
@@ -15,24 +14,17 @@ tool_ecosystem:
 ---
 # Mise Dev Tool Version Manager
 
-Overview
-mise (pronounced &#8220;meez&#8221;) is a polyglot development tool version manager written in Rust. It replaces multiple single-purpose tools — asdf for version management, nvm/pyenv/rbenv for language-specific versions, direnv for environment variables, and make for task running — with a single unified tool configured through a mise.toml file.
-Unlike shim-based version managers, mise modifies the PATH directly, meaning which node returns the real binary path rather than a shim. This approach provides better compatibility with tools that inspect binary locations and eliminates the performance overhead of shim execution.
-How It Works
-Agents use mise to ensure consistent development environments across teams and CI/CD pipelines. A mise.toml file in the project root declares tool versions, environment variables, and tasks. Running mise install installs all specified tools, and mise activate hooks into the shell to automatically switch versions when entering project directories.
-mise supports hundreds of tools through its registry, including Node.js, Python, Go, Rust, Terraform, kubectl, jq, and many more. It also supports environment variable management with .env file loading and task definitions with dependency graphs, making it a complete project environment configuration tool.
-Key Features
-The tool provides a task runner that supports shell commands with dependencies between tasks, parallel execution, and file watching. Environment variables can be scoped per directory, loaded from .env files, or templated. mise supports asdf plugin compatibility, meaning the existing ecosystem of asdf plugins works out of the box. With over 26,000 GitHub stars and frequent releases, mise is one of the most actively maintained developer tools available. It installs via a single curl command and supports bash, zsh, fish, and PowerShell.
+Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

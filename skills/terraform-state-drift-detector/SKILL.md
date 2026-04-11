@@ -1,39 +1,27 @@
 ---
-name: Terraform State Drift Detector
-description: Detects infrastructure drift by running terraform plan -detailed-exitcode
-  and parsing the JSON output via terraform show -json. Categorizes drift by resource
-  type and generates targeted terraform apply plans for reconciliation.
+title: Terraform State Drift Detector
+description: Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.
+slug: terraform-state-drift-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-state-drift-detector/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks & Diagnostics
 framework:
 - OpenClaw
 ---
 # Terraform State Drift Detector
 
-Terraform State Drift Detector identifies discrepancies between your Terraform state and actual cloud infrastructure to prevent configuration drift.
-How It Works
-The skill runs terraform plan -detailed-exitcode to detect changes, then parses the structured output via terraform show -json to categorize and prioritize drift by resource type, severity, and blast radius.
-Key Features
-
-Drift categorization by resource type (compute, network, IAM, storage) with severity scoring
-Blast radius analysis estimating the impact of reconciliation applies
-Selective reconciliation plans using terraform apply -target for surgical fixes
-Support for Terraform workspaces, remote backends (S3, GCS, Azure Blob), and Terraform Cloud
-
-Scheduling
-Designed for scheduled drift detection runs. Maintains a drift history log for trend analysis. Alerts on critical drift like IAM policy changes or security group modifications. Compatible with OpenTofu and Terragrunt configurations.
+Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

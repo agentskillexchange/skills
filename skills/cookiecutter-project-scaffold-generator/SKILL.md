@@ -1,28 +1,27 @@
 ---
-name: Cookiecutter Project Scaffold Generator
-description: Generates project scaffolds from Cookiecutter templates with Jinja2 variable
-  interpolation. Supports post-generation hooks, conditional file inclusion, and template
-  composition from multiple sources.
+title: Cookiecutter Project Scaffold Generator
+description: Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
+slug: cookiecutter-project-scaffold-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/
 category:
-- Templates &amp; Workflows
+- Templates & Workflows
 framework:
 - Codex
 ---
 # Cookiecutter Project Scaffold Generator
 
-The Cookiecutter Project Scaffold Generator skill automates new project creation using the Cookiecutter templating system with Jinja2-based variable interpolation. It manages a curated library of project templates for Python packages, FastAPI services, React applications, CLI tools, and microservice architectures. The skill handles interactive and non-interactive template rendering, supporting cookiecutter.json defaults, choice variables, and conditional file/directory inclusion based on user selections. Post-generation hooks execute setup tasks like git initialization, virtual environment creation, dependency installation, and CI/CD pipeline configuration. Template composition allows combining multiple template fragments (testing setup, Docker configuration, documentation scaffolding) into a unified project structure. The skill validates generated projects by running linters, type checkers, and test suites immediately after scaffolding to ensure templates produce working codebases.
+Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

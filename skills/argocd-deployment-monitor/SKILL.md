@@ -1,8 +1,7 @@
 ---
-name: ArgoCD Deployment Monitor
-description: Monitors ArgoCD application deployments using the ArgoCD REST API and
-  gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes
-  namespaces.
+title: ArgoCD Deployment Monitor
+description: Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces.
+slug: argocd-deployment-monitor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/argocd-deployment-monitor/
 category:
@@ -12,17 +11,17 @@ framework:
 ---
 # ArgoCD Deployment Monitor
 
-The ArgoCD Deployment Monitor skill provides real-time visibility into GitOps-driven deployments managed by ArgoCD. Through the ArgoCD REST API and gRPC interface, it retrieves application sync status, health assessments, and deployment histories. The skill monitors sync operations in progress, reporting on resource-level sync results including hooks, waves, and pruning actions. Health check aggregation across application resources identifies degraded services, pending rollouts, and failed containers. Rollback history tracking maintains a timeline of deployment versions with associated Git commits and sync outcomes. Multi-cluster support enables monitoring applications deployed across different Kubernetes clusters from a single ArgoCD instance. The skill also detects configuration drift between Git repository state and live cluster state, alerting on out-of-sync conditions and providing diff analysis of detected changes.
+Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

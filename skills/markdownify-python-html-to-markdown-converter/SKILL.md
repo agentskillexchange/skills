@@ -1,13 +1,11 @@
 ---
-name: markdownify Python HTML to Markdown Conversion Library
-description: markdownify is a Python library that converts HTML content to clean Markdown
-  text. It supports tag filtering, heading styles, custom converters, and code language
-  detection, making it essential for content extraction and document transformation
-  pipelines.
+title: markdownify Python HTML to Markdown Conversion Library
+description: markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines.
+slug: markdownify-python-html-to-markdown-converter
 verification: security_reviewed
 source: https://github.com/matthewwithanm/python-markdownify
 category:
-- Data Extraction &amp; Transformation
+- Data Extraction & Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -16,27 +14,17 @@ tool_ecosystem:
 ---
 # markdownify Python HTML to Markdown Conversion Library
 
-Overview
-markdownify is a Python library that converts HTML to Markdown. Created by Matthew Tretter, it uses BeautifulSoup under the hood to parse HTML and produces clean, configurable Markdown output. It is widely used in web scraping pipelines, content migration tools, and LLM data preparation workflows — notably, Microsoft's MarkItDown uses markdownify internally for its HTML conversion step.
-Core Capabilities
-The library handles a comprehensive range of HTML elements: headings, paragraphs, bold, italic, links, images, lists (ordered and unordered), blockquotes, code blocks, tables, horizontal rules, and more. Configuration options include heading style (ATX, SETEXT), bullet characters, strong/em symbols, newline style (spaces or backslash), and escape behavior for special Markdown characters.
-Advanced features include tag-level strip/convert filtering (choose exactly which HTML tags to convert or ignore), custom converter classes for extending behavior per-tag, code language detection via callbacks, and inline image preservation in table cells and headings.
-Agent Integration
-For AI agents, markdownify is a critical building block in content processing chains. When scraping web pages, agents can feed raw HTML through markdownify to produce clean Markdown suitable for LLM context windows. It is lighter weight than full browser-based solutions when the goal is text extraction rather than rendering. Agents can subclass MarkdownConverter to create domain-specific converters that handle custom HTML structures.
-Installation and Usage
-Install via pip: pip install markdownify. Basic usage: from markdownify import markdownify as md; result = md('<b>Hello</b> <a href="https://example.com">World</a>'). The library requires Python 3.x and depends on BeautifulSoup4 and six.
-Documentation and Community
-The project README on GitHub serves as the primary documentation with full option reference and custom converter examples. The library has over 2,100 GitHub stars, is MIT licensed, and is published on PyPI with consistent download numbers. It has been a stable dependency in the Python ecosystem for over a decade.
+markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering, heading styles, custom converters, and code language detection, making it essential for content extraction and document transformation pipelines.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

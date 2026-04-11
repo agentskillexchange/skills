@@ -1,13 +1,11 @@
 ---
-name: SpiderFoot Open Source Intelligence Automation Framework
-description: SpiderFoot is an open-source OSINT automation tool that queries over
-  200 data sources to gather intelligence about IP addresses, domain names, email
-  addresses, and other targets. Written in Python, it provides both a web UI and CLI
-  for reconnaissance, threat intelligence, and attack surface mapping.
+title: SpiderFoot Open Source Intelligence Automation Framework
+description: SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping.
+slug: spiderfoot-osint-automation-framework
 verification: security_reviewed
 source: https://github.com/smicallef/spiderfoot
 category:
-- Research &amp; Scraping
+- Research & Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -16,29 +14,17 @@ tool_ecosystem:
 ---
 # SpiderFoot Open Source Intelligence Automation Framework
 
-SpiderFoot is a comprehensive open-source intelligence (OSINT) automation framework with over 17,000 GitHub stars and a mature codebase spanning more than a decade of active development. Built in Python 3 under the MIT license, it automates the process of gathering intelligence from public sources about any target — whether an IP address, domain name, hostname, email address, person name, or network subnet.
-Data Source Integration
-SpiderFoot integrates with over 200 data sources and modules, including AlienVault OTX, Shodan, VirusTotal, Have I Been Pwned, Hunter.io, SecurityTrails, Censys, BinaryEdge, BuiltWith, Archive.org, Whois registries, DNS resolvers, and dozens more. Each module is independently configurable, so agents can enable only the sources relevant to their investigation scope and API key availability.
-Scan Types and Modes
-The tool supports multiple scan types: a broad &#8220;all&#8221; scan that queries every enabled module, targeted footprint scans for attack surface enumeration, investigation scans for deep-dive intelligence on a specific entity, and passive-only scans that avoid directly touching the target. This flexibility lets agents balance thoroughness against stealth and API quota consumption.
-Web UI and CLI
-SpiderFoot ships with a built-in web interface (Flask-based) that provides a dashboard for managing scans, browsing results in a graph or tabular view, correlating data across entities, and exporting findings. For agent integration, the CLI mode and REST API enable headless operation — agents can launch scans, poll for completion, and retrieve structured results programmatically without browser interaction.
-Correlation and Visualization
-Results are automatically correlated across modules: a domain scan might discover subdomains, which resolve to IPs, which link to open ports, which reveal technologies, which connect to known vulnerabilities. SpiderFoot builds a knowledge graph of these relationships, which agents can traverse to identify attack paths, data exposure risks, or brand impersonation attempts.
-Use Cases for Agent Workflows
-AI agents can leverage SpiderFoot for security reconnaissance (mapping an organization's external attack surface), threat intelligence (checking indicators of compromise against multiple feeds), due diligence (investigating a company's digital footprint), and competitive research (understanding a competitor's technology stack and infrastructure). The structured output format makes it straightforward to feed results into downstream analysis pipelines.
-Deployment
-SpiderFoot can be installed via pip, run from source, or deployed as a Docker container. It stores scan data in a local SQLite database and requires no external infrastructure beyond optional API keys for premium data sources.
+SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

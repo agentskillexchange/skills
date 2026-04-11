@@ -1,13 +1,11 @@
 ---
-name: Rallly Open-Source Group Scheduling and Meeting Poll Platform
-description: Rallly is an open-source scheduling and collaboration tool that makes
-  organizing group meetings effortless. Create meeting polls to find the best date
-  and time based on participant availability, replacing back-and-forth email chains
-  with a simple voting interface.
+title: Rallly Open-Source Group Scheduling and Meeting Poll Platform
+description: Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface.
+slug: rallly-group-scheduling-meeting-poll
 verification: security_reviewed
 source: https://github.com/lukevella/rallly
 category:
-- Calendar, Email &amp; Productivity
+- Calendar, Email & Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -17,32 +15,17 @@ tool_ecosystem:
 ---
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform
 
-Rallly is an open-source scheduling and collaboration platform built with Next.js, Prisma, tRPC, and TailwindCSS. It serves as a self-hostable alternative to Doodle, allowing teams and groups to find the best time to meet through a simple polling interface.
-How It Works
-Users create a poll with proposed dates and times for a meeting or event. Participants then vote on their availability without needing to create an account. The platform aggregates votes and highlights the optimal time slot that works for the most participants.
-Key Features
-
-Create date-based polls for group scheduling without sign-up requirements for participants
-Self-hostable with Docker for complete data ownership and privacy
-Built on a modern TypeScript stack: Next.js frontend, Prisma ORM, tRPC for type-safe APIs, PostgreSQL database
-Internationalized with community translations via Crowdin
-Email notifications for poll updates and new responses
-Clean, responsive UI with TailwindCSS
-
-Integration Points
-Rallly exposes a REST API that agents can use to programmatically create polls, add participants, check poll status, and retrieve results. Agents can automate the entire scheduling workflow: create a poll when a meeting is requested, distribute the link to participants, monitor responses, and announce the winning time slot.
-Agent Use Cases
-An AI agent can use Rallly to automate group scheduling. When someone asks to schedule a team meeting, the agent creates a Rallly poll with proposed times, shares the link via Slack or email, monitors for when enough participants have voted, and then creates a calendar event for the winning time. This eliminates the manual coordination overhead that plagues most scheduling workflows.
+Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,31 +1,27 @@
 ---
-name: Ansible Playbook Linter Pro
-description: Validates Ansible playbooks using ansible-lint with custom rule plugins
-  and the Ansible Collections API. Checks for deprecated modules, missing handlers,
-  insecure variable practices, and role dependency conflicts.
+title: Ansible Playbook Linter Pro
+description: Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts.
+slug: ansible-playbook-linter-pro
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-linter-pro/
 category:
-- Runbooks &amp; Diagnostics
+- Runbooks & Diagnostics
 framework:
 - MCP
 ---
 # Ansible Playbook Linter Pro
 
-The Ansible Playbook Linter Pro skill provides deep validation of Ansible playbooks, roles, and collections beyond what standard ansible-lint covers. It uses the ansible-lint framework with custom rule plugins and integrates with the Ansible Collections API (galaxy.ansible.com/api/v3) to verify module availability and deprecation status.
-The skill extends ansible-lint with custom rules that detect common production issues: tasks without proper error handling (missing block/rescue structures), variables defined with no_log that might leak in debug mode, handlers that are notified but never defined, and role dependencies with version conflicts. Each custom rule follows the ansible-lint AnsibleLintRule base class pattern.
-Collection and module validation queries the Ansible Galaxy API to check whether referenced collections are available, verify minimum version requirements, and flag modules marked as deprecated in favor of their replacements. The skill maintains a mapping of legacy module names to their fully qualified collection names (FQCN) and flags any bare module references.
-Security-focused checks include scanning for hardcoded credentials in variable files, detecting unsafe uses of lookup plugins (pipe, url) without proper input validation, verifying that privilege escalation tasks use become with specific become_user rather than defaulting to root, and checking that sensitive file permissions are set correctly in file and template modules. Output includes both the ansible-lint SARIF format for CI integration and human-readable markdown reports.
+Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts.
 
 ## Installation
 
-You can install this skill using one of these methods:
+You can install this skill in any of these ways:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this repository and copy the skill folder into your skills directory
-3. Install with the relevant package manager if the upstream project provides one
-4. Add it manually to your local OpenClaw skill collection
-5. Use the upstream project install flow documented by the publisher
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 
