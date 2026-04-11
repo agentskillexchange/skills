@@ -1,30 +1,30 @@
 ---
-title: "Demucs Music Source Separation for Vocal and Stem Extraction"
-description: "Demucs is Meta’s open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows that need repeatable audio preprocessing before transcription, remixing, analysis, captioning, or archive preparation."
-verification: "security_reviewed"
-source: "https://github.com/facebookresearch/demucs"
+title: Demucs Music Source Separation for Vocal and Stem Extraction
+description: Demucs is Meta’s open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows that need repeatable audio preprocessing before transcription, remixing, analysis, captioning, or archive preparation.
+slug: demucs-music-source-separation-for-vocal-and-stem-extraction
+verification: security_reviewed
+source: https://github.com/facebookresearch/demucs
 category:
-  - "Media & Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "facebookresearch/demucs"
+  github_repo: facebookresearch/demucs
   github_stars: 9949
 ---
-
 # Demucs Music Source Separation for Vocal and Stem Extraction
 
 Demucs is Meta’s open-source music source separation project for splitting songs into stems such as vocals, drums, bass, and accompaniment. It fits agent workflows that need repeatable audio preprocessing before transcription, remixing, analysis, captioning, or archive preparation.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

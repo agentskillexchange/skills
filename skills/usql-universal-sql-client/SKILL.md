@@ -1,30 +1,30 @@
 ---
-title: "usql Universal Command-Line SQL Client for Multiple Databases"
-description: "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying."
-verification: "security_reviewed"
-source: "https://github.com/xo/usql"
+title: usql Universal Command-Line SQL Client for Multiple Databases
+description: usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying.
+slug: usql-universal-sql-client
+verification: security_reviewed
+source: https://github.com/xo/usql
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "xo/usql"
+  github_repo: xo/usql
   github_stars: 9904
 ---
-
 # usql Universal Command-Line SQL Client for Multiple Databases
 
 usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

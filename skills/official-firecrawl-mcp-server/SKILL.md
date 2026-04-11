@@ -1,32 +1,32 @@
 ---
-title: "Official Firecrawl MCP Server"
-description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers."
-verification: "security_reviewed"
-source: "https://github.com/firecrawl/firecrawl-mcp-server"
+title: Official Firecrawl MCP Server
+description: Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers.
+slug: official-firecrawl-mcp-server
+verification: security_reviewed
+source: https://github.com/firecrawl/firecrawl-mcp-server
 category:
-  - "Research & Scraping"
+- Research &amp; Scraping
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "firecrawl/firecrawl-mcp-server"
+  github_repo: firecrawl/firecrawl-mcp-server
   github_stars: 6001
-  npm_package: "firecrawl-mcp"
+  ase_npm_package: firecrawl-mcp
   npm_weekly_downloads: 28736
 ---
-
 # Official Firecrawl MCP Server
 
 Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

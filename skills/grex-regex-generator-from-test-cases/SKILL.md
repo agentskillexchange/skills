@@ -1,30 +1,30 @@
 ---
-title: "grex Regular Expression Generator from Test Cases"
-description: "grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces the most specific regex that matches the given input, supporting Unicode 16.0, character class detection, quantifier notation, and case-insensitive matching."
-verification: "security_reviewed"
-source: "https://github.com/pemistahl/grex"
+title: grex Regular Expression Generator from Test Cases
+description: grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces the most specific regex that matches the given input, supporting Unicode 16.0, character class detection, quantifier notation, and case-insensitive matching.
+slug: grex-regex-generator-from-test-cases
+verification: security_reviewed
+source: https://github.com/pemistahl/grex
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "pemistahl/grex"
+  github_repo: pemistahl/grex
   github_stars: 8079
 ---
-
 # grex Regular Expression Generator from Test Cases
 
 grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces the most specific regex that matches the given input, supporting Unicode 16.0, character class detection, quantifier notation, and case-insensitive matching.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

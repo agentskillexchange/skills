@@ -1,30 +1,30 @@
 ---
-title: "Postgres MCP Pro Server for Database Analysis and Tuning"
-description: "Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis, index tuning recommendations, query plan optimization, schema intelligence, and safe SQL execution with configurable access controls."
-verification: "security_reviewed"
-source: "https://github.com/crystaldba/postgres-mcp"
+title: Postgres MCP Pro Server for Database Analysis and Tuning
+description: Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis, index tuning recommendations, query plan optimization, schema intelligence, and safe SQL execution with configurable access controls.
+slug: postgres-mcp-pro-database-analysis-tuning
+verification: security_reviewed
+source: https://github.com/crystaldba/postgres-mcp
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "crystaldba/postgres-mcp"
+  github_repo: crystaldba/postgres-mcp
   github_stars: 2464
 ---
-
 # Postgres MCP Pro Server for Database Analysis and Tuning
 
 Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis, index tuning recommendations, query plan optimization, schema intelligence, and safe SQL execution with configurable access controls.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,30 +1,30 @@
 ---
-title: "htmlq Command-Line HTML Content Extractor with CSS Selectors"
-description: "htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal."
-verification: "security_reviewed"
-source: "https://github.com/mgdm/htmlq"
+title: htmlq Command-Line HTML Content Extractor with CSS Selectors
+description: htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal.
+slug: htmlq-command-line-html-content-extractor-css-selectors
+verification: security_reviewed
+source: https://github.com/mgdm/htmlq
 category:
-  - "Data Extraction & Transformation"
+- Data Extraction &amp; Transformation
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "mgdm/htmlq"
+  github_repo: mgdm/htmlq
   github_stars: 7514
 ---
-
 # htmlq Command-Line HTML Content Extractor with CSS Selectors
 
 htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML equivalent of jq. Written in Rust, it lets you pipe HTML through CSS selectors to extract text, attributes, and structured content directly from the terminal.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,27 +1,27 @@
 ---
-title: "Notion Database Sync Bridge"
-description: "Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
+title: Notion Database Sync Bridge
+description: Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
+slug: notion-database-sync-bridge
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/notion-database-sync-bridge/
 category:
-  - "Calendar, Email & Productivity"
+- Calendar, Email &amp; Productivity
 framework:
-  - "Claude Agents"
+- Claude Agents
 ---
-
 # Notion Database Sync Bridge
 
 Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

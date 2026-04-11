@@ -1,30 +1,30 @@
 ---
-title: "SOPS Encrypted Secrets Editor and Manager"
-description: "SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories."
-verification: "security_reviewed"
-source: "https://github.com/getsops/sops"
+title: SOPS Encrypted Secrets Editor and Manager
+description: SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories.
+slug: sops-encrypted-secrets-editor-manager
+verification: security_reviewed
+source: https://github.com/getsops/sops
 category:
-  - "Security & Verification"
+- Security &amp; Verification
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "getsops/sops"
+  github_repo: getsops/sops
   github_stars: 21312
 ---
-
 # SOPS Encrypted Secrets Editor and Manager
 
 SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It encrypts with AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age, and PGP, making it the standard tool for managing secrets in version-controlled repositories.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

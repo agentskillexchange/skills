@@ -1,27 +1,27 @@
 ---
-title: "AWS SDK Method Resolver"
-description: "Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions."
-verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/aws-sdk-method-resolver/"
+title: AWS SDK Method Resolver
+description: Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions.
+slug: aws-sdk-method-resolver
+verification: security_reviewed
+source: https://agentskillexchange.com/skills/aws-sdk-method-resolver/
 category:
-  - "Library & API Reference"
+- Library &amp; API Reference
 framework:
-  - "Claude Code"
+- Claude Code
 ---
-
 # AWS SDK Method Resolver
 
 Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM permission requirements to specific API calls with request/response type definitions.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

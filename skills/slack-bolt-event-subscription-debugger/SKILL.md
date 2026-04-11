@@ -1,32 +1,32 @@
 ---
-title: "Slack Bolt Event Subscription Debugger"
-description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
-verification: "security_reviewed"
-source: "https://github.com/slackapi/bolt-js"
+title: Slack Bolt Event Subscription Debugger
+description: Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
+slug: slack-bolt-event-subscription-debugger
+verification: security_reviewed
+source: https://github.com/slackapi/bolt-js
 category:
-  - "Integrations & Connectors"
+- Integrations &amp; Connectors
 framework:
-  - "Claude Code"
+- Claude Code
 tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
+  github_repo: slackapi/bolt-js
   github_stars: 2898
-  npm_package: "@slack/bolt"
+  ase_npm_package: @slack/bolt
   npm_weekly_downloads: 1953184
 ---
-
 # Slack Bolt Event Subscription Debugger
 
 Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

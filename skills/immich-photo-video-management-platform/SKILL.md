@@ -1,30 +1,30 @@
 ---
-title: "Immich Self-Hosted Photo and Video Management Platform"
-description: "Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management."
-verification: "security_reviewed"
-source: "https://github.com/immich-app/immich"
+title: Immich Self-Hosted Photo and Video Management Platform
+description: Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management.
+slug: immich-photo-video-management-platform
+verification: security_reviewed
+source: https://github.com/immich-app/immich
 category:
-  - "Media & Transcription"
+- Media &amp; Transcription
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "immich-app/immich"
+  github_repo: immich-app/immich
   github_stars: 96205
 ---
-
 # Immich Self-Hosted Photo and Video Management Platform
 
 Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

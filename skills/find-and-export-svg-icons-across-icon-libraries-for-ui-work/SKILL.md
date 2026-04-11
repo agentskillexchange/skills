@@ -1,30 +1,30 @@
 ---
-title: "Find and export SVG icons across icon libraries for UI work"
-description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
-verification: "security_reviewed"
-source: "https://github.com/better-auth/better-icons"
+title: Find and export SVG icons across icon libraries for UI work
+description: Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing.
+slug: find-and-export-svg-icons-across-icon-libraries-for-ui-work
+verification: security_reviewed
+source: https://github.com/better-auth/better-icons
 category:
-  - "Developer Tools"
+- Developer Tools
 framework:
-  - "Multi-Framework"
+- Multi-Framework
 tool_ecosystem:
-  github_repo: "better-auth/better-icons"
+  github_repo: better-auth/better-icons
   github_stars: 906
 ---
-
 # Find and export SVG icons across icon libraries for UI work
 
 Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

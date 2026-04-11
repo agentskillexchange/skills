@@ -1,30 +1,30 @@
 ---
-title: "WordPress MCP Adapter Model Context Protocol Bridge"
-description: "An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible AI clients to discover and invoke WordPress plugin, theme, and core abilities programmatically through a standardized transport layer."
-verification: "security_reviewed"
-source: "https://github.com/WordPress/mcp-adapter"
+title: WordPress MCP Adapter Model Context Protocol Bridge
+description: An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible AI clients to discover and invoke WordPress plugin, theme, and core abilities programmatically through a standardized transport layer.
+slug: wordpress-mcp-adapter-model-context-protocol-bridge
+verification: security_reviewed
+source: https://github.com/WordPress/mcp-adapter
 category:
-  - "WordPress & CMS"
+- WordPress &amp; CMS
 framework:
-  - "MCP"
+- MCP
 tool_ecosystem:
-  github_repo: "WordPress/mcp-adapter"
+  github_repo: WordPress/mcp-adapter
   github_stars: 792
 ---
-
 # WordPress MCP Adapter Model Context Protocol Bridge
 
 An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible AI clients to discover and invoke WordPress plugin, theme, and core abilities programmatically through a standardized transport layer.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

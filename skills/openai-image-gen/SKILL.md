@@ -1,31 +1,31 @@
 ---
-title: "OpenAI Image Gen"
-description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
-verification: "security_reviewed"
-source: "https://github.com/openai/openai-node"
+title: OpenAI Image Gen
+description: Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
+slug: openai-image-gen
+verification: security_reviewed
+source: https://github.com/openai/openai-node
 category:
-  - "Image & Creative Automation"
+- Image &amp; Creative Automation
 framework:
-  - "OpenClaw"
+- OpenClaw
 tool_ecosystem:
-  github_repo: "openai/openai-node"
+  github_repo: openai/openai-node
   github_stars: 10791
-  npm_package: "openai"
+  ase_npm_package: openai
 ---
-
 # OpenAI Image Gen
 
 Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,30 +1,30 @@
 ---
-title: "HandBrake Open-Source Video Transcoder"
-description: "HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding."
-verification: "security_reviewed"
-source: "https://github.com/HandBrake/HandBrake"
+title: HandBrake Open-Source Video Transcoder
+description: HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding.
+slug: handbrake-open-source-video-transcoder
+verification: security_reviewed
+source: https://github.com/HandBrake/HandBrake
 category:
-  - "Media & Transcription"
+- Media &amp; Transcription
 framework:
-  - "Custom Agents"
+- Custom Agents
 tool_ecosystem:
-  github_repo: "handbrake/handbrake"
+  github_repo: handbrake/handbrake
   github_stars: 22806
 ---
-
 # HandBrake Open-Source Video Transcoder
 
 HandBrake is a widely-used open-source video transcoder that converts video files between formats for playback on phones, tablets, TVs, game consoles, and web browsers. It supports most common input formats and leverages FFmpeg, x264, x265, and SVT-AV1 for encoding.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 
