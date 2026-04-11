@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1894,
+  "total": 1897,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "load-test-grpc-services-from-proto-files-and-reusable-request-fixtures",
+      "name": "Load-test gRPC services from proto files and reusable request fixtures",
+      "description": "This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An agent can replay request fixtures…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3314
+      }
+    },
+    {
+      "slug": "audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions",
+      "name": "Audit GitHub Actions workflows for insecure permissions and unpinned actions",
+      "description": "This ASE skill uses zizmor to audit GitHub Actions workflows and composite actions for security mistakes before they ship. An agent can scan local…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4130
+      }
+    },
+    {
+      "slug": "post-linter-and-analyzer-findings-back-into-pull-requests",
+      "name": "Post linter and analyzer findings back into pull requests",
+      "description": "This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can run existing checks, filter findings…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9204
+      }
+    },
     {
       "slug": "fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs",
       "name": "Fix failing pull requests by analyzing CI errors and pushing targeted repairs",

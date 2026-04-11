@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1894 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 19:21 UTC
+> **1897 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-11 21:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -575,7 +575,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (125 skills)
+### 🔒 Security & Verification (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -611,6 +611,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [dotenvx Secure Environment Variable Manager and Encryptor](skills/dotenvx-secure-env-variable-manager/) | dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted… | Published | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](skills/unkey-api-key-management-rate-limiting/) | Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a… | Security Reviewed | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
+| [Audit GitHub Actions workflows for insecure permissions and unpinned actions](skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | This ASE skill uses zizmor to audit GitHub Actions workflows and composite actions for security mistakes before they… | Published | 4.1k | — |
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of… | Security Reviewed | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
@@ -708,7 +709,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (120 skills)
+### 📋 Runbooks & Diagnostics (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -716,6 +717,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 |---|---|---|---:|---:|
 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | Diagnoses restart storms with the Kubernetes Events API, Pod status conditions, and the Metrics API to explain why… | Security Reviewed | 121.4k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Published | 11.9k | — |
+| [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Published | 3.3k | — |
 | [Datadog Synthetics Failure Triage Skill](skills/datadog-synthetics-failure-triage-skill/) | Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed… | Security Reviewed | 158 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Security Reviewed | 60 | — |
 | [Ansible Playbook Debugger](skills/ansible-playbook-debugger/) | Diagnoses Ansible playbook failures using ansible-playbook --check --diff mode, ansible-lint, and the Ansible… | Security Reviewed | — | — |
@@ -1076,7 +1078,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (108 skills)
+### ✅ Code Quality & Review (109 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1100,6 +1102,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data,… | Security Reviewed | 11.3k | — |
 | [Knip Unused Code and Dependency Finder](skills/knip-unused-code-dependency-finder/) | Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces… | Security Reviewed | 10.8k | 5.1M/wk |
 | [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | 9.6k | — |
+| [Post linter and analyzer findings back into pull requests](skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can… | Published | 9.2k | — |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 160.2k/wk |
