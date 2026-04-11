@@ -1,32 +1,33 @@
 ---
 title: "alex Inclusive Writing Linter"
 description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
-verification: "security_reviewed"
+slug: alex-inclusive-writing-linter
+verification: security_reviewed
 source: "https://github.com/get-alex/alex"
 category:
-  - "Content Writing & SEO"
+- "Content Writing & SEO"
 framework:
-  - "Multi-Framework"
+- "Multi-Framework"
 tool_ecosystem:
-  github_repo: "get-alex/alex"
+  github_repo: get-alex/alex
   github_stars: 5096
-  npm_package: "alex"
+  npm_package: alex
   npm_weekly_downloads: 30585
+  license: "MIT"
 ---
-
 # alex Inclusive Writing Linter
 
 Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

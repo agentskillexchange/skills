@@ -1,30 +1,30 @@
 ---
 title: "Composio Agent Tool Integration Platform"
 description: "Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution to connect AI agents to external apps like Gmail, Slack, GitHub, and Notion. Available as Python and TypeScript SDKs with support for major agent frameworks."
-verification: "security_reviewed"
+slug: composio-agent-tool-integration-platform
+verification: security_reviewed
 source: "https://github.com/ComposioHQ/composio"
 category:
-  - "Integrations & Connectors"
+- "Integrations & Connectors"
 framework:
-  - "Multi-Framework"
+- "Custom Agents"
 tool_ecosystem:
-  github_repo: "ComposioHQ/composio"
+  github_repo: composiohq/composio
   github_stars: 27601
 ---
-
 # Composio Agent Tool Integration Platform
 
 Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution to connect AI agents to external apps like Gmail, Slack, GitHub, and Notion. Available as Python and TypeScript SDKs with support for major agent frameworks.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

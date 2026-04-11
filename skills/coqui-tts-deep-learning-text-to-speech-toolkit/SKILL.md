@@ -1,30 +1,30 @@
 ---
 title: "Coqui TTS Deep Learning Text-to-Speech Toolkit"
 description: "An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS model architectures including VITS, Tacotron2, and GlowTTS, with support for voice cloning, multilingual synthesis, and on-the-fly voice conversion."
-verification: "security_reviewed"
+slug: coqui-tts-deep-learning-text-to-speech-toolkit
+verification: security_reviewed
 source: "https://github.com/coqui-ai/TTS"
 category:
-  - "Media & Transcription"
+- "Media & Transcription"
 framework:
-  - "Multi-Framework"
+- "Custom Agents"
 tool_ecosystem:
-  github_repo: "coqui-ai/TTS"
+  github_repo: coqui-ai/tts
   github_stars: 44959
 ---
-
 # Coqui TTS Deep Learning Text-to-Speech Toolkit
 
 An agent skill built on Coqui TTS, the open-source deep learning toolkit for text-to-speech synthesis. Provides CLI and Python API access to multiple TTS model architectures including VITS, Tacotron2, and GlowTTS, with support for voice cloning, multilingual synthesis, and on-the-fly voice conversion.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

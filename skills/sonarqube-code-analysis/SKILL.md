@@ -1,30 +1,30 @@
 ---
 title: "SonarQube Code Analysis"
 description: "SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by SonarSource/sonarqube (10,357+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like quality gates, issues API, measures, coverage, hotspots, branches and preserving the […]"
-verification: "security_reviewed"
+slug: sonarqube-code-analysis
+verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Developer Tools"
+- "Developer Tools"
 framework:
-  - "Multi-Framework"
+- "Claude Code"
 tool_ecosystem:
-  github_repo: "SonarSource/sonarqube"
+  github_repo: sonarsource/sonarqube
   github_stars: 10423
 ---
-
 # SonarQube Code Analysis
 
 SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by SonarSource/sonarqube (10,357+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like quality gates, issues API, measures, coverage, hotspots, branches and preserving the […]
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

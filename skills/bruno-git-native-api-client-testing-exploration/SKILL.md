@@ -1,30 +1,30 @@
 ---
 title: "Bruno Git-Native API Client for Testing and Exploration"
 description: "Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly alternative to Postman and Insomnia with no cloud sync and no account required."
-verification: "security_reviewed"
+slug: bruno-git-native-api-client-testing-exploration
+verification: security_reviewed
 source: "https://github.com/usebruno/bruno"
 category:
-  - "Developer Tools"
+- "Developer Tools"
 framework:
-  - "Multi-Framework"
+- "Claude Code"
 tool_ecosystem:
-  github_repo: "usebruno/bruno"
+  github_repo: usebruno/bruno
   github_stars: 42477
 ---
-
 # Bruno Git-Native API Client for Testing and Exploration
 
 Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly alternative to Postman and Insomnia with no cloud sync and no account required.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

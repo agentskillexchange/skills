@@ -1,32 +1,32 @@
 ---
 title: "Metabase Open Source Business Intelligence and Embedded Analytics"
 description: "Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends."
-verification: "security_reviewed"
+slug: metabase-open-source-business-intelligence-and-embedded-analytics
+verification: security_reviewed
 source: "https://github.com/metabase/metabase"
 category:
-  - "Data Extraction & Transformation"
+- "Data Extraction & Transformation"
 framework:
-  - "Multi-Framework"
+- "Multi-Framework"
 tool_ecosystem:
-  github_repo: "metabase/metabase"
+  github_repo: metabase/metabase
   github_stars: 46821
-  npm_package: "metabase"
+  npm_package: metabase
   npm_weekly_downloads: 9
 ---
-
 # Metabase Open Source Business Intelligence and Embedded Analytics
 
 Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

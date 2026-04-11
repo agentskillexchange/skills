@@ -1,32 +1,32 @@
 ---
 title: "Knip Unused Code and Dependency Finder"
 description: "Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface."
-verification: "security_reviewed"
+slug: knip-unused-code-dependency-finder
+verification: security_reviewed
 source: "https://github.com/webpro-nl/knip"
 category:
-  - "Code Quality & Review"
+- "Code Quality & Review"
 framework:
-  - "Multi-Framework"
+- "Claude Code"
 tool_ecosystem:
-  github_repo: "webpro-nl/knip"
+  github_repo: webpro-nl/knip
   github_stars: 10806
-  npm_package: "knip"
+  npm_package: knip
   npm_weekly_downloads: 5097667
 ---
-
 # Knip Unused Code and Dependency Finder
 
 Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

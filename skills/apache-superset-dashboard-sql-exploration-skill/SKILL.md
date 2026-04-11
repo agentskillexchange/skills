@@ -1,30 +1,30 @@
 ---
 title: "Apache Superset Dashboard and SQL Exploration Skill"
 description: "Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent needs to query warehouse data, assemble dashboards, or explain metrics using a mature analytics interface instead of ad hoc notebook code."
-verification: "security_reviewed"
+slug: apache-superset-dashboard-sql-exploration-skill
+verification: security_reviewed
 source: "https://github.com/apache/superset"
 category:
-  - "Data Extraction & Transformation"
+- "Data Extraction & Transformation"
 framework:
-  - "Multi-Framework"
+- "Multi-Framework"
 tool_ecosystem:
-  github_repo: "apache/superset"
+  github_repo: apache/superset
   github_stars: 72339
 ---
-
 # Apache Superset Dashboard and SQL Exploration Skill
 
 Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent needs to query warehouse data, assemble dashboards, or explain metrics using a mature analytics interface instead of ad hoc notebook code.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

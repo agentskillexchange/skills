@@ -1,30 +1,31 @@
 ---
 title: "Woodpecker CI Self-Hosted Continuous Integration Engine"
 description: "Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for extensibility, uses minimal resources, and is the CI engine behind Codeberg."
-verification: "security_reviewed"
+slug: woodpecker-ci-self-hosted-continuous-integration
+verification: security_reviewed
 source: "https://github.com/woodpecker-ci/woodpecker"
 category:
-  - "CI/CD Integrations"
+- "CI/CD Integrations"
 framework:
-  - "Multi-Framework"
+- "Multi-Framework"
 tool_ecosystem:
-  github_repo: "woodpecker-ci/woodpecker"
+  github_repo: woodpecker-ci/woodpecker
   github_stars: 6760
+  license: "Apache-2.0"
 ---
-
 # Woodpecker CI Self-Hosted Continuous Integration Engine
 
 Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for extensibility, uses minimal resources, and is the CI engine behind Codeberg.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

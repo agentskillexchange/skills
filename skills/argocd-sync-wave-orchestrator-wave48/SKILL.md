@@ -1,27 +1,27 @@
 ---
 title: "ArgoCD Sync Wave Orchestrator"
 description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
-verification: "security_reviewed"
+slug: argocd-sync-wave-orchestrator-wave48
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/argocd-sync-wave-orchestrator-wave48/"
 category:
-  - "CI/CD Integrations"
+- "CI/CD Integrations"
 framework:
-  - "Multi-Framework"
+- "MCP"
 ---
-
 # ArgoCD Sync Wave Orchestrator
 
 Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

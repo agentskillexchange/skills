@@ -1,30 +1,31 @@
 ---
 title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
 description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
-verification: "security_reviewed"
+slug: realtimestt-low-latency-speech-to-text-python
+verification: security_reviewed
 source: "https://github.com/KoljaB/RealtimeSTT"
 category:
-  - "Media & Transcription"
+- "Media & Transcription"
 framework:
-  - "Multi-Framework"
+- "Custom Agents"
 tool_ecosystem:
-  github_repo: "koljab/realtimestt"
+  github_repo: koljab/realtimestt
   github_stars: 9615
+  license: "MIT"
 ---
-
 # RealtimeSTT Low-Latency Speech-to-Text Python Library
 
 RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

@@ -1,30 +1,31 @@
 ---
 title: "Magika AI File Type Detection and Content Classification"
 description: "Magika is Google’s AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers."
-verification: "security_reviewed"
+slug: magika-ai-file-type-detection-and-content-classification
+verification: security_reviewed
 source: "https://github.com/google/magika"
 category:
-  - "Security & Verification"
+- "Security & Verification"
 framework:
-  - "Multi-Framework"
+- "Multi-Framework"
 tool_ecosystem:
-  github_repo: "google/magika"
+  github_repo: google/magika
   github_stars: 10199
+  license: "Apache-2.0"
 ---
-
 # Magika AI File Type Detection and Content Classification
 
 Magika is Google’s AI-powered file type detector for fast, content-based identification of binary and text files. It is useful when an agent needs safer routing, validation, triage, or downstream policy decisions based on the real file contents instead of just filenames or MIME headers.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

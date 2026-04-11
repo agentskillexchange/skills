@@ -1,27 +1,27 @@
 ---
 title: "Jenkins Pipeline Linter Pro"
 description: "Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks."
-verification: "security_reviewed"
+slug: jenkins-pipeline-linter-pro
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/"
 category:
-  - "CI/CD Integrations"
+- "CI/CD Integrations"
 framework:
-  - "Multi-Framework"
+- "ChatGPT Agents"
 ---
-
 # Jenkins Pipeline Linter Pro
 
 Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 

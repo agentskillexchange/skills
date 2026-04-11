@@ -1,27 +1,27 @@
 ---
 title: "Playwright Parallel Tab Manager"
 description: "Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports."
-verification: "security_reviewed"
+slug: playwright-parallel-tab-manager
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/playwright-parallel-tab-manager/"
 category:
-  - "Browser Automation"
+- "Browser Automation"
 framework:
-  - "Multi-Framework"
+- "Cursor"
 ---
-
 # Playwright Parallel Tab Manager
 
 Manages concurrent Playwright browser contexts with tab pooling and automatic resource cleanup. Integrates with Playwright BrowserContext API and chromium.launch() for parallel test execution across multiple viewports.
 
 ## Installation
 
-Choose whichever fits your setup:
+You can install this skill in any of these ways:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. Browse and install from Agent Skill Exchange.
+2. Clone or download this repository and copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your skills workspace.
+4. Install it with your preferred agent skill or package manager if your setup supports that.
+5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
 
 ## Source
 
