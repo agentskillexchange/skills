@@ -1,13 +1,13 @@
 ---
-title: Inbox Zero AI Email Assistant
-description: Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox, pre-drafts replies in your tone, bulk unsubscribes from unwanted senders, and blocks cold emails. Includes MCP server integration and Slack/Telegram chat interface.
+title: "Inbox Zero AI Email Assistant"
+description: "Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox, pre-drafts replies in your tone, bulk unsubscribes from unwanted senders, and blocks cold emails. Includes MCP server integration and Slack/Telegram chat interface."
 slug: inbox-zero-ai-email-assistant
 verification: security_reviewed
-source: https://github.com/elie222/inbox-zero
+source: "https://github.com/elie222/inbox-zero"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: elie222/inbox-zero
   github_stars: 10370

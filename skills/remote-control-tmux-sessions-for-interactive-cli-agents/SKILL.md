@@ -1,13 +1,13 @@
 ---
-title: Remote-control tmux sessions for interactive CLI agents
-description: Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you need for interactive CLIs that cannot be handled as one-shot shell commands. Use it for session supervision and intervention, not for general terminal automation or starting new background jobs.
+title: "Remote-control tmux sessions for interactive CLI agents"
+description: "Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you need for interactive CLIs that cannot be handled as one-shot shell commands. Use it for session supervision and intervention, not for general terminal automation or starting new background jobs."
 slug: remote-control-tmux-sessions-for-interactive-cli-agents
 verification: security_reviewed
-source: https://github.com/openclaw/skills/tree/main/skills/steipete/tmux
+source: "https://github.com/openclaw/skills/tree/main/skills/steipete/tmux"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Remote-control tmux sessions for interactive CLI agents
 

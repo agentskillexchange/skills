@@ -1,13 +1,13 @@
 ---
-title: Rive Runtime Animation Controller
-description: Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime.
+title: "Rive Runtime Animation Controller"
+description: "Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime."
 slug: rive-runtime-animation-controller
 verification: security_reviewed
-source: https://github.com/rive-app/rive-react
+source: "https://github.com/rive-app/rive-react"
 category:
-- Image &amp;amp; Creative Automation
+- "Image & Creative Automation"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 tool_ecosystem:
   github_repo: rive-app/rive-react
   github_stars: 1111

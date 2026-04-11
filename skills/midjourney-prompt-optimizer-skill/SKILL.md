@@ -1,13 +1,13 @@
 ---
-title: Midjourney Prompt Optimizer
-description: Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
+title: "Midjourney Prompt Optimizer"
+description: "Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output."
 slug: midjourney-prompt-optimizer-skill
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/
+source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
 category:
-- Image &amp;amp; Creative Automation
+- "Image & Creative Automation"
 framework:
-- Gemini
+- "Gemini"
 ---
 # Midjourney Prompt Optimizer
 

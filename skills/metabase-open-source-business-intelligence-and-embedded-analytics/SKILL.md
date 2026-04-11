@@ -1,13 +1,13 @@
 ---
-title: Metabase Open Source Business Intelligence and Embedded Analytics
-description: Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends.
+title: "Metabase Open Source Business Intelligence and Embedded Analytics"
+description: "Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for answering operational questions, creating dashboards, and wiring self-service reporting to databases or warehouse backends."
 slug: metabase-open-source-business-intelligence-and-embedded-analytics
 verification: security_reviewed
-source: https://github.com/metabase/metabase
+source: "https://github.com/metabase/metabase"
 category:
-- Data Extraction &amp;amp; Transformation
+- "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: metabase/metabase
   github_stars: 46821

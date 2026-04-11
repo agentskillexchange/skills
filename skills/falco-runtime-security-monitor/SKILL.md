@@ -1,14 +1,14 @@
 ---
-title: Falco Runtime Security Monitor
-description: Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection.
+title: "Falco Runtime Security Monitor"
+description: "Monitors container runtime events using Falco sysdig libraries and sends alerts on suspicious syscall patterns. Integrates with Kubernetes audit logs and Prometheus AlertManager for real-time threat detection."
 slug: falco-runtime-security-monitor
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/falco-runtime-security-monitor/
+source: "https://agentskillexchange.com/skills/falco-runtime-security-monitor/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Multi-Framework
-- OpenClaw
+- "Multi-Framework"
+- "OpenClaw"
 ---
 # Falco Runtime Security Monitor
 

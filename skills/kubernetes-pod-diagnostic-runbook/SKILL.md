@@ -1,13 +1,13 @@
 ---
-title: Kubernetes Pod Diagnostic Runbook
-description: Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API. Runs diagnostic sequences for CrashLoopBackOff, ImagePullBackOff, OOMKilled, and pending pod states.
+title: "Kubernetes Pod Diagnostic Runbook"
+description: "Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API. Runs diagnostic sequences for CrashLoopBackOff, ImagePullBackOff, OOMKilled, and pending pod states."
 slug: kubernetes-pod-diagnostic-runbook
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/
+source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-runbook/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Codex
+- "Codex"
 ---
 # Kubernetes Pod Diagnostic Runbook
 

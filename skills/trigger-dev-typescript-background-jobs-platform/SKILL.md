@@ -1,13 +1,13 @@
 ---
-title: Trigger.dev TypeScript Background Jobs Platform
-description: Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and durable workflows in TypeScript. It provides managed infrastructure with retries, queues, real-time observability, and human-in-the-loop support.
+title: "Trigger.dev TypeScript Background Jobs Platform"
+description: "Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and durable workflows in TypeScript. It provides managed infrastructure with retries, queues, real-time observability, and human-in-the-loop support."
 slug: trigger-dev-typescript-background-jobs-platform
 verification: security_reviewed
-source: https://github.com/triggerdotdev/trigger.dev
+source: "https://github.com/triggerdotdev/trigger.dev"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: triggerdotdev/trigger.dev
   github_stars: 14318

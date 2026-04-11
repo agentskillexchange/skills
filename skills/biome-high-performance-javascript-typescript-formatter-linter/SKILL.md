@@ -1,13 +1,13 @@
 ---
-title: Biome High-Performance JavaScript TypeScript Formatter and Linter
-description: Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool. With 97% Prettier compatibility and over 450 lint rules, Biome replaces ESLint and Prettier with dramatically faster execution.
+title: "Biome High-Performance JavaScript TypeScript Formatter and Linter"
+description: "Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that unifies formatting and linting in a single tool. With 97% Prettier compatibility and over 450 lint rules, Biome replaces ESLint and Prettier with dramatically faster execution."
 slug: biome-high-performance-javascript-typescript-formatter-linter
 verification: security_reviewed
-source: https://github.com/biomejs/biome
+source: "https://github.com/biomejs/biome"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 ---
 # Biome High-Performance JavaScript TypeScript Formatter and Linter
 

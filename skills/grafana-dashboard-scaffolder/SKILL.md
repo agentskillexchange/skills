@@ -1,13 +1,13 @@
 ---
-title: Grafana Dashboard Scaffolder
-description: Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics.
+title: "Grafana Dashboard Scaffolder"
+description: "Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics."
 slug: grafana-dashboard-scaffolder
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/
+source: "https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Grafana Dashboard Scaffolder
 

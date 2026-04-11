@@ -1,13 +1,13 @@
 ---
-title: Pyroscope Continuous Profiling Platform by Grafana
-description: Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications.
+title: "Pyroscope Continuous Profiling Platform by Grafana"
+description: "Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications."
 slug: pyroscope-continuous-profiling-platform-grafana
 verification: security_reviewed
-source: https://github.com/grafana/pyroscope
+source: "https://github.com/grafana/pyroscope"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: grafana/pyroscope
   github_stars: 11341

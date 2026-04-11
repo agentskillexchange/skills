@@ -1,13 +1,13 @@
 ---
-title: Slack Channel Summarizer & Triage Bot
-description: Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel.
+title: "Slack Channel Summarizer & Triage Bot"
+description: "Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers. Uses conversation.history and users.info endpoints to attribute messages correctly. Supports scheduled digests and posts summaries directly to a designated DM or channel."
 slug: slack-channel-summarizer-triage
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/slack-channel-summarizer-triage/
+source: "https://agentskillexchange.com/skills/slack-channel-summarizer-triage/"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Slack Channel Summarizer & Triage Bot
 

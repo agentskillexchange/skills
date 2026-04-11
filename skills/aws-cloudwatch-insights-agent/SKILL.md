@@ -1,13 +1,13 @@
 ---
-title: AWS CloudWatch Insights Agent
-description: Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions.
+title: "AWS CloudWatch Insights Agent"
+description: "Runs CloudWatch Logs Insights queries via AWS SDK for JavaScript v3. Analyzes Lambda cold starts, API Gateway latency, and ECS container logs. Generates anomaly detection alarms with math expressions."
 slug: aws-cloudwatch-insights-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # AWS CloudWatch Insights Agent
 

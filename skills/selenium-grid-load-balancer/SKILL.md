@@ -1,13 +1,13 @@
 ---
-title: Selenium Grid Load Balancer
-description: Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint.
+title: "Selenium Grid Load Balancer"
+description: "Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring via /status endpoint."
 slug: selenium-grid-load-balancer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/selenium-grid-load-balancer/
+source: "https://agentskillexchange.com/skills/selenium-grid-load-balancer/"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Codex
+- "Codex"
 ---
 # Selenium Grid Load Balancer
 

@@ -1,13 +1,13 @@
 ---
-title: Gitingest Repository-to-Prompt Codebase Extraction Tool
-description: Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content.
+title: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
+description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
 slug: gitingest-repository-to-prompt-codebase-extraction-tool
 verification: security_reviewed
-source: https://github.com/coderamp-labs/gitingest
+source: "https://github.com/coderamp-labs/gitingest"
 category:
-- Data Extraction &amp;amp; Transformation
+- "Data Extraction & Transformation"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: coderamp-labs/gitingest
   github_stars: 14266

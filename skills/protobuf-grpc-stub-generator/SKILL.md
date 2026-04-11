@@ -1,13 +1,13 @@
 ---
-title: Protobuf & gRPC Stub Generator
-description: Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes.
+title: "Protobuf & gRPC Stub Generator"
+description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
 slug: protobuf-grpc-stub-generator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/
+source: "https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Protobuf & gRPC Stub Generator
 

@@ -1,13 +1,13 @@
 ---
-title: Prometheus Custom Exporter Builder
-description: Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation.
+title: "Prometheus Custom Exporter Builder"
+description: "Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation."
 slug: prometheus-custom-exporter-builder
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/
+source: "https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Prometheus Custom Exporter Builder
 

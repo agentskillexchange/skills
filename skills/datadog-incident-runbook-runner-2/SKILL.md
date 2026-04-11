@@ -1,13 +1,13 @@
 ---
-title: Datadog Incident Runbook Runner
-description: Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation.
+title: "Datadog Incident Runbook Runner"
+description: "Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of metric data, and walks through a runbook checklist with automated triage steps. Reduces mean time to diagnosis by surfacing signal without dashboard navigation."
 slug: datadog-incident-runbook-runner-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/
+source: "https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Datadog Incident Runbook Runner
 

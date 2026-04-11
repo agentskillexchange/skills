@@ -1,13 +1,13 @@
 ---
-title: PagerDuty Incident Orchestrator
-description: Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation.
+title: "PagerDuty Incident Orchestrator"
+description: "Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies, runbook attachment, and post-incident timeline generation."
 slug: pagerduty-incident-orchestrator-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/
+source: "https://agentskillexchange.com/skills/pagerduty-incident-orchestrator-2/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- MCP
+- "MCP"
 ---
 # PagerDuty Incident Orchestrator
 

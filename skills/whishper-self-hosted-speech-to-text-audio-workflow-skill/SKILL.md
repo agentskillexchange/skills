@@ -1,13 +1,13 @@
 ---
-title: Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill
-description: Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with Docker, handling uploads and transcripts, and wiring the output into broader automation flows.
+title: "Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill"
+description: "Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with Docker, handling uploads and transcripts, and wiring the output into broader automation flows."
 slug: whishper-self-hosted-speech-to-text-audio-workflow-skill
 verification: security_reviewed
-source: https://github.com/pluja/whishper
+source: "https://github.com/pluja/whishper"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: pluja/whishper
   github_stars: 2974

@@ -1,13 +1,13 @@
 ---
-title: GitLab CI Pipeline Linter
-description: Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG dependency cycles, detects redundant job definitions, and suggests pipeline graph optimizations via the needs keyword.
+title: "GitLab CI Pipeline Linter"
+description: "Validates and optimizes .gitlab-ci.yml configurations using the GitLab CI Lint API (/api/v4/ci/lint). Checks for DAG dependency cycles, detects redundant job definitions, and suggests pipeline graph optimizations via the needs keyword."
 slug: gitlab-ci-pipeline-linter
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-linter/"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # GitLab CI Pipeline Linter
 

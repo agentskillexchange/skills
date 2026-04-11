@@ -1,13 +1,13 @@
 ---
-title: Windmill Open-Source Workflow Engine and Developer Platform
-description: Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to Retool and Temporal, supporting Python, TypeScript, Go, Bash, SQL, and more. Includes a built-in MCP server for AI agent integration.
+title: "Windmill Open-Source Workflow Engine and Developer Platform"
+description: "Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to Retool and Temporal, supporting Python, TypeScript, Go, Bash, SQL, and more. Includes a built-in MCP server for AI agent integration."
 slug: windmill-workflow-engine-developer-platform
 verification: security_reviewed
-source: https://github.com/windmill-labs/windmill
+source: "https://github.com/windmill-labs/windmill"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: windmill-labs/windmill
   github_stars: 16115

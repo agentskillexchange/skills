@@ -1,13 +1,13 @@
 ---
-title: WordPress Playground WebAssembly Runtime for In-Browser WordPress
-description: WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It enables zero-setup WordPress testing, plugin previews, and interactive demos without any server infrastructure.
+title: "WordPress Playground WebAssembly Runtime for In-Browser WordPress"
+description: "WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It enables zero-setup WordPress testing, plugin previews, and interactive demos without any server infrastructure."
 slug: wordpress-playground-wasm-runtime
 verification: security_reviewed
-source: https://github.com/WordPress/wordpress-playground
+source: "https://github.com/WordPress/wordpress-playground"
 category:
-- WordPress &amp;amp; CMS
+- "WordPress & CMS"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: wordpress/wordpress-playground
   github_stars: 1926

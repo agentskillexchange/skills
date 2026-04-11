@@ -1,13 +1,13 @@
 ---
-title: Argo Workflows DAG Optimizer
-description: Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis.
+title: "Argo Workflows DAG Optimizer"
+description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
 slug: argo-workflows-dag-optimizer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/
+source: "https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Argo Workflows DAG Optimizer
 

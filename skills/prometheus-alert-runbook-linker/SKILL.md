@@ -1,13 +1,13 @@
 ---
-title: Prometheus Alert Runbook Linker
-description: Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts.
+title: "Prometheus Alert Runbook Linker"
+description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
 slug: prometheus-alert-runbook-linker
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/
+source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Gemini
+- "Gemini"
 ---
 # Prometheus Alert Runbook Linker
 

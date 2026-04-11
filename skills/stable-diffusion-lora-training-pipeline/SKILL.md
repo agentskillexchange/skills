@@ -1,13 +1,13 @@
 ---
-title: Stable Diffusion LoRA Training Pipeline
-description: Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding.
+title: "Stable Diffusion LoRA Training Pipeline"
+description: "Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages dataset preparation with BLIP-2 auto-captioning, configures AdaFactor optimizer parameters, and exports safetensors checkpoints with A1111 metadata embedding."
 slug: stable-diffusion-lora-training-pipeline
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/
+source: "https://agentskillexchange.com/skills/stable-diffusion-lora-training-pipeline/"
 category:
-- Image &amp;amp; Creative Automation
+- "Image & Creative Automation"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Stable Diffusion LoRA Training Pipeline
 

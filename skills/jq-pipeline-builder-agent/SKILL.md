@@ -1,13 +1,13 @@
 ---
-title: jq Pipeline Builder Agent
-description: Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators.
+title: "jq Pipeline Builder Agent"
+description: "Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators."
 slug: jq-pipeline-builder-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/jq-pipeline-builder-agent/
+source: "https://agentskillexchange.com/skills/jq-pipeline-builder-agent/"
 category:
-- Data Extraction &amp;amp; Transformation
+- "Data Extraction & Transformation"
 framework:
-- Gemini
+- "Gemini"
 ---
 # jq Pipeline Builder Agent
 

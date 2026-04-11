@@ -1,13 +1,13 @@
 ---
-title: SonarQube Quality Gate Enforcer
-description: Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed.
+title: "SonarQube Quality Gate Enforcer"
+description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
 slug: sonarqube-quality-gate-enforcer-14
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/
+source: "https://agentskillexchange.com/skills/sonarqube-quality-gate-enforcer-14/"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- MCP
+- "MCP"
 ---
 # SonarQube Quality Gate Enforcer
 

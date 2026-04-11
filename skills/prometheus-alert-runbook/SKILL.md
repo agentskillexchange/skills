@@ -1,13 +1,13 @@
 ---
-title: Prometheus Alert Runbook
-description: Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation.
+title: "Prometheus Alert Runbook"
+description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
 slug: prometheus-alert-runbook
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-alert-runbook/
+source: "https://agentskillexchange.com/skills/prometheus-alert-runbook/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- MCP
+- "MCP"
 ---
 # Prometheus Alert Runbook
 

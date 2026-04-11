@@ -1,13 +1,13 @@
 ---
-title: Salesforce Bulk API Sync Agent
-description: Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT bearer flow authentication via jsforce.
+title: "Salesforce Bulk API Sync Agent"
+description: "Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and query operations. Handles OAuth 2.0 JWT bearer flow authentication via jsforce."
 slug: salesforce-bulk-api-sync-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/
+source: "https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- Codex
+- "Codex"
 ---
 # Salesforce Bulk API Sync Agent
 

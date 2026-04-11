@@ -1,13 +1,13 @@
 ---
-title: WPGraphQL GraphQL API Plugin for Headless WordPress
-description: WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is a strong fit for headless builds, automation agents, and integration workflows that need structured reads and mutations instead of scraping wp-admin or loosely shaped REST responses.
+title: "WPGraphQL GraphQL API Plugin for Headless WordPress"
+description: "WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is a strong fit for headless builds, automation agents, and integration workflows that need structured reads and mutations instead of scraping wp-admin or loosely shaped REST responses."
 slug: wpgraphql-graphql-api-plugin-for-headless-wordpress
 verification: security_reviewed
-source: https://github.com/wp-graphql/wp-graphql
+source: "https://github.com/wp-graphql/wp-graphql"
 category:
-- WordPress &amp;amp; CMS
+- "WordPress & CMS"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 ---
 # WPGraphQL GraphQL API Plugin for Headless WordPress
 

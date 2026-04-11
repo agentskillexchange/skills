@@ -1,13 +1,13 @@
 ---
-title: Docker Container Health Inspector
-description: Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming.
+title: "Docker Container Health Inspector"
+description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
 slug: docker-container-health-inspector
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/docker-container-health-inspector/
+source: "https://agentskillexchange.com/skills/docker-container-health-inspector/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- MCP
+- "MCP"
 ---
 # Docker Container Health Inspector
 

@@ -1,13 +1,13 @@
 ---
-title: Nginx Error Log Parser
-description: Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings.
+title: "Nginx Error Log Parser"
+description: "Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL handshake failures. Correlates error spikes with nginx -T configuration dumps to identify misconfigured proxy_pass and keepalive settings."
 slug: nginx-error-log-parser
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/nginx-error-log-parser/
+source: "https://agentskillexchange.com/skills/nginx-error-log-parser/"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Nginx Error Log Parser
 

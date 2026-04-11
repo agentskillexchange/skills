@@ -1,13 +1,13 @@
 ---
-title: Browserbase MCP Server
-description: Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP and self-hosted stdio options. It suits teams that want MCP-based browser automation but prefer Browserbase sessions and Stagehand’s action model instead of running Playwright locally.
+title: "Browserbase MCP Server"
+description: "Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP and self-hosted stdio options. It suits teams that want MCP-based browser automation but prefer Browserbase sessions and Stagehand’s action model instead of running Playwright locally."
 slug: browserbase-mcp-server
 verification: security_reviewed
-source: https://github.com/browserbase/mcp-server-browserbase
+source: "https://github.com/browserbase/mcp-server-browserbase"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- MCP
+- "MCP"
 ---
 # Browserbase MCP Server
 

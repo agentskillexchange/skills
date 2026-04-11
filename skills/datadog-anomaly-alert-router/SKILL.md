@@ -1,13 +1,13 @@
 ---
-title: Datadog Anomaly Alert Router
-description: Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration.
+title: "Datadog Anomaly Alert Router"
+description: "Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and Monitors API. Applies severity-based escalation rules with PagerDuty and Slack webhook integration."
 slug: datadog-anomaly-alert-router
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/datadog-anomaly-alert-router/
+source: "https://agentskillexchange.com/skills/datadog-anomaly-alert-router/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- MCP
+- "MCP"
 ---
 # Datadog Anomaly Alert Router
 

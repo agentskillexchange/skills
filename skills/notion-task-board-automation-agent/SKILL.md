@@ -1,13 +1,13 @@
 ---
-title: Notion Task Board Automation
-description: Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers.
+title: "Notion Task Board Automation"
+description: "Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers."
 slug: notion-task-board-automation-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/notion-task-board-automation-agent/
+source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Notion Task Board Automation
 

@@ -1,13 +1,13 @@
 ---
-title: NPM Package Explorer
-description: Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API.
+title: "NPM Package Explorer"
+description: "Explores the npm registry using the Registry API and npms.io scoring API. Analyzes package quality, dependency trees, and bundle sizes via bundlephobia API."
 slug: npm-package-explorer-registry-api
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/npm-package-explorer-registry-api/
+source: "https://agentskillexchange.com/skills/npm-package-explorer-registry-api/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Cursor
+- "Cursor"
 ---
 # NPM Package Explorer
 

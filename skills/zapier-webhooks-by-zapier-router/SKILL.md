@@ -1,13 +1,13 @@
 ---
-title: Zapier Webhooks by Zapier Router
-description: Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems.
+title: "Zapier Webhooks by Zapier Router"
+description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
 slug: zapier-webhooks-by-zapier-router
 verification: security_reviewed
-source: https://github.com/zapier/zapier-platform
+source: "https://github.com/zapier/zapier-platform"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: zapier/zapier-platform
   github_stars: 484

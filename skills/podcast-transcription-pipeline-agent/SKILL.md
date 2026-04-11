@@ -1,13 +1,13 @@
 ---
-title: Podcast Transcription Pipeline
-description: Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments.
+title: "Podcast Transcription Pipeline"
+description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
 slug: podcast-transcription-pipeline-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/
+source: "https://agentskillexchange.com/skills/podcast-transcription-pipeline-agent/"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- Codex
+- "Codex"
 ---
 # Podcast Transcription Pipeline
 

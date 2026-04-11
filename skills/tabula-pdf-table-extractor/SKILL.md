@@ -1,13 +1,13 @@
 ---
-title: Tabula PDF Table Extractor
-description: Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to CSV, JSON, or pandas DataFrames with automatic column type inference via python-tabula.
+title: "Tabula PDF Table Extractor"
+description: "Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to CSV, JSON, or pandas DataFrames with automatic column type inference via python-tabula."
 slug: tabula-pdf-table-extractor
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/tabula-pdf-table-extractor/
+source: "https://agentskillexchange.com/skills/tabula-pdf-table-extractor/"
 category:
-- Data Extraction &amp;amp; Transformation
+- "Data Extraction & Transformation"
 framework:
-- MCP
+- "MCP"
 ---
 # Tabula PDF Table Extractor
 

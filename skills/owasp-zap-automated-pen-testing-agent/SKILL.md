@@ -1,13 +1,13 @@
 ---
-title: OWASP ZAP Automated Pen Testing Agent
-description: Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows.
+title: "OWASP ZAP Automated Pen Testing Agent"
+description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
 slug: owasp-zap-automated-pen-testing-agent
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/
+source: "https://agentskillexchange.com/skills/owasp-zap-automated-pen-testing-agent/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # OWASP ZAP Automated Pen Testing Agent
 

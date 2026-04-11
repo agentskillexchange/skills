@@ -1,13 +1,13 @@
 ---
-title: Swagger OpenAPI Schema Validator
-description: Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.
+title: "Swagger OpenAPI Schema Validator"
+description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
 slug: swagger-openapi-schema-validator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/swagger-openapi-schema-validator/
+source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Swagger OpenAPI Schema Validator
 

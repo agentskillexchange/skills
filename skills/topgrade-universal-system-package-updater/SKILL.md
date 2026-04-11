@@ -1,13 +1,13 @@
 ---
-title: Topgrade Universal System Package Updater
-description: Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more.
+title: "Topgrade Universal System Package Updater"
+description: "Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update commands in one shot. It supports over 60 package managers including apt, brew, npm, pip, cargo, flatpak, snap, firmware updates, and more."
 slug: topgrade-universal-system-package-updater
 verification: security_reviewed
-source: https://github.com/topgrade-rs/topgrade
+source: "https://github.com/topgrade-rs/topgrade"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: topgrade-rs/topgrade
   github_stars: 3619

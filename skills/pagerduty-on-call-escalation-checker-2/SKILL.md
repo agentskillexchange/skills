@@ -1,13 +1,13 @@
 ---
-title: PagerDuty On-Call Escalation Checker
-description: Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill.
+title: "PagerDuty On-Call Escalation Checker"
+description: "Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill."
 slug: pagerduty-on-call-escalation-checker-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/
+source: "https://agentskillexchange.com/skills/pagerduty-on-call-escalation-checker-2/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # PagerDuty On-Call Escalation Checker
 

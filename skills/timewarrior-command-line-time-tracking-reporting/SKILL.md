@@ -1,13 +1,13 @@
 ---
-title: Timewarrior Command-Line Time Tracking and Reporting
-description: Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior for automatic time tracking of tasks. Data is stored as plain text files with no database required.
+title: "Timewarrior Command-Line Time Tracking and Reporting"
+description: "Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior for automatic time tracking of tasks. Data is stored as plain text files with no database required."
 slug: timewarrior-command-line-time-tracking-reporting
 verification: security_reviewed
-source: https://github.com/GothenburgBitFactory/timewarrior
+source: "https://github.com/GothenburgBitFactory/timewarrior"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: gothenburgbitfactory/timewarrior
   github_stars: 1580

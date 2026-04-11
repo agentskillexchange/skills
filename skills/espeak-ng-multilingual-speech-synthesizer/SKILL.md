@@ -1,13 +1,13 @@
 ---
-title: eSpeak NG Multilingual Speech Synthesizer
-description: An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness.
+title: "eSpeak NG Multilingual Speech Synthesizer"
+description: "An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness."
 slug: espeak-ng-multilingual-speech-synthesizer
 verification: security_reviewed
-source: https://github.com/espeak-ng/espeak-ng
+source: "https://github.com/espeak-ng/espeak-ng"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: espeak-ng/espeak-ng
   github_stars: 6311

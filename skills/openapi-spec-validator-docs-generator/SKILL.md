@@ -1,13 +1,13 @@
 ---
-title: OpenAPI Spec Validator & Docs Generator
-description: Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration.
+title: "OpenAPI Spec Validator & Docs Generator"
+description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration."
 slug: openapi-spec-validator-docs-generator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/
+source: "https://agentskillexchange.com/skills/openapi-spec-validator-docs-generator/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- MCP
+- "MCP"
 ---
 # OpenAPI Spec Validator & Docs Generator
 

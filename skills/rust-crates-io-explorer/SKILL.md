@@ -1,13 +1,13 @@
 ---
-title: Rust Crates.io Explorer
-description: Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing.
+title: "Rust Crates.io Explorer"
+description: "Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates with docs.rs API for inline rustdoc retrieval and lib.rs category browsing."
 slug: rust-crates-io-explorer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/rust-crates-io-explorer/
+source: "https://agentskillexchange.com/skills/rust-crates-io-explorer/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Rust Crates.io Explorer
 

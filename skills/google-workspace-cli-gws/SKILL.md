@@ -1,13 +1,13 @@
 ---
-title: Google Workspace CLI (gws)
-description: Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows.
+title: "Google Workspace CLI (gws)"
+description: "Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows."
 slug: google-workspace-cli-gws
 verification: security_reviewed
-source: https://github.com/googleworkspace/cli
+source: "https://github.com/googleworkspace/cli"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: googleworkspace/cli
   github_stars: 24348

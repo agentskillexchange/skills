@@ -1,13 +1,13 @@
 ---
-title: Nango Open Source API Integration Platform
-description: Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure.
+title: "Nango Open Source API Integration Platform"
+description: "Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure."
 slug: nango-open-source-api-integration-platform
 verification: security_reviewed
-source: https://github.com/NangoHQ/nango
+source: "https://github.com/NangoHQ/nango"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: nangohq/nango
   github_stars: 7003

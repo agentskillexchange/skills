@@ -1,13 +1,13 @@
 ---
-title: Helm Chart Templater
-description: Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema generation via json-schema-generator and chart dependency resolution with helm dependency update.
+title: "Helm Chart Templater"
+description: "Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema generation via json-schema-generator and chart dependency resolution with helm dependency update."
 slug: helm-chart-templater
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/helm-chart-templater/
+source: "https://agentskillexchange.com/skills/helm-chart-templater/"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- Gemini
+- "Gemini"
 ---
 # Helm Chart Templater
 

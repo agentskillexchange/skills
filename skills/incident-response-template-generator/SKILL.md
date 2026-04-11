@@ -1,13 +1,13 @@
 ---
-title: Incident Response Template Generator
-description: Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation, and Statuspage.io API for public status updates. Generates runbook-linked response procedures.
+title: "Incident Response Template Generator"
+description: "Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation, and Statuspage.io API for public status updates. Generates runbook-linked response procedures."
 slug: incident-response-template-generator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/incident-response-template-generator/
+source: "https://agentskillexchange.com/skills/incident-response-template-generator/"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Incident Response Template Generator
 

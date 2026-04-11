@@ -1,13 +1,13 @@
 ---
-title: Bubble.io Stripe Subscription Portal Builder
-description: Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
+title: "Bubble.io Stripe Subscription Portal Builder"
+description: "Uses Bubble’s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble’s API Connector to call Stripe’s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
 slug: bubble-stripe-subscription-portal
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
+source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Bubble.io Stripe Subscription Portal Builder
 

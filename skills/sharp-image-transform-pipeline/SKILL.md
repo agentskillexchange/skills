@@ -1,13 +1,13 @@
 ---
-title: Sharp Image Transform Pipeline
-description: Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management.
+title: "Sharp Image Transform Pipeline"
+description: "Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management."
 slug: sharp-image-transform-pipeline
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/sharp-image-transform-pipeline/
+source: "https://agentskillexchange.com/skills/sharp-image-transform-pipeline/"
 category:
-- Image &amp;amp; Creative Automation
+- "Image & Creative Automation"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Sharp Image Transform Pipeline
 

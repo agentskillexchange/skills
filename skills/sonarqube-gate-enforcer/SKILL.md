@@ -1,13 +1,13 @@
 ---
-title: SonarQube Gate Enforcer
-description: Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API /api/qualitygates/project_status endpoint. Blocks merges when coverage drops, duplications exceed thresholds, or new bugs are introduced.
+title: "SonarQube Gate Enforcer"
+description: "Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API /api/qualitygates/project_status endpoint. Blocks merges when coverage drops, duplications exceed thresholds, or new bugs are introduced."
 slug: sonarqube-gate-enforcer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/sonarqube-gate-enforcer/
+source: "https://agentskillexchange.com/skills/sonarqube-gate-enforcer/"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Cursor
+- "Cursor"
 ---
 # SonarQube Gate Enforcer
 

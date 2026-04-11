@@ -1,13 +1,13 @@
 ---
-title: dprint Pluggable High-Performance Code Formatting Platform
-description: dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture for maximum speed.
+title: "dprint Pluggable High-Performance Code Formatting Platform"
+description: "dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture for maximum speed."
 slug: dprint-pluggable-code-formatter
 verification: security_reviewed
-source: https://github.com/dprint/dprint
+source: "https://github.com/dprint/dprint"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: dprint/dprint
   github_stars: 3857

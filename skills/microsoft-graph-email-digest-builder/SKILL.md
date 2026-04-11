@@ -1,13 +1,13 @@
 ---
-title: Microsoft Graph Email Digest Builder
-description: Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties.
+title: "Microsoft Graph Email Digest Builder"
+description: "Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties."
 slug: microsoft-graph-email-digest-builder
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/
+source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # Microsoft Graph Email Digest Builder
 

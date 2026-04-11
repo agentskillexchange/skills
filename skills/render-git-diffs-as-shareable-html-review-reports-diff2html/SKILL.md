@@ -1,13 +1,13 @@
 ---
-title: Render git diffs as shareable HTML review reports with Diff2Html
-description: Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a rendering and packaging workflow, not a generic Git hosting, code review, or SCM platform listing.
+title: "Render git diffs as shareable HTML review reports with Diff2Html"
+description: "Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a rendering and packaging workflow, not a generic Git hosting, code review, or SCM platform listing."
 slug: render-git-diffs-as-shareable-html-review-reports-diff2html
 verification: security_reviewed
-source: https://github.com/rtfpessoa/diff2html
+source: "https://github.com/rtfpessoa/diff2html"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: rtfpessoa/diff2html
   github_stars: 3337

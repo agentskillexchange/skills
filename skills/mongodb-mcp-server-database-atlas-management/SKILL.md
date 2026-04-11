@@ -1,13 +1,13 @@
 ---
-title: MongoDB MCP Server for Database and Atlas Management
-description: The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context Protocol, enabling structured queries, collection management, Atlas API operations, and aggregation pipelines with built-in authentication and access control.
+title: "MongoDB MCP Server for Database and Atlas Management"
+description: "The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context Protocol, enabling structured queries, collection management, Atlas API operations, and aggregation pipelines with built-in authentication and access control."
 slug: mongodb-mcp-server-database-atlas-management
 verification: security_reviewed
-source: https://github.com/mongodb-js/mongodb-mcp-server
+source: "https://github.com/mongodb-js/mongodb-mcp-server"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- MCP
+- "MCP"
 tool_ecosystem:
   github_repo: mongodb-js/mongodb-mcp-server
   github_stars: 983

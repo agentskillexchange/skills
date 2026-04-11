@@ -1,13 +1,13 @@
 ---
-title: Agno Multi-Modal Agent Runtime Platform
-description: Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It provides a three-layer architecture — framework, runtime, and control plane — enabling developers to go from agent prototype to production API in roughly 20 lines of code.
+title: "Agno Multi-Modal Agent Runtime Platform"
+description: "Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It provides a three-layer architecture — framework, runtime, and control plane — enabling developers to go from agent prototype to production API in roughly 20 lines of code."
 slug: agno-multi-modal-agent-runtime-platform
 verification: security_reviewed
-source: https://github.com/agno-agi/agno
+source: "https://github.com/agno-agi/agno"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: agno-agi/agno
   github_stars: 39050

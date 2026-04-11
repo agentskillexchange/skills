@@ -1,13 +1,13 @@
 ---
-title: LazyDocker Terminal UI for Docker Management
-description: LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource monitoring, and image inspection through a keyboard-driven interface. Created by Jesse Duffield with 50,000+ GitHub stars.
+title: "LazyDocker Terminal UI for Docker Management"
+description: "LazyDocker is a terminal UI for Docker and Docker Compose that provides container management, log viewing, resource monitoring, and image inspection through a keyboard-driven interface. Created by Jesse Duffield with 50,000+ GitHub stars."
 slug: lazydocker-terminal-docker-management
 verification: security_reviewed
-source: https://github.com/jesseduffield/lazydocker
+source: "https://github.com/jesseduffield/lazydocker"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Claude Code
+- "Claude Code"
 tool_ecosystem:
   github_repo: jesseduffield/lazydocker
   github_stars: 50476

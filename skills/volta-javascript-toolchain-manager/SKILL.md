@@ -1,13 +1,13 @@
 ---
-title: Volta JavaScript Toolchain Version Manager
-description: Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions.
+title: "Volta JavaScript Toolchain Version Manager"
+description: "Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching without shims or shell hooks, ensuring every team member runs the exact same tool versions."
 slug: volta-javascript-toolchain-manager
 verification: security_reviewed
-source: https://github.com/volta-cli/volta
+source: "https://github.com/volta-cli/volta"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: volta-cli/volta
   github_stars: 12888

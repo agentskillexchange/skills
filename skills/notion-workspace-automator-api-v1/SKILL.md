@@ -1,13 +1,13 @@
 ---
-title: Notion Workspace Automator
-description: Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling.
+title: "Notion Workspace Automator"
+description: "Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling."
 slug: notion-workspace-automator-api-v1
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/
+source: "https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Notion Workspace Automator
 

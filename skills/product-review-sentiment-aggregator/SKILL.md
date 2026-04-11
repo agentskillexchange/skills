@@ -1,13 +1,13 @@
 ---
-title: Product Review Sentiment Aggregator
-description: Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons.
+title: "Product Review Sentiment Aggregator"
+description: "Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons."
 slug: product-review-sentiment-aggregator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/product-review-sentiment-aggregator/
+source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
 category:
-- Research &amp;amp; Scraping
+- "Research & Scraping"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Product Review Sentiment Aggregator
 

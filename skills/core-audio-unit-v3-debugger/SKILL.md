@@ -1,13 +1,13 @@
 ---
-title: Core Audio Unit v3 Debugger
-description: Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and Instruments AudioUnit trace template for latency measurement and buffer underrun detection.
+title: "Core Audio Unit v3 Debugger"
+description: "Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and Instruments AudioUnit trace template for latency measurement and buffer underrun detection."
 slug: core-audio-unit-v3-debugger
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/
+source: "https://agentskillexchange.com/skills/core-audio-unit-v3-debugger/"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # Core Audio Unit v3 Debugger
 

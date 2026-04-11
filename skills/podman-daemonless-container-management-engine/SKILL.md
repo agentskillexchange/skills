@@ -1,13 +1,13 @@
 ---
-title: Podman Daemonless Container Management Engine
-description: Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and Windows. It provides a Docker-compatible CLI interface with rootless container support and pod management, making it a secure drop-in replacement for Docker in development and CI/CD workflows.
+title: "Podman Daemonless Container Management Engine"
+description: "Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and Windows. It provides a Docker-compatible CLI interface with rootless container support and pod management, making it a secure drop-in replacement for Docker in development and CI/CD workflows."
 slug: podman-daemonless-container-management-engine
 verification: security_reviewed
-source: https://github.com/containers/podman
+source: "https://github.com/containers/podman"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: containers/podman
   github_stars: 31227

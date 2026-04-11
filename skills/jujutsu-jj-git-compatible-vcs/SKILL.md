@@ -1,13 +1,13 @@
 ---
-title: Jujutsu Git-Compatible Version Control System
-description: Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic rebasing, first-class conflict tracking, and operation-log undo. Built in Rust with 27k+ GitHub stars, it works directly on existing Git repositories.
+title: "Jujutsu Git-Compatible Version Control System"
+description: "Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic rebasing, first-class conflict tracking, and operation-log undo. Built in Rust with 27k+ GitHub stars, it works directly on existing Git repositories."
 slug: jujutsu-jj-git-compatible-vcs
 verification: security_reviewed
-source: https://github.com/jj-vcs/jj
+source: "https://github.com/jj-vcs/jj"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- OpenClaw
+- "OpenClaw"
 tool_ecosystem:
   github_repo: jj-vcs/jj
   github_stars: 27472

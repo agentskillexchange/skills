@@ -1,13 +1,13 @@
 ---
-title: Elastic / Kibana MCP Server
-description: Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]
+title: "Elastic / Kibana MCP Server"
+description: "Elastic / Kibana MCP Server is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health […]"
 slug: elastic-kibana-mcp-server
 verification: security_reviewed
-source: https://github.com/elastic/elasticsearch
+source: "https://github.com/elastic/elasticsearch"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- MCP
+- "MCP"
 tool_ecosystem:
   github_repo: elastic/elasticsearch
   github_stars: 76475

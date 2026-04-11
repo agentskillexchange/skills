@@ -1,13 +1,13 @@
 ---
-title: OpenAI Image Gen
-description: Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output.
+title: "OpenAI Image Gen"
+description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
 slug: openai-image-gen
 verification: security_reviewed
-source: https://github.com/openai/openai-node
+source: "https://github.com/openai/openai-node"
 category:
-- Image &amp;amp; Creative Automation
+- "Image & Creative Automation"
 framework:
-- OpenClaw
+- "OpenClaw"
 tool_ecosystem:
   github_repo: openai/openai-node
   github_stars: 10791

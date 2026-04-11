@@ -1,13 +1,13 @@
 ---
-title: Mise Dev Tool Version Manager
-description: Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool.
+title: "Mise Dev Tool Version Manager"
+description: "Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single configuration file. Replaces asdf, nvm, pyenv, rbenv, and direnv in one tool."
 slug: mise-dev-tool-version-manager
 verification: listed
-source: https://github.com/jdx/mise
+source: "https://github.com/jdx/mise"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Claude Code
+- "Claude Code"
 tool_ecosystem:
   github_repo: jdx/mise
   github_stars: 26298

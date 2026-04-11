@@ -1,14 +1,14 @@
 ---
-title: Incident Response Playbook Runner
-description: Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for communication, and Jira REST API for ticket creation. Automates evidence collection, timeline construction, and post-mortem generation.
+title: "Incident Response Playbook Runner"
+description: "Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for communication, and Jira REST API for ticket creation. Automates evidence collection, timeline construction, and post-mortem generation."
 slug: incident-response-playbook-runner
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/incident-response-playbook-runner/
+source: "https://agentskillexchange.com/skills/incident-response-playbook-runner/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- MCP
-- Multi-Framework
+- "MCP"
+- "Multi-Framework"
 ---
 # Incident Response Playbook Runner
 

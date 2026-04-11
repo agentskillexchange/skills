@@ -1,13 +1,13 @@
 ---
-title: TLS Certificate Chain Analyzer
-description: Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues.
+title: "TLS Certificate Chain Analyzer"
+description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues."
 slug: tls-certificate-chain-analyzer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/
+source: "https://agentskillexchange.com/skills/tls-certificate-chain-analyzer/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- MCP
+- "MCP"
 ---
 # TLS Certificate Chain Analyzer
 

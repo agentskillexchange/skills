@@ -1,13 +1,13 @@
 ---
-title: CircleCI Flaky Test Detector
-description: Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit.
+title: "CircleCI Flaky Test Detector"
+description: "Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate with quarantine strategies for Jest, pytest, RSpec, and JUnit."
 slug: circleci-flaky-test-detector-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/
+source: "https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- MCP
+- "MCP"
 ---
 # CircleCI Flaky Test Detector
 

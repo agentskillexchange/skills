@@ -1,13 +1,13 @@
 ---
-title: PeerTube Video Publishing and Moderation API
-description: Uses PeerTube’s REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure.
+title: "PeerTube Video Publishing and Moderation API"
+description: "Uses PeerTube’s REST API and federation-aware platform features to automate video uploads, channel management, moderation queues, and instance operations. A strong fit for creators or communities running their own open video infrastructure."
 slug: peertube-video-publishing-moderation-api
 verification: security_reviewed
-source: https://github.com/Chocobozzz/PeerTube
+source: "https://github.com/Chocobozzz/PeerTube"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 ---
 # PeerTube Video Publishing and Moderation API
 

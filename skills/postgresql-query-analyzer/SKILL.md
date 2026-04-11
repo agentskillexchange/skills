@@ -1,13 +1,13 @@
 ---
-title: PostgreSQL Query Analyzer
-description: Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests index creation with HypoPG extension.
+title: "PostgreSQL Query Analyzer"
+description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests index creation with HypoPG extension."
 slug: postgresql-query-analyzer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/postgresql-query-analyzer/
+source: "https://agentskillexchange.com/skills/postgresql-query-analyzer/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Gemini
+- "Gemini"
 ---
 # PostgreSQL Query Analyzer
 

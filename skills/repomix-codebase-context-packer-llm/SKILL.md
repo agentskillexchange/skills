@@ -1,13 +1,13 @@
 ---
-title: Repomix Codebase Context Packer for LLMs
-description: Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format.
+title: "Repomix Codebase Context Packer for LLMs"
+description: "Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format."
 slug: repomix-codebase-context-packer-llm
 verification: security_reviewed
-source: https://github.com/yamadashy/repomix
+source: "https://github.com/yamadashy/repomix"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Claude Code
+- "Claude Code"
 tool_ecosystem:
   github_repo: yamadashy/repomix
   github_stars: 22816

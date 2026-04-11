@@ -1,13 +1,13 @@
 ---
-title: Statamic Laravel Git-Powered CMS
-description: Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while still offering a full control panel and extensible data model. Useful for teams that want version-controlled content, custom collections, and modern Laravel deployment patterns.
+title: "Statamic Laravel Git-Powered CMS"
+description: "Builds content workflows around Statamic, the Laravel-based CMS that stores content in flat files and Git while still offering a full control panel and extensible data model. Useful for teams that want version-controlled content, custom collections, and modern Laravel deployment patterns."
 slug: statamic-laravel-git-powered-cms
 verification: security_reviewed
-source: https://github.com/statamic/cms
+source: "https://github.com/statamic/cms"
 category:
-- WordPress &amp;amp; CMS
+- "WordPress & CMS"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: statamic/cms
   github_stars: 4779

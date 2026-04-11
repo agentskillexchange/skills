@@ -1,13 +1,13 @@
 ---
-title: npm Dependency Audit Scanner
-description: Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format.
+title: "npm Dependency Audit Scanner"
+description: "Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format."
 slug: npm-dependency-audit-scanner
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/npm-dependency-audit-scanner/
+source: "https://agentskillexchange.com/skills/npm-dependency-audit-scanner/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # npm Dependency Audit Scanner
 

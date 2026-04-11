@@ -1,13 +1,13 @@
 ---
-title: Ansible Runbook Executor
-description: Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming.
+title: "Ansible Runbook Executor"
+description: "Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming."
 slug: ansible-runbook-executor
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/ansible-runbook-executor/
+source: "https://agentskillexchange.com/skills/ansible-runbook-executor/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # Ansible Runbook Executor
 

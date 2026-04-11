@@ -1,13 +1,13 @@
 ---
-title: Nango Integration Platform SDK
-description: Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying, and function execution. This skill covers how to use the real Nango project for OAuth-backed integrations, API tool calling, and production sync workflows.
+title: "Nango Integration Platform SDK"
+description: "Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying, and function execution. This skill covers how to use the real Nango project for OAuth-backed integrations, API tool calling, and production sync workflows."
 slug: nango-integration-platform-sdk
 verification: security_reviewed
-source: https://github.com/NangoHQ/nango
+source: "https://github.com/NangoHQ/nango"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 ---
 # Nango Integration Platform SDK
 

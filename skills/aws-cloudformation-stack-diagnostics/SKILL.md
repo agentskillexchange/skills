@@ -1,13 +1,13 @@
 ---
-title: AWS CloudFormation Stack Diagnostics
-description: Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains.
+title: "AWS CloudFormation Stack Diagnostics"
+description: "Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains."
 slug: aws-cloudformation-stack-diagnostics
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/
+source: "https://agentskillexchange.com/skills/aws-cloudformation-stack-diagnostics/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # AWS CloudFormation Stack Diagnostics
 

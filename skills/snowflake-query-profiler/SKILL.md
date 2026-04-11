@@ -1,13 +1,13 @@
 ---
-title: Snowflake Query Profiler
-description: Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys.
+title: "Snowflake Query Profiler"
+description: "Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys."
 slug: snowflake-query-profiler
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/snowflake-query-profiler/
+source: "https://agentskillexchange.com/skills/snowflake-query-profiler/"
 category:
-- Data Extraction &amp;amp; Transformation
+- "Data Extraction & Transformation"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # Snowflake Query Profiler
 

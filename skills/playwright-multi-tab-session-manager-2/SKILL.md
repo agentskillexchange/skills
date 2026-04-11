@@ -1,13 +1,13 @@
 ---
-title: Playwright Multi-Tab Session Manager
-description: Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization.
+title: "Playwright Multi-Tab Session Manager"
+description: "Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization."
 slug: playwright-multi-tab-session-manager-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/
+source: "https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-2/"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # Playwright Multi-Tab Session Manager
 

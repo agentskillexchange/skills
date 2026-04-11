@@ -1,13 +1,13 @@
 ---
-title: ESLint Rule Architect
-description: Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices.
+title: "ESLint Rule Architect"
+description: "Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices."
 slug: eslint-rule-architect-2
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/eslint-rule-architect-2/
+source: "https://agentskillexchange.com/skills/eslint-rule-architect-2/"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Cursor
+- "Cursor"
 ---
 # ESLint Rule Architect
 

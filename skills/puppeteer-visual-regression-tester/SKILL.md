@@ -1,13 +1,13 @@
 ---
-title: Puppeteer Visual Regression Tester
-description: Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions.
+title: "Puppeteer Visual Regression Tester"
+description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
 slug: puppeteer-visual-regression-tester
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/
+source: "https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Puppeteer Visual Regression Tester
 

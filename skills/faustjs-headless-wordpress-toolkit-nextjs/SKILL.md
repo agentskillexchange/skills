@@ -1,13 +1,13 @@
 ---
-title: Faust.js Headless WordPress Toolkit for Next.js
-description: Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via WPGraphQL, authentication, content previews, and server-side rendering, providing a production-ready bridge between WordPress as a CMS and React-based frontends.
+title: "Faust.js Headless WordPress Toolkit for Next.js"
+description: "Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via WPGraphQL, authentication, content previews, and server-side rendering, providing a production-ready bridge between WordPress as a CMS and React-based frontends."
 slug: faustjs-headless-wordpress-toolkit-nextjs
 verification: security_reviewed
-source: https://github.com/wpengine/faustjs
+source: "https://github.com/wpengine/faustjs"
 category:
-- WordPress &amp;amp; CMS
+- "WordPress & CMS"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: wpengine/faustjs
   github_stars: 1568

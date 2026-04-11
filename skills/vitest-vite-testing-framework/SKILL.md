@@ -1,13 +1,13 @@
 ---
-title: Vitest Next-Generation Vite-Powered Testing Framework
-description: Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless migration of existing test suites.
+title: "Vitest Next-Generation Vite-Powered Testing Framework"
+description: "Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless migration of existing test suites."
 slug: vitest-vite-testing-framework
 verification: security_reviewed
-source: https://github.com/vitest-dev/vitest
+source: "https://github.com/vitest-dev/vitest"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: vitest-dev/vitest
   github_stars: 16296

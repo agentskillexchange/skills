@@ -1,13 +1,13 @@
 ---
-title: DocuSeal Open Source Document Signing and PDF Form Platform
-description: DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular.
+title: "DocuSeal Open Source Document Signing and PDF Form Platform"
+description: "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular."
 slug: docuseal-document-signing-pdf-forms
 verification: security_reviewed
-source: https://github.com/docusealco/docuseal
+source: "https://github.com/docusealco/docuseal"
 category:
-- Templates &amp;amp; Workflows
+- "Templates & Workflows"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: docusealco/docuseal
   github_stars: 11695

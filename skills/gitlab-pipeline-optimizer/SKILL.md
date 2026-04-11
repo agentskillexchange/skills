@@ -1,13 +1,13 @@
 ---
-title: GitLab Pipeline Optimizer
-description: Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and .gitlab-ci.yml schema. Reduces pipeline duration by identifying bottleneck stages, configuring DAG dependencies with needs keyword, and implementing rules-based job filtering.
+title: "GitLab Pipeline Optimizer"
+description: "Analyzes and optimizes GitLab CI/CD pipelines using the GitLab REST API v4 and .gitlab-ci.yml schema. Reduces pipeline duration by identifying bottleneck stages, configuring DAG dependencies with needs keyword, and implementing rules-based job filtering."
 slug: gitlab-pipeline-optimizer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/
+source: "https://agentskillexchange.com/skills/gitlab-pipeline-optimizer/"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # GitLab Pipeline Optimizer
 

@@ -1,13 +1,13 @@
 ---
-title: TypeDoc TypeScript API Documentation Generator
-description: TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitHub stars and widespread npm adoption, it powers API reference generation for thousands of TypeScript libraries.
+title: "TypeDoc TypeScript API Documentation Generator"
+description: "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitHub stars and widespread npm adoption, it powers API reference generation for thousands of TypeScript libraries."
 slug: typedoc-typescript-api-documentation-generator
 verification: security_reviewed
-source: https://github.com/TypeStrong/typedoc
+source: "https://github.com/TypeStrong/typedoc"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: typestrong/typedoc
   github_stars: 8385

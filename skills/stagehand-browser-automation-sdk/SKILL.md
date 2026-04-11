@@ -1,13 +1,13 @@
 ---
-title: Stagehand Browser Automation SDK
-description: Stagehand is Browserbase’s browser automation SDK for combining natural-language actions with deterministic browser code. This skill covers how to use the real Stagehand project for agent-driven web navigation, extraction, and repeatable browser workflows.
+title: "Stagehand Browser Automation SDK"
+description: "Stagehand is Browserbase’s browser automation SDK for combining natural-language actions with deterministic browser code. This skill covers how to use the real Stagehand project for agent-driven web navigation, extraction, and repeatable browser workflows."
 slug: stagehand-browser-automation-sdk
 verification: security_reviewed
-source: https://github.com/browserbase/stagehand
+source: "https://github.com/browserbase/stagehand"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 ---
 # Stagehand Browser Automation SDK
 

@@ -1,13 +1,13 @@
 ---
-title: CycloneDX SBOM Generator
-description: Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration.
+title: "CycloneDX SBOM Generator"
+description: "Generates Software Bill of Materials in CycloneDX format using cdxgen and Syft. Scans npm, pip, and Go modules for known CVEs via OSV.dev API integration."
 slug: cyclonedx-sbom-generator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/cyclonedx-sbom-generator/
+source: "https://agentskillexchange.com/skills/cyclonedx-sbom-generator/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Cursor
+- "Cursor"
 ---
 # CycloneDX SBOM Generator
 

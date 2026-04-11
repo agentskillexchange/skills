@@ -1,13 +1,13 @@
 ---
-title: Langfuse LLM Observability Platform and SDK
-description: Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic observability brand into a concrete implementation pattern for tracing and analyzing model behavior.
+title: "Langfuse LLM Observability Platform and SDK"
+description: "Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic observability brand into a concrete implementation pattern for tracing and analyzing model behavior."
 slug: langfuse-llm-observability-platform-and-sdk
 verification: security_reviewed
-source: https://github.com/langfuse/langfuse
+source: "https://github.com/langfuse/langfuse"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: langfuse/langfuse
   github_stars: 24091

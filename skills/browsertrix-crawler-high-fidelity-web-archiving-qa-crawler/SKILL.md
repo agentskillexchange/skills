@@ -1,13 +1,13 @@
 ---
-title: Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler
-description: Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood.
+title: "Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler"
+description: "Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay analysis, and configurable crawl behavior. It runs complex crawls in a single Docker container and uses Puppeteer plus Chrome DevTools Protocol under the hood."
 slug: browsertrix-crawler-high-fidelity-web-archiving-qa-crawler
 verification: security_reviewed
-source: https://github.com/webrecorder/browsertrix-crawler
+source: "https://github.com/webrecorder/browsertrix-crawler"
 category:
-- Research &amp;amp; Scraping
+- "Research & Scraping"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: webrecorder/browsertrix-crawler
   github_stars: 1013

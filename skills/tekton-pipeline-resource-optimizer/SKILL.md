@@ -1,13 +1,13 @@
 ---
-title: Tekton Pipeline Resource Optimizer
-description: Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.
+title: "Tekton Pipeline Resource Optimizer"
+description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 slug: tekton-pipeline-resource-optimizer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/
+source: "https://agentskillexchange.com/skills/tekton-pipeline-resource-optimizer/"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- Cursor
+- "Cursor"
 ---
 # Tekton Pipeline Resource Optimizer
 

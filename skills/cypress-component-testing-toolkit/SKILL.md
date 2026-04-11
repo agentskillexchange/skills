@@ -1,13 +1,13 @@
 ---
-title: Cypress Component Testing Toolkit
-description: Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe.
+title: "Cypress Component Testing Toolkit"
+description: "Creates component and integration tests using the Cypress Testing Library API and cy.intercept for network stubbing. Supports visual testing via the Cypress Image Snapshot plugin and accessibility auditing with cypress-axe."
 slug: cypress-component-testing-toolkit
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/cypress-component-testing-toolkit/
+source: "https://agentskillexchange.com/skills/cypress-component-testing-toolkit/"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Cypress Component Testing Toolkit
 

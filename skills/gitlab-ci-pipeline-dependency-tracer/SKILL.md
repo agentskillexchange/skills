@@ -1,13 +1,13 @@
 ---
-title: GitLab CI Pipeline Dependency Tracer
-description: Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments.
+title: "GitLab CI Pipeline Dependency Tracer"
+description: "Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments."
 slug: gitlab-ci-pipeline-dependency-tracer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/
+source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- Codex
+- "Codex"
 ---
 # GitLab CI Pipeline Dependency Tracer
 

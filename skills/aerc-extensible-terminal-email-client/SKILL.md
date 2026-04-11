@@ -1,13 +1,13 @@
 ---
-title: aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch
-description: aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and Notmuch. It features Vim-like keybindings, email threading, HTML rendering, built-in patch management, and deep UNIX integration through pipes and commands.
+title: "aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch"
+description: "aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and Notmuch. It features Vim-like keybindings, email threading, HTML rendering, built-in patch management, and deep UNIX integration through pipes and commands."
 slug: aerc-extensible-terminal-email-client
 verification: security_reviewed
-source: https://git.sr.ht/~rjarry/aerc
+source: "https://git.sr.ht/~rjarry/aerc"
 category:
-- Calendar, Email &amp;amp; Productivity
+- "Calendar, Email & Productivity"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch
 

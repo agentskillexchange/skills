@@ -1,13 +1,13 @@
 ---
-title: Prometheus Rule Evaluator
-description: Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing.
+title: "Prometheus Rule Evaluator"
+description: "Validates and tests Prometheus alerting rules against historical metrics data using the Prometheus HTTP API /api/v1/query_range endpoint. Runs rule simulations with configurable time windows and threshold testing."
 slug: prometheus-rule-evaluator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-rule-evaluator/
+source: "https://agentskillexchange.com/skills/prometheus-rule-evaluator/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Prometheus Rule Evaluator
 

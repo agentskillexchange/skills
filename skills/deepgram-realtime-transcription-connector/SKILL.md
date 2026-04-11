@@ -1,13 +1,13 @@
 ---
-title: Deepgram Real-Time Transcription Connector
-description: Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
+title: "Deepgram Real-Time Transcription Connector"
+description: "Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
 slug: deepgram-realtime-transcription-connector
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/
+source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-connector/"
 category:
-- Media &amp;amp; Transcription
+- "Media & Transcription"
 framework:
-- MCP
+- "MCP"
 ---
 # Deepgram Real-Time Transcription Connector
 

@@ -1,13 +1,13 @@
 ---
-title: Terrascan Policy Scanner
-description: Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
+title: "Terrascan Policy Scanner"
+description: "Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]"
 slug: terrascan-policy-scanner
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/terrascan-policy-scanner/
+source: "https://agentskillexchange.com/skills/terrascan-policy-scanner/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Terrascan Policy Scanner
 

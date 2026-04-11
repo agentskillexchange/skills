@@ -1,13 +1,13 @@
 ---
-title: AWS CloudWatch Alarm Diagnostic
-description: Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options.
+title: "AWS CloudWatch Alarm Diagnostic"
+description: "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies with recent infrastructure changes to suggest root cause hypotheses. Outputs a structured incident summary with remediation options."
 slug: aws-cloudwatch-alarm-diagnostic
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/
+source: "https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Gemini
+- "Gemini"
 ---
 # AWS CloudWatch Alarm Diagnostic
 

@@ -1,13 +1,13 @@
 ---
-title: Stripe Payments Connector
-description: Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts.
+title: "Stripe Payments Connector"
+description: "Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts."
 slug: stripe-payments-connector
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/stripe-payments-connector/
+source: "https://agentskillexchange.com/skills/stripe-payments-connector/"
 category:
-- Integrations &amp;amp; Connectors
+- "Integrations & Connectors"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # Stripe Payments Connector
 

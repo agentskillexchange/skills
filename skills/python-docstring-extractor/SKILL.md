@@ -1,13 +1,13 @@
 ---
-title: Python Docstring Extractor
-description: Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google, NumPy, and Sphinx docstring formats with type hint cross-referencing via typing_inspect.
+title: "Python Docstring Extractor"
+description: "Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google, NumPy, and Sphinx docstring formats with type hint cross-referencing via typing_inspect."
 slug: python-docstring-extractor
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/python-docstring-extractor/
+source: "https://agentskillexchange.com/skills/python-docstring-extractor/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Python Docstring Extractor
 

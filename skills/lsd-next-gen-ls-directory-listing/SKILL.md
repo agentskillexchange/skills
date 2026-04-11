@@ -1,13 +1,13 @@
 ---
-title: lsd Next-Generation ls Directory Listing Tool
-description: lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons via Nerd Fonts, tree view, and extensive formatting options while maintaining familiar ls command syntax.
+title: "lsd Next-Generation ls Directory Listing Tool"
+description: "lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons via Nerd Fonts, tree view, and extensive formatting options while maintaining familiar ls command syntax."
 slug: lsd-next-gen-ls-directory-listing
 verification: security_reviewed
-source: https://github.com/lsd-rs/lsd
+source: "https://github.com/lsd-rs/lsd"
 category:
-- Developer Tools
+- "Developer Tools"
 framework:
-- Custom Agents
+- "Custom Agents"
 tool_ecosystem:
   github_repo: lsd-rs/lsd
   github_stars: 15622

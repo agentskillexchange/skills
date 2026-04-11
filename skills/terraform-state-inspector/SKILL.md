@@ -1,13 +1,13 @@
 ---
-title: Terraform State Inspector
-description: Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data.
+title: "Terraform State Inspector"
+description: "Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data."
 slug: terraform-state-inspector
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/terraform-state-inspector/
+source: "https://agentskillexchange.com/skills/terraform-state-inspector/"
 category:
-- Runbooks &amp;amp; Diagnostics
+- "Runbooks & Diagnostics"
 framework:
-- Gemini
+- "Gemini"
 ---
 # Terraform State Inspector
 

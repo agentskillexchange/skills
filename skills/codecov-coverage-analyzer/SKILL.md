@@ -1,13 +1,13 @@
 ---
-title: Codecov Coverage Analyzer
-description: Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines.
+title: "Codecov Coverage Analyzer"
+description: "Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines."
 slug: codecov-coverage-analyzer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/codecov-coverage-analyzer/
+source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
 category:
-- Code Quality &amp;amp; Review
+- "Code Quality & Review"
 framework:
-- Codex
+- "Codex"
 ---
 # Codecov Coverage Analyzer
 

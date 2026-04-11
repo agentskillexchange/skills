@@ -1,13 +1,13 @@
 ---
-title: Browser Session Replay Analyzer
-description: Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
+title: "Browser Session Replay Analyzer"
+description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
 slug: browser-session-replay-analyzer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/browser-session-replay-analyzer/
+source: "https://agentskillexchange.com/skills/browser-session-replay-analyzer/"
 category:
-- Browser Automation
+- "Browser Automation"
 framework:
-- Custom Agents
+- "Custom Agents"
 ---
 # Browser Session Replay Analyzer
 

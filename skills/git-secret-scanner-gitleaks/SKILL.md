@@ -1,13 +1,13 @@
 ---
-title: Git Secret Scanner with Gitleaks
-description: Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history.
+title: "Git Secret Scanner with Gitleaks"
+description: "Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history."
 slug: git-secret-scanner-gitleaks
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/
+source: "https://agentskillexchange.com/skills/git-secret-scanner-gitleaks/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # Git Secret Scanner with Gitleaks
 

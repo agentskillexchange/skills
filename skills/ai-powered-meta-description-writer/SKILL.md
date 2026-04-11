@@ -1,13 +1,13 @@
 ---
-title: AI-Powered Meta Description Writer
-description: Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization.
+title: "AI-Powered Meta Description Writer"
+description: "Generates optimized meta descriptions using OpenAI Chat Completions API with token-aware truncation. Integrates with Yoast SEO REST API fields and Google SERP Preview validation for CTR optimization."
 slug: ai-powered-meta-description-writer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/ai-powered-meta-description-writer/
+source: "https://agentskillexchange.com/skills/ai-powered-meta-description-writer/"
 category:
-- Content Writing &amp;amp; SEO
+- "Content Writing & SEO"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # AI-Powered Meta Description Writer
 

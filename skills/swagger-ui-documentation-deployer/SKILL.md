@@ -1,13 +1,13 @@
 ---
-title: Swagger UI Documentation Deployer
-description: Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
+title: "Swagger UI Documentation Deployer"
+description: "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering."
 slug: swagger-ui-documentation-deployer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/
+source: "https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/"
 category:
-- Library &amp;amp; API Reference
+- "Library & API Reference"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Swagger UI Documentation Deployer
 

@@ -1,13 +1,13 @@
 ---
-title: Cheerio Product Price Tracker
-description: Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds.
+title: "Cheerio Product Price Tracker"
+description: "Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds."
 slug: cheerio-product-price-tracker
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/cheerio-product-price-tracker/
+source: "https://agentskillexchange.com/skills/cheerio-product-price-tracker/"
 category:
-- Research &amp;amp; Scraping
+- "Research & Scraping"
 framework:
-- Claude Agents
+- "Claude Agents"
 ---
 # Cheerio Product Price Tracker
 

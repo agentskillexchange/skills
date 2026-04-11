@@ -1,13 +1,13 @@
 ---
-title: Cloudflare Analytics Health Monitor
-description: Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates, cache hit ratios, and WAF event spikes. Sends alerts through PagerDuty Events API v2 when thresholds are breached.
+title: "Cloudflare Analytics Health Monitor"
+description: "Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics endpoint, tracking request rates, cache hit ratios, and WAF event spikes. Sends alerts through PagerDuty Events API v2 when thresholds are breached."
 slug: cloudflare-analytics-health-monitor
 verification: security_reviewed
-source: https://developers.cloudflare.com/analytics/
+source: "https://developers.cloudflare.com/analytics/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- OpenClaw
+- "OpenClaw"
 ---
 # Cloudflare Analytics Health Monitor
 

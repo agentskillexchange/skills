@@ -1,13 +1,13 @@
 ---
-title: Renovate Automated Dependency Update Bot and CLI
-description: Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents that need to plan, configure, or operate dependency update workflows in GitHub, GitLab, Bitbucket, or other supported source control platforms.
+title: "Renovate Automated Dependency Update Bot and CLI"
+description: "Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents that need to plan, configure, or operate dependency update workflows in GitHub, GitLab, Bitbucket, or other supported source control platforms."
 slug: renovate-automated-dependency-update-bot-and-cli
 verification: security_reviewed
-source: https://github.com/renovatebot/renovate
+source: "https://github.com/renovatebot/renovate"
 category:
-- CI/CD Integrations
+- "CI/CD Integrations"
 framework:
-- Multi-Framework
+- "Multi-Framework"
 tool_ecosystem:
   github_repo: renovatebot/renovate
   github_stars: 21262

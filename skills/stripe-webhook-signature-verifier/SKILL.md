@@ -1,13 +1,13 @@
 ---
-title: Stripe Webhook Signature Verifier
-description: Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API.
+title: "Stripe Webhook Signature Verifier"
+description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API."
 slug: stripe-webhook-signature-verifier
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/
+source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- ChatGPT Agents
+- "ChatGPT Agents"
 ---
 # Stripe Webhook Signature Verifier
 

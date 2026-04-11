@@ -1,13 +1,13 @@
 ---
-title: SerpAPI Search Intelligence Aggregator
-description: Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking.
+title: "SerpAPI Search Intelligence Aggregator"
+description: "Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking."
 slug: serpapi-search-intelligence-aggregator
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/
+source: "https://agentskillexchange.com/skills/serpapi-search-intelligence-aggregator/"
 category:
-- Research &amp;amp; Scraping
+- "Research & Scraping"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # SerpAPI Search Intelligence Aggregator
 

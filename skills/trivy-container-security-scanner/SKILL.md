@@ -1,13 +1,13 @@
 ---
-title: Trivy Container Security Scanner
-description: Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration.
+title: "Trivy Container Security Scanner"
+description: "Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output format for CI/CD pipeline integration."
 slug: trivy-container-security-scanner
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/trivy-container-security-scanner/
+source: "https://agentskillexchange.com/skills/trivy-container-security-scanner/"
 category:
-- Security &amp;amp; Verification
+- "Security & Verification"
 framework:
-- Codex
+- "Codex"
 ---
 # Trivy Container Security Scanner
 

@@ -1,13 +1,13 @@
 ---
-title: Prometheus AlertManager Rule Optimizer
-description: Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments.
+title: "Prometheus AlertManager Rule Optimizer"
+description: "Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments."
 slug: prometheus-alertmanager-rule-optimizer
 verification: security_reviewed
-source: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/
+source: "https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/"
 category:
-- Monitoring &amp;amp; Alerts
+- "Monitoring & Alerts"
 framework:
-- Claude Code
+- "Claude Code"
 ---
 # Prometheus AlertManager Rule Optimizer
 
