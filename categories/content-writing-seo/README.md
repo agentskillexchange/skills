@@ -23,12 +23,12 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 | Skill | Downloads |
 |---|---:|
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 40k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 46.1k/wk |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 104.1k/wk |
-| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.4M/wk |
+| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
 
 ---
@@ -38,7 +38,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 40k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 46.1k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
@@ -56,7 +56,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | 1.4k | — |
-| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.4M/wk |
+| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 522.5k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |

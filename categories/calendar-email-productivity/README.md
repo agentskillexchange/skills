@@ -11,7 +11,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.4k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
-| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⭐ 24.1k |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⭐ 24.3k |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | ⭐ 19.7k |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 19.4k |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | ⭐ 18.3k |
@@ -36,7 +36,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.4k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
-| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.1k | — |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |

@@ -13,8 +13,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
-| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | ⭐ 57.5k |
-| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | ⭐ 57.5k |
+| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | ⭐ 57.6k |
+| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | ⭐ 57.6k |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⭐ 56.9k |
 
 ---
@@ -23,7 +23,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Downloads |
 |---|---:|
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 11/wk |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 9/wk |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 190.7k/wk |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 3/wk |
 
@@ -40,10 +40,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
-| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | 57.5k | — |
-| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.5k | — |
+| [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | 57.6k | — |
+| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.6k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 11/wk |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 9/wk |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 45k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
@@ -87,6 +87,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
+| [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |

@@ -74,6 +74,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
+| [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |

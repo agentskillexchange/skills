@@ -8,14 +8,14 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | ⭐ 102.6k |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | ⭐ 76.2k |
-| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | ⭐ 63.7k |
+| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | ⭐ 63.8k |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | ⭐ 63.1k |
 | [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | ⭐ 61.3k |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⭐ 34.1k |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⭐ 30.9k |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | ⭐ 24.5k |
-| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⭐ 22.7k |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | ⭐ 22.7k |
+| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⭐ 22.7k |
 
 ---
 
@@ -24,11 +24,11 @@ Web research, data collection, content aggregation, and information gathering.
 | Skill | Downloads |
 |---|---:|
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 72.5k/wk |
-| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | ⬇ 29.1k/wk |
-| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | ⬇ 469.1k/wk |
-| [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | ⬇ 1.2k/wk |
+| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | ⬇ 28.7k/wk |
+| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | ⬇ 491.1k/wk |
+| [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | ⬇ 1k/wk |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | ⬇ 47.9k/wk |
-| [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | ⬇ 952/wk |
+| [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | ⬇ 909/wk |
 
 ---
 
@@ -38,14 +38,14 @@ Web research, data collection, content aggregation, and information gathering.
 |---|---:|---:|
 | [Firecrawl Markdown Capture Pipeline](../../skills/firecrawl-markdown-capture-pipeline/) | 102.6k | — |
 | [Sherlock Social Media Username Hunter Across 400+ Networks](../../skills/sherlock-social-media-username-hunter/) | 76.2k | — |
-| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | 63.7k | — |
+| [Crawl4AI Open-Source Web Crawling and Markdown Extraction](../../skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/) | 63.8k | — |
 | [Crawl4AI LLM-Ready Web Crawler and Scraper](../../skills/crawl4ai-llm-web-crawler-scraper/) | 63.1k | — |
 | [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | 61.3k | — |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
-| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.7k | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
+| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
@@ -55,14 +55,14 @@ Web research, data collection, content aggregation, and information gathering.
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
-| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 29.1k/wk |
+| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 28.7k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
-| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 469.1k/wk |
-| [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 1.2k/wk |
+| [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 491.1k/wk |
+| [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 1k/wk |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
-| [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 952/wk |
+| [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 909/wk |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |

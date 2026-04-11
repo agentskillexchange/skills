@@ -11,7 +11,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.3k |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | ⭐ 45.2k |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | ⭐ 44.3k |
-| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⭐ 42.5k |
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⭐ 42.6k |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | ⭐ 33.8k |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⭐ 31.8k |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 22.4k |
@@ -23,8 +23,8 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 27.1M/wk |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 800.3k/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.9M/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 847.2k/wk |
 
 ---
 
@@ -37,12 +37,12 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | 45.3k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.2k | — |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
-| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.5k | — |
+| [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.6k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 27.1M/wk |
+| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.9M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 800.3k/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 847.2k/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |

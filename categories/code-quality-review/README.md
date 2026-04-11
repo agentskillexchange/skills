@@ -25,10 +25,10 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4M/wk |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 504.9k/wk |
-| [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⬇ 12.7M/wk |
+| [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⬇ 13.9M/wk |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⬇ 5.1M/wk |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 152.8k/wk |
-| [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | ⬇ 551.1k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 160.2k/wk |
+| [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | ⬇ 581.9k/wk |
 
 ---
 
@@ -44,7 +44,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 19.9k | — |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 504.9k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
-| [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 12.7M/wk |
+| [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 13.9M/wk |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
@@ -56,13 +56,13 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 152.8k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 160.2k/wk |
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
-| [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 551.1k/wk |
+| [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 581.9k/wk |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | — | — |
 | [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | — | — |

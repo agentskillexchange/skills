@@ -24,8 +24,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Downloads |
 |---|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 486/wk |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 5.8k/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 558/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 5.9k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 14.8k/wk |
 | [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 8.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | ⬇ 2M/wk |
@@ -41,12 +41,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 486/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 558/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
 | [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | 55.7k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 5.8k/wk |
+| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 5.9k/wk |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | — |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |

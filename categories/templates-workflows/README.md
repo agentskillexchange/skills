@@ -7,8 +7,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
-| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 114.7k |
-| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 114.7k |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 114.8k |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 114.8k |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 68.3k |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | ⭐ 33.1k |
@@ -33,8 +33,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
-| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 114.7k | — |
-| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 114.7k | — |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 114.8k | — |
+| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 114.8k | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.3k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |

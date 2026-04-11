@@ -7,15 +7,15 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | Skill | Stars |
 |---|---:|
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.9k |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 159k |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 159.2k |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.4k |
-| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | ⭐ 121.6k |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 111.8k |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 112.1k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.9k |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⭐ 100.1k |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94.1k |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.9k |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | ⭐ 82.4k |
+| [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | ⭐ 79.2k |
 
 ---
 
@@ -23,9 +23,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 21.3k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 19.3k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 1.9M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 157k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 170.8k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.5M/wk |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 150M/wk |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 5k/wk |
@@ -41,10 +41,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.9k | — |
-| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159k | — |
+| [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159.2k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.4k | — |
-| [Kubernetes MCP Server](../../skills/kubernetes-mcp-server/) | 121.6k | — |
-| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 111.8k | — |
+| [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 112.1k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | — |
@@ -58,7 +57,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 21.3k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 19.3k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
@@ -71,13 +70,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | 55.7k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](../../skills/dive-docker-image-layer-explorer/) | 53.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
-| [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.8k | — |
+| [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.5k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 157k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 170.8k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.5M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
@@ -195,7 +194,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | 6.1k | — |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | — |
-| [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1M/wk |
+| [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
