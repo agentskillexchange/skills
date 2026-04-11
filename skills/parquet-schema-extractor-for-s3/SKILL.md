@@ -1,27 +1,27 @@
 ---
 title: "Parquet Schema Extractor for S3"
 description: "Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details."
-slug: parquet-schema-extractor-for-s3
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/parquet-schema-extractor-for-s3/"
 category:
-- "Data Extraction & Transformation"
+  - "Data Extraction & Transformation"
 framework:
-- "Gemini"
+  - "Gemini"
 ---
+
 # Parquet Schema Extractor for S3
 
 Extracts and validates Parquet file schemas from Amazon S3 using the PyArrow library and AWS S3 SDK (boto3). Compares schemas across multiple partitions to detect schema drift and incompatible type changes. Outputs a schema diff report with partition paths and affected column details.
 
 ## Installation
 
-You can install this skill in any of these ways:
+Choose the method that fits your setup:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
