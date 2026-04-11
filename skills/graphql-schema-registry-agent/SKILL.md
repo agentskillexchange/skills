@@ -1,11 +1,12 @@
 ---
 title: "GraphQL Schema Registry Agent"
-slug: "graphql-schema-registry-agent"
 description: "Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services."
-category: "Library &amp; API Reference"
-framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Codex"
 ---
 
 # GraphQL Schema Registry Agent
@@ -14,13 +15,13 @@ Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Regist
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

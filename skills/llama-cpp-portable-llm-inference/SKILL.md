@@ -1,15 +1,15 @@
 ---
 title: "llama.cpp Portable LLM Inference Engine in C/C++"
-slug: "llama-cpp-portable-llm-inference"
 description: "llama.cpp is a high-performance C/C++ implementation for running LLM inference across diverse hardware. It supports GGUF model quantization, GPU acceleration on NVIDIA/AMD/Apple Silicon, and provides both a CLI and an OpenAI-compatible HTTP server for local model serving."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ggml-org/llama.cpp"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ggml-org/llama.cpp"
   github_stars: 100939
-  license: "MIT"
 ---
 
 # llama.cpp Portable LLM Inference Engine in C/C++
@@ -18,13 +18,13 @@ llama.cpp is a high-performance C/C++ implementation for running LLM inference a
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

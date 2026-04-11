@@ -1,11 +1,12 @@
 ---
 title: "Hemingway Readability Analyzer API"
-slug: "hemingway-readability-analyzer-api"
 description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density."
-category: "Content Writing &amp; SEO"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/hemingway-readability-analyzer-api/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Cursor"
 ---
 
 # Hemingway Readability Analyzer API
@@ -14,13 +15,13 @@ Scores content readability using textstat library metrics (Flesch-Kincaid, Gunni
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

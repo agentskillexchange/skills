@@ -1,17 +1,17 @@
 ---
 title: "Sveltia CMS Git-Based Headless Content Management System"
-slug: "sveltia-cms-git-based-headless-cms"
 description: "Sveltia CMS is a free, open-source, Git-based headless CMS that runs entirely in the browser. Built as the definitive successor to Netlify CMS and Decap CMS, it offers a modern editing UX, first-class internationalization, and framework-agnostic design."
-category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/sveltia/sveltia-cms"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sveltia/sveltia-cms"
   github_stars: 2245
   npm_package: "@sveltia/cms"
   npm_weekly_downloads: 2881
-  license: "MIT"
 ---
 
 # Sveltia CMS Git-Based Headless Content Management System
@@ -20,13 +20,13 @@ Sveltia CMS is a free, open-source, Git-based headless CMS that runs entirely in
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

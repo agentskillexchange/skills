@@ -1,11 +1,12 @@
 ---
 title: "Medusa Commerce API and Store Operations Automation Skill"
-slug: "medusa-commerce-api-store-operations-automation-skill"
 description: "Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment logic through a modern commerce backend that teams can self-host and extend."
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/medusajs/medusa"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "medusajs/medusa"
   github_stars: 32622
@@ -17,13 +18,13 @@ Medusa is an open-source commerce platform with modular backend services, an adm
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

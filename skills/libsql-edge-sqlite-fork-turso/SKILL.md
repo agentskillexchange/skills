@@ -1,15 +1,15 @@
 ---
 title: "libSQL Edge-Ready SQLite Fork by Turso"
-slug: "libsql-edge-sqlite-fork-turso"
 description: "libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and WebAssembly UDFs. This skill enables agents to work with libSQL for edge computing, serverless, and embedded database workloads."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/tursodatabase/libsql"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "tursodatabase/libsql"
   github_stars: 16551
-  license: "MIT"
 ---
 
 # libSQL Edge-Ready SQLite Fork by Turso
@@ -18,13 +18,13 @@ libSQL is an open-source, open-contribution fork of SQLite by Turso that adds em
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

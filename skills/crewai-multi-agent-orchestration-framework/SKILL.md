@@ -1,13 +1,16 @@
 ---
 title: "CrewAI Multi-Agent Orchestration Framework"
-slug: "crewai-multi-agent-orchestration-framework"
 description: "CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing autonomous AI agents. It enables developers to define agents with specific roles, goals, and backstories, then assemble them into crews that collaborate on complex tasks through sequential or parallel workflows."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/crewAIInc/crewAI"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  license: "MIT"---
+  github_repo: "crewaiinc/crewai"
+  github_stars: 47658
+---
 
 # CrewAI Multi-Agent Orchestration Framework
 
@@ -15,13 +18,13 @@ CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,11 +1,12 @@
 ---
 title: "dotenvx Secure Environment Variable Manager and Encryptor"
-slug: "dotenvx-secure-env-variable-manager"
 description: "dotenvx is a secure, cross-platform environment variable manager from the creator of dotenv. It provides encrypted .env files, multi-environment support, and works with any programming language or framework through its CLI runner."
-category: "Security &amp; Verification"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/dotenvx/dotenvx"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dotenvx/dotenvx"
   github_stars: 5309
@@ -17,13 +18,13 @@ dotenvx is a secure, cross-platform environment variable manager from the creato
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

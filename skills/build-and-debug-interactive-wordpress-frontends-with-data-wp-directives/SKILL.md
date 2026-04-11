@@ -1,11 +1,12 @@
 ---
 title: "Build and debug interactive WordPress frontends with data-wp directives"
-slug: "build-and-debug-interactive-wordpress-frontends-with-data-wp-directives"
 description: "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when a block, theme, or plugin needs directive-driven interactivity rather than ad hoc frontend glue."
-category: "WordPress &amp; CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 ---
 
 # Build and debug interactive WordPress frontends with data-wp directives
@@ -14,13 +15,13 @@ This skill helps an agent create or troubleshoot WordPress Interactivity API beh
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

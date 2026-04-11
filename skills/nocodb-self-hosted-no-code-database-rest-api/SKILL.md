@@ -1,11 +1,12 @@
 ---
 title: "NocoDB Self-Hosted No-Code Database Platform with REST API"
-slug: "nocodb-self-hosted-no-code-database-rest-api"
 description: "NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable alternative that connects to PostgreSQL, MySQL, SQLite, and other databases, enabling no-code data management with automation, collaboration, and API-first access."
-category: "Integrations &amp; Connectors"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nocodb/nocodb"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nocodb/nocodb"
   github_stars: 62560
@@ -19,13 +20,13 @@ NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

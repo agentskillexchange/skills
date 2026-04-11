@@ -1,11 +1,12 @@
 ---
 title: "Dasel Multi-Format Data Selector and Modifier"
-slug: "dasel-multi-format-data-selector-modifier"
 description: "Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL, and INI formats using a unified selector syntax. It supports format conversion between all supported types."
-category: "Data Extraction &amp; Transformation"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/TomWright/dasel"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "TomWright/dasel"
   github_stars: 7892
@@ -17,13 +18,13 @@ Dasel (Data-Select) is a command-line tool and Go library for querying, modifyin
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

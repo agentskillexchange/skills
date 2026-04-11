@@ -1,11 +1,12 @@
 ---
 title: "Systemd Service Diagnostics"
-slug: "systemd-service-diagnostics"
 description: "Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes unit file configurations with systemd-analyze verify and detects dependency ordering issues via systemd-analyze dot."
-category: "Runbooks &amp; Diagnostics"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/systemd-service-diagnostics/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Systemd Service Diagnostics
@@ -14,13 +15,13 @@ Diagnoses systemd service failures using journalctl structured JSON output and s
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

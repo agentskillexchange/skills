@@ -1,11 +1,12 @@
 ---
 title: "Gitleaks Git Repository Secret Scanner"
-slug: "gitleaks-git-secret-scanner"
 description: "Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner."
-category: "Security &amp; Verification"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/gitleaks/gitleaks"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731
@@ -17,13 +18,13 @@ Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwo
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

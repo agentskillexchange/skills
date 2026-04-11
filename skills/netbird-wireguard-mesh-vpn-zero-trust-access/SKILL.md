@@ -1,11 +1,12 @@
 ---
 title: "NetBird WireGuard Mesh VPN with Zero Trust Access Controls"
-slug: "netbird-wireguard-mesh-vpn-zero-trust-access"
 description: "NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a web UI and REST API, and supports self-hosted deployment for secure private networking."
-category: "Security &amp; Verification"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/netbirdio/netbird"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "netbirdio/netbird"
   github_stars: 24034
@@ -17,13 +18,13 @@ NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and gr
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

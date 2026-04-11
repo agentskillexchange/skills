@@ -1,11 +1,12 @@
 ---
 title: "PagerDuty MCP Server"
-slug: "pagerduty-mcp-server"
 description: "PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented by PagerDuty/pdjs (69+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like incidents, escalation policies, schedules, services, responders, analytics and preserving the operational […]"
-category: "Monitoring &amp; Alerts"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "PagerDuty/pdjs"
   github_stars: 69
@@ -19,13 +20,13 @@ PagerDuty MCP Server is built around PagerDuty incident response platform. The u
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

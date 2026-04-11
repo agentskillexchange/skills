@@ -1,11 +1,12 @@
 ---
 title: "Trigger.dev TypeScript Background Jobs Platform"
-slug: "trigger-dev-typescript-background-jobs-platform"
 description: "Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and durable workflows in TypeScript. It provides managed infrastructure with retries, queues, real-time observability, and human-in-the-loop support."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/triggerdotdev/trigger.dev"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "triggerdotdev/trigger.dev"
   github_stars: 14318
@@ -19,13 +20,13 @@ Trigger.dev is an open-source platform for building and deploying long-running b
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

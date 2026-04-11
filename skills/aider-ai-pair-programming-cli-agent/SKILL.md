@@ -1,11 +1,12 @@
 ---
 title: "Aider AI Pair Programming CLI Agent"
-slug: "aider-ai-pair-programming-cli-agent"
 description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages."
-category: "Developer Tools"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Aider-AI/aider"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Aider-AI/aider"
   github_stars: 42670
@@ -17,13 +18,13 @@ Aider is an open-source AI pair programming tool that runs in your terminal, let
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

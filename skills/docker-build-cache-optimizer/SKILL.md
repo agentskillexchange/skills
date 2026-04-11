@@ -1,11 +1,12 @@
 ---
 title: "Docker Build Cache Optimizer"
-slug: "docker-build-cache-optimizer"
 description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
-category: "Code Quality &amp; Review"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-build-cache-optimizer/"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Claude Code"
 ---
 
 # Docker Build Cache Optimizer
@@ -14,13 +15,13 @@ Optimizes Docker build performance using BuildKit cache mount analysis, docker h
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

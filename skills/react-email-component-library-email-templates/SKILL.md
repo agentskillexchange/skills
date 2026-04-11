@@ -1,11 +1,12 @@
 ---
 title: "React Email Component Library for Building Email Templates"
-slug: "react-email-component-library-email-templates"
 description: "React Email is an open source component library for building responsive, cross-client email templates using React and TypeScript. It handles Gmail, Outlook, and Apple Mail inconsistencies, supports dark mode, and renders to standard HTML for use with any email provider."
-category: "Templates &amp; Workflows"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/resend/react-email"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Multi-Framework"
 ---
 
 # React Email Component Library for Building Email Templates
@@ -14,13 +15,13 @@ React Email is an open source component library for building responsive, cross-c
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

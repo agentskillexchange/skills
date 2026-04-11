@@ -1,15 +1,15 @@
 ---
 title: "Rallly Open-Source Group Scheduling and Meeting Poll Platform"
-slug: "rallly-group-scheduling-meeting-poll"
 description: "Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface."
-category: "Calendar, Email &amp; Productivity"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/lukevella/rallly"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lukevella/rallly"
   github_stars: 5027
-  license: "AGPL-3.0"
 ---
 
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform
@@ -18,13 +18,13 @@ Rallly is an open-source scheduling and collaboration tool that makes organizing
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

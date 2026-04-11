@@ -1,11 +1,12 @@
 ---
 title: "Nitro Next-Generation Universal Server Toolkit by UnJS"
-slug: "nitro-universal-server-toolkit-unjs"
 description: "Nitro is a universal server framework from the UnJS ecosystem that lets you build and deploy web servers to any JavaScript runtime — Node.js, Deno, Bun, Cloudflare Workers, Vercel, or Netlify — from a single codebase with automatic code-splitting and tree-shaking."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/nitrojs/nitro"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nitrojs/nitro"
   github_stars: 10640
@@ -17,13 +18,13 @@ Nitro is a universal server framework from the UnJS ecosystem that lets you buil
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

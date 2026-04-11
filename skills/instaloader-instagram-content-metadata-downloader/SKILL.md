@@ -1,11 +1,12 @@
 ---
 title: "Instaloader Instagram Content and Metadata Downloader"
-slug: "instaloader-instagram-content-metadata-downloader"
 description: "Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection."
-category: "Research &amp; Scraping"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/instaloader/instaloader"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "instaloader/instaloader"
   github_stars: 12047
@@ -17,13 +18,13 @@ Instaloader is a Python CLI tool and library that downloads Instagram photos, vi
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

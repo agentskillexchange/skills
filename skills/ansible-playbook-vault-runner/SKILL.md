@@ -1,11 +1,12 @@
 ---
 title: "Ansible Playbook Runner with Vault Secrets"
-slug: "ansible-playbook-vault-runner"
 description: "Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs."
-category: "Runbooks &amp; Diagnostics"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ansible-playbook-vault-runner/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Ansible Playbook Runner with Vault Secrets
@@ -14,13 +15,13 @@ Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, de
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

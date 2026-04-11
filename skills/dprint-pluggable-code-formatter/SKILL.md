@@ -1,11 +1,17 @@
 ---
 title: "dprint Pluggable High-Performance Code Formatting Platform"
-slug: "dprint-pluggable-code-formatter"
 description: "dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture for maximum speed."
-category: "Code Quality &amp; Review"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/dprint/dprint"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "dprint/dprint"
+  github_stars: 3857
+  npm_package: "dprint"
+  npm_weekly_downloads: 160249
 ---
 
 # dprint Pluggable High-Performance Code Formatting Platform
@@ -14,13 +20,13 @@ dprint is a pluggable and configurable code formatting platform written in Rust.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose whichever fits your setup:
 
-1. Clone or download this skill into your skills directory.
-2. Install it through your agent platform's skill manager if supported.
-3. Add it as a Git submodule or vendored folder in your repo.
-4. Copy the files into a local custom skills/workspace directory.
-5. Pull it from the Agent Skill Exchange catalog or this GitHub repo.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
