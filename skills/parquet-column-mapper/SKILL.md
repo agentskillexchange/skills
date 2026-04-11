@@ -1,12 +1,12 @@
 ---
 title: "Parquet Column Mapper"
 description: "Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg, and Hudi table formats."
-verification: listed
+verification: "listed"
 source: "https://agentskillexchange.com/skills/parquet-column-mapper/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 ---
 
 # Parquet Column Mapper
@@ -15,13 +15,13 @@ Reads and transforms Apache Parquet file metadata and column statistics using Py
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

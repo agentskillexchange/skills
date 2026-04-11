@@ -1,7 +1,7 @@
 ---
 title: "Gatus Endpoint Monitoring and Status Page Platform"
 description: "Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/TwiN/gatus"
 category:
   - "Monitoring & Alerts"
@@ -15,13 +15,13 @@ Gatus is an open source uptime and endpoint monitoring platform built for develo
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

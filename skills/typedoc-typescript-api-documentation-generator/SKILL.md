@@ -1,12 +1,12 @@
 ---
 title: "TypeDoc TypeScript API Documentation Generator"
 description: "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitHub stars and widespread npm adoption, it powers API reference generation for thousands of TypeScript libraries."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/TypeStrong/typedoc"
 category:
   - "Library & API Reference"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "TypeStrong/typedoc"
   github_stars: 8385
@@ -20,13 +20,13 @@ TypeDoc is the standard documentation generator for TypeScript projects. It read
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

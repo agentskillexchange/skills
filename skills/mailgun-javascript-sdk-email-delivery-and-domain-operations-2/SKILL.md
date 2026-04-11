@@ -1,7 +1,7 @@
 ---
 title: "Mailgun JavaScript SDK for Email Delivery and Domain Operations"
 description: "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks that need transactional messaging, domain-aware email operations, event handling, and direct integration with the Mailgun platform."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/mailgun/mailgun.js"
 category:
   - "Calendar, Email & Productivity"
@@ -15,13 +15,13 @@ An ASE skill built around the official Mailgun JavaScript SDK for sending email 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

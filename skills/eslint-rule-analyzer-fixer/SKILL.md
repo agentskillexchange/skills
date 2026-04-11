@@ -1,12 +1,12 @@
 ---
 title: "ESLint Rule Analyzer and Fixer"
 description: "Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/"
 category:
   - "Code Quality & Review"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # ESLint Rule Analyzer and Fixer
@@ -15,13 +15,13 @@ Performs deep ESLint configuration analysis using the ESLint Node.js API and fla
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

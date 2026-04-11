@@ -1,7 +1,7 @@
 ---
 title: "ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer"
 description: "ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. With 16k+ GitHub stars, it provides detailed productivity analytics without sending data to external servers."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/ActivityWatch/activitywatch"
 category:
   - "Calendar, Email & Productivity"
@@ -15,13 +15,13 @@ ActivityWatch is a privacy-first, open-source automated time tracker that record
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

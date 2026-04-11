@@ -1,7 +1,7 @@
 ---
 title: "Tesseract OCR Engine for Image-to-Text Workflows"
 description: "Tesseract OCR is a widely used open source optical character recognition engine with command line and library interfaces. It can extract text from images and scanned documents, supports more than 100 languages, and outputs plain text, hOCR, TSV, and PDF variants."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/tesseract-ocr/tesseract"
 category:
   - "Media & Transcription"
@@ -18,13 +18,13 @@ Tesseract OCR is a widely used open source optical character recognition engine 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

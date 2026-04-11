@@ -1,7 +1,7 @@
 ---
 title: "TestCafe Zero-Config End-to-End Browser Testing Framework"
 description: "TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver installation. It supports all major browsers, automatic waiting, live mode for rapid development, and both JavaScript and TypeScript test authoring."
-verification: listed
+verification: "listed"
 source: "https://github.com/DevExpress/testcafe"
 category:
   - "Browser Automation"
@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 9915
   npm_package: "testcafe"
   npm_weekly_downloads: 203242
-  license: "MIT"
 ---
 
 # TestCafe Zero-Config End-to-End Browser Testing Framework
@@ -21,13 +20,13 @@ TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress t
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

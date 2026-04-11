@@ -1,12 +1,12 @@
 ---
 title: "Gemini Image Style Transfer Agent"
 description: "Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting styles. Accepts base64-encoded input images and returns styled outputs with configurable style prompts."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Gemini Image Style Transfer Agent
@@ -15,13 +15,13 @@ Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic trans
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

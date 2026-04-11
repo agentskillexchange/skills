@@ -1,12 +1,12 @@
 ---
 title: "Pandas DataFrame Pipeline Builder"
 description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Pandas DataFrame Pipeline Builder
@@ -15,13 +15,13 @@ Constructs data transformation pipelines using Pandas and the pipe() method chai
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

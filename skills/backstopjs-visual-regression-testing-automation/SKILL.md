@@ -1,7 +1,7 @@
 ---
 title: "BackstopJS Visual Regression Testing Automation"
 description: "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on the real BackstopJS project and turns browser-based layout comparison into a structured QA workflow for web teams."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
 category:
   - "Browser Automation"
@@ -20,13 +20,13 @@ BackstopJS gives agents a repeatable way to capture reference screenshots, compa
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
 title: "Selenium Grid Parallel Test Runner"
 description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/selenium-grid-parallel-test-runner/"
 category:
   - "Browser Automation"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
 ---
 
 # Selenium Grid Parallel Test Runner
@@ -15,13 +15,13 @@ Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

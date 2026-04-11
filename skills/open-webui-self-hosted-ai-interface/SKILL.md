@@ -1,7 +1,7 @@
 ---
 title: "Open WebUI Self-Hosted AI Interface for LLMs"
 description: "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs with built-in RAG inference, providing a powerful web-based interface for interacting with large language models."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/open-webui/open-webui"
 category:
   - "Developer Tools"
@@ -18,13 +18,13 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

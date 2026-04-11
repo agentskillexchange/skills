@@ -1,7 +1,7 @@
 ---
 title: "Regression-test prompts, agents, and RAG outputs before shipping changes"
 description: "Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here is the repeatable evaluation workflow, not a generic AI tooling catalog entry."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/promptfoo/promptfoo"
 category:
   - "Code Quality & Review"
@@ -18,13 +18,13 @@ Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior aga
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
 title: "Kubernetes Pod Crash Analyzer"
 description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Kubernetes Pod Crash Analyzer
@@ -15,13 +15,13 @@ Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the K
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

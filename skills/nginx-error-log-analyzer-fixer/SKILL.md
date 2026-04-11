@@ -1,12 +1,12 @@
 ---
 title: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Agents"
+  - "Multi-Framework"
 ---
 
 # Nginx Error Log Analyzer and Fixer
@@ -15,13 +15,13 @@ Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Us
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

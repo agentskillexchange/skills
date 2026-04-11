@@ -1,12 +1,12 @@
 ---
 title: "Grafana Loki Log Correlation Agent"
 description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-correlation-agent-2/"
 category:
   - "Monitoring & Alerts"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Grafana Loki Log Correlation Agent
@@ -15,13 +15,13 @@ Queries Grafana Loki via the LogQL API to correlate log streams across services.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

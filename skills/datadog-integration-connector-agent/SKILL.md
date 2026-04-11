@@ -1,12 +1,12 @@
 ---
 title: "Datadog Integration Connector"
 description: "Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/datadog-integration-connector-agent/"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Gemini"
+  - "Multi-Framework"
 ---
 
 # Datadog Integration Connector
@@ -15,13 +15,13 @@ Connects applications to Datadog monitoring using the Datadog API v2 for metrics
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

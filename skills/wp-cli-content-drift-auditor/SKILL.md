@@ -1,12 +1,12 @@
 ---
 title: "WP-CLI Content Drift Auditor"
 description: "Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
 category:
   - "WordPress & CMS"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5048
@@ -18,13 +18,13 @@ Audits WordPress content drift by comparing live posts, revisions, and key optio
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

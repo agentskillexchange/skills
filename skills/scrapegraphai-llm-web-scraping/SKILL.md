@@ -1,12 +1,12 @@
 ---
 title: "ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines"
 description: "ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent scraping pipelines. Describe what data you want to extract in natural language and the library builds and executes the extraction pipeline automatically."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
 category:
   - "Research & Scraping"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines
@@ -15,13 +15,13 @@ ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

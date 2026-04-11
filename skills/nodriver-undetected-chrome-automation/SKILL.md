@@ -1,12 +1,12 @@
 ---
 title: "Nodriver Async Undetected Chrome Browser Automation for Python"
 description: "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built for stealth web automation that bypasses anti-bot systems including Cloudflare and Imperva."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 category:
   - "Browser Automation"
 framework:
-  - "Custom Agents"
+  - "Multi-Framework"
 ---
 
 # Nodriver Async Undetected Chrome Browser Automation for Python
@@ -15,13 +15,13 @@ Nodriver is the official successor to Undetected-Chromedriver, providing async b
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

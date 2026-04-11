@@ -1,12 +1,12 @@
 ---
 title: "Cypress Component Testing Framework"
 description: "Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cypress CT mount API. Configures webpack/vite dev servers and generates snapshot-based visual assertions."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category:
   - "Browser Automation"
 framework:
-  - "MCP"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49609
@@ -20,13 +20,13 @@ Scaffolds Cypress component tests for React, Vue, and Angular apps using the Cyp
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

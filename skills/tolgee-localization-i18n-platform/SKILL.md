@@ -1,7 +1,7 @@
 ---
 title: "Tolgee Open Source Localization and i18n Platform"
 description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/tolgee/tolgee-platform"
 category:
   - "Integrations & Connectors"
@@ -18,13 +18,13 @@ Tolgee is an open-source localization platform that lets developers and translat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

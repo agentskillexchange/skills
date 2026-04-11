@@ -1,12 +1,12 @@
 ---
 title: "Pandas DataFrame Pipeline Orchestrator"
 description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "ChatGPT Agents"
+  - "Multi-Framework"
 ---
 
 # Pandas DataFrame Pipeline Orchestrator
@@ -15,13 +15,13 @@ Chains pandas DataFrame transformations into reproducible pipelines using pipe()
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose whichever fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
