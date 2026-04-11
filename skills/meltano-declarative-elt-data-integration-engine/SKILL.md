@@ -5,7 +5,7 @@ slug: meltano-declarative-elt-data-integration-engine
 verification: security_reviewed
 source: https://github.com/meltano/meltano
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

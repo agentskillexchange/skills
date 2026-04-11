@@ -5,7 +5,7 @@ slug: slack-status-api-pto-sync-assistant
 verification: security_reviewed
 source: https://api.slack.com/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---

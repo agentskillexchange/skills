@@ -5,7 +5,7 @@ slug: airbyte-open-source-data-integration-platform
 verification: security_reviewed
 source: https://github.com/airbytehq/airbyte
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:

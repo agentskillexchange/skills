@@ -5,7 +5,7 @@ slug: owasp-zap-api-security-auditor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-api-security-auditor/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: sanity-structured-content-studio-content-lake
 verification: security_reviewed
 source: https://github.com/sanity-io/sanity
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Custom Agents
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 6041
   ase_npm_package: sanity
   npm_weekly_downloads: 404832
-  license: MIT
 ---
 # Sanity Structured Content Studio and Content Lake
 

@@ -5,13 +5,12 @@ slug: jrnl-command-line-journal-note-capture
 verification: security_reviewed
 source: https://github.com/jrnl-org/jrnl
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: jrnl-org/jrnl
   github_stars: 7195
-  license: GPL-3.0
 ---
 # jrnl Command-Line Journal and Note Capture Tool
 

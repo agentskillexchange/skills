@@ -5,7 +5,7 @@ slug: eslint-custom-rule-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-custom-rule-generator/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---

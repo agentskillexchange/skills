@@ -5,7 +5,7 @@ slug: theharvester-osint-email-subdomain-intelligence
 verification: security_reviewed
 source: https://github.com/laramies/theHarvester
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:

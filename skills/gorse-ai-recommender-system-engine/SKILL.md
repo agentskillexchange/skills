@@ -5,7 +5,7 @@ slug: gorse-ai-recommender-system-engine
 verification: security_reviewed
 source: https://github.com/gorse-io/gorse
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---

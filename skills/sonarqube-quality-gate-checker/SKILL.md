@@ -5,7 +5,7 @@ slug: sonarqube-quality-gate-checker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-quality-gate-checker/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Gemini
 ---

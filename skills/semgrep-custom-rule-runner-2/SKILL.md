@@ -5,7 +5,7 @@ slug: semgrep-custom-rule-runner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---

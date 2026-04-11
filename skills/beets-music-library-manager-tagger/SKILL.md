@@ -5,13 +5,12 @@ slug: beets-music-library-manager-tagger
 verification: security_reviewed
 source: https://github.com/beetbox/beets
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: beetbox/beets
   github_stars: 14901
-  license: MIT
 ---
 # Beets Music Library Manager and Tagger
 

@@ -5,7 +5,7 @@ slug: pubmed-literature-mining-agent
 verification: security_reviewed
 source: https://pubmed.ncbi.nlm.nih.gov/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Gemini
 ---

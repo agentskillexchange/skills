@@ -5,7 +5,7 @@ slug: eslint-rule-enforcer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-rule-enforcer-agent/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - OpenClaw
 ---

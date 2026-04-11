@@ -5,7 +5,7 @@ slug: automate-repository-triage-and-recurring-maintenance-with-github-agent-wor
 verification: listed
 source: https://github.com/github/gh-aw
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

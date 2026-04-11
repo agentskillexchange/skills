@@ -5,7 +5,7 @@ slug: woocommerce-rest-inventory-sync
 verification: security_reviewed
 source: https://github.com/woocommerce/woocommerce
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - OpenClaw
 tool_ecosystem:

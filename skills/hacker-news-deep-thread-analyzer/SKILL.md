@@ -5,7 +5,7 @@ slug: hacker-news-deep-thread-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/hacker-news-deep-thread-analyzer/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---

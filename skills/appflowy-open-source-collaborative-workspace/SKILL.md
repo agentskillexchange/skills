@@ -5,7 +5,7 @@ slug: appflowy-open-source-collaborative-workspace
 verification: security_reviewed
 source: https://github.com/AppFlowy-IO/AppFlowy
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

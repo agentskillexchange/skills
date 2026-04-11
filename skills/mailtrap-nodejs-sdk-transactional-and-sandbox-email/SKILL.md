@@ -5,7 +5,7 @@ slug: mailtrap-nodejs-sdk-transactional-and-sandbox-email
 verification: security_reviewed
 source: https://github.com/mailtrap/mailtrap-nodejs
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

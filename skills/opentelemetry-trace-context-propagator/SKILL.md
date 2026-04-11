@@ -5,7 +5,7 @@ slug: opentelemetry-trace-context-propagator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/opentelemetry-trace-context-propagator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

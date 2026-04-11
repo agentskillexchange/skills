@@ -5,7 +5,7 @@ slug: trufflehog-credential-leak-scanner
 verification: security_reviewed
 source: https://github.com/trufflesecurity/trufflehog
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

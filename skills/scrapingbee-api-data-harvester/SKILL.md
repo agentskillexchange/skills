@@ -5,7 +5,7 @@ slug: scrapingbee-api-data-harvester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---

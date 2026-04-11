@@ -5,7 +5,7 @@ slug: mediainfo-metadata-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/mediainfo-metadata-extractor/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Custom Agents
 ---

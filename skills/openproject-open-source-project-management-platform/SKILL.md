@@ -5,7 +5,7 @@ slug: openproject-open-source-project-management-platform
 verification: security_reviewed
 source: https://github.com/opf/openproject
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

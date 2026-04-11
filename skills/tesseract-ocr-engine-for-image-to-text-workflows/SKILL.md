@@ -5,7 +5,7 @@ slug: tesseract-ocr-engine-for-image-to-text-workflows
 verification: security_reviewed
 source: https://github.com/tesseract-ocr/tesseract
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

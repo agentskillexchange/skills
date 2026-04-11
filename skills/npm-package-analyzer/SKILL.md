@@ -5,7 +5,7 @@ slug: npm-package-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-package-analyzer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: sentry-mcp-server-error-tracking-performance
 verification: security_reviewed
 source: https://github.com/getsentry/sentry-mcp
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:

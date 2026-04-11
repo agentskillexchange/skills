@@ -5,7 +5,7 @@ slug: unstructured-document-etl-toolkit
 verification: security_reviewed
 source: https://github.com/Unstructured-IO/unstructured
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---

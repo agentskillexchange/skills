@@ -5,13 +5,12 @@ slug: karakeep-bookmark-manager-ai-tagging
 verification: security_reviewed
 source: https://github.com/karakeep-app/karakeep
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: karakeep-app/karakeep
   github_stars: 24456
-  license: AGPL-3.0
 ---
 # Karakeep Self-Hosted Bookmark Manager with AI Tagging
 

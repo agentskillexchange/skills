@@ -11,7 +11,6 @@ framework:
 tool_ecosystem:
   github_repo: simonw/llm
   github_stars: 11508
-  license: Apache-2.0
 ---
 # LLM Command-Line Interface for Large Language Models
 

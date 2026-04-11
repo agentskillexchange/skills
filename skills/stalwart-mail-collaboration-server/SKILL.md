@@ -5,7 +5,7 @@ slug: stalwart-mail-collaboration-server
 verification: security_reviewed
 source: https://github.com/stalwartlabs/stalwart
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

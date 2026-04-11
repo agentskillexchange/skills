@@ -5,7 +5,7 @@ slug: sentry-error-intelligence
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sentry-error-intelligence/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---

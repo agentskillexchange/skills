@@ -5,7 +5,7 @@ slug: semgrep-code-scanner
 verification: security_reviewed
 source: https://github.com/semgrep/semgrep
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:

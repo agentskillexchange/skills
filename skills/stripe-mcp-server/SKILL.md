@@ -5,7 +5,7 @@ slug: stripe-mcp-server
 verification: security_reviewed
 source: https://github.com/stripe/stripe-node
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

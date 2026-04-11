@@ -5,7 +5,7 @@ slug: affine-knowledge-base-collaborative-workspace-platform
 verification: security_reviewed
 source: https://github.com/toeverything/AFFiNE
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

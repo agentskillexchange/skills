@@ -5,7 +5,7 @@ slug: python-package-docs-fetcher
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/python-package-docs-fetcher/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - OpenClaw
 ---

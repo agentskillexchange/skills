@@ -5,7 +5,7 @@ slug: stripe-agent-toolkit-ai-payment-integration
 verification: security_reviewed
 source: https://github.com/stripe/ai
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

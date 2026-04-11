@@ -5,7 +5,7 @@ slug: writingtools-system-wide-ai-grammar-assistant
 verification: security_reviewed
 source: https://github.com/theJayTea/WritingTools
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:

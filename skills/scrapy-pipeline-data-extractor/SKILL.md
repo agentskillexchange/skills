@@ -5,7 +5,7 @@ slug: scrapy-pipeline-data-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Gemini
 ---

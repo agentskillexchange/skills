@@ -5,7 +5,7 @@ slug: graphql-schema-documentation-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-documentation-builder/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Gemini
 ---

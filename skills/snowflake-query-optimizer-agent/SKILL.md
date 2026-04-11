@@ -5,7 +5,7 @@ slug: snowflake-query-optimizer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snowflake-query-optimizer-agent/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

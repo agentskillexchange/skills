@@ -5,7 +5,7 @@ slug: grpc-service-tool
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grpc-service-tool/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Custom Agents
 ---

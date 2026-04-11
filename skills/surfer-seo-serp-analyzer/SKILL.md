@@ -5,7 +5,7 @@ slug: surfer-seo-serp-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Cursor
 ---

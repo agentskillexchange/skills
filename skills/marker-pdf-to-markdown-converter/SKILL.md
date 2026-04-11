@@ -5,7 +5,7 @@ slug: marker-pdf-to-markdown-converter
 verification: security_reviewed
 source: https://github.com/datalab-to/marker
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

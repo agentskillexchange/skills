@@ -5,7 +5,7 @@ slug: thumbor-smart-image-processing-service
 verification: security_reviewed
 source: https://github.com/thumbor/thumbor
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:

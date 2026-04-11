@@ -5,7 +5,7 @@ slug: yeoman-workflow-orchestrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/yeoman-workflow-orchestrator/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Gemini
 ---

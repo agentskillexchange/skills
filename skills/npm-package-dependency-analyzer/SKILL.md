@@ -5,7 +5,7 @@ slug: npm-package-dependency-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-package-dependency-analyzer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Gemini
 ---

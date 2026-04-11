@@ -5,7 +5,7 @@ slug: maigret-osint-username-profiler
 verification: security_reviewed
 source: https://github.com/soxoj/maigret
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 tool_ecosystem:

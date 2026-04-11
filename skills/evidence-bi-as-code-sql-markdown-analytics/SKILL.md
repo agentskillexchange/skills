@@ -5,7 +5,7 @@ slug: evidence-bi-as-code-sql-markdown-analytics
 verification: security_reviewed
 source: https://github.com/evidence-dev/evidence
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

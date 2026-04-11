@@ -5,7 +5,7 @@ slug: mdn-web-docs-fetcher
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/mdn-web-docs-fetcher/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

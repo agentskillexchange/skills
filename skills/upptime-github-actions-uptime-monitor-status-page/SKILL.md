@@ -5,7 +5,7 @@ slug: upptime-github-actions-uptime-monitor-status-page
 verification: security_reviewed
 source: https://github.com/upptime/upptime
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

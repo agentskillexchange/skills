@@ -5,7 +5,7 @@ slug: firecrawl-web-data-api-for-ai-agents
 verification: security_reviewed
 source: https://github.com/firecrawl/firecrawl
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 ---

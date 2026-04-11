@@ -5,7 +5,7 @@ slug: sonarqube-gate-enforcer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-gate-enforcer/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---

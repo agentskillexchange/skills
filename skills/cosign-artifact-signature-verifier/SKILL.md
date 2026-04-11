@@ -5,7 +5,7 @@ slug: cosign-artifact-signature-verifier
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cosign-artifact-signature-verifier/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Codex
 ---

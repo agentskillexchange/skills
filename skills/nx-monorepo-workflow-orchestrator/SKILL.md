@@ -5,7 +5,7 @@ slug: nx-monorepo-workflow-orchestrator
 verification: security_reviewed
 source: https://github.com/nrwl/nx
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Cursor
 tool_ecosystem:

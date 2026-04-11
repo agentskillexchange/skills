@@ -5,7 +5,7 @@ slug: appwrite-open-source-backend-platform
 verification: security_reviewed
 source: https://github.com/appwrite/appwrite
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

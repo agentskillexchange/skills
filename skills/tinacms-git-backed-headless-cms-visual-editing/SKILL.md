@@ -5,7 +5,7 @@ slug: tinacms-git-backed-headless-cms-visual-editing
 verification: security_reviewed
 source: https://github.com/tinacms/tinacms
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

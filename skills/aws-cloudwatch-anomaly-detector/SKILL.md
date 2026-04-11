@@ -5,7 +5,7 @@ slug: aws-cloudwatch-anomaly-detector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---

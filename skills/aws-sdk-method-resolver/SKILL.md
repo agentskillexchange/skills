@@ -5,7 +5,7 @@ slug: aws-sdk-method-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-sdk-method-resolver/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

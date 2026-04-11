@@ -5,7 +5,7 @@ slug: lightrag-graph-rag-framework
 verification: security_reviewed
 source: https://github.com/HKUDS/LightRAG
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---

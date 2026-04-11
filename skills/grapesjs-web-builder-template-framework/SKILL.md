@@ -5,7 +5,7 @@ slug: grapesjs-web-builder-template-framework
 verification: security_reviewed
 source: https://github.com/GrapesJS/grapesjs
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

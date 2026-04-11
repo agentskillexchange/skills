@@ -5,7 +5,7 @@ slug: runwayml-gen-3-alpha-video-composer
 verification: security_reviewed
 source: https://github.com/FFmpeg/FFmpeg
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Claude Code
 tool_ecosystem:

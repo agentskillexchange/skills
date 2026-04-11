@@ -5,7 +5,7 @@ slug: cal-com-open-source-scheduling-infrastructure-api
 verification: security_reviewed
 source: https://github.com/calcom/cal.com
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: google-calendar-sync-conflict-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/google-calendar-sync-conflict-resolver/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - OpenClaw
 ---

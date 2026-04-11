@@ -5,7 +5,7 @@ slug: apostrophecms-full-stack-nodejs-cms-in-context-editing
 verification: security_reviewed
 source: https://github.com/apostrophecms/apostrophe
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

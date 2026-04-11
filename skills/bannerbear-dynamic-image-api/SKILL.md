@@ -5,7 +5,7 @@ slug: bannerbear-dynamic-image-api
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---

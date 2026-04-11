@@ -5,7 +5,7 @@ slug: ghostfolio-wealth-management-portfolio-tracking
 verification: security_reviewed
 source: https://github.com/ghostfolio/ghostfolio
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 ---

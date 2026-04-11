@@ -5,7 +5,7 @@ slug: n8n-workflow-webhook-bridge
 verification: security_reviewed
 source: https://github.com/n8n-io/n8n
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - OpenClaw
 tool_ecosystem:

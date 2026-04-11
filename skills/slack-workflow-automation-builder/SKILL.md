@@ -5,7 +5,7 @@ slug: slack-workflow-automation-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/slack-workflow-automation-builder/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---

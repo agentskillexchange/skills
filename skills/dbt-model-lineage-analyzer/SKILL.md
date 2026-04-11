@@ -5,7 +5,7 @@ slug: dbt-model-lineage-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-model-lineage-analyzer/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---

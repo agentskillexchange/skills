@@ -5,7 +5,7 @@ slug: inngest-event-driven-durable-workflow-orchestration
 verification: security_reviewed
 source: https://github.com/inngest/inngest
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

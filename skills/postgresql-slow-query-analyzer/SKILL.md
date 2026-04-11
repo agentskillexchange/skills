@@ -5,7 +5,7 @@ slug: postgresql-slow-query-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---

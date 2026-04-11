@@ -5,7 +5,7 @@ slug: aws-cloudwatch-alarm-triager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-triager/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

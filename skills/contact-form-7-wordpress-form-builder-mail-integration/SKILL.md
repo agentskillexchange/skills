@@ -5,7 +5,7 @@ slug: contact-form-7-wordpress-form-builder-mail-integration
 verification: security_reviewed
 source: https://wordpress.org/plugins/contact-form-7/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

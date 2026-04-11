@@ -5,7 +5,7 @@ slug: statsd-metrics-aggregation-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/statsd-metrics-aggregation-pipeline/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Custom Agents
 ---

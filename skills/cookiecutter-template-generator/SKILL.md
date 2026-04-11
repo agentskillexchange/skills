@@ -5,7 +5,7 @@ slug: cookiecutter-template-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cookiecutter-template-generator/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Codex
 ---

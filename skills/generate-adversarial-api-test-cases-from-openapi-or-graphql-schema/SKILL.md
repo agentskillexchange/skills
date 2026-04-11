@@ -5,7 +5,7 @@ slug: generate-adversarial-api-test-cases-from-openapi-or-graphql-schema
 verification: listed
 source: https://github.com/schemathesis/schemathesis
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 ---

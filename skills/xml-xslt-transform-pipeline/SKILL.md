@@ -5,7 +5,7 @@ slug: xml-xslt-transform-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/xml-xslt-transform-pipeline/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---

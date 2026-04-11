@@ -5,7 +5,7 @@ slug: blurhash-compact-image-placeholder-encoder
 verification: security_reviewed
 source: https://github.com/woltapp/blurhash
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:

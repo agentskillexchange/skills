@@ -5,7 +5,7 @@ slug: pulumi-infrastructure-stack-templater
 verification: security_reviewed
 source: https://github.com/pulumi/pulumi
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Claude Code
 tool_ecosystem:

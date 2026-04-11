@@ -5,7 +5,7 @@ slug: cloudflare-workers-deployer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudflare-workers-deployer/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

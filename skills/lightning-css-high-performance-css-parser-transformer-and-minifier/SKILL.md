@@ -5,7 +5,7 @@ slug: lightning-css-high-performance-css-parser-transformer-and-minifier
 verification: security_reviewed
 source: https://github.com/parcel-bundler/lightningcss
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:

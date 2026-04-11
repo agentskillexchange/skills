@@ -5,7 +5,7 @@ slug: aws-cdk-scaffolder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cdk-scaffolder/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: nocodb-self-hosted-no-code-database-rest-api
 verification: security_reviewed
 source: https://github.com/nocodb/nocodb
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

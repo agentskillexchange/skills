@@ -5,7 +5,7 @@ slug: sonarqube-pr-gate-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Codex
 ---

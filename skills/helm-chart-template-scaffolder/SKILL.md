@@ -5,7 +5,7 @@ slug: helm-chart-template-scaffolder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/helm-chart-template-scaffolder/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Codex
 ---

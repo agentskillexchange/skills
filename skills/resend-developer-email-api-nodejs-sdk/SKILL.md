@@ -5,7 +5,7 @@ slug: resend-developer-email-api-nodejs-sdk
 verification: security_reviewed
 source: https://github.com/resend/resend-node
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

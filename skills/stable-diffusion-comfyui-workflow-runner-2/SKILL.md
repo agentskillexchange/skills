@@ -5,7 +5,7 @@ slug: stable-diffusion-comfyui-workflow-runner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stable-diffusion-comfyui-workflow-runner-2/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - MCP
 ---

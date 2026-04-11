@@ -5,7 +5,7 @@ slug: snowflake-mcp-server
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snowflake-mcp-server/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---

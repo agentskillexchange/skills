@@ -5,7 +5,7 @@ slug: dbt-mcp-server
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-mcp-server/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---

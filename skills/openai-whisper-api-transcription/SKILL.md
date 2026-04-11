@@ -5,7 +5,7 @@ slug: openai-whisper-api-transcription
 verification: security_reviewed
 source: https://developers.openai.com/api/docs/guides/speech-to-text
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - OpenClaw
 ---

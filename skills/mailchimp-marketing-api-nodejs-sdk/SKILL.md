@@ -5,7 +5,7 @@ slug: mailchimp-marketing-api-nodejs-sdk
 verification: security_reviewed
 source: https://github.com/mailchimp/mailchimp-marketing-node
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

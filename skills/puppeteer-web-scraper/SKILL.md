@@ -5,7 +5,7 @@ slug: puppeteer-web-scraper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/puppeteer-web-scraper/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Cursor
 ---

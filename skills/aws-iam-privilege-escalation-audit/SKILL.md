@@ -5,7 +5,7 @@ slug: aws-iam-privilege-escalation-audit
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 ---

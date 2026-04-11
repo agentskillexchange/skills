@@ -5,7 +5,7 @@ slug: zapier-webhook-integration-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/zapier-webhook-integration-builder/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 ---

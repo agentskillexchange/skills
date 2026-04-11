@@ -5,7 +5,7 @@ slug: docker-compose-service-blueprint-creator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - MCP
 ---

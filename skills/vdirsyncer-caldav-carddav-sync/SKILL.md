@@ -5,7 +5,7 @@ slug: vdirsyncer-caldav-carddav-sync
 verification: security_reviewed
 source: https://github.com/pimutils/vdirsyncer
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:

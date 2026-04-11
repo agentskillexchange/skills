@@ -5,7 +5,7 @@ slug: gmail-api-thread-label-triage
 verification: security_reviewed
 source: https://developers.google.com/gmail/api
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Gemini
 ---

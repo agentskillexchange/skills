@@ -5,7 +5,7 @@ slug: typedoc-typescript-api-documentation-generator
 verification: security_reviewed
 source: https://github.com/TypeStrong/typedoc
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:

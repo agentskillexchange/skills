@@ -5,7 +5,7 @@ slug: parameterize-and-execute-notebooks-as-repeatable-runs
 verification: listed
 source: https://github.com/nteract/papermill
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 ---

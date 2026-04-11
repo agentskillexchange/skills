@@ -5,7 +5,7 @@ slug: oxlint-high-performance-javascript-linter
 verification: security_reviewed
 source: https://github.com/oxc-project/oxc
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:

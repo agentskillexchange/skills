@@ -5,13 +5,12 @@ slug: pydub-python-audio-manipulation-library
 verification: security_reviewed
 source: https://github.com/jiaaro/pydub
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: jiaaro/pydub
   github_stars: 9746
-  license: MIT
 ---
 # pydub Python Audio Manipulation Library
 

@@ -5,7 +5,7 @@ slug: litellm-unified-llm-gateway-proxy
 verification: security_reviewed
 source: https://github.com/BerriAI/litellm
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:

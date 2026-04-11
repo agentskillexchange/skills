@@ -5,7 +5,7 @@ slug: atlassian-mcp-server-jira-confluence
 verification: security_reviewed
 source: https://github.com/sooperset/mcp-atlassian
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

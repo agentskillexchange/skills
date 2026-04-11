@@ -5,7 +5,7 @@ slug: devdocs-unified-api-documentation-browser
 verification: security_reviewed
 source: https://github.com/freeCodeCamp/devdocs
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:

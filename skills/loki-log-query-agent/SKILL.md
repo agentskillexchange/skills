@@ -5,7 +5,7 @@ slug: loki-log-query-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/loki-log-query-agent/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---

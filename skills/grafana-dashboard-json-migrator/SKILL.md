@@ -5,7 +5,7 @@ slug: grafana-dashboard-json-migrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-dashboard-json-migrator/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---

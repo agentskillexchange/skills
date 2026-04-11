@@ -5,7 +5,7 @@ slug: dolby-io-media-enhancer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dolby-io-media-enhancer-agent/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Cursor
 ---

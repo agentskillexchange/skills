@@ -5,7 +5,7 @@ slug: sonarqube-scanner-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-scanner-skill/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: npm-package-audit-license-checker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-package-audit-license-checker/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

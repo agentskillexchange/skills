@@ -5,13 +5,12 @@ slug: piper-local-neural-tts-engine
 verification: security_reviewed
 source: https://github.com/rhasspy/piper
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: rhasspy/piper
   github_stars: 10741
-  license: MIT
 ---
 # Piper Local Neural Text-to-Speech Engine
 

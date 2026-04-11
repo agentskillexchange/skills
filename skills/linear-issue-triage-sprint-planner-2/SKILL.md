@@ -5,7 +5,7 @@ slug: linear-issue-triage-sprint-planner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Claude Code
 ---

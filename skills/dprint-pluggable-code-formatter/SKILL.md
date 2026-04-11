@@ -5,7 +5,7 @@ slug: dprint-pluggable-code-formatter
 verification: security_reviewed
 source: https://github.com/dprint/dprint
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 3857
   ase_npm_package: dprint
   npm_weekly_downloads: 152825
-  license: MIT
 ---
 # dprint Pluggable High-Performance Code Formatting Platform
 

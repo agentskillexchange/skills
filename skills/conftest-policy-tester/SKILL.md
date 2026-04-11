@@ -5,7 +5,7 @@ slug: conftest-policy-tester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/conftest-policy-tester/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: notion-task-board-automation-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-task-board-automation-agent/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---

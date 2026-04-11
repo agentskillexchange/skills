@@ -5,7 +5,7 @@ slug: terraform-module-registry-browser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-module-registry-browser/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - MCP
 ---

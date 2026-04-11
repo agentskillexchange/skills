@@ -5,7 +5,7 @@ slug: graphql-schema-registry-client
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-registry-client/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Custom Agents
 ---

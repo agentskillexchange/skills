@@ -5,7 +5,7 @@ slug: scrapy-spider-architect
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/scrapy-spider-architect/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 ---

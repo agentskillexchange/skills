@@ -5,7 +5,7 @@ slug: improve-qdrant-vector-search-relevance-and-retrieval-quality
 verification: listed
 source: https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Multi-Framework
 ---

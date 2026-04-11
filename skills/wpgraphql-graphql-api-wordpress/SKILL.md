@@ -5,13 +5,12 @@ slug: wpgraphql-graphql-api-wordpress
 verification: security_reviewed
 source: https://github.com/wp-graphql/wp-graphql
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: wp-graphql/wp-graphql
   github_stars: 3777
-  license: GPL-3.0
 ---
 # WPGraphQL GraphQL API for WordPress
 

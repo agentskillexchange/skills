@@ -5,7 +5,7 @@ slug: helm-chart-templater
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/helm-chart-templater/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Gemini
 ---

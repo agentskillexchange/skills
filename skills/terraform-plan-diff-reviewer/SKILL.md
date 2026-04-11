@@ -5,7 +5,7 @@ slug: terraform-plan-diff-reviewer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-plan-diff-reviewer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

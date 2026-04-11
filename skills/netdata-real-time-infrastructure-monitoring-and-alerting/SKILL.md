@@ -5,7 +5,7 @@ slug: netdata-real-time-infrastructure-monitoring-and-alerting
 verification: security_reviewed
 source: https://github.com/netdata/netdata
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

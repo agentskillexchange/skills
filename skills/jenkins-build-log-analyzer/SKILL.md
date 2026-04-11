@@ -5,7 +5,7 @@ slug: jenkins-build-log-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jenkins-build-log-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

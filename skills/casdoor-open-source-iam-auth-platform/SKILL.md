@@ -5,7 +5,7 @@ slug: casdoor-open-source-iam-auth-platform
 verification: security_reviewed
 source: https://github.com/casdoor/casdoor
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: kubernetes-crashloop-diagnoser-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-crashloop-diagnoser-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: render-git-diffs-as-shareable-html-review-reports-diff2html
 verification: listed
 source: https://github.com/rtfpessoa/diff2html
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 ---

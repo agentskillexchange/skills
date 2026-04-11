@@ -5,7 +5,7 @@ slug: snowflake-query-history-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/snowflake-query-history-extractor/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---

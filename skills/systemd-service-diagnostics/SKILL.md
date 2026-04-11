@@ -5,7 +5,7 @@ slug: systemd-service-diagnostics
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/systemd-service-diagnostics/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---

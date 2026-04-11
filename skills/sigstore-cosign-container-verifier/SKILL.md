@@ -5,7 +5,7 @@ slug: sigstore-cosign-container-verifier
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sigstore-cosign-container-verifier/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - MCP
 ---

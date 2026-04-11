@@ -5,7 +5,7 @@ slug: brave-search-mcp-server-ai-web-search
 verification: security_reviewed
 source: https://github.com/brave/brave-search-mcp-server
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:

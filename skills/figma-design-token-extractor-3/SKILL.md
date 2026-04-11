@@ -5,7 +5,7 @@ slug: figma-design-token-extractor-3
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/figma-design-token-extractor-3/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Cursor
 ---

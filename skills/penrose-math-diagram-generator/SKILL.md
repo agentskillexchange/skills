@@ -5,7 +5,7 @@ slug: penrose-math-diagram-generator
 verification: security_reviewed
 source: https://github.com/penrose/penrose
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: instructor-structured-data-extraction-llms
 verification: security_reviewed
 source: https://github.com/567-labs/instructor
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

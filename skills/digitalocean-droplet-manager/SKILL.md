@@ -5,7 +5,7 @@ slug: digitalocean-droplet-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/digitalocean-droplet-manager/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

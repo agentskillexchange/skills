@@ -5,7 +5,7 @@ slug: cockpit-cms-headless-content-platform-rest-graphql-apis
 verification: security_reviewed
 source: https://github.com/Cockpit-HQ/Cockpit
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

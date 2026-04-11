@@ -5,7 +5,7 @@ slug: open-policy-agent-opa
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/open-policy-agent-opa/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

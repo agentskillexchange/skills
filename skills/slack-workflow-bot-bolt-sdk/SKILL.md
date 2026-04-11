@@ -5,7 +5,7 @@ slug: slack-workflow-bot-bolt-sdk
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/slack-workflow-bot-bolt-sdk/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - MCP
 ---

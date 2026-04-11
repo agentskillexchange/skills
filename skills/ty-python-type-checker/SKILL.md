@@ -5,7 +5,7 @@ slug: ty-python-type-checker
 verification: security_reviewed
 source: https://github.com/astral-sh/ty
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: textlint-pluggable-natural-language-linter
 verification: security_reviewed
 source: https://github.com/textlint/textlint
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 3099
   ase_npm_package: textlint
   npm_weekly_downloads: 104057
-  license: MIT
 ---
 # textlint Pluggable Natural Language Linter
 

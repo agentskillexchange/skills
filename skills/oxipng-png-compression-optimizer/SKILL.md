@@ -5,13 +5,12 @@ slug: oxipng-png-compression-optimizer
 verification: security_reviewed
 source: https://github.com/oxipng/oxipng
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: oxipng/oxipng
   github_stars: 3870
-  license: MIT
 ---
 # Oxipng Multithreaded Lossless PNG Compression Optimizer
 

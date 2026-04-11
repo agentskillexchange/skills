@@ -5,7 +5,7 @@ slug: wordpress-rest-api-content-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - MCP
 ---

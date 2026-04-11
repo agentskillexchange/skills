@@ -5,7 +5,7 @@ slug: ocrmypdf-searchable-pdf-ocr-pipeline
 verification: security_reviewed
 source: https://github.com/ocrmypdf/OCRmyPDF
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

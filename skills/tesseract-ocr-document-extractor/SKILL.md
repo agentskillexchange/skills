@@ -5,7 +5,7 @@ slug: tesseract-ocr-document-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/tesseract-ocr-document-extractor/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---

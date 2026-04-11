@@ -5,7 +5,7 @@ slug: publint-package-export-validation-skill-npm-release-checks
 verification: security_reviewed
 source: https://github.com/publint/publint
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:

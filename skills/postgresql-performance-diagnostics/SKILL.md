@@ -5,7 +5,7 @@ slug: postgresql-performance-diagnostics
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-performance-diagnostics/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---

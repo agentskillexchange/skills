@@ -5,7 +5,7 @@ slug: directus-sql-native-headless-cms-internal-app-platform
 verification: security_reviewed
 source: https://github.com/directus/directus
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

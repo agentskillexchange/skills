@@ -5,7 +5,7 @@ slug: schema-dts-typescript-types-schemaorg-structured-data
 verification: security_reviewed
 source: https://github.com/google/schema-dts
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:

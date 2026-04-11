@@ -5,7 +5,7 @@ slug: terraform-cloud-run-inspector-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-cloud-run-inspector-2/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 ---

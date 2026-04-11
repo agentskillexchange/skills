@@ -5,7 +5,7 @@ slug: npm-dependency-audit-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-dependency-audit-scanner/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: posthog-product-analytics-and-feature-flags-sdk
 verification: security_reviewed
 source: https://github.com/PostHog/posthog-js
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

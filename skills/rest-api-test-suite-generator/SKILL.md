@@ -5,7 +5,7 @@ slug: rest-api-test-suite-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/rest-api-test-suite-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Agents
 ---

@@ -5,7 +5,7 @@ slug: postgresql-performance-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-performance-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---

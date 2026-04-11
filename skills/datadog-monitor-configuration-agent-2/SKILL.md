@@ -5,7 +5,7 @@ slug: datadog-monitor-configuration-agent-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitor-configuration-agent-2/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 ---

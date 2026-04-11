@@ -5,7 +5,7 @@ slug: prometheus-alert-rule-synthesizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-rule-synthesizer/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

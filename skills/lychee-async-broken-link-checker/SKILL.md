@@ -5,13 +5,12 @@ slug: lychee-async-broken-link-checker
 verification: security_reviewed
 source: https://github.com/lycheeverse/lychee
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: lycheeverse/lychee
   github_stars: 3463
-  license: Apache-2.0
 ---
 # lychee Async Broken Link Checker for Websites and Documentation
 

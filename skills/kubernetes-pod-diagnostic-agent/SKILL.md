@@ -5,7 +5,7 @@ slug: kubernetes-pod-diagnostic-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostic-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---

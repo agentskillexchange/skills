@@ -5,7 +5,7 @@ slug: codecov-coverage-diff-analyzer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/codecov-coverage-diff-analyzer-2/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - ChatGPT Agents
 ---

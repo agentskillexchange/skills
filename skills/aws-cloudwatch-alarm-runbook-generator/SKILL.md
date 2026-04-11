@@ -5,7 +5,7 @@ slug: aws-cloudwatch-alarm-runbook-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-runbook-generator/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Agents
 ---

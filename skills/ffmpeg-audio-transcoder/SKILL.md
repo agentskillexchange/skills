@@ -5,7 +5,7 @@ slug: ffmpeg-audio-transcoder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-audio-transcoder/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Cursor
 ---

@@ -5,7 +5,7 @@ slug: graphql-schema-stitching-federation-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

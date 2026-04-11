@@ -5,7 +5,7 @@ slug: headstartwp-headless-wordpress-nextjs-framework
 verification: security_reviewed
 source: https://github.com/10up/headstartwp
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

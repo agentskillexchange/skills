@@ -5,7 +5,7 @@ slug: vitest-vite-testing-framework
 verification: security_reviewed
 source: https://github.com/vitest-dev/vitest
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:

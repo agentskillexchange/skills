@@ -5,7 +5,7 @@ slug: semgrep-custom-pattern-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Codex
 ---

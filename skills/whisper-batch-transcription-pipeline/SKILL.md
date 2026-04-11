@@ -5,7 +5,7 @@ slug: whisper-batch-transcription-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - OpenClaw
 ---

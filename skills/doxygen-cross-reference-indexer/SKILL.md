@@ -5,7 +5,7 @@ slug: doxygen-cross-reference-indexer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/doxygen-cross-reference-indexer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: aws-cloudwatch-insights-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-insights-agent/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - ChatGPT Agents
 ---

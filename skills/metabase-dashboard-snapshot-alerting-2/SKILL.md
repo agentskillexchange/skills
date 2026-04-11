@@ -5,7 +5,7 @@ slug: metabase-dashboard-snapshot-alerting-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

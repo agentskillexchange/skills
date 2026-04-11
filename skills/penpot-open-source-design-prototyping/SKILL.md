@@ -5,7 +5,7 @@ slug: penpot-open-source-design-prototyping
 verification: security_reviewed
 source: https://github.com/penpot/penpot
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 tool_ecosystem:

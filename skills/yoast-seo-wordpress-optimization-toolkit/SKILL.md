@@ -5,7 +5,7 @@ slug: yoast-seo-wordpress-optimization-toolkit
 verification: security_reviewed
 source: https://github.com/Yoast/wordpress-seo
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

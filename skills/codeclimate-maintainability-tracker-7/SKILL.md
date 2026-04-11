@@ -5,7 +5,7 @@ slug: codeclimate-maintainability-tracker-7
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/codeclimate-maintainability-tracker-7/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - ChatGPT Agents
 ---

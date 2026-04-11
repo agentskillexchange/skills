@@ -5,7 +5,7 @@ slug: kafka-schema-registry-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kafka-schema-registry-extractor/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---

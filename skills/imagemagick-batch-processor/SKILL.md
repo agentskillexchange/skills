@@ -5,7 +5,7 @@ slug: imagemagick-batch-processor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/imagemagick-batch-processor/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - MCP
 ---

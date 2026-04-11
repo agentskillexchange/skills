@@ -5,7 +5,7 @@ slug: duckdb-sql-analytics-agent
 verification: security_reviewed
 source: https://github.com/duckdb/duckdb
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 - OpenClaw

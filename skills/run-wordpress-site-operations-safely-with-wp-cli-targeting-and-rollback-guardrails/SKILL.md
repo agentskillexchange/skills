@@ -5,7 +5,7 @@ slug: run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-gu
 verification: listed
 source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

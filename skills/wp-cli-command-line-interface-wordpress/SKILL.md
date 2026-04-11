@@ -5,13 +5,12 @@ slug: wp-cli-command-line-interface-wordpress
 verification: security_reviewed
 source: https://github.com/wp-cli/wp-cli
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: wp-cli/wp-cli
   github_stars: 5044
-  license: MIT
 ---
 # WP-CLI Command-Line Interface for WordPress
 

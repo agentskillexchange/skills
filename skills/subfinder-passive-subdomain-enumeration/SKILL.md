@@ -5,13 +5,12 @@ slug: subfinder-passive-subdomain-enumeration
 verification: security_reviewed
 source: https://github.com/projectdiscovery/subfinder
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: projectdiscovery/subfinder
   github_stars: 13332
-  license: MIT
 ---
 # Subfinder Fast Passive Subdomain Enumeration Tool
 

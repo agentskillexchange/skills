@@ -5,7 +5,7 @@ slug: twitter-x-trend-monitor-thread-publisher
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---

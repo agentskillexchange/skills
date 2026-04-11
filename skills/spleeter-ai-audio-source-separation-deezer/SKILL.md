@@ -5,7 +5,7 @@ slug: spleeter-ai-audio-source-separation-deezer
 verification: security_reviewed
 source: https://github.com/deezer/spleeter
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

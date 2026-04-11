@@ -5,7 +5,7 @@ slug: npm-package-explorer-registry-api
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-package-explorer-registry-api/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

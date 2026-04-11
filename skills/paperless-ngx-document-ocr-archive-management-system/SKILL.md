@@ -5,7 +5,7 @@ slug: paperless-ngx-document-ocr-archive-management-system
 verification: security_reviewed
 source: https://github.com/paperless-ngx/paperless-ngx
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---

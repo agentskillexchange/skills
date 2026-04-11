@@ -5,7 +5,7 @@ slug: katana-web-crawling-spidering-framework
 verification: security_reviewed
 source: https://github.com/projectdiscovery/katana
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 tool_ecosystem:

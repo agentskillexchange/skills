@@ -5,7 +5,7 @@ slug: flagsmith-feature-flag-remote-config
 verification: security_reviewed
 source: https://github.com/Flagsmith/flagsmith
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: ffmpeg-thumbnail-grid-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-thumbnail-grid-generator/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 ---

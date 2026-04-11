@@ -5,7 +5,7 @@ slug: prometheus-alertmanager-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alertmanager-router/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---

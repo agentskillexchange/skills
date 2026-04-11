@@ -5,7 +5,7 @@ slug: discord-moderation-ai-classification
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/discord-moderation-ai-classification/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Cursor
 ---

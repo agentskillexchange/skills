@@ -5,7 +5,7 @@ slug: gitingest-repository-to-prompt-codebase-extraction-tool
 verification: security_reviewed
 source: https://github.com/coderamp-labs/gitingest
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

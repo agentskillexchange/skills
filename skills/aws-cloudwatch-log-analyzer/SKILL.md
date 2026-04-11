@@ -5,7 +5,7 @@ slug: aws-cloudwatch-log-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-log-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: plunk-open-source-email-platform-aws-ses
 verification: security_reviewed
 source: https://github.com/useplunk/plunk
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

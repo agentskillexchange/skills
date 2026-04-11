@@ -5,7 +5,7 @@ slug: redpanda-connect-declarative-stream-processor
 verification: security_reviewed
 source: https://github.com/redpanda-data/connect
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

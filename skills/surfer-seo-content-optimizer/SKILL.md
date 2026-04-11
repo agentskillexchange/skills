@@ -5,7 +5,7 @@ slug: surfer-seo-content-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/surfer-seo-content-optimizer/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: uptime-kuma-self-hosted-uptime-monitoring-platform
 verification: security_reviewed
 source: https://github.com/louislam/uptime-kuma
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

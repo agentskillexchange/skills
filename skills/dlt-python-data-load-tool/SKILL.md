@@ -5,7 +5,7 @@ slug: dlt-python-data-load-tool
 verification: security_reviewed
 source: https://github.com/dlt-hub/dlt
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

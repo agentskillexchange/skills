@@ -5,7 +5,7 @@ slug: airbyte-connector-config-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/airbyte-connector-config-generator/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---

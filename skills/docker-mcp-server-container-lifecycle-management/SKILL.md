@@ -5,7 +5,7 @@ slug: docker-mcp-server-container-lifecycle-management
 verification: security_reviewed
 source: https://github.com/ckreiling/mcp-server-docker
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

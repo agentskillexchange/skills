@@ -5,7 +5,7 @@ slug: check-current-weather-and-short-forecasts-for-planning
 verification: listed
 source: https://github.com/openclaw/openclaw/tree/main/skills/weather
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - OpenClaw
 ---

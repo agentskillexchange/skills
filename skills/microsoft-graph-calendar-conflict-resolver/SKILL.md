@@ -5,7 +5,7 @@ slug: microsoft-graph-calendar-conflict-resolver
 verification: security_reviewed
 source: https://learn.microsoft.com/en-us/graph/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Agents
 ---

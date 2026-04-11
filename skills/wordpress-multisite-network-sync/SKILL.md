@@ -5,7 +5,7 @@ slug: wordpress-multisite-network-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wordpress-multisite-network-sync/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Codex
 ---

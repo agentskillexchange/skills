@@ -5,7 +5,7 @@ slug: jq-json-stream-transformer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jq-json-stream-transformer/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---

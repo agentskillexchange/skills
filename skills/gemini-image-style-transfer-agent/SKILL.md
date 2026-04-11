@@ -5,7 +5,7 @@ slug: gemini-image-style-transfer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Gemini
 ---

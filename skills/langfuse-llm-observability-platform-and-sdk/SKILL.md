@@ -5,7 +5,7 @@ slug: langfuse-llm-observability-platform-and-sdk
 verification: security_reviewed
 source: https://github.com/langfuse/langfuse
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

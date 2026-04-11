@@ -11,7 +11,6 @@ framework:
 tool_ecosystem:
   github_repo: go-rod/rod
   github_stars: 6830
-  license: MIT
 ---
 # Rod Go Chrome DevTools Protocol Driver for Web Automation
 

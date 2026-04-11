@@ -5,13 +5,13 @@ slug: hubspot-mcp-server
 verification: security_reviewed
 source: https://github.com/HubSpot/hubspot-api-nodejs
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:
   github_repo: HubSpot/hubspot-api-nodejs
   github_stars: 392
-  ase_npm_package: '@hubspot/api-client'
+  ase_npm_package: @hubspot/api-client
   npm_weekly_downloads: 829443
 ---
 # HubSpot MCP Server

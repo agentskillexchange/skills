@@ -5,7 +5,7 @@ slug: gsc-insights-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/gsc-insights-agent/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Custom Agents
 ---

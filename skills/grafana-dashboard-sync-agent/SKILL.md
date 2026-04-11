@@ -5,7 +5,7 @@ slug: grafana-dashboard-sync-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Gemini
 ---

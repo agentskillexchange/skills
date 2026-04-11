@@ -5,7 +5,7 @@ slug: miller-csv-tsv-json-data-processor
 verification: security_reviewed
 source: https://github.com/johnkerl/miller
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

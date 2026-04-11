@@ -5,7 +5,7 @@ slug: cronitor-cli-cron-monitoring-job-telemetry
 verification: security_reviewed
 source: https://github.com/cronitorio/cronitor-cli
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

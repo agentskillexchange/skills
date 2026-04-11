@@ -5,7 +5,7 @@ slug: kics-iac-linter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kics-iac-linter/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

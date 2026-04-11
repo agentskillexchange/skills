@@ -5,7 +5,7 @@ slug: snyk-agent-scan-mcp-skill-security-scanner
 verification: security_reviewed
 source: https://github.com/snyk/agent-scan
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - MCP
 tool_ecosystem:

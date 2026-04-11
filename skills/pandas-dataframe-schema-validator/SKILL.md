@@ -5,7 +5,7 @@ slug: pandas-dataframe-schema-validator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

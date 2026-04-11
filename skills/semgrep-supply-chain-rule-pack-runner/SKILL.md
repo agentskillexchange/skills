@@ -5,7 +5,7 @@ slug: semgrep-supply-chain-rule-pack-runner
 verification: security_reviewed
 source: https://github.com/semgrep/semgrep
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - ChatGPT Agents
 tool_ecosystem:

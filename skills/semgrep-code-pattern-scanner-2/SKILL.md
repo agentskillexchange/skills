@@ -5,7 +5,7 @@ slug: semgrep-code-pattern-scanner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Codex
 ---

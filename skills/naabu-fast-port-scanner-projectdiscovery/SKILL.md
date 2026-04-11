@@ -5,7 +5,7 @@ slug: naabu-fast-port-scanner-projectdiscovery
 verification: security_reviewed
 source: https://github.com/projectdiscovery/naabu
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 ---

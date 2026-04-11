@@ -5,7 +5,7 @@ slug: protobuf-documentation-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/protobuf-documentation-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: python-library-reference-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/python-library-reference-builder/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - OpenClaw
 ---

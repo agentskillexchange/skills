@@ -5,7 +5,7 @@ slug: opsgenie-mcp-server
 verification: security_reviewed
 source: https://github.com/opsgenie/opsgenie-nodejs-sdk
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: complexity-trend-tracker-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/complexity-trend-tracker-agent/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - MCP
 ---

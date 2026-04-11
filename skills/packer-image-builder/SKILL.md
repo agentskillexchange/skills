@@ -5,7 +5,7 @@ slug: packer-image-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/packer-image-builder/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

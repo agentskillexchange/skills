@@ -5,7 +5,7 @@ slug: graphql-schema-documentation-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-schema-documentation-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - MCP
 ---

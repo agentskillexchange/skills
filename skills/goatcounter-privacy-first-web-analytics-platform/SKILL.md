@@ -5,7 +5,7 @@ slug: goatcounter-privacy-first-web-analytics-platform
 verification: security_reviewed
 source: https://github.com/arp242/goatcounter
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

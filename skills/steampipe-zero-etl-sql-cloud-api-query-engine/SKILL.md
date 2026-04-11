@@ -5,7 +5,7 @@ slug: steampipe-zero-etl-sql-cloud-api-query-engine
 verification: security_reviewed
 source: https://github.com/turbot/steampipe
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

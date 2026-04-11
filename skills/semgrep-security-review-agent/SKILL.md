@@ -5,7 +5,7 @@ slug: semgrep-security-review-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/semgrep-security-review-agent/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Agents
 ---

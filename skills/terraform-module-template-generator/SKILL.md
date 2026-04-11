@@ -5,7 +5,7 @@ slug: terraform-module-template-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-module-template-generator/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---

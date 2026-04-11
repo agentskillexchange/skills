@@ -5,13 +5,12 @@ slug: magika-ai-file-type-detection-and-content-classification
 verification: security_reviewed
 source: https://github.com/google/magika
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: google/magika
   github_stars: 10199
-  license: Apache-2.0
 ---
 # Magika AI File Type Detection and Content Classification
 

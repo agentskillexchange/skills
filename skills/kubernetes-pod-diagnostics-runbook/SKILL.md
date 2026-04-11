@@ -5,7 +5,7 @@ slug: kubernetes-pod-diagnostics-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---

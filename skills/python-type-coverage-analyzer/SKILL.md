@@ -5,7 +5,7 @@ slug: python-type-coverage-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/python-type-coverage-analyzer/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Gemini
 ---

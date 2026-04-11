@@ -5,7 +5,7 @@ slug: datasette-data-exploration-publishing-tool
 verification: security_reviewed
 source: https://github.com/simonw/datasette
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

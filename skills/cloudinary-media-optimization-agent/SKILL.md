@@ -5,7 +5,7 @@ slug: cloudinary-media-optimization-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudinary-media-optimization-agent/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Claude Agents
 ---

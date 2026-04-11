@@ -5,7 +5,7 @@ slug: build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permis
 verification: listed
 source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

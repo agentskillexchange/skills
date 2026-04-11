@@ -5,7 +5,7 @@ slug: protobuf-documentation-compiler
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/protobuf-documentation-compiler/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

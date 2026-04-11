@@ -5,7 +5,7 @@ slug: colly-golang-web-scraper-crawler-framework
 verification: security_reviewed
 source: https://github.com/gocolly/colly
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 ---

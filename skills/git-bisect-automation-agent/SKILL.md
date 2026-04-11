@@ -5,7 +5,7 @@ slug: git-bisect-automation-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/git-bisect-automation-agent/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

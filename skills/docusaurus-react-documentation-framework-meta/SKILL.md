@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 64315
   ase_npm_package: docusaurus
   npm_weekly_downloads: 21265
-  license: MIT
 ---
 # Docusaurus React Documentation Framework by Meta
 

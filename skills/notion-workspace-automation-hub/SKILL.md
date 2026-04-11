@@ -5,7 +5,7 @@ slug: notion-workspace-automation-hub
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-workspace-automation-hub/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---

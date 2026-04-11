@@ -5,7 +5,7 @@ slug: storybook-component-tester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/storybook-component-tester/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

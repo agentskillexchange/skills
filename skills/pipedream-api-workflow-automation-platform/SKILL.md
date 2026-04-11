@@ -5,7 +5,7 @@ slug: pipedream-api-workflow-automation-platform
 verification: security_reviewed
 source: https://github.com/PipedreamHQ/pipedream
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

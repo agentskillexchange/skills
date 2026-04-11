@@ -5,7 +5,7 @@ slug: ansible-playbook-dryrun-validator-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

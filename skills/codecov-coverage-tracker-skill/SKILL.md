@@ -5,7 +5,7 @@ slug: codecov-coverage-tracker-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/codecov-coverage-tracker-skill/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - ChatGPT Agents
 ---

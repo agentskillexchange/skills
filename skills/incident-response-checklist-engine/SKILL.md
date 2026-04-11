@@ -5,7 +5,7 @@ slug: incident-response-checklist-engine
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/incident-response-checklist-engine/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Agents
 ---

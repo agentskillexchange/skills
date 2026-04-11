@@ -5,7 +5,7 @@ slug: kokoro-fastapi-openai-compatible-text-to-speech-server
 verification: security_reviewed
 source: https://github.com/remsky/Kokoro-FastAPI
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

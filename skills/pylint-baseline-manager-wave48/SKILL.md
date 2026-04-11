@@ -5,7 +5,7 @@ slug: pylint-baseline-manager-wave48
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pylint-baseline-manager-wave48/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

@@ -5,13 +5,12 @@ slug: gcalcli-google-calendar-cli
 verification: security_reviewed
 source: https://github.com/insanum/gcalcli
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: insanum/gcalcli
   github_stars: 3678
-  license: MIT
 ---
 # gcalcli Google Calendar Command Line Interface
 

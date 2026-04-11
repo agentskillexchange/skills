@@ -5,13 +5,12 @@ slug: logfire-python-observability-sdk-llm-agent-tracing
 verification: security_reviewed
 source: https://github.com/pydantic/logfire
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: pydantic/logfire
   github_stars: 4156
-  license: MIT
 ---
 # Logfire Python Observability SDK for LLM and Agent Tracing
 

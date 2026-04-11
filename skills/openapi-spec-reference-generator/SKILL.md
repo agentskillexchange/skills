@@ -5,7 +5,7 @@ slug: openapi-spec-reference-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-reference-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

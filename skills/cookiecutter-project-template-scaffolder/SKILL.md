@@ -5,7 +5,7 @@ slug: cookiecutter-project-template-scaffolder
 verification: security_reviewed
 source: https://github.com/cookiecutter/cookiecutter
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Cursor
 tool_ecosystem:

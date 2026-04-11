@@ -5,7 +5,7 @@ slug: kubernetes-pod-diagnostics-runner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-runner-2/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

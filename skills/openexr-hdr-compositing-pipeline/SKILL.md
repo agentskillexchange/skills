@@ -5,7 +5,7 @@ slug: openexr-hdr-compositing-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openexr-hdr-compositing-pipeline/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 ---

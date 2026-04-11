@@ -5,7 +5,7 @@ slug: cloudtrail-anomaly-detection-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudtrail-anomaly-detection-agent/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - ChatGPT Agents
 ---

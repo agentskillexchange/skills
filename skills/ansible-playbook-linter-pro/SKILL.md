@@ -5,7 +5,7 @@ slug: ansible-playbook-linter-pro
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-linter-pro/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---

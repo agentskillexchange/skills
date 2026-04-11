@@ -5,7 +5,7 @@ slug: whisper-cpp-realtime-transcription-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---

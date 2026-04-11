@@ -5,7 +5,7 @@ slug: apache-kafka-schema-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-kafka-schema-extractor/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---

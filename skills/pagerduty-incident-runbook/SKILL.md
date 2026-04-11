@@ -5,7 +5,7 @@ slug: pagerduty-incident-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pagerduty-incident-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---

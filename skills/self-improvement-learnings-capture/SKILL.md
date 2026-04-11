@@ -5,7 +5,7 @@ slug: self-improvement-learnings-capture
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/self-improvement-learnings-capture/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - OpenClaw
 ---

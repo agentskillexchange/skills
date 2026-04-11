@@ -5,7 +5,7 @@ slug: kubernetes-incident-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-incident-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 ---

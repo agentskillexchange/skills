@@ -5,7 +5,7 @@ slug: datadog-monitor-blueprint-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Cursor
 ---

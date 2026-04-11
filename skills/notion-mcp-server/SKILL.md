@@ -5,13 +5,13 @@ slug: notion-mcp-server
 verification: security_reviewed
 source: https://github.com/makenotion/notion-sdk-js
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - MCP
 tool_ecosystem:
   github_repo: makenotion/notion-sdk-js
   github_stars: 5580
-  ase_npm_package: '@notionhq/client'
+  ase_npm_package: @notionhq/client
   npm_weekly_downloads: 1102538
 ---
 # Notion MCP Server

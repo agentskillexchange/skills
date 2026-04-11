@@ -5,7 +5,7 @@ slug: live-stream-clip-extractor-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - ChatGPT Agents
 ---

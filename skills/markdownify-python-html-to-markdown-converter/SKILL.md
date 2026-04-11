@@ -5,7 +5,7 @@ slug: markdownify-python-html-to-markdown-converter
 verification: security_reviewed
 source: https://github.com/matthewwithanm/python-markdownify
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

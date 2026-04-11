@@ -5,7 +5,7 @@ slug: slsa-verifier-build-provenance-checker
 verification: security_reviewed
 source: https://github.com/slsa-framework/slsa-verifier
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

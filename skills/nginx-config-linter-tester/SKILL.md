@@ -5,7 +5,7 @@ slug: nginx-config-linter-tester
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-config-linter-tester/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

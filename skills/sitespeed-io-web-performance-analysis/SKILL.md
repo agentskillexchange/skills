@@ -5,7 +5,7 @@ slug: sitespeed-io-web-performance-analysis
 verification: security_reviewed
 source: https://github.com/sitespeedio/sitespeed.io
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

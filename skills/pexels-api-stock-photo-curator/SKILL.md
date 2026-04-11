@@ -5,7 +5,7 @@ slug: pexels-api-stock-photo-curator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pexels-api-stock-photo-curator/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Claude Agents
 ---

@@ -5,7 +5,7 @@ slug: contentful-management-api-and-javascript-sdk
 verification: security_reviewed
 source: https://github.com/contentful/contentful-management.js
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 286
   ase_npm_package: contentful-management
   npm_weekly_downloads: 658843
-  license: MIT
 ---
 # Contentful Management API and JavaScript SDK
 

@@ -5,7 +5,7 @@ slug: harper-offline-grammar-checker-automattic
 verification: security_reviewed
 source: https://github.com/Automattic/harper
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:

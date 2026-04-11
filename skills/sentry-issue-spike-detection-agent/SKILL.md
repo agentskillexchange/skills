@@ -5,7 +5,7 @@ slug: sentry-issue-spike-detection-agent
 verification: security_reviewed
 source: https://github.com/getsentry/sentry
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: gatus-endpoint-monitoring-status-page-platform
 verification: security_reviewed
 source: https://github.com/TwiN/gatus
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

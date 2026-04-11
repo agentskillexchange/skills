@@ -5,7 +5,7 @@ slug: prisma-schema-migrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prisma-schema-migrator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Codex
 ---

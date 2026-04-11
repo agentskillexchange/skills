@@ -5,7 +5,7 @@ slug: typesense-typo-tolerant-search-engine
 verification: security_reviewed
 source: https://github.com/typesense/typesense
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: graphql-data-federation-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/graphql-data-federation-agent/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

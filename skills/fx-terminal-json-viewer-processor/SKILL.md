@@ -5,7 +5,7 @@ slug: fx-terminal-json-viewer-processor
 verification: security_reviewed
 source: https://github.com/antonmedv/fx
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

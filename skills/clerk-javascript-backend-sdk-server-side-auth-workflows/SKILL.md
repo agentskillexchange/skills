@@ -5,13 +5,13 @@ slug: clerk-javascript-backend-sdk-server-side-auth-workflows
 verification: security_reviewed
 source: https://github.com/clerk/javascript
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: clerk/javascript
   github_stars: 1688
-  ase_npm_package: '@clerk/javascript'
+  ase_npm_package: @clerk/javascript
 ---
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows
 

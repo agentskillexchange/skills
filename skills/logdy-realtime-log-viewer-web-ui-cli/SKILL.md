@@ -5,7 +5,7 @@ slug: logdy-realtime-log-viewer-web-ui-cli
 verification: security_reviewed
 source: https://github.com/logdyhq/logdy-core
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

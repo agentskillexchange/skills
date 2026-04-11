@@ -5,7 +5,7 @@ slug: prometheus-alertmanager-rule-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-generator/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---

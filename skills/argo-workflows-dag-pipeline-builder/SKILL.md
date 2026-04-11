@@ -5,7 +5,7 @@ slug: argo-workflows-dag-pipeline-builder
 verification: security_reviewed
 source: https://github.com/argoproj/argo-workflows
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - MCP
 tool_ecosystem:

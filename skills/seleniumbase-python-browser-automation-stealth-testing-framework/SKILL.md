@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 12560
   ase_npm_package: seleniumbase
   npm_weekly_downloads: 19
-  license: MIT
 ---
 # SeleniumBase Python Browser Automation and Stealth Testing Framework
 

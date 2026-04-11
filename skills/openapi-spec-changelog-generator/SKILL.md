@@ -5,7 +5,7 @@ slug: openapi-spec-changelog-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-changelog-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

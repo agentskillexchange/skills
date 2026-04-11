@@ -5,7 +5,7 @@ slug: linkup-js-sdk-sourced-web-search-fetch
 verification: security_reviewed
 source: https://github.com/LinkupPlatform/linkup-js-sdk
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: prometheus-alerting-rules
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alerting-rules/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 ---

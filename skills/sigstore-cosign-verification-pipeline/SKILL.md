@@ -5,7 +5,7 @@ slug: sigstore-cosign-verification-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sigstore-cosign-verification-pipeline/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Codex
 ---

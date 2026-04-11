@@ -5,7 +5,7 @@ slug: k8s-crashloopbackoff-diagnoser
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/k8s-crashloopbackoff-diagnoser/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---

@@ -5,7 +5,7 @@ slug: kubernetes-crashloopbackoff-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

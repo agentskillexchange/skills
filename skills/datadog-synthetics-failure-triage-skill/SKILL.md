@@ -5,7 +5,7 @@ slug: datadog-synthetics-failure-triage-skill
 verification: security_reviewed
 source: https://github.com/DataDog/datadog-api-client-python
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 tool_ecosystem:

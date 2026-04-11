@@ -5,7 +5,7 @@ slug: gitxray-github-repository-security-xray
 verification: security_reviewed
 source: https://github.com/kulkansecurity/gitxray
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

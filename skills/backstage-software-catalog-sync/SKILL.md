@@ -5,7 +5,7 @@ slug: backstage-software-catalog-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/backstage-software-catalog-sync/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Cursor
 ---

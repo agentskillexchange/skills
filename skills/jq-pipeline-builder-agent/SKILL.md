@@ -5,7 +5,7 @@ slug: jq-pipeline-builder-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/jq-pipeline-builder-agent/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Gemini
 ---

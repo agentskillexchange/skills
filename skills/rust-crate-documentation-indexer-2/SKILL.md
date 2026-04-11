@@ -5,7 +5,7 @@ slug: rust-crate-documentation-indexer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Gemini
 ---

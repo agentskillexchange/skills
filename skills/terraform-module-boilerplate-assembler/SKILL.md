@@ -5,7 +5,7 @@ slug: terraform-module-boilerplate-assembler
 verification: security_reviewed
 source: https://github.com/hashicorp/terraform
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Gemini
 tool_ecosystem:

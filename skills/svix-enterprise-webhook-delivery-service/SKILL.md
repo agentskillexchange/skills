@@ -5,13 +5,12 @@ slug: svix-enterprise-webhook-delivery-service
 verification: security_reviewed
 source: https://github.com/svix/svix-webhooks
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: svix/svix-webhooks
   github_stars: 3152
-  license: MIT
 ---
 # Svix Enterprise Webhook Delivery Service
 

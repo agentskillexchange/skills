@@ -5,7 +5,7 @@ slug: qdrant-mcp-server-vector-search-semantic-memory
 verification: security_reviewed
 source: https://github.com/qdrant/mcp-server-qdrant
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

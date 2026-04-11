@@ -5,13 +5,12 @@ slug: linkding-self-hosted-bookmark-manager-rest-api
 verification: security_reviewed
 source: https://github.com/sissbruecker/linkding
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: sissbruecker/linkding
   github_stars: 10379
-  license: MIT
 ---
 # linkding Self-Hosted Bookmark Manager with REST API
 

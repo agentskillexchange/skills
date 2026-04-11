@@ -5,7 +5,7 @@ slug: aws-cloudtrail-log-normalizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

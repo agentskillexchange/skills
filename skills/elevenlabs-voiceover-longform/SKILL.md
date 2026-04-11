@@ -5,7 +5,7 @@ slug: elevenlabs-voiceover-longform
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/elevenlabs-voiceover-longform/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---

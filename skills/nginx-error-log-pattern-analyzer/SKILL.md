@@ -5,7 +5,7 @@ slug: nginx-error-log-pattern-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-log-pattern-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: linkwarden-collaborative-bookmark-archive-preservation-platform
 verification: security_reviewed
 source: https://github.com/linkwarden/linkwarden
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 ---

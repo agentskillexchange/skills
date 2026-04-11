@@ -5,7 +5,7 @@ slug: datadog-triage-playbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-triage-playbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---

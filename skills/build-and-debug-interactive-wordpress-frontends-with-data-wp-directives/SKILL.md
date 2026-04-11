@@ -5,7 +5,7 @@ slug: build-and-debug-interactive-wordpress-frontends-with-data-wp-directives
 verification: listed
 source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

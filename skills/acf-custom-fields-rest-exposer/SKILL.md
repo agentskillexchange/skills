@@ -5,7 +5,7 @@ slug: acf-custom-fields-rest-exposer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/acf-custom-fields-rest-exposer/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Cursor
 ---

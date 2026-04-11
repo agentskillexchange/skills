@@ -5,7 +5,7 @@ slug: podcast-rss-feed-transcriber
 verification: security_reviewed
 source: https://github.com/openai/whisper
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - OpenClaw
 tool_ecosystem:

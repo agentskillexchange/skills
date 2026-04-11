@@ -5,7 +5,7 @@ slug: howlerjs-cross-browser-javascript-audio-library
 verification: security_reviewed
 source: https://github.com/goldfire/howler.js
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

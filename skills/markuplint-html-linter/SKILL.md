@@ -5,7 +5,7 @@ slug: markuplint-html-linter
 verification: security_reviewed
 source: https://github.com/markuplint/markuplint
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:

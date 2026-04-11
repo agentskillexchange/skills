@@ -5,7 +5,7 @@ slug: wp-theme-json-design-token-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wp-theme-json-design-token-manager/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Gemini
 ---

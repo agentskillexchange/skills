@@ -5,7 +5,7 @@ slug: chartbrew-open-source-reporting-dashboard-platform
 verification: security_reviewed
 source: https://github.com/chartbrew/chartbrew
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

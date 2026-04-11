@@ -5,7 +5,7 @@ slug: parquet-column-statistics-profiler
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/parquet-column-statistics-profiler/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - ChatGPT Agents
 ---

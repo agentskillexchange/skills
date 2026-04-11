@@ -5,7 +5,7 @@ slug: kubernetes-troubleshoot-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

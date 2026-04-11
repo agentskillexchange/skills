@@ -5,13 +5,12 @@ slug: radicale-self-hosted-caldav-carddav-server
 verification: security_reviewed
 source: https://github.com/Kozea/Radicale
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: kozea/radicale
   github_stars: 4535
-  license: GPL-3.0
 ---
 # Radicale Self-Hosted CalDAV and CardDAV Server
 

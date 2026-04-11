@@ -5,7 +5,7 @@ slug: video-subtitle-translator-agent
 verification: security_reviewed
 source: https://github.com/FFmpeg/FFmpeg
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Gemini
 tool_ecosystem:

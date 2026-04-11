@@ -5,7 +5,7 @@ slug: pglite-embeddable-wasm-postgres
 verification: security_reviewed
 source: https://github.com/electric-sql/pglite
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:

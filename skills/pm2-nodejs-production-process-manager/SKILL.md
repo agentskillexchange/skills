@@ -5,7 +5,7 @@ slug: pm2-nodejs-production-process-manager
 verification: security_reviewed
 source: https://github.com/Unitech/pm2
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:

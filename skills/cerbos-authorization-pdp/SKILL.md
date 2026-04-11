@@ -5,7 +5,7 @@ slug: cerbos-authorization-pdp
 verification: security_reviewed
 source: https://github.com/cerbos/cerbos
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 ---

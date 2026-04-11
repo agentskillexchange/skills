@@ -5,7 +5,7 @@ slug: notion-workspace-sync-engine-2
 verification: security_reviewed
 source: https://developers.notion.com/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Gemini
 ---

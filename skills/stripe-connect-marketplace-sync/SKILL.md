@@ -5,7 +5,7 @@ slug: stripe-connect-marketplace-sync
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Gemini
 ---

@@ -5,7 +5,7 @@ slug: pylint-code-review-assistant
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pylint-code-review-assistant/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

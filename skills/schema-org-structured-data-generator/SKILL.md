@@ -5,7 +5,7 @@ slug: schema-org-structured-data-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/schema-org-structured-data-generator/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Gemini
 ---

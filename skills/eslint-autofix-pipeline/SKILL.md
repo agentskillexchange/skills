@@ -5,7 +5,7 @@ slug: eslint-autofix-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-autofix-pipeline/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Agents
 ---

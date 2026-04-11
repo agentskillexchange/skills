@@ -5,13 +5,13 @@ slug: checkly-cli-monitoring-as-code-for-api-and-browser-checks
 verification: security_reviewed
 source: https://github.com/checkly/checkly-cli
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: checkly/checkly-cli
   github_stars: 92
-  ase_npm_package: '@checkly/cli-monorepo'
+  ase_npm_package: @checkly/cli-monorepo
 ---
 # Checkly CLI Monitoring as Code for API and Browser Checks
 

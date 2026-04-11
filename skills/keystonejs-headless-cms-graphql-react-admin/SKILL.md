@@ -5,7 +5,7 @@ slug: keystonejs-headless-cms-graphql-react-admin
 verification: security_reviewed
 source: https://github.com/keystonejs/keystone
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

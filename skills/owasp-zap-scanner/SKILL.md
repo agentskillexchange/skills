@@ -5,7 +5,7 @@ slug: owasp-zap-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-scanner/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: playwright-page-data-extractor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/playwright-page-data-extractor/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Claude Code
 ---

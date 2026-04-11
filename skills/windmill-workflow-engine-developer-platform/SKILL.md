@@ -5,7 +5,7 @@ slug: windmill-workflow-engine-developer-platform
 verification: security_reviewed
 source: https://github.com/windmill-labs/windmill
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

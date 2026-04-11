@@ -5,7 +5,7 @@ slug: jsdoc-javascript-api-documentation-generator
 verification: security_reviewed
 source: https://github.com/jsdoc/jsdoc
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Custom Agents
 tool_ecosystem:

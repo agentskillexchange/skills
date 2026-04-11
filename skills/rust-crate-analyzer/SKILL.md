@@ -5,7 +5,7 @@ slug: rust-crate-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/rust-crate-analyzer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Codex
 ---

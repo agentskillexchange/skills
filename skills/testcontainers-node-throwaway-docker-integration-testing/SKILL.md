@@ -5,7 +5,7 @@ slug: testcontainers-node-throwaway-docker-integration-testing
 verification: listed
 source: https://github.com/testcontainers/testcontainers-node
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:

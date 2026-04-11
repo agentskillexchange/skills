@@ -5,7 +5,7 @@ slug: aws-cloudwatch-composite-alarm-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

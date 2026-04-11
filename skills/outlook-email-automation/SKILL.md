@@ -5,7 +5,7 @@ slug: outlook-email-automation
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/outlook-email-automation/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: bearer-cli-sast-code-security-privacy-scanner
 verification: security_reviewed
 source: https://github.com/Bearer/bearer
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 tool_ecosystem:

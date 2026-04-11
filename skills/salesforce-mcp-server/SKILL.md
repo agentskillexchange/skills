@@ -5,7 +5,7 @@ slug: salesforce-mcp-server
 verification: security_reviewed
 source: https://github.com/jsforce/jsforce
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

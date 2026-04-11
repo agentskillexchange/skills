@@ -5,7 +5,7 @@ slug: docker-image-layer-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/docker-image-layer-analyzer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

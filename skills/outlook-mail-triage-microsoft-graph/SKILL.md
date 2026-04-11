@@ -5,7 +5,7 @@ slug: outlook-mail-triage-microsoft-graph
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/outlook-mail-triage-microsoft-graph/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Agents
 ---

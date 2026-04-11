@@ -5,7 +5,7 @@ slug: ffmpeg-batch-transcode-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-batch-transcode-pipeline/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Custom Agents
 ---

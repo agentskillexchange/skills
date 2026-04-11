@@ -5,7 +5,7 @@ slug: develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrail
 verification: listed
 source: https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

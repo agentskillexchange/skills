@@ -5,7 +5,7 @@ slug: grafana-dashboard-snapshot-exporter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---

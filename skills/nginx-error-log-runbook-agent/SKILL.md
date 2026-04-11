@@ -5,7 +5,7 @@ slug: nginx-error-log-runbook-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-log-runbook-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

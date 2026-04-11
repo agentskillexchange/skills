@@ -5,7 +5,7 @@ slug: asyncapi-event-catalog-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/asyncapi-event-catalog-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

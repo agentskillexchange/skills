@@ -5,7 +5,7 @@ slug: yt-dlp-feature-rich-audio-video-downloader-cli
 verification: security_reviewed
 source: https://github.com/yt-dlp/yt-dlp
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

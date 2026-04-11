@@ -5,7 +5,7 @@ slug: openai-image-gen
 verification: security_reviewed
 source: https://github.com/openai/openai-node
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: textstat-python-readability-statistics-calculator
 verification: security_reviewed
 source: https://github.com/textstat/textstat
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:

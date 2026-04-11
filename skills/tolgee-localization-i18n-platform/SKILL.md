@@ -5,7 +5,7 @@ slug: tolgee-localization-i18n-platform
 verification: security_reviewed
 source: https://github.com/tolgee/tolgee-platform
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

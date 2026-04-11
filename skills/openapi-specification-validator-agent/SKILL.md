@@ -5,13 +5,13 @@ slug: openapi-specification-validator-agent
 verification: security_reviewed
 source: https://github.com/APIDevTools/swagger-parser
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 tool_ecosystem:
   github_repo: APIDevTools/swagger-parser
   github_stars: 1194
-  ase_npm_package: '@apidevtools/swagger-parser'
+  ase_npm_package: @apidevtools/swagger-parser
   npm_weekly_downloads: 3732285
 ---
 # OpenAPI Specification Validator

@@ -5,7 +5,7 @@ slug: pod-crashloop-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pod-crashloop-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Custom Agents
 ---

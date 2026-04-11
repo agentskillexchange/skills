@@ -5,7 +5,7 @@ slug: microsoft-graph-mail-triage-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/microsoft-graph-mail-triage-agent/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Gemini
 ---

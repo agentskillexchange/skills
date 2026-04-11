@@ -5,7 +5,7 @@ slug: terraform-module-registry
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/terraform-module-registry/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

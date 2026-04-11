@@ -5,7 +5,7 @@ slug: prometheus-alertmanager-rule-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alertmanager-rule-optimizer/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---

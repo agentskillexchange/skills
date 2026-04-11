@@ -5,7 +5,7 @@ slug: kubernetes-pod-crash-investigator-3
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-pod-crash-investigator-3/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Codex
 ---

@@ -11,7 +11,6 @@ framework:
 tool_ecosystem:
   github_repo: sharkdp/pastel
   github_stars: 6301
-  license: Apache-2.0
 ---
 # pastel Command-Line Color Generation Analysis and Manipulation Tool
 

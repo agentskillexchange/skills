@@ -5,7 +5,7 @@ slug: kestra-event-driven-orchestration-scheduling-platform
 verification: security_reviewed
 source: https://github.com/kestra-io/kestra
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

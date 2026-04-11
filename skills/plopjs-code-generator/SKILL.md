@@ -5,7 +5,7 @@ slug: plopjs-code-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/plopjs-code-generator/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Cursor
 ---

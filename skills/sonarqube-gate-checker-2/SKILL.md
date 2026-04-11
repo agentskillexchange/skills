@@ -5,7 +5,7 @@ slug: sonarqube-gate-checker-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-gate-checker-2/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Claude Code
 ---

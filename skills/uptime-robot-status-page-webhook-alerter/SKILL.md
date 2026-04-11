@@ -5,7 +5,7 @@ slug: uptime-robot-status-page-webhook-alerter
 verification: security_reviewed
 source: https://uptimerobot.com/api/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

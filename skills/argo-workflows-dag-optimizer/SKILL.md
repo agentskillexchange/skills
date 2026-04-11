@@ -5,7 +5,7 @@ slug: argo-workflows-dag-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/argo-workflows-dag-optimizer/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

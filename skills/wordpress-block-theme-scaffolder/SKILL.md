@@ -5,7 +5,7 @@ slug: wordpress-block-theme-scaffolder
 verification: security_reviewed
 source: https://developer.wordpress.org/block-editor/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Claude Code
 ---

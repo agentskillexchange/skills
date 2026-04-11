@@ -5,7 +5,7 @@ slug: miniflux-self-hosted-rss-feed-reader-and-automation-api
 verification: security_reviewed
 source: https://github.com/miniflux/v2
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

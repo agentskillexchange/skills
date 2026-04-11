@@ -5,7 +5,7 @@ slug: ruff-python-linter-configurator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ruff-python-linter-configurator/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

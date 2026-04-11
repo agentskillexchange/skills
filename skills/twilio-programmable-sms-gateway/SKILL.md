@@ -5,7 +5,7 @@ slug: twilio-programmable-sms-gateway
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/twilio-programmable-sms-gateway/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - OpenClaw
 ---

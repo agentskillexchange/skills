@@ -5,7 +5,7 @@ slug: remotion-programmatic-video-creator
 verification: security_reviewed
 source: https://github.com/remotion-dev/remotion
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:

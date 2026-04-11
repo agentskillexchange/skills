@@ -5,7 +5,7 @@ slug: playwright-test-recorder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/playwright-test-recorder/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: live-stream-audio-monitor
 verification: security_reviewed
 source: https://github.com/FFmpeg/FFmpeg
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Claude Code
 tool_ecosystem:

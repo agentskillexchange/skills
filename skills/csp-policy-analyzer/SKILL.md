@@ -5,7 +5,7 @@ slug: csp-policy-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/csp-policy-analyzer/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Agents
 ---

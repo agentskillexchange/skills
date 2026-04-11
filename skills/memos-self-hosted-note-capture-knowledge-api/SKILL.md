@@ -5,7 +5,7 @@ slug: memos-self-hosted-note-capture-knowledge-api
 verification: security_reviewed
 source: https://github.com/usememos/memos
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:

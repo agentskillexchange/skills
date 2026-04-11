@@ -5,7 +5,7 @@ slug: zapier-webhooks-by-zapier-router
 verification: security_reviewed
 source: https://github.com/zapier/zapier-platform
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: scrapy-spider-data-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/scrapy-spider-data-pipeline/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---

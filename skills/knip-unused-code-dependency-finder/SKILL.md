@@ -5,7 +5,7 @@ slug: knip-unused-code-dependency-finder
 verification: security_reviewed
 source: https://github.com/webpro-nl/knip
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:

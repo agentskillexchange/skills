@@ -5,7 +5,7 @@ slug: dbt-model-lineage-mapper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dbt-model-lineage-mapper/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

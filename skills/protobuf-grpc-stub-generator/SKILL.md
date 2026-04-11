@@ -5,7 +5,7 @@ slug: protobuf-grpc-stub-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Cursor
 ---

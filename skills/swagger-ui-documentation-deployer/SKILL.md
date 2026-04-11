@@ -5,7 +5,7 @@ slug: swagger-ui-documentation-deployer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - OpenClaw
 ---

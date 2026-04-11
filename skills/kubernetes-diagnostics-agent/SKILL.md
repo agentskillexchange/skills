@@ -5,7 +5,7 @@ slug: kubernetes-diagnostics-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 ---

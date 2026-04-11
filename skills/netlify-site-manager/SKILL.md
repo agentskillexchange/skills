@@ -5,7 +5,7 @@ slug: netlify-site-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/netlify-site-manager/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: sbom-generator-cyclonedx
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sbom-generator-cyclonedx/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Gemini
 ---

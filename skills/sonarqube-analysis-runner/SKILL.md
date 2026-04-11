@@ -5,7 +5,7 @@ slug: sonarqube-analysis-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sonarqube-analysis-runner/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - OpenClaw
 ---

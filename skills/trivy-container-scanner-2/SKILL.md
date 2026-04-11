@@ -5,7 +5,7 @@ slug: trivy-container-scanner-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/trivy-container-scanner-2/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---

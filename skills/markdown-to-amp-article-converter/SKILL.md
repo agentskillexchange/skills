@@ -5,7 +5,7 @@ slug: markdown-to-amp-article-converter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/markdown-to-amp-article-converter/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Codex
 ---

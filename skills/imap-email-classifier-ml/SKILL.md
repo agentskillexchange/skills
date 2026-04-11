@@ -5,7 +5,7 @@ slug: imap-email-classifier-ml
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/imap-email-classifier-ml/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - ChatGPT Agents
 ---

@@ -5,7 +5,7 @@ slug: prefect-python-workflow-orchestration-data-pipelines
 verification: security_reviewed
 source: https://github.com/PrefectHQ/prefect
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 tool_ecosystem:

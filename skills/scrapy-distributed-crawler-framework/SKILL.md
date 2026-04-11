@@ -5,7 +5,7 @@ slug: scrapy-distributed-crawler-framework
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - MCP
 ---

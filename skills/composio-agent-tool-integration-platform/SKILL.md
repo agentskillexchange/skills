@@ -5,7 +5,7 @@ slug: composio-agent-tool-integration-platform
 verification: security_reviewed
 source: https://github.com/ComposioHQ/composio
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: prometheus-alert-rule-generator-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-rule-generator-2/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Code
 ---

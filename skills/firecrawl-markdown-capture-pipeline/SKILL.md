@@ -5,7 +5,7 @@ slug: firecrawl-markdown-capture-pipeline
 verification: security_reviewed
 source: https://github.com/firecrawl/firecrawl
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Codex
 tool_ecosystem:

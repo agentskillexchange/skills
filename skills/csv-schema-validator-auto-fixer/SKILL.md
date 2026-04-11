@@ -5,7 +5,7 @@ slug: csv-schema-validator-auto-fixer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/csv-schema-validator-auto-fixer/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: format-plain-text-drafts-for-clean-substack-paste
 verification: security_reviewed
 source: https://github.com/openclaw/skills/tree/main/skills/maddiedreese/substack-formatter
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - OpenClaw
 ---

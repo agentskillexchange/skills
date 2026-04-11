@@ -5,7 +5,7 @@ slug: apache-kafka-stream-transformer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Cursor
 ---

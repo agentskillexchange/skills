@@ -5,7 +5,7 @@ slug: supabase-mcp-server-database-project-management
 verification: security_reviewed
 source: https://github.com/supabase-community/supabase-mcp
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

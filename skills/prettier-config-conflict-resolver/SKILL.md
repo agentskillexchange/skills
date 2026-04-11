@@ -5,7 +5,7 @@ slug: prettier-config-conflict-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prettier-config-conflict-resolver/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Gemini
 ---

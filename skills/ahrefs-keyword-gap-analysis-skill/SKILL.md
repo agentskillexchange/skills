@@ -5,7 +5,7 @@ slug: ahrefs-keyword-gap-analysis-skill
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ahrefs-keyword-gap-analysis-skill/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - ChatGPT Agents
 ---

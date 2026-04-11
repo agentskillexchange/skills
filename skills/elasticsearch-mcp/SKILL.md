@@ -5,7 +5,7 @@ slug: elasticsearch-mcp
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/elasticsearch-mcp/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---

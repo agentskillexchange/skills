@@ -5,13 +5,12 @@ slug: hugo-static-site-generator-cms-framework
 verification: security_reviewed
 source: https://github.com/gohugoio/hugo
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: gohugoio/hugo
   github_stars: 87352
-  license: Apache-2.0
 ---
 # Hugo Fast Static Site Generator and CMS Framework
 

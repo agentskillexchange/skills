@@ -5,7 +5,7 @@ slug: extract-structured-data-and-attachments-from-raw-email-mailparser
 verification: listed
 source: https://github.com/nodemailer/mailparser
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

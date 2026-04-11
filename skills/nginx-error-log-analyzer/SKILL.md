@@ -5,7 +5,7 @@ slug: nginx-error-log-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-log-analyzer/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

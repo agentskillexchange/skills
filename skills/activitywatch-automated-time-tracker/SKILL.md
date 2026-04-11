@@ -5,7 +5,7 @@ slug: activitywatch-automated-time-tracker
 verification: security_reviewed
 source: https://github.com/ActivityWatch/activitywatch
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

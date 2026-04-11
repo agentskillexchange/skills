@@ -5,7 +5,7 @@ slug: stripe-reporting-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-reporting-agent/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 ---

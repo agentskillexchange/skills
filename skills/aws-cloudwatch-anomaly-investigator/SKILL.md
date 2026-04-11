@@ -5,7 +5,7 @@ slug: aws-cloudwatch-anomaly-investigator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-investigator/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

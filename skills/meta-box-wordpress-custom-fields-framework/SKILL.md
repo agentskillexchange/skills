@@ -5,7 +5,7 @@ slug: meta-box-wordpress-custom-fields-framework
 verification: security_reviewed
 source: https://github.com/wpmetabox/meta-box
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

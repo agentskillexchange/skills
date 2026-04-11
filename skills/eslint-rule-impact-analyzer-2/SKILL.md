@@ -5,7 +5,7 @@ slug: eslint-rule-impact-analyzer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-rule-impact-analyzer-2/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Cursor
 ---

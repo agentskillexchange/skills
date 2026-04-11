@@ -5,7 +5,7 @@ slug: markdownlint-cli2-markdown-linting-docs-repos
 verification: security_reviewed
 source: https://github.com/DavidAnson/markdownlint-cli2
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 740
   ase_npm_package: markdownlint-cli2
   npm_weekly_downloads: 522496
-  license: MIT
 ---
 # markdownlint-cli2 Markdown Linting for Docs and Repos
 

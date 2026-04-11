@@ -5,7 +5,7 @@ slug: headless-cms-graphql-connector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/headless-cms-graphql-connector/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Gemini
 ---

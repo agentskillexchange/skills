@@ -5,7 +5,7 @@ slug: nginx-error-pattern-analyzer-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-pattern-analyzer-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Custom Agents
 ---

@@ -5,13 +5,12 @@ slug: audiowaveform-bbc-waveform-generator
 verification: security_reviewed
 source: https://github.com/bbc/audiowaveform
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: bbc/audiowaveform
   github_stars: 2130
-  license: GPL-3.0
 ---
 # audiowaveform Audio Waveform Data Generator and Image Renderer
 

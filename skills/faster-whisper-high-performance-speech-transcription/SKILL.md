@@ -5,13 +5,12 @@ slug: faster-whisper-high-performance-speech-transcription
 verification: security_reviewed
 source: https://github.com/SYSTRAN/faster-whisper
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: SYSTRAN/faster-whisper
   github_stars: 21865
-  license: MIT
 ---
 # faster-whisper High-Performance Speech Transcription Engine
 

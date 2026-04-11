@@ -5,7 +5,7 @@ slug: jnv-interactive-json-navigator
 verification: security_reviewed
 source: https://github.com/ynqa/jnv
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

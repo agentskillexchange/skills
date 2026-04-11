@@ -5,7 +5,7 @@ slug: seo-schema-markup-generator-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/seo-schema-markup-generator-agent/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - OpenClaw
 ---

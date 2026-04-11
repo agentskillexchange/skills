@@ -5,13 +5,12 @@ slug: pages-cms-github-content-management
 verification: security_reviewed
 source: https://github.com/pagescms/pagescms
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: pagescms/pagescms
   github_stars: 3542
-  license: MIT
 ---
 # Pages CMS Open Source Content Management for GitHub Repositories
 

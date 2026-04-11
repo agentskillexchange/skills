@@ -5,7 +5,7 @@ slug: rive-runtime-animation-controller
 verification: security_reviewed
 source: https://github.com/rive-app/rive-react
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - ChatGPT Agents
 tool_ecosystem:

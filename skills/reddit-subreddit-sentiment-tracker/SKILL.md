@@ -5,7 +5,7 @@ slug: reddit-subreddit-sentiment-tracker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---

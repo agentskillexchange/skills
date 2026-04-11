@@ -5,7 +5,7 @@ slug: nx-workspace-generator-toolkit
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nx-workspace-generator-toolkit/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Cursor
 ---

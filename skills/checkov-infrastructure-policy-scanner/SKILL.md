@@ -5,7 +5,7 @@ slug: checkov-infrastructure-policy-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/checkov-infrastructure-policy-scanner/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Codex
 ---

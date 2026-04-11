@@ -5,7 +5,7 @@ slug: metabase-open-source-business-intelligence-and-embedded-analytics
 verification: security_reviewed
 source: https://github.com/metabase/metabase
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: rest-api-documentation-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/rest-api-documentation-generator/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: checkov-iac-scanner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/checkov-iac-scanner/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Custom Agents
 ---

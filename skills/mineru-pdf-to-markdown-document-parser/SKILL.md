@@ -5,7 +5,7 @@ slug: mineru-pdf-to-markdown-document-parser
 verification: security_reviewed
 source: https://github.com/opendatalab/MinerU
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

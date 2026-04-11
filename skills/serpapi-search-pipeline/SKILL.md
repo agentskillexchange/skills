@@ -5,7 +5,7 @@ slug: serpapi-search-pipeline
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/serpapi-search-pipeline/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - OpenClaw
 ---

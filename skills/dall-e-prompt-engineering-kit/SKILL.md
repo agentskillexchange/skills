@@ -5,7 +5,7 @@ slug: dall-e-prompt-engineering-kit
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/dall-e-prompt-engineering-kit/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - ChatGPT Agents
 ---

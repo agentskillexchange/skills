@@ -5,7 +5,7 @@ slug: anyquery-universal-sql-engine-mcp-integration
 verification: security_reviewed
 source: https://github.com/julien040/anyquery
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 tool_ecosystem:

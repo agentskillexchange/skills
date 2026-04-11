@@ -5,7 +5,7 @@ slug: schema-org-markup-generator-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/schema-org-markup-generator-agent/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - MCP
 ---

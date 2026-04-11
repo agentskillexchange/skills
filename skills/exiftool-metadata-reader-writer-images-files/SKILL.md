@@ -5,7 +5,7 @@ slug: exiftool-metadata-reader-writer-images-files
 verification: security_reviewed
 source: https://github.com/exiftool/exiftool
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

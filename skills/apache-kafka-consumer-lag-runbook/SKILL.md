@@ -5,7 +5,7 @@ slug: apache-kafka-consumer-lag-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

@@ -5,7 +5,7 @@ slug: scrapy-python-web-crawling-structured-data-extraction-framework
 verification: security_reviewed
 source: https://github.com/scrapy/scrapy
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Multi-Framework
 tool_ecosystem:

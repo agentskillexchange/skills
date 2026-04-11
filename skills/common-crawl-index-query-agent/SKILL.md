@@ -5,7 +5,7 @@ slug: common-crawl-index-query-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/common-crawl-index-query-agent/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - OpenClaw
 ---

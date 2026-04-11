@@ -5,7 +5,7 @@ slug: prometheus-alert-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 ---

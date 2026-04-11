@@ -5,7 +5,7 @@ slug: orama-embeddable-search-engine-rag-pipeline
 verification: security_reviewed
 source: https://github.com/oramasearch/orama
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

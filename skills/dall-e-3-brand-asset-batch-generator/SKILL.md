@@ -5,7 +5,7 @@ slug: dall-e-3-brand-asset-batch-generator
 verification: security_reviewed
 source: https://platform.openai.com/docs/guides/images
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: vitepress-documentation-site-generator
 verification: security_reviewed
 source: https://github.com/vuejs/vitepress
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 ---

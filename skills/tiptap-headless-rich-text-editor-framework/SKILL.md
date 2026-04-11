@@ -5,7 +5,7 @@ slug: tiptap-headless-rich-text-editor-framework
 verification: security_reviewed
 source: https://github.com/ueberdosis/tiptap
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Multi-Framework
 tool_ecosystem:
@@ -13,7 +13,6 @@ tool_ecosystem:
   github_stars: 35948
   ase_npm_package: tiptap
   npm_weekly_downloads: 39977
-  license: MIT
 ---
 # Tiptap Headless Rich Text Editor Framework for Web Applications
 

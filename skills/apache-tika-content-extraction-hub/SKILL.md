@@ -5,7 +5,7 @@ slug: apache-tika-content-extraction-hub
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-tika-content-extraction-hub/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---

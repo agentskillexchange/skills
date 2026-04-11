@@ -5,7 +5,7 @@ slug: eslint-rule-configurator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-rule-configurator/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Custom Agents
 ---

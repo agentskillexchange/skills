@@ -5,7 +5,7 @@ slug: twilio-mcp-server
 verification: security_reviewed
 source: https://github.com/twilio/twilio-node
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: atlassian-rovo-mcp-server
 verification: security_reviewed
 source: https://github.com/atlassian/atlassian-mcp-server
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - MCP
 tool_ecosystem:

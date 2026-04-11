@@ -5,7 +5,7 @@ slug: inbox-zero-ai-email-assistant
 verification: security_reviewed
 source: https://github.com/elie222/inbox-zero
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 tool_ecosystem:

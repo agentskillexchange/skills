@@ -5,7 +5,7 @@ slug: ahrefs-content-gap-finder-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ahrefs-content-gap-finder-agent/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - OpenClaw
 ---

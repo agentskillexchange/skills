@@ -5,7 +5,7 @@ slug: prometheus-alert-tuner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-tuner/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Gemini
 ---

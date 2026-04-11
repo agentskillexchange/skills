@@ -5,7 +5,7 @@ slug: nylas-sdk-email-calendar-contacts
 verification: security_reviewed
 source: https://github.com/nylas/nylas-python
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---

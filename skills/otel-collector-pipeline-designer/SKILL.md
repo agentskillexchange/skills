@@ -5,7 +5,7 @@ slug: otel-collector-pipeline-designer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

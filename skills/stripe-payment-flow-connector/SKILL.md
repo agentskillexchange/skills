@@ -5,7 +5,7 @@ slug: stripe-payment-flow-connector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-payment-flow-connector/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Cursor
 ---

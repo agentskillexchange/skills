@@ -5,7 +5,7 @@ slug: postgresql-diagnostic-runbook
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - ChatGPT Agents
 ---

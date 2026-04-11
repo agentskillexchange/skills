@@ -5,7 +5,7 @@ slug: eslint-autofix-orchestrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/eslint-autofix-orchestrator/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: postgresql-slow-query-runbook-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/postgresql-slow-query-runbook-agent/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---

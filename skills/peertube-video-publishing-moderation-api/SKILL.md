@@ -5,7 +5,7 @@ slug: peertube-video-publishing-moderation-api
 verification: security_reviewed
 source: https://github.com/Chocobozzz/PeerTube
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Multi-Framework
 ---

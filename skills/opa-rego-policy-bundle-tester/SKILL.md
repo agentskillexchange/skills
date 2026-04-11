@@ -5,7 +5,7 @@ slug: opa-rego-policy-bundle-tester
 verification: security_reviewed
 source: https://github.com/open-policy-agent/opa
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - OpenClaw
 tool_ecosystem:

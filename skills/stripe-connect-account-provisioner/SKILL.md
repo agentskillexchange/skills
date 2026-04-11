@@ -5,7 +5,7 @@ slug: stripe-connect-account-provisioner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-connect-account-provisioner/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - OpenClaw
 ---

@@ -5,13 +5,13 @@ slug: slack-bolt-event-subscription-debugger
 verification: security_reviewed
 source: https://github.com/slackapi/bolt-js
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Claude Code
 tool_ecosystem:
   github_repo: slackapi/bolt-js
   github_stars: 2898
-  ase_npm_package: '@slack/bolt'
+  ase_npm_package: @slack/bolt
   npm_weekly_downloads: 1953184
 ---
 # Slack Bolt Event Subscription Debugger

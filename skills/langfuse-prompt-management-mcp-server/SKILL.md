@@ -5,7 +5,7 @@ slug: langfuse-prompt-management-mcp-server
 verification: security_reviewed
 source: https://github.com/langfuse/mcp-server-langfuse
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - MCP
 tool_ecosystem:

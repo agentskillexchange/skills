@@ -5,7 +5,7 @@ slug: langflow-visual-ai-agent-workflow-builder
 verification: security_reviewed
 source: https://github.com/langflow-ai/langflow
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 tool_ecosystem:

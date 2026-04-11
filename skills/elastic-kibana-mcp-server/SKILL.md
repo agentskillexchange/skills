@@ -5,7 +5,7 @@ slug: elastic-kibana-mcp-server
 verification: security_reviewed
 source: https://github.com/elastic/elasticsearch
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - MCP
 tool_ecosystem:

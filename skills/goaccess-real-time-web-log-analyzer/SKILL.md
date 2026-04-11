@@ -5,7 +5,7 @@ slug: goaccess-real-time-web-log-analyzer
 verification: security_reviewed
 source: https://github.com/allinurl/goaccess
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Custom Agents
 tool_ecosystem:

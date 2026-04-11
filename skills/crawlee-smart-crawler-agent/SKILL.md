@@ -5,7 +5,7 @@ slug: crawlee-smart-crawler-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/crawlee-smart-crawler-agent/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Cursor
 ---

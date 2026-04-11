@@ -5,7 +5,7 @@ slug: datadog-apm-trace-analyzer-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 ---

@@ -5,7 +5,7 @@ slug: cloudinary-asset-optimization-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - OpenClaw
 ---

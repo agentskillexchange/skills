@@ -5,7 +5,7 @@ slug: stripe-webhook-signature-verifier
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - ChatGPT Agents
 ---

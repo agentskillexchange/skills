@@ -5,13 +5,12 @@ slug: webhook-http-endpoint-server-shell-commands
 verification: security_reviewed
 source: https://github.com/adnanh/webhook
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Custom Agents
 tool_ecosystem:
   github_repo: adnanh/webhook
   github_stars: 11718
-  license: MIT
 ---
 # Webhook Lightweight HTTP Endpoint Server for Shell Command Execution
 

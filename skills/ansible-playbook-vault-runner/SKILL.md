@@ -5,7 +5,7 @@ slug: ansible-playbook-vault-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-vault-runner/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Claude Code
 ---

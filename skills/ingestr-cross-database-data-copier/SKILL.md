@@ -5,8 +5,8 @@ slug: ingestr-cross-database-data-copier
 verification: security_reviewed
 source: https://github.com/bruin-data/ingestr
 category:
-- Data Extraction & Transformation
-- Integrations & Connectors
+- Data Extraction &amp; Transformation
+- Integrations &amp; Connectors
 framework:
 - Claude Code
 - OpenClaw

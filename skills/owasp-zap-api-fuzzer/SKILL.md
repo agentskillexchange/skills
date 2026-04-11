@@ -5,7 +5,7 @@ slug: owasp-zap-api-fuzzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/owasp-zap-api-fuzzer/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - OpenClaw
 ---

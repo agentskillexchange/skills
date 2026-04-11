@@ -5,7 +5,7 @@ slug: glitchtip-open-source-error-tracking-platform
 verification: security_reviewed
 source: https://gitlab.com/glitchtip/glitchtip-backend
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Multi-Framework
 ---

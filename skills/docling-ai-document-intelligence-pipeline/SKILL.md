@@ -5,7 +5,7 @@ slug: docling-ai-document-intelligence-pipeline
 verification: security_reviewed
 source: https://github.com/docling-project/docling
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Code
 tool_ecosystem:

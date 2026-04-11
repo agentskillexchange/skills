@@ -5,7 +5,7 @@ slug: maildev-smtp-capture-and-email-testing-server
 verification: security_reviewed
 source: https://github.com/maildev/maildev
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

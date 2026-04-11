@@ -5,13 +5,13 @@ slug: bright-data-web-mcp-live-web-access-scraping-tools
 verification: security_reviewed
 source: https://github.com/browserbase/mcp-server-browserbase
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:
   github_repo: browserbase/mcp-server-browserbase
   github_stars: 3238
-  ase_npm_package: '@browserbasehq/mcp'
+  ase_npm_package: @browserbasehq/mcp
   npm_weekly_downloads: 1222
 ---
 # Bright Data Web MCP Live Web Access and Scraping Tools

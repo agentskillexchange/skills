@@ -5,7 +5,7 @@ slug: prettier-format-enforcement-bot
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prettier-format-enforcement-bot/
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: mcp-wordpress-server-docdyhr
 verification: security_reviewed
 source: https://github.com/docdyhr/mcp-wordpress
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - MCP
 ---

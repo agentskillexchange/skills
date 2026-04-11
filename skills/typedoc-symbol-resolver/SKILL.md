@@ -5,7 +5,7 @@ slug: typedoc-symbol-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/typedoc-symbol-resolver/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Claude Agents
 ---

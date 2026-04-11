@@ -5,7 +5,7 @@ slug: biome-high-performance-javascript-typescript-formatter-linter
 verification: security_reviewed
 source: https://github.com/biomejs/biome
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 ---

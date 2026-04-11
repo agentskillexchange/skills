@@ -5,7 +5,7 @@ slug: extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-pa
 verification: listed
 source: https://github.com/i18next/i18next-parser
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Multi-Framework
 ---

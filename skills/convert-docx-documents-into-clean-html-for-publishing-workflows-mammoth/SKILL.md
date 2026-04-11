@@ -5,7 +5,7 @@ slug: convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth
 verification: listed
 source: https://github.com/mwilliamson/mammoth.js
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 ---

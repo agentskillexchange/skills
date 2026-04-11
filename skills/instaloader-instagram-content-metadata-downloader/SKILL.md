@@ -5,7 +5,7 @@ slug: instaloader-instagram-content-metadata-downloader
 verification: security_reviewed
 source: https://github.com/instaloader/instaloader
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Custom Agents
 tool_ecosystem:

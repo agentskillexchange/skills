@@ -5,7 +5,7 @@ slug: salesforce-crm-sync-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/salesforce-crm-sync-agent/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Cursor
 ---

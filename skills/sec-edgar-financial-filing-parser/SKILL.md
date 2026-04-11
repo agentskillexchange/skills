@@ -5,7 +5,7 @@ slug: sec-edgar-financial-filing-parser
 verification: security_reviewed
 source: https://www.sec.gov/edgar/searchedgar/companysearch
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Claude Code
 ---

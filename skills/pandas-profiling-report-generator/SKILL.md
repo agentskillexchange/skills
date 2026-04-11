@@ -5,7 +5,7 @@ slug: pandas-profiling-report-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pandas-profiling-report-generator/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Codex
 ---

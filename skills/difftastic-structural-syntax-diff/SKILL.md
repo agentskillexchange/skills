@@ -5,7 +5,7 @@ slug: difftastic-structural-syntax-diff
 verification: security_reviewed
 source: https://github.com/Wilfred/difftastic
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - OpenClaw
 tool_ecosystem:

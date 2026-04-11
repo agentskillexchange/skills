@@ -5,7 +5,7 @@ slug: incident-response-playbook-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/incident-response-playbook-runner/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - MCP
 - Multi-Framework

@@ -5,7 +5,7 @@ slug: kubernetes-event-stream-analyzer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/kubernetes-event-stream-analyzer/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Gemini
 - Multi-Framework

@@ -5,7 +5,7 @@ slug: npm-dependency-audit-resolver
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/npm-dependency-audit-resolver/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Claude Code
 ---

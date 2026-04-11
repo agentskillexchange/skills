@@ -11,7 +11,6 @@ framework:
 tool_ecosystem:
   github_repo: opentofu/opentofu
   github_stars: 28244
-  license: MPL-2.0
 ---
 # OpenTofu Open Source Infrastructure as Code Tool
 

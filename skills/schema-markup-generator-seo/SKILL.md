@@ -5,7 +5,7 @@ slug: schema-markup-generator-seo
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/schema-markup-generator-seo/
 category:
-- Content Writing & SEO
+- Content Writing &amp; SEO
 framework:
 - Codex
 ---

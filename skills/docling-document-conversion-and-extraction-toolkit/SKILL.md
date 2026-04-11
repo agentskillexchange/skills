@@ -5,7 +5,7 @@ slug: docling-document-conversion-and-extraction-toolkit
 verification: security_reviewed
 source: https://github.com/docling-project/docling
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Multi-Framework
 tool_ecosystem:

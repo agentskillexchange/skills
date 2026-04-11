@@ -5,7 +5,7 @@ slug: parquet-to-postgresql-loader
 verification: listed
 source: https://agentskillexchange.com/skills/parquet-to-postgresql-loader/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Claude Agents
 ---

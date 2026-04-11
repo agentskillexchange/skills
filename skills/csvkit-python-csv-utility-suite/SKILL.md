@@ -5,7 +5,7 @@ slug: csvkit-python-csv-utility-suite
 verification: security_reviewed
 source: https://github.com/wireservice/csvkit
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

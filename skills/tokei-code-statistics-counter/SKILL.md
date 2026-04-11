@@ -5,7 +5,7 @@ slug: tokei-code-statistics-counter
 verification: security_reviewed
 source: https://github.com/XAMPPRocky/tokei
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Claude Code
 tool_ecosystem:

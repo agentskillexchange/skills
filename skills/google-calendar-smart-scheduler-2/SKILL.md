@@ -5,7 +5,7 @@ slug: google-calendar-smart-scheduler-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/google-calendar-smart-scheduler-2/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - OpenClaw
 ---

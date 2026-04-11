@@ -5,7 +5,7 @@ slug: aws-s3-sqs-pipeline-connector
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 ---

@@ -5,7 +5,7 @@ slug: gutenberg-block-pattern-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/gutenberg-block-pattern-generator/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Claude Code
 ---

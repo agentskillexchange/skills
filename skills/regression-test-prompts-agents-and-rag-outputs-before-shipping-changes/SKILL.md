@@ -5,7 +5,7 @@ slug: regression-test-prompts-agents-and-rag-outputs-before-shipping-changes
 verification: listed
 source: https://github.com/promptfoo/promptfoo
 category:
-- Code Quality & Review
+- Code Quality &amp; Review
 framework:
 - Multi-Framework
 tool_ecosystem:

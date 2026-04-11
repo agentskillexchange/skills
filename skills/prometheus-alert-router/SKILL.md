@@ -5,7 +5,7 @@ slug: prometheus-alert-router
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alert-router/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

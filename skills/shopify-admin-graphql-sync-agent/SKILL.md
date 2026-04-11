@@ -5,13 +5,13 @@ slug: shopify-admin-graphql-sync-agent
 verification: security_reviewed
 source: https://github.com/Shopify/shopify-api-js
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - ChatGPT Agents
 tool_ecosystem:
   github_repo: Shopify/shopify-api-js
   github_stars: 959
-  ase_npm_package: '@shopify/shopify-api'
+  ase_npm_package: @shopify/shopify-api
   npm_weekly_downloads: 311088
 ---
 # Shopify Admin GraphQL Sync Agent

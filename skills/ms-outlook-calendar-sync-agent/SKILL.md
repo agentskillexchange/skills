@@ -5,7 +5,7 @@ slug: ms-outlook-calendar-sync-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ms-outlook-calendar-sync-agent/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---

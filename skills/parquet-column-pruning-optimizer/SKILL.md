@@ -5,7 +5,7 @@ slug: parquet-column-pruning-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/parquet-column-pruning-optimizer/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---

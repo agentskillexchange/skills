@@ -5,7 +5,7 @@ slug: notion-workspace-automator-api-v1
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Cursor
 ---

@@ -5,7 +5,7 @@ slug: grafana-oncall-escalation-chain-manager
 verification: security_reviewed
 source: https://github.com/grafana/oncall
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - ChatGPT Agents
 tool_ecosystem:

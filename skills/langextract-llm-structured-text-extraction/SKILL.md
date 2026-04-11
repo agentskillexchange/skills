@@ -5,7 +5,7 @@ slug: langextract-llm-structured-text-extraction
 verification: security_reviewed
 source: https://github.com/google/langextract
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 tool_ecosystem:

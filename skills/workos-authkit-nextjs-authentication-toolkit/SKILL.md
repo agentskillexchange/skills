@@ -5,13 +5,13 @@ slug: workos-authkit-nextjs-authentication-toolkit
 verification: security_reviewed
 source: https://github.com/workos/authkit-nextjs
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: workos/authkit-nextjs
   github_stars: 145
-  ase_npm_package: '@workos-inc/authkit-nextjs'
+  ase_npm_package: @workos-inc/authkit-nextjs
   npm_weekly_downloads: 206799
 ---
 # WorkOS AuthKit Next.js Authentication Toolkit

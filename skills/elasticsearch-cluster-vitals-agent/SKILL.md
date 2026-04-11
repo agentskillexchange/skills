@@ -5,7 +5,7 @@ slug: elasticsearch-cluster-vitals-agent
 verification: security_reviewed
 source: https://github.com/elastic/elasticsearch
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Claude Agents
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: kroki-unified-diagram-rendering-api-server
 verification: security_reviewed
 source: https://github.com/yuzutech/kroki
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Multi-Framework
 ---

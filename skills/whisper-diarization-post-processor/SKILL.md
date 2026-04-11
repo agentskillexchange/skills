@@ -5,7 +5,7 @@ slug: whisper-diarization-post-processor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/whisper-diarization-post-processor/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---

@@ -5,7 +5,7 @@ slug: notion-ai-doc-summarizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/notion-ai-doc-summarizer/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Claude Code
 ---

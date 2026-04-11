@@ -5,7 +5,7 @@ slug: diffbot-article-extraction-verifier
 verification: security_reviewed
 source: https://www.diffbot.com/dev/docs/
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - Claude Agents
 ---

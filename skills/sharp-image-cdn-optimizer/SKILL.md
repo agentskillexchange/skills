@@ -5,7 +5,7 @@ slug: sharp-image-cdn-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sharp-image-cdn-optimizer/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---

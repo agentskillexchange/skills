@@ -5,7 +5,7 @@ slug: stable-diffusion-prompt-optimizer
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Gemini
 ---

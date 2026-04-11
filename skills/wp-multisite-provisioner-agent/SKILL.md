@@ -5,7 +5,7 @@ slug: wp-multisite-provisioner-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - ChatGPT Agents
 ---

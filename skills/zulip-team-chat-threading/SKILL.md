@@ -5,7 +5,7 @@ slug: zulip-team-chat-threading
 verification: security_reviewed
 source: https://github.com/zulip/zulip
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 ---

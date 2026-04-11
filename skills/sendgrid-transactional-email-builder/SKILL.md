@@ -5,7 +5,7 @@ slug: sendgrid-transactional-email-builder
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/sendgrid-transactional-email-builder/
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - MCP
 ---

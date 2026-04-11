@@ -5,7 +5,7 @@ slug: fumadocs-react-documentation-framework-and-docs-site-generator
 verification: security_reviewed
 source: https://github.com/fuma-nama/fumadocs
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: figma-rest-api-asset-exporter
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/figma-rest-api-asset-exporter/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Custom Agents
 ---

@@ -5,7 +5,7 @@ slug: apache-kafka-stream-processor
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-kafka-stream-processor/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - Custom Agents
 ---

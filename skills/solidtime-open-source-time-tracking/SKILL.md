@@ -5,7 +5,7 @@ slug: solidtime-open-source-time-tracking
 verification: security_reviewed
 source: https://github.com/solidtime-io/solidtime
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 ---

@@ -5,7 +5,7 @@ slug: zap-automated-security-scan-orchestrator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/
 category:
-- Security & Verification
+- Security &amp; Verification
 framework:
 - Codex
 ---

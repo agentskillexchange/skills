@@ -5,7 +5,7 @@ slug: ansible-playbook-runner
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ansible-playbook-runner/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

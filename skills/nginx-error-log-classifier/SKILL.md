@@ -5,7 +5,7 @@ slug: nginx-error-log-classifier
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/nginx-error-log-classifier/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - Cursor
 ---

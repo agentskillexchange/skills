@@ -5,7 +5,7 @@ slug: kong-gateway-api-ai-mcp-traffic-control
 verification: security_reviewed
 source: https://github.com/Kong/kong
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 ---

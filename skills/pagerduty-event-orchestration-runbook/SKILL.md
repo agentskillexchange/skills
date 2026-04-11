@@ -5,7 +5,7 @@ slug: pagerduty-event-orchestration-runbook
 verification: security_reviewed
 source: https://developer.pagerduty.com/
 category:
-- Runbooks & Diagnostics
+- Runbooks &amp; Diagnostics
 framework:
 - OpenClaw
 ---

@@ -5,7 +5,7 @@ slug: youtube-chapters-generator-whisper
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/youtube-chapters-generator-whisper/
 category:
-- Media & Transcription
+- Media &amp; Transcription
 framework:
 - Claude Code
 ---

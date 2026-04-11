@@ -5,7 +5,7 @@ slug: apache-avro-schema-evolution-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/apache-avro-schema-evolution-agent/
 category:
-- Data Extraction & Transformation
+- Data Extraction &amp; Transformation
 framework:
 - MCP
 ---

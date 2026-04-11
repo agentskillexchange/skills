@@ -5,7 +5,7 @@ slug: official-firecrawl-mcp-server
 verification: security_reviewed
 source: https://github.com/firecrawl/firecrawl-mcp-server
 category:
-- Research & Scraping
+- Research &amp; Scraping
 framework:
 - MCP
 tool_ecosystem:

@@ -5,13 +5,12 @@ slug: mailhog-smtp-testing-server-with-web-ui-and-api
 verification: security_reviewed
 source: https://github.com/mailhog/MailHog
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Multi-Framework
 tool_ecosystem:
   github_repo: mailhog/mailhog
   github_stars: 15892
-  license: MIT
 ---
 # MailHog SMTP Testing Server with Web UI and API
 

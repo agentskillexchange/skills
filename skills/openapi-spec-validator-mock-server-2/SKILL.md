@@ -5,7 +5,7 @@ slug: openapi-spec-validator-mock-server-2
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Codex
 ---

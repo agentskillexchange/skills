@@ -5,7 +5,7 @@ slug: novu-open-source-notification-infrastructure-platform
 verification: security_reviewed
 source: https://github.com/novuhq/novu
 category:
-- Integrations & Connectors
+- Integrations &amp; Connectors
 framework:
 - Multi-Framework
 tool_ecosystem:

@@ -5,7 +5,7 @@ slug: statamic-laravel-git-powered-cms
 verification: security_reviewed
 source: https://github.com/statamic/cms
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

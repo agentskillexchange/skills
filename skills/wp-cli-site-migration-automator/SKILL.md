@@ -5,7 +5,7 @@ slug: wp-cli-site-migration-automator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/wp-cli-site-migration-automator/
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Codex
 ---

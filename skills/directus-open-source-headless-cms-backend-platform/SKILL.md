@@ -5,7 +5,7 @@ slug: directus-open-source-headless-cms-backend-platform
 verification: security_reviewed
 source: https://github.com/directus/directus
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - Multi-Framework
 tool_ecosystem:

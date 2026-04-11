@@ -5,7 +5,7 @@ slug: pagerduty-incident-runbook-linker
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/pagerduty-incident-runbook-linker/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - OpenClaw
 ---

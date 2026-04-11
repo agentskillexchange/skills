@@ -5,7 +5,7 @@ slug: prometheus-alertmanager-configurator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/prometheus-alertmanager-configurator/
 category:
-- Monitoring & Alerts
+- Monitoring &amp; Alerts
 framework:
 - Custom Agents
 ---

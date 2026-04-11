@@ -5,7 +5,7 @@ slug: vercel-deployment-agent
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/vercel-deployment-agent/
 category:
-- Templates & Workflows
+- Templates &amp; Workflows
 framework:
 - Custom Agents
 ---

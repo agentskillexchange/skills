@@ -5,13 +5,13 @@ slug: automattic-wordpress-remote-mcp
 verification: security_reviewed
 source: https://github.com/Automattic/mcp-wordpress-remote
 category:
-- WordPress & CMS
+- WordPress &amp; CMS
 framework:
 - MCP
 tool_ecosystem:
   github_repo: Automattic/mcp-wordpress-remote
   github_stars: 131
-  ase_npm_package: '@automattic/mcp-wordpress-remote'
+  ase_npm_package: @automattic/mcp-wordpress-remote
   npm_weekly_downloads: 2521
 ---
 # Automattic WordPress Remote MCP

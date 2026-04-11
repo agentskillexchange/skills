@@ -5,7 +5,7 @@ slug: discord-bot-manager
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/discord-bot-manager/
 category:
-- Calendar, Email & Productivity
+- Calendar, Email &amp; Productivity
 framework:
 - Custom Agents
 ---

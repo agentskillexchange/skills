@@ -5,7 +5,7 @@ slug: effect-typescript-standard-library-production
 verification: security_reviewed
 source: https://github.com/Effect-TS/effect
 category:
-- Library & API Reference
+- Library &amp; API Reference
 framework:
 - Multi-Framework
 tool_ecosystem:

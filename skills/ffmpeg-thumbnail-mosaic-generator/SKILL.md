@@ -5,7 +5,7 @@ slug: ffmpeg-thumbnail-mosaic-generator
 verification: security_reviewed
 source: https://agentskillexchange.com/skills/ffmpeg-thumbnail-mosaic-generator/
 category:
-- Image & Creative Automation
+- Image &amp; Creative Automation
 framework:
 - Claude Code
 ---
