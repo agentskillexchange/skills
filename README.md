@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C880-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C883-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C861-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,880 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,883 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -74,8 +74,8 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 118 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 115 | Metrics, alerting rules, observability |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 109 | SDK docs, API parsers, symbol resolvers |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 106 | Linting, code review, test generators, coverage |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 105 | Email automation, calendar management, task coordination |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 103 | Linting, code review, test generators, coverage |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 95 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 91 | Web scraping, UI testing, headless browser control |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 87 | Third-party API bridges, webhooks, service connectors |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,880 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,883 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,861 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -63,7 +63,10 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 581.9k/wk |
+| [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
+| [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 910 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
+| [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | — | — |
 | [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |

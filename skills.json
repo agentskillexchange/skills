@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1880,
+  "total": 1883,
   "generated": "2026-04-11",
   "skills": [
+    {
+      "slug": "broken-link-verification-static-sites-documentation",
+      "name": "Broken Link Verification for Static Sites and Documentation",
+      "description": "Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and return a link-focused validation report before deploy.…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 371
+      }
+    },
+    {
+      "slug": "makefile-linting-ci-build-pipelines",
+      "name": "Makefile Linting for CI and Build Pipelines",
+      "description": "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1188
+      }
+    },
+    {
+      "slug": "template-linting-auto-formatting-django-jinja-repositories",
+      "name": "Template Linting and Auto-Formatting for Django and Jinja Repositories",
+      "description": "Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and style drift, then optionally rewrites them into…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 910
+      }
+    },
     {
       "slug": "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
       "name": "Extract invoice fields from vendor PDFs into structured records",
