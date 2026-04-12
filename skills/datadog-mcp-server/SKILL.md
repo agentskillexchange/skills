@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "DataDog/dd-trace-js"
   github_stars: 790
-  ase_npm_package: "dd-trace"
+  npm_package: "dd-trace"
   npm_weekly_downloads: 5609555
 ---
 

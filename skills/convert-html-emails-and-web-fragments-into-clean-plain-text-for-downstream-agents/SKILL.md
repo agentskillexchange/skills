@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  ase_npm_package: "html-to-text"
+  npm_package: "html-to-text"
   npm_weekly_downloads: 7785292
 ---
 

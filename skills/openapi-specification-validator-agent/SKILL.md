@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194
-  ase_npm_package: "@apidevtools/swagger-parser"
+  npm_package: "@apidevtools/swagger-parser"
   npm_weekly_downloads: 3732285
 ---
 

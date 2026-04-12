@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "publint/publint"
   github_stars: 1252
-  ase_npm_package: "publint"
+  npm_package: "publint"
   npm_weekly_downloads: 585953
 ---
 

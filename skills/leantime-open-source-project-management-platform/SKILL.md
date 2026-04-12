@@ -7,10 +7,6 @@ category:
   - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "leantime/leantime"
-  github_stars: 9460
-  license: "AGPL-3.0"
 ---
 
 # Leantime Open Source Goals-Focused Project Management Platform

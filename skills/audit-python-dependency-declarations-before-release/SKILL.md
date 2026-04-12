@@ -7,6 +7,9 @@ category:
   - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "osprey-oss/deptry"
+  github_stars: 1358
 ---
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release

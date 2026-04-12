@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-python"
   github_stars: 14510
-  license: "Apache-2.0"
 ---
 
 # Playwright Python Browser Automation Library for Cross-Browser Testing

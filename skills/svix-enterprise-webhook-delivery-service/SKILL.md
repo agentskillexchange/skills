@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "svix/svix-webhooks"
   github_stars: 3152
-  license: "MIT"
 ---
 
 # Svix Enterprise Webhook Delivery Service

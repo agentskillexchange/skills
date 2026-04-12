@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "writefreely/writefreely"
   github_stars: 5117
-  license: "AGPL-3.0"
 ---
 
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub

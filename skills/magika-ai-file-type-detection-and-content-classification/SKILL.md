@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "google/magika"
   github_stars: 10199
-  license: "Apache-2.0"
 ---
 
 # Magika AI File Type Detection and Content Classification

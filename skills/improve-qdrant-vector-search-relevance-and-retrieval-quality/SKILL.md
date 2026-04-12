@@ -7,6 +7,9 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "qdrant/skills"
+  github_stars: 60
 ---
 
 # Improve Qdrant vector search relevance and retrieval quality

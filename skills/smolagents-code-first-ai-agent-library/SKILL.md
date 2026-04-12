@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355
-  license: "Apache-2.0"
 ---
 
 # smolagents Code-First AI Agent Library

@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1841
+  npm_package: "netlify-cli"
 ---
 
 # Netlify Site Manager

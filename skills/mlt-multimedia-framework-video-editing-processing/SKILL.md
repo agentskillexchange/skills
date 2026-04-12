@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "mltframework/mlt"
   github_stars: 1745
-  license: "LGPL-2.1"
 ---
 
 # MLT Multimedia Framework for Video Editing and Processing

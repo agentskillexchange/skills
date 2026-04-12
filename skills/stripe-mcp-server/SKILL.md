@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4384
-  ase_npm_package: "stripe"
+  npm_package: "stripe"
   npm_weekly_downloads: 8612885
 ---
 

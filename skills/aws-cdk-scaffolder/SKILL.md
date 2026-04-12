@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12734
+  npm_package: "aws-cdk"
 ---
 
 # AWS CDK Scaffolder

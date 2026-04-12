@@ -10,7 +10,6 @@ framework:
 tool_ecosystem:
   github_repo: "insanum/gcalcli"
   github_stars: 3678
-  license: "MIT"
 ---
 
 # gcalcli Google Calendar Command Line Interface

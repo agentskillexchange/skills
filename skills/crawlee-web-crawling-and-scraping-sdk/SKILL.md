@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22723
+  npm_package: "@crawlee/root"
 ---
 
 # Crawlee Web Crawling and Scraping SDK

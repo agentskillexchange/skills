@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "Automattic/mcp-wordpress-remote"
   github_stars: 131
-  ase_npm_package: "@automattic/mcp-wordpress-remote"
+  npm_package: "@automattic/mcp-wordpress-remote"
   npm_weekly_downloads: 2490
 ---
 

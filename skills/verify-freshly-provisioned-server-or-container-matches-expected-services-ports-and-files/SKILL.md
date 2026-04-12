@@ -7,6 +7,9 @@ category:
   - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "goss-org/goss"
+  github_stars: 5878
 ---
 
 # Verify a freshly provisioned server or container matches expected services, ports, and files

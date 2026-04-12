@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1527
-  ase_npm_package: "twilio"
+  npm_package: "twilio"
   npm_weekly_downloads: 3377332
 ---
 
