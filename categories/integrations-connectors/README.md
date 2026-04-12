@@ -97,6 +97,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
+| [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | 50 | — |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
 | [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | — | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | — | — |

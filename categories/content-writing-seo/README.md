@@ -49,6 +49,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 49.5k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.3k/wk |
+| [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | — |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | — |
@@ -58,6 +59,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
 | [Generate XML sitemaps and robots.txt from route inventories before SEO launch](../../skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | 1.7k | — |
+| [Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames](../../skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/) | 1.6k | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | 1.4k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |

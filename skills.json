@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1929,
+  "total": 1932,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
+      "name": "Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs",
+      "description": "Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone numbers, organizations, and addresses before import or…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 50
+      }
+    },
+    {
+      "slug": "generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames",
+      "name": "Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames",
+      "description": "Use python-slugify when an agent has messy human titles and needs safe, repeatable slugs for URLs, filenames, or record IDs. This skill stays tightly…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1603
+      }
+    },
+    {
+      "slug": "split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms",
+      "name": "Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms",
+      "description": "Use gray-matter when an agent needs to open Markdown or content files, extract structured front matter, and pass clean body text plus metadata into…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4415
+      }
+    },
     {
       "slug": "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps",
       "name": "Force-align narration and transcript text into subtitle or SMIL timing maps",
