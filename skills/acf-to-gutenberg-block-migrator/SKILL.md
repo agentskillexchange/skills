@@ -4,7 +4,7 @@ description: "Converts Advanced Custom Fields field groups into native Gutenberg
 verification: security_reviewed
 source: "https://www.advancedcustomfields.com/"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Codex"
 ---

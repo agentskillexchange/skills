@@ -4,12 +4,9 @@ description: "Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templa
 verification: security_reviewed
 source: "https://github.com/djlint/djLint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "djlint/djLint"
-  github_stars: 910
 ---
 
 # Template Linting and Auto-Formatting for Django and Jinja Repositories

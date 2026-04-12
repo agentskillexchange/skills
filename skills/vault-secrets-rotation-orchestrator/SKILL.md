@@ -4,7 +4,7 @@ description: "Automates HashiCorp Vault secret rotation using the Vault HTTP API
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/vault-secrets-rotation-orchestrator/"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "MCP"
 ---

@@ -4,12 +4,9 @@ description: "Use reg-suit when an agent needs to compare screenshot outputs aga
 verification: security_reviewed
 source: "https://github.com/reg-viz/reg-suit"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "reg-viz/reg-suit"
-  github_stars: 1260
 ---
 
 # Review visual regression diffs and publish snapshot baselines in CI with reg-suit

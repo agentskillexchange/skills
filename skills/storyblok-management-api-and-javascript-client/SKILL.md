@@ -4,7 +4,7 @@ description: "Use Storyblok’s Management API and JavaScript client to automate
 verification: security_reviewed
 source: "https://github.com/storyblok/storyblok-js-client"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

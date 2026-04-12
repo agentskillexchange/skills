@@ -4,7 +4,7 @@ description: "Guides an agent through the exact route, pairing, and auth checks 
 verification: security_reviewed
 source: "https://github.com/openclaw/openclaw/tree/main/skills/node-connect"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "OpenClaw"
 ---

@@ -4,7 +4,7 @@ description: "RealtimeSTT is a Python library for real-time speech-to-text with 
 verification: security_reviewed
 source: "https://github.com/KoljaB/RealtimeSTT"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Custom Agents"
 tool_ecosystem:

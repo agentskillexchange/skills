@@ -4,13 +4,13 @@ description: "Sentry’s official MCP server connects your error monitoring stac
 verification: security_reviewed
 source: "https://github.com/getsentry/sentry-mcp"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 626
-  npm_package: "@sentry/mcp-server"
+  ase_npm_package: "@sentry/mcp-server"
   npm_weekly_downloads: 41729
 ---
 

@@ -4,7 +4,7 @@ description: "AFFiNE is an open source workspace that combines docs, whiteboards
 verification: security_reviewed
 source: "https://github.com/toeverything/AFFiNE"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 ---

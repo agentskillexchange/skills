@@ -4,7 +4,7 @@ description: "Routes and validates inbound automation traffic built around Webho
 verification: security_reviewed
 source: "https://github.com/zapier/zapier-platform"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Custom Agents"
 tool_ecosystem:

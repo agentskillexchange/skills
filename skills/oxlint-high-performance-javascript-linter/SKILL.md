@@ -4,13 +4,13 @@ description: "Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScrip
 verification: security_reviewed
 source: "https://github.com/oxc-project/oxc"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "oxc-project/oxc"
   github_stars: 20468
-  npm_package: "oxlint"
+  ase_npm_package: "oxlint"
   npm_weekly_downloads: 3983578
 ---
 

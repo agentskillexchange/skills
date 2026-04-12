@@ -13,7 +13,7 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30509
-  npm_package: "@playwright/mcp"
+  ase_npm_package: "@playwright/mcp"
   npm_weekly_downloads: 3140002
 ---
 

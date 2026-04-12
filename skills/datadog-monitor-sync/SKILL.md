@@ -4,7 +4,7 @@ description: "Synchronizes Datadog monitor definitions between environments usin
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-monitor-sync/"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Code"
 ---

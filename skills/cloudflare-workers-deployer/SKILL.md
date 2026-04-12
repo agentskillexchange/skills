@@ -4,7 +4,7 @@ description: "Cloudflare Workers Deployer is built around Cloudflare developer p
 verification: security_reviewed
 source: "https://github.com/cloudflare/workers-sdk"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 tool_ecosystem:

@@ -4,7 +4,7 @@ description: "Marker converts PDF, DOCX, PPTX, and image files to clean Markdown
 verification: security_reviewed
 source: "https://github.com/datalab-to/marker"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
 tool_ecosystem:

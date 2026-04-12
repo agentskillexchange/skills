@@ -4,13 +4,13 @@ description: "Use this skill when an agent needs to lint a package before publis
 verification: security_reviewed
 source: "https://github.com/publint/publint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "publint/publint"
   github_stars: 1252
-  npm_package: "publint"
+  ase_npm_package: "publint"
   npm_weekly_downloads: 585953
 ---
 

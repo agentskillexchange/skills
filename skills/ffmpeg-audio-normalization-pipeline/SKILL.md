@@ -4,7 +4,7 @@ description: "Normalizes audio loudness to broadcast standards using FFmpeg loud
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/ffmpeg-audio-normalization-pipeline/"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
 ---

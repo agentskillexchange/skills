@@ -4,7 +4,7 @@ description: "Uses Subaligner to retime an existing subtitle file against the fi
 verification: security_reviewed
 source: "https://github.com/baxtree/subaligner"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

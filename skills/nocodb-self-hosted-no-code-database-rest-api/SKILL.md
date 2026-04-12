@@ -4,13 +4,13 @@ description: "NocoDB turns any SQL database into a smart spreadsheet with a full
 verification: security_reviewed
 source: "https://github.com/nocodb/nocodb"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nocodb/nocodb"
   github_stars: 62560
-  npm_package: "nocodb"
+  ase_npm_package: "nocodb"
   npm_weekly_downloads: 657
 ---
 

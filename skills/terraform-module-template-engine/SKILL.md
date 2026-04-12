@@ -4,7 +4,7 @@ description: "Scaffolds production-ready Terraform modules using HCL templates w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/terraform-module-template-engine/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Gemini"
 ---

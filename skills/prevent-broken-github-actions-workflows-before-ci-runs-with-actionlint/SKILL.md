@@ -4,12 +4,9 @@ description: "Use actionlint when an agent needs to inspect GitHub Actions workf
 verification: security_reviewed
 source: "https://github.com/rhysd/actionlint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "rhysd/actionlint"
-  github_stars: 3779
 ---
 
 # Prevent broken GitHub Actions workflows before CI runs with actionlint

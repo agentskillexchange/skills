@@ -4,7 +4,7 @@ description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-query-analyzer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Gemini"
 ---

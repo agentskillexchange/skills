@@ -4,12 +4,9 @@ description: "Use Qdrant’s official qdrant-search-quality skill when an agent 
 verification: security_reviewed
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "qdrant/skills"
-  github_stars: 60
 ---
 
 # Improve Qdrant vector search relevance and retrieval quality

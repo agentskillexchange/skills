@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "devexpress/testcafe"
   github_stars: 9915
-  npm_package: "testcafe"
+  ase_npm_package: "testcafe"
   npm_weekly_downloads: 202386
   license: "MIT"
 ---

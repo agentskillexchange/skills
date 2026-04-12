@@ -4,7 +4,7 @@ description: "An ASE skill built around the official Mailgun JavaScript SDK for 
 verification: security_reviewed
 source: "https://github.com/mailgun/mailgun.js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 ---

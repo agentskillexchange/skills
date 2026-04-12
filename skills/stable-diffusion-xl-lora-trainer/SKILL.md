@@ -4,7 +4,7 @@ description: "Fine-tune Stable Diffusion XL models with LoRA adapters using the 
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Custom Agents"
 ---

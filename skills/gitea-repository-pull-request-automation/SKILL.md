@@ -4,7 +4,7 @@ description: "Automates repository administration, pull request workflows, issue
 verification: security_reviewed
 source: "https://github.com/go-gitea/gitea"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

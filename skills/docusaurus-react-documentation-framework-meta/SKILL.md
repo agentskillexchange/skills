@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "facebook/docusaurus"
   github_stars: 64315
-  npm_package: "docusaurus"
+  ase_npm_package: "docusaurus"
   npm_weekly_downloads: 18789
   license: "MIT"
 ---

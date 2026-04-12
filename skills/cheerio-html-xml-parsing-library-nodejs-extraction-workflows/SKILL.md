@@ -4,7 +4,7 @@ description: "Cheerio is a long-running Node.js library for parsing and manipula
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 ---

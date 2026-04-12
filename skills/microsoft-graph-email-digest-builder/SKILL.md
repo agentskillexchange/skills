@@ -4,7 +4,7 @@ description: "Generates daily email digests from Microsoft 365 mailboxes using t
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "ChatGPT Agents"
 ---

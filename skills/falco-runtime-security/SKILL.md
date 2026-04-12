@@ -4,7 +4,7 @@ description: "Falco Runtime Security is built around Kubernetes orchestration pl
 verification: security_reviewed
 source: "https://github.com/falcosecurity/falco"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

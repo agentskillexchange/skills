@@ -4,12 +4,9 @@ description: "Use Toxiproxy when an agent needs to inject latency, disconnects, 
 verification: security_reviewed
 source: "https://github.com/Shopify/toxiproxy"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Shopify/toxiproxy"
-  github_stars: 11934
 ---
 
 # Simulate network failures in integration tests with Toxiproxy

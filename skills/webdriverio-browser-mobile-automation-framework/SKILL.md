@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "webdriverio/webdriverio"
   github_stars: 9762
-  npm_package: "webdriverio"
+  ase_npm_package: "webdriverio"
   npm_weekly_downloads: 2684837
   license: "MIT"
 ---

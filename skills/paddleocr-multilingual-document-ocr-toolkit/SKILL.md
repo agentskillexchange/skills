@@ -4,7 +4,7 @@ description: "PaddleOCR is a powerful, lightweight OCR toolkit developed by Baid
 verification: security_reviewed
 source: "https://github.com/PaddlePaddle/PaddleOCR"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

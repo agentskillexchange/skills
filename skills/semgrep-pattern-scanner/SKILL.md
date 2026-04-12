@@ -4,7 +4,7 @@ description: "Executes Semgrep CLI with custom YAML rules and the Semgrep Regist
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-pattern-scanner/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Claude Code"
 ---

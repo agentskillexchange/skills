@@ -4,7 +4,7 @@ description: "This ASE skill uses ghz to run repeatable gRPC load tests from pro
 verification: security_reviewed
 source: "https://github.com/bojand/ghz"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

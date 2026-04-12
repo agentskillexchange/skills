@@ -4,7 +4,7 @@ description: "Scaffolds Kubernetes Helm charts with values.yaml templating, ingr
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/helm-chart-boilerplate-builder/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
 ---

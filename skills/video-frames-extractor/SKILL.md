@@ -4,7 +4,7 @@ description: "Extract frames and short clips from videos.\n\nCore Capabilities\n
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "OpenClaw"
 tool_ecosystem:

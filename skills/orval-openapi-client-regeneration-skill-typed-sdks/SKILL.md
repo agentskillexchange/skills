@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "orval-labs/orval"
   github_stars: 5671
-  npm_package: "orval"
+  ase_npm_package: "orval"
   npm_weekly_downloads: 1093946
 ---
 

@@ -4,7 +4,7 @@ description: "Use dogsheep/github-to-sqlite when an agent needs a local, queryab
 verification: listed
 source: "https://github.com/dogsheep/github-to-sqlite"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -25,10 +25,6 @@ Choose the method that fits your setup:
 3. Install with a compatible skill manager or CLI
 4. Add it to your agent workspace manually
 5. Fork and customize it for your own environment
-
-## Documentation
-
-- [https://github-to-sqlite.dogsheep.net/](https://github-to-sqlite.dogsheep.net/)
 
 ## Source
 

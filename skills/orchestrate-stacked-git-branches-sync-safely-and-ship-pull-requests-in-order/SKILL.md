@@ -4,12 +4,9 @@ description: "Uses Git Town to keep a branch stack healthy by syncing with the m
 verification: security_reviewed
 source: "https://github.com/git-town/git-town"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "git-town/git-town"
-  github_stars: 3140
 ---
 
 # Orchestrate stacked Git branches, sync safely, and ship pull requests in order

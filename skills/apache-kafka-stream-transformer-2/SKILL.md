@@ -4,7 +4,7 @@ description: "Processes real-time event streams using KafkaJS consumer groups an
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Cursor"
 ---

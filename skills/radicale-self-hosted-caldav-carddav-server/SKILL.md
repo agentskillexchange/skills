@@ -4,7 +4,7 @@ description: "Radicale is a lightweight, self-hosted CalDAV and CardDAV server w
 verification: security_reviewed
 source: "https://github.com/Kozea/Radicale"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

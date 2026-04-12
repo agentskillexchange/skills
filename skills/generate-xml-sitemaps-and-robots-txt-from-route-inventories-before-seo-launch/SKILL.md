@@ -4,12 +4,9 @@ description: "Use sitemap when an agent already knows the site routes or content
 verification: security_reviewed
 source: "https://github.com/ekalinin/sitemap.js"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ekalinin/sitemap.js"
-  github_stars: 1708
 ---
 
 # Generate XML sitemaps and robots.txt from route inventories before SEO launch

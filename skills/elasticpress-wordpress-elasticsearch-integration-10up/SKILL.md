@@ -4,7 +4,7 @@ description: "ElasticPress supercharges WordPress search and queries by integrat
 verification: security_reviewed
 source: "https://github.com/10up/ElasticPress"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

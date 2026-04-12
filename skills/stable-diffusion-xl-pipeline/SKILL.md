@@ -4,7 +4,7 @@ description: "Orchestrates SDXL image generation via the Stability AI REST API w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
 ---

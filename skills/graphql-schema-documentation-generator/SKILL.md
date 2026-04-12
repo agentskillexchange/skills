@@ -4,7 +4,7 @@ description: "Generates interactive API documentation from GraphQL schemas using
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-generator/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "MCP"
 ---

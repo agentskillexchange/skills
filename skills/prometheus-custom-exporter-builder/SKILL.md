@@ -4,7 +4,7 @@ description: "Builds custom Prometheus exporters using the prometheus_client Pyt
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/prometheus-custom-exporter-builder/"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Claude Agents"
 ---

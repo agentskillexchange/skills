@@ -4,7 +4,7 @@ description: "Synchronizes data between Notion databases and external sources us
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Claude Agents"
 ---

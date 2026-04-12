@@ -4,7 +4,7 @@ description: "Compiles Protocol Buffer definitions into language-specific gRPC c
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Cursor"
 ---

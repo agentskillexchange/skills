@@ -4,7 +4,7 @@ description: "Use the Anthropic algorithmic-art skill when an agent should turn 
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Claude Agents"
 ---

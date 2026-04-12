@@ -4,12 +4,9 @@ description: "Uses htmltest to crawl generated documentation or static site outp
 verification: security_reviewed
 source: "https://github.com/wjdp/htmltest"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "wjdp/htmltest"
-  github_stars: 371
 ---
 
 # Broken Link Verification for Static Sites and Documentation

@@ -4,7 +4,7 @@ description: "Nango is an integration platform for connecting products and agent
 verification: security_reviewed
 source: "https://github.com/NangoHQ/nango"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
 ---

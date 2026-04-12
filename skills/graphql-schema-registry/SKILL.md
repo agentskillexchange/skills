@@ -4,7 +4,7 @@ description: "Manages GraphQL schema evolution using graphql-inspector for break
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/graphql-schema-registry/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Agents"
 ---

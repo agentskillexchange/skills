@@ -4,7 +4,7 @@ description: "Neon’s official MCP server translates natural language requests 
 verification: security_reviewed
 source: "https://github.com/neondatabase/mcp-server-neon"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
 tool_ecosystem:

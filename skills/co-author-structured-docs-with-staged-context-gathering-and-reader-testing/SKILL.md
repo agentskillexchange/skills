@@ -4,7 +4,7 @@ description: "Use Anthropic’s doc-coauthoring skill to run a disciplined writi
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Claude Agents"
 ---

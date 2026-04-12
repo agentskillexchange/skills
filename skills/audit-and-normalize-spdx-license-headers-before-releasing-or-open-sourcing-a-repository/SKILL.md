@@ -4,7 +4,7 @@ description: "Use REUSE when an agent needs file-level licensing clarity instead
 verification: security_reviewed
 source: "https://codeberg.org/fsfe/reuse-tool"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

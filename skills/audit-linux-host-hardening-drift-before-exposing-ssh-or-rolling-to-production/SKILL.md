@@ -3,14 +3,10 @@ title: "Audit Linux host hardening drift before exposing SSH or rolling to produ
 description: "Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan."
 verification: security_reviewed
 source: "https://github.com/CISOfy/lynis"
-author: "CISOfy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "CISOfy/lynis"
-  github_stars: 15502
 ---
 
 # Audit Linux host hardening drift before exposing SSH or rolling to production
@@ -26,10 +22,6 @@ Choose the method that fits your setup:
 3. Install with a compatible skill manager or CLI
 4. Add it to your agent workspace manually
 5. Fork and customize it for your own environment
-
-## Documentation
-
-- [https://cisofy.com/documentation/lynis/](https://cisofy.com/documentation/lynis/)
 
 ## Source
 

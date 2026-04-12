@@ -4,7 +4,7 @@ description: "Manages Stripe Connect accounts and payment flows using the Stripe
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/stripe-connect-integration/"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "ChatGPT Agents"
 ---

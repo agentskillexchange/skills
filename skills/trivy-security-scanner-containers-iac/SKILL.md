@@ -4,7 +4,7 @@ description: "Trivy is Aqua Security’s scanner for vulnerabilities, misconfigu
 verification: security_reviewed
 source: "https://github.com/aquasecurity/trivy"
 category:
-  - "Security & Verification"
+  - "Security &amp; Verification"
 framework:
   - "Multi-Framework"
 ---

@@ -4,7 +4,7 @@ description: "Storybook Component Tester is built around Storybook component wor
 verification: security_reviewed
 source: "https://github.com/storybookjs/storybook"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Custom Agents"
 tool_ecosystem:

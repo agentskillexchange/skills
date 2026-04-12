@@ -4,7 +4,7 @@ description: "Deploys custom Apify Actors via the Apify API v2 for large-scale w
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Claude Agents"
 ---

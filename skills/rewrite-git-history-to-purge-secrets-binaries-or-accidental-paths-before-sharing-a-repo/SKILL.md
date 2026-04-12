@@ -4,7 +4,7 @@ description: "Use git-filter-repo when an agent needs to surgically rewrite repo
 verification: security_reviewed
 source: "https://github.com/newren/git-filter-repo"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

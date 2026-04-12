@@ -4,13 +4,13 @@ description: "Metabase is an open source business intelligence platform for quer
 verification: security_reviewed
 source: "https://github.com/metabase/metabase"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "metabase/metabase"
   github_stars: 46828
-  npm_package: "metabase"
+  ase_npm_package: "metabase"
   npm_weekly_downloads: 13
 ---
 

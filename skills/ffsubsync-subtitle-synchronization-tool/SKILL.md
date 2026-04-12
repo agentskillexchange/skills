@@ -4,7 +4,7 @@ description: "ffsubsync automatically aligns subtitle files to spoken audio by a
 verification: security_reviewed
 source: "https://github.com/smacke/ffsubsync"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
 ---

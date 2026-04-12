@@ -4,7 +4,7 @@ description: "Creates Spotify Backstage software templates using template.yaml d
 verification: security_reviewed
 source: "https://github.com/backstage/backstage"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Codex"
 tool_ecosystem:

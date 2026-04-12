@@ -4,7 +4,7 @@ description: "Use GitHub Next’s pr-fix workflow when a pull request is blocked
 verification: security_reviewed
 source: "https://github.com/githubnext/agentics/blob/main/docs/pr-fix.md"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Multi-Framework"
 ---

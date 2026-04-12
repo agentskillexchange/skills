@@ -4,7 +4,7 @@ description: "Loki Log Query Agent is built around Grafana Loki log aggregation 
 verification: security_reviewed
 source: "https://github.com/grafana/loki"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "MCP"
 tool_ecosystem:

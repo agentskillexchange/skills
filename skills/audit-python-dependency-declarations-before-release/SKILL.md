@@ -4,12 +4,9 @@ description: "Use Deptry when an agent needs to verify that a Python project’s
 verification: security_reviewed
 source: "https://github.com/osprey-oss/deptry"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "osprey-oss/deptry"
-  github_stars: 1358
 ---
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release

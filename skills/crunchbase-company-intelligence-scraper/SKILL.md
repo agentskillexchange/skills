@@ -4,7 +4,7 @@ description: "Extracts company profiles, funding rounds, and investor data using
 verification: security_reviewed
 source: "https://data.crunchbase.com/docs"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
 ---

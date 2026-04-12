@@ -4,7 +4,7 @@ description: "Elasticsearch MCP is built around Elasticsearch search and analyti
 verification: security_reviewed
 source: "https://github.com/elastic/elasticsearch"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "MCP"
 tool_ecosystem:
