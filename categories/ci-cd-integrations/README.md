@@ -43,6 +43,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
+| [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 579 | — |

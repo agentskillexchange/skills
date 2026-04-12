@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1920,
+  "total": 1923,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "regenerate-helm-chart-readmes-from-values-and-comments-before-release",
+      "name": "Regenerate Helm chart READMEs from values and comments before release",
+      "description": "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1732
+      }
+    },
+    {
+      "slug": "validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply",
+      "name": "Validate Kubernetes manifests against upstream schemas before cluster apply",
+      "description": "Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The agent can review rendered Helm output, raw manifests, or…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2986
+      }
+    },
+    {
+      "slug": "lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy",
+      "name": "Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy",
+      "description": "Uses yamllint to inspect hand-written or generated YAML before it reaches CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and formatting findings…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3360
+      }
+    },
     {
       "slug": "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
       "name": "Search PDFs, Office files, ebooks, and archives with one query before manual review",

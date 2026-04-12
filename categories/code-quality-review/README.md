@@ -65,6 +65,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 162.9k/wk |
 | [Prevent broken GitHub Actions workflows before CI runs with actionlint](../../skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
+| [Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy](../../skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/) | 3.4k | — |
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
