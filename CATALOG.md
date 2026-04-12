@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1923 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 13:23 UTC
+> **1926 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 15:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1209,7 +1209,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (107 skills)
+### 📅 Calendar, Email & Productivity (108 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1262,6 +1262,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | — |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](skills/nylas-sdk-email-calendar-contacts/) | Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts… | Security Reviewed | 106 | — |
+| [Strip quoted email history and signatures before summarizing inbound replies](skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history,… | Published | 78 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | Use mbox-to-sqlite when an agent needs to work across an email archive as structured data instead of parsing one… | Published | 39 | — |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | Use node-ical when an agent is handed a raw .ics file or subscription URL and needs normalized event objects,… | Security Reviewed | — | 127.1k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
@@ -1720,7 +1721,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (85 skills)
+### 📄 Templates & Workflows (86 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1750,6 +1751,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | 4k | — |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 343.3k/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
+| [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Published | 2.4k | — |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | — |
 | [Regenerate Helm chart READMEs from values and comments before release](skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files… | Published | 1.7k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
@@ -1994,7 +1996,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (66 skills)
+### ✍️ Content Writing & SEO (67 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2015,6 +2017,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [lychee Async Broken Link Checker for Websites and Documentation](skills/lychee-async-broken-link-checker/) | lychee is a fast, async, stream-based link checker written in Rust that finds broken URLs and mail addresses inside… | Security Reviewed | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](skills/marp-cli-markdown-presentation-converter/) | Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint… | Security Reviewed | 3.4k | — |
 | [textlint Pluggable Natural Language Linter](skills/textlint-pluggable-natural-language-linter/) | Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community… | Security Reviewed | 3.1k | 104.1k/wk |
+| [Normalize article metadata from URLs before generating link previews or content briefs](skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author,… | Published | 2.7k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](skills/retext-natural-language-processor-unified-plugins/) | retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script… | Security Reviewed | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Security Reviewed | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](skills/serpbear-self-hosted-serp-rank-tracker/) | SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited… | Security Reviewed | 1.9k | — |

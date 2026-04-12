@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1923,
+  "total": 1926,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
+      "name": "Strip quoted email history and signatures before summarizing inbound replies",
+      "description": "Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history, signatures, and common disclaimers. This is useful when…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 78
+      }
+    },
+    {
+      "slug": "export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival",
+      "name": "Export live HTML slide decks to PDF handouts before review or archival",
+      "description": "Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It fits agent workflows that…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2361
+      }
+    },
+    {
+      "slug": "normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs",
+      "name": "Normalize article metadata from URLs before generating link previews or content briefs",
+      "description": "Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author, date, publisher, and lead image. This…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2660
+      }
+    },
     {
       "slug": "regenerate-helm-chart-readmes-from-values-and-comments-before-release",
       "name": "Regenerate Helm chart READMEs from values and comments before release",
