@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1926,
+  "total": 1929,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps",
+      "name": "Force-align narration and transcript text into subtitle or SMIL timing maps",
+      "description": "Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration against fragments of plain text…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2819
+      }
+    },
+    {
+      "slug": "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing",
+      "name": "Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing",
+      "description": "Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 39542
+      }
+    },
+    {
+      "slug": "auto-crop-images-around-the-most-important-subject-before-generating-thumbnails",
+      "name": "Auto-crop images around the most important subject before generating thumbnails",
+      "description": "Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image. The workflow scores visual saliency, returns crop…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 213371
+      }
+    },
     {
       "slug": "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
       "name": "Strip quoted email history and signatures before summarizing inbound replies",

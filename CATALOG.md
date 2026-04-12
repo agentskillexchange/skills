@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1926 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 15:23 UTC
+> **1929 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 17:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1815,7 +1815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (85 skills)
+### 🎙️ Media & Transcription (86 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1860,6 +1860,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion,… | Security Reviewed | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](skills/audioflux-audio-music-analysis-feature-extraction-library/) | audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of… | Security Reviewed | 3.3k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around… | Security Reviewed | 3k | — |
+| [Force-align narration and transcript text into subtitle or SMIL timing maps](skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration… | Published | 2.8k | — |
 | [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Security Reviewed | 2.1k | — |
 | [MLT Multimedia Framework for Video Editing and Processing](skills/mlt-multimedia-framework-video-editing-processing/) | MLT is an open-source LGPL multimedia framework designed for video editing. It provides a toolkit and the melt… | Security Reviewed | 1.7k | — |
@@ -1908,7 +1909,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (80 skills)
+### 🎨 Image & Creative Automation (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -1938,6 +1939,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Security Reviewed | 917 | — |
+| [Auto-crop images around the most important subject before generating thumbnails](skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image.… | Published | — | 213.4k/wk |
 | [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
 | [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
 | [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
@@ -1996,7 +1998,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (67 skills)
+### ✍️ Content Writing & SEO (68 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2029,6 +2031,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Security Reviewed | 44 | — |
+| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources.… | Published | — | 39.5k/wk |
 | [Ahrefs Backlink Content Planner](skills/ahrefs-backlink-content-planner/) | Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls… | Security Reviewed | — | — |
 | [Ahrefs Content Gap Finder](skills/ahrefs-content-gap-finder-agent/) | Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor… | Security Reviewed | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](skills/ahrefs-keyword-gap-analysis-skill/) | Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords… | Security Reviewed | — | — |

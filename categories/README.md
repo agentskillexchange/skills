@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1926 skills** across **17 categories**
+> **1929 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -18,9 +18,9 @@
 | 🔍 | [**Research & Scraping**](research-scraping/) | **89** | Web research, data collection, content aggregation, and information g... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **89** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **86** | Project scaffolding, boilerplate generators, workflow templates, and ... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **85** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **80** | Image generation, asset processing, design automation, and creative t... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **67** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **86** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **81** | Image generation, asset processing, design automation, and creative t... |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **68** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 
