@@ -1,11 +1,11 @@
 ---
 title: "ty Ultra-Fast Python Type Checker and Language Server"
 description: "ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and uv. It delivers 10-100x faster type checking than mypy or Pyright with comprehensive diagnostics, incremental analysis, and first-class editor integrations."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/astral-sh/ty"
-categories:
-  - "Code Quality &amp; Review"
-frameworks:
+category:
+  - "Code Quality & Review"
+framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "astral-sh/ty"
@@ -18,13 +18,13 @@ ty is an extremely fast Python type checker and language server written in Rust 
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

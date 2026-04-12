@@ -1,12 +1,15 @@
 ---
 title: "Google Workspace CLI (gws)"
 description: "Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs. It is designed to remove API boilerplate while keeping responses machine-friendly for agent workflows."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/googleworkspace/cli"
-categories:
-  - "Calendar, Email &amp; Productivity"
-frameworks:
+category:
+  - "Calendar, Email & Productivity"
+framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "googleworkspace/cli"
+  github_stars: 24348
 ---
 
 # Google Workspace CLI (gws)
@@ -15,13 +18,13 @@ Google Workspace CLI, branded as gws, is a command-line tool that gives humans a
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

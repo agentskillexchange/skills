@@ -1,15 +1,16 @@
 ---
 title: "PaddleOCR Multilingual Document OCR and Structured Data Toolkit"
 description: "PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into structured, AI-friendly data like JSON and Markdown. It supports 100+ languages with industry-leading accuracy, bridging the gap between images/PDFs and LLMs."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/PaddlePaddle/PaddleOCR"
-categories:
-  - "Data Extraction &amp; Transformation"
-frameworks:
+category:
+  - "Data Extraction & Transformation"
+framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "paddlepaddle/paddleocr"
   github_stars: 73714
+  license: "Apache-2.0"
 ---
 
 # PaddleOCR Multilingual Document OCR and Structured Data Toolkit
@@ -18,13 +19,13 @@ PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that convert
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

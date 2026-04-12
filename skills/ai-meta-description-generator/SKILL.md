@@ -1,27 +1,27 @@
 ---
 title: "AI Meta Description Generator"
-description: "Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
-verification: "security_reviewed"
+description: "Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
+verification: security_reviewed
 source: "https://platform.openai.com/docs/api-reference"
-categories:
-  - "Content Writing &amp; SEO"
-frameworks:
+category:
+  - "Content Writing & SEO"
+framework:
   - "Claude Agents"
 ---
 
 # AI Meta Description Generator
 
-Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
+Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

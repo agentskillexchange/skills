@@ -1,11 +1,11 @@
 ---
 title: "resvg High-Performance SVG Rendering Library in Rust"
 description: "resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high correctness. It works as a Rust library, C library, CLI tool, and has Node.js bindings via resvg-js for server-side SVG-to-image conversion."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/linebender/resvg"
-categories:
-  - "Image &amp; Creative Automation"
-frameworks:
+category:
+  - "Image & Creative Automation"
+framework:
   - "Multi-Framework"
 ---
 
@@ -15,13 +15,13 @@ resvg is a fast, portable SVG rendering library written in Rust that converts SV
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

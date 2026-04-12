@@ -1,15 +1,16 @@
 ---
 title: "xq Command-Line XML and HTML Beautifier and Content Extractor"
 description: "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector queries, and JSON output conversion for XML and HTML documents."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/sibprogrammer/xq"
-categories:
-  - "Data Extraction &amp; Transformation"
-frameworks:
+category:
+  - "Data Extraction & Transformation"
+framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sibprogrammer/xq"
   github_stars: 1100
+  license: "MIT"
 ---
 
 # xq Command-Line XML and HTML Beautifier and Content Extractor
@@ -18,13 +19,13 @@ xq is a command-line XML and HTML beautifier and content extractor written in Go
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

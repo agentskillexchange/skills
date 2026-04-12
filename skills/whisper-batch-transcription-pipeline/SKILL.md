@@ -1,11 +1,11 @@
 ---
 title: "OpenAI Whisper Batch Transcription Pipeline"
 description: "Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with ffmpeg before transcription. Outputs timestamped SRT and VTT subtitle files plus plain-text transcripts, then uploads artifacts back to S3. Supports language auto-detection and translation to English."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/"
-categories:
-  - "Media &amp; Transcription"
-frameworks:
+category:
+  - "Media & Transcription"
+framework:
   - "OpenClaw"
 ---
 
@@ -15,13 +15,13 @@ Processes audio files from an S3 bucket using Whisper large-v3, splitting record
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

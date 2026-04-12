@@ -1,11 +1,11 @@
 ---
 title: "schema-dts TypeScript Types for Schema.org Structured Data"
 description: "An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org vocabulary. Enables type-safe generation and validation of JSON-LD structured data markup for SEO, rich search results, and knowledge graph integration."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/google/schema-dts"
-categories:
-  - "Content Writing &amp; SEO"
-frameworks:
+category:
+  - "Content Writing & SEO"
+framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "google/schema-dts"
@@ -20,13 +20,13 @@ An agent skill built on schema-dts by Google, which provides complete TypeScript
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

@@ -1,30 +1,31 @@
 ---
 title: "Trellis WordPress LEMP Stack Provisioner by Roots"
-description: "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let&#8217;s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments."
-verification: "security_reviewed"
+description: "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments."
+verification: security_reviewed
 source: "https://github.com/roots/trellis"
-categories:
-  - "WordPress &amp; CMS"
-frameworks:
+category:
+  - "WordPress & CMS"
+framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "roots/trellis"
   github_stars: 2560
+  license: "MIT"
 ---
 
 # Trellis WordPress LEMP Stack Provisioner by Roots
 
-Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let&#8217;s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments.
+Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let’s Encrypt SSL, fail2ban, and zero-downtime deploys across development, staging, and production environments.
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

@@ -1,12 +1,16 @@
 ---
 title: "Storyblok Management API and JavaScript Client"
 description: "Use Storyblok’s Management API and JavaScript client to automate stories, components, assets, spaces, and editorial workflows in a headless CMS stack. This skill is for agents that need to operate Storyblok as a structured content system with schemas, environments, and publish states."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/storyblok/storyblok-js-client"
-categories:
-  - "WordPress &amp; CMS"
-frameworks:
+category:
+  - "WordPress & CMS"
+framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "storyblok/storyblok-js-client"
+  github_stars: 137
+  license: "MIT"
 ---
 
 # Storyblok Management API and JavaScript Client
@@ -15,13 +19,13 @@ Use Storyblok’s Management API and JavaScript client to automate stories, comp
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

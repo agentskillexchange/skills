@@ -1,11 +1,11 @@
 ---
 title: "Pandas DataFrame Pipeline Orchestrator"
 description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-orchestrator/"
-categories:
-  - "Data Extraction &amp; Transformation"
-frameworks:
+category:
+  - "Data Extraction & Transformation"
+framework:
   - "ChatGPT Agents"
 ---
 
@@ -15,13 +15,13 @@ Chains pandas DataFrame transformations into reproducible pipelines using pipe()
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

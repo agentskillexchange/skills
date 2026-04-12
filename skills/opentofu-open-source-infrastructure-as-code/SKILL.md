@@ -1,15 +1,16 @@
 ---
 title: "OpenTofu Open Source Infrastructure as Code Tool"
 description: "OpenTofu is an open-source infrastructure as code tool that lets you declaratively manage cloud and on-premises resources. A CNCF project and community-driven fork of Terraform, it provides execution plans, resource graphs, and change automation for safe infrastructure provisioning."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/opentofu/opentofu"
-categories:
+category:
   - "Developer Tools"
-frameworks:
+framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "opentofu/opentofu"
   github_stars: 28244
+  license: "MPL-2.0"
 ---
 
 # OpenTofu Open Source Infrastructure as Code Tool
@@ -18,13 +19,13 @@ OpenTofu is an open-source infrastructure as code tool that lets you declarative
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

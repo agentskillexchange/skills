@@ -1,11 +1,11 @@
 ---
 title: "Terraform MCP Server for Infrastructure as Code"
 description: "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces, and validate infrastructure configurations through the Model Context Protocol."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/hashicorp/terraform-mcp-server"
-categories:
+category:
   - "Developer Tools"
-frameworks:
+framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "hashicorp/terraform-mcp-server"
@@ -18,13 +18,13 @@ The official HashiCorp Terraform MCP server integrates with the Terraform Regist
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

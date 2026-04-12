@@ -1,11 +1,11 @@
 ---
 title: "Diagnose WordPress repo structure and route follow-up work safely"
 description: "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
-categories:
-  - "WordPress &amp; CMS"
-frameworks:
+category:
+  - "WordPress & CMS"
+framework:
   - "Multi-Framework"
 ---
 
@@ -15,13 +15,13 @@ This skill inspects a WordPress codebase, identifies what kind of project it is,
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

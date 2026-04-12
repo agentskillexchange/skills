@@ -1,11 +1,11 @@
 ---
 title: "Biome Lint Migration Toolkit"
-description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check &#8211;apply for bulk reformatting."
-verification: "security_reviewed"
+description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting."
+verification: security_reviewed
 source: "https://github.com/biomejs/biome"
-categories:
+category:
   - "Developer Tools"
-frameworks:
+framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "biomejs/biome"
@@ -14,17 +14,17 @@ tool_ecosystem:
 
 # Biome Lint Migration Toolkit
 
-Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check &#8211;apply for bulk reformatting.
+Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting.
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

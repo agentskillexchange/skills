@@ -1,11 +1,11 @@
 ---
 title: "Nushell Structured Data Shell"
 description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nushell/nushell"
-categories:
+category:
   - "Developer Tools"
-frameworks:
+framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "nushell/nushell"
@@ -20,13 +20,13 @@ A modern shell that treats all input as structured data rather than plain text s
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

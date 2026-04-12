@@ -1,11 +1,11 @@
 ---
 title: "WordPress Gutenberg Block Scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-gutenberg-block-scaffolder/"
-categories:
-  - "WordPress &amp; CMS"
-frameworks:
+category:
+  - "WordPress & CMS"
+framework:
   - "Claude Code"
 ---
 
@@ -15,13 +15,13 @@ Generates custom Gutenberg blocks using @wordpress/create-block and the Block AP
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

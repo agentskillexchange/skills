@@ -1,30 +1,31 @@
 ---
 title: "smolagents Code-First AI Agent Library"
-description: "smolagents is HuggingFace&#8217;s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly."
-verification: "security_reviewed"
+description: "smolagents is HuggingFace’s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly."
+verification: security_reviewed
 source: "https://github.com/huggingface/smolagents"
-categories:
+category:
   - "Developer Tools"
-frameworks:
+framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
   github_stars: 26355
+  license: "Apache-2.0"
 ---
 
 # smolagents Code-First AI Agent Library
 
-smolagents is HuggingFace&#8217;s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly.
+smolagents is HuggingFace’s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly.
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

@@ -1,11 +1,11 @@
 ---
 title: "CircleCI Orb Dependency Auditor"
 description: "Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor images via Trivy scanning."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-auditor-4/"
-categories:
+category:
   - "CI/CD Integrations"
-frameworks:
+framework:
   - "MCP"
 ---
 
@@ -15,13 +15,13 @@ Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Det
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

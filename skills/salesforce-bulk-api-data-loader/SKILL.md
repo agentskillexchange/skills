@@ -1,11 +1,11 @@
 ---
 title: "Salesforce Bulk API Data Loader"
 description: "Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(), uploads CSV batches, and monitors job status via getJobInfo() for millions of records."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/salesforce-bulk-api-data-loader/"
-categories:
-  - "Data Extraction &amp; Transformation"
-frameworks:
+category:
+  - "Data Extraction & Transformation"
+framework:
   - "Claude Code"
 ---
 
@@ -15,13 +15,13 @@ Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates 
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 

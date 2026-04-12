@@ -1,11 +1,11 @@
 ---
 title: "CircleCI Orb Auditor"
 description: "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
-categories:
+category:
   - "CI/CD Integrations"
-frameworks:
+framework:
   - "Cursor"
 ---
 
@@ -15,13 +15,13 @@ Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags
 
 ## Installation
 
-You can install this skill using one of these methods:
+Choose the method that fits your setup:
 
-1. Install from Agent Skill Exchange in OpenClaw
-2. Install from ClawHub
-3. Copy the skill folder into your local skills directory
-4. Add it as a git submodule or synced folder in your workspace
-5. Use your team or org skill distribution workflow
+1. Install from the Agent Skill Exchange UI
+2. Clone or copy the skill into your local skills directory
+3. Install with a compatible skill manager or CLI
+4. Add it to your agent workspace manually
+5. Fork and customize it for your own environment
 
 ## Source
 
