@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Unstructured-IO/unstructured"
-  github_stars: 14430
+  github_stars: 14437
 ---
 
 # Unstructured Document ETL for LLM Pipelines

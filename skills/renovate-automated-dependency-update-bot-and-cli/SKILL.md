@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "renovatebot/renovate"
-  github_stars: 21262
+  github_stars: 21263
 ---
 
 # Renovate Automated Dependency Update Bot and CLI

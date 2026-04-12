@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "pagefind/pagefind"
   github_stars: 5094
   npm_package: "pagefind"
-  npm_weekly_downloads: 491115
+  npm_weekly_downloads: 492569
   license: "MIT"
 ---
 

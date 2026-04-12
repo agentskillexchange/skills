@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pydantic/logfire"
-  github_stars: 4158
+  github_stars: 4161
   license: "MIT"
 ---
 

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "githubnext/agentics"
-  github_stars: 562
+  github_stars: 579
 ---
 
 # Investigate failing GitHub Actions runs with CI Doctor

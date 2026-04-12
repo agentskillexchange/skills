@@ -9,9 +9,9 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tinyfish-io/agentql"
-  github_stars: 1311
+  github_stars: 1312
   npm_package: "agentql"
-  npm_weekly_downloads: 909
+  npm_weekly_downloads: 893
   license: "MIT"
 ---
 

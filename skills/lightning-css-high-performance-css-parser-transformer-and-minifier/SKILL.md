@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "parcel-bundler/lightningcss"
-  github_stars: 7500
+  github_stars: 7502
 ---
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier

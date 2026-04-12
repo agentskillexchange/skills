@@ -9,7 +9,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "gavrielc/Nano-PDF"
-  github_stars: 1234
+  github_stars: 1236
 ---
 
 # Revise PDF Slides with Natural-Language Edits

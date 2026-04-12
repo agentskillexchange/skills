@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
-  github_stars: 87090
+  github_stars: 87316
 ---
 
 # Browser Use Agentic Browser Control

@@ -9,9 +9,9 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "orval-labs/orval"
-  github_stars: 5666
+  github_stars: 5671
   npm_package: "orval"
-  npm_weekly_downloads: 1093138
+  npm_weekly_downloads: 1093946
 ---
 
 # Orval OpenAPI Client Regeneration Skill for Typed SDKs

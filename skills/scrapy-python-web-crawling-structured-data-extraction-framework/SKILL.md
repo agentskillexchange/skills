@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
-  github_stars: 61258
+  github_stars: 61273
 ---
 
 # Scrapy Python Web Crawling and Structured Data Extraction Framework

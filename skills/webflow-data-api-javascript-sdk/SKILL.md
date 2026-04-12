@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "webflow/js-webflow-api"
-  github_stars: 339
+  github_stars: 340
 ---
 
 # Webflow Data API JavaScript SDK

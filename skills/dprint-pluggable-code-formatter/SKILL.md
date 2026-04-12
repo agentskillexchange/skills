@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "dprint/dprint"
   github_stars: 3857
   npm_package: "dprint"
-  npm_weekly_downloads: 160249
+  npm_weekly_downloads: 162851
   license: "MIT"
 ---
 

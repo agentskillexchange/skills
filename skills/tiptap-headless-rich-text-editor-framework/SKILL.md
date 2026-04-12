@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "ueberdosis/tiptap"
   github_stars: 35948
   npm_package: "tiptap"
-  npm_weekly_downloads: 46139
+  npm_weekly_downloads: 45410
   license: "MIT"
 ---
 

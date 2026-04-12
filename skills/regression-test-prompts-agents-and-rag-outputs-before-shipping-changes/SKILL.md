@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "promptfoo/promptfoo"
-  github_stars: 19922
+  github_stars: 19960
 ---
 
 # Regression-test prompts, agents, and RAG outputs before shipping changes

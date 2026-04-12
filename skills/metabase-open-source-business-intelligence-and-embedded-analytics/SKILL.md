@@ -9,9 +9,9 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "metabase/metabase"
-  github_stars: 46821
+  github_stars: 46828
   npm_package: "metabase"
-  npm_weekly_downloads: 9
+  npm_weekly_downloads: 13
 ---
 
 # Metabase Open Source Business Intelligence and Embedded Analytics

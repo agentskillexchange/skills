@@ -1,9 +1,8 @@
 ---
 title: "Add executable smoke tests for shell scripts and CLIs before refactors ship"
 description: "Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can verify repeatedly after edits. The agent writes focused Bash tests for success paths, failure paths, and output contracts, then runs them locally or in CI before a refactor, release, or incident fix goes out."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/bats-core/bats-core"
-author: "bats-core contributors"
 category:
   - "Developer Tools"
 framework:
@@ -26,10 +25,6 @@ Choose the method that fits your setup:
 3. Install with a compatible skill manager or CLI
 4. Add it to your agent workspace manually
 5. Fork and customize it for your own environment
-
-## Documentation
-
-- [https://bats-core.readthedocs.io/en/stable/](https://bats-core.readthedocs.io/en/stable/)
 
 ## Source
 

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "statamic/cms"
-  github_stars: 4779
+  github_stars: 4782
 ---
 
 # Statamic Laravel Git-Powered CMS

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/playwright-python"
-  github_stars: 14504
+  github_stars: 14510
   license: "Apache-2.0"
 ---
 

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
-  github_stars: 49606
+  github_stars: 49611
 ---
 
 # Cypress End-to-End and Component Testing Framework

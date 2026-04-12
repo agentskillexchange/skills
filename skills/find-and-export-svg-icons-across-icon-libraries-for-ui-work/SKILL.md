@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-icons"
-  github_stars: 906
+  github_stars: 912
 ---
 
 # Find and export SVG icons across icon libraries for UI work

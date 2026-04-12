@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "docling-project/docling"
-  github_stars: 57568
+  github_stars: 57622
 ---
 
 # Docling Document Conversion and Extraction Toolkit

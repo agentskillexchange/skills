@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "unclecode/crawl4ai"
-  github_stars: 63758
+  github_stars: 63814
 ---
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction

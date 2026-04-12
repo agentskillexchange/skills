@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "remotion-dev/remotion"
-  github_stars: 42589
+  github_stars: 42811
 ---
 
 # Remotion React Video Generation and Rendering Framework

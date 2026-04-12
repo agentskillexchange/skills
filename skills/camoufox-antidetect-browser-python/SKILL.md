@@ -9,7 +9,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "daijro/camoufox"
-  github_stars: 7097
+  github_stars: 7103
 ---
 
 # Camoufox Open Source Anti-Detect Browser for Python Automation

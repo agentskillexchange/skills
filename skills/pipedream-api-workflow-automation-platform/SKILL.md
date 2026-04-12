@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PipedreamHQ/pipedream"
-  github_stars: 11229
+  github_stars: 11231
 ---
 
 # Pipedream API Workflow Automation Platform

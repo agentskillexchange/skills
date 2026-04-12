@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/crawlee"
-  github_stars: 22714
+  github_stars: 22723
 ---
 
 # Crawlee Web Crawling and Scraping SDK

@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116
   npm_package: "backstopjs"
-  npm_weekly_downloads: 59794
+  npm_weekly_downloads: 59763
 ---
 
 # BackstopJS Visual Regression Testing Automation

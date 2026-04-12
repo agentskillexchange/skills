@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/gh-aw"
-  github_stars: 4284
+  github_stars: 4286
 ---
 
 # Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows

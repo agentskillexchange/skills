@@ -1,9 +1,8 @@
 ---
 title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
 description: "Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
-verification: listed
+verification: security_reviewed
 source: "https://github.com/osprey-oss/deptry"
-author: "Osprey OSS"
 category:
   - "Code Quality & Review"
 framework:
@@ -26,10 +25,6 @@ Choose the method that fits your setup:
 3. Install with a compatible skill manager or CLI
 4. Add it to your agent workspace manually
 5. Fork and customize it for your own environment
-
-## Documentation
-
-- [https://deptry.com/](https://deptry.com/)
 
 ## Source
 

@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "googleapis/release-please"
-  github_stars: 6696
+  github_stars: 6697
 ---
 
 # Generate release PRs and changelog updates from Conventional Commits

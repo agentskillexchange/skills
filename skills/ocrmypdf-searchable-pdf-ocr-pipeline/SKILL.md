@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ocrmypdf/OCRmyPDF"
-  github_stars: 33192
+  github_stars: 33204
 ---
 
 # OCRmyPDF Searchable PDF OCR Pipeline

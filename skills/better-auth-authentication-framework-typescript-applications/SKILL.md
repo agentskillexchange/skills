@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-auth"
-  github_stars: 27747
+  github_stars: 27760
 ---
 
 # Better Auth Authentication Framework for TypeScript Applications

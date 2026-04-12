@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "epiral/bb-browser"
-  github_stars: 4336
+  github_stars: 4357
 ---
 
 # Extract data and complete workflows in your real logged-in browser

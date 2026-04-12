@@ -9,7 +9,7 @@ framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "exa-labs/exa-js"
-  github_stars: 125
+  github_stars: 126
 ---
 
 # Exa JS Web Search SDK for AI Applications

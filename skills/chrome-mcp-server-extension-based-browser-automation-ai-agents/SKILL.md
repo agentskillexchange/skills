@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "hangwin/mcp-chrome"
-  github_stars: 11171
+  github_stars: 11177
 ---
 
 # Chrome MCP Server Extension-Based Browser Automation for AI Agents
