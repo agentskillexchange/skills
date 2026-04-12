@@ -1,7 +1,11 @@
 ---
 title: "Evidence BI-as-Code SQL and Markdown Analytics Framework"
-description: "Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive dashboards and reports as static sites, providing a code-driven alternative to drag-and-drop BI tools with version control and reproducibility built in."
-verification: security_reviewed
+slug: "evidence-bi-as-code-sql-markdown-analytics"
+verification: "security_reviewed"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Claude Code"
 source: "https://github.com/evidence-dev/evidence"
 tool_ecosystem:
   github_repo: "evidence-dev/evidence"
@@ -14,13 +18,13 @@ Evidence is an open-source framework for building data products with SQL and Mar
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

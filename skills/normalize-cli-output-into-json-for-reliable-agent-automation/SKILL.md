@@ -1,7 +1,11 @@
 ---
 title: "Normalize raw CLI output into JSON for reliable downstream parsing and automation"
-description: "Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff, validate, and store results without brittle regex parsing. Best when a workflow already depends on standard CLI tools but needs machine-readable output for the next step."
-verification: listed
+slug: "normalize-cli-output-into-json-for-reliable-agent-automation"
+verification: "listed"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
 source: "https://github.com/kellyjonbrazil/jc"
 tool_ecosystem:
   github_repo: "kellyjonbrazil/jc"
@@ -14,13 +18,13 @@ Uses jc to turn command output and supported file formats into structured JSON s
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

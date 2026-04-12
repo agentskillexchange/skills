@@ -1,28 +1,32 @@
 ---
 title: "Sentry MCP Server"
-description: "Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
-verification: security_reviewed
+slug: "sentry-mcp-server"
+verification: "security_reviewed"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 source: "https://github.com/getsentry/sentry-mcp"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 626
-  ase_npm_package: "@sentry/mcp-server"
+  npm_package: "@sentry/mcp-server"
   npm_weekly_downloads: 41729
 ---
 
 # Sentry MCP Server
 
-Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
+Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

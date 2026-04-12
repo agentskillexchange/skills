@@ -1,7 +1,11 @@
 ---
 title: "Google Cloud CLI (gcloud) — Command-Line Interface for GCP"
-description: "The Google Cloud CLI provides command-line access to 200+ GCP services including Compute Engine, Cloud Run, GKE, BigQuery, and Vertex AI for resource management, deployment, and administration."
-verification: listed
+slug: "google-cloud-cli-gcloud"
+verification: "listed"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 source: "https://cloud.google.com/sdk"
 ---
 
@@ -11,13 +15,13 @@ The Google Cloud CLI provides command-line access to 200+ GCP services including
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

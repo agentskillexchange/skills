@@ -1,8 +1,15 @@
 ---
 title: "Repair malformed JSON before parsing downstream automations with jsonrepair"
-description: "Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as trailing commas, missing quotes, or concatenated fragments. The agent’s role is to normalize the payload before validation or routing, not to replace real schema design."
-verification: security_reviewed
+slug: "repair-malformed-json-before-parsing-downstream-automations-jsonrepair"
+verification: "security_reviewed"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 source: "https://github.com/josdejong/jsonrepair"
+tool_ecosystem:
+  github_repo: "josdejong/jsonrepair"
+  github_stars: 2296
 ---
 
 # Repair malformed JSON before parsing downstream automations with jsonrepair
@@ -11,13 +18,13 @@ Use jsonrepair when an agent receives JSON-like output that is almost valid but 
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

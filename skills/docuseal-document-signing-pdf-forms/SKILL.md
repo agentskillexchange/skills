@@ -1,7 +1,11 @@
 ---
 title: "DocuSeal Open Source Document Signing and PDF Form Platform"
-description: "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular."
-verification: security_reviewed
+slug: "docuseal-document-signing-pdf-forms"
+verification: "security_reviewed"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "Custom Agents"
 source: "https://github.com/docusealco/docuseal"
 tool_ecosystem:
   github_repo: "docusealco/docuseal"
@@ -14,13 +18,13 @@ DocuSeal is an open-source DocuSign alternative for creating, filling, and signi
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

@@ -1,7 +1,11 @@
 ---
 title: "ntopng Web-Based Network Traffic Monitoring and Security Analysis"
-description: "ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows, bandwidth usage, and security threats. With 7.7k+ GitHub stars and decades of development since the original ntop in 1998, it is a proven enterprise-grade network analysis platform."
-verification: security_reviewed
+slug: "ntopng-web-based-network-traffic-monitoring-security"
+verification: "security_reviewed"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Custom Agents"
 source: "https://github.com/ntop/ntopng"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
@@ -14,13 +18,13 @@ ntopng is a web-based network traffic monitoring application that provides real-
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

@@ -1,7 +1,11 @@
 ---
 title: "Microsoft Playwright MCP"
-description: "Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents structured page access instead of screenshot-only workflows. It is a strong fit when you want dependable navigation, form filling, DOM inspection, and test-like automation inside an MCP-compatible client."
-verification: security_reviewed
+slug: "microsoft-playwright-mcp"
+verification: "security_reviewed"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 source: "https://github.com/microsoft/playwright-mcp"
 ---
 
@@ -11,13 +15,13 @@ Microsoft Playwright MCP exposes Playwright browser automation through the Model
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

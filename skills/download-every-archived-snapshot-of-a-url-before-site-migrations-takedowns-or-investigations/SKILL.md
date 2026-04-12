@@ -1,7 +1,11 @@
 ---
 title: "Download every archived snapshot of a URL before site migrations, takedowns, or investigations"
-description: "Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback Machine UI. The agent can list or download snapshots, constrain by date, deduplicate archives, and preserve evidence locally before a site changes or disappears."
-verification: listed
+slug: "download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations"
+verification: "listed"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Multi-Framework"
 source: "https://github.com/jsvine/waybackpack"
 tool_ecosystem:
   github_repo: "jsvine/waybackpack"
@@ -14,13 +18,13 @@ Use waybackpack when an agent needs the full historical record for a URL, not a 
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

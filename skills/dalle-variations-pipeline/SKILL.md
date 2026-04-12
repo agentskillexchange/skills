@@ -1,7 +1,11 @@
 ---
 title: "DALL-E Variations Pipeline"
-description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
-verification: security_reviewed
+slug: "dalle-variations-pipeline"
+verification: "security_reviewed"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "ChatGPT Agents"
 source: "https://agentskillexchange.com/skills/dalle-variations-pipeline/"
 ---
 
@@ -11,13 +15,13 @@ Generates image variations and edits using the OpenAI Images API (DALL-E 3 and g
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 

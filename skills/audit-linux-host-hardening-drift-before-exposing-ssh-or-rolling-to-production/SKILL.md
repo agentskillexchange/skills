@@ -1,8 +1,15 @@
 ---
 title: "Audit Linux host hardening drift before exposing SSH or rolling to production"
-description: "Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan."
-verification: security_reviewed
+slug: "audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production"
+verification: "security_reviewed"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 source: "https://github.com/CISOfy/lynis"
+tool_ecosystem:
+  github_repo: "CISOfy/lynis"
+  github_stars: 15502
 ---
 
 # Audit Linux host hardening drift before exposing SSH or rolling to production
@@ -11,13 +18,13 @@ Uses Lynis to run an on-host security audit and turn the findings into a priorit
 
 ## Installation
 
-Choose the path that fits your setup:
+Choose the method that fits your setup:
 
-1. Clone this repository and use the skill locally.
-2. Copy the skill folder into your local skills directory.
-3. Add the skill as a Git submodule in your skills workspace.
-4. Vendor the files into an internal skill catalog for your team.
-5. Reference the upstream source and recreate the skill in your own agent environment.
+1. Clone or download this repo and copy the skill folder into your local skills directory.
+2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
+3. Add the skill folder as a git submodule if you manage skills as dependencies.
+4. Copy the files manually into a local custom-skills directory for testing.
+5. Use any marketplace or sync tooling you already have for pulling ASE skills.
 
 ## Source
 
