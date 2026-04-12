@@ -1,12 +1,11 @@
 ---
 title: "Swagger OpenAPI Schema Validator"
+slug: "swagger-openapi-schema-validator"
 description: "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/swagger-openapi-schema-validator/"
 category:
   - "Library &amp; API Reference"
-framework:
-  - "Cursor"
 ---
 
 # Swagger OpenAPI Schema Validator
@@ -15,13 +14,13 @@ Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

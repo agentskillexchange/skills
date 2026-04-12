@@ -1,12 +1,11 @@
 ---
 title: "Datadog SLO Monitor"
+slug: "datadog-slo-monitor"
 description: "Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance reports and triggers remediation workflows when error budgets are exhausted."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/datadog-slo-monitor/"
 category:
   - "Monitoring &amp; Alerts"
-framework:
-  - "Claude Code"
 ---
 
 # Datadog SLO Monitor
@@ -15,13 +14,13 @@ Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog A
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

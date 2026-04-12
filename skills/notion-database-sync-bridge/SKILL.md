@@ -1,12 +1,11 @@
 ---
 title: "Notion Database Sync Bridge"
+slug: "notion-database-sync-bridge"
 description: "Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-database-sync-bridge/"
 category:
   - "Calendar, Email &amp; Productivity"
-framework:
-  - "Claude Agents"
 ---
 
 # Notion Database Sync Bridge
@@ -15,13 +14,13 @@ Synchronizes data between Notion databases and external sources using the Notion
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

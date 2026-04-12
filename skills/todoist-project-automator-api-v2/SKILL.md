@@ -1,12 +1,11 @@
 ---
 title: "Todoist Project Automator"
+slug: "todoist-project-automator-api-v2"
 description: "Automates Todoist project management using the Todoist REST API v2 and Sync API. Creates task templates, manages recurring workflows, and syncs with external project trackers."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/todoist-project-automator-api-v2/"
 category:
   - "Calendar, Email &amp; Productivity"
-framework:
-  - "Gemini"
 ---
 
 # Todoist Project Automator
@@ -15,13 +14,13 @@ Automates Todoist project management using the Todoist REST API v2 and Sync API.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

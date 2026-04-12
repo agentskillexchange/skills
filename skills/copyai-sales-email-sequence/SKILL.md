@@ -1,27 +1,26 @@
 ---
 title: "Copy.ai Sales Email Sequence Builder"
-description: "Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
+slug: "copyai-sales-email-sequence"
+description: "Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
 category:
   - "Content Writing &amp; SEO"
-framework:
-  - "ChatGPT Agents"
 ---
 
 # Copy.ai Sales Email Sequence Builder
 
-Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
+Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

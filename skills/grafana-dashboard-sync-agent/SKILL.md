@@ -1,12 +1,11 @@
 ---
 title: "Grafana Dashboard Sync Agent"
+slug: "grafana-dashboard-sync-agent"
 description: "Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5. Handles provisioning, folder management, and datasource remapping for multi-environment observability setups."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-sync-agent/"
 category:
   - "Monitoring &amp; Alerts"
-framework:
-  - "Gemini"
 ---
 
 # Grafana Dashboard Sync Agent
@@ -15,13 +14,13 @@ Synchronizes Grafana dashboards between instances using the Grafana HTTP API v5.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

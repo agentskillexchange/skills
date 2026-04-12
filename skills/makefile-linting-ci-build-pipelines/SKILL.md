@@ -1,14 +1,13 @@
 ---
 title: "Makefile Linting for CI and Build Pipelines"
+slug: "makefile-linting-ci-build-pipelines"
 description: "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script review skill for agents working inside repositories that already rely on make, not a generic build tool listing."
 verification: security_reviewed
 source: "https://github.com/checkmake/checkmake"
 category:
   - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "checkmake/checkmake"
+  github_repo: "https://github.com/checkmake/checkmake"
   github_stars: 1188
 ---
 
@@ -18,13 +17,13 @@ Uses checkmake to inspect Makefiles for style issues, fragile targets, and maint
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

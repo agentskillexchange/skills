@@ -1,30 +1,29 @@
 ---
 title: "Firebase — Google Application Development Platform"
-description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
+slug: "firebase-google-app-development-platform"
+description: "Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
 verification: listed
 source: "https://github.com/firebase/firebase-js-sdk"
 category:
   - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "firebase/firebase-js-sdk"
+  github_repo: "https://github.com/firebase/firebase-js-sdk"
   github_stars: 5100
 ---
 
 # Firebase — Google Application Development Platform
 
-Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
+Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

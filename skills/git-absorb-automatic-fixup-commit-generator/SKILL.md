@@ -1,30 +1,29 @@
 ---
 title: "git-absorb Automatic Fixup Commit Generator"
-description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback."
+slug: "git-absorb-automatic-fixup-commit-generator"
+description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook&#8217;s hg absorb that eliminates manual interactive rebasing for review feedback."
 verification: security_reviewed
 source: "https://github.com/tummychow/git-absorb"
 category:
   - "Developer Tools"
-framework:
-  - "Claude Code"
 tool_ecosystem:
-  github_repo: "tummychow/git-absorb"
+  github_repo: "https://github.com/tummychow/git-absorb"
   github_stars: 5455
 ---
 
 # git-absorb Automatic Fixup Commit Generator
 
-Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback.
+Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook&#8217;s hg absorb that eliminates manual interactive rebasing for review feedback.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

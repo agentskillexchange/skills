@@ -1,14 +1,13 @@
 ---
 title: "Vale Prose Linter for Technical Documentation"
+slug: "vale-prose-linter-technical-docs"
 description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
 verification: security_reviewed
 source: "https://github.com/vale-cli/vale"
 category:
   - "Code Quality &amp; Review"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "vale-cli/vale"
+  github_repo: "https://github.com/vale-cli/vale"
   github_stars: 5316
 ---
 
@@ -18,13 +17,13 @@ Vale is an open-source, markup-aware prose linter that enforces editorial style 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

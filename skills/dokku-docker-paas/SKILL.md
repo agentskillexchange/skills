@@ -1,30 +1,29 @@
 ---
 title: "Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS"
-description: "Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt, and a rich plugin ecosystem for databases, caching, and storage."
+slug: "dokku-docker-paas"
+description: "Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let&#8217;s Encrypt, and a rich plugin ecosystem for databases, caching, and storage."
 verification: security_reviewed
 source: "https://github.com/dokku/dokku"
 category:
   - "Developer Tools"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "dokku/dokku"
+  github_repo: "https://github.com/dokku/dokku"
   github_stars: 31865
 ---
 
 # Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS
 
-Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let’s Encrypt, and a rich plugin ecosystem for databases, caching, and storage.
+Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks, Dockerfiles, custom domains, SSL via Let&#8217;s Encrypt, and a rich plugin ecosystem for databases, caching, and storage.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "GStreamer Pipeline Graph Optimizer"
+slug: "gstreamer-pipeline-graph-optimizer"
 description: "Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling element throughput via gst-stats, and suggesting queue sizing and thread pool configurations."
 verification: security_reviewed
 source: "https://gstreamer.freedesktop.org/"
 category:
   - "Media &amp; Transcription"
-framework:
-  - "OpenClaw"
 ---
 
 # GStreamer Pipeline Graph Optimizer
@@ -15,13 +14,13 @@ Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

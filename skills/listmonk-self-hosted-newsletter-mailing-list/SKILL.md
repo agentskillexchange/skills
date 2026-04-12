@@ -1,14 +1,13 @@
 ---
 title: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
+slug: "listmonk-self-hosted-newsletter-mailing-list"
 description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
 verification: security_reviewed
 source: "https://github.com/knadh/listmonk"
 category:
   - "Calendar, Email &amp; Productivity"
-framework:
-  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "knadh/listmonk"
+  github_repo: "https://github.com/knadh/listmonk"
   github_stars: 19404
 ---
 
@@ -18,13 +17,13 @@ High-performance, self-hosted newsletter and mailing list manager packed into a 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

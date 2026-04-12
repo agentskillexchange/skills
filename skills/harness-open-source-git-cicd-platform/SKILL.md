@@ -1,12 +1,11 @@
 ---
 title: "Harness Open Source Self-Hosted Git and CI/CD Development Platform"
+slug: "harness-open-source-git-cicd-platform"
 description: "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in a single self-hosted binary."
 verification: security_reviewed
 source: "https://github.com/harness/harness"
 category:
   - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
 ---
 
 # Harness Open Source Self-Hosted Git and CI/CD Development Platform
@@ -15,13 +14,13 @@ Harness Open Source (formerly Gitness) is an end-to-end developer platform that 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

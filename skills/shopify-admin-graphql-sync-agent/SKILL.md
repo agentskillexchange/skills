@@ -1,14 +1,13 @@
 ---
 title: "Shopify Admin GraphQL Sync Agent"
+slug: "shopify-admin-graphql-sync-agent"
 description: "Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and webhook-assisted delta updates. Useful for product, inventory, and order pipelines that need higher throughput than ad hoc REST polling."
 verification: security_reviewed
 source: "https://github.com/Shopify/shopify-api-js"
 category:
   - "Integrations &amp; Connectors"
-framework:
-  - "ChatGPT Agents"
 tool_ecosystem:
-  github_repo: "Shopify/shopify-api-js"
+  github_repo: "https://github.com/Shopify/shopify-api-js"
   github_stars: 959
   npm_package: "@shopify/shopify-api"
   npm_weekly_downloads: 311088
@@ -20,13 +19,13 @@ Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

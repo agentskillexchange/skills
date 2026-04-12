@@ -1,14 +1,13 @@
 ---
 title: "OPA Rego Policy Bundle Tester"
+slug: "opa-rego-policy-bundle-tester"
 description: "Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to explain which Rego rules allow or deny a request before policy changes go live."
 verification: security_reviewed
 source: "https://github.com/open-policy-agent/opa"
 category:
   - "Security &amp; Verification"
-framework:
-  - "OpenClaw"
 tool_ecosystem:
-  github_repo: "open-policy-agent/opa"
+  github_repo: "https://github.com/open-policy-agent/opa"
   github_stars: 11534
 ---
 
@@ -18,13 +17,13 @@ Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

@@ -1,12 +1,11 @@
 ---
 title: "Selenium Grid Orchestrator"
+slug: "selenium-grid-orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/selenium-grid-orchestrator/"
 category:
   - "Browser Automation"
-framework:
-  - "OpenClaw"
 ---
 
 # Selenium Grid Orchestrator
@@ -15,13 +14,13 @@ Manages Selenium Grid 4 hub and node registration for cross-browser parallel tes
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

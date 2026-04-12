@@ -1,13 +1,11 @@
 ---
 title: "AWS CloudWatch Insights Query Builder"
+slug: "aws-cloudwatch-insights-query-builder"
 description: "Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights."
 verification: security_reviewed
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
 category:
   - "Monitoring &amp; Alerts"
-framework:
-  - "Codex"
-  - "Multi-Framework"
 ---
 
 # AWS CloudWatch Insights Query Builder
@@ -16,13 +14,13 @@ Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

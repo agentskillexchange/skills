@@ -1,12 +1,11 @@
 ---
 title: "Gotenberg Document-to-PDF Conversion API"
+slug: "gotenberg-document-to-pdf-conversion-api"
 description: "Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing post-processing tasks such as merge, split, watermark, metadata edits, and encryption. It wraps Chromium, LibreOffice, and PDF engines behind a single HTTP interface."
 verification: security_reviewed
 source: "https://github.com/gotenberg/gotenberg"
 category:
   - "Library &amp; API Reference"
-framework:
-  - "Multi-Framework"
 ---
 
 # Gotenberg Document-to-PDF Conversion API
@@ -15,13 +14,13 @@ Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

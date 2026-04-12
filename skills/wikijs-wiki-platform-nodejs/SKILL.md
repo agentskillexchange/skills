@@ -1,14 +1,13 @@
 ---
 title: "Wiki.js Modern Open Source Wiki Platform on Node.js"
+slug: "wikijs-wiki-platform-nodejs"
 description: "Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides multi-language content, granular access controls, and integrations with major authentication providers."
 verification: security_reviewed
 source: "https://github.com/requarks/wiki"
 category:
   - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "requarks/wiki"
+  github_repo: "https://github.com/requarks/wiki"
   github_stars: 28154
 ---
 
@@ -18,13 +17,13 @@ Wiki.js is a powerful open-source wiki app built on Node.js with support for Mar
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

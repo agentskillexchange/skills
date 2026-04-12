@@ -1,12 +1,11 @@
 ---
 title: "Notion Workspace Automator"
+slug: "notion-workspace-automator-api-v1"
 description: "Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/"
 category:
   - "Calendar, Email &amp; Productivity"
-framework:
-  - "Cursor"
 ---
 
 # Notion Workspace Automator
@@ -15,13 +14,13 @@ Automates Notion workspace management through the Notion API v1 with database qu
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

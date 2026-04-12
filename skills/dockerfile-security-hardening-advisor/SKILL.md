@@ -1,12 +1,11 @@
 ---
 title: "Dockerfile Security Hardening Advisor"
+slug: "dockerfile-security-hardening-advisor"
 description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
 category:
   - "Runbooks &amp; Diagnostics"
-framework:
-  - "Claude Code"
 ---
 
 # Dockerfile Security Hardening Advisor
@@ -15,13 +14,13 @@ Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy contain
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

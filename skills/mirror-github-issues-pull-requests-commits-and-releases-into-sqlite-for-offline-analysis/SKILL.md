@@ -1,14 +1,13 @@
 ---
 title: "Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis"
+slug: "mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis"
 description: "Use dogsheep/github-to-sqlite when an agent needs a local, queryable snapshot of GitHub activity instead of bouncing through the web UI or ad hoc API calls. The agent authenticates once, pulls the exact GitHub objects it needs, and leaves behind a SQLite database that can be inspected, joined, diffed, or handed to downstream tools."
 verification: listed
 source: "https://github.com/dogsheep/github-to-sqlite"
 category:
   - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "dogsheep/github-to-sqlite"
+  github_repo: "https://github.com/dogsheep/github-to-sqlite"
   github_stars: 461
 ---
 
@@ -18,13 +17,13 @@ Use dogsheep/github-to-sqlite when an agent needs a local, queryable snapshot of
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

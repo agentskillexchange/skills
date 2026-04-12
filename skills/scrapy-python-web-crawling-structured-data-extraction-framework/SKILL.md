@@ -1,14 +1,13 @@
 ---
 title: "Scrapy Python Web Crawling and Structured Data Extraction Framework"
+slug: "scrapy-python-web-crawling-structured-data-extraction-framework"
 description: "Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable scraping, asynchronous crawling, feed exports, and extensible pipelines for transforming or storing collected data."
 verification: security_reviewed
 source: "https://github.com/scrapy/scrapy"
 category:
   - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "scrapy/scrapy"
+  github_repo: "https://github.com/scrapy/scrapy"
   github_stars: 61273
 ---
 
@@ -18,13 +17,13 @@ Scrapy is a high-level Python framework for web crawling and structured data ext
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

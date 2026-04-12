@@ -1,12 +1,11 @@
 ---
 title: "KrakenD High-Performance Stateless API Gateway"
+slug: "krakend-high-performance-stateless-api-gateway"
 description: "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies, and telemetry integration."
 verification: security_reviewed
 source: "https://github.com/krakend/krakend-ce"
 category:
   - "Developer Tools"
-framework:
-  - "Multi-Framework"
 ---
 
 # KrakenD High-Performance Stateless API Gateway
@@ -15,13 +14,13 @@ KrakenD is an ultra-high performance, stateless, declarative API Gateway written
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

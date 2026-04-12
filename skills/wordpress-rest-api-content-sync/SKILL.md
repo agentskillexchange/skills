@@ -1,12 +1,11 @@
 ---
 title: "WordPress REST API Content Sync"
+slug: "wordpress-rest-api-content-sync"
 description: "Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/wordpress-rest-api-content-sync/"
 category:
   - "WordPress &amp; CMS"
-framework:
-  - "MCP"
 ---
 
 # WordPress REST API Content Sync
@@ -15,13 +14,13 @@ Synchronizes content between WordPress multisite installations using the WP REST
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

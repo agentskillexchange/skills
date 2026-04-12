@@ -1,14 +1,13 @@
 ---
 title: "WordPress MCP Adapter Model Context Protocol Bridge"
+slug: "wordpress-mcp-adapter-model-context-protocol-bridge"
 description: "An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible AI clients to discover and invoke WordPress plugin, theme, and core abilities programmatically through a standardized transport layer."
 verification: security_reviewed
 source: "https://github.com/WordPress/mcp-adapter"
 category:
   - "WordPress &amp; CMS"
-framework:
-  - "MCP"
 tool_ecosystem:
-  github_repo: "WordPress/mcp-adapter"
+  github_repo: "https://github.com/WordPress/mcp-adapter"
   github_stars: 792
 ---
 
@@ -18,13 +17,13 @@ An agent skill built on the official WordPress MCP Adapter plugin, which bridges
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

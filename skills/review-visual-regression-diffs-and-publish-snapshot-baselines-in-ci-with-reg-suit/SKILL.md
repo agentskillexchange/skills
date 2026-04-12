@@ -1,14 +1,13 @@
 ---
 title: "Review visual regression diffs and publish snapshot baselines in CI with reg-suit"
+slug: "review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit"
 description: "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots."
 verification: security_reviewed
 source: "https://github.com/reg-viz/reg-suit"
 category:
   - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "reg-viz/reg-suit"
+  github_repo: "https://github.com/reg-viz/reg-suit"
   github_stars: 1260
 ---
 
@@ -18,13 +17,13 @@ Use reg-suit when an agent needs to compare screenshot outputs against a stored 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

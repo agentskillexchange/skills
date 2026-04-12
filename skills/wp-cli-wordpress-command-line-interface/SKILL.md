@@ -1,14 +1,13 @@
 ---
 title: "WP-CLI WordPress Command Line Interface"
+slug: "wp-cli-wordpress-command-line-interface"
 description: "WP-CLI is the official command-line interface for WordPress, maintained as an open source project with extensive command docs and release history. It gives agents a reliable way to automate plugin, theme, database, transient, user, and multisite operations without driving the wp-admin UI."
 verification: security_reviewed
 source: "https://github.com/wp-cli/wp-cli"
 category:
   - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
+  github_repo: "https://github.com/wp-cli/wp-cli"
   github_stars: 5056
 ---
 
@@ -18,13 +17,13 @@ WP-CLI is the official command-line interface for WordPress, maintained as an op
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

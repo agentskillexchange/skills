@@ -1,12 +1,11 @@
 ---
 title: "Product Review Sentiment Aggregator"
+slug: "product-review-sentiment-aggregator"
 description: "Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
 category:
   - "Research &amp; Scraping"
-framework:
-  - "Claude Agents"
 ---
 
 # Product Review Sentiment Aggregator
@@ -15,13 +14,13 @@ Collects and analyzes product reviews from Amazon Product API and Google Shoppin
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

@@ -1,15 +1,13 @@
 ---
 title: "Claude Code MCP Bridge"
+slug: "claude-code-mcp-bridge"
 description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
 verification: security_reviewed
 source: "https://github.com/steipete/claude-code-mcp"
 category:
   - "Developer Tools"
-framework:
-  - "Claude Code"
-  - "MCP"
 tool_ecosystem:
-  github_repo: "steipete/claude-code-mcp"
+  github_repo: "https://github.com/steipete/claude-code-mcp"
   github_stars: 1225
 ---
 
@@ -19,13 +17,13 @@ Run Claude Code as a one-shot MCP tool so other agents and editors can delegate 
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

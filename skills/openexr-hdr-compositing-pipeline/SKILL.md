@@ -1,12 +1,11 @@
 ---
 title: "OpenEXR HDR Compositing Pipeline"
+slug: "openexr-hdr-compositing-pipeline"
 description: "Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer compositing, tone mapping with ACES color transforms, and cryptomatte-based object isolation."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/openexr-hdr-compositing-pipeline/"
 category:
   - "Image &amp; Creative Automation"
-framework:
-  - "OpenClaw"
 ---
 
 # OpenEXR HDR Compositing Pipeline
@@ -15,13 +14,13 @@ Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

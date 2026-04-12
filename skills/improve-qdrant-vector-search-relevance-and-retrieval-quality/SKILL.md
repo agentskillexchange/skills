@@ -1,30 +1,29 @@
 ---
 title: "Improve Qdrant vector search relevance and retrieval quality"
-description: "Use Qdrant’s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing."
+slug: "improve-qdrant-vector-search-relevance-and-retrieval-quality"
+description: "Use Qdrant&#8217;s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing."
 verification: security_reviewed
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
 category:
   - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "qdrant/skills"
+  github_repo: "https://github.com/qdrant/skills"
   github_stars: 60
 ---
 
 # Improve Qdrant vector search relevance and retrieval quality
 
-Use Qdrant’s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing.
+Use Qdrant&#8217;s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

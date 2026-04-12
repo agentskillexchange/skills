@@ -1,14 +1,13 @@
 ---
 title: "Langfuse Prompt Management MCP Server"
+slug: "langfuse-prompt-management-mcp-server"
 description: "Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It is useful for teams that keep prompts in Langfuse and want assistants to consume production prompt definitions instead of copying templates by hand."
 verification: security_reviewed
 source: "https://github.com/langfuse/mcp-server-langfuse"
 category:
   - "Templates &amp; Workflows"
-framework:
-  - "MCP"
 tool_ecosystem:
-  github_repo: "langfuse/mcp-server-langfuse"
+  github_repo: "https://github.com/langfuse/mcp-server-langfuse"
   github_stars: 159
 ---
 
@@ -18,13 +17,13 @@ Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt li
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

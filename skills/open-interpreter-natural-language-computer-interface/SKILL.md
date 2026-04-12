@@ -1,30 +1,29 @@
 ---
 title: "Open Interpreter Natural Language Computer Interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis."
+slug: "open-interpreter-natural-language-computer-interface"
+description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis."
 verification: security_reviewed
 source: "https://github.com/openinterpreter/open-interpreter"
 category:
   - "Developer Tools"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "openinterpreter/open-interpreter"
+  github_repo: "https://github.com/openinterpreter/open-interpreter"
   github_stars: 62934
 ---
 
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

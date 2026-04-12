@@ -1,14 +1,13 @@
 ---
 title: "Normalize raw CLI output into JSON for reliable downstream parsing and automation"
+slug: "normalize-cli-output-into-json-for-reliable-agent-automation"
 description: "Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff, validate, and store results without brittle regex parsing. Best when a workflow already depends on standard CLI tools but needs machine-readable output for the next step."
 verification: listed
 source: "https://github.com/kellyjonbrazil/jc"
 category:
   - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "kellyjonbrazil/jc"
+  github_repo: "https://github.com/kellyjonbrazil/jc"
   github_stars: 8571
 ---
 
@@ -18,13 +17,13 @@ Uses jc to turn command output and supported file formats into structured JSON s
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

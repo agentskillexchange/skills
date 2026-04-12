@@ -1,30 +1,29 @@
 ---
 title: "Draft internal status updates and incident comms"
-description: "Use Anthropic’s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo."
+slug: "draft-internal-status-updates-and-incident-comms-2"
+description: "Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo."
 verification: security_reviewed
 source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
 category:
   - "Templates &amp; Workflows"
-framework:
-  - "Claude Agents"
 tool_ecosystem:
-  github_repo: "anthropics/skills"
+  github_repo: "https://github.com/anthropics/skills"
   github_stars: 115365
 ---
 
 # Draft internal status updates and incident comms
 
-Use Anthropic’s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
+Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

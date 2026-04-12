@@ -1,14 +1,13 @@
 ---
 title: "Vosk Offline Speech Recognition Toolkit"
+slug: "vosk-offline-speech-recognition-toolkit"
 description: "Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies."
 verification: security_reviewed
 source: "https://github.com/alphacep/vosk-api"
 category:
   - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "alphacep/vosk-api"
+  github_repo: "https://github.com/alphacep/vosk-api"
   github_stars: 14474
 ---
 
@@ -18,13 +17,13 @@ Perform offline speech recognition across 20+ languages with Vosk. Provides comp
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 

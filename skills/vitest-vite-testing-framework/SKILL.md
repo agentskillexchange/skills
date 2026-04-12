@@ -1,14 +1,13 @@
 ---
 title: "Vitest Next-Generation Vite-Powered Testing Framework"
+slug: "vitest-vite-testing-framework"
 description: "Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless migration of existing test suites."
 verification: security_reviewed
 source: "https://github.com/vitest-dev/vitest"
 category:
   - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "vitest-dev/vitest"
+  github_repo: "https://github.com/vitest-dev/vitest"
   github_stars: 16296
 ---
 
@@ -18,13 +17,13 @@ Vitest is a blazing-fast unit testing framework powered by Vite. It provides nat
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup path that fits your environment:
 
 1. Install from the Agent Skill Exchange UI
-2. Clone or copy the skill into your local skills directory
-3. Install with a compatible skill manager or CLI
-4. Add it to your agent workspace manually
-5. Fork and customize it for your own environment
+2. Clone or download this skill into your skills directory
+3. Install with your agent platform's skill manager, if supported
+4. Vendor the skill into your workspace or repo
+5. Copy the skill files manually for local customization
 
 ## Source
 
