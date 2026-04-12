@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1932,
+  "total": 1935,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss",
+      "name": "Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS",
+      "description": "Use RTLCSS when an agent already has left-to-right stylesheets and must prepare a right-to-left variant for Arabic, Hebrew, or other RTL interfaces. The skill…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1708
+      }
+    },
+    {
+      "slug": "sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify",
+      "name": "Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify",
+      "description": "Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 16851
+      }
+    },
+    {
+      "slug": "inline-css-into-html-emails-before-delivery-across-mail-clients-juice",
+      "name": "Inline CSS into HTML emails before delivery across mail clients with Juice",
+      "description": "Use Juice when an agent already has finished HTML and needs it transformed into email-safe output before sending, archiving, or handing off to another…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Custom Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3245
+      }
+    },
     {
       "slug": "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
       "name": "Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs",

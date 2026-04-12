@@ -67,6 +67,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Vikunja Self-Hosted Task Management and Project Organization Platform](../../skills/vikunja-self-hosted-task-management/) | 3.8k | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | 3.7k | — |
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
+| [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
 | [Pop Terminal Email Sender and TUI by Charmbracelet](../../skills/pop-terminal-email-sender-charmbracelet/) | 2.8k | — |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 2k | — |
