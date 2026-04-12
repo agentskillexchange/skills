@@ -7,6 +7,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Stars |
 |---|---:|
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
+| [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | ⭐ 115.8k |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.5k |
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.3k |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | ⭐ 45.2k |
@@ -15,7 +16,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | ⭐ 33.8k |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⭐ 31.8k |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 22.4k |
-| [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | ⭐ 22.4k |
 
 ---
 
@@ -34,6 +34,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
+| [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 115.8k | — |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | 58.5k | — |
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | 45.3k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.2k | — |

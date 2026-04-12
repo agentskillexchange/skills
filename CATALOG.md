@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1935 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 21:24 UTC
+> **1938 published skills** across **17 categories** · 1894 security reviewed · Updated 2026-04-12 23:24 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1430,12 +1430,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [Yoast SEO WordPress Search Optimization Plugin](skills/yoast-seo-wordpress-search-optimization-plugin/) | Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output,… | Published | — | — |
 
 
-### 🌐 Browser Automation (91 skills)
+### 🌐 Browser Automation (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
+| [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Published | 115.8k | — |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF… | Security Reviewed | 94k | — |
 | [Browser Use Agentic Browser Control](skills/browser-use-agentic-browser-control/) | Browser Use is an open source browser automation framework for AI agents that turns websites into controllable… | Security Reviewed | 87.3k | — |
 | [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 85.7k | — |
@@ -1724,13 +1725,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (87 skills)
+### 📄 Templates & Workflows (88 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
+| [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with… | Published | 115.8k | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | 115.4k | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | 115.4k | — |
 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | 68.3k | — |
@@ -1913,13 +1915,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (81 skills)
+### 🎨 Image & Creative Automation (82 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches.… | Security Reviewed | 119.9k | — |
+| [Generate Slack-ready animated GIFs from custom frame sequences](skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration,… | Published | 115.8k | — |
 | [RunwayML Gen-3 Alpha Video Composer](skills/runwayml-gen-3-alpha-video-composer/) | Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes.… | Security Reviewed | 58.5k | — |
 | [Penpot Open-Source Design Collaboration Platform](skills/penpot-open-source-design-collaboration-platform/) | Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps… | Security Reviewed | 45.3k | — |
 | [Penpot Open Source Design and Prototyping Platform](skills/penpot-open-source-design-prototyping/) | Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create… | Security Reviewed | 45.2k | — |

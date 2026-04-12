@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1935 skills** across **17 categories**
+> **1938 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -14,12 +14,12 @@
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **109** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **109** | SDK documentation, API guides, framework reference material, and libr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **95** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **91** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **92** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **90** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **89** | Web research, data collection, content aggregation, and information g... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **87** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **88** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **86** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **81** | Image generation, asset processing, design automation, and creative t... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **82** | Image generation, asset processing, design automation, and creative t... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **70** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---

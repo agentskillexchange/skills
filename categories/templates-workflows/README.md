@@ -7,6 +7,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
+| [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 115.8k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 115.4k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 115.4k |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 68.3k |
@@ -15,7 +16,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⭐ 28.5k |
 | [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | ⭐ 26.7k |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⭐ 25.7k |
-| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⭐ 25k |
 
 ---
 
@@ -33,6 +33,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
+| [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 115.8k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 115.4k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 115.4k | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.3k | — |

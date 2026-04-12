@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1935,
+  "total": 1938,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui",
+      "name": "Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui",
+      "description": "Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 115760
+      }
+    },
+    {
+      "slug": "generate-slack-ready-animated-gifs-from-custom-frame-sequences",
+      "name": "Generate Slack-ready animated GIFs from custom frame sequences",
+      "description": "Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration, and dimension constraints. It gives an agent a bounded…",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 115760
+      }
+    },
+    {
+      "slug": "verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers",
+      "name": "Verify local web apps with Playwright scripts and managed dev servers",
+      "description": "Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Claude Agents"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 115760
+      }
+    },
     {
       "slug": "generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss",
       "name": "Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS",

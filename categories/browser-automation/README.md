@@ -6,6 +6,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Stars |
 |---|---:|
+| [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 115.8k |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | ⭐ 94k |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | ⭐ 87.3k |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | ⭐ 85.7k |
@@ -15,7 +16,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | ⭐ 49.6k |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⭐ 49.6k |
 | [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | ⭐ 34.2k |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⭐ 30.5k |
 
 ---
 
@@ -40,6 +40,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 115.8k | — |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | 85.7k | — |
