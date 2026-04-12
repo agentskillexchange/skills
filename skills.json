@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1900,
-  "generated": "2026-04-11",
+  "total": 1903,
+  "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing",
+      "name": "Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing",
+      "description": "Uses extruct to pull machine-readable metadata from raw HTML so an agent can classify, deduplicate, or enrich pages without brittle full-page parsing. It is…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 961
+      }
+    },
+    {
+      "slug": "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
+      "name": "Normalize loudness across podcast, lesson, or video batches before publishing",
+      "description": "Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand.…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1499
+      }
+    },
+    {
+      "slug": "orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order",
+      "name": "Orchestrate stacked Git branches, sync safely, and ship pull requests in order",
+      "description": "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3140
+      }
+    },
     {
       "slug": "audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository",
       "name": "Audit and normalize SPDX license headers before releasing or open-sourcing a repository",

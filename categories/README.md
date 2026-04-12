@@ -1,6 +1,6 @@
 # Skill Categories
 
-> **1900 skills** across **17 categories**
+> **1903 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -15,10 +15,10 @@
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **105** | Email automation, calendar management, task coordination, and product... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **95** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **91** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **87** | Web research, data collection, content aggregation, and information g... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **87** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **86** | Web research, data collection, content aggregation, and information g... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **84** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **82** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **85** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **83** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **80** | Image generation, asset processing, design automation, and creative t... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **65** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 

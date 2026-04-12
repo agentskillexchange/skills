@@ -64,6 +64,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 909/wk |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
+| [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](../../skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | 961 | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
