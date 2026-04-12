@@ -10,6 +10,8 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | ⭐ 68.3k |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | ⭐ 12.1k |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | ⭐ 11.9k |
+| [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | ⭐ 5.9k |
+| [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | ⭐ 4k |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | ⭐ 3.3k |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 60 |
@@ -24,6 +26,8 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | 68.3k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
+| [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
+| [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 60 | — |

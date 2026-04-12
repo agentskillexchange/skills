@@ -23,9 +23,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 19.3k/wk |
-| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 1.9M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 170.8k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 18.8k/wk |
+| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 170.7k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.5M/wk |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 150M/wk |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 5k/wk |
@@ -57,13 +57,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 19.3k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 18.8k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
-| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 1.9M/wk |
+| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 2M/wk |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | — |
 | [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | — |
 | [AutoGen — Microsoft Multi-Agent Conversation Framework](../../skills/autogen-microsoft-multi-agent-framework/) | 56.8k | — |
@@ -76,7 +76,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.5k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 170.8k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 170.7k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.5M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
@@ -221,7 +221,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
-| [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 906 | — |
+| [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 912 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |

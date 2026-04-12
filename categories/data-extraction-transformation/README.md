@@ -23,10 +23,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Downloads |
 |---|---:|
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 9/wk |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 13/wk |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 190.7k/wk |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 3/wk |
-| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | ⬇ 34.5M/wk |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | ⬇ 7.8M/wk |
 
 ---
 
@@ -44,7 +44,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | 57.6k | — |
 | [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.6k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
-| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 9/wk |
+| [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 13/wk |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 45k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
@@ -98,8 +98,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 3/wk |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
+| [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
-| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 34.5M/wk |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 7.8M/wk |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |

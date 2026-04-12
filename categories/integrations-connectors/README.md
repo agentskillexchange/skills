@@ -24,7 +24,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Downloads |
 |---|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 558/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 657/wk |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 5.9k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 14.8k/wk |
 | [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 8.6M/wk |
@@ -41,7 +41,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | 182.1k | 75.9k/wk |
-| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 558/wk |
+| [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 657/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | 55.7k | — |
@@ -60,6 +60,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Logto Open Source Authentication and Authorization Infrastructure](../../skills/logto-open-source-auth-infrastructure/) | 11.9k | — |
 | [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](../../skills/webhook-http-endpoint-server-shell-commands/) | 11.7k | — |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | 11.2k | — |
+| [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | 9.3k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | 8.1k | — |
@@ -91,6 +92,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | — |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
+| [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 392 | 829.4k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |

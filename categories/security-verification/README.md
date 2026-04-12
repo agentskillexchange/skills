@@ -8,7 +8,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
-| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⭐ 27.7k |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⭐ 27.8k |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | ⭐ 27.7k |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | ⭐ 25.7k |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | ⭐ 25.6k |
@@ -23,7 +23,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Downloads |
 |---|---:|
-| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 218.3k/wk |
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 222.5k/wk |
 
 ---
 
@@ -33,7 +33,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
-| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.7k | — |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
@@ -41,6 +41,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | 24k | — |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
+| [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
 | [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
 | [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
@@ -78,7 +79,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
-| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 218.3k/wk |
+| [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 222.5k/wk |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
