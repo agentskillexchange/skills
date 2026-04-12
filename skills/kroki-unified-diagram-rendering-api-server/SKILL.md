@@ -7,6 +7,9 @@ category:
   - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "yuzutech/kroki"
+  github_stars: 4072
 ---
 
 # Kroki Unified Diagram Rendering API and Server

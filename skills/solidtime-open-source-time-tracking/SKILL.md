@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "solidtime-io/solidtime"
+  github_stars: 8399
 ---
 
 # solidtime Modern Open Source Time Tracking for Freelancers and Agencies

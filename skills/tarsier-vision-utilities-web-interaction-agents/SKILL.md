@@ -7,6 +7,9 @@ category:
   - "Browser Automation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "reworkd/tarsier"
+  github_stars: 1758
 ---
 
 # Tarsier Vision Utilities for Web Interaction Agents

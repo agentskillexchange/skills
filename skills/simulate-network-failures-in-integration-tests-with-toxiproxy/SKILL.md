@@ -7,6 +7,9 @@ category:
   - "Runbooks & Diagnostics"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "Shopify/toxiproxy"
+  github_stars: 11934
 ---
 
 # Simulate network failures in integration tests with Toxiproxy

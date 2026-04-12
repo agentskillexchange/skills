@@ -7,6 +7,9 @@ category:
   - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "rehypejs/rehype"
+  github_stars: 2202
 ---
 
 # rehype Plugin-Based HTML Processor by the Unified Collective

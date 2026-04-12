@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "nylas/nylas-python"
+  github_stars: 106
 ---
 
 # Nylas Platform SDK for Unified Email Calendar and Contacts API

@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "zammad/zammad"
+  github_stars: 5513
 ---
 
 # Zammad Open Source Web-Based Helpdesk and Ticketing System

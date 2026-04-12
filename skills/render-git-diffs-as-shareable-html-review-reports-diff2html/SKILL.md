@@ -7,6 +7,9 @@ category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "rtfpessoa/diff2html"
+  github_stars: 3337
 ---
 
 # Render git diffs as shareable HTML review reports with Diff2Html

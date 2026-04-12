@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "outline/outline"
+  github_stars: 38027
 ---
 
 # Outline Open Source Team Knowledge Base and Wiki Platform

@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "nodemailer/nodemailer"
+  github_stars: 17534
 ---
 
 # Nodemailer Node.js Email Sending Library with SMTP and Transport Support

@@ -7,6 +7,9 @@ category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "dequelabs/axe-core"
+  github_stars: 7010
 ---
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing

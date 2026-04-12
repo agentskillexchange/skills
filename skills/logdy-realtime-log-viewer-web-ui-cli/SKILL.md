@@ -7,6 +7,9 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "logdyhq/logdy-core"
+  github_stars: 2148
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI

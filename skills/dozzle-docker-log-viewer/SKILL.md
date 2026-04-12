@@ -7,6 +7,9 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "amir20/dozzle"
+  github_stars: 12360
 ---
 
 # Dozzle Real-Time Docker Container Log Viewer

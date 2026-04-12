@@ -7,6 +7,9 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "openreplay/openreplay"
+  github_stars: 11929
 ---
 
 # OpenReplay Self-Hosted Session Replay and Product Analytics Platform

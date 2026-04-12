@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "verdaccio/verdaccio"
+  github_stars: 17595
 ---
 
 # Verdaccio Lightweight Private npm Proxy Registry

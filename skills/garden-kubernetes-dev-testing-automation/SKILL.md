@@ -7,6 +7,9 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "garden-io/garden"
+  github_stars: 3574
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform

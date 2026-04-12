@@ -7,6 +7,9 @@ category:
   - "Browser Automation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "ultrafunkamsterdam/nodriver"
+  github_stars: 4005
 ---
 
 # Nodriver Async Undetected Chrome Browser Automation for Python

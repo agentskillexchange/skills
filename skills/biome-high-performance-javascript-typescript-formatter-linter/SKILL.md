@@ -7,6 +7,9 @@ category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "biomejs/biome"
+  github_stars: 24340
 ---
 
 # Biome High-Performance JavaScript TypeScript Formatter and Linter

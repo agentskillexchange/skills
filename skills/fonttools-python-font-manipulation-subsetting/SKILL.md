@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "fonttools/fonttools"
+  github_stars: 5067
 ---
 
 # fonttools Python Font Manipulation and Subsetting Library

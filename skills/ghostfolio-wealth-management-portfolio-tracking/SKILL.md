@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "ghostfolio/ghostfolio"
+  github_stars: 8115
 ---
 
 # Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform

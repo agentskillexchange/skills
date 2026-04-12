@@ -7,6 +7,9 @@ category:
   - "Templates & Workflows"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "resend/react-email"
+  github_stars: 18373
 ---
 
 # React Email Component Library for Building Email Templates

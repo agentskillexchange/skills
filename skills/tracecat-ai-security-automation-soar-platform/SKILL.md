@@ -7,6 +7,9 @@ category:
   - "Security & Verification"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "TracecatHQ/tracecat"
+  github_stars: 3546
 ---
 
 # Tracecat AI-Native Security Automation and SOAR Platform

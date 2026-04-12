@@ -7,6 +7,9 @@ category:
   - "Research & Scraping"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "ScrapeGraphAI/Scrapegraph-ai"
+  github_stars: 23279
 ---
 
 # ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines

@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "resend/resend-node"
+  github_stars: 887
 ---
 
 # Resend Developer Email API and Node.js SDK

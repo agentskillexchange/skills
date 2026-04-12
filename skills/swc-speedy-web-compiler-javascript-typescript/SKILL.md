@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "swc-project/swc"
+  github_stars: 33347
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript

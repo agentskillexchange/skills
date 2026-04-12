@@ -7,6 +7,9 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "quickwit-oss/quickwit"
+  github_stars: 11067
 ---
 
 # Quickwit Cloud-Native Search Engine for Observability Logs and Traces

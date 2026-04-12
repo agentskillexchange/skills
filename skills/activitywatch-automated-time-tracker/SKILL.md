@@ -7,6 +7,9 @@ category:
   - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "ActivityWatch/activitywatch"
+  github_stars: 17242
 ---
 
 # ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer

@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "dokku/dokku"
+  github_stars: 31865
 ---
 
 # Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS

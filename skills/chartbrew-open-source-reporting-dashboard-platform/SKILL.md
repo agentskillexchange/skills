@@ -7,6 +7,9 @@ category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "chartbrew/chartbrew"
+  github_stars: 3692
 ---
 
 # Chartbrew Open Source Reporting Platform for API and Database Dashboards

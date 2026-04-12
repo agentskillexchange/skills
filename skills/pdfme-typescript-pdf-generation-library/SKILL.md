@@ -7,6 +7,9 @@ category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pdfme/pdfme"
+  github_stars: 4263
 ---
 
 # pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer

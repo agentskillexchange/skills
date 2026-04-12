@@ -7,6 +7,9 @@ category:
   - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "zulip/zulip"
+  github_stars: 25013
 ---
 
 # Zulip Open Source Team Chat Platform with Topic-Based Threading

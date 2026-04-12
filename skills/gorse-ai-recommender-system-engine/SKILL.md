@@ -7,6 +7,9 @@ category:
   - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "gorse-io/gorse"
+  github_stars: 9600
 ---
 
 # Gorse AI-Powered Open Source Recommender System Engine
