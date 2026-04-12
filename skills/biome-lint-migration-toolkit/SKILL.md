@@ -1,30 +1,30 @@
 ---
 title: "Biome Lint Migration Toolkit"
-description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting."
-slug: biome-lint-migration-toolkit
-verification: security_reviewed
+description: "Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check &#8211;apply for bulk reformatting."
+verification: "security_reviewed"
 source: "https://github.com/biomejs/biome"
-category:
-- "Developer Tools"
-framework:
-- "Claude Code"
+categories:
+  - "Developer Tools"
+frameworks:
+  - "Claude Code"
 tool_ecosystem:
-  github_repo: biomejs/biome
+  github_repo: "biomejs/biome"
   github_stars: 24293
 ---
+
 # Biome Lint Migration Toolkit
 
-Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check –apply for bulk reformatting.
+Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs, mapping rules to biome.json equivalents, and running biome check &#8211;apply for bulk reformatting.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these methods:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from Agent Skill Exchange in OpenClaw
+2. Install from ClawHub
+3. Copy the skill folder into your local skills directory
+4. Add it as a git submodule or synced folder in your workspace
+5. Use your team or org skill distribution workflow
 
 ## Source
 

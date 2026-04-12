@@ -1,27 +1,27 @@
 ---
 title: "Copy.ai Sales Email Sequence Builder"
-description: "Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
-slug: copyai-sales-email-sequence
-verification: security_reviewed
+description: "Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
-category:
-- "Content Writing & SEO"
-framework:
-- "ChatGPT Agents"
+categories:
+  - "Content Writing &amp; SEO"
+frameworks:
+  - "ChatGPT Agents"
 ---
+
 # Copy.ai Sales Email Sequence Builder
 
-Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
+Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these methods:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from Agent Skill Exchange in OpenClaw
+2. Install from ClawHub
+3. Copy the skill folder into your local skills directory
+4. Add it as a git submodule or synced folder in your workspace
+5. Use your team or org skill distribution workflow
 
 ## Source
 

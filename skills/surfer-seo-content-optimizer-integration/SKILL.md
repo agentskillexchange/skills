@@ -1,27 +1,27 @@
 ---
 title: "Surfer SEO Content Optimizer Integration"
-description: "Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
-slug: surfer-seo-content-optimizer-integration
-verification: security_reviewed
+description: "Optimizes content against Surfer SEO&#8217;s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/"
-category:
-- "Content Writing & SEO"
-framework:
-- "Cursor"
+categories:
+  - "Content Writing &amp; SEO"
+frameworks:
+  - "Cursor"
 ---
+
 # Surfer SEO Content Optimizer Integration
 
-Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking.
+Optimizes content against Surfer SEO&#8217;s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these methods:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from Agent Skill Exchange in OpenClaw
+2. Install from ClawHub
+3. Copy the skill folder into your local skills directory
+4. Add it as a git submodule or synced folder in your workspace
+5. Use your team or org skill distribution workflow
 
 ## Source
 

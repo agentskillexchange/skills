@@ -1,30 +1,27 @@
 ---
 title: "Live Stream Audio Monitor"
-description: "Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm."
-slug: live-stream-audio-monitor
-verification: security_reviewed
+description: "Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram&#8217;s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm."
+verification: "security_reviewed"
 source: "https://github.com/FFmpeg/FFmpeg"
-category:
-- "Media & Transcription"
-framework:
-- "Claude Code"
-tool_ecosystem:
-  github_repo: ffmpeg/ffmpeg
-  github_stars: 58548
+categories:
+  - "Media &amp; Transcription"
+frameworks:
+  - "Claude Code"
 ---
+
 # Live Stream Audio Monitor
 
-Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram’s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm.
+Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram&#8217;s streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these methods:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from Agent Skill Exchange in OpenClaw
+2. Install from ClawHub
+3. Copy the skill folder into your local skills directory
+4. Add it as a git submodule or synced folder in your workspace
+5. Use your team or org skill distribution workflow
 
 ## Source
 

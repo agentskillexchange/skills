@@ -1,27 +1,27 @@
 ---
 title: "Ghost Admin API Headless Publishing and CMS Automation"
 description: "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites."
-slug: ghost-admin-api-headless-publishing-cms-automation
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://ghost.org/docs/admin-api/"
-category:
-- "WordPress & CMS"
-framework:
-- "Custom Agents"
+categories:
+  - "WordPress &amp; CMS"
+frameworks:
+  - "Custom Agents"
 ---
+
 # Ghost Admin API Headless Publishing and CMS Automation
 
 The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites.
 
 ## Installation
 
-You can install this skill in any of these ways:
+You can install this skill using one of these methods:
 
-1. Browse and install from Agent Skill Exchange.
-2. Clone or download this repository and copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your skills workspace.
-4. Install it with your preferred agent skill or package manager if your setup supports that.
-5. Copy the `SKILL.md` into an existing skill folder and adapt any referenced assets as needed.
+1. Install from Agent Skill Exchange in OpenClaw
+2. Install from ClawHub
+3. Copy the skill folder into your local skills directory
+4. Add it as a git submodule or synced folder in your workspace
+5. Use your team or org skill distribution workflow
 
 ## Source
 
