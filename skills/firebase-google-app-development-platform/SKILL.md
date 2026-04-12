@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Firebase — Google Application Development Platform
 
-Firebase is Google&#8217;s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
+Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Installation
 

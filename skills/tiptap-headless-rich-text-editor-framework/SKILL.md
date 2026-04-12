@@ -10,8 +10,9 @@ source: "https://github.com/ueberdosis/tiptap"
 tool_ecosystem:
   github_repo: "ueberdosis/tiptap"
   github_stars: 35948
-  npm_package: "tiptap"
+  ase_npm_package: "tiptap"
   npm_weekly_downloads: 45410
+  license: "MIT"
 ---
 
 # Tiptap Headless Rich Text Editor Framework for Web Applications

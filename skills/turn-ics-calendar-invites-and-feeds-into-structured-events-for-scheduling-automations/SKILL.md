@@ -8,7 +8,7 @@ framework:
   - "Multi-Framework"
 source: "https://www.npmjs.com/package/node-ical"
 tool_ecosystem:
-  npm_package: "node-ical"
+  ase_npm_package: "node-ical"
   npm_weekly_downloads: 127109
 ---
 

@@ -10,6 +10,7 @@ source: "https://github.com/jiaaro/pydub"
 tool_ecosystem:
   github_repo: "jiaaro/pydub"
   github_stars: 9746
+  license: "MIT"
 ---
 
 # pydub Python Audio Manipulation Library

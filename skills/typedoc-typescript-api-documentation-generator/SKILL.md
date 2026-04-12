@@ -10,7 +10,7 @@ source: "https://github.com/TypeStrong/typedoc"
 tool_ecosystem:
   github_repo: "TypeStrong/typedoc"
   github_stars: 8385
-  npm_package: "typedoc"
+  ase_npm_package: "typedoc"
   npm_weekly_downloads: 3703073
 ---
 

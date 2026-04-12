@@ -11,7 +11,7 @@ source: "https://agentskillexchange.com/skills/ansible-playbook-dryrun-validator
 
 # Ansible Playbook Dry-Run Validator
 
-Validates Ansible playbooks in check mode using ansible-playbook &#8211;check &#8211;diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
+Validates Ansible playbooks in check mode using ansible-playbook –check –diff and the Ansible Python API. Detects idempotency issues, undefined variables, and unreachable hosts before production runs.
 
 ## Installation
 

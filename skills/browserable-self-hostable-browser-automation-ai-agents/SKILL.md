@@ -10,8 +10,9 @@ source: "https://github.com/browserable/browserable"
 tool_ecosystem:
   github_repo: "browserable/browserable"
   github_stars: 1177
-  npm_package: "browserable"
+  ase_npm_package: "browserable"
   npm_weekly_downloads: 21
+  license: "MIT"
 ---
 
 # Browserable Self-Hostable Browser Automation for AI Agents

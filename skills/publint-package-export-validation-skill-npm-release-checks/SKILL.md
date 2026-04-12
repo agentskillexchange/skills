@@ -10,7 +10,7 @@ source: "https://github.com/publint/publint"
 tool_ecosystem:
   github_repo: "publint/publint"
   github_stars: 1252
-  npm_package: "publint"
+  ase_npm_package: "publint"
   npm_weekly_downloads: 585953
 ---
 

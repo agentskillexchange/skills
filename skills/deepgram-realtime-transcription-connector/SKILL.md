@@ -11,7 +11,7 @@ source: "https://agentskillexchange.com/skills/deepgram-realtime-transcription-c
 
 # Deepgram Real-Time Transcription Connector
 
-Streams live audio to Deepgram&#8217;s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
+Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
 
 ## Installation
 

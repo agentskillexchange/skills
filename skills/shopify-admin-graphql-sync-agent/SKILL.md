@@ -10,7 +10,7 @@ source: "https://github.com/Shopify/shopify-api-js"
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959
-  npm_package: "@shopify/shopify-api"
+  ase_npm_package: "@shopify/shopify-api"
   npm_weekly_downloads: 311088
 ---
 

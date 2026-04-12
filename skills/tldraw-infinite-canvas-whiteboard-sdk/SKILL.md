@@ -10,7 +10,7 @@ source: "https://github.com/tldraw/tldraw"
 tool_ecosystem:
   github_repo: "tldraw/tldraw"
   github_stars: 46154
-  npm_package: "tldraw"
+  ase_npm_package: "tldraw"
   npm_weekly_downloads: 170708
 ---
 

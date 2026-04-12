@@ -10,6 +10,7 @@ source: "https://github.com/rhasspy/piper"
 tool_ecosystem:
   github_repo: "rhasspy/piper"
   github_stars: 10741
+  license: "MIT"
 ---
 
 # Piper Local Neural Text-to-Speech Engine

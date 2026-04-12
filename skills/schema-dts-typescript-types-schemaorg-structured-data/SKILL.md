@@ -10,7 +10,7 @@ source: "https://github.com/google/schema-dts"
 tool_ecosystem:
   github_repo: "google/schema-dts"
   github_stars: 1164
-  npm_package: "schema-dts"
+  ase_npm_package: "schema-dts"
   npm_weekly_downloads: 1509898
 ---
 

@@ -10,7 +10,7 @@ source: "https://github.com/mswjs/msw"
 tool_ecosystem:
   github_repo: "mswjs/msw"
   github_stars: 17814
-  npm_package: "msw"
+  ase_npm_package: "msw"
   npm_weekly_downloads: 14054978
 ---
 

@@ -10,6 +10,7 @@ source: "https://github.com/WordPress/wordpress-playground"
 tool_ecosystem:
   github_repo: "WordPress/wordpress-playground"
   github_stars: 1926
+  license: "GPL-2.0"
 ---
 
 # WordPress Playground WebAssembly Runtime for In-Browser WordPress

@@ -11,7 +11,7 @@ source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-diagnostics-
 
 # Kubernetes Pod Crash Diagnostics
 
-Runs kubectl describe pod, kubectl logs &#8211;previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis.
+Runs kubectl describe pod, kubectl logs –previous, and kubectl get events to diagnose CrashLoopBackOff and OOMKilled pods. Parses container exit codes, resource limits, and liveness probe configurations for root cause analysis.
 
 ## Installation
 

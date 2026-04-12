@@ -10,7 +10,7 @@ source: "https://github.com/mastra-ai/mastra"
 tool_ecosystem:
   github_repo: "mastra-ai/mastra"
   github_stars: 22557
-  npm_package: "mastra"
+  ase_npm_package: "mastra"
   npm_weekly_downloads: 230286
 ---
 

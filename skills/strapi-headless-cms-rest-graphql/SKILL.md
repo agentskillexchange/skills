@@ -10,7 +10,7 @@ source: "https://github.com/strapi/strapi"
 tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71740
-  npm_package: "@strapi/strapi"
+  ase_npm_package: "@strapi/strapi"
   npm_weekly_downloads: 147371
 ---
 

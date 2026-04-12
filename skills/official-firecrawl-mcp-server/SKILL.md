@@ -10,7 +10,7 @@ source: "https://github.com/firecrawl/firecrawl-mcp-server"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 6001
-  npm_package: "firecrawl-mcp"
+  ase_npm_package: "firecrawl-mcp"
   npm_weekly_downloads: 28948
 ---
 

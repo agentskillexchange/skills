@@ -10,7 +10,7 @@ source: "https://github.com/caprover/caprover"
 tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949
-  npm_package: "caprover"
+  ase_npm_package: "caprover"
   npm_weekly_downloads: 8362
 ---
 

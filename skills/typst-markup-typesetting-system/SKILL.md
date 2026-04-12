@@ -10,6 +10,7 @@ source: "https://github.com/typst/typst"
 tool_ecosystem:
   github_repo: "typst/typst"
   github_stars: 52359
+  license: "Apache-2.0"
 ---
 
 # Typst Markup-Based Document Typesetting System

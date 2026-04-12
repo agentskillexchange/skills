@@ -7,11 +7,14 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/epiral/bb-browser/tree/main/skills/bb-browser"
+tool_ecosystem:
+  github_repo: "epiral/bb-browser"
+  github_stars: 4357
 ---
 
 # Extract data and complete workflows in your real logged-in browser
 
-Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user&#8217;s actual logged-in Chrome session. It is for browser work where normal HTTP fetches fail because the important context lives behind auth, cookies, or internal web apps.
+Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user’s actual logged-in Chrome session. It is for browser work where normal HTTP fetches fail because the important context lives behind auth, cookies, or internal web apps.
 
 ## Installation
 

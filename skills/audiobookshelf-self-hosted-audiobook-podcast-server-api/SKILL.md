@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 
-Integrate Audiobookshelf&#8217;s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 

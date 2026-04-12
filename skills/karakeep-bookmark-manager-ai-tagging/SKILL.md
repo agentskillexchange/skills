@@ -10,6 +10,7 @@ source: "https://github.com/karakeep-app/karakeep"
 tool_ecosystem:
   github_repo: "karakeep-app/karakeep"
   github_stars: 24456
+  license: "AGPL-3.0"
 ---
 
 # Karakeep Self-Hosted Bookmark Manager with AI Tagging

@@ -7,11 +7,14 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md"
+tool_ecosystem:
+  github_repo: "githubnext/agentics"
+  github_stars: 579
 ---
 
 # Investigate failing GitHub Actions runs with CI Doctor
 
-Use GitHub Next&#8217;s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product.
+Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product.
 
 ## Installation
 

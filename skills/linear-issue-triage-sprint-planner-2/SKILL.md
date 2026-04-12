@@ -1,5 +1,5 @@
 ---
-title: "Linear Issue Triage &amp; Sprint Planner"
+title: "Linear Issue Triage & Sprint Planner"
 slug: "linear-issue-triage-sprint-planner-2"
 verification: "security_reviewed"
 category:
@@ -9,7 +9,7 @@ framework:
 source: "https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/"
 ---
 
-# Linear Issue Triage &amp; Sprint Planner
+# Linear Issue Triage & Sprint Planner
 
 Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage rules to auto-assign or escalate. Generates sprint plan drafts scored against velocity and team capacity from Linear projectMilestone and workflowState data.
 

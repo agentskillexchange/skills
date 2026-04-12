@@ -10,6 +10,7 @@ source: "https://github.com/gristlabs/grist-core"
 tool_ecosystem:
   github_repo: "gristlabs/grist-core"
   github_stars: 10827
+  license: "Apache-2.0"
 ---
 
 # Grist Self-Hosted Relational Spreadsheet and Database Platform

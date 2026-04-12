@@ -1,5 +1,5 @@
 ---
-title: "Metabase Dashboard Snapshot &amp; Alerting"
+title: "Metabase Dashboard Snapshot & Alerting"
 slug: "metabase-dashboard-snapshot-alerting-2"
 verification: "security_reviewed"
 category:
@@ -9,7 +9,7 @@ framework:
 source: "https://agentskillexchange.com/skills/metabase-dashboard-snapshot-alerting-2/"
 ---
 
-# Metabase Dashboard Snapshot &amp; Alerting
+# Metabase Dashboard Snapshot & Alerting
 
 Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key metrics against user-defined thresholds and fires alerts to PagerDuty or Slack when anomalies are detected. Supports multi-instance Metabase deployments.
 

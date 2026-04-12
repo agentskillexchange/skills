@@ -11,7 +11,7 @@ source: "https://agentskillexchange.com/skills/eslint-autofix-pipeline/"
 
 # ESLint Auto-Fix Pipeline
 
-Runs ESLint with the &#8211;fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
+Runs ESLint with the –fix flag across JavaScript and TypeScript codebases, applying auto-fixable rules from eslint-config-airbnb and @typescript-eslint/recommended. Generates diff reports for manual review of remaining issues.
 
 ## Installation
 

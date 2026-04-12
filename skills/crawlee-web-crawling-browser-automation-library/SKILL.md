@@ -10,8 +10,9 @@ source: "https://github.com/apify/crawlee"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22591
-  npm_package: "crawlee"
+  ase_npm_package: "crawlee"
   npm_weekly_downloads: 72475
+  license: "Apache-2.0"
 ---
 
 # Crawlee Web Crawling and Browser Automation Library

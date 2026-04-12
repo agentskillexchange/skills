@@ -10,6 +10,7 @@ source: "https://github.com/vllm-project/vllm"
 tool_ecosystem:
   github_repo: "vllm-project/vllm"
   github_stars: 75090
+  license: "Apache-2.0"
 ---
 
 # vLLM High-Throughput LLM Serving Engine with PagedAttention

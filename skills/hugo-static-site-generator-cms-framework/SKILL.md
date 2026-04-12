@@ -10,6 +10,7 @@ source: "https://github.com/gohugoio/hugo"
 tool_ecosystem:
   github_repo: "gohugoio/hugo"
   github_stars: 87352
+  license: "Apache-2.0"
 ---
 
 # Hugo Fast Static Site Generator and CMS Framework

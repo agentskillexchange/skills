@@ -10,6 +10,7 @@ source: "https://github.com/simonw/files-to-prompt"
 tool_ecosystem:
   github_repo: "simonw/files-to-prompt"
   github_stars: 2643
+  license: "Apache-2.0"
 ---
 
 # files-to-prompt Directory Concatenator for LLM Context

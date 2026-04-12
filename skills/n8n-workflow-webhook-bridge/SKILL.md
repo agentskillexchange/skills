@@ -10,7 +10,7 @@ source: "https://github.com/n8n-io/n8n"
 tool_ecosystem:
   github_repo: "n8n-io/n8n"
   github_stars: 182065
-  npm_package: "n8n"
+  ase_npm_package: "n8n"
   npm_weekly_downloads: 75947
 ---
 

@@ -8,7 +8,7 @@ framework:
   - "Multi-Framework"
 source: "https://www.npmjs.com/package/citation-js"
 tool_ecosystem:
-  npm_package: "citation-js"
+  ase_npm_package: "citation-js"
   npm_weekly_downloads: 39542
 ---
 

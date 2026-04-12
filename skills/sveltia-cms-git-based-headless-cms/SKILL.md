@@ -10,8 +10,9 @@ source: "https://github.com/sveltia/sveltia-cms"
 tool_ecosystem:
   github_repo: "sveltia/sveltia-cms"
   github_stars: 2245
-  npm_package: "@sveltia/cms"
+  ase_npm_package: "@sveltia/cms"
   npm_weekly_downloads: 2767
+  license: "MIT"
 ---
 
 # Sveltia CMS Git-Based Headless Content Management System

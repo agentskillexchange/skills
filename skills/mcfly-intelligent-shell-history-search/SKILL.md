@@ -10,6 +10,7 @@ source: "https://github.com/cantino/mcfly"
 tool_ecosystem:
   github_repo: "cantino/mcfly"
   github_stars: 7657
+  license: "MIT"
 ---
 
 # mcfly Intelligent Shell History Search with Neural Network

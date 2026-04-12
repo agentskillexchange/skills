@@ -8,7 +8,7 @@ framework:
   - "Multi-Framework"
 source: "https://www.npmjs.com/package/smartcrop"
 tool_ecosystem:
-  npm_package: "smartcrop"
+  ase_npm_package: "smartcrop"
   npm_weekly_downloads: 213371
 ---
 

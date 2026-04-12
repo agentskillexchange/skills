@@ -10,7 +10,7 @@ source: "https://github.com/cypress-io/cypress"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49609
-  npm_package: "cypress"
+  ase_npm_package: "cypress"
   npm_weekly_downloads: 6456036
 ---
 

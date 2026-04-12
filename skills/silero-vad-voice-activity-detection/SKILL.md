@@ -10,6 +10,7 @@ source: "https://github.com/snakers4/silero-vad"
 tool_ecosystem:
   github_repo: "snakers4/silero-vad"
   github_stars: 8604
+  license: "MIT"
 ---
 
 # Silero VAD Pre-Trained Enterprise Voice Activity Detection

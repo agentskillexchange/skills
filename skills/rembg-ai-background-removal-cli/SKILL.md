@@ -10,6 +10,7 @@ source: "https://github.com/danielgatis/rembg"
 tool_ecosystem:
   github_repo: "danielgatis/rembg"
   github_stars: 22400
+  license: "MIT"
 ---
 
 # rembg AI Background Removal CLI and Python Library

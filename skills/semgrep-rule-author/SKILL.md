@@ -11,7 +11,7 @@ source: "https://agentskillexchange.com/skills/semgrep-rule-author/"
 
 # Semgrep Rule Author
 
-Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep &#8211;validate to verify rule syntax and semgrep &#8211;test to run against sample code fixtures automatically.
+Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep –validate to verify rule syntax and semgrep –test to run against sample code fixtures automatically.
 
 ## Installation
 

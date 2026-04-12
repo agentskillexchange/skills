@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Bun Shell Script Executor
 
-Leverages Bun&#8217;s built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition.
+Leverages Bun’s built-in $ shell API (Bun.Shell) to orchestrate cross-platform shell scripts from TypeScript with tagged template literals, automatic glob expansion, and piped process composition.
 
 ## Installation
 

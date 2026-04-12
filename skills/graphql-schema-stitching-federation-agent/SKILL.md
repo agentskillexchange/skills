@@ -1,5 +1,5 @@
 ---
-title: "GraphQL Schema Stitching &#038; Federation Agent"
+title: "GraphQL Schema Stitching & Federation Agent"
 slug: "graphql-schema-stitching-federation-agent"
 verification: "security_reviewed"
 category:
@@ -9,7 +9,7 @@ framework:
 source: "https://agentskillexchange.com/skills/graphql-schema-stitching-federation-agent/"
 ---
 
-# GraphQL Schema Stitching &#038; Federation Agent
+# GraphQL Schema Stitching & Federation Agent
 
 Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and generating rover CLI deployment manifests. Handles @key, @shareable, and @override directives.
 

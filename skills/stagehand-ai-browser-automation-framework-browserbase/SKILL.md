@@ -11,7 +11,7 @@ source: "https://github.com/browserbase/stagehand"
 
 # Stagehand AI Browser Automation Framework by Browserbase
 
-Stagehand is Browserbase&#8217;s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching.
+Stagehand is Browserbase’s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching.
 
 ## Installation
 

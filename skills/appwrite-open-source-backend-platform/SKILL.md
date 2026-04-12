@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Appwrite Open-Source Backend Platform
 
-Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite&#8217;s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
+Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite’s real services—Auth, Databases, Storage, Functions, Messaging, Realtime, and Sites—instead of inventing a generic backend workflow.
 
 ## Installation
 

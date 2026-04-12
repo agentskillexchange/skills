@@ -10,12 +10,11 @@ source: "https://github.com/netlify/cli"
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1841
-  npm_package: "netlify-cli"
 ---
 
 # Netlify Site Manager
 
-Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by netlify/cli (1,837+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like sites API, deploy previews, functions, env vars, build hooks, edge functions and [&hellip;]
+Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by netlify/cli (1,837+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like sites API, deploy previews, functions, env vars, build hooks, edge functions and […]
 
 ## Installation
 

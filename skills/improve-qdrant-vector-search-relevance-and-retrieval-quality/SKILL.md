@@ -7,11 +7,14 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
+tool_ecosystem:
+  github_repo: "qdrant/skills"
+  github_stars: 60
 ---
 
 # Improve Qdrant vector search relevance and retrieval quality
 
-Use Qdrant&#8217;s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing.
+Use Qdrant’s official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval pipeline. It is a bounded search-quality tuning workflow, not a generic database listing.
 
 ## Installation
 

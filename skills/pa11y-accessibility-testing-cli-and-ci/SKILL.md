@@ -10,7 +10,7 @@ source: "https://github.com/pa11y/pa11y"
 tool_ecosystem:
   github_repo: "pa11y/pa11y"
   github_stars: 4418
-  npm_package: "pa11y"
+  ase_npm_package: "pa11y"
   npm_weekly_downloads: 221677
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Linter &#038; Fixer"
+title: "Jenkins Pipeline Linter & Fixer"
 slug: "jenkins-pipeline-linter-fixer"
 verification: "security_reviewed"
 category:
@@ -9,7 +9,7 @@ framework:
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-linter-fixer/"
 ---
 
-# Jenkins Pipeline Linter &#038; Fixer
+# Jenkins Pipeline Linter & Fixer
 
 Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.
 

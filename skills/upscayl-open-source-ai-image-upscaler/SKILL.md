@@ -10,6 +10,7 @@ source: "https://github.com/upscayl/upscayl"
 tool_ecosystem:
   github_repo: "upscayl/upscayl"
   github_stars: 44297
+  license: "AGPL-3.0"
 ---
 
 # Upscayl Open Source AI Image Upscaler

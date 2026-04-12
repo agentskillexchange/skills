@@ -10,6 +10,7 @@ source: "https://github.com/wp-cli/wp-cli"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5044
+  license: "MIT"
 ---
 
 # WP-CLI Command-Line Interface for WordPress

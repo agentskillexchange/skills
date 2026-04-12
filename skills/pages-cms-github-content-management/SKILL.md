@@ -10,6 +10,7 @@ source: "https://github.com/pagescms/pagescms"
 tool_ecosystem:
   github_repo: "pagescms/pagescms"
   github_stars: 3542
+  license: "MIT"
 ---
 
 # Pages CMS Open Source Content Management for GitHub Repositories

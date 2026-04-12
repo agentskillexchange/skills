@@ -10,6 +10,7 @@ source: "https://github.com/markdoc/markdoc"
 tool_ecosystem:
   github_repo: "markdoc/markdoc"
   github_stars: 7949
+  license: "MIT"
 ---
 
 # Markdoc Markdown-Based Authoring Framework by Stripe
