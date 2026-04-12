@@ -1,15 +1,12 @@
 ---
 title: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
-slug: "unlighthouse-site-wide-lighthouse-seo-auditing"
 description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
 verification: security_reviewed
 source: "https://github.com/harlan-zw/unlighthouse"
-category:
-  - "Content Writing &amp; SEO"
 tool_ecosystem:
-  github_repo: "https://github.com/harlan-zw/unlighthouse"
+  github_repo: "harlan-zw/unlighthouse"
   github_stars: 4469
-  npm_package: "unlighthouse"
+  ase_npm_package: "unlighthouse"
   npm_weekly_downloads: 15320
 ---
 
@@ -19,13 +16,13 @@ Unlighthouse runs Google Lighthouse across an entire site instead of just a sing
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

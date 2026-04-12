@@ -1,11 +1,8 @@
 ---
 title: "AWS Systems Manager Automation Incident Guide"
-slug: "aws-systems-manager-automation-incident-guide"
 description: "Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm context for repeatable operational recovery. Useful for agents that need to recommend or launch the right runbook when alarms cross into known failure territory."
 verification: security_reviewed
 source: "https://docs.aws.amazon.com/systems-manager/"
-category:
-  - "Runbooks &amp; Diagnostics"
 ---
 
 # AWS Systems Manager Automation Incident Guide
@@ -14,13 +11,13 @@ Coordinates remediation playbooks with AWS Systems Manager Automation, Incident 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

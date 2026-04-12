@@ -1,11 +1,8 @@
 ---
 title: "Whisper.cpp Real-Time Transcription Pipeline"
-slug: "whisper-cpp-realtime-transcription-pipeline"
 description: "Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time speech-to-text with word-level timestamps. Outputs SRT/VTT subtitles and JSON transcripts simultaneously."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/whisper-cpp-realtime-transcription-pipeline/"
-category:
-  - "Media &amp; Transcription"
 ---
 
 # Whisper.cpp Real-Time Transcription Pipeline
@@ -14,13 +11,13 @@ Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time spe
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

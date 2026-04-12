@@ -1,13 +1,10 @@
 ---
 title: "Chrome MCP Server Extension-Based Browser Automation for AI Agents"
-slug: "chrome-mcp-server-extension-based-browser-automation-ai-agents"
 description: "Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents. It is designed for workflows where an agent should reuse real tabs, existing login state, browser history, bookmarks, and native Chrome APIs instead of launching a separate automation browser."
 verification: security_reviewed
 source: "https://github.com/hangwin/mcp-chrome"
-category:
-  - "Browser Automation"
 tool_ecosystem:
-  github_repo: "https://github.com/hangwin/mcp-chrome"
+  github_repo: "hangwin/mcp-chrome"
   github_stars: 11177
 ---
 
@@ -17,13 +14,13 @@ Chrome MCP Server uses a Chrome extension and local bridge to expose your everyd
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

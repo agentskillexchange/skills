@@ -1,13 +1,10 @@
 ---
 title: "FastMCP Python MCP Server and Client Framework"
-slug: "fastmcp-python-mcp-server-client-framework"
 description: "FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It provides automatic schema generation, transport negotiation, and protocol lifecycle management, letting developers wrap Python functions into MCP-compliant tools with minimal boilerplate."
 verification: security_reviewed
 source: "https://github.com/PrefectHQ/fastmcp"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/PrefectHQ/fastmcp"
+  github_repo: "PrefectHQ/fastmcp"
   github_stars: 24192
 ---
 
@@ -17,13 +14,13 @@ FastMCP is the standard Python framework for building Model Context Protocol ser
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

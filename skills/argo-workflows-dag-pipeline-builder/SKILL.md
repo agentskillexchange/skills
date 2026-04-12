@@ -1,13 +1,10 @@
 ---
 title: "Argo Workflows DAG Pipeline Builder"
-slug: "argo-workflows-dag-pipeline-builder"
 description: "Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact passing via S3/MinIO, and template composition through WorkflowTemplates and ClusterWorkflowTemplates."
 verification: security_reviewed
 source: "https://github.com/argoproj/argo-workflows"
-category:
-  - "Templates &amp; Workflows"
 tool_ecosystem:
-  github_repo: "https://github.com/argoproj/argo-workflows"
+  github_repo: "argoproj/argo-workflows"
   github_stars: 16600
 ---
 
@@ -17,13 +14,13 @@ Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with config
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

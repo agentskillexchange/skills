@@ -1,11 +1,8 @@
 ---
 title: "PostgreSQL Diagnostic Runbook"
-slug: "postgresql-diagnostic-runbook"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer. Identifies slow queries, lock contention, and bloat via pgstattuple extension."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/postgresql-diagnostic-runbook/"
-category:
-  - "Runbooks &amp; Diagnostics"
 ---
 
 # PostgreSQL Diagnostic Runbook
@@ -14,13 +11,13 @@ Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activi
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

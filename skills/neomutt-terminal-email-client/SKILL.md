@@ -1,13 +1,10 @@
 ---
 title: "NeoMutt Feature-Rich Terminal Email Client"
-slug: "neomutt-terminal-email-client"
 description: "NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to terminal-based email management. It supports IMAP, POP3, SMTP, Maildir, notmuch search, and PGP encryption with a highly customizable ncurses interface."
 verification: security_reviewed
 source: "https://github.com/neomutt/neomutt"
-category:
-  - "Calendar, Email &amp; Productivity"
 tool_ecosystem:
-  github_repo: "https://github.com/neomutt/neomutt"
+  github_repo: "neomutt/neomutt"
   github_stars: 3685
 ---
 
@@ -17,13 +14,13 @@ NeoMutt is an actively maintained fork of the classic Mutt email client that bri
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

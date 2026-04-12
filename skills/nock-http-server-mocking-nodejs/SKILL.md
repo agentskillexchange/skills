@@ -1,13 +1,10 @@
 ---
 title: "Nock HTTP Server Mocking and Expectations Library for Node.js"
-slug: "nock-http-server-mocking-nodejs"
 description: "Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and provides programmable responses. With over 13,000 GitHub stars and 5.5 million weekly npm downloads, it is one of the most widely used testing utilities in the JavaScript ecosystem."
 verification: security_reviewed
 source: "https://github.com/nock/nock"
-category:
-  - "Code Quality &amp; Review"
 tool_ecosystem:
-  github_repo: "https://github.com/nock/nock"
+  github_repo: "nock/nock"
   github_stars: 13101
 ---
 
@@ -17,13 +14,13 @@ Nock is an HTTP server mocking and expectations library for Node.js that interce
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

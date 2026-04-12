@@ -1,15 +1,12 @@
 ---
 title: "write-good English Prose Linting for Technical Content"
-slug: "write-good-english-prose-linting-technical-content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
 verification: security_reviewed
 source: "https://github.com/btford/write-good"
-category:
-  - "Content Writing &amp; SEO"
 tool_ecosystem:
-  github_repo: "https://github.com/btford/write-good"
+  github_repo: "btford/write-good"
   github_stars: 5065
-  npm_package: "write-good"
+  ase_npm_package: "write-good"
   npm_weekly_downloads: 49520
 ---
 
@@ -19,13 +16,13 @@ This skill uses write-good to flag vague, wordy, or hard-to-read English prose i
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

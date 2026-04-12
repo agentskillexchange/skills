@@ -1,26 +1,23 @@
 ---
 title: "Bubble.io Stripe Subscription Portal Builder"
-slug: "bubble-stripe-subscription-portal"
-description: "Uses Bubble&#8217;s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble&#8217;s API Connector to call Stripe&#8217;s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
+description: "Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/"
-category:
-  - "Templates &amp; Workflows"
 ---
 
 # Bubble.io Stripe Subscription Portal Builder
 
-Uses Bubble&#8217;s Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble&#8217;s API Connector to call Stripe&#8217;s Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
+Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a Bubble application. Configures Bubble's API Connector to call Stripe's Billing Portal Sessions endpoint and handles webhook events for real-time plan change updates.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

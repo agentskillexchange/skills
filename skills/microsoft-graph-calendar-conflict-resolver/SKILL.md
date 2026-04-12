@@ -1,11 +1,8 @@
 ---
 title: "Microsoft Graph Calendar Conflict Resolver"
-slug: "microsoft-graph-calendar-conflict-resolver"
 description: "Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me/events`, `/calendarView`, and `findMeetingTimes`. Useful for agents that need to compare attendees, constraints, and availability before proposing a meeting move."
 verification: security_reviewed
 source: "https://learn.microsoft.com/en-us/graph/"
-category:
-  - "Calendar, Email &amp; Productivity"
 ---
 
 # Microsoft Graph Calendar Conflict Resolver
@@ -14,13 +11,13 @@ Resolves scheduling collisions with Microsoft Graph Calendar endpoints like `/me
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

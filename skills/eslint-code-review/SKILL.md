@@ -1,15 +1,12 @@
 ---
 title: "ESLint Code Review"
-slug: "eslint-code-review"
 description: "ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like eslint CLI, flat config, plugins, formatters, autofix, rule [&hellip;]"
 verification: security_reviewed
 source: "https://github.com/eslint/eslint"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/eslint/eslint"
+  github_repo: "eslint/eslint"
   github_stars: 27161
-  npm_package: "eslint"
+  ase_npm_package: "eslint"
   npm_weekly_downloads: 107992117
 ---
 
@@ -19,13 +16,13 @@ ESLint Code Review is built around ESLint static analysis for JavaScript and Typ
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

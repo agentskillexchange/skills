@@ -1,11 +1,8 @@
 ---
 title: "Podcast RSS Feed Builder"
-slug: "podcast-rss-feed-builder"
 description: "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/podcast-rss-feed-builder/"
-category:
-  - "Media &amp; Transcription"
 ---
 
 # Podcast RSS Feed Builder
@@ -14,13 +11,13 @@ Generates and validates podcast RSS feeds compliant with the Apple Podcasts and 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

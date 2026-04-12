@@ -1,13 +1,10 @@
 ---
 title: "uv Ultra-Fast Python Package and Project Manager"
-slug: "uv-ultra-fast-python-package-project-manager"
 description: "uv is an extremely fast Python package and project manager written in Rust by Astral (creators of Ruff). It replaces pip, pip-tools, pipx, poetry, pyenv, virtualenv, and twine with a single tool that resolves and installs packages 10-100x faster."
 verification: security_reviewed
 source: "https://github.com/astral-sh/uv"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/astral-sh/uv"
+  github_repo: "astral-sh/uv"
   github_stars: 82442
 ---
 
@@ -17,13 +14,13 @@ uv is an extremely fast Python package and project manager written in Rust by As
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

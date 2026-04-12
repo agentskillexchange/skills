@@ -1,15 +1,12 @@
 ---
 title: "JSDoc JavaScript API Documentation Generator"
-slug: "jsdoc-javascript-api-documentation-generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
 verification: security_reviewed
 source: "https://github.com/jsdoc/jsdoc"
-category:
-  - "Library &amp; API Reference"
 tool_ecosystem:
-  github_repo: "https://github.com/jsdoc/jsdoc"
+  github_repo: "jsdoc/jsdoc"
   github_stars: 15426
-  npm_package: "jsdoc"
+  ase_npm_package: "jsdoc"
   npm_weekly_downloads: 2663272
 ---
 
@@ -19,13 +16,13 @@ JSDoc is the standard API documentation generator for JavaScript. It parses spec
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

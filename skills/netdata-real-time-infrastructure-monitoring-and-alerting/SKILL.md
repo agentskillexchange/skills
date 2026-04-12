@@ -1,26 +1,23 @@
 ---
 title: "Netdata Real-Time Infrastructure Monitoring and Alerting"
-slug: "netdata-real-time-infrastructure-monitoring-and-alerting"
-description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project&#8217;s documented collectors, streaming, and cloud integrations."
+description: "Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project's documented collectors, streaming, and cloud integrations."
 verification: security_reviewed
 source: "https://github.com/netdata/netdata"
-category:
-  - "Monitoring &amp; Alerts"
 ---
 
 # Netdata Real-Time Infrastructure Monitoring and Alerting
 
-Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project&#8217;s documented collectors, streaming, and cloud integrations.
+Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents install Netdata, connect nodes, inspect dashboards, and route alerts using the project's documented collectors, streaming, and cloud integrations.
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

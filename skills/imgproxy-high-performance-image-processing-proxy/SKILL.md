@@ -1,13 +1,10 @@
 ---
 title: "imgproxy High-Performance Image Processing Proxy"
-slug: "imgproxy-high-performance-image-processing-proxy"
 description: "An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image resizing, cropping, format conversion, and optimization through URL-based transformations. Designed for production CDN pipelines and automated media workflows."
 verification: security_reviewed
 source: "https://github.com/imgproxy/imgproxy"
-category:
-  - "Image &amp; Creative Automation"
 tool_ecosystem:
-  github_repo: "https://github.com/imgproxy/imgproxy"
+  github_repo: "imgproxy/imgproxy"
   github_stars: 10554
 ---
 
@@ -17,13 +14,13 @@ An agent skill built on imgproxy, the high-performance Go-based image processing
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

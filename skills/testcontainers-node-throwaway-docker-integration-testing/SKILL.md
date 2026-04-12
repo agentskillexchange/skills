@@ -1,13 +1,10 @@
 ---
 title: "Testcontainers Node Throwaway Docker Integration Testing Library"
-slug: "testcontainers-node-throwaway-docker-integration-testing"
 description: "Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration testing. It automates container lifecycle management during test runs, ensuring clean and reproducible test environments."
 verification: listed
 source: "https://github.com/testcontainers/testcontainers-node"
-category:
-  - "Code Quality &amp; Review"
 tool_ecosystem:
-  github_repo: "https://github.com/testcontainers/testcontainers-node"
+  github_repo: "testcontainers/testcontainers-node"
   github_stars: 2508
 ---
 
@@ -17,13 +14,13 @@ Testcontainers for Node.js is a library that provides lightweight, throwaway ins
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

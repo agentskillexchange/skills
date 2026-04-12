@@ -1,13 +1,10 @@
 ---
 title: "RunwayML Gen-3 Alpha Video Composer"
-slug: "runwayml-gen-3-alpha-video-composer"
 description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg."
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
-category:
-  - "Image &amp; Creative Automation"
 tool_ecosystem:
-  github_repo: "https://github.com/FFmpeg/FFmpeg"
+  github_repo: "FFmpeg/FFmpeg"
   github_stars: 58548
 ---
 
@@ -17,13 +14,13 @@ Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-t
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

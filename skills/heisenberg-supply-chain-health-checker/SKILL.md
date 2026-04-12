@@ -1,13 +1,10 @@
 ---
 title: "Heisenberg Supply Chain Health Checker"
-slug: "heisenberg-supply-chain-health-checker"
 description: "An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios."
 verification: security_reviewed
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
-category:
-  - "Security &amp; Verification"
 tool_ecosystem:
-  github_repo: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"
+  github_repo: "AppOmni-Labs/heisenberg-ssc-health-check"
   github_stars: 123
 ---
 
@@ -17,13 +14,13 @@ An open-source software supply chain health check tool that analyzes dependencie
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

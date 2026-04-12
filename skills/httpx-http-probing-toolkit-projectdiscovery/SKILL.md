@@ -1,13 +1,10 @@
 ---
 title: "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery"
-slug: "httpx-http-probing-toolkit-projectdiscovery"
 description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata, fingerprints technologies, and outputs structured results for security reconnaissance and monitoring pipelines."
 verification: security_reviewed
 source: "https://github.com/projectdiscovery/httpx"
-category:
-  - "Security &amp; Verification"
 tool_ecosystem:
-  github_repo: "https://github.com/projectdiscovery/httpx"
+  github_repo: "projectdiscovery/httpx"
   github_stars: 9759
 ---
 
@@ -17,13 +14,13 @@ httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running prob
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

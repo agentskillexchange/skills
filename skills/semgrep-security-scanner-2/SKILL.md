@@ -1,11 +1,8 @@
 ---
 title: "Semgrep Security Scanner"
-slug: "semgrep-security-scanner-2"
 description: "Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-security-scanner-2/"
-category:
-  - "Code Quality &amp; Review"
 ---
 
 # Semgrep Security Scanner
@@ -14,13 +11,13 @@ Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

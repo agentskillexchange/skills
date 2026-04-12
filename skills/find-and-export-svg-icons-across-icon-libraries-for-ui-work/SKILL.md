@@ -1,13 +1,10 @@
 ---
 title: "Find and export SVG icons across icon libraries for UI work"
-slug: "find-and-export-svg-icons-across-icon-libraries-for-ui-work"
 description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
 verification: security_reviewed
 source: "https://github.com/better-auth/better-icons"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/better-auth/better-icons"
+  github_repo: "better-auth/better-icons"
   github_stars: 912
 ---
 
@@ -17,13 +14,13 @@ Use Better Icons when an agent needs to search icon sets, compare matches, and r
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

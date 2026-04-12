@@ -1,11 +1,8 @@
 ---
 title: "Grafana Dashboard Scaffolder"
-slug: "grafana-dashboard-scaffolder"
 description: "Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db endpoint. Creates panels with Prometheus, InfluxDB, and Elasticsearch datasource queries pre-configured for common infrastructure metrics."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/grafana-dashboard-scaffolder/"
-category:
-  - "Monitoring &amp; Alerts"
 ---
 
 # Grafana Dashboard Scaffolder
@@ -14,13 +11,13 @@ Generates Grafana dashboard JSON using the Grafana HTTP API /api/dashboards/db e
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

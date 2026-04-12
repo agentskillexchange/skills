@@ -1,15 +1,12 @@
 ---
 title: "Official Firecrawl MCP Server"
-slug: "official-firecrawl-mcp-server"
 description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers."
 verification: security_reviewed
 source: "https://github.com/firecrawl/firecrawl-mcp-server"
-category:
-  - "Research &amp; Scraping"
 tool_ecosystem:
-  github_repo: "https://github.com/firecrawl/firecrawl-mcp-server"
+  github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 6001
-  npm_package: "firecrawl-mcp"
+  ase_npm_package: "firecrawl-mcp"
   npm_weekly_downloads: 28948
 ---
 
@@ -19,13 +16,13 @@ Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

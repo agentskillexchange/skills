@@ -1,11 +1,8 @@
 ---
 title: "Bannerbear Dynamic Image API"
-slug: "bannerbear-dynamic-image-api"
 description: "Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications, font layers, and signed URL generation for on-the-fly image personalization."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
-category:
-  - "Image &amp; Creative Automation"
 ---
 
 # Bannerbear Dynamic Image API
@@ -14,13 +11,13 @@ Generates social media graphics and OG images dynamically via Bannerbear REST AP
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

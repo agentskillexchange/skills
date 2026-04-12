@@ -1,15 +1,12 @@
 ---
 title: "Drizzle ORM TypeScript SQL Database Toolkit"
-slug: "drizzle-orm-typescript-sql-database-toolkit"
 description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema declarations, relational and SQL-like query builders, and automatic migration generation. At only 7.4kb minified and gzipped with zero dependencies, it supports PostgreSQL, MySQL, and SQLite including serverless databases like Neon, Turso, and Cloudflare D1."
 verification: security_reviewed
 source: "https://github.com/drizzle-team/drizzle-orm"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/drizzle-team/drizzle-orm"
+  github_repo: "drizzle-team/drizzle-orm"
   github_stars: 33566
-  npm_package: "drizzle-orm"
+  ase_npm_package: "drizzle-orm"
   npm_weekly_downloads: 6668107
 ---
 
@@ -19,13 +16,13 @@ Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema d
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

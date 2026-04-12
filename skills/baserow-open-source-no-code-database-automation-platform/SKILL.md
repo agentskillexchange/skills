@@ -1,11 +1,8 @@
 ---
 title: "Baserow Open Source No-Code Database and Automation Platform"
-slug: "baserow-open-source-no-code-database-automation-platform"
 description: "Baserow is an open-source no-code platform for databases, automations, internal apps, and API-first workflows. It is useful when teams need spreadsheet-like data management, self-hosting, and programmable access without building a custom admin stack from scratch."
 verification: security_reviewed
 source: "https://github.com/baserow/baserow"
-category:
-  - "Developer Tools"
 ---
 
 # Baserow Open Source No-Code Database and Automation Platform
@@ -14,13 +11,13 @@ Baserow is an open-source no-code platform for databases, automations, internal 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

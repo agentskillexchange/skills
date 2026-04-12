@@ -1,13 +1,10 @@
 ---
 title: "Nylas Platform SDK for Unified Email Calendar and Contacts API"
-slug: "nylas-sdk-email-calendar-contacts"
 description: "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs."
 verification: security_reviewed
 source: "https://github.com/nylas/nylas-python"
-category:
-  - "Calendar, Email &amp; Productivity"
 tool_ecosystem:
-  github_repo: "https://github.com/nylas/nylas-python"
+  github_repo: "nylas/nylas-python"
   github_stars: 106
 ---
 
@@ -17,13 +14,13 @@ Nylas provides REST APIs and SDKs for Python and Node.js that offer unified acce
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

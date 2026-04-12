@@ -1,13 +1,10 @@
 ---
 title: "delta Syntax-Highlighting Git Diff Pager"
-slug: "delta-syntax-highlighting-git-diff-pager"
 description: "A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff highlighting, side-by-side views, line numbering, and theme support using the same syntax themes as bat."
 verification: security_reviewed
 source: "https://github.com/dandavison/delta"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/dandavison/delta"
+  github_repo: "dandavison/delta"
   github_stars: 29842
 ---
 
@@ -17,13 +14,13 @@ A syntax-highlighting pager for git diff, grep, and blame output built in Rust. 
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

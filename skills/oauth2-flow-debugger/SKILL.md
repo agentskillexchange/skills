@@ -1,11 +1,8 @@
 ---
 title: "OAuth2 Flow Debugger"
-slug: "oauth2-flow-debugger"
 description: "Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses jose JWT library and node-fetch to validate tokens, decode claims, and trace redirect chains."
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/oauth2-flow-debugger/"
-category:
-  - "Security &amp; Verification"
 ---
 
 # OAuth2 Flow Debugger
@@ -14,13 +11,13 @@ Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credent
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

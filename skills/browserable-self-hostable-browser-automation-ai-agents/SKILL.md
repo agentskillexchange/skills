@@ -1,15 +1,12 @@
 ---
 title: "Browserable Self-Hostable Browser Automation for AI Agents"
-slug: "browserable-self-hostable-browser-automation-ai-agents"
 description: "Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling, extraction, and browser-based task execution with local control instead of a hosted black box."
 verification: security_reviewed
 source: "https://github.com/browserable/browserable"
-category:
-  - "Browser Automation"
 tool_ecosystem:
-  github_repo: "https://github.com/browserable/browserable"
+  github_repo: "browserable/browserable"
   github_stars: 1177
-  npm_package: "browserable"
+  ase_npm_package: "browserable"
   npm_weekly_downloads: 21
 ---
 
@@ -19,13 +16,13 @@ Browserable is an open-source, self-hostable browser automation library built fo
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

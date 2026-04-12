@@ -1,13 +1,10 @@
 ---
 title: "age Modern File Encryption Tool"
-slug: "age-modern-file-encryption-tool"
 description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows."
 verification: security_reviewed
 source: "https://github.com/FiloSottile/age"
-category:
-  - "Security &amp; Verification"
 tool_ecosystem:
-  github_repo: "https://github.com/FiloSottile/age"
+  github_repo: "FiloSottile/age"
   github_stars: 21824
 ---
 
@@ -17,13 +14,13 @@ Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryptio
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

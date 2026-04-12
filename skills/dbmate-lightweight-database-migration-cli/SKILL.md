@@ -1,15 +1,12 @@
 ---
 title: "dbmate Lightweight Database Migration CLI"
-slug: "dbmate-lightweight-database-migration-cli"
 description: "dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports PostgreSQL, MySQL, SQLite, ClickHouse, BigQuery, and Spanner, and works with any programming language or framework."
 verification: security_reviewed
 source: "https://github.com/amacneil/dbmate"
-category:
-  - "Developer Tools"
 tool_ecosystem:
-  github_repo: "https://github.com/amacneil/dbmate"
+  github_repo: "amacneil/dbmate"
   github_stars: 6801
-  npm_package: "dbmate"
+  ase_npm_package: "dbmate"
   npm_weekly_downloads: 83834
 ---
 
@@ -19,13 +16,13 @@ dbmate is a standalone, framework-agnostic database migration tool that uses pla
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

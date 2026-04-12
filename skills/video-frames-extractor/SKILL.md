@@ -1,35 +1,26 @@
 ---
 title: "Video Frames Extractor"
-slug: "video-frames-extractor"
-description: "Extract frames and short clips from videos.\n\nCore Capabilities\n\nProcess audio and video files using ffmpeg for transcription and analysis\n\nExtract text, timestamps, and speaker metadata from media cont"
+description: "Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont"
 verification: security_reviewed
 source: "https://github.com/FFmpeg/FFmpeg"
-category:
-  - "Media &amp; Transcription"
 tool_ecosystem:
-  github_repo: "https://github.com/FFmpeg/FFmpeg"
+  github_repo: "FFmpeg/FFmpeg"
   github_stars: 58637
 ---
 
 # Video Frames Extractor
 
-Extract frames and short clips from videos.
-
-Core Capabilities
-
-Process audio and video files using ffmpeg for transcription and analysis
-
-Extract text, timestamps, and speaker metadata from media cont
+Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

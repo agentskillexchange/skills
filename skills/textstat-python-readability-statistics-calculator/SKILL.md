@@ -1,13 +1,10 @@
 ---
 title: "textstat Python Readability Statistics Calculator"
-slug: "textstat-python-readability-statistics-calculator"
 description: "textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease, Gunning Fog Index, SMOG Index, Coleman-Liau Index, and Dale-Chall score. It provides quantitative readability metrics that content writers and SEO professionals use to optimize content for target audiences."
 verification: security_reviewed
 source: "https://github.com/textstat/textstat"
-category:
-  - "Content Writing &amp; SEO"
 tool_ecosystem:
-  github_repo: "https://github.com/textstat/textstat"
+  github_repo: "textstat/textstat"
   github_stars: 1361
 ---
 
@@ -17,13 +14,13 @@ textstat is a Python package that calculates readability statistics for text con
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 

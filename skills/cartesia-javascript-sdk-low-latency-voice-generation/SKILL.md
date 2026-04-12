@@ -1,11 +1,8 @@
 ---
 title: "Cartesia JavaScript SDK for Low-Latency Voice Generation"
-slug: "cartesia-javascript-sdk-low-latency-voice-generation"
 description: "An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a strong fit for agents that need programmatic voice generation, low-latency speech responses, and direct integration with Cartesia’s hosted models."
 verification: security_reviewed
 source: "https://github.com/cartesia-ai/cartesia-js"
-category:
-  - "Media &amp; Transcription"
 ---
 
 # Cartesia JavaScript SDK for Low-Latency Voice Generation
@@ -14,13 +11,13 @@ An ASE skill built around the official Cartesia JavaScript SDK for text-to-speec
 
 ## Installation
 
-Choose the setup path that fits your environment:
+Choose the path that fits your setup:
 
-1. Install from the Agent Skill Exchange UI
-2. Clone or download this skill into your skills directory
-3. Install with your agent platform's skill manager, if supported
-4. Vendor the skill into your workspace or repo
-5. Copy the skill files manually for local customization
+1. Clone this repository and use the skill locally.
+2. Copy the skill folder into your local skills directory.
+3. Add the skill as a Git submodule in your skills workspace.
+4. Vendor the files into an internal skill catalog for your team.
+5. Reference the upstream source and recreate the skill in your own agent environment.
 
 ## Source
 
