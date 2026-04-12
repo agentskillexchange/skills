@@ -10,7 +10,6 @@ source: "https://github.com/adnanh/webhook"
 tool_ecosystem:
   github_repo: "adnanh/webhook"
   github_stars: 11718
-  license: "MIT"
 ---
 
 # Webhook Lightweight HTTP Endpoint Server for Shell Command Execution

@@ -10,6 +10,7 @@ source: "https://github.com/aws/aws-cdk"
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12734
+  ase_npm_package: "aws-cdk"
 ---
 
 # AWS CDK Scaffolder

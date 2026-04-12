@@ -10,6 +10,7 @@ source: "https://github.com/netlify/cli"
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1841
+  ase_npm_package: "netlify-cli"
 ---
 
 # Netlify Site Manager

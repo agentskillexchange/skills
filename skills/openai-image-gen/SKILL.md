@@ -10,6 +10,7 @@ source: "https://github.com/openai/openai-node"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10791
+  ase_npm_package: "openai"
 ---
 
 # OpenAI Image Gen

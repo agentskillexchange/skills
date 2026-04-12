@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/josdejong/jsonrepair"
-tool_ecosystem:
-  github_repo: "josdejong/jsonrepair"
-  github_stars: 2296
 ---
 
 # Repair malformed JSON before parsing downstream automations with jsonrepair

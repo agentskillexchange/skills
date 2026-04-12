@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Redocly/redocly-cli"
+tool_ecosystem:
+  github_repo: "redocly/redocly-cli"
+  github_stars: 1422
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator

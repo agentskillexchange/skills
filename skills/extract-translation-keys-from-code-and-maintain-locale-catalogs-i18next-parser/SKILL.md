@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/i18next/i18next-parser"
-tool_ecosystem:
-  github_repo: "i18next/i18next-parser"
-  github_stars: 556
 ---
 
 # Extract translation keys from code and maintain locale catalogs with i18next-parser

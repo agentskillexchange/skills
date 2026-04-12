@@ -10,7 +10,6 @@ source: "https://github.com/SYSTRAN/faster-whisper"
 tool_ecosystem:
   github_repo: "SYSTRAN/faster-whisper"
   github_stars: 21865
-  license: "MIT"
 ---
 
 # faster-whisper High-Performance Speech Transcription Engine

@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Unstructured-IO/unstructured"
+tool_ecosystem:
+  github_repo: "unstructured-io/unstructured"
+  github_stars: 14390
 ---
 
 # Unstructured Document Partitioning and ETL Library for LLM Pipelines

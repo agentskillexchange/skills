@@ -7,6 +7,11 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/seleniumbase/SeleniumBase"
+tool_ecosystem:
+  github_repo: "seleniumbase/seleniumbase"
+  github_stars: 12560
+  ase_npm_package: "seleniumbase"
+  npm_weekly_downloads: 15
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework

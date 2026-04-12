@@ -10,6 +10,7 @@ source: "https://github.com/cloudflare/workers-sdk"
 tool_ecosystem:
   github_repo: "cloudflare/workers-sdk"
   github_stars: 3961
+  ase_npm_package: "wrangler"
 ---
 
 # Cloudflare Workers Deployer

@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Shopify/toxiproxy"
-tool_ecosystem:
-  github_repo: "Shopify/toxiproxy"
-  github_stars: 11934
 ---
 
 # Simulate network failures in integration tests with Toxiproxy

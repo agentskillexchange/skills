@@ -10,6 +10,7 @@ source: "https://github.com/browserbase/stagehand"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22019
+  ase_npm_package: "stagehand-workspace"
 ---
 
 # Stagehand Browser Agent SDK

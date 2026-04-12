@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/github/git-sizer"
-tool_ecosystem:
-  github_repo: "github/git-sizer"
-  github_stars: 4013
 ---
 
 # Diagnose pathological Git repository size before migration, CI, or contributor onboarding

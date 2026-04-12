@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/checkmake/checkmake"
-tool_ecosystem:
-  github_repo: "checkmake/checkmake"
-  github_stars: 1188
 ---
 
 # Makefile Linting for CI and Build Pipelines

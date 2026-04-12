@@ -10,7 +10,6 @@ source: "https://github.com/wooorm/franc"
 tool_ecosystem:
   github_repo: "wooorm/franc"
   github_stars: 4386
-  license: "MIT"
 ---
 
 # franc Natural Language Detection Library and CLI

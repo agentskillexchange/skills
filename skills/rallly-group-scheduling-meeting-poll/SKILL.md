@@ -10,7 +10,6 @@ source: "https://github.com/lukevella/rallly"
 tool_ecosystem:
   github_repo: "lukevella/rallly"
   github_stars: 5027
-  license: "AGPL-3.0"
 ---
 
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform

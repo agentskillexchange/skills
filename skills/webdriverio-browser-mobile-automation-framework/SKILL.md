@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 9762
   ase_npm_package: "webdriverio"
   npm_weekly_downloads: 2684837
-  license: "MIT"
 ---
 
 # WebdriverIO Next-Gen Browser and Mobile Automation Framework

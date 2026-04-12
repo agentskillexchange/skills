@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/sindresorhus/pageres"
-tool_ecosystem:
-  github_repo: "sindresorhus/pageres"
-  github_stars: 9741
 ---
 
 # Capture responsive website screenshots for visual QA with Pageres

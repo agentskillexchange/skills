@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/yannh/kubeconform"
-tool_ecosystem:
-  github_repo: "yannh/kubeconform"
-  github_stars: 2986
 ---
 
 # Validate Kubernetes manifests against upstream schemas before cluster apply

@@ -10,7 +10,6 @@ source: "https://github.com/charmbracelet/pop"
 tool_ecosystem:
   github_repo: "charmbracelet/pop"
   github_stars: 2814
-  license: "MIT"
 ---
 
 # Pop Terminal Email Sender and TUI by Charmbracelet

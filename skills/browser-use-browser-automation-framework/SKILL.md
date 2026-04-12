@@ -10,7 +10,6 @@ source: "https://github.com/browser-use/browser-use"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 85193
-  license: "MIT"
 ---
 
 # browser-use Browser Automation Framework

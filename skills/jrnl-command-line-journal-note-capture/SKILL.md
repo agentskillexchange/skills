@@ -10,7 +10,6 @@ source: "https://github.com/jrnl-org/jrnl"
 tool_ecosystem:
   github_repo: "jrnl-org/jrnl"
   github_stars: 7195
-  license: "GPL-3.0"
 ---
 
 # jrnl Command-Line Journal and Note Capture Tool

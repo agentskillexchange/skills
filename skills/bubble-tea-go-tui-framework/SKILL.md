@@ -10,7 +10,6 @@ source: "https://github.com/charmbracelet/bubbletea"
 tool_ecosystem:
   github_repo: "charmbracelet/bubbletea"
   github_stars: 41168
-  license: "MIT"
 ---
 
 # Bubble Tea Go TUI Framework by Charmbracelet

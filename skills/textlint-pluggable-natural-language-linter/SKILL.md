@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 3099
   ase_npm_package: "textlint"
   npm_weekly_downloads: 104057
-  license: "MIT"
 ---
 
 # textlint Pluggable Natural Language Linter

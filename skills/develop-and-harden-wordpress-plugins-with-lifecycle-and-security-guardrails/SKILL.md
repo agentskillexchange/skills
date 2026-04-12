@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
-tool_ecosystem:
-  github_repo: "Automattic/agent-skills"
-  github_stars: 197
 ---
 
 # Develop and harden WordPress plugins with lifecycle and security guardrails

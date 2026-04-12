@@ -10,7 +10,6 @@ source: "https://github.com/lycheeverse/lychee"
 tool_ecosystem:
   github_repo: "lycheeverse/lychee"
   github_stars: 3463
-  license: "Apache-2.0"
 ---
 
 # lychee Async Broken Link Checker for Websites and Documentation

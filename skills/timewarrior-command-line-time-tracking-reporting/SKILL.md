@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
+tool_ecosystem:
+  github_repo: "gothenburgbitfactory/timewarrior"
+  github_stars: 1580
 ---
 
 # Timewarrior Command-Line Time Tracking and Reporting

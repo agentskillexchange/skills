@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/scrapinghub/extruct"
-tool_ecosystem:
-  github_repo: "scrapinghub/extruct"
-  github_stars: 961
 ---
 
 # Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing

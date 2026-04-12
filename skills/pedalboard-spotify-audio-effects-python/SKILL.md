@@ -10,7 +10,6 @@ source: "https://github.com/spotify/pedalboard"
 tool_ecosystem:
   github_repo: "spotify/pedalboard"
   github_stars: 6041
-  license: "GPL-3.0"
 ---
 
 # Pedalboard Python Audio Effects Library by Spotify

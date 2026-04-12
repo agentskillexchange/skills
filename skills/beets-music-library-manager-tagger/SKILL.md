@@ -10,7 +10,6 @@ source: "https://github.com/beetbox/beets"
 tool_ecosystem:
   github_repo: "beetbox/beets"
   github_stars: 14901
-  license: "MIT"
 ---
 
 # Beets Music Library Manager and Tagger

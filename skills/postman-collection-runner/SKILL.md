@@ -10,6 +10,7 @@ source: "https://github.com/postmanlabs/newman"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7203
+  ase_npm_package: "newman"
 ---
 
 # Postman Collection Runner

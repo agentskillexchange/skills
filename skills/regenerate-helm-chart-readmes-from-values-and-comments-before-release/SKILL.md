@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/norwoodj/helm-docs"
-tool_ecosystem:
-  github_repo: "norwoodj/helm-docs"
-  github_stars: 1732
 ---
 
 # Regenerate Helm chart READMEs from values and comments before release

@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/cruft/cruft"
-tool_ecosystem:
-  github_repo: "cruft/cruft"
-  github_stars: 1564
 ---
 
 # Refresh Cookiecutter-based repositories from their upstream template without losing local answers

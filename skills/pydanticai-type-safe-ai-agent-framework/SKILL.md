@@ -10,7 +10,6 @@ source: "https://github.com/pydantic/pydantic-ai"
 tool_ecosystem:
   github_repo: "pydantic/pydantic-ai"
   github_stars: 15962
-  license: "MIT"
 ---
 
 # PydanticAI Type-Safe AI Agent Framework

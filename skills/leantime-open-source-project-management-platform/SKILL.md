@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Leantime/leantime"
+tool_ecosystem:
+  github_repo: "leantime/leantime"
+  github_stars: 9460
 ---
 
 # Leantime Open Source Goals-Focused Project Management Platform

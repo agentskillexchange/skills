@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Kozea/Radicale"
+tool_ecosystem:
+  github_repo: "kozea/radicale"
+  github_stars: 4535
 ---
 
 # Radicale Self-Hosted CalDAV and CardDAV Server

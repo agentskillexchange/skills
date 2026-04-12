@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/goss-org/goss"
-tool_ecosystem:
-  github_repo: "goss-org/goss"
-  github_stars: 5878
 ---
 
 # Verify a freshly provisioned server or container matches expected services, ports, and files

@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/ekalinin/sitemap.js"
-tool_ecosystem:
-  github_repo: "ekalinin/sitemap.js"
-  github_stars: 1708
 ---
 
 # Generate XML sitemaps and robots.txt from route inventories before SEO launch

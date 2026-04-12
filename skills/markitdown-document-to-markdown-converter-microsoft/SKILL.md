@@ -10,7 +10,6 @@ source: "https://github.com/microsoft/markitdown"
 tool_ecosystem:
   github_repo: "microsoft/markitdown"
   github_stars: 93207
-  license: "MIT"
 ---
 
 # MarkItDown Document-to-Markdown Converter by Microsoft

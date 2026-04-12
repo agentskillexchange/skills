@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/rhysd/actionlint"
-tool_ecosystem:
-  github_repo: "rhysd/actionlint"
-  github_stars: 3779
 ---
 
 # Prevent broken GitHub Actions workflows before CI runs with actionlint

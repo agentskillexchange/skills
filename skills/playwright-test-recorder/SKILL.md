@@ -10,6 +10,7 @@ source: "https://github.com/microsoft/playwright"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86048
+  ase_npm_package: "playwright"
 ---
 
 # Playwright Test Recorder

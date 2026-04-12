@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/grafana/har-to-k6"
-tool_ecosystem:
-  github_repo: "grafana/har-to-k6"
-  github_stars: 159
 ---
 
 # Convert browser HAR captures into reusable k6 load tests with har-to-k6

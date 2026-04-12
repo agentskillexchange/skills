@@ -10,7 +10,6 @@ source: "https://github.com/immich-app/immich"
 tool_ecosystem:
   github_repo: "immich-app/immich"
   github_stars: 96205
-  license: "AGPL-3.0"
 ---
 
 # Immich Self-Hosted Photo and Video Management Platform

@@ -7,6 +7,9 @@ category:
 framework:
   - "Custom Agents"
 source: "https://github.com/WordOps/WordOps"
+tool_ecosystem:
+  github_repo: "wordops/wordops"
+  github_stars: 1538
 ---
 
 # WordOps High-Performance WordPress Server Stack Manager

@@ -7,6 +7,11 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/Pagefind/pagefind"
+tool_ecosystem:
+  github_repo: "pagefind/pagefind"
+  github_stars: 5094
+  ase_npm_package: "pagefind"
+  npm_weekly_downloads: 492569
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine

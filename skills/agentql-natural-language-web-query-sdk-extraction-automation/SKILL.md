@@ -12,7 +12,6 @@ tool_ecosystem:
   github_stars: 1312
   ase_npm_package: "agentql"
   npm_weekly_downloads: 893
-  license: "MIT"
 ---
 
 # AgentQL Natural Language Web Query SDK for Extraction and Automation

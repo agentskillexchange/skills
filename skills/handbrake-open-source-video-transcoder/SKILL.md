@@ -7,6 +7,9 @@ category:
 framework:
   - "Custom Agents"
 source: "https://github.com/HandBrake/HandBrake"
+tool_ecosystem:
+  github_repo: "handbrake/handbrake"
+  github_stars: 22806
 ---
 
 # HandBrake Open-Source Video Transcoder

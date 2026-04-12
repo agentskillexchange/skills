@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/qdrant/skills/tree/main/skills/qdrant-search-quality"
-tool_ecosystem:
-  github_repo: "qdrant/skills"
-  github_stars: 60
 ---
 
 # Improve Qdrant vector search relevance and retrieval quality

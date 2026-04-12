@@ -10,7 +10,6 @@ source: "https://github.com/roots/trellis"
 tool_ecosystem:
   github_repo: "roots/trellis"
   github_stars: 2560
-  license: "MIT"
 ---
 
 # Trellis WordPress LEMP Stack Provisioner by Roots

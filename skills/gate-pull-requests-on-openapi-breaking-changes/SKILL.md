@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/oasdiff/oasdiff"
-tool_ecosystem:
-  github_repo: "oasdiff/oasdiff"
-  github_stars: 1145
 ---
 
 # Gate pull requests on OpenAPI breaking changes

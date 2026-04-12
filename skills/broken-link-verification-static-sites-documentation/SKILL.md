@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/wjdp/htmltest"
-tool_ecosystem:
-  github_repo: "wjdp/htmltest"
-  github_stars: 371
 ---
 
 # Broken Link Verification for Static Sites and Documentation

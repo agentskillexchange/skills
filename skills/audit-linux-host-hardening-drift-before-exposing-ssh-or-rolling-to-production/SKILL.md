@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/CISOfy/lynis"
-tool_ecosystem:
-  github_repo: "CISOfy/lynis"
-  github_stars: 15502
 ---
 
 # Audit Linux host hardening drift before exposing SSH or rolling to production

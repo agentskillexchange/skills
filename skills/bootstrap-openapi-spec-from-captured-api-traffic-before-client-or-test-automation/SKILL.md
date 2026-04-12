@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/alufers/mitmproxy2swagger"
-tool_ecosystem:
-  github_repo: "alufers/mitmproxy2swagger"
-  github_stars: 9348
 ---
 
 # Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts

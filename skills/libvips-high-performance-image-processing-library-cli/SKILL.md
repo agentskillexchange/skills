@@ -10,7 +10,6 @@ source: "https://github.com/libvips/libvips"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
-  license: "LGPL-2.1"
 ---
 
 # libvips High-Performance Image Processing Library and CLI

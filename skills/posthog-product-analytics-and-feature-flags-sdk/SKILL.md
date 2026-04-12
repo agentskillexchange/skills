@@ -7,6 +7,11 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/PostHog/posthog-js"
+tool_ecosystem:
+  github_repo: "posthog/posthog-js"
+  github_stars: 531
+  ase_npm_package: "posthog-js"
+  npm_weekly_downloads: 4626964
 ---
 
 # PostHog Product Analytics and Feature Flags SDK

@@ -10,7 +10,6 @@ source: "https://github.com/sibprogrammer/xq"
 tool_ecosystem:
   github_repo: "sibprogrammer/xq"
   github_stars: 1100
-  license: "MIT"
 ---
 
 # xq Command-Line XML and HTML Beautifier and Content Extractor

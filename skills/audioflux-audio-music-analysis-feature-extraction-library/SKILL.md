@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/libAudioFlux/audioFlux"
+tool_ecosystem:
+  github_repo: "libaudioflux/audioflux"
+  github_stars: 3290
 ---
 
 # audioFlux Audio and Music Analysis Feature Extraction Library

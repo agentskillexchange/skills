@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/adrienverge/yamllint"
-tool_ecosystem:
-  github_repo: "adrienverge/yamllint"
-  github_stars: 3360
 ---
 
 # Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy

@@ -10,7 +10,6 @@ source: "https://github.com/facebookresearch/demucs"
 tool_ecosystem:
   github_repo: "facebookresearch/demucs"
   github_stars: 9949
-  license: "MIT"
 ---
 
 # Demucs Music Source Separation for Vocal and Stem Extraction

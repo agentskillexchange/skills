@@ -10,7 +10,6 @@ source: "https://github.com/bbc/audiowaveform"
 tool_ecosystem:
   github_repo: "bbc/audiowaveform"
   github_stars: 2130
-  license: "GPL-3.0"
 ---
 
 # audiowaveform Audio Waveform Data Generator and Image Renderer

@@ -10,7 +10,6 @@ source: "https://github.com/amperser/proselint"
 tool_ecosystem:
   github_repo: "amperser/proselint"
   github_stars: 4515
-  license: "BSD-3-Clause"
 ---
 
 # proselint Prose Linting and Style Checker CLI

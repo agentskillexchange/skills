@@ -7,6 +7,9 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/rust-lang/mdBook"
+tool_ecosystem:
+  github_repo: "rust-lang/mdbook"
+  github_stars: 21419
 ---
 
 # mdBook Markdown Book Generator by Rust Project

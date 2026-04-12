@@ -7,9 +7,6 @@ category:
 framework:
   - "Multi-Framework"
 source: "https://github.com/nteract/papermill"
-tool_ecosystem:
-  github_repo: "nteract/papermill"
-  github_stars: 6427
 ---
 
 # Parameterize and execute notebooks as repeatable runs
