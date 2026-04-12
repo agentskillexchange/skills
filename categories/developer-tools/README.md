@@ -99,10 +99,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | 33.9k | — |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | 33.6k | — |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 6.7M/wk |
+| [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | 33.3k | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | 33.3k | — |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | 33.2k | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | 32.9k | — |
 | [Just Command Runner](../../skills/just-command-runner/) | 32.5k | — |
+| [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | 31.9k | — |
 | [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 30.3k | — |
@@ -141,6 +143,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 18.7k | — |
+| [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |
@@ -193,13 +196,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | 6.3k | — |
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | 6.1k | — |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
+| [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | — |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
+| [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | 5.1k | — |
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
+| [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
@@ -234,11 +240,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | — | — |
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
-| [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
 | [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
-| [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | — | — |
@@ -272,7 +276,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
-| [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | — | — |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | — | — |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | — |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | — |
@@ -281,13 +284,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
-| [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | — | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
-| [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |

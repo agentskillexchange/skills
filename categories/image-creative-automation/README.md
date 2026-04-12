@@ -51,6 +51,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
 | [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | — |
+| [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | 4.1k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | — |
@@ -88,7 +89,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | — | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | — | — |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | — | — |
-| [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |

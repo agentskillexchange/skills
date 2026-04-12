@@ -7,15 +7,15 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars |
 |---|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
+| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 48.1k |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⭐ 21.3k |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
+| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | ⭐ 14k |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.8k |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | ⭐ 6.7k |
-| [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | ⭐ 4.7k |
-| [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | ⭐ 1.1k |
 
 ---
 
@@ -32,14 +32,17 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
+| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.2k/wk |
+| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | 14k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
+| [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.1k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
@@ -98,7 +101,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | — | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | — | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | — | — |
-| [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | — | — |
@@ -159,7 +161,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | — | — |
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | — | — |
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | — | — |
-| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | — | — |
@@ -177,7 +178,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | — | — |
 | [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | — | — |
 | [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | — | — |
-| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | — | — |
 | [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | — | — |
 | [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | — | — |
 | [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | — | — |

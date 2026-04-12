@@ -10,12 +10,12 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.1k |
+| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | ⭐ 63.5k |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⭐ 43k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
+| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | ⭐ 28k |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
-| [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | ⭐ 24.1k |
-| [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | ⭐ 20.4k |
 
 ---
 
@@ -41,22 +41,30 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.1k | — |
+| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | 63.5k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
+| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
+| [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | 22.7k | — |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | 20.4k | — |
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
+| [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |
+| [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
+| [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.8k/wk |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](../../skills/logfire-python-observability-sdk-llm-agent-tracing/) | 4.2k | — |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
+| [Chartbrew Open Source Reporting Platform for API and Database Dashboards](../../skills/chartbrew-open-source-reporting-dashboard-platform/) | 3.7k | — |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
+| [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.6M/wk |
@@ -73,7 +81,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
-| [Chartbrew Open Source Reporting Platform for API and Database Dashboards](../../skills/chartbrew-open-source-reporting-dashboard-platform/) | — | — |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
@@ -93,7 +100,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | — | — |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
-| [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | — | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | — | — |
 | [GlitchTip Open-Source Error Tracking Platform](../../skills/glitchtip-open-source-error-tracking-platform/) | — | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | — | — |
@@ -112,17 +118,13 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | — | — |
-| [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | — | — |
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
-| [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | — | — |
-| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
-| [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | — | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | — | — |
 | [OpenTelemetry Trace Aggregator](../../skills/opentelemetry-trace-aggregator/) | — | — |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | — | — |
@@ -132,7 +134,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Alert Rule Builder](../../skills/prometheus-alert-rule-builder/) | — | — |
 | [Prometheus Alert Rule Generator](../../skills/prometheus-alert-rule-generator-2/) | — | — |
 | [Prometheus Alert Rule Synthesizer](../../skills/prometheus-alert-rule-synthesizer/) | — | — |
-| [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | — | — |
 | [Prometheus Alertmanager Bridge](../../skills/prometheus-alertmanager-bridge-2/) | — | — |
 | [Prometheus AlertManager Bridge](../../skills/prometheus-alertmanager-bridge/) | — | — |
 | [Prometheus AlertManager Configurator](../../skills/prometheus-alertmanager-configurator/) | — | — |
@@ -144,7 +145,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Custom Exporter Builder](../../skills/prometheus-custom-exporter-builder/) | — | — |
 | [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | — | — |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | — | — |
-| [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | — | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | — | — |
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |

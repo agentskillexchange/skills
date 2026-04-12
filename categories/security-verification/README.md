@@ -53,6 +53,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
+| [Falco Runtime Security](../../skills/falco-runtime-security/) | 8.8k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
@@ -60,11 +61,16 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
+| [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
+| [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
+| [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | 3.3k | — |
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
+| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
+| [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
@@ -80,11 +86,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
-| [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | — | — |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
-| [Conftest Policy Tester](../../skills/conftest-policy-tester/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | — | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | — | — |
@@ -93,7 +97,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
-| [Falco Runtime Security](../../skills/falco-runtime-security/) | — | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
@@ -103,7 +106,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | — | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | — | — |
-| [KICS IaC Linter](../../skills/kics-iac-linter/) | — | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
@@ -144,10 +146,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | — | — |
-| [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |
-| [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | — | — |
 | [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | — | — |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | — | — |
 | [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | — | — |

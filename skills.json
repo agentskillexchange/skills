@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1906,
+  "total": 1909,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "add-shell-and-cli-smoke-tests-before-refactors-ship",
+      "name": "Add executable smoke tests for shell scripts and CLIs before refactors ship",
+      "description": "Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can verify repeatedly after edits. The agent…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5966
+      }
+    },
+    {
+      "slug": "refresh-cookiecutter-based-repositories-from-upstream-template",
+      "name": "Refresh Cookiecutter-based repositories from their upstream template without losing local answers",
+      "description": "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1564
+      }
+    },
+    {
+      "slug": "audit-python-dependency-declarations-before-release",
+      "name": "Audit Python dependency declarations for unused, missing, and transitive imports before release",
+      "description": "Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1358
+      }
+    },
     {
       "slug": "generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch",
       "name": "Generate XML sitemaps and robots.txt from route inventories before SEO launch",
@@ -3368,7 +3413,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8115
+      }
     },
     {
       "slug": "cariddi-domain-crawler-endpoint-secret-scanner",
@@ -3380,7 +3428,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3338
+      }
     },
     {
       "slug": "logdy-realtime-log-viewer-web-ui-cli",
@@ -3392,7 +3443,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2148
+      }
     },
     {
       "slug": "kroki-unified-diagram-rendering-api-server",
@@ -3404,7 +3458,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4072
+      }
     },
     {
       "slug": "nodemailer-nodejs-email-sending-library",
@@ -3416,7 +3473,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17534
+      }
     },
     {
       "slug": "solidtime-open-source-time-tracking",
@@ -3428,7 +3488,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8399
+      }
     },
     {
       "slug": "activitywatch-automated-time-tracker",
@@ -3440,7 +3503,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17242
+      }
     },
     {
       "slug": "scrapegraphai-llm-web-scraping",
@@ -3452,7 +3518,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 23279
+      }
     },
     {
       "slug": "nylas-sdk-email-calendar-contacts",
@@ -3464,7 +3533,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 106
+      }
     },
     {
       "slug": "nodriver-undetected-chrome-automation",
@@ -3476,7 +3548,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4005
+      }
     },
     {
       "slug": "camoufox-antidetect-browser-python",
@@ -3488,7 +3563,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7097
+      }
     },
     {
       "slug": "wikijs-wiki-platform-nodejs",
@@ -3500,7 +3578,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 28155
+      }
     },
     {
       "slug": "zulip-team-chat-threading",
@@ -3512,7 +3593,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 25013
+      }
     },
     {
       "slug": "outline-knowledge-base-wiki",
@@ -3524,7 +3608,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 38027
+      }
     },
     {
       "slug": "fonttools-python-font-manipulation-subsetting",
@@ -3536,7 +3623,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5067
+      }
     },
     {
       "slug": "weasyprint-html-css-pdf-document-generator",
@@ -3548,7 +3638,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8841
+      }
     },
     {
       "slug": "tarsier-vision-utilities-web-interaction-agents",
@@ -3560,7 +3653,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1758
+      }
     },
     {
       "slug": "swc-speedy-web-compiler-javascript-typescript",
@@ -3572,7 +3668,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33347
+      }
     },
     {
       "slug": "biome-high-performance-javascript-typescript-formatter-linter",
@@ -3584,7 +3683,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 24340
+      }
     },
     {
       "slug": "appwrite-open-source-backend-as-a-service-platform",
@@ -3596,7 +3698,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 55674
+      }
     },
     {
       "slug": "zammad-open-source-helpdesk-ticketing-system",
@@ -3608,7 +3713,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5513
+      }
     },
     {
       "slug": "verdaccio-private-npm-proxy-registry",
@@ -3620,7 +3728,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17595
+      }
     },
     {
       "slug": "chatwoot-open-source-customer-engagement-omnichannel-support",
@@ -3632,7 +3743,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 28471
+      }
     },
     {
       "slug": "tracecat-ai-security-automation-soar-platform",
@@ -3644,7 +3758,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3546
+      }
     },
     {
       "slug": "kamal-zero-downtime-docker-deployment-basecamp",
@@ -3656,7 +3773,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14009
+      }
     },
     {
       "slug": "garden-kubernetes-dev-testing-automation",
@@ -3668,7 +3788,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3574
+      }
     },
     {
       "slug": "quickwit-cloud-native-search-engine-observability",
@@ -3680,7 +3803,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11067
+      }
     },
     {
       "slug": "gorse-ai-recommender-system-engine",
@@ -3692,7 +3818,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 9600
+      }
     },
     {
       "slug": "openreplay-self-hosted-session-replay-analytics",
@@ -3704,7 +3833,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11929
+      }
     },
     {
       "slug": "chartbrew-open-source-reporting-dashboard-platform",
@@ -3716,7 +3848,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3692
+      }
     },
     {
       "slug": "pdfme-typescript-pdf-generation-library",
@@ -3728,7 +3863,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4263
+      }
     },
     {
       "slug": "dozzle-docker-log-viewer",
@@ -3740,7 +3878,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 12360
+      }
     },
     {
       "slug": "react-email-component-library-email-templates",
@@ -3752,7 +3893,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 18373
+      }
     },
     {
       "slug": "resend-developer-email-api-nodejs-sdk",
@@ -3764,7 +3908,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 887
+      }
     },
     {
       "slug": "pop-terminal-email-sender-charmbracelet",
@@ -3840,7 +3987,10 @@
       "framework": [
         "Custom Agents"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 31865
+      }
     },
     {
       "slug": "rehype-html-processor-unified",
@@ -3852,7 +4002,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2202
+      }
     },
     {
       "slug": "axe-core-accessibility-testing-engine",
@@ -3864,7 +4017,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7010
+      }
     },
     {
       "slug": "shadcn-ui-react-component-collection",
@@ -26162,7 +26318,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "ansible"
+        "tool": "ansible",
+        "github_stars": 68348
       }
     },
     {
@@ -26177,7 +26334,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48121
       }
     },
     {
@@ -26327,7 +26485,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "semgrep"
+        "tool": "semgrep",
+        "github_stars": 14762
       }
     },
     {
@@ -26342,7 +26501,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "eslint"
+        "tool": "eslint",
+        "github_stars": 27186
       }
     },
     {
@@ -26387,7 +26547,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "sonarqube"
+        "tool": "sonarqube",
+        "github_stars": 10426
       }
     },
     {
@@ -26417,7 +26578,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "jaeger"
+        "tool": "jaeger",
+        "github_stars": 22671
       }
     },
     {
@@ -26432,7 +26594,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "loki"
+        "tool": "loki",
+        "github_stars": 27962
       }
     },
     {
@@ -26447,7 +26610,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "prometheus"
+        "tool": "prometheus",
+        "github_stars": 63540
       }
     },
     {
@@ -26537,7 +26701,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 5209
       }
     },
     {
@@ -26582,7 +26747,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 2607
       }
     },
     {
@@ -26613,7 +26779,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 3155
       }
     },
     {
@@ -26628,7 +26795,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kubernetes"
+        "tool": "kubernetes",
+        "github_stars": 8847
       }
     },
     {
@@ -26737,7 +26905,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "jest"
+        "tool": "jest",
+        "github_stars": 45329
       }
     },
     {

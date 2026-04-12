@@ -14,8 +14,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | ⭐ 34.1k |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | ⭐ 30.9k |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | ⭐ 24.5k |
+| [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | ⭐ 23.3k |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | ⭐ 22.7k |
-| [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⭐ 22.7k |
 
 ---
 
@@ -44,6 +44,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
+| [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | 23.3k | — |
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
@@ -105,7 +106,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Puppeteer Stealth Web Scraper](../../skills/puppeteer-stealth-web-scraper/) | — | — |
 | [Puppeteer Web Scraper](../../skills/puppeteer-web-scraper/) | — | — |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | — | — |
-| [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | — | — |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | — | — |
 | [Scrapy Distributed Crawler Framework](../../skills/scrapy-distributed-crawler-framework/) | — | — |
 | [Scrapy Pipeline Data Extractor](../../skills/scrapy-pipeline-data-extractor/) | — | — |

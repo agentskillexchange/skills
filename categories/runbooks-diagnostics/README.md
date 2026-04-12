@@ -7,6 +7,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars |
 |---|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | ⭐ 121.4k |
+| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | ⭐ 68.3k |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | ⭐ 12.1k |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | ⭐ 11.9k |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | ⭐ 3.3k |
@@ -20,6 +21,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | — |
+| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | 68.3k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
@@ -31,7 +33,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Ansible Playbook Dry-Run Analyzer](../../skills/ansible-playbook-dry-run-analyzer/) | — | — |
 | [Ansible Playbook Dry-Run Validator](../../skills/ansible-playbook-dryrun-validator-agent/) | — | — |
 | [Ansible Playbook Linter Pro](../../skills/ansible-playbook-linter-pro/) | — | — |
-| [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | — | — |
 | [Ansible Runbook Executor](../../skills/ansible-runbook-executor/) | — | — |
 | [Apache Kafka Consumer Lag Runbook](../../skills/apache-kafka-consumer-lag-runbook/) | — | — |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | — | — |

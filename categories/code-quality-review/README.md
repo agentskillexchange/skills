@@ -8,14 +8,14 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86k |
+| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
+| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | ⭐ 27.2k |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | ⭐ 24.9k |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | ⭐ 24.3k |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⭐ 20.5k |
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | ⭐ 19.9k |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⭐ 18.4k |
-| [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | ⭐ 18.1k |
-| [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⭐ 17.8k |
-| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | ⭐ 16.3k |
 
 ---
 
@@ -38,14 +38,18 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86k | — |
+| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
+| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | — |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4M/wk |
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 19.9k | — |
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 504.9k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 13.9M/wk |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.7k | — |
@@ -53,8 +57,10 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 5.1M/wk |
+| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | 10.4k | — |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
+| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 160.2k/wk |
@@ -63,6 +69,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 581.9k/wk |
@@ -71,8 +78,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
-| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | — | — |
-| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | — | — |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
 | [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | — |
@@ -103,10 +108,8 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Enforcer](../../skills/eslint-rule-enforcer/) | — | — |
 | [ESLint Rule Enforcer Agent](../../skills/eslint-rule-enforcer-agent/) | — | — |
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | — | — |
-| [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | — | — |
-| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | — | — |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
@@ -119,7 +122,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |
-| [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | — | — |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | — | — |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | — | — |
 | [Semgrep Custom Pattern Library](../../skills/semgrep-custom-pattern-library/) | — | — |
@@ -142,7 +144,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SonarQube Quality Gate Agent](../../skills/sonarqube-quality-gate-agent/) | — | — |
 | [SonarQube Quality Gate Checker](../../skills/sonarqube-quality-gate-checker/) | — | — |
 | [SonarQube Quality Gate Enforcer](../../skills/sonarqube-quality-gate-enforcer-14/) | — | — |
-| [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | — | — |
 | [SonarQube Quality Gate Monitor](../../skills/sonarqube-quality-gate-monitor-3/) | — | — |
 | [SonarQube Rule Enforcement Agent](../../skills/sonarqube-rule-enforcement-agent/) | — | — |
 | [SonarQube Scanner Skill](../../skills/sonarqube-scanner-skill/) | — | — |

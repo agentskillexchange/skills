@@ -32,30 +32,30 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 24 | [act Local GitHub Actions Runner](skills/act-local-github-actions-runner/) | 69.7k | act | CI/CD Integrations |
 | 25 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | 68.3k | ansible | Templates & Workflows |
 | 26 | [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | 64.3k | docusaurus | Developer Tools |
-| 27 | [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | 63.1k | crawl4ai | Research & Scraping |
-| 28 | [Open Interpreter Natural Language Computer Interface](skills/open-interpreter-natural-language-computer-interface/) | 62.9k | open-interpreter | Developer Tools |
-| 29 | [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | nocodb | Integrations & Connectors |
-| 30 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | 61.7k | ripgrep | Developer Tools |
-| 31 | [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | memos | Calendar, Email & Productivity |
-| 32 | [mkcert Zero-Config Local Development TLS Certificate Generator](skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | mkcert | Developer Tools |
-| 33 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 58k | astro | Developer Tools |
-| 34 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | bat | Developer Tools |
-| 35 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | mineru | Data Extraction & Transformation |
-| 36 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | pocketbase | Developer Tools |
-| 37 | [Docling AI Document Intelligence Pipeline](skills/docling-ai-document-intelligence-pipeline/) | 56.9k | docling | Data Extraction & Transformation |
-| 38 | [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | rclone | Integrations & Connectors |
-| 39 | [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | 55.7k | starship | Developer Tools |
-| 40 | [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | 52.4k | typst | Content Writing & SEO |
-| 41 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | context7 | Library & API Reference |
-| 42 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | 50.5k | lazydocker | Developer Tools |
-| 43 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | 49.6k | cypress | Browser Automation |
-| 44 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
-| 45 | [LlamaIndex Agent](skills/llamaindex-agent/) | 48.5k | llamaindex | Developer Tools |
-| 46 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48.1k | terraform | Developer Tools |
-| 47 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
-| 48 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
-| 49 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |
-| 50 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 45.3k | zx | Developer Tools |
+| 27 | [Prometheus Alerting Rules](skills/prometheus-alerting-rules/) | 63.5k | prometheus | Monitoring & Alerts |
+| 28 | [Crawl4AI LLM-Ready Web Crawler and Scraper](skills/crawl4ai-llm-web-crawler-scraper/) | 63.1k | crawl4ai | Research & Scraping |
+| 29 | [Open Interpreter Natural Language Computer Interface](skills/open-interpreter-natural-language-computer-interface/) | 62.9k | open-interpreter | Developer Tools |
+| 30 | [NocoDB Self-Hosted No-Code Database Platform with REST API](skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | nocodb | Integrations & Connectors |
+| 31 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | 61.7k | ripgrep | Developer Tools |
+| 32 | [Memos Self-Hosted Note Capture and Knowledge API](skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | memos | Calendar, Email & Productivity |
+| 33 | [mkcert Zero-Config Local Development TLS Certificate Generator](skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | mkcert | Developer Tools |
+| 34 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 58k | astro | Developer Tools |
+| 35 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | bat | Developer Tools |
+| 36 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | mineru | Data Extraction & Transformation |
+| 37 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | pocketbase | Developer Tools |
+| 38 | [Docling AI Document Intelligence Pipeline](skills/docling-ai-document-intelligence-pipeline/) | 56.9k | docling | Data Extraction & Transformation |
+| 39 | [Rclone Cloud Storage Sync and Management CLI](skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | rclone | Integrations & Connectors |
+| 40 | [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | 55.7k | starship | Developer Tools |
+| 41 | [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | 52.4k | typst | Content Writing & SEO |
+| 42 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | context7 | Library & API Reference |
+| 43 | [LazyDocker Terminal UI for Docker Management](skills/lazydocker-terminal-docker-management/) | 50.5k | lazydocker | Developer Tools |
+| 44 | [Cypress Component Testing Framework](skills/cypress-component-testing-framework-2/) | 49.6k | cypress | Browser Automation |
+| 45 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | ghostty | Developer Tools |
+| 46 | [LlamaIndex Agent](skills/llamaindex-agent/) | 48.5k | llamaindex | Developer Tools |
+| 47 | [Terraform Cloud MCP Server](skills/terraform-cloud-mcp-server/) | 48.1k | terraform | Developer Tools |
+| 48 | [CrewAI Multi-Agent Orchestration Framework](skills/crewai-multi-agent-orchestration-framework/) | 47.7k | crewai | Developer Tools |
+| 49 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | react | Developer Tools |
+| 50 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | 45.4k | slidev | Developer Tools |
 
 ---
 

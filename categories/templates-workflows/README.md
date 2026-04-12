@@ -45,6 +45,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
+| [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | — |
@@ -56,6 +57,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 343.3k/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | — |
+| [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
@@ -98,7 +100,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
-| [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | — | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |

@@ -10,12 +10,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⭐ 62.6k |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | ⭐ 60.6k |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | ⭐ 56.4k |
+| [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | ⭐ 55.7k |
 | [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | ⭐ 55.7k |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | ⭐ 41.8k |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⭐ 38.7k |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | ⭐ 32.6k |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | ⭐ 29.5k |
-| [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | ⭐ 27.6k |
 
 ---
 
@@ -44,12 +44,15 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | 62.6k | 558/wk |
 | [MinIO High-Performance S3-Compatible Object Storage Server](../../skills/minio-s3-compatible-object-storage/) | 60.6k | — |
 | [Rclone Cloud Storage Sync and Management CLI](../../skills/rclone-cloud-storage-sync-management-cli/) | 56.4k | — |
+| [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | 55.7k | — |
 | [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | 55.7k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 5.9k/wk |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | — |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
+| [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | 28.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
+| [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | 25k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
 | [Airbyte Open Source Data Integration Platform](../../skills/airbyte-open-source-data-integration-platform/) | 21k | — |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | 18k | — |
@@ -59,8 +62,10 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | 11.2k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
+| [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | 8.1k | — |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 14.8k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
+| [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | 5.5k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
@@ -90,13 +95,10 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
-| [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | — | — |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
 | [AWS S3 &#038; SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | — | — |
-| [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | — | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | — | — |
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | — | — |
-| [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | — | — |
 | [Gitea Repository &#038; Pull Request Automation](../../skills/gitea-repository-pull-request-automation/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
@@ -123,10 +125,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | — | — |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | — | — |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | — | — |
-| [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
-| [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | — | — |
 
 ---
 

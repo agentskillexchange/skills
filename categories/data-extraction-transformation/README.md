@@ -70,6 +70,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |
 | [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | 10.3k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
+| [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
+| [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 8.6k | — |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 7.7k | — |
@@ -87,6 +89,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
+| [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | 2.2k | — |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
@@ -128,7 +131,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | — | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | — | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | — | — |
-| [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | — | — |
 | [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | — | — |
@@ -153,7 +155,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | — | — |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | — | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | — | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | — | — |
@@ -167,7 +168,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
 | [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | — | — |
-| [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |

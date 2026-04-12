@@ -65,17 +65,19 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.6k | — |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 59.8k/wk |
+| [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | 7.1k | — |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
 | [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | 6.8k | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 221.2k/wk |
 | [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.3k | — |
+| [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
+| [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | — | — |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | — | — |
 | [Browserless Headless Browser Automation Infrastructure](../../skills/browserless-headless-browser-automation-infrastructure/) | — | — |
-| [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
 | [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
 | [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | — | — |
@@ -87,7 +89,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | — | — |
 | [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | — | — |
-| [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | — | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
 | [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |
 | [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | — | — |
@@ -129,7 +130,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | — | — |
 | [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | — | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | — | — |
-| [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | — | — |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | — | — |
 
 ---
