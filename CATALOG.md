@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1903 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-12 01:24 UTC
+> **1906 published skills** across **17 categories** · 1861 security reviewed · Updated 2026-04-12 03:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -431,7 +431,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (136 skills)
+### 🔄 Data Extraction & Transformation (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -499,6 +499,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 72 | — |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | Use html-to-text when an agent receives raw HTML from inboxes, support systems, or scraped pages and needs readable… | Published | — | 34.5M/wk |
 | [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | — | — |
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | — | — |
 | [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports… | Security Reviewed | — | — |
@@ -1198,7 +1199,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (105 skills)
+### 📅 Calendar, Email & Productivity (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1244,6 +1245,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 552 | — |
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | — |
+| [Turn ICS calendar invites and feeds into structured events for scheduling automations](skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | Use node-ical when an agent is handed a raw .ics file or subscription URL and needs normalized event objects,… | Published | — | 518.5k/wk |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](skills/activitywatch-automated-time-tracker/) | ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser… | Security Reviewed | — | — |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](skills/affine-knowledge-base-collaborative-workspace-platform/) | AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This… | Security Reviewed | — | — |
@@ -1975,7 +1977,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (65 skills)
+### ✍️ Content Writing & SEO (66 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -1999,6 +2001,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [retext Natural Language Processor with Unified Plugin Ecosystem](skills/retext-natural-language-processor-unified-plugins/) | retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script… | Security Reviewed | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Security Reviewed | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](skills/serpbear-self-hosted-serp-rank-tracker/) | SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited… | Security Reviewed | 1.9k | — |
+| [Generate XML sitemaps and robots.txt from route inventories before SEO launch](skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap… | Published | 1.7k | — |
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Security Reviewed | 1.4k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org… | Security Reviewed | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](skills/openseo-self-hosted-keyword-research-seo-analysis/) | OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink… | Security Reviewed | 783 | — |

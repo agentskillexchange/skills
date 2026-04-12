@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1903,
+  "total": 1906,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch",
+      "name": "Generate XML sitemaps and robots.txt from route inventories before SEO launch",
+      "description": "Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1708
+      }
+    },
+    {
+      "slug": "turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations",
+      "name": "Turn ICS calendar invites and feeds into structured events for scheduling automations",
+      "description": "Use node-ical when an agent is handed a raw .ics file or subscription URL and needs normalized event objects, recurrence-aware dates, and timezone-safe fields…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 518503
+      }
+    },
+    {
+      "slug": "convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents",
+      "name": "Convert HTML emails and web fragments into clean plain text for downstream agents",
+      "description": "Use html-to-text when an agent receives raw HTML from inboxes, support systems, or scraped pages and needs readable plain text before classification, summarization, or…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 34508317
+      }
+    },
     {
       "slug": "extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing",
       "name": "Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing",

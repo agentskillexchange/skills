@@ -26,6 +26,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 9/wk |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 190.7k/wk |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 3/wk |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | ⬇ 34.5M/wk |
 
 ---
 
@@ -95,6 +96,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 34.5M/wk |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
