@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1917,
+  "total": 1920,
   "generated": "2026-04-12",
   "skills": [
+    {
+      "slug": "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
+      "name": "Search PDFs, Office files, ebooks, and archives with one query before manual review",
+      "description": "Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence without separately extracting every file…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9570
+      }
+    },
+    {
+      "slug": "diff-nested-json-api-responses-and-config-snapshots-before-approving-changes",
+      "name": "Diff nested JSON, API responses, and config snapshots before approving changes",
+      "description": "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2495
+      }
+    },
+    {
+      "slug": "normalize-cli-output-into-json-for-reliable-agent-automation",
+      "name": "Normalize raw CLI output into JSON for reliable downstream parsing and automation",
+      "description": "Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff, validate, and store results without…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8571
+      }
+    },
     {
       "slug": "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins",
       "name": "Load .mbox mail archives into SQLite for offline search, audits, and dataset joins",

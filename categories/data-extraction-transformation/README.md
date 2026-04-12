@@ -73,6 +73,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 8.6k | — |
+| [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 7.7k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
@@ -88,6 +89,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.5k | — |
+| [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | 2.2k | — |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |

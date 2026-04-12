@@ -56,6 +56,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Photon High-Speed OSINT Web Crawler and Data Extractor](../../skills/photon-osint-web-crawler/) | 12.8k | — |
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
+| [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
 | [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 28.9k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
