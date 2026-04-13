@@ -23,14 +23,14 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 
 | Skill | Downloads |
 |---|---:|
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 45.4k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 45.6k/wk |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 104.1k/wk |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
-| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | ⬇ 39.5k/wk |
+| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | ⬇ 10k/wk |
 
 ---
 
@@ -39,7 +39,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
-| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.4k/wk |
+| [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.6k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
@@ -67,8 +67,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 522.5k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
-| [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 44 | — |
-| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 39.5k/wk |
+| [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |
+| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10k/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |

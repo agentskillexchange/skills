@@ -26,7 +26,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.3M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.7M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.7M/wk |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 3.7M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 4.1M/wk |
 
 ---
 
@@ -48,7 +48,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 3.7M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.1M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |

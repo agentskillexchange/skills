@@ -14,7 +14,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | ⭐ 4k |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | ⭐ 3.3k |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
-| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 60 |
+| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 65 |
 
 ---
 
@@ -30,7 +30,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
-| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 60 | — |
+| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 65 | — |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | — | — |
 | [Ansible Playbook Diagnostics Runner](../../skills/ansible-playbook-diagnostics-runner/) | — | — |
 | [Ansible Playbook Dry Run Validator](../../skills/ansible-playbook-dry-run-validator/) | — | — |
