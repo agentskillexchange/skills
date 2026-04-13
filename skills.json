@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 1950,
+  "total": 1951,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation",
+      "name": "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation",
+      "description": "Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1940
+      }
+    },
     {
       "slug": "search-help-scout-conversations-and-thread-context-before-drafting-support-replies",
       "name": "Search Help Scout conversations and thread context before drafting support replies",

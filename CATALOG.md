@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1950 published skills** across **17 categories** · 1929 security reviewed · Updated 2026-04-13 11:24 UTC
+> **1951 published skills** across **17 categories** · 1929 security reviewed · Updated 2026-04-13 13:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (254 skills)
+### 🛠️ Developer Tools (255 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -191,6 +191,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | 2.5k | — |
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | 2.3k | — |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as… | Security Reviewed | 2.3k | — |
+| [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands… | Published | 1.9k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Security Reviewed | 1.3k | — |

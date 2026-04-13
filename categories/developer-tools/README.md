@@ -217,6 +217,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | 2.3k | — |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | — |
+| [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
