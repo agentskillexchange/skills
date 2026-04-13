@@ -1,16 +1,10 @@
 ---
 title: "Generate adversarial API test cases from an OpenAPI or GraphQL schema"
-slug: "generate-adversarial-api-test-cases-from-openapi-or-graphql-schema"
 description: "Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of hand-writing examples. The skill exercises live endpoints or app hooks, explores unexpected combinations, and reports failures that ordinary happy-path tests miss."
 verification: "security_reviewed"
 source: "https://github.com/schemathesis/schemathesis"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "schemathesis/schemathesis"
-  github_stars: 3211
+category: ["Security &amp; Verification"]
+framework: ["Multi-Framework"]
 ---
 
 # Generate adversarial API test cases from an OpenAPI or GraphQL schema
@@ -19,13 +13,13 @@ Use Schemathesis when an agent needs to turn an API schema into broad negative a
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

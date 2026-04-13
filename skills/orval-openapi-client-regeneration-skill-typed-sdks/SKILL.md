@@ -1,18 +1,15 @@
 ---
 title: "Orval OpenAPI Client Regeneration Skill for Typed SDKs"
-slug: "orval-openapi-client-regeneration-skill-typed-sdks"
 description: "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema changes, and update generated hooks without hand-editing the output. It is a narrowly scoped Orval workflow skill, not a generic listing for the Orval project."
 verification: "security_reviewed"
 source: "https://github.com/orval-labs/orval"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "orval-labs/orval"
-  github_stars: 5671
+  github_stars: 5675
   npm_package: "orval"
-  npm_weekly_downloads: 1093946
+  npm_weekly_downloads: 1102606
 ---
 
 # Orval OpenAPI Client Regeneration Skill for Typed SDKs
@@ -21,13 +18,13 @@ Use this skill when an agent needs to regenerate a typed API client from an Open
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
 title: "Browser Use Agentic Browser Control"
-slug: "browser-use-agentic-browser-control"
 description: "Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a Python SDK, browser orchestration, and model integrations so agents can navigate, extract data, and complete workflows in real browsers."
 verification: "security_reviewed"
 source: "https://github.com/browser-use/browser-use"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: ["Browser Automation"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 87316
@@ -19,13 +16,13 @@ Browser Use is an open source browser automation framework for AI agents that tu
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

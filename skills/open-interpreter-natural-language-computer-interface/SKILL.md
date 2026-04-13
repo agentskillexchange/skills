@@ -1,13 +1,10 @@
 ---
 title: "Open Interpreter Natural Language Computer Interface"
-slug: "open-interpreter-natural-language-computer-interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis."
+description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis."
 verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934
@@ -15,17 +12,17 @@ tool_ecosystem:
 
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
 title: "GPG Encryption and Key Management Agent"
-slug: "gpg-encryption-key-management-agent"
 description: "Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver synchronization, trust model management, and automated encrypted backup workflows."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gpg-encryption-key-management-agent/"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "OpenClaw"
+category: ["Security &amp; Verification"]
+framework: ["OpenClaw"]
 ---
 
 # GPG Encryption and Key Management Agent
@@ -16,13 +13,13 @@ Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPG
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

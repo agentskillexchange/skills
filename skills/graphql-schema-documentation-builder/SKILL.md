@@ -1,13 +1,10 @@
 ---
 title: "GraphQL Schema Documentation Builder"
-slug: "graphql-schema-documentation-builder"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-schema-documentation-builder/"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Gemini"
+category: ["Library &amp; API Reference"]
+framework: ["Gemini"]
 ---
 
 # GraphQL Schema Documentation Builder
@@ -16,13 +13,13 @@ Generates interactive API documentation from GraphQL schemas using graphql-js in
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

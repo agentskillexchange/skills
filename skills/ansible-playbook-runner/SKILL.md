@@ -1,13 +1,10 @@
 ---
 title: "Ansible Playbook Runner"
-slug: "ansible-playbook-runner"
-description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational [&hellip;]"
+description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]"
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Custom Agents"
+category: ["Templates &amp; Workflows"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68347
@@ -15,17 +12,17 @@ tool_ecosystem:
 
 # Ansible Playbook Runner
 
-Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational [&hellip;]
+Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

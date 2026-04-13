@@ -1,15 +1,12 @@
 ---
 title: "SonarQube Quality Gate Explainer"
-slug: "sonarqube-quality-gate-explainer"
 description: "Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops, new bugs, and security hotspots. Supports SonarQube Server and SonarCloud. Diagnostic only."
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Claude Code"
+category: ["Code Quality &amp; Review"]
+framework: ["Claude Code"]
 tool_ecosystem:
-  github_repo: "sonarsource/sonarqube"
+  github_repo: "SonarSource/sonarqube"
   github_stars: 10426
 ---
 
@@ -19,13 +16,13 @@ Fetches the latest SonarQube project analysis result, explains why the Quality G
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

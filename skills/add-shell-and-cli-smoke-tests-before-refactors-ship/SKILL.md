@@ -1,16 +1,10 @@
 ---
 title: "Add executable smoke tests for shell scripts and CLIs before refactors ship"
-slug: "add-shell-and-cli-smoke-tests-before-refactors-ship"
 description: "Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can verify repeatedly after edits. The agent writes focused Bash tests for success paths, failure paths, and output contracts, then runs them locally or in CI before a refactor, release, or incident fix goes out."
 verification: "security_reviewed"
 source: "https://github.com/bats-core/bats-core"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "bats-core/bats-core"
-  github_stars: 5966
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 ---
 
 # Add executable smoke tests for shell scripts and CLIs before refactors ship
@@ -19,13 +13,13 @@ Use Bats-core when an agent needs to turn fragile shell scripts or command-line 
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

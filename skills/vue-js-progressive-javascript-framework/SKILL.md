@@ -1,13 +1,10 @@
 ---
 title: "Vue.js — Progressive JavaScript Framework for Building UIs"
-slug: "vue-js-progressive-javascript-framework"
 description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite."
 verification: "listed"
 source: "https://github.com/vuejs/core"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "vuejs/core"
   github_stars: 53379
@@ -19,13 +16,13 @@ Vue.js is a progressive JavaScript framework for building user interfaces with a
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
 title: "pastel Command-Line Color Generation Analysis and Manipulation Tool"
-slug: "pastel-command-line-color-tool"
 description: "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it supports color spaces including RGB, HSL, Lab, and LCH, with features for palette generation, contrast checking, and color blending."
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/pastel"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "sharkdp/pastel"
   github_stars: 6301
@@ -19,13 +16,13 @@ pastel is a command-line tool for generating, analyzing, converting, and manipul
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

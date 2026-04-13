@@ -1,13 +1,10 @@
 ---
 title: "Browserless Headless Browser Automation Infrastructure"
-slug: "browserless-headless-browser-automation-infrastructure"
 description: "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks a stable WebSocket and REST surface for screenshots, PDFs, scraping, persistent sessions, and debugging without hand-managing browser fleets."
 verification: "security_reviewed"
 source: "https://github.com/browserless/browserless"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: ["Browser Automation"]
+framework: ["Multi-Framework"]
 ---
 
 # Browserless Headless Browser Automation Infrastructure
@@ -16,13 +13,13 @@ Browserless turns Chrome, Firefox, and WebKit into a remote browser service you 
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

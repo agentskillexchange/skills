@@ -1,13 +1,10 @@
 ---
 title: "Ahrefs Backlink Content Planner"
-slug: "ahrefs-backlink-content-planner"
 description: "Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ahrefs-backlink-content-planner/"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "Gemini"
+category: ["Content Writing &amp; SEO"]
+framework: ["Gemini"]
 ---
 
 # Ahrefs Backlink Content Planner
@@ -16,13 +13,13 @@ Leverages Ahrefs REST API v3 to identify content gap opportunities through compe
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

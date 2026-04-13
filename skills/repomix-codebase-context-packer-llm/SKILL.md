@@ -1,13 +1,10 @@
 ---
 title: "Repomix Codebase Context Packer for LLMs"
-slug: "repomix-codebase-context-packer-llm"
 description: "Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides token counting, security scanning via Secretlint, Tree-sitter-based code compression, and outputs in XML, Markdown, or plain text format."
 verification: "security_reviewed"
 source: "https://github.com/yamadashy/repomix"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+category: ["Developer Tools"]
+framework: ["Claude Code"]
 tool_ecosystem:
   github_repo: "yamadashy/repomix"
   github_stars: 22816
@@ -21,13 +18,13 @@ Repomix packs an entire code repository into a single AI-friendly file optimized
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

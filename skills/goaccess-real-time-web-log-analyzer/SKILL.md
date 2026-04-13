@@ -1,13 +1,10 @@
 ---
 title: "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard"
-slug: "goaccess-real-time-web-log-analyzer"
 description: "GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3, and other log formats with minimal configuration, providing instant traffic insights for system administrators and DevOps engineers."
 verification: "security_reviewed"
 source: "https://github.com/allinurl/goaccess"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Custom Agents"
+category: ["Monitoring &amp; Alerts"]
+framework: ["Custom Agents"]
 tool_ecosystem:
   github_repo: "allinurl/goaccess"
   github_stars: 20377
@@ -19,13 +16,13 @@ GoAccess is an open-source real-time web log analyzer that runs in a terminal or
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

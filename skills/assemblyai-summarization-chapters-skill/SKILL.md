@@ -1,28 +1,25 @@
 ---
-title: "AssemblyAI Summarization &#038; Chapters Skill"
-slug: "assemblyai-summarization-chapters-skill"
-description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
+title: "AssemblyAI Summarization & Chapters Skill"
+description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-summarization-chapters-skill/"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Claude Agents"
+category: ["Media &amp; Transcription"]
+framework: ["Claude Agents"]
 ---
 
-# AssemblyAI Summarization &#038; Chapters Skill
+# AssemblyAI Summarization & Chapters Skill
 
-Transcribes audio and generates auto-chapters with summaries using AssemblyAI&#8217;s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
+Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
 title: "Microsoft Graph Email Digest Builder"
-slug: "microsoft-graph-email-digest-builder"
 description: "Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "ChatGPT Agents"
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["ChatGPT Agents"]
 ---
 
 # Microsoft Graph Email Digest Builder
@@ -16,13 +13,13 @@ Generates daily email digests from Microsoft 365 mailboxes using the Microsoft G
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

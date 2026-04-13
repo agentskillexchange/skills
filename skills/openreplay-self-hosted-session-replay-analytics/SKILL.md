@@ -1,13 +1,10 @@
 ---
 title: "OpenReplay Self-Hosted Session Replay and Product Analytics Platform"
-slug: "openreplay-self-hosted-session-replay-analytics"
 description: "OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network activity, console logs, JS errors, store state, and performance metrics to help reproduce issues and iterate on products faster."
 verification: "security_reviewed"
 source: "https://github.com/openreplay/openreplay"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "Multi-Framework"
+category: ["Monitoring &amp; Alerts"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "openreplay/openreplay"
   github_stars: 11929
@@ -19,13 +16,13 @@ OpenReplay is an open-source session replay suite you can self-host. It captures
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

@@ -1,13 +1,10 @@
 ---
 title: "Docker Compose Test Harness"
-slug: "docker-compose-test-harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/docker-compose-test-harness/"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "MCP"
+category: ["Templates &amp; Workflows"]
+framework: ["MCP"]
 ---
 
 # Docker Compose Test Harness
@@ -16,13 +13,13 @@ Scaffolds integration test environments using Docker Compose v2 CLI, testcontain
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

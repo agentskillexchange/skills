@@ -1,13 +1,10 @@
 ---
 title: "Strip quoted email history and signatures before summarizing inbound replies"
-slug: "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies"
 description: "Uses mail-parser-reply to isolate the newest human reply from text email threads while removing quoted history, signatures, and common disclaimers. This is useful when an agent needs the actionable part of an inbound email before routing, summarizing, or creating follow-up tasks."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/alfonsrv/mail-parser-reply"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "alfonsrv/mail-parser-reply"
   github_stars: 78
@@ -19,13 +16,13 @@ Uses mail-parser-reply to isolate the newest human reply from text email threads
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

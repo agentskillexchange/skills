@@ -1,13 +1,10 @@
 ---
 title: "Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms"
-slug: "split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms"
 description: "Use gray-matter when an agent needs to open Markdown or content files, extract structured front matter, and pass clean body text plus metadata into the next step. This skill is for parsing and rewriting front matter safely, not for running a full CMS or static site generator."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jonschlinkert/gray-matter"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "Multi-Framework"
+category: ["Content Writing &amp; SEO"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "jonschlinkert/gray-matter"
   github_stars: 4415
@@ -19,13 +16,13 @@ Use gray-matter when an agent needs to open Markdown or content files, extract s
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

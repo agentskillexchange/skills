@@ -1,16 +1,10 @@
 ---
 title: "Radicale Self-Hosted CalDAV and CardDAV Server"
-slug: "radicale-self-hosted-caldav-carddav-server"
 description: "Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do lists, journal entries, and contacts over standard protocols with zero-config setup, file-based storage, optional authentication, TLS support, and a plugin architecture."
 verification: "security_reviewed"
 source: "https://github.com/Kozea/Radicale"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "kozea/radicale"
-  github_stars: 4535
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["Multi-Framework"]
 ---
 
 # Radicale Self-Hosted CalDAV and CardDAV Server
@@ -19,13 +13,13 @@ Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Pyth
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

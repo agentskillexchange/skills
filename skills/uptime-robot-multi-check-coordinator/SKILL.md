@@ -1,13 +1,10 @@
 ---
 title: "Uptime Robot Multi-Check Coordinator"
-slug: "uptime-robot-multi-check-coordinator"
 description: "Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keyword, and port monitors with alert contacts, maintenance windows, and status page synchronization."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/uptime-robot-multi-check-coordinator/"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "OpenClaw"
+category: ["Monitoring &amp; Alerts"]
+framework: ["OpenClaw"]
 ---
 
 # Uptime Robot Multi-Check Coordinator
@@ -16,13 +13,13 @@ Manages bulk uptime monitoring via the Uptime Robot API v2. Creates HTTP, keywor
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

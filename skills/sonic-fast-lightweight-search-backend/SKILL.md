@@ -1,13 +1,10 @@
 ---
 title: "Sonic Fast Lightweight Schema-Less Search Backend"
-slug: "sonic-fast-lightweight-search-backend"
 description: "Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a few megabytes of RAM, making it ideal for resource-constrained environments and edge deployments."
 verification: "security_reviewed"
 source: "https://github.com/valeriansaliou/sonic"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: ["Developer Tools"]
+framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "valeriansaliou/sonic"
   github_stars: 21176
@@ -19,13 +16,13 @@ Sonic is a fast, lightweight, and schema-less search backend written in Rust. It
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

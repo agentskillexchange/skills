@@ -1,16 +1,10 @@
 ---
 title: "Taskwarrior Command-Line Task Management System"
-slug: "taskwarrior-command-line-task-management-system"
 description: "Taskwarrior is a command-line task list management utility with rich features including priorities, tags, projects, due dates, recurrence, dependencies, annotations, and a sync protocol. It has an active ecosystem of tools, hooks, extensions, and TUI clients."
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "gothenburgbitfactory/taskwarrior"
-  github_stars: 5685
+category: ["Calendar, Email &amp; Productivity"]
+framework: ["Multi-Framework"]
 ---
 
 # Taskwarrior Command-Line Task Management System
@@ -19,13 +13,13 @@ Taskwarrior is a command-line task list management utility with rich features in
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

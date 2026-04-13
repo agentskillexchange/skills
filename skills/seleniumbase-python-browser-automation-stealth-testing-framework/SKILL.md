@@ -1,18 +1,10 @@
 ---
 title: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
-slug: "seleniumbase-python-browser-automation-stealth-testing-framework"
 description: "SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware CDP and UC modes on top of Selenium workflows."
 verification: "security_reviewed"
 source: "https://github.com/seleniumbase/SeleniumBase"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "seleniumbase/seleniumbase"
-  github_stars: 12560
-  npm_package: "seleniumbase"
-  npm_weekly_downloads: 15
+category: ["Browser Automation"]
+framework: ["Multi-Framework"]
 ---
 
 # SeleniumBase Python Browser Automation and Stealth Testing Framework
@@ -21,13 +13,13 @@ SeleniumBase is a Python framework for browser automation, end-to-end testing, a
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 

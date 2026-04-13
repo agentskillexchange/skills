@@ -1,13 +1,10 @@
 ---
 title: "Codecov Coverage Analyzer"
-slug: "codecov-coverage-analyzer"
 description: "Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetches per-file coverage from /api/v2/repos/{owner}/{repo}/report, computes diff coverage via /api/v2/repos/{owner}/{repo}/pulls/{pull}, and enforces configurable thresholds in CI pipelines."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/codecov-coverage-analyzer/"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Codex"
+category: ["Code Quality &amp; Review"]
+framework: ["Codex"]
 ---
 
 # Codecov Coverage Analyzer
@@ -16,13 +13,13 @@ Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetche
 
 ## Installation
 
-Choose the install method that fits your setup:
+Choose the install path that fits your setup:
 
-1. Install from Agent Skill Exchange
-2. Install with OpenClaw skill tools
-3. Clone or copy the upstream project files
-4. Add the skill to your local skills directory manually
-5. Use the upstream package or repo install flow directly
+1. Install from the Agent Skill Exchange catalog if your agent client supports it.
+2. Copy the skill folder into your local skills directory.
+3. Add it as a git submodule in your shared agent-skills repo.
+4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
+5. Keep a fork or mirror if you need local modifications or pinned revisions.
 
 ## Source
 
