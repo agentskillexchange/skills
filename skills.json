@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 1961,
+  "total": 1963,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "hadrian-api-authorization-security-testing",
+      "name": "Test API authorization flows with Hadrian",
+      "description": "Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 38
+      }
+    },
+    {
+      "slug": "agents-observe-claude-code-observability",
+      "name": "Inspect Claude Code multi-agent runs with Agents Observe",
+      "description": "Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task progress so debugging starts from what the…",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 421
+      }
+    },
     {
       "slug": "triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash",
       "name": "Triage pull requests and issues from a keyboard-first terminal queue with gh-dash",
