@@ -1,8 +1,71 @@
 {
   "version": "2.0",
-  "total": 1951,
+  "total": 1955,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits",
+      "name": "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits",
+      "description": "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 151,
+        "npm_weekly_downloads": 307229
+      }
+    },
+    {
+      "slug": "mock-ai-app-dependencies-for-deterministic-local-and-ci-tests",
+      "name": "Mock AI app dependencies for deterministic local and CI tests",
+      "description": "Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 324,
+        "npm_weekly_downloads": 6430
+      }
+    },
+    {
+      "slug": "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
+      "name": "Search large PDFs and read only the relevant pages before answering",
+      "description": "Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from long documents…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 17
+      }
+    },
+    {
+      "slug": "debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes",
+      "name": "Debug Firefox-only browser issues with DevTools MCP before shipping web changes",
+      "description": "Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 107,
+        "npm_weekly_downloads": 2962
+      }
+    },
     {
       "slug": "turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation",
       "name": "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation",

@@ -32,7 +32,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | ⬇ 59.8k/wk |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | ⬇ 221.7k/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | ⬇ 21/wk |
-| [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | ⬇ 818.3k/wk |
+| [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | ⬇ 3k/wk |
 
 ---
 
@@ -74,6 +74,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
+| [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | — | — |

@@ -30,6 +30,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⬇ 5.1M/wk |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 160k/wk |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | ⬇ 588k/wk |
+| [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | ⬇ 6.4k/wk |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | ⬇ 664.1k/wk |
 
 ---
@@ -80,6 +81,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
+| [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 664.1k/wk |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |

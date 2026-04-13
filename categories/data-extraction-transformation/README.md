@@ -102,6 +102,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
+| [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 7.8M/wk |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
