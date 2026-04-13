@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C945-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C948-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C894-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,945 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,948 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -70,17 +70,17 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 254 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 155 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 140 | ETL pipelines, parsing, format conversion |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 129 | Vulnerability scanning, auth setup, compliance |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 130 | Vulnerability scanning, auth setup, compliance |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 124 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 115 | Metrics, alerting rules, observability |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 113 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 114 | Linting, code review, test generators, coverage |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 109 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 109 | SDK docs, API parsers, symbol resolvers |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 92 | Web scraping, UI testing, headless browser control |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 91 | Third-party API bridges, webhooks, service connectors |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 91 | Scaffolders, boilerplate generators, workflow templates |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 90 | Web research, content discovery, data collection |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 90 | Third-party API bridges, webhooks, service connectors |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 86 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 82 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 71 | SEO content, blog automation, editorial workflows |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,945 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,948 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,894 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

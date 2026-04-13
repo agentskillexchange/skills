@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1945,
+  "total": 1948,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows",
+      "name": "Normalize international phone numbers into E.164 before CRM imports or messaging workflows",
+      "description": "Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 62003335
+      }
+    },
+    {
+      "slug": "detect-copy-pasted-code-hotspots-before-refactors-audits-or-review",
+      "name": "Detect copy-pasted code hotspots before refactors, audits, or review",
+      "description": "Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue.…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 2742168
+      }
+    },
+    {
+      "slug": "detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence",
+      "name": "Detect repository licenses before dependency approval or open-source due diligence",
+      "description": "Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before a dependency is approved or…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 876
+      }
+    },
     {
       "slug": "keep-github-wiki-pages-synced-with-recently-merged-code-changes",
       "name": "Keep GitHub wiki pages synced with recently merged code changes",
