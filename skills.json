@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 1941,
+  "total": 1945,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "keep-github-wiki-pages-synced-with-recently-merged-code-changes",
+      "name": "Keep GitHub wiki pages synced with recently merged code changes",
+      "description": "This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for recent merges, reads the PAGES.md template, updates only…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests",
+      "name": "Simplify recently changed code and open low-risk refactor pull requests",
+      "description": "This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "review-open-pull-requests-against-repository-contribution-guidelines",
+      "name": "Review open pull requests against repository contribution guidelines",
+      "description": "This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores",
+      "name": "Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores",
+      "description": "This entry turns WordPress/agent-skills' WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan…",
+      "category": [
+        "WordPress & CMS"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates",
       "name": "Generate Markdown tables of contents before publishing docs or README updates",

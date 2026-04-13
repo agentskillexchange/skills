@@ -110,6 +110,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
 | [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
+| [Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores](../../skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores/) | — | — |
 | [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](../../skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | — | — |

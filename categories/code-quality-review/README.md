@@ -136,6 +136,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | — | — |
 | [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | — | — |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | — | — |
+| [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | — | — |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | — | — |
 | [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | — | — |
 | [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | — | — |
