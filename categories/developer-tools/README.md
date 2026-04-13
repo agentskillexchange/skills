@@ -227,6 +227,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
+| [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
 | [Amplication Open Source Backend Generation Platform](../../skills/amplication-open-source-backend-generation-platform/) | — | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |

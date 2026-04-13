@@ -1,8 +1,39 @@
 {
   "version": "2.0",
-  "total": 1955,
+  "total": 1957,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations",
+      "name": "Index a codebase into evidence-backed memory so agents can answer with citations",
+      "description": "Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5,
+        "npm_weekly_downloads": 1926
+      }
+    },
+    {
+      "slug": "investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp",
+      "name": "Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp",
+      "description": "Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only response context to triage a security event without leaving…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 136
+      }
+    },
     {
       "slug": "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits",
       "name": "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits",
