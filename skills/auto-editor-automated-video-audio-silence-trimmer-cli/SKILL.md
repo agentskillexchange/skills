@@ -1,11 +1,16 @@
 ---
-name: "auto-editor-automated-video-audio-silence-trimmer-cli"
 title: "Auto-Editor Automated Video and Audio Silence Trimmer CLI"
+slug: "auto-editor-automated-video-audio-silence-trimmer-cli"
 description: "Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion, and other signals to cut dead space. It exports to Premiere Pro, DaVinci Resolve, Final Cut Pro, ShotCut, and Kdenlive timelines."
-category: "Media & Transcription"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/WyattBlue/auto-editor"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wyattblue/auto-editor"
+  github_stars: 4089
 ---
 
 # Auto-Editor Automated Video and Audio Silence Trimmer CLI
@@ -14,13 +19,13 @@ Auto-Editor is a command-line application that automatically edits video and aud
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

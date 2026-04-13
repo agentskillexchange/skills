@@ -1,11 +1,13 @@
 ---
-name: "buf-protobuf-linter"
 title: "Buf Protobuf Linter"
+slug: "buf-protobuf-linter"
 description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
-category: "Library & API Reference"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/buf-protobuf-linter/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # Buf Protobuf Linter
@@ -14,13 +16,13 @@ Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC s
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

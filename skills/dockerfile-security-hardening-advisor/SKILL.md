@@ -1,11 +1,13 @@
 ---
-name: "dockerfile-security-hardening-advisor"
 title: "Dockerfile Security Hardening Advisor"
+slug: "dockerfile-security-hardening-advisor"
 description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
-category: "Runbooks & Diagnostics"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Dockerfile Security Hardening Advisor
@@ -14,13 +16,13 @@ Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy contain
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

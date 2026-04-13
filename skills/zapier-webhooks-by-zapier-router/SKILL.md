@@ -1,11 +1,13 @@
 ---
-name: "zapier-webhooks-by-zapier-router"
 title: "Zapier Webhooks by Zapier Router"
-description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
-category: "Integrations & Connectors"
-framework: "Custom Agents"
+slug: "zapier-webhooks-by-zapier-router"
+description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/&#8230;`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
 verification: "security_reviewed"
 source: "https://github.com/zapier/zapier-platform"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "zapier/zapier-platform"
   github_stars: 484
@@ -13,17 +15,17 @@ tool_ecosystem:
 
 # Zapier Webhooks by Zapier Router
 
-Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/…`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems.
+Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/&#8230;`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "git-absorb-automatic-fixup-commit-generator"
 title: "git-absorb Automatic Fixup Commit Generator"
-description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback."
-category: "Developer Tools"
-framework: "Claude Code"
+slug: "git-absorb-automatic-fixup-commit-generator"
+description: "Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook&#8217;s hg absorb that eliminates manual interactive rebasing for review feedback."
 verification: "security_reviewed"
 source: "https://github.com/tummychow/git-absorb"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "tummychow/git-absorb"
   github_stars: 5455
@@ -13,17 +15,17 @@ tool_ecosystem:
 
 # git-absorb Automatic Fixup Commit Generator
 
-Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook’s hg absorb that eliminates manual interactive rebasing for review feedback.
+Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits. A Rust port of Facebook&#8217;s hg absorb that eliminates manual interactive rebasing for review feedback.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

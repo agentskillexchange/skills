@@ -1,11 +1,13 @@
 ---
-name: "pedalboard-spotify-audio-effects-python"
 title: "Pedalboard Python Audio Effects Library by Spotify"
+slug: "pedalboard-spotify-audio-effects-python"
 description: "Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding studio-quality effects. It supports VST3 and Audio Unit plugins and runs on macOS, Windows, and Linux with high performance."
-category: "Media & Transcription"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/spotify/pedalboard"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "spotify/pedalboard"
   github_stars: 6041
@@ -17,13 +19,13 @@ Pedalboard is a Python library built by Spotify for working with audio: reading,
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

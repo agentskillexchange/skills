@@ -1,11 +1,13 @@
 ---
-name: "turn-github-issues-into-fix-prs"
 title: "Turn GitHub Issues into Fix PRs"
+slug: "turn-github-issues-into-fix-prs"
 description: "Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review comments. This is a bounded backlog-to-PR operator loop, not a general GitHub product listing."
-category: "Developer Tools"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/openclaw/openclaw/tree/main/skills/gh-issues"
+category:
+  - "Developer Tools"
+framework:
+  - "OpenClaw"
 ---
 
 # Turn GitHub Issues into Fix PRs
@@ -14,13 +16,13 @@ Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

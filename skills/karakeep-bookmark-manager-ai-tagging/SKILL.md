@@ -1,11 +1,13 @@
 ---
-name: "karakeep-bookmark-manager-ai-tagging"
 title: "Karakeep Self-Hosted Bookmark Manager with AI Tagging"
+slug: "karakeep-bookmark-manager-ai-tagging"
 description: "Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered automatic tagging, full-text search, link archiving, and a REST API. It supports bookmarking links, notes, images, and PDFs with OCR extraction and RSS feed auto-hoarding."
-category: "Research & Scraping"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/karakeep-app/karakeep"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "karakeep-app/karakeep"
   github_stars: 24456
@@ -17,13 +19,13 @@ Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ G
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

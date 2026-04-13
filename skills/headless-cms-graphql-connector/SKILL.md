@@ -1,11 +1,13 @@
 ---
-name: "headless-cms-graphql-connector"
 title: "Headless CMS GraphQL Connector"
+slug: "headless-cms-graphql-connector"
 description: "Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to frontend frameworks using Apollo Client and urql. Handles content previews, ISR cache invalidation, and webhook-driven rebuilds."
-category: "WordPress & CMS"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/headless-cms-graphql-connector/"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Gemini"
 ---
 
 # Headless CMS GraphQL Connector
@@ -14,13 +16,13 @@ Connects headless CMS backends (WordPress WPGraphQL, Strapi, Contentful) to fron
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,13 +1,15 @@
 ---
-name: "pm2-nodejs-production-process-manager"
 title: "PM2 Node.js Production Process Manager with Load Balancing"
+slug: "pm2-nodejs-production-process-manager"
 description: "PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over 42,000 GitHub stars and millions of weekly npm downloads, it keeps applications alive forever, enables zero-downtime reloads, and provides comprehensive process monitoring with cluster mode support."
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Unitech/pm2"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "Unitech/pm2"
+  github_repo: "unitech/pm2"
   github_stars: 43034
 ---
 
@@ -17,13 +19,13 @@ PM2 is a production-grade process manager for Node.js and Bun applications with 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

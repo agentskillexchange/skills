@@ -1,11 +1,13 @@
 ---
-name: "minio-s3-compatible-object-storage"
 title: "MinIO High-Performance S3-Compatible Object Storage Server"
+slug: "minio-s3-compatible-object-storage"
 description: "MinIO is a high-performance, S3-compatible object storage server. It can run standalone or distributed, providing enterprise-grade storage with a familiar AWS S3 API for seamless integration with existing tools and SDKs."
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/minio/minio"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "minio/minio"
   github_stars: 60611
@@ -17,13 +19,13 @@ MinIO is a high-performance, S3-compatible object storage server. It can run sta
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "pyroscope-continuous-profiling-platform-grafana"
 title: "Pyroscope Continuous Profiling Platform by Grafana"
+slug: "pyroscope-continuous-profiling-platform-grafana"
 description: "Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O bottlenecks at the line-of-code level. It integrates natively with Grafana for flame graph visualization and supports profiling for Go, Java, Python, Ruby, Node.js, Rust, and .NET applications."
-category: "Monitoring & Alerts"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/grafana/pyroscope"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/pyroscope"
   github_stars: 11341
@@ -17,13 +19,13 @@ Pyroscope is an open-source continuous profiling platform by Grafana Labs that h
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

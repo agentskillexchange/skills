@@ -1,11 +1,13 @@
 ---
-name: "prometheus-alert-runbook-linker"
 title: "Prometheus Alert Runbook Linker"
+slug: "prometheus-alert-runbook-linker"
 description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
-category: "Runbooks & Diagnostics"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-linker/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Prometheus Alert Runbook Linker
@@ -14,13 +16,13 @@ Links Prometheus alerting rules to operational runbooks by parsing AlertManager 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

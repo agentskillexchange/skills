@@ -1,11 +1,13 @@
 ---
-name: "drizzle-orm-typescript-sql-database-toolkit"
 title: "Drizzle ORM TypeScript SQL Database Toolkit"
+slug: "drizzle-orm-typescript-sql-database-toolkit"
 description: "Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema declarations, relational and SQL-like query builders, and automatic migration generation. At only 7.4kb minified and gzipped with zero dependencies, it supports PostgreSQL, MySQL, and SQLite including serverless databases like Neon, Turso, and Cloudflare D1."
-category: "Developer Tools"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/drizzle-team/drizzle-orm"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "drizzle-team/drizzle-orm"
   github_stars: 33566
@@ -19,13 +21,13 @@ Drizzle ORM is a lightweight TypeScript ORM that provides type-safe SQL schema d
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

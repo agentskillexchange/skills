@@ -1,11 +1,13 @@
 ---
-name: "miniflux-self-hosted-rss-feed-reader-and-automation-api"
 title: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
+slug: "miniflux-self-hosted-rss-feed-reader-and-automation-api"
 description: "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to sources, organize categories, and automate article triage or downstream alerting from RSS, Atom, and JSON feeds."
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/miniflux/v2"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Miniflux Self-Hosted RSS Feed Reader and Automation API
@@ -14,13 +16,13 @@ Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, we
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

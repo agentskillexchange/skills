@@ -1,11 +1,13 @@
 ---
-name: "vitest-vite-testing-framework"
 title: "Vitest Next-Generation Vite-Powered Testing Framework"
+slug: "vitest-vite-testing-framework"
 description: "Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of the box, and a Jest-compatible API for seamless migration of existing test suites."
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/vitest-dev/vitest"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vitest-dev/vitest"
   github_stars: 16296
@@ -17,13 +19,13 @@ Vitest is a blazing-fast unit testing framework powered by Vite. It provides nat
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "ai-engine-wordpress-mcp-server-and-ai-automation"
 title: "AI Engine WordPress MCP Server and AI Automation"
-description: "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress."
-category: "WordPress & CMS"
-framework: "MCP"
+slug: "ai-engine-wordpress-mcp-server-and-ai-automation"
+description: "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin&#8217;s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress."
 verification: "security_reviewed"
 source: "https://github.com/jordymeow/ai-engine"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "jordymeow/ai-engine"
   github_stars: 37
@@ -13,17 +15,17 @@ tool_ecosystem:
 
 # AI Engine WordPress MCP Server and AI Automation
 
-AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress.
+AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin&#8217;s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

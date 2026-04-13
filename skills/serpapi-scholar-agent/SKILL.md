@@ -1,11 +1,13 @@
 ---
-name: "serpapi-scholar-agent"
 title: "SerpAPI Scholar Agent"
+slug: "serpapi-scholar-agent"
 description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
-category: "Research & Scraping"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/serpapi-scholar-agent/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # SerpAPI Scholar Agent
@@ -14,13 +16,13 @@ Automates academic research using the SerpAPI Google Scholar endpoint. Extracts 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

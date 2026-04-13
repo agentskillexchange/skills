@@ -1,11 +1,13 @@
 ---
-name: "patent-landscape-analyzer"
 title: "Patent Landscape Analyzer"
+slug: "patent-landscape-analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
-category: "Research & Scraping"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/patent-landscape-analyzer/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # Patent Landscape Analyzer
@@ -14,13 +16,13 @@ Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent S
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

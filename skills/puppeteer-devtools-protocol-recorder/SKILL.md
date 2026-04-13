@@ -1,11 +1,13 @@
 ---
-name: "puppeteer-devtools-protocol-recorder"
 title: "Puppeteer DevTools Protocol Recorder"
-description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
-category: "Developer Tools"
-framework: "Cursor"
+slug: "puppeteer-devtools-protocol-recorder"
+description: "Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer&#8217;s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing."
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
+category:
+  - "Developer Tools"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94051
@@ -13,17 +15,17 @@ tool_ecosystem:
 
 # Puppeteer DevTools Protocol Recorder
 
-Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer’s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
+Records and replays Chrome DevTools Protocol (CDP) sessions via Puppeteer&#8217;s CDPSession API, captures Network, Performance, and Accessibility domain events, and exports HAR-compatible traces for CI regression testing.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "scrapy-pipeline-data-extractor"
 title: "Scrapy Pipeline Data Extractor"
+slug: "scrapy-pipeline-data-extractor"
 description: "Builds production Scrapy spiders with custom Item Pipelines for data cleaning and storage. Uses scrapy.linkextractors.LinkExtractor for crawl scoping and ItemLoader with MapCompose processors for field normalization."
-category: "Research & Scraping"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/scrapy-pipeline-data-extractor/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Gemini"
 ---
 
 # Scrapy Pipeline Data Extractor
@@ -14,13 +16,13 @@ Builds production Scrapy spiders with custom Item Pipelines for data cleaning an
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

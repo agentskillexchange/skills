@@ -1,11 +1,13 @@
 ---
-name: "usql-universal-sql-client"
 title: "usql Universal Command-Line SQL Client for Multiple Databases"
+slug: "usql-universal-sql-client"
 description: "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/xo/usql"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xo/usql"
   github_stars: 9904
@@ -17,13 +19,13 @@ usql is a universal command-line interface for SQL databases including PostgreSQ
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

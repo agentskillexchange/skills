@@ -1,13 +1,15 @@
 ---
-name: "wordpress-rest-api-builder"
 title: "WordPress REST API Builder"
+slug: "wordpress-rest-api-builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
-category: "WordPress & CMS"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "WordPress/WordPress"
+  github_repo: "wordpress/wordpress"
   github_stars: 21002
 ---
 
@@ -17,13 +19,13 @@ Build and debug WordPress REST endpoints with a specialized skill.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

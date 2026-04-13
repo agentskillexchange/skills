@@ -1,26 +1,28 @@
 ---
-name: "kubernetes-pod-diagnostics-skill"
 title: "Kubernetes Pod Diagnostics"
-description: "Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
-category: "Runbooks & Diagnostics"
-framework: "OpenClaw"
+slug: "kubernetes-pod-diagnostics-skill"
+description: "Diagnoses Kubernetes pod failures using kubectl describe, logs &#8211;previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-diagnostics-skill/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Kubernetes Pod Diagnostics
 
-Diagnoses Kubernetes pod failures using kubectl describe, logs –previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations.
+Diagnoses Kubernetes pod failures using kubectl describe, logs &#8211;previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

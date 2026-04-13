@@ -1,11 +1,13 @@
 ---
-name: "mongodb-mcp-server-database-atlas-management"
 title: "MongoDB MCP Server for Database and Atlas Management"
+slug: "mongodb-mcp-server-database-atlas-management"
 description: "The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context Protocol, enabling structured queries, collection management, Atlas API operations, and aggregation pipelines with built-in authentication and access control."
-category: "Integrations & Connectors"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/mongodb-js/mongodb-mcp-server"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mongodb-js/mongodb-mcp-server"
   github_stars: 983
@@ -19,13 +21,13 @@ The official MongoDB MCP server connects AI agents to MongoDB databases and Atla
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

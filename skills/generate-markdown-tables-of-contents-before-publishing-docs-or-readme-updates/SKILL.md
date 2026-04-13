@@ -1,11 +1,13 @@
 ---
-name: "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates"
 title: "Generate Markdown tables of contents before publishing docs or README updates"
+slug: "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates"
 description: "Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing README or docs updates and needs reliable intra-document navigation, not when it is generating the documentation itself."
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/thlorenz/doctoc"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thlorenz/doctoc"
   github_stars: 4432
@@ -17,13 +19,13 @@ Runs DocToc to insert or refresh navigable tables of contents inside Markdown fi
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "kubernetes-troubleshoot-analyzer"
 title: "Kubernetes Troubleshoot Analyzer"
+slug: "kubernetes-troubleshoot-analyzer"
 description: "Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures."
-category: "Runbooks & Diagnostics"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-troubleshoot-analyzer/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Kubernetes Troubleshoot Analyzer
@@ -14,13 +16,13 @@ Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI d
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

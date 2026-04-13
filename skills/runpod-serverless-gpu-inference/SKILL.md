@@ -1,11 +1,13 @@
 ---
-name: "runpod-serverless-gpu-inference"
 title: "RunPod Serverless GPU Inference"
+slug: "runpod-serverless-gpu-inference"
 description: "Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models."
-category: "Image & Creative Automation"
-framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/runpod-serverless-gpu-inference/"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # RunPod Serverless GPU Inference
@@ -14,13 +16,13 @@ Deploy and manage GPU inference endpoints on RunPod Serverless using their REST 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

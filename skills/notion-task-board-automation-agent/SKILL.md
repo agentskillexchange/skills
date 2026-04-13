@@ -1,11 +1,13 @@
 ---
-name: "notion-task-board-automation-agent"
 title: "Notion Task Board Automation"
+slug: "notion-task-board-automation-agent"
 description: "Automates Notion database workflows using the Notion API databases.query and pages.create endpoints. Builds filtered views with compound filter objects, manages status property transitions, and syncs with external project trackers."
-category: "Calendar, Email & Productivity"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/notion-task-board-automation-agent/"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Cursor"
 ---
 
 # Notion Task Board Automation
@@ -14,13 +16,13 @@ Automates Notion database workflows using the Notion API databases.query and pag
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

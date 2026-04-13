@@ -1,11 +1,13 @@
 ---
-name: "gitleaks-git-secret-scanner"
 title: "Gitleaks Git Repository Secret Scanner"
+slug: "gitleaks-git-secret-scanner"
 description: "Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner."
-category: "Security & Verification"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/gitleaks/gitleaks"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731
@@ -17,13 +19,13 @@ Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwo
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

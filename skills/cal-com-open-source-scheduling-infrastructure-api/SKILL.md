@@ -1,11 +1,13 @@
 ---
-name: "cal-com-open-source-scheduling-infrastructure-api"
 title: "Cal.com Open Source Scheduling Infrastructure and API"
-description: "Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API."
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+slug: "cal-com-open-source-scheduling-infrastructure-api"
+description: "Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API."
 verification: "security_reviewed"
 source: "https://github.com/calcom/cal.com"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "calcom/cal.com"
   github_stars: 40908
@@ -13,17 +15,17 @@ tool_ecosystem:
 
 # Cal.com Open Source Scheduling Infrastructure and API
 
-Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API.
+Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

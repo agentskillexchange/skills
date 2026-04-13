@@ -1,11 +1,13 @@
 ---
-name: "slack-channel-summarizer-bolt-sdk"
 title: "Slack Channel Summarizer"
+slug: "slack-channel-summarizer-bolt-sdk"
 description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages."
-category: "Calendar, Email & Productivity"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/slack-channel-summarizer-bolt-sdk/"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "MCP"
 ---
 
 # Slack Channel Summarizer
@@ -14,13 +16,13 @@ Generates channel summaries using Slack Bolt SDK with conversations.history and 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

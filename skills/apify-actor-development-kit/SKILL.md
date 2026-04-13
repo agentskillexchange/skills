@@ -1,11 +1,13 @@
 ---
-name: "apify-actor-development-kit"
 title: "Apify Actor Development Kit"
+slug: "apify-actor-development-kit"
 description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
-category: "Research & Scraping"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apify-actor-development-kit/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # Apify Actor Development Kit
@@ -14,13 +16,13 @@ Builds Apify Actors for scalable cloud scraping with automatic proxy management 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

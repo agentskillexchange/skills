@@ -1,11 +1,13 @@
 ---
-name: "kong-gateway-api-ai-mcp-traffic-control"
 title: "Kong Gateway API AI and MCP Traffic Control"
+slug: "kong-gateway-api-ai-mcp-traffic-control"
 description: "Kong Gateway is an open-source API gateway that handles routing, authentication, load balancing, observability, and newer AI and MCP traffic patterns. It fits teams that need one control layer in front of services, model providers, or mixed API estates."
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Kong/kong"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 ---
 
 # Kong Gateway API AI and MCP Traffic Control
@@ -14,13 +16,13 @@ Kong Gateway is an open-source API gateway that handles routing, authentication,
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

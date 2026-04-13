@@ -1,13 +1,15 @@
 ---
-name: "chrome-devtools-mcp-browser-debugging-performance-analysis"
 title: "Chrome DevTools MCP Browser Debugging and Performance Analysis"
+slug: "chrome-devtools-mcp-browser-debugging-performance-analysis"
 description: "Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser for debugging, automation, and performance work. It exposes Chrome DevTools capabilities through MCP, so agents can inspect network traffic, collect traces, capture screenshots, and automate browser actions from the same server."
-category: "Browser Automation"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
-  github_repo: "ChromeDevTools/chrome-devtools-mcp"
+  github_repo: "chromedevtools/chrome-devtools-mcp"
   github_stars: 34239
 ---
 
@@ -17,13 +19,13 @@ Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser fo
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

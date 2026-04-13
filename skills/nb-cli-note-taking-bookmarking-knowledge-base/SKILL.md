@@ -1,11 +1,13 @@
 ---
-name: "nb-cli-note-taking-bookmarking-knowledge-base"
 title: "nb CLI Note-Taking Bookmarking and Knowledge Base Application"
+slug: "nb-cli-note-taking-bookmarking-knowledge-base"
 description: "nb is a command-line and local web note-taking, bookmarking, archiving, and knowledge base application. It stores everything as plain text with Git-backed versioning and syncing, supports wiki-style linking, encryption, tagging, search, and Pandoc-powered import/export — all in a single portable Bash script."
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/xwmx/nb"
+category:
+  - "Calendar, Email &amp; Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088
@@ -17,13 +19,13 @@ nb is a command-line and local web note-taking, bookmarking, archiving, and know
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

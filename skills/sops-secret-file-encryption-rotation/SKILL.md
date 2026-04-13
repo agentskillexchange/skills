@@ -1,11 +1,13 @@
 ---
-name: "sops-secret-file-encryption-rotation"
 title: "SOPS Secret File Encryption and Rotation"
+slug: "sops-secret-file-encryption-rotation"
 description: "SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets handling, rotation, and encrypted configuration workflows."
-category: "Security & Verification"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/getsops/sops"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Multi-Framework"
 ---
 
 # SOPS Secret File Encryption and Rotation
@@ -14,13 +16,13 @@ SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "penpot-open-source-design-prototyping"
 title: "Penpot Open Source Design and Prototyping Platform"
+slug: "penpot-open-source-design-prototyping"
 description: "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while developers get ready-to-use CSS, SVG, and HTML code — no handoff friction, no vendor lock-in."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/penpot/penpot"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "penpot/penpot"
   github_stars: 45224
@@ -17,13 +19,13 @@ Penpot is the first open-source design and prototyping platform built for cross-
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

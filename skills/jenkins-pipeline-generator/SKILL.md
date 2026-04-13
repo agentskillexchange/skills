@@ -1,11 +1,13 @@
 ---
-name: "jenkins-pipeline-generator"
 title: "Jenkins Pipeline Generator"
+slug: "jenkins-pipeline-generator"
 description: "Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job configuration and the Blue Ocean API for pipeline visualization."
-category: "CI/CD Integrations"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-generator/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # Jenkins Pipeline Generator
@@ -14,13 +16,13 @@ Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

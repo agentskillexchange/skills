@@ -1,11 +1,13 @@
 ---
-name: "photoshop-batch-action-automator"
 title: "Photoshop Batch Action Automator"
+slug: "photoshop-batch-action-automator"
 description: "Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object replacement using photoshop-connection npm package."
-category: "Image & Creative Automation"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/photoshop-batch-action-automator/"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Photoshop Batch Action Automator
@@ -14,13 +16,13 @@ Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP Ext
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

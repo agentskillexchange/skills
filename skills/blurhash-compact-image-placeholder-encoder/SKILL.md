@@ -1,11 +1,13 @@
 ---
-name: "blurhash-compact-image-placeholder-encoder"
 title: "BlurHash Compact Image Placeholder Encoder"
+slug: "blurhash-compact-image-placeholder-encoder"
 description: "An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and decode tiny hash strings that represent blurred previews of images. Enables instant placeholder rendering in web and mobile applications while full images load."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/woltapp/blurhash"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "woltapp/blurhash"
   github_stars: 16958
@@ -19,13 +21,13 @@ An agent skill that uses BlurHash, the compact image placeholder representation 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

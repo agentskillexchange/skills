@@ -1,11 +1,13 @@
 ---
-name: "thumbor-smart-image-processing-service"
 title: "Thumbor Smart Image Processing Service"
+slug: "thumbor-smart-image-processing-service"
 description: "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent face and feature detection. Enables automated image optimization pipelines for web applications and content delivery workflows."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/thumbor/thumbor"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thumbor/thumbor"
   github_stars: 10470
@@ -17,13 +19,13 @@ An agent skill that leverages Thumbor, the open-source smart image processing se
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

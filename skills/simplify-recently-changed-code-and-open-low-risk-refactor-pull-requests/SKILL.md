@@ -1,26 +1,28 @@
 ---
-name: "simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests"
 title: "Simplify recently changed code and open low-risk refactor pull requests"
-description: "This entry turns GitHub Next’s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites."
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+slug: "simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests"
+description: "This entry turns GitHub Next&#8217;s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites."
 verification: "listed"
 source: "https://github.com/githubnext/agentics/blob/main/docs/code-simplifier.md"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 ---
 
 # Simplify recently changed code and open low-risk refactor pull requests
 
-This entry turns GitHub Next’s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites.
+This entry turns GitHub Next&#8217;s Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving simplifications, runs validation, and opens small refactor pull requests instead of attempting broad rewrites.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

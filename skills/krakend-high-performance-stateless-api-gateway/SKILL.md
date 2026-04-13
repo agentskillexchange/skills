@@ -1,11 +1,13 @@
 ---
-name: "krakend-high-performance-stateless-api-gateway"
 title: "KrakenD High-Performance Stateless API Gateway"
+slug: "krakend-high-performance-stateless-api-gateway"
 description: "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies, and telemetry integration."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/krakend/krakend-ce"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # KrakenD High-Performance Stateless API Gateway
@@ -14,13 +16,13 @@ KrakenD is an ultra-high performance, stateless, declarative API Gateway written
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

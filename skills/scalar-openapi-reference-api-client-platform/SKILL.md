@@ -1,11 +1,13 @@
 ---
-name: "scalar-openapi-reference-api-client-platform"
 title: "Scalar OpenAPI Reference and API Client Platform"
+slug: "scalar-openapi-reference-api-client-platform"
 description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
-category: "Library & API Reference"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/scalar/scalar"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Multi-Framework"
 ---
 
 # Scalar OpenAPI Reference and API Client Platform
@@ -14,13 +16,13 @@ Scalar is an open-source API platform for publishing modern OpenAPI references a
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

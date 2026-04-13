@@ -1,26 +1,28 @@
 ---
-name: "assemblyai-lemur-summarizer-agent"
 title: "AssemblyAI LeMUR Summarizer"
-description: "Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
-category: "Media & Transcription"
-framework: "Gemini"
+slug: "assemblyai-lemur-summarizer-agent"
+description: "Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Gemini"
 ---
 
 # AssemblyAI LeMUR Summarizer
 
-Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
+Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

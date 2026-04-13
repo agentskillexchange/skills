@@ -1,11 +1,13 @@
 ---
-name: "yt-dlp-feature-rich-audio-video-downloader-cli"
 title: "yt-dlp Feature-Rich Audio and Video Downloader CLI"
+slug: "yt-dlp-feature-rich-audio-video-downloader-cli"
 description: "yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube, Vimeo, and social media platforms. It supports format selection, subtitle extraction, metadata embedding, SponsorBlock integration, and batch processing with extensive post-processing options."
-category: "Media & Transcription"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/yt-dlp/yt-dlp"
+category:
+  - "Media &amp; Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yt-dlp/yt-dlp"
   github_stars: 154307
@@ -17,13 +19,13 @@ yt-dlp is a powerful command-line tool for downloading audio and video from thou
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

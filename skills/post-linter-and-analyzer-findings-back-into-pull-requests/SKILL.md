@@ -1,11 +1,13 @@
 ---
-name: "post-linter-and-analyzer-findings-back-into-pull-requests"
 title: "Post linter and analyzer findings back into pull requests"
+slug: "post-linter-and-analyzer-findings-back-into-pull-requests"
 description: "This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can run existing checks, filter findings to the changed lines, and publish inline review comments or annotations instead of dumping raw logs into CI."
-category: "Code Quality & Review"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/reviewdog/reviewdog"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "reviewdog/reviewdog"
   github_stars: 9204
@@ -17,13 +19,13 @@ This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

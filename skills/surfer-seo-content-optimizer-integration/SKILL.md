@@ -1,26 +1,28 @@
 ---
-name: "surfer-seo-content-optimizer-integration"
 title: "Surfer SEO Content Optimizer Integration"
-description: "Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
-category: "Content Writing & SEO"
-framework: "Cursor"
+slug: "surfer-seo-content-optimizer-integration"
+description: "Optimizes content against Surfer SEO&#8217;s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/surfer-seo-content-optimizer-integration/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Cursor"
 ---
 
 # Surfer SEO Content Optimizer Integration
 
-Optimizes content against Surfer SEO’s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking.
+Optimizes content against Surfer SEO&#8217;s NLP-based recommendations via the Surfer API /v1/content_editors endpoint. Analyzes keyword density, heading structure, and semantic term coverage for target SERP ranking.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

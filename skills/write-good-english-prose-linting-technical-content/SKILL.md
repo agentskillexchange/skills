@@ -1,11 +1,13 @@
 ---
-name: "write-good-english-prose-linting-technical-content"
 title: "write-good English Prose Linting for Technical Content"
+slug: "write-good-english-prose-linting-technical-content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/btford/write-good"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "btford/write-good"
   github_stars: 5065
@@ -19,13 +21,13 @@ This skill uses write-good to flag vague, wordy, or hard-to-read English prose i
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "twilio-mcp-server"
 title: "Twilio MCP Server"
-description: "Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]"
-category: "Integrations & Connectors"
-framework: "MCP"
+slug: "twilio-mcp-server"
+description: "Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational [&hellip;]"
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1527
@@ -15,17 +17,17 @@ tool_ecosystem:
 
 # Twilio MCP Server
 
-Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]
+Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational [&hellip;]
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

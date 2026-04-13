@@ -1,11 +1,13 @@
 ---
-name: "circleci-orb-pipeline-agent"
 title: "CircleCI Orb Pipeline Agent"
+slug: "circleci-orb-pipeline-agent"
 description: "Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization."
-category: "CI/CD Integrations"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # CircleCI Orb Pipeline Agent
@@ -14,13 +16,13 @@ Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, an
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

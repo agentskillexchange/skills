@@ -1,11 +1,13 @@
 ---
-name: "acf-extended-advanced-custom-fields-workflows"
 title: "ACF Extended for Advanced Custom Fields Workflows"
+slug: "acf-extended-advanced-custom-fields-workflows"
 description: "An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options pages, and developer tooling. It is a practical fit for agents working inside complex WordPress content models and custom field workflows."
-category: "WordPress & CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/acf-extended/ACF-Extended"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 ---
 
 # ACF Extended for Advanced Custom Fields Workflows
@@ -14,13 +16,13 @@ An ASE skill built around ACF Extended, the WordPress enhancement suite for Adva
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

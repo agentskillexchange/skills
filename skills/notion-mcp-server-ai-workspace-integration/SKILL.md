@@ -1,11 +1,13 @@
 ---
-name: "notion-mcp-server-ai-workspace-integration"
 title: "Notion MCP Server for AI Workspace Integration"
+slug: "notion-mcp-server-ai-workspace-integration"
 description: "The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context Protocol. It provides tools for querying data sources, creating and updating pages, searching content, and managing databases — all accessible via natural language prompts from Claude, Cursor, Copilot, and other MCP clients."
-category: "Integrations & Connectors"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-mcp-server"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-mcp-server"
   github_stars: 4141
@@ -17,13 +19,13 @@ The official Notion MCP Server enables AI agents to interact with Notion workspa
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

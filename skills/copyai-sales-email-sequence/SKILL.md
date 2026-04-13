@@ -1,26 +1,28 @@
 ---
-name: "copyai-sales-email-sequence"
 title: "Copy.ai Sales Email Sequence Builder"
-description: "Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
+slug: "copyai-sales-email-sequence"
+description: "Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/copyai-sales-email-sequence/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Copy.ai Sales Email Sequence Builder
 
-Leverages Copy.ai’s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai’s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
+Leverages Copy.ai&#8217;s Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai&#8217;s email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

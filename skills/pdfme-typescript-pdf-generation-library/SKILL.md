@@ -1,11 +1,13 @@
 ---
-name: "pdfme-typescript-pdf-generation-library"
 title: "pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer"
+slug: "pdfme-typescript-pdf-generation-library"
 description: "pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG template designer, PDF viewer, and CLI tools for validation and generation in both browser and Node.js environments."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/pdfme/pdfme"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pdfme/pdfme"
   github_stars: 4263
@@ -17,13 +19,13 @@ pdfme is an open-source TypeScript and React library for generating PDFs program
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "git-updater-wordpress-plugin-theme-auto-updater"
 title: "Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories"
+slug: "git-updater-wordpress-plugin-theme-auto-updater"
 description: "Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language packs, and branch switching."
-category: "WordPress & CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/afragen/git-updater"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "afragen/git-updater"
   github_stars: 3316
@@ -17,13 +19,13 @@ Git Updater enables automatic updates for WordPress plugins and themes hosted on
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

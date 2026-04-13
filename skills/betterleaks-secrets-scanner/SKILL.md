@@ -1,11 +1,13 @@
 ---
-name: "betterleaks-secrets-scanner"
 title: "Betterleaks Next-Generation Secrets Scanner"
+slug: "betterleaks-secrets-scanner"
 description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
-category: "Security & Verification"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/betterleaks/betterleaks"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "betterleaks/betterleaks"
   github_stars: 712
@@ -17,13 +19,13 @@ A fast, configurable secrets scanner built by the creator of Gitleaks and backed
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

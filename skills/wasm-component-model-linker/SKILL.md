@@ -1,13 +1,15 @@
 ---
-name: "wasm-component-model-linker"
 title: "WASM Component Model Linker"
+slug: "wasm-component-model-linker"
 description: "Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions."
-category: "Developer Tools"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://github.com/WebAssembly/component-model"
+category:
+  - "Developer Tools"
+framework:
+  - "Gemini"
 tool_ecosystem:
-  github_repo: "WebAssembly/component-model"
+  github_repo: "webassembly/component-model"
   github_stars: 1294
 ---
 
@@ -17,13 +19,13 @@ Compiles and links WebAssembly components using the WASI Preview 2 Component Mod
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

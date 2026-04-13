@@ -1,11 +1,13 @@
 ---
-name: "postgresql-health-diagnostics-agent"
 title: "PostgreSQL Health Diagnostics Agent"
+slug: "postgresql-health-diagnostics-agent"
 description: "Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg_locks to diagnose performance issues. Analyzes slow queries via pg_stat_statements and checks vacuum status through pg_stat_all_tables autovacuum columns."
-category: "Runbooks & Diagnostics"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/postgresql-health-diagnostics-agent/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "MCP"
 ---
 
 # PostgreSQL Health Diagnostics Agent
@@ -14,13 +16,13 @@ Queries PostgreSQL system catalogs pg_stat_activity, pg_stat_user_tables, and pg
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

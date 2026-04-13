@@ -1,11 +1,13 @@
 ---
-name: "internal-link-graph-optimizer"
 title: "Internal Link Graph Optimizer"
+slug: "internal-link-graph-optimizer"
 description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
-category: "Content Writing & SEO"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-graph-optimizer/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Cursor"
 ---
 
 # Internal Link Graph Optimizer
@@ -14,13 +16,13 @@ Analyzes internal linking structure by crawling sitemaps with Screaming Frog or 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

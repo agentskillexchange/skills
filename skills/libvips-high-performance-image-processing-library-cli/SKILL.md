@@ -1,11 +1,13 @@
 ---
-name: "libvips-high-performance-image-processing-library-cli"
 title: "libvips High-Performance Image Processing Library and CLI"
+slug: "libvips-high-performance-image-processing-library-cli"
 description: "libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like ImageMagick, supports 20+ formats, and powers Sharp, Mastodon, imgproxy, and Ruby on Rails."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
@@ -17,13 +19,13 @@ libvips is a demand-driven, horizontally threaded image processing library with 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

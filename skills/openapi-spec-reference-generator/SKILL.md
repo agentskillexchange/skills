@@ -1,11 +1,13 @@
 ---
-name: "openapi-spec-reference-generator"
 title: "OpenAPI Spec Reference Generator"
+slug: "openapi-spec-reference-generator"
 description: "Converts OpenAPI 3.x specification files into browsable API reference documentation using swagger-parser and redoc-cli. Generates static HTML, markdown, and Postman collection exports from YAML/JSON spec files."
-category: "Library & API Reference"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/openapi-spec-reference-generator/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 ---
 
 # OpenAPI Spec Reference Generator
@@ -14,13 +16,13 @@ Converts OpenAPI 3.x specification files into browsable API reference documentat
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,13 +1,15 @@
 ---
-name: "seonaut-open-source-technical-seo-audit"
 title: "SEOnaut Open Source Technical SEO Audit Tool"
+slug: "seonaut-open-source-technical-seo-audit"
 description: "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken links, redirect chains, missing meta tags, duplicate titles, heading order problems, and other factors that impact search engine rankings."
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/StJudeWasHere/seonaut"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "StJudeWasHere/seonaut"
+  github_repo: "stjudewashere/seonaut"
   github_stars: 673
 ---
 
@@ -17,13 +19,13 @@ SEOnaut is an open-source SEO auditing tool built with Go that crawls websites a
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

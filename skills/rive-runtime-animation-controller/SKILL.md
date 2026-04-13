@@ -1,11 +1,13 @@
 ---
-name: "rive-runtime-animation-controller"
 title: "Rive Runtime Animation Controller"
+slug: "rive-runtime-animation-controller"
 description: "Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime."
-category: "Image & Creative Automation"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://github.com/rive-app/rive-react"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111
@@ -17,13 +19,13 @@ Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-ad
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

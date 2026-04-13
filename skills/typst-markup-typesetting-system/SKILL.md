@@ -1,11 +1,13 @@
 ---
-name: "typst-markup-typesetting-system"
 title: "Typst Markup-Based Document Typesetting System"
+slug: "typst-markup-typesetting-system"
 description: "Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math typesetting, bibliography management, and incremental compilation for near-instant builds."
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/typst/typst"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "typst/typst"
   github_stars: 52359
@@ -17,13 +19,13 @@ Typst is a modern markup-based typesetting system designed to replace LaTeX with
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

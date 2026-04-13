@@ -1,11 +1,13 @@
 ---
-name: "instaloader-instagram-content-metadata-downloader"
 title: "Instaloader Instagram Content and Metadata Downloader"
+slug: "instaloader-instagram-content-metadata-downloader"
 description: "Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights, and IGTV content along with captions, comments, geotags, and metadata. It supports public and private profiles, hashtags, and feeds with automatic resume and profile rename detection."
-category: "Research & Scraping"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/instaloader/instaloader"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "instaloader/instaloader"
   github_stars: 12047
@@ -17,13 +19,13 @@ Instaloader is a Python CLI tool and library that downloads Instagram photos, vi
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

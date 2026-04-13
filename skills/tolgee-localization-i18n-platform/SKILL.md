@@ -1,11 +1,13 @@
 ---
-name: "tolgee-localization-i18n-platform"
 title: "Tolgee Open Source Localization and i18n Platform"
+slug: "tolgee-localization-i18n-platform"
 description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/tolgee/tolgee-platform"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tolgee/tolgee-platform"
   github_stars: 3875
@@ -17,13 +19,13 @@ Tolgee is an open-source localization platform that lets developers and translat
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

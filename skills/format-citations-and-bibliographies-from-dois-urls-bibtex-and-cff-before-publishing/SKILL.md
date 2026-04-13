@@ -1,11 +1,13 @@
 ---
-name: "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing"
 title: "Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing"
+slug: "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing"
 description: "Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata into CSL-JSON, and emit bibliography or inline citation formats that fit articles, research notes, docs, or release materials."
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://www.npmjs.com/package/citation-js"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   npm_package: "citation-js"
   npm_weekly_downloads: 39542
@@ -17,13 +19,13 @@ Use Citation.js when an agent has raw references and needs clean citation output
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

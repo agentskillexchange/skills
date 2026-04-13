@@ -1,11 +1,13 @@
 ---
-name: "cypress-e2e-api-intercept-skill"
 title: "Cypress E2E API Intercept Skill"
+slug: "cypress-e2e-api-intercept-skill"
 description: "Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection."
-category: "Browser Automation"
-framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cypress-e2e-api-intercept-skill/"
+category:
+  - "Browser Automation"
+framework:
+  - "Codex"
 ---
 
 # Cypress E2E API Intercept Skill
@@ -14,13 +16,13 @@ Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

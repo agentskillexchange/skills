@@ -1,11 +1,13 @@
 ---
-name: "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
 title: "Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs"
+slug: "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
 description: "Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone numbers, organizations, and addresses before import or cleanup. This skill is for vCard normalization and serialization, not contact sync, outreach, or CRM management."
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/py-vobject/vobject"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "py-vobject/vobject"
   github_stars: 50
@@ -17,13 +19,13 @@ Use vobject when an agent receives .vcf contact exports and needs reliable parsi
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "sanity-structured-content-studio-content-lake"
 title: "Sanity Structured Content Studio and Content Lake"
+slug: "sanity-structured-content-studio-content-lake"
 description: "Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill helps agents model schemas, manage content operations, and work against Sanity datasets with structured, API-first workflows."
-category: "WordPress & CMS"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/sanity-io/sanity"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "sanity-io/sanity"
   github_stars: 6041
@@ -19,13 +21,13 @@ Sanity combines a customizable content studio with a real-time content backend a
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

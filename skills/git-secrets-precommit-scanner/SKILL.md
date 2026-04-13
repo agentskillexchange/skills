@@ -1,11 +1,13 @@
 ---
-name: "git-secrets-precommit-scanner"
 title: "Git Secrets Pre-Commit Scanner"
+slug: "git-secrets-precommit-scanner"
 description: "Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking."
-category: "Security & Verification"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/git-secrets-precommit-scanner/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # Git Secrets Pre-Commit Scanner
@@ -14,13 +16,13 @@ Scans git diffs for exposed secrets using truffleHog entropy detection and custo
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

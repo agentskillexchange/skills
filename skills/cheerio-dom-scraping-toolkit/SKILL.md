@@ -1,26 +1,28 @@
 ---
-name: "cheerio-dom-scraping-toolkit"
 title: "Cheerio DOM Scraping Toolkit"
-description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
-category: "Research & Scraping"
-framework: "Cursor"
+slug: "cheerio-dom-scraping-toolkit"
+description: "Parses static HTML using Cheerio&#8217;s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-dom-scraping-toolkit/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Cursor"
 ---
 
 # Cheerio DOM Scraping Toolkit
 
-Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
+Parses static HTML using Cheerio&#8217;s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

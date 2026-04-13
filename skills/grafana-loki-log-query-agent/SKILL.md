@@ -1,11 +1,13 @@
 ---
-name: "grafana-loki-log-query-agent"
 title: "Grafana Loki Log Query Agent"
+slug: "grafana-loki-log-query-agent"
 description: "Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses structured JSON logs, and correlates log entries with Grafana dashboard panels."
-category: "Monitoring & Alerts"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-loki-log-query-agent/"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "MCP"
 ---
 
 # Grafana Loki Log Query Agent
@@ -14,13 +16,13 @@ Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. F
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

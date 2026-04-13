@@ -1,13 +1,15 @@
 ---
-name: "yoast-seo-wordpress-optimization-toolkit"
 title: "Yoast SEO WordPress Optimization Toolkit"
+slug: "yoast-seo-wordpress-optimization-toolkit"
 description: "Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow for optimizing content, schema, metadata, and indexing behavior. It is aimed at WordPress operators who want agent help with SEO settings that map to the actual Yoast plugin and docs."
-category: "WordPress & CMS"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Yoast/wordpress-seo"
+category:
+  - "WordPress &amp; CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
-  github_repo: "Yoast/wordpress-seo"
+  github_repo: "yoast/wordpress-seo"
   github_stars: 1926
 ---
 
@@ -17,13 +19,13 @@ Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this ski
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

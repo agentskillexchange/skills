@@ -1,11 +1,13 @@
 ---
-name: "python-pypi-package-reference-indexer"
 title: "Python PyPI Package Reference Indexer"
+slug: "python-pypi-package-reference-indexer"
 description: "Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and usage examples."
-category: "Library & API Reference"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Python PyPI Package Reference Indexer
@@ -14,13 +16,13 @@ Indexes Python package documentation using the PyPI JSON API and Read the Docs A
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

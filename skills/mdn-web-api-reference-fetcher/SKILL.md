@@ -1,11 +1,13 @@
 ---
-name: "mdn-web-api-reference-fetcher"
 title: "MDN Web API Reference Fetcher"
+slug: "mdn-web-api-reference-fetcher"
 description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
-category: "Library & API Reference"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/mdn-web-api-reference-fetcher/"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Custom Agents"
 ---
 
 # MDN Web API Reference Fetcher
@@ -14,13 +16,13 @@ Fetches and indexes Mozilla Developer Network Web API documentation using the MD
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

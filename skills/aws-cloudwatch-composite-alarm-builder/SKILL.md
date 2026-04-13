@@ -1,11 +1,13 @@
 ---
-name: "aws-cloudwatch-composite-alarm-builder"
 title: "AWS CloudWatch Composite Alarm Builder"
+slug: "aws-cloudwatch-composite-alarm-builder"
 description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
-category: "Monitoring & Alerts"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # AWS CloudWatch Composite Alarm Builder
@@ -14,13 +16,13 @@ Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutComp
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

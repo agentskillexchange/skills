@@ -1,11 +1,13 @@
 ---
-name: "pandas-dataframe-schema-validator"
 title: "Pandas DataFrame Schema Validator"
+slug: "pandas-dataframe-schema-validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/pandas-dataframe-schema-validator/"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "OpenClaw"
 ---
 
 # Pandas DataFrame Schema Validator
@@ -14,13 +16,13 @@ Validates Pandas DataFrame structures using the pandera library API and pa.DataF
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

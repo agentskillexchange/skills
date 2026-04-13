@@ -1,13 +1,15 @@
 ---
-name: "typedoc-typescript-api-documentation-generator"
 title: "TypeDoc TypeScript API Documentation Generator"
+slug: "typedoc-typescript-api-documentation-generator"
 description: "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON models. With 8,000+ GitHub stars and widespread npm adoption, it powers API reference generation for thousands of TypeScript libraries."
-category: "Library & API Reference"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/TypeStrong/typedoc"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "TypeStrong/typedoc"
+  github_repo: "typestrong/typedoc"
   github_stars: 8385
   npm_package: "typedoc"
   npm_weekly_downloads: 3703073
@@ -19,13 +21,13 @@ TypeDoc is the standard documentation generator for TypeScript projects. It read
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

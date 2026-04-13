@@ -1,11 +1,13 @@
 ---
-name: "cloudflare-mcp-servers-workers-security-observability"
 title: "Cloudflare MCP Servers for Workers, Security, and Observability"
+slug: "cloudflare-mcp-servers-workers-security-observability"
 description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
-category: "Integrations & Connectors"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/cloudflare/mcp-server-cloudflare"
+category:
+  - "Integrations &amp; Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "cloudflare/mcp-server-cloudflare"
   github_stars: 3579
@@ -17,13 +19,13 @@ Official Cloudflare MCP servers that enable AI assistants to manage Workers appl
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

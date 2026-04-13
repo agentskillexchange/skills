@@ -1,11 +1,13 @@
 ---
-name: "product-review-sentiment-aggregator"
 title: "Product Review Sentiment Aggregator"
+slug: "product-review-sentiment-aggregator"
 description: "Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level opinions and competitive comparisons."
-category: "Research & Scraping"
-framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/product-review-sentiment-aggregator/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Agents"
 ---
 
 # Product Review Sentiment Aggregator
@@ -14,13 +16,13 @@ Collects and analyzes product reviews from Amazon Product API and Google Shoppin
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

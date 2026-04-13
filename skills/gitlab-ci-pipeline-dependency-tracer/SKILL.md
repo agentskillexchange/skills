@@ -1,11 +1,13 @@
 ---
-name: "gitlab-ci-pipeline-dependency-tracer"
 title: "GitLab CI Pipeline Dependency Tracer"
+slug: "gitlab-ci-pipeline-dependency-tracer"
 description: "Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API and pipeline graph endpoints. Detects bottleneck stages that block parallel execution and suggests DAG refactoring. Integrates with the GitLab Merge Requests API to post optimization reports as MR comments."
-category: "CI/CD Integrations"
-framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-pipeline-dependency-tracer/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # GitLab CI Pipeline Dependency Tracer
@@ -14,13 +16,13 @@ Traces job dependency chains in GitLab CI pipelines using the GitLab Jobs API an
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

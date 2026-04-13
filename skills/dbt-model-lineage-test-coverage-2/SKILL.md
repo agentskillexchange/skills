@@ -1,26 +1,28 @@
 ---
-name: "dbt-model-lineage-test-coverage-2"
-title: "dbt Model Lineage & Test Coverage Checker"
+title: "dbt Model Lineage &amp; Test Coverage Checker"
+slug: "dbt-model-lineage-test-coverage-2"
 description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status."
-category: "Data Extraction & Transformation"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Cursor"
 ---
 
-# dbt Model Lineage & Test Coverage Checker
+# dbt Model Lineage &amp; Test Coverage Checker
 
 Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

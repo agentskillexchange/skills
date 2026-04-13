@@ -1,11 +1,13 @@
 ---
-name: "gitlab-ci-template-library"
 title: "GitLab CI Template Library"
+slug: "gitlab-ci-template-library"
 description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables."
-category: "CI/CD Integrations"
-framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/gitlab-ci-template-library/"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # GitLab CI Template Library
@@ -14,13 +16,13 @@ Creates reusable GitLab CI/CD template libraries using include:template and exte
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

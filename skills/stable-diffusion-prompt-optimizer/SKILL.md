@@ -1,11 +1,13 @@
 ---
-name: "stable-diffusion-prompt-optimizer"
 title: "Stable Diffusion Prompt Optimizer"
+slug: "stable-diffusion-prompt-optimizer"
 description: "Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies prompt weighting, negative prompt generation, and A1111-specific syntax like (keyword:weight)."
-category: "Image & Creative Automation"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/stable-diffusion-prompt-optimizer/"
+category:
+  - "Image &amp; Creative Automation"
+framework:
+  - "Gemini"
 ---
 
 # Stable Diffusion Prompt Optimizer
@@ -14,13 +16,13 @@ Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

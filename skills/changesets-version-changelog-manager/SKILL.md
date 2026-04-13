@@ -1,11 +1,13 @@
 ---
-name: "changesets-version-changelog-manager"
 title: "Changesets Version and Changelog Manager"
+slug: "changesets-version-changelog-manager"
 description: "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based workflow."
-category: "Developer Tools"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/changesets/changesets"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "changesets/changesets"
   github_stars: 11620
@@ -19,13 +21,13 @@ Use Changesets to manage package versioning and changelogs in monorepos and sing
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

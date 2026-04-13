@@ -1,11 +1,13 @@
 ---
-name: "eslint-rule-violation-summarizer-2"
 title: "ESLint Rule Violation Summarizer"
+slug: "eslint-rule-violation-summarizer-2"
 description: "Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan. Distinguishes auto-fixable violations from manual ones. Outputs Markdown for GitHub PR comments."
-category: "Code Quality & Review"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
+category:
+  - "Code Quality &amp; Review"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27186
@@ -17,13 +19,13 @@ Runs ESLint against a JS/TS codebase, groups violations by rule and file, and pr
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

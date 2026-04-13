@@ -1,11 +1,13 @@
 ---
-name: "terraform-module-template-generator"
 title: "Terraform Module Template Generator"
+slug: "terraform-module-template-generator"
 description: "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files."
-category: "Templates & Workflows"
-framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/terraform-module-template-generator/"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "OpenClaw"
 ---
 
 # Terraform Module Template Generator
@@ -14,13 +16,13 @@ Scaffolds production-ready Terraform modules with HCL templates, variable defini
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,13 +1,15 @@
 ---
-name: "weasyprint-html-css-pdf-document-generator"
 title: "WeasyPrint HTML and CSS to PDF Document Generator"
+slug: "weasyprint-html-css-pdf-document-generator"
 description: "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for pagination, supporting web standards for printing including page breaks, headers, page counters, and responsive layouts without relying on a browser engine like WebKit or Gecko."
-category: "Data Extraction & Transformation"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
-  github_repo: "Kozea/WeasyPrint"
+  github_repo: "kozea/weasyprint"
   github_stars: 8841
 ---
 
@@ -17,13 +19,13 @@ WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

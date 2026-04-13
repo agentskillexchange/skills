@@ -1,11 +1,13 @@
 ---
-name: "apache-tika-document-parser"
 title: "Apache Tika Document Parser"
+slug: "apache-tika-document-parser"
 description: "Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using the Apache Tika REST API. Outputs clean Markdown or JSON with XMP metadata preservation."
-category: "Data Extraction & Transformation"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/apache-tika-document-parser/"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Gemini"
 ---
 
 # Apache Tika Document Parser
@@ -14,13 +16,13 @@ Extracts structured text, metadata, and embedded objects from PDFs, Office docum
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

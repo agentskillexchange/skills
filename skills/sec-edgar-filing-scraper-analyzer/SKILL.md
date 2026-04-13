@@ -1,26 +1,29 @@
 ---
-name: "sec-edgar-filing-scraper-analyzer"
-title: "SEC EDGAR Filing Scraper & Analyzer"
+title: "SEC EDGAR Filing Scraper &#038; Analyzer"
+slug: "sec-edgar-filing-scraper-analyzer"
 description: "Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets."
-category: "Research & Scraping"
-framework: "Claude Code, Multi-Framework"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sec-edgar-filing-scraper-analyzer/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
-# SEC EDGAR Filing Scraper & Analyzer
+# SEC EDGAR Filing Scraper &#038; Analyzer
 
 Downloads and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR full-text search API and python-xbrl. Extracts financial statements, risk factors, and executive compensation into structured datasets.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

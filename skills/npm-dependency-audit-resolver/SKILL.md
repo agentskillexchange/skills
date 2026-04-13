@@ -1,11 +1,13 @@
 ---
-name: "npm-dependency-audit-resolver"
 title: "npm Dependency Audit Resolver"
+slug: "npm-dependency-audit-resolver"
 description: "Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode."
-category: "Security & Verification"
-framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-dependency-audit-resolver/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Claude Code"
 ---
 
 # npm Dependency Audit Resolver
@@ -14,13 +16,13 @@ Resolves npm audit vulnerabilities by analyzing the npm registry API for patched
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

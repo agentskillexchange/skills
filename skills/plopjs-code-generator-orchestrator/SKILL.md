@@ -1,11 +1,13 @@
 ---
-name: "plopjs-code-generator-orchestrator"
 title: "Plop.js Code Generator Orchestrator"
+slug: "plopjs-code-generator-orchestrator"
 description: "Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates. Drives plopfile.js configuration with custom actions and dynamic prompts."
-category: "Templates & Workflows"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://github.com/plopjs/plop"
+category:
+  - "Templates &amp; Workflows"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "plopjs/plop"
   github_stars: 7636
@@ -19,13 +21,13 @@ Manages Plop.js micro-generators to scaffold components, modules, and boilerplat
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

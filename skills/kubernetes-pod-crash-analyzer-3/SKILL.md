@@ -1,11 +1,13 @@
 ---
-name: "kubernetes-pod-crash-analyzer-3"
 title: "Kubernetes Pod Crash Analyzer"
+slug: "kubernetes-pod-crash-analyzer-3"
 description: "Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the Kubernetes API. Correlates container logs, event streams, and resource metrics from metrics-server to diagnose root causes automatically."
-category: "Runbooks & Diagnostics"
-framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-pod-crash-analyzer-3/"
+category:
+  - "Runbooks &amp; Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Kubernetes Pod Crash Analyzer
@@ -14,13 +16,13 @@ Investigates CrashLoopBackOff and OOMKilled pod failures using kubectl and the K
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "pglite-embeddable-wasm-postgres"
 title: "PGlite Embeddable WASM Postgres for Browser and Node.js"
+slug: "pglite-embeddable-wasm-postgres"
 description: "PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the browser, Node.js, Bun, and Deno. At only 3.7MB gzipped, it enables local-first applications with real SQL capabilities and no external database dependencies."
-category: "Library & API Reference"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/electric-sql/pglite"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "electric-sql/pglite"
   github_stars: 14984
@@ -17,13 +19,13 @@ PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a 
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "seo-meta-tag-optimizer-agent"
 title: "SEO Meta Tag Optimizer"
+slug: "seo-meta-tag-optimizer-agent"
 description: "Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments."
-category: "Content Writing & SEO"
-framework: "ChatGPT Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # SEO Meta Tag Optimizer
@@ -14,13 +16,13 @@ Generates optimized title tags, meta descriptions, and Open Graph markup using G
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

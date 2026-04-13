@@ -1,11 +1,13 @@
 ---
-name: "mitmproxy-interactive-https-proxy-debugging-security"
 title: "mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing"
+slug: "mitmproxy-interactive-https-proxy-debugging-security"
 description: "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line, and web-based interfaces for intercepting, inspecting, modifying, and replaying web traffic."
-category: "Security & Verification"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/mitmproxy/mitmproxy"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "mitmproxy/mitmproxy"
   github_stars: 42881
@@ -17,13 +19,13 @@ mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetra
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

@@ -1,11 +1,13 @@
 ---
-name: "chartbrew-open-source-reporting-dashboard-platform"
 title: "Chartbrew Open Source Reporting Platform for API and Database Dashboards"
+slug: "chartbrew-open-source-reporting-dashboard-platform"
 description: "Chartbrew is an open-source web application for building and sharing live dashboards from APIs, SQL and NoSQL databases. It features a visual chart builder, AI assistant, scheduled reports, and embeddable charts for data visualization."
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/chartbrew/chartbrew"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chartbrew/chartbrew"
   github_stars: 3692
@@ -17,13 +19,13 @@ Chartbrew is an open-source web application for building and sharing live dashbo
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

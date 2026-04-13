@@ -1,11 +1,13 @@
 ---
-name: "ssl-certificate-chain-validator-2"
 title: "SSL Certificate Chain Validator"
+slug: "ssl-certificate-chain-validator-2"
 description: "Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration dates via the crt.sh API and checks OCSP responder status."
-category: "Security & Verification"
-framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/"
+category:
+  - "Security &amp; Verification"
+framework:
+  - "Codex"
 ---
 
 # SSL Certificate Chain Validator
@@ -14,13 +16,13 @@ Performs deep TLS certificate chain validation using OpenSSL and Certificate Tra
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

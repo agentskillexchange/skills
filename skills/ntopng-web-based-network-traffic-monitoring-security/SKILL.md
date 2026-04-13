@@ -1,11 +1,13 @@
 ---
-name: "ntopng-web-based-network-traffic-monitoring-security"
 title: "ntopng Web-Based Network Traffic Monitoring and Security Analysis"
+slug: "ntopng-web-based-network-traffic-monitoring-security"
 description: "ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows, bandwidth usage, and security threats. With 7.7k+ GitHub stars and decades of development since the original ntop in 1998, it is a proven enterprise-grade network analysis platform."
-category: "Monitoring & Alerts"
-framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/ntop/ntopng"
+category:
+  - "Monitoring &amp; Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ntop/ntopng"
   github_stars: 7702
@@ -17,13 +19,13 @@ ntopng is a web-based network traffic monitoring application that provides real-
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

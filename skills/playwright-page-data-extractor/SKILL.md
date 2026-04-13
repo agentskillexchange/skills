@@ -1,26 +1,28 @@
 ---
-name: "playwright-page-data-extractor"
 title: "Playwright Page Data Extractor"
-description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
-category: "Research & Scraping"
-framework: "Claude Code"
+slug: "playwright-page-data-extractor"
+description: "Uses Microsoft Playwright&#8217;s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/playwright-page-data-extractor/"
+category:
+  - "Research &amp; Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # Playwright Page Data Extractor
 
-Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
+Uses Microsoft Playwright&#8217;s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 

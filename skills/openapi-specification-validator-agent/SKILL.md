@@ -1,13 +1,15 @@
 ---
-name: "openapi-specification-validator-agent"
 title: "OpenAPI Specification Validator"
+slug: "openapi-specification-validator-agent"
 description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
-category: "Library & API Reference"
-framework: "Cursor"
 verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-parser"
+category:
+  - "Library &amp; API Reference"
+framework:
+  - "Cursor"
 tool_ecosystem:
-  github_repo: "APIDevTools/swagger-parser"
+  github_repo: "apidevtools/swagger-parser"
   github_stars: 1194
   npm_package: "@apidevtools/swagger-parser"
   npm_weekly_downloads: 3732285
@@ -19,13 +21,13 @@ Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, a
 
 ## Installation
 
-You can install this skill using any of these methods:
+Choose the install method that fits your setup:
 
-1. OpenClaw skill installer
-2. ClawHub CLI
-3. Git clone into your skills directory
-4. Download and extract the skill folder manually
-5. Copy the skill folder from a local checkout
+1. Install from Agent Skill Exchange
+2. Install with OpenClaw skill tools
+3. Clone or copy the upstream project files
+4. Add the skill to your local skills directory manually
+5. Use the upstream package or repo install flow directly
 
 ## Source
 
