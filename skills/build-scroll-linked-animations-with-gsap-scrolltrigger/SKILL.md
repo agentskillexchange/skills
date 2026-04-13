@@ -1,19 +1,16 @@
 ---
 name: "build-scroll-linked-animations-with-gsap-scrolltrigger"
 title: "Build scroll-linked animations with GSAP ScrollTrigger"
-description: "Use Greensock&#8217;s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page."
+description: "Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page."
 category: "Developer Tools"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger"
-tool_ecosystem:
-  github_repo: "greensock/gsap-skills"
-  github_stars: 2277
 ---
 
 # Build scroll-linked animations with GSAP ScrollTrigger
 
-Use Greensock&#8217;s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page.
+Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page.
 
 ## Installation
 

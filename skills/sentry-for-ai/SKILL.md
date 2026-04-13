@@ -2,11 +2,8 @@
 name: "sentry-for-ai"
 title: "Sentry for AI"
 description: "Observability and debugging support for AI-assisted application workflows."
-category: "Security &amp; Verification"
-framework:
-  - "Claude Code"
-  - "Cursor"
-  - "Custom Agents"
+category: "Security & Verification"
+framework: "Claude Code, Cursor, Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-for-ai"
 tool_ecosystem:

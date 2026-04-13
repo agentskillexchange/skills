@@ -1,19 +1,16 @@
 ---
 name: "develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails"
 title: "Develop and harden WordPress plugins with lifecycle and security guardrails"
-description: "Use Automattic&#8217;s official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling, uninstall behavior, and data hygiene. This is a plugin engineering playbook, not a generic WordPress listing."
-category: "WordPress &amp; CMS"
+description: "Use Automattic’s official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling, uninstall behavior, and data hygiene. This is a plugin engineering playbook, not a generic WordPress listing."
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Automattic/agent-skills/tree/trunk/skills/wp-plugin-development"
-tool_ecosystem:
-  github_repo: "Automattic/agent-skills"
-  github_stars: 197
 ---
 
 # Develop and harden WordPress plugins with lifecycle and security guardrails
 
-Use Automattic&#8217;s official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling, uninstall behavior, and data hygiene. This is a plugin engineering playbook, not a generic WordPress listing.
+Use Automattic’s official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling, uninstall behavior, and data hygiene. This is a plugin engineering playbook, not a generic WordPress listing.
 
 ## Installation
 

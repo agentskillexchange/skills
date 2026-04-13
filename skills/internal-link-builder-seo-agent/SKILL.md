@@ -2,7 +2,7 @@
 name: "internal-link-builder-seo-agent"
 title: "Internal Link Builder"
 description: "Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms."
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/internal-link-builder-seo-agent/"

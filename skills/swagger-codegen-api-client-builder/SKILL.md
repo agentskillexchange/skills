@@ -2,7 +2,7 @@
 name: "swagger-codegen-api-client-builder"
 title: "Swagger Codegen API Client Builder"
 description: "Generates typed API client libraries from OpenAPI 3.x specifications using swagger-codegen and openapi-generator-cli. Produces clients for TypeScript-axios, Python-requests, and Go-http with custom mustache templates."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/swagger-codegen-api-client-builder/"

@@ -1,19 +1,16 @@
 ---
 name: "draft-internal-status-updates-and-incident-comms"
 title: "Draft internal status updates and incident comms"
-description: "Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo."
-category: "Templates &amp; Workflows"
+description: "Use Anthropic’s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo."
+category: "Templates & Workflows"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 115365
 ---
 
 # Draft internal status updates and incident comms
 
-Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
+Use Anthropic’s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
 
 ## Installation
 

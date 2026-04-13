@@ -2,7 +2,7 @@
 name: "workos-authkit-nextjs-authentication-toolkit"
 title: "WorkOS AuthKit Next.js Authentication Toolkit"
 description: "WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration target for login, sessions, RBAC, SSO, MFA, and user management backed by WorkOS docs and package releases."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/workos/authkit-nextjs"

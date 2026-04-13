@@ -2,7 +2,7 @@
 name: "filepond-javascript-file-upload-library"
 title: "FilePond Flexible JavaScript File Upload Library"
 description: "FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with drag-and-drop, paste, and API support. It includes built-in image optimization, async chunked uploads, and adapters for React, Vue, Angular, and Svelte."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/pqina/filepond"

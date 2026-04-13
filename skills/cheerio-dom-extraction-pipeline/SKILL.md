@@ -2,7 +2,7 @@
 name: "cheerio-dom-extraction-pipeline"
 title: "Cheerio DOM Extraction Pipeline"
 description: "Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/cheerio-dom-extraction-pipeline/"

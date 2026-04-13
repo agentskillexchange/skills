@@ -2,7 +2,7 @@
 name: "jsdoc-type-definition-extractor"
 title: "JSDoc Type Definition Extractor"
 description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/"

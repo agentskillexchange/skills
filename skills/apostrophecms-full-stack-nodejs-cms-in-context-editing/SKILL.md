@@ -2,7 +2,7 @@
 name: "apostrophecms-full-stack-nodejs-cms-in-context-editing"
 title: "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing"
 description: "ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless flexibility for developers. It is a strong fit when teams want live-page editing, MongoDB-backed content models, and a documented REST API for custom frontends."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/apostrophecms/apostrophe"

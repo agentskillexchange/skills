@@ -2,7 +2,7 @@
 name: "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing"
 title: "Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing"
 description: "Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources. It can resolve supported identifiers, normalize metadata into CSL-JSON, and emit bibliography or inline citation formats that fit articles, research notes, docs, or release materials."
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: "listed"
 source: "https://www.npmjs.com/package/citation-js"

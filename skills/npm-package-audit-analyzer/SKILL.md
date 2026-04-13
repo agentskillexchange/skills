@@ -2,7 +2,7 @@
 name: "npm-package-audit-analyzer"
 title: "NPM Package Audit Analyzer"
 description: "Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability reports with upgrade path recommendations."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/npm-package-audit-analyzer/"

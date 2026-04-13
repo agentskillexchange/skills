@@ -1,8 +1,8 @@
 ---
 name: "sendgrid-mcp-server"
 title: "SendGrid MCP Server"
-description: "SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the [&hellip;]"
-category: "Integrations &amp; Connectors"
+description: "SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the […]"
+category: "Integrations & Connectors"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
@@ -13,7 +13,7 @@ tool_ecosystem:
 
 # SendGrid MCP Server
 
-SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the [&hellip;]
+SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like mail/send, templates, contact lists, event webhooks, suppression groups and preserving the […]
 
 ## Installation
 

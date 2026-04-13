@@ -3,9 +3,7 @@ name: "agent-browser-operator"
 title: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
 category: "Browser Automation"
-framework:
-  - "Custom Agents"
-  - "OpenClaw"
+framework: "Custom Agents, OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 tool_ecosystem:

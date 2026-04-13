@@ -2,7 +2,7 @@
 name: "bearer-cli-sast-code-security-privacy-scanner"
 title: "Bearer CLI SAST Code Security and Privacy Scanner"
 description: "Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy risks. Covers OWASP Top 10 and CWE Top 25 with data flow analysis across multiple languages."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://github.com/Bearer/bearer"

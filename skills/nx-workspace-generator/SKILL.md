@@ -2,7 +2,7 @@
 name: "nx-workspace-generator"
 title: "Nx Workspace Generator"
 description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/nx-workspace-generator/"

@@ -2,7 +2,7 @@
 name: "shiori-self-hosted-bookmark-manager-cli-web"
 title: "Shiori Self-Hosted Bookmark Manager with CLI and Web Interface"
 description: "Shiori is a simple, portable bookmark manager written in Go inspired by Pocket. It provides both a command-line interface and a clean web UI for adding, editing, searching, and organizing bookmarks with automatic offline archive generation and readable content extraction."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/go-shiori/shiori"

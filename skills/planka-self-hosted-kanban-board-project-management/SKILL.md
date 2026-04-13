@@ -2,7 +2,7 @@
 name: "planka-self-hosted-kanban-board-project-management"
 title: "Planka Self-Hosted Kanban Board for Project Management"
 description: "Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With 11,000+ GitHub stars and 35+ language translations, it provides real-time collaborative boards, markdown support, drag-and-drop task management, and OpenID Connect SSO."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/plankanban/planka"

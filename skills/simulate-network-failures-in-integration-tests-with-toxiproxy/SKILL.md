@@ -2,13 +2,10 @@
 name: "simulate-network-failures-in-integration-tests-with-toxiproxy"
 title: "Simulate network failures in integration tests with Toxiproxy"
 description: "Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes into real service calls during development, CI, or incident reproduction. The agent routes app traffic through controlled TCP proxies, applies toxics at the right moment, and reports which dependency paths fail gracefully versus which ones crack under stress."
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Shopify/toxiproxy"
-tool_ecosystem:
-  github_repo: "Shopify/toxiproxy"
-  github_stars: 11934
 ---
 
 # Simulate network failures in integration tests with Toxiproxy

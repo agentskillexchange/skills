@@ -2,7 +2,7 @@
 name: "seo-keyword-research-automator"
 title: "SEO Keyword Research Automator"
 description: "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification."
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/seo-keyword-research-automator/"

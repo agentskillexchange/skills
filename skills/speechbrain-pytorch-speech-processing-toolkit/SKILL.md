@@ -2,7 +2,7 @@
 name: "speechbrain-pytorch-speech-processing-toolkit"
 title: "SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit"
 description: "SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes and pretrained models for speech recognition, speaker verification, speech enhancement, speech separation, language modeling, and text-to-speech across 40+ datasets."
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/speechbrain/speechbrain"

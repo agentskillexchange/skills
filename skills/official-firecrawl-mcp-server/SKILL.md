@@ -2,7 +2,7 @@
 name: "official-firecrawl-mcp-server"
 title: "Official Firecrawl MCP Server"
 description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl-mcp-server"

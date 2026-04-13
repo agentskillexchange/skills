@@ -2,7 +2,7 @@
 name: "aws-mcp-servers-cloud-service-integration"
 title: "AWS MCP Servers for Cloud Service Integration"
 description: "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through the Model Context Protocol, built and maintained by AWS for secure cloud automation workflows."
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/awslabs/mcp"

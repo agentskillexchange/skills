@@ -1,8 +1,8 @@
 ---
 name: "kubernetes-crashloopbackoff-resolver"
 title: "Kubernetes CrashLoopBackOff Resolver"
-description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs &#8211;previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
-category: "Runbooks &amp; Diagnostics"
+description: "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures."
+category: "Runbooks & Diagnostics"
 framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resolver/"
@@ -10,7 +10,7 @@ source: "https://agentskillexchange.com/skills/kubernetes-crashloopbackoff-resol
 
 # Kubernetes CrashLoopBackOff Resolver
 
-Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs &#8211;previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
+Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs –previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and image pull failures.
 
 ## Installation
 

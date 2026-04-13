@@ -2,7 +2,7 @@
 name: "markdoc-markdown-authoring-framework-stripe"
 title: "Markdoc Markdown-Based Authoring Framework by Stripe"
 description: "Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation sites and content experiences."
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/markdoc/markdoc"

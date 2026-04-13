@@ -1,8 +1,8 @@
 ---
 name: "assemblyai-lemur-summarizer-agent"
 title: "AssemblyAI LeMUR Summarizer"
-description: "Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
-category: "Media &amp; Transcription"
+description: "Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
+category: "Media & Transcription"
 framework: "Gemini"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent/"
@@ -10,7 +10,7 @@ source: "https://agentskillexchange.com/skills/assemblyai-lemur-summarizer-agent
 
 # AssemblyAI LeMUR Summarizer
 
-Summarizes audio content using AssemblyAI&#8217;s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
+Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
 
 ## Installation
 

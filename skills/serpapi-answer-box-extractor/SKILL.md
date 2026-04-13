@@ -2,7 +2,7 @@
 name: "serpapi-answer-box-extractor"
 title: "SerpAPI Answer Box Extractor"
 description: "Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`, `related_questions`, and `organic_results`. Useful for research agents that need structured search intelligence rather than raw HTML scraping."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Gemini"
 verification: "security_reviewed"
 source: "https://github.com/serpapi/google-search-results-python"

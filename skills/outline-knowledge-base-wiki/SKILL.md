@@ -2,7 +2,7 @@
 name: "outline-knowledge-base-wiki"
 title: "Outline Open Source Team Knowledge Base and Wiki Platform"
 description: "Outline is a fast, collaborative knowledge base for teams built with React and Node.js. It provides real-time editing, Markdown support, and a rich API for integration with Slack, authentication providers, and custom workflows."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/outline/outline"

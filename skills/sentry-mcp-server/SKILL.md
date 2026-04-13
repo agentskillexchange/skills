@@ -1,8 +1,8 @@
 ---
 name: "sentry-mcp-server"
 title: "Sentry MCP Server"
-description: "Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
-category: "Monitoring &amp; Alerts"
+description: "Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
+category: "Monitoring & Alerts"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Sentry MCP Server
 
-Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
+Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
 
 ## Installation
 

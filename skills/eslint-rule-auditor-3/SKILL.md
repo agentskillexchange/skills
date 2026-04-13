@@ -2,7 +2,7 @@
 name: "eslint-rule-auditor-3"
 title: "ESLint Rule Auditor"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Cursor"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/eslint-rule-auditor-3/"

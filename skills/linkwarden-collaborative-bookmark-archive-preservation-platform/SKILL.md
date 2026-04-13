@@ -2,7 +2,7 @@
 name: "linkwarden-collaborative-bookmark-archive-preservation-platform"
 title: "Linkwarden Collaborative Bookmark Archive and Preservation Platform"
 description: "Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page copies, adds reader and annotation features, and supports shared collections for teams."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/linkwarden/linkwarden"

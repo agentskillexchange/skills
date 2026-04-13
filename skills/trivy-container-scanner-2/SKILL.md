@@ -2,7 +2,7 @@
 name: "trivy-container-scanner-2"
 title: "Trivy Container Scanner"
 description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/trivy-container-scanner-2/"

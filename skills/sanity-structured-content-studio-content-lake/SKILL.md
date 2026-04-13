@@ -2,7 +2,7 @@
 name: "sanity-structured-content-studio-content-lake"
 title: "Sanity Structured Content Studio and Content Lake"
 description: "Sanity combines a customizable content studio with a real-time content backend and GROQ-powered querying. This skill helps agents model schemas, manage content operations, and work against Sanity datasets with structured, API-first workflows."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/sanity-io/sanity"

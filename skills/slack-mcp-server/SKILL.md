@@ -2,12 +2,8 @@
 name: "slack-mcp-server"
 title: "Slack MCP Server"
 description: "Agent access to Slack conversations and workspace workflows."
-category: "Calendar, Email &amp; Productivity"
-framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+category: "Calendar, Email & Productivity"
+framework: "Claude Code, Cursor, MCP, OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
 tool_ecosystem:

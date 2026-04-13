@@ -2,7 +2,7 @@
 name: "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes"
 title: "Regression-test prompts, agents, and RAG outputs before shipping changes"
 description: "Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here is the repeatable evaluation workflow, not a generic AI tooling catalog entry."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/promptfoo/promptfoo"

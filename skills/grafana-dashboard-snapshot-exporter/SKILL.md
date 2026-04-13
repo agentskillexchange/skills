@@ -2,7 +2,7 @@
 name: "grafana-dashboard-snapshot-exporter"
 title: "Grafana Dashboard Snapshot Exporter"
 description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/grafana-dashboard-snapshot-exporter/"

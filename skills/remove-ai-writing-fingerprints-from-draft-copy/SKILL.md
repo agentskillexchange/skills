@@ -2,7 +2,7 @@
 name: "remove-ai-writing-fingerprints-from-draft-copy"
 title: "Remove AI Writing Fingerprints from Draft Copy"
 description: "Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that preserve the original point. This is for cleanup and editing passes, not for generating copy from scratch."
-category: "Content Writing &amp; SEO"
+category: "Content Writing & SEO"
 framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/brandonwise/humanizer"

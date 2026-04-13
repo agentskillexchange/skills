@@ -2,7 +2,7 @@
 name: "dbt-model-transformation-architect"
 title: "dbt Model Transformation Architect"
 description: "Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and Redshift. Parses dbt manifest.json to analyze DAG lineage and detect circular dependencies."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/dbt-model-transformation-architect/"

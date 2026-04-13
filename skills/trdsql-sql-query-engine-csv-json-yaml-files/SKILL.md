@@ -2,7 +2,7 @@
 name: "trdsql-sql-query-engine-csv-json-yaml-files"
 title: "trdsql SQL Query Engine for CSV JSON and YAML Files"
 description: "trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports PostgreSQL and MySQL syntax, can join data across multiple files and databases, and outputs results in various formats including JSON, Markdown, and vertical display."
-category: "Data Extraction &amp; Transformation"
+category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/noborus/trdsql"

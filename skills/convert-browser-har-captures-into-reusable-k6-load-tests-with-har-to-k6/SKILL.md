@@ -2,13 +2,10 @@
 name: "convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6"
 title: "Convert browser HAR captures into reusable k6 load tests with har-to-k6"
 description: "Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of hand-writing one from scratch. The skill is about transforming captured sessions into a starter load-test artifact with validation and export, not about listing k6 or Grafana as products."
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/grafana/har-to-k6"
-tool_ecosystem:
-  github_repo: "grafana/har-to-k6"
-  github_stars: 159
 ---
 
 # Convert browser HAR captures into reusable k6 load tests with har-to-k6

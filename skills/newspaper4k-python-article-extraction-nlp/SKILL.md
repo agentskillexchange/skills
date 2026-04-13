@@ -2,7 +2,7 @@
 name: "newspaper4k-python-article-extraction-nlp"
 title: "Newspaper4k Python Article Extraction and NLP Library"
 description: "Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles, titles, images, authors, and metadata from news websites, with built-in NLP for keyword extraction and text summarization."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/AndyTheFactory/newspaper4k"

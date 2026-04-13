@@ -2,7 +2,7 @@
 name: "realign-drifting-subtitles-against-finished-video-audio"
 title: "Realign drifting subtitles against finished video audio"
 description: "Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle asset. This is for subtitle drift, forced alignment, or batch retiming, not for full video editing or general media management."
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/baxtree/subaligner"

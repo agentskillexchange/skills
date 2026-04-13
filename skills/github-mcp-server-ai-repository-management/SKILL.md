@@ -1,7 +1,7 @@
 ---
 name: "github-mcp-server-ai-repository-management"
 title: "GitHub MCP Server for AI-Powered Repository Management"
-description: "GitHub&#8217;s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub&#8217;s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
+description: "GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol."
 category: "Developer Tools"
 framework: "MCP"
 verification: "security_reviewed"
@@ -13,7 +13,7 @@ tool_ecosystem:
 
 # GitHub MCP Server for AI-Powered Repository Management
 
-GitHub&#8217;s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub&#8217;s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
+GitHub’s official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub’s platform. Enables natural language repository management, code search, issue triage, PR automation, and CI/CD workflow intelligence through a standardized protocol.
 
 ## Installation
 

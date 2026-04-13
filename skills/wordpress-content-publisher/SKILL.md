@@ -2,7 +2,7 @@
 name: "wordpress-content-publisher"
 title: "WordPress Content Publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"

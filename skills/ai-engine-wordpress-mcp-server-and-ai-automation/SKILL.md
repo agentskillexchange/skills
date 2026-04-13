@@ -1,8 +1,8 @@
 ---
 name: "ai-engine-wordpress-mcp-server-and-ai-automation"
 title: "AI Engine WordPress MCP Server and AI Automation"
-description: "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin&#8217;s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress."
-category: "WordPress &amp; CMS"
+description: "AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress."
+category: "WordPress & CMS"
 framework: "MCP"
 verification: "security_reviewed"
 source: "https://github.com/jordymeow/ai-engine"
@@ -13,7 +13,7 @@ tool_ecosystem:
 
 # AI Engine WordPress MCP Server and AI Automation
 
-AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin&#8217;s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress.
+AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while exposing WordPress actions through MCP and REST interfaces. This skill helps agents configure providers, enable the plugin’s MCP capabilities, and automate content, chatbots, media, and site-management workflows from WordPress.
 
 ## Installation
 

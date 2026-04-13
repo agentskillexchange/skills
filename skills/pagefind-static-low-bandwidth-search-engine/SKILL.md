@@ -2,15 +2,10 @@
 name: "pagefind-static-low-bandwidth-search-engine"
 title: "Pagefind Static Low-Bandwidth Search Engine"
 description: "Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring no server infrastructure. It performs well on large sites while using minimal bandwidth."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/Pagefind/pagefind"
-tool_ecosystem:
-  github_repo: "pagefind/pagefind"
-  github_stars: 5094
-  npm_package: "pagefind"
-  npm_weekly_downloads: 492569
 ---
 
 # Pagefind Static Low-Bandwidth Search Engine

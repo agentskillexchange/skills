@@ -2,7 +2,7 @@
 name: "ghostfolio-wealth-management-portfolio-tracking"
 title: "Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform"
 description: "Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL, it provides portfolio performance analysis, allocation insights, and data-driven investment decision support."
-category: "Integrations &amp; Connectors"
+category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/ghostfolio/ghostfolio"

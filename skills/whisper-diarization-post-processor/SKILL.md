@@ -2,7 +2,7 @@
 name: "whisper-diarization-post-processor"
 title: "Whisper Diarization Post-Processor"
 description: "Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain embeddings. Aligns word-level timestamps from whisper-timestamped with speaker segments for multi-speaker meeting transcript generation."
-category: "Media &amp; Transcription"
+category: "Media & Transcription"
 framework: "Claude Code"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/whisper-diarization-post-processor/"

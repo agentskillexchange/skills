@@ -1,7 +1,7 @@
 ---
 name: "llamaindex-agent"
 title: "LlamaIndex Agent"
-description: "LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving [&hellip;]"
+description: "LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving […]"
 category: "Developer Tools"
 framework: "Custom Agents"
 verification: "security_reviewed"
@@ -13,7 +13,7 @@ tool_ecosystem:
 
 # LlamaIndex Agent
 
-LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving [&hellip;]
+LlamaIndex Agent is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and preserving […]
 
 ## Installation
 

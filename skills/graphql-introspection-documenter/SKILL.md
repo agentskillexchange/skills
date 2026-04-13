@@ -2,7 +2,7 @@
 name: "graphql-introspection-documenter"
 title: "GraphQL Introspection Documenter"
 description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/graphql-introspection-documenter/"

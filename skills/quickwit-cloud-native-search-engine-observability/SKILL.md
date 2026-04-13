@@ -2,7 +2,7 @@
 name: "quickwit-cloud-native-search-engine-observability"
 title: "Quickwit Cloud-Native Search Engine for Observability Logs and Traces"
 description: "Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers sub-second search on cloud storage (S3, Azure Blob, GCS), an Elasticsearch-compatible API, native OpenTelemetry and Jaeger integration, and decoupled compute and storage architecture."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/quickwit-oss/quickwit"

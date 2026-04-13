@@ -2,7 +2,7 @@
 name: "fumadocs-react-documentation-framework-and-docs-site-generator"
 title: "Fumadocs React Documentation Framework and Docs Site Generator"
 description: "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages, wire content collections, and extend interactive UI components for product docs, SDK docs, and internal knowledge bases."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/fuma-nama/fumadocs"

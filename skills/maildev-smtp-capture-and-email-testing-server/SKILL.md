@@ -2,7 +2,7 @@
 name: "maildev-smtp-capture-and-email-testing-server"
 title: "MailDev SMTP Capture and Email Testing Server"
 description: "MailDev is a local SMTP server with a web UI and REST API for capturing application email during development. It lets agents and test workflows inspect messages, attachments, and relay behavior without touching real inboxes."
-category: "Calendar, Email &amp; Productivity"
+category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"

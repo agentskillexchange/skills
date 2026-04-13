@@ -6,9 +6,6 @@ category: "Developer Tools"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/crewAIInc/crewAI"
-tool_ecosystem:
-  github_repo: "crewaiinc/crewai"
-  github_stars: 47658
 ---
 
 # CrewAI Multi-Agent Orchestration Framework

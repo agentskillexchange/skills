@@ -1,19 +1,16 @@
 ---
 name: "audit-python-dependency-declarations-before-release"
 title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
-description: "Use Deptry when an agent needs to verify that a Python project&#8217;s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
-category: "Code Quality &amp; Review"
+description: "Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/osprey-oss/deptry"
-tool_ecosystem:
-  github_repo: "osprey-oss/deptry"
-  github_stars: 1358
 ---
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release
 
-Use Deptry when an agent needs to verify that a Python project&#8217;s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
+Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
 
 ## Installation
 

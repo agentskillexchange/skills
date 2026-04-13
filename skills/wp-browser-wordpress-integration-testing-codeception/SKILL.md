@@ -2,7 +2,7 @@
 name: "wp-browser-wordpress-integration-testing-codeception"
 title: "wp-browser WordPress Integration Testing with Codeception"
 description: "wp-browser is a PHP library that provides Codeception modules for testing WordPress plugins and themes. It supports unit, integration, functional, and acceptance testing with WordPress-aware test environments and database isolation."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/lucatume/wp-browser"

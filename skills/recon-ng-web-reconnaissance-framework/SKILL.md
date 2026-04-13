@@ -2,7 +2,7 @@
 name: "recon-ng-web-reconnaissance-framework"
 title: "Recon-ng Modular Web Reconnaissance Framework for OSINT"
 description: "Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open source intelligence (OSINT) gathering quickly and thoroughly. Its Metasploit-like interface and extensible module system make it the standard tool for structured OSINT workflows."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/lanmaster53/recon-ng"

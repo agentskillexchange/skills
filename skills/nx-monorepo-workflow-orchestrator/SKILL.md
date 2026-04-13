@@ -2,7 +2,7 @@
 name: "nx-monorepo-workflow-orchestrator"
 title: "Nx Monorepo Workflow Orchestrator"
 description: "Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency graph analysis, affected project detection, and distributed task execution via Nx Cloud."
-category: "Templates &amp; Workflows"
+category: "Templates & Workflows"
 framework: "Cursor"
 verification: "security_reviewed"
 source: "https://github.com/nrwl/nx"

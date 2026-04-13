@@ -2,7 +2,7 @@
 name: "msw-api-mocking-skill-frontend-integration-tests"
 title: "MSW API Mocking Skill for Frontend and Integration Tests"
 description: "Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/mswjs/msw"

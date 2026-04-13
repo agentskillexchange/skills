@@ -2,7 +2,7 @@
 name: "aws-ssm-runbook-executor"
 title: "AWS Systems Manager Runbook"
 description: "Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration."
-category: "Runbooks &amp; Diagnostics"
+category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/aws-ssm-runbook-executor/"

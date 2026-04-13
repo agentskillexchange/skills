@@ -2,7 +2,7 @@
 name: "libvips-high-performance-image-processing-library-cli"
 title: "libvips High-Performance Image Processing Library and CLI"
 description: "libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like ImageMagick, supports 20+ formats, and powers Sharp, Mastodon, imgproxy, and Ruby on Rails."
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"

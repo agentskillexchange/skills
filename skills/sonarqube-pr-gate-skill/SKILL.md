@@ -2,7 +2,7 @@
 name: "sonarqube-pr-gate-skill"
 title: "SonarQube PR Gate"
 description: "Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Codex"
 verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/sonarqube-pr-gate-skill/"

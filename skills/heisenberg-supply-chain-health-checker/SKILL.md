@@ -2,7 +2,7 @@
 name: "heisenberg-supply-chain-health-checker"
 title: "Heisenberg Supply Chain Health Checker"
 description: "An open-source software supply chain health check tool that analyzes dependencies using deps.dev, SBOMs, and external advisories. Heisenberg generates health scores, detects risky packages, and produces CSV reports for individual dependencies or entire GitHub organization portfolios."
-category: "Security &amp; Verification"
+category: "Security & Verification"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/AppOmni-Labs/heisenberg-ssc-health-check"

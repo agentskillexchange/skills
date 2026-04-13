@@ -2,7 +2,7 @@
 name: "wp-abilities-api"
 title: "WP Abilities API"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/abilities-api"

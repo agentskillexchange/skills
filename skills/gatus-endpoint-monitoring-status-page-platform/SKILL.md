@@ -2,7 +2,7 @@
 name: "gatus-endpoint-monitoring-status-page-platform"
 title: "Gatus Endpoint Monitoring and Status Page Platform"
 description: "Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/TwiN/gatus"

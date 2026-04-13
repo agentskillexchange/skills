@@ -2,7 +2,7 @@
 name: "gotify-self-hosted-push-notification-server-and-api"
 title: "Gotify Self-Hosted Push Notification Server and API"
 description: "Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send alerts, manage applications, and connect monitored events to a private notification channel instead of relying on third-party push vendors."
-category: "Monitoring &amp; Alerts"
+category: "Monitoring & Alerts"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/gotify/server"

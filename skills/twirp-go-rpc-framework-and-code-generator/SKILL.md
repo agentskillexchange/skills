@@ -2,7 +2,7 @@
 name: "twirp-go-rpc-framework-and-code-generator"
 title: "Twirp Go RPC Framework and Code Generator"
 description: "Twirp is a protobuf-based RPC framework from Twitch that generates Go servers and clients with a simple HTTP transport. It suits agent workflows that need to scaffold service definitions, generate code with protoc plugins, and wire strongly typed RPC endpoints into Go services."
-category: "Library &amp; API Reference"
+category: "Library & API Reference"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/twitchtv/twirp"

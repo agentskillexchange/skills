@@ -2,7 +2,7 @@
 name: "shot-scraper-automated-website-screenshot-scraping-cli"
 title: "shot-scraper Automated Website Screenshot and Scraping CLI"
 description: "shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing JavaScript against pages. Built on Playwright, it supports headless browser automation, multi-step screenshot workflows defined in YAML, and HTML-to-image rendering for CI pipelines and monitoring."
-category: "Research &amp; Scraping"
+category: "Research & Scraping"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/simonw/shot-scraper"

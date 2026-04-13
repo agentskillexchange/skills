@@ -2,7 +2,7 @@
 name: "wordpress-rest-api-builder"
 title: "WordPress REST API Builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Custom Agents"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"

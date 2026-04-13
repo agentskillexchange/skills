@@ -2,13 +2,10 @@
 name: "lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy"
 title: "Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy"
 description: "Uses yamllint to inspect hand-written or generated YAML before it reaches CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and formatting findings so config changes can be fixed before they break pipelines or runtime environments."
-category: "Code Quality &amp; Review"
+category: "Code Quality & Review"
 framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/adrienverge/yamllint"
-tool_ecosystem:
-  github_repo: "adrienverge/yamllint"
-  github_stars: 3360
 ---
 
 # Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy

@@ -2,7 +2,7 @@
 name: "wordpress-scripts-build-and-block-toolchain"
 title: "WordPress Scripts Build and Block Toolchain"
 description: "@wordpress/scripts packages the default WordPress JavaScript build stack into one reusable developer dependency. It gives plugin and block developers a consistent CLI for bundling, linting, testing, packaging, and maintaining modern WordPress code without hand-assembling webpack and related tooling."
-category: "WordPress &amp; CMS"
+category: "WordPress & CMS"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://www.npmjs.com/package/@wordpress/scripts"

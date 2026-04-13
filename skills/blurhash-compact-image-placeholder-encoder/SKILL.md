@@ -2,7 +2,7 @@
 name: "blurhash-compact-image-placeholder-encoder"
 title: "BlurHash Compact Image Placeholder Encoder"
 description: "An agent skill that uses BlurHash, the compact image placeholder representation algorithm by Wolt, to generate and decode tiny hash strings that represent blurred previews of images. Enables instant placeholder rendering in web and mobile applications while full images load."
-category: "Image &amp; Creative Automation"
+category: "Image & Creative Automation"
 framework: "Multi-Framework"
 verification: "security_reviewed"
 source: "https://github.com/woltapp/blurhash"

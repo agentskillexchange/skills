@@ -1,8 +1,16 @@
 ---
 name: "wordpress-router"
 title: "WordPress Router"
-description: "Route WordPress tasks to the right workflow fast."
-category: "WordPress &amp; CMS"
+description: "Route WordPress tasks to the right workflow fast.
+
+Core Capabilities
+
+Manage WordPress sites using WP-CLI and the WordPress REST API
+
+Automate plugin, theme, and core update workflows
+
+Handle content op"
+category: "WordPress & CMS"
 framework: "OpenClaw"
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
