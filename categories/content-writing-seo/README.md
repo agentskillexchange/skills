@@ -49,6 +49,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 49.5k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.3k/wk |
+| [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | 4.4k | — |
 | [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | — |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |

@@ -1,8 +1,53 @@
 {
   "version": "2.0",
-  "total": 1938,
-  "generated": "2026-04-12",
+  "total": 1941,
+  "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates",
+      "name": "Generate Markdown tables of contents before publishing docs or README updates",
+      "description": "Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing…",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4432
+      }
+    },
+    {
+      "slug": "reformat-markdown-files-into-a-stable-house-style-before-review-or-migration",
+      "name": "Reformat Markdown files into a stable house style before review or migration",
+      "description": "Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 758
+      }
+    },
+    {
+      "slug": "normalize-and-filter-noisy-url-lists-before-crawling-or-queueing",
+      "name": "Normalize and filter noisy URL lists before crawling or queueing",
+      "description": "Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or analyst queue touches them. Best when an agent…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 165
+      }
+    },
     {
       "slug": "scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui",
       "name": "Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui",
