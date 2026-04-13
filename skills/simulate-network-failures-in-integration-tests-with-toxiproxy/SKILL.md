@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/Shopify/toxiproxy"
 category: ["Runbooks &amp; Diagnostics"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "Shopify/toxiproxy"
+  github_stars: 11937
 ---
 
 # Simulate network failures in integration tests with Toxiproxy

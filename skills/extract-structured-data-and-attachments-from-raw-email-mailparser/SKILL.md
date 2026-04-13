@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/nodemailer/mailparser"
 category: ["Calendar, Email &amp; Productivity"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "nodemailer/mailparser"
+  github_stars: 1666
 ---
 
 # Extract structured data and attachments from raw email with MailParser

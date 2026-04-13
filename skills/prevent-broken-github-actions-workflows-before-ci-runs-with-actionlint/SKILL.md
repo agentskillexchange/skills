@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/rhysd/actionlint"
 category: ["Code Quality &amp; Review"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "rhysd/actionlint"
+  github_stars: 3782
 ---
 
 # Prevent broken GitHub Actions workflows before CI runs with actionlint

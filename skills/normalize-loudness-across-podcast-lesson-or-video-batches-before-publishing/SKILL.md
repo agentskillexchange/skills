@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/slhck/ffmpeg-normalize"
 category: ["Media &amp; Transcription"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "slhck/ffmpeg-normalize"
+  github_stars: 1500
 ---
 
 # Normalize loudness across podcast, lesson, or video batches before publishing

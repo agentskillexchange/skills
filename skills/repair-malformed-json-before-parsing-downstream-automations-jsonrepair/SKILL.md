@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/josdejong/jsonrepair"
 category: ["Developer Tools"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "josdejong/jsonrepair"
+  github_stars: 2297
 ---
 
 # Repair malformed JSON before parsing downstream automations with jsonrepair

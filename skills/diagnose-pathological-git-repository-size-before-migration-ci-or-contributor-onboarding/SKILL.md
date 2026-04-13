@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/github/git-sizer"
 category: ["Runbooks &amp; Diagnostics"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "github/git-sizer"
+  github_stars: 4014
 ---
 
 # Diagnose pathological Git repository size before migration, CI, or contributor onboarding

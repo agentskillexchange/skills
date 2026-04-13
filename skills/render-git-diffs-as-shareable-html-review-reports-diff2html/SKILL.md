@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/rtfpessoa/diff2html"
 category: ["Code Quality &amp; Review"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "rtfpessoa/diff2html"
+  github_stars: 3345
 ---
 
 # Render git diffs as shareable HTML review reports with Diff2Html

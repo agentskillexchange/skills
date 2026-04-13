@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/grafana/har-to-k6"
 category: ["Templates &amp; Workflows"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "grafana/har-to-k6"
+  github_stars: 159
 ---
 
 # Convert browser HAR captures into reusable k6 load tests with har-to-k6

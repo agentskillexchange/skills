@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/scrapinghub/extruct"
 category: ["Research &amp; Scraping"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "scrapinghub/extruct"
+  github_stars: 961
 ---
 
 # Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing

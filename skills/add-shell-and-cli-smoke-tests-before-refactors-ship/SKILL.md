@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/bats-core/bats-core"
 category: ["Developer Tools"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "bats-core/bats-core"
+  github_stars: 5974
 ---
 
 # Add executable smoke tests for shell scripts and CLIs before refactors ship

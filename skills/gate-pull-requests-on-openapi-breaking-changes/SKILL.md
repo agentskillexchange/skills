@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/oasdiff/oasdiff"
 category: ["CI/CD Integrations"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "oasdiff/oasdiff"
+  github_stars: 1160
 ---
 
 # Gate pull requests on OpenAPI breaking changes

@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/checkmake/checkmake"
 category: ["Code Quality &amp; Review"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "checkmake/checkmake"
+  github_stars: 1188
 ---
 
 # Makefile Linting for CI and Build Pipelines

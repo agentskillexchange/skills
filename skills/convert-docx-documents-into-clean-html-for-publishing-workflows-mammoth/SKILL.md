@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/mwilliamson/mammoth.js"
 category: ["Data Extraction &amp; Transformation"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "mwilliamson/mammoth.js"
+  github_stars: 6167
 ---
 
 # Convert DOCX documents into clean HTML for publishing workflows with Mammoth

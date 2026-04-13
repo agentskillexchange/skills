@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/schemathesis/schemathesis"
 category: ["Security &amp; Verification"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "schemathesis/schemathesis"
+  github_stars: 3214
 ---
 
 # Generate adversarial API test cases from an OpenAPI or GraphQL schema

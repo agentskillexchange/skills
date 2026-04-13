@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/git-town/git-town"
 category: ["Templates &amp; Workflows"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "git-town/git-town"
+  github_stars: 3143
 ---
 
 # Orchestrate stacked Git branches, sync safely, and ship pull requests in order

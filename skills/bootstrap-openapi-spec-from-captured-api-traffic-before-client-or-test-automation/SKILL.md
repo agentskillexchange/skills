@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/alufers/mitmproxy2swagger"
 category: ["Integrations &amp; Connectors"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "alufers/mitmproxy2swagger"
+  github_stars: 9347
 ---
 
 # Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts

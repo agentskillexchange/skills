@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/norwoodj/helm-docs"
 category: ["Templates &amp; Workflows"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "norwoodj/helm-docs"
+  github_stars: 1732
 ---
 
 # Regenerate Helm chart READMEs from values and comments before release

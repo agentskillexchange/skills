@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/cruft/cruft"
 category: ["Templates &amp; Workflows"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "cruft/cruft"
+  github_stars: 1564
 ---
 
 # Refresh Cookiecutter-based repositories from their upstream template without losing local answers

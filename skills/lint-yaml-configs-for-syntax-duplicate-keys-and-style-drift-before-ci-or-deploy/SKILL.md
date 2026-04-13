@@ -5,6 +5,9 @@ verification: "security_reviewed"
 source: "https://github.com/adrienverge/yamllint"
 category: ["Code Quality &amp; Review"]
 framework: ["Multi-Framework"]
+tool_ecosystem:
+  github_repo: "adrienverge/yamllint"
+  github_stars: 3360
 ---
 
 # Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy

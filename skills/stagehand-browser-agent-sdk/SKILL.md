@@ -8,6 +8,7 @@ framework: ["Multi-Framework"]
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22019
+  npm_package: "stagehand-workspace"
 ---
 
 # Stagehand Browser Agent SDK
