@@ -1,16 +1,15 @@
 ---
+name: "nango-open-source-api-integration-platform"
 title: "Nango Open Source API Integration Platform"
-slug: "nango-open-source-api-integration-platform"
+description: "Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript sync and action logic on managed infrastructure."
+category: "Integrations &amp; Connectors"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Custom Agents"
 source: "https://github.com/NangoHQ/nango"
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7003
-  ase_npm_package: "nango"
+  npm_package: "nango"
   npm_weekly_downloads: 14801
 ---
 
@@ -20,13 +19,13 @@ Nango is an open-source platform for building product integrations with 700+ API
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

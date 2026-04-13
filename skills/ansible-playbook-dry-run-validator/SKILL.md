@@ -1,11 +1,10 @@
 ---
+name: "ansible-playbook-dry-run-validator"
 title: "Ansible Playbook Dry Run Validator"
-slug: "ansible-playbook-dry-run-validator"
+description: "Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections."
+category: "Runbooks &amp; Diagnostics"
+framework: "OpenClaw"
 verification: "security_reviewed"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "OpenClaw"
 source: "https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/"
 ---
 
@@ -15,13 +14,13 @@ Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Perfo
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

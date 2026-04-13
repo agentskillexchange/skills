@@ -1,11 +1,10 @@
 ---
+name: "circleci-pipeline-optimizer"
 title: "CircleCI Pipeline Optimizer"
-slug: "circleci-pipeline-optimizer"
+description: "Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze build performance. Identifies slow jobs via timing data, recommends Docker layer caching, and generates optimized .circleci/config.yml with parallelism settings."
+category: "CI/CD Integrations"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "ChatGPT Agents"
 source: "https://agentskillexchange.com/skills/circleci-pipeline-optimizer/"
 ---
 
@@ -15,13 +14,13 @@ Interfaces with CircleCI API v2 /pipeline and /workflow endpoints to analyze bui
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

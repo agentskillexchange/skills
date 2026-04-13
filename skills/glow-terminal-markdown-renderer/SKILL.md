@@ -1,11 +1,10 @@
 ---
+name: "glow-terminal-markdown-renderer"
 title: "Glow Terminal Markdown Renderer"
-slug: "glow-terminal-markdown-renderer"
+description: "Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI. It includes a TUI for browsing local markdown files and discovering documentation."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 source: "https://github.com/charmbracelet/glow"
 tool_ecosystem:
   github_repo: "charmbracelet/glow"
@@ -18,13 +17,13 @@ Glow is a terminal-based markdown reader by Charm that renders markdown files wi
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

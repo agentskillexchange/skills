@@ -1,11 +1,10 @@
 ---
+name: "watchexec-file-watcher-command-rerunner"
 title: "watchexec File Watcher and Command Re-Runner"
-slug: "watchexec-file-watcher-command-rerunner"
+description: "watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects file modifications. It respects .gitignore rules, coalesces rapid filesystem events, and works cross-platform without requiring any language runtime."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 source: "https://github.com/watchexec/watchexec"
 tool_ecosystem:
   github_repo: "watchexec/watchexec"
@@ -18,13 +17,13 @@ watchexec is a standalone file-watching tool written in Rust that automatically 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

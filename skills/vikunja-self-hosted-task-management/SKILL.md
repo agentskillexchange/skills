@@ -1,11 +1,10 @@
 ---
+name: "vikunja-self-hosted-task-management"
 title: "Vikunja Self-Hosted Task Management and Project Organization Platform"
-slug: "vikunja-self-hosted-task-management"
+description: "Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV sync for organizing personal and team projects with full data ownership."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/go-vikunja/vikunja"
 tool_ecosystem:
   github_repo: "go-vikunja/vikunja"
@@ -18,13 +17,13 @@ Vikunja is an open-source, self-hosted task management application written in Go
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

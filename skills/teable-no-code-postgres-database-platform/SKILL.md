@@ -1,11 +1,10 @@
 ---
+name: "teable-no-code-postgres-database-platform"
 title: "Teable No-Code Postgres Database Platform and Airtable Alternative"
-slug: "teable-no-code-postgres-database-platform"
+description: "Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for creating powerful database applications. It supports real-time collaboration, scales to millions of rows, and provides a REST API for programmatic access."
+category: "Data Extraction &amp; Transformation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/teableio/teable"
 tool_ecosystem:
   github_repo: "teableio/teable"
@@ -18,13 +17,13 @@ Teable is an open source no-code database platform built on PostgreSQL that uses
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

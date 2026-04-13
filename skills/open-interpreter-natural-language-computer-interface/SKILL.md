@@ -1,11 +1,10 @@
 ---
+name: "open-interpreter-natural-language-computer-interface"
 title: "Open Interpreter Natural Language Computer Interface"
-slug: "open-interpreter-natural-language-computer-interface"
+description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/openinterpreter/open-interpreter"
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer&#8217;s general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
+name: "cloudwatch-intelligent-alarms"
 title: "CloudWatch Intelligent Alarms"
-slug: "cloudwatch-intelligent-alarms"
+description: "Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with AWS SNS for notifications and EventBridge for automated remediation triggers."
+category: "Monitoring &amp; Alerts"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "ChatGPT Agents"
 source: "https://agentskillexchange.com/skills/cloudwatch-intelligent-alarms/"
 ---
 
@@ -15,13 +14,13 @@ Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anoma
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

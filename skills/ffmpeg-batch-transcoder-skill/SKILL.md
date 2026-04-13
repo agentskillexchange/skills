@@ -1,11 +1,10 @@
 ---
+name: "ffmpeg-batch-transcoder-skill"
 title: "FFmpeg Batch Transcoder"
-slug: "ffmpeg-batch-transcoder-skill"
+description: "Batch transcode media files using FFmpeg CLI with preset profiles for web, mobile, and broadcast delivery. Supports hardware-accelerated encoding via NVENC/VAAPI and automated quality analysis with VMAF scoring."
+category: "Media &amp; Transcription"
+framework: "Cursor"
 verification: "security_reviewed"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Cursor"
 source: "https://agentskillexchange.com/skills/ffmpeg-batch-transcoder-skill/"
 ---
 
@@ -15,13 +14,13 @@ Batch transcode media files using FFmpeg CLI with preset profiles for web, mobil
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

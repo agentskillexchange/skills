@@ -1,11 +1,10 @@
 ---
+name: "listmonk-self-hosted-newsletter-mailing-list"
 title: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
-slug: "listmonk-self-hosted-newsletter-mailing-list"
+description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
+category: "Calendar, Email &amp; Productivity"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Custom Agents"
 source: "https://github.com/knadh/listmonk"
 tool_ecosystem:
   github_repo: "knadh/listmonk"
@@ -18,13 +17,13 @@ High-performance, self-hosted newsletter and mailing list manager packed into a 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

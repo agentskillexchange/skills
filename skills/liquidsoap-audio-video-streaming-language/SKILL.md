@@ -1,11 +1,10 @@
 ---
+name: "liquidsoap-audio-video-streaming-language"
 title: "Liquidsoap Audio and Video Streaming Language"
-slug: "liquidsoap-audio-video-streaming-language"
+description: "Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors, and automated playout systems with a composable operator model."
+category: "Media &amp; Transcription"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Custom Agents"
 source: "https://github.com/savonet/liquidsoap"
 tool_ecosystem:
   github_repo: "savonet/liquidsoap"
@@ -18,13 +17,13 @@ Build audio and video streaming pipelines with Liquidsoap, a statically typed sc
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

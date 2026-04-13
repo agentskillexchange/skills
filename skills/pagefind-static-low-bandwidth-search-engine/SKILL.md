@@ -1,16 +1,15 @@
 ---
+name: "pagefind-static-low-bandwidth-search-engine"
 title: "Pagefind Static Low-Bandwidth Search Engine"
-slug: "pagefind-static-low-bandwidth-search-engine"
+description: "Pagefind is a static search library written in Rust that indexes your built site and adds a search bundle requiring no server infrastructure. It performs well on large sites while using minimal bandwidth."
+category: "Research &amp; Scraping"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Research &amp; Scraping"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/Pagefind/pagefind"
 tool_ecosystem:
   github_repo: "pagefind/pagefind"
   github_stars: 5094
-  ase_npm_package: "pagefind"
+  npm_package: "pagefind"
   npm_weekly_downloads: 492569
 ---
 
@@ -20,13 +19,13 @@ Pagefind is a static search library written in Rust that indexes your built site
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

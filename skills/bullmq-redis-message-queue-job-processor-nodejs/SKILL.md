@@ -1,11 +1,10 @@
 ---
+name: "bullmq-redis-message-queue-job-processor-nodejs"
 title: "BullMQ Redis-Based Message Queue and Job Processor for Node.js"
-slug: "bullmq-redis-message-queue-job-processor-nodejs"
+description: "BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child dependencies, repeatable jobs, and sandboxed workers for background processing at scale."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/taskforcesh/bullmq"
 tool_ecosystem:
   github_repo: "taskforcesh/bullmq"
@@ -18,13 +17,13 @@ BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

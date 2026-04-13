@@ -1,11 +1,10 @@
 ---
+name: "ansible-playbook-runner"
 title: "Ansible Playbook Runner"
-slug: "ansible-playbook-runner"
+description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational [&hellip;]"
+category: "Templates &amp; Workflows"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Custom Agents"
 source: "https://github.com/ansible/ansible"
 tool_ecosystem:
   github_repo: "ansible/ansible"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Ansible Playbook Runner
 
-Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]
+Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational [&hellip;]
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
+name: "opentelemetry-trace-analyzer"
 title: "OpenTelemetry Trace Analyzer"
-slug: "opentelemetry-trace-analyzer"
+description: "Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using OpenTelemetry Collector processors and correlates with Loki log streams."
+category: "Library &amp; API Reference"
+framework: "Codex"
 verification: "security_reviewed"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Codex"
 source: "https://agentskillexchange.com/skills/opentelemetry-trace-analyzer/"
 ---
 
@@ -15,13 +14,13 @@ Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. I
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

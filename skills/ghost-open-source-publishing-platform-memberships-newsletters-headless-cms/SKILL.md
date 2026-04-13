@@ -1,11 +1,10 @@
 ---
+name: "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms"
 title: "Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS"
-slug: "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms"
+description: "Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and API-first content delivery in one self-hostable stack."
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/TryGhost/Ghost"
 ---
 
@@ -15,13 +14,13 @@ Ghost is an open-source publishing platform built for modern blogs, newsletters,
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

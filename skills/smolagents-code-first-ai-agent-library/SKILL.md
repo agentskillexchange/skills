@@ -1,11 +1,10 @@
 ---
+name: "smolagents-code-first-ai-agent-library"
 title: "smolagents Code-First AI Agent Library"
-slug: "smolagents-code-first-ai-agent-library"
+description: "smolagents is HuggingFace&#8217;s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 source: "https://github.com/huggingface/smolagents"
 tool_ecosystem:
   github_repo: "huggingface/smolagents"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # smolagents Code-First AI Agent Library
 
-smolagents is HuggingFace’s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly.
+smolagents is HuggingFace&#8217;s barebones Python library for building AI agents that think in code rather than JSON. Agents write and execute Python code as their action space, enabling more flexible reasoning and tool use with support for sandboxed execution via E2B, Docker, or WebAssembly.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

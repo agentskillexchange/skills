@@ -1,32 +1,31 @@
 ---
+name: "sentry-mcp-server"
 title: "Sentry MCP Server"
-slug: "sentry-mcp-server"
+description: "Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
+category: "Monitoring &amp; Alerts"
+framework: "MCP"
 verification: "security_reviewed"
-category:
-  - "Monitoring &amp; Alerts"
-framework:
-  - "MCP"
 source: "https://github.com/getsentry/sentry-mcp"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 626
-  ase_npm_package: "@sentry/mcp-server"
+  npm_package: "@sentry/mcp-server"
   npm_weekly_downloads: 41729
 ---
 
 # Sentry MCP Server
 
-Sentry’s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
+Sentry&#8217;s official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
+name: "steampipe-zero-etl-sql-cloud-api-query-engine"
 title: "Steampipe Zero-ETL SQL Cloud API Query Engine"
-slug: "steampipe-zero-etl-sql-cloud-api-query-engine"
+description: "Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and more) to PostgreSQL tables — no ETL pipelines needed."
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 verification: "security_reviewed"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Claude Code"
 source: "https://github.com/turbot/steampipe"
 tool_ecosystem:
   github_repo: "turbot/steampipe"
@@ -18,13 +17,13 @@ Query cloud APIs, SaaS services, and infrastructure with standard SQL using Stea
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

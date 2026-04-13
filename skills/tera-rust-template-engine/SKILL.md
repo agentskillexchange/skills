@@ -1,11 +1,10 @@
 ---
+name: "tera-rust-template-engine"
 title: "Tera Jinja2-Inspired Template Engine for Rust"
-slug: "tera-rust-template-engine"
+description: "Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template inheritance, macros, filters, and auto-escaping, making it the go-to choice for HTML generation, static site builders, and code generation in Rust projects."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 source: "https://github.com/Keats/tera"
 ---
 
@@ -15,13 +14,13 @@ Tera is a powerful template engine for Rust inspired by Jinja2 and Django templa
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

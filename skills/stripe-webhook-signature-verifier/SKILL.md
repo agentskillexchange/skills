@@ -1,11 +1,10 @@
 ---
+name: "stripe-webhook-signature-verifier"
 title: "Stripe Webhook Signature Verifier"
-slug: "stripe-webhook-signature-verifier"
+description: "Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method. Validates the Stripe-Signature header against the raw request body and a configured endpoint secret. Handles tolerance windows for replay attack prevention and logs verification failures to Datadog via the Datadog Logs API."
+category: "Security &amp; Verification"
+framework: "ChatGPT Agents"
 verification: "security_reviewed"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "ChatGPT Agents"
 source: "https://agentskillexchange.com/skills/stripe-webhook-signature-verifier/"
 ---
 
@@ -15,13 +14,13 @@ Verifies Stripe webhook payload signatures using the Stripe.js SDK and the strip
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

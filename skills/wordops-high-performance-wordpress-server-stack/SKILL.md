@@ -1,11 +1,10 @@
 ---
+name: "wordops-high-performance-wordpress-server-stack"
 title: "WordOps High-Performance WordPress Server Stack Manager"
-slug: "wordops-high-performance-wordpress-server-stack"
+description: "WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let&#8217;s Encrypt, server hardening, and cache configuration for optimal WordPress performance."
+category: "WordPress &amp; CMS"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Custom Agents"
 source: "https://github.com/WordOps/WordOps"
 tool_ecosystem:
   github_repo: "wordops/wordops"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # WordOps High-Performance WordPress Server Stack Manager
 
-WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let’s Encrypt, server hardening, and cache configuration for optimal WordPress performance.
+WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a few keystrokes. It handles site creation, SSL certificates via Let&#8217;s Encrypt, server hardening, and cache configuration for optimal WordPress performance.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

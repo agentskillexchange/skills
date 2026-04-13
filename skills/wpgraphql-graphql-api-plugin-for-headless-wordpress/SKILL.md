@@ -1,11 +1,10 @@
 ---
+name: "wpgraphql-graphql-api-plugin-for-headless-wordpress"
 title: "WPGraphQL GraphQL API Plugin for Headless WordPress"
-slug: "wpgraphql-graphql-api-plugin-for-headless-wordpress"
+description: "WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is a strong fit for headless builds, automation agents, and integration workflows that need structured reads and mutations instead of scraping wp-admin or loosely shaped REST responses."
+category: "WordPress &amp; CMS"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "WordPress &amp; CMS"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/wp-graphql/wp-graphql"
 ---
 
@@ -15,13 +14,13 @@ WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a type
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

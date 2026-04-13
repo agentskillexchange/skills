@@ -1,16 +1,15 @@
 ---
+name: "schema-dts-typescript-types-schemaorg-structured-data"
 title: "schema-dts TypeScript Types for Schema.org Structured Data"
-slug: "schema-dts-typescript-types-schemaorg-structured-data"
+description: "An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org vocabulary. Enables type-safe generation and validation of JSON-LD structured data markup for SEO, rich search results, and knowledge graph integration."
+category: "Content Writing &amp; SEO"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Content Writing &amp; SEO"
-framework:
-  - "Custom Agents"
 source: "https://github.com/google/schema-dts"
 tool_ecosystem:
   github_repo: "google/schema-dts"
   github_stars: 1164
-  ase_npm_package: "schema-dts"
+  npm_package: "schema-dts"
   npm_weekly_downloads: 1509898
 ---
 
@@ -20,13 +19,13 @@ An agent skill built on schema-dts by Google, which provides complete TypeScript
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

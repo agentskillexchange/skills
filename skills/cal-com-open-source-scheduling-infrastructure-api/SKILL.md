@@ -1,11 +1,10 @@
 ---
+name: "cal-com-open-source-scheduling-infrastructure-api"
 title: "Cal.com Open Source Scheduling Infrastructure and API"
-slug: "cal-com-open-source-scheduling-infrastructure-api"
+description: "Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API."
+category: "Calendar, Email &amp; Productivity"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/calcom/cal.com"
 tool_ecosystem:
   github_repo: "calcom/cal.com"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Cal.com Open Source Scheduling Infrastructure and API
 
-Integrate Cal.com’s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com’s comprehensive REST API.
+Integrate Cal.com&#8217;s open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through Cal.com&#8217;s comprehensive REST API.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

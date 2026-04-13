@@ -1,11 +1,10 @@
 ---
+name: "vault-transit-secrets-envelope-verifier"
 title: "Vault Transit Secrets Envelope Verifier"
-slug: "vault-transit-secrets-envelope-verifier"
+description: "Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`, plus key metadata inspection. Useful for agents reviewing whether application secrets handling is actually using envelope encryption correctly instead of assuming the library setup is safe."
+category: "Security &amp; Verification"
+framework: "Codex"
 verification: "security_reviewed"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Codex"
 source: "https://github.com/hashicorp/vault"
 tool_ecosystem:
   github_repo: "hashicorp/vault"
@@ -18,13 +17,13 @@ Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encr
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

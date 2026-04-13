@@ -1,11 +1,10 @@
 ---
+name: "taiko-smart-selector-browser-automation-nodejs"
 title: "Taiko Smart-Selector Browser Automation for Node.js"
-slug: "taiko-smart-selector-browser-automation-nodejs"
+description: "Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and REPL-driven recorder make it useful for readable UI tests, browser flows, and scripted validation without relying heavily on brittle CSS or XPath selectors."
+category: "Browser Automation"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/getgauge/taiko"
 ---
 
@@ -15,13 +14,13 @@ Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
+name: "vite-plugin-hmr-analyzer"
 title: "Vite Plugin Hot Module Analyzer"
-slug: "vite-plugin-hmr-analyzer"
+description: "Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the vite.config.ts plugin API and ws WebSocket events. Identifies slow module boundaries, circular dependency hot paths, and generates flamegraph-compatible output for Chrome DevTools Performance panel."
+category: "Developer Tools"
+framework: "Cursor"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Cursor"
 source: "https://agentskillexchange.com/skills/vite-plugin-hmr-analyzer/"
 ---
 
@@ -15,13 +14,13 @@ Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

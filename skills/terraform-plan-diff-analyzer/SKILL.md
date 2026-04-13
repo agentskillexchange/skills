@@ -1,11 +1,10 @@
 ---
+name: "terraform-plan-diff-analyzer"
 title: "Terraform Plan Diff Analyzer"
-slug: "terraform-plan-diff-analyzer"
+description: "Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy violations. Uses the terraform show -json command and the Terraform Cloud API to retrieve plan artifacts. Integrates with OPA (Open Policy Agent) for policy-as-code enforcement on planned changes."
+category: "CI/CD Integrations"
+framework: "Cursor"
 verification: "security_reviewed"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Cursor"
 source: "https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/"
 ---
 
@@ -15,13 +14,13 @@ Parses Terraform plan JSON output to summarize resource changes, detect destruct
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

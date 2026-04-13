@@ -1,11 +1,10 @@
 ---
+name: "draft-internal-status-updates-and-incident-comms"
 title: "Draft internal status updates and incident comms"
-slug: "draft-internal-status-updates-and-incident-comms"
+description: "Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo."
+category: "Templates &amp; Workflows"
+framework: "Claude Agents"
 verification: "security_reviewed"
-category:
-  - "Templates &amp; Workflows"
-framework:
-  - "Claude Agents"
 source: "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
 tool_ecosystem:
   github_repo: "anthropics/skills"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Draft internal status updates and incident comms
 
-Use Anthropic’s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
+Use Anthropic&#8217;s internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is valuable because it gives the agent a bounded communication workflow and format guidance, not because it exposes a generic skills repo.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,27 +1,26 @@
 ---
+name: "notion-ai-doc-summarizer"
 title: "Notion AI Document Summarizer & Action Item Extractor"
-slug: "notion-ai-doc-summarizer"
+description: "Uses the Notion SDK and Notion AI&#8217;s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
+category: "Calendar, Email &amp; Productivity"
+framework: "Claude Code"
 verification: "security_reviewed"
-category:
-  - "Calendar, Email &amp; Productivity"
-framework:
-  - "Claude Code"
 source: "https://agentskillexchange.com/skills/notion-ai-doc-summarizer/"
 ---
 
 # Notion AI Document Summarizer & Action Item Extractor
 
-Uses the Notion SDK and Notion AI’s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.
+Uses the Notion SDK and Notion AI&#8217;s /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

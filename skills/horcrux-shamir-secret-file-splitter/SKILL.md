@@ -1,11 +1,10 @@
 ---
+name: "horcrux-shamir-secret-file-splitter"
 title: "Horcrux Shamir Secret Sharing File Encryption and Splitting Tool"
-slug: "horcrux-shamir-secret-file-splitter"
+description: "Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across locations and reconstruct the original with a configurable threshold — no password required."
+category: "Security &amp; Verification"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/jesseduffield/horcrux"
 tool_ecosystem:
   github_repo: "jesseduffield/horcrux"
@@ -18,13 +17,13 @@ Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so yo
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

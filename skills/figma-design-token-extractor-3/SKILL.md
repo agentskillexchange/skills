@@ -1,11 +1,10 @@
 ---
+name: "figma-design-token-extractor-3"
 title: "Figma Design Token Extractor"
-slug: "figma-design-token-extractor-3"
+description: "Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom properties, Tailwind configs, and Swift/Kotlin theme files from Figma components."
+category: "Image &amp; Creative Automation"
+framework: "Cursor"
 verification: "security_reviewed"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Cursor"
 source: "https://agentskillexchange.com/skills/figma-design-token-extractor-3/"
 ---
 
@@ -15,13 +14,13 @@ Extracts design tokens from Figma files using the Figma REST API and style-dicti
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

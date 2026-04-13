@@ -1,16 +1,15 @@
 ---
+name: "publint-package-export-validation-skill-npm-release-checks"
 title: "publint Package Export Validation Skill for npm Release Checks"
-slug: "publint-package-export-validation-skill-npm-release-checks"
+description: "Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and explain exactly what will fail for consumers. It is a pre-publish validation workflow centered on publint, not a generic listing for the tool itself."
+category: "Code Quality &amp; Review"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/publint/publint"
 tool_ecosystem:
   github_repo: "publint/publint"
   github_stars: 1252
-  ase_npm_package: "publint"
+  npm_package: "publint"
   npm_weekly_downloads: 585953
 ---
 
@@ -20,13 +19,13 @@ Use this skill when an agent needs to lint a package before publish, catch broke
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

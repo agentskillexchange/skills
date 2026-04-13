@@ -1,11 +1,10 @@
 ---
+name: "concurrently-parallel-command-runner"
 title: "Concurrently Parallel Command Runner for npm Scripts"
-slug: "concurrently-parallel-command-runner"
+description: "Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard tool for running dev servers, watchers, and build processes simultaneously."
+category: "Developer Tools"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/open-cli-tools/concurrently"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
@@ -18,13 +17,13 @@ Concurrently runs multiple commands in parallel with color-coded output, prefix 
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,16 +1,15 @@
 ---
+name: "mastra-typescript-ai-agent-framework"
 title: "Mastra TypeScript AI Agent Framework"
-slug: "mastra-typescript-ai-agent-framework"
+description: "Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team behind Gatsby, it provides model routing across 40+ providers, graph-based workflows, human-in-the-loop suspension, and MCP server authoring in a single cohesive package."
+category: "Developer Tools"
+framework: "Custom Agents"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
 source: "https://github.com/mastra-ai/mastra"
 tool_ecosystem:
   github_repo: "mastra-ai/mastra"
   github_stars: 22557
-  ase_npm_package: "mastra"
+  npm_package: "mastra"
   npm_weekly_downloads: 230286
 ---
 
@@ -20,13 +19,13 @@ Mastra is an open-source TypeScript framework for building AI-powered applicatio
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

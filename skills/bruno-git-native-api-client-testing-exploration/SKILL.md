@@ -1,11 +1,10 @@
 ---
+name: "bruno-git-native-api-client-testing-exploration"
 title: "Bruno Git-Native API Client for Testing and Exploration"
-slug: "bruno-git-native-api-client-testing-exploration"
+description: "Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your filesystem. It serves as a privacy-focused, git-friendly alternative to Postman and Insomnia with no cloud sync and no account required."
+category: "Developer Tools"
+framework: "Claude Code"
 verification: "security_reviewed"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
 source: "https://github.com/usebruno/bruno"
 tool_ecosystem:
   github_repo: "usebruno/bruno"
@@ -18,13 +17,13 @@ Bruno is an open-source, offline-first API client that stores collections as pla
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,11 +1,10 @@
 ---
+name: "yq-yaml-structured-data-processor"
 title: "yq YAML and Structured Data Processor"
-slug: "yq-yaml-structured-data-processor"
+description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats."
+category: "Data Extraction &amp; Transformation"
+framework: "Claude Code"
 verification: "security_reviewed"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Claude Code"
 source: "https://github.com/mikefarah/yq"
 tool_ecosystem:
   github_repo: "mikefarah/yq"
@@ -18,13 +17,13 @@ Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files f
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

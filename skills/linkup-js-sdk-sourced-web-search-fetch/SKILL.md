@@ -1,11 +1,10 @@
 ---
+name: "linkup-js-sdk-sourced-web-search-fetch"
 title: "Linkup JS SDK for Sourced Web Search and Fetch"
-slug: "linkup-js-sdk-sourced-web-search-fetch"
+description: "Linkup&#8217;s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning."
+category: "Library &amp; API Reference"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Library &amp; API Reference"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/LinkupPlatform/linkup-js-sdk"
 tool_ecosystem:
   github_repo: "LinkupPlatform/linkup-js-sdk"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Linkup JS SDK for Sourced Web Search and Fetch
 
-Linkup’s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning.
+Linkup&#8217;s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

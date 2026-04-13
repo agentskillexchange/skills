@@ -1,11 +1,10 @@
 ---
+name: "moonshine-voice-on-device-speech-recognition-and-voice-commands"
 title: "Moonshine Voice On-Device Speech Recognition and Voice Commands"
-slug: "moonshine-voice-on-device-speech-recognition-and-voice-commands"
+description: "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows."
+category: "Media &amp; Transcription"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Media &amp; Transcription"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/moonshine-ai/moonshine"
 tool_ecosystem:
   github_repo: "moonshine-ai/moonshine"
@@ -18,13 +17,13 @@ Moonshine Voice is a fast on-device speech recognition library for interactive v
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

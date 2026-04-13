@@ -1,11 +1,10 @@
 ---
+name: "hookdeck-cli-webhook-development-event-debugging"
 title: "Hookdeck CLI for Webhook Development and Event Debugging"
-slug: "hookdeck-cli-webhook-development-event-debugging"
+description: "Hookdeck CLI is Hookdeck&#8217;s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
+category: "Integrations &amp; Connectors"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Integrations &amp; Connectors"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/hookdeck/hookdeck-cli"
 tool_ecosystem:
   github_repo: "hookdeck/hookdeck-cli"
@@ -14,17 +13,17 @@ tool_ecosystem:
 
 # Hookdeck CLI for Webhook Development and Event Debugging
 
-Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+Hookdeck CLI is Hookdeck&#8217;s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

@@ -1,16 +1,15 @@
 ---
+name: "dprint-pluggable-code-formatter"
 title: "dprint Pluggable High-Performance Code Formatting Platform"
-slug: "dprint-pluggable-code-formatter"
+description: "dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile, and more through a single CLI with a Wasm-based plugin architecture for maximum speed."
+category: "Code Quality &amp; Review"
+framework: "Multi-Framework"
 verification: "security_reviewed"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
 source: "https://github.com/dprint/dprint"
 tool_ecosystem:
   github_repo: "dprint/dprint"
   github_stars: 3857
-  ase_npm_package: "dprint"
+  npm_package: "dprint"
   npm_weekly_downloads: 162851
 ---
 
@@ -20,13 +19,13 @@ dprint is a pluggable and configurable code formatting platform written in Rust.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 

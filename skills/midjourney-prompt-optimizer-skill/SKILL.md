@@ -1,27 +1,26 @@
 ---
+name: "midjourney-prompt-optimizer-skill"
 title: "Midjourney Prompt Optimizer"
-slug: "midjourney-prompt-optimizer-skill"
+description: "Analyze and optimize Midjourney prompts using parameter tuning for &#8211;ar, &#8211;stylize, &#8211;chaos, and &#8211;weird flags. Generates prompt variations with style references (&#8211;sref) and character references (&#8211;cref) for consistent image output."
+category: "Image &amp; Creative Automation"
+framework: "Gemini"
 verification: "security_reviewed"
-category:
-  - "Image &amp; Creative Automation"
-framework:
-  - "Gemini"
 source: "https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/"
 ---
 
 # Midjourney Prompt Optimizer
 
-Analyze and optimize Midjourney prompts using parameter tuning for –ar, –stylize, –chaos, and –weird flags. Generates prompt variations with style references (–sref) and character references (–cref) for consistent image output.
+Analyze and optimize Midjourney prompts using parameter tuning for &#8211;ar, &#8211;stylize, &#8211;chaos, and &#8211;weird flags. Generates prompt variations with style references (&#8211;sref) and character references (&#8211;cref) for consistent image output.
 
 ## Installation
 
-Choose the method that fits your setup:
+You can install this skill using any of these methods:
 
-1. Clone or download this repo and copy the skill folder into your local skills directory.
-2. Install from the Agent Skill Exchange repo with your preferred Git workflow.
-3. Add the skill folder as a git submodule if you manage skills as dependencies.
-4. Copy the files manually into a local custom-skills directory for testing.
-5. Use any marketplace or sync tooling you already have for pulling ASE skills.
+1. OpenClaw skill installer
+2. ClawHub CLI
+3. Git clone into your skills directory
+4. Download and extract the skill folder manually
+5. Copy the skill folder from a local checkout
 
 ## Source
 
