@@ -1,8 +1,38 @@
 {
   "version": "2.0",
-  "total": 1948,
+  "total": 1950,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "search-help-scout-conversations-and-thread-context-before-drafting-support-replies",
+      "name": "Search Help Scout conversations and thread context before drafting support replies",
+      "description": "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket…",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 36
+      }
+    },
+    {
+      "slug": "calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp",
+      "name": "Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP",
+      "description": "Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel, field-service, and logistics tasks can stay inside an…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 45
+      }
+    },
     {
       "slug": "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows",
       "name": "Normalize international phone numbers into E.164 before CRM imports or messaging workflows",
