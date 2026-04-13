@@ -24,6 +24,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | Skill | Downloads |
 |---|---:|
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
+| [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
 
 ---
 
@@ -44,6 +45,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
+| [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |

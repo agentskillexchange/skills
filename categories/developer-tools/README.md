@@ -120,6 +120,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 108M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
+| [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
 | [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
@@ -170,6 +171,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | 11.5k | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | 11.5k | — |
 | [Devbox Instant Nix-Powered Development Environment Manager by Jetify](../../skills/devbox-nix-development-environment-jetify/) | 11.4k | — |
+| [Triage pull requests and issues from a keyboard-first terminal queue with gh-dash](../../skills/triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash/) | 11.3k | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |

@@ -1,8 +1,70 @@
 {
   "version": "2.0",
-  "total": 1957,
+  "total": 1961,
   "generated": "2026-04-13",
   "skills": [
+    {
+      "slug": "triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash",
+      "name": "Triage pull requests and issues from a keyboard-first terminal queue with gh-dash",
+      "description": "Use gh-dash when an agent or operator needs assigned pull requests and issue queues in a keyboard-first terminal dashboard instead of bouncing across GitHub…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11340
+      }
+    },
+    {
+      "slug": "reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy",
+      "name": "Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy",
+      "description": "Use rtk when an agent keeps wasting context on noisy shell output from large repos and you need smaller command responses before the model…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 25419
+      }
+    },
+    {
+      "slug": "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed",
+      "name": "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed",
+      "description": "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 143,
+        "npm_weekly_downloads": 234588
+      }
+    },
+    {
+      "slug": "publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new",
+      "name": "Publish installable pull-request package previews before release with pkg.pr.new",
+      "description": "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1840,
+        "npm_weekly_downloads": 387380
+      }
+    },
     {
       "slug": "index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations",
       "name": "Index a codebase into evidence-backed memory so agents can answer with citations",
