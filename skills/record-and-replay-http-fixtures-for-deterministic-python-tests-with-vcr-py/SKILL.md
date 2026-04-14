@@ -1,10 +1,12 @@
 ---
 title: "Record and replay HTTP fixtures for deterministic Python tests with VCR.py"
 description: "Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and replaying them from cassette files. The agent decides which requests belong in fixtures, refreshes stale cassettes when upstream APIs change, and keeps external traffic out of the repeat test loop."
-verification: security_reviewed
-source: "https://github.com/kevin1024/vcrpy"
+verification: listed
+source: "https://agentskillexchange.com/skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Record and replay HTTP fixtures for deterministic Python tests with VCR.py

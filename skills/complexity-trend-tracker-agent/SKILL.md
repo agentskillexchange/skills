@@ -1,10 +1,12 @@
 ---
 title: "Complexity Trend Tracker"
 description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "MCP"
 ---
 
 # Complexity Trend Tracker

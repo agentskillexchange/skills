@@ -1,13 +1,12 @@
 ---
 title: "Mitosis Cross-Framework Component Compiler by Builder.io"
 description: "Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more. Built by Builder.io, it enables maintaining a single component codebase across all major frontend frameworks."
-verification: security_reviewed
-source: "https://github.com/BuilderIO/mitosis"
+verification: listed
+source: "https://agentskillexchange.com/skills/mitosis-cross-framework-component-compiler/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "BuilderIO/mitosis"
-  github_stars: 13808
+framework:
+  - "Multi-Framework"
 ---
 
 # Mitosis Cross-Framework Component Compiler by Builder.io

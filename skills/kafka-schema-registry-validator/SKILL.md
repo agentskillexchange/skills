@@ -1,10 +1,12 @@
 ---
 title: "Apache Kafka Schema Registry Validator"
 description: "Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API. Enforces backward/forward/full compatibility modes and detects breaking schema evolution changes."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/kafka-schema-registry-validator/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Agents"
 ---
 
 # Apache Kafka Schema Registry Validator

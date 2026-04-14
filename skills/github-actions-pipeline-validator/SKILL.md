@@ -1,10 +1,12 @@
 ---
 title: "GitHub Actions Pipeline Validator"
 description: "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 ---
 
 # GitHub Actions Pipeline Validator

@@ -1,13 +1,12 @@
 ---
 title: "Garden Kubernetes Development and Testing Automation Platform"
 description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
-verification: security_reviewed
-source: "https://github.com/garden-io/garden"
+verification: listed
+source: "https://agentskillexchange.com/skills/garden-kubernetes-dev-testing-automation/"
 category:
   - "CI/CD Integrations"
-tool_ecosystem:
-  github_repo: "garden-io/garden"
-  github_stars: 3574
+framework:
+  - "Custom Agents"
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform

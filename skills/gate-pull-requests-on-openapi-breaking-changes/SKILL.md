@@ -1,10 +1,12 @@
 ---
 title: "Gate pull requests on OpenAPI breaking changes"
 description: "Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to merge. The skill turns spec drift into a concrete breaking-change report that can block CI or annotate review workflows."
-verification: security_reviewed
-source: "https://github.com/oasdiff/oasdiff"
+verification: listed
+source: "https://agentskillexchange.com/skills/gate-pull-requests-on-openapi-breaking-changes/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 ---
 
 # Gate pull requests on OpenAPI breaking changes

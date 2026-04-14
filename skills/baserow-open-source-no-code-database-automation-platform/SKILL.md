@@ -1,10 +1,12 @@
 ---
 title: "Baserow Open Source No-Code Database and Automation Platform"
 description: "Baserow is an open-source no-code platform for databases, automations, internal apps, and API-first workflows. It is useful when teams need spreadsheet-like data management, self-hosting, and programmable access without building a custom admin stack from scratch."
-verification: security_reviewed
-source: "https://github.com/baserow/baserow"
+verification: listed
+source: "https://agentskillexchange.com/skills/baserow-open-source-no-code-database-automation-platform/"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Baserow Open Source No-Code Database and Automation Platform

@@ -1,18 +1,17 @@
 ---
 title: "Generate Slack-ready animated GIFs from custom frame sequences"
-description: "Use Anthropic&#8217;s slack-gif-creator skill to build animated GIFs that stay inside Slack&#8217;s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing."
-verification: security_reviewed
-source: "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator"
+description: "Use Anthropic’s slack-gif-creator skill to build animated GIFs that stay inside Slack’s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing."
+verification: listed
+source: "https://agentskillexchange.com/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/"
 category:
-  - "Image &amp; Creative Automation"
-tool_ecosystem:
-  github_repo: "anthropics/skills"
-  github_stars: 116154
+  - "Image & Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # Generate Slack-ready animated GIFs from custom frame sequences
 
-Use Anthropic&#8217;s slack-gif-creator skill to build animated GIFs that stay inside Slack&#8217;s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing.
+Use Anthropic’s slack-gif-creator skill to build animated GIFs that stay inside Slack’s practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing.
 
 ## Installation
 

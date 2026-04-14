@@ -1,10 +1,12 @@
 ---
 title: "Incident Postmortem Generator"
 description: "Generates structured incident postmortems by aggregating data from PagerDuty incidents API, Slack channel history, and Grafana dashboard snapshots. Produces blameless postmortem documents following the Google SRE template format."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/incident-postmortem-generator/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Incident Postmortem Generator

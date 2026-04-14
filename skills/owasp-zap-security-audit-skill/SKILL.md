@@ -1,10 +1,12 @@
 ---
 title: "OWASP ZAP Security Audit Skill"
 description: "Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # OWASP ZAP Security Audit Skill

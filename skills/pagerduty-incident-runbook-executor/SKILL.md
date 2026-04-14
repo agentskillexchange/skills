@@ -1,10 +1,12 @@
 ---
 title: "PagerDuty Incident Runbook Executor"
 description: "Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and Rundeck API. Attaches diagnostic output as incident notes and suggests remediation actions."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # PagerDuty Incident Runbook Executor

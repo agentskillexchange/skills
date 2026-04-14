@@ -1,10 +1,12 @@
 ---
 title: "Radicale Self-Hosted CalDAV and CardDAV Server"
 description: "Radicale is a lightweight, self-hosted CalDAV and CardDAV server written in Python. It shares calendars, to-do lists, journal entries, and contacts over standard protocols with zero-config setup, file-based storage, optional authentication, TLS support, and a plugin architecture."
-verification: security_reviewed
-source: "https://github.com/Kozea/Radicale"
+verification: listed
+source: "https://agentskillexchange.com/skills/radicale-self-hosted-caldav-carddav-server/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Radicale Self-Hosted CalDAV and CardDAV Server

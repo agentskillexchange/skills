@@ -1,13 +1,12 @@
 ---
 title: "WriteFreely Federated Markdown Publishing Platform with ActivityPub"
 description: "WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community building, multi-blog support from a single account, and OAuth 2.0 integration for onboarding users from existing platforms."
-verification: security_reviewed
-source: "https://github.com/writefreely/writefreely"
+verification: listed
+source: "https://agentskillexchange.com/skills/writefreely-federated-markdown-publishing-platform/"
 category:
-  - "Content Writing &amp; SEO"
-tool_ecosystem:
-  github_repo: "writefreely/writefreely"
-  github_stars: 5117
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 ---
 
 # WriteFreely Federated Markdown Publishing Platform with ActivityPub

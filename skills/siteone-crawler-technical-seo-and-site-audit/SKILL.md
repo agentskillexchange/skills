@@ -1,13 +1,12 @@
 ---
 title: "SiteOne Crawler Technical SEO and Site Audit"
 description: "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler project to turn large site crawls into structured diagnostics, export files, and remediation queues."
-verification: security_reviewed
-source: "https://github.com/janreges/siteone-crawler"
+verification: listed
+source: "https://agentskillexchange.com/skills/siteone-crawler-technical-seo-and-site-audit/"
 category:
-  - "Content Writing &amp; SEO"
-tool_ecosystem:
-  github_repo: "janreges/siteone-crawler"
-  github_stars: 708
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 ---
 
 # SiteOne Crawler Technical SEO and Site Audit

@@ -1,13 +1,12 @@
 ---
 title: "BullMQ Redis-Based Message Queue and Job Processor for Node.js"
 description: "BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child dependencies, repeatable jobs, and sandboxed workers for background processing at scale."
-verification: security_reviewed
-source: "https://github.com/taskforcesh/bullmq"
+verification: listed
+source: "https://agentskillexchange.com/skills/bullmq-redis-message-queue-job-processor-nodejs/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "taskforcesh/bullmq"
-  github_stars: 8714
+framework:
+  - "Multi-Framework"
 ---
 
 # BullMQ Redis-Based Message Queue and Job Processor for Node.js

@@ -1,10 +1,12 @@
 ---
 title: "Patent Landscape Analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/patent-landscape-analyzer/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # Patent Landscape Analyzer

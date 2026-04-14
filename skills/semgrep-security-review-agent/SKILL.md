@@ -1,10 +1,12 @@
 ---
 title: "Semgrep Security Review Agent"
 description: "Performs SAST scanning using Semgrep CLI and Semgrep Registry rules. Detects OWASP Top 10 vulnerabilities, injection flaws, and insecure patterns with custom rule YAML authoring."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/semgrep-security-review-agent/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Agents"
 ---
 
 # Semgrep Security Review Agent

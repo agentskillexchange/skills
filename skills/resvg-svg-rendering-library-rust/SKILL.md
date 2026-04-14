@@ -1,10 +1,12 @@
 ---
 title: "resvg High-Performance SVG Rendering Library in Rust"
 description: "resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high correctness. It works as a Rust library, C library, CLI tool, and has Node.js bindings via resvg-js for server-side SVG-to-image conversion."
-verification: security_reviewed
-source: "https://github.com/linebender/resvg"
+verification: listed
+source: "https://agentskillexchange.com/skills/resvg-svg-rendering-library-rust/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # resvg High-Performance SVG Rendering Library in Rust

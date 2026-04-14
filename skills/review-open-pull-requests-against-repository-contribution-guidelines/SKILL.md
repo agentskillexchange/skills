@@ -1,15 +1,17 @@
 ---
 title: "Review open pull requests against repository contribution guidelines"
-description: "This entry turns GitHub Next&#8217;s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters."
-verification: security_reviewed
-source: "https://github.com/githubnext/agentics/blob/main/docs/contribution-check.md"
+description: "This entry turns GitHub Next’s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters."
+verification: listed
+source: "https://agentskillexchange.com/skills/review-open-pull-requests-against-repository-contribution-guidelines/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 ---
 
 # Review open pull requests against repository contribution guidelines
 
-This entry turns GitHub Next&#8217;s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters.
+This entry turns GitHub Next’s Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels likely-ready submissions, comments on gaps, and produces a report issue so humans can spend review time where it matters.
 
 ## Installation
 

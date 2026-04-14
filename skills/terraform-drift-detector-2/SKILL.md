@@ -1,10 +1,12 @@
 ---
 title: "Terraform Drift Detector"
 description: "Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the Terraform Cloud API. Supports AWS, GCP, and Azure provider state analysis."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/terraform-drift-detector-2/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # Terraform Drift Detector

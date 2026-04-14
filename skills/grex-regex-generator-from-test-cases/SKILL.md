@@ -1,13 +1,12 @@
 ---
 title: "grex Regular Expression Generator from Test Cases"
 description: "grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces the most specific regex that matches the given input, supporting Unicode 16.0, character class detection, quantifier notation, and case-insensitive matching."
-verification: security_reviewed
-source: "https://github.com/pemistahl/grex"
+verification: listed
+source: "https://agentskillexchange.com/skills/grex-regex-generator-from-test-cases/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "pemistahl/grex"
-  github_stars: 8079
+framework:
+  - "Custom Agents"
 ---
 
 # grex Regular Expression Generator from Test Cases

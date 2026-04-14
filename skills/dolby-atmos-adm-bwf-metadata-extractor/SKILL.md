@@ -1,10 +1,12 @@
 ---
 title: "Dolby Atmos ADM-BWF Metadata Extractor"
 description: "Extracts and validates Audio Definition Model (ADM) metadata from Broadcast Wave Format (BWF) files using the libadm C++ library and EBU Tech 3364 spec for Dolby Atmos immersive audio object positions."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/dolby-atmos-adm-bwf-metadata-extractor/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
+framework:
+  - "Gemini"
 ---
 
 # Dolby Atmos ADM-BWF Metadata Extractor

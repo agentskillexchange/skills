@@ -1,13 +1,12 @@
 ---
 title: "solidtime Modern Open Source Time Tracking for Freelancers and Agencies"
 description: "solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project and client management, billable rates, task assignment, multi-organization support, and data import from Toggl and Clockify. Self-hostable with Docker."
-verification: security_reviewed
-source: "https://github.com/solidtime-io/solidtime"
+verification: listed
+source: "https://agentskillexchange.com/skills/solidtime-open-source-time-tracking/"
 category:
-  - "Calendar, Email &amp; Productivity"
-tool_ecosystem:
-  github_repo: "solidtime-io/solidtime"
-  github_stars: 8399
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # solidtime Modern Open Source Time Tracking for Freelancers and Agencies

@@ -1,10 +1,12 @@
 ---
 title: "Kubernetes Runbook Executor"
 description: "Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/kubernetes-runbook-executor-2/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Kubernetes Runbook Executor

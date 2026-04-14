@@ -1,10 +1,12 @@
 ---
 title: "Censys Attack Surface Monitor"
 description: "Monitors internet-facing assets using Censys Search API v2 for host discovery and certificate enumeration. Tracks exposed services, TLS configurations, and new asset appearances with delta alerting via webhook integrations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/censys-attack-surface-monitor/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 ---
 
 # Censys Attack Surface Monitor

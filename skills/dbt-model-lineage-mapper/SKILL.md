@@ -1,10 +1,12 @@
 ---
 title: "dbt Model Lineage Mapper"
 description: "Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API. Generates interactive DAG visualizations and impact analysis for model changes."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/dbt-model-lineage-mapper/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "OpenClaw"
 ---
 
 # dbt Model Lineage Mapper

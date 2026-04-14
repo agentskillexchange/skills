@@ -1,10 +1,12 @@
 ---
 title: "ArgoCD Application Deployer"
 description: "Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/argocd-application-deployer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 ---
 
 # ArgoCD Application Deployer

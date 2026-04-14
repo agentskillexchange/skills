@@ -1,13 +1,12 @@
 ---
 title: "ArgoCD GitOps Sync Automator"
 description: "Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments."
-verification: security_reviewed
-source: "https://github.com/argoproj/argo-cd"
+verification: listed
+source: "https://agentskillexchange.com/skills/argocd-gitops-sync-automator/"
 category:
   - "CI/CD Integrations"
-tool_ecosystem:
-  github_repo: "argoproj/argo-cd"
-  github_stars: 22518
+framework:
+  - "MCP"
 ---
 
 # ArgoCD GitOps Sync Automator

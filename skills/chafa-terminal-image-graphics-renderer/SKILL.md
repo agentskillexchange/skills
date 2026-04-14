@@ -1,13 +1,12 @@
 ---
 title: "Chafa Terminal Image and Graphics Renderer"
 description: "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments."
-verification: security_reviewed
-source: "https://github.com/hpjansson/chafa"
+verification: listed
+source: "https://agentskillexchange.com/skills/chafa-terminal-image-graphics-renderer/"
 category:
-  - "Image &amp; Creative Automation"
-tool_ecosystem:
-  github_repo: "hpjansson/chafa"
-  github_stars: 4542
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Chafa Terminal Image and Graphics Renderer

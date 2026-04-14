@@ -1,13 +1,12 @@
 ---
 title: "WordPress REST API Builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
-verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+verification: listed
+source: "https://agentskillexchange.com/skills/wordpress-rest-api-builder/"
 category:
-  - "WordPress &amp; CMS"
-tool_ecosystem:
-  github_repo: "WordPress/WordPress"
-  github_stars: 21002
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 ---
 
 # WordPress REST API Builder

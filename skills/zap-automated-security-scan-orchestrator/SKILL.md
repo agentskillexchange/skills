@@ -1,10 +1,12 @@
 ---
 title: "ZAP Automated Security Scan Orchestrator"
 description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/zap-automated-security-scan-orchestrator/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # ZAP Automated Security Scan Orchestrator

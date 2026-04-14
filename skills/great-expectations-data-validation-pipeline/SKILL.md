@@ -1,13 +1,13 @@
 ---
 title: "Great Expectations Data Validation Pipeline"
 description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
-verification: security_reviewed
-source: "https://github.com/great-expectations/great_expectations"
+verification: listed
+source: "https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/"
 category:
-  - "Code Quality &amp; Review"
-tool_ecosystem:
-  github_repo: "great-expectations/great_expectations"
-  github_stars: 11321
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
+  - "OpenClaw"
 ---
 
 # Great Expectations Data Validation Pipeline

@@ -1,13 +1,12 @@
 ---
 title: "Docker Selenium Grid for Scalable Browser Automation"
 description: "docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed browser execution. It is useful when an agent needs reproducible browser automation infrastructure for testing, scraping, QA, or parallel session orchestration."
-verification: security_reviewed
-source: "https://github.com/SeleniumHQ/docker-selenium"
+verification: listed
+source: "https://agentskillexchange.com/skills/docker-selenium-grid-for-scalable-browser-automation/"
 category:
   - "Browser Automation"
-tool_ecosystem:
-  github_repo: "SeleniumHQ/docker-selenium"
-  github_stars: 8619
+framework:
+  - "Multi-Framework"
 ---
 
 # Docker Selenium Grid for Scalable Browser Automation

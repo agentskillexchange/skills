@@ -1,10 +1,12 @@
 ---
 title: "GraphQL Schema Registry Client"
 description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-client/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Custom Agents"
 ---
 
 # GraphQL Schema Registry Client

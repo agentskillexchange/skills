@@ -1,10 +1,12 @@
 ---
 title: "Stable Diffusion XL Pipeline"
 description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/stable-diffusion-xl-pipeline/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # Stable Diffusion XL Pipeline

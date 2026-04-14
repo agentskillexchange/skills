@@ -1,13 +1,12 @@
 ---
 title: "Sonic Fast Lightweight Schema-Less Search Backend"
 description: "Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just a few megabytes of RAM, making it ideal for resource-constrained environments and edge deployments."
-verification: security_reviewed
-source: "https://github.com/valeriansaliou/sonic"
+verification: listed
+source: "https://agentskillexchange.com/skills/sonic-fast-lightweight-search-backend/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "valeriansaliou/sonic"
-  github_stars: 21176
+framework:
+  - "Multi-Framework"
 ---
 
 # Sonic Fast Lightweight Schema-Less Search Backend

@@ -1,13 +1,12 @@
 ---
 title: "ripgrep Recursive Regex Search Tool"
 description: "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default."
-verification: security_reviewed
-source: "https://github.com/BurntSushi/ripgrep"
+verification: listed
+source: "https://agentskillexchange.com/skills/ripgrep-recursive-regex-search-tool/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "BurntSushi/ripgrep"
-  github_stars: 61743
+framework:
+  - "Claude Code"
 ---
 
 # ripgrep Recursive Regex Search Tool

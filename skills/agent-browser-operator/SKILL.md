@@ -1,13 +1,13 @@
 ---
 title: "Agent Browser Operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright"
+verification: listed
+source: "https://agentskillexchange.com/skills/agent-browser-operator/"
 category:
   - "Browser Automation"
-tool_ecosystem:
-  github_repo: "microsoft/playwright"
-  github_stars: 85658
+framework:
+  - "Custom Agents"
+  - "OpenClaw"
 ---
 
 # Agent Browser Operator

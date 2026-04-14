@@ -1,13 +1,12 @@
 ---
 title: "Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames"
 description: "Use python-slugify when an agent has messy human titles and needs safe, repeatable slugs for URLs, filenames, or record IDs. This skill stays tightly focused on transliteration and normalization, not routing, redirects, or full publishing workflows."
-verification: security_reviewed
-source: "https://github.com/un33k/python-slugify"
+verification: listed
+source: "https://agentskillexchange.com/skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/"
 category:
-  - "Content Writing &amp; SEO"
-tool_ecosystem:
-  github_repo: "un33k/python-slugify"
-  github_stars: 1604
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 ---
 
 # Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames

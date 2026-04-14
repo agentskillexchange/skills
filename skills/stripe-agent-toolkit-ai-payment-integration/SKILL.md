@@ -1,13 +1,12 @@
 ---
 title: "Stripe Agent Toolkit for AI Payment Integration"
 description: "The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating Stripe payment APIs with AI agent frameworks. Supports OpenAI, LangChain, CrewAI, and Vercel AI SDK through function calling with granular API key permissions."
-verification: security_reviewed
-source: "https://github.com/stripe/ai"
+verification: listed
+source: "https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integration/"
 category:
-  - "Integrations &amp; Connectors"
-tool_ecosystem:
-  github_repo: "stripe/ai"
-  github_stars: 1422
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 ---
 
 # Stripe Agent Toolkit for AI Payment Integration

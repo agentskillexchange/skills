@@ -1,10 +1,12 @@
 ---
 title: "AWS CodePipeline Orchestrator"
 description: "Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs). Automates blue-green deployments and cross-account pipeline configurations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/aws-codepipeline-orchestrator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # AWS CodePipeline Orchestrator

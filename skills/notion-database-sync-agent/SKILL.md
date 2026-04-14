@@ -1,10 +1,12 @@
 ---
 title: "Notion Database Sync Agent"
 description: "Syncs records between Notion databases and external sources using the Notion API (POST /v1/databases/{id}/query), applying field mapping, deduplication by title or unique property, and incremental updates via last_edited_time filtering."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/notion-database-sync-agent/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Agents"
 ---
 
 # Notion Database Sync Agent

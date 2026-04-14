@@ -1,10 +1,12 @@
 ---
 title: "Kubernetes Incident Runbook"
 description: "Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node pressure triage."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/kubernetes-incident-runbook/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 ---
 
 # Kubernetes Incident Runbook

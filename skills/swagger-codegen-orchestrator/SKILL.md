@@ -1,10 +1,12 @@
 ---
 title: "Swagger Codegen Orchestrator"
 description: "Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/swagger-codegen-orchestrator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 ---
 
 # Swagger Codegen Orchestrator

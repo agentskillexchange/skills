@@ -1,10 +1,12 @@
 ---
 title: "Scrapy Distributed Crawler Framework"
 description: "Orchestrates large-scale web crawling using Scrapy with scrapy-redis for distributed job queuing. Integrates Splash for JavaScript rendering, stores results in MongoDB via scrapy-mongodb pipeline, and respects robots.txt with AutoThrottle."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/scrapy-distributed-crawler-framework/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "MCP"
 ---
 
 # Scrapy Distributed Crawler Framework

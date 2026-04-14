@@ -1,10 +1,13 @@
 ---
 title: "Terraform Module Testing Framework"
 description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/terraform-module-testing-framework/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
+  - "Multi-Framework"
 ---
 
 # Terraform Module Testing Framework

@@ -1,10 +1,12 @@
 ---
 title: "Tekton Pipeline Composer"
 description: "Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks, PipelineRuns, and TriggerBindings with proper workspace and result propagation between steps."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/tekton-pipeline-composer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # Tekton Pipeline Composer

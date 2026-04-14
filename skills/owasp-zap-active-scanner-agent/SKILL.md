@@ -1,10 +1,12 @@
 ---
 title: "OWASP ZAP Active Scanner Agent"
 description: "Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan policies. Generates SARIF reports compatible with GitHub Advanced Security code scanning alerts."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/owasp-zap-active-scanner-agent/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Codex"
 ---
 
 # OWASP ZAP Active Scanner Agent

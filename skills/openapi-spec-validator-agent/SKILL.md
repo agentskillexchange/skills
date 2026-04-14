@@ -1,10 +1,12 @@
 ---
 title: "OpenAPI Spec Validator"
 description: "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration guides."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/openapi-spec-validator-agent/"
 category:
   - "Developer Tools"
+framework:
+  - "Custom Agents"
 ---
 
 # OpenAPI Spec Validator

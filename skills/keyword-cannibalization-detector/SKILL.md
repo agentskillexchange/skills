@@ -1,10 +1,12 @@
 ---
 title: "Keyword Cannibalization Detector"
 description: "Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/keyword-cannibalization-detector/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "Claude Code"
 ---
 
 # Keyword Cannibalization Detector

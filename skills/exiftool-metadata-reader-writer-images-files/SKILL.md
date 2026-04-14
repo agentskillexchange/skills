@@ -1,13 +1,12 @@
 ---
 title: "ExifTool Metadata Reader and Writer for Images and Files"
 description: "ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for reading, writing, and editing metadata in over 400 file types. It extracts EXIF, IPTC, XMP, GPS, and maker note data from images, videos, audio, PDFs, and documents, making it the industry standard for metadata forensics and batch processing."
-verification: security_reviewed
-source: "https://github.com/exiftool/exiftool"
+verification: listed
+source: "https://agentskillexchange.com/skills/exiftool-metadata-reader-writer-images-files/"
 category:
-  - "Data Extraction &amp; Transformation"
-tool_ecosystem:
-  github_repo: "exiftool/exiftool"
-  github_stars: 4560
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 ---
 
 # ExifTool Metadata Reader and Writer for Images and Files

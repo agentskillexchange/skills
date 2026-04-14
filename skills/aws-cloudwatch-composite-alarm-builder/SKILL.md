@@ -1,10 +1,12 @@
 ---
 title: "AWS CloudWatch Composite Alarm Builder"
 description: "Creates and manages AWS CloudWatch composite alarms using the CloudWatch PutCompositeAlarm API. Builds alarm rule expressions from existing metric alarms with AND/OR/NOT logic for multi-signal alerting."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-composite-alarm-builder/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # AWS CloudWatch Composite Alarm Builder

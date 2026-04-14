@@ -1,13 +1,12 @@
 ---
 title: "Crawl4AI Open-Source Web Crawling and Markdown Extraction"
 description: "Crawl4AI is an open source crawler and scraper built for LLM-ready web extraction, with structured markdown output, browser support, and Python package distribution. It has strong adoption, active maintenance, and a dedicated docs site for integration patterns."
-verification: security_reviewed
-source: "https://github.com/unclecode/crawl4ai"
+verification: listed
+source: "https://agentskillexchange.com/skills/crawl4ai-open-source-web-crawling-and-markdown-extraction/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "unclecode/crawl4ai"
-  github_stars: 63814
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Crawl4AI Open-Source Web Crawling and Markdown Extraction

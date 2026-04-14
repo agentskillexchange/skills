@@ -1,10 +1,12 @@
 ---
 title: "Terraform Module Scaffold Generator"
 description: "Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL). Integrates with terraform-docs for automatic README generation and includes pre-configured .terraform-version files."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/terraform-module-scaffold-generator/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 ---
 
 # Terraform Module Scaffold Generator

@@ -1,13 +1,12 @@
 ---
 title: "Aider AI Pair Programming CLI Agent"
 description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages."
-verification: security_reviewed
-source: "https://github.com/Aider-AI/aider"
+verification: listed
+source: "https://agentskillexchange.com/skills/aider-ai-pair-programming-cli-agent/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "Aider-AI/aider"
-  github_stars: 42670
+framework:
+  - "Custom Agents"
 ---
 
 # Aider AI Pair Programming CLI Agent

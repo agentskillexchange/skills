@@ -1,13 +1,12 @@
 ---
 title: "Plausible Analytics Privacy-First Web Analytics Platform"
 description: "Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page dashboard with all essential website metrics and traffic insights."
-verification: security_reviewed
-source: "https://github.com/plausible/analytics"
+verification: listed
+source: "https://agentskillexchange.com/skills/plausible-analytics-privacy-first-web-analytics/"
 category:
-  - "Monitoring &amp; Alerts"
-tool_ecosystem:
-  github_repo: "plausible/analytics"
-  github_stars: 24495
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # Plausible Analytics Privacy-First Web Analytics Platform

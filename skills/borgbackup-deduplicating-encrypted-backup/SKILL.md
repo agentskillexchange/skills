@@ -1,10 +1,12 @@
 ---
 title: "BorgBackup Deduplicating Encrypted Backup Program"
 description: "BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses content-defined chunking for space-efficient daily backups, making it ideal for automating secure incremental backups to local or remote SSH targets."
-verification: security_reviewed
-source: "https://github.com/borgbackup/borg"
+verification: listed
+source: "https://agentskillexchange.com/skills/borgbackup-deduplicating-encrypted-backup/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 ---
 
 # BorgBackup Deduplicating Encrypted Backup Program

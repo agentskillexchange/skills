@@ -1,10 +1,12 @@
 ---
 title: "NPM Package Supply Chain Auditor"
 description: "Audits npm dependencies for supply chain risks using npm audit, Socket.dev API, and Snyk vulnerability database. Detects typosquatting, install scripts, and maintainer account takeovers."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/npm-package-supply-chain-auditor/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 ---
 
 # NPM Package Supply Chain Auditor

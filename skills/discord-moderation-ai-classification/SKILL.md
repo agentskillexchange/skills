@@ -1,10 +1,12 @@
 ---
 title: "Discord Moderation Bot with AI Classification"
 description: "Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior. Issues timeouts via the Discord REST API and logs incidents to a Supabase Postgres table for moderator review. Rule sets are stored in Supabase and hot-reloaded without restart."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/discord-moderation-ai-classification/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Cursor"
 ---
 
 # Discord Moderation Bot with AI Classification

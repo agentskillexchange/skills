@@ -1,10 +1,12 @@
 ---
 title: "SEO Meta Tag Optimizer"
 description: "Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/seo-meta-tag-optimizer-agent/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # SEO Meta Tag Optimizer

@@ -1,10 +1,12 @@
 ---
 title: "Apify Web Scraper Orchestrator"
 description: "Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 ---
 
 # Apify Web Scraper Orchestrator

@@ -1,10 +1,12 @@
 ---
 title: "Prometheus Alert Runbook Agent"
 description: "Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/prometheus-alert-runbook-agent/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Prometheus Alert Runbook Agent

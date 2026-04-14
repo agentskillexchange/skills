@@ -1,15 +1,12 @@
 ---
 title: "tldraw Infinite Canvas Whiteboard SDK for React"
 description: "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of the box, with full extensibility for custom shapes, tools, and UI components."
-verification: security_reviewed
-source: "https://github.com/tldraw/tldraw"
+verification: listed
+source: "https://agentskillexchange.com/skills/tldraw-infinite-canvas-whiteboard-sdk/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "tldraw/tldraw"
-  github_stars: 46154
-  npm_package: "tldraw"
-  npm_weekly_downloads: 170872
+framework:
+  - "Multi-Framework"
 ---
 
 # tldraw Infinite Canvas Whiteboard SDK for React

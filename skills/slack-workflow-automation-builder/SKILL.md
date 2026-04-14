@@ -1,10 +1,12 @@
 ---
 title: "Slack Workflow Automation Builder"
 description: "Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive message components."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/slack-workflow-automation-builder/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Code"
 ---
 
 # Slack Workflow Automation Builder

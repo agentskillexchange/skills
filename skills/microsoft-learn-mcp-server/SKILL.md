@@ -1,13 +1,12 @@
 ---
 title: "Microsoft Learn MCP Server"
 description: "Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and code samples through a hosted MCP endpoint. It is built to reduce hallucinations around Azure, .NET, Microsoft 365, and other Microsoft platforms by grounding answers in first-party docs."
-verification: security_reviewed
-source: "https://github.com/MicrosoftDocs/mcp"
+verification: listed
+source: "https://agentskillexchange.com/skills/microsoft-learn-mcp-server/"
 category:
-  - "Library &amp; API Reference"
-tool_ecosystem:
-  github_repo: "MicrosoftDocs/mcp"
-  github_stars: 1536
+  - "Library & API Reference"
+framework:
+  - "MCP"
 ---
 
 # Microsoft Learn MCP Server

@@ -1,10 +1,12 @@
 ---
 title: "Semgrep Custom Pattern Builder"
 description: "Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Codex"
 ---
 
 # Semgrep Custom Pattern Builder

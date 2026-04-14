@@ -1,13 +1,12 @@
 ---
 title: "changedetection.io Self-Hosted Website Change Monitoring Platform"
 description: "changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser automation via Playwright, and delivers notifications through Discord, Slack, Telegram, email, webhooks, and dozens more channels."
-verification: security_reviewed
-source: "https://github.com/dgtlmoon/changedetection.io"
+verification: listed
+source: "https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "dgtlmoon/changedetection.io"
-  github_stars: 30867
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # changedetection.io Self-Hosted Website Change Monitoring Platform

@@ -1,10 +1,12 @@
 ---
 title: "Apify SDK for Web Scraping and Actor Automation"
 description: "Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It gives agents a structured way to run scraping jobs, store outputs, manage inputs, and combine crawler logic with browser automation when needed."
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
+verification: listed
+source: "https://agentskillexchange.com/skills/apify-sdk-web-scraping-actor-automation/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Apify SDK for Web Scraping and Actor Automation

@@ -1,10 +1,12 @@
 ---
 title: "k6 Load Testing CLI for JavaScript Performance Scenarios"
 description: "k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and observability workflows where repeatable load scenarios matter."
-verification: security_reviewed
-source: "https://github.com/grafana/k6"
+verification: listed
+source: "https://agentskillexchange.com/skills/k6-load-testing-cli-javascript-performance-scenarios/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # k6 Load Testing CLI for JavaScript Performance Scenarios

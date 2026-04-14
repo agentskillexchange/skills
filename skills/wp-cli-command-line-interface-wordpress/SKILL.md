@@ -1,13 +1,12 @@
 ---
 title: "WP-CLI Command-Line Interface for WordPress"
 description: "Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin."
-verification: security_reviewed
-source: "https://github.com/wp-cli/wp-cli"
+verification: listed
+source: "https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/"
 category:
-  - "WordPress &amp; CMS"
-tool_ecosystem:
-  github_repo: "wp-cli/wp-cli"
-  github_stars: 5044
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 ---
 
 # WP-CLI Command-Line Interface for WordPress

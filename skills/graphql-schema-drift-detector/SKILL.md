@@ -1,10 +1,12 @@
 ---
 title: "GraphQL Schema Drift Detector"
 description: "Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/graphql-schema-drift-detector/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "MCP"
 ---
 
 # GraphQL Schema Drift Detector

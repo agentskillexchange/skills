@@ -1,10 +1,12 @@
 ---
 title: "Pandas DataFrame Pipeline Builder"
 description: "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/pandas-dataframe-pipeline-builder/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Cursor"
 ---
 
 # Pandas DataFrame Pipeline Builder

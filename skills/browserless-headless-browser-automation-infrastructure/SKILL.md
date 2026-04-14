@@ -1,10 +1,12 @@
 ---
 title: "Browserless Headless Browser Automation Infrastructure"
 description: "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks a stable WebSocket and REST surface for screenshots, PDFs, scraping, persistent sessions, and debugging without hand-managing browser fleets."
-verification: security_reviewed
-source: "https://github.com/browserless/browserless"
+verification: listed
+source: "https://agentskillexchange.com/skills/browserless-headless-browser-automation-infrastructure/"
 category:
   - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Browserless Headless Browser Automation Infrastructure

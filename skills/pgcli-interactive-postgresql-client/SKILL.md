@@ -1,13 +1,12 @@
 ---
 title: "pgcli Interactive PostgreSQL Client with Autocompletion"
 description: "pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query editing. Part of the dbcli project with 13k+ GitHub stars, it makes database exploration and query writing dramatically more productive."
-verification: security_reviewed
-source: "https://github.com/dbcli/pgcli"
+verification: listed
+source: "https://agentskillexchange.com/skills/pgcli-interactive-postgresql-client/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "dbcli/pgcli"
-  github_stars: 13092
+framework:
+  - "OpenClaw"
 ---
 
 # pgcli Interactive PostgreSQL Client with Autocompletion

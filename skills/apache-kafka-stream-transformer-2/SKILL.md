@@ -1,10 +1,12 @@
 ---
 title: "Apache Kafka Stream Transformer"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/apache-kafka-stream-transformer-2/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Cursor"
 ---
 
 # Apache Kafka Stream Transformer

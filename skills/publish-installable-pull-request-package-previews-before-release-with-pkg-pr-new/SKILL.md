@@ -2,14 +2,11 @@
 title: "Publish installable pull-request package previews before release with pkg.pr.new"
 description: "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release."
 verification: listed
-source: "https://github.com/stackblitz-labs/pkg.pr.new"
+source: "https://agentskillexchange.com/skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/"
 category:
   - "CI/CD Integrations"
-tool_ecosystem:
-  github_repo: "stackblitz-labs/pkg.pr.new"
-  github_stars: 1840
-  npm_package: "pkg-pr-new"
-  npm_weekly_downloads: 387380
+framework:
+  - "Multi-Framework"
 ---
 
 # Publish installable pull-request package previews before release with pkg.pr.new

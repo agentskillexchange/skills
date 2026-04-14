@@ -1,13 +1,12 @@
 ---
 title: "ToolJet Open Source Internal Tools and Workflow Platform"
 description: "ToolJet is an open-source platform for internal tools, dashboards, workflows, and AI-assisted business apps. It connects visual app building with databases, APIs, object storage, and self-hosted deployment patterns that agents can reuse across teams."
-verification: security_reviewed
-source: "https://github.com/ToolJet/ToolJet"
+verification: listed
+source: "https://agentskillexchange.com/skills/tooljet-open-source-internal-tools-workflow-platform/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "ToolJet/ToolJet"
-  github_stars: 37721
+framework:
+  - "Multi-Framework"
 ---
 
 # ToolJet Open Source Internal Tools and Workflow Platform

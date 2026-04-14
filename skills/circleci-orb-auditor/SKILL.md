@@ -1,10 +1,12 @@
 ---
 title: "CircleCI Orb Auditor"
 description: "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/circleci-orb-auditor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # CircleCI Orb Auditor

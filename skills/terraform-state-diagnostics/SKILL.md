@@ -1,10 +1,12 @@
 ---
 title: "Terraform State Diagnostics"
 description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/terraform-state-diagnostics/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # Terraform State Diagnostics

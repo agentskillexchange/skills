@@ -1,10 +1,12 @@
 ---
 title: "ESLint Auto-Fix Orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/eslint-autofix-orchestrator/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
 ---
 
 # ESLint Auto-Fix Orchestrator

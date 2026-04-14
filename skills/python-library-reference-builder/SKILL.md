@@ -1,10 +1,12 @@
 ---
 title: "Python Library Reference Builder"
 description: "Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed packages via importlib."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/python-library-reference-builder/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "OpenClaw"
 ---
 
 # Python Library Reference Builder

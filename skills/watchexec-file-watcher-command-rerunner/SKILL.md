@@ -1,13 +1,12 @@
 ---
 title: "watchexec File Watcher and Command Re-Runner"
 description: "watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects file modifications. It respects .gitignore rules, coalesces rapid filesystem events, and works cross-platform without requiring any language runtime."
-verification: security_reviewed
-source: "https://github.com/watchexec/watchexec"
+verification: listed
+source: "https://agentskillexchange.com/skills/watchexec-file-watcher-command-rerunner/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "watchexec/watchexec"
-  github_stars: 6882
+framework:
+  - "Custom Agents"
 ---
 
 # watchexec File Watcher and Command Re-Runner

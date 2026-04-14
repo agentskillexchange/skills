@@ -1,13 +1,12 @@
 ---
 title: "SWC Speedy Web Compiler for JavaScript and TypeScript"
 description: "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a single thread and 70x faster on four cores. It handles transpilation, minification, and bundling, and powers major tools including Next.js, Parcel, and Rspack."
-verification: security_reviewed
-source: "https://github.com/swc-project/swc"
+verification: listed
+source: "https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "swc-project/swc"
-  github_stars: 33347
+framework:
+  - "Multi-Framework"
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript

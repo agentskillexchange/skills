@@ -1,10 +1,12 @@
 ---
 title: "dbt Model Dependency Analyzer"
 description: "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/dbt-model-dependency-analyzer/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "Claude Code"
 ---
 
 # dbt Model Dependency Analyzer

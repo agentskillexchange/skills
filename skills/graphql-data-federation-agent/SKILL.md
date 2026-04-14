@@ -1,10 +1,12 @@
 ---
 title: "GraphQL Data Federation Agent"
 description: "Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with automatic type merging and the DataLoader pattern for N+1 prevention."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/graphql-data-federation-agent/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
+framework:
+  - "OpenClaw"
 ---
 
 # GraphQL Data Federation Agent

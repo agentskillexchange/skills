@@ -1,10 +1,12 @@
 ---
 title: "HashiCorp Vault Secret Scanner"
 description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/hashicorp-vault-secret-scanner-2/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # HashiCorp Vault Secret Scanner

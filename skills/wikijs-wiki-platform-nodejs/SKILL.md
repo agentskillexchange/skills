@@ -1,13 +1,12 @@
 ---
 title: "Wiki.js Modern Open Source Wiki Platform on Node.js"
 description: "Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed storage, and a GraphQL API. It provides multi-language content, granular access controls, and integrations with major authentication providers."
-verification: security_reviewed
-source: "https://github.com/requarks/wiki"
+verification: listed
+source: "https://agentskillexchange.com/skills/wikijs-wiki-platform-nodejs/"
 category:
-  - "Calendar, Email &amp; Productivity"
-tool_ecosystem:
-  github_repo: "requarks/wiki"
-  github_stars: 28154
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Wiki.js Modern Open Source Wiki Platform on Node.js

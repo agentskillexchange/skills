@@ -1,13 +1,12 @@
 ---
 title: "Wish SSH Application Framework by Charmbracelet"
 description: "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos, and custom protocols over SSH without touching openssh-server."
-verification: security_reviewed
-source: "https://github.com/charmbracelet/wish"
+verification: listed
+source: "https://agentskillexchange.com/skills/wish-ssh-application-framework/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "charmbracelet/wish"
-  github_stars: 5110
+framework:
+  - "Custom Agents"
 ---
 
 # Wish SSH Application Framework by Charmbracelet

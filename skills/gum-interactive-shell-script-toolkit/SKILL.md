@@ -1,13 +1,12 @@
 ---
 title: "Gum Interactive Shell Script Toolkit"
 description: "Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components (choose, confirm, input, filter, spin, table, format) that can be used directly from bash to create interactive, visually polished CLI experiences."
-verification: security_reviewed
-source: "https://github.com/charmbracelet/gum"
+verification: listed
+source: "https://agentskillexchange.com/skills/gum-interactive-shell-script-toolkit/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "charmbracelet/gum"
-  github_stars: 23196
+framework:
+  - "Claude Code"
 ---
 
 # Gum Interactive Shell Script Toolkit

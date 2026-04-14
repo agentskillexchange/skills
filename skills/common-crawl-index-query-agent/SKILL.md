@@ -1,10 +1,12 @@
 ---
 title: "Common Crawl Index Query Agent"
 description: "Queries the Common Crawl Index API for large-scale web archive research and data extraction. Uses the CDX Server API, WARC record parsing with warcio, and the Common Crawl S3 bucket for bulk data access."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/common-crawl-index-query-agent/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # Common Crawl Index Query Agent

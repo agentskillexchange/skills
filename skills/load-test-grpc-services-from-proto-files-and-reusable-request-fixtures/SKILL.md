@@ -1,13 +1,12 @@
 ---
 title: "Load-test gRPC services from proto files and reusable request fixtures"
 description: "This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An agent can replay request fixtures at controlled concurrency, capture latency and error rates, and export machine-readable reports for regression checks or performance investigations."
-verification: security_reviewed
-source: "https://github.com/bojand/ghz"
+verification: listed
+source: "https://agentskillexchange.com/skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/"
 category:
-  - "Runbooks &amp; Diagnostics"
-tool_ecosystem:
-  github_repo: "bojand/ghz"
-  github_stars: 3315
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 ---
 
 # Load-test gRPC services from proto files and reusable request fixtures

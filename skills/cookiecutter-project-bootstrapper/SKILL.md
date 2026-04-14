@@ -1,10 +1,12 @@
 ---
 title: "Cookiecutter Project Bootstrapper"
 description: "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-bootstrapper/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Gemini"
 ---
 
 # Cookiecutter Project Bootstrapper

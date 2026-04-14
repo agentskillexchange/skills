@@ -1,10 +1,12 @@
 ---
 title: "Ansible Playbook Diagnostics Runner"
 description: "Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Gemini"
 ---
 
 # Ansible Playbook Diagnostics Runner

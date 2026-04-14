@@ -1,13 +1,12 @@
 ---
 title: "Generate release PRs and changelog updates from Conventional Commits"
 description: "Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps, and changelog updates before a human reviews and merges. This is a release-management workflow, not a generic package or CI listing."
-verification: security_reviewed
-source: "https://github.com/googleapis/release-please"
+verification: listed
+source: "https://agentskillexchange.com/skills/generate-release-prs-and-changelog-updates-from-conventional-commits/"
 category:
   - "CI/CD Integrations"
-tool_ecosystem:
-  github_repo: "googleapis/release-please"
-  github_stars: 6700
+framework:
+  - "Multi-Framework"
 ---
 
 # Generate release PRs and changelog updates from Conventional Commits

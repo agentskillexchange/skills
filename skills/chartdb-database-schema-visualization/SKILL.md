@@ -1,13 +1,12 @@
 ---
 title: "ChartDB Database Schema Visualization and Diagram Editor"
 description: "ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It supports AI-powered DDL export for cross-database migration, interactive schema editing, and works entirely in the browser with no account required."
-verification: security_reviewed
-source: "https://github.com/chartdb/chartdb"
+verification: listed
+source: "https://agentskillexchange.com/skills/chartdb-database-schema-visualization/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "chartdb/chartdb"
-  github_stars: 21734
+framework:
+  - "Multi-Framework"
 ---
 
 # ChartDB Database Schema Visualization and Diagram Editor

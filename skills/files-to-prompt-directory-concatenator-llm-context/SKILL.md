@@ -1,13 +1,12 @@
 ---
 title: "files-to-prompt Directory Concatenator for LLM Context"
 description: "files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs. It supports file extension filtering, gitignore-aware exclusions, Claude XML format output, Markdown fenced code blocks, line numbering, and stdin piping for flexible codebase-to-prompt workflows."
-verification: security_reviewed
-source: "https://github.com/simonw/files-to-prompt"
+verification: listed
+source: "https://agentskillexchange.com/skills/files-to-prompt-directory-concatenator-llm-context/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "simonw/files-to-prompt"
-  github_stars: 2643
+framework:
+  - "Multi-Framework"
 ---
 
 # files-to-prompt Directory Concatenator for LLM Context

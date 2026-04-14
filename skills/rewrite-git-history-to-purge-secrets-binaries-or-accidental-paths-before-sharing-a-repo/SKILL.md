@@ -1,13 +1,12 @@
 ---
 title: "Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo"
 description: "Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split. The agent analyzes the problem, builds the rewrite command, and leaves a clean follow-up checklist for force-push, clone reset, and downstream cleanup."
-verification: security_reviewed
-source: "https://github.com/newren/git-filter-repo"
+verification: listed
+source: "https://agentskillexchange.com/skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/"
 category:
-  - "Runbooks &amp; Diagnostics"
-tool_ecosystem:
-  github_repo: "newren/git-filter-repo"
-  github_stars: 12127
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 ---
 
 # Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo

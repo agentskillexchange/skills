@@ -1,10 +1,12 @@
 ---
 title: "Appsmith Open Source Internal Tools and Admin Panel Builder"
 description: "Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases and APIs. It is well suited to operational workflows where agents or developers need a fast way to stand up interfaces for support, ops, analytics, or back-office tasks."
-verification: security_reviewed
-source: "https://github.com/appsmithorg/appsmith"
+verification: listed
+source: "https://agentskillexchange.com/skills/appsmith-open-source-internal-tools-admin-panel-builder/"
 category:
   - "Developer Tools"
+framework:
+  - "Multi-Framework"
 ---
 
 # Appsmith Open Source Internal Tools and Admin Panel Builder

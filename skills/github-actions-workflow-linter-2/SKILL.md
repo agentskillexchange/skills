@@ -1,10 +1,12 @@
 ---
 title: "GitHub Actions Workflow Linter"
 description: "Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions before CI runs."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/github-actions-workflow-linter-2/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "OpenClaw"
 ---
 
 # GitHub Actions Workflow Linter

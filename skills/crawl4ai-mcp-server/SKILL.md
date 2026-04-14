@@ -1,13 +1,12 @@
 ---
 title: "Crawl4AI MCP Server"
 description: "Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control, and extract clean markdown — all self-hosted and free."
-verification: security_reviewed
-source: "https://github.com/sadiuysal/crawl4ai-mcp-server"
+verification: listed
+source: "https://agentskillexchange.com/skills/crawl4ai-mcp-server/"
 category:
-  - "Data Extraction &amp; Transformation"
-tool_ecosystem:
-  github_repo: "sadiuysal/crawl4ai-mcp-server"
-  github_stars: 72
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 ---
 
 # Crawl4AI MCP Server

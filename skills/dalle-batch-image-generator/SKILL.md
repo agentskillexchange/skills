@@ -1,10 +1,12 @@
 ---
 title: "DALL-E Batch Image Generator"
 description: "Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint. Supports DALL-E 3 with size, quality, and style parameters plus automatic prompt revision tracking."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/dalle-batch-image-generator/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Claude Agents"
 ---
 
 # DALL-E Batch Image Generator

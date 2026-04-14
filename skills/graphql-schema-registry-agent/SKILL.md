@@ -1,10 +1,12 @@
 ---
 title: "GraphQL Schema Registry Agent"
 description: "Manages federated GraphQL schemas using Apollo Studio API and Hive Schema Registry. Validates schema composition, detects breaking changes, and enforces naming conventions across subgraph services."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/graphql-schema-registry-agent/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
 # GraphQL Schema Registry Agent

@@ -1,20 +1,17 @@
 ---
 title: "zx JavaScript Shell Script Runner"
-description: "Write better shell scripts in JavaScript using Google&#8217;s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
-verification: security_reviewed
-source: "https://github.com/google/zx"
+description: "Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks."
+verification: listed
+source: "https://agentskillexchange.com/skills/zx-javascript-shell-script-runner/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "google/zx"
-  github_stars: 45324
-  npm_package: "zx"
-  npm_weekly_downloads: 1467127
+framework:
+  - "Claude Code"
 ---
 
 # zx JavaScript Shell Script Runner
 
-Write better shell scripts in JavaScript using Google&#8217;s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks.
+Write better shell scripts in JavaScript using Google’s zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full npm ecosystem for automation tasks.
 
 ## Installation
 

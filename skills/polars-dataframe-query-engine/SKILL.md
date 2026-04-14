@@ -1,13 +1,12 @@
 ---
 title: "Polars Blazing-Fast DataFrame Query Engine"
 description: "Polars is an extremely fast DataFrame library written in Rust with Python, Node.js, and R bindings. This skill enables agents to leverage Polars for high-performance data manipulation, transformation, and analytical queries on structured datasets."
-verification: security_reviewed
-source: "https://github.com/pola-rs/polars"
+verification: listed
+source: "https://agentskillexchange.com/skills/polars-dataframe-query-engine/"
 category:
-  - "Data Extraction &amp; Transformation"
-tool_ecosystem:
-  github_repo: "pola-rs/polars"
-  github_stars: 37924
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 ---
 
 # Polars Blazing-Fast DataFrame Query Engine

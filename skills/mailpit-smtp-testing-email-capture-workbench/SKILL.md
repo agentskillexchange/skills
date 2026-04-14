@@ -1,10 +1,12 @@
 ---
 title: "Mailpit SMTP Testing and Email Capture Workbench"
 description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
-verification: security_reviewed
-source: "https://mailpit.axllent.org/"
+verification: listed
+source: "https://agentskillexchange.com/skills/mailpit-smtp-testing-email-capture-workbench/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Mailpit SMTP Testing and Email Capture Workbench

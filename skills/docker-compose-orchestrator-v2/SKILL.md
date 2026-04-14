@@ -1,10 +1,12 @@
 ---
 title: "Docker Compose Orchestrator"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/docker-compose-orchestrator-v2/"
 category:
   - "Developer Tools"
+framework:
+  - "OpenClaw"
 ---
 
 # Docker Compose Orchestrator

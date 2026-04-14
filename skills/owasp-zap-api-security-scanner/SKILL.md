@@ -1,10 +1,12 @@
 ---
 title: "OWASP ZAP API Security Scanner"
 description: "Automates OWASP ZAP scans against REST APIs using the ZAP Python API client. Imports OpenAPI/Swagger specs for targeted scanning and generates SARIF-format reports for GitHub Security tab integration."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/owasp-zap-api-security-scanner/"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
+framework:
+  - "Gemini"
 ---
 
 # OWASP ZAP API Security Scanner

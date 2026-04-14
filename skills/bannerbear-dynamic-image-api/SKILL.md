@@ -1,10 +1,12 @@
 ---
 title: "Bannerbear Dynamic Image API"
 description: "Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications, font layers, and signed URL generation for on-the-fly image personalization."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/bannerbear-dynamic-image-api/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Bannerbear Dynamic Image API

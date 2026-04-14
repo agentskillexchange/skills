@@ -1,13 +1,12 @@
 ---
 title: "D2 Modern Diagram Scripting Language and CLI"
 description: "D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into SVG, PNG, and PDF outputs with automatic layout, multiple themes, and support for sequence diagrams, class diagrams, and network topologies."
-verification: security_reviewed
-source: "https://github.com/terrastruct/d2"
+verification: listed
+source: "https://agentskillexchange.com/skills/d2-diagram-scripting-language-cli/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "terrastruct/d2"
-  github_stars: 23316
+framework:
+  - "Multi-Framework"
 ---
 
 # D2 Modern Diagram Scripting Language and CLI

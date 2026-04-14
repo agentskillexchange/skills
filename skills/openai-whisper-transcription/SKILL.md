@@ -1,13 +1,12 @@
 ---
 title: "OpenAI Whisper Transcription"
 description: "Local speech-to-text transcription without relying on an API."
-verification: security_reviewed
-source: "https://github.com/openai/whisper"
+verification: listed
+source: "https://agentskillexchange.com/skills/openai-whisper-transcription/"
 category:
-  - "Media &amp; Transcription"
-tool_ecosystem:
-  github_repo: "openai/whisper"
-  github_stars: 97226
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 ---
 
 # OpenAI Whisper Transcription

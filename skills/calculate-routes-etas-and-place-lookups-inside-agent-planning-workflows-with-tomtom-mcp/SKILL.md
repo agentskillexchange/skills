@@ -2,13 +2,11 @@
 title: "Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP"
 description: "Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel, field-service, and logistics tasks can stay inside an automated planning workflow."
 verification: listed
-source: "https://github.com/tomtom-international/tomtom-mcp"
+source: "https://agentskillexchange.com/skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/"
 category:
-  - "Integrations &amp; Connectors"
-tool_ecosystem:
-  github_repo: "tomtom-international/tomtom-mcp"
-  github_stars: 45
-  npm_package: "@tomtom-org/tomtom-mcp"
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 ---
 
 # Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP

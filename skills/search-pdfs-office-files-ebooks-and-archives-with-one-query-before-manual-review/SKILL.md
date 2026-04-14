@@ -1,13 +1,12 @@
 ---
 title: "Search PDFs, Office files, ebooks, and archives with one query before manual review"
 description: "Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence without separately extracting every file type first. Best when a workflow has PDFs, Office documents, ebooks, media sidecars, or compressed bundles that need fast on-demand search."
-verification: security_reviewed
-source: "https://github.com/phiresky/ripgrep-all"
+verification: listed
+source: "https://agentskillexchange.com/skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "phiresky/ripgrep-all"
-  github_stars: 9573
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Search PDFs, Office files, ebooks, and archives with one query before manual review

@@ -1,13 +1,12 @@
 ---
 title: "Firecrawl Markdown Capture Pipeline"
 description: "Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs snapshots, or retrieval-ready source material."
-verification: security_reviewed
-source: "https://github.com/firecrawl/firecrawl"
+verification: listed
+source: "https://agentskillexchange.com/skills/firecrawl-markdown-capture-pipeline/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "firecrawl/firecrawl"
-  github_stars: 102630
+  - "Research & Scraping"
+framework:
+  - "Codex"
 ---
 
 # Firecrawl Markdown Capture Pipeline

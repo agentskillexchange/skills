@@ -1,13 +1,12 @@
 ---
 title: "GitUI Blazing Fast Terminal Git Interface"
 description: "GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging, committing, branching, stashing, and log browsing with async Git operations that outperform other terminal Git clients on large repositories."
-verification: security_reviewed
-source: "https://github.com/gitui-org/gitui"
+verification: listed
+source: "https://agentskillexchange.com/skills/gitui-terminal-git-interface/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "gitui-org/gitui"
-  github_stars: 21683
+framework:
+  - "Claude Code"
 ---
 
 # GitUI Blazing Fast Terminal Git Interface

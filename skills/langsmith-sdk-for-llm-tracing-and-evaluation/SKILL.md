@@ -1,13 +1,12 @@
 ---
 title: "LangSmith SDK for LLM Tracing and Evaluation"
 description: "LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an agent team needs structured observability around prompts, chains, tool calls, datasets, and eval runs across multiple frameworks."
-verification: security_reviewed
-source: "https://github.com/langchain-ai/langsmith-sdk"
+verification: listed
+source: "https://agentskillexchange.com/skills/langsmith-sdk-for-llm-tracing-and-evaluation/"
 category:
-  - "Monitoring &amp; Alerts"
-tool_ecosystem:
-  github_repo: "langchain-ai/langsmith-sdk"
-  github_stars: 843
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # LangSmith SDK for LLM Tracing and Evaluation

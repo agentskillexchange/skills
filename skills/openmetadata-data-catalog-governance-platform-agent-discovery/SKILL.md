@@ -1,13 +1,12 @@
 ---
 title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
-verification: security_reviewed
-source: "https://github.com/open-metadata/OpenMetadata"
+verification: listed
+source: "https://agentskillexchange.com/skills/openmetadata-data-catalog-governance-platform-agent-discovery/"
 category:
-  - "Library &amp; API Reference"
-tool_ecosystem:
-  github_repo: "open-metadata/OpenMetadata"
-  github_stars: 10041
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 ---
 
 # OpenMetadata Data Catalog and Governance Platform for Agent Discovery

@@ -1,10 +1,12 @@
 ---
 title: "PostHog Product Analytics and Feature Flags SDK"
 description: "Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation data into agent or application workflows. This skill gives an agent a concrete implementation path for instrumentation, event tracking, and flag-driven behavior using the real PostHog SDK."
-verification: security_reviewed
-source: "https://github.com/PostHog/posthog-js"
+verification: listed
+source: "https://agentskillexchange.com/skills/posthog-product-analytics-and-feature-flags-sdk/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # PostHog Product Analytics and Feature Flags SDK

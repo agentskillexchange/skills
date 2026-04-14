@@ -1,13 +1,12 @@
 ---
 title: "SpiderFoot Open Source Intelligence Automation Framework"
 description: "SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and other targets. Written in Python, it provides both a web UI and CLI for reconnaissance, threat intelligence, and attack surface mapping."
-verification: security_reviewed
-source: "https://github.com/smicallef/spiderfoot"
+verification: listed
+source: "https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "smicallef/spiderfoot"
-  github_stars: 17241
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # SpiderFoot Open Source Intelligence Automation Framework

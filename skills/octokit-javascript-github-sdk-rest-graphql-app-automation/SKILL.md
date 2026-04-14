@@ -1,10 +1,12 @@
 ---
 title: "Octokit JavaScript GitHub SDK for REST GraphQL and App Automation"
 description: "Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and GitHub App workflows. It gives agents and automation systems a typed, maintained client for working with GitHub from Node.js, browsers, and Deno."
-verification: security_reviewed
-source: "https://github.com/octokit/octokit.js"
+verification: listed
+source: "https://agentskillexchange.com/skills/octokit-javascript-github-sdk-rest-graphql-app-automation/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 ---
 
 # Octokit JavaScript GitHub SDK for REST GraphQL and App Automation

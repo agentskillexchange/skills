@@ -1,13 +1,12 @@
 ---
 title: "Cookiecutter Project Template Scaffolder"
 description: "Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates cookiecutter.json variable prompting and post-generation hook execution."
-verification: security_reviewed
-source: "https://github.com/cookiecutter/cookiecutter"
+verification: listed
+source: "https://agentskillexchange.com/skills/cookiecutter-project-template-scaffolder/"
 category:
-  - "Templates &amp; Workflows"
-tool_ecosystem:
-  github_repo: "cookiecutter/cookiecutter"
-  github_stars: 24786
+  - "Templates & Workflows"
+framework:
+  - "Cursor"
 ---
 
 # Cookiecutter Project Template Scaffolder

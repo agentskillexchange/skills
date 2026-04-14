@@ -1,10 +1,12 @@
 ---
 title: "OpenAPI Spec Navigator"
 description: "Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/openapi-spec-navigator/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 ---
 
 # OpenAPI Spec Navigator

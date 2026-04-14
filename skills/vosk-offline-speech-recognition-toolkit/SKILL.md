@@ -1,13 +1,12 @@
 ---
 title: "Vosk Offline Speech Recognition Toolkit"
 description: "Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies."
-verification: security_reviewed
-source: "https://github.com/alphacep/vosk-api"
+verification: listed
+source: "https://agentskillexchange.com/skills/vosk-offline-speech-recognition-toolkit/"
 category:
-  - "Media &amp; Transcription"
-tool_ecosystem:
-  github_repo: "alphacep/vosk-api"
-  github_stars: 14474
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 ---
 
 # Vosk Offline Speech Recognition Toolkit

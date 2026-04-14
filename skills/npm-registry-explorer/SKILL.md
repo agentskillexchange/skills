@@ -1,10 +1,12 @@
 ---
 title: "npm Registry Explorer"
 description: "Queries the npm registry API and npms.io search API for package discovery, dependency analysis, and quality scoring. Resolves semver ranges, detects deprecated packages, and checks bundle sizes via Bundlephobia API."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/npm-registry-explorer/"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
+framework:
+  - "Claude Agents"
 ---
 
 # npm Registry Explorer

@@ -1,10 +1,12 @@
 ---
 title: "WordPress Multisite Provisioner"
 description: "Automates WordPress Multisite network site creation using wp_insert_site() and the Sites REST API. Configures per-site themes, plugins, and options via switch_to_blog() with subdomain or subdirectory routing."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/wp-multisite-provisioner-agent/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
+framework:
+  - "ChatGPT Agents"
 ---
 
 # WordPress Multisite Provisioner

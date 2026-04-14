@@ -1,18 +1,17 @@
 ---
 title: "Logfire Python Observability SDK for LLM and Agent Tracing"
-description: "Logfire is Pydantic&#8217;s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch."
-verification: security_reviewed
-source: "https://github.com/pydantic/logfire"
+description: "Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch."
+verification: listed
+source: "https://agentskillexchange.com/skills/logfire-python-observability-sdk-llm-agent-tracing/"
 category:
-  - "Monitoring &amp; Alerts"
-tool_ecosystem:
-  github_repo: "pydantic/logfire"
-  github_stars: 4161
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # Logfire Python Observability SDK for LLM and Agent Tracing
 
-Logfire is Pydantic&#8217;s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
+Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
 
 ## Installation
 

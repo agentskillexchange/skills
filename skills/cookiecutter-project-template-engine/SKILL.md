@@ -1,10 +1,12 @@
 ---
 title: "Cookiecutter Project Template Engine"
 description: "Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and post-generation hooks. Supports template inheritance chains and integrates with cruft for template update tracking."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-template-engine/"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
+framework:
+  - "Claude Agents"
 ---
 
 # Cookiecutter Project Template Engine

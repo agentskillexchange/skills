@@ -1,10 +1,12 @@
 ---
 title: "CircleCI Orb Validator"
 description: "Validates and lints CircleCI orb configurations using the CircleCI CLI and circleci-config-sdk. Checks for deprecated keys, version constraints, and executor compatibility before publishing."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/circleci-orb-validator/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 ---
 
 # CircleCI Orb Validator

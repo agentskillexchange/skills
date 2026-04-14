@@ -1,15 +1,12 @@
 ---
 title: "Crawlee Web Crawling and Browser Automation Library"
 description: "Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library. Useful for request queue management, Playwright or Puppeteer crawling, structured dataset export, and resilient scraping across large sets of pages."
-verification: security_reviewed
-source: "https://github.com/apify/crawlee"
+verification: listed
+source: "https://agentskillexchange.com/skills/crawlee-web-crawling-browser-automation-library/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "apify/crawlee"
-  github_stars: 22591
-  npm_package: "crawlee"
-  npm_weekly_downloads: 72475
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 ---
 
 # Crawlee Web Crawling and Browser Automation Library

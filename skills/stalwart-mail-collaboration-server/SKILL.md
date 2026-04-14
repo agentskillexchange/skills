@@ -1,13 +1,12 @@
 ---
 title: "Stalwart All-in-One Mail and Collaboration Server"
 description: "Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables agents to deploy and manage self-hosted email infrastructure with built-in spam filtering, DKIM/DMARC/SPF authentication, and full calendar and contact synchronization."
-verification: security_reviewed
-source: "https://github.com/stalwartlabs/stalwart"
+verification: listed
+source: "https://agentskillexchange.com/skills/stalwart-mail-collaboration-server/"
 category:
-  - "Calendar, Email &amp; Productivity"
-tool_ecosystem:
-  github_repo: "stalwartlabs/stalwart"
-  github_stars: 12164
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 ---
 
 # Stalwart All-in-One Mail and Collaboration Server

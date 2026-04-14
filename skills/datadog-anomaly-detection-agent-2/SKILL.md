@@ -1,10 +1,12 @@
 ---
 title: "Datadog Anomaly Detection Agent"
 description: "Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on infrastructure drift. Integrates with PagerDuty and Slack webhooks for multi-channel incident routing."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/datadog-anomaly-detection-agent-2/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 ---
 
 # Datadog Anomaly Detection Agent

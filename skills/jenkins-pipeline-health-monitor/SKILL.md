@@ -1,10 +1,12 @@
 ---
 title: "Jenkins Pipeline Health Monitor"
 description: "Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive CI maintenance."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/jenkins-pipeline-health-monitor/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Codex"
 ---
 
 # Jenkins Pipeline Health Monitor

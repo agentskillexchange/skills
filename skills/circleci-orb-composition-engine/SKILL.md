@@ -1,10 +1,12 @@
 ---
 title: "CircleCI Orb Composition Engine"
 description: "Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with parameterized pipeline configurations."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/circleci-orb-composition-engine/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Custom Agents"
 ---
 
 # CircleCI Orb Composition Engine

@@ -1,13 +1,14 @@
 ---
 title: "Sentry for AI"
 description: "Observability and debugging support for AI-assisted application workflows."
-verification: security_reviewed
-source: "https://github.com/getsentry/sentry-for-ai"
+verification: listed
+source: "https://agentskillexchange.com/skills/sentry-for-ai/"
 category:
-  - "Security &amp; Verification"
-tool_ecosystem:
-  github_repo: "getsentry/sentry-for-ai"
-  github_stars: 105
+  - "Security & Verification"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "Custom Agents"
 ---
 
 # Sentry for AI

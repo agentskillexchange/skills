@@ -1,18 +1,17 @@
 ---
 title: "WP Multisite Domain Mapping Agent"
-description: "Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI&#8217;s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing."
-verification: security_reviewed
-source: "https://github.com/certbot/certbot"
+description: "Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing."
+verification: listed
+source: "https://agentskillexchange.com/skills/wp-multisite-domain-mapping-agent/"
 category:
-  - "WordPress &amp; CMS"
-tool_ecosystem:
-  github_repo: "certbot/certbot"
-  github_stars: 32972
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 ---
 
 # WP Multisite Domain Mapping Agent
 
-Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI&#8217;s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing.
+Manages domain mapping configurations across WordPress Multisite networks using the sunrise.php drop-in and WP-CLI’s site commands. Handles SSL certificate provisioning via Certbot ACME, DNS validation through Cloudflare API, and wp_blogs table updates for custom domain routing.
 
 ## Installation
 

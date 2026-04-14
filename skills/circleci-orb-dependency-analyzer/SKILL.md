@@ -1,10 +1,12 @@
 ---
 title: "CircleCI Orb Dependency Analyzer"
 description: "Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths for pinned orb references."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/circleci-orb-dependency-analyzer/"
 category:
   - "CI/CD Integrations"
+framework:
+  - "Gemini"
 ---
 
 # CircleCI Orb Dependency Analyzer

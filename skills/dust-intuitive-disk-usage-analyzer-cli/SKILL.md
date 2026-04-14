@@ -1,13 +1,12 @@
 ---
 title: "dust Intuitive Disk Usage Analyzer CLI"
 description: "A more intuitive version of the du command, written in Rust. dust instantly visualizes which directories consume the most disk space using colored proportional bars and smart recursive depth."
-verification: security_reviewed
-source: "https://github.com/bootandy/dust"
+verification: listed
+source: "https://agentskillexchange.com/skills/dust-intuitive-disk-usage-analyzer-cli/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "bootandy/dust"
-  github_stars: 11500
+framework:
+  - "Claude Code"
 ---
 
 # dust Intuitive Disk Usage Analyzer CLI

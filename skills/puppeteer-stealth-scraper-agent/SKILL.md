@@ -1,10 +1,12 @@
 ---
 title: "Puppeteer Stealth Scraper"
 description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/"
 category:
   - "Browser Automation"
+framework:
+  - "OpenClaw"
 ---
 
 # Puppeteer Stealth Scraper

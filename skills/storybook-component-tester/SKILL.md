@@ -1,18 +1,17 @@
 ---
 title: "Storybook Component Tester"
-description: "Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational [&hellip;]"
-verification: security_reviewed
-source: "https://github.com/storybookjs/storybook"
+description: "Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational […]"
+verification: listed
+source: "https://agentskillexchange.com/skills/storybook-component-tester/"
 category:
-  - "Code Quality &amp; Review"
-tool_ecosystem:
-  github_repo: "storybookjs/storybook"
-  github_stars: 89678
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 ---
 
 # Storybook Component Tester
 
-Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational [&hellip;]
+Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by storybookjs/storybook (89,504+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stories, controls, test runner, interaction tests, snapshots, addons and preserving the operational […]
 
 ## Installation
 

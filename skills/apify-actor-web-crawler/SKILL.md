@@ -1,10 +1,12 @@
 ---
 title: "Apify Actor Web Crawler"
 description: "Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/apify-actor-web-crawler/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
+framework:
+  - "Claude Agents"
 ---
 
 # Apify Actor Web Crawler

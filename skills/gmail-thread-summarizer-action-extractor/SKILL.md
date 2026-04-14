@@ -1,10 +1,12 @@
 ---
 title: "Gmail Thread Summarizer and Action Extractor"
 description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/gmail-thread-summarizer-action-extractor/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
+framework:
+  - "OpenClaw"
 ---
 
 # Gmail Thread Summarizer and Action Extractor

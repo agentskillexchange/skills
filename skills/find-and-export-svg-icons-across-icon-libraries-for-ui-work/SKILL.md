@@ -1,13 +1,12 @@
 ---
 title: "Find and export SVG icons across icon libraries for UI work"
 description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
-verification: security_reviewed
-source: "https://github.com/better-auth/better-icons"
+verification: listed
+source: "https://agentskillexchange.com/skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "better-auth/better-icons"
-  github_stars: 915
+framework:
+  - "Multi-Framework"
 ---
 
 # Find and export SVG icons across icon libraries for UI work

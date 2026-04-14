@@ -1,13 +1,12 @@
 ---
 title: "Convert HTML emails and web fragments into clean plain text for downstream agents"
 description: "Use html-to-text when an agent receives raw HTML from inboxes, support systems, or scraped pages and needs readable plain text before classification, summarization, or indexing. The skill is deliberately bounded to deterministic HTML-to-text conversion, not crawling or summarization."
-verification: security_reviewed
-source: "https://www.npmjs.com/package/html-to-text"
+verification: listed
+source: "https://agentskillexchange.com/skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/"
 category:
-  - "Data Extraction &amp; Transformation"
-tool_ecosystem:
-  npm_package: "html-to-text"
-  npm_weekly_downloads: 7841114
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Convert HTML emails and web fragments into clean plain text for downstream agents

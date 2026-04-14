@@ -1,13 +1,12 @@
 ---
 title: "ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines"
 description: "ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent scraping pipelines. Describe what data you want to extract in natural language and the library builds and executes the extraction pipeline automatically."
-verification: security_reviewed
-source: "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
+verification: listed
+source: "https://agentskillexchange.com/skills/scrapegraphai-llm-web-scraping/"
 category:
-  - "Research &amp; Scraping"
-tool_ecosystem:
-  github_repo: "ScrapeGraphAI/Scrapegraph-ai"
-  github_stars: 23279
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 ---
 
 # ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines

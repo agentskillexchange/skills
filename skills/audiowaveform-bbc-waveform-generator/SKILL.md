@@ -1,13 +1,12 @@
 ---
 title: "audiowaveform Audio Waveform Data Generator and Image Renderer"
 description: "audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and Opus audio files. It outputs binary or JSON waveform data and renders PNG waveform images at configurable zoom levels."
-verification: security_reviewed
-source: "https://github.com/bbc/audiowaveform"
+verification: listed
+source: "https://agentskillexchange.com/skills/audiowaveform-bbc-waveform-generator/"
 category:
-  - "Media &amp; Transcription"
-tool_ecosystem:
-  github_repo: "bbc/audiowaveform"
-  github_stars: 2130
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 ---
 
 # audiowaveform Audio Waveform Data Generator and Image Renderer

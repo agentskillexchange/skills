@@ -1,10 +1,12 @@
 ---
 title: "AWS CloudWatch Log Anomaly Scanner"
 description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups."
-verification: security_reviewed
+verification: listed
 source: "https://agentskillexchange.com/skills/aws-cloudwatch-log-anomaly-scanner/"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
+framework:
+  - "Codex"
 ---
 
 # AWS CloudWatch Log Anomaly Scanner

@@ -1,13 +1,15 @@
 ---
 title: "Slack MCP Server"
 description: "Agent access to Slack conversations and workspace workflows."
-verification: security_reviewed
-source: "https://github.com/modelcontextprotocol/servers"
+verification: listed
+source: "https://agentskillexchange.com/skills/slack-mcp-server/"
 category:
-  - "Calendar, Email &amp; Productivity"
-tool_ecosystem:
-  github_repo: "modelcontextprotocol/servers"
-  github_stars: 83288
+  - "Calendar, Email & Productivity"
+framework:
+  - "Claude Code"
+  - "Cursor"
+  - "MCP"
+  - "OpenClaw"
 ---
 
 # Slack MCP Server

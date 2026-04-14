@@ -1,13 +1,12 @@
 ---
 title: "WordPress Content Publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
-verification: security_reviewed
-source: "https://github.com/WordPress/WordPress"
+verification: listed
+source: "https://agentskillexchange.com/skills/wordpress-content-publisher/"
 category:
-  - "WordPress &amp; CMS"
-tool_ecosystem:
-  github_repo: "WordPress/WordPress"
-  github_stars: 21011
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 ---
 
 # WordPress Content Publisher

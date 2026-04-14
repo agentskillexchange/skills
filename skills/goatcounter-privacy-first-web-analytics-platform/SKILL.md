@@ -1,10 +1,12 @@
 ---
 title: "GoatCounter Privacy-First Web Analytics Platform"
 description: "GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted service or self-hosted, and it supports JavaScript, backend API, and logfile-based ingestion paths."
-verification: security_reviewed
-source: "https://github.com/arp242/goatcounter"
+verification: listed
+source: "https://agentskillexchange.com/skills/goatcounter-privacy-first-web-analytics-platform/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # GoatCounter Privacy-First Web Analytics Platform

@@ -1,13 +1,12 @@
 ---
 title: "Crush Agentic AI Coding CLI by Charmbracelet"
 description: "Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching mid-session, MCP extensibility, and LSP-enhanced context across every major platform."
-verification: security_reviewed
-source: "https://github.com/charmbracelet/crush"
+verification: listed
+source: "https://agentskillexchange.com/skills/crush-agentic-ai-coding-cli-charmbracelet/"
 category:
   - "Developer Tools"
-tool_ecosystem:
-  github_repo: "charmbracelet/crush"
-  github_stars: 22213
+framework:
+  - "Custom Agents"
 ---
 
 # Crush Agentic AI Coding CLI by Charmbracelet
