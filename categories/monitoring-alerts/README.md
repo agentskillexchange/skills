@@ -109,6 +109,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
+| [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |

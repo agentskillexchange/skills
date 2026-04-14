@@ -125,6 +125,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
+| [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](../../skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | 1.6k | — |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1980 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-14 17:21 UTC
+> **1986 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-14 19:20 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -277,7 +277,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (157 skills)
+### 🔧 CI/CD Integrations (158 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -374,6 +374,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Garden Kubernetes Development and Testing Automation Platform](skills/garden-kubernetes-dev-testing-automation/) | Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like… | Security Reviewed | 3.6k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The… | Security Reviewed | 3k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package… | Security Reviewed | 1.8k | 387.4k/wk |
+| [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | Run chart-focused lint and install checks so changed Helm charts are validated before release or merge. | Published | 1.6k | — |
 | [Gate pull requests on OpenAPI breaking changes](skills/gate-pull-requests-on-openapi-breaking-changes/) | Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to… | Security Reviewed | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](skills/harden-runner-cicd-security-agent-github-actions/) | Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It… | Security Reviewed | 1.1k | — |
 | [CircleCI Config Validator](skills/circleci-config-validator/) | Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI.… | Security Reviewed | 843 | — |
@@ -865,7 +866,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (118 skills)
+### ✅ Code Quality & Review (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -943,6 +944,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [SQLFluff SQL Linter and Auto-Formatter](skills/sqlfluff-sql-linter-auto-formatter/) | Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues,… | Security Reviewed | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can… | Security Reviewed | 9.2k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](skills/axe-core-accessibility-testing-engine/) | axe-core is the industry-standard accessibility testing engine by Deque Systems that automatically detects WCAG 2.0,… | Security Reviewed | 7k | — |
+| [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule… | Published | 6.6k | 5.2M/wk |
 | [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
@@ -952,6 +954,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Polaris Kubernetes Best Practices Validator](skills/polaris-kubernetes-best-practices-validator/) | Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI… | Security Reviewed | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or… | Security Reviewed | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | 3.1k | — |
+| [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced. | Published | 2.8k | 1.5M/wk |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
@@ -991,7 +994,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (116 skills)
+### 📊 Monitoring & Alerts (117 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1066,6 +1069,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
+| [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Published | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | 843 | — |
 | [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on… | Security Reviewed | 791 | 6.6M/wk |
@@ -1660,7 +1664,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (92 skills)
+### 📄 Templates & Workflows (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1699,11 +1703,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
+| [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Published | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |
 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | 4k | 6.4M/wk |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 402.7k/wk |
+| [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable,… | Published | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Published | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Security Reviewed | 2.4k | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C980-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C986-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C947-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,980 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,986 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -68,18 +68,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 261 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 157 | Pipeline configs, deployment automation, build tooling |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 158 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 142 | ETL pipelines, parsing, format conversion |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 133 | Vulnerability scanning, auth setup, compliance |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 124 | Incident response, troubleshooting, system diagnostics |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 118 | Linting, code review, test generators, coverage |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 116 | Metrics, alerting rules, observability |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 120 | Linting, code review, test generators, coverage |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 117 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 110 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 110 | SDK docs, API parsers, symbol resolvers |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 95 | Web scraping, UI testing, headless browser control |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 94 | Third-party API bridges, webhooks, service connectors |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 92 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 94 | Scaffolders, boilerplate generators, workflow templates |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 91 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 89 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 82 | Image generation, asset processing, design automation |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,980 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 1,986 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,947 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,8 +1,100 @@
 {
   "version": "2.0",
-  "total": 1980,
+  "total": 1986,
   "generated": "2026-04-14",
   "skills": [
+    {
+      "slug": "lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing",
+      "name": "Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing",
+      "description": "Run chart-focused lint and install checks so changed Helm charts are validated before release or merge.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1627
+      }
+    },
+    {
+      "slug": "lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint",
+      "name": "Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint",
+      "description": "Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1015
+      }
+    },
+    {
+      "slug": "run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite",
+      "name": "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite",
+      "description": "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3395
+      }
+    },
+    {
+      "slug": "pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext",
+      "name": "Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext",
+      "description": "Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7156
+      }
+    },
+    {
+      "slug": "stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs",
+      "name": "Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS",
+      "description": "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2828,
+        "npm_weekly_downloads": 1537001
+      }
+    },
+    {
+      "slug": "enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser",
+      "name": "Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser",
+      "description": "Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6557,
+        "npm_weekly_downloads": 5181412
+      }
+    },
     {
       "slug": "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches",
       "name": "Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches",

@@ -112,6 +112,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
+| [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
@@ -121,6 +122,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
+| [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](../../skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | 2.8k | 1.5M/wk |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |

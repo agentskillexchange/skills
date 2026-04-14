@@ -72,11 +72,13 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
+| [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 6.4M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
+| [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
