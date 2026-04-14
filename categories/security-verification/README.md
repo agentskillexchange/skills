@@ -8,6 +8,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
+| [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | ⭐ 34.5k |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⭐ 27.8k |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | ⭐ 27.7k |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | ⭐ 25.7k |
@@ -15,7 +16,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | ⭐ 25.3k |
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | ⭐ 21.8k |
-| [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | ⭐ 21.3k |
 
 ---
 
@@ -33,6 +33,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|---:|
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
+| [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | 34.5k | — |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
@@ -40,6 +41,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | 25.3k | — |
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | 24k | — |
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
+| [SOPS Secret File Encryption and Rotation](../../skills/sops-secret-file-encryption-rotation/) | 21.5k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | — |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
@@ -81,11 +83,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
+| [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
+| [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | — |
@@ -110,7 +114,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | — | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | — | — |
-| [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | — | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
@@ -146,7 +149,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | — | — |
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | — | — |
 | [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | — | — |
-| [SOPS Secret File Encryption and Rotation](../../skills/sops-secret-file-encryption-rotation/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
@@ -158,7 +160,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | — | — |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | — | — |
 | [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | — | — |
-| [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | — | — |
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |

@@ -52,6 +52,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 504.9k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
+| [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
 | [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
@@ -65,6 +66,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
+| [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 160k/wk |
@@ -74,6 +76,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Render git diffs as shareable HTML review reports with Diff2Html](../../skills/render-git-diffs-as-shareable-html-review-reports-diff2html/) | 3.3k | — |
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | — |
@@ -95,8 +98,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker](../../skills/codecov-coverage-tracker-skill/) | — | — |
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | — | — |
-| [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | — | — |
-| [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | — | — |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | — | — |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | — | — |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | — | — |
@@ -119,7 +120,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Impact Analyzer](../../skills/eslint-rule-impact-analyzer-2/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | — | — |
-| [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | — | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | — | — |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | — | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | — | — |

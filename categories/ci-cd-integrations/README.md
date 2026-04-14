@@ -8,6 +8,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 48.1k |
+| [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | ⭐ 33k |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⭐ 21.3k |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
@@ -15,7 +16,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | ⭐ 14k |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.8k |
-| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | ⭐ 6.7k |
 
 ---
 
@@ -34,6 +34,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
+| [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
@@ -103,7 +104,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | — | — |
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | — | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | — | — |
-| [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | — | — |

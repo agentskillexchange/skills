@@ -1,8 +1,70 @@
 {
   "version": "2.0",
-  "total": 1966,
+  "total": 1970,
   "generated": "2026-04-14",
   "skills": [
+    {
+      "slug": "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit",
+      "name": "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit",
+      "description": "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 149
+      }
+    },
+    {
+      "slug": "capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes",
+      "name": "Capture live transcripts and searchable meeting memory for agents with Minutes",
+      "description": "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action.",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1047,
+        "npm_weekly_downloads": 3196
+      }
+    },
+    {
+      "slug": "define-file-native-git-workflows-for-agents-with-gitagent",
+      "name": "Define file-native Git workflows for agents with GitAgent",
+      "description": "Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2666,
+        "npm_weekly_downloads": 1651
+      }
+    },
+    {
+      "slug": "turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify",
+      "name": "Turn mixed local folders into a queryable knowledge graph with Graphify",
+      "description": "Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of…",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 25386
+      }
+    },
     {
       "slug": "run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval",
       "name": "Run multi-agent code review rounds with structured reviewer discourse before human approval",
@@ -1848,7 +1910,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1899
+      }
     },
     {
       "slug": "glitchtip-open-source-error-tracking-platform",
@@ -1872,7 +1937,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 26517
+      }
     },
     {
       "slug": "vitepress-documentation-site-generator",
@@ -1884,7 +1952,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17508
+      }
     },
     {
       "slug": "cspell-codebase-spell-checking-cli",
@@ -1896,7 +1967,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1616
+      }
     },
     {
       "slug": "danger-js-pull-request-automation-toolkit",
@@ -1908,7 +1982,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5463
+      }
     },
     {
       "slug": "nango-integration-platform-sdk",
@@ -1920,7 +1997,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7092
+      }
     },
     {
       "slug": "unstructured-document-etl-toolkit",
@@ -1932,7 +2012,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14454
+      }
     },
     {
       "slug": "stagehand-browser-automation-sdk",
@@ -1944,7 +2027,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22057
+      }
     },
     {
       "slug": "mcp-wordpress-server-docdyhr",
@@ -1956,7 +2042,10 @@
       "framework": [
         "MCP"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 81
+      }
     },
     {
       "slug": "checkmate-open-source-uptime-infrastructure-monitoring",
@@ -1968,7 +2057,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 9576
+      }
     },
     {
       "slug": "upptime-github-actions-uptime-monitor-status-page",
@@ -1980,7 +2072,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 16979
+      }
     },
     {
       "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations-2",
@@ -1992,7 +2087,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 547
+      }
     },
     {
       "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations",
@@ -2004,7 +2102,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 547
+      }
     },
     {
       "slug": "mailtrap-nodejs-sdk-transactional-and-sandbox-email",
@@ -2016,7 +2117,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 108
+      }
     },
     {
       "slug": "cartesia-javascript-sdk-low-latency-voice-generation",
@@ -2028,7 +2132,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 130
+      }
     },
     {
       "slug": "mux-node-sdk-video-and-streaming-api-workflows",
@@ -2040,7 +2147,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 178
+      }
     },
     {
       "slug": "infisical-cli-secrets-injection-and-access-management",
@@ -2052,7 +2162,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 41
+      }
     },
     {
       "slug": "maildev-smtp-capture-and-email-testing-server",
@@ -2064,7 +2177,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5892
+      }
     },
     {
       "slug": "browserless-headless-browser-automation-infrastructure",
@@ -2076,7 +2192,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 12954
+      }
     },
     {
       "slug": "beekeeper-studio-cross-platform-sql-editor-database-manager",
@@ -2088,7 +2207,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22541
+      }
     },
     {
       "slug": "hygraph-management-sdk-schema-migration-automation",
@@ -2100,7 +2222,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 51
+      }
     },
     {
       "slug": "nightwatchjs-integrated-browser-mobile-testing-framework",
@@ -2112,7 +2237,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 11943
+      }
     },
     {
       "slug": "apify-sdk-web-scraping-actor-automation",
@@ -2124,7 +2252,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 173
+      }
     },
     {
       "slug": "selenium-webdriver-browser-automation-framework",
@@ -2136,7 +2267,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 34075
+      }
     },
     {
       "slug": "openproject-open-source-project-management-platform",
@@ -2148,7 +2282,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14810
+      }
     },
     {
       "slug": "appflowy-open-source-collaborative-workspace",
@@ -2160,7 +2297,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 69650
+      }
     },
     {
       "slug": "dokploy-self-hosted-application-deployment-platform",
@@ -2172,7 +2312,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 32998
+      }
     },
     {
       "slug": "playwright-extra-plugin-framework-for-playwright",
@@ -2196,7 +2339,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 253
+      }
     },
     {
       "slug": "wpgraphql-smart-cache-headless-wordpress",
@@ -2208,7 +2354,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 80
+      }
     },
     {
       "slug": "apostrophecms-full-stack-nodejs-cms-in-context-editing",
@@ -2220,7 +2369,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4547
+      }
     },
     {
       "slug": "cockpit-cms-headless-content-platform-rest-graphql-apis",
@@ -2232,7 +2384,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 686
+      }
     },
     {
       "slug": "wagtail-django-cms-structured-content-editorial-workflows",
@@ -2244,7 +2399,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 20291
+      }
     },
     {
       "slug": "keploy-api-test-generation-regression-testing-platform",
@@ -2256,7 +2414,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17090
+      }
     },
     {
       "slug": "amplication-open-source-backend-generation-platform",
@@ -2268,7 +2429,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 15988
+      }
     },
     {
       "slug": "affine-knowledge-base-collaborative-workspace-platform",
@@ -2280,7 +2444,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 67240
+      }
     },
     {
       "slug": "puppeteer-browser-automation-library",
@@ -2292,7 +2459,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 94115
+      }
     },
     {
       "slug": "langgraph-js-agent-orchestration-framework",
@@ -2304,7 +2474,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2781
+      }
     },
     {
       "slug": "openai-agents-sdk-javascript-workflow-toolkit",
@@ -2316,7 +2489,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2635
+      }
     },
     {
       "slug": "temporal-cli-workflow-server-control",
@@ -2328,7 +2504,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 350
+      }
     },
     {
       "slug": "sops-secret-file-encryption-rotation",
@@ -2340,7 +2519,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21476
+      }
     },
     {
       "slug": "trivy-security-scanner-containers-iac",
@@ -2352,7 +2534,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 34481
+      }
     },
     {
       "slug": "k6-load-testing-cli-javascript-performance-scenarios",
@@ -2364,7 +2549,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 30348
+      }
     },
     {
       "slug": "supabase-cli-local-development-database-migrations",
@@ -2376,7 +2564,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2112
+      }
     },
     {
       "slug": "openapi-generator-api-client-server-stub-tooling",
@@ -2388,7 +2579,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 26095
+      }
     },
     {
       "slug": "faster-whisper-high-performance-speech-transcription-library",
@@ -2400,7 +2594,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 22156
+      }
     },
     {
       "slug": "yoast-seo-wordpress-search-optimization-plugin",
@@ -2412,7 +2609,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1938
+      }
     },
     {
       "slug": "wpgraphql-graphql-api-plugin-for-headless-wordpress",
@@ -2424,7 +2624,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3776
+      }
     },
     {
       "slug": "paperless-ngx-document-ocr-archive-management-system",
@@ -2436,7 +2639,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 38063
+      }
     },
     {
       "slug": "linkwarden-collaborative-bookmark-archive-preservation-platform",
@@ -2448,7 +2654,10 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 17869
+      }
     },
     {
       "slug": "gatus-endpoint-monitoring-status-page-platform",
@@ -29040,7 +29249,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "pskoett-ai-skills"
+        "tool": "pskoett-ai-skills",
+        "github_stars": 505
       }
     },
     {

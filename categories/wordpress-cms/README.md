@@ -14,8 +14,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
 | [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
 | [WordPress Router](../../skills/wordpress-router/) | ⭐ 21k |
+| [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | ⭐ 20.3k |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | ⭐ 19k |
-| [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | ⭐ 19k |
 
 ---
 
@@ -48,6 +48,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
 | [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
 | [WordPress Router](../../skills/wordpress-router/) | 21k | — |
+| [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | 20.3k | — |
 | [Decap CMS Git-Based Content Management for Static Sites](../../skills/decap-cms-git-based-content-management-static-sites/) | 19k | 2.1k/wk |
 | [Decap CMS Git-Based Content Management System for Static Sites](../../skills/decap-cms-git-based-content-management-system-for-static-sites/) | 19k | — |
 | [TinaCMS Git-Backed Headless CMS with Visual Editing](../../skills/tinacms-git-backed-headless-cms-visual-editing/) | 13.2k | 74.9k/wk |
@@ -61,13 +62,16 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
 | [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | 4.8k | — |
+| [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | 4.5k | — |
 | [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | 3.8k | — |
 | [WPGraphQL GraphQL API for WordPress](../../skills/wpgraphql-graphql-api-wordpress/) | 3.8k | — |
+| [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | 3.8k | — |
 | [Pages CMS Open Source Content Management for GitHub Repositories](../../skills/pages-cms-github-content-management/) | 3.5k | — |
 | [Git Updater WordPress Plugin and Theme Auto-Updater from Git Repositories](../../skills/git-updater-wordpress-plugin-theme-auto-updater/) | 3.3k | — |
 | [Trellis WordPress LEMP Stack Provisioner by Roots](../../skills/trellis-wordpress-lemp-ansible-provisioner-roots/) | 2.6k | — |
 | [Front Matter CMS Visual Studio Code Headless CMS](../../skills/front-matter-cms-vscode-headless-cms/) | 2.5k | — |
 | [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | 2.2k | 2.8k/wk |
+| [Yoast SEO WordPress Search Optimization Plugin](../../skills/yoast-seo-wordpress-search-optimization-plugin/) | 1.9k | — |
 | [WordPress Playground WebAssembly Runtime for In-Browser WordPress](../../skills/wordpress-playground-wasm-runtime/) | 1.9k | — |
 | [Yoast SEO WordPress Optimization Toolkit](../../skills/yoast-seo-wordpress-optimization-toolkit/) | 1.9k | — |
 | [Query Monitor WordPress Developer Tools Panel](../../skills/query-monitor-wordpress-developer-tools-panel/) | 1.7k | — |
@@ -76,24 +80,26 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ElasticPress WordPress Elasticsearch Integration Plugin by 10up](../../skills/elasticpress-wordpress-elasticsearch-integration-10up/) | 1.3k | — |
 | [Meta Box WordPress Custom Fields and Meta Boxes Framework](../../skills/meta-box-wordpress-custom-fields-framework/) | 1.2k | — |
 | [WordPress MCP Adapter Model Context Protocol Bridge](../../skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | 792 | — |
+| [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | 686 | — |
 | [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | 634 | — |
 | [Webflow Data API JavaScript SDK](../../skills/webflow-data-api-javascript-sdk/) | 340 | — |
 | [Contentful Management API and JavaScript SDK](../../skills/contentful-management-api-and-javascript-sdk/) | 286 | 723.5k/wk |
+| [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | 253 | — |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
 | [WP Abilities API](../../skills/wp-abilities-api/) | 198 | — |
 | [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 196 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | 2.5k/wk |
+| [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | 81 | — |
+| [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | 80 | — |
+| [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | 51 | — |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.8k/wk |
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
-| [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | — | — |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
-| [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | — | — |
 | [Build and debug custom WordPress REST API endpoints with schema and permission guardrails](../../skills/build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails/) | — | — |
 | [Build and debug interactive WordPress frontends with data-wp directives](../../skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/) | — | — |
-| [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
 | [Diagnose WordPress repo structure and route follow-up work safely](../../skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/) | — | — |
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | — | — |
@@ -106,14 +112,11 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | — | — |
 | [Gutenberg Custom Block Builder](../../skills/gutenberg-custom-block-builder/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
-| [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | — | — |
 | [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | — | — |
-| [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | — | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | — | — |
 | [Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores](../../skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores/) | — | — |
 | [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](../../skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | — | — |
 | [Strapi Open Source Headless CMS for Custom Content APIs](../../skills/strapi-open-source-headless-cms-custom-content-apis/) | — | — |
-| [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | — | — |
 | [WooCommerce Order Sync Agent](../../skills/woocommerce-order-sync-agent/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
@@ -133,9 +136,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |
 | [WP-CLI Site Migration Automator](../../skills/wp-cli-site-migration-automator/) | — | — |
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | — | — |
-| [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | — | — |
-| [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | — | — |
-| [Yoast SEO WordPress Search Optimization Plugin](../../skills/yoast-seo-wordpress-search-optimization-plugin/) | — | — |
 
 ---
 

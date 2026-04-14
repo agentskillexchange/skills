@@ -49,6 +49,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | — |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
+| [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | 17.9k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |
 | [theHarvester OSINT Email and Subdomain Intelligence Gatherer](../../skills/theharvester-osint-email-subdomain-intelligence/) | 15.9k | — |
@@ -71,6 +72,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](../../skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | 961 | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
+| [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | — |
@@ -79,7 +81,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | — | — |
 | [Apify Actor Web Crawler](../../skills/apify-actor-web-crawler/) | — | — |
 | [Apify Actor Web Intelligence Agent](../../skills/apify-actor-web-intelligence-agent/) | — | — |
-| [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | — | — |
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | — | — |
 | [Beautiful Soup Academic Paper Parser](../../skills/beautifulsoup-academic-paper-parser/) | — | — |
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |
@@ -97,7 +98,6 @@ Web research, data collection, content aggregation, and information gathering.
 | [Firecrawl Web Data API for AI Search Scraping and Crawl Workflows](../../skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/) | — | — |
 | [Hacker News Deep Thread Analyzer](../../skills/hacker-news-deep-thread-analyzer/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
-| [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | — | — |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |

@@ -1,13 +1,13 @@
 # Skill Categories
 
-> **1966 skills** across **17 categories**
+> **1970 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **259** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **156** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **141** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 🔒 | [**Security & Verification**](security-verification/) | **132** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **142** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔒 | [**Security & Verification**](security-verification/) | **133** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **124** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **117** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **116** | Metrics collection, alerting rules, observability setup, and system m... |
@@ -16,9 +16,9 @@
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **93** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **93** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **91** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **92** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **91** | Web research, data collection, content aggregation, and information g... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **86** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **87** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **82** | Image generation, asset processing, design automation, and creative t... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **71** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 

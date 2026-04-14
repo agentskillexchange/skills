@@ -64,6 +64,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | 8.1k | — |
+| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | 7.1k | — |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 14.8k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | 5.5k | — |
@@ -110,7 +111,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | — | — |
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
-| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | — | — |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | — | — |

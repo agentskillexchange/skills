@@ -47,12 +47,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | 46.8k | 15/wk |
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 45k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
+| [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.3k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
+| [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.4k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 190.7k/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | — |
@@ -60,6 +62,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.3k | — |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 15.1k | — |
+| [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | 14.5k | — |
 | [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | 14.4k | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | 14.4k | — |
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
@@ -148,7 +151,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Pandas DataFrame Schema Enforcer](../../skills/pandas-dataframe-schema-enforcer/) | — | — |
 | [Pandas DataFrame Schema Validator](../../skills/pandas-dataframe-schema-validator/) | — | — |
 | [Pandas Profiling Report Generator](../../skills/pandas-profiling-report-generator/) | — | — |
-| [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | — | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | — | — |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | — | — |
 | [Parquet Column Statistics Profiler](../../skills/parquet-column-statistics-profiler/) | — | — |
@@ -171,7 +173,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | — | — |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | — | — |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | — | — |
-| [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | — | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | — | — |
 | [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | — | — |

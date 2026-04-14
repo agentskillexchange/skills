@@ -24,6 +24,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Downloads |
 |---|---:|
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 492.2k/wk |
+| [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
 
 ---
 
@@ -48,6 +49,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | — |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | 24.1k | — |
 | [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | 22.8k | — |
+| [faster-whisper High-Performance Speech Transcription Library](../../skills/faster-whisper-high-performance-speech-transcription-library/) | 22.2k | — |
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | 21.9k | — |
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | 21k | — |
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 20.2k | — |
@@ -76,12 +78,14 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
+| [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1k | 3.2k/wk |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
+| [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |
+| [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
-| [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |
@@ -91,7 +95,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
-| [faster-whisper High-Performance Speech Transcription Library](../../skills/faster-whisper-high-performance-speech-transcription-library/) | — | — |
 | [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | — | — |
 | [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | — | — |
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |
@@ -102,7 +105,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
-| [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | — | — |

@@ -120,6 +120,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 108M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
+| [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | 26.1k | — |
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.2k | — |
 | [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25k | — |
@@ -131,6 +132,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 53.4k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 230.3k/wk |
+| [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | 22.5k | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
 | [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | 21.9k | — |
@@ -148,6 +150,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |
+| [Amplication Open Source Backend Generation Platform](../../skills/amplication-open-source-backend-generation-platform/) | 16k | — |
 | [PydanticAI Type-Safe AI Agent Framework](../../skills/pydanticai-type-safe-ai-agent-framework/) | 16k | — |
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | 15.6k | — |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 15.2k | — |
@@ -213,13 +216,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
+| [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
 | [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 97.9k/wk |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | 2.3k | — |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | — |
+| [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | 2.1k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
+| [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
@@ -227,15 +233,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
+| [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
-| [Amplication Open Source Backend Generation Platform](../../skills/amplication-open-source-backend-generation-platform/) | — | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |
 | [Baserow Open Source No-Code Database and Automation Platform](../../skills/baserow-open-source-no-code-database-automation-platform/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
-| [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
@@ -260,7 +265,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
-| [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | — | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | — | — |
@@ -277,9 +281,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
-| [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
-| [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | — | — |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | — |
@@ -287,9 +289,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Redis MCP Server](../../skills/redis-mcp-server/) | — | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
-| [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
-| [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | — | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | — |

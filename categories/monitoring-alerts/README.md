@@ -14,8 +14,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⭐ 43k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
+| [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | ⭐ 30.3k |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | ⭐ 28k |
-| [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | ⭐ 24.5k |
 
 ---
 
@@ -45,18 +45,22 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
+| [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | 30.3k | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
+| [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | 26.5k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |
 | [Jaeger Trace Explorer](../../skills/jaeger-trace-explorer/) | 22.7k | — |
 | [GoAccess Real-Time Web Log Analyzer and Terminal Dashboard](../../skills/goaccess-real-time-web-log-analyzer/) | 20.4k | — |
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
+| [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
+| [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | 9.6k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
@@ -82,7 +86,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
-| [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
@@ -119,7 +122,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | — | — |
-| [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
@@ -147,9 +149,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | — | — |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | — | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | — | — |
-| [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | — | — |
 | [StatsD Metrics Aggregation Pipeline](../../skills/statsd-metrics-aggregation-pipeline/) | — | — |
-| [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | — | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | — | — |
 | [Uptime Robot Multi-Check Coordinator](../../skills/uptime-robot-multi-check-coordinator/) | — | — |
 | [Uptime Robot Status Page Webhook Alerter](../../skills/uptime-robot-status-page-webhook-alerter/) | — | — |

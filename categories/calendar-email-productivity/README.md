@@ -7,6 +7,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars |
 |---|---:|
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.3k |
+| [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | ⭐ 69.7k |
+| [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | ⭐ 67.2k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | ⭐ 47.4k |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
@@ -14,8 +16,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | ⭐ 38k |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | ⭐ 28.2k |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⭐ 24.3k |
-| [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | ⭐ 19.7k |
-| [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | ⭐ 19.4k |
 
 ---
 
@@ -33,6 +33,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Slack MCP Server](../../skills/slack-mcp-server/) | 83.3k | — |
+| [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
+| [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
 | [Plane Open Source Project Management Platform](../../skills/plane-open-source-project-management/) | 47.4k | — |
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
@@ -47,6 +49,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | 17.4k | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | 17.2k | — |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
+| [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | 14.8k | — |
 | [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.2k | — |
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | 11.4k | — |
@@ -57,6 +60,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](../../skills/solidtime-open-source-time-tracking/) | 8.4k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
+| [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | 5.9k | — |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
@@ -77,16 +81,17 @@ Email automation, calendar management, task coordination, and productivity tools
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 552 | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
+| [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | — |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.1k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
-| [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | — | — |
-| [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | — | — |
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
@@ -100,10 +105,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
-| [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | — | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | — | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | — | — |
-| [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |
@@ -122,7 +123,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | — | — |
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | — | — |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | — | — |
-| [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | — | — |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | — | — |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |

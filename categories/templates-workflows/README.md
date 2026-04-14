@@ -25,6 +25,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 |---|---:|
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.4M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 343.3k/wk |
+| [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | ⬇ 1.7k/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 264.3k/wk |
 
 ---
@@ -58,6 +59,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | — |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 343.3k/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
+| [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 264.3k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
@@ -65,6 +67,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 505 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | — | — |
@@ -108,7 +111,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | — | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | — | — |

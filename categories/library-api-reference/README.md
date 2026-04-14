@@ -46,6 +46,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | — |
+| [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
 | [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.1M/wk |
@@ -92,7 +93,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | — | — |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | — | — |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | — | — |
-| [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | — | — |
 | [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | — | — |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | — | — |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | — | — |
