@@ -77,6 +77,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
+| [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | 3.2k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | 3k | — |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | 2.8k | — |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |

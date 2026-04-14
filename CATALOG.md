@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1978 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-14 09:23 UTC
+> **1980 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-14 11:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1233,7 +1233,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (109 skills)
+### 📚 Library & API Reference (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -1244,6 +1244,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [DevDocs Unified API Documentation Browser](skills/devdocs-unified-api-documentation-browser/) | DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline… | Security Reviewed | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](skills/hasura-graphql-engine-instant-api-database-automation/) | Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime… | Security Reviewed | 31.9k | — |
 | [Redoc OpenAPI Documentation Renderer](skills/redoc-openapi-documentation-renderer/) | Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from… | Security Reviewed | 25.6k | 1.5M/wk |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source… | Published | 24.9k | 529.3k/wk |
 | [FilePond Flexible JavaScript File Upload Library](skills/filepond-javascript-file-upload-library/) | FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with… | Security Reviewed | 16.3k | 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Security Reviewed | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](skills/pglite-embeddable-wasm-postgres/) | PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a full Postgres database in the… | Security Reviewed | 15k | — |
@@ -1858,7 +1859,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (88 skills)
+### 🎙️ Media & Transcription (89 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -1908,6 +1909,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible… | Security Reviewed | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | Auto-Editor is a command-line application that automatically edits video and audio by analyzing loudness, motion,… | Security Reviewed | 4.1k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](skills/audioflux-audio-music-analysis-feature-extraction-library/) | audioFlux is a deep learning tool library for audio and music analysis and feature extraction, supporting dozens of… | Security Reviewed | 3.3k | — |
+| [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for… | Published | 3.2k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around… | Security Reviewed | 3k | — |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration… | Security Reviewed | 2.8k | — |
 | [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 2.5k | — |

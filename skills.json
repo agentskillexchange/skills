@@ -1,8 +1,39 @@
 {
   "version": "2.0",
-  "total": 1978,
+  "total": 1980,
   "generated": "2026-04-14",
   "skills": [
+    {
+      "slug": "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches",
+      "name": "Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches",
+      "description": "Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for transcription, translation, and text-to-speech instead of…",
+      "category": [
+        "Media & Transcription"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3170
+      }
+    },
+    {
+      "slug": "build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti",
+      "name": "Build temporal context graphs for agent memory from evolving facts with Graphiti",
+      "description": "Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 24898,
+        "npm_weekly_downloads": 529336
+      }
+    },
     {
       "slug": "capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device",
       "name": "Capture local screen and audio context so agents can search what happened on your device",

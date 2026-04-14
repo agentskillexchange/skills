@@ -11,11 +11,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 25.6k |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⭐ 24.9k |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⭐ 16.3k |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | ⭐ 14.6k |
-| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | ⭐ 13.8k |
 
 ---
 
@@ -24,6 +24,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | Skill | Downloads |
 |---|---:|
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⬇ 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.7M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.7M/wk |
@@ -41,6 +42,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.5M/wk |
+| [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | 24.9k | 529.3k/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
