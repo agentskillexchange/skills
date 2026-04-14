@@ -1,26 +1,32 @@
 ---
 title: "Scalar OpenAPI Reference and API Client Platform"
 description: "Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks."
-verification: "security_reviewed"
-source: "https://github.com/scalar/scalar"
+verification: listed
+source: "https://agentskillexchange.com/skills/scalar-openapi-reference-api-client-platform/"
 category:
   - "Library & API Reference"
 framework:
   - "Multi-Framework"
 ---
+
 # Scalar OpenAPI Reference and API Client Platform
 
 Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that need readable API docs, interactive request testing, and framework-friendly integrations across many stacks.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

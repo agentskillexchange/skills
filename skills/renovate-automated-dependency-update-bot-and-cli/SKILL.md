@@ -1,29 +1,32 @@
 ---
 title: "Renovate Automated Dependency Update Bot and CLI"
 description: "Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents that need to plan, configure, or operate dependency update workflows in GitHub, GitLab, Bitbucket, or other supported source control platforms."
-verification: "security_reviewed"
-source: "https://github.com/renovatebot/renovate"
+verification: listed
+source: "https://agentskillexchange.com/skills/renovate-automated-dependency-update-bot-and-cli/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "renovatebot/renovate"
-  github_stars: 21263
 ---
+
 # Renovate Automated Dependency Update Bot and CLI
 
 Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents that need to plan, configure, or operate dependency update workflows in GitHub, GitLab, Bitbucket, or other supported source control platforms.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

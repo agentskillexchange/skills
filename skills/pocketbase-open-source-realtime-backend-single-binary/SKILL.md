@@ -1,29 +1,32 @@
 ---
 title: "PocketBase Open Source Realtime Backend in a Single Binary"
 description: "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API."
-verification: "security_reviewed"
-source: "https://github.com/pocketbase/pocketbase"
+verification: listed
+source: "https://agentskillexchange.com/skills/pocketbase-open-source-realtime-backend-single-binary/"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "pocketbase/pocketbase"
-  github_stars: 57251
 ---
+
 # PocketBase Open Source Realtime Backend in a Single Binary
 
 PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

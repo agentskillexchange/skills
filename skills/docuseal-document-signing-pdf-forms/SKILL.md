@@ -1,29 +1,32 @@
 ---
 title: "DocuSeal Open Source Document Signing and PDF Form Platform"
 description: "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular."
-verification: "security_reviewed"
-source: "https://github.com/docusealco/docuseal"
+verification: listed
+source: "https://agentskillexchange.com/skills/docuseal-document-signing-pdf-forms/"
 category:
   - "Templates & Workflows"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "docusealco/docuseal"
-  github_stars: 11695
 ---
+
 # DocuSeal Open Source Document Signing and PDF Form Platform
 
 DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types, automated email workflows, API and webhook integrations, and embeddable signing components for React, Vue, and Angular.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

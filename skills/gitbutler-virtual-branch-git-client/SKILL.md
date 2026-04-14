@@ -1,29 +1,32 @@
 ---
 title: "GitButler Virtual Branch Git Client"
 description: "GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to work on multiple branches simultaneously without stashing or switching. It provides a visual interface for managing concurrent work streams on a single working directory."
-verification: "security_reviewed"
-source: "https://github.com/gitbutlerapp/gitbutler"
+verification: listed
+source: "https://agentskillexchange.com/skills/gitbutler-virtual-branch-git-client/"
 category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "gitbutlerapp/gitbutler"
-  github_stars: 19988
 ---
+
 # GitButler Virtual Branch Git Client
 
 GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to work on multiple branches simultaneously without stashing or switching. It provides a visual interface for managing concurrent work streams on a single working directory.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

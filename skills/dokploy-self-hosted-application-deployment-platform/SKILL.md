@@ -1,29 +1,32 @@
 ---
 title: "Dokploy Self-Hosted Application Deployment Platform"
 description: "Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify. This skill is useful when agents need to stand up services, manage compose stacks, provision databases, and reason about Traefik-backed deployment workflows from real Dokploy docs and project conventions."
-verification: "security_reviewed"
-source: "https://github.com/Dokploy/dokploy"
+verification: listed
+source: "https://agentskillexchange.com/skills/dokploy-self-hosted-application-deployment-platform/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "Dokploy/dokploy"
-  github_stars: 32998
 ---
+
 # Dokploy Self-Hosted Application Deployment Platform
 
 Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify. This skill is useful when agents need to stand up services, manage compose stacks, provision databases, and reason about Traefik-backed deployment workflows from real Dokploy docs and project conventions.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

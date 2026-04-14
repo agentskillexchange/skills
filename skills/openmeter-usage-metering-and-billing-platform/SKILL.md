@@ -1,29 +1,32 @@
 ---
 title: "OpenMeter Usage Metering and Billing Platform"
 description: "OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you need to track API or AI usage events, define meters, and connect that usage data to limits, plans, or customer-facing reporting."
-verification: "security_reviewed"
-source: "https://github.com/openmeterio/openmeter"
+verification: listed
+source: "https://agentskillexchange.com/skills/openmeter-usage-metering-and-billing-platform/"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "openmeterio/openmeter"
-  github_stars: 1899
 ---
+
 # OpenMeter Usage Metering and Billing Platform
 
 OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you need to track API or AI usage events, define meters, and connect that usage data to limits, plans, or customer-facing reporting.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

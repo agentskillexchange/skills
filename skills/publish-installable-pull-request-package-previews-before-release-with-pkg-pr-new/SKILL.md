@@ -1,31 +1,32 @@
 ---
 title: "Publish installable pull-request package previews before release with pkg.pr.new"
 description: "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release."
-verification: "listed"
-source: "https://github.com/stackblitz-labs/pkg.pr.new"
+verification: listed
+source: "https://agentskillexchange.com/skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "stackblitz-labs/pkg.pr.new"
-  github_stars: 1840
-  npm_package: "pkg-pr-new"
-  npm_weekly_downloads: 387380
 ---
+
 # Publish installable pull-request package previews before release with pkg.pr.new
 
 Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

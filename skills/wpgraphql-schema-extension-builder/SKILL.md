@@ -1,29 +1,32 @@
 ---
 title: "WPGraphQL Schema Extension Builder"
 description: "Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries."
-verification: "security_reviewed"
-source: "https://github.com/wp-graphql/wp-graphql"
+verification: listed
+source: "https://agentskillexchange.com/skills/wpgraphql-schema-extension-builder/"
 category:
   - "WordPress & CMS"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "wp-graphql/wp-graphql"
-  github_stars: 3779
 ---
+
 # WPGraphQL Schema Extension Builder
 
 Builds and documents WPGraphQL extensions with hooks such as `graphql_register_types`, `register_graphql_field`, and `register_graphql_object_type`. Ideal for exposing custom fields, computed properties, and relationships in a way that stays aligned with WordPress data models and client queries.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

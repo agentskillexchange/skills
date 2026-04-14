@@ -1,29 +1,32 @@
 ---
 title: "SEOnaut Open Source Technical SEO Audit Tool"
 description: "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken links, redirect chains, missing meta tags, duplicate titles, heading order problems, and other factors that impact search engine rankings."
-verification: "security_reviewed"
-source: "https://github.com/StJudeWasHere/seonaut"
+verification: listed
+source: "https://agentskillexchange.com/skills/seonaut-open-source-technical-seo-audit/"
 category:
   - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "StJudeWasHere/seonaut"
-  github_stars: 673
 ---
+
 # SEOnaut Open Source Technical SEO Audit Tool
 
 SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken links, redirect chains, missing meta tags, duplicate titles, heading order problems, and other factors that impact search engine rankings.
 
 ## Installation
 
-You can install this skill in a few common ways:
+Choose the setup that fits your environment:
 
-1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
-2. Install from a local skill folder by copying it into your skills directory.
-3. Add it as a git submodule or vendor it into your shared skills repo.
-4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
-5. Follow the upstream project documentation for manual setup and dependencies.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 
