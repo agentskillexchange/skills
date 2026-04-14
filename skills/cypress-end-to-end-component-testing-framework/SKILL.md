@@ -1,15 +1,12 @@
 ---
 title: "Cypress End-to-End and Component Testing Framework"
 description: "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines."
-verification: "security_reviewed"
-source: "https://github.com/cypress-io/cypress"
+verification: listed
+source: "https://agentskillexchange.com/skills/cypress-end-to-end-component-testing-framework/"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "cypress-io/cypress"
-  github_stars: 49611
 ---
 
 # Cypress End-to-End and Component Testing Framework
@@ -18,13 +15,18 @@ Cypress is an open-source browser testing framework for end-to-end, component, a
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

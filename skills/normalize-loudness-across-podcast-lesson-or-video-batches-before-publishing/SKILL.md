@@ -1,15 +1,12 @@
 ---
 title: "Normalize loudness across podcast, lesson, or video batches before publishing"
 description: "Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand. It fits pipelines that need EBU R128, RMS, or peak targets across mixed media before delivery."
-verification: "security_reviewed"
-source: "https://github.com/slhck/ffmpeg-normalize"
+verification: listed
+source: "https://agentskillexchange.com/skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/"
 category:
   - "Media & Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "slhck/ffmpeg-normalize"
-  github_stars: 1500
 ---
 
 # Normalize loudness across podcast, lesson, or video batches before publishing
@@ -18,13 +15,18 @@ Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off c
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

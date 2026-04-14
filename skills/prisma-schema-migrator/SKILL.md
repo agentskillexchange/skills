@@ -1,17 +1,12 @@
 ---
 title: "Prisma Schema Migrator"
 description: "Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull."
-verification: "security_reviewed"
-source: "https://github.com/prisma/prisma"
+verification: listed
+source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
 category:
   - "Library & API Reference"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "prisma/prisma"
-  github_stars: 45760
-  npm_package: "prisma"
-  npm_weekly_downloads: 9910505
+  - "Codex"
 ---
 
 # Prisma Schema Migrator
@@ -20,13 +15,18 @@ Automates Prisma ORM schema evolution and migration planning using prisma migrat
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

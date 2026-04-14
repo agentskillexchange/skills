@@ -1,17 +1,12 @@
 ---
 title: "SendGrid Transactional Email Router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
-verification: "security_reviewed"
-source: "https://github.com/sendgrid/sendgrid-nodejs"
+verification: listed
+source: "https://agentskillexchange.com/skills/sendgrid-transactional-email-router/"
 category:
   - "Integrations & Connectors"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sendgrid/sendgrid-nodejs"
-  github_stars: 3049
-  npm_package: "@sendgrid/mail"
-  npm_weekly_downloads: 3588681
+  - "Cursor"
 ---
 
 # SendGrid Transactional Email Router
@@ -20,13 +15,18 @@ Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic 
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

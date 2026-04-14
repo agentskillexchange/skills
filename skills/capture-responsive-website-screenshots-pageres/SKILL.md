@@ -1,15 +1,12 @@
 ---
 title: "Capture responsive website screenshots for visual QA with Pageres"
 description: "Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design review, release checks, or documentation snapshots. This is a bounded visual capture skill, not a general browser automation card."
-verification: "security_reviewed"
-source: "https://github.com/sindresorhus/pageres"
+verification: listed
+source: "https://agentskillexchange.com/skills/capture-responsive-website-screenshots-pageres/"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sindresorhus/pageres"
-  github_stars: 9741
 ---
 
 # Capture responsive website screenshots for visual QA with Pageres
@@ -18,13 +15,18 @@ Use Pageres when an agent needs repeatable screenshots of the same page across m
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

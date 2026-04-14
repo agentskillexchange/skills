@@ -1,15 +1,12 @@
 ---
 title: "delta Syntax-Highlighting Git Diff Pager"
 description: "A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff highlighting, side-by-side views, line numbering, and theme support using the same syntax themes as bat."
-verification: "security_reviewed"
-source: "https://github.com/dandavison/delta"
+verification: listed
+source: "https://agentskillexchange.com/skills/delta-syntax-highlighting-git-diff-pager/"
 category:
   - "Developer Tools"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "dandavison/delta"
-  github_stars: 29842
+  - "Claude Code"
 ---
 
 # delta Syntax-Highlighting Git Diff Pager
@@ -18,13 +15,18 @@ A syntax-highlighting pager for git diff, grep, and blame output built in Rust. 
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

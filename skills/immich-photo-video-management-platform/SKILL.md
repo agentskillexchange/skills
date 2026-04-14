@@ -1,15 +1,12 @@
 ---
 title: "Immich Self-Hosted Photo and Video Management Platform"
 description: "Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management."
-verification: "security_reviewed"
-source: "https://github.com/immich-app/immich"
+verification: listed
+source: "https://agentskillexchange.com/skills/immich-photo-video-management-platform/"
 category:
   - "Media & Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "immich-app/immich"
-  github_stars: 96205
 ---
 
 # Immich Self-Hosted Photo and Video Management Platform
@@ -18,13 +15,18 @@ Immich is a high-performance self-hosted photo and video management solution wit
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

@@ -1,15 +1,12 @@
 ---
 title: "Review visual regression diffs and publish snapshot baselines in CI with reg-suit"
 description: "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for visual regression review loops, not for general frontend tooling, because the agent’s job is to manage the compare, publish, and notify cycle around image snapshots."
-verification: "security_reviewed"
-source: "https://github.com/reg-viz/reg-suit"
+verification: listed
+source: "https://agentskillexchange.com/skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/"
 category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "reg-viz/reg-suit"
-  github_stars: 1260
 ---
 
 # Review visual regression diffs and publish snapshot baselines in CI with reg-suit
@@ -18,13 +15,18 @@ Use reg-suit when an agent needs to compare screenshot outputs against a stored 
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

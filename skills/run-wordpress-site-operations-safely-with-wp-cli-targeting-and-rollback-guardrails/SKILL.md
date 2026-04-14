@@ -1,8 +1,8 @@
 ---
 title: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
 description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product."
-verification: "security_reviewed"
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
+verification: listed
+source: "https://agentskillexchange.com/skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/"
 category:
   - "WordPress & CMS"
 framework:
@@ -15,13 +15,18 @@ Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

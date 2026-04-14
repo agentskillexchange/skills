@@ -1,15 +1,13 @@
 ---
 title: "Dagster Data Pipeline Orchestrator"
 description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
-verification: "security_reviewed"
-source: "https://github.com/dagster-io/dagster"
+verification: listed
+source: "https://agentskillexchange.com/skills/dagster-data-pipeline-orchestrator/"
 category:
   - "Data Extraction & Transformation"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "dagster-io/dagster"
-  github_stars: 15257
+  - "Claude Code"
+  - "OpenClaw"
 ---
 
 # Dagster Data Pipeline Orchestrator
@@ -18,13 +16,18 @@ Orchestrate data pipelines using Dagster, the cloud-native data orchestration pl
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

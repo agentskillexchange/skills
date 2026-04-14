@@ -1,15 +1,12 @@
 ---
 title: "Puppeteer Web Scraping Pipeline"
 description: "Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles infinite scroll, cookie consent banners, and anti-bot detection with stealth plugin."
-verification: "security_reviewed"
-source: "https://github.com/puppeteer/puppeteer"
+verification: listed
+source: "https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/"
 category:
   - "Browser Automation"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "puppeteer/puppeteer"
-  github_stars: 94115
+  - "Gemini"
 ---
 
 # Puppeteer Web Scraping Pipeline
@@ -18,13 +15,18 @@ Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSe
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

@@ -1,17 +1,12 @@
 ---
 title: "Vercel Agent Browser"
 description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
-verification: "security_reviewed"
-source: "https://github.com/vercel-labs/agent-browser"
+verification: listed
+source: "https://agentskillexchange.com/skills/vercel-agent-browser/"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "vercel-labs/agent-browser"
-  github_stars: 29072
-  npm_package: "agent-browser"
-  npm_weekly_downloads: 601908
 ---
 
 # Vercel Agent Browser
@@ -20,13 +15,18 @@ Vercel Agent Browser is a browser automation CLI built specifically for AI agent
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

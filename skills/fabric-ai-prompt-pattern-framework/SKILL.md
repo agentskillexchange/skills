@@ -1,15 +1,12 @@
 ---
 title: "Fabric AI Prompt Pattern Framework"
 description: "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system of crowdsourced prompt patterns that solve specific problems—from summarizing content to extracting wisdom to analyzing security threats—all usable from the command line."
-verification: "security_reviewed"
-source: "https://github.com/danielmiessler/fabric"
+verification: listed
+source: "https://agentskillexchange.com/skills/fabric-ai-prompt-pattern-framework/"
 category:
   - "Developer Tools"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "danielmiessler/fabric"
-  github_stars: 40278
+  - "Custom Agents"
 ---
 
 # Fabric AI Prompt Pattern Framework
@@ -18,13 +15,18 @@ Fabric is an open-source framework for augmenting humans using AI. It provides a
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

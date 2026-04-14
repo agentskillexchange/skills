@@ -1,15 +1,12 @@
 ---
 title: "Kubernetes Crashloop Diagnostic Runbook"
 description: "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint. Provides structured root-cause analysis covering OOMKilled, missing ConfigMaps, failed liveness probes, and image pull errors."
-verification: "security_reviewed"
-source: "https://github.com/kubernetes/kubernetes"
+verification: listed
+source: "https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "kubernetes/kubernetes"
-  github_stars: 121700
+  - "OpenClaw"
 ---
 
 # Kubernetes Crashloop Diagnostic Runbook
@@ -18,13 +15,18 @@ Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kub
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

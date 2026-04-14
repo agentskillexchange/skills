@@ -1,15 +1,12 @@
 ---
 title: "Google Workspace MCP Server for Gmail Calendar and Drive"
 description: "The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Forms, Tasks, Contacts, and Chat through any MCP-compatible AI assistant. It supports OAuth 2.1 multi-user authentication and includes a CLI for coding agents."
-verification: "security_reviewed"
-source: "https://github.com/taylorwilsdon/google_workspace_mcp"
+verification: listed
+source: "https://agentskillexchange.com/skills/google-workspace-mcp-server-gmail-calendar-drive/"
 category:
   - "Calendar, Email & Productivity"
 framework:
-  - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "taylorwilsdon/google_workspace_mcp"
-  github_stars: 1986
+  - "MCP"
 ---
 
 # Google Workspace MCP Server for Gmail Calendar and Drive
@@ -18,13 +15,18 @@ The Google Workspace MCP Server provides comprehensive natural language control 
 
 ## Installation
 
-Choose whichever fits your setup:
+Choose the setup that fits your environment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 
