@@ -1,31 +1,32 @@
 ---
 title: "Firecrawl Web Data API for AI Search Scraping and Crawl Workflows"
-slug: "firecrawl-web-data-api-ai-search-scraping-crawl-workflows"
-verification: security_reviewed
-source: "https://github.com/firecrawl/firecrawl"
+description: "Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data."
+verification: listed
+source: "https://agentskillexchange.com/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "firecrawl/firecrawl"
-  github_stars: 108813
-  npm_package: "firecrawl"
-  npm_weekly_downloads: 166382
 ---
+
 # Firecrawl Web Data API for AI Search Scraping and Crawl Workflows
 
 Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots, and agent-oriented endpoints for turning live websites into usable data.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

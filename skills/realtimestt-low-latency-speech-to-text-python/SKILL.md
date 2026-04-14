@@ -1,29 +1,32 @@
 ---
 title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
-slug: "realtimestt-low-latency-speech-to-text-python"
-verification: security_reviewed
-source: "https://github.com/KoljaB/RealtimeSTT"
+description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
+verification: listed
+source: "https://agentskillexchange.com/skills/realtimestt-low-latency-speech-to-text-python/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "koljab/realtimestt"
-  github_stars: 9615
 ---
+
 # RealtimeSTT Low-Latency Speech-to-Text Python Library
 
 RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

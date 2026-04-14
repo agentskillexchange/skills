@@ -1,26 +1,32 @@
 ---
 title: "Google Calendar FreeBusy Scheduler Bridge"
-slug: "google-calendar-freebusy-scheduler-bridge"
-verification: security_reviewed
-source: "https://developers.google.com/calendar/api"
+description: "Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events."
+verification: listed
+source: "https://agentskillexchange.com/skills/google-calendar-freebusy-scheduler-bridge/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Cursor"
 ---
+
 # Google Calendar FreeBusy Scheduler Bridge
 
 Coordinates meeting suggestions with the Google Calendar `freeBusy` endpoint, Events resource, and conferenceData fields for cleaner scheduling handoffs. Great for agents that need to compare availability, hold windows, and meeting metadata before creating or moving events.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

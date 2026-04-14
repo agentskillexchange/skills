@@ -1,29 +1,32 @@
 ---
 title: "Cronitor CLI for Cron Monitoring and Job Telemetry"
-slug: "cronitor-cli-cron-monitoring-job-telemetry"
-verification: security_reviewed
-source: "https://github.com/cronitorio/cronitor-cli"
+description: "CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility."
+verification: listed
+source: "https://agentskillexchange.com/skills/cronitor-cli-cron-monitoring-job-telemetry/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "cronitorio/cronitor-cli"
-  github_stars: 399
 ---
+
 # Cronitor CLI for Cron Monitoring and Job Telemetry
 
-CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility.
+CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

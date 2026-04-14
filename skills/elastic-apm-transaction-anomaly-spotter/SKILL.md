@@ -1,29 +1,32 @@
 ---
 title: "Elastic APM Transaction Anomaly Spotter"
-slug: "elastic-apm-transaction-anomaly-spotter"
-verification: security_reviewed
-source: "https://github.com/elastic/apm-server"
+description: "Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines."
+verification: listed
+source: "https://agentskillexchange.com/skills/elastic-apm-transaction-anomaly-spotter/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "elastic/apm-server"
-  github_stars: 1273
 ---
+
 # Elastic APM Transaction Anomaly Spotter
 
 Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput drops. Uses the _search aggregation API with percentile and moving_avg pipelines.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

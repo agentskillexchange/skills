@@ -1,29 +1,32 @@
 ---
 title: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
-slug: "listmonk-self-hosted-newsletter-mailing-list"
-verification: security_reviewed
-source: "https://github.com/knadh/listmonk"
+description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
+verification: listed
+source: "https://agentskillexchange.com/skills/listmonk-self-hosted-newsletter-mailing-list/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "knadh/listmonk"
-  github_stars: 19404
 ---
+
 # Listmonk Self-Hosted Newsletter and Mailing List Manager
 
 High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

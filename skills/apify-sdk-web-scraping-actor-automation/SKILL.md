@@ -1,29 +1,32 @@
 ---
 title: "Apify SDK for Web Scraping and Actor Automation"
-slug: "apify-sdk-web-scraping-actor-automation"
-verification: security_reviewed
-source: "https://github.com/apify/apify-sdk-js"
+description: "Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It gives agents a structured way to run scraping jobs, store outputs, manage inputs, and combine crawler logic with browser automation when needed."
+verification: listed
+source: "https://agentskillexchange.com/skills/apify-sdk-web-scraping-actor-automation/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "apify/apify-sdk-js"
-  github_stars: 173
 ---
+
 # Apify SDK for Web Scraping and Actor Automation
 
 Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It gives agents a structured way to run scraping jobs, store outputs, manage inputs, and combine crawler logic with browser automation when needed.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

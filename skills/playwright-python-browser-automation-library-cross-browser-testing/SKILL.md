@@ -1,29 +1,32 @@
 ---
 title: "Playwright Python Browser Automation Library for Cross-Browser Testing"
-slug: "playwright-python-browser-automation-library-cross-browser-testing"
-verification: security_reviewed
-source: "https://github.com/microsoft/playwright-python"
+description: "Playwright for Python is Microsoft’s cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments."
+verification: listed
+source: "https://agentskillexchange.com/skills/playwright-python-browser-automation-library-cross-browser-testing/"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "microsoft/playwright-python"
-  github_stars: 14510
 ---
+
 # Playwright Python Browser Automation Library for Cross-Browser Testing
 
-Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments.
+Playwright for Python is Microsoft’s cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots, form interaction, assertions, and headless execution across local and CI environments.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

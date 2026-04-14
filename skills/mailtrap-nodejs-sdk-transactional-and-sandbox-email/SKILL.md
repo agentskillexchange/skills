@@ -1,29 +1,32 @@
 ---
 title: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
-slug: "mailtrap-nodejs-sdk-transactional-and-sandbox-email"
-verification: security_reviewed
-source: "https://github.com/mailtrap/mailtrap-nodejs"
+description: "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation."
+verification: listed
+source: "https://agentskillexchange.com/skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "mailtrap/mailtrap-nodejs"
-  github_stars: 108
 ---
+
 # Mailtrap Node.js SDK for Transactional and Sandbox Email
 
 An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

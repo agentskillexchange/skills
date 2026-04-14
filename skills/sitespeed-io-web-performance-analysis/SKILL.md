@@ -1,31 +1,32 @@
 ---
 title: "sitespeed.io Comprehensive Web Performance Analysis Toolkit"
-slug: "sitespeed-io-web-performance-analysis"
-verification: security_reviewed
-source: "https://github.com/sitespeedio/sitespeed.io"
+description: "sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring."
+verification: listed
+source: "https://agentskillexchange.com/skills/sitespeed-io-web-performance-analysis/"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "sitespeedio/sitespeed.io"
-  github_stars: 4972
-  npm_package: "sitespeed.io"
-  npm_weekly_downloads: 3269
 ---
+
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit
 
 sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

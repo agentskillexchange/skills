@@ -1,31 +1,32 @@
 ---
 title: "Slack Bolt Event Subscription Debugger"
-slug: "slack-bolt-event-subscription-debugger"
-verification: security_reviewed
-source: "https://github.com/slackapi/bolt-js"
+description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
+verification: listed
+source: "https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "slackapi/bolt-js"
-  github_stars: 2898
-  npm_package: "@slack/bolt"
-  npm_weekly_downloads: 2474841
 ---
+
 # Slack Bolt Event Subscription Debugger
 
 Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

@@ -1,29 +1,32 @@
 ---
 title: "Zammad Open Source Web-Based Helpdesk and Ticketing System"
-slug: "zammad-open-source-helpdesk-ticketing-system"
-verification: security_reviewed
-source: "https://github.com/zammad/zammad"
+description: "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation."
+verification: listed
+source: "https://agentskillexchange.com/skills/zammad-open-source-helpdesk-ticketing-system/"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "zammad/zammad"
-  github_stars: 5513
 ---
+
 # Zammad Open Source Web-Based Helpdesk and Ticketing System
 
 Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and GraphQL API for ticket management, user administration, and workflow automation.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

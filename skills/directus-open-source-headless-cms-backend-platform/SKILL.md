@@ -1,31 +1,32 @@
 ---
 title: "Directus Open-Source Headless CMS and Backend Platform"
-slug: "directus-open-source-headless-cms-backend-platform"
-verification: security_reviewed
-source: "https://github.com/directus/directus"
+description: "Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions."
+verification: listed
+source: "https://agentskillexchange.com/skills/directus-open-source-headless-cms-backend-platform/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "directus/directus"
-  github_stars: 34621
-  npm_package: "directus"
-  npm_weekly_downloads: 20061
 ---
+
 # Directus Open-Source Headless CMS and Backend Platform
 
 Directus is an open-source headless CMS that wraps any SQL database with instant REST and GraphQL APIs, a no-code admin panel, and granular role-based access control. It turns existing databases into full-featured backends with authentication, file storage, and real-time subscriptions.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

@@ -1,29 +1,32 @@
 ---
 title: "Apache Spark Job Manager"
-slug: "apache-spark-job-manager"
-verification: security_reviewed
-source: "https://github.com/apache/spark"
+description: "Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames, SQL, executors, stages, Structured Streaming and […]"
+verification: listed
+source: "https://agentskillexchange.com/skills/apache-spark-job-manager/"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "apache/spark"
-  github_stars: 43119
 ---
+
 # Apache Spark Job Manager
 
-Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames, SQL, executors, stages, Structured Streaming and [&hellip;]
+Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is represented by apache/spark (43,027+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Spark jobs, DataFrames, SQL, executors, stages, Structured Streaming and […]
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

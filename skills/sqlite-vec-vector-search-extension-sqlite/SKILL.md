@@ -1,31 +1,32 @@
 ---
 title: "sqlite-vec Vector Search Extension for SQLite"
-slug: "sqlite-vec-vector-search-extension-sqlite"
-verification: security_reviewed
-source: "https://github.com/asg017/sqlite-vec"
+description: "sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage."
+verification: listed
+source: "https://agentskillexchange.com/skills/sqlite-vec-vector-search-extension-sqlite/"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "asg017/sqlite-vec"
-  github_stars: 7331
-  npm_package: "sqlite-vec"
-  npm_weekly_downloads: 1239029
 ---
+
 # sqlite-vec Vector Search Extension for SQLite
 
 sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

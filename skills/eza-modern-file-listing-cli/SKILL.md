@@ -1,29 +1,32 @@
 ---
 title: "eza Modern File Listing CLI"
-slug: "eza-modern-file-listing-cli"
-verification: security_reviewed
-source: "https://github.com/eza-community/eza"
+description: "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary."
+verification: listed
+source: "https://agentskillexchange.com/skills/eza-modern-file-listing-cli/"
 category:
   - "Developer Tools"
 framework:
   - "Claude Code"
-tool_ecosystem:
-  github_repo: "eza-community/eza"
-  github_stars: 20929
 ---
+
 # eza Modern File Listing CLI
 
 A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

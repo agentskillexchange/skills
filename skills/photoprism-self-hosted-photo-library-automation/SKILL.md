@@ -1,29 +1,32 @@
 ---
 title: "PhotoPrism Self-Hosted Photo Library Automation"
-slug: "photoprism-self-hosted-photo-library-automation"
-verification: security_reviewed
-source: "https://github.com/photoprism/photoprism"
+description: "Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism. Useful for private media archives that need AI-assisted tagging and operational workflows without handing assets to a third-party cloud."
+verification: listed
+source: "https://agentskillexchange.com/skills/photoprism-self-hosted-photo-library-automation/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "photoprism/photoprism"
-  github_stars: 39547
 ---
+
 # PhotoPrism Self-Hosted Photo Library Automation
 
 Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism. Useful for private media archives that need AI-assisted tagging and operational workflows without handing assets to a third-party cloud.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

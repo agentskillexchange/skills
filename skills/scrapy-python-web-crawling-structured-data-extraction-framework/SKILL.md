@@ -1,29 +1,32 @@
 ---
 title: "Scrapy Python Web Crawling and Structured Data Extraction Framework"
-slug: "scrapy-python-web-crawling-structured-data-extraction-framework"
-verification: security_reviewed
-source: "https://github.com/scrapy/scrapy"
+description: "Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable scraping, asynchronous crawling, feed exports, and extensible pipelines for transforming or storing collected data."
+verification: listed
+source: "https://agentskillexchange.com/skills/scrapy-python-web-crawling-structured-data-extraction-framework/"
 category:
-  - "Research &amp; Scraping"
+  - "Research & Scraping"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "scrapy/scrapy"
-  github_stars: 61273
 ---
+
 # Scrapy Python Web Crawling and Structured Data Extraction Framework
 
 Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable scraping, asynchronous crawling, feed exports, and extensible pipelines for transforming or storing collected data.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

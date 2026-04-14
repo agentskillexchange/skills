@@ -1,29 +1,32 @@
 ---
 title: "Kamal Zero-Downtime Docker Deployment Tool by Basecamp"
-slug: "kamal-zero-downtime-docker-deployment-basecamp"
-verification: security_reviewed
-source: "https://github.com/basecamp/kamal"
+description: "Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero downtime using Docker and SSH. It uses kamal-proxy for seamless container switching and works across multiple servers simultaneously."
+verification: listed
+source: "https://agentskillexchange.com/skills/kamal-zero-downtime-docker-deployment-basecamp/"
 category:
   - "CI/CD Integrations"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "basecamp/kamal"
-  github_stars: 14009
 ---
+
 # Kamal Zero-Downtime Docker Deployment Tool by Basecamp
 
 Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero downtime using Docker and SSH. It uses kamal-proxy for seamless container switching and works across multiple servers simultaneously.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

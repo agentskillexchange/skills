@@ -1,31 +1,32 @@
 ---
 title: "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits"
-slug: "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits"
-verification: security_reviewed
-source: "https://github.com/neondatabase/add-mcp"
+description: "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately."
+verification: listed
+source: "https://agentskillexchange.com/skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "neondatabase/add-mcp"
-  github_stars: 151
-  npm_package: "add-mcp"
-  npm_weekly_downloads: 307229
 ---
+
 # Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits
 
 Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

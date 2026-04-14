@@ -1,31 +1,32 @@
 ---
 title: "Tiptap Headless Rich Text Editor Framework for Web Applications"
-slug: "tiptap-headless-rich-text-editor-framework"
-verification: security_reviewed
-source: "https://github.com/ueberdosis/tiptap"
+description: "Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints."
+verification: listed
+source: "https://agentskillexchange.com/skills/tiptap-headless-rich-text-editor-framework/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "ueberdosis/tiptap"
-  github_stars: 35948
-  npm_package: "tiptap"
-  npm_weekly_downloads: 45635
 ---
+
 # Tiptap Headless Rich Text Editor Framework for Web Applications
 
 Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable editing experience through 100+ extensions, supporting React, Vue, and plain JavaScript with no preset UI constraints.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

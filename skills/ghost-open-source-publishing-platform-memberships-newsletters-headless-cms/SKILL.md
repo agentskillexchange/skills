@@ -1,31 +1,32 @@
 ---
 title: "Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS"
-slug: "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms"
-verification: security_reviewed
-source: "https://github.com/TryGhost/Ghost"
+description: "Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and API-first content delivery in one self-hostable stack."
+verification: listed
+source: "https://agentskillexchange.com/skills/ghost-open-source-publishing-platform-memberships-newsletters-headless-cms/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "tryghost/ghost"
-  github_stars: 52496
-  npm_package: "ghost"
-  npm_weekly_downloads: 8841
 ---
+
 # Ghost Open Source Publishing Platform for Memberships Newsletters and Headless CMS
 
 Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and API-first content delivery in one self-hostable stack.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

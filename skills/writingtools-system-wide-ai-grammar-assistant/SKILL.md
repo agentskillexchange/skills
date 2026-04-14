@@ -1,29 +1,32 @@
 ---
 title: "WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS"
-slug: "writingtools-system-wide-ai-grammar-assistant"
-verification: security_reviewed
-source: "https://github.com/theJayTea/WritingTools"
+description: "WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites text, summarizes content, and more using cloud or local LLMs."
+verification: listed
+source: "https://agentskillexchange.com/skills/writingtools-system-wide-ai-grammar-assistant/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Custom Agents"
-tool_ecosystem:
-  github_repo: "theJayTea/WritingTools"
-  github_stars: 2186
 ---
+
 # WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS
 
 WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites text, summarizes content, and more using cloud or local LLMs.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

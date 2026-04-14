@@ -1,29 +1,32 @@
 ---
 title: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
-slug: "audiobookshelf-self-hosted-audiobook-podcast-server-api"
-verification: security_reviewed
-source: "https://github.com/advplyr/audiobookshelf"
+description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
+verification: listed
+source: "https://agentskillexchange.com/skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "advplyr/audiobookshelf"
-  github_stars: 12295
 ---
+
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 
-Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

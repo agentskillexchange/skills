@@ -1,29 +1,32 @@
 ---
 title: "Pages CMS Open Source Content Management for GitHub Repositories"
-slug: "pages-cms-github-content-management"
-verification: security_reviewed
-source: "https://github.com/pagescms/pagescms"
+description: "Pages CMS is an open-source content management system built on top of GitHub. It provides a visual editing interface for managing content in Git repositories, purpose-built for static sites and content-driven apps using Jekyll, Hugo, Next.js, Astro, and similar frameworks."
+verification: listed
+source: "https://agentskillexchange.com/skills/pages-cms-github-content-management/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "pagescms/pagescms"
-  github_stars: 3542
 ---
+
 # Pages CMS Open Source Content Management for GitHub Repositories
 
 Pages CMS is an open-source content management system built on top of GitHub. It provides a visual editing interface for managing content in Git repositories, purpose-built for static sites and content-driven apps using Jekyll, Hugo, Next.js, Astro, and similar frameworks.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

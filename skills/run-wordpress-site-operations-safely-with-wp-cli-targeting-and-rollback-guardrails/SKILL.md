@@ -1,29 +1,32 @@
 ---
 title: "Run WordPress site operations safely with WP-CLI targeting and rollback guardrails"
-slug: "run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails"
-verification: security_reviewed
-source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-wpcli-and-ops"
+description: "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product."
+verification: listed
+source: "https://agentskillexchange.com/skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "wordpress/agent-skills"
-  github_stars: 1219
 ---
+
 # Run WordPress site operations safely with WP-CLI targeting and rollback guardrails
 
 Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting. It is an operational runbook for guarded WordPress changes, not a plain entry for the WP-CLI product.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

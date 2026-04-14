@@ -1,31 +1,32 @@
 ---
 title: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
-slug: "nocobase-extensible-no-code-low-code-platform"
-verification: security_reviewed
-source: "https://github.com/nocobase/nocobase"
+description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
+verification: listed
+source: "https://agentskillexchange.com/skills/nocobase-extensible-no-code-low-code-platform/"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "nocobase/nocobase"
-  github_stars: 22114
-  npm_package: "nocobase"
-  npm_weekly_downloads: 746
 ---
+
 # NocoBase Extensible AI-Powered No-Code and Low-Code Platform
 
 NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

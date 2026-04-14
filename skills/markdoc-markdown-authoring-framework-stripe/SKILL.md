@@ -1,29 +1,32 @@
 ---
 title: "Markdoc Markdown-Based Authoring Framework by Stripe"
-slug: "markdoc-markdown-authoring-framework-stripe"
-verification: security_reviewed
-source: "https://github.com/markdoc/markdoc"
+description: "Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation sites and content experiences."
+verification: listed
+source: "https://agentskillexchange.com/skills/markdoc-markdown-authoring-framework-stripe/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "markdoc/markdoc"
-  github_stars: 7949
 ---
+
 # Markdoc Markdown-Based Authoring Framework by Stripe
 
 Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation sites and content experiences.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

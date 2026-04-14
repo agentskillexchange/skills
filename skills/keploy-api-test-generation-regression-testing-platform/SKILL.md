@@ -1,29 +1,32 @@
 ---
 title: "Keploy API Test Generation and Regression Testing Platform"
-slug: "keploy-api-test-generation-regression-testing-platform"
-verification: security_reviewed
-source: "https://github.com/keploy/keploy"
+description: "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects."
+verification: listed
+source: "https://agentskillexchange.com/skills/keploy-api-test-generation-regression-testing-platform/"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
-tool_ecosystem:
-  github_repo: "keploy/keploy"
-  github_stars: 17090
 ---
+
 # Keploy API Test Generation and Regression Testing Platform
 
 Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

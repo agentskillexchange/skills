@@ -1,31 +1,32 @@
 ---
 title: "Search Help Scout conversations and thread context before drafting support replies"
-slug: "search-help-scout-conversations-and-thread-context-before-drafting-support-replies"
-verification: security_reviewed
-source: "https://github.com/drewburchfield/help-scout-mcp-server"
+description: "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context."
+verification: listed
+source: "https://agentskillexchange.com/skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "MCP"
-tool_ecosystem:
-  github_repo: "drewburchfield/help-scout-mcp-server"
-  github_stars: 36
-  npm_package: "help-scout-mcp-server"
-  npm_weekly_downloads: 184
 ---
+
 # Search Help Scout conversations and thread context before drafting support replies
 
 Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context.
 
 ## Installation
 
-Choose the method that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from Agent Skill Exchange
-2. Clone or download the upstream project
-3. Install with the upstream package manager
-4. Add the skill to your local skills directory
-5. Follow the upstream documentation for environment-specific setup
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 
