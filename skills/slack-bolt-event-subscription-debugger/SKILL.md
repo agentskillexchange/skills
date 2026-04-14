@@ -1,32 +1,31 @@
 ---
 title: "Slack Bolt Event Subscription Debugger"
 description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
-verification: listed
-source: "https://agentskillexchange.com/skills/slack-bolt-event-subscription-debugger/"
+verification: "security_reviewed"
+source: "https://github.com/slackapi/bolt-js"
 category:
   - "Integrations & Connectors"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "slackapi/bolt-js"
+  github_stars: 2898
+  npm_package: "@slack/bolt"
+  npm_weekly_downloads: 1953184
 ---
-
 # Slack Bolt Event Subscription Debugger
 
 Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

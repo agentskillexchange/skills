@@ -1,32 +1,29 @@
 ---
 title: "Skopeo Container Image Registry Operations CLI"
 description: "Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync container images across registries, supporting OCI and Docker v2 formats with rootless operation."
-verification: listed
-source: "https://agentskillexchange.com/skills/skopeo-container-image-registry-operations-cli/"
+verification: "security_reviewed"
+source: "https://github.com/containers/skopeo"
 category:
   - "Security & Verification"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "containers/skopeo"
+  github_stars: 10665
 ---
-
 # Skopeo Container Image Registry Operations CLI
 
 Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync container images across registries, supporting OCI and Docker v2 formats with rootless operation.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

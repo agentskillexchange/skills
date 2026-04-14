@@ -1,32 +1,26 @@
 ---
 title: "AI Meta Description Generator"
-description: "Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
-verification: listed
-source: "https://agentskillexchange.com/skills/ai-meta-description-generator/"
+description: "Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files."
+verification: "security_reviewed"
+source: "https://platform.openai.com/docs/api-reference"
 category:
   - "Content Writing & SEO"
 framework:
   - "Claude Agents"
 ---
-
 # AI Meta Description Generator
 
-Bulk-generates SEO meta descriptions from page content using OpenAI’s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
+Bulk-generates SEO meta descriptions from page content using OpenAI&#8217;s GPT-4o API with custom system prompts tuned for SERP CTR optimization. Validates character limits, checks for duplicate descriptions via Screaming Frog CSV exports, and outputs Yoast SEO-compatible import files.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

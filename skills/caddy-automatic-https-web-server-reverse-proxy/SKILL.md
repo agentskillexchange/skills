@@ -1,32 +1,29 @@
 ---
 title: "Caddy Automatic HTTPS Web Server and Reverse Proxy"
-description: "Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let’s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies."
-verification: listed
-source: "https://agentskillexchange.com/skills/caddy-automatic-https-web-server-reverse-proxy/"
+description: "Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let&#8217;s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies."
+verification: "security_reviewed"
+source: "https://github.com/caddyserver/caddy"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "caddyserver/caddy"
+  github_stars: 71224
 ---
-
 # Caddy Automatic HTTPS Web Server and Reverse Proxy
 
-Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let’s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies.
+Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let&#8217;s Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and HTTP/3, features a simple Caddyfile configuration format, a powerful JSON API for dynamic config, and serves as a production-grade reverse proxy with zero external dependencies.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

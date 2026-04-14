@@ -1,32 +1,31 @@
 ---
 title: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
 description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
-verification: listed
-source: "https://agentskillexchange.com/skills/unlighthouse-site-wide-lighthouse-seo-auditing/"
+verification: "security_reviewed"
+source: "https://github.com/harlan-zw/unlighthouse"
 category:
   - "Content Writing & SEO"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "harlan-zw/unlighthouse"
+  github_stars: 4469
+  npm_package: "unlighthouse"
+  npm_weekly_downloads: 15320
 ---
-
 # Unlighthouse Site-Wide Lighthouse and SEO Auditing
 
 Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

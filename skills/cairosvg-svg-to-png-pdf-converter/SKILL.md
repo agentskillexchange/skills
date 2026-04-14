@@ -1,32 +1,29 @@
 ---
 title: "CairoSVG SVG to PNG PDF and PostScript Converter"
 description: "CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats via both a CLI and a Python API, making it a reliable tool for automated image pipeline workflows."
-verification: listed
-source: "https://agentskillexchange.com/skills/cairosvg-svg-to-png-pdf-converter/"
+verification: "security_reviewed"
+source: "https://github.com/Kozea/CairoSVG"
 category:
   - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "Kozea/CairoSVG"
+  github_stars: 917
 ---
-
 # CairoSVG SVG to PNG PDF and PostScript Converter
 
 CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF, EPS, and PostScript formats via both a CLI and a Python API, making it a reliable tool for automated image pipeline workflows.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

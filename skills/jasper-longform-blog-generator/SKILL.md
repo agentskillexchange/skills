@@ -1,32 +1,26 @@
 ---
 title: "Jasper AI Long-Form Blog Post Generator"
-description: "Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
-verification: listed
+description: "Connects to Jasper&#8217;s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
+verification: "security_reviewed"
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 category:
   - "Content Writing & SEO"
 framework:
   - "OpenClaw"
 ---
-
 # Jasper AI Long-Form Blog Post Generator
 
-Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
+Connects to Jasper&#8217;s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

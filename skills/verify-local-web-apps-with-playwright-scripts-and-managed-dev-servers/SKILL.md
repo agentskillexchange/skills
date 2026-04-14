@@ -1,32 +1,29 @@
 ---
 title: "Verify local web apps with Playwright scripts and managed dev servers"
-description: "Use Anthropic’s webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against the rendered app. It is for agent-led verification and UI debugging of local web apps, not for listing Playwright as a generic browser framework."
-verification: listed
-source: "https://agentskillexchange.com/skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/"
+description: "Use Anthropic&#8217;s webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against the rendered app. It is for agent-led verification and UI debugging of local web apps, not for listing Playwright as a generic browser framework."
+verification: "security_reviewed"
+source: "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
 category:
   - "Browser Automation"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "anthropics/skills"
+  github_stars: 116154
 ---
-
 # Verify local web apps with Playwright scripts and managed dev servers
 
-Use Anthropic’s webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against the rendered app. It is for agent-led verification and UI debugging of local web apps, not for listing Playwright as a generic browser framework.
+Use Anthropic&#8217;s webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against the rendered app. It is for agent-led verification and UI debugging of local web apps, not for listing Playwright as a generic browser framework.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

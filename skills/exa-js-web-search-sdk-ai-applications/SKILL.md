@@ -1,32 +1,29 @@
 ---
 title: "Exa JS Web Search SDK for AI Applications"
 description: "exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand."
-verification: listed
-source: "https://agentskillexchange.com/skills/exa-js-web-search-sdk-ai-applications/"
+verification: "security_reviewed"
+source: "https://github.com/exa-labs/exa-js"
 category:
   - "Research & Scraping"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "exa-labs/exa-js"
+  github_stars: 126
 ---
-
 # Exa JS Web Search SDK for AI Applications
 
 exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

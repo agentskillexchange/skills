@@ -1,32 +1,29 @@
 ---
 title: "Datasette Data Exploration and Publishing Tool"
 description: "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code."
-verification: listed
-source: "https://agentskillexchange.com/skills/datasette-data-exploration-publishing-tool/"
+verification: "security_reviewed"
+source: "https://github.com/simonw/datasette"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "simonw/datasette"
+  github_stars: 10894
 ---
-
 # Datasette Data Exploration and Publishing Tool
 
 Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON API, enabling data journalists, researchers, and developers to share datasets without writing application code.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

@@ -1,32 +1,31 @@
 ---
 title: "sitespeed.io Comprehensive Web Performance Analysis Toolkit"
 description: "sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring."
-verification: listed
-source: "https://agentskillexchange.com/skills/sitespeed-io-web-performance-analysis/"
+verification: "security_reviewed"
+source: "https://github.com/sitespeedio/sitespeed.io"
 category:
   - "Monitoring & Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "sitespeedio/sitespeed.io"
+  github_stars: 4972
+  npm_package: "sitespeed.io"
+  npm_weekly_downloads: 3269
 ---
-
 # sitespeed.io Comprehensive Web Performance Analysis Toolkit
 
 sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over time with support for CI/CD integration and production monitoring.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 

@@ -1,32 +1,29 @@
 ---
 title: "Cypress End-to-End and Component Testing Framework"
 description: "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines."
-verification: listed
-source: "https://agentskillexchange.com/skills/cypress-end-to-end-component-testing-framework/"
+verification: "security_reviewed"
+source: "https://github.com/cypress-io/cypress"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "cypress-io/cypress"
+  github_stars: 49611
 ---
-
 # Cypress End-to-End and Component Testing Framework
 
 Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines.
 
 ## Installation
 
-Choose the setup that fits your environment:
+You can install this skill in a few common ways:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Browse and install from Agent Skill Exchange in the UI if your client supports it.
+2. Install from a local skill folder by copying it into your skills directory.
+3. Add it as a git submodule or vendor it into your shared skills repo.
+4. Fetch it with your preferred skill or package workflow if the upstream project publishes one.
+5. Follow the upstream project documentation for manual setup and dependencies.
 
 ## Source
 
