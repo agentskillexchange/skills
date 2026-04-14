@@ -1,12 +1,15 @@
 ---
 title: "PagerDuty Incident Runbook Executor"
 description: "Automatically executes diagnostic runbooks when PagerDuty incidents trigger, using the PagerDuty Events v2 API and Rundeck API. Attaches diagnostic output as incident notes and suggests remediation actions."
-verification: listed
-source: "https://agentskillexchange.com/skills/pagerduty-incident-runbook-executor/"
+verification: "security_reviewed"
+source: "https://github.com/PagerDuty/pdjs"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "OpenClaw"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pagerduty/pdjs"
+  github_stars: 69
 ---
 
 # PagerDuty Incident Runbook Executor
@@ -15,18 +18,13 @@ Automatically executes diagnostic runbooks when PagerDuty incidents trigger, usi
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

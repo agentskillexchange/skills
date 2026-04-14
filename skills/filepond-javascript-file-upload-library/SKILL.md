@@ -1,12 +1,17 @@
 ---
 title: "FilePond Flexible JavaScript File Upload Library"
 description: "FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with drag-and-drop, paste, and API support. It includes built-in image optimization, async chunked uploads, and adapters for React, Vue, Angular, and Svelte."
-verification: listed
-source: "https://agentskillexchange.com/skills/filepond-javascript-file-upload-library/"
+verification: "security_reviewed"
+source: "https://github.com/pqina/filepond"
 category:
   - "Library & API Reference"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pqina/filepond"
+  github_stars: 16349
+  npm_package: "filepond"
+  npm_weekly_downloads: 247601
 ---
 
 # FilePond Flexible JavaScript File Upload Library
@@ -15,18 +20,13 @@ FilePond is a JavaScript file upload library that handles files, directories, UR
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

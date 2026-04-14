@@ -1,12 +1,15 @@
 ---
 title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
 description: "Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
-verification: listed
-source: "https://agentskillexchange.com/skills/audit-python-dependency-declarations-before-release/"
+verification: "security_reviewed"
+source: "https://github.com/osprey-oss/deptry"
 category:
   - "Code Quality & Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "osprey-oss/deptry"
+  github_stars: 1359
 ---
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release
@@ -15,18 +18,13 @@ Use Deptry when an agent needs to verify that a Python project’s declared depe
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

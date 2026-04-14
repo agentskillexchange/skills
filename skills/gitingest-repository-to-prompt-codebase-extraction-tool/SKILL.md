@@ -1,12 +1,15 @@
 ---
 title: "Gitingest Repository-to-Prompt Codebase Extraction Tool"
 description: "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a hosted URL pattern, a Python package, or a local server for extracting repository summaries, structure, and source content."
-verification: listed
-source: "https://agentskillexchange.com/skills/gitingest-repository-to-prompt-codebase-extraction-tool/"
+verification: "security_reviewed"
+source: "https://github.com/coderamp-labs/gitingest"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "coderamp-labs/gitingest"
+  github_stars: 14266
 ---
 
 # Gitingest Repository-to-Prompt Codebase Extraction Tool
@@ -15,18 +18,13 @@ Gitingest turns a Git repository into a prompt-friendly text bundle that agents 
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

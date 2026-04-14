@@ -1,12 +1,15 @@
 ---
 title: "Hugging Face Model Deployer"
 description: "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams logs to the terminal. Supports private repos with HF_TOKEN and custom Docker containers."
-verification: listed
-source: "https://agentskillexchange.com/skills/huggingface-model-deployer/"
+verification: "security_reviewed"
+source: "https://github.com/huggingface/transformers"
 category:
   - "CI/CD Integrations"
 framework:
-  - "Codex"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "huggingface/transformers"
+  github_stars: 159358
 ---
 
 # Hugging Face Model Deployer
@@ -15,18 +18,13 @@ Deploys models from Hugging Face Hub to Inference Endpoints using the huggingfac
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

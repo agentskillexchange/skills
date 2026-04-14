@@ -1,12 +1,15 @@
 ---
 title: "PostgreSQL Query Plan Diagnostics"
 description: "Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) and the pg_stat_statements extension. Identifies sequential scans, nested loop inefficiencies, and index recommendations for slow queries."
-verification: listed
-source: "https://agentskillexchange.com/skills/postgresql-query-plan-diagnostics-wave48/"
+verification: "security_reviewed"
+source: "https://www.npmjs.com/package/pg"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
+tool_ecosystem:
+  npm_package: "pg"
+  npm_weekly_downloads: 23169914
 ---
 
 # PostgreSQL Query Plan Diagnostics
@@ -15,18 +18,13 @@ Analyzes PostgreSQL query execution plans using EXPLAIN (ANALYZE, BUFFERS, FORMA
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

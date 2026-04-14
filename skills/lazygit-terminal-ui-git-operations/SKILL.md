@@ -1,12 +1,15 @@
 ---
 title: "lazygit Terminal UI for Git Operations"
 description: "A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing, conflict resolution, and branch management through an intuitive TUI that replaces arcane git command sequences with keyboard-driven workflows."
-verification: listed
-source: "https://agentskillexchange.com/skills/lazygit-terminal-ui-git-operations/"
+verification: "security_reviewed"
+source: "https://github.com/jesseduffield/lazygit"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "jesseduffield/lazygit"
+  github_stars: 75400
 ---
 
 # lazygit Terminal UI for Git Operations
@@ -15,18 +18,13 @@ A simple terminal user interface for git commands built with Go. lazygit provide
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

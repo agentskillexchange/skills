@@ -1,12 +1,17 @@
 ---
 title: "Turborepo Monorepo Build System"
 description: "Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and TypeScript monorepos with intelligent caching, parallel execution, and remote cache sharing via Vercel."
-verification: listed
-source: "https://agentskillexchange.com/skills/turborepo-monorepo-build-system/"
+verification: "security_reviewed"
+source: "https://github.com/vercel/turborepo"
 category:
   - "Developer Tools"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "vercel/turborepo"
+  github_stars: 30114
+  npm_package: "turbo"
+  npm_weekly_downloads: 12928111
 ---
 
 # Turborepo Monorepo Build System
@@ -15,18 +20,13 @@ Use Turborepo to orchestrate builds, tests, and tasks across JavaScript and Type
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

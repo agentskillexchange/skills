@@ -1,12 +1,15 @@
 ---
 title: "Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs"
 description: "Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records up by a stable key, reports added, removed, and changed rows, and can hand the result to humans or downstream automations as readable text or machine-friendly JSON."
-verification: listed
-source: "https://agentskillexchange.com/skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/"
+verification: "security_reviewed"
+source: "https://github.com/simonw/csv-diff"
 category:
   - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "simonw/csv-diff"
+  github_stars: 330
 ---
 
 # Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs
@@ -15,18 +18,13 @@ Use csv-diff when an agent needs to explain what changed between two structured 
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

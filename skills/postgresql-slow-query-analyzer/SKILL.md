@@ -1,12 +1,15 @@
 ---
 title: "PostgreSQL Slow Query Analyzer"
 description: "Queries pg_stat_statements and pg_stat_activity to surface the top slow queries by total execution time, mean latency, and call frequency. Runs EXPLAIN ANALYZE on worst offenders and suggests index additions, rewrite candidates, or vacuum triggers. Works on RDS and Supabase."
-verification: listed
-source: "https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/"
+verification: "security_reviewed"
+source: "https://www.npmjs.com/package/pg"
 category:
   - "Runbooks & Diagnostics"
 framework:
-  - "MCP"
+  - "Multi-Framework"
+tool_ecosystem:
+  npm_package: "pg"
+  npm_weekly_downloads: 23169914
 ---
 
 # PostgreSQL Slow Query Analyzer
@@ -15,18 +18,13 @@ Queries pg_stat_statements and pg_stat_activity to surface the top slow queries 
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

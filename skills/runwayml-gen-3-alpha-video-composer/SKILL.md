@@ -1,12 +1,15 @@
 ---
 title: "RunwayML Gen-3 Alpha Video Composer"
 description: "Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-to-video and image-to-video modes. Manages generation tasks, polling, and output stitching via FFmpeg."
-verification: listed
-source: "https://agentskillexchange.com/skills/runwayml-gen-3-alpha-video-composer/"
+verification: "security_reviewed"
+source: "https://github.com/FFmpeg/FFmpeg"
 category:
   - "Image & Creative Automation"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "FFmpeg/FFmpeg"
+  github_stars: 58548
 ---
 
 # RunwayML Gen-3 Alpha Video Composer
@@ -15,18 +18,13 @@ Composes AI-generated video clips using the RunwayML Gen-3 Alpha API with text-t
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

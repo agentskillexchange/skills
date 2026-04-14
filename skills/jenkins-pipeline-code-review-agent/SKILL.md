@@ -1,12 +1,15 @@
 ---
 title: "Jenkins Pipeline Code Review Agent"
 description: "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules."
-verification: listed
-source: "https://agentskillexchange.com/skills/jenkins-pipeline-code-review-agent/"
+verification: "security_reviewed"
+source: "https://github.com/jenkinsci/jenkins"
 category:
   - "Code Quality & Review"
 framework:
-  - "Cursor"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "jenkinsci/jenkins"
+  github_stars: 25189
 ---
 
 # Jenkins Pipeline Code Review Agent
@@ -15,18 +18,13 @@ Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issu
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

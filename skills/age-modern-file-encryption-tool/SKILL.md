@@ -1,12 +1,15 @@
 ---
 title: "age Modern File Encryption Tool"
 description: "Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys, post-quantum support, no config options, and UNIX-style composability. A practical replacement for GPG in most workflows."
-verification: listed
-source: "https://agentskillexchange.com/skills/age-modern-file-encryption-tool/"
+verification: "security_reviewed"
+source: "https://github.com/FiloSottile/age"
 category:
   - "Security & Verification"
 framework:
-  - "Claude Code"
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "FiloSottile/age"
+  github_stars: 21824
 ---
 
 # age Modern File Encryption Tool
@@ -15,18 +18,13 @@ Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryptio
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose whichever fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
