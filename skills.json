@@ -1,8 +1,65 @@
 {
   "version": "2.0",
-  "total": 1970,
+  "total": 1974,
   "generated": "2026-04-14",
   "skills": [
+    {
+      "slug": "add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick",
+      "name": "Add a browser review checkpoint before risky agent actions with AgentClick",
+      "description": "Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 22
+      }
+    },
+    {
+      "slug": "run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents",
+      "name": "Run deterministic browser steps with settled screenshots and event logs for agents",
+      "description": "Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of…",
+      "category": [
+        "Browser Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 436
+      }
+    },
+    {
+      "slug": "operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents",
+      "name": "Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents",
+      "description": "Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature flags, cost data, and related platform resources…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck",
+      "name": "Manage multi-agent coding sessions from one terminal mission control with Agent Deck",
+      "description": "Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs,…",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2024
+      }
+    },
     {
       "slug": "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit",
       "name": "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit",

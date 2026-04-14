@@ -165,6 +165,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | — | — |
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
+| [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | — | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |

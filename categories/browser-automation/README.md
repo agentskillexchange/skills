@@ -79,6 +79,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
+| [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | — |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
