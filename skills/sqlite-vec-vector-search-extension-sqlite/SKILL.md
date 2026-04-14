@@ -1,10 +1,10 @@
 ---
 title: "sqlite-vec Vector Search Extension for SQLite"
 description: "sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies, it runs anywhere SQLite runs—Linux, macOS, Windows, WASM in browsers, and Raspberry Pis—and supports float, int8, and binary vector storage."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/asg017/sqlite-vec"
-category: ["Developer Tools"]
-framework: ["Custom Agents"]
+category:
+  - "Developer Tools"
 tool_ecosystem:
   github_repo: "asg017/sqlite-vec"
   github_stars: 7331
@@ -18,13 +18,18 @@ sqlite-vec is a lightweight SQLite extension for vector similarity search. Writt
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

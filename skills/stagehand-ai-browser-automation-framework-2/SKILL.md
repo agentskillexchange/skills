@@ -1,25 +1,30 @@
 ---
 title: "Stagehand AI Browser Automation Framework"
-description: "Build browser automations with Stagehand, Browserbase’s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows."
-verification: "security_reviewed"
+description: "Build browser automations with Stagehand, Browserbase&#8217;s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows."
+verification: security_reviewed
 source: "https://github.com/browserbase/stagehand"
-category: ["Browser Automation"]
-framework: ["Multi-Framework"]
+category:
+  - "Browser Automation"
 ---
 
 # Stagehand AI Browser Automation Framework
 
-Build browser automations with Stagehand, Browserbase’s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows.
+Build browser automations with Stagehand, Browserbase&#8217;s AI browser automation framework. It combines natural-language actions with code-level control so agents can navigate sites, extract data, and turn brittle scripts into more resilient Playwright-style workflows.
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

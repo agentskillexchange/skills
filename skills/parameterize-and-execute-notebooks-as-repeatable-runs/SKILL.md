@@ -1,13 +1,10 @@
 ---
 title: "Parameterize and execute notebooks as repeatable runs"
 description: "Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive document. The skill injects parameters, runs the notebook end to end, and preserves the executed output as an artifact for review or handoff."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/nteract/papermill"
-category: ["Templates &amp; Workflows"]
-framework: ["Multi-Framework"]
-tool_ecosystem:
-  github_repo: "nteract/papermill"
-  github_stars: 6429
+category:
+  - "Templates &amp; Workflows"
 ---
 
 # Parameterize and execute notebooks as repeatable runs
@@ -16,13 +13,18 @@ Use Papermill when an agent needs to treat a Jupyter notebook like a reusable jo
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

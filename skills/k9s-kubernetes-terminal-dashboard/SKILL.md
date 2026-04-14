@@ -1,10 +1,10 @@
 ---
 title: "K9s Kubernetes Terminal Dashboard"
 description: "K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/derailed/k9s"
-category: ["Developer Tools"]
-framework: ["Claude Code"]
+category:
+  - "Developer Tools"
 tool_ecosystem:
   github_repo: "derailed/k9s"
   github_stars: 33240
@@ -16,13 +16,18 @@ K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

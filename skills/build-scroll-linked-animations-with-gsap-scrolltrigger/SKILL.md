@@ -1,28 +1,30 @@
 ---
 title: "Build scroll-linked animations with GSAP ScrollTrigger"
-description: "Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page."
-verification: "security_reviewed"
+description: "Use Greensock&#8217;s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page."
+verification: security_reviewed
 source: "https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger"
-category: ["Developer Tools"]
-framework: ["Multi-Framework"]
-tool_ecosystem:
-  github_repo: "greensock/gsap-skills"
-  github_stars: 2341
+category:
+  - "Developer Tools"
 ---
 
 # Build scroll-linked animations with GSAP ScrollTrigger
 
-Use Greensock’s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page.
+Use Greensock&#8217;s official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent should reach for this when a user needs a bounded scroll-animation workflow, not when they just need the GSAP product page.
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

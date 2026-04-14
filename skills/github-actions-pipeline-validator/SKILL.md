@@ -1,10 +1,10 @@
 ---
 title: "GitHub Actions Pipeline Validator"
 description: "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node, and dorny/paths-filter APIs."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/github-actions-pipeline-validator/"
-category: ["CI/CD Integrations"]
-framework: ["OpenClaw"]
+category:
+  - "CI/CD Integrations"
 ---
 
 # GitHub Actions Pipeline Validator
@@ -13,13 +13,18 @@ Validates GitHub Actions workflow YAML files against the Actions schema, checks 
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

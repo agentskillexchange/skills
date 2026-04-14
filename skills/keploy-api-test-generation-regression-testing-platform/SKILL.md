@@ -1,10 +1,10 @@
 ---
 title: "Keploy API Test Generation and Regression Testing Platform"
 description: "Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test generation, API replay, coverage expansion, and validation workflows around Keploy projects."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/keploy/keploy"
-category: ["Code Quality &amp; Review"]
-framework: ["Multi-Framework"]
+category:
+  - "Code Quality &amp; Review"
 ---
 
 # Keploy API Test Generation and Regression Testing Platform
@@ -13,13 +13,18 @@ Keploy is an open source platform for generating API tests from real traffic and
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

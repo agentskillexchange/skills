@@ -1,10 +1,10 @@
 ---
 title: "Casdoor Open Source Identity and Access Management Platform"
 description: "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, and MCP gateway integration with a web-based admin UI."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/casdoor/casdoor"
-category: ["Security &amp; Verification"]
-framework: ["Multi-Framework"]
+category:
+  - "Security &amp; Verification"
 tool_ecosystem:
   github_repo: "casdoor/casdoor"
   github_stars: 13316
@@ -16,13 +16,18 @@ Casdoor is an open source AI-first Identity and Access Management (IAM) platform
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

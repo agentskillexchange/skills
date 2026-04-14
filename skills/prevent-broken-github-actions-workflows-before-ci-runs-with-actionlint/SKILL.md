@@ -1,13 +1,10 @@
 ---
 title: "Prevent broken GitHub Actions workflows before CI runs with actionlint"
 description: "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions, action inputs, runner labels, cron patterns, and a few security footguns so the agent can stop bad workflow changes before CI burns time."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/rhysd/actionlint"
-category: ["Code Quality &amp; Review"]
-framework: ["Multi-Framework"]
-tool_ecosystem:
-  github_repo: "rhysd/actionlint"
-  github_stars: 3782
+category:
+  - "Code Quality &amp; Review"
 ---
 
 # Prevent broken GitHub Actions workflows before CI runs with actionlint
@@ -16,13 +13,18 @@ Use actionlint when an agent needs to inspect GitHub Actions workflow files befo
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

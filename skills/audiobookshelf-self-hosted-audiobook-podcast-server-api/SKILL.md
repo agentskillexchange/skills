@@ -1,10 +1,10 @@
 ---
 title: "Audiobookshelf Self-Hosted Audiobook and Podcast Server API"
-description: "Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
-verification: "security_reviewed"
+description: "Integrate Audiobookshelf&#8217;s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API."
+verification: security_reviewed
 source: "https://github.com/advplyr/audiobookshelf"
-category: ["Media &amp; Transcription"]
-framework: ["Multi-Framework"]
+category:
+  - "Media &amp; Transcription"
 tool_ecosystem:
   github_repo: "advplyr/audiobookshelf"
   github_stars: 12295
@@ -12,17 +12,22 @@ tool_ecosystem:
 
 # Audiobookshelf Self-Hosted Audiobook and Podcast Server API
 
-Integrate Audiobookshelf’s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
+Integrate Audiobookshelf&#8217;s self-hosted audiobook and podcast server into AI agent workflows. Agents can manage libraries, track listening progress, search metadata, and automate podcast episode downloads through the comprehensive REST API.
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

@@ -1,10 +1,10 @@
 ---
 title: "Logfire Python Observability SDK for LLM and Agent Tracing"
-description: "Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch."
-verification: "security_reviewed"
+description: "Logfire is Pydantic&#8217;s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch."
+verification: security_reviewed
 source: "https://github.com/pydantic/logfire"
-category: ["Monitoring &amp; Alerts"]
-framework: ["Multi-Framework"]
+category:
+  - "Monitoring &amp; Alerts"
 tool_ecosystem:
   github_repo: "pydantic/logfire"
   github_stars: 4161
@@ -12,17 +12,22 @@ tool_ecosystem:
 
 # Logfire Python Observability SDK for LLM and Agent Tracing
 
-Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
+Logfire is Pydantic&#8217;s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 

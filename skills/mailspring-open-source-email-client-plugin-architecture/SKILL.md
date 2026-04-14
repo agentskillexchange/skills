@@ -1,10 +1,10 @@
 ---
 title: "Mailspring Open Source Email Client with Plugin Architecture"
 description: "Mailspring is a beautiful, fast, and fully open source email client for Mac, Windows, and Linux. Built on Electron and React with a C++ sync engine, it supports unified inbox, snooze, send later, mail rules, and templates with a powerful plugin system."
-verification: "security_reviewed"
+verification: security_reviewed
 source: "https://github.com/Foundry376/Mailspring"
-category: ["Calendar, Email &amp; Productivity"]
-framework: ["Custom Agents"]
+category:
+  - "Calendar, Email &amp; Productivity"
 tool_ecosystem:
   github_repo: "Foundry376/Mailspring"
   github_stars: 17366
@@ -16,13 +16,18 @@ Mailspring is a beautiful, fast, and fully open source email client for Mac, Win
 
 ## Installation
 
-Choose the install path that fits your setup:
+Choose the setup that fits your environment:
 
-1. Install from the Agent Skill Exchange catalog if your agent client supports it.
-2. Copy the skill folder into your local skills directory.
-3. Add it as a git submodule in your shared agent-skills repo.
-4. Vendor the files directly into a project-specific `.agents/skills/` or equivalent folder.
-5. Keep a fork or mirror if you need local modifications or pinned revisions.
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
 
 ## Source
 
