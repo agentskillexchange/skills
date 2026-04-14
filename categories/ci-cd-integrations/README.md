@@ -8,14 +8,14 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 48.1k |
+| [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | ⭐ 34.7k |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | ⭐ 33k |
+| [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⭐ 23.5k |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⭐ 21.3k |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
-| [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | ⭐ 14k |
-| [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | ⭐ 6.8k |
 
 ---
 
@@ -23,8 +23,10 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Downloads |
 |---|---:|
+| [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⬇ 2.5M/wk |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
+| [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | ⬇ 1k/wk |
 
 ---
 
@@ -34,7 +36,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|---:|
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
+| [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | 34.7k | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
+| [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | 23.5k | 2.5M/wk |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
@@ -49,9 +53,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
+| [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
+| [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
 | [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | — | — |
@@ -141,7 +147,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | — | — |
 | [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | — | — |
 | [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | — | — |
-| [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | — | — |
 | [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | — | — |
 | [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | — | — |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | — | — |
@@ -165,9 +170,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | — | — |
 | [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
-| [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
-| [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | — | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | — | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | — | — |
@@ -188,7 +191,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | — | — |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | — | — |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | — | — |
-| [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | — | — |
 
 ---
 

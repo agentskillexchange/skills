@@ -6,16 +6,16 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars |
 |---|---:|
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 356.8k |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
+| [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | ⭐ 116.9k |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | ⭐ 116.2k |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.5k |
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.3k |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | ⭐ 45.2k |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | ⭐ 44.3k |
 | [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⭐ 42.8k |
-| [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | ⭐ 33.8k |
-| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⭐ 31.8k |
-| [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⭐ 22.4k |
+| [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | ⭐ 39.5k |
 
 ---
 
@@ -24,8 +24,10 @@ Image generation, asset processing, design automation, and creative tooling.
 | Skill | Downloads |
 |---|---:|
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 856.4k/wk |
-| [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | ⬇ 49.7k/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
+| [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
+| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | ⬇ 8.7M/wk |
+| [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | ⬇ 49k/wk |
 
 ---
 
@@ -33,32 +35,37 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 356.8k | — |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
+| [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 116.2k | — |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | 58.5k | — |
 | [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | 45.3k | — |
 | [Penpot Open Source Design and Prototyping Platform](../../skills/penpot-open-source-design-prototyping/) | 45.2k | — |
 | [Upscayl Open Source AI Image Upscaler](../../skills/upscayl-open-source-ai-image-upscaler/) | 44.3k | — |
 | [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | 42.8k | — |
+| [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | 39.5k | — |
 | [Stable Diffusion ControlNet Pose Pipeline](../../skills/stable-diffusion-controlnet-pose-pipeline/) | 33.8k | — |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.7M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
-| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 856.4k/wk |
+| [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 898k/wk |
+| [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 10.6k | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 10.5k | — |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
+| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | — |
 | [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | 4.1k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
+| [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
-| [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | — | 49.7k/wk |
+| [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | — | 49k/wk |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | — | — |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
@@ -87,20 +94,15 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | — | — |
-| [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | — | — |
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | — | — |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | — | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | — | — |
-| [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
-| [PhotoPrism Self-Hosted Photo Library Automation](../../skills/photoprism-self-hosted-photo-library-automation/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
-| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | — | — |
-| [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | — | — |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | — | — |

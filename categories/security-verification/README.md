@@ -6,6 +6,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Stars |
 |---|---:|
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
 | [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | ⭐ 34.5k |
@@ -15,7 +16,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | ⭐ 25.6k |
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | ⭐ 25.3k |
 | [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
-| [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | ⭐ 21.8k |
 
 ---
 
@@ -31,6 +31,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
 | [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | 34.5k | — |
@@ -62,11 +63,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
+| [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
 | [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | 3.3k | — |
@@ -78,7 +81,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 887 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 897 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
@@ -87,15 +90,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | 146 | 227.2k/wk |
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 105 | — |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 42 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 112 | — |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 43 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
-| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
-| [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
@@ -114,7 +115,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | — | — |
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | — | — |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | — | — |
-| [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |

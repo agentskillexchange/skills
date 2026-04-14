@@ -6,16 +6,16 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Stars |
 |---|---:|
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.3k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.3k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 83.7k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 83.7k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | ⭐ 57.8k |
+| [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | ⭐ 57.8k |
 | [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | ⭐ 57.6k |
-| [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | ⭐ 57.6k |
-| [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | ⭐ 56.9k |
 
 ---
 
@@ -24,9 +24,10 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | Skill | Downloads |
 |---|---:|
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | ⬇ 15/wk |
-| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 190.7k/wk |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 3/wk |
-| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | ⬇ 7.8M/wk |
+| [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | ⬇ 19.6M/wk |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 206k/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 14/wk |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | ⬇ 8.2M/wk |
 
 ---
 
@@ -34,13 +35,15 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.3k | — |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.3k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 83.7k | — |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 83.7k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | 73.7k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
+| [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | 57.8k | — |
 | [Docling Document Conversion and Extraction Toolkit](../../skills/docling-document-conversion-and-extraction-toolkit/) | 57.6k | — |
 | [Docling Document Parsing and Conversion Toolkit](../../skills/docling-document-parsing-and-conversion-toolkit/) | 57.6k | — |
 | [Docling AI Document Intelligence Pipeline](../../skills/docling-ai-document-intelligence-pipeline/) | 56.9k | — |
@@ -52,11 +55,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
-| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.3k | — |
+| [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | 33.2k | — |
+| [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.4k | — |
+| [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | 30.3k | 19.6M/wk |
+| [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
-| [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.4k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
-| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 190.7k/wk |
+| [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 206k/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | — |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | 17.5k | — |
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
@@ -71,7 +76,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |
+| [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | 10.6k | — |
 | [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | 10.3k | — |
+| [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
@@ -100,13 +107,13 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 3/wk |
+| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 72 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 75 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
-| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 7.8M/wk |
+| [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | — | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
@@ -122,9 +129,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | — | — |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | — | — |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | — | — |
-| [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | — | — |
 | [ClickHouse Query Agent](../../skills/clickhouse-query-agent/) | — | — |
-| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | — | — |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | — | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | — | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | — | — |
@@ -137,14 +142,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | — | — |
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | — | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | — | — |
-| [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | — | — |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | — | — |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | — | — |
-| [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | — | — |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | — | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | — | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | — | — |
-| [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | — | — |
 | [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Pandas DataFrame Pipeline Builder](../../skills/pandas-dataframe-pipeline-builder/) | — | — |
 | [Pandas DataFrame Pipeline Orchestrator](../../skills/pandas-dataframe-pipeline-orchestrator/) | — | — |
@@ -157,7 +159,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet Schema Extractor for S3](../../skills/parquet-schema-extractor-for-s3/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | — | — |
-| [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | — | — |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |

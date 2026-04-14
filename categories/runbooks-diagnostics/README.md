@@ -6,15 +6,16 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Stars |
 |---|---:|
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⭐ 356.8k |
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | ⭐ 121.4k |
 | [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | ⭐ 68.3k |
+| [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | ⭐ 13.2k |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | ⭐ 12.1k |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | ⭐ 11.9k |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | ⭐ 5.9k |
+| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | ⭐ 4.1k |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | ⭐ 4k |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | ⭐ 3.3k |
-| [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | ⭐ 158 |
-| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | ⭐ 65 |
 
 ---
 
@@ -22,13 +23,18 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | — |
 | [Kubernetes Events API CrashLoop Investigator](../../skills/kubernetes-events-api-crashloop-investigator/) | 121.4k | — |
 | [Ansible Playbook Runner with Vault Secrets](../../skills/ansible-playbook-vault-runner/) | 68.3k | — |
+| [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
+| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
+| [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
+| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 65 | — |
 | [Ansible Playbook Debugger](../../skills/ansible-playbook-debugger/) | — | — |
@@ -58,22 +64,18 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | — | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | — | — |
-| [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | — | — |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | — | — |
-| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | — | — |
 | [Docker Compose Health Checker](../../skills/docker-compose-health-checker/) | — | — |
 | [Docker Compose Health Monitor](../../skills/docker-compose-health-monitor/) | — | — |
 | [Docker Container Health Check Runbook](../../skills/docker-container-health-check-runbook/) | — | — |
 | [Docker Container Health Inspector](../../skills/docker-container-health-inspector/) | — | — |
 | [Dockerfile Security Hardening Advisor](../../skills/dockerfile-security-hardening-advisor/) | — | — |
-| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | — | — |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | — | — |
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
-| [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Jenkins Build Log Analyzer](../../skills/jenkins-build-log-analyzer/) | — | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | — | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | — | — |
@@ -134,7 +136,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | — | — |
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | — | — |
 | [Queue Backup Runbook](../../skills/queue-backup-runbook/) | — | — |
-| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | — | — |
 | [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | — | — |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |

@@ -7,15 +7,15 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Stars |
 |---|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
+| [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | ⭐ 78.4k |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.5k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.1k |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 73.2k |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | ⭐ 63.5k |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | ⭐ 43.5k |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⭐ 43k |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⭐ 35.9k |
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | ⭐ 30.3k |
-| [Loki Log Query Agent](../../skills/loki-log-query-agent/) | ⭐ 28k |
 
 ---
 
@@ -25,11 +25,11 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 5.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⬇ 41.7k/wk |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.6M/wk |
-| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⬇ 206.8k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⬇ 7.9k/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 6.6M/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | ⬇ 40k/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | ⬇ 4.8M/wk |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | ⬇ 238k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | ⬇ 6.1k/wk |
 
 ---
 
@@ -38,9 +38,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
+| [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.5k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
-| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.1k | — |
+| [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 73.2k | — |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | 63.5k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
@@ -55,14 +56,18 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
+| [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
+| [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | 9.6k | — |
+| [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | 9.2k | — |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
+| [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](../../skills/logfire-python-observability-sdk-llm-agent-tracing/) | 4.2k | — |
 | [Grafana OnCall Escalation Chain Manager](../../skills/grafana-oncall-escalation-chain-manager/) | 3.9k | — |
@@ -71,17 +76,17 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 790 | 5.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 626 | 41.7k/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 791 | 6.6M/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 635 | 40k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | — |
-| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.6M/wk |
+| [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | — |
-| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 206.8k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 7.9k/wk |
+| [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.1k/wk |
 | [AWS CloudWatch Anomaly Detector](../../skills/aws-cloudwatch-anomaly-detector/) | — | — |
 | [AWS CloudWatch Composite Alarm Builder](../../skills/aws-cloudwatch-composite-alarm-builder/) | — | — |
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | — | — |
@@ -104,10 +109,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | — | — |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | — | — |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | — | — |
-| [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | — | — |
 | [GlitchTip Open-Source Error Tracking Platform](../../skills/glitchtip-open-source-error-tracking-platform/) | — | — |
-| [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | — | — |
-| [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | — | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | — | — |
 | [Grafana Dashboard as Code Builder](../../skills/grafana-dashboard-as-code-builder/) | — | — |
 | [Grafana Dashboard Generator](../../skills/grafana-dashboard-generator-3/) | — | — |
@@ -121,11 +123,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | — | — |
 | [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
 | [Grafana Unified Alerting Manager](../../skills/grafana-unified-alerting-manager/) | — | — |
-| [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | — | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | — | — |
 | [Kubernetes Troubleshooting Runbook](../../skills/kubernetes-troubleshooting-runbook/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
-| [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | — | — |

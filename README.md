@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-1%2C974-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-1%2C978-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C929-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C947-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*1,974 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*1,978 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -48,18 +48,18 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
+| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
 | [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | kubernetes | 121.4k | Runbooks & Diagnostics |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
+| [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | skills | 116.9k | Templates & Workflows |
+| [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/) | firecrawl | 108.8k | Research & Scraping |
 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.9k | Developer Tools |
 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.4k | Media & Transcription |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
 | [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.7k | Code Quality & Review |
 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
-| [Playwright Cross-Browser Testing and Automation Framework](skills/playwright-cross-browser-testing-and-automation-framework/) | playwright | 85.5k | Browser Automation |
-| [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | servers | 83.3k | Data Extraction & Transformation |
-| [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | uv | 82.4k | Developer Tools |
 
 ---
 
@@ -67,7 +67,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 260 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 261 | CLI tools, scaffolders, dev environment setup |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 157 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 142 | ETL pipelines, parsing, format conversion |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 133 | Vulnerability scanning, auth setup, compliance |
@@ -77,11 +77,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 110 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 109 | SDK docs, API parsers, symbol resolvers |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 94 | Web scraping, UI testing, headless browser control |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 93 | Third-party API bridges, webhooks, service connectors |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 95 | Web scraping, UI testing, headless browser control |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 94 | Third-party API bridges, webhooks, service connectors |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 92 | Scaffolders, boilerplate generators, workflow templates |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 91 | Web research, content discovery, data collection |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 87 | Audio/video processing, speech-to-text |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 88 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 82 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 71 | SEO content, blog automation, editorial workflows |
 
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 1,974 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,929 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 1,978 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,947 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

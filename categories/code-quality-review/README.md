@@ -7,7 +7,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Stars |
 |---|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
-| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86k |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⭐ 45.3k |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | ⭐ 39.2k |
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | ⭐ 27.2k |
@@ -24,11 +24,11 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Downloads |
 |---|---:|
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4M/wk |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 504.9k/wk |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | ⬇ 4.3M/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | ⬇ 560.8k/wk |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | ⬇ 14.2M/wk |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⬇ 5.1M/wk |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 160k/wk |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | ⬇ 6.1M/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | ⬇ 166k/wk |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | ⬇ 588k/wk |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | ⬇ 6.4k/wk |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | ⬇ 234.6k/wk |
@@ -41,27 +41,27 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
-| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86k | 46.8M/wk |
+| [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
 | [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | — |
-| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4M/wk |
+| [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4.3M/wk |
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 20k | — |
-| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 504.9k/wk |
+| [commitlint Conventional Commit Message Linter](../../skills/commitlint-conventional-commit-message-linter/) | 18.4k | 560.8k/wk |
 | [ty Ultra-Fast Python Type Checker and Language Server](../../skills/ty-python-type-checker/) | 18.1k | — |
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
 | [Semgrep Code Pattern Scanner](../../skills/semgrep-code-pattern-scanner-2/) | 14.8k | — |
-| [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.7k | — |
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
-| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.7k | — |
+| [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
-| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 5.1M/wk |
+| [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 6.1M/wk |
 | [SonarQube Quality Gate Explainer](../../skills/sonarqube-quality-gate-explainer/) | 10.4k | — |
 | [SQLFluff SQL Linter and Auto-Formatter](../../skills/sqlfluff-sql-linter-auto-formatter/) | 9.6k | — |
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
@@ -69,7 +69,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
-| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 160k/wk |
+| [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 166k/wk |
 | [Prevent broken GitHub Actions workflows before CI runs with actionlint](../../skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
 | [Lint YAML configs for syntax, duplicate keys, and style drift before CI or deploy](../../skills/lint-yaml-configs-for-syntax-duplicate-keys-and-style-drift-before-ci-or-deploy/) | 3.4k | — |
 | [Polaris Kubernetes Best Practices Validator](../../skills/polaris-kubernetes-best-practices-validator/) | 3.4k | — |
@@ -84,13 +84,14 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
+| [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
 | [Broken Link Verification for Static Sites and Documentation](../../skills/broken-link-verification-static-sites-documentation/) | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |
-| [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | — |
-| [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 664.1k/wk |
+| [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
+| [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 703.6k/wk |
 | [CodeClimate Diff Analyzer](../../skills/codeclimate-diff-analyzer-2/) | — | — |
 | [CodeClimate Maintainability Tracker](../../skills/codeclimate-maintainability-tracker-7/) | — | — |
 | [Codecov Coverage Analyzer](../../skills/codecov-coverage-analyzer/) | — | — |
@@ -145,7 +146,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Semgrep SAST Scanner](../../skills/semgrep-sast-scanner-skill/) | — | — |
 | [Semgrep Security Review Agent](../../skills/semgrep-security-review-agent/) | — | — |
 | [Semgrep Security Scanner](../../skills/semgrep-security-scanner-2/) | — | — |
-| [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | — | — |
 | [SonarQube Analysis Agent](../../skills/sonarqube-analysis-agent/) | — | — |
 | [SonarQube Analysis Runner](../../skills/sonarqube-analysis-runner/) | — | — |
 | [SonarQube Code Quality Scanner](../../skills/sonarqube-code-quality-scanner/) | — | — |

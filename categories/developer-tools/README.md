@@ -6,6 +6,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars |
 |---|---:|
+| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | ⭐ 356.8k |
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.9k |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 159.2k |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.4k |
@@ -15,7 +16,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94.1k |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.9k |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | ⭐ 82.4k |
-| [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | ⭐ 79.2k |
 
 ---
 
@@ -23,16 +23,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.2k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 170.9k/wk |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.5M/wk |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 150M/wk |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 5k/wk |
-| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 59.9M/wk |
-| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 6.7M/wk |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 11M/wk |
-| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 108M/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
+| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.7M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 164M/wk |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | ⬇ 1k/wk |
+| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 66.3M/wk |
+| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 7M/wk |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 12.9M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 115.2M/wk |
 
 ---
 
@@ -40,6 +40,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | 356.8k | — |
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.9k | — |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159.2k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.4k | — |
@@ -57,7 +58,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 16.2k/wk |
+| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 16.5k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
@@ -73,21 +74,22 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
-| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.5k | — |
+| [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 170.9k/wk |
+| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 173.2k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.5M/wk |
+| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.7M/wk |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
 | [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | 42.7k | — |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | 42.5k | — |
 | [fd Fast File Finder CLI](../../skills/fd-fast-file-finder-cli/) | 42.3k | — |
 | [Fabric AI Prompt Pattern Framework](../../skills/fabric-ai-prompt-pattern-framework/) | 40.3k | — |
 | [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | 39.9k | — |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 39.8k | 150M/wk |
+| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 39.8k | 164M/wk |
+| [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | 39.6k | — |
 | [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | 39k | — |
-| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 5k/wk |
+| [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 1k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
 | [ToolJet Open Source Internal Tools and Workflow Platform](../../skills/tooljet-open-source-internal-tools-workflow-platform/) | 37.7k | — |
 | [Docker Compose Service Graph Visualizer](../../skills/docker-compose-service-graph-visualizer/) | 37.2k | — |
@@ -95,10 +97,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Dioxus Rust Fullstack Cross-Platform Application Framework](../../skills/dioxus-rust-fullstack-cross-platform-framework/) | 35.6k | — |
 | [Textual Python TUI Application Framework by Textualize](../../skills/textual-python-tui-application-framework/) | 35.3k | — |
 | [zoxide Smart Directory Navigation CLI](../../skills/zoxide-smart-directory-navigation-cli/) | 35.1k | — |
-| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 59.9M/wk |
+| [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | 34.4k | 66.3M/wk |
 | [Goose Extensible AI Coding Agent by Block](../../skills/goose-extensible-ai-coding-agent-block/) | 33.9k | — |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | 33.6k | — |
-| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 6.7M/wk |
+| [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 7M/wk |
 | [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | 33.3k | — |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | 33.3k | — |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | 33.2k | — |
@@ -108,7 +110,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 30.3k | — |
-| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 11M/wk |
+| [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 12.9M/wk |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 29.8k | — |
 | [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | — |
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
@@ -117,7 +119,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 108M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 115.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
 | [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | 26.1k | — |
@@ -126,15 +128,17 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
+| [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
-| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 53.4k/wk |
+| [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 54.8k/wk |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
-| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 230.3k/wk |
+| [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.6k | — |
+| [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 267.2k/wk |
 | [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | 22.5k | — |
-| [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
+| [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](../../skills/nocobase-extensible-no-code-low-code-platform/) | 22.1k | 746/wk |
 | [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | 21.9k | — |
 | [ChartDB Database Schema Visualization and Diagram Editor](../../skills/chartdb-database-schema-visualization/) | 21.7k | — |
 | [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | 21.7k | — |
@@ -156,7 +160,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](../../skills/plandex-ai-coding-agent-large-projects/) | 15.2k | — |
 | [duf Modern Disk Usage and Free Utility](../../skills/duf-modern-disk-usage-free-utility/) | 14.9k | — |
-| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 201.5k/wk |
+| [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | 13.8k | — |
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
@@ -170,30 +174,34 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [onefetch Git Repository Information and Statistics CLI](../../skills/onefetch-git-repository-info-statistics-cli/) | 11.7k | — |
 | [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | — |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 11.7k | — |
-| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.6M/wk |
+| [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.8M/wk |
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | 11.5k | — |
 | [dust Intuitive Disk Usage Analyzer CLI](../../skills/dust-intuitive-disk-usage-analyzer-cli/) | 11.5k | — |
 | [Devbox Instant Nix-Powered Development Environment Manager by Jetify](../../skills/devbox-nix-development-environment-jetify/) | 11.4k | — |
 | [Triage pull requests and issues from a keyboard-first terminal queue with gh-dash](../../skills/triage-pull-requests-and-issues-from-a-keyboard-first-terminal-queue-with-gh-dash/) | 11.3k | — |
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
+| [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.4k | — |
+| [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | 10.1k | — |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.8k | — |
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | — |
+| [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
-| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.5M/wk |
+| [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.6M/wk |
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |
-| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.4M/wk |
+| [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.2M/wk |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | 6.9k | — |
-| [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 83.8k/wk |
+| [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 99.2k/wk |
+| [Huh Interactive Terminal Forms and Prompts Library for Go](../../skills/huh-terminal-forms-prompts-library/) | 6.8k | — |
 | [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | 6.8k | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | 6.7k | — |
 | [devenv Declarative Developer Environments with Nix](../../skills/devenv-declarative-developer-environments-nix/) | 6.6k | — |
@@ -207,10 +215,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
 | [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | 5.1k | — |
+| [Baserow Open Source No-Code Database and Automation Platform](../../skills/baserow-open-source-no-code-database-automation-platform/) | 4.6k | — |
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
+| [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
@@ -219,7 +229,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
-| [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 97.9k/wk |
+| [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | 2.6k | — |
+| [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 88.6k/wk |
+| [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | 2.3k | — |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | — |
@@ -233,14 +245,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 842 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 386 | — |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 389 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
-| [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | — | — |
-| [Baserow Open Source No-Code Database and Automation Platform](../../skills/baserow-open-source-no-code-database-automation-platform/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
@@ -252,7 +262,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
-| [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | — | — |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
@@ -260,15 +269,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
-| [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | — | — |
-| [Huh Interactive Terminal Forms and Prompts Library for Go](../../skills/huh-terminal-forms-prompts-library/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
-| [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | — | — |
 | [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
-| [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | — | — |
-| [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | — | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
@@ -277,7 +281,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
-| [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](../../skills/nocobase-extensible-no-code-low-code-platform/) | — | — |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
@@ -291,9 +294,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
-| [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
-| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |

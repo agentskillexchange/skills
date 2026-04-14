@@ -6,7 +6,8 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars |
 |---|---:|
-| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.3k |
+| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⭐ 356.8k |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.7k |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | ⭐ 69.7k |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | ⭐ 67.2k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
@@ -15,7 +16,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | ⭐ 38k |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | ⭐ 28.2k |
-| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⭐ 24.3k |
 
 ---
 
@@ -24,7 +24,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Downloads |
 |---|---:|
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.1M/wk |
-| [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | ⬇ 128.1k/wk |
+| [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | ⬇ 184/wk |
+| [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | ⬇ 128.6k/wk |
 
 ---
 
@@ -32,7 +33,8 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Slack MCP Server](../../skills/slack-mcp-server/) | 83.3k | — |
+| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | 356.8k | — |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 83.7k | — |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
@@ -52,10 +54,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | 14.8k | — |
 | [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.2k | — |
+| [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | 11.8k | — |
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](../../skills/shiori-self-hosted-bookmark-manager-cli-web/) | 11.4k | — |
 | [Inbox Zero AI Email Assistant](../../skills/inbox-zero-ai-email-assistant/) | 10.4k | — |
 | [Leantime Open Source Goals-Focused Project Management Platform](../../skills/leantime-open-source-project-management-platform/) | 9.5k | — |
 | [Mautic Open Source Marketing Automation Platform](../../skills/mautic-marketing-automation-platform/) | 9.4k | — |
+| [Miniflux Self-Hosted RSS Feed Reader and Automation API](../../skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | 9.1k | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](../../skills/solidtime-open-source-time-tracking/) | 8.4k | — |
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
@@ -80,7 +84,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 552 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 569 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
@@ -89,10 +93,9 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
-| [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | — |
-| [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.1k/wk |
+| [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
+| [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
-| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
@@ -112,7 +115,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | — | — |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | — | — |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | — | — |
-| [Miniflux Self-Hosted RSS Feed Reader and Automation API](../../skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | — | — |
 | [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | — | — |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | — | — |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | — | — |
@@ -127,7 +129,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
-| [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | — | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |
 | [Slack Standup Automator](../../skills/slack-standup-automator/) | — | — |

@@ -27,10 +27,10 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 104.1k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 102.9k/wk |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
-| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | ⬇ 10k/wk |
+| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | ⬇ 10.7k/wk |
 
 ---
 
@@ -53,9 +53,10 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | 4.4k | — |
 | [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | — |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
+| [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | — |
-| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 104.1k/wk |
+| [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
@@ -69,7 +70,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |
-| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10k/wk |
+| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10.7k/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |
@@ -82,7 +83,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | — | — |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | — | — |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | — | — |
-| [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | — | — |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |

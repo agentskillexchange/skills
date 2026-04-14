@@ -7,15 +7,15 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
+| [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | ⭐ 116.9k |
+| [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | ⭐ 116.9k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 116.2k |
-| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 68.3k |
+| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | ⭐ 68.4k |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | ⭐ 48k |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | ⭐ 33.1k |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⭐ 28.5k |
-| [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | ⭐ 26.7k |
-| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⭐ 25.7k |
 
 ---
 
@@ -23,10 +23,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Downloads |
 |---|---:|
-| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.4M/wk |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 343.3k/wk |
+| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
+| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.5M/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 6.4M/wk |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 402.7k/wk |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | ⬇ 1.7k/wk |
-| [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 264.3k/wk |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 269.9k/wk |
 
 ---
 
@@ -35,10 +37,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
+| [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | 116.9k | — |
+| [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | 116.9k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | 116.2k | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | 116.2k | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 116.2k | — |
-| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.3k | — |
+| [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.4k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
@@ -51,21 +55,23 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
-| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | — |
+| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
-| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.4M/wk |
+| [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | — |
-| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 343.3k/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 6.4M/wk |
+| [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
-| [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 264.3k/wk |
+| [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 269.9k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
+| [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
+| [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 505 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
@@ -76,7 +82,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | — | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
-| [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | — | — |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | — | — |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | — | — |
@@ -86,7 +91,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Scaffolding Agent](../../skills/cookiecutter-project-scaffolding-agent/) | — | — |
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | — | — |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | — | — |
-| [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |
 | [Cron Job Manager](../../skills/cron-job-manager/) | — | — |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | — | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | — | — |
@@ -99,7 +103,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
-| [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
@@ -110,7 +113,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
-| [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | — | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | — | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | — | — |

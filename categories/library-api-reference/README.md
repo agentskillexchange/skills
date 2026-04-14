@@ -11,11 +11,11 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 25.6k |
+| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⭐ 16.3k |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
+| [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | ⭐ 14.6k |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | ⭐ 13.8k |
-| [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | ⭐ 10k |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⭐ 8.4k |
 
 ---
 
@@ -23,10 +23,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.3M/wk |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
+| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⬇ 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.7M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.7M/wk |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 4.1M/wk |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | ⬇ 794k/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 4.3M/wk |
 
 ---
 
@@ -38,18 +40,23 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.3M/wk |
+| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.5M/wk |
+| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
+| [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
+| [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
+| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
+| [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | — |
+| [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 794k/wk |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.1M/wk |
+| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | 1.2k | 4.3M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
@@ -59,9 +66,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | — | — |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
-| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
-| [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | — | — |
 | [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | — | — |
 | [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | — | — |
 | [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | — | — |
@@ -92,7 +97,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [NPM Package Vulnerability Scanner](../../skills/npm-package-vulnerability-scanner/) | — | — |
 | [npm Registry Analyzer](../../skills/npm-registry-analyzer/) | — | — |
 | [npm Registry Explorer](../../skills/npm-registry-explorer/) | — | — |
-| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | — | — |
 | [OpenAPI SDK Generator Pipeline](../../skills/openapi-sdk-generator-pipeline/) | — | — |
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | — | — |
 | [OpenAPI Spec Compliance Checker](../../skills/openapi-spec-compliance-checker/) | — | — |
@@ -132,7 +136,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | — | — |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | — | — |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | — | — |
-| [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | — | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | — | — |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | — | — |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | — | — |
@@ -140,7 +143,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | — | — |
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | — | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | — | — |
-| [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | — | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | — | — |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | — | — |
 

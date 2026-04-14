@@ -6,6 +6,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars |
 |---|---:|
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | ⭐ 356.8k |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
@@ -15,7 +16,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 58.5k |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.3k |
-| [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | ⭐ 45k |
 
 ---
 
@@ -23,7 +23,8 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Downloads |
 |---|---:|
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 492.2k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 636k/wk |
+| [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | ⬇ 13.2k/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
 
 ---
@@ -32,6 +33,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | 356.8k | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 97.2k | — |
@@ -42,7 +44,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.3k | — |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
-| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 492.2k/wk |
+| [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 636k/wk |
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
 | [OCRmyPDF Searchable PDF OCR Pipeline](../../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | 33.2k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
@@ -53,7 +55,9 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [faster-whisper High-Performance Speech Transcription Engine](../../skills/faster-whisper-high-performance-speech-transcription/) | 21.9k | — |
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../../skills/whisperx-speech-recognition-timestamps-diarization/) | 21k | — |
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 20.2k | — |
+| [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | 18.2k | 13.2k/wk |
 | [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 14.9k | — |
+| [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | 14.5k | — |
 | [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | 12.3k | — |
@@ -62,10 +66,12 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Piper Local Neural Text-to-Speech Engine](../../skills/piper-local-neural-tts-engine/) | 10.7k | — |
 | [Demucs Music Source Separation for Vocal and Stem Extraction](../../skills/demucs-music-source-separation-for-vocal-and-stem-extraction/) | 9.9k | — |
 | [pydub Python Audio Manipulation Library](../../skills/pydub-python-audio-manipulation-library/) | 9.7k | — |
+| [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | 9.7k | — |
 | [RealtimeSTT Low-Latency Speech-to-Text Python Library](../../skills/realtimestt-low-latency-speech-to-text-python/) | 9.6k | — |
 | [Silero VAD Pre-Trained Enterprise Voice Activity Detection](../../skills/silero-vad-voice-activity-detection/) | 8.6k | — |
 | [librosa Python Audio and Music Analysis Library](../../skills/librosa-python-audio-music-analysis-library/) | 8.3k | — |
 | [Moonshine Voice On-Device Speech Recognition and Voice Commands](../../skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/) | 7.7k | — |
+| [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | 7.7k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](../../skills/espeak-ng-multilingual-speech-synthesizer/) | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](../../skills/pedalboard-spotify-audio-effects-python/) | 6k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
@@ -78,7 +84,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [MLT Multimedia Framework for Video Editing and Processing](../../skills/mlt-multimedia-framework-video-editing-processing/) | 1.7k | — |
 | [Liquidsoap Audio and Video Streaming Language](../../skills/liquidsoap-audio-video-streaming-language/) | 1.6k | — |
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
-| [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1k | 3.2k/wk |
+| [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1.1k | 3.2k/wk |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | — |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | — |
@@ -100,18 +106,14 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |
 | [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | — | — |
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
-| [ffsubsync Subtitle Synchronization Tool](../../skills/ffsubsync-subtitle-synchronization-tool/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | — | — |
-| [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | — | — |
-| [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | — | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | — | — |
 | [Podcast RSS Feed Builder](../../skills/podcast-rss-feed-builder/) | — | — |
 | [Podcast Transcription Pipeline](../../skills/podcast-transcription-pipeline-agent/) | — | — |
-| [pyannote.audio Neural Speaker Diarization Toolkit](../../skills/pyannote-audio-speaker-diarization-toolkit/) | — | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | — | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | — | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | — | — |
