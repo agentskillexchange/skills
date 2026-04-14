@@ -1,8 +1,55 @@
 {
   "version": "2.0",
-  "total": 1963,
+  "total": 1966,
   "generated": "2026-04-14",
   "skills": [
+    {
+      "slug": "run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval",
+      "name": "Run multi-agent code review rounds with structured reviewer discourse before human approval",
+      "description": "Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 131,
+        "npm_weekly_downloads": 1089
+      }
+    },
+    {
+      "slug": "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents",
+      "name": "Search NotebookLM notebooks, sources, and generated study artifacts from agents",
+      "description": "Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP…",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3551
+      }
+    },
+    {
+      "slug": "work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents",
+      "name": "Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents",
+      "description": "Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and comments inside an MCP workflow instead of sending a user…",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "MCP"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 142,
+        "npm_weekly_downloads": 2148
+      }
+    },
     {
       "slug": "hadrian-api-authorization-security-testing",
       "name": "Test API authorization flows with Hadrian",
