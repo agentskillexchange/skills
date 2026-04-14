@@ -1,32 +1,29 @@
 ---
 title: "Diagnose WordPress repo structure and route follow-up work safely"
-description: "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace."
-verification: listed
-source: "https://agentskillexchange.com/skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/"
+slug: "diagnose-wordpress-repo-structure-and-route-follow-up-work-safely"
+verification: security_reviewed
+source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wordpress/agent-skills"
+  github_stars: 1219
 ---
-
 # Diagnose WordPress repo structure and route follow-up work safely
 
 This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

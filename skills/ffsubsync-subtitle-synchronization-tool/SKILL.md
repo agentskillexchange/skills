@@ -1,32 +1,29 @@
 ---
 title: "ffsubsync Subtitle Synchronization Tool"
-description: "ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for agent workflows that need to repair drifting subtitles without manual waveform editing."
-verification: listed
-source: "https://agentskillexchange.com/skills/ffsubsync-subtitle-synchronization-tool/"
+slug: "ffsubsync-subtitle-synchronization-tool"
+verification: security_reviewed
+source: "https://github.com/smacke/ffsubsync"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "smacke/ffsubsync"
+  github_stars: 7659
 ---
-
 # ffsubsync Subtitle Synchronization Tool
 
 ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for agent workflows that need to repair drifting subtitles without manual waveform editing.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

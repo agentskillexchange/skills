@@ -1,32 +1,29 @@
 ---
 title: "bat Syntax-Highlighting Cat Replacement"
-description: "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files."
-verification: listed
-source: "https://agentskillexchange.com/skills/bat-syntax-highlighting-cat-replacement/"
+slug: "bat-syntax-highlighting-cat-replacement"
+verification: security_reviewed
+source: "https://github.com/sharkdp/bat"
 category:
   - "Developer Tools"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "sharkdp/bat"
+  github_stars: 57909
 ---
-
 # bat Syntax-Highlighting Cat Replacement
 
 bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and line numbering. It serves as a drop-in replacement for cat with enhanced readability for code and configuration files.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

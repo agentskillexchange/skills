@@ -1,32 +1,29 @@
 ---
 title: "Mailchimp Marketing API Node.js SDK"
-description: "Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale."
-verification: listed
-source: "https://agentskillexchange.com/skills/mailchimp-marketing-api-nodejs-sdk/"
+slug: "mailchimp-marketing-api-nodejs-sdk"
+verification: security_reviewed
+source: "https://github.com/mailchimp/mailchimp-marketing-node"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mailchimp/mailchimp-marketing-node"
+  github_stars: 165
 ---
-
 # Mailchimp Marketing API Node.js SDK
 
 Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

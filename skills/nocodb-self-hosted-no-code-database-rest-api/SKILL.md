@@ -1,32 +1,31 @@
 ---
 title: "NocoDB Self-Hosted No-Code Database Platform with REST API"
-description: "NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable alternative that connects to PostgreSQL, MySQL, SQLite, and other databases, enabling no-code data management with automation, collaboration, and API-first access."
-verification: listed
-source: "https://agentskillexchange.com/skills/nocodb-self-hosted-no-code-database-rest-api/"
+slug: "nocodb-self-hosted-no-code-database-rest-api"
+verification: security_reviewed
+source: "https://github.com/nocodb/nocodb"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "nocodb/nocodb"
+  github_stars: 62560
+  npm_package: "nocodb"
+  npm_weekly_downloads: 682
 ---
-
 # NocoDB Self-Hosted No-Code Database Platform with REST API
 
 NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable alternative that connects to PostgreSQL, MySQL, SQLite, and other databases, enabling no-code data management with automation, collaboration, and API-first access.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

@@ -1,32 +1,29 @@
 ---
 title: "Chafa Terminal Image and Graphics Renderer"
-description: "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments."
-verification: listed
-source: "https://agentskillexchange.com/skills/chafa-terminal-image-graphics-renderer/"
+slug: "chafa-terminal-image-graphics-renderer"
+verification: security_reviewed
+source: "https://github.com/hpjansson/chafa"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "hpjansson/chafa"
+  github_stars: 4542
 ---
-
 # Chafa Terminal Image and Graphics Renderer
 
 Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal. It supports a wide range of image formats and output modes, making it the go-to tool for rendering rich visual content in CLI environments.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

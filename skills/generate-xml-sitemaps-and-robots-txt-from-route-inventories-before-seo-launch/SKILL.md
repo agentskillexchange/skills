@@ -1,32 +1,29 @@
 ---
 title: "Generate XML sitemaps and robots.txt from route inventories before SEO launch"
-description: "Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before launch. This is a publishing-artifact skill, not a crawler or SEO platform."
-verification: listed
-source: "https://agentskillexchange.com/skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/"
+slug: "generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch"
+verification: security_reviewed
+source: "https://github.com/ekalinin/sitemap.js"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "ekalinin/sitemap.js"
+  github_stars: 1708
 ---
-
 # Generate XML sitemaps and robots.txt from route inventories before SEO launch
 
 Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before launch. This is a publishing-artifact skill, not a crawler or SEO platform.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

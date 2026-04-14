@@ -1,32 +1,26 @@
 ---
 title: "Queue Backup Runbook"
-description: "Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]"
-verification: listed
+slug: "queue-backup-runbook"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/queue-backup-runbook/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Custom Agents"
 ---
-
 # Queue Backup Runbook
 
-Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]
+Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving [&hellip;]
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

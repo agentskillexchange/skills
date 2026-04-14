@@ -1,32 +1,29 @@
 ---
 title: "Nylas Platform SDK for Unified Email Calendar and Contacts API"
-description: "Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs."
-verification: listed
-source: "https://agentskillexchange.com/skills/nylas-sdk-email-calendar-contacts/"
+slug: "nylas-sdk-email-calendar-contacts"
+verification: security_reviewed
+source: "https://github.com/nylas/nylas-python"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "nylas/nylas-python"
+  github_stars: 106
 ---
-
 # Nylas Platform SDK for Unified Email Calendar and Contacts API
 
 Nylas provides REST APIs and SDKs for Python and Node.js that offer unified access to email, calendar, and contacts across all major providers including Gmail, Outlook, and Exchange. Build email and scheduling integrations without managing individual provider APIs.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

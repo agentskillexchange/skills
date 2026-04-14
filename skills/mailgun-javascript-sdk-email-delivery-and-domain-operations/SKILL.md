@@ -1,32 +1,29 @@
 ---
 title: "Mailgun JavaScript SDK for Email Delivery and Domain Operations"
-description: "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks that need transactional messaging, domain-aware email operations, event handling, and direct integration with the Mailgun platform."
-verification: listed
-source: "https://agentskillexchange.com/skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/"
+slug: "mailgun-javascript-sdk-email-delivery-and-domain-operations"
+verification: security_reviewed
+source: "https://github.com/mailgun/mailgun.js"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mailgun/mailgun.js"
+  github_stars: 547
 ---
-
 # Mailgun JavaScript SDK for Email Delivery and Domain Operations
 
 An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks that need transactional messaging, domain-aware email operations, event handling, and direct integration with the Mailgun platform.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

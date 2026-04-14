@@ -1,32 +1,29 @@
 ---
 title: "Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS"
-description: "Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub."
-verification: listed
-source: "https://agentskillexchange.com/skills/sage-wordpress-starter-theme-laravel-blade/"
+slug: "sage-wordpress-starter-theme-laravel-blade"
+verification: security_reviewed
+source: "https://github.com/roots/sage"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "roots/sage"
+  github_stars: 13199
 ---
-
 # Sage WordPress Starter Theme with Laravel Blade and Tailwind CSS
 
 Sage by Roots is an advanced WordPress starter theme that brings Laravel Blade templating, Vite-powered front-end builds, Tailwind CSS, and block editor support to WordPress theme development. It is the most-starred WordPress theme framework on GitHub.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

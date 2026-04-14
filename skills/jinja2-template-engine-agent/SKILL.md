@@ -1,32 +1,26 @@
 ---
 title: "Jinja2 Template Engine"
-description: "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration."
-verification: listed
+slug: "jinja2-template-engine-agent"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jinja2-template-engine-agent/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Gemini"
 ---
-
 # Jinja2 Template Engine
 
 Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

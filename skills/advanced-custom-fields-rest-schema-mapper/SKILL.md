@@ -1,32 +1,26 @@
 ---
 title: "Advanced Custom Fields REST Schema Mapper"
-description: "Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely."
-verification: listed
-source: "https://agentskillexchange.com/skills/advanced-custom-fields-rest-schema-mapper/"
+slug: "advanced-custom-fields-rest-schema-mapper"
+verification: security_reviewed
+source: "https://www.advancedcustomfields.com/resources/"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Cursor"
 ---
-
 # Advanced Custom Fields REST Schema Mapper
 
 Maps ACF field groups into predictable REST responses using `acf_add_local_field_group`, `get_field_objects`, and `register_rest_field`. Useful when you need cleaner payloads than the default ACF exposure and want WordPress clients to consume structured field data safely.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

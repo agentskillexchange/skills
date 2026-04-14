@@ -1,32 +1,26 @@
 ---
 title: "Jasper AI Long-Form Blog Post Generator"
-description: "Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API."
-verification: listed
+slug: "jasper-longform-blog-generator"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/jasper-longform-blog-generator/"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "OpenClaw"
 ---
-
 # Jasper AI Long-Form Blog Post Generator
 
-Connects to Jasper’s /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
+Connects to Jasper's /v1/content/generate REST endpoint to produce SEO-optimized long-form blog posts using the Boss Mode workflow. Passes custom tone, keyword targets, and brand voice templates via the Jasper API SDK, then auto-publishes drafts to WordPress via the WP REST API.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

@@ -1,32 +1,29 @@
 ---
 title: "Browserless Headless Browser Automation Infrastructure"
-description: "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks a stable WebSocket and REST surface for screenshots, PDFs, scraping, persistent sessions, and debugging without hand-managing browser fleets."
-verification: listed
-source: "https://agentskillexchange.com/skills/browserless-headless-browser-automation-infrastructure/"
+slug: "browserless-headless-browser-automation-infrastructure"
+verification: security_reviewed
+source: "https://github.com/browserless/browserless"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "browserless/browserless"
+  github_stars: 12954
 ---
-
 # Browserless Headless Browser Automation Infrastructure
 
 Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks a stable WebSocket and REST surface for screenshots, PDFs, scraping, persistent sessions, and debugging without hand-managing browser fleets.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

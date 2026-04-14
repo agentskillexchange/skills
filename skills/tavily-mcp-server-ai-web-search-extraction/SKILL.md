@@ -1,32 +1,31 @@
 ---
 title: "Tavily MCP Server for AI-Powered Web Search and Extraction"
-description: "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption."
-verification: listed
-source: "https://agentskillexchange.com/skills/tavily-mcp-server-ai-web-search-extraction/"
+slug: "tavily-mcp-server-ai-web-search-extraction"
+verification: security_reviewed
+source: "https://github.com/tavily-ai/tavily-mcp"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "tavily-ai/tavily-mcp"
+  github_stars: 1615
+  npm_package: "tavily-mcp"
+  npm_weekly_downloads: 47930
 ---
-
 # Tavily MCP Server for AI-Powered Web Search and Extraction
 
-An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily’s search API to deliver structured, relevant results optimized for LLM consumption.
+An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to Tavily's search API to deliver structured, relevant results optimized for LLM consumption.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

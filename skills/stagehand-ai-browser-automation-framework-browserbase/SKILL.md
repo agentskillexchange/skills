@@ -1,32 +1,29 @@
 ---
 title: "Stagehand AI Browser Automation Framework by Browserbase"
-description: "Stagehand is Browserbase’s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching."
-verification: listed
-source: "https://agentskillexchange.com/skills/stagehand-ai-browser-automation-framework-browserbase/"
+slug: "stagehand-ai-browser-automation-framework-browserbase"
+verification: security_reviewed
+source: "https://github.com/browserbase/stagehand"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "browserbase/stagehand"
+  github_stars: 22059
 ---
-
 # Stagehand AI Browser Automation Framework by Browserbase
 
-Stagehand is Browserbase’s open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching.
+Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web workflows on top of Playwright-compatible browser sessions, extraction, and repeatable action caching.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

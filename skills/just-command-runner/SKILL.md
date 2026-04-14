@@ -1,32 +1,29 @@
 ---
 title: "Just Command Runner"
-description: "Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands. It uses a justfile syntax inspired by Make but focused on running commands rather than building targets, with support for parameters, dependencies, and multi-language recipes."
-verification: listed
-source: "https://agentskillexchange.com/skills/just-command-runner/"
+slug: "just-command-runner"
+verification: security_reviewed
+source: "https://github.com/casey/just"
 category:
   - "Developer Tools"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "casey/just"
+  github_stars: 32526
 ---
-
 # Just Command Runner
 
 Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands. It uses a justfile syntax inspired by Make but focused on running commands rather than building targets, with support for parameters, dependencies, and multi-language recipes.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

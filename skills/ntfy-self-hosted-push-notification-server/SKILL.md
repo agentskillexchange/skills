@@ -1,32 +1,29 @@
 ---
 title: "ntfy Self-Hosted Push Notification Server"
-description: "ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices."
+slug: "ntfy-self-hosted-push-notification-server"
 verification: listed
-source: "https://agentskillexchange.com/skills/ntfy-self-hosted-push-notification-server/"
+source: "https://github.com/binwiederhier/ntfy"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "binwiederhier/ntfy"
+  github_stars: 29493
 ---
-
 # ntfy Self-Hosted Push Notification Server
 
 ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and desktops via simple PUT or POST requests. Self-hostable with zero signup required, it provides a dead-simple API for alerting from scripts, CI pipelines, cron jobs, and IoT devices.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

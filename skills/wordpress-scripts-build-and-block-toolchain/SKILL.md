@@ -1,32 +1,29 @@
 ---
 title: "WordPress Scripts Build and Block Toolchain"
-description: "@wordpress/scripts packages the default WordPress JavaScript build stack into one reusable developer dependency. It gives plugin and block developers a consistent CLI for bundling, linting, testing, packaging, and maintaining modern WordPress code without hand-assembling webpack and related tooling."
-verification: listed
-source: "https://agentskillexchange.com/skills/wordpress-scripts-build-and-block-toolchain/"
+slug: "wordpress-scripts-build-and-block-toolchain"
+verification: security_reviewed
+source: "https://www.npmjs.com/package/@wordpress/scripts"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  npm_package: "@wordpress/scripts"
+  npm_weekly_downloads: 96219
 ---
-
 # WordPress Scripts Build and Block Toolchain
 
 @wordpress/scripts packages the default WordPress JavaScript build stack into one reusable developer dependency. It gives plugin and block developers a consistent CLI for bundling, linting, testing, packaging, and maintaining modern WordPress code without hand-assembling webpack and related tooling.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

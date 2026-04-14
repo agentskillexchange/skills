@@ -1,32 +1,31 @@
 ---
 title: "alex Inclusive Writing Linter"
-description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
-verification: listed
-source: "https://agentskillexchange.com/skills/alex-inclusive-writing-linter/"
+slug: "alex-inclusive-writing-linter"
+verification: security_reviewed
+source: "https://github.com/get-alex/alex"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "get-alex/alex"
+  github_stars: 5096
+  npm_package: "alex"
+  npm_weekly_downloads: 30585
 ---
-
 # alex Inclusive Writing Linter
 
 Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

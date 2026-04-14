@@ -1,32 +1,31 @@
 ---
 title: "Define file-native Git workflows for agents with GitAgent"
-description: "Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git."
+slug: "define-file-native-git-workflows-for-agents-with-gitagent"
 verification: listed
-source: "https://agentskillexchange.com/skills/define-file-native-git-workflows-for-agents-with-gitagent/"
+source: "https://github.com/open-gitagent/gitagent"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "open-gitagent/gitagent"
+  github_stars: 2667
+  npm_package: "@open-gitagent/gitagent"
+  npm_weekly_downloads: 1651
 ---
-
 # Define file-native Git workflows for agents with GitAgent
 
 Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

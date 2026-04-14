@@ -1,32 +1,29 @@
 ---
 title: "Rallly Open-Source Group Scheduling and Meeting Poll Platform"
-description: "Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface."
-verification: listed
-source: "https://agentskillexchange.com/skills/rallly-group-scheduling-meeting-poll/"
+slug: "rallly-group-scheduling-meeting-poll"
+verification: security_reviewed
+source: "https://github.com/lukevella/rallly"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "lukevella/rallly"
+  github_stars: 5027
 ---
-
 # Rallly Open-Source Group Scheduling and Meeting Poll Platform
 
 Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time based on participant availability, replacing back-and-forth email chains with a simple voting interface.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

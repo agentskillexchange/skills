@@ -1,32 +1,26 @@
 ---
 title: "Semgrep Rule Runner"
-description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
-verification: listed
+slug: "semgrep-rule-runner"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/semgrep-rule-runner/"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Gemini"
 ---
-
 # Semgrep Rule Runner
 
-Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports –config auto for community rules, parses JSON output via –json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
+Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports &#8211;config auto for community rules, parses JSON output via &#8211;json flag, and integrates with Semgrep App API for centralized findings management and triage workflows.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

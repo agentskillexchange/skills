@@ -1,32 +1,29 @@
 ---
 title: "Litestream SQLite Streaming Replication"
-description: "Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery."
-verification: listed
-source: "https://agentskillexchange.com/skills/litestream-sqlite-streaming-replication/"
+slug: "litestream-sqlite-streaming-replication"
+verification: security_reviewed
+source: "https://github.com/benbjohnson/litestream"
 category:
   - "Developer Tools"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "benbjohnson/litestream"
+  github_stars: 13400
 ---
-
 # Litestream SQLite Streaming Replication
 
 Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure, GCS, SFTP, or local storage. Written in Go with 13k+ GitHub stars, it enables SQLite to be used as a production database with disaster recovery.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

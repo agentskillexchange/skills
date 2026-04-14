@@ -1,32 +1,26 @@
 ---
 title: "Nginx Error Log Analyzer"
-description: "Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring."
-verification: listed
+slug: "nginx-error-log-analyzer"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer/"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "ChatGPT Agents"
 ---
-
 # Nginx Error Log Analyzer
 
 Parses and diagnoses Nginx error logs and access logs using pattern matching against known error signatures. Integrates with the Nginx Plus REST API /api/8/ endpoints for real-time upstream health, connection metrics, and SSL certificate expiration monitoring.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

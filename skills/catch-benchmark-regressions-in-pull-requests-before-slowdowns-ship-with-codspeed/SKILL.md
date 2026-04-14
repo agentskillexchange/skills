@@ -1,32 +1,31 @@
 ---
 title: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
-description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
-verification: listed
-source: "https://agentskillexchange.com/skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/"
+slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed"
+verification: security_reviewed
+source: "https://github.com/CodSpeedHQ/codspeed"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "CodSpeedHQ/codspeed"
+  github_stars: 143
+  npm_package: "@codspeed/core"
+  npm_weekly_downloads: 234588
 ---
-
 # Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed
 
 Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

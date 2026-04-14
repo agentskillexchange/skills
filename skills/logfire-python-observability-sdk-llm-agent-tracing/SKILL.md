@@ -1,32 +1,29 @@
 ---
 title: "Logfire Python Observability SDK for LLM and Agent Tracing"
-description: "Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch."
-verification: listed
-source: "https://agentskillexchange.com/skills/logfire-python-observability-sdk-llm-agent-tracing/"
+slug: "logfire-python-observability-sdk-llm-agent-tracing"
+verification: security_reviewed
+source: "https://github.com/pydantic/logfire"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pydantic/logfire"
+  github_stars: 4161
 ---
-
 # Logfire Python Observability SDK for LLM and Agent Tracing
 
-Logfire is Pydantic’s observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
+Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted UI, and supports instrumenting popular Python frameworks without building a custom tracing stack from scratch.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

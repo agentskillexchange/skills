@@ -1,32 +1,29 @@
 ---
 title: "Normalize international phone numbers into E.164 before CRM imports or messaging workflows"
-description: "Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration."
-verification: listed
-source: "https://agentskillexchange.com/skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/"
+slug: "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
+verification: security_reviewed
+source: "https://www.npmjs.com/package/libphonenumber-js"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  npm_package: "libphonenumber-js"
+  npm_weekly_downloads: 15571336
 ---
-
 # Normalize international phone numbers into E.164 before CRM imports or messaging workflows
 
 Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and return a stable E.164 value before storing contacts or triggering downstream messaging. The skill is about normalization and validation, not telephony delivery, call routing, or campaign orchestration.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

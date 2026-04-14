@@ -1,32 +1,29 @@
 ---
 title: "OpenAI Agents SDK JavaScript Workflow Toolkit"
-description: "A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools, handoffs, tracing, and the practical install path."
-verification: listed
-source: "https://agentskillexchange.com/skills/openai-agents-sdk-javascript-workflow-toolkit/"
+slug: "openai-agents-sdk-javascript-workflow-toolkit"
+verification: security_reviewed
+source: "https://github.com/openai/openai-agents-js"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "openai/openai-agents-js"
+  github_stars: 2635
 ---
-
 # OpenAI Agents SDK JavaScript Workflow Toolkit
 
 A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools, handoffs, tracing, and the practical install path.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

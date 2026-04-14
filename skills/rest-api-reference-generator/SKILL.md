@@ -1,32 +1,26 @@
 ---
 title: "REST API Reference Generator"
-description: "Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI."
-verification: listed
+slug: "rest-api-reference-generator"
+verification: security_reviewed
 source: "https://agentskillexchange.com/skills/rest-api-reference-generator/"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Claude Code"
 ---
-
 # REST API Reference Generator
 
 Generates interactive API reference documentation from OpenAPI 3.x specs using Swagger Parser and Redoc. Validates schemas, produces code samples in multiple languages via OpenAPI Generator CLI.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

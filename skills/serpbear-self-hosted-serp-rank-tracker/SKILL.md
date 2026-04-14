@@ -1,32 +1,29 @@
 ---
 title: "SerpBear Self-Hosted Search Engine Rank Tracking App"
-description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
-verification: listed
-source: "https://agentskillexchange.com/skills/serpbear-self-hosted-serp-rank-tracker/"
+slug: "serpbear-self-hosted-serp-rank-tracker"
+verification: security_reviewed
+source: "https://github.com/towfiqi/serpbear"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "towfiqi/serpbear"
+  github_stars: 1890
 ---
-
 # SerpBear Self-Hosted Search Engine Rank Tracking App
 
 SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

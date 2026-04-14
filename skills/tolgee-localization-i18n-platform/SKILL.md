@@ -1,32 +1,29 @@
 ---
 title: "Tolgee Open Source Localization and i18n Platform"
-description: "Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants."
-verification: listed
-source: "https://agentskillexchange.com/skills/tolgee-localization-i18n-platform/"
+slug: "tolgee-localization-i18n-platform"
+verification: security_reviewed
+source: "https://github.com/tolgee/tolgee-platform"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "tolgee/tolgee-platform"
+  github_stars: 3875
 ---
-
 # Tolgee Open Source Localization and i18n Platform
 
 Tolgee is an open-source localization platform that lets developers and translators manage translations through in-context editing, machine translation integration, and SDKs for React, Vue, Angular, Svelte, and more. It includes MCP server support for AI coding assistants.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

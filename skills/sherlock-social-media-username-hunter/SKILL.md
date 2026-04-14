@@ -1,32 +1,29 @@
 ---
 title: "Sherlock Social Media Username Hunter Across 400+ Networks"
-description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
-verification: listed
-source: "https://agentskillexchange.com/skills/sherlock-social-media-username-hunter/"
+slug: "sherlock-social-media-username-hunter"
+verification: security_reviewed
+source: "https://github.com/sherlock-project/sherlock"
 category:
-  - "Research & Scraping"
+  - "Research &amp; Scraping"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "sherlock-project/sherlock"
+  github_stars: 76214
 ---
-
 # Sherlock Social Media Username Hunter Across 400+ Networks
 
 Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

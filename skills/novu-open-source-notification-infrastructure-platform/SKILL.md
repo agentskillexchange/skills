@@ -1,32 +1,31 @@
 ---
 title: "Novu Open-Source Notification Infrastructure Platform"
-description: "Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels. It includes a workflow engine, digest system, subscriber preferences, and embeddable React notification center."
-verification: listed
-source: "https://agentskillexchange.com/skills/novu-open-source-notification-infrastructure-platform/"
+slug: "novu-open-source-notification-infrastructure-platform"
+verification: security_reviewed
+source: "https://github.com/novuhq/novu"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "novuhq/novu"
+  github_stars: 38747
+  npm_package: "novu"
+  npm_weekly_downloads: 6151
 ---
-
 # Novu Open-Source Notification Infrastructure Platform
 
 Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels. It includes a workflow engine, digest system, subscriber preferences, and embeddable React notification center.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

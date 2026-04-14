@@ -1,32 +1,29 @@
 ---
 title: "Marp CLI Markdown Presentation Converter and Slide Deck Generator"
-description: "Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint (PPTX), and image formats from a single Markdown source, enabling developers and content creators to build presentations as code."
-verification: listed
-source: "https://agentskillexchange.com/skills/marp-cli-markdown-presentation-converter/"
+slug: "marp-cli-markdown-presentation-converter"
+verification: security_reviewed
+source: "https://github.com/marp-team/marp-cli"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "marp-team/marp-cli"
+  github_stars: 3359
 ---
-
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator
 
 Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint (PPTX), and image formats from a single Markdown source, enabling developers and content creators to build presentations as code.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

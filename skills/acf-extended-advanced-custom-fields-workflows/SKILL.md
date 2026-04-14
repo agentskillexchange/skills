@@ -1,32 +1,29 @@
 ---
 title: "ACF Extended for Advanced Custom Fields Workflows"
-description: "An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options pages, and developer tooling. It is a practical fit for agents working inside complex WordPress content models and custom field workflows."
-verification: listed
-source: "https://agentskillexchange.com/skills/acf-extended-advanced-custom-fields-workflows/"
+slug: "acf-extended-advanced-custom-fields-workflows"
+verification: security_reviewed
+source: "https://github.com/acf-extended/ACF-Extended"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "acf-extended/ACF-Extended"
+  github_stars: 253
 ---
-
 # ACF Extended for Advanced Custom Fields Workflows
 
 An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options pages, and developer tooling. It is a practical fit for agents working inside complex WordPress content models and custom field workflows.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

@@ -1,32 +1,31 @@
 ---
 title: "markdownlint-cli2 Markdown Linting for Docs and Repos"
-description: "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output."
-verification: listed
-source: "https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/"
+slug: "markdownlint-cli2-markdown-linting-docs-repos"
+verification: security_reviewed
+source: "https://github.com/DavidAnson/markdownlint-cli2"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "davidanson/markdownlint-cli2"
+  github_stars: 740
+  npm_package: "markdownlint-cli2"
+  npm_weekly_downloads: 522496
 ---
-
 # markdownlint-cli2 Markdown Linting for Docs and Repos
 
 This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

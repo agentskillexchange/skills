@@ -1,32 +1,31 @@
 ---
 title: "Automattic WordPress Remote MCP"
-description: "Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need to read or operate against WordPress content and site features through a maintained remote MCP bridge."
-verification: listed
-source: "https://agentskillexchange.com/skills/automattic-wordpress-remote-mcp/"
+slug: "automattic-wordpress-remote-mcp"
+verification: security_reviewed
+source: "https://github.com/Automattic/mcp-wordpress-remote"
 category:
-  - "WordPress & CMS"
+  - "WordPress &amp; CMS"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "Automattic/mcp-wordpress-remote"
+  github_stars: 131
+  npm_package: "@automattic/mcp-wordpress-remote"
+  npm_weekly_downloads: 2468
 ---
-
 # Automattic WordPress Remote MCP
 
 Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need to read or operate against WordPress content and site features through a maintained remote MCP bridge.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

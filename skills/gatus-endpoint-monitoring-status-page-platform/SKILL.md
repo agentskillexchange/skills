@@ -1,32 +1,29 @@
 ---
 title: "Gatus Endpoint Monitoring and Status Page Platform"
-description: "Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio."
-verification: listed
-source: "https://agentskillexchange.com/skills/gatus-endpoint-monitoring-status-page-platform/"
+slug: "gatus-endpoint-monitoring-status-page-platform"
+verification: security_reviewed
+source: "https://github.com/TwiN/gatus"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "twin/gatus"
+  github_stars: 10652
 ---
-
 # Gatus Endpoint Monitoring and Status Page Platform
 
 Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP, TCP, ICMP, and DNS targets, evaluates conditions like status codes or response times, and can route alerts to systems such as Slack, PagerDuty, Discord, and Twilio.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 

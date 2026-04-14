@@ -1,32 +1,29 @@
 ---
 title: "Stalwart All-in-One Mail and Collaboration Server"
-description: "Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables agents to deploy and manage self-hosted email infrastructure with built-in spam filtering, DKIM/DMARC/SPF authentication, and full calendar and contact synchronization."
-verification: listed
-source: "https://agentskillexchange.com/skills/stalwart-mail-collaboration-server/"
+slug: "stalwart-mail-collaboration-server"
+verification: security_reviewed
+source: "https://github.com/stalwartlabs/stalwart"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "stalwartlabs/stalwart"
+  github_stars: 12164
 ---
-
 # Stalwart All-in-One Mail and Collaboration Server
 
 Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables agents to deploy and manage self-hosted email infrastructure with built-in spam filtering, DKIM/DMARC/SPF authentication, and full calendar and contact synchronization.
 
 ## Installation
 
-Choose the setup that fits your environment:
+Choose the method that fits your setup:
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+1. Install from Agent Skill Exchange
+2. Clone or download the upstream project
+3. Install with the upstream package manager
+4. Add the skill to your local skills directory
+5. Follow the upstream documentation for environment-specific setup
 
 ## Source
 
