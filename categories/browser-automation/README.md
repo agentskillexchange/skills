@@ -8,14 +8,14 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 |---|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 116.2k |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⭐ 94.1k |
-| [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | ⭐ 94k |
-| [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | ⭐ 87.7k |
-| [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | ⭐ 87.3k |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | ⭐ 85.7k |
-| [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | ⭐ 85.5k |
-| [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | ⭐ 85.2k |
-| [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | ⭐ 85.2k |
-| [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | ⭐ 49.6k |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94.1k |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | ⭐ 94.1k |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | ⭐ 94.1k |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | ⭐ 94.1k |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94.1k |
+| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | ⭐ 94.1k |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94.1k |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94.1k |
 
 ---
 
@@ -23,16 +23,16 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Downloads |
 |---|---:|
-| [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | ⬇ 46.8M/wk |
-| [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | ⬇ 6.9M/wk |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | ⬇ 2.9M/wk |
-| [Vercel Agent Browser](../../skills/vercel-agent-browser/) | ⬇ 601.9k/wk |
-| [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](../../skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | ⬇ 83.7k/wk |
-| [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | ⬇ 17/wk |
-| [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | ⬇ 202.8k/wk |
-| [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | ⬇ 2.7M/wk |
-| [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | ⬇ 59.8k/wk |
-| [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | ⬇ 221.7k/wk |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | ⬇ 47.9M/wk |
+| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | ⬇ 47.9M/wk |
+| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | ⬇ 47.9M/wk |
+| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | ⬇ 47.9M/wk |
+| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | ⬇ 47.9M/wk |
+| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | ⬇ 47.9M/wk |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | ⬇ 47.9M/wk |
+| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | ⬇ 47.9M/wk |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | ⬇ 47.9M/wk |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | ⬇ 47.9M/wk |
 
 ---
 
@@ -42,16 +42,56 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 |---|---:|---:|
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 116.2k | — |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | — |
+| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | — |
+| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | 94.1k | — |
+| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | 94.1k | — |
+| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | 94.1k | — |
+| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | 94.1k | — |
+| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | — |
+| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | 94.1k | — |
+| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | 94.1k | — |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | — |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | — |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
+| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
+| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | 86.4k | 47.9M/wk |
+| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | 86.4k | 47.9M/wk |
+| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | 86.4k | 47.9M/wk |
+| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | 86.4k | 47.9M/wk |
+| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | 86.4k | 47.9M/wk |
+| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | 86.4k | 47.9M/wk |
+| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | 86.4k | 47.9M/wk |
+| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | 86.4k | 47.9M/wk |
+| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | 86.4k | 47.9M/wk |
+| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | 86.4k | 47.9M/wk |
 | [Agent Browser Operator](../../skills/agent-browser-operator/) | 85.7k | — |
 | [Playwright Cross-Browser Testing and Automation Framework](../../skills/playwright-cross-browser-testing-and-automation-framework/) | 85.5k | 46.8M/wk |
 | [Browser Use AI Browser Automation Library](../../skills/browser-use-ai-browser-automation-library/) | 85.2k | — |
 | [browser-use Browser Automation Framework](../../skills/browser-use-browser-automation-framework/) | 85.2k | — |
+| [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | 49.6k | 7.3M/wk |
+| [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | 49.6k | 7.3M/wk |
+| [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | 49.6k | 7.3M/wk |
+| [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | 49.6k | 7.3M/wk |
+| [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-3/) | 49.6k | 7.3M/wk |
+| [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | 49.6k | 7.3M/wk |
+| [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | 49.6k | 7.3M/wk |
+| [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | 49.6k | 7.3M/wk |
 | [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | 49.6k | — |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | 6.9M/wk |
 | [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | 34.2k | — |
+| [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Parallel Test Runner](../../skills/selenium-grid-parallel-test-runner/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Session Distributor](../../skills/selenium-grid-session-distributor/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
+| [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | — |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | — |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 30.8k | 2.9M/wk |
@@ -95,46 +135,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | 623.1k/wk |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | — | — |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | — | — |
-| [Cypress Component Test Generator](../../skills/cypress-component-test-generator/) | — | — |
-| [Cypress Component Testing Suite](../../skills/cypress-component-testing-suite/) | — | — |
-| [Cypress Component Testing Toolkit](../../skills/cypress-component-testing-toolkit/) | — | — |
-| [Cypress E2E API Intercept Skill](../../skills/cypress-e2e-api-intercept-skill/) | — | — |
-| [Cypress E2E Test Generator](../../skills/cypress-e2e-test-generator-3/) | — | — |
-| [Cypress Network Stub Generator](../../skills/cypress-network-stub-generator/) | — | — |
-| [Cypress Visual Regression Runner](../../skills/cypress-visual-regression-runner/) | — | — |
-| [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | — | — |
-| [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | — | — |
-| [Playwright Cross-Browser Test Runner](../../skills/playwright-cross-browser-test-runner/) | — | — |
-| [Playwright Multi-Browser Test Generator](../../skills/playwright-multi-browser-test-generator/) | — | — |
-| [Playwright Multi-Browser Test Suite](../../skills/playwright-multi-browser-test-suite/) | — | — |
-| [Playwright Multi-Tab Session Manager](../../skills/playwright-multi-tab-session-manager-2/) | — | — |
-| [Playwright Network HAR Recorder](../../skills/playwright-network-har-recorder/) | — | — |
-| [Playwright Parallel Tab Manager](../../skills/playwright-parallel-tab-manager/) | — | — |
-| [Playwright PDF Export Automation](../../skills/playwright-pdf-export-automation/) | — | — |
-| [Playwright Session Recorder](../../skills/playwright-session-recorder-2/) | — | — |
-| [Playwright Visual Regression Suite](../../skills/playwright-visual-regression-suite/) | — | — |
-| [Playwright Visual Regression Tester](../../skills/playwright-visual-regression-tester-3/) | — | — |
-| [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | — | — |
-| [Puppeteer Cookie Consent Handler](../../skills/puppeteer-cookie-consent-handler-3/) | — | — |
-| [Puppeteer Multi-Tab Session Manager](../../skills/puppeteer-multi-tab-session-manager/) | — | — |
-| [Puppeteer PDF Renderer](../../skills/puppeteer-pdf-renderer/) | — | — |
-| [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | — | — |
-| [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | — | — |
-| [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | — | — |
-| [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | — | — |
-| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | — | — |
-| [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | — | — |
-| [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | — | — |
-| [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | — | — |
-| [Selenium Grid Multi-Browser Test Runner](../../skills/selenium-grid-multi-browser-test-runner/) | — | — |
-| [Selenium Grid Orchestrator](../../skills/selenium-grid-orchestrator/) | — | — |
-| [Selenium Grid Parallel Execution Manager](../../skills/selenium-grid-parallel-execution-manager/) | — | — |
-| [Selenium Grid Parallel Executor](../../skills/selenium-grid-parallel-executor/) | — | — |
-| [Selenium Grid Parallel Test Runner](../../skills/selenium-grid-parallel-test-runner/) | — | — |
-| [Selenium Grid Session Distributor](../../skills/selenium-grid-session-distributor/) | — | — |
-| [Selenium Grid Session Manager](../../skills/selenium-grid-session-manager/) | — | — |
-| [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | — | — |
-| [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | — | — |
 
 ---
 

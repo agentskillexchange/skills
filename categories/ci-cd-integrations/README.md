@@ -6,16 +6,16 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Stars |
 |---|---:|
+| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | ⭐ 159.4k |
+| [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | ⭐ 71.5k |
+| [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 71.5k |
+| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 71.5k |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 48.1k |
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | ⭐ 34.7k |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | ⭐ 33k |
-| [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⭐ 23.5k |
-| [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | ⭐ 22.5k |
-| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⭐ 21.3k |
-| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⭐ 15.7k |
-| [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | ⭐ 15.6k |
-| [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⭐ 14.9k |
+| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | ⭐ 29.7k |
+| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | ⭐ 25.2k |
 
 ---
 
@@ -34,25 +34,123 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | 159.4k | — |
+| [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | 71.5k | — |
+| [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | 71.5k | — |
+| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | 71.5k | — |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | 34.7k | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
+| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | 29.7k | — |
+| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | 25.2k | — |
+| [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | 25.2k | — |
+| [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | 25.2k | — |
+| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator/) | 25.2k | — |
+| [Jenkins Pipeline Failure Analyzer](../../skills/jenkins-pipeline-failure-analyzer/) | 25.2k | — |
+| [Jenkins Pipeline Generator](../../skills/jenkins-pipeline-generator/) | 25.2k | — |
+| [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | 25.2k | — |
+| [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | 25.2k | — |
+| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | 25.2k | — |
+| [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | 25.2k | — |
+| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | 25.2k | — |
+| [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | 25.2k | — |
+| [Jenkins Pipeline Log Parser](../../skills/jenkins-pipeline-log-parser/) | 25.2k | — |
+| [Jenkins Pipeline Monitor](../../skills/jenkins-pipeline-monitor/) | 25.2k | — |
+| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-3/) | 25.2k | — |
+| [Jenkins Pipeline Shared Library Linter](../../skills/jenkins-pipeline-shared-library-linter/) | 25.2k | — |
+| [Jenkins Shared Library Auditor](../../skills/jenkins-shared-library-auditor-agent/) | 25.2k | — |
+| [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | 25.2k | — |
+| [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | 25.2k | — |
+| [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | 25.2k | — |
+| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | 24.3k | — |
+| [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | 24.3k | — |
+| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | 24.3k | — |
+| [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | 24.3k | — |
+| [GitLab CI Pipeline Cost Calculator](../../skills/gitlab-ci-pipeline-cost-calculator/) | 24.3k | — |
+| [GitLab CI Pipeline Cost Estimator](../../skills/gitlab-ci-pipeline-cost-estimator/) | 24.3k | — |
+| [GitLab CI Pipeline Debugger](../../skills/gitlab-ci-pipeline-debugger/) | 24.3k | — |
+| [GitLab CI Pipeline Dependency Tracer](../../skills/gitlab-ci-pipeline-dependency-tracer/) | 24.3k | — |
+| [GitLab CI Pipeline Generator](../../skills/gitlab-ci-pipeline-generator/) | 24.3k | — |
+| [GitLab CI Pipeline Linter](../../skills/gitlab-ci-pipeline-linter/) | 24.3k | — |
+| [GitLab CI Pipeline Migrator](../../skills/gitlab-ci-pipeline-migrator/) | 24.3k | — |
+| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-8/) | 24.3k | — |
+| [GitLab CI Pipeline Profiler](../../skills/gitlab-ci-pipeline-profiler/) | 24.3k | — |
+| [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | 24.3k | — |
+| [GitLab CI Template Generator](../../skills/gitlab-ci-template-generator/) | 24.3k | — |
+| [GitLab CI Template Library](../../skills/gitlab-ci-template-library/) | 24.3k | — |
+| [GitLab CI/CD Pipeline Optimizer](../../skills/gitlab-cicd-pipeline-optimizer/) | 24.3k | — |
+| [GitLab CI/CD Pipeline Orchestrator](../../skills/gitlab-cicd-pipeline-orchestrator/) | 24.3k | — |
+| [GitLab Pipeline Bottleneck Profiler](../../skills/gitlab-pipeline-bottleneck-profiler/) | 24.3k | — |
+| [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | 24.3k | — |
+| [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | 24.3k | — |
+| [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | 24.3k | — |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | 23.5k | 2.5M/wk |
+| [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | 22.6k | — |
+| [ArgoCD Application Sync Manager](../../skills/argocd-application-sync-manager-2/) | 22.6k | — |
+| [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | 22.6k | — |
+| [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | 22.6k | — |
+| [ArgoCD Deployment Sync Skill](../../skills/argocd-deployment-sync-skill/) | 22.6k | — |
+| [ArgoCD GitOps Sync Controller](../../skills/argocd-gitops-sync-controller/) | 22.6k | — |
+| [ArgoCD GitOps Sync Manager](../../skills/argocd-gitops-sync-manager/) | 22.6k | — |
+| [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | 22.6k | — |
+| [ArgoCD Sync Drift Detector](../../skills/argocd-sync-drift-detector/) | 22.6k | — |
+| [ArgoCD Sync Manager](../../skills/argocd-sync-manager-skill/) | 22.6k | — |
+| [ArgoCD Sync Orchestrator](../../skills/argocd-sync-orchestrator/) | 22.6k | — |
+| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-7/) | 22.6k | — |
+| [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | 22.6k | — |
+| [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | 22.6k | — |
+| [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.6k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | 14k | — |
+| [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
+| [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
+| [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |
+| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator/) | 8.9k | — |
+| [Tekton Pipeline Resource Optimizer](../../skills/tekton-pipeline-resource-optimizer/) | 8.9k | — |
+| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder/) | 8.9k | — |
+| [Tekton Pipeline Task Assembler](../../skills/tekton-pipeline-task-assembler/) | 8.9k | — |
+| [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | 8.9k | — |
+| [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | 8.9k | — |
+| [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
+| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | — |
+| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
+| [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |
+| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 843 | — |
+| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 843 | — |
+| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | 843 | — |
+| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | 843 | — |
+| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | 843 | — |
+| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | 843 | — |
+| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | 843 | — |
+| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | 843 | — |
+| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | 843 | — |
+| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | 843 | — |
+| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | 843 | — |
+| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | 843 | — |
+| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | 843 | — |
+| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | 843 | — |
+| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | 843 | — |
+| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | 843 | — |
+| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | 843 | — |
+| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | 843 | — |
+| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | 843 | — |
+| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | 843 | — |
+| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | 843 | — |
+| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | 843 | — |
+| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 843 | — |
 | [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | 585 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
 | [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
@@ -60,56 +158,12 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | — | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | — | — |
-| [ArgoCD Application Deployer](../../skills/argocd-application-deployer/) | — | — |
-| [ArgoCD Application Sync Manager](../../skills/argocd-application-sync-manager-2/) | — | — |
-| [ArgoCD Application Sync Monitor](../../skills/argocd-application-sync-monitor/) | — | — |
-| [ArgoCD Deployment Monitor](../../skills/argocd-deployment-monitor/) | — | — |
-| [ArgoCD Deployment Sync Skill](../../skills/argocd-deployment-sync-skill/) | — | — |
-| [ArgoCD GitOps Sync Controller](../../skills/argocd-gitops-sync-controller/) | — | — |
-| [ArgoCD GitOps Sync Manager](../../skills/argocd-gitops-sync-manager/) | — | — |
-| [ArgoCD GitOps Sync Monitor](../../skills/argocd-gitops-sync-monitor/) | — | — |
-| [ArgoCD Sync Drift Detector](../../skills/argocd-sync-drift-detector/) | — | — |
-| [ArgoCD Sync Manager](../../skills/argocd-sync-manager-skill/) | — | — |
-| [ArgoCD Sync Orchestrator](../../skills/argocd-sync-orchestrator/) | — | — |
-| [ArgoCD Sync Status Monitor](../../skills/argocd-sync-status-monitor-7/) | — | — |
-| [ArgoCD Sync Troubleshooter](../../skills/argocd-sync-troubleshooter/) | — | — |
-| [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | — | — |
-| [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | — | — |
-| [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | — | — |
-| [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | — | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |
 | [Buildkite Agent Monitor](../../skills/buildkite-agent-monitor/) | — | — |
 | [Buildkite Dynamic Pipeline Agent](../../skills/buildkite-dynamic-pipeline-agent/) | — | — |
 | [Buildkite Dynamic Pipeline Architect](../../skills/buildkite-dynamic-pipeline-architect/) | — | — |
 | [Buildkite Pipeline Optimizer](../../skills/buildkite-pipeline-optimizer-agent/) | — | — |
 | [Buildkite Pipeline Profiler](../../skills/buildkite-pipeline-profiler/) | — | — |
-| [CircleCI Config Validator](../../skills/circleci-config-validator/) | — | — |
-| [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | — | — |
-| [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | — | — |
-| [CircleCI Orb Builder](../../skills/circleci-orb-builder/) | — | — |
-| [CircleCI Orb Builder and Publisher](../../skills/circleci-orb-builder-publisher/) | — | — |
-| [CircleCI Orb Composer](../../skills/circleci-orb-composer-7/) | — | — |
-| [CircleCI Orb Composition Engine](../../skills/circleci-orb-composition-engine/) | — | — |
-| [CircleCI Orb Configuration Manager](../../skills/circleci-orb-configuration-manager/) | — | — |
-| [CircleCI Orb Configurator](../../skills/circleci-orb-configurator-2/) | — | — |
-| [CircleCI Orb Debugger](../../skills/circleci-orb-debugger/) | — | — |
-| [CircleCI Orb Dependency Analyzer](../../skills/circleci-orb-dependency-analyzer/) | — | — |
-| [CircleCI Orb Dependency Auditor](../../skills/circleci-orb-dependency-auditor-4/) | — | — |
-| [CircleCI Orb Dependency Checker](../../skills/circleci-orb-dependency-checker/) | — | — |
-| [CircleCI Orb Dependency Scanner](../../skills/circleci-orb-dependency-scanner-4/) | — | — |
-| [CircleCI Orb Linter](../../skills/circleci-orb-linter/) | — | — |
-| [CircleCI Orb Pipeline Agent](../../skills/circleci-orb-pipeline-agent/) | — | — |
-| [CircleCI Orb Pipeline Composer](../../skills/circleci-orb-pipeline-composer-2/) | — | — |
-| [CircleCI Orb Pipeline Debugger](../../skills/circleci-orb-pipeline-debugger/) | — | — |
-| [CircleCI Orb Validator](../../skills/circleci-orb-validator/) | — | — |
-| [CircleCI Pipeline Manager](../../skills/circleci-pipeline-manager/) | — | — |
-| [CircleCI Pipeline Optimizer](../../skills/circleci-pipeline-optimizer/) | — | — |
-| [CircleCI Workflow Analyzer](../../skills/circleci-workflow-analyzer/) | — | — |
-| [CircleCI Workflow Builder](../../skills/circleci-workflow-builder/) | — | — |
-| [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | — | — |
-| [Docker Image Layer Inspector](../../skills/docker-image-layer-inspector/) | — | — |
-| [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | — | — |
-| [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | — | — |
 | [GitHub Actions CI Builder](../../skills/github-actions-ci-builder/) | — | — |
 | [GitHub Actions CI Pipeline Builder](../../skills/github-actions-ci-pipeline-builder/) | — | — |
 | [GitHub Actions CI/CD Pipeline Manager](../../skills/github-actions-cicd-pipeline-manager/) | — | — |
@@ -125,62 +179,8 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | — | — |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | — | — |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | — | — |
-| [GitLab CI Auto DevOps Configurator](../../skills/gitlab-ci-auto-devops-configurator/) | — | — |
-| [GitLab CI Cache Optimizer](../../skills/gitlab-ci-cache-optimizer-agent/) | — | — |
-| [GitLab CI Integration](../../skills/gitlab-ci-integration-2/) | — | — |
-| [GitLab CI Merge Train Optimizer](../../skills/gitlab-ci-merge-train-optimizer/) | — | — |
-| [GitLab CI Pipeline Cost Calculator](../../skills/gitlab-ci-pipeline-cost-calculator/) | — | — |
-| [GitLab CI Pipeline Cost Estimator](../../skills/gitlab-ci-pipeline-cost-estimator/) | — | — |
-| [GitLab CI Pipeline Debugger](../../skills/gitlab-ci-pipeline-debugger/) | — | — |
-| [GitLab CI Pipeline Dependency Tracer](../../skills/gitlab-ci-pipeline-dependency-tracer/) | — | — |
-| [GitLab CI Pipeline Generator](../../skills/gitlab-ci-pipeline-generator/) | — | — |
-| [GitLab CI Pipeline Linter](../../skills/gitlab-ci-pipeline-linter/) | — | — |
-| [GitLab CI Pipeline Migrator](../../skills/gitlab-ci-pipeline-migrator/) | — | — |
-| [GitLab CI Pipeline Optimizer](../../skills/gitlab-ci-pipeline-optimizer-8/) | — | — |
-| [GitLab CI Pipeline Profiler](../../skills/gitlab-ci-pipeline-profiler/) | — | — |
-| [GitLab CI Pipeline Validator](../../skills/gitlab-ci-pipeline-validator/) | — | — |
-| [GitLab CI Template Generator](../../skills/gitlab-ci-template-generator/) | — | — |
-| [GitLab CI Template Library](../../skills/gitlab-ci-template-library/) | — | — |
-| [GitLab CI/CD Pipeline Optimizer](../../skills/gitlab-cicd-pipeline-optimizer/) | — | — |
-| [GitLab CI/CD Pipeline Orchestrator](../../skills/gitlab-cicd-pipeline-orchestrator/) | — | — |
-| [GitLab Pipeline Bottleneck Profiler](../../skills/gitlab-pipeline-bottleneck-profiler/) | — | — |
-| [GitLab Pipeline DAG Optimizer](../../skills/gitlab-pipeline-dag-optimizer/) | — | — |
-| [GitLab Pipeline Optimizer](../../skills/gitlab-pipeline-optimizer/) | — | — |
-| [GitLab Pipeline Orchestrator](../../skills/gitlab-pipeline-orchestrator/) | — | — |
-| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | — | — |
-| [Hugging Face Model Deployer](../../skills/huggingface-model-deployer/) | — | — |
-| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | — | — |
-| [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | — | — |
-| [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | — | — |
-| [Jenkins Pipeline DSL Generator](../../skills/jenkins-pipeline-dsl-generator/) | — | — |
-| [Jenkins Pipeline Failure Analyzer](../../skills/jenkins-pipeline-failure-analyzer/) | — | — |
-| [Jenkins Pipeline Generator](../../skills/jenkins-pipeline-generator/) | — | — |
-| [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | — | — |
-| [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | — | — |
-| [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | — | — |
-| [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | — | — |
-| [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | — | — |
-| [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | — | — |
-| [Jenkins Pipeline Log Parser](../../skills/jenkins-pipeline-log-parser/) | — | — |
-| [Jenkins Pipeline Monitor](../../skills/jenkins-pipeline-monitor/) | — | — |
-| [Jenkins Pipeline Orchestrator](../../skills/jenkins-pipeline-orchestrator-3/) | — | — |
-| [Jenkins Pipeline Shared Library Linter](../../skills/jenkins-pipeline-shared-library-linter/) | — | — |
-| [Jenkins Shared Library Auditor](../../skills/jenkins-shared-library-auditor-agent/) | — | — |
-| [Jenkins Shared Library Builder](../../skills/jenkins-shared-library-builder/) | — | — |
-| [Jenkins Shared Library Linter](../../skills/jenkins-shared-library-linter/) | — | — |
-| [Jenkins Shared Library Manager](../../skills/jenkins-shared-library-manager/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
-| [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | — | — |
-| [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | — | — |
-| [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | — | — |
-| [Tekton Pipeline Generator](../../skills/tekton-pipeline-generator/) | — | — |
-| [Tekton Pipeline Resource Optimizer](../../skills/tekton-pipeline-resource-optimizer/) | — | — |
-| [Tekton Pipeline Scaffolder](../../skills/tekton-pipeline-scaffolder/) | — | — |
-| [Tekton Pipeline Task Assembler](../../skills/tekton-pipeline-task-assembler/) | — | — |
-| [Tekton Pipeline Task Generator](../../skills/tekton-pipeline-task-generator/) | — | — |
-| [Tekton Pipeline Template Generator](../../skills/tekton-pipeline-template-generator/) | — | — |
-| [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | — | — |
 | [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | — | — |
 | [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | — | — |
 | [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | — | — |

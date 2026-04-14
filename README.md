@@ -49,17 +49,17 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | openclaw | 356.8k | Security & Verification |
+| [Hugging Face Model Deployer](skills/huggingface-model-deployer/) | huggingface | 159.4k | CI/CD Integrations |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp | 154.3k | Media & Transcription |
-| [Kubernetes Events API CrashLoop Investigator](skills/kubernetes-events-api-crashloop-investigator/) | kubernetes | 121.4k | Runbooks & Diagnostics |
+| [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | kubernetes | 121.7k | Runbooks & Diagnostics |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | excalidraw | 119.9k | Image & Creative Automation |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | skills | 116.9k | Templates & Workflows |
 | [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/) | firecrawl | 108.8k | Research & Scraping |
 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.9k | Developer Tools |
+| [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 100.8k | Developer Tools |
 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.4k | Media & Transcription |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
-| [Storybook Component Tester](skills/storybook-component-tester/) | storybook | 89.7k | Code Quality & Review |
-| [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | hugo | 87.4k | WordPress & CMS |
 
 ---
 

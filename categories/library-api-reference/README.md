@@ -6,16 +6,16 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars |
 |---|---:|
+| [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | ⭐ 71.5k |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | ⭐ 51.3k |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⭐ 45.8k |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | ⭐ 41.2k |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | ⭐ 38.7k |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | ⭐ 31.9k |
-| [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⭐ 25.6k |
-| [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⭐ 24.9k |
-| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⭐ 16.3k |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⭐ 15.4k |
-| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | ⭐ 15k |
-| [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | ⭐ 14.6k |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⭐ 28.8k |
+| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⭐ 28.8k |
+| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⭐ 28.8k |
+| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⭐ 28.8k |
 
 ---
 
@@ -23,13 +23,16 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 149.2k/wk |
+| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
+| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⬇ 149.2k/wk |
+| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⬇ 149.2k/wk |
+| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | ⬇ 149.2k/wk |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
-| [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | ⬇ 247.6k/wk |
-| [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | ⬇ 2.7M/wk |
-| [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | ⬇ 3.7M/wk |
-| [Postman Collection Runner](../../skills/postman-collection-runner/) | ⬇ 794k/wk |
-| [OpenAPI Specification Validator](../../skills/openapi-specification-validator-agent/) | ⬇ 4.3M/wk |
+| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | ⬇ 34.2M/wk |
+| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | ⬇ 34.2M/wk |
 
 ---
 
@@ -37,12 +40,32 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.5k | — |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
+| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.8k | 9.9M/wk |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
+| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | 28.8k | 149.2k/wk |
+| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | 28.8k | 149.2k/wk |
+| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | 28.8k | 149.2k/wk |
+| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | 28.8k | 149.2k/wk |
+| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | 28.8k | 149.2k/wk |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | 25.6k | 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | 24.9k | 529.3k/wk |
+| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Documentation Generator](../../skills/graphql-schema-documentation-generator/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Drift Detector](../../skills/graphql-schema-drift-detector/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Registry](../../skills/graphql-schema-registry/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
@@ -55,6 +78,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 794k/wk |
+| [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
+| [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
+| [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Grounded Docs MCP Server](../../skills/grounded-docs-mcp-server/) | 1.2k | — |
@@ -64,25 +90,9 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
-| [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | — | — |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | — | — |
-| [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | — | — |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | — | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | — | — |
-| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | — | — |
-| [GraphQL Schema Analyzer](../../skills/graphql-schema-analyzer/) | — | — |
-| [GraphQL Schema Documentation Builder](../../skills/graphql-schema-documentation-builder/) | — | — |
-| [GraphQL Schema Documentation Generator](../../skills/graphql-schema-documentation-generator/) | — | — |
-| [GraphQL Schema Drift Detector](../../skills/graphql-schema-drift-detector/) | — | — |
-| [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | — | — |
-| [GraphQL Schema Introspection Analyzer](../../skills/graphql-schema-introspection-analyzer/) | — | — |
-| [GraphQL Schema Introspector](../../skills/graphql-schema-introspector/) | — | — |
-| [GraphQL Schema Registry](../../skills/graphql-schema-registry/) | — | — |
-| [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | — | — |
-| [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | — | — |
-| [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | — | — |
-| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | — | — |
-| [gRPC Service Tool](../../skills/grpc-service-tool/) | — | — |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
@@ -112,7 +122,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
-| [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | — | — |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | — | — |
@@ -138,12 +147,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | — | — |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | — | — |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | — | — |
-| [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | — | — |
-| [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | — | — |
-| [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | — | — |
-| [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | — | — |
-| [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | — | — |
-| [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | — | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | — | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | — | — |
 | [Zod Schema Generator](../../skills/zod-schema-generator/) | — | — |

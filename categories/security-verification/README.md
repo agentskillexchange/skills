@@ -8,14 +8,14 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
+| [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
+| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
-| [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | ⭐ 34.5k |
-| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⭐ 27.8k |
-| [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | ⭐ 27.7k |
-| [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | ⭐ 25.7k |
-| [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | ⭐ 25.6k |
-| [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | ⭐ 25.3k |
-| [NetBird WireGuard Mesh VPN with Zero Trust Access Controls](../../skills/netbird-wireguard-mesh-vpn-zero-trust-access/) | ⭐ 24k |
+| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 34.5k |
+| [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | ⭐ 34.5k |
+| [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | ⭐ 34.5k |
+| [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 34.5k |
+| [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | ⭐ 34.5k |
 
 ---
 
@@ -23,6 +23,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Downloads |
 |---|---:|
+| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
+| [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⬇ 9.3M/wk |
 | [WorkOS AuthKit Next.js Authentication Toolkit](../../skills/workos-authkit-nextjs-authentication-toolkit/) | ⬇ 227.2k/wk |
 
 ---
@@ -33,10 +35,19 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
+| [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | 35.4k | — |
+| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | 35.4k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
+| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | 34.5k | — |
+| [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | 34.5k | — |
+| [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | 34.5k | — |
+| [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | 34.5k | — |
+| [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | 34.5k | — |
+| [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | 34.5k | — |
 | [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | 34.5k | — |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
+| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | 26.7k | 563.5k/wk |
 | [Gitleaks Git Repository Secret Scanner](../../skills/gitleaks-git-secret-scanner/) | 25.7k | — |
 | [Infisical Open-Source Secret Management Platform](../../skills/infisical-secret-management-platform/) | 25.6k | — |
 | [TruffleHog Credential Leak Scanner](../../skills/trufflehog-credential-leak-scanner/) | 25.3k | — |
@@ -47,6 +58,17 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | — |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
 | [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
+| [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | 15k | — |
+| [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | 15k | — |
+| [OWASP ZAP API Security Auditor](../../skills/owasp-zap-api-security-auditor/) | 15k | — |
+| [OWASP ZAP API Security Scanner](../../skills/owasp-zap-api-security-scanner/) | 15k | — |
+| [OWASP ZAP API Security Tester](../../skills/owasp-zap-api-security-tester/) | 15k | — |
+| [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | 15k | — |
+| [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | 15k | — |
+| [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | 15k | — |
+| [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | 15k | — |
+| [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | 15k | — |
+| [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | 15k | — |
 | [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
@@ -65,12 +87,22 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
+| [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
+| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | — |
+| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | 5.5k | — |
+| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | 5.5k | — |
+| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | 5.5k | — |
+| [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | 5.5k | — |
+| [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | 5.5k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
+| [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
+| [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
+| [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |
 | [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | 3.3k | — |
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
@@ -95,8 +127,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
-| [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | — | — |
-| [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | — | — |
 | [Checkov Infrastructure Policy Scanner](../../skills/checkov-infrastructure-policy-scanner/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | — | — |
@@ -105,7 +135,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | — | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | — | — |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | — | — |
-| [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | — | — |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | — | — |
@@ -122,17 +151,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
-| [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | — | — |
-| [OWASP ZAP API Fuzzer](../../skills/owasp-zap-api-fuzzer/) | — | — |
-| [OWASP ZAP API Security Auditor](../../skills/owasp-zap-api-security-auditor/) | — | — |
-| [OWASP ZAP API Security Scanner](../../skills/owasp-zap-api-security-scanner/) | — | — |
-| [OWASP ZAP API Security Tester](../../skills/owasp-zap-api-security-tester/) | — | — |
-| [OWASP ZAP Automated Pen Testing Agent](../../skills/owasp-zap-automated-pen-testing-agent/) | — | — |
-| [OWASP ZAP Automated Scan Orchestrator](../../skills/owasp-zap-automated-scan-orchestrator/) | — | — |
-| [OWASP ZAP Scan Orchestrator](../../skills/owasp-zap-scan-orchestrator/) | — | — |
-| [OWASP ZAP Scanner Agent](../../skills/owasp-zap-scanner-agent/) | — | — |
-| [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | — | — |
-| [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | — | — |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | — | — |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | — | — |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
@@ -142,27 +160,11 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | — | — |
 | [Sigstore Cosign Verification Pipeline](../../skills/sigstore-cosign-verification-pipeline/) | — | — |
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | — | — |
-| [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | — | — |
-| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | — | — |
-| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | — | — |
-| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | — | — |
-| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | — | — |
-| [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | — | — |
-| [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | — | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
-| [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |
 | [TLS Certificate Chain Validator](../../skills/tls-certificate-chain-validator/) | — | — |
-| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | — | — |
-| [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | — | — |
-| [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | — | — |
-| [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | — | — |
-| [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | — | — |
-| [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | — | — |
-| [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | — | — |
-| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | — | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | — | — |
 
 ---

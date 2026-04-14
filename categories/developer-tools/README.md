@@ -10,12 +10,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | ⭐ 167.9k |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | ⭐ 159.2k |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | ⭐ 130.4k |
+| [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | ⭐ 121.7k |
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⭐ 112.1k |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | ⭐ 100.9k |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⭐ 100.8k |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⭐ 100.1k |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⭐ 94.1k |
-| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⭐ 88.9k |
-| [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | ⭐ 82.4k |
 
 ---
 
@@ -23,6 +23,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
@@ -32,7 +33,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pnpm Fast Disk-Efficient Package Manager](../../skills/pnpm-fast-disk-efficient-package-manager/) | ⬇ 66.3M/wk |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | ⬇ 7M/wk |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | ⬇ 12.9M/wk |
-| [ESLint Code Review](../../skills/eslint-code-review/) | ⬇ 115.2M/wk |
 
 ---
 
@@ -44,11 +44,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.9k | — |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159.2k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.4k | — |
+| [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | 121.7k | — |
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | 112.1k | — |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
+| [Supabase MCP Server](../../skills/supabase-mcp-server/) | 100.8k | — |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | — |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | — |
+| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | 86.4k | 47.9M/wk |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | — |
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | 79.2k | — |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 78.7k | — |
@@ -57,6 +60,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
+| [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
+| [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | 71.5k | — |
+| [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | 71.5k | — |
+| [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | 71.5k | — |
+| [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | 71.5k | — |
+| [Docker MCP Server](../../skills/docker-mcp-server/) | 71.5k | — |
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 16.5k/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
@@ -74,6 +83,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [Ghostty Fast Native Terminal Emulator with GPU Acceleration](../../skills/ghostty-fast-native-terminal-emulator-gpu-acceleration/) | 49.2k | — |
+| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 48.6k | — |
 | [LlamaIndex Agent](../../skills/llamaindex-agent/) | 48.6k | — |
 | [Terraform Cloud MCP Server](../../skills/terraform-cloud-mcp-server/) | 48.1k | — |
 | [CrewAI Multi-Agent Orchestration Framework](../../skills/crewai-multi-agent-orchestration-framework/) | 47.7k | — |
@@ -111,6 +121,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 30.3k | — |
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 12.9M/wk |
+| [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | 29.9k | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 29.8k | — |
 | [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | — |
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
@@ -119,6 +130,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
+| [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.2k | 115.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
@@ -151,6 +163,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 18.7k | — |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
+| [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.5k | 2.2M/wk |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |
@@ -182,9 +195,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Convex Open Source Reactive Database and Backend Platform](../../skills/convex-reactive-database-backend/) | 11.2k | — |
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
+| [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.8k | 17.8M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.4k | — |
+| [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | 10.2k | 11.2M/wk |
 | [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | 10.1k | — |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.8k | — |
@@ -199,6 +214,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |
 | [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.2M/wk |
+| [SQLite Analyst](../../skills/sqlite-analyst/) | 7.1k | 5.5M/wk |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 99.2k/wk |
 | [Huh Interactive Terminal Forms and Prompts Library for Go](../../skills/huh-terminal-forms-prompts-library/) | 6.8k | — |
@@ -212,6 +228,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | — |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
+| [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.2M/wk |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
 | [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | 5.1k | — |
@@ -219,12 +236,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
+| [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | — |
+| [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | — |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
@@ -250,19 +269,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
+| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | 96.8M/wk |
+| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | 44.5M/wk |
+| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | 23.2M/wk |
+| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | 23.2M/wk |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | — | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | — | — |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | — | — |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | — | — |
 | [Devcontainer Setup Agent](../../skills/devcontainer-setup-agent/) | — | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | — | — |
-| [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | — | — |
-| [Docker Compose Orchestrator](../../skills/docker-compose-orchestrator-v2/) | — | — |
-| [Docker Compose Stack Analyzer](../../skills/docker-compose-stack-analyzer/) | — | — |
-| [Docker Compose Stack Builder](../../skills/docker-compose-stack-builder-sdk/) | — | — |
-| [Docker MCP Server](../../skills/docker-mcp-server/) | — | — |
-| [DynamoDB Manager](../../skills/dynamodb-manager/) | — | — |
-| [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
 | [Git Bisect Automator](../../skills/git-bisect-automator/) | — | — |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | — | — |
@@ -270,37 +286,21 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
-| [Kubernetes Pod Crash Diagnostics](../../skills/kubernetes-pod-crash-diagnostics-3/) | — | — |
-| [LangChain MCP Server](../../skills/langchain-mcp-server/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
-| [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
-| [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | — | — |
-| [MySQL Query Agent](../../skills/mysql-query-agent/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
-| [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | — | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | — | — |
-| [Notion Workspace Agent](../../skills/notion-workspace-agent/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [OpenAI MCP Server](../../skills/openai-mcp-server/) | — | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | — | — |
 | [Package Vulnerability Scanner](../../skills/package-vuln-scanner-osv-api/) | — | — |
-| [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | — | — |
-| [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | — | — |
-| [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | — | — |
-| [Redis MCP Server](../../skills/redis-mcp-server/) | — | — |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | — | — |
-| [SQLite Analyst](../../skills/sqlite-analyst/) | — | — |
-| [Supabase MCP Server](../../skills/supabase-mcp-server/) | — | — |
 | [Terraform Module Scaffolder](../../skills/terraform-module-scaffolder-hcl-sdk/) | — | — |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | — | — |
-| [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
 | [Webhook Debugger](../../skills/webhook-debugger/) | — | — |
-| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | — | — |
 
 ---
 

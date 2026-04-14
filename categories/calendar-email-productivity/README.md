@@ -23,9 +23,16 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Downloads |
 |---|---:|
-| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.1M/wk |
-| [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | ⬇ 184/wk |
-| [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | ⬇ 128.6k/wk |
+| [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 563.5k/wk |
+| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
+| [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
+| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
+| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
+| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
+| [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
+| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⬇ 1.2M/wk |
+| [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | ⬇ 1.2M/wk |
+| [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -43,6 +50,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | 38k | — |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
+| [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 563.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
@@ -68,6 +76,15 @@ Email automation, calendar management, task coordination, and productivity tools
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
+| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
+| [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
+| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
+| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | 5.6k | 1.2M/wk |
+| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | 5.6k | 1.2M/wk |
+| [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | 5.6k | 1.2M/wk |
+| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | 5.6k | 1.2M/wk |
+| [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | 5.6k | 1.2M/wk |
+| [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | 5.6k | 1.2M/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.1M/wk |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | 5k | — |
 | [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 5k | — |
@@ -77,6 +94,14 @@ Email automation, calendar management, task coordination, and productivity tools
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
 | [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
+| [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2.6M/wk |
+| [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | 2.9k | 2.6M/wk |
+| [Slack Standup Automator](../../skills/slack-standup-automator/) | 2.9k | 2.6M/wk |
+| [Slack Standup Summarizer](../../skills/slack-standup-summarizer/) | 2.9k | 2.6M/wk |
+| [Slack Workflow Automation Builder](../../skills/slack-workflow-automation-builder/) | 2.9k | 2.6M/wk |
+| [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | 2.9k | 2.6M/wk |
+| [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | 2.9k | 2.6M/wk |
+| [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | 2.9k | 2.6M/wk |
 | [Pop Terminal Email Sender and TUI by Charmbracelet](../../skills/pop-terminal-email-sender-charmbracelet/) | 2.8k | — |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 2k | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
@@ -96,7 +121,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
-| [Discord Bot Manager](../../skills/discord-bot-manager/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -115,29 +139,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Microsoft Graph Mail Triage Agent](../../skills/microsoft-graph-mail-triage-agent/) | — | — |
 | [Microsoft Outlook Calendar Sync Agent](../../skills/ms-outlook-calendar-sync-agent/) | — | — |
 | [Microsoft Outlook Mail Sorter](../../skills/ms-outlook-mail-sorter/) | — | — |
-| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | — | — |
-| [Notion AI Workspace](../../skills/notion-ai-workspace/) | — | — |
-| [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | — | — |
-| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | — | — |
-| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | — | — |
-| [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | — | — |
-| [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | — | — |
-| [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | — | — |
-| [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | — | — |
 | [Notion Workspace Sync Engine](../../skills/notion-workspace-sync-engine-2/) | — | — |
 | [Outlook Email Automation](../../skills/outlook-email-automation/) | — | — |
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
-| [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | — | — |
-| [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | — | — |
-| [Slack Standup Automator](../../skills/slack-standup-automator/) | — | — |
-| [Slack Standup Summarizer](../../skills/slack-standup-summarizer/) | — | — |
 | [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | — | — |
-| [Slack Workflow Automation Builder](../../skills/slack-workflow-automation-builder/) | — | — |
-| [Slack Workflow Bot](../../skills/slack-workflow-bot-bolt-sdk/) | — | — |
-| [Slack Workflow Bot Builder](../../skills/slack-workflow-bot-builder/) | — | — |
-| [Slack Workflow Builder Agent](../../skills/slack-workflow-builder-agent/) | — | — |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | — | — |

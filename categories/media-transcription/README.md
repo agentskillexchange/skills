@@ -12,10 +12,10 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 97.2k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | ⭐ 73.4k |
-| [Video Frames Extractor](../../skills/video-frames-extractor/) | ⭐ 58.6k |
-| [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | ⭐ 58.5k |
-| [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | ⭐ 58.5k |
-| [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | ⭐ 48.3k |
+| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | ⭐ 59k |
+| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | ⭐ 59k |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | ⭐ 59k |
+| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | ⭐ 59k |
 
 ---
 
@@ -39,6 +39,11 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 97.2k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
+| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | 59k | — |
+| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | 59k | — |
+| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | 59k | — |
+| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | 59k | — |
+| [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | 59k | — |
 | [Video Frames Extractor](../../skills/video-frames-extractor/) | 58.6k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
@@ -102,11 +107,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
-| [FFmpeg Audio Normalization Pipeline](../../skills/ffmpeg-audio-normalization-pipeline/) | — | — |
-| [FFmpeg Audio Transcoder](../../skills/ffmpeg-audio-transcoder/) | — | — |
-| [FFmpeg Batch Transcode Pipeline](../../skills/ffmpeg-batch-transcode-pipeline/) | — | — |
-| [FFmpeg Batch Transcoder](../../skills/ffmpeg-batch-transcoder-skill/) | — | — |
-| [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | — | — |
