@@ -1,0 +1,48 @@
+---
+title: "gallery-dl Image Gallery and Collection Downloader"
+description: "gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru. It supports authentication, metadata extraction, filtering, and configurable output templates."
+verification: security_reviewed
+source: "https://github.com/mikf/gallery-dl"
+category:
+  - "Data Extraction &amp; Transformation"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mikf/gallery-dl"
+  github_stars: 17470
+---
+
+# gallery-dl Image Gallery and Collection Downloader
+
+gallery-dl is a popular open-source command-line program for batch downloading image galleries and collections from a wide range of image hosting sites and social media platforms. Written in Python with over 17,000 GitHub stars, it fills the same niche for images that yt-dlp fills for video — reliable, scriptable, and extensively configurable bulk downloading.
+
+Supported Sites
+gallery-dl supports dozens of platforms including Pixiv, DeviantArt, Twitter/X, Reddit, Instagram, Danbooru, Gelbooru, ArtStation, Flickr, Tumblr, Imgur, and many more. Each site has a dedicated extractor module that handles the platform-specific API or HTML scraping required to discover and download images at full resolution.
+
+Core Capabilities
+The tool downloads entire galleries, user profiles, tag searches, and individual posts. It extracts and preserves metadata such as artist names, tags, descriptions, upload dates, and image dimensions. Output directory structures and filenames are fully customizable using Python format strings with metadata placeholders. Archive databases track previously downloaded files to avoid re-downloading on subsequent runs.
+
+Authentication and Filtering
+gallery-dl supports login credentials and browser cookie extraction for accessing age-restricted or private content. Post-processors handle file conversion, metadata writing to JSON sidecar files, and execution of custom commands after each download. Filter expressions allow selecting images by date range, file type, minimum resolution, tag inclusion or exclusion, and rating.
+
+Integration Points
+Configuration files in JSON format define site-specific settings, credentials, and output templates. The tool can be used as a Python library for programmatic integration. It works in automation pipelines via shell scripts and cron jobs. gallery-dl pairs well with media management tools like Hydrus Network for organizing downloaded collections with their preserved metadata.
+
+## Installation
+
+Choose the setup that fits your environment:
+
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/)

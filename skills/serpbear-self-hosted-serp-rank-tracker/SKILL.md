@@ -1,0 +1,51 @@
+---
+title: "SerpBear Self-Hosted Search Engine Rank Tracking App"
+description: "SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited keyword rankings in Google with email notifications, a built-in SERP API, Google Search Console integration, and keyword research via Google Ads."
+verification: security_reviewed
+source: "https://github.com/towfiqi/serpbear"
+category:
+  - "Content Writing &amp; SEO"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "towfiqi/serpbear"
+  github_stars: 1890
+---
+
+# SerpBear Self-Hosted Search Engine Rank Tracking App
+
+SerpBear is an open-source search engine position rank tracking application built with Next.js and SQLite. It provides a complete self-hosted alternative to expensive commercial SERP tracking services like Ahrefs, SEMrush, or SE Ranking, giving SEO professionals and website owners full control over their keyword monitoring data.
+
+Core Capabilities
+The application allows you to add unlimited domains and track unlimited keywords across Google search results. It monitors your keyword positions and detects ranking changes over time. You can configure email notifications on a daily, weekly, or monthly basis to stay informed about position movements without manually checking.
+
+API and Integrations
+SerpBear ships with a built-in REST API that you can use to integrate keyword ranking data into your marketing dashboards, reporting tools, or custom workflows. The tool integrates with Google Search Console to show actual search visits, impressions, CTR, and average position for each tracked keyword. You can also discover new keyword opportunities and identify top-performing pages and countries through the Search Console integration.
+
+Keyword Research
+By connecting a Google Ads test account, SerpBear can perform keyword research and auto-generate keyword ideas from your tracked website content. It also displays monthly search volume data for your tracked keywords, helping you prioritize which terms to focus your SEO efforts on.
+
+Technical Architecture
+SerpBear uses Next.js for both the frontend and backend, with SQLite as its database. For scraping Google search results, it supports multiple third-party providers including ScrapingAnt, ScrapingRobot, SearchApi, SerpApi, HasData, and custom proxy IPs. The application can be deployed via Docker or directly on platforms like Railway and Fly.io.
+
+Agent Integration
+AI agents can use SerpBear’s REST API to programmatically check keyword rankings, trigger rank refreshes, and pull historical position data for automated SEO reporting workflows. The API enables agents to monitor ranking trends and alert on significant position changes across multiple domains.
+
+## Installation
+
+Choose the setup that fits your environment:
+
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/serpbear-self-hosted-serp-rank-tracker/)

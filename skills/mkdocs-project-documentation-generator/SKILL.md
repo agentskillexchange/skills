@@ -1,0 +1,45 @@
+---
+title: "MkDocs Project Documentation Generator"
+description: "MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from Markdown files. Configured with a single YAML file, it transforms documentation source files into professional, navigable websites with built-in themes and plugin support."
+verification: security_reviewed
+source: "https://github.com/mkdocs/mkdocs"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mkdocs/mkdocs"
+  github_stars: 21931
+---
+
+# MkDocs Project Documentation Generator
+
+MkDocs is a Python-based static site generator purpose-built for project documentation. It takes Markdown source files and a single mkdocs.yml configuration file, producing a polished static HTML site that can be hosted on GitHub Pages, Amazon S3, Netlify, or any static file server.
+
+Core Features
+MkDocs provides a built-in development server with live reload, letting you preview documentation changes instantly as you write. The tool ships with two default themes and supports a thriving ecosystem of third-party themes, with Material for MkDocs being among the most popular. Markdown extensions enable advanced features like code highlighting, admonitions, tabbed content, and math rendering.
+
+Plugin Ecosystem
+The plugin architecture supports search indexing, automatic navigation generation, PDF export, API documentation integration via mkdocstrings, i18n support, and more. The catalog of community plugins and themes numbers in the hundreds, covering virtually any documentation need.
+
+Agent Integration
+For AI coding agents, MkDocs serves as the standard tool for generating project documentation sites. An agent can scaffold a docs directory, write Markdown content, configure mkdocs.yml with theme and plugin settings, run mkdocs build to produce a static site, and deploy it — all through CLI commands. The tool integrates naturally into CI/CD pipelines with mkdocs gh-deploy for GitHub Pages publishing. Install via pip install mkdocs and get started with mkdocs new my-project.
+
+## Installation
+
+Choose the setup that fits your environment:
+
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/mkdocs-project-documentation-generator/)

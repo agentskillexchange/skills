@@ -1,0 +1,36 @@
+---
+title: "WASM Component Model Linker"
+description: "Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component composition, and wit-bindgen for generating host/guest bindings from WIT interface definitions."
+verification: security_reviewed
+source: "https://github.com/WebAssembly/component-model"
+category:
+  - "Developer Tools"
+framework:
+  - "Gemini"
+tool_ecosystem:
+  github_repo: "WebAssembly/component-model"
+  github_stars: 1294
+---
+
+# WASM Component Model Linker
+
+The WASM Component Model Linker automates the WebAssembly Component Model workflow from WIT (WebAssembly Interface Type) definitions through compilation and linking. It uses wit-bindgen to generate language-specific bindings for Rust (wit-bindgen-rust), JavaScript (jco), and Go (wit-bindgen-go) from .wit files. The agent orchestrates wasm-tools component new for creating components from core modules, wasm-tools compose for linking multiple components together, and wasm-tools validate for checking component conformance. It supports WASI Preview 2 interfaces including wasi:io, wasi:filesystem, wasi:http, and wasi:cli. For JavaScript hosts, it generates bindings using jco transpile and jco componentize. The pipeline integrates with Wasmtime for local testing and Fermyon Spin or Fastly Compute for edge deployment. Handles the full lifecycle from WIT authoring through component registry publishing using warg CLI for the WebAssembly component registry.
+
+## Installation
+
+Choose the setup that fits your environment:
+
+1. **OpenClaw skill installer**
+   - Add this skill through your OpenClaw skills workflow if you use managed installs.
+2. **Git clone**
+   - Clone the upstream project or skill repo, then follow its setup instructions.
+3. **Package manager**
+   - Install with the ecosystem package manager when the upstream project publishes one.
+4. **Manual copy**
+   - Copy the skill folder into your local skills directory and reload your agent.
+5. **Container or CI environment**
+   - Bake the dependency into your image or automation environment before running the skill.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wasm-component-model-linker/)
