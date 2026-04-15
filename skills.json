@@ -1,8 +1,104 @@
 {
   "version": "2.0",
-  "total": 2039,
+  "total": 2045,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete",
+      "name": "Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete",
+      "description": "Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build time, review noise, and manifest drift.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1280,
+        "npm_weekly_downloads": 2073590
+      }
+    },
+    {
+      "slug": "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens",
+      "name": "Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens",
+      "description": "Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3715,
+        "npm_weekly_downloads": 56891
+      }
+    },
+    {
+      "slug": "run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt",
+      "name": "Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt",
+      "description": "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 977,
+        "npm_weekly_downloads": 18627
+      }
+    },
+    {
+      "slug": "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage",
+      "name": "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage",
+      "description": "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 12900,
+        "npm_weekly_downloads": 154142
+      }
+    },
+    {
+      "slug": "shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest",
+      "name": "Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest",
+      "description": "Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding, retries, machine-readable output, and CI triage.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2910,
+        "npm_weekly_downloads": 9751524
+      }
+    },
+    {
+      "slug": "gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny",
+      "name": "Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny",
+      "description": "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2263,
+        "npm_weekly_downloads": 3315365
+      }
+    },
     {
       "slug": "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf",
       "name": "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf",

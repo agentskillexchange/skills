@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2039 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 17:21 UTC
+> **2045 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 19:25 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -279,7 +279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (161 skills)
+### 🔧 CI/CD Integrations (162 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -388,6 +388,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Garden Kubernetes Development and Testing Automation Platform](skills/garden-kubernetes-dev-testing-automation/) | Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like… | Security Reviewed | 3.6k | — |
 | [Score Kubernetes manifests for reliability and security risks before deploy with kube-score](skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score/) | Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and… | Published | 3.1k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The… | Security Reviewed | 3k | — |
+| [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | Use cargo-nextest when an agent needs more reliable Rust test execution than cargo test, especially for sharding,… | Published | 2.9k | 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package… | Security Reviewed | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | Run chart-focused lint and install checks so changed Helm charts are validated before release or merge. | Published | 1.6k | — |
 | [Gate pull requests on OpenAPI breaking changes](skills/gate-pull-requests-on-openapi-breaking-changes/) | Use oasdiff when an agent needs to compare old and new OpenAPI specs and decide whether a proposed change is safe to… | Security Reviewed | 1.2k | — |
@@ -448,7 +449,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (149 skills)
+### 🔄 Data Extraction & Transformation (150 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -543,6 +544,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API.… | Security Reviewed | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](skills/xan-simd-csv-processing-cli/) | xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser.… | Security Reviewed | 3.9k | — |
 | [Newsboat Terminal RSS and Atom Feed Reader](skills/newsboat-terminal-rss-atom-feed-reader/) | Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter,… | Security Reviewed | 3.8k | — |
+| [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or… | Published | 3.7k | 56.9k/wk |
 | [Turn messy document collections into structured rows with DocETL](skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and… | Published | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation… | Published | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular… | Security Reviewed | 3.6k | — |
@@ -605,7 +607,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (145 skills)
+### 🔒 Security & Verification (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -697,6 +699,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | — |
+| [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Published | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
@@ -758,7 +761,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (134 skills)
+### 📋 Runbooks & Diagnostics (135 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -827,6 +830,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [ArgoCD Application Health Runbook](skills/argocd-application-health-runbook/) | Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries… | Security Reviewed | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](skills/argocd-deployment-runbook-agent/) | Manages GitOps deployments using ArgoCD API, argocd CLI, and Kustomize overlays. Automates sync operations, rollback… | Security Reviewed | 22.6k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Security Reviewed | 13.2k | — |
+| [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports… | Published | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
@@ -900,7 +904,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (132 skills)
+### ✅ Code Quality & Review (134 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -998,6 +1002,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Published | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
+| [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build… | Published | 1.3k | 2.1M/wk |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Security Reviewed | 1.3k | — |
 | [Stress-test Python test suites with mutation runs from mutmut](skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the… | Published | 1.3k | — |
@@ -1005,6 +1010,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually… | Published | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
+| [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching… | Published | 977 | 18.6k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work. | Published | 872 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |

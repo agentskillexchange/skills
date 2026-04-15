@@ -32,7 +32,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | ⬇ 2.5M/wk |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | ⬇ 2.5M/wk |
-| [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | ⬇ 14/wk |
+| [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](../../skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | ⬇ 56.9k/wk |
 
 ---
 
@@ -129,6 +129,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | 3.9k | — |
 | [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 3.8k | — |
+| [Inspect large CSV files interactively before cleanup, mapping, or downstream transforms with csvlens](../../skills/inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens/) | 3.7k | 56.9k/wk |
 | [Turn messy document collections into structured rows with DocETL](../../skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |

@@ -24,6 +24,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Downloads |
 |---|---:|
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
+| [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | ⬇ 154.1k/wk |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | ⬇ 20.8k/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⬇ 6.6M/wk |
@@ -32,7 +33,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | ⬇ 23.2M/wk |
 | [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | ⬇ 23.2M/wk |
 | [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | ⬇ 23.2M/wk |
-| [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -103,6 +103,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.6k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
+| [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | 12.9k | 154.1k/wk |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
 | [Triage production log spikes and incidents from the terminal with lnav](../../skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | 10.2k | — |
