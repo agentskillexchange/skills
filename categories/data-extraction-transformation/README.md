@@ -69,6 +69,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | 33.2k | — |
+| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | 32.4k | — |
 | [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.4k | — |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.3k | 19.6M/wk |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | 30.3k | 19.6M/wk |
@@ -108,6 +109,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
+| [Translate and validate SQL across dialects with SQLGlot](../../skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | 9.1k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |
@@ -137,6 +139,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
+| [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |
@@ -154,7 +157,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | — | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | — | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | — | — |
-| [Apache Kafka Stream Transformer](../../skills/apache-kafka-stream-transformer-2/) | — | — |
 | [Apache Tika Content Extraction Hub](../../skills/apache-tika-content-extraction-hub/) | — | — |
 | [Apache Tika Document Extractor](../../skills/apache-tika-document-extractor/) | — | — |
 | [Apache Tika Document Parser](../../skills/apache-tika-document-parser/) | — | — |

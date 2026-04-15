@@ -1,8 +1,128 @@
 {
   "version": "2.0",
-  "total": 1998,
+  "total": 2006,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
+      "name": "Redact PII from text before sharing or indexing with scrubadub",
+      "description": "Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search…",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 421
+      }
+    },
+    {
+      "slug": "publish-versioned-mkdocs-documentation-with-mike",
+      "name": "Publish versioned MkDocs documentation with mike",
+      "description": "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 728
+      }
+    },
+    {
+      "slug": "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint",
+      "name": "Gate dbt projects with pre-commit checks from dbt-checkpoint",
+      "description": "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 738
+      }
+    },
+    {
+      "slug": "query-and-rewrite-markdown-structure-with-mdq",
+      "name": "Query and rewrite Markdown structure with mdq",
+      "description": "Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1708
+      }
+    },
+    {
+      "slug": "inspect-and-diff-oci-images-and-registries-with-regctl",
+      "name": "Inspect and diff OCI images and registries with regctl",
+      "description": "Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling whole images locally first.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1813
+      }
+    },
+    {
+      "slug": "turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger",
+      "name": "Turn PostgreSQL logs into incident and tuning reports with pgBadger",
+      "description": "Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors, and workload hotspots after an incident.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3994
+      }
+    },
+    {
+      "slug": "audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining",
+      "name": "Audit AWS IAM policies for risky permissions with Cloudsplaining",
+      "description": "Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2202
+      }
+    },
+    {
+      "slug": "translate-and-validate-sql-across-dialects-with-sqlglot",
+      "name": "Translate and validate SQL across dialects with SQLGlot",
+      "description": "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9133
+      }
+    },
     {
       "slug": "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden",
       "name": "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden",
@@ -15074,7 +15194,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "kafka"
+        "tool": "kafka",
+        "github_stars": 32377
       }
     },
     {

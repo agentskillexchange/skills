@@ -102,6 +102,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
+| [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
 | [AWS CloudWatch Alarm Diagnostic](../../skills/aws-cloudwatch-alarm-diagnostic/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](../../skills/aws-cloudwatch-alarm-runbook-wave48/) | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](../../skills/aws-cloudwatch-alarm-runbook-generator/) | 3.6k | — |
@@ -119,6 +120,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
+| [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |

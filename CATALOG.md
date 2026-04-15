@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1998 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 03:23 UTC
+> **2006 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 05:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -443,7 +443,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (143 skills)
+### 🔄 Data Extraction & Transformation (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -478,6 +478,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [LangExtract LLM-Powered Structured Text Extraction](skills/langextract-llm-structured-text-extraction/) | LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs… | Security Reviewed | 35k | — |
 | [Marker PDF-to-Markdown Converter](skills/marker-pdf-to-markdown-converter/) | Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles… | Security Reviewed | 33.2k | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](skills/lightrag-graph-rag-framework/) | LightRAG is a Python-based retrieval-augmented generation framework that builds knowledge graphs from documents for… | Security Reviewed | 33.2k | — |
+| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas.… | Security Reviewed | 32.4k | — |
 | [Apache Kafka Stream Processor](skills/apache-kafka-stream-processor/) | Apache Kafka Stream Processor is built around Apache Kafka event streaming platform. The underlying ecosystem is… | Security Reviewed | 32.4k | — |
 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains.… | Security Reviewed | 30.3k | 19.6M/wk |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | Cheerio is a long-running Node.js library for parsing and manipulating HTML and XML with a jQuery-like API. It is… | Security Reviewed | 30.3k | 19.6M/wk |
@@ -517,6 +518,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [pdfplumber Python PDF Text and Table Extraction Library](skills/pdfplumber-python-pdf-text-table-extraction/) | pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and… | Security Reviewed | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV,… | Security Reviewed | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](skills/gorse-ai-recommender-system-engine/) | Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via… | Security Reviewed | 9.6k | — |
+| [Translate and validate SQL across dialects with SQLGlot](skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or… | Published | 9.1k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](skills/weasyprint-html-css-pdf-document-generator/) | WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a… | Security Reviewed | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](skills/redpanda-connect-declarative-stream-processor/) | Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks… | Security Reviewed | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff,… | Security Reviewed | 8.6k | — |
@@ -546,6 +548,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Extract invoice fields from vendor PDFs into structured records](skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Uses invoice2data to turn invoice PDFs into structured JSON, CSV, or XML using supplier-specific templates. This is… | Security Reviewed | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](skills/markdownify-python-html-to-markdown-converter/) | markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering,… | Security Reviewed | 2.1k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you… | Security Reviewed | 2k | — |
+| [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Published | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
@@ -563,7 +566,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | — | — |
 | [Apache Camel Route Data Mapper](skills/apache-camel-route-data-mapper/) | Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports… | Security Reviewed | — | — |
 | [Apache Kafka Schema Extractor](skills/apache-kafka-schema-extractor/) | Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed… | Security Reviewed | — | — |
-| [Apache Kafka Stream Transformer](skills/apache-kafka-stream-transformer-2/) | Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas.… | Security Reviewed | — | — |
 | [Apache Tika Content Extraction Hub](skills/apache-tika-content-extraction-hub/) | Extracts text and metadata from 1400+ file formats via Apache Tika Server REST API. Handles PDF, DOCX, PPTX, email… | Security Reviewed | — | — |
 | [Apache Tika Document Extractor](skills/apache-tika-document-extractor/) | Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats.… | Security Reviewed | — | — |
 | [Apache Tika Document Parser](skills/apache-tika-document-parser/) | Extracts structured text, metadata, and embedded objects from PDFs, Office documents, and 1000+ file formats using… | Security Reviewed | — | — |
@@ -594,7 +596,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (135 skills)
+### 🔒 Security & Verification (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -679,12 +681,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | — |
+| [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Published | 2.2k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 897 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
+| [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | 318 | — |
 | [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Security Reviewed | 174 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool… | Published | 149 | — |
@@ -737,7 +741,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (127 skills)
+### 📋 Runbooks & Diagnostics (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -805,6 +809,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Remote-control tmux sessions for interactive CLI agents](skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you… | Security Reviewed | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone,… | Security Reviewed | 4k | — |
+| [Turn PostgreSQL logs into incident and tuning reports with pgBadger](skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors,… | Published | 4k | — |
 | [AWS CloudWatch Alarm Diagnostic](skills/aws-cloudwatch-alarm-diagnostic/) | Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config… | Security Reviewed | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook](skills/aws-cloudwatch-alarm-runbook-wave48/) | Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems… | Security Reviewed | 3.6k | — |
 | [AWS CloudWatch Alarm Runbook Generator](skills/aws-cloudwatch-alarm-runbook-generator/) | Generates structured incident runbooks from AWS CloudWatch alarm configurations using the CloudWatch DescribeAlarms… | Security Reviewed | 3.6k | — |
@@ -822,6 +827,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Security Reviewed | 3.3k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
+| [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
@@ -872,7 +878,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (122 skills)
+### ✅ Code Quality & Review (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -971,6 +977,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
+| [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
@@ -2063,7 +2070,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (72 skills)
+### ✍️ Content Writing & SEO (73 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2098,6 +2105,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org… | Security Reviewed | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](skills/openseo-self-hosted-keyword-research-seo-analysis/) | OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink… | Security Reviewed | 783 | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](skills/markdownlint-cli2-markdown-linting-docs-repos/) | This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content… | Security Reviewed | 740 | 522.5k/wk |
+| [Publish versioned MkDocs documentation with mike](skills/publish-versioned-mkdocs-documentation-with-mike/) | Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation. | Published | 728 | — |
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users. | Published | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |

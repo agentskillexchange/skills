@@ -68,6 +68,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.5M/wk |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 522.5k/wk |
+| [Publish versioned MkDocs documentation with mike](../../skills/publish-versioned-mkdocs-documentation-with-mike/) | 728 | — |
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](../../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
