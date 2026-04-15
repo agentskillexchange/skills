@@ -1,7 +1,7 @@
 ---
 title: "Saleor Open Source Headless Commerce Platform with GraphQL API"
 description: "Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API for building custom storefronts, managing products, processing orders, and orchestrating commerce across web, mobile, and agentic channels."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/saleor/saleor"
 category:
   - "Integrations & Connectors"
@@ -18,27 +18,13 @@ Saleor is a leading open source headless e-commerce platform built with Python a
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/saleor-open-source-headless-commerce-graphql-api
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/saleor-open-source-headless-commerce-graphql-api` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

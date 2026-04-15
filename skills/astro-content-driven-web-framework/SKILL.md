@@ -1,7 +1,7 @@
 ---
 title: "Astro Content-Driven Web Framework"
 description: "Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid), and provides islands architecture for optimal performance."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/withastro/astro"
 category:
   - "Developer Tools"
@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "withastro/astro"
   github_stars: 57979
-  ase_npm_package: "astro"
+  npm_package: "astro"
   npm_weekly_downloads: 1975489
 ---
 
@@ -20,27 +20,13 @@ Astro is a modern web framework for building content-driven websites. It ships z
 
 ## Installation
 
-### Option 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-Browse and install from the marketplace page for this skill.
-
-### Option 2, Git clone
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/astro-content-driven-web-framework
-```
-
-### Option 3, Download ZIP
-
-Download the skill folder or repository archive and extract `skills/astro-content-driven-web-framework` into your local skills collection.
-
-### Option 4, Manual copy
-
-Copy this skill folder into your agent skills directory, then reload your agent tooling.
-
-### Option 5, Fork and sync
-
-Fork the repository if you want to track local edits while keeping a clean upstream sync path.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 
