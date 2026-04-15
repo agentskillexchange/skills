@@ -7,6 +7,9 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform"
+  github_stars: 48146
 ---
 
 # Terraform Module Scaffold Generator

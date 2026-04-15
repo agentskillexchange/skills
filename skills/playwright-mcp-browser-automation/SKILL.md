@@ -12,9 +12,9 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
-  github_stars: 30793
+  github_stars: 30856
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 2886755
+  npm_weekly_downloads: 2762324
 ---
 
 # Playwright MCP Browser Automation

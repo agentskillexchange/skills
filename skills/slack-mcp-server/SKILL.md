@@ -12,7 +12,7 @@ framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 83701
+  github_stars: 83772
 ---
 
 # Slack MCP Server

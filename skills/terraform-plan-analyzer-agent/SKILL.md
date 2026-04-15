@@ -7,6 +7,9 @@ category:
   - "CI/CD Integrations"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform"
+  github_stars: 48146
 ---
 
 # Terraform Plan Analyzer

@@ -7,6 +7,11 @@ category:
   - "Developer Tools"
 framework:
   - "Cursor"
+tool_ecosystem:
+  github_repo: "webpack/webpack"
+  github_stars: 65837
+  npm_package: "webpack"
+  npm_weekly_downloads: 44532842
 ---
 
 # Webpack Bundle Analyzer Agent

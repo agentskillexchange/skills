@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "snyk/agent-scan"
-  github_stars: 2119
+  github_stars: 2124
 ---
 
 # Snyk Agent Scan

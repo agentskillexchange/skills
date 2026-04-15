@@ -7,6 +7,11 @@ category:
   - "Templates &amp; Workflows"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "vercel/vercel"
+  github_stars: 15296
+  npm_package: "vercel"
+  npm_weekly_downloads: 2327387
 ---
 
 # Vercel Deployment Agent

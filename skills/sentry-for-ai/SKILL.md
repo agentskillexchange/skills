@@ -11,7 +11,7 @@ framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
-  github_stars: 112
+  github_stars: 113
 ---
 
 # Sentry for AI

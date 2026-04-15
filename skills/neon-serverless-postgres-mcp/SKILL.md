@@ -9,7 +9,7 @@ framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
-  github_stars: 579
+  github_stars: 580
 ---
 
 # Neon Serverless Postgres MCP

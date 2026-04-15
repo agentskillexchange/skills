@@ -11,7 +11,7 @@ tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27187
   npm_package: "eslint"
-  npm_weekly_downloads: 115152998
+  npm_weekly_downloads: 120215107
 ---
 
 # ESLint Code Review

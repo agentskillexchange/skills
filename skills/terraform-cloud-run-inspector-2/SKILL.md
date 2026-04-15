@@ -7,6 +7,9 @@ category:
   - "Integrations &amp; Connectors"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform"
+  github_stars: 48146
 ---
 
 # Terraform Cloud Run Inspector

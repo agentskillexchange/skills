@@ -7,6 +7,9 @@ category:
   - "Media &amp; Transcription"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "openai/whisper"
+  github_stars: 97775
 ---
 
 # Whisper Subtitle Generator
