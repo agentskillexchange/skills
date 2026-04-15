@@ -1,8 +1,95 @@
 {
   "version": "2.0",
-  "total": 2012,
+  "total": 2018,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint",
+      "name": "Review Dockerfiles for risky patterns and bad defaults with hadolint",
+      "description": "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 12065
+      }
+    },
+    {
+      "slug": "lint-github-actions-workflows-before-ci-runs-with-actionlint",
+      "name": "Lint GitHub Actions workflows before CI runs with actionlint",
+      "description": "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3787
+      }
+    },
+    {
+      "slug": "lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint",
+      "name": "Lint Terraform modules for provider mistakes and policy violations with TFLint",
+      "description": "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5677
+      }
+    },
+    {
+      "slug": "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv",
+      "name": "Profile and clean large CSV datasets from the terminal with qsv",
+      "description": "Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3594
+      }
+    },
+    {
+      "slug": "validate-cloudformation-templates-before-deploy-with-cfn-lint",
+      "name": "Validate CloudFormation templates before deploy with cfn-lint",
+      "description": "Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2608
+      }
+    },
+    {
+      "slug": "audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor",
+      "name": "Audit GitHub Actions for privilege and supply-chain risks with zizmor",
+      "description": "Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "apply-structural-codemods-across-large-codebases-with-comby",
       "name": "Apply structural codemods across large codebases with Comby",
@@ -498,7 +585,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 3170
       }
@@ -513,7 +600,7 @@
       "framework": [
         "Multi-Framework"
       ],
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 24898,
         "npm_weekly_downloads": 529336
@@ -3332,7 +3419,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2112
+        "github_stars": 2112,
+        "npm_weekly_downloads": 1190551
       }
     },
     {
@@ -4274,6 +4362,7 @@
       "signals": {
         "tool": "playwright-mcp",
         "github_stars": 30794,
+        "npm_weekly_downloads": 2762324,
         "license": "Apache-2.0"
       }
     },
@@ -15170,7 +15259,9 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "vite",
-        "npm_weekly_downloads": 96756115
+        "github_stars": 79927,
+        "npm_weekly_downloads": 96756115,
+        "license": "MIT"
       }
     },
     {
@@ -16394,7 +16485,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -16884,7 +16976,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -17301,7 +17394,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -18049,7 +18143,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97775,
+        "license": "MIT"
       }
     },
     {
@@ -18492,7 +18588,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -19553,7 +19650,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -20924,7 +21022,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97775,
+        "license": "MIT"
       }
     },
     {
@@ -21411,7 +21511,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -21913,7 +22014,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -22151,7 +22253,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -22368,7 +22471,9 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "webpack",
-        "npm_weekly_downloads": 44532842
+        "github_stars": 65837,
+        "npm_weekly_downloads": 44532842,
+        "license": "MIT"
       }
     },
     {
@@ -22570,7 +22675,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -22675,7 +22781,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -23182,7 +23289,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -23605,7 +23713,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -23776,7 +23885,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97775,
+        "license": "MIT"
       }
     },
     {
@@ -23874,7 +23985,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -23995,7 +24107,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97775,
+        "license": "MIT"
       }
     },
     {
@@ -24202,7 +24316,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -24217,7 +24332,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -25010,7 +25126,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -25476,7 +25593,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -25661,7 +25779,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -25769,7 +25888,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26070,7 +26190,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26200,7 +26321,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26390,7 +26512,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26434,7 +26557,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26844,7 +26968,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -26977,7 +27102,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -27296,7 +27422,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -27663,7 +27790,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -28065,7 +28193,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -28462,7 +28591,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -28664,7 +28794,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -28679,7 +28810,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -28709,7 +28841,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "wordpress"
+        "tool": "wordpress",
+        "github_stars": 21027
       }
     },
     {
@@ -28860,7 +28993,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -30136,7 +30270,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "terraform"
+        "tool": "terraform",
+        "github_stars": 48146
       }
     },
     {
@@ -30247,7 +30382,7 @@
       "signals": {
         "tool": "cloudflare",
         "github_stars": 3970,
-        "npm_weekly_downloads": 6356610
+        "npm_weekly_downloads": 6783602
       }
     },
     {
@@ -30280,7 +30415,9 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "vercel",
-        "npm_weekly_downloads": 2327387
+        "github_stars": 15296,
+        "npm_weekly_downloads": 2327387,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -30877,7 +31014,7 @@
       "signals": {
         "tool": "eslint",
         "github_stars": 27187,
-        "npm_weekly_downloads": 115152998
+        "npm_weekly_downloads": 120215107
       }
     },
     {
@@ -30959,7 +31096,7 @@
       "signals": {
         "tool": "twilio",
         "github_stars": 1528,
-        "npm_weekly_downloads": 3631268
+        "npm_weekly_downloads": 3731324
       }
     },
     {
@@ -30993,7 +31130,7 @@
       "signals": {
         "tool": "salesforce",
         "github_stars": 1453,
-        "npm_weekly_downloads": 921945
+        "npm_weekly_downloads": 936641
       }
     },
     {
@@ -31027,7 +31164,7 @@
       "signals": {
         "tool": "notion",
         "github_stars": 5582,
-        "npm_weekly_downloads": 1146823
+        "npm_weekly_downloads": 1182949
       }
     },
     {
@@ -31190,7 +31327,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "jenkins",
-        "github_stars": 25190
+        "github_stars": 25190,
+        "license": "MIT"
       }
     },
     {
@@ -31206,7 +31344,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "atlassian-mcp-server",
-        "github_stars": 569
+        "github_stars": 575,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -31222,7 +31361,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "mcp-server-neon",
-        "github_stars": 579,
+        "github_stars": 580,
         "license": "MIT"
       }
     },
@@ -31239,7 +31378,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "vault-mcp-server",
-        "github_stars": 43
+        "github_stars": 43,
+        "license": "MPL-2.0"
       }
     },
     {
@@ -31255,7 +31395,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "postgres-mcp",
-        "github_stars": 2528
+        "github_stars": 2536,
+        "license": "MIT"
       }
     },
     {
@@ -31288,7 +31429,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "agent-scan",
-        "github_stars": 2119
+        "github_stars": 2124,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -31304,7 +31446,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openclaw",
-        "github_stars": 356821,
+        "github_stars": 357660,
         "license": "MIT"
       }
     },
@@ -31321,7 +31463,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "clawsec",
-        "github_stars": 897
+        "github_stars": 896,
+        "license": "AGPL-3.0"
       }
     },
     {
@@ -31338,7 +31481,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "claude-code-mcp",
-        "github_stars": 1229
+        "github_stars": 1229,
+        "license": "MIT"
       }
     },
     {
@@ -31354,7 +31498,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "crawl4ai-mcp-server",
-        "github_stars": 75
+        "github_stars": 75,
+        "license": "MIT"
       }
     },
     {
@@ -31370,7 +31515,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "mcp-server",
-        "github_stars": 389
+        "github_stars": 389,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -31414,7 +31560,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openclaw",
-        "github_stars": 356821,
+        "github_stars": 357660,
         "license": "MIT"
       }
     },
@@ -31466,7 +31612,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 83701
+        "github_stars": 83772
       }
     },
     {
@@ -31517,7 +31663,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 83701
+        "github_stars": 83772
       }
     },
     {
@@ -31535,7 +31681,8 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "sentry-for-ai",
-        "github_stars": 112
+        "github_stars": 113,
+        "license": "MIT"
       }
     },
     {
@@ -31570,7 +31717,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "servers",
-        "github_stars": 83701
+        "github_stars": 83772
       }
     },
     {
@@ -31589,8 +31736,9 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "playwright-mcp",
-        "github_stars": 30793,
-        "npm_weekly_downloads": 2886755
+        "github_stars": 30856,
+        "npm_weekly_downloads": 2762324,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -31606,7 +31754,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "wordpress",
-        "github_stars": 21024
+        "github_stars": 21027
       }
     },
     {

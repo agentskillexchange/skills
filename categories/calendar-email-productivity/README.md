@@ -7,7 +7,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars |
 |---|---:|
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⭐ 356.8k |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.7k |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 83.8k |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | ⭐ 69.7k |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | ⭐ 67.2k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
@@ -28,11 +28,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.2M/wk |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | ⬇ 1.2M/wk |
 | [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | ⬇ 1.2M/wk |
-| [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -41,7 +41,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | 356.8k | — |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | 83.7k | — |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 83.8k | — |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
@@ -80,12 +80,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | 5.6k | 1.2M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.2M/wk |
 | [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | 5.6k | 1.2M/wk |
 | [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | 5.6k | 1.2M/wk |
 | [Notion Workspace Automation Hub](../../skills/notion-workspace-automation-hub/) | 5.6k | 1.2M/wk |
 | [Notion Workspace Automator](../../skills/notion-workspace-automator-api-v1/) | 5.6k | 1.2M/wk |
 | [Notion Workspace Sync Agent](../../skills/notion-workspace-sync-agent/) | 5.6k | 1.2M/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.1M/wk |
 | [Rallly Open-Source Group Scheduling and Meeting Poll Platform](../../skills/rallly-group-scheduling-meeting-poll/) | 5k | — |
 | [Plunk Open Source Transactional Email Platform on AWS SES](../../skills/plunk-open-source-email-platform-aws-ses/) | 5k | — |
 | [Radicale Self-Hosted CalDAV and CardDAV Server](../../skills/radicale-self-hosted-caldav-carddav-server/) | 4.5k | — |
@@ -110,7 +110,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 569 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 575 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |

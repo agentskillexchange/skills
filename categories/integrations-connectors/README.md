@@ -13,9 +13,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | ⭐ 55.7k |
 | [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | ⭐ 55.7k |
 | [Gitea Repository &#038; Pull Request Automation](../../skills/gitea-repository-pull-request-automation/) | ⭐ 54.9k |
+| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | ⭐ 48.1k |
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | ⭐ 43.2k |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | ⭐ 41.8k |
-| [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⭐ 38.7k |
 
 ---
 
@@ -47,6 +47,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Appwrite Open Source Backend as a Service Platform](../../skills/appwrite-open-source-backend-as-a-service-platform/) | 55.7k | — |
 | [Appwrite Open-Source Backend Platform](../../skills/appwrite-open-source-backend-platform/) | 55.7k | — |
 | [Gitea Repository &#038; Pull Request Automation](../../skills/gitea-repository-pull-request-automation/) | 54.9k | — |
+| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | 48.1k | — |
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | 43.2k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.2k/wk |
@@ -100,20 +101,20 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 3.6M/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 921.9k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 579 | — |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 580 | — |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | — |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
@@ -131,7 +132,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [Linear Issue Triage &amp; Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
-| [Terraform Cloud Run Inspector](../../skills/terraform-cloud-run-inspector-2/) | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 

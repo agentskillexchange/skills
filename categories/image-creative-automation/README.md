@@ -6,7 +6,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars |
 |---|---:|
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 356.8k |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 357.7k |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | ⭐ 116.9k |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | ⭐ 116.2k |
@@ -39,7 +39,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 356.8k | — |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 357.7k | — |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 116.2k | — |

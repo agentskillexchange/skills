@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C012-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C018-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C947-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C949-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,012 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,018 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -57,7 +57,7 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/) | firecrawl | 108.8k | Research & Scraping |
 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | llama.cpp | 100.9k | Developer Tools |
 | [Supabase MCP Server](skills/supabase-mcp-server/) | supabase | 100.8k | Developer Tools |
-| [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | whisper | 97.4k | Media & Transcription |
+| [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | whisper | 97.8k | Media & Transcription |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | puppeteer | 94k | Browser Automation |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | markitdown | 93.2k | Data Extraction & Transformation |
 
@@ -68,11 +68,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 262 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 158 | Pipeline configs, deployment automation, build tooling |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 145 | ETL pipelines, parsing, format conversion |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 138 | Vulnerability scanning, auth setup, compliance |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 159 | Pipeline configs, deployment automation, build tooling |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 146 | ETL pipelines, parsing, format conversion |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 140 | Vulnerability scanning, auth setup, compliance |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 130 | Incident response, troubleshooting, system diagnostics |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 126 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 128 | Linting, code review, test generators, coverage |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 117 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 111 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 110 | SDK docs, API parsers, symbol resolvers |
@@ -142,8 +142,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,012 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 1,947 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,018 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 1,949 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

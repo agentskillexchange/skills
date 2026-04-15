@@ -27,15 +27,15 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 19 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | 8.2M/wk | html-to-text | Data Extraction & Transformation |
 | 20 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
 | 21 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
-| 22 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
-| 23 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 6.4M/wk | cloudflare | Templates & Workflows |
+| 22 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 6.8M/wk | cloudflare | Templates & Workflows |
+| 23 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
 | 24 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 25 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 26 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
-| 27 | [Twilio MCP Server](skills/twilio-mcp-server/) | 3.6M/wk | twilio | Integrations & Connectors |
+| 26 | [Twilio MCP Server](skills/twilio-mcp-server/) | 3.7M/wk | twilio | Integrations & Connectors |
+| 27 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 28 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | 3.6M/wk | sendgrid | Integrations & Connectors |
 | 29 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
-| 30 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | 2.9M/wk | playwright-mcp | Browser Automation |
+| 30 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
 | 31 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
 | 32 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
 | 33 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |

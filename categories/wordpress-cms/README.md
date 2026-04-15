@@ -14,8 +14,8 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | ⭐ 34.8k |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | ⭐ 34.6k |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | ⭐ 33k |
+| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | ⭐ 21k |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | ⭐ 21k |
-| [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | ⭐ 21k |
 
 ---
 
@@ -48,7 +48,14 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Directus SQL-Native Headless CMS and Internal App Platform](../../skills/directus-sql-native-headless-cms-internal-app-platform/) | 34.8k | 23.3k/wk |
 | [Directus Open-Source Headless CMS and Backend Platform](../../skills/directus-open-source-headless-cms-backend-platform/) | 34.6k | 20.1k/wk |
 | [WP Multisite Domain Mapping Agent](../../skills/wp-multisite-domain-mapping-agent/) | 33k | — |
+| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | 21k | — |
 | [WordPress Content Publisher](../../skills/wordpress-content-publisher/) | 21k | — |
+| [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | 21k | — |
+| [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | 21k | — |
+| [WordPress Multisite Network Sync](../../skills/wordpress-multisite-network-sync/) | 21k | — |
+| [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | 21k | — |
+| [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | 21k | — |
+| [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | 21k | — |
 | [WordPress REST API Builder](../../skills/wordpress-rest-api-builder/) | 21k | — |
 | [WordPress Router](../../skills/wordpress-router/) | 21k | — |
 | [Wagtail Django CMS for Structured Content and Editorial Workflows](../../skills/wagtail-django-cms-structured-content-editorial-workflows/) | 20.3k | — |
@@ -124,14 +131,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | — | — |
-| [WordPress ACF Field Group Auditor](../../skills/wordpress-acf-field-group-auditor/) | — | — |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
-| [WordPress Gutenberg Block Generator](../../skills/wordpress-gutenberg-block-generator/) | — | — |
-| [WordPress Gutenberg Block Scaffolder](../../skills/wordpress-gutenberg-block-scaffolder/) | — | — |
-| [WordPress Multisite Network Sync](../../skills/wordpress-multisite-network-sync/) | — | — |
-| [WordPress Multisite Provisioner](../../skills/wp-multisite-provisioner-agent/) | — | — |
-| [WordPress REST API Content Sync](../../skills/wordpress-rest-api-content-sync/) | — | — |
-| [WordPress Theme.json Design Token Manager](../../skills/wp-theme-json-design-token-manager/) | — | — |
 | [WP Cron Health Monitor](../../skills/wp-cron-health-monitor/) | — | — |
 | [WP Multisite Network Sync Agent](../../skills/wp-multisite-network-sync-agent/) | — | — |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | — | — |

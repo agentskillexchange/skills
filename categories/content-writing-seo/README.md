@@ -8,6 +8,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 52.4k |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⭐ 35.9k |
+| [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 21k |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | ⭐ 17.5k |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
@@ -15,7 +16,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | ⭐ 5.1k |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⭐ 5.1k |
-| [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⭐ 5.1k |
 
 ---
 
@@ -41,6 +41,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.6k/wk |
+| [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | — |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
@@ -111,7 +112,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
-| [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | — | — |
 
 ---
 

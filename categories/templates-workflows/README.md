@@ -24,14 +24,14 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Downloads |
 |---|---:|
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.3M/wk |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | ⬇ 1.5M/wk |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | ⬇ 1.2M/wk |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 6.4M/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | ⬇ 6.8M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | ⬇ 402.7k/wk |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | ⬇ 1.7k/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | ⬇ 269.9k/wk |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.3M/wk |
 
 ---
 
@@ -51,6 +51,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | 68.4k | — |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | 68.4k | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.4k | — |
+| [Terraform Module Registry](../../skills/terraform-module-registry/) | 48.1k | — |
+| [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | 48.1k | — |
+| [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | 48.1k | — |
+| [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | 48.1k | — |
+| [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | 48.1k | — |
+| [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | 29.7k | — |
@@ -67,6 +73,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
 | [Windmill Open-Source Workflow Engine and Developer Platform](../../skills/windmill-workflow-engine-developer-platform/) | 16.1k | — |
+| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | 15.3k | 2.3M/wk |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | 14.8k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
@@ -76,7 +83,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
-| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 6.4M/wk |
+| [Cloudflare Workers Deployer](../../skills/cloudflare-workers-deployer/) | 4k | 6.8M/wk |
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
@@ -93,7 +100,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 505 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | — | 2.3M/wk |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | — | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
@@ -122,12 +128,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Packer Image Builder](../../skills/packer-image-builder/) | — | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | — | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | — | — |
-| [Terraform Module Registry](../../skills/terraform-module-registry/) | — | — |
-| [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | — | — |
-| [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | — | — |
-| [Terraform Module Template Engine](../../skills/terraform-module-template-engine/) | — | — |
-| [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | — | — |
-| [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | — | — |
 | [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | — | — |
 | [Yeoman Enterprise Generator Suite](../../skills/yeoman-enterprise-generator-suite/) | — | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | — | — |

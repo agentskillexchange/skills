@@ -11,11 +11,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | ⭐ 71.5k |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | ⭐ 71.5k |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | ⭐ 69.7k |
-| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | ⭐ 48.1k |
-| [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | ⭐ 34.7k |
-| [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | ⭐ 33k |
-| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | ⭐ 29.7k |
-| [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | ⭐ 25.2k |
+| [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | ⭐ 48.1k |
+| [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | ⭐ 48.1k |
+| [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | ⭐ 48.1k |
+| [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | ⭐ 48.1k |
+| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | ⭐ 48.1k |
 
 ---
 
@@ -39,6 +39,16 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Docker Image Layer Size Analyzer](../../skills/docker-image-layer-size-analyzer/) | 71.5k | — |
 | [Docker Image Vulnerability Triage](../../skills/docker-image-vulnerability-triage/) | 71.5k | — |
 | [act Local GitHub Actions Runner](../../skills/act-local-github-actions-runner/) | 69.7k | — |
+| [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | 48.1k | — |
+| [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | 48.1k | — |
+| [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | 48.1k | — |
+| [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | 48.1k | — |
+| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | 48.1k | — |
+| [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | 48.1k | — |
+| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | 48.1k | — |
+| [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | 48.1k | — |
+| [Terraform Plan Validator](../../skills/terraform-plan-validator/) | 48.1k | — |
+| [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | 48.1k | — |
 | [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | 34.7k | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
@@ -120,6 +130,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
+| [Lint GitHub Actions workflows before CI runs with actionlint](../../skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | — |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
@@ -182,16 +193,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | — | — |
-| [Terraform Cloud Orchestrator](../../skills/terraform-cloud-orchestrator-skill/) | — | — |
-| [Terraform Cloud Pipeline Agent](../../skills/terraform-cloud-pipeline-agent/) | — | — |
-| [Terraform Cloud Run Trigger](../../skills/terraform-cloud-run-trigger/) | — | — |
-| [Terraform Drift Detector](../../skills/terraform-drift-detector-2/) | — | — |
-| [Terraform Plan Analyzer](../../skills/terraform-plan-analyzer-agent/) | — | — |
-| [Terraform Plan Diff Analyzer](../../skills/terraform-plan-diff-analyzer/) | — | — |
-| [Terraform Plan Reviewer](../../skills/terraform-plan-reviewer-4/) | — | — |
-| [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | — | — |
-| [Terraform Plan Validator](../../skills/terraform-plan-validator/) | — | — |
-| [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | — | — |
 
 ---
 

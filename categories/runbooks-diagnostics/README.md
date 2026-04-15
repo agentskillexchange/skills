@@ -81,6 +81,13 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Prometheus Alert Runbook Agent](../../skills/prometheus-alert-runbook-agent/) | 63.6k | — |
 | [Prometheus Alert Runbook Linker](../../skills/prometheus-alert-runbook-linker/) | 63.6k | — |
 | [Prometheus Alert Tuner](../../skills/prometheus-alert-tuner/) | 63.6k | — |
+| [Terraform Drift Detection Runbook](../../skills/terraform-drift-detection-runbook/) | 48.1k | — |
+| [Terraform Plan Diff Reviewer](../../skills/terraform-plan-diff-reviewer/) | 48.1k | — |
+| [Terraform State Diagnostics](../../skills/terraform-state-diagnostics/) | 48.1k | — |
+| [Terraform State Drift Detector](../../skills/terraform-state-drift-detector/) | 48.1k | — |
+| [Terraform State Forensics Tool](../../skills/terraform-state-forensics-tool/) | 48.1k | — |
+| [Terraform State Inspector](../../skills/terraform-state-inspector/) | 48.1k | — |
+| [Terraform State Surgery Kit](../../skills/terraform-state-surgery-kit/) | 48.1k | — |
 | [Sentry Error Triage Assistant](../../skills/sentry-error-triage-assistant/) | 43.6k | — |
 | [Nginx Config Linter and Tester](../../skills/nginx-config-linter-tester/) | 29.9k | — |
 | [Nginx Config Validator and Optimizer](../../skills/nginx-config-validator-optimizer/) | 29.9k | — |
@@ -163,13 +170,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | — | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | — | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | — | — |
-| [Terraform Drift Detection Runbook](../../skills/terraform-drift-detection-runbook/) | — | — |
-| [Terraform Plan Diff Reviewer](../../skills/terraform-plan-diff-reviewer/) | — | — |
-| [Terraform State Diagnostics](../../skills/terraform-state-diagnostics/) | — | — |
-| [Terraform State Drift Detector](../../skills/terraform-state-drift-detector/) | — | — |
-| [Terraform State Forensics Tool](../../skills/terraform-state-forensics-tool/) | — | — |
-| [Terraform State Inspector](../../skills/terraform-state-inspector/) | — | — |
-| [Terraform State Surgery Kit](../../skills/terraform-state-surgery-kit/) | — | — |
 
 ---
 
