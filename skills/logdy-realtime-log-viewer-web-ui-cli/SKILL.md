@@ -1,12 +1,15 @@
 ---
 title: "Logdy Real-Time Log Viewer with Web UI and CLI"
 description: "Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions, filtering, and works with stdin, files, sockets, and REST API inputs."
-verification: listed
-source: "https://agentskillexchange.com/skills/logdy-realtime-log-viewer-web-ui-cli/"
+verification: security_reviewed
+source: "https://github.com/logdyhq/logdy-core"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "logdyhq/logdy-core"
+  github_stars: 2148
 ---
 
 # Logdy Real-Time Log Viewer with Web UI and CLI
@@ -15,18 +18,27 @@ Logdy is a zero-dependency single-binary log viewer that pipes any command outpu
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/logdy-realtime-log-viewer-web-ui-cli
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/logdy-realtime-log-viewer-web-ui-cli` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

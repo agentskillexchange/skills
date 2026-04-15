@@ -1,12 +1,15 @@
 ---
 title: "Grafana Unified Alerting Manager"
 description: "Manages Grafana Unified Alerting rules, contact points, and notification policies via the Grafana HTTP API. Supports alert rule provisioning and silence management across multiple Grafana instances."
-verification: listed
-source: "https://agentskillexchange.com/skills/grafana-unified-alerting-manager/"
+verification: security_reviewed
+source: "https://github.com/grafana/grafana"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Cursor"
+tool_ecosystem:
+  github_repo: "grafana/grafana"
+  github_stars: 73187
 ---
 
 # Grafana Unified Alerting Manager
@@ -15,18 +18,27 @@ Manages Grafana Unified Alerting rules, contact points, and notification policie
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/grafana-unified-alerting-manager
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/grafana-unified-alerting-manager` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

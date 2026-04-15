@@ -1,12 +1,15 @@
 ---
 title: "pdfplumber Python PDF Text and Table Extraction Library"
 description: "pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and curves — with visual debugging support. Built on pdfminer.six, it excels at structured table extraction from machine-generated PDFs and includes both a Python API and CLI."
-verification: listed
-source: "https://agentskillexchange.com/skills/pdfplumber-python-pdf-text-table-extraction/"
+verification: security_reviewed
+source: "https://github.com/jsvine/pdfplumber"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "jsvine/pdfplumber"
+  github_stars: 10102
 ---
 
 # pdfplumber Python PDF Text and Table Extraction Library
@@ -15,18 +18,27 @@ pdfplumber is a Python library for extracting detailed information from PDFs —
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pdfplumber-python-pdf-text-table-extraction
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/pdfplumber-python-pdf-text-table-extraction` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

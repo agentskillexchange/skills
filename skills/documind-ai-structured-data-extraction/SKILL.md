@@ -1,12 +1,17 @@
 ---
 title: "Documind AI-Powered Structured Data Extraction from Documents"
 description: "Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents. Define a custom schema for what you need, and Documind returns clean, typed data — supporting OpenAI and local LLM backends like Llama 3.2 Vision."
-verification: listed
-source: "https://agentskillexchange.com/skills/documind-ai-structured-data-extraction/"
+verification: security_reviewed
+source: "https://github.com/DocumindHQ/documind"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "DocumindHQ/documind"
+  github_stars: 1468
+  npm_package: "documind"
+  npm_weekly_downloads: 14
 ---
 
 # Documind AI-Powered Structured Data Extraction from Documents
@@ -15,18 +20,27 @@ Documind is an open-source Node.js tool that uses AI to extract structured JSON 
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/documind-ai-structured-data-extraction
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/documind-ai-structured-data-extraction` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

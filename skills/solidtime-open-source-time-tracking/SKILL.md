@@ -1,12 +1,15 @@
 ---
 title: "solidtime Modern Open Source Time Tracking for Freelancers and Agencies"
 description: "solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project and client management, billable rates, task assignment, multi-organization support, and data import from Toggl and Clockify. Self-hostable with Docker."
-verification: listed
-source: "https://agentskillexchange.com/skills/solidtime-open-source-time-tracking/"
+verification: security_reviewed
+source: "https://github.com/solidtime-io/solidtime"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "solidtime-io/solidtime"
+  github_stars: 8399
 ---
 
 # solidtime Modern Open Source Time Tracking for Freelancers and Agencies
@@ -15,18 +18,27 @@ solidtime is a modern open-source time tracking application built for freelancer
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/solidtime-open-source-time-tracking
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/solidtime-open-source-time-tracking` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

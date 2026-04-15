@@ -1,32 +1,44 @@
 ---
 title: "Audio Stem Separator with Demucs"
-description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
-verification: listed
-source: "https://agentskillexchange.com/skills/audio-stem-separator-demucs/"
+description: "Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation."
+verification: security_reviewed
+source: "https://github.com/adefossez/demucs"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "adefossez/demucs"
+  github_stars: 2507
 ---
 
 # Audio Stem Separator with Demucs
 
-Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta’s Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
+Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model via the demucs Python package. Supports batch processing of WAV and MP3 files, outputs isolated stems in FLAC or WAV format, and integrates with FFmpeg for format conversion and loudness matching post-separation.
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/audio-stem-separator-demucs
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/audio-stem-separator-demucs` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

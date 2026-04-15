@@ -1,12 +1,15 @@
 ---
 title: "Mermaid CLI Diagram-as-Code Renderer"
 description: "Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram definitions into SVG, PNG, and PDF output files, enabling automated diagram generation from code."
-verification: listed
-source: "https://agentskillexchange.com/skills/mermaid-cli-diagram-as-code-renderer/"
+verification: security_reviewed
+source: "https://github.com/mermaid-js/mermaid-cli"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mermaid-js/mermaid-cli"
+  github_stars: 4341
 ---
 
 # Mermaid CLI Diagram-as-Code Renderer
@@ -15,18 +18,27 @@ Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming lib
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mermaid-cli-diagram-as-code-renderer
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/mermaid-cli-diagram-as-code-renderer` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

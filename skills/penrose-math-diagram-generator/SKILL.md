@@ -1,12 +1,15 @@
 ---
 title: "Penrose Mathematical Diagram Generator from Plain Text Notation"
 description: "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply style rules to generate publication-quality SVG visualizations automatically."
-verification: listed
-source: "https://agentskillexchange.com/skills/penrose-math-diagram-generator/"
+verification: security_reviewed
+source: "https://github.com/penrose/penrose"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "penrose/penrose"
+  github_stars: 7933
 ---
 
 # Penrose Mathematical Diagram Generator from Plain Text Notation
@@ -15,18 +18,27 @@ Penrose is an open-source platform that creates beautiful mathematical and scien
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/penrose-math-diagram-generator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/penrose-math-diagram-generator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

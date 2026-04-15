@@ -1,12 +1,15 @@
 ---
 title: "Satori HTML and CSS to SVG Image Generator by Vercel"
 description: "Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open Graph image generation for dynamic social cards, blog previews, and branded assets using a JSX-like API with full Flexbox layout support and custom font rendering."
-verification: listed
-source: "https://agentskillexchange.com/skills/satori-html-css-svg-image-generator/"
+verification: security_reviewed
+source: "https://github.com/vercel/satori"
 category:
-  - "Image & Creative Automation"
+  - "Image &amp; Creative Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "vercel/satori"
+  github_stars: 13234
 ---
 
 # Satori HTML and CSS to SVG Image Generator by Vercel
@@ -15,18 +18,27 @@ Satori is a high-performance library by Vercel that converts HTML and CSS markup
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/satori-html-css-svg-image-generator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/satori-html-css-svg-image-generator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

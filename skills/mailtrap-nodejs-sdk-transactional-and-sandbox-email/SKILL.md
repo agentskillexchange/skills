@@ -1,12 +1,15 @@
 ---
 title: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
 description: "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation."
-verification: listed
-source: "https://agentskillexchange.com/skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/"
+verification: security_reviewed
+source: "https://github.com/mailtrap/mailtrap-nodejs"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mailtrap/mailtrap-nodejs"
+  github_stars: 108
 ---
 
 # Mailtrap Node.js SDK for Transactional and Sandbox Email
@@ -15,18 +18,27 @@ An ASE skill built on the official Mailtrap Node.js SDK for sending transactiona
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

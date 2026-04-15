@@ -1,12 +1,15 @@
 ---
 title: "Nginx Error Log Analyzer and Fixer"
 description: "Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Uses GoAccess for real-time log visualization and integrates with nginx -t for configuration validation."
-verification: listed
-source: "https://agentskillexchange.com/skills/nginx-error-log-analyzer-fixer/"
+verification: security_reviewed
+source: "https://github.com/nginx/nginx"
 category:
-  - "Runbooks & Diagnostics"
+  - "Runbooks &amp; Diagnostics"
 framework:
   - "Claude Agents"
+tool_ecosystem:
+  github_repo: "nginx/nginx"
+  github_stars: 29930
 ---
 
 # Nginx Error Log Analyzer and Fixer
@@ -15,18 +18,27 @@ Parses Nginx error logs and access logs to diagnose 502, 504, and 413 errors. Us
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nginx-error-log-analyzer-fixer
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/nginx-error-log-analyzer-fixer` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

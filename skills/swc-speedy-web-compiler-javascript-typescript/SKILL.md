@@ -1,12 +1,15 @@
 ---
 title: "SWC Speedy Web Compiler for JavaScript and TypeScript"
 description: "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a single thread and 70x faster on four cores. It handles transpilation, minification, and bundling, and powers major tools including Next.js, Parcel, and Rspack."
-verification: listed
-source: "https://agentskillexchange.com/skills/swc-speedy-web-compiler-javascript-typescript/"
+verification: security_reviewed
+source: "https://github.com/swc-project/swc"
 category:
   - "Developer Tools"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "swc-project/swc"
+  github_stars: 33347
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript
@@ -15,18 +18,27 @@ SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler tha
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/swc-speedy-web-compiler-javascript-typescript
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/swc-speedy-web-compiler-javascript-typescript` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

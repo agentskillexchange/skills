@@ -1,12 +1,15 @@
 ---
 title: "Diff nested JSON, API responses, and config snapshots before approving changes"
 description: "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an agent is validating API payloads, configuration snapshots, or migration outputs where nesting and key paths matter."
-verification: listed
-source: "https://agentskillexchange.com/skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/"
+verification: security_reviewed
+source: "https://github.com/qlustered/deepdiff"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "qlustered/deepdiff"
+  github_stars: 2495
 ---
 
 # Diff nested JSON, API responses, and config snapshots before approving changes
@@ -15,18 +18,27 @@ Uses DeepDiff to compare structured objects deeply and return precise additions,
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

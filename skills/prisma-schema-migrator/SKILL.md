@@ -1,12 +1,17 @@
 ---
 title: "Prisma Schema Migrator"
 description: "Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates schema changes against existing data with dry-run introspection via prisma db pull."
-verification: listed
-source: "https://agentskillexchange.com/skills/prisma-schema-migrator/"
+verification: security_reviewed
+source: "https://github.com/prisma/prisma"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "prisma/prisma"
+  github_stars: 45760
+  npm_package: "prisma"
+  npm_weekly_downloads: 9910505
 ---
 
 # Prisma Schema Migrator
@@ -15,18 +20,27 @@ Automates Prisma ORM schema evolution and migration planning using prisma migrat
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/prisma-schema-migrator
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/prisma-schema-migrator` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

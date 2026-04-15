@@ -2,11 +2,16 @@
 title: "Build temporal context graphs for agent memory from evolving facts with Graphiti"
 description: "Use Graphiti when an agent needs long-term memory that tracks what changed, when it changed, and which source episode produced each fact, instead of storing flat chunks or chat history alone."
 verification: listed
-source: "https://agentskillexchange.com/skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/"
+source: "https://github.com/getzep/graphiti"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "getzep/graphiti"
+  github_stars: 24898
+  npm_package: "graphiti-core"
+  npm_weekly_downloads: 529336
 ---
 
 # Build temporal context graphs for agent memory from evolving facts with Graphiti
@@ -15,18 +20,27 @@ Use Graphiti when an agent needs long-term memory that tracks what changed, when
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

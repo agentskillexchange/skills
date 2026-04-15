@@ -1,12 +1,15 @@
 ---
 title: "Garden Kubernetes Development and Testing Automation Platform"
 description: "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching with parallel execution, and uses a unified YAML configuration across development, testing, and CI stages."
-verification: listed
-source: "https://agentskillexchange.com/skills/garden-kubernetes-dev-testing-automation/"
+verification: security_reviewed
+source: "https://github.com/garden-io/garden"
 category:
   - "CI/CD Integrations"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "garden-io/garden"
+  github_stars: 3574
 ---
 
 # Garden Kubernetes Development and Testing Automation Platform
@@ -15,18 +18,27 @@ Garden is a DevOps automation tool for developing and testing Kubernetes apps fa
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/garden-kubernetes-dev-testing-automation
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/garden-kubernetes-dev-testing-automation` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

@@ -1,12 +1,15 @@
 ---
 title: "Marp CLI Markdown Presentation Converter and Slide Deck Generator"
 description: "Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint (PPTX), and image formats from a single Markdown source, enabling developers and content creators to build presentations as code."
-verification: listed
-source: "https://agentskillexchange.com/skills/marp-cli-markdown-presentation-converter/"
+verification: security_reviewed
+source: "https://github.com/marp-team/marp-cli"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "marp-team/marp-cli"
+  github_stars: 3359
 ---
 
 # Marp CLI Markdown Presentation Converter and Slide Deck Generator
@@ -15,18 +18,27 @@ Marp CLI converts Markdown files into professional slide deck presentations. It 
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/marp-cli-markdown-presentation-converter
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/marp-cli-markdown-presentation-converter` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

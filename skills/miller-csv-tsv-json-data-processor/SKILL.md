@@ -1,12 +1,15 @@
 ---
 title: "Miller CSV TSV JSON Data Processor"
 description: "Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV, JSON, and JSON Lines. It combines the functionality of awk, sed, cut, join, and sort into a single tool purpose-built for structured data processing."
-verification: listed
-source: "https://agentskillexchange.com/skills/miller-csv-tsv-json-data-processor/"
+verification: security_reviewed
+source: "https://github.com/johnkerl/miller"
 category:
-  - "Data Extraction & Transformation"
+  - "Data Extraction &amp; Transformation"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  github_repo: "johnkerl/miller"
+  github_stars: 9814
 ---
 
 # Miller CSV TSV JSON Data Processor
@@ -15,18 +18,27 @@ Miller (mlr) is a command-line tool for querying, shaping, and reformatting name
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/miller-csv-tsv-json-data-processor
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/miller-csv-tsv-json-data-processor` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

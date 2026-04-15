@@ -1,12 +1,17 @@
 ---
 title: "Swagger Codegen Template Customizer"
 description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
-verification: listed
-source: "https://agentskillexchange.com/skills/swagger-codegen-template-customizer/"
+verification: security_reviewed
+source: "https://github.com/swagger-api/swagger-ui"
 category:
-  - "Library & API Reference"
+  - "Library &amp; API Reference"
 framework:
   - "ChatGPT Agents"
+tool_ecosystem:
+  github_repo: "swagger-api/swagger-ui"
+  github_stars: 28751
+  npm_package: "swagger-ui"
+  npm_weekly_downloads: 149194
 ---
 
 # Swagger Codegen Template Customizer
@@ -15,18 +20,27 @@ Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/swagger-codegen-template-customizer
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/swagger-codegen-template-customizer` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

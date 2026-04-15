@@ -1,12 +1,17 @@
 ---
 title: "write-good English Prose Linting for Technical Content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
-verification: listed
-source: "https://agentskillexchange.com/skills/write-good-english-prose-linting-technical-content/"
+verification: security_reviewed
+source: "https://github.com/btford/write-good"
 category:
-  - "Content Writing & SEO"
+  - "Content Writing &amp; SEO"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "btford/write-good"
+  github_stars: 5065
+  npm_package: "write-good"
+  npm_weekly_downloads: 49520
 ---
 
 # write-good English Prose Linting for Technical Content
@@ -15,18 +20,27 @@ This skill uses write-good to flag vague, wordy, or hard-to-read English prose i
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/write-good-english-prose-linting-technical-content
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/write-good-english-prose-linting-technical-content` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

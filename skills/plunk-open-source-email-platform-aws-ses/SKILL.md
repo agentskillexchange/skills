@@ -1,12 +1,15 @@
 ---
 title: "Plunk Open Source Transactional Email Platform on AWS SES"
 description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
-verification: listed
-source: "https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/"
+verification: security_reviewed
+source: "https://github.com/useplunk/plunk"
 category:
-  - "Calendar, Email & Productivity"
+  - "Calendar, Email &amp; Productivity"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "useplunk/plunk"
+  github_stars: 4955
 ---
 
 # Plunk Open Source Transactional Email Platform on AWS SES
@@ -15,18 +18,27 @@ Plunk is an open-source email platform built on AWS SES for sending transactiona
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/plunk-open-source-email-platform-aws-ses
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/plunk-open-source-email-platform-aws-ses` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

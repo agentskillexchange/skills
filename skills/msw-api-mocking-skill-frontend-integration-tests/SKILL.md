@@ -1,12 +1,17 @@
 ---
 title: "MSW API Mocking Skill for Frontend and Integration Tests"
 description: "Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior in local development or tests, and keep mocks faithful to real endpoints. It is a task-focused mocking skill built around MSW, not a generic product card."
-verification: listed
-source: "https://agentskillexchange.com/skills/msw-api-mocking-skill-frontend-integration-tests/"
+verification: security_reviewed
+source: "https://github.com/mswjs/msw"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "mswjs/msw"
+  github_stars: 17816
+  npm_package: "msw"
+  npm_weekly_downloads: 14205156
 ---
 
 # MSW API Mocking Skill for Frontend and Integration Tests
@@ -15,18 +20,27 @@ Use this skill when an agent needs to stand up request handlers with Mock Servic
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/msw-api-mocking-skill-frontend-integration-tests
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/msw-api-mocking-skill-frontend-integration-tests` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

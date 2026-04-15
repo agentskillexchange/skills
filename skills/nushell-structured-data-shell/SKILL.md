@@ -1,12 +1,17 @@
 ---
 title: "Nushell Structured Data Shell"
 description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
-verification: listed
-source: "https://agentskillexchange.com/skills/nushell-structured-data-shell/"
+verification: security_reviewed
+source: "https://github.com/nushell/nushell"
 category:
   - "Developer Tools"
 framework:
   - "Custom Agents"
+tool_ecosystem:
+  github_repo: "nushell/nushell"
+  github_stars: 38872
+  npm_package: "nushell"
+  npm_weekly_downloads: 1013
 ---
 
 # Nushell Structured Data Shell
@@ -15,18 +20,27 @@ A modern shell that treats all input as structured data rather than plain text s
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/nushell-structured-data-shell
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/nushell-structured-data-shell` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

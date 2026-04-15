@@ -1,32 +1,44 @@
 ---
-title: "AWS S3 & SQS Pipeline Connector"
+title: "AWS S3 &#038; SQS Pipeline Connector"
 description: "Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with PutObjectCommand/GetObjectCommand, processes SQS message queues via ReceiveMessageCommand with long polling, and configures S3 event notifications to SQS for event-driven processing."
-verification: listed
-source: "https://agentskillexchange.com/skills/aws-s3-sqs-pipeline-connector/"
+verification: security_reviewed
+source: "https://github.com/aws/aws-sdk-js-v3"
 category:
-  - "Integrations & Connectors"
+  - "Integrations &amp; Connectors"
 framework:
   - "MCP"
+tool_ecosystem:
+  github_repo: "aws/aws-sdk-js-v3"
+  github_stars: 3607
 ---
 
-# AWS S3 & SQS Pipeline Connector
+# AWS S3 &#038; SQS Pipeline Connector
 
 Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with PutObjectCommand/GetObjectCommand, processes SQS message queues via ReceiveMessageCommand with long polling, and configures S3 event notifications to SQS for event-driven processing.
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/aws-s3-sqs-pipeline-connector
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/aws-s3-sqs-pipeline-connector` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 

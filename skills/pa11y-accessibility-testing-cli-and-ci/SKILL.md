@@ -1,12 +1,17 @@
 ---
 title: "Pa11y Accessibility Testing CLI and CI"
 description: "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This skill uses Pa11y to turn page-level accessibility checks into actionable reports with issue counts, selectors, and remediation context."
-verification: listed
-source: "https://agentskillexchange.com/skills/pa11y-accessibility-testing-cli-and-ci/"
+verification: security_reviewed
+source: "https://github.com/pa11y/pa11y"
 category:
   - "Browser Automation"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "pa11y/pa11y"
+  github_stars: 4418
+  npm_package: "pa11y"
+  npm_weekly_downloads: 221677
 ---
 
 # Pa11y Accessibility Testing CLI and CI
@@ -15,18 +20,27 @@ Pa11y is a real open-source accessibility testing tool that lets agents audit pa
 
 ## Installation
 
-Choose the setup that fits your environment:
+### Option 1, Agent Skill Exchange
 
-1. **OpenClaw skill installer**
-   - Add this skill through your OpenClaw skills workflow if you use managed installs.
-2. **Git clone**
-   - Clone the upstream project or skill repo, then follow its setup instructions.
-3. **Package manager**
-   - Install with the ecosystem package manager when the upstream project publishes one.
-4. **Manual copy**
-   - Copy the skill folder into your local skills directory and reload your agent.
-5. **Container or CI environment**
-   - Bake the dependency into your image or automation environment before running the skill.
+Browse and install from the marketplace page for this skill.
+
+### Option 2, Git clone
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/pa11y-accessibility-testing-cli-and-ci
+```
+
+### Option 3, Download ZIP
+
+Download the skill folder or repository archive and extract `skills/pa11y-accessibility-testing-cli-and-ci` into your local skills collection.
+
+### Option 4, Manual copy
+
+Copy this skill folder into your agent skills directory, then reload your agent tooling.
+
+### Option 5, Fork and sync
+
+Fork the repository if you want to track local edits while keeping a clean upstream sync path.
 
 ## Source
 
