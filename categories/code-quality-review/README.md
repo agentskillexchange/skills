@@ -115,6 +115,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Danger JS Pull Request Automation Toolkit](../../skills/danger-js-pull-request-automation-toolkit/) | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](../../skills/vale-prose-linter-technical-docs/) | 5.3k | — |
+| [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](../../skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | 4.8k | — |
 | [typos Source Code Spell Checker](../../skills/typos-source-code-spell-checker/) | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](../../skills/dprint-pluggable-code-formatter/) | 3.9k | 166k/wk |
 | [Prevent broken GitHub Actions workflows before CI runs with actionlint](../../skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
@@ -130,6 +131,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 588k/wk |
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
+| [Enforce architectural import boundaries in Python codebases with Import Linter](../../skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | 995 | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |

@@ -79,6 +79,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
+| [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Falco Runtime Security](../../skills/falco-runtime-security/) | 8.8k | — |
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
@@ -100,6 +101,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
+| [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |

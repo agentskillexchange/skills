@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 1992,
+  "total": 1998,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden",
+      "name": "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden",
+      "description": "Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4776
+      }
+    },
+    {
+      "slug": "lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye",
+      "name": "Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye",
+      "description": "Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6262
+      }
+    },
+    {
+      "slug": "find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto",
+      "name": "Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto",
+      "description": "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2494
+      }
+    },
+    {
+      "slug": "enforce-architectural-import-boundaries-in-python-codebases-with-import-linter",
+      "name": "Enforce architectural import boundaries in Python codebases with Import Linter",
+      "description": "Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 995
+      }
+    },
+    {
+      "slug": "audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit",
+      "name": "Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit",
+      "description": "Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4164
+      }
+    },
+    {
+      "slug": "probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh",
+      "name": "Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh",
+      "description": "Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8986
+      }
+    },
     {
       "slug": "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check",
       "name": "Verify Markdown links before docs or content ship with markdown-link-check",

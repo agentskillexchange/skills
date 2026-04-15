@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1992 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 01:21 UTC
+> **1998 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 03:23 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -594,7 +594,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (133 skills)
+### 🔒 Security & Verification (135 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -646,6 +646,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Skopeo Container Image Registry Operations CLI](skills/skopeo-container-image-registry-operations-cli/) | Skopeo is a command-line tool for working with container images and registries without requiring a running daemon.… | Security Reviewed | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](skills/magika-ai-file-type-detection-and-content-classification/) | Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It… | Security Reviewed | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](skills/httpx-http-probing-toolkit-projectdiscovery/) | httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It… | Security Reviewed | 9.8k | — |
+| [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | Run a thorough TLS preflight against a host before launch, certificate renewal, or incident review. | Published | 9k | — |
 | [Hanko Open Source Passkey Authentication and User Management](skills/hanko-passkey-authentication-platform/) | Hanko is an open-source authentication and user management platform built on passkeys and WebAuthn. It provides a… | Security Reviewed | 8.9k | — |
 | [Falco Runtime Security](skills/falco-runtime-security/) | Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 8.8k | — |
 | [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and… | Security Reviewed | 8.6k | — |
@@ -667,6 +668,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](skills/horcrux-shamir-secret-file-splitter/) | Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so you can distribute pieces across… | Security Reviewed | 5k | — |
 | [Stripe Webhook Signature Verifier](skills/stripe-webhook-signature-verifier/) | Verifies Stripe webhook payload signatures using the Stripe.js SDK and the stripe.webhooks.constructEvent method.… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Cerbos Open Source Authorization Policy Decision Point](skills/cerbos-authorization-pdp/) | Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user… | Security Reviewed | 4.3k | — |
+| [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or… | Published | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | This ASE skill uses zizmor to audit GitHub Actions workflows and composite actions for security mistakes before they… | Security Reviewed | 4.1k | — |
 | [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps… | Security Reviewed | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | 3.6k | — |
@@ -735,7 +737,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (125 skills)
+### 📋 Runbooks & Diagnostics (127 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -799,6 +801,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Security Reviewed | 13.2k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
+| [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Remote-control tmux sessions for interactive CLI agents](skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you… | Security Reviewed | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone,… | Security Reviewed | 4k | — |
@@ -818,6 +821,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Security Reviewed | 3.3k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
+| [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
@@ -868,7 +872,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (120 skills)
+### ✅ Code Quality & Review (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -949,6 +953,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule… | Published | 6.6k | 5.2M/wk |
 | [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
+| [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or… | Published | 4.8k | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 166k/wk |
 | [Prevent broken GitHub Actions workflows before CI runs with actionlint](skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The… | Security Reviewed | 3.8k | — |
@@ -964,6 +969,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Security Reviewed | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](skills/publint-package-export-validation-skill-npm-release-checks/) | Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and… | Security Reviewed | 1.3k | 588k/wk |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
+| [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |

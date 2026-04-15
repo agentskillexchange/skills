@@ -98,6 +98,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](../../skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](../../skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | 11.9k | — |
+| [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
@@ -117,6 +118,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
+| [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
