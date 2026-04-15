@@ -32,7 +32,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | ⬇ 19.6M/wk |
 | [Crawlee Web Crawling and Scraping SDK](../../skills/crawlee-web-crawling-and-scraping-sdk/) | ⬇ 80.8k/wk |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | ⬇ 72.5k/wk |
-| [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | ⬇ 28.9k/wk |
+| [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](../../skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | ⬇ 3.8k/wk |
 
 ---
 
@@ -80,6 +80,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Instaloader Instagram Content and Metadata Downloader](../../skills/instaloader-instagram-content-metadata-downloader/) | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
+| [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](../../skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | 6.3k | 3.8k/wk |
 | [Official Firecrawl MCP Server](../../skills/official-firecrawl-mcp-server/) | 6k | 28.9k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](../../skills/trafilatura-web-text-extraction-crawling/) | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |

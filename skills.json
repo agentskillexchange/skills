@@ -1,8 +1,101 @@
 {
   "version": "2.0",
-  "total": 1986,
-  "generated": "2026-04-14",
+  "total": 1992,
+  "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check",
+      "name": "Verify Markdown links before docs or content ship with markdown-link-check",
+      "description": "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users.",
+      "category": [
+        "Content Writing & SEO"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 693,
+        "npm_weekly_downloads": 573175
+      }
+    },
+    {
+      "slug": "apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter",
+      "name": "Apply repeatable IMAP rules to triage and clean inboxes with imapfilter",
+      "description": "Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand.",
+      "category": [
+        "Calendar, Email & Productivity"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 917
+      }
+    },
+    {
+      "slug": "extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper",
+      "name": "Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper",
+      "description": "Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 6260,
+        "npm_weekly_downloads": 3803
+      }
+    },
+    {
+      "slug": "inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity",
+      "name": "Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity",
+      "description": "Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3010,
+        "npm_weekly_downloads": 20770
+      }
+    },
+    {
+      "slug": "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
+      "name": "Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt",
+      "description": "Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2256
+      }
+    },
+    {
+      "slug": "bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go",
+      "name": "Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go",
+      "description": "Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads.",
+      "category": [
+        "Image & Creative Automation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 5979
+      }
+    },
     {
       "slug": "lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing",
       "name": "Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing",

@@ -24,6 +24,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | Skill | Downloads |
 |---|---:|
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
+| [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | ⬇ 20.8k/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⬇ 6.6M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
@@ -32,7 +33,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | ⬇ 23.2M/wk |
 | [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | ⬇ 23.2M/wk |
 | [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⬇ 23.2M/wk |
-| [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -116,6 +116,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
+| [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |

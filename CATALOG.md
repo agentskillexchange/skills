@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **1986 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-14 23:26 UTC
+> **1992 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 01:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -443,7 +443,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Terraform Plan Validator Agent](skills/terraform-plan-validator-agent/) | Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (142 skills)
+### 🔄 Data Extraction & Transformation (143 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -540,6 +540,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Security Reviewed | 2.4k | — |
+| [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back… | Published | 2.3k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](skills/rehype-html-processor-unified/) | rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract… | Security Reviewed | 2.2k | — |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports… | Security Reviewed | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Uses invoice2data to turn invoice PDFs into structured JSON, CSV, or XML using supplier-specific templates. This is… | Security Reviewed | 2.1k | — |
@@ -734,7 +735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (124 skills)
+### 📋 Runbooks & Diagnostics (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -816,6 +817,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports… | Security Reviewed | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Security Reviewed | 3.3k | — |
+| [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
@@ -1119,7 +1121,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (110 skills)
+### 📅 Calendar, Email & Productivity (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1193,6 +1195,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Extract structured data and attachments from raw email with MailParser](skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text,… | Security Reviewed | 1.7k | — |
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
+| [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Published | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Security Reviewed | 887 | — |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 569 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
@@ -1766,7 +1769,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Yeoman Workflow Orchestrator](skills/yeoman-workflow-orchestrator/) | Orchestrates Yeoman generator workflows with composable sub-generators and mem-fs-editor file transformations.… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (91 skills)
+### 🔍 Research & Scraping (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1812,6 +1815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Instaloader Instagram Content and Metadata Downloader](skills/instaloader-instagram-content-metadata-downloader/) | Instaloader is a Python CLI tool and library that downloads Instagram photos, videos, stories, reels, highlights,… | Security Reviewed | 12k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence… | Security Reviewed | 9.6k | — |
+| [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle… | Published | 6.3k | 3.8k/wk |
 | [Official Firecrawl MCP Server](skills/official-firecrawl-mcp-server/) | Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP… | Security Reviewed | 6k | 28.9k/wk |
 | [Trafilatura Web Text Extraction and Crawling Toolkit](skills/trafilatura-web-text-extraction-crawling/) | Trafilatura is a Python package and CLI tool for gathering text from the web. It handles crawling, downloading, and… | Security Reviewed | 5.6k | — |
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](skills/recon-ng-web-reconnaissance-framework/) | Recon-ng is a full-featured modular reconnaissance framework written in Python, designed to conduct web-based open… | Security Reviewed | 5.5k | — |
@@ -1962,7 +1966,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (82 skills)
+### 🎨 Image & Creative Automation (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2002,6 +2006,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | 10.5k | — |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | 7.9k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | 6.8k | 8.7M/wk |
+| [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting… | Published | 6k | — |
 | [Chafa Terminal Image and Graphics Renderer](skills/chafa-terminal-image-graphics-renderer/) | Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics… | Security Reviewed | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](skills/mermaid-cli-diagram-as-code-renderer/) | Mermaid CLI (mmdc) is the command-line interface for the Mermaid diagramming library. It converts text-based diagram… | Security Reviewed | 4.3k | — |
 | [Kroki Unified Diagram Rendering API and Server](skills/kroki-unified-diagram-rendering-api-server/) | Kroki provides a unified HTTP API that converts textual diagram descriptions into images. It supports over 25… | Security Reviewed | 4.1k | — |
@@ -2052,7 +2057,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [SVG Animation Builder](skills/svg-animation-builder/) | Creates animated SVGs using GSAP (GreenSock Animation Platform) and the SVG DOM API. Generates timeline-based… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (71 skills)
+### ✍️ Content Writing & SEO (72 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2088,6 +2093,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](skills/openseo-self-hosted-keyword-research-seo-analysis/) | OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink… | Security Reviewed | 783 | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](skills/markdownlint-cli2-markdown-linting-docs-repos/) | This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content… | Security Reviewed | 740 | 522.5k/wk |
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
+| [Verify Markdown links before docs or content ship with markdown-link-check](skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users. | Published | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Security Reviewed | 45 | — |
 | [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources.… | Security Reviewed | — | 10.7k/wk |
