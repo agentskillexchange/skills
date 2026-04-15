@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2018,
+  "total": 2024,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo",
+      "name": "Turn exploratory Python notebooks into reproducible apps and reports with marimo",
+      "description": "Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 20409
+      }
+    },
+    {
+      "slug": "turn-messy-document-collections-into-structured-rows-with-docetl",
+      "name": "Turn messy document collections into structured rows with DocETL",
+      "description": "Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3707
+      }
+    },
+    {
+      "slug": "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata",
+      "name": "Profile and triage messy tabular files from the terminal with VisiData",
+      "description": "Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup step without opening a spreadsheet.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 9025
+      }
+    },
+    {
+      "slug": "generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently",
+      "name": "Generate drift and quality reports for ML and LLM pipelines with Evidently",
+      "description": "Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout.",
+      "category": [
+        "Monitoring & Alerts"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7386
+      }
+    },
+    {
+      "slug": "triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav",
+      "name": "Triage production log spikes and incidents from the terminal with lnav",
+      "description": "Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10159
+      }
+    },
+    {
+      "slug": "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh",
+      "name": "Plan and preview warehouse SQL model changes before rollout with SQLMesh",
+      "description": "Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.",
+      "category": [
+        "Data Extraction & Transformation"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3034
+      }
+    },
     {
       "slug": "review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint",
       "name": "Review Dockerfiles for risky patterns and bad defaults with hadolint",

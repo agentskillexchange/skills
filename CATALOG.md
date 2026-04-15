@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2018 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 09:21 UTC
+> **2024 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 11:24 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (262 skills)
+### 🛠️ Developer Tools (263 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -135,6 +135,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Sonic Fast Lightweight Schema-Less Search Backend](skills/sonic-fast-lightweight-search-backend/) | Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to… | Security Reviewed | 21.2k | — |
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | 20.9k | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](skills/openai-agents-sdk-python-multi-agent/) | The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs,… | Security Reviewed | 20.6k | — |
+| [Turn exploratory Python notebooks into reproducible apps and reports with marimo](skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/) | Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared,… | Published | 20.4k | — |
 | [GitButler Virtual Branch Git Client](skills/gitbutler-virtual-branch-git-client/) | GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to… | Security Reviewed | 20k | — |
 | [VHS Terminal Session Recorder and GIF Generator](skills/vhs-terminal-session-recorder-gif-generator/) | Create terminal session recordings as GIFs, videos, or images using VHS (charmbracelet/vhs). Write declarative .tape… | Security Reviewed | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](skills/chezmoi-dotfiles-manager/) | chezmoi manages dotfiles across multiple machines securely using a Git-backed source-of-truth model with templates,… | Security Reviewed | 18.9k | — |
@@ -445,7 +446,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (146 skills)
+### 🔄 Data Extraction & Transformation (149 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -521,6 +522,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV,… | Security Reviewed | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](skills/gorse-ai-recommender-system-engine/) | Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via… | Security Reviewed | 9.6k | — |
 | [Translate and validate SQL across dialects with SQLGlot](skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or… | Published | 9.1k | — |
+| [Profile and triage messy tabular files from the terminal with VisiData](skills/profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata/) | Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup… | Published | 9k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](skills/weasyprint-html-css-pdf-document-generator/) | WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a… | Security Reviewed | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](skills/redpanda-connect-declarative-stream-processor/) | Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks… | Security Reviewed | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff,… | Security Reviewed | 8.6k | — |
@@ -539,9 +541,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API.… | Security Reviewed | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](skills/xan-simd-csv-processing-cli/) | xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser.… | Security Reviewed | 3.9k | — |
 | [Newsboat Terminal RSS and Atom Feed Reader](skills/newsboat-terminal-rss-atom-feed-reader/) | Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter,… | Security Reviewed | 3.8k | — |
+| [Turn messy document collections into structured rows with DocETL](skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and… | Published | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation… | Published | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular… | Security Reviewed | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Security Reviewed | 3.4k | — |
+| [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Published | 3k | — |
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Security Reviewed | 2.4k | — |
@@ -747,7 +751,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (130 skills)
+### 📋 Runbooks & Diagnostics (131 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -818,6 +822,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Security Reviewed | 13.2k | — |
 | [Rewrite Git history to purge secrets, binaries, or accidental paths before sharing a repo](skills/rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo/) | Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge… | Security Reviewed | 12.1k | — |
 | [Simulate network failures in integration tests with Toxiproxy](skills/simulate-network-failures-in-integration-tests-with-toxiproxy/) | Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes… | Security Reviewed | 11.9k | — |
+| [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Remote-control tmux sessions for interactive CLI agents](skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you… | Security Reviewed | 4.1k | — |
@@ -1021,7 +1026,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (117 skills)
+### 📊 Monitoring & Alerts (118 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1085,6 +1090,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Security Reviewed | 9.2k | — |
 | [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Security Reviewed | 7.7k | — |
+| [Generate drift and quality reports for ML and LLM pipelines with Evidently](skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before… | Published | 7.4k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 3.3k/wk |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](skills/logfire-python-observability-sdk-llm-agent-tracing/) | Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent… | Security Reviewed | 4.2k | — |

@@ -161,6 +161,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Sonic Fast Lightweight Schema-Less Search Backend](../../skills/sonic-fast-lightweight-search-backend/) | 21.2k | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | 20.9k | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | 20.6k | — |
+| [Turn exploratory Python notebooks into reproducible apps and reports with marimo](../../skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/) | 20.4k | — |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | 20k | — |
 | [VHS Terminal Session Recorder and GIF Generator](../../skills/vhs-terminal-session-recorder-gif-generator/) | 19.2k | — |
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |

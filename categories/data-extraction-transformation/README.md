@@ -110,6 +110,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
 | [Translate and validate SQL across dialects with SQLGlot](../../skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | 9.1k | — |
+| [Profile and triage messy tabular files from the terminal with VisiData](../../skills/profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata/) | 9k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |
@@ -128,9 +129,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | 3.9k | — |
 | [Newsboat Terminal RSS and Atom Feed Reader](../../skills/newsboat-terminal-rss-atom-feed-reader/) | 3.8k | — |
+| [Turn messy document collections into structured rows with DocETL](../../skills/turn-messy-document-collections-into-structured-rows-with-docetl/) | 3.7k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
+| [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
