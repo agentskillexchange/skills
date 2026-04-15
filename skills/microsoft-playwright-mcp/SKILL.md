@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 30794
+  npm_package: "@playwright/mcp"
 ---
 
 # Microsoft Playwright MCP

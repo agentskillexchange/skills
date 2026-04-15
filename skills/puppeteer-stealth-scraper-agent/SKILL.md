@@ -10,6 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
+  npm_package: "puppeteer"
 ---
 
 # Puppeteer Stealth Scraper
