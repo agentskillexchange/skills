@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2034 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 15:21 UTC
+> **2039 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 17:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -279,7 +279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (160 skills)
+### 🔧 CI/CD Integrations (161 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -386,6 +386,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures… | Security Reviewed | 3.6k | — |
 | [AWS CodePipeline Orchestrator](skills/aws-codepipeline-orchestrator/) | Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs).… | Security Reviewed | 3.6k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](skills/garden-kubernetes-dev-testing-automation/) | Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like… | Security Reviewed | 3.6k | — |
+| [Score Kubernetes manifests for reliability and security risks before deploy with kube-score](skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score/) | Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and… | Published | 3.1k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | Uses kubeconform to validate Kubernetes manifests against versioned schemas before anything touches a cluster. The… | Security Reviewed | 3k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package… | Security Reviewed | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | Run chart-focused lint and install checks so changed Helm charts are validated before release or merge. | Published | 1.6k | — |
@@ -612,6 +613,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 |---|---|---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
+| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | 35.4k | — |
+| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | 35.4k | — |
+| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | 35.4k | — |
 | [Vault Secrets Rotation Orchestrator](skills/vault-secrets-rotation-orchestrator/) | Automates HashiCorp Vault secret rotation using the Vault HTTP API and dynamic secrets engines. Manages database… | Security Reviewed | 35.4k | — |
 | [Vault Secrets Rotator](skills/vault-secrets-rotator/) | Manages secret lifecycle through the HashiCorp Vault HTTP API v1. Rotates database credentials via Vault dynamic… | Security Reviewed | 35.4k | — |
 | [Vault Transit Secrets Envelope Verifier](skills/vault-transit-secrets-envelope-verifier/) | Verifies encryption workflows with HashiCorp Vault Transit endpoints like `/encrypt`, `/decrypt`, and `/rewrap`,… | Security Reviewed | 35.3k | — |
@@ -647,6 +651,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OWASP ZAP Security Audit Skill](skills/owasp-zap-security-audit-skill/) | Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax… | Security Reviewed | 15k | — |
 | [OWASP ZAP Security Scanner Agent](skills/owasp-zap-security-scanner-agent/) | Automates OWASP ZAP active and passive scanning against web applications, parsing alerts into structured… | Security Reviewed | 15k | — |
 | [OWASP ZAP Scanner](skills/owasp-zap-scanner/) | OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 15k | — |
+| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against… | Security Reviewed | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to… | Security Reviewed | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](skills/subfinder-passive-subdomain-enumeration/) | Subfinder is a passive subdomain discovery tool by ProjectDiscovery that finds valid subdomains for websites using… | Security Reviewed | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](skills/casdoor-open-source-iam-auth-platform/) | Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth… | Security Reviewed | 13.3k | — |
@@ -728,9 +733,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys,… | Security Reviewed | — | — |
 | [Git Secrets Pre-Commit Scanner](skills/git-secrets-precommit-scanner/) | Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with… | Security Reviewed | — | — |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
-| [HashiCorp Vault Secret Rotation Agent](skills/hashicorp-vault-secret-rotation-agent-2/) | Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials… | Security Reviewed | — | — |
-| [HashiCorp Vault Secret Scanner](skills/hashicorp-vault-secret-scanner-2/) | Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault… | Security Reviewed | — | — |
-| [HashiCorp Vault Secrets Rotation Agent](skills/hashicorp-vault-secrets-rotation-agent-2/) | Automates secret rotation in HashiCorp Vault using the Vault API and dynamic secrets engines. Manages database… | Security Reviewed | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
 | [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE… | Security Reviewed | — | — |
@@ -740,7 +742,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [OAuth2 Token Introspection Agent](skills/oauth2-token-introspection-agent/) | Validates OAuth2 tokens using RFC 7662 introspection endpoints. Integrates with Keycloak, Auth0, and Okta token… | Security Reviewed | — | — |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | Run automated red-team and failure scans against an LLM or RAG app before users find the breakage. | Published | — | — |
 | [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports… | Security Reviewed | — | — |
-| [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against… | Security Reviewed | — | — |
 | [SBOM Generator and CVE Matcher](skills/sbom-generator-cve-matcher/) | Generates Software Bill of Materials using Syft for container images and matches components against the NVD CVE… | Security Reviewed | — | — |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | — | — |
 | [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | Generates Software Bill of Materials using Syft and scans for CVEs with Grype. Cross-references findings against the… | Security Reviewed | — | — |
@@ -757,7 +758,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (133 skills)
+### 📋 Runbooks & Diagnostics (134 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -853,6 +854,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Published | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
+| [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Published | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
@@ -898,7 +900,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (129 skills)
+### ✅ Code Quality & Review (132 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -991,7 +993,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Spectral OpenAPI and AsyncAPI Linter](skills/spectral-openapi-asyncapi-linter/) | Spectral is an open-source JSON/YAML linter by Stoplight with built-in support for OpenAPI 3.x, Swagger 2.0,… | Security Reviewed | 3.1k | — |
 | [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced. | Published | 2.8k | 1.5M/wk |
 | [Validate CloudFormation templates before deploy with cfn-lint](skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or… | Published | 2.6k | — |
+| [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional… | Published | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Published | 2.5k | — |
+| [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Published | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
@@ -1030,6 +1034,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | — | — |
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | — | — |
 | [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | — | — |
+| [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Published | — | — |
 | [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import… | Security Reviewed | — | — |
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | — | — |
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
@@ -1079,6 +1084,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [PM2 Node.js Production Process Manager with Load Balancing](skills/pm2-nodejs-production-process-manager/) | PM2 is a production-grade process manager for Node.js and Bun applications with a built-in load balancer. With over… | Security Reviewed | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](skills/umami-privacy-focused-web-analytics/) | Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google… | Security Reviewed | 35.9k | — |
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](skills/k6-load-testing-cli-javascript-performance-scenarios/) | k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and… | Security Reviewed | 30.3k | — |
+| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing,… | Security Reviewed | 28k | — |
+| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | 28k | — |
+| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | 28k | — |
 | [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | 28k | — |
 | [SigNoz Open-Source Observability Platform](skills/signoz-open-source-observability-platform/) | SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one… | Security Reviewed | 26.5k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |
@@ -1147,9 +1155,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [CloudWatch Intelligent Alarms](skills/cloudwatch-intelligent-alarms/) | Uses AWS CloudWatch SDK (boto3) to create composite alarms with ML-powered anomaly detection bands. Integrates with… | Security Reviewed | — | — |
 | [CloudWatch Log Anomaly Detector](skills/cloudwatch-log-anomaly-detector/) | Detects anomalous patterns in AWS CloudWatch Logs using CloudWatch Logs Insights queries and Anomaly Detection APIs.… | Security Reviewed | — | — |
 | [GlitchTip Open-Source Error Tracking Platform](skills/glitchtip-open-source-error-tracking-platform/) | GlitchTip is an open-source, Sentry-compatible error tracking platform built for self-hosted exception monitoring… | Security Reviewed | — | — |
-| [Grafana Loki Log Aggregation Agent](skills/grafana-loki-log-aggregation-agent/) | Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing,… | Security Reviewed | — | — |
-| [Grafana Loki Log Correlation Agent](skills/grafana-loki-log-correlation-agent-2/) | Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log… | Security Reviewed | — | — |
-| [Grafana Loki Log Query Agent](skills/grafana-loki-log-query-agent/) | Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. Filters log streams by labels, parses… | Security Reviewed | — | — |
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [New Relic NRQL Query Agent](skills/new-relic-nrql-query-agent/) | Executes NRQL queries against New Relic's GraphQL NerdGraph API for application performance monitoring. Generates… | Security Reviewed | — | — |
 | [New Relic SLO Compliance Monitor](skills/new-relic-slo-compliance-monitor/) | Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn… | Security Reviewed | — | — |
@@ -1326,6 +1331,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for… | Security Reviewed | 7.5k | — |
 | [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | 7.2k | 794k/wk |
 | [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | 4.8k | — |
+| [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | 4.8k | — |
 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | 4.4k | 9.3M/wk |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](skills/openai-agents-sdk-javascript-workflow-toolkit/) | A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools,… | Security Reviewed | 2.6k | — |
@@ -1369,7 +1375,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenTelemetry Trace Analyzer](skills/opentelemetry-trace-analyzer/) | Queries distributed traces from Jaeger and Tempo via their gRPC and HTTP APIs. Identifies latency bottlenecks using… | Security Reviewed | — | — |
 | [OpenTelemetry Trace Context Propagator](skills/opentelemetry-trace-context-propagator/) | Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects… | Security Reviewed | — | — |
 | [Plaid Financial Data Aggregator & Budget Classifier](skills/plaid-financial-data-aggregator/) | Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across… | Security Reviewed | — | — |
-| [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | — | — |
 | [Protobuf Documentation Generator](skills/protobuf-documentation-generator/) | Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces… | Security Reviewed | — | — |
 | [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry… | Security Reviewed | — | — |
 | [Protocol Buffers Documentation Compiler](skills/protobuf-documentation-compiler/) | Compiles Protocol Buffer .proto files using protoc and generates API documentation with protoc-gen-doc. Validates… | Security Reviewed | — | — |
@@ -1734,6 +1739,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
 | [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | 33.1k | — |
+| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | 29.7k | — |
 | [Helm Chart Boilerplate Builder](skills/helm-chart-boilerplate-builder/) | Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configuration, and HPA definitions. Uses… | Security Reviewed | 29.7k | — |
 | [Helm Chart Template Scaffolder](skills/helm-chart-template-scaffolder/) | Scaffolds Helm 3 chart templates with Go templating best practices. Uses helm-unittest for test generation and… | Security Reviewed | 29.7k | — |
 | [Helm Chart Templater](skills/helm-chart-templater/) | Generates and validates Kubernetes Helm charts using helm template and helm lint APIs. Supports values schema… | Security Reviewed | 29.7k | — |
@@ -1794,7 +1800,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | — | — |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | — | — |
-| [Kubernetes Helm Chart Scaffold Builder](skills/kubernetes-helm-chart-scaffold-builder/) | Generates Helm v3 chart scaffolds with templated deployments, services, ingress rules, and values.yaml schemas.… | Security Reviewed | — | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | — | — |
@@ -1918,6 +1923,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 |---|---|---|---:|---:|
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | 357.7k | — |
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube,… | Security Reviewed | 154.3k | — |
+| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | 97.8k | — |
+| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | 97.8k | — |
 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | Enhances OpenAI Whisper transcription output with speaker diarization using pyannote.audio pipeline and speechbrain… | Security Reviewed | 97.8k | — |
 | [Whisper Subtitle Generator](skills/whisper-subtitle-generator/) | Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and… | Security Reviewed | 97.8k | — |
 | [Whisper.cpp Local Transcription Engine](skills/whisper-cpp-local-transcription-engine/) | Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription.… | Security Reviewed | 97.8k | — |
@@ -1998,13 +2005,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Security Reviewed | — | — |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Security Reviewed | — | — |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | — | — |
-| [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | Processes audio files from an S3 bucket using Whisper large-v3, splitting recordings into 30-second chunks with… | Security Reviewed | — | — |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Security Reviewed | — | — |
 | [Podcast RSS Feed Builder](skills/podcast-rss-feed-builder/) | Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the… | Security Reviewed | — | — |
 | [Podcast Transcription Pipeline](skills/podcast-transcription-pipeline-agent/) | Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted… | Security Reviewed | — | — |
 | [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Security Reviewed | — | — |
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
-| [YouTube Chapters Generator with Whisper](skills/youtube-chapters-generator-whisper/) | Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling… | Security Reviewed | — | — |
 
 
 ### 🎨 Image & Creative Automation (83 skills)
@@ -2042,6 +2047,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance animations, transitions, node… | Security Reviewed | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](skills/satori-html-css-svg-image-generator/) | Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open… | Security Reviewed | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](skills/libvips-high-performance-image-processing-library-cli/) | libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes… | Security Reviewed | 11.2k | — |
+| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | 10.8k | 18.1M/wk |
+| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | 10.8k | 18.1M/wk |
 | [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.8k | — |
 | [imgproxy High-Performance Image Processing Proxy](skills/imgproxy-high-performance-image-processing-proxy/) | An agent skill built on imgproxy, the high-performance Go-based image processing server, enabling on-the-fly image… | Security Reviewed | 10.6k | — |
 | [Thumbor Smart Image Processing Service](skills/thumbor-smart-image-processing-service/) | An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform… | Security Reviewed | 10.5k | — |
@@ -2066,15 +2079,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Cloudinary Media Optimization Agent](skills/cloudinary-media-optimization-agent/) | Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive… | Security Reviewed | — | — |
 | [Cloudinary Media Transform Skill](skills/cloudinary-media-transform-skill/) | Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations,… | Security Reviewed | — | — |
 | [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | — | — |
-| [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | — | — |
 | [DALL-E 3 Brand Asset Batch Generator](skills/dall-e-3-brand-asset-batch-generator/) | Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent… | Security Reviewed | — | — |
-| [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | — | — |
-| [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | — | — |
-| [DALL-E Image Variation Pipeline](skills/dalle-image-variation-pipeline/) | Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio… | Security Reviewed | — | — |
-| [DALL-E Prompt Chain Generator](skills/dalle-prompt-chain-generator/) | Generates and iterates DALL-E 3 image prompts using the OpenAI Images API with size, quality, and style parameters.… | Security Reviewed | — | — |
-| [DALL-E Prompt Engineering Kit](skills/dall-e-prompt-engineering-kit/) | Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect… | Security Reviewed | — | — |
-| [DALL-E Variation Generator](skills/dalle-variation-generator/) | Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency… | Security Reviewed | — | — |
-| [DALL-E Variations Pipeline](skills/dalle-variations-pipeline/) | Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt… | Security Reviewed | — | — |
 | [Figma Design Token Exporter](skills/figma-design-token-exporter/) | Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific… | Security Reviewed | — | — |
 | [Figma Design Token Extractor](skills/figma-design-token-extractor-3/) | Extracts design tokens from Figma files using the Figma REST API and style-dictionary. Generates CSS custom… | Security Reviewed | — | — |
 | [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |

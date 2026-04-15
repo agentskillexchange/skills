@@ -8,14 +8,14 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
+| [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | ⭐ 35.4k |
+| [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
+| [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 35.4k |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | ⭐ 35.3k |
 | [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | ⭐ 34.5k |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | ⭐ 34.5k |
-| [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | ⭐ 34.5k |
-| [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | ⭐ 34.5k |
-| [Trivy Container Vulnerability Scanner](../../skills/trivy-container-vulnerability-scanner/) | ⭐ 34.5k |
 
 ---
 
@@ -35,6 +35,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
+| [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | 35.4k | — |
+| [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | 35.4k | — |
+| [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | 35.4k | — |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | 35.4k | — |
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | 35.4k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
@@ -70,6 +73,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OWASP ZAP Security Audit Skill](../../skills/owasp-zap-security-audit-skill/) | 15k | — |
 | [OWASP ZAP Security Scanner Agent](../../skills/owasp-zap-security-scanner-agent/) | 15k | — |
 | [OWASP ZAP Scanner](../../skills/owasp-zap-scanner/) | 15k | — |
+| [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
 | [Subfinder Fast Passive Subdomain Enumeration Tool](../../skills/subfinder-passive-subdomain-enumeration/) | 13.3k | — |
 | [Casdoor Open Source Identity and Access Management Platform](../../skills/casdoor-open-source-iam-auth-platform/) | 13.3k | — |
@@ -151,9 +155,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | — | — |
 | [Git Secrets Pre-Commit Scanner](../../skills/git-secrets-precommit-scanner/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
-| [HashiCorp Vault Secret Rotation Agent](../../skills/hashicorp-vault-secret-rotation-agent-2/) | — | — |
-| [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | — | — |
-| [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |
@@ -163,7 +164,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](../../skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | — | — |
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | — | — |
-| [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | — | — |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | — | — |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |

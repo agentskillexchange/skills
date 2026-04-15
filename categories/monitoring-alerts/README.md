@@ -78,6 +78,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | 30.3k | — |
+| [Grafana Loki Log Aggregation Agent](../../skills/grafana-loki-log-aggregation-agent/) | 28k | — |
+| [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | 28k | — |
+| [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | 28k | — |
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | 26.5k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
@@ -146,9 +149,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | — | — |
 | [GlitchTip Open-Source Error Tracking Platform](../../skills/glitchtip-open-source-error-tracking-platform/) | — | — |
-| [Grafana Loki Log Aggregation Agent](../../skills/grafana-loki-log-aggregation-agent/) | — | — |
-| [Grafana Loki Log Correlation Agent](../../skills/grafana-loki-log-correlation-agent-2/) | — | — |
-| [Grafana Loki Log Query Agent](../../skills/grafana-loki-log-query-agent/) | — | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |

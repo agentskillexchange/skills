@@ -80,6 +80,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 794k/wk |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | — |
+| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
@@ -123,7 +124,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
 | [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
-| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | — | — |
 | [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | — | — |

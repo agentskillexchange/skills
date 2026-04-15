@@ -130,6 +130,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
+| [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |

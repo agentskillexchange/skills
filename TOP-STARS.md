@@ -15,7 +15,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 7 | [Firecrawl Web Data API for AI Agents](skills/firecrawl-web-data-api-for-ai-agents/) | 108.8k | firecrawl | Research & Scraping |
 | 8 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.9k | llama.cpp | Developer Tools |
 | 9 | [Supabase MCP Server](skills/supabase-mcp-server/) | 100.8k | supabase | Developer Tools |
-| 10 | [Whisper Diarization Post-Processor](skills/whisper-diarization-post-processor/) | 97.8k | whisper | Media & Transcription |
+| 10 | [OpenAI Whisper Batch Transcription Pipeline](skills/whisper-batch-transcription-pipeline/) | 97.8k | whisper | Media & Transcription |
 | 11 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
 | 12 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | puppeteer | Browser Automation |
 | 13 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |

@@ -135,6 +135,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | — |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | — |
 | [Garden Kubernetes Development and Testing Automation Platform](../../skills/garden-kubernetes-dev-testing-automation/) | 3.6k | — |
+| [Score Kubernetes manifests for reliability and security risks before deploy with kube-score](../../skills/score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score/) | 3.1k | — |
 | [Validate Kubernetes manifests against upstream schemas before cluster apply](../../skills/validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply/) | 3k | — |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | 1.8k | 387.4k/wk |
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](../../skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | 1.6k | — |

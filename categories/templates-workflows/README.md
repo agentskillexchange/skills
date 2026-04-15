@@ -59,6 +59,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
+| [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | 29.7k | — |
 | [Helm Chart Boilerplate Builder](../../skills/helm-chart-boilerplate-builder/) | 29.7k | — |
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | 29.7k | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | 29.7k | — |
@@ -119,7 +120,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | — | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | — | — |
-| [Kubernetes Helm Chart Scaffold Builder](../../skills/kubernetes-helm-chart-scaffold-builder/) | — | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | — | — |

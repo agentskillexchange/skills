@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 2034,
+  "total": 2039,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf",
+      "name": "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf",
+      "description": "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff",
+      "name": "Diff YAML manifests semantically and surface meaningful drift before apply with dyff",
+      "description": "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1800
+      }
+    },
+    {
+      "slug": "run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic",
+      "name": "Run policy-driven Borg backups, checks, and restores from one config with borgmatic",
+      "description": "Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead…",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2200
+      }
+    },
+    {
+      "slug": "score-kubernetes-manifests-for-reliability-and-security-risks-before-deploy-with-kube-score",
+      "name": "Score Kubernetes manifests for reliability and security risks before deploy with kube-score",
+      "description": "Use kube-score to statically review Kubernetes YAML or rendered Helm output for rollout risks, weak defaults, and resilience gaps before merge or deploy.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3100
+      }
+    },
+    {
+      "slug": "summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum",
+      "name": "Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum",
+      "description": "Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional reruns of flaky tests before an…",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2600
+      }
+    },
     {
       "slug": "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern",
       "name": "Tail multi-pod Kubernetes logs by label during incidents with Stern",
@@ -16402,7 +16474,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -16536,7 +16611,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grpc"
+        "tool": "grpc",
+        "github_stars": 4822,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -16599,7 +16676,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "helm"
+        "tool": "helm",
+        "github_stars": 29697,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -16885,7 +16964,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -17096,7 +17178,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "semgrep"
+        "tool": "semgrep",
+        "github_stars": 14802,
+        "license": "LGPL-2.1"
       }
     },
     {
@@ -18899,7 +18983,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "loki"
+        "tool": "loki",
+        "github_stars": 27993,
+        "license": "AGPL-3.0"
       }
     },
     {
@@ -19047,7 +19133,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vault"
+        "tool": "vault",
+        "github_stars": 35418
       }
     },
     {
@@ -19314,7 +19401,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -19771,7 +19861,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -19964,7 +20057,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vault"
+        "tool": "vault",
+        "github_stars": 35418
       }
     },
     {
@@ -19995,7 +20089,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grafana"
+        "tool": "loki",
+        "github_stars": 27993,
+        "license": "AGPL-3.0"
       }
     },
     {
@@ -21611,7 +21707,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -21773,7 +21872,8 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "vault"
+        "tool": "vault",
+        "github_stars": 35418
       }
     },
     {
@@ -22311,7 +22411,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -22368,7 +22471,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "grafana"
+        "tool": "loki",
+        "github_stars": 27993,
+        "license": "AGPL-3.0"
       }
     },
     {
@@ -23996,7 +24101,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97803,
+        "license": "MIT"
       }
     },
     {
@@ -24963,7 +25070,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -29001,7 +29111,10 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "openai"
+        "tool": "openai",
+        "github_stars": 10813,
+        "npm_weekly_downloads": 18107622,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -29763,7 +29876,9 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "tool": "whisper"
+        "tool": "whisper",
+        "github_stars": 97803,
+        "license": "MIT"
       }
     },
     {

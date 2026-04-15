@@ -127,7 +127,9 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | — |
 | [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](../../skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | 2.8k | 1.5M/wk |
 | [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |
+| [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
+| [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
@@ -166,6 +168,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Pylint Baseline Manager](../../skills/pylint-baseline-manager-wave48/) | — | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | — | — |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | — | — |
+| [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | — | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | — | — |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | — | — |

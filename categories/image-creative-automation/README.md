@@ -30,8 +30,9 @@ Image generation, asset processing, design automation, and creative tooling.
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
-| [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | ⬇ 8.7M/wk |
-| [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | ⬇ 49k/wk |
+| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | ⬇ 18.1M/wk |
+| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | ⬇ 18.1M/wk |
+| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | ⬇ 18.1M/wk |
 
 ---
 
@@ -68,6 +69,14 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
+| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
+| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
+| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
+| [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | 10.8k | 18.1M/wk |
+| [DALL-E Prompt Chain Generator](../../skills/dalle-prompt-chain-generator/) | 10.8k | 18.1M/wk |
+| [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | 10.8k | 18.1M/wk |
+| [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | 10.8k | 18.1M/wk |
+| [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | 10.8k | 18.1M/wk |
 | [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 10.6k | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 10.5k | — |
@@ -92,15 +101,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Cloudinary Media Optimization Agent](../../skills/cloudinary-media-optimization-agent/) | — | — |
 | [Cloudinary Media Transform Skill](../../skills/cloudinary-media-transform-skill/) | — | — |
 | [ComfyUI Workflow Executor](../../skills/comfyui-workflow-executor/) | — | — |
-| [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | — | — |
 | [DALL-E 3 Brand Asset Batch Generator](../../skills/dall-e-3-brand-asset-batch-generator/) | — | — |
-| [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | — | — |
-| [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | — | — |
-| [DALL-E Image Variation Pipeline](../../skills/dalle-image-variation-pipeline/) | — | — |
-| [DALL-E Prompt Chain Generator](../../skills/dalle-prompt-chain-generator/) | — | — |
-| [DALL-E Prompt Engineering Kit](../../skills/dall-e-prompt-engineering-kit/) | — | — |
-| [DALL-E Variation Generator](../../skills/dalle-variation-generator/) | — | — |
-| [DALL-E Variations Pipeline](../../skills/dalle-variations-pipeline/) | — | — |
 | [Figma Design Token Exporter](../../skills/figma-design-token-exporter/) | — | — |
 | [Figma Design Token Extractor](../../skills/figma-design-token-extractor-3/) | — | — |
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
