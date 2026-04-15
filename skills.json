@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2006,
+  "total": 2012,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "apply-structural-codemods-across-large-codebases-with-comby",
+      "name": "Apply structural codemods across large codebases with Comby",
+      "description": "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.",
+      "category": [
+        "Developer Tools"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2626
+      }
+    },
+    {
+      "slug": "run-profile-based-restic-backups-and-verification-checks-with-resticprofile",
+      "name": "Run profile-based restic backups and verification checks with resticprofile",
+      "description": "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1275
+      }
+    },
+    {
+      "slug": "run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa",
+      "name": "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA",
+      "description": "Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1196
+      }
+    },
+    {
+      "slug": "stress-test-python-test-suites-with-mutation-runs-from-mutmut",
+      "name": "Stress-test Python test suites with mutation runs from mutmut",
+      "description": "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1259
+      }
+    },
+    {
+      "slug": "audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit",
+      "name": "Audit Python environments and requirements files for known vulnerabilities with pip-audit",
+      "description": "Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or approving dependency changes.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1260
+      }
+    },
+    {
+      "slug": "find-unused-python-code-before-cleanup-refactors-with-vulture",
+      "name": "Find unused Python code before cleanup refactors with Vulture",
+      "description": "Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4521
+      }
+    },
     {
       "slug": "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
       "name": "Redact PII from text before sharing or indexing with scrubadub",

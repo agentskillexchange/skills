@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2006 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 05:21 UTC
+> **2012 published skills** across **17 categories** · 1947 security reviewed · Updated 2026-04-15 07:22 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (261 skills)
+### 🛠️ Developer Tools (262 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -222,6 +222,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Security Reviewed | 2.8k | — |
 | [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Security Reviewed | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
+| [Apply structural codemods across large codebases with Comby](skills/apply-structural-codemods-across-large-codebases-with-comby/) | Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than… | Published | 2.6k | — |
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Security Reviewed | 2.6k | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 88.6k/wk |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Security Reviewed | 2.5k | — |
@@ -596,7 +597,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (137 skills)
+### 🔒 Security & Verification (138 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -685,6 +686,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](skills/snyk-agent-scan-mcp-skill-security-scanner/) | Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent… | Security Reviewed | 2k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
+| [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Published | 1.3k | — |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 897 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
@@ -741,7 +743,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (129 skills)
+### 📋 Runbooks & Diagnostics (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -828,6 +830,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
+| [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Published | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
@@ -878,7 +881,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Terraform State Surgery Kit](skills/terraform-state-surgery-kit/) | Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API.… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (123 skills)
+### ✅ Code Quality & Review (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -960,6 +963,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | — |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or… | Published | 4.8k | — |
+| [Find unused Python code before cleanup refactors with Vulture](skills/find-unused-python-code-before-cleanup-refactors-with-vulture/) | Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports,… | Published | 4.5k | — |
 | [typos Source Code Spell Checker](skills/typos-source-code-spell-checker/) | A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases.… | Security Reviewed | 3.9k | — |
 | [dprint Pluggable High-Performance Code Formatting Platform](skills/dprint-pluggable-code-formatter/) | dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for… | Security Reviewed | 3.9k | 166k/wk |
 | [Prevent broken GitHub Actions workflows before CI runs with actionlint](skills/prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint/) | Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The… | Security Reviewed | 3.8k | — |
@@ -973,7 +977,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Security Reviewed | 1.3k | — |
+| [Stress-test Python test suites with mutation runs from mutmut](skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the… | Published | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](skills/publint-package-export-validation-skill-npm-release-checks/) | Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and… | Security Reviewed | 1.3k | 588k/wk |
+| [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually… | Published | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
