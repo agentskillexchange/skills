@@ -1,8 +1,62 @@
 {
   "version": "2.0",
-  "total": 2024,
+  "total": 2028,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks",
+      "name": "Expose Haystack pipelines as webhook endpoints with Hayhooks",
+      "description": "Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.",
+      "category": [
+        "Integrations & Connectors"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 138
+      }
+    },
+    {
+      "slug": "probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard",
+      "name": "Probe ML and LLM systems for regressions and vulnerabilities with Giskard",
+      "description": "Run automated red-team and failure scans against an LLM or RAG app before users find the breakage.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
+    {
+      "slug": "run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai",
+      "name": "Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI",
+      "description": "Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1904
+      }
+    },
+    {
+      "slug": "score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas",
+      "name": "Score RAG answer quality and retrieval quality before rollout with Ragas",
+      "description": "Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed"
+    },
     {
       "slug": "turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo",
       "name": "Turn exploratory Python notebooks into reproducible apps and reports with marimo",
@@ -31650,7 +31704,7 @@
       "verification": "security_reviewed",
       "signals": {
         "tool": "openclaw",
-        "github_stars": 357660,
+        "github_stars": 10813,
         "license": "MIT"
       }
     },

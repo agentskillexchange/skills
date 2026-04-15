@@ -6,7 +6,6 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars |
 |---|---:|
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⭐ 357.7k |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⭐ 119.9k |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | ⭐ 116.9k |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | ⭐ 116.2k |
@@ -16,6 +15,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [FFmpeg Thumbnail Mosaic Generator](../../skills/ffmpeg-thumbnail-mosaic-generator/) | ⭐ 59k |
 | [FFmpeg Video Processing Pipeline](../../skills/ffmpeg-video-processing-pipeline/) | ⭐ 59k |
 | [RunwayML Gen-3 Alpha Video Composer](../../skills/runwayml-gen-3-alpha-video-composer/) | ⭐ 58.5k |
+| [Penpot Open-Source Design Collaboration Platform](../../skills/penpot-open-source-design-collaboration-platform/) | ⭐ 45.3k |
 
 ---
 
@@ -39,7 +39,6 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 357.7k | — |
 | [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 116.2k | — |
@@ -69,6 +68,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.8k | — |
 | [imgproxy High-Performance Image Processing Proxy](../../skills/imgproxy-high-performance-image-processing-proxy/) | 10.6k | — |
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 10.5k | — |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
