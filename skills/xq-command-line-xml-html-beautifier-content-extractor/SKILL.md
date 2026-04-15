@@ -4,7 +4,7 @@ description: "xq is a command-line XML and HTML beautifier and content extractor
 verification: security_reviewed
 source: "https://github.com/sibprogrammer/xq"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

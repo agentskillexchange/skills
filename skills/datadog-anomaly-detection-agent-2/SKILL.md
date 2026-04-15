@@ -4,9 +4,14 @@ description: "Monitors Datadog metric streams using the Datadog API v2 and appli
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "OpenClaw"
+tool_ecosystem:
+  github_repo: "datadog/dd-trace-js"
+  github_stars: 791
+  ase_npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Anomaly Detection Agent

@@ -4,7 +4,7 @@ description: "Connects to Clearscope API to generate content grades based on NLP
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/clearscope-nlp-grading-pipeline/"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Claude Code"
 ---

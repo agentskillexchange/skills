@@ -4,13 +4,13 @@ description: "Store prompts, task chains, and reusable agent workflows as versio
 verification: listed
 source: "https://github.com/open-gitagent/gitagent"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-gitagent/gitagent"
   github_stars: 2667
-  npm_package: "@open-gitagent/gitagent"
+  ase_npm_package: "@open-gitagent/gitagent"
   npm_weekly_downloads: 1651
 ---
 

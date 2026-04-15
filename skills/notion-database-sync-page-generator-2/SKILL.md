@@ -4,13 +4,13 @@ description: "Reads from and writes to Notion databases using the official Notio
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
-  npm_package: "@notionhq/client"
+  ase_npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
 ---
 

@@ -4,13 +4,13 @@ description: "Federates data from multiple GraphQL and REST APIs using Apollo Fe
 verification: security_reviewed
 source: "https://github.com/graphql/graphql-js"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "OpenClaw"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324
-  npm_package: "graphql"
+  ase_npm_package: "graphql"
   npm_weekly_downloads: 34200861
 ---
 

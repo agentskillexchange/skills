@@ -4,7 +4,7 @@ description: "Uses yamllint to inspect hand-written or generated YAML before it 
 verification: security_reviewed
 source: "https://github.com/adrienverge/yamllint"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

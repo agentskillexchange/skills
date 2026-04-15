@@ -4,11 +4,11 @@ description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, 
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "MCP"
 tool_ecosystem:
-  npm_package: "pg"
+  ase_npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---
 

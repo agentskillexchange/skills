@@ -4,11 +4,11 @@ description: "Use jscpd when an agent needs to scan a codebase for duplicated bl
 verification: security_reviewed
 source: "https://www.npmjs.com/package/jscpd"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "jscpd"
+  ase_npm_package: "jscpd"
   npm_weekly_downloads: 703581
 ---
 

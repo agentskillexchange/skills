@@ -4,13 +4,13 @@ description: "Automates Prisma ORM schema evolution and migration planning using
 verification: security_reviewed
 source: "https://github.com/prisma/prisma"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "prisma/prisma"
   github_stars: 45760
-  npm_package: "prisma"
+  ase_npm_package: "prisma"
   npm_weekly_downloads: 9910505
 ---
 

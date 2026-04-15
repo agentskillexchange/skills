@@ -4,9 +4,14 @@ description: "Profiles Apache Parquet files using pyarrow metadata APIs to extra
 verification: security_reviewed
 source: "https://github.com/ironSource/parquetjs"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "ChatGPT Agents"
+tool_ecosystem:
+  github_repo: "ironsource/parquetjs"
+  github_stars: 387
+  ase_npm_package: "parquetjs"
+  npm_weekly_downloads: 170660
 ---
 
 # Parquet Column Statistics Profiler

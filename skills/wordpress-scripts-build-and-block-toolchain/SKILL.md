@@ -4,9 +4,12 @@ description: "@wordpress/scripts packages the default WordPress JavaScript build
 verification: security_reviewed
 source: "https://www.npmjs.com/package/@wordpress/scripts"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  ase_npm_package: "@wordpress/scripts"
+  npm_weekly_downloads: 96219
 ---
 
 # WordPress Scripts Build and Block Toolchain

@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "theredsix/agent-browser-protocol"
   github_stars: 436
-  npm_package: "agent-browser-protocol"
+  ase_npm_package: "agent-browser-protocol"
   npm_weekly_downloads: 1710
 ---
 

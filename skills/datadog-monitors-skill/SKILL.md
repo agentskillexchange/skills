@@ -4,9 +4,14 @@ description: "Manages Datadog monitors and dashboards via the Datadog API v2. Li
 verification: security_reviewed
 source: "https://github.com/DataDog/dd-trace-js"
 category:
-  - "Monitoring &amp; Alerts"
+  - "Monitoring & Alerts"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "datadog/dd-trace-js"
+  github_stars: 791
+  ase_npm_package: "dd-trace"
+  npm_weekly_downloads: 6596660
 ---
 
 # Datadog Monitors Skill

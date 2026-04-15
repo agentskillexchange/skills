@@ -4,7 +4,7 @@ description: "Use DOMPurify when an agent must accept HTML from users, rich text
 verification: security_reviewed
 source: "https://github.com/cure53/DOMPurify"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Custom Agents"
 tool_ecosystem:

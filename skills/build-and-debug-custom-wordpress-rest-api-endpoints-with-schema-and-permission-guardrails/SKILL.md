@@ -4,9 +4,12 @@ description: "Uses the WordPress wp-rest-api skill to help an agent design, regi
 verification: security_reviewed
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-rest-api"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wordpress/agent-skills"
+  github_stars: 1219
 ---
 
 # Build and debug custom WordPress REST API endpoints with schema and permission guardrails

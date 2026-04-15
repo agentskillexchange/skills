@@ -4,7 +4,7 @@ description: "Integrates with dbt Cloud Administrative API v2 to trigger and mon
 verification: security_reviewed
 source: "https://github.com/dbt-labs/dbt-core"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Custom Agents"
 tool_ecosystem:

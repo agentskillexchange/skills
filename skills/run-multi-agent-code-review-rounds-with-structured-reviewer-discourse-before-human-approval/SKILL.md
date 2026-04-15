@@ -4,13 +4,13 @@ description: "Use Open Code Review when an agent needs several reviewer personas
 verification: security_reviewed
 source: "https://github.com/spencermarx/open-code-review"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "spencermarx/open-code-review"
   github_stars: 131
-  npm_package: "@open-code-review/cli"
+  ase_npm_package: "@open-code-review/cli"
   npm_weekly_downloads: 1089
 ---
 

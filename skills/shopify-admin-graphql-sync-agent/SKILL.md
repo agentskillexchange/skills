@@ -4,13 +4,13 @@ description: "Coordinates Shopify data syncs with the Admin GraphQL API, includi
 verification: security_reviewed
 source: "https://github.com/Shopify/shopify-api-js"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "Shopify/shopify-api-js"
   github_stars: 959
-  npm_package: "@shopify/shopify-api"
+  ase_npm_package: "@shopify/shopify-api"
   npm_weekly_downloads: 325451
 ---
 

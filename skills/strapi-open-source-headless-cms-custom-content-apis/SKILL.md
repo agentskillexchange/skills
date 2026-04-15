@@ -4,13 +4,13 @@ description: "Strapi is a JavaScript and TypeScript headless CMS that helps team
 verification: security_reviewed
 source: "https://github.com/strapi/strapi"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "strapi/strapi"
   github_stars: 71874
-  npm_package: "@strapi/strapi"
+  ase_npm_package: "@strapi/strapi"
   npm_weekly_downloads: 161182
 ---
 

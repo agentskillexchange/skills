@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "nocobase/nocobase"
   github_stars: 22114
-  npm_package: "nocobase"
+  ase_npm_package: "nocobase"
   npm_weekly_downloads: 746
 ---
 

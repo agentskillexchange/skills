@@ -4,9 +4,12 @@ description: "Automates incident response runbooks using the PagerDuty Events AP
 verification: security_reviewed
 source: "https://github.com/PagerDuty/pdjs"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Gemini"
+tool_ecosystem:
+  github_repo: "pagerduty/pdjs"
+  github_stars: 69
 ---
 
 # PagerDuty Incident Runbook Automator

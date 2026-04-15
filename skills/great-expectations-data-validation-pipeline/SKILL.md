@@ -4,7 +4,7 @@ description: "Validate data quality using the Great Expectations Python library.
 verification: security_reviewed
 source: "https://github.com/great-expectations/great_expectations"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Claude Code"
   - "OpenClaw"

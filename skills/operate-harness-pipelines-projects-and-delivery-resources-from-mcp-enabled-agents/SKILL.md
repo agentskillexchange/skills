@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "harness/mcp-server"
   github_stars: 43
-  npm_package: "harness-mcp-v2"
+  ase_npm_package: "harness-mcp-v2"
   npm_weekly_downloads: 1019
 ---
 

@@ -4,11 +4,11 @@ description: "Executes diagnostic queries against PostgreSQL using pg_stat_state
 verification: security_reviewed
 source: "https://www.npmjs.com/package/pg"
 category:
-  - "Runbooks &amp; Diagnostics"
+  - "Runbooks & Diagnostics"
 framework:
   - "Codex"
 tool_ecosystem:
-  npm_package: "pg"
+  ase_npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---
 

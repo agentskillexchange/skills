@@ -4,7 +4,7 @@ description: "This skill uses Mailpit as a safe SMTP sink for development, QA, a
 verification: security_reviewed
 source: "https://mailpit.axllent.org/"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Multi-Framework"
 ---

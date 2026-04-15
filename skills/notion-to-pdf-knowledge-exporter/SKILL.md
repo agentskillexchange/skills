@@ -4,13 +4,13 @@ description: "Queries Notion databases and pages via the Notion API v1, then ren
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
-  npm_package: "@notionhq/client"
+  ase_npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
 ---
 

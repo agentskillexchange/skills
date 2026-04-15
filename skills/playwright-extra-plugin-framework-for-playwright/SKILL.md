@@ -8,7 +8,7 @@ category:
 framework:
   - "Multi-Framework"
 tool_ecosystem:
-  npm_package: "playwright-extra"
+  ase_npm_package: "playwright-extra"
   npm_weekly_downloads: 623136
 ---
 

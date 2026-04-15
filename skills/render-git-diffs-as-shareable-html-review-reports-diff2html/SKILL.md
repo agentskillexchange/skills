@@ -4,7 +4,7 @@ description: "Use Diff2Html when an agent needs to turn raw unified diffs into r
 verification: security_reviewed
 source: "https://github.com/rtfpessoa/diff2html"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

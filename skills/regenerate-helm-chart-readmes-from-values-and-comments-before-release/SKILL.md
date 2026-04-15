@@ -4,7 +4,7 @@ description: "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml
 verification: security_reviewed
 source: "https://github.com/norwoodj/helm-docs"
 category:
-  - "Templates &amp; Workflows"
+  - "Templates & Workflows"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

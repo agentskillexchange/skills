@@ -4,7 +4,7 @@ description: "Manages image and video assets through the Cloudinary Upload and A
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cloudinary-media-transform-skill/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Custom Agents"
 ---

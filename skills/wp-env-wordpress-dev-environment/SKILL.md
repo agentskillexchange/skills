@@ -4,9 +4,12 @@ description: "The @wordpress/env package (wp-env) provides a zero-configuration,
 verification: security_reviewed
 source: "https://www.npmjs.com/package/@wordpress/env"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Claude Code"
+tool_ecosystem:
+  ase_npm_package: "@wordpress/env"
+  npm_weekly_downloads: 46554
 ---
 
 # wp-env Zero-Config WordPress Development Environment

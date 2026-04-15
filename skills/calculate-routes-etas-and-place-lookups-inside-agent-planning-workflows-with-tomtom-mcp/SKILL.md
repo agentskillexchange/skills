@@ -4,13 +4,13 @@ description: "Gives an MCP-compatible agent structured place search, geocoding, 
 verification: security_reviewed
 source: "https://github.com/tomtom-international/tomtom-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "tomtom-international/tomtom-mcp"
   github_stars: 45
-  npm_package: "@tomtom-org/tomtom-mcp"
+  ase_npm_package: "@tomtom-org/tomtom-mcp"
   npm_weekly_downloads: 356
 ---
 

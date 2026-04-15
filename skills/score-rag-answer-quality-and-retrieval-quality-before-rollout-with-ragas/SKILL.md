@@ -4,7 +4,7 @@ description: "Measure whether a RAG change actually improved answers and retriev
 verification: listed
 source: "https://github.com/vibrantlabsai/ragas"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

@@ -4,13 +4,13 @@ description: "Builds composable image transformation pipelines using the Sharp l
 verification: security_reviewed
 source: "https://github.com/lovell/sharp"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Claude Code"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138
-  npm_package: "sharp"
+  ase_npm_package: "sharp"
   npm_weekly_downloads: 52472150
 ---
 

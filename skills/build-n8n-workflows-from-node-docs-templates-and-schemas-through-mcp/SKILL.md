@@ -4,13 +4,13 @@ description: "Use n8n-MCP when an agent needs structured access to n8n nodes, pr
 verification: listed
 source: "https://github.com/czlonkowski/n8n-mcp"
 category:
-  - "Integrations &amp; Connectors"
+  - "Integrations & Connectors"
 framework:
   - "MCP"
 tool_ecosystem:
   github_repo: "czlonkowski/n8n-mcp"
   github_stars: 18088
-  npm_package: "n8n-mcp"
+  ase_npm_package: "n8n-mcp"
   npm_weekly_downloads: 485039
 ---
 

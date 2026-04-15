@@ -4,13 +4,13 @@ description: "Use CodSpeed when an agent needs benchmark runs compared in CI and
 verification: security_reviewed
 source: "https://github.com/CodSpeedHQ/codspeed"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CodSpeedHQ/codspeed"
   github_stars: 143
-  npm_package: "@codspeed/core"
+  ase_npm_package: "@codspeed/core"
   npm_weekly_downloads: 234588
 ---
 

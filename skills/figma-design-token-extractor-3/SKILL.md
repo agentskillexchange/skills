@@ -4,7 +4,7 @@ description: "Extracts design tokens from Figma files using the Figma REST API a
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/figma-design-token-extractor-3/"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Cursor"
 ---

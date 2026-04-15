@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "semantic-release/semantic-release"
   github_stars: 23549
-  npm_package: "semantic-release"
+  ase_npm_package: "semantic-release"
   npm_weekly_downloads: 2496750
 ---
 

@@ -4,13 +4,13 @@ description: "Build and maintain documentation websites with Fumadocs, the React
 verification: security_reviewed
 source: "https://github.com/fuma-nama/fumadocs"
 category:
-  - "WordPress &amp; CMS"
+  - "WordPress & CMS"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "fuma-nama/fumadocs"
   github_stars: 11519
-  npm_package: "fumadocs"
+  ase_npm_package: "fumadocs"
   npm_weekly_downloads: 435
 ---
 

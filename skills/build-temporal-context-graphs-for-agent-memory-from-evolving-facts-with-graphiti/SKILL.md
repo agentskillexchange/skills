@@ -4,13 +4,13 @@ description: "Use Graphiti when an agent needs long-term memory that tracks what
 verification: security_reviewed
 source: "https://github.com/getzep/graphiti"
 category:
-  - "Library &amp; API Reference"
+  - "Library & API Reference"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getzep/graphiti"
   github_stars: 24898
-  npm_package: "graphiti-core"
+  ase_npm_package: "graphiti-core"
   npm_weekly_downloads: 529336
 ---
 

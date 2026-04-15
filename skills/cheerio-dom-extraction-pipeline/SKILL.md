@@ -4,13 +4,13 @@ description: "Builds configurable data extraction pipelines using Cheerio for se
 verification: security_reviewed
 source: "https://github.com/cheeriojs/cheerio"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Codex"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
-  npm_package: "cheerio"
+  ase_npm_package: "cheerio"
   npm_weekly_downloads: 19621708
 ---
 

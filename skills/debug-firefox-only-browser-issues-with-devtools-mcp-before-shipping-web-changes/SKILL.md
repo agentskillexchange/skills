@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "mozilla/firefox-devtools-mcp"
   github_stars: 107
-  npm_package: "firefox-devtools-mcp"
+  ase_npm_package: "firefox-devtools-mcp"
   npm_weekly_downloads: 2962
 ---
 

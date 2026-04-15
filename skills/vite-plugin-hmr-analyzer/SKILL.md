@@ -10,7 +10,7 @@ framework:
 tool_ecosystem:
   github_repo: "vitejs/vite"
   github_stars: 79927
-  npm_package: "vite"
+  ase_npm_package: "vite"
   npm_weekly_downloads: 96756115
 ---
 

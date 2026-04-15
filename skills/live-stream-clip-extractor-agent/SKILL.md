@@ -4,7 +4,7 @@ description: "Extracts highlight clips from live streams using Twitch Helix API,
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/live-stream-clip-extractor-agent/"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "ChatGPT Agents"
 ---

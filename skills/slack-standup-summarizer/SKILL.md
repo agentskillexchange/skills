@@ -4,13 +4,13 @@ description: "Collects daily standup updates from Slack channels using the Web A
 verification: security_reviewed
 source: "https://github.com/slackapi/bolt-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Claude Agents"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2900
-  npm_package: "@slack/bolt"
+  ase_npm_package: "@slack/bolt"
   npm_weekly_downloads: 2603193
 ---
 

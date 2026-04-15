@@ -4,13 +4,13 @@ description: "Bidirectionally syncs project data between Notion databases and ex
 verification: security_reviewed
 source: "https://github.com/makenotion/notion-sdk-js"
 category:
-  - "Calendar, Email &amp; Productivity"
+  - "Calendar, Email & Productivity"
 framework:
   - "Custom Agents"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
-  npm_package: "@notionhq/client"
+  ase_npm_package: "@notionhq/client"
   npm_weekly_downloads: 1182949
 ---
 

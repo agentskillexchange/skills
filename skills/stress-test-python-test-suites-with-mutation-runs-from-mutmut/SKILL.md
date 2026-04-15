@@ -4,7 +4,7 @@ description: "Use mutation testing to expose weak Python tests before merge or r
 verification: listed
 source: "https://github.com/boxed/mutmut"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:

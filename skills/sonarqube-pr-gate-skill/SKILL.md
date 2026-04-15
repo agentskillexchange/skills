@@ -4,9 +4,12 @@ description: "Integrates SonarQube quality gates into pull request workflows via
 verification: security_reviewed
 source: "https://github.com/SonarSource/sonarqube"
 category:
-  - "Code Quality &amp; Review"
+  - "Code Quality & Review"
 framework:
   - "Codex"
+tool_ecosystem:
+  github_repo: "sonarsource/sonarqube"
+  github_stars: 10433
 ---
 
 # SonarQube PR Gate

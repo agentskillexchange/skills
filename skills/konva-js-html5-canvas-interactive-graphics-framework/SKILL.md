@@ -4,13 +4,13 @@ description: "Konva.js is an HTML5 Canvas JavaScript framework that enables high
 verification: security_reviewed
 source: "https://github.com/konvajs/konva"
 category:
-  - "Image &amp; Creative Automation"
+  - "Image & Creative Automation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
   github_repo: "konvajs/konva"
   github_stars: 14323
-  npm_package: "konva"
+  ase_npm_package: "konva"
   npm_weekly_downloads: 1210760
 ---
 

@@ -4,7 +4,7 @@ description: "Take an OCR archive that already exists in Paperless-ngx and push 
 verification: listed
 source: "https://github.com/icereed/paperless-gpt"
 category:
-  - "Data Extraction &amp; Transformation"
+  - "Data Extraction & Transformation"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
