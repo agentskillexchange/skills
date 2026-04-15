@@ -77,6 +77,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Grype Container and SBOM Vulnerability Scanner](../../skills/grype-container-sbom-vulnerability-scanner/) | 12k | — |
 | [Open Policy Agent (OPA)](../../skills/open-policy-agent-opa/) | 11.6k | — |
 | [OPA Rego Policy Bundle Tester](../../skills/opa-rego-policy-bundle-tester/) | 11.5k | — |
+| [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](../../skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
@@ -86,6 +87,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
+| [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |

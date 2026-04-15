@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 2028,
+  "total": 2034,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern",
+      "name": "Tail multi-pod Kubernetes logs by label during incidents with Stern",
+      "description": "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4636
+      }
+    },
+    {
+      "slug": "autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix",
+      "name": "Autofix common Nix anti-patterns before style drift spreads with Statix",
+      "description": "Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 872
+      }
+    },
+    {
+      "slug": "watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy",
+      "name": "Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy",
+      "description": "Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3056
+      }
+    },
+    {
+      "slug": "scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release",
+      "name": "Scan Python code for risky security patterns with Bandit before review or release",
+      "description": "Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7933
+      }
+    },
+    {
+      "slug": "scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape",
+      "name": "Scan Kubernetes clusters and manifests for security posture drift with Kubescape",
+      "description": "Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 11310
+      }
+    },
+    {
+      "slug": "estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost",
+      "name": "Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost",
+      "description": "Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges.",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 12267
+      }
+    },
     {
       "slug": "expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks",
       "name": "Expose Haystack pipelines as webhook endpoints with Hayhooks",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2028 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 13:21 UTC
+> **2034 published skills** across **17 categories** · 1949 security reviewed · Updated 2026-04-15 15:21 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -279,7 +279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (159 skills)
+### 🔧 CI/CD Integrations (160 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -368,6 +368,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Dagger Programmable CI/CD Automation Engine](skills/dagger-programmable-cicd-automation-engine/) | Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell… | Security Reviewed | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](skills/caprover-self-hosted-paas-app-deployment/) | CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications… | Security Reviewed | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](skills/kamal-zero-downtime-docker-deployment-basecamp/) | Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare… | Security Reviewed | 14k | — |
+| [Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost](skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/) | Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges. | Published | 12.3k | — |
 | [Tekton Pipeline Chain Validator](skills/tekton-pipeline-chain-validator/) | Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks.… | Security Reviewed | 8.9k | — |
 | [Tekton Pipeline Composer](skills/tekton-pipeline-composer/) | Builds Tekton CI/CD pipelines on Kubernetes using the Tekton Pipelines API and tkn CLI. Composes Tasks,… | Security Reviewed | 8.9k | — |
 | [Tekton Pipeline Debugger](skills/tekton-pipeline-debugger/) | Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API.… | Security Reviewed | 8.9k | — |
@@ -603,7 +604,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (143 skills)
+### 🔒 Security & Verification (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -653,6 +654,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Grype Container and SBOM Vulnerability Scanner](skills/grype-container-sbom-vulnerability-scanner/) | Scan container images, filesystems, and SBOMs for known vulnerabilities using Anchore Grype. Supports major OS… | Security Reviewed | 12k | — |
 | [Open Policy Agent (OPA)](skills/open-policy-agent-opa/) | Open Policy Agent (OPA) is built around Kubernetes orchestration platform. The underlying ecosystem is represented… | Security Reviewed | 11.6k | — |
 | [OPA Rego Policy Bundle Tester](skills/opa-rego-policy-bundle-tester/) | Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test`… | Security Reviewed | 11.5k | — |
+| [Scan Kubernetes clusters and manifests for security posture drift with Kubescape](skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/) | Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit. | Published | 11.3k | — |
 | [Skopeo Container Image Registry Operations CLI](skills/skopeo-container-image-registry-operations-cli/) | Skopeo is a command-line tool for working with container images and registries without requiring a running daemon.… | Security Reviewed | 10.7k | — |
 | [Magika AI File Type Detection and Content Classification](skills/magika-ai-file-type-detection-and-content-classification/) | Magika is Google's AI-powered file type detector for fast, content-based identification of binary and text files. It… | Security Reviewed | 10.2k | — |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](skills/httpx-http-probing-toolkit-projectdiscovery/) | httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It… | Security Reviewed | 9.8k | — |
@@ -662,6 +664,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and… | Security Reviewed | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](skills/osv-scanner-dependency-vulnerability-detector/) | OSV-Scanner is Google's open-source vulnerability scanner that checks project dependencies against the OSV.dev… | Security Reviewed | 8.6k | — |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 8.6k | — |
+| [Scan Python code for risky security patterns with Bandit before review or release](skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release. | Published | 7.9k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](skills/feroxbuster-content-discovery/) | Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to… | Security Reviewed | 7.6k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection.… | Security Reviewed | 5.8k | — |
@@ -754,7 +757,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [ZAP Automated Security Scan Orchestrator](skills/zap-automated-security-scan-orchestrator/) | Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (131 skills)
+### 📋 Runbooks & Diagnostics (133 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -828,6 +831,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Triage production log spikes and incidents from the terminal with lnav](skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/) | Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data… | Published | 10.2k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Published | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
+| [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Published | 4.6k | — |
 | [Remote-control tmux sessions for interactive CLI agents](skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | Lets an agent drive existing tmux sessions by sending keystrokes and scraping pane output, which is exactly what you… | Security Reviewed | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone,… | Security Reviewed | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors,… | Published | 4k | — |
@@ -846,6 +850,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS Systems Manager Runbook](skills/aws-ssm-runbook-executor/) | Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports… | Security Reviewed | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](skills/aws-ssm-runbook-engine/) | Executes automated diagnostics using the AWS Systems Manager Automation API and SSM Documents. Collects system… | Security Reviewed | 3.6k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An… | Security Reviewed | 3.3k | — |
+| [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Published | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
@@ -893,7 +898,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (128 skills)
+### ✅ Code Quality & Review (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -997,6 +1002,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Published | 995 | — |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
+| [Autofix common Nix anti-patterns before style drift spreads with Statix](skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work. | Published | 872 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C028-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C034-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-1%2C949-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,028 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,034 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -68,11 +68,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 263 | CLI tools, scaffolders, dev environment setup |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 159 | Pipeline configs, deployment automation, build tooling |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 160 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 149 | ETL pipelines, parsing, format conversion |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 143 | Vulnerability scanning, auth setup, compliance |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 131 | Incident response, troubleshooting, system diagnostics |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 128 | Linting, code review, test generators, coverage |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 145 | Vulnerability scanning, auth setup, compliance |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 133 | Incident response, troubleshooting, system diagnostics |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 129 | Linting, code review, test generators, coverage |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 118 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 111 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 110 | SDK docs, API parsers, symbol resolvers |
@@ -142,7 +142,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,028 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,034 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 1,949 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

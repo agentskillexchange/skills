@@ -117,6 +117,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | 14k | — |
+| [Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost](../../skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/) | 12.3k | — |
 | [Tekton Pipeline Chain Validator](../../skills/tekton-pipeline-chain-validator/) | 8.9k | — |
 | [Tekton Pipeline Composer](../../skills/tekton-pipeline-composer/) | 8.9k | — |
 | [Tekton Pipeline Debugger](../../skills/tekton-pipeline-debugger/) | 8.9k | — |
