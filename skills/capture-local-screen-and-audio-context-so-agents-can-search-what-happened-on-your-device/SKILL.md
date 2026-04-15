@@ -4,7 +4,7 @@ description: "Use Screenpipe when an agent needs private, local-first memory of 
 verification: listed
 source: "https://github.com/screenpipe/screenpipe"
 category:
-  - "Media &amp; Transcription"
+  - "Media & Transcription"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Capture local screen and audio context so agents can search what happened on your device
 
-Use Screenpipe when an agent needs private, local-first memory of what you saw or heard on your computer, including searchable screen text, app context, and transcripts, instead of relying on a chat-only memory layer.
+Use Screenpipe when the missing context lives on the user’s desktop rather than inside the chat thread. It continuously captures screen changes and audio locally, extracts OCR and accessibility text, builds searchable history, and exposes that memory to automations, pipes, and MCP-aware agents that need to recall what happened on the machine. The scope boundary is strong enough to be skill-shaped: this is a local screen-and-audio context capture workflow for agent recall and automation, not a generic personal AI product listing and not merely a meeting recorder card.
 
 ## Installation
 

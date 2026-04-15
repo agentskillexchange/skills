@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents
 
-Use the Harness MCP Server when an agent needs governed access to Harness pipelines, services, environments, feature flags, cost data, and related platform resources from an MCP workflow instead of sending a human through the Harness UI.
+Use the Harness MCP Server when an agent needs to inspect, create, update, or troubleshoot Harness resources as part of a larger delivery workflow. The agent can work across organizations and projects, list and fetch platform objects, handle common CI/CD and delivery tasks through a small MCP tool surface, and apply prebuilt prompt templates for debugging failed runs, rollout planning, approvals, and cost or security review. The boundary is specific enough to be skill-shaped: this is for agent-side operation of Harness platform resources through MCP, not a generic CI/CD platform card and not a broad product listing for Harness itself.
 
 ## Installation
 

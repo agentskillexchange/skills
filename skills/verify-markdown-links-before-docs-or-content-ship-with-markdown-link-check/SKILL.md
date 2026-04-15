@@ -4,7 +4,7 @@ description: "Catch dead links in README files, docs folders, and content drafts
 verification: listed
 source: "https://github.com/tcort/markdown-link-check"
 category:
-  - "Content Writing &amp; SEO"
+  - "Content Writing & SEO"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Verify Markdown links before docs or content ship with markdown-link-check
 
-Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users.
+Use markdown-link-check when an agent needs a pre-publish validation pass over Markdown files instead of treating link health as a generic docs platform concern. The action is specific: scan Markdown, resolve links, and report which references are alive, dead, or need exceptions. That boundary, link verification for Markdown assets before release or publication, is narrow enough to be a real skill rather than a plain package listing.
 
 ## Installation
 

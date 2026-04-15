@@ -4,7 +4,7 @@ description: "Run a focused security pass on GitHub Actions workflows before mer
 verification: listed
 source: "https://github.com/zizmorcore/zizmor"
 category:
-  - "Security &amp; Verification"
+  - "Security & Verification"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -13,7 +13,7 @@ tool_ecosystem:
 
 # Audit GitHub Actions for privilege and supply-chain risks with zizmor
 
-Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early.
+Use zizmor when an agent is reviewing GitHub Actions changes and needs a security-first gate before those workflows land. The agent can scan workflow files, flag risky permission scopes, catch untrusted input paths, and surface supply-chain issues such as unsafe action pinning. The boundary is narrow and clear: pre-merge GitHub Actions security review, not a generic CI platform listing or all-purpose GitHub automation card.
 
 ## Installation
 
