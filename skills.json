@@ -1,8 +1,84 @@
 {
   "version": "2.0",
-  "total": 2045,
+  "total": 2050,
   "generated": "2026-04-15",
   "skills": [
+    {
+      "slug": "run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm",
+      "name": "Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm",
+      "description": "Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination,…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 784
+      }
+    },
+    {
+      "slug": "compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster",
+      "name": "Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster",
+      "description": "Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable execution, instead of re-planning the same multi-step…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "OpenClaw"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1128
+      }
+    },
+    {
+      "slug": "inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts",
+      "name": "Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts",
+      "description": "Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool prompts, or subagent prompts before building a compatible plugin, workflow,…",
+      "category": [
+        "Library & API Reference"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8974
+      }
+    },
+    {
+      "slug": "run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action",
+      "name": "Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action",
+      "description": "Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo work with explicit workflow permissions,…",
+      "category": [
+        "CI/CD Integrations"
+      ],
+      "framework": [
+        "Codex"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 927
+      }
+    },
+    {
+      "slug": "turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai",
+      "name": "Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI",
+      "description": "Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks,…",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 26557,
+        "npm_weekly_downloads": 113563
+      }
+    },
     {
       "slug": "remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete",
       "name": "Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete",

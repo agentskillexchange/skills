@@ -143,6 +143,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Lint and test Helm charts in pull requests before Kubernetes packaging changes merge with chart-testing](../../skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/) | 1.6k | — |
 | [Gate pull requests on OpenAPI breaking changes](../../skills/gate-pull-requests-on-openapi-breaking-changes/) | 1.2k | — |
 | [Harden-Runner CI/CD Security Agent for GitHub Actions](../../skills/harden-runner-cicd-security-agent-github-actions/) | 1.1k | — |
+| [Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action](../../skills/run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action/) | 927 | — |
 | [CircleCI Config Validator](../../skills/circleci-config-validator/) | 843 | — |
 | [CircleCI Flaky Test Detector](../../skills/circleci-flaky-test-detector-2/) | 843 | — |
 | [CircleCI Orb Auditor](../../skills/circleci-orb-auditor/) | 843 | — |
