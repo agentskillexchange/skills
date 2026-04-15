@@ -4,7 +4,7 @@ description: "Stream meeting transcripts into searchable conversation memory so 
 verification: listed
 source: "https://github.com/silverstein/minutes"
 category:
-  - "Media & Transcription"
+  - "Media &amp; Transcription"
 framework:
   - "MCP"
 tool_ecosystem:
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Capture live transcripts and searchable meeting memory for agents with Minutes
 
-Use Minutes when an agent needs access to live or recent meeting context rather than only uploaded recordings or manual notes. The workflow here is specific: capture speech, turn it into searchable transcripts, and expose the resulting conversation memory to the agent through an MCP-friendly interface. It is not merely a note app or generic memory store listing. The boundary is real-time meeting capture plus retrieval for downstream agent action.
+Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action.
 
 ## Installation
 

@@ -4,7 +4,7 @@ description: "Produce repeatable drift and quality reports after data, model, or
 verification: listed
 source: "https://github.com/evidentlyai/evidently"
 category:
-  - "Monitoring & Alerts"
+  - "Monitoring &amp; Alerts"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Generate drift and quality reports for ML and LLM pipelines with Evidently
 
-Use Evidently when an agent needs to turn a dataset or eval run into a concrete monitoring report instead of just eyeballing metrics. The agent can compare current and reference data, surface drift, quality regressions, and LLM evaluation shifts, then hand back a report that informs release decisions. The boundary is report-driven regression review for ML and LLM pipelines, not a generic MLOps platform card.
+Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout.
 
 ## Installation
 

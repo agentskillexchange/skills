@@ -4,7 +4,7 @@ description: "Generates project boilerplate from Cookiecutter templates with Jin
 verification: security_reviewed
 source: "https://agentskillexchange.com/skills/cookiecutter-project-scaffold/"
 category:
-  - "Templates & Workflows"
+  - "Templates &amp; Workflows"
 framework:
   - "ChatGPT Agents"
 ---
@@ -12,8 +12,6 @@ framework:
 # Cookiecutter Project Scaffold
 
 Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for post-generation linting via Ruff and pre-commit framework setup.
-
-This skill provides automated tooling for cookiecutter project scaffold workflows. It integrates directly with your development pipeline, offering configurable scanning depth, custom rule definitions, and structured output formats compatible with major CI/CD platforms. The agent handles authentication, rate limiting, and retry logic internally, so you can focus on reviewing results rather than managing infrastructure. Supports both interactive and headless operation modes with JSON and SARIF output for downstream processing. Includes built-in caching to minimize redundant API calls across sequential runs.
 
 ## Installation
 

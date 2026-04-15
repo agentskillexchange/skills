@@ -4,7 +4,7 @@ description: "Check Terraform before plan or apply so invalid attributes, provid
 verification: listed
 source: "https://github.com/terraform-linters/tflint"
 category:
-  - "Code Quality & Review"
+  - "Code Quality &amp; Review"
 framework:
   - "Multi-Framework"
 tool_ecosystem:
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # Lint Terraform modules for provider mistakes and policy violations with TFLint
 
-Use TFLint when an agent is validating Terraform code before plan, apply, or review. It can catch provider-specific mistakes, unsupported arguments, deprecated patterns, and custom rule violations across modules before the infrastructure run reaches a more expensive failure point. The boundary is Terraform linting and rule enforcement, not a generic infrastructure platform card.
+Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early.
 
 ## Installation
 
