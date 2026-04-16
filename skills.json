@@ -1,8 +1,86 @@
 {
   "version": "2.0",
-  "total": 2092,
+  "total": 2097,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard",
+      "name": "Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard",
+      "description": "Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2831
+      }
+    },
+    {
+      "slug": "turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme",
+      "name": "Turn Markdown runbooks into executable, parameterized procedures with Runme",
+      "description": "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text.",
+      "category": [
+        "Runbooks & Diagnostics"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2031,
+        "npm_weekly_downloads": 1167
+      }
+    },
+    {
+      "slug": "score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals",
+      "name": "Score model outputs with reusable evaluator prompts and metrics using autoevals",
+      "description": "Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops in code.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 861,
+        "npm_weekly_downloads": 1807454
+      }
+    },
+    {
+      "slug": "scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak",
+      "name": "Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak",
+      "description": "Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7549
+      }
+    },
+    {
+      "slug": "regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval",
+      "name": "Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval",
+      "description": "Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 14815,
+        "npm_weekly_downloads": 1263
+      }
+    },
     {
       "slug": "triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli",
       "name": "Triage active security incidents with AI-augmented workflows in Valhuntir CLI",

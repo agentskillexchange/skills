@@ -98,6 +98,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
+| [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
@@ -124,6 +125,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
+| [Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard](../../skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/) | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |

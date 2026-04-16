@@ -26,13 +26,13 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
 | [Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage](../../skills/monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage/) | ⬇ 154.1k/wk |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | ⬇ 20.8k/wk |
+| [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | ⬇ 1.2k/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | ⬇ 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | ⬇ 6.6M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | ⬇ 23.2M/wk |
 | [PostgreSQL Performance Diagnostic Suite](../../skills/postgresql-performance-diagnostic-suite/) | ⬇ 23.2M/wk |
-| [PostgreSQL Performance Diagnostics](../../skills/postgresql-performance-diagnostics/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -132,6 +132,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
+| [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |

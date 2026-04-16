@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2092 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 19:26 UTC
+> **2097 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 21:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -456,7 +456,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (157 skills)
+### 🔒 Security & Verification (159 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -523,6 +523,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 8.6k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release. | Published | 7.9k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](skills/feroxbuster-content-discovery/) | Feroxbuster is a high-performance content discovery tool written in Rust that performs forced browsing attacks to… | Security Reviewed | 7.6k | — |
+| [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review. | Published | 7.5k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
 | [Sigstore Cosign Container Signature Checker](skills/sigstore-cosign-container-signature-checker/) | Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection.… | Security Reviewed | 5.8k | — |
 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | Scans Docker and OCI container images for OS and application vulnerabilities using Snyk Container API.… | Security Reviewed | 5.5k | — |
@@ -549,6 +550,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of… | Security Reviewed | 3.2k | — |
 | [Conftest Policy Tester](skills/conftest-policy-tester/) | Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
+| [Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard](skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/) | Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or… | Published | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 2.6k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Security Reviewed | 2.3k | 3.3M/wk |
@@ -781,7 +783,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (140 skills)
+### ✅ Code Quality & Review (142 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -822,6 +824,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [MSW API Mocking Skill for Frontend and Integration Tests](skills/msw-api-mocking-skill-frontend-integration-tests/) | Use this skill when an agent needs to stand up request handlers with Mock Service Worker, isolate network behavior… | Security Reviewed | 17.8k | 14.2M/wk |
 | [Keploy API Test Generation and Regression Testing Platform](skills/keploy-api-test-generation-regression-testing-platform/) | Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This… | Security Reviewed | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](skills/vitest-vite-testing-framework/) | Vitest is a blazing-fast unit testing framework powered by Vite. It provides native ESM support, TypeScript out of… | Security Reviewed | 16.3k | — |
+| [Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval](skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/) | Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release. | Published | 14.8k | 1.3k/wk |
 | [Semgrep Code Scanner](skills/semgrep-code-scanner/) | Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by… | Security Reviewed | 14.8k | — |
 | [Semgrep Custom Pattern Builder](skills/semgrep-custom-pattern-builder/) | Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with… | Security Reviewed | 14.8k | — |
 | [Semgrep Custom Pattern Generator](skills/semgrep-custom-pattern-generator/) | Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema.… | Security Reviewed | 14.8k | — |
@@ -892,6 +895,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching… | Security Reviewed | 977 | 18.6k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work. | Published | 872 | — |
+| [Score model outputs with reusable evaluator prompts and metrics using autoevals](skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops… | Published | 861 | 1.8M/wk |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Published | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](skills/markuplint-html-linter/) | markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec… | Security Reviewed | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | 585 | — |
@@ -929,7 +933,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (137 skills)
+### 📋 Runbooks & Diagnostics (138 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1027,6 +1031,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Published | 3k | 20.8k/wk |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Published | 2.5k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent… | Published | 2.2k | — |
+| [Turn Markdown runbooks into executable, parameterized procedures with Runme](skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale… | Published | 2k | 1.2k/wk |
 | [Inspect and diff OCI images and registries with regctl](skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling… | Published | 1.8k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Published | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | 1.2k | — |

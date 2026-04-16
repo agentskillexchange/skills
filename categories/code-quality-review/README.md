@@ -75,6 +75,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [MSW API Mocking Skill for Frontend and Integration Tests](../../skills/msw-api-mocking-skill-frontend-integration-tests/) | 17.8k | 14.2M/wk |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
 | [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval](../../skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/) | 14.8k | 1.3k/wk |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
 | [Semgrep Custom Pattern Builder](../../skills/semgrep-custom-pattern-builder/) | 14.8k | — |
 | [Semgrep Custom Pattern Generator](../../skills/semgrep-custom-pattern-generator/) | 14.8k | — |
@@ -145,6 +146,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](../../skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | 977 | 18.6k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
+| [Score model outputs with reusable evaluator prompts and metrics using autoevals](../../skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | 861 | 1.8M/wk |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
