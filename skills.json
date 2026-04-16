@@ -1,8 +1,87 @@
 {
   "version": "2.0",
-  "total": 2075,
+  "total": 2080,
   "generated": "2026-04-16",
   "skills": [
+    {
+      "slug": "apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant",
+      "name": "Apply rule-based guardrails to agent traces and tool flows with Invariant",
+      "description": "Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 409,
+        "npm_weekly_downloads": 1473
+      }
+    },
+    {
+      "slug": "evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill",
+      "name": "Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill",
+      "description": "Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards.",
+      "category": [
+        "Research & Scraping"
+      ],
+      "framework": [
+        "Claude Code"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 55
+      }
+    },
+    {
+      "slug": "prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats",
+      "name": "Prove whether a prompt or model variant really won before shipping with promptstats",
+      "description": "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes.",
+      "category": [
+        "Code Quality & Review"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 97,
+        "npm_weekly_downloads": 678
+      }
+    },
+    {
+      "slug": "iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa",
+      "name": "Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA",
+      "description": "Use reflective search to improve prompts or text-configured agent components against a real eval set instead of manual prompt tweaking.",
+      "category": [
+        "Templates & Workflows"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3550,
+        "npm_weekly_downloads": 4095897
+      }
+    },
+    {
+      "slug": "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit",
+      "name": "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit",
+      "description": "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early.",
+      "category": [
+        "Security & Verification"
+      ],
+      "framework": [
+        "Multi-Framework"
+      ],
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1056,
+        "npm_weekly_downloads": 20863
+      }
+    },
     {
       "slug": "track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch",
       "name": "Track coding-agent quota burn and remaining headroom across providers with onWatch",

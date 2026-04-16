@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2075 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 13:35 UTC
+> **2080 published skills** across **17 categories** · 1960 security reviewed · Updated 2026-04-16 15:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -454,7 +454,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Playwright Test Report to Slack](skills/playwright-test-report-to-slack/) | Parses Playwright HTML and JSON test reports and posts structured summaries to Slack using the Slack Web API. Reads… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (153 skills)
+### 🔒 Security & Verification (155 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -557,11 +557,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Published | 1.8k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Published | 1.3k | — |
+| [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and… | Published | 1.1k | 20.9k/wk |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 900 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Published | 552 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Published | 421 | — |
+| [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Published | 409 | 1.5k/wk |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Published | 333 | — |
 | [SLSA Verifier Build Provenance Checker](skills/slsa-verifier-build-provenance-checker/) | SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by… | Security Reviewed | 318 | — |
@@ -773,7 +775,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (137 skills)
+### ✅ Code Quality & Review (138 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -892,6 +894,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |
+| [Prove whether a prompt or model variant really won before shipping with promptstats](skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/) | Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not… | Published | 97 | 678/wk |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change… | Published | 84 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can… | Published | 22 | 9/wk |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused… | Security Reviewed | — | 703.6k/wk |
@@ -1430,7 +1433,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (99 skills)
+### 📄 Templates & Workflows (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1485,6 +1488,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |
 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented… | Security Reviewed | 4k | 7.1M/wk |
 | [Yeoman Sub-Generator Composition Builder](skills/yeoman-sub-generator-composition-builder/) | Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run… | Security Reviewed | 4k | 402.7k/wk |
+| [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | Use reflective search to improve prompts or text-configured agent components against a real eval set instead of… | Published | 3.5k | 4.1M/wk |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable,… | Published | 3.4k | — |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Published | 2.7k | 1.7k/wk |
@@ -1849,7 +1853,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (94 skills)
+### 🔍 Research & Scraping (95 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -1922,6 +1926,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Normalize and filter noisy URL lists before crawling or queueing](skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or… | Security Reviewed | 165 | — |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](skills/exa-js-web-search-sdk-ai-applications/) | exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete… | Security Reviewed | 126 | — |
+| [Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill](skills/evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill/) | Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and… | Published | 55 | — |
 | [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Security Reviewed | — | — |
 | [Beautiful Soup Academic Paper Parser](skills/beautifulsoup-academic-paper-parser/) | Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI… | Security Reviewed | — | — |
 | [Browserless Scraping Agent](skills/browserless-scraping-agent/) | Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf… | Security Reviewed | — | — |
